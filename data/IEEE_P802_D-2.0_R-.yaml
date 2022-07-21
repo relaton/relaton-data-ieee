@@ -12,6 +12,10 @@ docid:
 - id: IEEE P802/D-2.0/R-
   type: IEEE
   primary: true
+- id: IEEE P802™/D-2.0/R-
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-0-7381-9097-6
   type: ISBN
 docnumber: IEEE P802/D-2.0/R-
@@ -29,8 +33,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: Piscataway
-      country: USA
+    - address:
+        city: Piscataway
+        country: USA
   role:
   - publisher
 revdate: '2014-04-22'
@@ -62,13 +67,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.2001
+    id: IEEE802-2001
     docid:
-    - id: IEEE 802.2001
+    - id: IEEE 802-2001
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.2001
+      content: IEEE 802-2001
       format: text/plain
   description:
     content: revises

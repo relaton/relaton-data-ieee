@@ -13,6 +13,10 @@ docid:
 - id: IEEE P1138/D-6
   type: IEEE
   primary: true
+- id: IEEE P1138™/D-6
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-1-5044-7354-5
   type: ISBN
 docnumber: IEEE P1138/D-6
@@ -30,8 +34,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: New York
-      country: USA
+    - address:
+        city: New York
+        country: USA
   role:
   - publisher
 revdate: '2021-02-08'
@@ -62,13 +67,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1138.2009
+    id: IEEE1138-2009
     docid:
-    - id: IEEE 1138.2009
+    - id: IEEE 1138-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1138.2009
+      content: IEEE 1138-2009
       format: text/plain
   description:
     content: revises

@@ -13,6 +13,10 @@ docid:
 - id: IEEE P1012
   type: IEEE
   primary: true
+- id: IEEE P1012™
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-1-5044-3773-8
   type: ISBN
 docnumber: IEEE P1012
@@ -30,8 +34,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: New York
-      country: USA
+    - address:
+        city: New York
+        country: USA
   role:
   - publisher
 revdate: '2017-01-27'
@@ -67,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1012.2016
+    id: IEEE1012-2016
     docid:
-    - id: IEEE 1012.2016
+    - id: IEEE 1012-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1012.2016
+      content: IEEE 1012-2016
       format: text/plain
   description:
     content: corrects

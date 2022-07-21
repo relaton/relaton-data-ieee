@@ -17,6 +17,10 @@ docid:
 - id: IEC/IEEE 60780
   type: IEEE
   primary: true
+- id: IEC/IEEE 60780™
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-1-5044-2084-6
   type: ISBN
 docnumber: IEC/IEEE 60780
@@ -34,8 +38,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: New York
-      country: USA
+    - address:
+        city: New York
+        country: USA
   role:
   - publisher
 revdate: '2016-06-02'
@@ -55,13 +60,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE323.2003
+    id: IEEE323-2003
     docid:
-    - id: IEEE 323.2003
+    - id: IEEE 323-2003
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 323.2003
+      content: IEEE 323-2003
       format: text/plain
   description:
     content: revises

@@ -13,6 +13,10 @@ docid:
 - id: IEEE P1730/D-2
   type: IEEE
   primary: true
+- id: IEEE P1730™/D-2
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-1-5044-8697-2
   type: ISBN
 docnumber: IEEE P1730/D-2
@@ -28,8 +32,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: New York
-      country: USA
+    - address:
+        city: New York
+        country: USA
   role:
   - publisher
 language:
@@ -58,13 +63,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1730.2010
+    id: IEEE1730-2010
     docid:
-    - id: IEEE 1730.2010
+    - id: IEEE 1730-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1730.2010
+      content: IEEE 1730-2010
       format: text/plain
   description:
     content: revises

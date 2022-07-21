@@ -14,6 +14,10 @@ docid:
 - id: IEEE IEEE
   type: IEEE
   primary: true
+- id: IEEE IEEE™
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-0-7381-6767-1
   type: ISBN
 - id: 10.1109/IEEESTD.2011.5937014
@@ -33,8 +37,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: New York
-      country: USA
+    - address:
+        city: New York
+        country: USA
   role:
   - publisher
 revdate: '2019-01-29'

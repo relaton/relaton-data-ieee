@@ -13,6 +13,10 @@ docid:
 - id: ISO/IEC/IEEE P24765/D-3
   type: IEEE
   primary: true
+- id: ISO/IEC/IEEE P24765™/D-3
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-1-5044-3965-7
   type: ISBN
 docnumber: ISO/IEC/IEEE P24765/D-3
@@ -30,8 +34,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: New York
-      country: USA
+    - address:
+        city: New York
+        country: USA
   role:
   - publisher
 revdate: '2017-04-04'
@@ -72,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ISO/IEC/IEEE24765.2010
+    id: ISO/IEC/IEEE24765-2010
     docid:
-    - id: ISO/IEC/IEEE 24765.2010
+    - id: ISO/IEC/IEEE 24765-2010
       type: IEEE
       primary: true
     formattedref:
-      content: ISO/IEC/IEEE 24765.2010
+      content: ISO/IEC/IEEE 24765-2010
       format: text/plain
   description:
     content: revises

@@ -13,6 +13,10 @@ docid:
 - id: IEEE P1635/D-19
   type: IEEE
   primary: true
+- id: IEEE P1635™/D-19
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-1-5044-8127-4
   type: ISBN
 docnumber: IEEE P1635/D-19
@@ -30,8 +34,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: New York
-      country: USA
+    - address:
+        city: New York
+        country: USA
   role:
   - publisher
 revdate: '2021-11-10'
@@ -65,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1635.2018
+    id: IEEE1635-2018
     docid:
-    - id: IEEE 1635.2018
+    - id: IEEE 1635-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1635.2018
+      content: IEEE 1635-2018
       format: text/plain
   description:
     content: revises

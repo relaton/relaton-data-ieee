@@ -13,6 +13,10 @@ docid:
 - id: IEEE P81/D-10
   type: IEEE
   primary: true
+- id: IEEE P81™/D-10
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-0-7381-7470-9
   type: ISBN
 docnumber: IEEE P81/D-10
@@ -30,8 +34,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: Piscataway
-      country: USA
+    - address:
+        city: Piscataway
+        country: USA
   role:
   - publisher
 revdate: '2012-05-17'
@@ -63,13 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE81.1983
+    id: IEEE81-1983
     docid:
-    - id: IEEE 81.1983
+    - id: IEEE 81-1983
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 81.1983
+      content: IEEE 81-1983
       format: text/plain
   description:
     content: revises

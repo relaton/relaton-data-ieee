@@ -13,6 +13,10 @@ docid:
 - id: IEEE P1642
   type: IEEE
   primary: true
+- id: IEEE P1642™
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-0-7381-7499-0
   type: ISBN
 docnumber: IEEE P1642
@@ -30,8 +34,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: Piscataway
-      country: USA
+    - address:
+        city: Piscataway
+        country: USA
   role:
   - publisher
 revdate: '2012-05-14'

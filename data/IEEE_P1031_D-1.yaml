@@ -13,6 +13,10 @@ docid:
 - id: IEEE P1031/D-1
   type: IEEE
   primary: true
+- id: IEEE P1031™/D-1
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-0-7381-6537-0
   type: ISBN
 docnumber: IEEE P1031/D-1
@@ -28,8 +32,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: Piscataway
-      country: USA
+    - address:
+        city: Piscataway
+        country: USA
   role:
   - publisher
 language:

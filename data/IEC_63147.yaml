@@ -13,6 +13,10 @@ docid:
 - id: IEC 63147
   type: IEEE
   primary: true
+- id: IEC 63147™
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-1-5044-4577-1
   type: ISBN
 - id: 10.1109/IEEESTD.2017.8237239
@@ -32,8 +36,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: New York
-      country: USA
+    - address:
+        city: New York
+        country: USA
   role:
   - publisher
 revdate: '2017-12-22'

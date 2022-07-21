@@ -13,6 +13,10 @@ docid:
 - id: IEEE P2839/D-1.3
   type: IEEE
   primary: true
+- id: IEEE P2839™/D-1.3
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-1-5044-7479-5
   type: ISBN
 docnumber: IEEE P2839/D-1.3
@@ -30,8 +34,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: New York
-      country: USA
+    - address:
+        city: New York
+        country: USA
   role:
   - publisher
 revdate: '2021-03-11'

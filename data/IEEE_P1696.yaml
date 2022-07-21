@@ -13,6 +13,10 @@ docid:
 - id: IEEE P1696
   type: IEEE
   primary: true
+- id: IEEE P1696™
+  type: IEEE
+  scope: trademark
+  primary: true
 - id: 978-0-7381-8807-2
   type: ISBN
 docnumber: IEEE P1696
@@ -30,8 +34,9 @@ contributor:
     abbreviation: IEEE
     url: http://www.ieee.org
     contact:
-    - city: Piscataway
-      country: USA
+    - address:
+        city: Piscataway
+        country: USA
   role:
   - publisher
 revdate: '2013-12-18'
