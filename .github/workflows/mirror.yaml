@@ -10,6 +10,8 @@ jobs:
   to_gitlab:
     runs-on: ubuntu-latest
     steps:
+      - name: Clone the repository
+        uses: actions/checkout@v2
       - name: Checkout source
         uses: actions/checkout@v2
         with:
