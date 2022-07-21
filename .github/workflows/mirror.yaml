@@ -10,9 +10,19 @@ jobs:
   to_gitlab:
     runs-on: ubuntu-latest
     steps:
-      - uses: wei/git-sync@v3
+      - name: Checkout source
+        uses: actions/checkout@v2
         with:
-          source_repo: "ietf-tools/relaton-data-ieee"
-          source_branch: "main"
-          destination_repo: "relaton/relaton-data-ieee"
-          destination_branch: "main"
+          repository: ietf-tools/relaton-data-ieee
+          path: relaton-data-ieee
+      - name: Copy files
+        run: |
+          rm -rf data
+          cp -r relaton-data-ieee/data ./
+      - name: Commit & push changes
+        run: |
+          echo `date` > flag.txt
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data flag.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -m 'update documents' && git push)
