@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE802.5j-1993
 title:
 - content: 'IEEE Trial Use Standard for Information Processing Systems-Local Area
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -87,6 +84,7 @@ keyword:
 - content: Fibre optic station attachment
 - content: Fibre optic medium interface (FOMI)
 - content: Fibre optic interface (FOI)
+doctype: standard
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
@@ -97,3 +95,6 @@ ics:
   text: Physical layer
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

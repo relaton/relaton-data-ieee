@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1451.4-2004
 title:
 - content: IEEE Standard for A Smart Transducer Interface for Sensors and Actuators--Mixed-Mode
@@ -59,9 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: withdrawn
 copyright:
 - owner:
   - name:
@@ -96,6 +93,7 @@ keyword:
 - content: template description language
 - content: tbom schema
 - content: transducer block
+doctype: standard
 editorialgroup:
   committee:
   - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
@@ -106,3 +104,7 @@ ics:
   text: IT applications in industry
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEE260.4-1996
 title:
 - content: American National Standard Letter Symbols and Abbreviations for Quantities
@@ -55,9 +55,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -89,6 +86,7 @@ relation:
       format: text/plain
 keyword:
 - content: Measurement standards
+doctype: standard
 editorialgroup:
   committee:
   - IEEE-SASB Coordinating Committees
@@ -99,3 +97,6 @@ ics:
   text: Acoustic measurements and noise abatement in general
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

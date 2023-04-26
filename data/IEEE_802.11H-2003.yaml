@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE802.11h-2003
 title:
 - content: 'IEEE Standard for Information technology-- Local and metropolitan area
@@ -58,9 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -96,6 +93,7 @@ keyword:
 - content: dynamic frequency selection (DFS)
 - content: local area network (LAN)
 - content: transmit power control (TPC)
+doctype: standard
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
@@ -108,3 +106,6 @@ ics:
   text: Data link layer
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  pubstatus: Active
+  holdstatus: Publish

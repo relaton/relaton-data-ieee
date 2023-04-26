@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEP802.3ap-D-raft
 title:
 - content: 'IEEE Draft Amendment of: IEEE Standard for Information Technology Telecommunications
@@ -42,7 +42,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: withdrawn
+    value: draft
 copyright:
 - owner:
   - name:
@@ -51,6 +51,7 @@ copyright:
       content: IEEE
     url: http://www.ieee.org
   from: '2006'
+doctype: standard
 ics:
 - code: '35.110'
   text: Networking
@@ -60,3 +61,7 @@ ics:
   text: Physical layer
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

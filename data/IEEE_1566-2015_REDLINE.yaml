@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1566-2015Redline
 title:
 - content: IEEE Standard for Performance of Adjustable-Speed AC Drives Rated 375 kW
@@ -66,9 +66,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -103,6 +100,7 @@ keyword:
 - content: adjustable speed
 - content: IEEE 1566(TM)
 - content: large drives
+doctype: redline
 editorialgroup:
   committee:
   - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
@@ -111,3 +109,7 @@ ics:
   text: Motors
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

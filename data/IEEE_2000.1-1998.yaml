@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE2000.1-1998
 title:
 - content: 'IEEE Standard for Information Technology: Standard for Year 2000 Terminology'
@@ -59,9 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -89,8 +86,12 @@ keyword:
 - content: date exchange
 - content: remediation techniques
 - content: Year 2000 compliant
+doctype: standard
 editorialgroup:
   committee:
   - Portable Applications of the IEEE Computer Society
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

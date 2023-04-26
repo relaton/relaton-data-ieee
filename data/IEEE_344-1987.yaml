@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE344-1987
 title:
 - content: IEEE Recommended Practice for Seismic Qualification of Class 1E Equipment
@@ -64,9 +64,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -89,6 +86,7 @@ keyword:
 - content: Seismic factors
 - content: Power generation testing
 - content: Nuclear power generation protection
+doctype: standard
 editorialgroup:
   committee:
   - Nuclear Power Engineering of the IEEE Power and Energy Society
@@ -99,3 +97,6 @@ ics:
   text: Seismic and vibration protection
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

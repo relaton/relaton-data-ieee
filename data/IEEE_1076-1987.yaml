@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1076-1987
 title:
 - content: IEEE Standard VHDL Language Reference Manual
@@ -54,9 +54,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -84,6 +81,7 @@ keyword:
 - content: Standards
 - content: Very-large-scale integration
 - content: 'Author: IEEE'
+doctype: standard
 editorialgroup:
   committee:
   - Design Automation of the IEEE Computer Society
@@ -92,3 +90,6 @@ ics:
   text: Software
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

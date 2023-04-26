@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1003.13-1998
 title:
 - content: IEEE Standard for Information Technology - Standardized Application Environment
@@ -56,9 +56,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -90,6 +87,7 @@ keyword:
 - content: POSIX profiles
 - content: realtime application environments
 - content: realtime environment
+doctype: standard
 editorialgroup:
   committee:
   - Portable Applications of the IEEE Computer Society
@@ -98,3 +96,6 @@ ics:
   text: Health care technology (Vocabularies)
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

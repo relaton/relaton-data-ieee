@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC95.7-2014
 title:
 - content: IEEE Recommended Practice for Radio Frequency Safety Programs, 3 kHz to
@@ -24,8 +24,6 @@ docid:
   type: DOI
 docnumber: IEEE C95.7-2014
 date:
-- type: updated
-  value: '2014-08-29'
 - type: created
   value: '2014-08-08'
 - type: published
@@ -39,6 +37,10 @@ contributor:
     abbreviation:
       content: IEEE
     url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
   role:
   - type: publisher
 revdate: '2014-08-08'
@@ -71,9 +73,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -125,11 +124,15 @@ keyword:
 - content: RF safety committee
 - content: RF safety officer
 - content: signage
+doctype: standard
 editorialgroup:
   committee:
-  - IEEE-SASB Coordinating Committees
+  - International Committee on Electromagnetic Safety of the IEEE SA Board of Governors
 ics:
 - code: '13.280'
   text: Radiation protection
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

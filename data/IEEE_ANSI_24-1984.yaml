@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE-ANSI24-1984
 title:
 - content: IEEE Standard Performance Characteristics and Dimensions for Outdoor Apparatus
@@ -59,9 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -91,8 +88,12 @@ keyword:
 - content: bushings
 - content: apparatus
 - content: outdoor
+doctype: standard
 editorialgroup:
   committee:
   - Transformers of the IEEE Power and Energy Society
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

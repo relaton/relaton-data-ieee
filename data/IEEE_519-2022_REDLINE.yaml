@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE519-2022Redline
 title:
 - content: IEEE Standard for Harmonic Control in Electric Power Systems
@@ -64,9 +64,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -110,6 +107,7 @@ keyword:
 - content: IEEE 519
 - content: power quality
 - content: steady-state
+doctype: redline
 editorialgroup:
   committee:
   - Transmission and Distribution of the IEEE Power and Energy Society
@@ -120,3 +118,7 @@ ics:
   text: Power transmission and distribution networks in general
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

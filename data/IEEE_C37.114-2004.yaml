@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC37.114-2004
 title:
 - content: IEEE Guide for Determining Fault Location on AC Transmission and Distribution
@@ -64,9 +64,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -97,6 +94,7 @@ keyword:
 - content: relays
 - content: system protection
 - content: traveling waves
+doctype: standard
 editorialgroup:
   committee:
   - Power System Relaying and Control of the IEEE Power and Energy Society
@@ -105,3 +103,6 @@ ics:
   text: Power transmission and distribution lines
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1547.9-2022
 title:
 - content: IEEE Guide for Using IEEE Std 1547 for Interconnection of Energy Storage
@@ -112,9 +112,11 @@ keyword:
 - content: testing
 - content: use cases
 - content: vehicle-to-grid
+doctype: standard
 editorialgroup:
   committee:
-  - IEEE-SASB Coordinating Committees
+  - Distributed Generation, Energy Storage and Interoperability Standards Committee
+    of the IEEE SA Board of Governors
 ics:
 - code: '27.100'
   text: Power stations in general
@@ -122,3 +124,7 @@ ics:
   text: Power transmission and distribution networks in general
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

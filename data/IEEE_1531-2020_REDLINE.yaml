@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1531-2020Redline
 title:
 - content: IEEE Guide for the Application and Specification of Harmonic Filters
@@ -62,9 +62,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -108,6 +105,7 @@ keyword:
 - content: power system harmonics
 - content: reactors
 - content: switched capacitor filters
+doctype: redline
 editorialgroup:
   committee:
   - Transmission and Distribution of the IEEE Power and Energy Society
@@ -116,3 +114,7 @@ ics:
   text: Electric filters
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

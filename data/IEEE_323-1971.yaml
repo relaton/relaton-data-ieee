@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE323-1971
 title:
 - content: 'IEEE Trial-Use Standard: General Guide for Qualifying Class I Electric
@@ -56,9 +56,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -84,6 +81,7 @@ keyword:
 - content: Electric equipment
 - content: Power system reliability
 - content: Performance evaluation
+doctype: standard
 editorialgroup:
   committee:
   - Nuclear Power Engineering of the IEEE Power and Energy Society
@@ -92,3 +90,6 @@ ics:
   text: Other standards related to nuclear energy
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE802.5c-1991
 title:
 - content: 'IEEE Standards for Local and Metropolitan Area Networks: Supplement to
@@ -62,9 +62,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -100,6 +97,7 @@ keyword:
 - content: configuration
 - content: LAN
 - content: local
+doctype: standard
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
@@ -112,3 +110,6 @@ ics:
   text: Data link layer
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

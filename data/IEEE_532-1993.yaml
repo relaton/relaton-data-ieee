@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE532-1993
 title:
 - content: IEEE Guide for Selecting and Testing Jackets for Underground Cables
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -110,6 +107,7 @@ keyword:
 - content: jackets
 - content: testing
 - content: underground cable
+doctype: standard
 editorialgroup:
   committee:
   - Insulated Conductors of the IEEE Power and Energy Society
@@ -118,3 +116,6 @@ ics:
   text: Insulating materials in general
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

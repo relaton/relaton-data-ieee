@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEP1394c-D-1.1
 title:
 - content: Unapproved IEEE Draft Amendment Standard for a High Performance Serial
@@ -40,7 +40,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: withdrawn
+    value: draft
 copyright:
 - owner:
   - name:
@@ -49,8 +49,13 @@ copyright:
       content: IEEE
     url: http://www.ieee.org
   from: '2006'
+doctype: standard
 ics:
 - code: '35.200'
   text: Interface and interconnection equipment
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

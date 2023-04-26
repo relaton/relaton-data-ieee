@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEP2730-D-1.3-2022-05
 title:
 - content: IEEE Approved Draft Standard for Terms, Definitions, and Classification
@@ -46,9 +46,17 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Terms, definitions, and classification of medical electrical equipment/systems
+    employing robotic technology (MEERT) are specified by this standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
-    value: approved
+    value: draft
 copyright:
 - owner:
   - name:
@@ -65,8 +73,10 @@ keyword:
 - content: Electronics
 - content: Classification
 - content: Terminology
+- content: classification
+- content: IEEE 2730
 - content: medical electrical equipment/systems employing robotic technology (MEERT)
-- content: classification.
+doctype: standard
 editorialgroup:
   committee:
   - Standards Committee of the IEEE Engineering in Medicine and Biology Society
@@ -75,3 +85,7 @@ ics:
   text: Health care technology (Vocabularies)
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

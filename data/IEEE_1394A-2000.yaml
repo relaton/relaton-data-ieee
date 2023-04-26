@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1394a-2000
 title:
 - content: IEEE Standard for a High Performance Serial Bus (Amendment)
@@ -58,9 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -93,6 +90,7 @@ keyword:
 - content: computers
 - content: high-speed Serial Bus
 - content: interconnect
+doctype: standard
 editorialgroup:
   committee:
   - Microprocessor Standards Committee of the IEEE Computer Society
@@ -101,3 +99,6 @@ ics:
   text: Interface and interconnection equipment
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

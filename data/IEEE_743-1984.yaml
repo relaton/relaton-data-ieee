@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE743-1984
 title:
 - content: IEEE Standard Methods and Equipment for Measuring the Transmission Characteristics
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -84,6 +81,7 @@ keyword:
 - content: voice
 - content: frequency
 - content: circuits
+doctype: standard
 editorialgroup:
   committee:
   - IEEE Communications Society
@@ -92,3 +90,6 @@ ics:
   text: Receiving and transmitting equipment
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

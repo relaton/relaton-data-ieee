@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE404-2012
 title:
 - content: IEEE Standard for Extruded and Laminated Dielectric Shielded Cable Joints
@@ -24,8 +24,6 @@ docid:
   type: DOI
 docnumber: IEEE 404-2012
 date:
-- type: updated
-  value: '2012-12-17'
 - type: created
   value: '2012'
 - type: published
@@ -39,6 +37,10 @@ contributor:
     abbreviation:
       content: IEEE
     url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
   role:
   - type: publisher
 revdate: '2012-06-18'
@@ -60,9 +62,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -104,11 +103,15 @@ keyword:
 - content: sheath/shield sectionalizers
 - content: transition joints
 - content: withstand voltage
+doctype: standard
 editorialgroup:
   committee:
-  - Insulated Conductors of the IEEE Power &amp; Energy Society
+  - Insulated Conductors of the IEEE Power and Energy Society
 ics:
 - code: 29.120.20
   text: Connecting devices
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

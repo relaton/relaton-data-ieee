@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSIC63.5-2006
 title:
 - content: American National Standard for Electromagnetic Compatibility Radiated Emission
@@ -63,9 +63,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -113,8 +110,12 @@ keyword:
 - content: standard antenna
 - content: standard site
 - content: standard transmitting loop
+doctype: standard
 ics:
 - code: 01.040.11
   text: Health care technology (Vocabularies)
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

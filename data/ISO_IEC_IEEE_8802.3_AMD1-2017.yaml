@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO-IEC-IEEE8802.3-Amd1-2017
 title:
 - content: 'ISO/IEC/IEEE International Standard - Information technology - Telecommunications
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -129,6 +126,7 @@ keyword:
 - content: Physical Medium Dependent sublayer
 - content: PMD
 - content: SMF
+doctype: standard
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
@@ -139,3 +137,6 @@ ics:
   text: Networking
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

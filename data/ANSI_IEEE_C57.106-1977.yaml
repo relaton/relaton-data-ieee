@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEEC57.106-1977
 title:
 - content: IEEE Guide for Acceptance and Maintenance of Insulating Oil in Equipment
@@ -63,9 +63,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -93,6 +90,7 @@ keyword:
 - content: maintenance
 - content: dielectric oils
 - content: petroleum
+doctype: standard
 editorialgroup:
   committee:
   - Transformers of the IEEE Power and Energy Society
@@ -101,3 +99,6 @@ ics:
   text: Insulating oils
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

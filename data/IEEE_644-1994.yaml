@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE644-1994
 title:
 - content: IEEE Standard Procedures for Measurement of Power Frequency Electric and
@@ -58,9 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -113,6 +110,7 @@ keyword:
 - content: Magnetic field measurement
 - content: Power system measurements
 - content: Power transmission lines
+doctype: standard
 editorialgroup:
   committee:
   - Transmission and Distribution of the IEEE Power and Energy Society
@@ -121,3 +119,6 @@ ics:
   text: Power transmission and distribution lines
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

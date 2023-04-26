@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEESA
 title:
 - content: IEEE SA 3D Body Processing Industry Connections--Summary and Recommended
@@ -65,9 +65,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -87,8 +84,12 @@ keyword:
 - content: standards development
 - content: trust
 - content: white paper
+doctype: standard
 ics:
 - code: 01.040.11
   text: Health care technology (Vocabularies)
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  pubstatus: Active
+  holdstatus: Publish

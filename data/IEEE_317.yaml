@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE317
 title:
 - content: IEEE Standard for Electrical Penetration Assemblies in Containment Structures
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -87,8 +84,12 @@ keyword:
 - content: IEEE Standards
 - content: Nuclear power generation
 - content: Power generation
+doctype: standard
 editorialgroup:
   committee:
   - IEEE Nuclear and Plasma Sciences Society
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

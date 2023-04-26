@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEE336-1985
 title:
 - content: IEEE Standard Installation, Inspection and Testing Requirements for Power,
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -84,6 +81,7 @@ keyword:
 - content: control
 - content: nuclear
 - content: Nuclear power generation protection
+doctype: standard
 editorialgroup:
   committee:
   - Nuclear Power Engineering of the IEEE Power and Energy Society
@@ -92,3 +90,6 @@ ics:
   text: Nuclear power plants. Safety
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1149.4-2010
 title:
 - content: IEEE Standard for a Mixed-Signal Test Bus
@@ -58,9 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: withdrawn
 copyright:
 - owner:
   - name:
@@ -81,6 +78,7 @@ keyword:
 - content: IEEE 1149.4
 - content: in-circuit test
 - content: mixed-signal test
+doctype: standard
 editorialgroup:
   committee:
   - Test Technology of the IEEE Computer Society
@@ -89,3 +87,7 @@ ics:
   text: Printed circuits and boards
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

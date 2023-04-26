@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC37.14-2002
 title:
 - content: IEEE Standard for Low-Voltage DC Power Circuit Breakers Used in Enclosures
@@ -65,9 +65,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -115,6 +112,7 @@ keyword:
 - content: impulse trip device
 - content: reverse-current trip device
 - content: semi-high-speed or rectifier circuit breaker
+doctype: standard
 editorialgroup:
   committee:
   - Switchgear of the IEEE Power and Energy Society
@@ -123,3 +121,6 @@ ics:
   text: Low voltage switchgear and controlgear
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

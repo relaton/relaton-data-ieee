@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1591.3-2011
 title:
 - content: IEEE Standard for Qualifying Hardware for Helically-Applied Fiber Optic
@@ -55,9 +55,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -87,6 +84,7 @@ keyword:
 - content: EARTHWRAP
 - content: IEEE 1591.3
 - content: WRAP
+doctype: standard
 editorialgroup:
   committee:
   - IEEE Power and Energy Society
@@ -95,3 +93,6 @@ ics:
   text: Fibres and cables
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

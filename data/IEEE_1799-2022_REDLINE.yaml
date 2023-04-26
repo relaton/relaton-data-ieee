@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1799-2022Redline
 title:
 - content: IEEE Recommended Practice for Quality Control Testing of External Discharges
@@ -59,9 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -108,6 +105,7 @@ keyword:
 - content: IEEE 1799
 - content: stator winding
 - content: ultraviolet radiation
+doctype: redline
 editorialgroup:
   committee:
   - Electric Machinery of the IEEE Power and Energy Society
@@ -116,3 +114,7 @@ ics:
   text: Rotating machinery in general
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

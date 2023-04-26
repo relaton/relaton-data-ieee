@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC50.12-2005
 title:
 - content: IEEE Standard for Salient-Pole 50 Hz and 60 Hz Synchronous Generators and
@@ -57,9 +57,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: withdrawn
 copyright:
 - owner:
   - name:
@@ -79,6 +76,7 @@ keyword:
 - content: hydro generator
 - content: salient-pole rotor
 - content: synchronous generator
+doctype: standard
 editorialgroup:
   committee:
   - Electric Machinery of the IEEE Power and Energy Society
@@ -87,3 +85,7 @@ ics:
   text: Generators
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

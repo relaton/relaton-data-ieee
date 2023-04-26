@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEUnapprovedP802.3av-D-3.2-2009-04
 title:
 - content: 'Telecommunications and information exchange between systems--Local and
@@ -59,7 +59,7 @@ abstract:
   format: text/plain
 docstatus:
   stage:
-    value: withdrawn
+    value: draft
 copyright:
 - owner:
   - name:
@@ -78,6 +78,7 @@ keyword:
 - content: Physical Coding Sublayer (PCS)
 - content: and Physical Media Attachment (PMA)
 - content: forward error correction (FEC)
+doctype: standard
 ics:
 - code: '35.110'
   text: Networking
@@ -87,3 +88,7 @@ ics:
   text: Physical layer
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

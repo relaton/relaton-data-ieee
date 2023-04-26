@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE143-1954
 title:
 - content: IEEE Guide for Ground Fault Neutralizers, Grounding of Synchronous Generation
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -79,8 +76,12 @@ keyword:
 - content: Limiting
 - content: Bibliographies
 - content: Generators
+doctype: standard
 ics:
 - code: 01.040.11
   text: Health care technology (Vocabularies)
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

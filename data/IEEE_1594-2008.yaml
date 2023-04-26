@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1594-2008
 title:
 - content: IEEE Standard for Helically Applied Fiber Optic Cable Systems (Wrap Cable)
@@ -55,9 +55,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -98,6 +95,7 @@ keyword:
 - content: power lines
 - content: wrap
 - content: wrapped
+doctype: standard
 editorialgroup:
   committee:
   - IEEE Power and Energy Society
@@ -106,3 +104,6 @@ ics:
   text: Fibres and cables
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

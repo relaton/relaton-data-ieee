@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEEC57.12.56-1986
 title:
 - content: IEEE Standard Test Procedure for Thermal Evaluation of Insulation Systems
@@ -65,9 +65,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -88,6 +85,7 @@ keyword:
 - content: dry-type
 - content: thermal
 - content: Power transformer insulation
+doctype: standard
 editorialgroup:
   committee:
   - Transformers of the IEEE Power and Energy Society
@@ -96,3 +94,6 @@ ics:
   text: Insulation systems
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

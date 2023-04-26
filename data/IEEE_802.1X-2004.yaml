@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE802.1X-2004
 title:
 - content: IEEE Standard for Local and metropolitan area networks - Port-Based Network
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -112,6 +109,7 @@ keyword:
 - content: metropolitan area networks
 - content: port access control
 - content: uncontrolled port
+doctype: standard
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
@@ -122,3 +120,6 @@ ics:
   text: Data link layer
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEE308-1980
 title:
 - content: IEEE Standard Criteria for Class 1E Power Systems for Nuclear Power Generating
@@ -63,9 +63,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -94,6 +91,7 @@ keyword:
 - content: DC
 - content: control power system
 - content: nuclear power generating station
+doctype: standard
 editorialgroup:
   committee:
   - Nuclear Power Engineering of the IEEE Power and Energy Society
@@ -104,3 +102,6 @@ ics:
   text: Power transmission and distribution networks in general
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

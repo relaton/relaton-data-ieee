@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC37.17-2012
 title:
 - content: IEEE Standard for Trip Systems for Low-Voltage (1000 V and below) AC and
@@ -63,9 +63,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -113,6 +110,7 @@ keyword:
 - content: short-time
 - content: time-overcurrent
 - content: trip unit
+doctype: standard
 editorialgroup:
   committee:
   - Switchgear of the IEEE Power and Energy Society
@@ -121,3 +119,6 @@ ics:
   text: Low voltage switchgear and controlgear
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

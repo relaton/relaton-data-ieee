@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1609.12-2016Redline
 title:
 - content: IEEE Standard for Wireless Access in Vehicular Environments (WAVE) - Identifier
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -109,6 +106,7 @@ keyword:
 - content: Management ID
 - content: Provider Service Identifier (PSID)
 - content: Wireless Access in Vehicular Environments (WAVE)
+doctype: redline
 editorialgroup:
   committee:
   - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
@@ -119,3 +117,7 @@ ics:
   text: IT applications in transport
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

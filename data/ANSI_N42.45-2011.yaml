@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSIN42.45-2011
 title:
 - content: American National Standard for Evaluating the Image Quality of X-ray Computed
@@ -59,9 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -85,6 +82,7 @@ keyword:
 - content: luggage
 - content: screening
 - content: security
+doctype: standard
 editorialgroup:
   committee:
   - National Committee on Radiation Instrumentation
@@ -95,3 +93,6 @@ ics:
   text: IT applications in other fields
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

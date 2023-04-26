@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE946-1985
 title:
 - content: IEEE Recommended Practice for the Design of Safety-Related DC Auxiliary
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -88,6 +85,7 @@ keyword:
 - content: Qualifications
 - content: Testing
 - content: Lead acid batteries
+doctype: standard
 editorialgroup:
   committee:
   - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
@@ -96,3 +94,6 @@ ics:
   text: Nuclear power plants. Safety
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

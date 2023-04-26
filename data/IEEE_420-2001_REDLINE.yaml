@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE420-2001Redline
 title:
 - content: IEEE Standard for the Design and Qualification of Class 1E Control Boards,
@@ -62,9 +62,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -109,6 +106,7 @@ keyword:
 - content: safety
 - content: separation
 - content: wiring
+doctype: redline
 editorialgroup:
   committee:
   - Nuclear Power Engineering of the IEEE Power and Energy Society
@@ -117,3 +115,7 @@ ics:
   text: Nuclear power plants. Safety
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

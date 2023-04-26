@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEP802.1Qcj-D-2.0-2022
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks -- Bridges
@@ -59,7 +59,7 @@ abstract:
   format: text/plain
 docstatus:
   stage:
-    value: approved
+    value: draft
 copyright:
 - owner:
   - name:
@@ -87,6 +87,11 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Local area networks
+- content: Metropolitan area networks
+- content: Bridge circuits
+- content: Virtual LAN
 - content: Bridged Network
 - content: IEEE 802.1Q&#8482;
 - content: LAN
@@ -109,8 +114,13 @@ keyword:
 - content: AAB
 - content: auto attach device
 - content: AAD
+doctype: standard
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

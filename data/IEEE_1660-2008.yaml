@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1660-2008
 title:
 - content: IEEE Guide for Application and Management of Stationary Batteries Used
@@ -59,9 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -93,6 +90,7 @@ keyword:
 - content: battery operation
 - content: standby battery
 - content: stationary battery
+doctype: standard
 editorialgroup:
   committee:
   - Energy Storage &amp; Stationary Battery Committee of the IEEE Power and Energy
@@ -102,3 +100,6 @@ ics:
   text: Galvanic cells and batteries in general
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

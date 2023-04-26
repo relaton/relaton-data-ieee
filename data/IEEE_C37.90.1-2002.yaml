@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC37.90.1-2002
 title:
 - content: IEEE Standard Surge Withstand Capability (SWC) Tests for Relays and Relay
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -101,6 +98,7 @@ keyword:
 - content: relay
 - content: relay systems
 - content: surge withstand capability
+doctype: standard
 editorialgroup:
   committee:
   - Power System Relaying and Control of the IEEE Power and Energy Society
@@ -109,3 +107,6 @@ ics:
   text: Relays
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1850-2010
 title:
 - content: IEEE Standard for Property Specification Language (PSL)
@@ -62,9 +62,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: withdrawn
 copyright:
 - owner:
   - name:
@@ -88,6 +85,7 @@ keyword:
 - content: specification
 - content: temporal logic
 - content: verification
+doctype: standard
 editorialgroup:
   committee:
   - Design Automation of the IEEE Computer Society
@@ -96,3 +94,7 @@ ics:
   text: Languages used in information technology
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

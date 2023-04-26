@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSIN42.43-2006
 title:
 - content: American National Standard Performance Criteria for Mobile and Transportable
@@ -64,9 +64,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -93,8 +90,12 @@ keyword:
 - content: Mobile handsets
 - content: mobile radiation monitors
 - content: transportable radiation monitors
+doctype: standard
 editorialgroup:
   committee:
   - National Committee on Radiation Instrumentation
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

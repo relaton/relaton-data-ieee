@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE802.15.4-2020Redline
 title:
 - content: IEEE Standard for Low-Rate Wireless Networks
@@ -24,8 +24,6 @@ docid:
   type: ISBN
 docnumber: IEEE 802.15.4-2020 Redline
 date:
-- type: updated
-  value: '2020-09-18'
 - type: created
   value: '2020'
 - type: published
@@ -61,9 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -114,6 +109,7 @@ keyword:
 - content: wireless network
 - content: wireless personal area network
 - content: WPAN
+doctype: redline
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
@@ -122,3 +118,7 @@ ics:
   text: Networking
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

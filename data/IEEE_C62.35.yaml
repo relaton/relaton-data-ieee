@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC62.35
 title:
 - content: IEEE Standard Test Methods for Avalanche Junction Semiconductor Surge-Protective
@@ -62,9 +62,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -112,6 +109,7 @@ keyword:
 - content: stand-by current
 - content: transient voltage suppressor (TVS)
 - content: zener
+doctype: standard
 editorialgroup:
   committee:
   - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
@@ -120,3 +118,6 @@ ics:
   text: Fuses and other overcurrent protection devices
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

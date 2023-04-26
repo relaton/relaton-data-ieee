@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1139-2008Redline
 title:
 - content: IEEE Standard Definitions of Physical Quantities for Fundamental Frequency
@@ -63,9 +63,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: withdrawn
 copyright:
 - owner:
   - name:
@@ -95,6 +92,7 @@ keyword:
 - content: PM noise
 - content: time domain
 - content: time metrology
+doctype: redline
 editorialgroup:
   committee:
   - IEEE Ultrasonics, Ferroelectrics and Frequency Control of the IEEE Ultrasonics,
@@ -104,3 +102,7 @@ ics:
   text: Measurement of time, velocity, acceleration, angular velocity
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

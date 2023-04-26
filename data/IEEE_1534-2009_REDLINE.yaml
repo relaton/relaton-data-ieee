@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1534-2009Redline
 title:
 - content: IEEE Recommended Practice for Specifying Thyristor-Controlled Series Capacitors
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: withdrawn
 copyright:
 - owner:
   - name:
@@ -85,6 +82,7 @@ keyword:
 - content: subsynchronous resonance
 - content: TCSC
 - content: thyristor valves
+doctype: redline
 editorialgroup:
   committee:
   - Substations of the IEEE Power and Energy Society
@@ -93,3 +91,7 @@ ics:
   text: Power capacitors
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

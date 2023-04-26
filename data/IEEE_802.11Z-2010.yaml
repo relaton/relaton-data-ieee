@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE802.11z-2010
 title:
 - content: 'IEEE Standard for Information technology-- Local and metropolitan area
@@ -58,9 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -97,6 +94,7 @@ keyword:
 - content: off-channel direct link
 - content: power saving
 - content: tunneled directlink setup
+doctype: standard
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
@@ -109,3 +107,6 @@ ics:
   text: Data link layer
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

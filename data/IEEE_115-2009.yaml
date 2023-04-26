@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE115-2009
 title:
 - content: IEEE Guide for Test Procedures for Synchronous Machines Part I—Acceptance
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -99,6 +96,7 @@ keyword:
 - content: dynamic analysis
 - content: parameter determination
 - content: synchronous machines
+doctype: standard
 editorialgroup:
   committee:
   - Electric Machinery of the IEEE Power and Energy Society
@@ -109,3 +107,6 @@ ics:
   text: Motors
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

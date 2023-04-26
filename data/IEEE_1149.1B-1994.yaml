@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1149.1b-1994
 title:
 - content: IEEE Supplement to Standard Test Access Port and Boundary-Scan Architecture
@@ -59,9 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -98,6 +95,7 @@ keyword:
 - content: test access port
 - content: VHDL
 - content: VHSIC Harware Description
+doctype: standard
 editorialgroup:
   committee:
   - Test Technology of the IEEE Computer Society
@@ -108,3 +106,6 @@ ics:
   text: Interface and interconnection equipment
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

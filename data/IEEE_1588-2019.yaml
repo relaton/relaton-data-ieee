@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1588-2019
 title:
 - content: IEEE Standard for a Precision Clock Synchronization Protocol for Networked
@@ -24,8 +24,6 @@ docid:
   type: DOI
 docnumber: IEEE 1588-2019
 date:
-- type: updated
-  value: '2020-07-24'
 - type: created
   value: '2020'
 - type: published
@@ -108,6 +106,7 @@ keyword:
 - content: security
 - content: synchronization
 - content: Transparent Clock
+doctype: standard
 editorialgroup:
   committee:
   - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
@@ -116,3 +115,7 @@ ics:
   text: Other time-measuring instruments
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

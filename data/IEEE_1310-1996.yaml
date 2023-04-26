@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1310-1996
 title:
 - content: IEEE Recommended Practice for Thermal Cycle Testing of Form-Wound Stator
@@ -53,9 +53,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -80,6 +77,7 @@ keyword:
 - content: virgin coil
 - content: thermal cycle testing
 - content: similiar design coil
+doctype: standard
 editorialgroup:
   committee:
   - Electric Machinery of the IEEE Power and Energy Society
@@ -88,3 +86,6 @@ ics:
   text: Generators
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1036-2020Redline
 title:
 - content: IEEE Guide for the Application of Shunt Power Capacitors
@@ -48,9 +48,6 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -90,6 +87,7 @@ keyword:
 - content: internally fused
 - content: power factor correction
 - content: shunt power capacitors
+doctype: redline
 editorialgroup:
   committee:
   - Transmission and Distribution of the IEEE Power and Energy Society
@@ -98,3 +96,7 @@ ics:
   text: Power capacitors
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

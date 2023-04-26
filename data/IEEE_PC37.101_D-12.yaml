@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEPC37.101-D-12
 title:
 - content: Unapproved IEEE Draft Guide for Generator Ground Protection
@@ -38,7 +38,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: withdrawn
+    value: draft
 copyright:
 - owner:
   - name:
@@ -47,8 +47,13 @@ copyright:
       content: IEEE
     url: http://www.ieee.org
   from: '2006'
+doctype: standard
 ics:
 - code: 29.160.20
   text: Generators
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

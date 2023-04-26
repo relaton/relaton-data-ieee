@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1505.1-2019Redline
 title:
 - content: IEEE Standard for the Common Test Interface Pin Map Configuration for High-Density,
@@ -64,9 +64,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -93,6 +90,7 @@ keyword:
 - content: scalable
 - content: test program set (TPS)
 - content: unit under test (UUT)
+doctype: redline
 editorialgroup:
   committee:
   - IEEE-SASB Coordinating Committees
@@ -101,3 +99,7 @@ ics:
   text: Plug-and-socket devices. Connectors
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC57.12.01-1998
 title:
 - content: IEEE Standard General Requirements for Dry-Type Distribution and Power
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -97,6 +94,7 @@ keyword:
 - content: solid cast
 - content: temperature rise
 - content: three phas
+doctype: standard
 editorialgroup:
   committee:
   - Transformers of the IEEE Power and Energy Society
@@ -105,3 +103,6 @@ ics:
   text: Transformers. Reactors
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

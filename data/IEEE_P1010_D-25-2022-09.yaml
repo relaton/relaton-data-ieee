@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEP1010-D-25-2022-09
 title:
 - content: IEEE Approved Draft Guide for Control of Hydroelectric Power Plants
@@ -46,13 +46,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This guide serves as a reference document for practicing engineers in the
-    hydroelectric industry. It documents prevailing industry practices in hydroelectric
-    power plant control system logic, control system configurations, and control modes.
-    It describes the control and monitoring requirements for equipment and systems
-    associated with conventional and pumped-storage hydroelectric power plants. It
-    includes typical methods of local and remote control, details of the control interfaces
-    for plant equipment, and requirements for centralized and off-site control.
+- content: Practicing engineers in the hydroelectric industry can use this guide as
+    a reference document. Prevailing industry practices in hydroelectric power plant
+    control system logic, control system configurations, and control modes are documented.
+    The control and monitoring requirements for equipment and systems associated with
+    conventional and pumped-storage hydroelectric power plants are described. Typical
+    methods of local and remote control, details of the control interfaces for plant
+    equipment, and requirements for centralized and off-site control are also included.
   language:
   - en
   script:
@@ -60,7 +60,7 @@ abstract:
   format: text/plain
 docstatus:
   stage:
-    value: approved
+    value: draft
 copyright:
 - owner:
   - name:
@@ -95,7 +95,9 @@ keyword:
 - content: automation
 - content: control systems
 - content: hydroelectric
+- content: IEEE 1010
 - content: unit controls
+doctype: standard
 editorialgroup:
   committee:
   - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
@@ -104,3 +106,7 @@ ics:
   text: Hydraulic energy engineering
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

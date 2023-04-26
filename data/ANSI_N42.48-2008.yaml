@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSIN42.48-2008
 title:
 - content: American National Standard Performance Requirements for Spectroscopic Personal
@@ -58,9 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -96,6 +93,7 @@ keyword:
 - content: radiation detection
 - content: radiation instrumentation
 - content: spectroscopic
+doctype: standard
 editorialgroup:
   committee:
   - National Committee on Radiation Instrumentation
@@ -104,3 +102,6 @@ ics:
   text: Radiation measurements
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

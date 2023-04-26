@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE167A-1980
 title:
 - content: IEEE Standard Facsimile Test Chart
@@ -54,9 +54,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -121,5 +118,9 @@ keyword:
 - content: Facsimile
 - content: Frequency modulation
 - content: Reflectivity
+doctype: standard
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

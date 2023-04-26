@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC95.1-1999
 title:
 - content: IEEE Standard for Safety Levels with Respect to Human Exposure to Radio
@@ -64,9 +64,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -95,6 +92,7 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE standards
+doctype: standard
 editorialgroup:
   committee:
   - IEEE-SASB Coordinating Committees
@@ -103,3 +101,6 @@ ics:
   text: Radiation protection
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

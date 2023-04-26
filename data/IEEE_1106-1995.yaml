@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1106-1995
 title:
 - content: IEEE Recommended Practice for Installation, Maintenance, Testing, and Replacement
@@ -65,9 +65,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -99,6 +96,7 @@ keyword:
 - content: vented nickel-cadmium battery
 - content: state of charge determination
 - content: continuous-float operation
+doctype: standard
 editorialgroup:
   committee:
   - Energy Storage &amp; Stationary Battery Committee of the IEEE Power and Energy
@@ -108,3 +106,6 @@ ics:
   text: Alkaline secondary cells and batteries
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

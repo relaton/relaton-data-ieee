@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEEC37.91-1985
 title:
 - content: IEEE Guide for Protective Relay Applications to Power Transformers
@@ -47,9 +47,6 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -80,6 +77,7 @@ keyword:
 - content: transformers
 - content: Protective relaying
 - content: Power transformer protection
+doctype: standard
 editorialgroup:
   committee:
   - Power System Relaying and Control of the IEEE Power and Energy Society
@@ -88,3 +86,6 @@ ics:
   text: Relays
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO-IEEE11073.10404-2010
 title:
 - content: 'ISO/IEEE International Standard - Health informatics -- Personal health
@@ -65,9 +65,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -98,6 +95,7 @@ keyword:
 - content: medical device communication
 - content: personal health devices
 - content: pulse oximeter
+doctype: standard
 editorialgroup:
   committee:
   - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
@@ -109,3 +107,6 @@ ics:
   text: IT applications in health care technology
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE2600.3-2010
 title:
 - content: IEEE Standard Protection Profile for Hardcopy Devices in IEEE Std 2600-2008
@@ -58,9 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: withdrawn
 copyright:
 - owner:
   - name:
@@ -90,6 +87,7 @@ keyword:
 - content: network
 - content: network interface
 - content: nonvolatile storage
+doctype: standard
 editorialgroup:
   committee:
   - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
@@ -102,3 +100,7 @@ ics:
   text: Reproduction equipment
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

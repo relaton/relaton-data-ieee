@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEE519-1981
 title:
 - content: IEEE Guide for Harmonic Control and Reactive Compensation of Static Power
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -88,6 +85,7 @@ keyword:
 - content: Reactive power control
 - content: Reactive power
 - content: Standards
+doctype: standard
 editorialgroup:
   committee:
   - Industrial Power Converter of the IEEE Industry Applications Society
@@ -96,3 +94,6 @@ ics:
   text: Rectifiers. Converters. Stabilized power supply
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

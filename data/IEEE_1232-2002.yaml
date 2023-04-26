@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1232-2002
 title:
 - content: "(Replaced) IEEE Standard for Artificial Intelligence Exchange and Service
@@ -63,9 +63,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -118,6 +115,7 @@ keyword:
 - content: fault tree
 - content: knowledge exchange
 - content: system test
+doctype: standard
 editorialgroup:
   committee:
   - IEEE-SASB Coordinating Committees
@@ -128,3 +126,6 @@ ics:
   text: IT applications in industry
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  pubstatus: Active
+  holdstatus: Publish

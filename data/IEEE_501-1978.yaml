@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE501-1978
 title:
 - content: IEEE Standard Seismic Testing of Relays
@@ -70,9 +70,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -88,5 +85,9 @@ keyword:
 - content: Testing
 - content: Generators
 - content: Power system reliability
+doctype: standard
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

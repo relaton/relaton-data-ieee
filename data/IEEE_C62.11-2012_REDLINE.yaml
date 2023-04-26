@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC62.11-2012Redline
 title:
 - content: IEEE Standard for Metal-Oxide Surge Arresters for AC Power Circuits (>1
@@ -64,9 +64,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -135,6 +132,7 @@ keyword:
 - content: MOSA
 - content: surge arrester
 - content: varistor
+doctype: redline
 editorialgroup:
   committee:
   - Surge Protective Devices/High Voltage of the IEEE Power and Energy Society
@@ -143,3 +141,7 @@ ics:
   text: Fuses and other overcurrent protection devices
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

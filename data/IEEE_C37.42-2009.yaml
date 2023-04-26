@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC37.42-2009
 title:
 - content: IEEE Standard Specifications for High-Voltage (> 1000 V) Expulsion-Type
@@ -65,9 +65,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -89,6 +86,7 @@ keyword:
 - content: fuse disconnecting switches
 - content: fuse links
 - content: high-voltage fuses
+doctype: standard
 editorialgroup:
   committee:
   - Switchgear of the IEEE Power and Energy Society
@@ -97,3 +95,6 @@ ics:
   text: High voltage switchgear and controlgear
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

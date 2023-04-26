@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE802.1Q-2005
 title:
 - content: IEEE Standard for Local and Metropolitan Area Networks---Virtual Bridged
@@ -57,9 +57,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -109,6 +106,7 @@ keyword:
 - content: Multiple Spanning Tree Protocol (MSTP)
 - content: Rapid Spanning Tree Protocol (RSTP)
 - content: Virtual Bridged Local Area Networks (virtual LANs)
+doctype: standard
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
@@ -119,3 +117,6 @@ ics:
   text: Data link layer
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

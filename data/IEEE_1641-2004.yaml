@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1641-2004
 title:
 - content: IEEE Standard for Signal and Test Definition
@@ -57,9 +57,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -93,6 +90,7 @@ keyword:
 - content: test signals
 - content: unit under test
 - content: UUT
+doctype: standard
 editorialgroup:
   committee:
   - IEEE-SASB Coordinating Committees
@@ -103,3 +101,6 @@ ics:
   text: Languages used in information technology
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  pubstatus: Active
+  holdstatus: Publish

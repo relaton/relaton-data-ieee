@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC37.09b-2010
 title:
 - content: 'IEEE Standard Test Procedure for AC High-Voltage Circuit Breakers Rated
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -83,6 +80,7 @@ keyword:
 - content: IEEE C37.09b
 - content: transient recovery voltage
 - content: TRV
+doctype: standard
 editorialgroup:
   committee:
   - Switchgear of the IEEE Power and Energy Society
@@ -91,3 +89,6 @@ ics:
   text: Switches
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

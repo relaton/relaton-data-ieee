@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE588-1976
 title:
 - content: IEEE Guide for AC Motor Protection
@@ -58,9 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -73,5 +70,9 @@ keyword:
 - content: IEEE Standards
 - content: AC motors
 - content: Motor protection
+doctype: standard
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

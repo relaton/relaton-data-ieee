@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEE352-1975
 title:
 - content: IEEE Guide for General Principles of Reliability Analysis of Nuclear Power
@@ -69,9 +69,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -100,8 +97,12 @@ keyword:
 - content: Capacitors
 - content: Safety
 - content: ANSI Standards
+doctype: standard
 editorialgroup:
   committee:
   - Nuclear Power Engineering of the IEEE Power and Energy Society
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

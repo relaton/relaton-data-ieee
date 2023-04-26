@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1609.3-2010
 title:
 - content: IEEE Standard for Wireless Access in Vehicular Environments (WAVE) - Networking
@@ -57,9 +57,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -103,6 +100,7 @@ keyword:
 - content: Provider Service Identifier (PSID)
 - content: Wireless Access in Vehicular Environments (WAVE)
 - content: WAVE Short Message (WSM)
+doctype: standard
 editorialgroup:
   committee:
   - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
@@ -113,3 +111,6 @@ ics:
   text: IT applications in transport
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

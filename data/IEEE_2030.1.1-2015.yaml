@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE2030.1.1-2015
 title:
 - content: IEEE Standard Technical Specifications of a DC Quick Charger for Use with
@@ -73,9 +73,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -103,8 +100,12 @@ keyword:
 - content: SAE
 - content: SAE J1772
 - content: SAE J2836/2
+doctype: standard
 editorialgroup:
   committee:
   - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

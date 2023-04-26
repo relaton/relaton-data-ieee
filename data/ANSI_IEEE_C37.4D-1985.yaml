@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEEC37.4d-1985
 title:
 - content: IEEE Supplements to ANSI/ IEEE C37.4- 1953 and Ansi/IEEE C37.100-1981
@@ -45,9 +45,6 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -65,8 +62,12 @@ keyword:
 - content: IEEE Standards
 - content: Terminology
 - content: Voltage measurements
+doctype: standard
 ics:
 - code: 01.040.11
   text: Health care technology (Vocabularies)
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSIN42.42-2012Redline
 title:
 - content: American National Standard Data Format for Radiation Detectors Used for
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -91,6 +88,7 @@ keyword:
 - content: radiation detectors
 - content: radiation instruments
 - content: radiation measurement instruments
+doctype: redline
 editorialgroup:
   committee:
   - Radiation Instrumentation of the Accredited Standards Committee N42
@@ -101,3 +99,7 @@ ics:
   text: Character sets and information coding
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

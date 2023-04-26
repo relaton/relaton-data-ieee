@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE802.3as-2006
 title:
 - content: 'IEEE Standard for Information technology-- Telecommunications and information
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -102,6 +99,7 @@ keyword:
 - content: frame format extension
 - content: frame size
 - content: Q-tagged frame
+doctype: standard
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
@@ -112,3 +110,6 @@ ics:
   text: Physical layer
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

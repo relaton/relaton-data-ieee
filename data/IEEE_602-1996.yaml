@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE602-1996
 title:
 - content: IEEE Recommended Practice for Electric Systems in Health Care Facilities
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -127,6 +124,7 @@ keyword:
 - content: transfer switch
 - content: treatment
 - content: wet location
+doctype: standard
 editorialgroup:
   committee:
   - Power Systems Engineering of the IEEE Industry Applications Society
@@ -137,3 +135,6 @@ ics:
   text: Electrical engineering in general
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

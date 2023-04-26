@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1698-2009
 title:
 - content: IEEE Guide for the Calculation of Braking Distances for Rail Transit Vehicles
@@ -58,9 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: withdrawn
 copyright:
 - owner:
   - name:
@@ -85,6 +82,7 @@ keyword:
 - content: fixed-guideway transit
 - content: rail transit
 - content: signal systems
+doctype: standard
 editorialgroup:
   committee:
   - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
@@ -93,3 +91,7 @@ ics:
   text: Power transmission and distribution lines
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

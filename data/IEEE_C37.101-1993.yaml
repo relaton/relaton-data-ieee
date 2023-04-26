@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC37.101-1993
 title:
 - content: IEEE Guide for Generator Ground Protection
@@ -56,9 +56,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -105,6 +102,7 @@ keyword:
 - content: Synchronous generator
 - content: Stator fault
 - content: Ground-fault protection
+doctype: standard
 editorialgroup:
   committee:
   - Power System Relaying and Control of the IEEE Power and Energy Society
@@ -113,3 +111,6 @@ ics:
   text: Generators
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

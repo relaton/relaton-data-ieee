@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE308-2012
 title:
 - content: IEEE Standard Criteria for Class 1E Power Systems for Nuclear Power Generating
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -110,6 +107,7 @@ keyword:
 - content: IEEE 308
 - content: nuclear power station design
 - content: nuclear safety
+doctype: standard
 editorialgroup:
   committee:
   - Nuclear Power Engineering of the IEEE Power and Energy Society
@@ -120,3 +118,6 @@ ics:
   text: Power transmission and distribution networks in general
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

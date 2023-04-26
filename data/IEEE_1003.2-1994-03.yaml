@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1003.2-1994-03
 title:
 - content: IEEE Standards Interpretations for IEEE Std 1003.2-1992
@@ -59,9 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -78,6 +75,7 @@ keyword:
 - content: POSIX
 - content: shell
 - content: utilities
+doctype: standard
 editorialgroup:
   committee:
   - Portable Applications of the IEEE Computer Society
@@ -88,3 +86,6 @@ ics:
   text: Software
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

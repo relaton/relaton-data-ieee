@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE99-2019Redline
 title:
 - content: Ieee recommended practice for the preparation of test procedures for the
@@ -63,9 +63,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -110,6 +107,7 @@ keyword:
 - content: thermal aging
 - content: thermal endurance
 - content: thermal evaluation
+doctype: redline
 editorialgroup:
   committee:
   - IEEE-SASB Coordinating Committees
@@ -118,3 +116,7 @@ ics:
   text: Insulation systems
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

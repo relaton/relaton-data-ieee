@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE802.3cu-2021
 title:
 - content: 'IEEE Standard for Ethernet - Amendment 11: Physical Layers and Management
@@ -58,9 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -119,6 +116,7 @@ keyword:
 - content: PAM4
 - content: Physical Medium Dependent (PMD) sublayer
 - content: single-mode fiber (SMF)
+doctype: standard
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
@@ -129,3 +127,6 @@ ics:
   text: Networking
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

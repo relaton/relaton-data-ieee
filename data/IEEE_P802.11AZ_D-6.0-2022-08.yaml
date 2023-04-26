@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEP802.11az-D-6.0-2022-08
 title:
 - content: 'IEEE Draft Standard for Information technology - Telecommunications and
@@ -29,7 +29,7 @@ date:
 - type: published
   value: '2022-08-29'
 - type: issued
-  value: '2022'
+  value: '2022-12-03'
 contributor:
 - organization:
     name:
@@ -50,7 +50,7 @@ script:
 - Latn
 abstract:
 - content: This amendment defines modifications to both the IEEE 802.11 medium access
-    control layer (MAC) and physical layers (PHY). Compared to Std IEEE 802.11-2020
+    control layer (MAC) and physical layers (PHY). Compared to IEEE Std 802.11-2020
     it enables absolute and relative position estimation with higher accuracy, and
     reduces wireless medium utilization and power consumption, is scalable to dense
     deployments, and includes security features.
@@ -61,7 +61,7 @@ abstract:
   format: text/plain
 docstatus:
   stage:
-    value: withdrawn
+    value: draft
 copyright:
 - owner:
   - name:
@@ -98,10 +98,13 @@ keyword:
 - content: Information exchange
 - content: Media Access Protocol
 - content: Physical layer
+- content: direction measurement
 - content: Fine Timing Measurement (FTM)
+- content: IEEE 802.11
+- content: IEEE 802.11az
 - content: positioning
 - content: ranging
-- content: direction measurement
+doctype: standard
 editorialgroup:
   committee:
   - LAN/MAN Standards Committee of the IEEE Computer Society
@@ -110,3 +113,7 @@ ics:
   text: Networking
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

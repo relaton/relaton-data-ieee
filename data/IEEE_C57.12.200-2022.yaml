@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC57.12.200-2022
 title:
 - content: IEEE Guide for the Dielectric Frequency Response Measurement of Bushings
@@ -74,6 +74,11 @@ copyright:
     url: http://www.ieee.org
   from: '2022'
 keyword:
+- content: IEEE Standards
+- content: Dielectrics
+- content: Frequency response
+- content: Spectroscopy
+- content: Power transformers
 - content: dielectric frequency response (DFR)
 - content: dissipation factor
 - content: moisture
@@ -84,8 +89,20 @@ keyword:
 - content: RIP bushing
 - content: RIS bushing
 - content: transformer bushing
+doctype: standard
 editorialgroup:
   committee:
   - Transformers of the IEEE Power and Energy Society
+ics:
+- code: 17.220.20
+  text: Measurement of electrical and magnetic quantities
+- code: 29.080.20
+  text: Bushings
+- code: '29.180'
+  text: Transformers. Reactors
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

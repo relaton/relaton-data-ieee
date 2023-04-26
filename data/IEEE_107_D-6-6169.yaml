@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE107-D-6-6169
 title:
 - content: 'IEC 61691-1-1 Ed.1 (IEEE Std 1076(TM)-2002): Behavioural Languages - Part
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -95,6 +92,7 @@ keyword:
 - content: hardware
 - content: hardware design
 - content: VHDL
+doctype: standard
 editorialgroup:
   committee:
   - Design Automation of the IEEE Computer Society
@@ -103,3 +101,6 @@ ics:
   text: Languages used in information technology
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

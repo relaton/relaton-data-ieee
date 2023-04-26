@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1636.1-2007
 title:
 - content: 'IEEE Standard for Software Interface for Maintenance Information Collection
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -107,6 +104,7 @@ keyword:
     (SIMICA)
 - content: test results
 - content: XML schema
+doctype: standard
 editorialgroup:
   committee:
   - IEEE-SASB Coordinating Committees
@@ -115,3 +113,6 @@ ics:
   text: Character sets and information coding
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

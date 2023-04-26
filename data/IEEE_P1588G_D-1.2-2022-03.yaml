@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEP1588g-D-1.2-2022-03
 title:
 - content: 'IEEE Draft Standard for a Precision Clock Synchronization Protocol for
@@ -28,7 +28,7 @@ date:
 - type: published
   value: '2022-06-20'
 - type: issued
-  value: '2022'
+  value: '2022-12-03'
 contributor:
 - organization:
     name:
@@ -48,10 +48,9 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This draft standard is an amendment of IEEE Std 1588-2019. This amendment:
-    a) Identifies alternative terms for “master’ and “slave” used in implementations
-    or PTP Profiles; b) Identifies alternative names for port state names; c) Identifies
-    abbreviations for clock roles or port states.'
+- content: This amendment to IEEE Std 1588-2019 identifies alternative terms for “master”
+    and “slave” used in implementations or PTP profiles; identifies alternative names
+    for port state names; and identifies abbreviations for clock roles or port states.
   language:
   - en
   script:
@@ -59,7 +58,7 @@ abstract:
   format: text/plain
 docstatus:
   stage:
-    value: withdrawn
+    value: draft
 copyright:
 - owner:
   - name:
@@ -91,11 +90,15 @@ keyword:
 - content: Main-Secondary
 - content: Synchronization
 - content: Clocks
-- content: PTP
+- content: grandmaster
+- content: IEEE 1588g&#8482;
 - content: master
+- content: Precision Time Protocol (PTP)
+- content: synchronization
 - content: slave
-- content: timeTransmitter
 - content: timeReceiver
+- content: timeTransmitter
+doctype: standard
 editorialgroup:
   committee:
   - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
@@ -104,3 +107,7 @@ ics:
   text: Other time-measuring instruments
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC37.35-1995
 title:
 - content: IEEE Guide for the Application, Installation, Operation, and Maintenance
@@ -57,9 +57,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -98,6 +95,7 @@ keyword:
 - content: outdoor switches
 - content: interrupter switch
 - content: switches
+doctype: standard
 editorialgroup:
   committee:
   - Switchgear of the IEEE Power and Energy Society
@@ -106,3 +104,6 @@ ics:
   text: High voltage switchgear and controlgear
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

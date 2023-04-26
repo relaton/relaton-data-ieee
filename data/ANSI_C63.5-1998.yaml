@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSIC63.5-1998
 title:
 - content: American National Standard for Calibration of Antennas Used for Radiated
@@ -63,9 +63,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -95,6 +92,7 @@ keyword:
 - content: standard antenna
 - content: standard site
 - content: standard transmitting loop
+doctype: standard
 editorialgroup:
   committee:
   - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
@@ -103,3 +101,6 @@ ics:
   text: Emission
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

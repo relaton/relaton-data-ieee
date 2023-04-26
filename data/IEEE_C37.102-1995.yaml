@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC37.102-1995
 title:
 - content: IEEE Guide for AC Generator Protection
@@ -54,9 +54,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -105,6 +102,7 @@ relation:
       format: text/plain
 keyword:
 - content: Synchronous generator excitation
+doctype: standard
 editorialgroup:
   committee:
   - Power System Relaying and Control of the IEEE Power and Energy Society
@@ -113,3 +111,6 @@ ics:
   text: Generators
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

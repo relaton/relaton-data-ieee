@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1610-2016Redline
 title:
 - content: IEEE Guide for the Application of Faulted Circuit Indicators on Distribution
@@ -55,9 +55,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -77,6 +74,7 @@ keyword:
 - content: fault sensors
 - content: FCIs
 - content: IEEE 1610(TM)
+doctype: redline
 editorialgroup:
   committee:
   - Insulated Conductors of the IEEE Power and Energy Society
@@ -85,3 +83,7 @@ ics:
   text: Power transmission and distribution networks in general
 ext:
   schema-version: v1.0.0
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

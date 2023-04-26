@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1027
 title:
 - content: IEEE Trial-Use Standard Method for Measuring the Magnetic Field Intensity
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -93,6 +90,7 @@ keyword:
 - content: telephone
 - content: receiver
 - content: intensity
+doctype: standard
 editorialgroup:
   committee:
   - Standards Development Board of the IEEE Communications Society
@@ -103,3 +101,6 @@ ics:
   text: Telephone equipment
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

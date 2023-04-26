@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEE449-1984
 title:
 - content: IEEE Standard for Ferroresonant Voltage Regulators
@@ -64,9 +64,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -101,8 +98,12 @@ keyword:
 - content: ferroresonant
 - content: voltage
 - content: regulators
+doctype: standard
 editorialgroup:
   committee:
   - Electronic Transformers of the IEEE Magnetics Society
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

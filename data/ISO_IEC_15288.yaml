@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ISO-IEC15288
 title:
 - content: ISO/IEC/IEEE International Standard -- Systems Engineering -- System Life
@@ -48,9 +48,6 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -63,5 +60,9 @@ copyright:
       content: IEEE
     url: http://www.ieee.org
   from: '2002'
+doctype: standard
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

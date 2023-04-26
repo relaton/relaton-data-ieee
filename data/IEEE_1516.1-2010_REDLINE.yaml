@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1516.1-2010Redline
 title:
 - content: IEEE Standard for Modeling and Simulation (M&S) High Level Architecture
@@ -67,9 +67,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: withdrawn
 copyright:
 - owner:
   - name:
@@ -103,6 +100,7 @@ keyword:
 - content: simulation object model
 - content: time-constrained
 - content: time-regulating
+doctype: redline
 editorialgroup:
   committee:
   - Simulation Interoperability Stds Organization/Stds Activity Committee of the IEEE
@@ -112,3 +110,7 @@ ics:
   text: Software
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEE383-1974
 title:
 - content: IEEE Standard for Type Test of Class Ie Electric Cables, Field Splices,
@@ -55,9 +55,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -92,6 +89,7 @@ keyword:
 - content: Nuclear power generation
 - content: Power cables
 - content: Standards
+doctype: standard
 editorialgroup:
   committee:
   - Nuclear Power Engineering of the IEEE Power and Energy Society
@@ -100,3 +98,6 @@ ics:
   text: Cables
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

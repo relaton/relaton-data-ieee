@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE522-1992
 title:
 - content: IEEE Guide for Testing Turn-to-Turn Insulation on Form-Wound Stator Coils
@@ -67,9 +67,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -117,6 +114,7 @@ keyword:
 - content: rotating machine
 - content: insulation testing
 - content: Power system transients
+doctype: standard
 editorialgroup:
   committee:
   - Electric Machinery of the IEEE Power and Energy Society
@@ -125,3 +123,6 @@ ics:
   text: Rotating machinery in general
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

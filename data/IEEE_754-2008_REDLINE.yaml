@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE754-2008Redline
 title:
 - content: IEEE Standard for Floating-Point Arithmetic
@@ -60,9 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -127,6 +124,7 @@ keyword:
 - content: rounding
 - content: significand
 - content: subnormal
+doctype: redline
 editorialgroup:
   committee:
   - Microprocessor Standards Committee of the IEEE Computer Society
@@ -137,3 +135,7 @@ ics:
   text: Information technology (IT) in general
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

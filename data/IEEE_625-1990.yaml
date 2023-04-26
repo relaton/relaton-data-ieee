@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE625-1990
 title:
 - content: IEEE Recommended Practice to Improve Electrical Maintenance and Safety
@@ -58,9 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -114,6 +111,7 @@ keyword:
 - content: Protection of banks
 - content: Equipment considerations
 - content: Delta-connected banks
+doctype: standard
 editorialgroup:
   committee:
   - Cement Industry of the IEEE Industry Applications Society
@@ -122,3 +120,6 @@ ics:
   text: Protection against electric shock. Live working
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

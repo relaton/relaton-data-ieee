@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEE656-1985
 title:
 - content: IEEE Standard for the Measurement of Audible Noise from Overhead Transmission
@@ -61,9 +61,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -80,6 +77,7 @@ keyword:
 - content: overhead
 - content: transmission
 - content: lines
+doctype: standard
 editorialgroup:
   committee:
   - Transmission and Distribution of the IEEE Power and Energy Society
@@ -88,3 +86,6 @@ ics:
   text: Power transmission and distribution lines
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

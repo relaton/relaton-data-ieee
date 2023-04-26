@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: ANSI-IEEE649-1980
 title:
 - content: IEEE Standard for Qualifying Class 1E Motor Control Centers for Nuclear
@@ -67,9 +67,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -109,6 +106,7 @@ keyword:
 - content: control
 - content: centers
 - content: NPGS
+doctype: standard
 editorialgroup:
   committee:
   - Nuclear Power Engineering of the IEEE Power and Energy Society
@@ -117,3 +115,6 @@ ics:
   text: Health care technology (Vocabularies)
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1067-2005
 title:
 - content: IEEE Guide for In-Service Use, Care, Maintenance and Testing of Conductive
@@ -56,9 +56,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -107,6 +104,7 @@ keyword:
 - content: clothing
 - content: maintenance
 - content: power lines
+doctype: standard
 editorialgroup:
   committee:
   - Transmission and Distribution of the IEEE Power and Energy Society
@@ -115,3 +113,6 @@ ics:
   text: Protective clothing
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

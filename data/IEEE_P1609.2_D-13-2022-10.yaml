@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEP1609.2-D-13-2022-10
 title:
 - content: IEEE Approved Draft Standard for Wireless Access in Vehicular Environments--Security
@@ -46,9 +46,19 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Secure message formats and processing for use by Wireless Access in Vehicular
+    Environments (WAVE) devices are defined in this standard, including methods to
+    secure WAVE management messages and methods to secure application messages. Administrative
+    functions necessary to support the core security functions are also described.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
-    value: approved
+    value: draft
 copyright:
 - owner:
   - name:
@@ -85,7 +95,8 @@ keyword:
 - content: cryptography
 - content: IEEE 1609.2&#8482;
 - content: security
-- content: wireless access in vehicular environments (WAVE)&#8226;
+- content: Wireless Access in Vehicular Environments (WAVE)
+doctype: standard
 editorialgroup:
   committee:
   - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
@@ -94,3 +105,7 @@ ics:
   text: IT applications in transport
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

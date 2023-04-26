@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEEC62.11-2005
 title:
 - content: IEEE Standard for Metal-Oxide Surge Arresters for AC Power Circuits (>
@@ -62,9 +62,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: superseded
 copyright:
 - owner:
   - name:
@@ -117,6 +114,7 @@ keyword:
 - content: MOSA
 - content: surge arrester
 - content: valve arrester
+doctype: standard
 editorialgroup:
   committee:
   - Surge Protective Devices/High Voltage of the IEEE Power and Energy Society
@@ -125,3 +123,6 @@ ics:
   text: Substations. Surge arresters
 ext:
   schema-version: v1.0.0
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

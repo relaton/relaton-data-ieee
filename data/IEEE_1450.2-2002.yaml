@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: IEEE1450.2-2002
 title:
 - content: IEEE Standard for Extensions to Standard Test Interface Language (STIL)
@@ -57,9 +57,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: withdrawn
 copyright:
 - owner:
   - name:
@@ -88,6 +85,7 @@ keyword:
 - content: power sequence
 - content: slew rate
 - content: voltage clamp
+doctype: standard
 editorialgroup:
   committee:
   - Test Technology of the IEEE Computer Society
@@ -96,3 +94,6 @@ ics:
   text: Languages used in information technology
 ext:
   schema-version: v1.0.0
+  standard_status: Inactive
+  pubstatus: Active
+  holdstatus: Publish
