@@ -11,6 +11,7 @@ FileUtils.rm_rf('data')
 FileUtils.cp_r('relaton-data-ieee/data', '.')
 FileUtils.rm_rf('relaton-data-ieee')
 
+FileUtils.rm_f 'index*'
 index = Relaton::Index.find_or_create :ieee, file: 'index-v1.yaml'
 Dir['data/*.yaml'].each do |f|
   yaml = YAML.load_file f
