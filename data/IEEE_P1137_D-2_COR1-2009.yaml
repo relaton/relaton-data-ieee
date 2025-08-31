@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1137-D-2-Cor1-2009
 title:
 - content: IEEE Draft Guide for the Implementation of Inductive Coordination Mitigation
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1137/D-2/Cor1-2009
 date:
 - type: created
-  value: '2009'
+  value: '2009-07-23'
 - type: published
   value: '2019-07-25'
 - type: issued
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1137-1991
+    id: IEEEStd1137-1991
     docid:
-    - id: IEEE 1137-1991
+    - id: IEEE Std 1137-1991
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1137-1991
+      content: IEEE Std 1137-1991
       format: text/plain
   description:
     content: corrects
@@ -111,15 +111,13 @@ keyword:
 - content: noise
 - content: power
 - content: susceptibility
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: '33.020'
-  text: Telecommunications in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '33.020'
+    text: Telecommunications in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1851-D-2.4-2022-07
 title:
 - content: IEEE Approved Draft Standard for Design Criteria of Integrated Sensor-Based
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1851/D-2.4-2022-07
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-05'
 - type: published
   value: '2022-12-19'
 - type: issued
@@ -48,10 +48,10 @@ script:
 - Latn
 abstract:
 - content: A data integrated framework of the test software for household appliances
-    is defined. This standard specifies the node information of Complex Virtual Instruments
+    is defined by this standard. The node information of complex virtual instruments
     (CVIs), the sensor parameter information, the test metadata information, and the
     sensor data information, as well as the means to acquire the information (either
-    microservices or data-exchange files).
+    microservices or data-exchange files), are specified by this standard.
   language:
   - en
   script:
@@ -71,64 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1851-2012
+    id: IEEEStd1851-2012
     docid:
-    - id: IEEE 1851-2012
+    - id: IEEE Std 1851-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1851-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1851-2012
-    docid:
-    - id: IEEE 1851-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1851-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1851-2012
-    docid:
-    - id: IEEE 1851-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1851-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1851-2012
-    docid:
-    - id: IEEE 1851-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1851-2012
+      content: IEEE Std 1851-2012
       format: text/plain
   description:
     content: revises
@@ -143,23 +92,25 @@ keyword:
 - content: Home automation
 - content: Home appliances
 - content: Remote sensing
-- content: household appliances test
-- content: sensor data
-- content: microservice
 - content: complex virtual instruments
+- content: household appliances test
+- content: IEEE 1851&#8482;
+- content: microservice
+- content: sensor data
 - content: systems interoperability
-doctype: standard
-editorialgroup:
-  committee:
-  - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
-ics:
-- code: 35.240.50
-  text: IT applications in industry
-- code: '97.180'
-  text: Miscellaneous domestic and commercial equipment
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
+  - code: '97.180'
+    text: Miscellaneous domestic and commercial equipment
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

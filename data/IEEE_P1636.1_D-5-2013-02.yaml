@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1636.1-D-5-2013-02
 title:
 - content: 'IEEE Draft Standard for Software Interface for Maintenance Information
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P1636.1/D-5-2013-02
 date:
 - type: created
-  value: '2013'
+  value: '2013-04-06'
 - type: published
   value: '2013-04-08'
 - type: issued
@@ -83,15 +83,16 @@ keyword:
 - content: test results
 - content: session information
 - content: XML schema
-doctype: standard
-editorialgroup:
-  committee:
-  - SCC20 - Test and Diagnosis for Electronic Systems
-ics:
-- code: '35.040'
-  text: Character sets and information coding
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - SCC20 - Test and Diagnosis for Electronic Systems
+  ics:
+  - code: '35.040'
+    text: Character sets and information coding
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

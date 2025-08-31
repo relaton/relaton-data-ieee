@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1377-D-8-2010-10
 title:
 - content: IEEE Draft Standard for Utility Industry Metering Communication Protocol
@@ -91,15 +91,16 @@ keyword:
 - content: ANSI C12.19
 - content: End Device
 - content: Utility Tables
-doctype: standard
-editorialgroup:
-  committee:
-  - SCC31 - Automatic Meter Reading and Energy Management
-ics:
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - SCC31 - Automatic Meter Reading and Energy Management
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

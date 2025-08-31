@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1683-D-32-2014-03
 title:
 - content: IEEE Guide for Motor Control Centers Rated up to and including 600 V AC
@@ -100,15 +100,16 @@ keyword:
 - content: selectivity
 - content: shock
 - content: thermal monitoring
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.260.99
-  text: Other electrical equipment for working in special conditions
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.260.99
+    text: Other electrical equipment for working in special conditions
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

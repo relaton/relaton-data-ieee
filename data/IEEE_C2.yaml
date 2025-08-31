@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEC2
 title:
 - content: Preprint Proposals for the 2022 Edition of the National Electrical Safety
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE C2
 date:
 - type: created
-  value: '2019'
+  value: '2019-07-01'
 - type: published
   value: '2019-07-02'
 - type: issued
@@ -62,9 +62,19 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
+- content: This Preprint provides the full text of each change proposal (CP) to revise
+    the 2017 Edition of the National Electrical Safety Code (NESC) together with the
+    initial recommendation of the subcommittee that has jurisdiction of the rule addressed
+    by the CP. The purpose of the NESC 2022 Preprint is to solicit public comment
+    for each of the CPs and initial Subcommittee actions. The public comment period
+    is 1 July 2019 to 1 March 2020. Subcommittees will consider the original change
+    proposal, the initial recommendations, and public comment to develop final recommendations
+    in the Fall of 2020, for final approval by the NESC Main Committee in 2021.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -99,13 +109,13 @@ keyword:
 - content: safety work rules
 - content: underground communication line safety
 - content: underground electric line safety
-doctype: standard
-editorialgroup:
-  committee:
-  - National Electrical Safety Code
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
-  standard_modified: Approved
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Electrical Safety Code
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

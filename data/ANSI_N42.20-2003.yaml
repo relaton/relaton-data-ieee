@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.20-2003
 title:
 - content: American Standard Performance Criteria for Active Personnel Radiation Monitors
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSIN42.20-1995
+    id: ANSIStdN42.20-1995
     docid:
-    - id: ANSI N42.20-1995
+    - id: ANSI Std N42.20-1995
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI N42.20-1995
+      content: ANSI Std N42.20-1995
       format: text/plain
   description:
     content: revises
@@ -98,15 +98,16 @@ keyword:
 - content: radiation
 - content: radiation instrumentation
 - content: radiation monitors
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

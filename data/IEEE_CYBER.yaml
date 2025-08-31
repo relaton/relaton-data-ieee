@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEECyber
 title:
 - content: IEEE Cyber Security for the Smart Grid
@@ -87,18 +87,19 @@ keyword:
 - content: security breaches
 - content: security threats
 - content: privacy
-doctype: standard
-ics:
-- code: '13.310'
-  text: Protection against crime
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
-- code: 33.040.40
-  text: Data communication networks
-- code: '33.200'
-  text: Telecontrol. Telemetering
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '13.310'
+    text: Protection against crime
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: 33.040.40
+    text: Data communication networks
+  - code: '33.200'
+    text: Telecontrol. Telemetering
   standard_status: Active
   pubstatus: Active
   holdstatus: Publish

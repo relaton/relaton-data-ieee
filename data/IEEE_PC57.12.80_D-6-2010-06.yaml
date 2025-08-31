@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.12.80-D-6-2010-06
 title:
 - content: IEEE Draft Standard Terminology for Power and Distribution Transformers
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE PC57.12.80/D-6-2010-06
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-19'
 - type: published
   value: '2010-07-23'
 - type: issued
@@ -77,17 +77,18 @@ keyword:
 - content: power systems
 - content: power transformers
 - content: terminology.
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power &amp; Energy Society
-ics:
-- code: 01.040.29
-  text: Electrical engineering (Vocabularies)
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 01.040.29
+    text: Electrical engineering (Vocabularies)
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

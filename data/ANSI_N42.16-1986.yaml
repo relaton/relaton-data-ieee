@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.16-1986
 title:
 - content: American National Standard Specifications for Sealed Radioactive Check
@@ -76,17 +76,18 @@ keyword:
 - content: Scintillation counters
 - content: Radiation materials
 - content: Carbon materials
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
-- code: 27.120.30
-  text: Fissile materials and nuclear fuel technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
+  - code: 27.120.30
+    text: Fissile materials and nuclear fuel technology
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEECDP60980.344
 title:
 - content: IEEE Draft Standard - Nuclear Facilities - Equipment Important to Safety
@@ -23,7 +23,7 @@ docid:
 docnumber: IEC/IEEE CD P60980.344
 date:
 - type: created
-  value: '2019'
+  value: '2019-07-16'
 - type: published
   value: '2019-07-17'
 - type: issued
@@ -65,17 +65,18 @@ keyword:
 - content: Safety
 - content: Power system reliability
 - content: Seismic measurements
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 27.120.20
-  text: Nuclear power plants. Safety
-- code: 91.120.25
-  text: Seismic and vibration protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  - code: 91.120.25
+    text: Seismic and vibration protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

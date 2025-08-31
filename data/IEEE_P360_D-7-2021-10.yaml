@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP360-D-7-2021-10
 title:
 - content: IEEE Draft Standard for Wearable Consumer Electronic Devices - Overview
@@ -71,13 +71,13 @@ copyright:
   from: '2021'
 keyword:
 - content: IEEE Standards
-- content: Wearable computing
 - content: Consumer electronics
 - content: Information security
-- content: Classification
 - content: Safety
 - content: Computer architecture
 - content: Computer security
+- content: Classification algorithms
+- content: Wearable devices
 - content: application
 - content: architecture
 - content: classification
@@ -88,12 +88,13 @@ keyword:
 - content: software
 - content: wearable
 - content: wireless
-doctype: standard
-editorialgroup:
-  committee:
-  - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

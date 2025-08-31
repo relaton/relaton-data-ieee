@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1800-D-17-2023-03
 title:
 - content: IEEE Draft Standard for SystemVerilog--Unified Hardware Design, Specification,
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2023-05-03'
 - type: published
-  value: '2023-05-05'
+  value: '2023-05-04'
 - type: issued
-  value: '2023'
+  value: '2023-12-06'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-05-05'
+revdate: '2023-05-04'
 language:
 - en
 script:
@@ -53,7 +53,9 @@ abstract:
     register transfer level (RTL), and gate-level abstraction levels, and for writing
     test benches using coverage, assertions, object-oriented programming, and constrained
     random verification. The standard also provides application programming interfaces
-    (APIs) to foreign programming languages.
+    (APIs) to foreign programming languages. (The PDF of this standard is available
+    at no cost at https://ieeexplore.ieee.org/browse/standards/get-program/page compliments
+    of Accellera Systems Initiative)
   language:
   - en
   script:
@@ -73,30 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1800-2017
+    id: IEEEStd1800-2017
     docid:
-    - id: IEEE 1800-2017
+    - id: IEEE Std 1800-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1800-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1800-2017
-    docid:
-    - id: IEEE 1800-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1800-2017
+      content: IEEE Std 1800-2017
       format: text/plain
   description:
     content: revises
@@ -122,16 +107,17 @@ keyword:
 - content: SystemVerilog
 - content: Verilog&#174;
 - content: VPI
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

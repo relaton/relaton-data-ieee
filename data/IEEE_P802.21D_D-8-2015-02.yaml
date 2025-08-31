@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.21d-D-8-2015-02
 title:
 - content: 'IEEE Approved Draft Standard for Media Independent Handover Services Amendment
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P802.21d/D-8-2015-02
 date:
 - type: created
-  value: '2015'
+  value: '2015-07-13'
 - type: published
   value: '2015-02-10'
 - type: issued
@@ -76,15 +76,16 @@ keyword:
 - content: multicast
 - content: group management
 - content: group security
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

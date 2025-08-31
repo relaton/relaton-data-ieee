@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE30.2-D-7-2024-07
 title:
 - content: 'IEEE/IEC Draft International Standard for Explosive atmospheres -- Part
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE 30.2/D-7-2024-07
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-25'
 - type: published
   value: '2024-07-26'
 - type: issued
@@ -78,16 +78,23 @@ relation:
     script:
     - Latn
     format: text/plain
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.260.20
-  text: Electrical apparatus for explosive atmospheres
+keyword:
+- content: IEEE Standards
+- content: IEC Standards
+- content: Electrical resistance measurement
+- content: Heating systems
+- content: Maintenance engineering
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.260.20
+    text: Electrical apparatus for explosive atmospheres
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

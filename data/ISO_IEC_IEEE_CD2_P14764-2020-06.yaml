@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEECD2P14764-2020-06
 title:
 - content: ISO/IEC/IEEEDraft International Standard - Software Engineering - Software
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE CD2 P14764-2020-06
 date:
 - type: created
-  value: '2020'
+  value: '2020-07-09'
 - type: published
   value: '2020-07-10'
 - type: issued
@@ -103,15 +103,13 @@ keyword:
 - content: Software engineering
 - content: Software maintenance
 - content: Product life cycle management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.238-D-6-2014-06
 title:
 - content: IEEE Draft Standard Profile for Use of IEEE 1588 Precision Time Protocol
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.238-2011
+    id: IEEEStdC37.238-2011
     docid:
-    - id: IEEE C37.238-2011
+    - id: IEEE Std C37.238-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.238-2011
+      content: IEEE Std C37.238-2011
       format: text/plain
   description:
     content: revises
@@ -103,17 +103,15 @@ keyword:
 - content: slave-only clock
 - content: synchrophasors
 - content: transparent clock.
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
-- code: 33.040.20
-  text: Transmission systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: 33.040.20
+    text: Transmission systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-IEC-ISOFDISP80005.1-2012
 title:
 - content: 'IEEE/ISO/IEC Draft Standard for Cold Ironing - Part 1: High Voltage Shore
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE/IEC/ISO FDIS P80005.1-2012
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-04'
 - type: published
   value: '2012-04-04'
 - type: issued
@@ -85,15 +85,16 @@ keyword:
 - content: IEC standards
 - content: Marine technology
 - content: Marine vehicles
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 47.020.60
-  text: Electrical equipment for ships or marine structures
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 47.020.60
+    text: Electrical equipment for ships or marine structures
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

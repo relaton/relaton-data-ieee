@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.55-2013
 title:
 - content: American National Standard for the Performance of Portable Transmission
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI N42.55-2013
 date:
 - type: created
-  value: '2014'
+  value: '2014-03-14'
 - type: published
   value: '2014-03-13'
 - type: issued
@@ -90,14 +90,15 @@ keyword:
 - content: performance standard
 - content: portable x-ray system
 - content: transmission x-ray system
-doctype: standard
-ics:
-- code: '13.310'
-  text: Protection against crime
-- code: '19.100'
-  text: Non-destructive testing
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '13.310'
+    text: Protection against crime
+  - code: '19.100'
+    text: Non-destructive testing
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

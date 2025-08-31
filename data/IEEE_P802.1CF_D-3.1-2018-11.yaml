@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1CF-D-3.1-2018-11
 title:
-- content: IEEE Approved Draft Recommended Practice for Network Reference Model and
-    Functional Description of IEEE 802 Access Network
+- content: IEEE Draft Recommended Practice for Network Reference Model and Functional
+    Description of IEEE 802 Access Network
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/8674883
+- content: https://ieeexplore.ieee.org/document/8567340
   type: src
 type: standard
 docid:
@@ -23,9 +23,9 @@ docid:
 docnumber: IEEE P802.1CF/D-3.1-2018-11
 date:
 - type: created
-  value: '2019'
+  value: '2018-12-05'
 - type: published
-  value: '2019-03-26'
+  value: '2018-12-06'
 - type: issued
   value: '2019-03-21'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2019-03-26'
+revdate: '2018-12-06'
 language:
 - en
 script:
@@ -78,12 +78,13 @@ keyword:
 - content: IEEE 802
 - content: IEEE 802.1CF
 - content: multiple network access
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

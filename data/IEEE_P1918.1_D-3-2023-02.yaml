@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1918.1-D-3-2023-02
 title:
 - content: 'IEEE Draft Standard for Tactile Internet: Application Scenarios, Definitions
@@ -58,9 +58,15 @@ copyright:
     url: http://www.ieee.org
   from: '2023'
 keyword:
+- content: IEEE Standards
+- content: Haptic interfaces
+- content: Digital twins
+- content: Internet
+- content: 5G mobile communicatoin
+- content: User interfaces
+- content: Human in the loop
 - content: Tactile Internet
 - content: Human-in-the-loop
-- content: Digital twins
 - content: Haptic communication
 - content: 5G and beyond 5G (B5G)
 - content: URLLC
@@ -68,13 +74,15 @@ keyword:
 - content: extended reality (XR)
 - content: 6G
 - content: mMTC
-doctype: standard
-editorialgroup:
-  committee:
-  - Mobile Communication Networks Standards Committee of the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Mobile Communication Networks Standards Committee of the IEEE Communications
+      Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

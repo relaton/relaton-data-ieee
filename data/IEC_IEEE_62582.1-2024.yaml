@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE62582.1-2024
 title:
 - content: 'IEEE International Standard for Nuclear power plants -- Instrumentation
@@ -72,12 +72,16 @@ keyword:
 - content: Electronic equipment
 - content: Safety
 - content: Power system reliability
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering Committee of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering Committee of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

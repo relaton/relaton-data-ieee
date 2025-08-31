@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.15.9ma-D-05-2021-03
 title:
 - content: IEEE Draft Standard for Transport of Key Management Protocol (KMP) Datagrams
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P802.15.9ma/D-05-2021-03
 date:
 - type: created
-  value: '2021'
+  value: '2021-03-04'
 - type: published
   value: '2021-03-08'
 - type: issued
-  value: '2021'
+  value: '2021-06-16'
 contributor:
 - organization:
     name:
@@ -46,16 +46,17 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard defines a message exchange framework based on information
-    elements as a transport method for key management protocol (KMP) datagrams and
-    guidelines for the use of some existing KMPs with IEEE Std 802.15.4&#8482;. A
-    new KMP is not created in this standard. In support of KMP transmission and reception,
-    a generic multiplexed data service layer that can be used to transmit large packets
-    from the upper KMP to another peer and that provides for protocol discrimination
-    is also provided in this standard. The multiplexed data service provides a fragmentation
-    and multiplexing layer for those packets so they can be delivered over smaller
-    MAC layer frames and multiplexed on the recipient end to the right processing
-    service. The multiplexing provides for EtherType protocol discrimination.
+- content: A message exchange framework based on information elements as a transport
+    method for key management protocol (KMP) datagrams and guidelines for the use
+    of some existing KMPs with IEEE Std 802.15.4(TM) is defined in this standard.
+    A new KMP is not created in this standard. In support of KMP transmission and
+    reception, a generic multiplexed data service layer that can be used to transmit
+    large packets from the upper KMP to another peer and that provides for protocol
+    discrimination is also provided in this standard. The multiplexed data service
+    provides a fragmentation and multiplexing layer for those packets so they can
+    be delivered over smaller MAC layer frames and multiplexed on the recipient end
+    to the right processing service. The multiplexing provides for EtherType protocol
+    discrimination.
   language:
   - en
   script:
@@ -75,64 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.15.9-2016
+    id: IEEEStd802.15.9-2016
     docid:
-    - id: IEEE 802.15.9-2016
+    - id: IEEE Std 802.15.9-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.15.9-2016
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.9-2016
-    docid:
-    - id: IEEE 802.15.9-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.9-2016
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.9-2016
-    docid:
-    - id: IEEE 802.15.9-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.9-2016
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.9-2016
-    docid:
-    - id: IEEE 802.15.9-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.9-2016
+      content: IEEE Std 802.15.9-2016
       format: text/plain
   description:
     content: revises
@@ -143,30 +93,31 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE Standards
-- content: Security of data
 - content: Information technology
-- content: Media Access Protocol
 - content: Multiplexing
 - content: Transport protocols
+- content: Data security
+- content: Media Access Control
+- content: EtherType
 - content: fragmentation
 - content: IE
-- content: IEEE 802.15.9&#8482;
+- content: IEEE 802.15.9
 - content: information element
 - content: key management protocol
 - content: KMP
 - content: multiplexed data service
 - content: security
-- content: EtherType
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

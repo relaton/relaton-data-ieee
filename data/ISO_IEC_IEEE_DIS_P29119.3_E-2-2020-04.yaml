@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEDISP29119.3-E-2-2020-04
 title:
 - content: 'ISO/IEC/IEEE Draft International Standard - Software and systems engineering
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE DIS P29119.3/E-2-2020-04
 date:
 - type: created
-  value: '2020'
+  value: '2020-07-27'
 - type: published
   value: '2020-07-28'
 - type: issued
@@ -130,15 +130,13 @@ keyword:
 - content: Test Planning Process
 - content: Test Plan
 - content: verification and validation.
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

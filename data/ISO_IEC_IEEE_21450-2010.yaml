@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE21450-2010
 title:
 - content: ISO/IEC/IEEE Information technology -- Smart transducer interface for sensors
@@ -63,6 +63,19 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Adoption of IEEE Std 1451.0-2007. This standard provides a common basis
+    for members of the IEEE 1451 family of standards to be interoperable. It defines
+    the functions that are to be performed by a transducer interface module (TIM)
+    and the common characteristics for all devices that implement the TIM. It specifies
+    the formats for Transducer Electronic Data Sheets (TEDS). It defines a set of
+    commands to facilitate the setup and control of the TIM as well as reading and
+    writing the data used by the system. Application programming interfaces (APIs)
+    are defined to facilitate communications with the TIM and with applications.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -90,15 +103,16 @@ keyword:
 - content: smart transducer
 - content: transducer electronic data sheet
 - content: transducer interface module
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

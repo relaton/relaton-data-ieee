@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.4-1981
 title:
 - content: American National Standard methods of measurement of radio-noise emissions
@@ -24,7 +24,7 @@ docid:
 docnumber: ANSI C63.4-1981
 date:
 - type: created
-  value: '1981'
+  value: '1981-03-31'
 - type: published
   value: '2022-09-09'
 - type: issued
@@ -63,12 +63,13 @@ keyword:
 - content: Electronic equipment
 - content: Electric variables measurement
 - content: Emissions
-doctype: standard
-editorialgroup:
-  committee:
-  - Accredited Standards Committee on Electromagnetic Compatibility
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Accredited Standards Committee on Electromagnetic Compatibility
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

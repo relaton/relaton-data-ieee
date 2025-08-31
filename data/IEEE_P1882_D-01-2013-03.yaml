@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1882-D-01-2013-03
 title:
 - content: IEEE Draft Guide for Establishing, Benchmarking, and Maintaining a Working
@@ -87,15 +87,16 @@ keyword:
 - content: overvoltage controls
 - content: PPAG
 - content: protective gap
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ASAC37.35-1962
 title:
 - content: ASA American Standard Guide for the Operation and Maintenance of High Voltage
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2016-04-08'
 - type: created
-  value: '1962'
+  value: '1962-03-24'
 - type: published
   value: '2016-03-24'
 - type: issued
@@ -59,6 +59,18 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: High voltage disconnecting switches are assigned certain ratings by the
+    manufacturer and standard tests are conducted to assure the user that the switch,
+    when new, will perform within the ratings shown on the nameplate. It should be
+    recognized that the switch in service will perform within these ratings only if
+    properly operated and maintained. It cannot be stressed too strongly that prescribed
+    safety rules should be adhered to at all times when operating or maintaining high
+    voltage disconnecting switches near energized equipment or conductors.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -72,13 +84,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSI-IEEEC37.35-1976
+    id: ANSI-IEEEStdC37.35-1976
     docid:
-    - id: ANSI/IEEE C37.35-1976
+    - id: ANSI/IEEE Std C37.35-1976
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE C37.35-1976
+      content: ANSI/IEEE Std C37.35-1976
       format: text/plain
   description:
     content: revises
@@ -89,13 +101,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: ANSI-IEEEC37.35-1976
+    id: ANSI-IEEEStdC37.35-1976
     docid:
-    - id: ANSI/IEEE C37.35-1976
+    - id: ANSI/IEEE Std C37.35-1976
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE C37.35-1976
+      content: ANSI/IEEE Std C37.35-1976
       format: text/plain
   description:
     content: revises
@@ -111,12 +123,13 @@ keyword:
 - content: Voltage measurement
 - content: Maintenance engineering
 - content: Disconnecting switching systems
-doctype: standard
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

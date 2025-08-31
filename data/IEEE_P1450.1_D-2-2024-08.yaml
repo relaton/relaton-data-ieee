@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1450.1-D-2-2024-08
 title:
 - content: IEEE Draft Standard for Extensions to Standard Test Interface Language
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2024-08-29'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -47,11 +47,11 @@ language:
 script:
 - Latn
 abstract:
-- content: Standard Test Interface Language (STIL) provides an interface between digital
-    test generation tools and test equipment. Extensions to the test interface language
-    (contained in this standard) are defined that (1) facilitate the use of the language
-    in the design environment and (2) facilitate the use of the language for large
-    designs encompassing subdesigns with reusable patterns.
+- content: An interface between digital test generation tools and test equipment is
+    provided by Standard Test Interface Language (STIL). Extensions to the test interface
+    language (contained in this standard) are defined that facilitate the use of the
+    language in the design environment and facilitate the use of the language for
+    large designs encompassing subdesigns with reusable patterns.
   language:
   - en
   script:
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1450.1-2005
+    id: IEEEStd1450.1-2005
     docid:
-    - id: IEEE 1450.1-2005
+    - id: IEEE Std 1450.1-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1450.1-2005
+      content: IEEE Std 1450.1-2005
       format: text/plain
   description:
     content: revises
@@ -97,24 +97,27 @@ keyword:
 - content: core
 - content: environment
 - content: fail feedback
+- content: IEEE 1450.1
 - content: lockstep
 - content: parallel patterns
 - content: parameterized data
 - content: pattern tiling
 - content: pragma
 - content: signal variable
-- content: system on chip (SoC)
+- content: SoC
+- content: system on chip
 - content: test protocol
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

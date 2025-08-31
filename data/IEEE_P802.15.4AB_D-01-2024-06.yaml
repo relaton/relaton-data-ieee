@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.15.4ab-D-01-2024-06
 title:
 - content: 'IEEE Draft Standard for Low-Rate Wireless Network Amendment 1: Enhanced
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P802.15.4ab/D-01-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-18'
 - type: published
   value: '2024-07-19'
 - type: issued
@@ -47,6 +47,27 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: 'This amendment enhances the Ultra Wideband (UWB) physical layers (PHYs)
+    medium access control (MAC), and associated ranging techniques while retaining
+    backward compatibility with enhanced ranging capable devices (ERDEVs). Areas of
+    enhancement include: additional coding, preamble and modulation schemes to support
+    improved link budget and/or reduced air-time; additional channels and operating
+    frequencies; interference mitigation techniques to support greater device density
+    and higher traffic use cases; improvements to accuracy, precision and reliability
+    and interoperability for high-integrity ranging; schemes to reduce complexity
+    and power consumption; definitions for tightly coupled hybrid operation with narrowband
+    signaling to assist UWB; enhanced native discovery and connection setup mechanisms;
+    UWB sensing capabilities to support presence detection and environment mapping;
+    and mechanisms supporting low-power low-latency streaming as well as high data-rate
+    streaming allowing at least 50 Mbit/s of throughput; and, support for peer-to-peer,
+    peer-to-multi-peer, and station-to-infrastructure protocols and infrastructure
+    synchronization mechanisms.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -61,13 +82,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.15.4-2020
+    id: IEEEStd802.15.4-2020
     docid:
-    - id: IEEE 802.15.4-2020
+    - id: IEEE Std 802.15.4-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.15.4-2020
+      content: IEEE Std 802.15.4-2020
       format: text/plain
   description:
     content: amends
@@ -77,6 +98,11 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Narrowband
+- content: Low latency communication
+- content: Location awareness
+- content: Ultra wideband communication
 - content: narrowband assisted
 - content: NBA
 - content: ultra wideband UWB
@@ -104,17 +130,18 @@ keyword:
 - content: single-sided two-way ranging
 - content: SSTWR
 - content: time of flight
-- content: TOF.&#8226;
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
+- content: TOF
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

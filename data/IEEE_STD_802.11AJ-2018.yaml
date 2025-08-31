@@ -1,0 +1,138 @@
+---
+schema-version: v1.2.9
+id: IEEEStd802.11aj-2018
+title:
+- content: 'IEEE Standard for Information Technology--Telecommunications and information
+    exchange between systems Local and metropolitan area networks--Specific requirements
+    Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications
+    Amendment 3: Enhancements for Very High Throughput to Support Chinese Millimeter
+    Wave Frequency Bands (60 GHz and 45 GHz)'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/8345727
+  type: src
+type: standard
+docid:
+- id: IEEE Std 802.11aj-2018
+  type: IEEE
+  primary: true
+- id: IEEE Std 802.11aj®-2018
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-1-5044-4633-4
+  type: ISBN
+- id: 10.1109/IEEESTD.2018.8345727
+  type: DOI
+docnumber: IEEE Std 802.11aj-2018
+date:
+- type: created
+  value: '2018-04-18'
+- type: published
+  value: '2018-04-24'
+- type: issued
+  value: '2018-02-15'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2018-04-24'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: The IEEE 802.11&#8482; directional multi-gigabit (DMG) physical layer (PHY)
+    and the medium access control (MAC) layer are modified by this amendment to IEEE
+    Std 802.11&#8482;-2016 to enable operation in the Chinese millimeter wave frequency
+    band around 60 GHz. This amendment also defines modifications to the IEEE 802.11
+    PHY and MAC layer to enable operation in the Chinese millimeter wave frequency
+    band around 45 GHz.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2018'
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: ISO-IEC-IEEE8802.11-Amd3-2018
+    docid:
+    - id: ISO/IEC/IEEE 8802.11/Amd3-2018
+      type: IEEE
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 8802.11/Amd3-2018
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd802.11-2012
+    docid:
+    - id: IEEE Std 802.11-2012
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.11-2012
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Local area networks
+- content: Metropolitan area networks
+- content: Information exchange
+- content: Wireless LAN
+- content: Media Access Protocol
+- content: Physical layer
+- content: Information technology
+- content: beamforming
+- content: CDMG
+- content: China directional multi-gigabit
+- content: China millimeter-wave multigigabit
+- content: CMMG
+- content: DBC
+- content: DCS
+- content: dynamic bandwidth control
+- content: dynamic channel selection
+- content: IEEE 802.11&#8482;
+- content: IEEE 802.11aj&#8482;
+- content: opportunistic transmission
+- content: spatial sharing
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

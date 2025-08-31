@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2934-D-1-2021-05
 title:
 - content: IEEE Approved Draft Standard for Logistics Operation Process in a Smart
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2934/D-1-2021-05
 date:
 - type: created
-  value: '2021'
+  value: '2022-06-21'
 - type: published
   value: '2022-03-09'
 - type: issued
@@ -78,12 +78,18 @@ keyword:
 - content: operation process
 - content: smart factory
 - content: smart logistics
-doctype: standard
-editorialgroup:
-  committee:
-  - Smart Manufacturing Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Smart Manufacturing Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 03.100.10
+    text: Purchasing. Procurement. Logistics
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

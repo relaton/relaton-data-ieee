@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1609.12-D-7-2012-06
 title:
-- content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
-    - Identifier Allocations
+- content: IEEE Standard for Wireless Access in Vehicular Environments (WAVE) - Identifier
+    Allocations
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/6226802
+- content: https://ieeexplore.ieee.org/document/6298916
   type: src
 type: standard
 docid:
@@ -18,16 +18,16 @@ docid:
   type: IEEE
   scope: trademark
   primary: true
-- id: 978-0-7381-7409-9
+- id: 978-0-7381-7336-8
   type: ISBN
 docnumber: IEEE P1609.12/D-7-2012-06
 date:
 - type: created
   value: '2012'
 - type: published
-  value: '2012-06-27'
+  value: '2012-09-11'
 - type: issued
-  value: '2012-06-27'
+  value: '2012-08-30'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2012-06-27'
+revdate: '2012-09-11'
 language:
 - en
 script:
@@ -70,23 +70,27 @@ copyright:
   from: '2012'
 keyword:
 - content: IEEE standards
-- content: Wireless communication
-- content: Intelligent vehicles
 - content: Wireless networks
-- content: WAVE
+- content: Transportation
+- content: Vehicles
+- content: Intelligent vehicles
+- content: Identification
+- content: IEEE 1609.12
+- content: management ID
 - content: PSID
-- content: Management ID
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.240.60
-  text: IT applications in transport and trade
+- content: WAVE
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.240.60
+    text: IT applications in transport and trade
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

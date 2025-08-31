@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC135.90-D-6.0-2011-11
 title:
 - content: IEEE Draft Standard for Pole Line Hardware for Overhead Line Construction
@@ -74,17 +74,18 @@ keyword:
 - content: hardware
 - content: wood
 - content: pole
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power &amp; Energy Society
-ics:
-- code: 21.060.10
-  text: Bolts, screws
-- code: ''
-  text: studs
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 21.060.10
+    text: Bolts, screws
+  - code: ''
+    text: studs
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

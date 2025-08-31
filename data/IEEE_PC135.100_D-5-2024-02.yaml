@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC135.100-D-5-2024-02
 title:
 - content: IEEE Draft Standard for Line Hardware for Overhead Line Construction
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE PC135.100/D-5-2024-02
 date:
 - type: created
-  value: '2024'
+  value: '2024-03-04'
 - type: published
   value: '2024-03-05'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -45,6 +45,17 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Covered in this standard are the requirements for line hardware used in
+    overhead lines, including clevis and eye fittings, Y-clevis fittings, socket fittings,
+    ball fittings, chain links, shackles, triangular and rectangular yoke plates,
+    suspension clamps, strain clamps, straight-line deadend clamps, and shoulder live-line
+    extension links.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -61,24 +72,29 @@ keyword:
 - content: Power transmission lines
 - content: Clamps
 - content: Power distribution
-- content: Clevis and eye fitting
-- content: Y-clevis
-- content: socket fitting
 - content: ball fitting
 - content: chain link
-- content: shackle
-- content: yoke plate
-- content: suspension clamp
-- content: strain clamp
+- content: clevis and eye fitting
 - content: deadend clamp
-- content: and shoulder live-line extension link.
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
+- content: IEEE C135.100
+- content: shackle
+- content: shoulder live-line extension link
+- content: socket fitting
+- content: strain clamp
+- content: suspension clamp
+- content: Y-clevis
+- content: yoke plate
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

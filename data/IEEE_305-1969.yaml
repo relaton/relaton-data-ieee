@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE305-1969
 title:
 - content: IEEE Guide for Protective Relay Applications of Audio Tones over Telephone
@@ -82,9 +82,10 @@ keyword:
 - content: Telephones
 - content: Relays
 - content: Audio systems
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

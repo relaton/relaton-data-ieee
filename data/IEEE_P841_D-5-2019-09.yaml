@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP841-D-5-2019-09
 title:
 - content: IEEE Draft Standard for Petroleum and Chemical Industry--Premium-Efficiency,
@@ -61,13 +61,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE841-2009
+    id: IEEEStd841-2009
     docid:
-    - id: IEEE 841-2009
+    - id: IEEE Std 841-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 841-2009
+      content: IEEE Std 841-2009
       format: text/plain
   description:
     content: revises
@@ -82,15 +82,13 @@ keyword:
 - content: Ventilation
 - content: Motors
 - content: Performance evaluation
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.160.30
-  text: Motors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.160.30
+    text: Motors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

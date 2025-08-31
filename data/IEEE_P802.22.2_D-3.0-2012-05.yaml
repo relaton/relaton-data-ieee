@@ -1,15 +1,15 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.22.2-D-3.0-2012-05
 title:
-- content: 'IEEE Draft Recommended Practice for Information Technology - Telecommunications
-    and information exchange between systems - Wireless Regional Area Networks (WRAN)
-    - Specific requirements - Part 22.2: Recommended Practice for the Installation
-    and Deployment of IEEE 802.22 Systems'
+- content: 'IEEE Approved Draft Recommended Practice for Information Technology -
+    Telecommunications and information exchange between systems - Wireless Regional
+    Area Networks (WRAN) - Specific requirements - Part 22.2: Recommended Practice
+    for the Installation and Deployment of IEEE 802.22 Systems'
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/6205324
+- content: https://ieeexplore.ieee.org/document/6293826
   type: src
 type: standard
 docid:
@@ -20,16 +20,16 @@ docid:
   type: IEEE
   scope: trademark
   primary: true
-- id: 978-0-7381-7490-7
+- id: 978-0-7381-7555-3
   type: ISBN
 docnumber: IEEE P802.22.2/D-3.0-2012-05
 date:
 - type: created
-  value: '2012-05-25'
+  value: '2012-08-31'
 - type: published
-  value: '2012-05-25'
+  value: '2012-08-31'
 - type: issued
-  value: '2012-05-25'
+  value: '2012-08-31'
 contributor:
 - organization:
     name:
@@ -43,7 +43,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2012-05-25'
+revdate: '2012-08-31'
 language:
 - en
 script:
@@ -69,27 +69,28 @@ copyright:
   from: '2012'
 keyword:
 - content: IEEE standards
-- content: Cognitive radio
-- content: TV
 - content: White spaces
+- content: TV
+- content: Cognitive radio
 - content: Broadband communication
-- content: Information exchange
 - content: Wireless networks
+- content: Information exchange
 - content: Information technology
 - content: IEEE 802.22
 - content: cognitive radio
 - content: broadband
 - content: TV bands
 - content: white spaces
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

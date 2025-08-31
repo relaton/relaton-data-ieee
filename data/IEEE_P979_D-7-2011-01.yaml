@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP979-D-7-2011-01
 title:
 - content: IEEE Draft Guide for Substation Fire Protection
@@ -55,6 +55,13 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Guidance is provided to substation engineers in determining the design,
+    equipment, and practices deemed necessary for the fire protection of substations.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -77,15 +84,16 @@ keyword:
 - content: safety
 - content: substation design
 - content: substations
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power &amp; Energy Society
-ics:
-- code: 13.220.01
-  text: General standards related to fire protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 13.220.01
+    text: General standards related to fire protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

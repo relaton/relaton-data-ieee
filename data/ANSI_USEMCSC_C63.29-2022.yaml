@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-USEMCSCC63.29-2022
 title:
 - content: American National Standard for Methods of Measurement of Radio-Frequency
@@ -97,12 +97,16 @@ keyword:
 - content: magnetic field measurement
 - content: radiated emission testing
 - content: unintentional radiators
-doctype: standard
-editorialgroup:
-  committee:
-  - Committee on Electromagnetic Compatibility
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Committee on Electromagnetic Compatibility
+  ics:
+  - code: 29.140.01
+    text: Lamps in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

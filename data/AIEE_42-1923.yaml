@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE42-1923
 title:
 - content: AIEE Standard Symbols for Electrical Equipment of Buildings
@@ -54,6 +54,12 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Standard Symbols for Electrical Equipment of Buildings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: withdrawn
@@ -68,9 +74,10 @@ keyword:
 - content: Buildings
 - content: Symbols
 - content: Terminology
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

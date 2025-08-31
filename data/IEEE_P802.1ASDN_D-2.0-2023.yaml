@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1ASdn-D-2.0-2023
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks - Timing
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2023-12-14'
 - type: published
-  value: '2024-06-07'
+  value: '2024-06-06'
 - type: issued
-  value: '2023'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -41,14 +41,14 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-06-07'
+revdate: '2024-06-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This amendment to IEEE Std 802.1ASTM-2020 specifies a YANG data model that
-    allows configuration and state reporting for all managed objects of the base standard.
+- content: A YANG data model that allows configuration and state reporting for all
+    managed objects of the base standard is specified in this amendment.
   language:
   - en
   script:
@@ -68,13 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1AS-2020
+    id: IEEEStd802.1AS-2020
     docid:
-    - id: IEEE 802.1AS-2020
+    - id: IEEE Std 802.1AS-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1AS-2020
+      content: IEEE Std 802.1AS-2020
       format: text/plain
   description:
     content: amends
@@ -91,23 +91,26 @@ keyword:
 - content: Metropolitan area networks
 - content: Synchronization
 - content: Timing
-- content: YANG
+- content: amendment
 - content: data model
-- content: network management
-- content: managed objects
 - content: IEEE 802.1AS&#8482;
+- content: IEEE 802.1ASdn&#8482;
+- content: managed objects
+- content: network management
 - content: synchronization
 - content: syntonization
 - content: time-aware system
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
+- content: YANG
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

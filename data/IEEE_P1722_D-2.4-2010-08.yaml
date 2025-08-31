@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1722-D-2.4-2010-08
 title:
 - content: IEEE Draft Standard for Layer 2 Transport Protocol for Time Sensitive Applications
@@ -86,15 +86,16 @@ keyword:
 - content: LAN
 - content: bridged LAN
 - content: time synchronization
-doctype: standard
-editorialgroup:
-  committee:
-  - Microprocessor Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

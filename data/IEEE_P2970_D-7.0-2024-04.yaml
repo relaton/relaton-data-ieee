@@ -1,9 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2970-D-7.0-2024-04
 title:
-- content: IEEE Draft Guide for Synchronous Monitoring of the Magnitude and Distribution
-    of Stray Current in Urban Rail Transit's Direct Current Traction System
+- content: IEEE Approved Draft Guide for Synchronous Monitoring of the Magnitude and
+    Distribution of Stray Current in Urban Rail Transit's Direct Current Traction
+    System
   format: text/plain
   type: main
 link:
@@ -23,11 +24,11 @@ docid:
 docnumber: IEEE P2970/D-7.0-2024-04
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-11'
 - type: published
   value: '2024-04-25'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -46,6 +47,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: A method of synchronous monitoring, the principle of siting, the technical
+    requirements of the monitoring device and system, and a method of data processing
+    for stray current in urban rail transit’s direct current (dc) traction system
+    and dc bias current in the power grid are specified by this guide.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -58,19 +69,31 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
-- content: Stray current
-- content: DC bias current
-- content: urban rail transit
-- content: neutral point of the power transformer
-- content: synchronous monitoring
+- content: IEEE Standards
+- content: Rail transportation
+- content: Power transformers
+- content: Monitoring
+- content: DC machines
+- content: Traction motors
+- content: dc bias current
+- content: IEEE 2970&#8482;
 - content: monitoring system
-doctype: standard
-editorialgroup:
-  committee:
-  - Traction Power Systems Standards Committee of the IEEE Vehicular Technology Society
+- content: neutral point of the power transformer
+- content: stray current
+- content: synchronous monitoring
+- content: urban rail transit
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Traction Power Systems Standards Committee of the IEEE Vehicular Technology
+      Society
+  ics:
+  - code: '29.280'
+    text: Electric traction equipment
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

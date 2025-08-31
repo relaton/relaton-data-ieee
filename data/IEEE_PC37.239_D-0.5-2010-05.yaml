@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.239-D-0.5-2010-05
 title:
 - content: IEEE Standard Common Format for Event Data Exchange (COMFEDE) for Power
@@ -76,17 +76,18 @@ keyword:
 - content: XML name spaces
 - content: instance file
 - content: payload data.
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 29.240.99
-  text: Other equipment related to power transmission and distribution networks
-- code: '35.06'
-  text: Character sets and information coding
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.99
+    text: Other equipment related to power transmission and distribution networks
+  - code: '35.06'
+    text: Character sets and information coding
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

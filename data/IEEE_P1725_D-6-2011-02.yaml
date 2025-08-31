@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1725-D-6-2011-02
 title:
 - content: IEEE Draft Standard for Rechargeable Batteries for Cellular Telephones
@@ -77,15 +77,16 @@ keyword:
 - content: Cellular phones
 - content: lithium ion batteries
 - content: cellular telephones
-doctype: standard
-editorialgroup:
-  committee:
-  - Stationary Batteries Committee of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.220.10
-  text: Primary cells and batteries
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Stationary Batteries Committee of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.220.10
+    text: Primary cells and batteries
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,0 +1,103 @@
+---
+schema-version: v1.2.9
+id: IEEEStd1275.2-1994
+title:
+- content: 'IEEE Standard for Boot (Initialization Configuration) Firmware: Bus Supplement
+    for IEEE 1496 (SBus)'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/467434
+  type: src
+type: standard
+docid:
+- id: IEEE Std 1275.2-1994
+  type: IEEE
+  primary: true
+- id: IEEE Std 1275.2™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-0-7381-1205-3
+  type: ISBN
+- id: 10.1109/IEEESTD.1994.122168
+  type: DOI
+docnumber: IEEE Std 1275.2-1994
+date:
+- type: created
+  value: '1994-11-18'
+- type: published
+  value: '2019-04-24'
+- type: issued
+  value: '1994-09-22'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2019-04-24'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'Firmware is the read-only-memory (ROM)-based software that controls a
+    computer between the time it is turned on and the time the primary operating system
+    takes control of the machine. Firmware''s responsibilites include testing and
+    initializing the hardware, determining the hardware configuration, loading (or
+    booting) the operating system, and providing interactive debugging facilities
+    in case of faulty hardware or software. The core requirements and practices specified
+    by IEEE Std 1275-1994 must be supplemented by system-specific requirements to
+    form a complete specification for the firmware for a particular system. This standard
+    establishes such additional requirements pertaining to the bus architecture defined
+    by IEEE Std 1496-1993, IEEE Standard for a Chip and Module Interconnect Bus: SBus.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: withdrawn
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '1994'
+keyword:
+- content: IEEE standards
+- content: Data buses
+- content: boot
+- content: configuration
+- content: debug
+- content: FCode
+- content: firmware
+- content: Forth
+- content: initialization
+- content: plug-in device
+- content: ROM
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

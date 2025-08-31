@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10700-D-7-2022-09
 title:
 - content: 'IEEE Approved Draft Standard - Health Informatics -- Device Interoperability
@@ -97,16 +97,17 @@ keyword:
 - content: effectiveness
 - content: and security; system function; system function contribution; usability
     engineering
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

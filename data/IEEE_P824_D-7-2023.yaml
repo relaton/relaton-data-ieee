@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP824-D-7-2023
 title:
 - content: IEEE Draft Standard for Series Capacitor Banks in Power Systems
@@ -22,9 +22,9 @@ docid:
 docnumber: IEEE P824/D-7-2023
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-08'
 - type: published
-  value: '2024-07-10'
+  value: '2024-07-09'
 - type: issued
   value: '2024'
 contributor:
@@ -40,7 +40,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-07-10'
+revdate: '2024-07-09'
 language:
 - en
 script:
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE824-2004
+    id: IEEEStd824-2004
     docid:
-    - id: IEEE 824-2004
+    - id: IEEE Std 824-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 824-2004
+      content: IEEE Std 824-2004
       format: text/plain
   description:
     content: revises
@@ -105,16 +105,17 @@ keyword:
 - content: trigger circuit
 - content: triggered gap
 - content: varistor
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 31.060.99
-  text: Other capacitors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 31.060.99
+    text: Other capacitors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

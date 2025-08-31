@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1547-D-7.1-2017-11
 title:
 - content: IEEE Draft Standard for Interconnection and Interoperability of Distributed
@@ -81,13 +81,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1547-2003
+    id: IEEEStd1547-2003
     docid:
-    - id: IEEE 1547-2003
+    - id: IEEE Std 1547-2003
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1547-2003
+      content: IEEE Std 1547-2003
       format: text/plain
   description:
     content: revises
@@ -162,15 +162,13 @@ keyword:
 - content: utilities
 - content: voltage regulation
 - content: wind energy systems
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '27.100'
-  text: Power stations in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '27.100'
+    text: Power stations in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

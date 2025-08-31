@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1278.1-D-15-2010-04
 title:
 - content: IEEE Draft Standard for Distributed Interactive Simulation - Application
@@ -81,16 +81,17 @@ keyword:
 - content: Distributed Interactive Simulation
 - content: protocol data units (PDUs)
 - content: Simulation network
-doctype: standard
-editorialgroup:
-  committee:
-  - Simulation Interoperability Stds Organization/Stds Activities Committee of the
-    IEEE Computer Society
-ics:
-- code: '35.020'
-  text: Information technology in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Simulation Interoperability Stds Organization/Stds Activities Committee of the
+      IEEE Computer Society
+  ics:
+  - code: '35.020'
+    text: Information technology in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

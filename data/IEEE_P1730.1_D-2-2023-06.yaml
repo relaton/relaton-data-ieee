@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1730.1-D-2-2023-06
 title:
 - content: IEEE Approved Draft Recommended Practice for Distributed Simulation Engineering
@@ -78,13 +78,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1730.1-2013
+    id: IEEEStd1730.1-2013
     docid:
-    - id: IEEE 1730.1-2013
+    - id: IEEE Std 1730.1-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1730.1-2013
+      content: IEEE Std 1730.1-2013
       format: text/plain
   description:
     content: revises
@@ -113,17 +113,18 @@ keyword:
 - content: systems engineering methodology
 - content: TENA
 - content: Test and Training Enabling Architecture
-doctype: standard
-editorialgroup:
-  committee:
-  - Simulation Interoperability Stds Organization/Stds Activity Committee of the IEEE
-    Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Simulation Interoperability Stds Organization/Stds Activity Committee of the
+      IEEE Computer Society
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

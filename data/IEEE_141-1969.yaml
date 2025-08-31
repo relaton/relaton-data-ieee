@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE141-1969
 title:
 - content: IEEE Electric Power Distribution for Industrial Plants, Fourth Edition
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE 141-1969
 date:
 - type: created
-  value: '1969'
+  value: '1969-04-05'
 - type: published
   value: '2019-04-05'
 - type: issued
@@ -55,9 +55,10 @@ copyright:
       content: IEEE
     url: http://www.ieee.org
   from: '1969'
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

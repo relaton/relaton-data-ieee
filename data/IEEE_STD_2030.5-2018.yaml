@@ -1,0 +1,156 @@
+---
+schema-version: v1.2.9
+id: IEEEStd2030.5-2018
+title:
+- content: IEEE Standard for Smart Energy Profile Application Protocol
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/8608044
+  type: src
+type: standard
+docid:
+- id: IEEE Std 2030.5-2018
+  type: IEEE
+  primary: true
+- id: IEEE Std 2030.5®-2018
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-1-5044-4907-6
+  type: ISBN
+- id: 10.1109/IEEESTD.2018.8608044
+  type: DOI
+docnumber: IEEE Std 2030.5-2018
+date:
+- type: created
+  value: '2018-12-21'
+- type: published
+  value: '2019-01-10'
+- type: issued
+  value: '2018-05-07'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2019-01-10'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: The application layer with TCP/IP providing functions in the transport
+    and Internet layers to enable utility management of the end user energy environment,
+    including demand response, load control, time of day pricing, management of distributed
+    generation, electric vehicles, etc. is defined in this standard. Depending on
+    the physical layer in use (e.g., IEEE 802.15.4&#x2122;, IEEE 802.11&#x2122;, IEEE
+    1901&#x2122;, IEEE 1901.2&#x2122;), a variety of lower layer protocols may be
+    involved in providing a complete solution. Generally, lower layer protocols are
+    not discussed in this standard except where theree is direct interaction with
+    the application protocol. The mechanisms for exchanging application messages,
+    the exact messages exchanged including error messages, and the security features
+    used to protect the application messages are defined in this standard. With respect
+    to the Open Systems Interconnection (OSI) network model, this standard is built
+    using the four layer Internet stack model. The defined application profile sources
+    elements from many existing standards, including IEC 61968 and IEC 61850, and
+    follows a RESTful architecture (Fielding [B3]) using IETF protocols such as HTTP.
+    (Additional files for downloads can be found at https://standards.ieee.org/content/dam/ieee-standards/standards/web/download/2030.5-2018_downloads.zip).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: The application layer with TCP/IP providing functions in the transport
+    and Internet layers to enable utility management of the end user energy environment,
+    including demand response, load control, time of day pricing, management of distributed
+    generation, electric vehicles, etc. is defined in this standard. Depending on
+    the physical layer in use (e.g., IEEE 802.15.4, IEEE 802.11, IEEE 1901, IEEE 1901.2),
+    a variety of lower layer protocols may be involved in providing a complete solution.
+    Generally, lower layer protocols are not discussed in this standard except where
+    there is direct interaction with the application protocol. The mechanisms for
+    exchanging application messages, the exact messages exchanged including error
+    messages, and the security features used to protect the application messages are
+    defined in this standard. With respect to the Open Systems Interconnection (OSI)
+    network model, this standard is built using the four layer Internet stack model.
+    The defined application profile sources elements from many existing standards,
+    including IEC 61968 and IEC 61850, and follows a RESTful architecture (Fielding
+    [B3]) using IETF protocols such as HTTP. (Additional files for downloads can be
+    found at https://standards.ieee.org/content/dam/ieee-standards/standards/web/download/2030.5-2018_downloads.zip)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2018'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd2030.5-2013
+    docid:
+    - id: IEEE Std 2030.5-2013
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 2030.5-2013
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Power distribution
+- content: Energy management
+- content: Electric vehicles
+- content: Smart grids
+- content: adoption
+- content: application
+- content: application protocol
+- content: demand response
+- content: distributed energy resources
+- content: energy usage information
+- content: IEEE 2030.5
+- content: load control
+- content: metering
+- content: plugin electric vehicles
+- content: prepayment
+- content: pricing communication
+- content: RESTful
+- content: SEP 2
+- content: smart energy
+- content: smart energy profile
+- content: Smart Energy Profile 2
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power Line Communications of the IEEE Communications Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

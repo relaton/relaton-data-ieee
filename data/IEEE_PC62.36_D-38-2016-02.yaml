@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.36-D-38-2016-02
 title:
 - content: IEEE Approved Draft Standard for Test Methods for Surge Protectors and
@@ -101,15 +101,16 @@ keyword:
 - content: Smart Grid Surge Protection
 - content: Telecommunication Line Protector Unit
 - content: Signal Line Surge Protection
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

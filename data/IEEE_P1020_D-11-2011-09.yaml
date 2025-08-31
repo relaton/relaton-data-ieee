@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1020-D-11-2011-09
 title:
 - content: IEEE Draft Guide for Control of Small (100 kVA to 5 MVA) Hydroelectric
@@ -70,15 +70,16 @@ keyword:
 - content: IEEE standards
 - content: Hydroelectric power generation
 - content: Power systems planning
-doctype: standard
-editorialgroup:
-  committee:
-  - Energy Development &amp; Power Generation of the IEEE Power &amp; Energy Society
-ics:
-- code: '27.140'
-  text: Hydraulic energy engineering
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Energy Development &amp; Power Generation of the IEEE Power &amp; Energy Society
+  ics:
+  - code: '27.140'
+    text: Hydraulic energy engineering
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

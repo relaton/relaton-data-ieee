@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.11-Amd5-2018
 title:
 - content: 'Telecommunications and exchange between information technology systems-Requirements
@@ -60,6 +60,14 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Modifications to IEEE Std 802.11(TM)-2016, above the physical layer (PHY),
+    to enable delivery of preassociation service discovery information to IEEE 802.11
+    stations (STAs) are defined in this amendment.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -93,15 +101,16 @@ keyword:
 - content: IEEE 802.11aq
 - content: preassociation
 - content: service discovery
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

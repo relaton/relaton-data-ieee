@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1561-D-2.0-2018-10
 title:
 - content: IEEE Draft Guide for Optimizing the Performance and Life of Lead-Acid Batteries
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1561-2007
+    id: IEEEStd1561-2007
     docid:
-    - id: IEEE 1561-2007
+    - id: IEEE Std 1561-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1561-2007
+      content: IEEE Std 1561-2007
       format: text/plain
   description:
     content: revises
@@ -102,15 +102,13 @@ keyword:
 - content: remote hybrid power systems
 - content: valve-regulated lead-acid (LRVA) batteries
 - content: vented lead-acid batteries
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 29.220.20
-  text: Acid secondary cells and batteries
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.220.20
+    text: Acid secondary cells and batteries
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

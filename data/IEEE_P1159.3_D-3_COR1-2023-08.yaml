@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1159.3-D-3-Cor1-2023-08
 title:
 - content: IEEE Approved Draft Recommended Practice for Power Quality Data Interchange
@@ -47,11 +47,12 @@ language:
 script:
 - Latn
 abstract:
-- content: 'IEEE Std 1159.3-2019 specifies the Power Quality Data Interchange Format
-    (PQDIF), which is a file format suitable for exchanging power quality related
-    measurement and simulation data in a vendor-independent manner. This corrigendum
-    reinstates two critical “tags” to Table B.6 that were recommended in IEEE Std
-    1159.3-2003 but removed in IEEE Std 1159.3-2019: tagChannelDefnIdx and tagChannelGroupID'
+- content: 'IEEE Std 1159.3&#8482;-2019 specifies the Power Quality Data Interchange
+    Format (PQDIF), which is a file format suitable for exchanging power quality related
+    measurement and simulation data in a vendor-independent manner. Two critical “tags”
+    to Table B.6 that were recommended in IEEE Std 1159.3-2003 but removed in IEEE
+    Std 1159.3-2019: tagChannelDefnIdx and tagChannelGroupID are reinstated in this
+    corrigendum.'
   language:
   - en
   script:
@@ -71,81 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1159.3-2019
+    id: IEEEStd1159.3-2019
     docid:
-    - id: IEEE 1159.3-2019
+    - id: IEEE Std 1159.3-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1159.3-2019
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1159.3-2019
-    docid:
-    - id: IEEE 1159.3-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1159.3-2019
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1159.3-2019
-    docid:
-    - id: IEEE 1159.3-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1159.3-2019
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1159.3-2019
-    docid:
-    - id: IEEE 1159.3-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1159.3-2019
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1159.3-2019
-    docid:
-    - id: IEEE 1159.3-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1159.3-2019
+      content: IEEE Std 1159.3-2019
       format: text/plain
   description:
     content: corrects
@@ -162,23 +95,24 @@ keyword:
 - content: Power quality
 - content: data interchange
 - content: file format
-- content: IEEE 1159.3
+- content: IEEE 1159.3&#8482;
 - content: measurement
 - content: monitoring
 - content: power quality
 - content: PQDIF
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
-- code: 35.240.63
-  text: IT applications in trade
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: 35.240.63
+    text: IT applications in trade
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

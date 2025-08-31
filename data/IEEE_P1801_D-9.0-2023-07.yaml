@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1801-D-9.0-2023-07
 title:
 - content: IEEE Draft Standard for Design and Verification of Low Power, Energy Aware
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P1801/D-9.0-2023-07
 date:
 - type: created
-  value: '2023'
+  value: '2023-07-12'
 - type: published
   value: '2023-07-18'
 - type: issued
-  value: '2023'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -47,11 +47,13 @@ language:
 script:
 - Latn
 abstract:
-- content: Significant community acceptance and environmental compatibility items
-    to be considered during the planning and design phases, the construction period,
-    and the operation of electric supply substations are identified, and ways to address
-    these concerns to obtain community acceptance and environmental compatibility
-    are documented. On-site generation and telecommunication facilities are not considered.
+- content: A method is provided for specifying power intent for an electronic design,
+    for use in verification of the structure and behavior of the design in the context
+    of a given power-management architecture, and for driving implementation of that
+    power-management architecture. The method supports incremental refinement of power
+    intent specifications required for IP-based design flows. (The PDF of this standard
+    is available to you at no cost through the IEEE GET program https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=80).
+    Open Source codes are available at https://opensource.ieee.org/upf.
   language:
   - en
   script:
@@ -71,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1801-2018
+    id: IEEEStd1801-2018
     docid:
-    - id: IEEE 1801-2018
+    - id: IEEE Std 1801-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1801-2018
+      content: IEEE Std 1801-2018
       format: text/plain
   description:
     content: revises
@@ -94,25 +96,30 @@ keyword:
 - content: Communications technology
 - content: Energy management systems
 - content: Substations
-- content: A-weighted sound level
-- content: commercial zone
-- content: community involvement
-- content: hazardous material
-- content: IEEE 1127&#8482;
-- content: industrial zone
-- content: noise
-- content: permitting process
-- content: residential zone
-- content: wetlands
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '31.200'
-  text: Integrated circuits. Microelectronics
+- content: corruption semantics
+- content: IEEE 1801™
+- content: interface specification
+- content: IP reuse
+- content: isolation
+- content: level shifting
+- content: power-aware design
+- content: power domains
+- content: power intent
+- content: power modes
+- content: power states
+- content: progressive design refinement
+- content: retention
+- content: retention strategies
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

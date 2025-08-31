@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1627-D-1.5-2012-03
 title:
 - content: IEEE Draft Standard for Grounding Practices for dc Electrification Overhead
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1627/D-1.5-2012-03
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-03'
 - type: published
   value: '2012-04-05'
 - type: issued
@@ -87,18 +87,18 @@ keyword:
 - content: Switching systems
 - content: Voltage control
 - content: Surge arrester
-- content: Lightning
 - content: Overvoltage
 - content: Switching surges
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
-ics:
-- code: '45.100'
-  text: Cableway equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
+  ics:
+  - code: '45.100'
+    text: Cableway equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

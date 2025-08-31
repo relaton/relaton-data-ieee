@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-IECP60802-D-3.0-2024-08
 title:
 - content: IEEE/IEC Draft International Standard Time-Sensitive Networking Profile
@@ -68,13 +68,14 @@ keyword:
 - content: Sensitivity analysis
 - content: Local area networks
 - content: Metropolitan area networks
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

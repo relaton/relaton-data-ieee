@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3145-D-2.0-2024-04
 title:
-- content: IEEE Draft Standard for General Technical Requirement of Auxiliary Warehouse
-    in Smart Factory
+- content: IEEE Approved Draft Standard for General Technical Requirement of Auxiliary
+    Warehouse in Smart Factory
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P3145/D-2.0-2024-04
 date:
 - type: created
-  value: '2024-05-06'
+  value: '2024-06-12'
 - type: published
-  value: '2024-05-15'
+  value: '2024-05-14'
 - type: issued
-  value: '2024'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -41,18 +41,18 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-05-15'
+revdate: '2024-05-14'
 language:
 - en
 script:
 - Latn
 abstract:
 - content: Logistics operation processes in a smart factory, including the process
-    composition such as warehousing, packaging, shipment or transportation, implementation
-    conditions; process quality evaluation and process improvement are described in
-    this standard. This standard also defines methods for management organization,
-    facility layout, equipment requirements, information systems, employee requirements,
-    emergency management, and evaluation in a smart factory.
+    composition such as warehousing, packaging, shipment, or transportation; implementation
+    conditions; process quality evaluation; and process improvement are described
+    in this standard. Methods for management organization, facility layout, equipment
+    requirements, information systems, employee requirements, emergency management,
+    and evaluation in a smart factory are defined in this standard.
   language:
   - en
   script:
@@ -79,13 +79,19 @@ keyword:
 - content: operation process
 - content: smart factory
 - content: smart logistics
-doctype: standard
-editorialgroup:
-  committee:
-  - Smart Manufacturing Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Smart Manufacturing Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.63
+    text: IT applications in trade
+  - code: '55.220'
+    text: Storing. Warehousing
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

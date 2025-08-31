@@ -1,0 +1,150 @@
+---
+schema-version: v1.2.9
+id: IEEEP802.15.4ab-D-02-2025-03
+title:
+- content: 'IEEE Draft Standard for Low-Rate Wireless Network Amendment 1: Enhanced
+    Ultra Wide-Band (UWB) Physical Layers (PHYs) and Associated Medium Access and
+    Control (MAC) sublayer Enhancements'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/10982429
+  type: src
+type: standard
+docid:
+- id: IEEE P802.15.4ab/D-02-2025-03
+  type: IEEE
+  primary: true
+- id: IEEE P802.15.4ab™/D-02-2025-03
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2159-1
+  type: ISBN
+docnumber: IEEE P802.15.4ab/D-02-2025-03
+date:
+- type: created
+  value: '2025-05-01'
+- type: published
+  value: '2025-05-02'
+- type: issued
+  value: '2025'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-05-02'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'This amendment enhances the Ultra Wideband (UWB) physical layers (PHYs)
+    medium access control (MAC), and associated ranging techniques while retaining
+    backward compatibility with enhanced ranging capable devices (ERDEVs). Areas of
+    enhancement include: additional coding, preamble and modulation schemes to support
+    improved link budget and/or reduced air-time; additional channels and operating
+    frequencies; interference mitigation techniques to support greater device density
+    and higher traffic use cases; improvements to accuracy, precision and reliability
+    and interoperability for high-integrity ranging; schemes to reduce complexity
+    and power consumption; definitions for tightly coupled hybrid operation with narrowband
+    signaling to assist UWB; enhanced native discovery and connection setup mechanisms;
+    UWB sensing capabilities to support presence detection and environment mapping;
+    and mechanisms supporting low-power low-latency streaming as well as high data-rate
+    streaming allowing at least 50 Mbit/s of throughput; and, support for peer-to-peer,
+    peer-to-multi-peer, and station-to-infrastructure protocols and infrastructure
+    synchronization mechanisms.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd802.15.4-2020
+    docid:
+    - id: IEEE Std 802.15.4-2020
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.15.4-2020
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Local area networks
+- content: Metropolitan area networks
+- content: Narrowband
+- content: Sensor systems
+- content: Location awareness
+- content: Ultra wideband communication
+- content: Physical layer
+- content: narrowband assisted
+- content: NBA
+- content: ultra wideband UWB
+- content: multi-millisecond
+- content: MMS
+- content: ranging
+- content: advanced ranging device
+- content: ARDEV
+- content: sensing
+- content: sensing device
+- content: SDEV
+- content: enhanced modulations device
+- content: EMDEV
+- content: low-latency data device
+- content: LLDDEV
+- content: wake-up radio
+- content: two-way ranging
+- content: TWR
+- content: ranging device
+- content: RDEV
+- content: ERDEV
+- content: HRP UWB PHY
+- content: real time location systems
+- content: RTLS
+- content: single-sided two-way ranging
+- content: SSTWR
+- content: time of flight
+- content: TOF
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1900.6a-D-0.7-2013-11
 title:
 - content: 'IEEE Approved Draft Standard for Spectrum Sensing Interfaces and Data
@@ -87,16 +87,17 @@ keyword:
 - content: protocols
 - content: sensing information
 - content: spectrum sensor
-doctype: standard
-editorialgroup:
-  committee:
-  - Dynamic Spectrum Access Networks Standards Committee of the IEEE Communications
-    Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Dynamic Spectrum Access Networks Standards Committee of the IEEE Communications
+      Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

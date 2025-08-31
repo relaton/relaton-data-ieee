@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1493-D-3-2023-01
 title:
-- content: IEEE Draft Guide for the Evaluation of Solvents Used for Cleaning Electrical
-    Cables and Accessories
+- content: IEEE Approved Draft Guide for the Evaluation of Solvents Used for Cleaning
+    Electrical Cables and Accessories
   format: text/plain
   type: main
 link:
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1493/D-3-2023-01
 date:
 - type: created
-  value: '2023-02-15'
+  value: '2024-05-23'
 - type: published
   value: '2023-02-16'
 - type: issued
@@ -47,16 +47,16 @@ language:
 script:
 - Latn
 abstract:
-- content: Test procedures for evaluating the physical characteristics of cable cleaning
+- content: Test procedures for evaluating the physical characteristics of cable-cleaning
     solvents and their compatibility with extruded dielectric cable components and
     cable accessories (joints and terminations) are provided in this guide. Compatibility
     is established by placing component samples in contact with the cleaning solvent
     for a short period and then measuring the physical or electrical properties of
     the component. The measured values are compared with values for samples that have
     not been in contact with the cleaner. Suggested performance values are provided.
-    This guide also provides suggested procedures for evaluating the cleaning effectiveness
-    of cable cleaning solvents. These comparative test procedures do not provide absolute
-    performance values
+    Also provided are suggested procedures for evaluating the cleaning effectiveness
+    of cable-cleaning solvents. Absolute performance values are not provided by these
+    comparative test procedures.
   language:
   - en
   script:
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1493-2006
+    id: IEEEStd1493-2006
     docid:
-    - id: IEEE 1493-2006
+    - id: IEEE Std 1493-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1493-2006
+      content: IEEE Std 1493-2006
       format: text/plain
   description:
     content: revises
@@ -100,17 +100,19 @@ keyword:
 - content: cleaning effectiveness
 - content: compatibility
 - content: extruded dielectric cable
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.060.20
-  text: Cables
-- code: 87.060.30
-  text: Solvents
+- content: IEEE 1493
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 29.060.20
+    text: Cables
+  - code: 87.060.30
+    text: Solvents
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

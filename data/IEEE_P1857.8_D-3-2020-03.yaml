@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1857.8-D-3-2020-03
 title:
 - content: IEEE Draft Standard for 2nd Generation Audio Coding
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1857.8/D-3-2020-03
 date:
 - type: created
-  value: '2020'
+  value: '2020-03-26'
 - type: published
   value: '2020-03-31'
 - type: issued
@@ -82,15 +82,16 @@ keyword:
 - content: spatial coding
 - content: IEEE 1857.8
 - content: panoramic audio
-doctype: standard
-editorialgroup:
-  committee:
-  - Data Compression Standards Committee of the IEEE Computer Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Data Compression Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

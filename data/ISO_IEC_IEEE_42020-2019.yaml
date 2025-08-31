@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE42020-2019
 title:
 - content: ISO/IEC/IEEE International Standard - Software, systems and enterprise
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2020-05-22'
 - type: created
-  value: '2019'
+  value: '2019-07-19'
 - type: published
   value: '2019-07-19'
 - type: issued
@@ -51,6 +51,24 @@ language:
 script:
 - Latn
 abstract:
+- content: 'This document complements the architecture-related processes identified
+    in ISO/IEC/IEEE 15288, ISO/IEC/IEEE 12207 and ISO 15704 with activities and tasks
+    that enable architects and others to more effectively and efficiently implement
+    architecture practices. Implementing these practices can help ensure that the
+    architecture has greater influence on business and mission success. It specifies
+    a coherent set of processes for governance, management, conceptualization, evaluation
+    and elaboration of architectures, and activities that enable these processes.
+    Users of this document can apply these processes in the context of: (1) understanding,
+    development and evolution of entities through their life cycle stages such as
+    conception, development, implementation, operation, sustainment, decommissioning,
+    and disposal; (2) organization(s) acting as users, customers and providers of
+    the solution specified by the architecture description; and (3) architecting of
+    entities.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 - content: 'This document complements the architecture-related processes identified
     in ISO/IEC/IEEE 15288, ISO/IEC/IEEE 12207 and ISO 15704 with activities and tasks
     that enable architects and others to more effectively and efficiently implement
@@ -113,12 +131,14 @@ keyword:
 - content: tradeoff
 - content: view
 - content: viewpoint
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

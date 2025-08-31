@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1800-D-6-2012-08
 title:
 - content: IEEE Approved Draft Standard for System Verilog--Unified Hardware Design,
@@ -73,13 +73,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1800-2009Redline
+    id: IEEEStd1800-2009Redline
     docid:
-    - id: IEEE 1800-2009 Redline
+    - id: IEEE Std 1800-2009 Redline
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1800-2009 Redline
+      content: IEEE Std 1800-2009 Redline
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1800-2009Redline
+    docid:
+    - id: IEEE Std 1800-2009 Redline
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1800-2009 Redline
       format: text/plain
   description:
     content: revises
@@ -105,15 +122,13 @@ keyword:
 - content: SystemVerilog
 - content: Verilog
 - content: VPI
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

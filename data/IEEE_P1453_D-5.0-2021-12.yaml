@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1453-D-5.0-2021-12
 title:
 - content: IEEE Draft Standard for Measurement and Limits of Voltage Fluctuations
@@ -87,30 +87,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1453-2015
+    id: IEEEStd1453-2015
     docid:
-    - id: IEEE 1453-2015
+    - id: IEEE Std 1453-2015
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1453-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1453-2015
-    docid:
-    - id: IEEE 1453-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1453-2015
+      content: IEEE Std 1453-2015
       format: text/plain
   description:
     content: revises
@@ -121,9 +104,9 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE Standards
-- content: Flicker
 - content: Voltage fluctuations
-- content: Power systems measurement
+- content: Fluctuations
+- content: Power system measurements
 - content: flicker
 - content: fluctuating installations
 - content: IEEE 1453
@@ -131,15 +114,16 @@ keyword:
 - content: rapid voltage change
 - content: RVC
 - content: voltage fluctuations
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 33.100.10
+    text: Emission
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030-D-7.0-2011-07
 title:
 - content: IEEE Draft Guide for Smart Grid Interoperability of Energy Technology and
@@ -78,17 +78,18 @@ keyword:
 - content: Smart grids
 - content: Power system planning
 - content: Power distribution
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

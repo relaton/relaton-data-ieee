@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11s-D-8.0-2010-12
 title:
 - content: 'IEEE Standard for Information Technology--Telecommunications and information
@@ -82,19 +82,20 @@ keyword:
 - content: path selection
 - content: wireless LAN
 - content: zero-knowledge proof
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

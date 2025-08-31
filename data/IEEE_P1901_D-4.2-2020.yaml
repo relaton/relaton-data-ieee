@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1901-D-4.2-2020
 title:
 - content: 'IEEE Draft Standard for Broadband over Power Line Networks: Medium Access
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1901/D-4.2-2020
 date:
 - type: created
-  value: '2020'
+  value: '2020-06-06'
 - type: published
   value: '2020-06-19'
 - type: issued
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1901-2010
+    id: IEEEStd1901-2010
     docid:
-    - id: IEEE 1901-2010
+    - id: IEEE Std 1901-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1901-2010
+      content: IEEE Std 1901-2010
       format: text/plain
   description:
     content: revises
@@ -93,47 +93,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE1901-2010
+    id: IEEEStd1901-2010
     docid:
-    - id: IEEE 1901-2010
+    - id: IEEE Std 1901-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1901-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1901-2010
-    docid:
-    - id: IEEE 1901-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1901-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1901-2010
-    docid:
-    - id: IEEE 1901-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1901-2010
+      content: IEEE Std 1901-2010
       format: text/plain
   description:
     content: revises
@@ -171,15 +137,13 @@ keyword:
 - content: security
 - content: sine modulated filter banks
 - content: wavelet orthogonal frequency division multiplexing (wavelet OFDM)
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Line Communications of the IEEE Communications Society
-ics:
-- code: 33.040.60
-  text: Powerline telecommunications
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 33.040.60
+    text: Powerline telecommunications
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

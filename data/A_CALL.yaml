@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ACall
 title:
 - content: A Call to Action for Businesses Using AI - Ethically Aligned Design for
@@ -23,7 +23,7 @@ docid:
 docnumber: A Call
 date:
 - type: created
-  value: '2020'
+  value: '2020-04-06'
 - type: published
   value: '2021-04-07'
 - type: issued
@@ -79,12 +79,13 @@ keyword:
 - content: tech-centric
 - content: human-centric AI
 - content: Ethically Aligned Design
-doctype: standard
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Active
   pubstatus: Active
   holdstatus: Publish

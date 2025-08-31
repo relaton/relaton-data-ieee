@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2807.1-D-2-2024-04
 title:
-- content: IEEE Draft Standard for Technical Requirements and Evaluation of Knowledge
-    Graphs
+- content: IEEE Approved Draft Standard for Technical Requirements and Evaluation
+    of Knowledge Graphs
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P2807.1/D-2-2024-04
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-12'
 - type: published
   value: '2024-04-26'
 - type: issued
-  value: '2024'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -78,17 +78,21 @@ keyword:
 - content: Design engineering
 - content: IEEE 2807.1&#8482;
 - content: knowledge graph
-- content: knowledge graph evaluation
-- content: knowledge graph construction
 - content: knowledge graph application
+- content: knowledge graph construction
+- content: knowledge graph evaluation
 - content: performance metrics
-doctype: standard
-editorialgroup:
-  committee:
-  - Knowledge Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Knowledge Engineering Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.01
+    text: Application of information technology in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

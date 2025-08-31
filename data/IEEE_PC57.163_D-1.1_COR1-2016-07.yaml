@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.163-D-1.1-Cor1-2016-07
 title:
 - content: IEEE Approved Draft Guide for Establishing Power Transformer Capability
@@ -70,19 +70,20 @@ keyword:
 - content: Power transformers
 - content: Geomagnetic disturbances
 - content: Temperature measurement
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
-- code: '29.180'
-  text: Transformers. Reactors
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  - code: '29.180'
+    text: Transformers. Reactors
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

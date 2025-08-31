@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.139-D-7-2015-09
 title:
 - content: IEEE Approved Draft Guide for Dissolved Gas Analysis in Transformer Load
@@ -80,17 +80,18 @@ keyword:
 - content: IEEE C57.139(TM)
 - content: load tap changer
 - content: LTC
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 29.040.10
-  text: Insulating oils
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: 29.040.10
+    text: Insulating oils
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

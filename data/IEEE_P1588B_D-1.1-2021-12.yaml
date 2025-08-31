@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1588b-D-1.1-2021-12
 title:
 - content: 'IEEE Approved Draft Standard for a Precision Clock Synchronization Protocol
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P1588b/D-1.1-2021-12
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-21'
 - type: published
   value: '2022-01-25'
 - type: issued
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1588-2019
+    id: IEEEStd1588-2019
     docid:
-    - id: IEEE 1588-2019
+    - id: IEEE Std 1588-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1588-2019
+      content: IEEE Std 1588-2019
       format: text/plain
   description:
     content: amends
@@ -97,15 +97,16 @@ keyword:
 - content: Optical Transport Network (OTN)
 - content: Precision Time Protocol (PTP)
 - content: synchronization
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 39.040.99
-  text: Other time-measuring instruments
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

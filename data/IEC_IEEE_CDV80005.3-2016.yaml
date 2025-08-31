@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEECDV80005.3-2016
 title:
 - content: 'IEC/IEEE Draft International Standard - Utility Connections in Port -
@@ -65,12 +65,13 @@ keyword:
 - content: Voltage control
 - content: Power transmission lines
 - content: Electricity supply industry
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

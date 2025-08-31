@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE60214.2-2019
 title:
 - content: 'IEEE/IEC International Standard for TAP-changers --Part 2: Application
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2020-05-22'
 - type: created
-  value: '2019'
+  value: '2019-06-14'
 - type: published
   value: '2019-06-13'
 - type: issued
@@ -82,15 +82,16 @@ keyword:
 - content: IEC Standards
 - content: TAP changers
 - content: Load management
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

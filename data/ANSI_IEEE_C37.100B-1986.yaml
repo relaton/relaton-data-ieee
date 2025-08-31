@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEC37.100b-1986
 title:
 - content: IEEE Standard Definitions for TRV Terms
@@ -24,7 +24,7 @@ docid:
 docnumber: ANSI/IEEE C37.100b-1986
 date:
 - type: created
-  value: '1986'
+  value: '1986-03-25'
 - type: published
   value: '2019-04-09'
 - type: issued
@@ -73,15 +73,16 @@ keyword:
 - content: C37.100b
 - content: transient recovery voltage
 - content: TRV
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.01
-  text: Switchgear and controlgear in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.01
+    text: Switchgear and controlgear in general
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

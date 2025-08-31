@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC14575-2000
 title:
 - content: ISO/IEC/IEEE International Standard - Information Technology - Microprocessor
@@ -98,15 +98,16 @@ keyword:
 - content: switch chip
 - content: transaction layer
 - content: wormhole routing
-doctype: standard
-editorialgroup:
-  committee:
-  - Microprocessor Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.200'
-  text: Interface and interconnection equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

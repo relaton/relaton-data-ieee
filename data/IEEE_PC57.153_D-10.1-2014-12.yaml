@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.153-D-10.1-2014-12
 title:
 - content: IEEE Approved Draft Guide for Paralleling Regulating Transformers
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE PC57.153/D-10.1-2014-12
 date:
 - type: created
-  value: '2015'
+  value: '2015-03-31'
 - type: published
   value: '2015-03-31'
 - type: issued
@@ -62,15 +62,16 @@ keyword:
 - content: Transformer paralleling
 - content: Power system reliability
 - content: Power system planning
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

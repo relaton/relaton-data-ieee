@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.152-D-5.2-2012-07
 title:
 - content: IEEE Draft Guide for Diagnostic Field Testing of Fluid Filled Power Transformers,
@@ -98,15 +98,16 @@ keyword:
 - content: core
 - content: tanks
 - content: safety.
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power &amp; Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power &amp; Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

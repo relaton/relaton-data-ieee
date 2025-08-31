@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2302-D-3-2021-10
 title:
 - content: IEEE Approved Draft Standard for Intercloud Interoperability and Federation
@@ -88,15 +88,16 @@ keyword:
 - content: interoperability
 - content: network topology
 - content: peer to peer
-doctype: standard
-editorialgroup:
-  committee:
-  - Cloud Computing Standards Committee of the IEEE Computer Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Cloud Computing Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

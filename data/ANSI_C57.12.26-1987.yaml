@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC57.12.26-1987
 title:
 - content: American National Standard for Transformers- Pad-Mounted Compartmental
@@ -27,7 +27,7 @@ docid:
 docnumber: ANSI C57.12.26-1987
 date:
 - type: created
-  value: '1987'
+  value: '1987-04-01'
 - type: published
   value: '2019-04-15'
 - type: issued
@@ -76,15 +76,13 @@ keyword:
 - content: Power transformer insulation
 - content: Regulators
 - content: Impedance
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

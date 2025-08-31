@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1653.4-D-3-2010-11
 title:
 - content: IEEE Standard for DC Traction Power System Field Testing and Acceptance
@@ -80,15 +80,16 @@ keyword:
 - content: traction power substation
 - content: traction power system field testing
 - content: train starting test
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
-ics:
-- code: 45.060.10
-  text: TrActive stock
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
+  ics:
+  - code: 45.060.10
+    text: TrActive stock
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

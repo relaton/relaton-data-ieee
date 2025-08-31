@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1900.6-D-2-Cor1-2015
 title:
 - content: IEEE Draft Standard for Spectrum Sensing Interfaces and Data Structures
@@ -72,13 +72,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1900.6-2011
+    id: IEEEStd1900.6-2011
     docid:
-    - id: IEEE 1900.6-2011
+    - id: IEEE Std 1900.6-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1900.6-2011
+      content: IEEE Std 1900.6-2011
+      format: text/plain
+  description:
+    content: corrects
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1900.6-2011
+    docid:
+    - id: IEEE Std 1900.6-2011
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1900.6-2011
       format: text/plain
   description:
     content: corrects
@@ -96,16 +113,13 @@ keyword:
 - content: terms
 - content: definitions
 - content: corrections
-doctype: standard
-editorialgroup:
-  committee:
-  - Dynamic Spectrum Access Networks Standards Committee of the IEEE Communications
-    Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NACESP0415-2015
 title:
 - content: NACE International and IEEE Joint Standard Practice for Below-Grade Inspection
@@ -63,9 +63,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -97,16 +94,17 @@ keyword:
 - content: inspection
 - content: SP0415
 - content: substation
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 25.220.01
-  text: Surface treatment and coating in general
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
-  standard_modified: Approved
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 25.220.01
+    text: Surface treatment and coating in general
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

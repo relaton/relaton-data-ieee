@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2883-D-17-2022-03
 title:
 - content: IEEE Draft Standard for Sanitizing Storage
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2883/D-17-2022-03
 date:
 - type: created
-  value: '2022'
+  value: '2022-03-16'
 - type: published
   value: '2022-03-17'
 - type: issued
@@ -85,17 +85,18 @@ keyword:
 - content: sanitization
 - content: sanitize
 - content: security
-doctype: standard
-editorialgroup:
-  committee:
-  - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.160'
-  text: Microprocessor systems
-- code: 35.220.01
-  text: Data storage devices in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  - code: 35.220.01
+    text: Data storage devices in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

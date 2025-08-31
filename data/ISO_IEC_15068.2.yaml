@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC15068.2
 title:
 - content: 'ISO/IEC 15068-2 : 1999 (IEEE 1387.2-1995), International Standard Information
@@ -88,12 +88,13 @@ keyword:
 - content: utilities
 - content: ISO/IEC 15068
 - content: ISO/IEC 15068-2
-doctype: standard
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

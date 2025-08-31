@@ -1,8 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3803-D-4.7-2024-01
 title:
-- content: IEEE Draft Standard for Consortium Chain Traceability Application
+- content: IEEE Approved Draft Standard for Household Appliance Customer Data Assetization
+    and Commercialization Requirements
   format: text/plain
   type: main
 link:
@@ -17,16 +18,16 @@ docid:
   type: IEEE
   scope: trademark
   primary: true
-- id: 979-8-8557-0487-7
+- id: 979-8-8557-0497-6
   type: ISBN
 docnumber: IEEE P3803/D-4.7-2024-01
 date:
 - type: created
-  value: '2024-01-25'
+  value: '2024-05-22'
 - type: published
-  value: '2024-01-30'
+  value: '2024-01-29'
 - type: issued
-  value: '2024'
+  value: '2024-05-20'
 contributor:
 - organization:
     name:
@@ -40,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-01-30'
+revdate: '2024-01-29'
 language:
 - en
 script:
@@ -73,15 +74,19 @@ keyword:
 - content: Customer data
 - content: Data assetization
 - content: Household appliances
-- content: IEEE 3803
-doctype: standard
-editorialgroup:
-  committee:
-  - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
-    Society
+- content: IEEE 3803&#8482;
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
+      Society
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

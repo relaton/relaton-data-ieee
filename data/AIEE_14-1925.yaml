@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE14-1925
 title:
 - content: AIEE Instrument Transformers
@@ -26,7 +26,7 @@ date:
 - type: updated
   value: '2016-01-29'
 - type: created
-  value: '1925'
+  value: '1925-03-22'
 - type: published
   value: '2015-12-25'
 - type: issued
@@ -65,9 +65,10 @@ keyword:
 - content: Oil insulation
 - content: Instruments
 - content: Windings
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

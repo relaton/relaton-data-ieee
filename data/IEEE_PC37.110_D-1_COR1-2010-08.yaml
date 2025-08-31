@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.110-D-1-Cor1-2010-08
 title:
 - content: 'IEEE Draft Guide for the Application of Current Transformers Used for
@@ -72,15 +72,16 @@ keyword:
 - content: Relays
 - content: current transformers
 - content: protective relaying
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying of the IEEE Power &amp; Energy Society
-ics:
-- code: '29.200'
-  text: Rectifiers. Converters. Stabilized power supply
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying of the IEEE Power &amp; Energy Society
+  ics:
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

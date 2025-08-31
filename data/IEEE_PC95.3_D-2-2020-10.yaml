@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC95.3-D-2-2020-10
 title:
 - content: IEEE Draft Recommended Practice for Measurements and Computations of Electric,
@@ -82,30 +82,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC95.3-2002
+    id: IEEEStdC95.3-2002
     docid:
-    - id: IEEE C95.3-2002
+    - id: IEEE Std C95.3-2002
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C95.3-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC95.3-2002
-    docid:
-    - id: IEEE C95.3-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C95.3-2002
+      content: IEEE Std C95.3-2002
       format: text/plain
   description:
     content: revises
@@ -134,15 +117,16 @@ keyword:
 - content: RF hazard assessment
 - content: RF survey
 - content: specific absorption rate assessment
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '13.280'
-  text: Radiation protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: '13.280'
+    text: Radiation protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

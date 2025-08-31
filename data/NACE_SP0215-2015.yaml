@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NACESP0215-2015
 title:
 - content: NACE International and IEEE Joint Standard Practice for Below-Grade Corrosion
-    Control of Transmission, Distribution, and SubstationStructures by Coating Repair
+    Control of Transmission, Distribution, and Substation Structures by Coating Repair
     Systems
   format: text/plain
   type: main
@@ -59,9 +59,15 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
+- content: This NACE/IEEE joint standard provides general coating repair guidelines
+    for in-service carbon steel and galvanized steel electric transmission structures
+    coated with polyurethanes, moisture cure urethane (MCU), coal tar, epoxy, coal
+    tar epoxy, and cold-applied tape systems including petrolatum and polyethylene.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -100,16 +106,17 @@ keyword:
 - content: SP0215
 - content: steel
 - content: transmission
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 25.220.01
-  text: Surface treatment and coating in general
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
-  standard_modified: Approved
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 25.220.01
+    text: Surface treatment and coating in general
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

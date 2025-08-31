@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE46-1927
 title:
 - content: AIEE Hard Drawn Aluminum Conductors Physical and Electrical Properties
@@ -24,7 +24,7 @@ docid:
 docnumber: AIEE 46-1927
 date:
 - type: created
-  value: '1927'
+  value: '1927-06-01'
 - type: published
   value: '2016-03-01'
 - type: issued
@@ -71,9 +71,10 @@ keyword:
 - content: Temperature measurement
 - content: Electrical properties
 - content: Production
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

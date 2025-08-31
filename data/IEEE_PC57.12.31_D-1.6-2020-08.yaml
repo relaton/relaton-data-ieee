@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.12.31-D-1.6-2020-08
 title:
 - content: IEEE Draft Standard for Pole-Mounted Equipment--Enclosure Integrity
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.12.31-2010
+    id: IEEEStdC57.12.31-2010
     docid:
-    - id: IEEE C57.12.31-2010
+    - id: IEEE Std C57.12.31-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.31-2010
+      content: IEEE Std C57.12.31-2010
       format: text/plain
   description:
     content: revises
@@ -90,30 +90,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEEC57.12.31-2010
+    id: IEEEStdC57.12.31-2010
     docid:
-    - id: IEEE C57.12.31-2010
+    - id: IEEE Std C57.12.31-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.31-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.12.31-2010
-    docid:
-    - id: IEEE C57.12.31-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.12.31-2010
+      content: IEEE Std C57.12.31-2010
       format: text/plain
   description:
     content: revises
@@ -134,17 +117,15 @@ keyword:
 - content: pole-mounted equipment
 - content: switches
 - content: transformers
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 25.220.01
-  text: Surface treatment and coating in general
-- code: '29.020'
-  text: Electrical engineering in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 25.220.01
+    text: Surface treatment and coating in general
+  - code: '29.020'
+    text: Electrical engineering in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

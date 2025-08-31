@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1012-D-17-2015-08
 title:
 - content: IEEE Approved Draft Standard for System, Software and Hardware Verification
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1012-2012
+    id: IEEEStd1012-2012
     docid:
-    - id: IEEE 1012-2012
+    - id: IEEE Std 1012-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1012-2012
+      content: IEEE Std 1012-2012
       format: text/plain
   description:
     content: revises
@@ -153,12 +153,13 @@ keyword:
 - content: V&amp;V measures
 - content: validation
 - content: verification
-doctype: standard
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,14 +1,14 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.15.10a-D-03-2018-11
 title:
-- content: IEEE Approved Draft Recommended Practice for Routing Packets in IEEE 802.15.4
-    Dynamically Changing Wireless Networks Amendment to fully define use of addressing
-    and route information currently in the standard - Amendment A
+- content: IEEE Draft Recommended Practice for Routing Packets in IEEE 802.15.4 Dynamically
+    Changing Wireless Networks Amendment to fully define use of addressing and route
+    information currently in the standard - Amendment A
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/8640869
+- content: https://ieeexplore.ieee.org/document/8559958
   type: src
 type: standard
 docid:
@@ -24,9 +24,9 @@ docid:
 docnumber: IEEE P802.15.10a/D-03-2018-11
 date:
 - type: created
-  value: '2019-01-25'
+  value: '2018-11-28'
 - type: published
-  value: '2019-02-12'
+  value: '2018-12-04'
 - type: issued
   value: '2019-02-08'
 contributor:
@@ -42,7 +42,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2019-02-12'
+revdate: '2018-12-04'
 language:
 - en
 script:
@@ -74,13 +74,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.15.10-2017
+    id: IEEEStd802.15.10-2017
     docid:
-    - id: IEEE 802.15.10-2017
+    - id: IEEE Std 802.15.10-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.15.10-2017
+      content: IEEE Std 802.15.10-2017
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd802.15.10-2017
+    docid:
+    - id: IEEE Std 802.15.10-2017
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.15.10-2017
       format: text/plain
   description:
     content: amends
@@ -91,11 +108,11 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE Standards
+- content: Local area networks
+- content: Metropolitan area networks
+- content: Packet switching
 - content: Routing protocols
-- content: IEEE 802.15 Standard
-- content: Wireless networks
-- content: Unicast
-- content: Multicast communication
+- content: Information exchange
 - content: amendment
 - content: discovery and addition of new nodes
 - content: IEEE 802.15.4
@@ -111,15 +128,13 @@ keyword:
     3 mechanisms)
 - content: support for broadcast
 - content: support for multicast
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

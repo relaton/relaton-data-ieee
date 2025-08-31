@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEEE11073.10425-2024
 title:
 - content: 'ISO/IEEE International Standard: Health informatics--Device interoperability--Part
@@ -28,7 +28,7 @@ date:
 - type: created
   value: '2024'
 - type: published
-  value: '2024-09-25'
+  value: '2024-09-24'
 - type: issued
   value: '2024'
 contributor:
@@ -44,7 +44,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-09-25'
+revdate: '2024-09-24'
 language:
 - en
 script:
@@ -83,13 +83,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE11073.10425-2023
+    id: IEEEStd11073.10425-2023
     docid:
-    - id: IEEE 11073.10425-2023
+    - id: IEEE Std 11073.10425-2023
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10425-2023
+      content: IEEE Std 11073.10425-2023
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -101,18 +101,19 @@ keyword:
 - content: IEEE 11073-10425&#8482;
 - content: medical device communication
 - content: personal health devices
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 11.040.55
-  text: Diagnostic equipment
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 11.040.55
+    text: Diagnostic equipment
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP421.3-D-01-2015-02
 title:
 - content: IEEE Draft Standard for High-Potential Test Requirements for Excitation
@@ -77,15 +77,16 @@ keyword:
 - content: dielectric testing
 - content: excitation systems
 - content: test voltages
-doctype: standard
-editorialgroup:
-  committee:
-  - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
-ics:
-- code: 29.130.99
-  text: Other switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.99
+    text: Other switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

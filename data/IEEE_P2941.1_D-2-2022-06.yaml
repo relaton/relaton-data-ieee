@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2941.1-D-2-2022-06
 title:
 - content: IEEE Draft Standard for Operator Interfaces of Artificial Intelligence
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2941.1/D-2-2022-06
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-02'
 - type: published
   value: '2022-06-03'
 - type: issued
@@ -82,15 +82,16 @@ keyword:
 - content: neural network
 - content: machine learning
 - content: operators
-doctype: standard
-editorialgroup:
-  committee:
-  - Data Compression Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.240.01
-  text: Application of information technology in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Data Compression Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.01
+    text: Application of information technology in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

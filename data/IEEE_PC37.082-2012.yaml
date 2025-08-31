@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.082-IEC62271-2012
 title:
 - content: IEEE Draft Standard Practice for the Measurement of Sound Pressure Levels
@@ -73,19 +73,20 @@ keyword:
 - content: Noise measurement
 - content: Audio systems
 - content: Audio pressure
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.120.40
-  text: Switches
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
-- code: 17.140.20
-  text: Noise emitted by machines and equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.120.40
+    text: Switches
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
+  - code: 17.140.20
+    text: Noise emitted by machines and equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

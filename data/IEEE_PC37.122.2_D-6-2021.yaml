@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.122.2-D-6-2021
 title:
 - content: IEEE Draft Guide for the Application of Gas-Insulated Substations Rated
@@ -71,30 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.122.2-2011
+    id: IEEEStdC37.122.2-2011
     docid:
-    - id: IEEE C37.122.2-2011
+    - id: IEEE Std C37.122.2-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.122.2-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.122.2-2011
-    docid:
-    - id: IEEE C37.122.2-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.122.2-2011
+      content: IEEE Std C37.122.2-2011
       format: text/plain
   description:
     content: revises
@@ -116,15 +99,16 @@ keyword:
 - content: IEEE C37.20.9
 - content: SF
 - content: sulfur hexafluoride
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: '27.100'
-  text: Power stations in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power and Energy Society
+  ics:
+  - code: '27.100'
+    text: Power stations in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

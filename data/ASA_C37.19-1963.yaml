@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ASAC37.19-1963
 title:
 - content: ASA American National Standard Safety Requirements for Standard for Low-Voltage
@@ -25,7 +25,7 @@ docid:
 docnumber: ASA C37.19-1963
 date:
 - type: created
-  value: '1963'
+  value: '1963-03-25'
 - type: published
   value: '2016-03-25'
 - type: issued
@@ -85,9 +85,10 @@ keyword:
 - content: Low power electronics
 - content: Switchgear
 - content: Assembly
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

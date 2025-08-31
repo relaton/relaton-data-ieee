@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE24748.2-2024
 title:
 - content: 'ISO/IEC/IEEE International Standard - Systems and software engineering--Life
@@ -26,7 +26,7 @@ docid:
 docnumber: ISO/IEC/IEEE 24748.2-2024
 date:
 - type: created
-  value: '2024'
+  value: '2024-03-19'
 - type: published
   value: '2024-03-19'
 - type: issued
@@ -88,15 +88,17 @@ keyword:
 - content: ISO Standards
 - content: Software engineering
 - content: Life cycle assessment
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

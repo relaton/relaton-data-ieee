@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2401-D-4-2019-06
 title:
 - content: IEEE Approved Draft Standard Format for LSI-Package-Board Interoperable
@@ -87,15 +87,16 @@ keyword:
 - content: printed circuit board
 - content: project management
 - content: Verilog-HDL
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '31.200'
-  text: Integrated circuits. Microelectronics
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

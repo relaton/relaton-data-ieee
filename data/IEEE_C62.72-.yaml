@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEC62.72-
 title:
 - content: IEEE Guide for the Application of Surge Protective Devices for Low Voltage
@@ -59,6 +59,19 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Information is provided to specifiers and users of surge-protective devices
+    (SPDs) about the application considerations of SPDs associated with power distribution
+    systems within North America. This guide applies to SPDs to be connected to the
+    load side of the service entrance main over current protective device of 50 Hz
+    or 60 Hz ac power circuits rated at 100&#8211;1000 V rms. The effects and side
+    effects on the presence and operation of SPDs in low-voltage power distribution
+    systems are described. The coordination of multiple SPDs on the same circuit is
+    described.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -77,15 +90,16 @@ keyword:
 - content: lightning protection
 - content: surge protection coordination
 - content: surge-protective device
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

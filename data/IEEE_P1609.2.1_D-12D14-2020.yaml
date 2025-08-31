@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1609.2.1-D-12D14-2020
 title:
 - content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1609.2.1/D-12D14-2020
 date:
 - type: created
-  value: '2020'
+  value: '2020-07-27'
 - type: published
   value: '2020-07-28'
 - type: issued
@@ -80,12 +80,13 @@ keyword:
 - content: IEEE Std 1609.2.1&#8482;
 - content: interface
 - content: Security Credential Management System (SCMS)
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

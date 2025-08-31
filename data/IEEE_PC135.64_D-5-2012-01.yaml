@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC135.64-D-5-2012-01
 title:
 - content: IEEE Draft Guide for Slip and Pull-Out Strength Testing of Bolted Dead
@@ -75,15 +75,16 @@ keyword:
 - content: certification
 - content: testing
 - content: strain clamps
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

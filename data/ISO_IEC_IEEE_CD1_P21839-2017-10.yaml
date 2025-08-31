@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEECD1P21839-2017-10
 title:
 - content: ISO/IEC/IEEE Draft International Standard - Systems and Software Engineering
@@ -85,12 +85,14 @@ keyword:
 - content: ISO Standards
 - content: Software engineering
 - content: Systems engineering and theory
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

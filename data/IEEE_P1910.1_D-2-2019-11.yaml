@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1910.1-D-2-2019-11
 title:
 - content: IEEE Approved Draft Standard for Meshed Tree Bridging with Loop Free Forwarding
@@ -86,12 +86,13 @@ keyword:
 - content: optimal unicast frame forwarding paths
 - content: path redundancy
 - content: root redundancy
-doctype: standard
-editorialgroup:
-  committee:
-  - Access and Core Networks Standards Committee of the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Access and Core Networks Standards Committee of the IEEE Communications Society
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

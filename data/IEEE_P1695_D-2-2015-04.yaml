@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1695-D-2-2015-04
 title:
 - content: IEEE Draft Guide to Understanding, Diagnosing and Mitigating Stray and
@@ -76,15 +76,16 @@ keyword:
 - content: Contact voltage
 - content: Stray Voltage
 - content: Contact Voltage
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

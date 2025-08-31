@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1580a-D-2-2024-05
 title:
-- content: 'IEEE Draft Recommended Practice for Marine Cable for Use on Shipboard
+- content: 'IEEE Approved Draft Recommended Practice for Marine Cable for Use on Shipboard
     and Fixed or Floating Facilities Amendment 1: Offshore Wind Electrical Substation
     Cables'
   format: text/plain
@@ -24,11 +24,11 @@ docid:
 docnumber: IEEE P1580a/D-2-2024-05
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-08'
 - type: published
   value: '2024-06-11'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -48,14 +48,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This recommended practice is for single or multiconductor cables, with
-    or without metal armor and/or jacket, and rated 300 V to 35 kV AC (RMS phase-to-phase)
-    or up to 2000 V dc, intended to be installed aboard marine vessels, fixed and
-    floating offshore facilities (including wind facilities; excluding export and
-    inter-array cables), and in accordance with industry installation standards and
-    the regulations of the authorities having jurisdiction (AHJ). The recommendations
-    define what is considered good engineering practice with reference to the reliability
-    and durability of the cable.
+- content: With the recent and continued construction of offshore wind facilities,
+    the industry needed a recommended practice for the cables to be used on the offshore
+    wind electrical substations. Electrical cables used on offshore wind facilities
+    are exposed to a similar environment as those historically used on shipboard and
+    offshore facilities. The many years’ service of marine cable constructions covered
+    by this document provide a solid basis for their use on offshore wind facilities.
   language:
   - en
   script:
@@ -75,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1580-2021
+    id: IEEEStd1580-2021
     docid:
-    - id: IEEE 1580-2021
+    - id: IEEE Std 1580-2021
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1580-2021
+      content: IEEE Std 1580-2021
       format: text/plain
   description:
     content: amends
@@ -91,19 +89,28 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Underwater cables
+- content: Offshore installations
+- content: Marine vehicles
+- content: Wind power generation
 - content: IEEE 1580&#8482;
 - content: marine cable
 - content: offshore facilities
+- content: offshore wind
 - content: platforms
 - content: shipboard
-- content: offshore wind
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 47.020.60
+    text: Electrical equipment of ships and of marine structures
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

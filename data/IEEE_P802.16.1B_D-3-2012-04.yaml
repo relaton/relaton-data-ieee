@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.16.1b-D-3-2012-04
 title:
 - content: 'IEEE Draft Standard for WirelessMAN-Advanced Air Interface for Broadband
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P802.16.1b/D-3-2012-04
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-07'
 - type: published
   value: '2012-04-09'
 - type: issued
@@ -87,42 +87,26 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEP802.16.1-D-4-2012-02
-    docid:
-    - id: IEEE P802.16.1/D-4-2012-02
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE P802.16.1/D-4-2012-02
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE standards
 - content: Wireless LAN
 - content: Wireless communication
 - content: Broaddband communication
 - content: Interface states
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

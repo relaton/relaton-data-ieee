@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.3-Amd6-2021
 title:
 - content: 'IEEE/ISO/IEC-International Standard-Telecommunications and exchange between
@@ -76,43 +76,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.3cq-2020
+    id: IEEEStd802.3cq-2020
     docid:
-    - id: IEEE 802.3cq-2020
+    - id: IEEE Std 802.3cq-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3cq-2020
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3cq-2020
-    docid:
-    - id: IEEE 802.3cq-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3cq-2020
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3cq-2020
-    docid:
-    - id: IEEE 802.3cq-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3cq-2020
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3cq-2020
-    docid:
-    - id: IEEE 802.3cq-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3cq-2020
+      content: IEEE Std 802.3cq-2020
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -129,18 +99,18 @@ keyword:
 - content: '802.3'
 - content: 802.3cq
 - content: amendment
-- content: Ethernet
 - content: DTE power via MDI
 - content: Power over Ethernet
 - content: PoE
-doctype: standard
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

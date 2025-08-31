@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3079.3-D-03-2023-05
 title:
 - content: IEEE Draft Standard for a Framework for Evaluating the Quality of Digital
@@ -81,17 +81,18 @@ keyword:
 - content: realism
 - content: social presence
 - content: test designer
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board of the IEEE Computer Society
-ics:
-- code: 33.160.99
-  text: Other audio, video and audiovisual equipment
-- code: 35.240.01
-  text: Application of information technology in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board of the IEEE Computer Society
+  ics:
+  - code: 33.160.99
+    text: Other audio, video and audiovisual equipment
+  - code: 35.240.01
+    text: Application of information technology in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

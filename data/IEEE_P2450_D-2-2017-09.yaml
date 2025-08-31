@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2450-D-2-2017-09
 title:
 - content: IEEE Draft Standard for the Performance of Down-the-Road Radar Used in
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2450/D-2-2017-09
 date:
 - type: created
-  value: '2018'
+  value: '2018-03-28'
 - type: published
   value: '2018-03-29'
 - type: issued
@@ -85,13 +85,14 @@ keyword:
 - content: speed measurement
 - content: test methods
 - content: traffic
-doctype: standard
-editorialgroup:
-  committee:
-  - TC41 - Traffic Enforcement Technologies of the IEEE Instrumentation and Measurement
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC41 - Traffic Enforcement Technologies of the IEEE Instrumentation and Measurement
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

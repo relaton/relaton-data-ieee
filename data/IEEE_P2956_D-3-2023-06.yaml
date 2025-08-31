@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2956-D-3-2023-06
 title:
 - content: Test Method for Surface Transfer Impedance of Shielded Power Cables and
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2956/D-3-2023-06
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-09'
 - type: published
   value: '2023-06-12'
 - type: issued
@@ -84,13 +84,19 @@ keyword:
 - content: surface transfer impedance
 - content: triaxial method
 - content: tube-in-tube method
-doctype: standard
-editorialgroup:
-  committee:
-  - High Speed Train and Maglev Standards Committee of the IEEE Vehicular Technology
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - High Speed Train and Maglev Standards Committee of the IEEE Vehicular Technology
+      Society
+  ics:
+  - code: 33.100.01
+    text: Electromagnetic compatibility in general
+  - code: 33.120.10
+    text: Coaxial cables. Waveguides
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

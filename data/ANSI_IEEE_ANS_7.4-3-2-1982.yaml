@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEE-ANS7.4-3-2-1982
 title:
 - content: American National Standard Application Criteria for Programmable Digital
@@ -76,17 +76,18 @@ copyright:
   from: '1982'
 keyword:
 - content: '7432'
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 27.120.20
-  text: Nuclear power plants. Safety
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

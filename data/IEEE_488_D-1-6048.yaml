@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE488-D-1-6048
 title:
 - content: 'IEC/IEEE International Standard - Higher Performance Protocol for the
@@ -89,19 +89,20 @@ keyword:
 - content: HS488
 - content: non-interlocked handshake
 - content: three-wire handshake
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
-- code: 25.040.40
-  text: Industrial process measurement and control
-- code: '35.200'
-  text: Interface and interconnection equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: '35.200'
+    text: Interface and interconnection equipment
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

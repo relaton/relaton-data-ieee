@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3106-D-1-2023-10
 title:
 - content: IEEE Draft Standard for Telecommunication System Reliability Indices
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2023-12-08'
 - type: issued
-  value: '2023'
+  value: '2024-03-21'
 contributor:
 - organization:
     name:
@@ -67,17 +67,25 @@ copyright:
     url: http://www.ieee.org
   from: '2023'
 keyword:
-- content: IEEE P3106
+- content: IEEE Standards
+- content: Telecommunication network reliability
+- content: Reliability
+- content: Indexes
+- content: IEEE 3106&#8482;
 - content: network characteristics
 - content: network reliability indices
 - content: telecommunication systems
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Reliability of the IEEE Reliability Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Reliability Society Standards Committee of the IEEE Reliability Society
+  ics:
+  - code: 33.040.01
+    text: Telecommunication systems in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

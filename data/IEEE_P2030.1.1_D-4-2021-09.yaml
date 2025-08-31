@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.1.1-D-4-2021-09
 title:
-- content: IEEE Draft Standard Technical Specifications of a DC Quick and Bi-directional
-    Charger for Use with Electric Vehicles
+- content: IEEE Approved Draft Standard Technical Specifications of a DC Quick and
+    Bi-directional Charger for Use with Electric Vehicles
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P2030.1.1/D-4-2021-09
 date:
 - type: created
-  value: '2021'
+  value: '2021-11-11'
 - type: published
   value: '2021-09-20'
 - type: issued
-  value: '2021'
+  value: '2021-11-09'
 contributor:
 - organization:
     name:
@@ -85,98 +85,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE2030.1.1-2015
+    id: IEEEStd2030.1.1-2015
     docid:
-    - id: IEEE 2030.1.1-2015
+    - id: IEEE Std 2030.1.1-2015
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 2030.1.1-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2030.1.1-2015
-    docid:
-    - id: IEEE 2030.1.1-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2030.1.1-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2030.1.1-2015
-    docid:
-    - id: IEEE 2030.1.1-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2030.1.1-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2030.1.1-2015
-    docid:
-    - id: IEEE 2030.1.1-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2030.1.1-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2030.1.1-2015
-    docid:
-    - id: IEEE 2030.1.1-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2030.1.1-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2030.1.1-2015
-    docid:
-    - id: IEEE 2030.1.1-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2030.1.1-2015
+      content: IEEE Std 2030.1.1-2015
       format: text/plain
   description:
     content: revises
@@ -200,22 +115,22 @@ keyword:
 - content: fast charger
 - content: fast charging
 - content: IEC 61851-23
-- content: IEEE
-- content: IEEE 2030.1.1&#8482;
+- content: IEEE 2030.1.1
 - content: rapid charging
 - content: SAE
 - content: SAE J1772
 - content: SAE J2836/2
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
-ics:
-- code: '43.120'
-  text: Electric road vehicles
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: '43.120'
+    text: Electric road vehicles
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

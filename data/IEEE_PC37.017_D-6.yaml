@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.017-D-6
 title:
 - content: IEEE Draft Standard for Bushings for High Voltage (over 1000 Volts ac)
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.017/D-6
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-19'
 - type: published
   value: '2010-07-23'
 - type: issued
@@ -78,15 +78,16 @@ keyword:
 - content: gas-insulated bushings
 - content: gas-insulated substations
 - content: hollow insulators
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.080.20
-  text: Bushings
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.080.20
+    text: Bushings
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

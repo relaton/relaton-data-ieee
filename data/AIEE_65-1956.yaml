@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE65-1956
 title:
 - content: AIEE Proposed Test Procedure for Thermal Evaluation of Ventilated Dry-Type
@@ -55,6 +55,14 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The object of this Test Procedure is to establish a uniform method for
+    determining operating temperature limits for ventilated dry-type power and distribution
+    transformers, to give a reasonable life expectancy under normal operating conditions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -67,9 +75,10 @@ keyword:
 - content: Power transformers
 - content: Transformers
 - content: Dry-type transformers
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,0 +1,126 @@
+---
+schema-version: v1.2.9
+id: IEEEStd1450.1-2025
+title:
+- content: IEEE Standard for Extensions to Standard Test Interface Language (STIL)
+    for Semiconductor Design Environments
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/11051143
+  type: src
+type: standard
+docid:
+- id: IEEE Std 1450.1-2025
+  type: IEEE
+  primary: true
+- id: IEEE Std 1450.1™-2025
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2140-9
+  type: ISBN
+- id: 10.1109/IEEESTD.2025.11051143
+  type: DOI
+docnumber: IEEE Std 1450.1-2025
+date:
+- type: created
+  value: '2025-06-26'
+- type: published
+  value: '2025-06-25'
+- type: issued
+  value: '2025-02-12'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-06-25'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: An interface between digital test generation tools and test equipment is
+    provided by Standard Test Interface Language (STIL). Extensions to the test interface
+    language (contained in this standard) are defined that facilitate the use of the
+    language in the design environment and facilitate the use of the language for
+    large designs encompassing subdesigns with reusable patterns.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: approved
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd1450.1-2005
+    docid:
+    - id: IEEE Std 1450.1-2005
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1450.1-2005
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Feedback
+- content: Pattern analysis
+- content: System-on-chip
+- content: Protocols
+- content: Testing
+- content: Interface management
+- content: advanced scan architecture
+- content: core
+- content: environment
+- content: fail feedback
+- content: IEEE 1450.1
+- content: lockstep
+- content: parallel patterns
+- content: parameterized data
+- content: pattern tiling
+- content: pragma
+- content: signal variable
+- content: SoC
+- content: system on chip
+- content: test protocol
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

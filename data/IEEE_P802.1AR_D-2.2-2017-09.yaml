@@ -1,0 +1,120 @@
+---
+schema-version: v1.2.9
+id: IEEEP802.1AR-D-2.2-2017-09
+title:
+- content: IEEE Draft Standard for Local and Metropolitan Area Networks - Secure Device
+    Identity
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/8032509
+  type: src
+type: standard
+docid:
+- id: IEEE P802.1AR/D-2.2-2017-09
+  type: IEEE
+  primary: true
+- id: IEEE P802.1AR™/D-2.2-2017-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-1-5044-4379-1
+  type: ISBN
+docnumber: IEEE P802.1AR/D-2.2-2017-09
+date:
+- type: created
+  value: '2017-01-01'
+- type: published
+  value: '2017-09-12'
+- type: issued
+  value: '2017'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2017-09-12'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: A Secure Device Identifier (DevID) is cryptographically bound to a device
+    and supports authentication of the device s identity. Locally significant identities
+    can be securely associated with an initial manufacturer-provisioned DevID and
+    used in provisioning and authentication protocols to allow a network administrator
+    to establish the trustworthiness of a device and select appropriatepolicies for
+    transmission and reception of data and control protocols to and from the device.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2017'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd802.1AR-2009
+    docid:
+    - id: IEEE Std 802.1AR-2009
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.1AR-2009
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Patents
+- content: Licenses
+- content: Authentication
+- content: access control
+- content: authentication
+- content: authorization
+- content: certificate
+- content: LANs
+- content: local area networks
+- content: MAC security
+- content: MANs
+- content: metropolitan area networks
+- content: PKI
+- content: port-based network access control
+- content: secure association
+- content: Secure Device Identifier
+- content: security
+- content: X.509
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

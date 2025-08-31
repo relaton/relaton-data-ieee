@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1AC-2016_Cor1-D-2.0-2018
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks -- Media
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P802.1AC-2016_Cor1/D-2.0-2018
 date:
 - type: created
-  value: '2018'
+  value: '2018-03-22'
 - type: published
   value: '2018-03-29'
 - type: issued
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1AC-2016
+    id: IEEEStd802.1AC-2016
     docid:
-    - id: IEEE 802.1AC-2016
+    - id: IEEE Std 802.1AC-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1AC-2016
+      content: IEEE Std 802.1AC-2016
       format: text/plain
   description:
     content: corrects
@@ -99,15 +99,13 @@ keyword:
 - content: MAC Service
 - content: MAN
 - content: metropolitan area network
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

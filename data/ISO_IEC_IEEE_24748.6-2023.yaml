@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE24748.6-2023
 title:
 - content: 'ISO/IEC/IEEE International Standard - Systems and Software Engineering
@@ -25,7 +25,7 @@ docid:
 docnumber: ISO/IEC/IEEE 24748.6-2023
 date:
 - type: created
-  value: '2023'
+  value: '2023-07-28'
 - type: published
   value: '2023-07-25'
 - type: issued
@@ -71,15 +71,17 @@ keyword:
 - content: Software engineering
 - content: Integrated design
 - content: Product lifecycle management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

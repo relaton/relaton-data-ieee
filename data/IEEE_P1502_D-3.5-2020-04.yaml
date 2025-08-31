@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1502-D-3.5-2020-04
 title:
 - content: IEEE Draft Recommended Practice for Radar Cross-Section Test Procedures
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1502-2007
+    id: IEEEStd1502-2007
     docid:
-    - id: IEEE 1502-2007
+    - id: IEEE Std 1502-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1502-2007
+      content: IEEE Std 1502-2007
       format: text/plain
   description:
     content: revises
@@ -97,16 +97,13 @@ keyword:
 - content: uncertainty
 - content: error
 - content: RCS measurement
-doctype: standard
-editorialgroup:
-  committee:
-  - Antennas and Propagation Standards Committee of the IEEE Antennas and Propagation
-    Society
-ics:
-- code: 33.060.99
-  text: Other equipment for radiocommunications
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 33.060.99
+    text: Other equipment for radiocommunications
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

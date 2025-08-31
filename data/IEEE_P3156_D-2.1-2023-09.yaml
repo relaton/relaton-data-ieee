@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3156-D-2.1-2023-09
 title:
 - content: IEEE Approved Draft Standard for Requirements of Privacy-preserving Computation
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P3156/D-2.1-2023-09
 date:
 - type: created
-  value: '2023-12-12'
+  value: '2024-03-06'
 - type: published
   value: '2023-09-11'
 - type: issued
@@ -49,10 +49,10 @@ script:
 abstract:
 - content: To meet the evolving requirements of multi-sourced data computing and sharing,
     a standard for privacy-preserving computation integrated platforms is needed.
-    This standard provides requirements of privacy computation integrated platforms,
-    including the reference architecture, the functional requirements, the performance
-    requirements, and the security requirements of privacy-preserving computation
-    integrated platforms.
+    Requirements of privacy computation integrated platforms, including the reference
+    architecture, the functional requirements, the performance requirements, and the
+    security requirements of privacy-preserving computation integrated platforms,
+    are provided by this standard.
   language:
   - en
   script:
@@ -75,16 +75,21 @@ keyword:
 - content: Integrated design
 - content: Artificial intelligence
 - content: Computation theory
+- content: data computing
 - content: IEEE 3156&#8482;
-- content: privacy-preserving computation
 - content: integrated platform
-doctype: standard
-editorialgroup:
-  committee:
-  - Artificial Intelligence Standards Committee of the IEEE Computer Society
+- content: privacy-preserving computation
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Artificial Intelligence Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.030'
+    text: IT Security
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3004.5-D-6.1-2024-03
 title:
 - content: IEEE Draft Recommended Practice for the Application of Low-Voltage Circuit
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P3004.5/D-6.1-2024-03
 date:
 - type: created
-  value: '2024'
+  value: '2024-04-11'
 - type: published
   value: '2024-04-12'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -47,12 +47,16 @@ language:
 script:
 - Latn
 abstract:
-- content: Information for selecting the proper circuit breaker for a particular application
-    is provided. Application engineers are aided in specifying the type of circuit
-    breaker, ratings, trip functions, and accessories. Circuit breakers for special
-    applications, e.g., instantaneous only and switches are discussed. In addition,
-    information for applying circuit breakers at different locations in the power
-    system and for protecting specific components is provided.
+- content: The material in this recommended practice was originally published in the
+    first edition of IEEE Std 1015™ (IEEE Blue Book™) in 1997 and is an update of
+    the material in Chapter 1 through Chapter 4, and Chapter 6 of the 2006 edition.
+    It also encompasses the material in Chapter 7 of IEEE Std 242™-2001 (IEEE Buff
+    Book™). Information for selecting the proper circuit breaker for a particular
+    application is provided. Application engineers are aided in specifying the type
+    of circuit breaker, ratings, trip functions, and accessories. Circuit breakers
+    for special applications, e.g., instantaneous only and switches are discussed.
+    In addition, information for applying circuit breakers at different locations
+    in the power system and for protecting specific components is provided.
   language:
   - en
   script:
@@ -72,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE3004.5-2014
+    id: IEEEStd3004.5-2014
     docid:
-    - id: IEEE 3004.5-2014
+    - id: IEEE Std 3004.5-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 3004.5-2014
+      content: IEEE Std 3004.5-2014
       format: text/plain
   description:
     content: revises
@@ -88,9 +92,18 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Circuit breakers
+- content: Low voltage
+- content: Power systems
+- content: Molded case circuit breakers
+- content: Performance evaluation
 - content: circuit breakers
 - content: circuit breaker evaluation
-- content: IEEE 3004.5&#8482;
+- content: IEEE 242
+- content: IEEE 3004.5
+- content: IEEE Blue Book
+- content: IEEE Buff Book
 - content: insulated case
 - content: insulated-case circuit breakers
 - content: low-voltage circuit breaker
@@ -103,17 +116,18 @@ keyword:
 - content: overcurrent protection
 - content: power circuit breaker
 - content: rating
-doctype: standard
-editorialgroup:
-  committee:
-  - Industrial &amp; Commercial Power Systems Standards Development Committee of the
-    IEEE Industry Applications Society
-ics:
-- code: 29.130.20
-  text: Low voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Industrial &amp; Commercial Power Systems Standards Development Committee of
+      the IEEE Industry Applications Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

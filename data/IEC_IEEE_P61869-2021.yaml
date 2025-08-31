@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP61869-2021
 title:
 - content: IEEE Draft Standard Uncertainty Evaluation in the Calibration of Instrument
@@ -59,13 +59,20 @@ copyright:
   - name:
     - content: IEC
   from: '2024'
-doctype: standard
-editorialgroup:
-  committee:
-  - TC39 - Measurements in Power Systems of the IEEE Instrumentation and Measurement
-    Society
+keyword:
+- content: IEEE Standards
+- content: Instrumentation and measurement
+- content: Transformers
+- content: Uncertainty
+- content: Performance evaluation
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC39 - Measurements in Power Systems of the IEEE Instrumentation and Measurement
+      Society
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

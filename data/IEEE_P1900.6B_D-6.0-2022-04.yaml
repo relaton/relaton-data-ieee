@@ -1,10 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1900.6b-D-6.0-2022-04
 title:
-- content: 'IEEE Approved Draft Standard for Spectrum Sensing Interfaces and Data
-    Structures for Dynamic Spectrum Access and other Advanced Radio Communication
-    Systems Amendment 2: Spectrum Database Interfaces'
+- content: 'IEEE Draft Standard for Spectrum Sensing Interfaces and Data Structures
+    for Dynamic Spectrum Access and other Advanced Radio Communication Systems Amendment
+    2: Spectrum Database Interfaces'
   format: text/plain
   type: main
 link:
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P1900.6b/D-6.0-2022-04
 date:
 - type: created
-  value: '2022'
+  value: '2022-04-29'
 - type: published
   value: '2022-05-02'
 - type: issued
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1900.6-2011
+    id: IEEEStd1900.6-2011
     docid:
-    - id: IEEE 1900.6-2011
+    - id: IEEE Std 1900.6-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1900.6-2011
+      content: IEEE Std 1900.6-2011
       format: text/plain
   description:
     content: amends
@@ -100,16 +100,19 @@ keyword:
 - content: interface
 - content: spectrum sensing
 - content: spectrum database
-doctype: standard
-editorialgroup:
-  committee:
-  - Dynamic Spectrum Access Networks Standards Committee of the IEEE Communications
-    Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Dynamic Spectrum Access Networks Standards Committee of the IEEE Communications
+      Society
+  ics:
+  - code: 33.060.01
+    text: Radiocommunications in general
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

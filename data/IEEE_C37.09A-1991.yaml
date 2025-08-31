@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEC37.09a-1991
 title:
 - content: IEEE Standard Test Procedure for AC High-Voltage Circuit Breakers Rated
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE C37.09a-1991
 date:
 - type: created
-  value: '1992'
+  value: '1992-06-12'
 - type: published
   value: '2019-04-05'
 - type: issued
@@ -67,13 +67,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSI-IEEEC37.09-1979
+    id: ANSI-IEEEStdC37.09-1979
     docid:
-    - id: ANSI/IEEE C37.09-1979
+    - id: ANSI/IEEE Std C37.09-1979
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE C37.09-1979
+      content: ANSI/IEEE Std C37.09-1979
       format: text/plain
   description:
     content: corrects
@@ -86,15 +86,16 @@ keyword:
 - content: Load-current switching tests
 - content: High-voltage circuit breakers
 - content: Circuit breakers
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.120.40
-  text: Switches
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.40
+    text: Switches
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

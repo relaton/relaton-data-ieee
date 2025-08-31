@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.15-3-2017
 title:
 - content: 'ISO/IEC/IEEE International Standard - Information technology -- Telecommunications
@@ -26,7 +26,7 @@ docid:
 docnumber: ISO/IEC/IEEE 8802.15-3-2017
 date:
 - type: created
-  value: '2018'
+  value: '2018-03-15'
 - type: published
   value: '2018-03-23'
 - type: issued
@@ -89,15 +89,16 @@ keyword:
 - content: mm-wave
 - content: radio frequency
 - content: wireless
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

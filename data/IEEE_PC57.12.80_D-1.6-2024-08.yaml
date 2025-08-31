@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.12.80-D-1.6-2024-08
 title:
-- content: IEEE Draft Standard for Standard Terminology for Power and Distribution
+- content: IEEE Approved Draft Standard for Standard Terminology for Power and Distribution
     Transformers
   format: text/plain
   type: main
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE PC57.12.80/D-1.6-2024-08
 date:
 - type: created
-  value: '2024-08-06'
+  value: '2024-12-20'
 - type: published
   value: '2024-08-07'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -46,6 +46,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Terminology and definitions related to electric power and distribution
+    transformers and associated apparatus are compiled in this standard. Similar terminology
+    relating to power systems and insulation that is commonly involved in transformer
+    technology is also included in the standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.12.80-2010
+    id: IEEEStdC57.12.80-2010
     docid:
-    - id: IEEE C57.12.80-2010
+    - id: IEEE Std C57.12.80-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.80-2010
+      content: IEEE Std C57.12.80-2010
       format: text/plain
   description:
     content: revises
@@ -76,25 +86,30 @@ relation:
     - Latn
     format: text/plain
 keyword:
-- content: C57.12.80
+- content: IEEE Standards
+- content: Terminology
+- content: Power systems
+- content: Power transformers
 - content: definitions
 - content: distribution transformers
+- content: IEEE C57.12.80(TM)
 - content: insulation
 - content: power systems
 - content: power transformers
 - content: terminology
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 01.040.29
-  text: Electrical engineering (Vocabularies)
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: 01.040.29
+    text: Electrical engineering (Vocabularies)
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

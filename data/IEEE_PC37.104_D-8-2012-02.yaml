@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.104-D-8-2012-02
 title:
 - content: IEEE Draft Guide for Automatic Reclosing of Circuit Breakers for AC Distribution
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.104/D-8-2012-02
 date:
 - type: created
-  value: '2012'
+  value: '2012-03-06'
 - type: published
   value: '2012-03-06'
 - type: issued
@@ -78,15 +78,16 @@ keyword:
 - content: distribution
 - content: reclosing
 - content: transmission
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.120.40
-  text: Switches
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.120.40
+    text: Switches
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

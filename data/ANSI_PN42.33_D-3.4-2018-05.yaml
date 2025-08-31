@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIPN42.33-D-3.4-2018-05
 title:
 - content: IEEE/ANSI Draft Standard for Portable Gamma and Radiation Detection Instrumentation
@@ -104,15 +104,13 @@ keyword:
 - content: performance requirements
 - content: performance tests
 - content: portable radiation detectors
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

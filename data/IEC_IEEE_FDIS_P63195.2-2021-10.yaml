@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEFDISP63195.2-2021-10
 title:
 - content: 'IEC/IEEE International Draft Standard - Assessment of power density of
@@ -62,7 +62,6 @@ copyright:
     - content: IEC
   from: '2021'
 keyword:
-- content: IEEE Stndards
 - content: IEC Standards
 - content: Power system measurements
 - content: Numerical models
@@ -72,15 +71,17 @@ keyword:
 - content: Density measurement
 - content: Human factors
 - content: Radiofrequency exposure
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
+- content: IEEE Standards
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

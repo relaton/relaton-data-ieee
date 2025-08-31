@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1653.3-D-54-2012-07
 title:
 - content: IEEE Draft Guide for Rail Transit Traction Power Systems Modeling
@@ -73,15 +73,16 @@ keyword:
 - content: traction power
 - content: modeling
 - content: analysis
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
-ics:
-- code: 45.060.10
-  text: TrActive stock
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
+  ics:
+  - code: 45.060.10
+    text: TrActive stock
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

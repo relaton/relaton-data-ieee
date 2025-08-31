@@ -1,0 +1,151 @@
+---
+schema-version: v1.2.9
+id: IEEEStd1616-2021
+title:
+- content: IEEE Standard for Motor Vehicle Event Data Recorder (MVEDR)
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/9654153
+  type: src
+type: standard
+docid:
+- id: IEEE Std 1616-2021
+  type: IEEE
+  primary: true
+- id: IEEE Std 1616™-2021
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-1-5044-8019-2
+  type: ISBN
+- id: 10.1109/IEEESTD.2021.9654153
+  type: DOI
+docnumber: IEEE Std 1616-2021
+date:
+- type: created
+  value: '2021-12-17'
+- type: published
+  value: '2021-12-16'
+- type: issued
+  value: '2021-09-23'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2021-12-16'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: Export data related to motor vehicle pre-defined events in usage history
+    is collected, recorded, stored, and exported by motor vehicle event data recorders
+    (MVEDRs). A protocol for MVEDR output data compatibility and export protocols
+    of MVEDR data elements is defined by this standard. A motor vehicle event data
+    recorder connector lockout apparatus (MVEDRCLA) and a near field communication
+    (NFC) protocol is defined for safeguarding access to a vehicle’s event data recorder
+    (EDR) data by securing the vehicle output diagnostic link connector (DLC) and
+    establishing a chain of custody link. This standard is without prejudice to requirements
+    of national or regional laws related to privacy, data protection, and personal
+    data processing.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: approved
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2021'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd1616-2004
+    docid:
+    - id: IEEE Std 1616-2004
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1616-2004
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Intelligent vehicles
+- content: Data transfer
+- content: Communication equipment
+- content: Accidents
+- content: Recording
+- content: communication equipment
+- content: crash data
+- content: crash data recorder (CDR)
+- content: data transfer
+- content: data transmission
+- content: diagnostic link connector (DLC)
+- content: diagnostic programs
+- content: diagnostic testing
+- content: EEPROM
+- content: EEPROM data
+- content: electronic control unit (ECU)
+- content: electronic equipment and components
+- content: electronic scan tools
+- content: electronically erasable programmable read-only memory
+- content: event data recorder (EDR)
+- content: IEEE 1616&#8482;
+- content: information exchange
+- content: litigation
+- content: nonvolatile memory
+- content: nonvolatile memory data
+- content: OBD2 or OBDII
+- content: odometer clocking
+- content: odometer fraud
+- content: odometer spun
+- content: odometer tampering
+- content: on-board diagnostic
+- content: on-board network data security
+- content: power control module (PCM) and/or electronic control unit (ECU) flashing
+- content: road vehicle components
+- content: road vehicle engineering
+- content: road vehicles
+- content: SAE J1962 connectors
+- content: vehicle components
+- content: vehicle crash data
+- content: vehicle identification number (VIN) tampering
+- content: vehicle identification number (VIN) theft.
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: 43.040.15
+    text: Car informatics. On board computer systems
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

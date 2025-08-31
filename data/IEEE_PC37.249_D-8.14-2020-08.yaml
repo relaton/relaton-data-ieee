@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.249-D-8.14-2020-08
 title:
 - content: IEEE Draft Guide for Categorizing Security Needs for Protection and Automation
@@ -84,15 +84,16 @@ keyword:
 - content: automation files
 - content: control files
 - content: security categorization
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

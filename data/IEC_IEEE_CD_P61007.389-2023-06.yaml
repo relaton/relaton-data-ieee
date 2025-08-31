@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEECDP61007.389-2023-06
 title:
 - content: IEEE/IEC Draft International Standard for Transformers and Inductors for
@@ -63,13 +63,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE389-2020
+    id: IEEEStd389-2020
     docid:
-    - id: IEEE 389-2020
+    - id: IEEE Std 389-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 389-2020
+      content: IEEE Std 389-2020
       format: text/plain
   description:
     content: revises
@@ -85,16 +85,17 @@ keyword:
 - content: Transformers
 - content: Inductors
 - content: Testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Power Electronics Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Power Electronics Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

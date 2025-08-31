@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1615-D-11-2016-11
 title:
 - content: IEEE Draft Recommended Practice for Network Communication in Electric Power
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1615-2007
+    id: IEEEStd1615-2007
     docid:
-    - id: IEEE 1615-2007
+    - id: IEEE Std 1615-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1615-2007
+      content: IEEE Std 1615-2007
       format: text/plain
   description:
     content: revises
@@ -114,15 +114,13 @@ keyword:
 - content: Transmission Control Protocol (TCP)
 - content: time synchronization
 - content: wireless network
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: 29.130.01
-  text: Switchgear and controlgear in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.130.01
+    text: Switchgear and controlgear in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

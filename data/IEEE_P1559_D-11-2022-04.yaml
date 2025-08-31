@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1559-D-11-2022-04
 title:
-- content: IEEE Approved Draft Standard for Inertial Systems Terminology
+- content: IEEE Draft Standard for Inertial Systems Terminology
   format: text/plain
   type: main
 link:
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1559/D-11-2022-04
 date:
 - type: created
-  value: '2022'
+  value: '2022-05-31'
 - type: published
   value: '2022-06-01'
 - type: issued
@@ -50,7 +50,7 @@ abstract:
     navigation, guidance, orientation, stabilization, and related applications are
     presented. Usage as understood by the inertial systems community is given preference
     over general technical usage of the terms herein. The criterion for inclusion
-    of a term and its definition in this document is the term's usefulness as related
+    of a term and its definition in this document is the term’s usefulness as related
     to inertial systems technology.
   language:
   - en
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1559-2009
+    id: IEEEStd1559-2009
     docid:
-    - id: IEEE 1559-2009
+    - id: IEEE Std 1559-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1559-2009
+      content: IEEE Std 1559-2009
       format: text/plain
   description:
     content: revises
@@ -92,20 +92,22 @@ keyword:
 - content: Terminology
 - content: Inertial sensors
 - content: Aerospace engineering
+- content: IEEE 1559
 - content: inertial systems technology
 - content: inertial systems terminology
-doctype: standard
-editorialgroup:
-  committee:
-  - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
-ics:
-- code: 01.040.49
-  text: Aircraft and space vehicle engineering (Vocabularies)
-- code: '49.090'
-  text: On-board equipment and instruments
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
+  ics:
+  - code: 01.040.49
+    text: Aircraft and space vehicle engineering (Vocabularies)
+  - code: '49.090'
+    text: On-board equipment and instruments
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

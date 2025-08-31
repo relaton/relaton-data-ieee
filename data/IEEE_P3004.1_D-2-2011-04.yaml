@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3004.1-D-2-2011-04
 title:
 - content: IEEE Draft Recommended Practice for the Application of Instrument Transformers
@@ -75,15 +75,16 @@ keyword:
 - content: Current transformers
 - content: Industrial plants
 - content: Industrial power systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11be-D-6.0-2024-05
 title:
 - content: 'IEEE Draft Standard for Information technology--Telecommunications and
@@ -28,7 +28,7 @@ date:
 - type: created
   value: '2024-05-17'
 - type: published
-  value: '2024-05-21'
+  value: '2024-05-20'
 - type: issued
   value: '2024'
 contributor:
@@ -44,7 +44,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-05-21'
+revdate: '2024-05-20'
 language:
 - en
 script:
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.11-2020
+    id: IEEEStd802.11-2020
     docid:
-    - id: IEEE 802.11-2020
+    - id: IEEE Std 802.11-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2020
+      content: IEEE Std 802.11-2020
       format: text/plain
   description:
     content: amends
@@ -113,16 +113,17 @@ keyword:
 - content: physical layer
 - content: wireless local area network
 - content: WLAN
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

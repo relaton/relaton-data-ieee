@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1484.13.6-D-6-2014-10
 title:
 - content: IEEE Approved Draft Recommended Practice for Learning Technology - Open
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P1484.13.6/D-6-2014-10
 date:
 - type: created
-  value: '2015'
+  value: '2015-03-31'
 - type: published
   value: '2015-02-18'
 - type: issued
@@ -86,15 +86,16 @@ keyword:
 - content: RAMLET
 - content: resource aggregation
 - content: resource aggregation format
-doctype: standard
-editorialgroup:
-  committee:
-  - Learning Technology of the IEEE Computer Society
-ics:
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Learning Technology of the IEEE Computer Society
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

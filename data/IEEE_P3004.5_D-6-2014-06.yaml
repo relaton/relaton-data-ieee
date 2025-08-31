@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3004.5-D-6-2014-06
 title:
 - content: IEEE Approved Draft Recommended Practice for the Application of Low-Voltage
@@ -90,15 +90,16 @@ keyword:
 - content: overcurrent protection
 - content: power circuit breaker
 - content: rating.
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee of the IEEE Industry Applications Society
-ics:
-- code: 29.130.20
-  text: Low voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee of the IEEE Industry Applications Society
+  ics:
+  - code: 29.130.20
+    text: Low voltage switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,9 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP487.2-D-5-2024-08
 title:
-- content: IEEE Draft Standard for the Electrical Protection of Communication Facilities
-    Serving Electric Supply Locations through the Use of Optical Fiber Systems
+- content: IEEE Approved Draft Standard for the Electrical Protection of Communication
+    Facilities Serving Electric Supply Locations through the Use of Optical Fiber
+    Systems
   format: text/plain
   type: main
 link:
@@ -23,11 +24,11 @@ docid:
 docnumber: IEEE P487.2/D-5-2024-08
 date:
 - type: created
-  value: '2024-08-22'
+  value: '2024-11-22'
 - type: published
   value: '2024-08-23'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -69,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE487.2-2013
+    id: IEEEStd487.2-2013
     docid:
-    - id: IEEE 487.2-2013
+    - id: IEEE Std 487.2-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 487.2-2013
+      content: IEEE Std 487.2-2013
       format: text/plain
   description:
     content: revises
@@ -85,24 +86,31 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Power electronics
+- content: Electricity supply industry
+- content: Power system protection
+- content: High-voltage techniques
+- content: Optical fiber communication
+- content: electrical protection
 - content: electric power stations
 - content: electric supply locations
-- content: electrical protection
 - content: fiber optic systems
 - content: ground potential rise
 - content: high-voltage environment
-- content: IEEE 487.2&#8482;
+- content: IEEE 487.2™
 - content: optical fiber systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
-ics:
-- code: 33.180.01
-  text: Fibre optic systems in general
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
+  ics:
+  - code: 33.180.01
+    text: Fibre optic systems in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

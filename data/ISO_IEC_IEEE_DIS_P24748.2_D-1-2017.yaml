@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEDISP24748.2-D-1-2017
 title:
 - content: 'ISO/IEC/IEEE Draft International Standard - Systems and Software Engineering--
@@ -85,13 +85,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE24748.2-2012
+    id: IEEEStd24748.2-2012
     docid:
-    - id: IEEE 24748.2-2012
+    - id: IEEE Std 24748.2-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 24748.2-2012
+      content: IEEE Std 24748.2-2012
       format: text/plain
   description:
     content: revises
@@ -117,15 +117,13 @@ keyword:
 - content: services
 - content: software
 - content: systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

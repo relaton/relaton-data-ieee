@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPN42.62-D-4-2022-10
 title:
 - content: IEEE Approved Draft Standard for Passive Radiation Imaging Systems
@@ -22,9 +22,9 @@ docid:
 docnumber: IEEE PN42.62/D-4-2022-10
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-05'
 - type: published
-  value: '2023-04-06'
+  value: '2024-12-10'
 - type: issued
   value: '2023-03-30'
 contributor:
@@ -40,7 +40,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-04-06'
+revdate: '2024-12-10'
 language:
 - en
 script:
@@ -67,27 +67,31 @@ copyright:
   from: '2022'
 keyword:
 - content: IEEE Standards
-- content: Gamma rats
 - content: Radiation imaging
 - content: Nuclear power generation
 - content: Location awareness
 - content: Performance evaluation
 - content: Radiation detectors
-- content: IEEE PN42.62
-- content: passive
+- content: Gamma-rays
+- content: 'Keywords: gamma-ray'
+- content: identification
+- content: IEEE N42.62
 - content: imagers
 - content: localization
-- content: gamma-ray
-- content: identification
+- content: passive
 - content: PIRDs
-doctype: standard
-editorialgroup:
-  committee:
-  - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
-    and Measurement Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
+      and Measurement Society
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

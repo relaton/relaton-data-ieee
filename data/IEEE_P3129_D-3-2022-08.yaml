@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3129-D-3-2022-08
 title:
 - content: IEEE Approved Draft Standard for Robustness Testing and Evaluation of Artificial
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P3129/D-3-2022-08
 date:
 - type: created
-  value: '2022-02-21'
+  value: '2023-02-21'
 - type: published
   value: '2022-09-22'
 - type: issued
@@ -81,12 +81,16 @@ keyword:
 - content: common corruption
 - content: IEEE 3129
 - content: robustness
-doctype: standard
-editorialgroup:
-  committee:
-  - Artificial Intelligence Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Artificial Intelligence Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.01
+    text: Application of information technology in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

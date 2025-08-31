@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3001.5-D-4-2013-08
 title:
 - content: IEEE Approved Draft Recommended Practice for Application of Power Distribution
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P3001.5/D-4-2013-08
 date:
 - type: created
-  value: '2014'
+  value: '2014-04-25'
 - type: published
   value: '2013-12-18'
 - type: issued
@@ -73,17 +73,18 @@ keyword:
 - content: Power distribution planning
 - content: Industrial plants
 - content: Power systems planning
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee of the IEEE Industry Applications Society
-ics:
-- code: 91.140.50
-  text: Electricity supply system
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee of the IEEE Industry Applications Society
+  ics:
+  - code: 91.140.50
+    text: Electricity supply system
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

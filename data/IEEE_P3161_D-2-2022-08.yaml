@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3161-D-2-2022-08
 title:
 - content: IEEE Draft Standard for Digital Retina Systems
@@ -86,19 +86,20 @@ keyword:
 - content: video big data
 - content: visual perception system
 - content: video stream
-doctype: standard
-editorialgroup:
-  committee:
-  - Data Compression Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.040.30
-  text: Coding of graphical and photographical information
-- code: 37.040.99
-  text: Other standards related to photography
-- code: 37.060.99
-  text: Other standards related to cinematography
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Data Compression Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  - code: 37.040.99
+    text: Other standards related to photography
+  - code: 37.060.99
+    text: Other standards related to cinematography
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

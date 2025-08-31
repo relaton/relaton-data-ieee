@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.20601-D-11-2019-05
 title:
 - content: 'IEEE Draft - Health Informatics -- Personal health device communication
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P11073.20601/D-11-2019-05
 date:
 - type: created
-  value: '2019'
+  value: '2019-06-04'
 - type: published
   value: '2019-06-05'
 - type: issued
@@ -66,16 +66,17 @@ keyword:
 - content: '11073'
 - content: medical device communication
 - content: personal health devices
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

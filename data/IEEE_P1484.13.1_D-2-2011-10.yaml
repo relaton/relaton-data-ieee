@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1484.13.1-D-2-2011-10
 title:
 - content: IEEE Draft Standard for Learning Technology - Conceptual Model for Resource
@@ -83,15 +83,16 @@ keyword:
 - content: digital resource
 - content: resource aggregation
 - content: resource aggregation format
-doctype: standard
-editorialgroup:
-  committee:
-  - Learning Technology of the IEEE Computer Society
-ics:
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Learning Technology of the IEEE Computer Society
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

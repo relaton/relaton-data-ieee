@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1547.1-D-6-2021-10
 title:
 - content: IEEE Draft Standard for Validation of Computational Electromagnetics Computer
@@ -73,30 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1597.1-2008
+    id: IEEEStd1597.1-2008
     docid:
-    - id: IEEE 1597.1-2008
+    - id: IEEE Std 1597.1-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1597.1-2008
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1597.1-2008
-    docid:
-    - id: IEEE 1597.1-2008
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1597.1-2008
+      content: IEEE Std 1597.1-2008
       format: text/plain
   description:
     content: revises
@@ -108,13 +91,13 @@ relation:
 keyword:
 - content: IEEE Standards
 - content: Computational modeling
-- content: Electromagnetic interference,
 - content: Modeling
 - content: Computational electromagnetics
 - content: Simulation
 - content: Antennas
 - content: Numerical models
 - content: Electromagnetic compatibility
+- content: Electromagnetic interference
 - content: antennas
 - content: computational electromagnetics
 - content: convergence
@@ -127,15 +110,16 @@ keyword:
 - content: rating scale
 - content: signal integrity
 - content: validation
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
-ics:
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

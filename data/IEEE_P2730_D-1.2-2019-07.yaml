@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2730-D-1.2-2019-07
 title:
 - content: IEEE Draft Standard for Terms, Definitions, and Classification of Medical
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2730/D-1.2-2019-07
 date:
 - type: created
-  value: '2019'
+  value: '2019-07-17'
 - type: published
   value: '2019-07-18'
 - type: issued
@@ -75,21 +75,22 @@ keyword:
 - content: classification
 - content: IEEE 2730
 - content: medical electrical equipment/systems employing robotic technology (MEERT)
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Engineering in Medicine and Biology Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
-- code: 01.040.25
-  text: Manufacturing engineering (Vocabularies)
-- code: 11.040.99
-  text: Other medical equipment
-- code: 25.040.30
-  text: Industrial robots. Manipulators
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  - code: 01.040.25
+    text: Manufacturing engineering (Vocabularies)
+  - code: 11.040.99
+    text: Other medical equipment
+  - code: 25.040.30
+    text: Industrial robots. Manipulators
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP45.5-D-6-2014-05
 title:
 - content: IEEE Approved Draft Recommended Practice for Electrical Installations on
@@ -81,15 +81,16 @@ keyword:
 - content: personal protective equipment
 - content: safe electrical work practices
 - content: safety single-line diagrams.
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 47.020.60
-  text: Electrical equipment for ships or marine structures
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 47.020.60
+    text: Electrical equipment for ships or marine structures
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

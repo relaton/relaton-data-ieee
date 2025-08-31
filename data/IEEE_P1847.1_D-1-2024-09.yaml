@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1847.1-D-1-2024-09
 title:
 - content: IEEE Draft Recommended Practice for Location Accuracy User Acceptance Test
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2024-09-02'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -48,7 +48,7 @@ script:
 - Latn
 abstract:
 - content: A testing methodology and metrics for locating accuracy of location services
-    for healthcare.
+    for healthcare is provided in this standard.
   language:
   - en
   script:
@@ -72,15 +72,21 @@ keyword:
 - content: Location awareness
 - content: conceptual model
 - content: healthcare
-- content: IEEE 1847&#8482;
-- content: Location Services
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+- content: IEEE 1847.1™
+- content: location services
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+  ics:
+  - code: 11.020.99
+    text: Other standards related to health care in general
+  - code: 35.040.01
+    text: Information coding in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

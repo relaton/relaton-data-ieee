@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE25-1941
 title:
 - content: AIEE Revised Report on Standards for Fuses Above 600 Volts
@@ -26,7 +26,7 @@ date:
 - type: updated
   value: '2016-02-12'
 - type: created
-  value: '1941'
+  value: '1941-06-30'
 - type: published
   value: '2016-01-13'
 - type: issued
@@ -63,9 +63,10 @@ keyword:
 - content: Fuses
 - content: Voltage measurement
 - content: Power transmission
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

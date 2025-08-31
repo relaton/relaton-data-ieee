@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11ai-D-9.0-2016-07
 title:
 - content: 'IEEE Draft Standard for Information technology-Telecommunications and
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.11-2012
+    id: IEEEStd802.11-2012
     docid:
-    - id: IEEE 802.11-2012
+    - id: IEEE Std 802.11-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2012
+      content: IEEE Std 802.11-2012
       format: text/plain
   description:
     content: amends
@@ -89,30 +89,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE802.11-2012
+    id: IEEEStd802.11-2012
     docid:
-    - id: IEEE 802.11-2012
+    - id: IEEE Std 802.11-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2012
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.11-2012
-    docid:
-    - id: IEEE 802.11-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.11-2012
+      content: IEEE Std 802.11-2012
       format: text/plain
   description:
     content: amends
@@ -132,17 +115,15 @@ keyword:
 - content: Media Access Protocol
 - content: Fast Initial Link setup
 - content: FILS
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3300-D-1-2024-01
 title:
 - content: IEEE Draft Standard - Adoption of Moving Picture, Audio and Data Coding
@@ -26,9 +26,9 @@ date:
 - type: created
   value: '2024-02-29'
 - type: published
-  value: '2024-03-08'
+  value: '2024-03-07'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -42,11 +42,21 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-03-08'
+revdate: '2024-03-07'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: This standard adopts MPAI Technical Specification Version 2 as an IEEE
+    Standard. Multimodal Conversation (MPAI-MMC) specifies use cases, all of which
+    share the use of artificial intelligence (AI) to enable a complete and intense
+    form of human-machine conversation.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -70,13 +80,32 @@ keyword:
 - content: Protocols
 - content: Multisensory integration
 - content: Technical requirements
-doctype: standard
-editorialgroup:
-  committee:
-  - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+- content: adoption
+- content: AI modules
+- content: bidirectional speech translation
+- content: BST
+- content: conversation with emotion
+- content: CWE
+- content: IEEE 3300&#8482;
+- content: MQA
+- content: MST
+- content: multimodal conversation
+- content: multimodal question answering
+- content: one-to-many speech translation
+- content: unidirectional speech translation
+- content: use cases
+- content: UST
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

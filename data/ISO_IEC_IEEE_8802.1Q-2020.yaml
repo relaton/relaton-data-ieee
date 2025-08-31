@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.1Q-2020
 title:
 - content: 'IEEE/ISO/IEC International Standard - Telecommunications and exchange
@@ -60,6 +60,14 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This standard specifies how the Media Access Control (MAC) Service is supported
+    by Bridged Networks, the principles of operation of those networks, and the operation
+    of MAC Bridges and VLAN Bridges, including management, protocols, and algorithms.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -103,15 +111,16 @@ keyword:
 - content: Virtual Bridged Network
 - content: virtual LAN
 - content: VLAN Bridge
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

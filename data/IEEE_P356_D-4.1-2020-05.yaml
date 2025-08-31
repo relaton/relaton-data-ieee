@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP356-D-4.1-2020-05
 title:
 - content: IEEE Draft Guide for Measurements of Electromagnetic Properties of Earth
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P356/D-4.1-2020-05
 date:
 - type: created
-  value: '2020'
+  value: '2020-06-18'
 - type: published
   value: '2020-06-19'
 - type: issued
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE356-2010
+    id: IEEEStd356-2010
     docid:
-    - id: IEEE 356-2010
+    - id: IEEE Std 356-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 356-2010
+      content: IEEE Std 356-2010
       format: text/plain
   description:
     content: revises
@@ -87,47 +87,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE356-2010
+    id: IEEEStd356-2010
     docid:
-    - id: IEEE 356-2010
+    - id: IEEE Std 356-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 356-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE356-2010
-    docid:
-    - id: IEEE 356-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 356-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE356-2010
-    docid:
-    - id: IEEE 356-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 356-2010
+      content: IEEE Std 356-2010
       format: text/plain
   description:
     content: revises
@@ -148,16 +114,13 @@ keyword:
 - content: IEEE 356&#8482;
 - content: permittivity
 - content: resistivity
-doctype: standard
-editorialgroup:
-  committee:
-  - Antennas and Propagation Standards Committee of the IEEE Antennas and Propagation
-    Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

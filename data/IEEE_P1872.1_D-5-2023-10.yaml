@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1872.1-D-5-2023-10
 title:
 - content: IEEE Approved Draft Standard for Robot Task Representation
@@ -46,13 +46,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard defines an ontology that allows for the representation of,
-    reasoning about, and communication of Task task knowledge in the learning, robotics,
+- content: Defined in this standard is an ontology that allows for the representation
+    of, reasoning about, and communication of task knowledge in the learning, robotics,
     and automation domain. This ontology includes a list of essential terms and their
     definitions, attributes, types, structures, properties, constraints, and relationships.
-    In addition, it will address how hierarchical planners and designers represent
-    task knowledge allowing them to better communicate among levels of the ontology
-    hierarchy.
+    In addition, addresses how hierarchical planners and designers represent task
+    knowledge allowing them to better communicate among levels of the ontology hierarchy.
   language:
   - en
   script:
@@ -75,17 +74,24 @@ keyword:
 - content: Task analysis
 - content: Knowledge engineering
 - content: Ontologies
-- content: Robotics
-- content: Tasking
-- content: Robot Ontology
-- content: Robot Knowledge
-doctype: standard
-editorialgroup:
-  committee:
-  - Standing Committee for Standards of the IEEE Robotics and Automation Society
+- content: IEEE 1872.1
+- content: robot knowledge
+- content: robot ontology
+- content: robotics
+- content: tasking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standing Committee for Standards of the IEEE Robotics and Automation Society
+  ics:
+  - code: 25.040.30
+    text: Industrial robots. Manipulators
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

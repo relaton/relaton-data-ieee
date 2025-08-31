@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1588c-D-1.4-2023-03
 title:
 - content: 'IEEE Draft Standard for a Precision Clock Synchronization Protocol for
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P1588c/D-1.4-2023-03
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-16'
 - type: published
   value: '2023-06-22'
 - type: issued
-  value: '2023'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -47,9 +47,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This draft standard is an amendment of IEEE Std 1588-2019. This amendment
-    makes updates 2 to various sections to correct text and provide clarifications
-    and other improvements.
+- content: This standard is an amendment of IEEE Std 1588&#8482;-2019. Updates to
+    various sections to correct text, make clarifications, and other improvements
+    are provided in this amendment.
   language:
   - en
   script:
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1588-2019
+    id: IEEEStd1588-2019
     docid:
-    - id: IEEE 1588-2019
+    - id: IEEE Std 1588-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1588-2019
+      content: IEEE Std 1588-2019
       format: text/plain
   description:
     content: amends
@@ -91,19 +91,23 @@ keyword:
 - content: Networked control systems
 - content: Clocks
 - content: Precision engineering
+- content: amendment
+- content: IEEE 1588c&#8482;
+- content: maintenance
+- content: precision time protocol
 - content: PTP
-- content: Synchronization
-- content: Maintenance
-- content: Terminology Clarification
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 39.040.99
-  text: Other time-measuring instruments
+- content: synchronization
+- content: terminology clarification
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

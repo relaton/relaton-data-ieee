@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1900.5.2-D-1.0-2021-11
 title:
 - content: IEEE Draft Standard Method for Modeling Spectrum Consumption
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2021-12-15'
 - type: issued
-  value: '2021'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -53,7 +53,7 @@ abstract:
     for determining the compatibility between models and for performing various spectrum
     management tasks that operate on a plurality of models. The modeling methods are
     exclusively focused on capturing spectrum use but are defined in a schema that
-    can be joined with other schemata related to spectrum management
+    can be joined with other schemata related to spectrum management.
   language:
   - en
   script:
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1900.5.2-2017
+    id: IEEEStd1900.5.2-2017
     docid:
-    - id: IEEE 1900.5.2-2017
+    - id: IEEE Std 1900.5.2-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1900.5.2-2017
+      content: IEEE Std 1900.5.2-2017
       format: text/plain
   description:
     content: revises
@@ -88,53 +88,29 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1900.5.2-2017
-    docid:
-    - id: IEEE 1900.5.2-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1900.5.2-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1900.5.2-2017
-    docid:
-    - id: IEEE 1900.5.2-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1900.5.2-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-doctype: standard
-editorialgroup:
-  committee:
-  - Dynamic Spectrum Access Networks Standards Committee of the IEEE Communications
-    Society
-ics:
-- code: 33.060.01
-  text: Radiocommunications in general
-- code: '35.110'
-  text: Networking
+keyword:
+- content: IEEE Standards
+- content: Computational modeling
+- content: Radio spectrum management
+- content: DSA
+- content: dynamic spectrum access
+- content: IEEE 1900.5.2
+- content: SCM
+- content: spectrum consumption model
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Dynamic Spectrum Access Networks Standards Committee of the IEEE Communications
+      Society
+  ics:
+  - code: 33.060.01
+    text: Radiocommunications in general
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

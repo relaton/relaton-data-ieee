@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2200-D-7-2012-04
 title:
 - content: IEEE Draft Standard Protocol for Stream Management in Media Client Devices
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2200/D-7-2012-04
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-21'
 - type: published
   value: '2012-04-26'
 - type: issued
@@ -81,17 +81,18 @@ keyword:
 - content: download
 - content: mobile content delivery
 - content: device discovery
-doctype: standard
-editorialgroup:
-  committee:
-  - Storage Systems of the IEEE Computer Society
-ics:
-- code: 33.040.20
-  text: Transmission systems
-- code: 33.070.99
-  text: Other mobile services
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Storage Systems of the IEEE Computer Society
+  ics:
+  - code: 33.040.20
+    text: Transmission systems
+  - code: 33.070.99
+    text: Other mobile services
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

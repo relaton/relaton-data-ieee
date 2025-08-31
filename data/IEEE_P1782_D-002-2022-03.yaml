@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1782-D-002-2022-03
 title:
 - content: IEEE Approved Draft Guide for Collecting, Categorizing, and Utilizing Information
@@ -76,64 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1782-2014
+    id: IEEEStd1782-2014
     docid:
-    - id: IEEE 1782-2014
+    - id: IEEE Std 1782-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1782-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1782-2014
-    docid:
-    - id: IEEE 1782-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1782-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1782-2014
-    docid:
-    - id: IEEE 1782-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1782-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1782-2014
-    docid:
-    - id: IEEE 1782-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1782-2014
+      content: IEEE Std 1782-2014
       format: text/plain
   description:
     content: revises
@@ -147,10 +96,9 @@ keyword:
 - content: Distributed power generation
 - content: Power distribution
 - content: Data collection
-- content: Power outages
-- content: Benckmark testing
 - content: Power system reliability
 - content: Sampling methods
+- content: Benchmark testing
 - content: benchmarking
 - content: data collection
 - content: IEEE 1782
@@ -159,15 +107,16 @@ keyword:
 - content: power distribution reliability
 - content: reliability management
 - content: sampling methods
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

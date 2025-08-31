@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1863-D-11-2019-09
 title:
 - content: IEEE Approved Draft Guide for Overhead AC Transmission Line Design
@@ -86,12 +86,13 @@ keyword:
 - content: radio interference
 - content: structure design
 - content: weather loads
-doctype: standard
-editorialgroup:
-  committee:
-  - Corporate Advisory Group of the IEEE SA Board of Governors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Corporate Advisory Group of the IEEE SA Board of Governors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.16.1-D-6-2012-04
 title:
-- content: IEEE Draft Standard for WirelessMAN-Advanced Air Interface for Broadband
-    Wireless Access Systems
+- content: IEEE Approved Draft Standard for WirelessMAN-Advanced Air Interface for
+    Broadband Wireless Access Systems
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/6189714
+- content: https://ieeexplore.ieee.org/document/6216335
   type: src
 type: standard
 docid:
@@ -18,16 +18,16 @@ docid:
   type: IEEE
   scope: trademark
   primary: true
-- id: 978-0-7381-7492-1
+- id: 978-0-7381-7515-7
   type: ISBN
 docnumber: IEEE P802.16.1/D-6-2012-04
 date:
 - type: created
-  value: '2012'
+  value: '2012-06-12'
 - type: published
-  value: '2012-04-25'
+  value: '2012-06-12'
 - type: issued
-  value: '2012-04-25'
+  value: '2012-06-12'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2012-04-25'
+revdate: '2012-06-12'
 language:
 - en
 script:
@@ -68,28 +68,30 @@ copyright:
   from: '2012'
 keyword:
 - content: IEEE standards
-- content: Wireless LAN
-- content: Local area networks
 - content: Metropolitan area networks
-- content: Interface states
+- content: Wireless LAN
+- content: Radio communication
+- content: IEEE 802.16 standards
+- content: Air interfaces
 - content: IEEE 802.16
 - content: IEEE 802.16.1
 - content: IMT-Advanced radio interface
 - content: WirelessMANAdvanced Air Interface
 - content: wireless metropolitan area networks
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

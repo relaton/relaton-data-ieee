@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1937.8-D-3.1-2023-03
 title:
 - content: IEEE Draft Standard for Functional and Interface Requirements for Unmanned
@@ -106,13 +106,14 @@ keyword:
 - content: temperature
 - content: terminal
 - content: vibration
-doctype: standard
-editorialgroup:
-  committee:
-  - Unmanned Aerial Vehicles Communications Standards Committee of the IEEE Communications
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Unmanned Aerial Vehicles Communications Standards Committee of the IEEE Communications
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

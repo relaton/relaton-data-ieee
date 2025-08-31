@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.50-D-7.1-2011-05
 title:
 - content: IEEE Draft Standard for Performance Criteria and Test Methods for Plug-in
@@ -87,15 +87,16 @@ keyword:
 - content: disconnector
 - content: ground surge current reduction ratio
 - content: surge reference equalizer.
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

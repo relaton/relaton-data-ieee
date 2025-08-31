@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEFDISP62209.1528-2019-08
 title:
 - content: IEC/IEEE Draft International Standard - Measurement Procedures for the
@@ -64,30 +64,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1528-2013
+    id: IEEEStd1528-2013
     docid:
-    - id: IEEE 1528-2013
+    - id: IEEE Std 1528-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1528-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1528-2013
-    docid:
-    - id: IEEE 1528-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1528-2013
+      content: IEEE Std 1528-2013
       format: text/plain
   description:
     content: revises
@@ -104,17 +87,18 @@ keyword:
 - content: Human factors
 - content: Hand held devices
 - content: Frequency measurement
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
-- code: 33.070.01
-  text: Mobile services in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 33.070.01
+    text: Mobile services in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1527-D-10-2017-11
 title:
 - content: IEEE Draft Recommended Practice for the Design of Buswork Located in Seismically
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1527-2006
+    id: IEEEStd1527-2006
     docid:
-    - id: IEEE 1527-2006
+    - id: IEEE Std 1527-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1527-2006
+      content: IEEE Std 1527-2006
       format: text/plain
   description:
     content: revises
@@ -107,17 +107,15 @@ keyword:
 - content: seismic design
 - content: slack
 - content: substations
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: '27.100'
-  text: Power stations in general
-- code: 91.120.25
-  text: Seismic and vibration protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '27.100'
+    text: Power stations in general
+  - code: 91.120.25
+    text: Seismic and vibration protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

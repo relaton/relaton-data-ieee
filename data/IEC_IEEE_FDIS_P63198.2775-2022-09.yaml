@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEFDISP63198.2775-2022-09
 title:
 - content: IEC/IEEE Approved Draft International Technical Guide for Smart Hydroelectric
@@ -72,17 +72,18 @@ keyword:
 - content: power
 - content: power plant
 - content: sensors
-doctype: standard
-editorialgroup:
-  committee:
-  - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
-ics:
-- code: '27.140'
-  text: Hydraulic energy engineering
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
+  ics:
+  - code: '27.140'
+    text: Hydraulic energy engineering
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

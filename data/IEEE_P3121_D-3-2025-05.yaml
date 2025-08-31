@@ -1,0 +1,92 @@
+---
+schema-version: v1.2.9
+id: IEEEP3121-D-3-2025-05
+title:
+- content: IEEE Draft Standard for Non-intrusive State Monitoring Framework for Embedded
+    Devices in Industrial Control Systems (ICSs)
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/11008899
+  type: src
+type: standard
+docid:
+- id: IEEE P3121/D-3-2025-05
+  type: IEEE
+  primary: true
+- id: IEEE P3121™/D-3-2025-05
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2232-1
+  type: ISBN
+docnumber: IEEE P3121/D-3-2025-05
+date:
+- type: created
+  value: '2025-05-20'
+- type: published
+  value: '2025-05-21'
+- type: issued
+  value: '2025'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-05-21'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: A non-intrusive state monitoring framework for embedded devices in industrial
+    control systems is provided in this standard. The techniques covered include analog
+    signal acquisition, analog data processing, model training, anomaly detection,
+    and human-machine interface. The analog signal acquisition is to gather various
+    types of sensor signals from the embedded devices. The analog data processing
+    is to process the collected data to extract features. The model training is to
+    train a classification model that can identify different types of attacks. The
+    anomaly detection is to implement, manage, and secure the detection engine. The
+    human-machine interface is to provide alarm information and get feedback.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+keyword:
+- content: embedded devices
+- content: industrial control systems
+- content: anomaly detection
+- content: side channel
+- content: model training
+- content: IEEE 3121TM
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Smart Manufacturing Standards Committee of the IEEE Computer Society
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

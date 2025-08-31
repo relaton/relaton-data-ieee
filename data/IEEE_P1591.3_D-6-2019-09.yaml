@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1591.3-D-6-2019-09
 title:
 - content: IEEE Approved Draft Standard for Qualifying Hardware for Helically-Applied
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1591.3-2011
+    id: IEEEStd1591.3-2011
     docid:
-    - id: IEEE 1591.3-2011
+    - id: IEEE Std 1591.3-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1591.3-2011
+      content: IEEE Std 1591.3-2011
       format: text/plain
   description:
     content: revises
@@ -86,47 +86,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE1591.3-2011
+    id: IEEEStd1591.3-2011
     docid:
-    - id: IEEE 1591.3-2011
+    - id: IEEE Std 1591.3-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1591.3-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1591.3-2011
-    docid:
-    - id: IEEE 1591.3-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1591.3-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1591.3-2011
-    docid:
-    - id: IEEE 1591.3-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1591.3-2011
+      content: IEEE Std 1591.3-2011
       format: text/plain
   description:
     content: revises
@@ -145,15 +111,13 @@ keyword:
 - content: IEEE 1591.3
 - content: skywrap
 - content: WRAP
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: 33.180.10
-  text: Fibres and cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 33.180.10
+    text: Fibres and cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

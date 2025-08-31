@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP404-D-2-2022-02
 title:
 - content: IEEE Approved Draft Standard for Extruded and Laminated Dielectric Shielded
@@ -74,81 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE404-2012
+    id: IEEEStd404-2012
     docid:
-    - id: IEEE 404-2012
+    - id: IEEE Std 404-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 404-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE400-2012
-    docid:
-    - id: IEEE 400-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 400-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE400-2012
-    docid:
-    - id: IEEE 400-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 400-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE400-2012
-    docid:
-    - id: IEEE 400-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 400-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE400-2012
-    docid:
-    - id: IEEE 400-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 400-2012
+      content: IEEE Std 404-2012
       format: text/plain
   description:
     content: revises
@@ -174,15 +106,16 @@ keyword:
 - content: sheath/shield sectionalizers
 - content: transition joints
 - content: withstand voltage
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.120.20
-  text: Connecting devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.20
+    text: Connecting devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

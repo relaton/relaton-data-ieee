@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-USEMCSCC63.10a-2024
 title:
 - content: American National Standard for Procedures for Compliance Testing of Unlicensed
@@ -49,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The procedures for testing the compliance of a wide variety of unlicensed
+- content: 'The procedures for testing the compliance of a wide variety of unlicensed
     wireless transmitters (also called intentional radiators and license-exempt transmitters)
     including, but not limited to, remote control and security unlicensed wireless
     devices, frequency hopping and direct sequence spread spectrum devices, antipilferage
@@ -59,7 +59,8 @@ abstract:
     systems, and other unlicensed wireless devices authorized by a radio regulatory
     authority are covered in this standard. Excluded by this standard are test procedures
     for unlicensed wireless devices already covered in other published standards (e.g.,
-    Unlicensed Personal Communication Services (UPCS) devices).
+    Unlicensed Personal Communication Services (UPCS) devices). An errata is available
+    and can be accessed here: https://standards.ieee.org/wp-content/uploads/2024/11/C63.10a-2024_errata.pdf'
   language:
   - en
   script:
@@ -116,17 +117,18 @@ keyword:
 - content: test procedures
 - content: Unlicensed National Information Infrastructure (U-NII)
 - content: unlicensed wireless devices
-doctype: standard
-editorialgroup:
-  committee:
-  - Committee on Electromagnetic Compatibility
-ics:
-- code: 33.070.01
-  text: Mobile services in general
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Committee on Electromagnetic Compatibility
+  ics:
+  - code: 33.070.01
+    text: Mobile services in general
+  - code: 33.100.10
+    text: Emission
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

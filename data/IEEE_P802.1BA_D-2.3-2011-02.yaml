@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1BA-D-2.3-2011-02
 title:
 - content: IEEE Draft Standard for Local and Metropolitan Area Networks - Audio Video
@@ -77,7 +77,6 @@ keyword:
 - content: Bridged circuits
 - content: Streaming media
 - content: Virtural environment
-- content: Audio-visual systems
 - content: Bridged Local Area Networks
 - content: local area networks (LANs)
 - content: MAC Bridges
@@ -86,15 +85,16 @@ keyword:
 - content: time sensitive data streams
 - content: audio video bridging
 - content: AVB.
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

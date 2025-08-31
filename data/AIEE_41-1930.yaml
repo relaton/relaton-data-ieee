@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE41-1930
 title:
 - content: AIEE Insulator Tests (Revised
@@ -71,9 +71,10 @@ keyword:
 - content: Conductors
 - content: Electrodes
 - content: Testing
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

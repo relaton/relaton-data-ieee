@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC15288-2008
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering
@@ -59,6 +59,19 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Revision of ISO/IEC 15288-2004. This International Standard was jointly
+    developed by ISO/IEC and IEEE. This International Standard establishes a common
+    process framework for describing the life cycle of man-made systems. It defines
+    a set of processes and associated terminology for the full life cycle, including
+    conception, development, production, utilization, support and retirement. This
+    standard also supports the definition, control, assessment, and improvement of
+    these processes. These processes can be applied concurrently, iteratively, and
+    recursively to a system and its elements throughout the life cycle of a system.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -74,13 +87,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE15288-2004
+    id: IEEEStd15288-2004
     docid:
-    - id: IEEE 15288-2004
+    - id: IEEE Std 15288-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15288-2004
+      content: IEEE Std 15288-2004
       format: text/plain
   description:
     content: revises
@@ -138,17 +151,19 @@ keyword:
 - content: transition
 - content: validation
 - content: verification
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: 03.100.40
-  text: Research and development
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: 03.100.40
+    text: Research and development
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

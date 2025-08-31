@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1076.1-D-1.2-2017-05
 title:
 - content: IEEE Draft Standard VHDL Analog and Mixed-Signal Extensions
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1076.1-2007
+    id: IEEEStd1076.1-2007
     docid:
-    - id: IEEE 1076.1-2007
+    - id: IEEE Std 1076.1-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1076.1-2007
+      content: IEEE Std 1076.1-2007
       format: text/plain
   description:
     content: revises
@@ -101,12 +101,10 @@ keyword:
 - content: IEEE 1076.1&#8482;
 - content: mixed-signal design
 - content: VHD
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

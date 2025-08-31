@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62243
 title:
 - content: 'IEC 62243:2012(E) (IEEE Std 1232-2010): Artificial Intelligence Exchange
@@ -25,7 +25,7 @@ docid:
 docnumber: IEC 62243
 date:
 - type: created
-  value: '2012'
+  value: '2012-07-16'
 - type: published
   value: '2012-06-29'
 - type: issued
@@ -76,6 +76,27 @@ copyright:
   - name:
     - content: IEC
   from: '2012'
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: IEC62243
+    docid:
+    - id: IEC 62243
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEC 62243
+      format: text/plain
+- type: obsoletedBy
+  bibitem:
+    id: IEC62243
+    docid:
+    - id: IEC 62243
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEC 62243
+      format: text/plain
 keyword:
 - content: IEEE standards
 - content: IEC standards
@@ -93,19 +114,17 @@ keyword:
 - content: IEEE 1232
 - content: knowledge exchange
 - content: system test
-doctype: standard
-editorialgroup:
-  committee:
-  - SCC20 - Test and Diagnosis for Electronic Systems
-ics:
-- code: '35.080'
-  text: Software
-- code: '35.240'
-  text: Applications of information technology
-- code: '35.160'
-  text: Microprocessor systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: '35.240'
+    text: Applications of information technology
+  - code: '35.160'
+    text: Microprocessor systems
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE50-1953
 title:
 - content: AIEE Standard for Automatic Circuit Reclosers for A-C Distribution Systems
@@ -66,9 +66,10 @@ keyword:
 - content: Automatic test equipment
 - content: Power distribution planning
 - content: Dielectric breakdown
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.1AS-Cor1-2023
 title:
 - content: 'ISO/IEC/IEEE--Information technology--Telecommunications and information
@@ -27,7 +27,7 @@ docid:
 docnumber: ISO/IEC/IEEE 8802.1AS/Cor1-2023
 date:
 - type: created
-  value: '2023'
+  value: '2023-03-10'
 - type: published
   value: '2023-03-10'
 - type: issued
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.1AS-2020
+    id: IEEEStd802.1AS-2020
     docid:
-    - id: IEEE 802.1AS-2020
+    - id: IEEE Std 802.1AS-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1AS-2020
+      content: IEEE Std 802.1AS-2020
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -104,15 +104,16 @@ keyword:
 - content: synchronization
 - content: syntonization
 - content: time-aware system
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

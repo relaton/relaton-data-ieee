@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE15288
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering
@@ -61,6 +61,18 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This International Standard establishes a common process framework for
+    describing the life cycle of man-made systems. It defines a set of processes and
+    associated terminology for the full life cycle, including conception, development,
+    production, utilization, support and retirement. This standard also supports the
+    definition, control, assessment, and improvement of these processes. These processes
+    can be applied concurrently, iteratively, and recursively to a system and its
+    elements throughout the life cycle of a system.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -86,13 +98,13 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEEE15288-2008
+    id: IEEEStd15288-2008
     docid:
-    - id: IEEE 15288-2008
+    - id: IEEE Std 15288-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15288-2008
+      content: IEEE Std 15288-2008
       format: text/plain
   description:
     content: revises
@@ -103,13 +115,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE15288-2008
+    id: IEEEStd15288-2008
     docid:
-    - id: IEEE 15288-2008
+    - id: IEEE Std 15288-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15288-2008
+      content: IEEE Std 15288-2008
       format: text/plain
   description:
     content: revises
@@ -120,13 +132,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE15288-2008
+    id: IEEEStd15288-2008
     docid:
-    - id: IEEE 15288-2008
+    - id: IEEE Std 15288-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15288-2008
+      content: IEEE Std 15288-2008
       format: text/plain
   description:
     content: revises
@@ -137,13 +149,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE15288-2008
+    id: IEEEStd15288-2008
     docid:
-    - id: IEEE 15288-2008
+    - id: IEEE Std 15288-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15288-2008
+      content: IEEE Std 15288-2008
       format: text/plain
   description:
     content: revises
@@ -154,13 +166,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE15288-2008
+    id: IEEEStd15288-2008
     docid:
-    - id: IEEE 15288-2008
+    - id: IEEE Std 15288-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15288-2008
+      content: IEEE Std 15288-2008
       format: text/plain
   description:
     content: revises
@@ -171,13 +183,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE15288-2008
+    id: IEEEStd15288-2008
     docid:
-    - id: IEEE 15288-2008
+    - id: IEEE Std 15288-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15288-2008
+      content: IEEE Std 15288-2008
       format: text/plain
   description:
     content: revises
@@ -188,98 +200,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE15288-2008
+    id: IEEEStd15288-2008
     docid:
-    - id: IEEE 15288-2008
+    - id: IEEE Std 15288-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15288-2008
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15288-2008
-    docid:
-    - id: IEEE 15288-2008
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15288-2008
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15288-2008
-    docid:
-    - id: IEEE 15288-2008
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15288-2008
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15288-2008
-    docid:
-    - id: IEEE 15288-2008
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15288-2008
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15288-2008
-    docid:
-    - id: IEEE 15288-2008
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15288-2008
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15288-2008
-    docid:
-    - id: IEEE 15288-2008
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15288-2008
+      content: IEEE Std 15288-2008
       format: text/plain
   description:
     content: revises
@@ -299,15 +226,13 @@ keyword:
 - content: life cycle
 - content: life cycle process
 - content: software
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

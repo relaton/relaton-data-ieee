@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1671-D-14-2010-07
 title:
 - content: IEEE Draft Standard for Automatic Test Markup Language (ATML) for Exchanging
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1671/D-14-2010-07
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-27'
 - type: published
   value: '2010-07-29'
 - type: issued
@@ -83,21 +83,22 @@ keyword:
 - content: UUT maintenance
 - content: XML instance document
 - content: XML schema
-doctype: standard
-editorialgroup:
-  committee:
-  - SCC20 - Test and Diagnosis for Electronic Systems
-ics:
-- code: '19.080'
-  text: Electrical and electronic testing
-- code: 35.240.30
-  text: IT applications in information,  documentation and publishing
-- code: '25.040'
-  text: Industrial automation systems
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - SCC20 - Test and Diagnosis for Electronic Systems
+  ics:
+  - code: '19.080'
+    text: Electrical and electronic testing
+  - code: 35.240.30
+    text: IT applications in information,  documentation and publishing
+  - code: '25.040'
+    text: Industrial automation systems
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

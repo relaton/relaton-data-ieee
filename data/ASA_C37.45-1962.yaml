@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ASAC37.45-1962
 title:
 - content: American Standard Specifications for Distribution Enclosed Single Pole
@@ -25,7 +25,7 @@ docid:
 docnumber: ASA C37.45-1962
 date:
 - type: created
-  value: '1962'
+  value: '1962-06-29'
 - type: published
   value: '2016-06-29'
 - type: issued
@@ -63,9 +63,10 @@ keyword:
 - content: Switching systems
 - content: Voltage control
 - content: Dielectrics
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

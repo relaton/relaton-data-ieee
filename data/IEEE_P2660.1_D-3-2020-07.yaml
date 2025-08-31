@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2660.1-D-3-2020-07
 title:
 - content: 'IEEE Approved Draft Recommended Practices on Industrial Agents: Integration
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2660.1/D-3-2020-07
 date:
 - type: created
-  value: '2020'
+  value: '2020-07-29'
 - type: published
   value: '2020-07-30'
 - type: issued
@@ -84,16 +84,17 @@ keyword:
 - content: industrial automation
 - content: intelligent agents
 - content: multi-agent system
-doctype: standard
-editorialgroup:
-  committee:
-  - Industrial Electronics Society Standards Committee of the IEEE Industrial Electronics
-    Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Industrial Electronics Society Standards Committee of the IEEE Industrial Electronics
+      Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

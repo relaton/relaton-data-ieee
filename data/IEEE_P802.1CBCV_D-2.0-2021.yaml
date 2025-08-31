@@ -1,0 +1,127 @@
+---
+schema-version: v1.2.9
+id: IEEEP802.1CBcv-D-2.0-2021
+title:
+- content: 'IEEE Draft Standard for Local and metropolitan area networks -- Frame
+    Replication and Elimination for Reliability - Amendment 1: Information Model,
+    YANG Data Model and Management Information Base Module'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/9500167
+  type: src
+type: standard
+docid:
+- id: IEEE P802.1CBcv/D-2.0-2021
+  type: IEEE
+  primary: true
+- id: IEEE P802.1CBcv™/D-2.0-2021
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-1-5044-7859-5
+  type: ISBN
+docnumber: IEEE P802.1CBcv/D-2.0-2021
+date:
+- type: created
+  value: '2021-07-27'
+- type: published
+  value: '2021-07-28'
+- type: issued
+  value: '2021-12-08'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2021-07-28'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: This amendment specifies YANG data models and MIB modules that allow configuration
+    and status reporting for bridges and end systems with the capabilities for Frame
+    Replication and Elimination for Reliability (FRER) and Stream identification.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2021'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd802.1CB-2017
+    docid:
+    - id: IEEE Std 802.1CB-2017
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.1CB-2017
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Local area networks
+- content: Metropolitan area networks
+- content: Data models
+- content: Management information base
+- content: Bridged Local Area Networks
+- content: Bridges
+- content: Bridging
+- content: Frame Elimination
+- content: Frame Replication
+- content: IEEE 802
+- content: IEEE 802.1CB
+- content: IEEE 802.1Q
+- content: local area networks (LANs)
+- content: MAC Bridges
+- content: Redundancy
+- content: Time-Sensitive Networking
+- content: TSN
+- content: Virtual Bridged Local Area Networks (virtual LANs)
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 01.040.25
+    text: Manufacturing engineering (Vocabularies)
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

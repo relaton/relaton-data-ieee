@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.1.1-D-2.0-2015-04
 title:
 - content: IEEE Draft Standard Technical Specifications of a DC Quick Charger for
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2030.1.1/D-2.0-2015-04
 date:
 - type: created
-  value: '2015'
+  value: '2015-06-25'
 - type: published
   value: '2015-04-22'
 - type: issued
@@ -101,15 +101,16 @@ keyword:
 - content: electric vehicle
 - content: SAE
 - content: IEEE
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
-ics:
-- code: 43.040.01
-  text: Road vehicle systems in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: 43.040.01
+    text: Road vehicle systems in general
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

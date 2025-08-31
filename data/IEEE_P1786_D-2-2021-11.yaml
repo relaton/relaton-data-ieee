@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1786-D-2-2021-11
 title:
 - content: IEEE Draft Guide for Human Factors Applications of Computerized Operating
@@ -69,47 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1786-2011
+    id: IEEEStd1786-2011
     docid:
-    - id: IEEE 1786-2011
+    - id: IEEE Std 1786-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1786-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1786-2011
-    docid:
-    - id: IEEE 1786-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1786-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1786-2011
-    docid:
-    - id: IEEE 1786-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1786-2011
+      content: IEEE Std 1786-2011
       format: text/plain
   description:
     content: revises
@@ -130,17 +96,18 @@ keyword:
 - content: human factors
 - content: IEEE 1786
 - content: nuclear facilities
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 27.120.20
-  text: Nuclear power plants. Safety
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

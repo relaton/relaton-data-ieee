@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2401-D-5-2015-06
 title:
 - content: IEEE Approved Draft Standard Format for LSI-Package-Board Interoperable
@@ -89,17 +89,18 @@ keyword:
 - content: geometries
 - content: Verilog-HDL
 - content: design analysis.
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '31.200'
-  text: IT applications in industry
-- code: 35.240.50
-  text: Integrated circuits. Microelectronics
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '31.200'
+    text: IT applications in industry
+  - code: 35.240.50
+    text: Integrated circuits. Microelectronics
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.26-2015
 title:
 - content: IEEE/ANSI Standard for Compliance Testing of Transmitters Used in Licensed
@@ -65,6 +65,22 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This standard is intended to cover procedures for compliance testing of
+    a wide variety of transmitters designed to operate in licensed radio services,
+    including but not limited to:Commercial Mobile Radio Services, Public Mobile Services,
+    Cellular Radiotelephone Service, Personal Communication Services, Miscellaneous
+    Wireless Communication Services, PrivateLand Mobile Radio Services, and Personal
+    Radio Services. Tests methods are provided for measurement of radiated and conducted
+    emissions, RF power, out-of-band emissions, frequencystability, and other regulatory
+    requirements for a variety of devices. This standard does not consider test methods
+    for requirements specific to maritime and aviation transmitters, ground-based
+    radars, satellite equipment, fixed microwave equipment, or broadcast transmitters.
+    The latter equipment may be covered in future revisions of this standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -98,12 +114,13 @@ keyword:
 - content: radiated and conducted emissions
 - content: RF power
 - content: test procedures
-doctype: standard
-editorialgroup:
-  committee:
-  - Accredited Standards Committee on Electromagnetic Compatibility
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Accredited Standards Committee on Electromagnetic Compatibility
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

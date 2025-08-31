@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEEE11073.10101-2020
 title:
-- content: 'Health informatics-Device interoperability-Part 10101: Point-of-care medical
-    device communication-Nomenclature'
+- content: 'ISO/IEEE International Standard - Health informatics-Device interoperability-Part
+    10101: Point-of-care medical device communication-Nomenclature'
   format: text/plain
   type: main
 link:
@@ -65,6 +65,22 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Within the context of the ISO/IEEE 11073 family of standards for point-of-care
+    (POC) and personal health devices (PHD) medical device communication (MDC), this
+    standard provides the nomenclature that supports both the domain information model
+    and service model components of the standards family, as well as the semantic
+    content exchanged with medical devices. The nomenclature is specialized for patient
+    vital signs information representation and medical device informatics, with major
+    areas including concepts for electrocardiograph (ECG), haemodynamics, respiration,
+    blood gas, urine, fluid-related metrics, and neurology, as well as specialized
+    units of measurement, general device events, alarms, and body sites. The standard
+    defines both the architecture and major components of the nomenclature, along
+    with extensive definitions for each conceptual area.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -83,23 +99,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE11073.10101-2019
+    id: IEEEStd11073.10101-2019
     docid:
-    - id: IEEE 11073.10101-2019
+    - id: IEEE Std 11073.10101-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10101-2019
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE11073.10101-2019
-    docid:
-    - id: IEEE 11073.10101-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 11073.10101-2019
+      content: IEEE Std 11073.10101-2019
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -123,16 +129,19 @@ keyword:
 - content: semantics
 - content: service model
 - content: terminology
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

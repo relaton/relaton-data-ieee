@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP37.100.2-D-4.1-2014-08
 title:
 - content: IEEE Draft Standard for Common Requirements for Testing of AC Capacitance
@@ -92,15 +92,16 @@ keyword:
 - content: synthetic test
 - content: three-phase testing
 - content: unit test
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

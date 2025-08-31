@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.109-D-3.6-2023-08
 title:
-- content: IEEE Draft Guide for the Protection of Shunt Reactors
+- content: IEEE Approved Draft Guide for the Protection of Shunt Reactors
   format: text/plain
   type: main
 link:
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE PC37.109/D-3.6-2023-08
 date:
 - type: created
-  value: '2023'
+  value: '2023-12-14'
 - type: published
   value: '2023-09-27'
 - type: issued
-  value: '2023'
+  value: '2023-12-06'
 contributor:
 - organization:
     name:
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.109-2006
+    id: IEEEStdC37.109-2006
     docid:
-    - id: IEEE C37.109-2006
+    - id: IEEE Std C37.109-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.109-2006
+      content: IEEE Std C37.109-2006
       format: text/plain
   description:
     content: revises
@@ -85,12 +85,21 @@ relation:
     - Latn
     format: text/plain
 keyword:
-- content: dry-type
+- content: IEEE Standards
+- content: Windings
+- content: Inductors
+- content: Microprocessors
+- content: Protective relaying
+- content: Resonance
+- content: Shunts (electrical)
 - content: air-core
 - content: auxiliary power winding
 - content: circuit switcher
+- content: dry-type
 - content: dry-type reactors
-- content: microprocessor based relays
+- content: IEEE C37.109&#8482;
+- content: iron-core
+- content: microprocessor-based relays
 - content: neutral reactor
 - content: oil-immersed
 - content: pole disagreement
@@ -102,16 +111,17 @@ keyword:
 - content: shunt reactors
 - content: turn-to-turn
 - content: voltage-unbalance relaying
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62050
 title:
 - content: IEC/IEEE International Standard - VHDL Register Transfer Level (RTL) Synthesis
@@ -24,7 +24,7 @@ docid:
 docnumber: IEC 62050
 date:
 - type: created
-  value: '2005'
+  value: '2005-07-31'
 - type: published
   value: '2019-11-07'
 - type: issued
@@ -81,15 +81,16 @@ keyword:
 - content: logic synthesis
 - content: register transfer level (RTL)
 - content: very high speed integrated circuit hardware description language (VHDL)
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

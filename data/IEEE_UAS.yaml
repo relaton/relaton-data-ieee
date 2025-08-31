@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEUAS
 title:
 - content: IEEE UAS Standards Tracking and Standards Development Related Research
@@ -84,12 +84,13 @@ keyword:
 - content: unmanned aerial vehicle
 - content: unmanned aircraft systems
 - content: urban air mobility
-doctype: standard
-editorialgroup:
-  committee:
-  - Industry Connections Committee of the IEEE-SASB
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Industry Connections Committee of the IEEE-SASB
   standard_status: Active
   pubstatus: Active
   holdstatus: Publish

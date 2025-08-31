@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3cm-D-3.0-2019-07
 title:
 - content: IEEE Draft Standard for Ethernet Amendment Physical Layer and Management
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P802.3cm/D-3.0-2019-07
 date:
 - type: created
-  value: '2019'
+  value: '2019-07-25'
 - type: published
   value: '2019-07-26'
 - type: issued
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2018
+    id: IEEEStd802.3-2018
     docid:
-    - id: IEEE 802.3-2018
+    - id: IEEE Std 802.3-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2018
+      content: IEEE Std 802.3-2018
       format: text/plain
   description:
     content: amends
@@ -99,7 +99,6 @@ keyword:
 - content: 400GBASE-SR4.2
 - content: amendment
 - content: Energy Efficient Ethernet (EEE)
-- content: Ethernet
 - content: Forward Error Correction (FEC)
 - content: IEEE 802.3
 - content: IEEE 802.3cd
@@ -109,17 +108,15 @@ keyword:
 - content: Physical Medium Dependent (PMD) sublayer
 - content: Reconciliation Sublayer (RS)
 - content: multimode fiber (MMF)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

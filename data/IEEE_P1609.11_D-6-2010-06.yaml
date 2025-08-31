@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1609.11-D-6-2010-06
 title:
 - content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1609.11/D-6-2010-06
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-15'
 - type: published
   value: '2010-07-19'
 - type: issued
@@ -84,17 +84,18 @@ keyword:
 - content: EPS
 - content: WAVE
 - content: Wireless Access in Vehicular Environments
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
-ics:
-- code: 35.240.60
-  text: IT applications in transport and trade
-- code: 43.040.15
-  text: Car informatics. On-board computer systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport and trade
+  - code: 43.040.15
+    text: Car informatics. On-board computer systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

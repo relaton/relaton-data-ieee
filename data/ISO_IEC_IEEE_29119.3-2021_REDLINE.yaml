@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE29119.3-2021Redline
 title:
 - content: IEEE/ISO/IEC International Standard for Software and systems engineering--Software
@@ -115,15 +115,17 @@ keyword:
 - content: Test Planning Process
 - content: Test Plan
 - content: verification and validation.
-doctype: redline
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

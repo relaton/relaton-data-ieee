@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP789-D-6-2013-01
 title:
 - content: IEEE Draft Standard Performance Requirements for Communications and Control
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P789/D-6-2013-01
 date:
 - type: created
-  value: '2013'
+  value: '2013-06-18'
 - type: published
   value: '2013-01-22'
 - type: issued
@@ -94,15 +94,16 @@ keyword:
 - content: electrical parameters
 - content: wires
 - content: testing requirements
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Communications of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

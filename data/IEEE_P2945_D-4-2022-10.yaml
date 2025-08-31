@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2945-D-4-2022-10
 title:
 - content: IEEE Approved Draft Standard for Technical Requirements for Face Recognition
@@ -80,15 +80,16 @@ keyword:
 - content: performance requirements
 - content: security requirements
 - content: technical architecture
-doctype: standard
-editorialgroup:
-  committee:
-  - Artificial Intelligence Standards Committee of the IEEE Computer Society
-ics:
-- code: 25.040.30
-  text: Industrial robots. Manipulators
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Artificial Intelligence Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 25.040.30
+    text: Industrial robots. Manipulators
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

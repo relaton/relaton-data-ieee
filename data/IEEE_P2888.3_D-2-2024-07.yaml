@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2888.3-D-2-2024-07
 title:
 - content: IEEE Draft Standard on Orchestration of Digital Synchronization between
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P2888.3/D-2-2024-07
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-17'
 - type: published
-  value: '2024-07-19'
+  value: '2024-07-18'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -41,11 +41,20 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-07-19'
+revdate: '2024-07-18'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: Layered architecture for the orchestration of digital synchronization between
+    the cyber and physical worlds, requirements of each layer, and use cases of the
+    defined architecture are defined in this standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -64,17 +73,23 @@ keyword:
 - content: Synchronization
 - content: Digital systems
 - content: Cyber-physical systems
-- content: Physical and cyber worlds
-- content: digital twin
-- content: orchestration
+- content: cyber worlds
 - content: digital synchronization
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board Standards Committee of the IEEE Computer Society
+- content: digital twin
+- content: IEEE 2888.3&#8482;
+- content: orchestration
+- content: physical worlds
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Digital Content Technology Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.01
+    text: Application of information technology in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.12-D-5-2018-03
 title:
 - content: IEEE Draft Guide for Specifications of High-Voltage Circuit Breakers (Over
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.12/D-5-2018-03
 date:
 - type: created
-  value: '2018'
+  value: '2018-04-04'
 - type: published
   value: '2018-04-05'
 - type: issued
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.12-2008
+    id: IEEEStd605-2008
     docid:
-    - id: IEEE C37.12-2008
+    - id: IEEE Std 605-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.12-2008
+      content: IEEE Std 605-2008
       format: text/plain
   description:
     content: revises
@@ -113,15 +113,13 @@ keyword:
 - content: short-circuit current
 - content: short-line fault
 - content: specification
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

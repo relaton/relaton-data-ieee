@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1268-D-10-2015
 title:
 - content: IEEE Draft Guide for Safety in the Installation of Mobile Substation Equipment
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1268/D-10-2015
 date:
 - type: created
-  value: '2015'
+  value: '2015-07-02'
 - type: published
   value: '2015-03-13'
 - type: issued
@@ -85,15 +85,16 @@ keyword:
 - content: touch voltage
 - content: transferred voltage
 - content: arc flash
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: 29.240.10
-  text: Substations. Surge arresters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.10
+    text: Substations. Surge arresters
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

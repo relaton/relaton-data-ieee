@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.15.8-D-6-2017-10
 title:
 - content: IEEE Approved Draft Wireless Medium Access Control (MAC) and Physical Layer
@@ -88,12 +88,13 @@ keyword:
 - content: IEEE 802.15.8(TM)
 - content: infrastructure-less
 - content: peer aware communications
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

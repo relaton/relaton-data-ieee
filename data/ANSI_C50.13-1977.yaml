@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC50.13-1977
 title:
 - content: American National Standard Requirements for Cylindrical-Rotor Synchronous
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI C50.13-1977
 date:
 - type: created
-  value: '1977'
+  value: '1977-06-17'
 - type: published
   value: '2013-09-20'
 - type: issued
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEEC50.13-2005
+    id: IEEEStdC50.13-2005
     docid:
-    - id: IEEE C50.13-2005
+    - id: IEEE Std C50.13-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C50.13-2005
+      content: IEEE Std C50.13-2005
       format: text/plain
 keyword:
 - content: Standards
@@ -84,13 +84,13 @@ keyword:
 - content: Synchronous generators
 - content: Telephone sets
 - content: Rotors
-- content: Synchronous generators
-doctype: standard
-ics:
-- code: 29.160.20
-  text: Generators
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.160.20
+    text: Generators
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

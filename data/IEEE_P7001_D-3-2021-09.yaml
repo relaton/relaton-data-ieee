@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP7001-D-3-2021-09
 title:
 - content: IEEE Draft Standard for Transparency of Autonomous Systems
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2021-09-28'
 - type: issued
-  value: '2021'
+  value: '2021-12-08'
 contributor:
 - organization:
     name:
@@ -46,9 +46,9 @@ language:
 script:
 - Latn
 abstract:
-- content: The aim of this standard is to describe measurable, testable levels of
-    transparency, so that autonomous systems can be objectively assessed and levels
-    of compliance determined.
+- content: Measurable, testable levels of transparency, so that autonomous systems
+    can be objectively assessed, and levels of compliance determined, are described
+    in this standard.
   language:
   - en
   script:
@@ -70,20 +70,22 @@ keyword:
 - content: Autonomous systems
 - content: Artificial intelligence
 - content: Intelligent transportation systems
-- content: Autonomous systems
+- content: autonomous systems
 - content: artificial intelligence
-- content: transparency
 - content: ethics
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
+- content: IEEE 7001
+- content: transparency
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

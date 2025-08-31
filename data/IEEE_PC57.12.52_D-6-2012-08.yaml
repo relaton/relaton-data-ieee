@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.12.52-D-6-2012-08
 title:
 - content: IEEE Draft Standard for Sealed Dry-Type Power Transformers, 501 kVA and
@@ -114,15 +114,16 @@ keyword:
 - content: transformer tank
 - content: unit substation
 - content: winding temperature.
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

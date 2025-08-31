@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEP82079.2-E-1-2024-05
 title:
 - content: 'IEEE/ISO/IEC Draft Standard Preparation of information for use (instructions
@@ -83,12 +83,14 @@ keyword:
 - content: Food products
 - content: Labeling
 - content: Instruction sets
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

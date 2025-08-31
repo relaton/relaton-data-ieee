@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1Qdj-D-2.2-2024-02
 title:
-- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks--Bridges
+- content: 'IEEE Approved Draft Standard for Local and Metropolitan Area Networks--Bridges
     and Bridged Networks Amendment 38: Configuration Enhancements for Time-Sensitive
     Networking'
   format: text/plain
@@ -24,11 +24,11 @@ docid:
 docnumber: IEEE P802.1Qdj/D-2.2-2024-02
 date:
 - type: created
-  value: '2024-02-29'
+  value: '2024-05-22'
 - type: published
   value: '2024-03-01'
 - type: issued
-  value: '2024'
+  value: '2024-05-20'
 contributor:
 - organization:
     name:
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1Q-2018
+    id: IEEEStd802.1Q-2018
     docid:
-    - id: IEEE 802.1Q-2018
+    - id: IEEE Std 802.1Q-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1Q-2018
+      content: IEEE Std 802.1Q-2018
       format: text/plain
   description:
     content: amends
@@ -98,6 +98,7 @@ keyword:
 - content: Virtual LAN
 - content: Time factors
 - content: Configuration management
+- content: amendment
 - content: Bridged Network
 - content: Centralized Network Configuration
 - content: CNC
@@ -113,16 +114,17 @@ keyword:
 - content: virtual LAN
 - content: VLAN Bridge
 - content: YANG
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

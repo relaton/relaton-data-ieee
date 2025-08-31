@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3003.1-D-16.3-2019-03
 title:
 - content: IEEE Approved Draft Recommended Practice for the System Grounding of Industrial
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P3003.1/D-16.3-2019-03
 date:
 - type: created
-  value: '2019'
+  value: '2019-06-13'
 - type: published
   value: '2019-06-18'
 - type: issued
@@ -79,12 +79,14 @@ keyword:
 - content: high resistance ground
 - content: IEEE 3003.1
 - content: neutral
-doctype: standard
-editorialgroup:
-  committee:
-  - Industrial &amp; Commercial Power Systems of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Industrial &amp; Commercial Power Systems of the IEEE Industry Applications
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

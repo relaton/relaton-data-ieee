@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIPN42.37-D-10-2015-10
 title:
 - content: Draft American National Standard Training for the Radiological/Nuclear
@@ -125,15 +125,13 @@ keyword:
 - content: radionuclide identifier
 - content: reachback
 - content: Secondary Screener
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

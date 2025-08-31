@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1823-D-2.1-2014-07
 title:
 - content: IEEE Draft Standard for a Universal Power Adapter for Mobile Devices
@@ -86,15 +86,16 @@ keyword:
 - content: low energy connect and disconnect
 - content: communications controlled power
 - content: power delivery
-doctype: standard
-editorialgroup:
-  committee:
-  - Microprocessor Standards Committee of the IEEE Computer Society
-ics:
-- code: 33.070.50
-  text: Global System for Mobile Communication (GSM)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 33.070.50
+    text: Global System for Mobile Communication (GSM)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

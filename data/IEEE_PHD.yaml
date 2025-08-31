@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPHD
 title:
 - content: IEEE PHD Cybersecurity Standards Roadmap
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE PHD
 date:
 - type: created
-  value: '2019'
+  value: '2019-04-30'
 - type: published
   value: '2019-04-30'
 - type: issued
@@ -67,13 +67,14 @@ copyright:
       content: IEEE
     url: http://www.ieee.org
   from: '2019'
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
   standard_status: Active
   pubstatus: Active
   holdstatus: Publish

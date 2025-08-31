@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.98-D-3-2023-01
 title:
-- content: IEEE Draft Approved Standard for Seismic Qualification Testing of Protective
-    Relays and Auxiliaries for Nuclear Facilities
+- content: IEEE Draft Standard for Seismic Qualification Testing of Protective Relays
+    and Auxiliaries for Nuclear Facilities
   format: text/plain
   type: main
 link:
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.98/D-3-2023-01
 date:
 - type: created
-  value: '2023'
+  value: '2023-02-16'
 - type: published
   value: '2023-02-17'
 - type: issued
@@ -51,10 +51,10 @@ abstract:
     and auxiliaries such as test and control switches, terminal blocks, and indicating
     lamps for use in nuclear facilities are described in this standard. The primary
     intent of this standard is to focus on fragility testing and seismic qualification,
-    also known as proof testing (either to generic levels or specific levels). This
-    standard covers relays used in nuclear facilities, but may also be applied to
-    any area in which the seismic response of relays is a design consideration. The
-    prerequisites for the seismic test are defined in IEEE Std C37.105&#8482;
+    also known as proof testing (either to generic levels or specific levels). Relays
+    used in nuclear facilities are covered in this standard, but it may also be applied
+    to any area in which the seismic response of relays is a design consideration.
+    The prerequisites for the seismic test are defined in IEEE Std C37.105&#8482;.
   language:
   - en
   script:
@@ -74,183 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.98-2013
+    id: IEEEStdC37.98-2013
     docid:
-    - id: IEEE C37.98-2013
+    - id: IEEE Std C37.98-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
+      content: IEEE Std C37.98-2013
       format: text/plain
   description:
     content: revises
@@ -285,18 +115,19 @@ keyword:
 - content: seismic test
 - content: test
 - content: test response spectrum
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 27.120.20
-  text: Nuclear power plants. Safety
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  - code: 29.120.70
+    text: Relays
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

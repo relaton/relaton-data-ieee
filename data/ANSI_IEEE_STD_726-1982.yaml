@@ -1,0 +1,95 @@
+---
+schema-version: v1.2.9
+id: ANSI-IEEEStd726-1982
+title:
+- content: IEEE Standard Real-Time BASIC for CAMAC
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/29061
+  type: src
+type: standard
+docid:
+- id: ANSI/IEEE Std 726-1982
+  type: IEEE
+  primary: true
+- id: ANSI/IEEE Std 726™-1982
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-0-7381-0712-7
+  type: ISBN
+- id: 10.1109/IEEESTD.1982.81545
+  type: DOI
+docnumber: ANSI/IEEE Std 726-1982
+date:
+- type: created
+  value: '1982-02-26'
+- type: published
+  value: '2016-03-17'
+- type: issued
+  value: '1981-09-17'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2016-03-17'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: This standard defines ANSI Standard Real-Time BASIC, in which the declarations
+    and real-time statements are defined for use with CAMAC hardware. It covers real-time
+    capabilities, declarations, parallel activities, CAMAC input and output, the CAMAC
+    Q and X signals, CAMAC LAM handling, message passing, shared data, and bit manipulation.
+    The aim is to achieve maximum compatibility between different implementations
+    of ANSI BASIC for use with CAMAC.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '1982'
+keyword:
+- content: High-level languages
+- content: CAMAC
+- content: Standards
+- content: real
+- content: time
+- content: BASIC
+- content: Computer languages
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Instruments and Detectors of the IEEE Nuclear and Plasma Sciences Society
+  ics:
+  - code: 27.120.99
+    text: Other standards related to nuclear energy
+  - code: '35.060'
+    text: Languages used in information technology
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

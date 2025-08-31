@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC95.1-D-3.5-2018-10
 title:
-- content: IEEE Approved Draft Standard for Safety Levels with Respect to Human Exposure
-    to Electric, Magnetic and Electromagnetic Fields, 0 Hz to 300 GHz
+- content: IEEE Draft Standard for Safety Levels with Respect to Human Exposure to
+    Electric, Magnetic and Electromagnetic Fields, 0 Hz to 300 GHz
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/8640873
+- content: https://ieeexplore.ieee.org/document/8526563
   type: src
 type: standard
 docid:
@@ -23,9 +23,9 @@ docid:
 docnumber: IEEE PC95.1/D-3.5-2018-10
 date:
 - type: created
-  value: '2019-01-25'
+  value: '2018-11-06'
 - type: published
-  value: '2019-02-12'
+  value: '2018-11-07'
 - type: issued
   value: '2019-02-08'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2019-02-12'
+revdate: '2018-11-07'
 language:
 - en
 script:
@@ -75,13 +75,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC95.1-2005
+    id: IEEEStdC95.1-2005
     docid:
-    - id: IEEE C95.1-2005
+    - id: IEEE Std C95.1-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C95.1-2005
+      content: IEEE Std C95.1-2005
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStdC95.1-2005
+    docid:
+    - id: IEEE Std C95.1-2005
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std C95.1-2005
       format: text/plain
   description:
     content: revises
@@ -92,13 +109,11 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE Standards
-- content: Electrical safety
 - content: Safety
-- content: Electromagnetic fields
-- content: Radio frequency
-- content: Radiation detectors
-- content: Magnetic fields
-- content: Human factors
+- content: Radiation effects
+- content: Radiation safety
+- content: Electromagnetic radiation
+- content: Health and safety
 - content: dosimetric reference limit (DRL)
 - content: exposure reference level (ERL)
 - content: induced and contact currents
@@ -116,15 +131,13 @@ keyword:
 - content: restricted environment
 - content: specific absorption rate (SAR)
 - content: unrestricted environment
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '13.280'
-  text: Radiation protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '13.280'
+    text: Radiation protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

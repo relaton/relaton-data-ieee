@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEEE11073.20601-Amd1-2010
 title:
 - content: 'ISO/IEC/IEEE Approved Draft - Health informatics -- Personal health device
@@ -26,7 +26,7 @@ docid:
 docnumber: ISO/IEEE 11073.20601/Amd1-2010
 date:
 - type: created
-  value: '2015'
+  value: '2015-04-05'
 - type: published
   value: '2016-11-10'
 - type: issued
@@ -84,13 +84,14 @@ keyword:
 - content: IEEE 11073-20601(TM)
 - content: medical device communication
 - content: personal health devices
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

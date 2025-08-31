@@ -1,9 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2933-D-3.1-2023-10
 title:
-- content: IEEE Draft Standard for Clinical Internet of Things (IoT) Data and Device
-    Interoperability with TIPPSS - Trust, Identity, Privacy, Protection, Safety, Security
+- content: IEEE Approved Draft Standard for Clinical Internet of Things (IoT) Data
+    and Device Interoperability with TIPPSS - Trust, Identity, Privacy, Protection,
+    Safety, Security
   format: text/plain
   type: main
 link:
@@ -23,11 +24,11 @@ docid:
 docnumber: IEEE P2933/D-3.1-2023-10
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-12'
 - type: published
   value: '2024-03-27'
 - type: issued
-  value: '2024'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -47,11 +48,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard establishes a framework with TIPPSS principles (Trust, Identity,
-    Privacy, Protection, Safety, Security) for Clinical Internet of Things (IoT) data
-    and device interoperability. This includes wearable clinical IoT and interoperability
-    with healthcare systems including Electronic Health Records (EHR), Electronic
-    Medical Records (EMR), other clinical IoT devices, in-hospital devices, and future
+- content: A framework with TIPPSS principles (trust, identity, privacy, protection,
+    safety, and security) for Clinical Internet of Things (IoT) data and device interoperability
+    is established in this standard. This includes wearable clinical IoT and interoperability
+    with healthcare systems including electronic health records (EHR), electronic
+    medical records (EMR), other Clinical IoT devices, in-hospital devices, and future
     devices and connected healthcare systems.
   language:
   - en
@@ -70,27 +71,42 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
-- content: TIPPSS
-- content: Device
-- content: Patient
-- content: CIoT
-- content: System
-- content: Security
-- content: Clinical
-- content: Data
-- content: Software
-- content: Information
+- content: IEEE Standards
+- content: Internet of Medical Things
+- content: Trusted computing
 - content: Safety
-- content: Trust
-- content: Identity
-- content: Protection
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+- content: Patient monitoring
+- content: Interoperability
+- content: Privacy
+- content: Clinical diagnosis
+- content: '2933'
+- content: CIoT
+- content: clinical
+- content: clinical IoT
+- content: data
+- content: device
+- content: identity
+- content: information
+- content: patient
+- content: privacy
+- content: protection
+- content: safety
+- content: security
+- content: software
+- content: system
+- content: TIPPSS
+- content: trust
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

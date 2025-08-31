@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE62395.2-2024
 title:
 - content: 'IEC/IEEE International Standard - Electrical Resistance Trace Heating
@@ -26,7 +26,7 @@ docid:
 docnumber: IEC/IEEE 62395.2-2024
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-27'
 - type: published
   value: '2024-06-26'
 - type: issued
@@ -69,15 +69,16 @@ keyword:
 - content: Electrical resistance measurement
 - content: Industrial plants
 - content: Industrial power systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 25.180.10
-  text: Electric furnaces
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 25.180.10
+    text: Electric furnaces
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

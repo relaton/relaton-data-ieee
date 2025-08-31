@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE268-1966
 title:
 - content: IEEE Recommended Practice for Units in Published Scientific and technical
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2016-02-12'
 - type: created
-  value: '1966'
+  value: '1966-03-31'
 - type: published
   value: '2016-01-26'
 - type: issued
@@ -68,6 +68,14 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The recommendations contained in this document are based upon the following
+    premises, which are believed to represent the broadest base of general agreement
+    among proponents of the major unit systems
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -81,9 +89,10 @@ keyword:
 - content: Measurement standards
 - content: Electrical equipment
 - content: Electronics
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.12.35-D-5.2-2023-08
 title:
 - content: IEEE Draft Standard for Information Coding for Distribution Transformers
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-08-03'
 - type: issued
-  value: '2023'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -70,47 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.12.35-2013
+    id: IEEEStdC57.12.35-2013
     docid:
-    - id: IEEE C57.12.35-2013
+    - id: IEEE Std C57.12.35-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.35-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.12.35-2013
-    docid:
-    - id: IEEE C57.12.35-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.12.35-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.12.35-2013
-    docid:
-    - id: IEEE C57.12.35-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.12.35-2013
+      content: IEEE Std C57.12.35-2013
       format: text/plain
   description:
     content: revises
@@ -128,16 +94,18 @@ keyword:
 - content: bar code label
 - content: distribution transformer
 - content: IEEE C57.12.35&#8482;
+- content: QR code
 - content: step-voltage regulator
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '35.040'
-  text: Information coding
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

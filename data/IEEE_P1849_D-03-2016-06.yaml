@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1849-D-03-2016-06
 title:
 - content: IEEE Approved Draft Standard for XES - eXtensible Event Stream - For Achieving
@@ -82,12 +82,13 @@ keyword:
 - content: system behavior
 - content: extensions
 - content: XML.
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Computational Intelligence Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Computational Intelligence Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC26702
 title:
 - content: ISO/IEC Standard for Systems Engineering - Application and Management of
@@ -25,7 +25,7 @@ docid:
 docnumber: ISO/IEC 26702
 date:
 - type: created
-  value: '2007'
+  value: '2007-07-15'
 - type: published
   value: '2016-07-08'
 - type: issued
@@ -96,15 +96,17 @@ keyword:
 - content: technical management
 - content: validation
 - content: verification
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

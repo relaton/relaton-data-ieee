@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62531-2007
 title:
 - content: 'IEC 62531 Ed. 1 (2007-11) (IEEE Std 1850-2005): Standard for Property
@@ -64,6 +64,23 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: "(IEC 62531 Ed. 1 (2007-11) (IEEE Std 1850-2005). The IEEE Property Specification
+    Language (PSL) is defined in this standard. PSL is a formal notation for specification
+    of electronic system behavior, compatible with multiple electronic system design
+    languages, including IEEE Std 1076&#8482; (VHDL&#174;), IEEE Std 1364&#8482; (Verilog&#174;),
+    IEEE P1666&#8482; (SystemC&#174;), and IEEE P1800&#8482; (SystemVerilog&#174;),
+    thereby enabling a common specification and verification flow for multi-language
+    and mixed-language designs. PSL captures design intent in a form suitable for
+    simulation, formal verification, formal analysis, and hybrid verification tools.
+    PSL enhances communication among architects, designers, and verification engineers
+    to increase productivity throughout the design and verification process. The primary
+    audiences for this standard are the implementors of tools supporting the language
+    and advanced users of the language."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -101,17 +118,15 @@ keyword:
 - content: specification
 - content: temporal logic
 - content: verification
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '25.040'
-  text: Industrial automation systems
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '25.040'
+    text: Industrial automation systems
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Active
   pubstatus: Active
   holdstatus: Publish

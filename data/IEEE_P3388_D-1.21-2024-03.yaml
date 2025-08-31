@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3388-D-1.21-2024-03
 title:
 - content: IEEE Draft Standard for the Performance Assessment of Industrial Wireless
@@ -23,9 +23,9 @@ docid:
 docnumber: IEEE P3388/D-1.21-2024-03
 date:
 - type: created
-  value: '2024'
+  value: '2024-04-03'
 - type: published
-  value: '2024-04-05'
+  value: '2024-04-04'
 - type: issued
   value: '2024'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-04-05'
+revdate: '2024-04-04'
 language:
 - en
 script:
@@ -78,25 +78,28 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
-- content: Standards
 - content: IEEE Standards
 - content: Wireless communication
 - content: Wireless sensor networks
-- content: Regulation
-- content: Warranties
 - content: Wireless networks
+- content: Automation
+- content: Industrial engineering
+- content: System integration
+- content: Performance evaluation
+- content: Testing
 - content: industrial automation
 - content: industrial wireless
 - content: industrial wireless networks
 - content: system integration and test
 - content: wireless performance evaluation evaluation
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

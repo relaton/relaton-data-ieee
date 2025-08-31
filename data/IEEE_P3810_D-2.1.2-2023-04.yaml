@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3810-D-2.1.2-2023-04
 title:
 - content: IEEE Approved Draft Standard for Framework of Energy Market Simulation
@@ -78,16 +78,17 @@ keyword:
 - content: framework of energy market simulation
 - content: IEEE 3810&#8482;
 - content: special event generator
-doctype: standard
-editorialgroup:
-  committee:
-  - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
-    Society
-ics:
-- code: '27.010'
-  text: Energy and heat transfer engineering in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
+      Society
+  ics:
+  - code: '27.010'
+    text: Energy and heat transfer engineering in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

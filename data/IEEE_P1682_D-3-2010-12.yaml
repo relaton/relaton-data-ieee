@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1682-D-3-2010-12
 title:
 - content: IEEE Draft Trial-Use Standard for Qualifying Fiber Optic Cables, Connections
@@ -86,17 +86,18 @@ keyword:
 - content: Class 1E
 - content: connectors
 - content: splices
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power &amp; Energy Society
-ics:
-- code: 27.120.99
-  text: Other standards related to nuclear energy
-- code: 33.180.10
-  text: Fibres and cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 27.120.99
+    text: Other standards related to nuclear energy
+  - code: 33.180.10
+    text: Fibres and cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

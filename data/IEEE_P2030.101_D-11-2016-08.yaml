@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.101-D-11-2016-08
 title:
 - content: IEEE Draft Guide for Designing a Time Synchronization System for Power
@@ -78,12 +78,13 @@ keyword:
 - content: Monitoring
 - content: IEEE 2030.101™
 - content: time synchronization
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

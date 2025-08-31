@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEECDVP63195-2020-02
 title:
 - content: IEEE/IEC Draft Standard Measurement procedure for the assessment of power
@@ -24,7 +24,7 @@ docid:
 docnumber: IEC/IEEE CDV P63195-2020-02
 date:
 - type: created
-  value: '2020'
+  value: '2020-03-02'
 - type: published
   value: '2020-03-03'
 - type: issued
@@ -68,12 +68,13 @@ keyword:
 - content: Radio frequency
 - content: Wireless communication
 - content: Radiation monitoring
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

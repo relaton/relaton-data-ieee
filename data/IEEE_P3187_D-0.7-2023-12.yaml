@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3187-D-0.7-2023-12
 title:
 - content: IEEE Draft Guide for Framework for Trustworthy Federated Machine Learning
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P3187/D-0.7-2023-12
 date:
 - type: created
-  value: '2024'
+  value: '2024-03-07'
 - type: published
-  value: '2024-03-20'
+  value: '2024-03-19'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -40,23 +40,22 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-03-20'
+revdate: '2024-03-19'
 language:
 - en
 script:
 - Latn
 abstract:
 - content: 'The development and application of federated machine learning are facing
-    the critical challenges about how to balance the tradeoff among privacy, security,
-    performance, and efficiency, how to realize supervision covering the whole life
-    cycle and how to get the explainable results. Then trustworthy federated machine
-    learning is proposed to solve the above problem. In this standard, a general view
-    on framework for trustworthy federated machine learning is provided in four parts:
-    a principle in trustworthy federated machine learning, requirements from the perspective
-    of different principles and different federated machine learning participants,
-    and methods to realize trustworthy federated machine learning. It also provides
-    some guidance on how trustworthy federated machine learning is used in various
-    scenarios.'
+    the critical challenges of balancing the tradeoff among privacy, security, performance,
+    and efficiency, how to realize supervision covering the whole life cycle, and
+    how to get explainable results. Thus, trustworthy federated machine learning is
+    proposed to solve the above problem. In this standard, a general view of framework
+    for trustworthy federated machine learning is provided in four parts: a principle
+    in trustworthy federated machine learning, requirements from the perspective of
+    different principles and different federated machine learning participants, and
+    methods to realize trustworthy federated machine learning. Also provided is guidance
+    on how trustworthy federated machine learning is used in various scenarios.'
   language:
   - en
   script:
@@ -85,13 +84,19 @@ keyword:
 - content: machine learning
 - content: principle
 - content: trustworthy federated machine learning
-doctype: standard
-editorialgroup:
-  committee:
-  - Artificial Intelligence Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Artificial Intelligence Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.030'
+    text: IT Security
+  - code: 35.240.01
+    text: Application of information technology in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

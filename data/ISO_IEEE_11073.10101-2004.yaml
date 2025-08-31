@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEEE11073.10101-2004
 title:
 - content: 'ISO/IEEE Health informatics -- Point-of-care medical device communication
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEE11073.10101-2019
+    id: IEEEStd11073.10101-2019
     docid:
-    - id: IEEE 11073.10101-2019
+    - id: IEEE Std 11073.10101-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10101-2019
+      content: IEEE Std 11073.10101-2019
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -101,18 +101,15 @@ keyword:
 - content: POC
 - content: semantics
 - content: service model terminology
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 01.040.35
-  text: Information technology. Office machines (Vocabularies)
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.35
+    text: Information technology. Office machines (Vocabularies)
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3128-D-01-2024-08
 title:
 - content: IEEE Draft Recommended Practice for The Evaluation of Artificial Intelligence
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2024-08-22'
 - type: published
-  value: '2024-08-28'
+  value: '2024-08-27'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -41,20 +41,20 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-08-28'
+revdate: '2024-08-27'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: An evaluation framework for the intelligent capabilities of artificial
+- content: An evaluation framework for the intelligence capabilities of artificial
     intelligence (AI) dialogue systems such as chatbots, consulting terminals, or
     operation interfaces is established in this recommended practice. The recommended
-    practice classifies the intelligent capabilities of AI dialogue system into three,
-    as cognitive intelligence, emotional intelligence, and system completeness. For
-    each class, the capabilities are subdivided into five intelligent levels, from
-    the lowest Level 1 to the highest Level 5, with the performance criteria clarified
-    at each level by an evaluation checklist.
+    practice classifies the intelligence capabilities of an AI dialogue system into
+    three categories—cognitive intelligence, emotional intelligence, and system completeness.
+    For each class, the capabilities are subdivided into five intelligence levels,
+    from the lowest level L1 to the highest level L5, with the performance criteria
+    clarified at each level by an evaluation checklist.
   language:
   - en
   script:
@@ -78,19 +78,28 @@ keyword:
 - content: Emotion recognition
 - content: Cognition
 - content: Performance evaluation
-- content: artificial intelligence (AI) dialogue system
+- content: AI
+- content: AI dialogue system
+- content: artificial intelligence dialogue system
 - content: chatbot
 - content: cognitive intelligence
 - content: emotional intelligence
-- content: intelligent levels
+- content: IEEE 3128
+- content: intelligence levels
 - content: system completeness
-doctype: standard
-editorialgroup:
-  committee:
-  - Artificial Intelligence Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Artificial Intelligence Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.60
+    text: Presentation layer
+  - code: 35.240.01
+    text: Application of information technology in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

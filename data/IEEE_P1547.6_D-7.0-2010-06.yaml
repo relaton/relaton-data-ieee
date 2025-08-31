@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1547.6-D-7.0-2010-06
 title:
 - content: IEEE Draft Recommended Practice for Interconnecting Distributed Resources
@@ -77,15 +77,16 @@ keyword:
 - content: Power systems planning
 - content: Distributed control
 - content: '1547'
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '27.100'
-  text: Power stations in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: '27.100'
+    text: Power stations in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

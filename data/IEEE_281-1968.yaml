@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE281-1968
 title:
 - content: IEEE Standard Service Conditions for Power System Communications Apparatus
@@ -65,22 +65,23 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEE281-1984
+    id: IEEEStd281-1984
     docid:
-    - id: IEEE 281-1984
+    - id: IEEE Std 281-1984
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 281-1984
+      content: IEEE Std 281-1984
       format: text/plain
 keyword:
 - content: IEEE Standards
 - content: Service conditions
 - content: Telecommunication services
 - content: Communications technology
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

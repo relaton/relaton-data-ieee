@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-ASTMSI10.2002
 title:
 - content: 'IEEE/ASTM Standard for Use of the International System of Units (SI):
@@ -93,7 +93,6 @@ keyword:
 - content: Organizations
 - content: conversion factors
 - content: International System
-- content: International System of Units
 - content: metric practice
 - content: metric system
 - content: rounding
@@ -104,17 +103,18 @@ keyword:
 - content: SI
 - content: IEEE SI 10
 - content: IEEE/ASTM SI 10 You will receive an email f
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '01.060'
-  text: Quantities and units
-- code: '17.020'
-  text: Metrology and measurement in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: '01.060'
+    text: Quantities and units
+  - code: '17.020'
+    text: Metrology and measurement in general
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1851-D-1.3-2012-04
 title:
 - content: IEEE Draft Standard for Design Criteria of Integrated Sensor-based Test
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1851/D-1.3-2012-04
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-24'
 - type: published
   value: '2012-04-24'
 - type: issued
@@ -79,17 +79,18 @@ keyword:
 - content: sensor data
 - content: web service
 - content: XML schema
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
-ics:
-- code: 35.240.50
-  text: IT applications in industry
-- code: '97.180'
-  text: Miscellaneous domestic and commercial equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
+  - code: '97.180'
+    text: Miscellaneous domestic and commercial equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

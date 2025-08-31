@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2752-D-5-2023
 title:
 - content: IEEE Draft Guide for Multi-Point Grounding System of Trains in Electrified
@@ -83,23 +83,25 @@ copyright:
 keyword:
 - content: IEEE Standards
 - content: Grounding
-- content: Voltage contrl
 - content: Rail transportation
 - content: Railway electrification
+- content: Voltage control
 - content: current reflux
 - content: IEEE 2752&#8482;
 - content: multi-point mobile grounding system
 - content: overvoltage
 - content: transient potential
-doctype: standard
-editorialgroup:
-  committee:
-  - Traction Power Systems Standards Committee of the IEEE Vehicular Technology Society
-ics:
-- code: '29.280'
-  text: Electric traction equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Traction Power Systems Standards Committee of the IEEE Vehicular Technology
+      Society
+  ics:
+  - code: '29.280'
+    text: Electric traction equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

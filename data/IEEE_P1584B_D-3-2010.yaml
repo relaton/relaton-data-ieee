@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1584b-D-3-2010
 title:
 - content: IEEE Guide for Performing Arc Flash Hazard Calculations - Amendment
@@ -61,15 +61,16 @@ keyword:
 - content: Arc discharges
 - content: Hazards
 - content: Fault currents
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.260.99
-  text: Other electrical equipment for working in special conditions
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.260.99
+    text: Other electrical equipment for working in special conditions
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

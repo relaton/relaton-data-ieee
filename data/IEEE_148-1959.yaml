@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE148-1959
 title:
 - content: IEEE Standard for Waveguide and Waveguide Component Measurements
@@ -87,15 +87,16 @@ keyword:
 - content: mode of propagation
 - content: electric field strength
 - content: electromagnic
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Microwave Theory and Techniques Society
-ics:
-- code: '17.220'
-  text: Electricity. Magnetism. Electrical and magnetic measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Microwave Theory and Techniques Society
+  ics:
+  - code: '17.220'
+    text: Electricity. Magnetism. Electrical and magnetic measurements
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

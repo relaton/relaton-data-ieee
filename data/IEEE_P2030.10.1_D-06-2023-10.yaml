@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.10.1-D-06-2023-10
 title:
-- content: IEEE Approved Draft Standard for Electricity Access Requirements with Safety
-    Extra Low Voltage (SELV) DC for Tier 2 and Tier 3 of the ESMAP Multi-tier Framework
+- content: IEEE Draft Standard for Electricity Access Requirements with Safety Extra
+    Low Voltage (SELV) DC for Tier 2 and Tier 3 of the ESMAP Multi-tier Framework
     for Household Electricity Supply
   format: text/plain
   type: main
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P2030.10.1/D-06-2023-10
 date:
 - type: created
-  value: '2023-12-13'
+  value: '2023-10-19'
 - type: published
   value: '2023-10-20'
 - type: issued
@@ -48,18 +48,18 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard provides specifications for Direct Current (DC) -based installations
-    to address requirements given in Tier 2 and Tier 3 of the Multi-Tier framework.
-    The Multi-Tier framework is discussed in detail in the Energy Sector Management
-    Assistance Program (ESMAP) report published by the World Bank. This standard provides
-    installation rules for basic electricity supply from a renewable source and is
-    meant to be used in areas that are not connected to the AC public distribution
-    network. The standard advocates use of a safety extra low voltage (SELV) that
-    can be safer to operate under normal, dry conditions. Circuit/branch current is
-    limited to make it more difficult for an arc to propagate. This approach delivers
-    power access possible without needing special parts. The resultant installation
-    can use wiring that is similar to that used in an AC system in a cost-effective
-    and scalable manner.
+- content: Specifications are provided by this standard for direct current (dc)-based
+    installations to address requirements given in Tier 2 and Tier 3 of the multi-tier
+    framework (MTF). The MTF is discussed in detail in the Energy Sector Management
+    Assistance Program (ESMAP) report published by the World Bank. Installation rules
+    are provided by this standard, which is meant to be used in areas that are not
+    connected to the ac public distribution network, for basic electricity supply
+    from a renewable source. Use of a safety extra-low voltage (SELV) that can be
+    safer to operate under normal, dry conditions is advocated by the standard. Circuit/branch
+    current is limited to make it more difficult for an arc to propagate. Power access,
+    which is possible without any special parts, is delivered by this approach. Wiring
+    that is similar to that used in an ac system in a cost-effective and scalable
+    manner can be used by the resultant installation.
   language:
   - en
   script:
@@ -81,20 +81,25 @@ keyword:
 - content: Power generation
 - content: Safety management
 - content: Low voltage
-- content: Safety Extra Low Voltage
-- content: DC Installation
+- content: dc installation
 - content: ESMAP
+- content: IEEE 2030.10.1&#8482;
+- content: multi-tier framework
+- content: safety extra low voltage
 - content: Tier 2
 - content: Tier 3
-- content: Multi-Tier Framework
-doctype: standard
-editorialgroup:
-  committee:
-  - Distributed Generation, Energy Storage and Interoperability Standards Committee
-    of the IEEE SA Board of Governors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Distributed Generation, Energy Storage and Interoperability Standards Committee
+      of the IEEE SA Board of Governors
+  ics:
+  - code: 91.140.50
+    text: Electricity supply systems
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

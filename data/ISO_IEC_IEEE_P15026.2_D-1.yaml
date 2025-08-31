@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEP15026.2-D-1
 title:
 - content: 'IEEE Draft International Standard - Systems and software engineering--Systems
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE P15026.2/D-1
 date:
 - type: created
-  value: '2020'
+  value: '2020-06-20'
 - type: published
   value: '2020-06-23'
 - type: issued
@@ -64,13 +64,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE15026.2-2011
+    id: IEEEStd15026.2-2011
     docid:
-    - id: IEEE 15026.2-2011
+    - id: IEEE Std 15026.2-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15026.2-2011
+      content: IEEE Std 15026.2-2011
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd15026.2-2011
+    docid:
+    - id: IEEE Std 15026.2-2011
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 15026.2-2011
       format: text/plain
   description:
     content: revises
@@ -84,15 +101,13 @@ keyword:
 - content: Software engineering
 - content: Software assurance
 - content: Systems engineering and theory
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,0 +1,103 @@
+---
+schema-version: v1.2.9
+id: IEEEStd488.1-2003
+title:
+- content: IEEE Standard For Higher Performance Protocol for the Standard Digital
+    Interface for Programmable Instrumentation
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/1258186
+  type: src
+type: standard
+docid:
+- id: IEEE Std 488.1-2003
+  type: IEEE
+  primary: true
+- id: IEEE Std 488.1™-2003
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-0-7381-3693-6
+  type: ISBN
+- id: 10.1109/IEEESTD.2003.94413
+  type: DOI
+docnumber: IEEE Std 488.1-2003
+date:
+- type: created
+  value: '2003-12-12'
+- type: published
+  value: '2015-07-08'
+- type: issued
+  value: '2003-06-12'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2015-07-08'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: This standard applies to interface systems used to interconnect both programmable
+    and nonprogrammable electronic measuring apparatus with other apparatus and accessories
+    necessary to assemble instrumentation systems. It applies to the interface of
+    instrumentation systems, or portions of them, in which the a) Data exchanged among
+    the interconnected apparatus is digital (as distinct from analog); b) Number of
+    devices that may be interconnected by one contiguous bus does not exceed 15; c)
+    Total transmission path lengths over the interconnecting cables does not exceed
+    20 m; d) Data rate among devices does not exceed 8 000 000 B/s. The basic functional
+    specifications of this standard may be used in digital interface applications
+    that require longer distances, more devices, increased noise immunity, or combinations
+    of these. Different electrical and mechanical specifications may be required (for
+    example, symmetrical circuit configurations, high threshold logic, special connectors,
+    or cable configurations) for these extended applications.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2003'
+keyword:
+- content: IEEE Standards
+- content: Instruments
+- content: Patents
+- content: Protocols
+- content: Trademarks
+- content: GPIB
+- content: HPIB
+- content: HS488
+- content: non-interlocked handshake
+- content: three-wire handshake
+- content: SCPI
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

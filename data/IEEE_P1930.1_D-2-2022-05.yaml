@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1930.1-D-2-2022-05
 title:
-- content: IEEE Draft Recommended Practice for Software Defined Networking (SDN) based
-    Middleware for Control and Management of Wireless Networks
+- content: IEEE Approved Draft Recommended Practice for Software Defined Networking
+    (SDN) based Middleware for Control and Management of Wireless Networks
   format: text/plain
   type: main
 link:
@@ -23,7 +23,9 @@ docid:
 docnumber: IEEE P1930.1/D-2-2022-05
 date:
 - type: created
-  value: '2022-05-05'
+  value: '2022-06-21'
+- type: published
+  value: '2022-05-06'
 - type: issued
   value: '2022'
 contributor:
@@ -39,6 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
+revdate: '2022-05-06'
 language:
 - en
 script:
@@ -76,14 +79,15 @@ keyword:
 - content: 5G
 - content: Software Defined Networking (SDN)
 - content: Network virtualization
-doctype: standard
-editorialgroup:
-  committee:
-  - Virtualized and Software Defined Networks, and Services Standards Committee of
-    the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Virtualized and Software Defined Networks, and Services Standards Committee
+      of the IEEE Communications Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

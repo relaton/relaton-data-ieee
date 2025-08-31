@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEDISP14764-2021-01
 title:
 - content: ISO/IEC/IEEE Draft International Standard - Software Engineering - Software
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2021-01-25'
 - type: issued
-  value: '2021'
+  value: '2021-12-08'
 contributor:
 - organization:
     name:
@@ -79,123 +79,23 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC14764-2006
-    docid:
-    - id: ISO/IEC 14764-2006
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC 14764-2006
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC14764-2006
-    docid:
-    - id: ISO/IEC 14764-2006
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC 14764-2006
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC14764-2006
-    docid:
-    - id: ISO/IEC 14764-2006
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC 14764-2006
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC14764-2006
-    docid:
-    - id: ISO/IEC 14764-2006
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC 14764-2006
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC14764-2006
-    docid:
-    - id: ISO/IEC 14764-2006
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC 14764-2006
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC14764-2006
-    docid:
-    - id: ISO/IEC 14764-2006
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC 14764-2006
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: ISO Standards
 - content: IEC Standards
 - content: Software engineering
-- content: Porduct life cycle management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
+- content: Product lifecycle management
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP18-D-1-2011-12
 title:
 - content: IEEE Draft Standard for Shunt Power Capacitors
@@ -75,15 +75,16 @@ keyword:
 - content: capacitors
 - content: shunt connection
 - content: transmission and distribution systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power &amp; Energy Society
-ics:
-- code: 31.060.70
-  text: Power capacitors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 31.060.70
+    text: Power capacitors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

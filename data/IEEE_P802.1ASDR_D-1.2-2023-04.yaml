@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1ASdr-D-1.2-2023-04
 title:
 - content: 'IEEE Approved Draft Standard for Local and Metropolitan Area Networks--Timing
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1AS-2020
+    id: IEEEStd802.1AS-2020
     docid:
-    - id: IEEE 802.1AS-2020
+    - id: IEEE Std 802.1AS-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1AS-2020
+      content: IEEE Std 802.1AS-2020
       format: text/plain
   description:
     content: amends
@@ -102,15 +102,16 @@ keyword:
 - content: synchronization
 - content: syntonization
 - content: time-aware system
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

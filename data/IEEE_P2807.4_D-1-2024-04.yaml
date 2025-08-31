@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2807.4-D-1-2024-04
 title:
 - content: IEEE Draft Guide for Scientific Knowledge Graphs
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P2807.4/D-1-2024-04
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-03'
 - type: published
   value: '2024-06-04'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -47,11 +47,12 @@ script:
 - Latn
 abstract:
 - content: A framework of scientific knowledge graphs is proposed in this guide. This
-    guide divides the stakeholders of scientific knowledge graph into scientific data
-    supplier, scientific knowledge graph technology supplier, scientific knowledge
-    graph integrator, scientific knowledge graph user and scientific knowledge graph
-    ecological partner. The main activities of data governance, construction, integration,
-    application and ecological development of the stakeholders are described in detail.
+    guide divides the stakeholders of scientific knowledge graphs into scientific
+    data suppliers, scientific knowledge graph technology suppliers, scientific knowledge
+    graph integrators, scientific knowledge graph users, and scientific knowledge
+    graph ecological partners. The main activities of data governance, construction,
+    integration, application, and ecological development of the stakeholders are described
+    in detail.
   language:
   - en
   script:
@@ -74,16 +75,22 @@ keyword:
 - content: Science - general
 - content: Stakeholders
 - content: Data governance
-- content: IEEE 2807.4&#8482;
+- content: IEEE 2807.4™
 - content: scientific knowledge graph
 - content: stakeholder
-doctype: standard
-editorialgroup:
-  committee:
-  - Knowledge Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Knowledge Engineering Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.01
+    text: Application of information technology in general
+  - code: 35.240.70
+    text: IT applications in science
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

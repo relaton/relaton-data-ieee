@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1AC-D-2.0-2012-03
 title:
 - content: IEEE Draft Standard for Media Access Control (MAC) Service Definition
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P802.1AC/D-2.0-2012-03
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-05'
 - type: published
   value: '2012-04-05'
 - type: issued
@@ -75,15 +75,16 @@ keyword:
 - content: MAC service
 - content: Internal Sublayer Service
 - content: ISS
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

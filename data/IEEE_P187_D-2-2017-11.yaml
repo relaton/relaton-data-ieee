@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP187-D-2-2017-11
 title:
 - content: IEEE Draft Standard Measurement Methods of Emissions from FM and Television
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE187-2003
+    id: IEEEStd187-2003
     docid:
-    - id: IEEE 187-2003
+    - id: IEEE Std 187-2003
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 187-2003
+      content: IEEE Std 187-2003
       format: text/plain
   description:
     content: revises
@@ -99,15 +99,13 @@ keyword:
 - content: radiated emissions
 - content: spurious emissions
 - content: television broadcast receivers
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
-ics:
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 33.100.10
+    text: Emission
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

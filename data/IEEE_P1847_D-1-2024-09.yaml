@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1847-D-1-2024-09
 title:
-- content: IEEE Draft Recommended Practice for Common Framework of Location Services
-    for Healthcare
+- content: IEEE Approved Draft Recommended Practice for Common Framework of Location
+    Services for Healthcare
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P1847/D-1-2024-09
 date:
 - type: created
-  value: '2024-08-30'
+  value: '2024-12-20'
 - type: published
   value: '2024-09-02'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -69,115 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1847-2019
+    id: IEEEStd1847-2019
     docid:
-    - id: IEEE 1847-2019
+    - id: IEEE Std 1847-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1847-2019
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1847-2019
-    docid:
-    - id: IEEE 1847-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1847-2019
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1847-2019
-    docid:
-    - id: IEEE 1847-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1847-2019
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1847-2019
-    docid:
-    - id: IEEE 1847-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1847-2019
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1847-2019
-    docid:
-    - id: IEEE 1847-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1847-2019
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1847-2019
-    docid:
-    - id: IEEE 1847-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1847-2019
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1847-2019
-    docid:
-    - id: IEEE 1847-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1847-2019
+      content: IEEE Std 1847-2019
       format: text/plain
   description:
     content: revises
@@ -192,20 +90,21 @@ keyword:
 - content: Medical services
 - content: conceptual model
 - content: healthcare
-- content: IEEE 1847&#8482;
-- content: Location Services
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Engineering in Medicine and Biology Society
-ics:
-- code: 11.020.99
-  text: Other standards related to health care in general
-- code: 35.040.01
-  text: Information coding in general
+- content: IEEE 1847™
+- content: location services
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+  ics:
+  - code: 11.020.99
+    text: Other standards related to health care in general
+  - code: 35.040.01
+    text: Information coding in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

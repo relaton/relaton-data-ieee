@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1591.1-D-2-2011-03
 title:
 - content: IEEE Draft Standard for Testing and Performance of Hardware for Optical
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE P1591.1/D-2-2011-03
 date:
 - type: created
-  value: '2011'
+  value: '2011-04-04'
 - type: published
   value: '2011-04-07'
 - type: issued
@@ -82,15 +82,16 @@ keyword:
 - content: OPGW
 - content: optical ground wire
 - content: type tests
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Communications of the IEEE Power &amp; Energy Society
-ics:
-- code: 33.180.10
-  text: Fibres and cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 33.180.10
+    text: Fibres and cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

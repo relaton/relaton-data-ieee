@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1DG-D-4.0-2024-07
 title:
 - content: IEEE Draft Standard for Time-Sensitive Networking Profile for Automotive
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2024-08-02'
 - type: published
-  value: '2024-08-06'
+  value: '2024-08-05'
 - type: issued
-  value: '2024'
+  value: '2025-05-28'
 contributor:
 - organization:
     name:
@@ -41,11 +41,20 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-08-06'
+revdate: '2024-08-05'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: Profiles for bounded latency automotive in-vehicle bridged IEEE 802.3 Ethernet
+    networks based on IEEE 802.1 Time-Sensitive Networking (TSN) standards are specified
+    in this standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -64,25 +73,32 @@ keyword:
 - content: Ethernet
 - content: Local area networks
 - content: Virtual LAN
-- content: TSN
+- content: automotive in-vehicle Ethernet communications
+- content: bridged local area networks
+- content: bridges
+- content: bridging
+- content: IEEE 802
+- content: IEEE 802.1DG
+- content: IEEE 802.1Q
+- content: IEEE 802.3
+- content: LAN
+- content: local area networks
+- content: MAC bridges
 - content: Time-Sensitive Networking
-- content: Bridging
-- content: Bridges
-- content: Bridged Local Area Networks
-- content: IEEE 802&#174;
-- content: IEEE 802.1Q&#8482;
-- content: IEEE 802.1DG&#8482;
-- content: local area networks (LANs)
-- content: MAC Bridges
-- content: Virtual Bridged Local Area Networks (virtual LANs)
-- content: Automotive In-Vehicle Ethernet Communications.
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
+- content: TSN
+- content: virtual bridged local area networks
+- content: virtual LANs
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

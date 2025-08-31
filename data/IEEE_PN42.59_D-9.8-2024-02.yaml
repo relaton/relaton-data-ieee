@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPN42.59-D-9.8-2024-02
 title:
 - content: IEEE Draft Standard for Measuring the Imaging Performance of Active Millimeter-Wave
@@ -73,6 +73,12 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
+- content: IEEE Standards
+- content: Millimeter wave measurements
+- content: Radiation imaging
+- content: Security management
+- content: Image capture
+- content: Contrast resolution
 - content: IEEE N42.59
 - content: body scanner
 - content: imaging performance
@@ -89,14 +95,15 @@ keyword:
 - content: contrast resolution
 - content: dynamic range
 - content: millimeter wave
-doctype: standard
-editorialgroup:
-  committee:
-  - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
-    and Measurement Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
+      and Measurement Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

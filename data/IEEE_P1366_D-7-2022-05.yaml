@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1366-D-7-2022-05
 title:
 - content: IEEE Draft Guide for Electric Power Distribution Reliability Indices
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1366/D-7-2022-05
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-14'
 - type: published
   value: '2022-06-15'
 - type: issued
@@ -68,115 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1366-2012
+    id: IEEEStd1366-2012
     docid:
-    - id: IEEE 1366-2012
+    - id: IEEE Std 1366-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1366-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1366-2012
-    docid:
-    - id: IEEE 1366-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1366-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1366-2012
-    docid:
-    - id: IEEE 1366-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1366-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1366-2012
-    docid:
-    - id: IEEE 1366-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1366-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1366-2012
-    docid:
-    - id: IEEE 1366-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1366-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1366-2012
-    docid:
-    - id: IEEE 1366-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1366-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1366-2012
-    docid:
-    - id: IEEE 1366-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1366-2012
+      content: IEEE Std 1366-2012
       format: text/plain
   description:
     content: revises
@@ -197,15 +95,16 @@ keyword:
 - content: electric power
 - content: IEEE 1366
 - content: reliability indices
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.236-D-5.1-2012-12
 title:
 - content: IEEE Approved Draft Guide for Power System Protective Relay Applications
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.236/D-5.1-2012-12
 date:
 - type: created
-  value: '2013'
+  value: '2013-03-07'
 - type: published
   value: '2013-03-07'
 - type: issued
@@ -90,7 +90,6 @@ keyword:
 - content: DDS digital data service
 - content: dependability
 - content: directional comparison
-- content: directional comparison
 - content: dispersion
 - content: diversity
 - content: DTE data terminal equipment
@@ -135,21 +134,21 @@ keyword:
 - content: TDM- time division multiplex
 - content: telecommunication
 - content: teleprotection
-- content: transfer trip
 - content: tunneling
 - content: V.35
 - content: zone
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  - code: 29.120.70
+    text: Relays
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

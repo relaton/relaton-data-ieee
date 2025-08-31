@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.19.3-D-0.08-2020-12
 title:
 - content: 'IEEE Approved Draft Recommended Practice for Local and Metropolitan Area
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P802.19.3/D-0.08-2020-12
 date:
 - type: created
-  value: '2021'
+  value: '2021-07-02'
 - type: published
   value: '2021-03-30'
 - type: issued
@@ -72,14 +72,14 @@ copyright:
   from: '2020'
 keyword:
 - content: IEEE Standards
-- content: Interfernce (signal)
 - content: Energy management
 - content: Receivers
 - content: Sensitivity analysis
 - content: Local area networks
 - content: Metropolitan area networks
-- content: Frequency bands
 - content: OFDM
+- content: Frequency
+- content: Interference
 - content: Sub-1 GHz frequency bands
 - content: IEEE Std 802.15.4g
 - content: IEEE Std 802.11ah
@@ -89,16 +89,16 @@ keyword:
 - content: interference
 - content: CSMA/CA
 - content: FSK
-- content: OFDM
 - content: energy detection
 - content: receiver sensitivity
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

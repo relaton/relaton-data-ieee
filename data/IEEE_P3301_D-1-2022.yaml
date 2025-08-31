@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3301-D-1-2022
 title:
 - content: IEEE Draft Standard - Adoption of Moving Picture, Audio and Data Coding
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P3301/D-1-2022
 date:
 - type: created
-  value: '2022'
+  value: '2022-07-29'
 - type: published
   value: '2022-08-01'
 - type: issued
@@ -64,12 +64,13 @@ keyword:
 - content: Encoding
 - content: Audio coding
 - content: Motion pictures
-doctype: standard
-editorialgroup:
-  committee:
-  - Corporate Advisory Group of the IEEE SA Board of Governors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Corporate Advisory Group of the IEEE SA Board of Governors
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

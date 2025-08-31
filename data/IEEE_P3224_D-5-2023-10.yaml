@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3224-D-5-2023-10
 title:
 - content: IEEE Approved Draft Standard for Blockchain-based Green Power Identification
@@ -79,17 +79,18 @@ keyword:
 - content: green electricity
 - content: green power
 - content: IEEE 3224&#8482;
-doctype: standard
-editorialgroup:
-  committee:
-  - Blockchain and Distributed Ledgers of the IEEE Computer Society
-ics:
-- code: '27.190'
-  text: Biological sources and alternative sources of energy
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Blockchain and Distributed Ledgers of the IEEE Computer Society
+  ics:
+  - code: '27.190'
+    text: Biological sources and alternative sources of energy
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

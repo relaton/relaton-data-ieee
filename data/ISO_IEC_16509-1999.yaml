@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC16509-1999
 title:
 - content: 'ISO/IEC 16509: 1999 (IEEE Std 2000.1-1998) Year 2000 Terminology'
@@ -78,12 +78,13 @@ keyword:
 - content: ISO Standards
 - content: Terminology
 - content: Information technology
-doctype: standard
-editorialgroup:
-  committee:
-  - Portable Applications of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Portable Applications of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

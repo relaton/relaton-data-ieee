@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.41.2-2002
 title:
 - content: IEEE Draft Recommended Practice on Characterization of Surges in Low-Voltage
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC62.41.2-2002
+    id: IEEEStdC62.41.2-2002
     docid:
-    - id: IEEE C62.41.2-2002
+    - id: IEEE Std C62.41.2-2002
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C62.41.2-2002
+      content: IEEE Std C62.41.2-2002
       format: text/plain
   description:
     content: corrects
@@ -93,81 +93,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEEC62.41.2-2002
+    id: IEEEStdC62.41.2-2002
     docid:
-    - id: IEEE C62.41.2-2002
+    - id: IEEE Std C62.41.2-2002
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C62.41.2-2002
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC62.41.2-2002
-    docid:
-    - id: IEEE C62.41.2-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C62.41.2-2002
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC62.41.2-2002
-    docid:
-    - id: IEEE C62.41.2-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C62.41.2-2002
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC62.41.2-2002
-    docid:
-    - id: IEEE C62.41.2-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C62.41.2-2002
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC62.41.2-2002
-    docid:
-    - id: IEEE C62.41.2-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C62.41.2-2002
+      content: IEEE Std C62.41.2-2002
       format: text/plain
   description:
     content: corrects
@@ -192,15 +124,13 @@ keyword:
 - content: Surge monitoring
 - content: Current tests
 - content: AC power circuits
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

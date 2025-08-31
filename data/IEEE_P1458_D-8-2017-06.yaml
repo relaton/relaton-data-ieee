@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1458-D-8-2017-06
 title:
 - content: IEEE Draft Recommended Practice for the Selection, Field Testing, and Life
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1458/D-8-2017-06
 date:
 - type: created
-  value: '2017'
+  value: '2017-07-07'
 - type: published
   value: '2017-09-30'
 - type: issued
@@ -79,15 +79,16 @@ keyword:
 - content: molded-case circuit breakers basics
 - content: molded-case circuit breakers life
 - content: safety
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.130.20
-  text: Low voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.130.20
+    text: Low voltage switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

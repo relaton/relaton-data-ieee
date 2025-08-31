@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-IECCD2P62582-2017-05
 title:
 - content: 'IEEE/IEC Draft International Standard - Nuclear power plants -- Instrumentation
@@ -69,12 +69,13 @@ keyword:
 - content: Power system reliability
 - content: Insulation
 - content: Power system measurements
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

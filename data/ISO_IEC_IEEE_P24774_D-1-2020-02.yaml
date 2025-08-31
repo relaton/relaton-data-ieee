@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEP24774-D-1-2020-02
 title:
 - content: ISO/IEC/IEEE Draft International Standard - Systems and software engineering--Life
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE P24774/D-1-2020-02
 date:
 - type: created
-  value: '2020'
+  value: '2020-03-21'
 - type: published
   value: '2020-03-23'
 - type: issued
@@ -81,13 +81,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE24774-2012
+    id: IEEEStd24774-2012
     docid:
-    - id: IEEE 24774-2012
+    - id: IEEE Std 24774-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 24774-2012
+      content: IEEE Std 24774-2012
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd24774-2012
+    docid:
+    - id: IEEE Std 24774-2012
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 24774-2012
       format: text/plain
   description:
     content: revises
@@ -103,15 +120,13 @@ keyword:
 - content: Software engineering
 - content: Product life cycle management
 - content: Process management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEFDISP15288.1412
 title:
 - content: ISO/IEC/IEEE Approved Draft Systems and software engineering -- System
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE FDIS P15288.1412
 date:
 - type: created
-  value: '2015'
+  value: '2015-04-07'
 - type: published
   value: '2015-04-02'
 - type: issued
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE15288-2008
+    id: IEEEStd15288-2008
     docid:
-    - id: IEEE 15288-2008
+    - id: IEEE Std 15288-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15288-2008
+      content: IEEE Std 15288-2008
       format: text/plain
   description:
     content: revises
@@ -94,81 +94,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE15288-2008
+    id: IEEEStd15288-2008
     docid:
-    - id: IEEE 15288-2008
+    - id: IEEE Std 15288-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15288-2008
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15288-2008
-    docid:
-    - id: IEEE 15288-2008
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15288-2008
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15288-2008
-    docid:
-    - id: IEEE 15288-2008
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15288-2008
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15288-2008
-    docid:
-    - id: IEEE 15288-2008
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15288-2008
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15288-2008
-    docid:
-    - id: IEEE 15288-2008
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15288-2008
+      content: IEEE Std 15288-2008
       format: text/plain
   description:
     content: revises
@@ -227,15 +159,13 @@ keyword:
 - content: transition
 - content: validation
 - content: verification
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

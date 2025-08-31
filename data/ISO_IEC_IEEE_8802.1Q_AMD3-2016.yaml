@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.1Q-Amd3-2016
 title:
 - content: 'ISO/IEC/IEEE International Standard -- Information technology -- Telecommunications
@@ -60,6 +60,13 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Enhancements to the forwarding process that supports scheduled traffic
+    is provided in this amendment to IEEE Std 802.1Q-2014.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -95,15 +102,16 @@ keyword:
 - content: metropolitan area networks
 - content: scheduled traffic
 - content: Virtual Bridged Local Area Networks (virtual LANs)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2891-D-4-2022-08
 title:
 - content: 'IEEE Approved Draft Standard for Performance Evaluation of Biometric Information:
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2891/D-4-2022-08
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-09'
 - type: published
   value: '2023-02-14'
 - type: issued
@@ -46,6 +46,18 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: The components of a fingerprint test system for smart devices, such as
+    a mobile phone are specified in this standard. Test system requirements are specified
+    together with criteria for performance evaluation, testing methods and procedures
+    and result reporting. Performance metrics which reflect expected device usage
+    are specified, including false accept rate and false reject rate. Multiple testing
+    levels are defined to support a variety of device types.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -64,19 +76,24 @@ keyword:
 - content: Authentication
 - content: Mobile handsets
 - content: Performance evaluation
+- content: authentication
 - content: biometric
 - content: fingerprint recognition
-- content: authentication
-- content: test
-- content: performance
+- content: IEEE 2891&#8482;
 - content: mobile device
-doctype: standard
-editorialgroup:
-  committee:
-  - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+- content: performance
+- content: test
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

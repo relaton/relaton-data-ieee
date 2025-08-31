@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1900.7-D-7-2015-08
 title:
 - content: IEEE Draft Radio Interface for White Space Dynamic Spectrum Access Radio
@@ -78,22 +78,23 @@ keyword:
 - content: physical layer
 - content: medium access control sublayer
 - content: white space
-doctype: standard
-editorialgroup:
-  committee:
-  - Dynamic Spectrum Access Networks Standards Committee of the IEEE Communications
-    Society
-ics:
-- code: 01.040.33
-  text: Telecommunications. Audio and video engineering (Vocabularies)
-- code: 01.040.35
-  text: Information technology. Office machines (Vocabularies)
-- code: '33.170'
-  text: Television and radio broadcasting
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Dynamic Spectrum Access Networks Standards Committee of the IEEE Communications
+      Society
+  ics:
+  - code: 01.040.33
+    text: Telecommunications. Audio and video engineering (Vocabularies)
+  - code: 01.040.35
+    text: Information technology. Office machines (Vocabularies)
+  - code: '33.170'
+    text: Television and radio broadcasting
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

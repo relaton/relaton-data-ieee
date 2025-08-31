@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1799-D-19-2021-10
 title:
 - content: IEEE Draft Recommended Practice for Quality Control Testing of External
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2021-10-14'
 - type: issued
-  value: '2021'
+  value: '2022-06-16'
 contributor:
 - organization:
     name:
@@ -47,9 +47,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This recommended practice describes 1 the procedure for quality control
-    testing of external discharges on stator coils, bars and windings of large air-cooled
-    ac electric machines.
+- content: The procedure for quality control testing of external discharges on stator
+    coils, bars, and windings of large air-cooled ac electric machines is described
+    in this recommended practice.
   language:
   - en
   script:
@@ -69,64 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1799-2012
+    id: IEEEStd1799-2012
     docid:
-    - id: IEEE 1799-2012
+    - id: IEEE Std 1799-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1799-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1799-2012
-    docid:
-    - id: IEEE 1799-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1799-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1799-2012
-    docid:
-    - id: IEEE 1799-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1799-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1799-2012
-    docid:
-    - id: IEEE 1799-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1799-2012
+      content: IEEE Std 1799-2012
       format: text/plain
   description:
     content: revises
@@ -143,22 +92,24 @@ keyword:
 - content: Discharges (electric)
 - content: Coils
 - content: ac
-- content: external discharges
-- content: ultraviolet radiation
 - content: acoustic emission
 - content: corona-imaging instrument
 - content: discharge inception voltage
 - content: electrical insulation
-- content: stator winding.
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.160.01
-  text: Rotating machinery in general
+- content: external discharges
+- content: IEEE 1799
+- content: stator winding
+- content: ultraviolet radiation
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: 29.160.01
+    text: Rotating machinery in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

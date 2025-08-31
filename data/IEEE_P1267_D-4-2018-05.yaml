@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1267-D-4-2018-05
 title:
-- content: IEEE Approved Draft Guide for Development of Specification for Turnkey
-    Substation Projects
+- content: IEEE Draft Guide for Development of Specification for Turnkey Substation
+    Projects
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/8641504
+- content: https://ieeexplore.ieee.org/document/8573229
   type: src
 type: standard
 docid:
@@ -23,9 +23,9 @@ docid:
 docnumber: IEEE P1267/D-4-2018-05
 date:
 - type: created
-  value: '2019-01-25'
+  value: '2018-12-07'
 - type: published
-  value: '2019-02-13'
+  value: '2018-12-11'
 - type: issued
   value: '2019-02-08'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2019-02-13'
+revdate: '2018-12-11'
 language:
 - en
 script:
@@ -70,13 +70,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1267-1999
+    id: IEEEStd1267-1999
     docid:
-    - id: IEEE 1267-1999
+    - id: IEEE Std 1267-1999
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1267-1999
+      content: IEEE Std 1267-1999
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1267-1999
+    docid:
+    - id: IEEE Std 1267-1999
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1267-1999
       format: text/plain
   description:
     content: revises
@@ -89,9 +106,6 @@ keyword:
 - content: IEEE Standards
 - content: Substations
 - content: Turnkey project
-- content: Design methodology
-- content: Systematics
-- content: Guidelines
 - content: design-build
 - content: EPC
 - content: IEEE 1267
@@ -99,17 +113,15 @@ keyword:
 - content: specify
 - content: substation
 - content: turnkey
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: 29.080.30
-  text: Insulation systems
-- code: 29.240.10
-  text: Substations. Surge arresters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.080.30
+    text: Insulation systems
+  - code: 29.240.10
+    text: Substations. Surge arresters
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

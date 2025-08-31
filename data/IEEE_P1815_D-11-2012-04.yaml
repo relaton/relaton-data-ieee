@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1815-D-11-2012-04
 title:
-- content: IEEE Draft Standard for Electric Power Systems Communications -Distributed
-    Network Protocol (DNP3)
+- content: IEEE Standard for Electric Power Systems Communications-Distributed Network
+    Protocol (DNP3)
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/6188479
+- content: https://ieeexplore.ieee.org/document/6226808
   type: src
 type: standard
 docid:
@@ -18,16 +18,16 @@ docid:
   type: IEEE
   scope: trademark
   primary: true
-- id: 978-0-7381-7438-9
+- id: 978-0-7381-7523-2
   type: ISBN
 docnumber: IEEE P1815/D-11-2012-04
 date:
 - type: created
-  value: '2012-01-01'
+  value: '2012-10-10'
 - type: published
-  value: '2012-04-20'
+  value: '2012-06-27'
 - type: issued
-  value: '2012'
+  value: '2012-06-08'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2012-04-20'
+revdate: '2012-06-27'
 language:
 - en
 script:
@@ -72,13 +72,47 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1815-2010
+    id: IEEEStd1815-2010
     docid:
-    - id: IEEE 1815-2010
+    - id: IEEE Std 1815-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1815-2010
+      content: IEEE Std 1815-2010
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1815-2010
+    docid:
+    - id: IEEE Std 1815-2010
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1815-2010
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1815-2010
+    docid:
+    - id: IEEE Std 1815-2010
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1815-2010
       format: text/plain
   description:
     content: revises
@@ -89,27 +123,25 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE standards
-- content: Power distribution
-- content: Power systems planning
+- content: Distributed power generation
 - content: Substations
-- content: Protocols
+- content: Power distribution
 - content: Distributed Network Protocol (DNP3)
 - content: distribution automation
 - content: distribution feeder
 - content: electric power communication systems
+- content: IEEE 1815
 - content: master station
 - content: substation automation
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: '33.200'
-  text: Telecontrol. Telemetering
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

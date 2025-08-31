@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP519-D-6-2021-12
 title:
 - content: IEEE Draft Standard for Harmonic Control in Electric Power Systems
@@ -75,64 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE519-2014
+    id: IEEEStd519-2014
     docid:
-    - id: IEEE 519-2014
+    - id: IEEE Std 519-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 519-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE519-2014
-    docid:
-    - id: IEEE 519-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 519-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE519-2014
-    docid:
-    - id: IEEE 519-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 519-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE519-2014
-    docid:
-    - id: IEEE 519-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 519-2014
+      content: IEEE Std 519-2014
       format: text/plain
   description:
     content: revises
@@ -151,17 +100,18 @@ keyword:
 - content: IEEE 519
 - content: power quality
 - content: steady-state
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: '27.100'
-  text: Power stations in general
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: '27.100'
+    text: Power stations in general
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

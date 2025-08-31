@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1036-D-5-2018-01
 title:
 - content: IEEE Draft Guide for the Application of Shunt Power Capacitors
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1036/D-5-2018-01
 date:
 - type: created
-  value: '2018'
+  value: '2018-07-03'
 - type: published
   value: '2018-07-04'
 - type: issued
@@ -59,13 +59,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1036-2010
+    id: IEEEStd1036-2010
     docid:
-    - id: IEEE 1036-2010
+    - id: IEEE Std 1036-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1036-2010
+      content: IEEE Std 1036-2010
       format: text/plain
   description:
     content: revises
@@ -76,13 +76,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE1036-2010
+    id: IEEEStd1036-2010
     docid:
-    - id: IEEE 1036-2010
+    - id: IEEE Std 1036-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1036-2010
+      content: IEEE Std 1036-2010
       format: text/plain
   description:
     content: revises
@@ -105,15 +105,13 @@ keyword:
 - content: internally fused
 - content: power factor correction
 - content: shunt power capacitors
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 31.060.70
-  text: Power capacitors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 31.060.70
+    text: Power capacitors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

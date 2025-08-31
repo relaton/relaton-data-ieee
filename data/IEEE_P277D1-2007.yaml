@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP277D1-2007
 title:
 - content: IEEE Approved Draft Recommended Practice for Cement Plant Power Distribution
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE277-1994
+    id: IEEEStd277-1994
     docid:
-    - id: IEEE 277-1994
+    - id: IEEE Std 277-1994
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 277-1994
+      content: IEEE Std 277-1994
       format: text/plain
   description:
     content: revises
@@ -91,15 +91,13 @@ keyword:
 - content: quarry distribution
 - content: secondary unit substation
 - content: surge arresters
-doctype: standard
-editorialgroup:
-  committee:
-  - Cement Industry of the IEEE Industry Applications Society
-ics:
-- code: 91.100.10
-  text: Cement. Gypsum. Lime. Mortar
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 91.100.10
+    text: Cement. Gypsum. Lime. Mortar
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

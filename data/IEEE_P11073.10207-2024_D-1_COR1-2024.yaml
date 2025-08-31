@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10207-2024-D-1-Cor1-2024
 title:
 - content: 'IEEE Draft Standard - Health Informatics - Point-of-Care Medical Device
@@ -49,11 +49,11 @@ script:
 - Latn
 abstract:
 - content: The IEEE 11073-10207-2017 standard falls within the context of the ISO/IEEE
-    11073&#8482; family of standards for point-of-care medical device communication.
-    In this standard, a Participant Model is derived from the ISO/IEEE 11073-10201
-    Domain Information Model. The Participant Model specifies the structure of medical
-    information objects. Additionally, the standard defines an 4 abstract Communication
-    Model to facilitate the exchange of medical information objects. Both the Participant
+    11073™ family of standards for point-of-care medical device communication. In
+    this standard, a Participant Model is derived from the ISO/IEEE 11073-10201 Domain
+    Information Model. The Participant Model specifies the structure of medical information
+    objects. Additionally, the standard defines an 4 abstract Communication Model
+    to facilitate the exchange of medical information objects. Both the Participant
     Model and Communication Model elements are specified using XML Schema. The core
     subjects covered by the Participant Model include the modeling of medical device-related
     7 data (such as measurements and settings), alert systems, contextual information
@@ -82,64 +82,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE11073.10207-2017
+    id: IEEEStd11073.10207-2017
     docid:
-    - id: IEEE 11073.10207-2017
+    - id: IEEE Std 11073.10207-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10207-2017
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE11073.10207-2017
-    docid:
-    - id: IEEE 11073.10207-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 11073.10207-2017
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE11073.10207-2017
-    docid:
-    - id: IEEE 11073.10207-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 11073.10207-2017
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE11073.10207-2017
-    docid:
-    - id: IEEE 11073.10207-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 11073.10207-2017
+      content: IEEE Std 11073.10207-2017
       format: text/plain
   description:
     content: corrects
@@ -171,17 +120,18 @@ keyword:
 - content: service-oriented device connectivity
 - content: system function
 - content: xml schema
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

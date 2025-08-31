@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.11-Amd3-2012
 title:
 - content: 'ISO/IEC/IEEE International Standard for Information technology--Telecommunications
@@ -28,7 +28,7 @@ docid:
 docnumber: ISO/IEC/IEEE 8802.11/Amd3-2012
 date:
 - type: created
-  value: '2014'
+  value: '2014-03-14'
 - type: published
   value: '2014-03-18'
 - type: issued
@@ -116,17 +116,18 @@ keyword:
 - content: service period
 - content: SP
 - content: spatial sharing
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

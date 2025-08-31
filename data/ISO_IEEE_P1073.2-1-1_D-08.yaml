@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEEEP1073.2-1-1-D-08
 title:
 - content: ISO/IEEE Draft International Standard for Health Informatics - Point-of-care
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEEE P1073.2-1-1/D-08
 date:
 - type: created
-  value: '2003'
+  value: '2003-07-01'
 - type: published
   value: '2021-06-14'
 - type: issued
@@ -86,16 +86,17 @@ keyword:
 - content: point-of-care
 - content: POC
 - content: services
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

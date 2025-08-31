@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.13-D-9-2015-09
 title:
 - content: IEEE Approved Draft Standard Requirements for Instrument Transformers
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.13-2008
+    id: IEEEStdC57.13-2008
     docid:
-    - id: IEEE C57.13-2008
+    - id: IEEE Std C57.13-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.13-2008
+      content: IEEE Std C57.13-2008
       format: text/plain
   description:
     content: revises
@@ -110,15 +110,13 @@ keyword:
 - content: secondary winding
 - content: type tests
 - content: voltage transformer
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

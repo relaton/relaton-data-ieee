@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEFDISP15026.2-2022-05
 title:
-- content: 'ISO/IEC/IEEE Approved Draft International Standard - Systems and software
-    engineering--Systems and software assurance--Part 2: Assurance case'
+- content: 'ISO/IEC/IEEE Draft International Standard - Systems and software engineering--Systems
+    and software assurance--Part 2: Assurance case'
   format: text/plain
   type: main
 link:
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE FDIS P15026.2-2022-05
 date:
 - type: created
-  value: '2022'
+  value: '2022-05-12'
 - type: published
   value: '2022-05-13'
 - type: issued
@@ -64,81 +64,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE15026.2-2011
+    id: IEEEStd15026.2-2011
     docid:
-    - id: IEEE 15026.2-2011
+    - id: IEEE Std 15026.2-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15026.2-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15026.2-2011
-    docid:
-    - id: IEEE 15026.2-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15026.2-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15026.2-2011
-    docid:
-    - id: IEEE 15026.2-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15026.2-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15026.2-2011
-    docid:
-    - id: IEEE 15026.2-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15026.2-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE15026.2-2011
-    docid:
-    - id: IEEE 15026.2-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 15026.2-2011
+      content: IEEE Std 15026.2-2011
       format: text/plain
   description:
     content: revises
@@ -154,16 +86,18 @@ keyword:
 - content: Software engineering
 - content: Systems engineering and theory
 - content: Quality assurance
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

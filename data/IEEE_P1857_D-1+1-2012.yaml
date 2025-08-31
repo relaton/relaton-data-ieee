@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1857-D-1+1-2012
 title:
 - content: IEEE Draft Standard for Advanced Audio and Video Coding
@@ -97,17 +97,18 @@ keyword:
 - content: quantization
 - content: entropy coding
 - content: coefficients
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board of the IEEE Computer Society
-ics:
-- code: 33.040.40
-  text: Data communication networks
-- code: '35.040'
-  text: Character sets and information coding
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board of the IEEE Computer Society
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  - code: '35.040'
+    text: Character sets and information coding
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

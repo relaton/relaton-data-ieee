@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.15.4aa-D-10-2021-10
 title:
 - content: 'IEEE Draft Standard for Low-Rate Wireless Networks Amendment: Higher data
@@ -26,9 +26,9 @@ date:
 - type: created
   value: '2021-10-19'
 - type: published
-  value: '2021-10-25'
+  value: '2021-10-26'
 - type: issued
-  value: '2021'
+  value: '2022-02-09'
 contributor:
 - organization:
     name:
@@ -42,7 +42,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2021-10-25'
+revdate: '2021-10-26'
 language:
 - en
 script:
@@ -70,47 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.15.4-2020
+    id: IEEEStd802.15.4-2020
     docid:
-    - id: IEEE 802.15.4-2020
+    - id: IEEE Std 802.15.4-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.15.4-2020
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2020
-    docid:
-    - id: IEEE 802.15.4-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2020
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2020
-    docid:
-    - id: IEEE 802.15.4-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2020
+      content: IEEE Std 802.15.4-2020
       format: text/plain
   description:
     content: amends
@@ -124,8 +90,8 @@ keyword:
 - content: Personal area networks
 - content: Frequency shift keying
 - content: Wireless personal area networks
-- content: Lower power electronics
 - content: Wireless communication
+- content: Low power electronics
 - content: Japanese frequency band
 - content: data rate extension
 - content: SUN FSK
@@ -134,16 +100,17 @@ keyword:
 - content: low power
 - content: wireless personal area network
 - content: WPAN
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

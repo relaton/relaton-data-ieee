@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.19-2006
 title:
 - content: Method of Measurement for Hearing Aid Compatibility with Wireless Communications
@@ -24,7 +24,7 @@ docid:
 docnumber: ANSI C63.19-2006
 date:
 - type: created
-  value: '2006'
+  value: '2006-06-12'
 - type: published
   value: '2014-01-31'
 - type: issued
@@ -78,14 +78,15 @@ keyword:
 - content: operational compatibility
 - content: personal communications service (PCS)
 - content: wireless communications device
-doctype: standard
-ics:
-- code: 11.180.15
-  text: Aids for deaf and hearing impaired people
-- code: 33.070.01
-  text: Mobile services in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 11.180.15
+    text: Aids for deaf and hearing impaired people
+  - code: 33.070.01
+    text: Mobile services in general
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-ISO-IEC8802.3-Amd8-2021
 title:
 - content: 'IEEE/ISO/IEC Telecommunications and exchange between information technology
@@ -77,43 +77,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.3ch-2020
+    id: IEEEStd802.3ch-2020
     docid:
-    - id: IEEE 802.3ch-2020
+    - id: IEEE Std 802.3ch-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3ch-2020
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3ch-2020
-    docid:
-    - id: IEEE 802.3ch-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3ch-2020
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3ch-2020
-    docid:
-    - id: IEEE 802.3ch-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3ch-2020
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3ch-2020
-    docid:
-    - id: IEEE 802.3ch-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3ch-2020
+      content: IEEE Std 802.3ch-2020
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -128,23 +98,23 @@ keyword:
 - content: 2.5GBASE-T1
 - content: 5GBASE-T1
 - content: 10GBASE-T1
-- content: Ethernet
 - content: IEEE 802.3ch&#8482;
 - content: MASTER-SLAVE
 - content: Medium layer
 - content: Physical Layer
 - content: Physical Medium Attachment
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

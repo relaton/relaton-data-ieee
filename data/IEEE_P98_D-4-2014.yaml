@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP98-D-4-2014
 title:
 - content: IEEE Draft Standard for the Preparation of Test Procedures for the Thermal
@@ -86,15 +86,16 @@ keyword:
 - content: temperature index
 - content: thermal aging
 - content: thermal endurance
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 29.035.01
-  text: Insulating materials in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 29.035.01
+    text: Insulating materials in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

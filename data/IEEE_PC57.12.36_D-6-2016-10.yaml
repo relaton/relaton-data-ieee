@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.12.36-D-6-2016-10
 title:
 - content: IEEE Approved Draft Standard Requirements for Liquid-Immersed Distribution
@@ -79,13 +79,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.12.36-2007
+    id: IEEEStdC57.12.36-2007
     docid:
-    - id: IEEE C57.12.36-2007
+    - id: IEEE Std C57.12.36-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.36-2007
+      content: IEEE Std C57.12.36-2007
       format: text/plain
   description:
     content: revises
@@ -98,7 +98,6 @@ keyword:
 - content: IEEE Standards
 - content: Power transformers
 - content: Power distribution
-- content: Power transformers
 - content: Substations
 - content: Portable document format
 - content: Liqiud immersion
@@ -108,15 +107,13 @@ keyword:
 - content: station type
 - content: transformer
 - content: unit substation
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 29.240.10
-  text: Substations. Surge arresters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.10
+    text: Substations. Surge arresters
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

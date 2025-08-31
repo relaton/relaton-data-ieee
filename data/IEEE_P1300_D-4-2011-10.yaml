@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1300-D-4-2011-10
 title:
 - content: IEEE Draft Guide for Cable Connections for Gas Insulated Substations
@@ -75,15 +75,16 @@ keyword:
 - content: GIS
 - content: Terminations
 - content: Cable Connections
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.120.20
-  text: Connecting devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.120.20
+    text: Connecting devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

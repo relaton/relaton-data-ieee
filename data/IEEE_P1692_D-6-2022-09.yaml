@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1692-D-6-2022-09
 title:
 - content: IEEE Draft Guide for the Protection of Communication Installations from
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-01-24'
 - type: issued
-  value: '2023'
+  value: '2023-12-06'
 contributor:
 - organization:
     name:
@@ -47,9 +47,9 @@ language:
 script:
 - Latn
 abstract:
-- content: The document addresses methods and practices necessary to reduce the risk
-    of damages to communications equipment within structures arising from lightning
-    surges causing GPR (ground potential rise) and similar potential differences.
+- content: Methods and practices necessary to reduce the risk of damages to communications
+    equipment within structures arising from lightning surges causing ground potential
+    rise and similar potential differences are addressed in this guide.
   language:
   - en
   script:
@@ -69,47 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1692-2011
+    id: IEEEStd1692-2011
     docid:
-    - id: IEEE 1692-2011
+    - id: IEEE Std 1692-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1692-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1692-2011
-    docid:
-    - id: IEEE 1692-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1692-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1692-2011
-    docid:
-    - id: IEEE 1692-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1692-2011
+      content: IEEE Std 1692-2011
       format: text/plain
   description:
     content: revises
@@ -123,22 +89,23 @@ keyword:
 - content: Communication equipment
 - content: Lightning protection
 - content: Poles and towers
-- content: IEEE 1692
+- content: communications equipment
+- content: IEEE 1692&#8482;
 - content: lightning
 - content: protection
-- content: communications equipment
 - content: towers
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
-- code: 91.120.40
-  text: Lightning protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  - code: 91.120.40
+    text: Lightning protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

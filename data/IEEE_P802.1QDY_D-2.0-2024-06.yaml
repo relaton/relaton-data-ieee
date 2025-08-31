@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1Qdy-D-2.0-2024-06
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks - Bridges
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P802.1Qdy/D-2.0-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-05'
 - type: published
-  value: '2024-06-07'
+  value: '2024-06-06'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-06-07'
+revdate: '2024-06-06'
 language:
 - en
 script:
@@ -50,8 +50,8 @@ abstract:
 - content: This amendment to IEEE Std 802.1Q-2022 as amended by IEEE Std 802.1Qcz-2023,
     IEEE Std 802.1Qcw-2023, IEEE Std 802.1Qcj-2023, IEEE Std 802.1Qdj-2024, and IEEE
     Std 802.1Qdx-2024 addresses Multiple Spanning Tree Protocol (MSTP) requirements
-    arising from industrial automation networks. It specifies YANG for bridge and
-    bridge component RSTP and MSTP configuration and status reporting.
+    arising from industrial automation networks. It specifies YANG for Bridge and
+    Bridge component RSTP as well as MSTP configuration and status reporting.
   language:
   - en
   script:
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1Q-2022
+    id: IEEEStd802.1Q-2022
     docid:
-    - id: IEEE 802.1Q-2022
+    - id: IEEE Std 802.1Q-2022
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1Q-2022
+      content: IEEE Std 802.1Q-2022
       format: text/plain
   description:
     content: amends
@@ -92,32 +92,34 @@ keyword:
 - content: Metropolitan area networks
 - content: Bridge circuits
 - content: Virtual LAN
+- content: amendment
 - content: Bridged Network
-- content: IEEE 802.1Q&#8482;
-- content: IEEE 802.1Qdy&#8482;
+- content: IEEE 802.1Q™
+- content: IEEE 802.1Qdy™
 - content: LAN
 - content: local area network
 - content: MAC Bridge
 - content: metropolitan area network
+- content: MIB
 - content: MSTP
 - content: Multiple Spanning Tree Protocol
-- content: MIB
 - content: Rapid Spanning Tree Protocol
 - content: RSTP
 - content: Virtual Bridged Network
 - content: virtual LAN
 - content: VLAN Bridge
 - content: YANG
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

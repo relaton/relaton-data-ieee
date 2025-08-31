@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.18-1997
 title:
 - content: American National Standard Recommended Practice for an On-site, Ad-Hoc
@@ -87,15 +87,16 @@ keyword:
 - content: portable RF transmitters
 - content: test method
 - content: test procedure
-doctype: standard
-editorialgroup:
-  committee:
-  - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
-ics:
-- code: 33.100.20
-  text: Immunity
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
+  ics:
+  - code: 33.100.20
+    text: Immunity
   standard_status: Inactive
   pubstatus: Active
   holdstatus: Publish

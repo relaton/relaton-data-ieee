@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEP15026.4-D-IS2-2021
 title:
 - content: 'ISO/IEC/IEEE Approved Draft International Standard - Systems and software
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE P15026.4/D-IS2-2021
 date:
 - type: created
-  value: '2021'
+  value: '2021-03-29'
 - type: published
   value: '2021-02-04'
 - type: issued
@@ -79,16 +79,18 @@ keyword:
 - content: Software engineering
 - content: Systems engineering and theory
 - content: Quality assurance
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

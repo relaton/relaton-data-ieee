@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP62.42.1-D-5-2016-05
 title:
 - content: IEEE Approved Draft Guide for the Application of Surge-Protective Components
@@ -93,12 +93,13 @@ keyword:
 - content: sparkover
 - content: three13electrode
 - content: two-electrode
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

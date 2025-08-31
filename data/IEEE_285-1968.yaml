@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE285-1968
 title:
 - content: IEEE Standards Report on State-of-the-Art of Measuring Phase Shift at Frequencies
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE 285-1968
 date:
 - type: created
-  value: '1968'
+  value: '1968-04-01'
 - type: published
   value: '2016-03-31'
 - type: issued
@@ -81,9 +81,10 @@ keyword:
 - content: ANSI Standards
 - content: Frequency measurement
 - content: Phase measurement
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

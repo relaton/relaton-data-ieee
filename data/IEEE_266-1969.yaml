@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE266-1969
 title:
 - content: IEEE Test Procedure for Evaluation of Insulation Systems for Electronics
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE 266-1969
 date:
 - type: created
-  value: '1969'
+  value: '1969-03-26'
 - type: published
   value: '2016-01-26'
 - type: issued
@@ -62,6 +62,19 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The intent of this Test Procedure is to establish a uniform method by which
+    the life ofelectronics transformer insulation systems can be compared. Thermal
+    degradation is generallyone of the major factors affecting the life of most insulating
+    materials. It was chosen to be themajor environmental factor in this Test Procedure.
+    Other environmental factors, such as vibration,thermal shock, and moisture, have
+    been included to simulate operating conditions. Thesefactors have been chosen
+    in such a way as to develop and disclose promptly any significantweaknesses during
+    the temperature aging of an insulation system.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: withdrawn
@@ -85,12 +98,13 @@ keyword:
 - content: elrctronics
 - content: transformers
 - content: test
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Magnetics Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Magnetics Society
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

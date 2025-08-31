@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.233-D-4.2.1-2021-03
 title:
 - content: IEEE Draft Guide for Power System Protection Testing
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2023-02-16'
 - type: issued
-  value: '2021'
+  value: '2023-06-05'
 contributor:
 - organization:
     name:
@@ -47,11 +47,12 @@ script:
 - Latn
 abstract:
 - content: Test approaches and procedures for the components and the overall protection
-    and control system functions are presented. Test of equipment in the system protection
-    scheme, associated communications equipment, auxiliary power supplies, and the
-    control of power apparatus are addressed. Much of the testing emphasizes a bottom-up
-    approach, in which the basic behavior of scheme components are verified first,
-    followed by testing of interconnected components in a function-oriented assembly.
+    and control system functions are presented in this guide. Test of equipment in
+    the system protection scheme, associated communications equipment, auxiliary power
+    supplies, and the control of power apparatus are addressed. Much of the testing
+    emphasizes a bottom-up approach, in which the basic behavior of scheme components
+    are verified first, followed by testing of interconnected components in a function-oriented
+    assembly.
   language:
   - en
   script:
@@ -71,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.233-2009
+    id: IEEEStdC37.233-2009
     docid:
-    - id: IEEE C37.233-2009
+    - id: IEEE Std C37.233-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.233-2009
+      content: IEEE Std C37.233-2009
       format: text/plain
   description:
     content: revises
@@ -97,17 +98,19 @@ keyword:
 - content: IEEE C37.233&#8482;
 - content: maintenance testing
 - content: performance assessment
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: '27.100'
-  text: Power stations in general
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
+- content: type testing
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: '27.100'
+    text: Power stations in general
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

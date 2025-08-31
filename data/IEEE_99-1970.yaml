@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE99-1970
 title:
 - content: IEEE Guide for Preparation of Test Procedures for the Thermal Evaluation
@@ -79,13 +79,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEE99-1980
+    id: IEEEStd99-1980
     docid:
-    - id: IEEE 99-1980
+    - id: IEEE Std 99-1980
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 99-1980
+      content: IEEE Std 99-1980
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -94,9 +94,10 @@ keyword:
 - content: Insulation
 - content: Electrical equipment
 - content: Power system measurement
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

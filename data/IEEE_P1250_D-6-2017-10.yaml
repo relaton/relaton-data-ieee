@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1250-D-6-2017-10
 title:
 - content: IEEE Draft Guide for Identifying and Improving Power Quality in Power Systems
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1250-2011
+    id: IEEEStd1250-2011
     docid:
-    - id: IEEE 1250-2011
+    - id: IEEE Std 1250-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1250-2011
+      content: IEEE Std 1250-2011
       format: text/plain
   description:
     content: revises
@@ -117,15 +117,13 @@ keyword:
 - content: transients
 - content: voltage fluctuation
 - content: voltage quality
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

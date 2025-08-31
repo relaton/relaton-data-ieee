@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC63.5-D-6.00-2016-06
 title:
 - content: Draft American National Standard for Electromagnetic Compatibility--Radiated
@@ -114,15 +114,13 @@ keyword:
 - content: standard antenna method
 - content: standard site method
 - content: standard transmit loop method.
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Electromagnetic Compatibility Society
-ics:
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 33.100.10
+    text: Emission
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.22.1-D-10-2022-07
 title:
 - content: IEEE Draft Guide for Connection of Surge Arresters to Protect Insulated
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2022-10-31'
 - type: published
-  value: '2022-11-02'
+  value: '2025-04-23'
 - type: issued
-  value: '2022'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -41,11 +41,22 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2022-11-02'
+revdate: '2025-04-23'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: Surge arrester installation methods at distribution cable terminal poles
+    to minimize the total impressed transient voltage on medium-voltage distribution
+    cables are suggested in this guide. Grounding electrode techniques, pole ground
+    values, and system ground grid values are not addressed or considered in this
+    document.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1299
+    id: IEEEStd1299
     docid:
-    - id: IEEE 1299
+    - id: IEEE Std 1299
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1299
+      content: IEEE Std 1299
       format: text/plain
   description:
     content: revises
@@ -84,19 +95,21 @@ keyword:
 - content: Cable insulation
 - content: Cable shielding
 - content: cable
-- content: IEEE C62.22.1TM
+- content: IEEE C62.22.1™
 - content: installation method
-- content: surge arrester and transient voltage
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 33.120.99
-  text: Other components and accessories
+- content: surge arrester
+- content: transient voltage
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 33.120.99
+    text: Other components and accessories
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.90.1-D-11-2024-05
 title:
-- content: IEEE Draft Standard for Relays, Relay Systems, and Control Devices used
-    for Protection and Control of Electric Power Apparatus-Surge Withstand Capability
+- content: IEEE Approved Draft Standard for Relays, Relay Systems, and Control Devices
+    used for Protection and Control of Electric Power Apparatus-Surge Withstand Capability
     (SWC) and Electrical Fast Transient (EFT) Requirements and Tests
   format: text/plain
   type: main
@@ -24,11 +24,11 @@ docid:
 docnumber: IEEE PC37.90.1/D-11-2024-05
 date:
 - type: created
-  value: '2024-05-21'
+  value: '2024-10-02'
 - type: published
   value: '2024-05-22'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -48,16 +48,16 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard specifies 1 design tests for relays, relay systems, and control
-    devices used for Protection and Control of Electric Power Apparatus, that relate
-    to the immunity of this equipment to repetitive electrical transients. Two types
-    of tests are specified, the slow damped oscillatory test, and the electrical fast
-    transient (EFT) burst test. For devices with communication ports, where the device
+- content: 'Design tests for relays, relay systems, and control devices used for protection
+    and control of electric power apparatus that relate to the immunity of this equipment
+    to repetitive electrical transients are specified in this standard. Two types
+    of tests are specified: the slow damped oscillatory test, and the electrical fast
+    transient (EFT ) burst test. For devices with communication ports, where the device
     does not perform protection or control functions, testing of the communication
-    functions is covered by IEEE Std. 1613. Where the device performs protection or
-    control functions and has communication ports, tests for all communication functions
-    are covered by this document. For devices without communication ports, the tests
-    are covered by this document.
+    functions is covered by IEEE Std 1613&#8482;. Where the device performs protection
+    or control functions and has communication ports, tests for all communication
+    functions are covered by this document. For devices without communication ports,
+    the tests are covered by this document.'
   language:
   - en
   script:
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.90.1-2012
+    id: IEEEStdC37.90.1-2012
     docid:
-    - id: IEEE C37.90.1-2012
+    - id: IEEE Std C37.90.1-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.90.1-2012
+      content: IEEE Std C37.90.1-2012
       format: text/plain
   description:
     content: revises
@@ -93,18 +93,27 @@ relation:
     - Latn
     format: text/plain
 keyword:
-- content: Switching(surge)
+- content: IEEE Standards
+- content: Switching systems
+- content: Surge protection
+- content: Transient analysis
+- content: Power system control
+- content: Power system transients
+- content: Testing
+- content: IEEE C37.90.1&#8482;
+- content: switching (surge)
 - content: transient
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.70
+    text: Relays
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP575-D-11-2012-03
 title:
 - content: IEEE Draft Guide for Bonding Sheaths and Shields of Single-Conductor Power
@@ -81,13 +81,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSI-IEEE575-1988
+    id: ANSI-IEEEStd575-1988
     docid:
-    - id: ANSI/IEEE 575-1988
+    - id: ANSI/IEEE Std 575-1988
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE 575-1988
+      content: ANSI/IEEE Std 575-1988
       format: text/plain
   description:
     content: revises
@@ -98,13 +98,30 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: ANSI-IEEE575-1988
+    id: ANSI-IEEEStd575-1988
     docid:
-    - id: ANSI/IEEE 575-1988
+    - id: ANSI/IEEE Std 575-1988
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE 575-1988
+      content: ANSI/IEEE Std 575-1988
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: ANSI-IEEEStd575-1988
+    docid:
+    - id: ANSI/IEEE Std 575-1988
+      type: IEEE
+      primary: true
+    formattedref:
+      content: ANSI/IEEE Std 575-1988
       format: text/plain
   description:
     content: revises
@@ -126,15 +143,13 @@ keyword:
 - content: sheath bonding
 - content: grounding
 - content: sheath voltage limiters
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.035.01
-  text: Insulating materials in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.035.01
+    text: Insulating materials in general
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

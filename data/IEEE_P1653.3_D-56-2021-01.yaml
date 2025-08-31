@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1653.3-D-56-2021-01
 title:
 - content: IEEE Approved Draft Guide for Rail Transit Traction Power Systems Modeling
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1653.3/D-56-2021-01
 date:
 - type: created
-  value: '2021'
+  value: '2021-03-29'
 - type: published
   value: '2021-01-25'
 - type: issued
@@ -73,16 +73,17 @@ keyword:
 - content: IEEE 1653.3
 - content: modeling
 - content: traction power
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
-ics:
-- code: 45.060.10
-  text: Tractive stock
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
+  ics:
+  - code: 45.060.10
+    text: Tractive stock
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

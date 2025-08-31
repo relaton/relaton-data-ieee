@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE223-1966
 title:
 - content: IEEE Standard Definitions of Terms for Thyristors
@@ -56,6 +56,12 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Definitions of Terms for Thyristors
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: withdrawn
@@ -72,9 +78,10 @@ keyword:
 - content: Thyristors
 - content: Terminology
 - content: Dictionaries
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

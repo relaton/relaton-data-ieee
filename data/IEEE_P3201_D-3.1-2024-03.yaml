@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3201-D-3.1-2024-03
 title:
 - content: IEEE Draft Standard for Blockchain Access Control
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P3201/D-3.1-2024-03
 date:
 - type: created
-  value: '2024'
+  value: '2024-03-07'
 - type: published
   value: '2024-03-08'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -46,9 +46,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard specifies the technical framework and technical requirements
-    of blockchain access control, including the subject, object and access control
-    policy of each layer of the blockchain.
+- content: The technical framework and technical requirements of blockchain access
+    control, including the subject, object, and access control policy of each layer
+    of the blockchain is specified in this standard.
   language:
   - en
   script:
@@ -72,13 +72,19 @@ keyword:
 - content: access control
 - content: blockchain
 - content: IEEE 3201
-doctype: standard
-editorialgroup:
-  committee:
-  - Blockchain and Distributed Ledgers of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Blockchain and Distributed Ledgers of the IEEE Computer Society
+  ics:
+  - code: '35.030'
+    text: IT Security
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

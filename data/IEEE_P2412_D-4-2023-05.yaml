@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2412-D-4-2023-05
 title:
 - content: IEEE Draft Standard Test for Determining Circuit Integrity Performance
@@ -75,13 +75,14 @@ copyright:
   from: '2023'
 keyword:
 - content: IEEE Standards
-- content: Circuit integrity
 - content: LIghting
 - content: Rail transportation
 - content: Furnaces
 - content: Power cables
 - content: Safety
 - content: Wiring
+- content: Circuits
+- content: Fire safety
 - content: cable
 - content: circuit integrity
 - content: emergency lighting
@@ -91,15 +92,16 @@ keyword:
 - content: safety systems
 - content: test protocol
 - content: wire
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.060.01
-  text: Electrical wires and cables in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 29.060.01
+    text: Electrical wires and cables in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2941.2-D-2.0-2023-04
 title:
 - content: IEEE Draft Standard for Application Programming Interface (API) of Deep
@@ -82,17 +82,18 @@ keyword:
 - content: DL
 - content: IEEE 2941.2&#8482;
 - content: inference engine
-doctype: standard
-editorialgroup:
-  committee:
-  - Data Compression Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
-- code: 35.240.01
-  text: Application of information technology in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Data Compression Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.01
+    text: Application of information technology in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3-D-3.1-2015-06
 title:
 - content: IEEE Draft Standard for Ethernet
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P802.3/D-3.1-2015-06
 date:
 - type: created
-  value: '2015'
+  value: '2015-07-23'
 - type: published
   value: '2015-06-19'
 - type: issued
@@ -99,10 +99,8 @@ keyword:
 - content: data processing
 - content: DTE Power via the MDI
 - content: EPON
-- content: Ethernet
 - content: Ethernet in the First Mile
 - content: Ethernet passive optical network
-- content: Fast Ethernet
 - content: Gigabit Ethernet
 - content: GMII
 - content: information exchange
@@ -123,19 +121,20 @@ keyword:
 - content: repeater
 - content: type field
 - content: VLAN TAG
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

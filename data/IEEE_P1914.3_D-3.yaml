@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1914.3-D-3
 title:
 - content: IEEE Draft Standard for Radio Over Ethernet Encapsulations and Mappings
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1914.3/D-3
 date:
 - type: created
-  value: '2018'
+  value: '2018-06-08'
 - type: published
   value: '2018-06-09'
 - type: issued
@@ -80,12 +80,14 @@ keyword:
 - content: RoE mapper
 - content: structure-agnostic
 - content: structure-aware
-doctype: standard
-editorialgroup:
-  committee:
-  - Mobile Communication Networks Standards Committee of the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Mobile Communication Networks Standards Committee of the IEEE Communications
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

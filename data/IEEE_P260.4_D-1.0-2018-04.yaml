@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP260.4-D-1.0-2018-04
 title:
 - content: IEEE Draft Standard Letter Symbols and Abbreviations for Quantities Used
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P260.4/D-1.0-2018-04
 date:
 - type: created
-  value: '2018'
+  value: '2018-04-26'
 - type: published
   value: '2018-04-28'
 - type: issued
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSI-IEEE260.4-1996
+    id: ANSI-IEEEStd260.4-1996
     docid:
-    - id: ANSI/IEEE 260.4-1996
+    - id: ANSI/IEEE Std 260.4-1996
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE 260.4-1996
+      content: ANSI/IEEE Std 260.4-1996
       format: text/plain
   description:
     content: revises
@@ -106,17 +106,15 @@ keyword:
 - content: scientific symbols
 - content: standard acoustical abbreviations
 - content: standard acoustical letter symbols
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '01.075'
-  text: Character symbols
-- code: 17.140.01
-  text: Acoustic measurements and noise abatement in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '01.075'
+    text: Character symbols
+  - code: 17.140.01
+    text: Acoustic measurements and noise abatement in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

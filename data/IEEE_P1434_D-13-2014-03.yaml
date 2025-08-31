@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1434-D-13-2014-03
 title:
 - content: IEEE Draft Guide for the Measurement of Partial Discharges in AC Electric
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1434/D-13-2014-03
 date:
 - type: created
-  value: '2014'
+  value: '2014-07-26'
 - type: published
   value: '2014-03-20'
 - type: issued
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1434-2000
+    id: IEEEStd1434-2000
     docid:
-    - id: IEEE 1434-2000
+    - id: IEEE Std 1434-2000
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1434-2000
+      content: IEEE Std 1434-2000
       format: text/plain
   description:
     content: revises
@@ -87,47 +87,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE1434-2000
+    id: IEEEStd1434-2000
     docid:
-    - id: IEEE 1434-2000
+    - id: IEEE Std 1434-2000
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1434-2000
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1434-2000
-    docid:
-    - id: IEEE 1434-2000
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1434-2000
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1434-2000
-    docid:
-    - id: IEEE 1434-2000
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1434-2000
+      content: IEEE Std 1434-2000
       format: text/plain
   description:
     content: revises
@@ -149,15 +115,13 @@ keyword:
 - content: form-wound coils
 - content: partial discharge
 - content: ac electric machine windings
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.160.01
-  text: Rotating machinery in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.160.01
+    text: Rotating machinery in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1057-D-8-2017-06
 title:
 - content: IEEE Draft Standard for Digitizing Waveform Recorders
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1057/D-8-2017-06
 date:
 - type: created
-  value: '2017'
+  value: '2017-07-21'
 - type: published
   value: '2017-07-25'
 - type: issued
@@ -81,16 +81,17 @@ keyword:
 - content: total harmonic distortion
 - content: transitions levels
 - content: waveform recorders
-doctype: standard
-editorialgroup:
-  committee:
-  - TC10 - Waveform Generation Measurement and Analysis of the IEEE Instrumentation
-    and Measurement Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC10 - Waveform Generation Measurement and Analysis of the IEEE Instrumentation
+      and Measurement Society
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

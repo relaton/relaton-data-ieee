@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2889-D-0.05-2021
 title:
 - content: IEEE Draft Guide for the Definition of Incident Power Density to Correlate
@@ -74,12 +74,13 @@ keyword:
 - content: Dosimetry Modelling
 - content: Numerical Dosimetry
 - content: Temperature Rise
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

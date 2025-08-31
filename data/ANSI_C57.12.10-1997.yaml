@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC57.12.10-1997
 title:
 - content: American National Standard for Transformers-230 kV and Below 833 / 958
@@ -69,23 +69,23 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEEC57.12.10-2010
+    id: IEEEStdC57.12.10-2010
     docid:
-    - id: IEEE C57.12.10-2010
+    - id: IEEE Std C57.12.10-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.10-2010
+      content: IEEE Std C57.12.10-2010
       format: text/plain
 - type: obsoletedBy
   bibitem:
-    id: IEEEC57.12.10-2010
+    id: IEEEStdC57.12.10-2010
     docid:
-    - id: IEEE C57.12.10-2010
+    - id: IEEE Std C57.12.10-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.10-2010
+      content: IEEE Std C57.12.10-2010
       format: text/plain
 keyword:
 - content: Current transformers
@@ -95,15 +95,13 @@ keyword:
 - content: ANSI
 - content: IEEE C57.12
 - content: IEEE C57.12.10
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

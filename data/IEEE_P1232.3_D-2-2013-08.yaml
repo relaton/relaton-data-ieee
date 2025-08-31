@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1232.3-D-2-2013-08
 title:
 - content: IEEE Draft Guide for the Use of Artificial Intelligence Exchange and Service
@@ -89,17 +89,18 @@ keyword:
 - content: IEEE 1232
 - content: knowledge exchange
 - content: system test
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '35.080'
-  text: Software
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC37.0781-1972
 title:
 - content: ANSI American National Standard Schedule of Dielectric Test Values for
@@ -26,7 +26,7 @@ docid:
 docnumber: ANSI C37.0781-1972
 date:
 - type: created
-  value: '1972'
+  value: '1972-03-25'
 - type: published
   value: '2016-03-25'
 - type: issued
@@ -78,9 +78,10 @@ keyword:
 - content: High voltage techniques
 - content: Current estimation
 - content: Testing
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

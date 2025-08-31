@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1801a-D-01-2014-05
 title:
 - content: IEEE Draft Standard for Design and Verification of Low-Power Integrated
@@ -89,15 +89,16 @@ keyword:
 - content: progressive design refinement
 - content: retention
 - content: retention strategies
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '31.200'
-  text: Integrated circuits. Microelectronics
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

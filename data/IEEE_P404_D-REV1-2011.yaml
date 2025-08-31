@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP404-D-Rev1-2011
 title:
 - content: IEEE Draft Standard for Extruded and Laminated Dielectric Shielded Cable
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE P404/D-Rev1-2011
 date:
 - type: created
-  value: '2011'
+  value: '2011-07-28'
 - type: published
   value: '2011-07-29'
 - type: issued
@@ -87,15 +87,16 @@ keyword:
 - content: sheath/shield sectionalizers
 - content: transition joints
 - content: withstand voltage
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.120.20
-  text: Connecting devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.120.20
+    text: Connecting devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

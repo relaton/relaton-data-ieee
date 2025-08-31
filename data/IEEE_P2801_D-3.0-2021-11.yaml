@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2801-D-3.0-2021-11
 title:
 - content: IEEE Draft Recommended Practice for the Quality Management of Datasets
@@ -83,15 +83,16 @@ keyword:
 - content: datasets
 - content: IEEE 2801
 - content: quality management
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Engineering in Medicine and Biology Society
-ics:
-- code: 35.240.01
-  text: Application of information technology in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+  ics:
+  - code: 35.240.01
+    text: Application of information technology in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

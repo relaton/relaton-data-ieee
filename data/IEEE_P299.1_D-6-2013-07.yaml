@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP299.1-D-6-2013-07
 title:
 - content: IEEE Draft Standard Method for Measuring the Shielding Effectiveness of
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P299.1/D-6-2013-07
 date:
 - type: created
-  value: '2013'
+  value: '2013-07-10'
 - type: published
   value: '2013-07-10'
 - type: issued
@@ -84,7 +84,6 @@ keyword:
 - content: Magnetic shielding
 - content: Reverberation chambers
 - content: Shielded enclosures
-- content: Electromagnetic shielding
 - content: IEEE 299.1
 - content: shielding effectiveness
 - content: shielded enclosure
@@ -93,15 +92,16 @@ keyword:
 - content: physically large
 - content: electrically small
 - content: electrically large
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
-ics:
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
+  ics:
+  - code: 33.100.10
+    text: Emission
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

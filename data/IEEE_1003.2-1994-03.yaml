@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE1003.2-1994-03
 title:
 - content: IEEE Standards Interpretations for IEEE Std 1003.2-1992
@@ -75,17 +75,18 @@ keyword:
 - content: POSIX
 - content: shell
 - content: utilities
-doctype: standard
-editorialgroup:
-  committee:
-  - Portable Applications of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Portable Applications of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  - code: '35.080'
+    text: Software
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

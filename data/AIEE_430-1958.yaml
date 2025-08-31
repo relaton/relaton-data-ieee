@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE430-1958
 title:
 - content: AIEE Proposed Recommended Practice for Toroial Magnetic tape Wound Cores
@@ -24,7 +24,7 @@ docid:
 docnumber: AIEE 430-1958
 date:
 - type: created
-  value: '1958'
+  value: '1958-04-08'
 - type: published
   value: '2016-04-08'
 - type: issued
@@ -76,9 +76,10 @@ keyword:
 - content: Shape analysis
 - content: Power generation
 - content: Bobbin would cores
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

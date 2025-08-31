@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP845-D-2-2023-07
 title:
-- content: IEEE Approved Draft Guide for the Evaluation of Human-System Performance
-    in Nuclear Power Generating Stations and Other Nuclear Facilities
+- content: IEEE Draft Guide for the Evaluation of Human-System Performance in Nuclear
+    Power Generating Stations and Other Nuclear Facilities
   format: text/plain
   type: main
 link:
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P845/D-2-2023-07
 date:
 - type: created
-  value: '2023-11-13'
+  value: '2023-07-25'
 - type: published
   value: '2023-07-27'
 - type: issued
@@ -50,8 +50,8 @@ abstract:
 - content: Guidance for evaluating human-system performance related to systems, equipment,
     and facilities in nuclear power generating stations is provided. Specific evaluation
     techniques and rationale for their application within the integrated systems approach
-    to plant design, operations, and maintenance described in IEEE Std 1023&#8482;are
-    summarized.
+    to plant design, operations, and maintenance described in IEEE Std 1023&#8482;
+    are summarized.
   language:
   - en
   script:
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE845-1999
+    id: IEEEStd845-1999
     docid:
-    - id: IEEE 845-1999
+    - id: IEEE Std 845-1999
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 845-1999
+      content: IEEE Std 845-1999
       format: text/plain
   description:
     content: revises
@@ -94,23 +94,24 @@ keyword:
 - content: Maintenance engineering
 - content: Performance evaluation
 - content: design
+- content: generating stations
 - content: human-system performance
 - content: IEEE 845&#8482;
 - content: integrated systems
 - content: maintenance
 - content: nuclear power
-- content: generating stations
-- content: and operation
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering Committee of the IEEE Power and Energy Society
-ics:
-- code: 27.120.01
-  text: Nuclear energy in general
+- content: operation
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering Committee of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.01
+    text: Nuclear energy in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

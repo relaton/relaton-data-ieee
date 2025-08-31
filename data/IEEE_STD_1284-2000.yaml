@@ -1,0 +1,91 @@
+---
+schema-version: v1.2.9
+id: IEEEStd1284-2000
+title:
+- content: IEEE Standard Signaling Method for a Bidirectional Parallel Peripheral
+    Interface for Personal Computers
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/879340
+  type: src
+type: standard
+docid:
+- id: IEEE Std 1284-2000
+  type: IEEE
+  primary: true
+- id: IEEE Std 1284™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 0-7381-2615-2
+  type: ISBN
+- id: 10.1109/IEEESTD.2000.91947
+  type: DOI
+docnumber: IEEE Std 1284-2000
+date:
+- type: created
+  value: '2000'
+- type: published
+  value: '2002-08-06'
+- type: issued
+  value: '2000-09-21'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2002-08-06'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: A signaling method for asynchronous, fully interlocked, bidirectional parallel
+    communi-cations between hosts and printers or other peripherals is defined. A
+    functional subset of the signaling method may be implemented on personal computers
+    (PCs) or equivalent parallel port hardware with new software. New electrical interfaces,
+    cabling, and interface hardware that provides improved performance while retaining
+    backward compatibility with this subset is detailed.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: approved
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2000'
+keyword:
+- content: IEEE Standards
+- content: Microcomputers
+- content: User interfaces
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor and Microcomputer Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

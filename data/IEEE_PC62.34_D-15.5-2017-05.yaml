@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.34-D-15.5-2017-05
 title:
 - content: IEEE Draft Standard for Test Methods and Performance of Low-Voltage (1000
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE PC62.34/D-15.5-2017-05
 date:
 - type: created
-  value: '2017'
+  value: '2017-06-15'
 - type: published
   value: '2017-06-16'
 - type: issued
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC62.34-1996
+    id: IEEEStdC62.34-1996
     docid:
-    - id: IEEE C62.34-1996
+    - id: IEEE Std C62.34-1996
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C62.34-1996
+      content: IEEE Std C62.34-1996
       format: text/plain
   description:
     content: revises
@@ -102,15 +102,13 @@ keyword:
 - content: surge protective devices
 - content: SPDs
 - content: Type 1 SPDs
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

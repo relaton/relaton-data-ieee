@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2786-D-3-2022-08
 title:
 - content: IEEE Approved Draft Standard for General Requirements and Interoperability
@@ -71,27 +71,28 @@ copyright:
 keyword:
 - content: IEEE Standards
 - content: Internet of Things
-- content: Interoperabilty
 - content: Clothing
+- content: Interoperability
 - content: architectural framework
 - content: data scheme
 - content: IEEE 2786&#8482;
 - content: internet of clothing
 - content: interoperability
 - content: technological requirements
-doctype: standard
-editorialgroup:
-  committee:
-  - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
-ics:
-- code: 35.040.50
-  text: Automatic identification and data capture techniques
-- code: 59.080.80
-  text: Smart textiles
-- code: '61.020'
-  text: Clothes
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  - code: 59.080.80
+    text: Smart textiles
+  - code: '61.020'
+    text: Clothes
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

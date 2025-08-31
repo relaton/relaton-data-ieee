@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1888.2-D-3.1-2013-08
 title:
 - content: 'IEEE Draft Standard for Ubiquitous Green Community Control Network: Heterogeneous
@@ -86,15 +86,16 @@ keyword:
 - content: Intelligent Application Resolver
 - content: primitive data type
 - content: field-bus data type
-doctype: standard
-editorialgroup:
-  committee:
-  - Corporate Advisory Group of the IEEE-SA Board of Governors
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Corporate Advisory Group of the IEEE-SA Board of Governors
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

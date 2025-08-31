@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1901.2_vD0.07.01-2013
 title:
 - content: IEEE Standard for Low Frequency (less than 500 kHz) Narrow BandPower Line
@@ -90,15 +90,16 @@ keyword:
 - content: narrow band
 - content: PRIME
 - content: G3
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Communications Society
-ics:
-- code: 33.040.60
-  text: Powerline telecommunications
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Communications Society
+  ics:
+  - code: 33.040.60
+    text: Powerline telecommunications
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE61636-2021
 title:
 - content: International Standard-Software Interface for Maintenance Information Collection
@@ -25,7 +25,7 @@ docid:
 docnumber: IEC/IEEE 61636-2021
 date:
 - type: created
-  value: '2021'
+  value: '2021-06-08'
 - type: published
   value: '2021-06-10'
 - type: issued
@@ -59,6 +59,16 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Promoting and facilitating interoperability between components of automatic
+    test systems where test results and/or maintenance actions need to be shared is
+    addressed in this standard. The standard defines the common elements between both
+    test results data and maintenance action data. The common schema becomes a class
+    of information that shall be used within the SIMICA family of standards.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -75,19 +85,19 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE1636-2018
+    id: IEEEStd1636-2018
     docid:
-    - id: IEEE 1636-2018
+    - id: IEEE Std 1636-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1636-2018
+      content: IEEE Std 1636-2018
       format: text/plain
 keyword:
 - content: IEEE Standards
 - content: XML
 - content: Software maintenance
-- content: Automated test equipment
+- content: Automatic test equipment
 - content: automated test system (ATS)
 - content: extensible markup language (XML)
 - content: IEEE 1636
@@ -97,17 +107,18 @@ keyword:
     (SIMICA)
 - content: test results and session information
 - content: XML schema
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 25.040.01
-  text: Industrial automation systems in general
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 25.040.01
+    text: Industrial automation systems in general
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

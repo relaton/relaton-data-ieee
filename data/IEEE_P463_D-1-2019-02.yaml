@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP463-D-1-2019-02
 title:
 - content: IEEE Draft Standard for Electrical Safety Practices in Electrolytic Cell
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE463-2013
+    id: IEEEStd463-2013
     docid:
-    - id: IEEE 463-2013
+    - id: IEEE Std 463-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 463-2013
+      content: IEEE Std 463-2013
       format: text/plain
   description:
     content: revises
@@ -99,15 +99,13 @@ keyword:
 - content: electrical safety
 - content: electrolytic cell line
 - content: IEEE 463
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: '13.260'
-  text: Protection against electric shock. Live working
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '13.260'
+    text: Protection against electric shock. Live working
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

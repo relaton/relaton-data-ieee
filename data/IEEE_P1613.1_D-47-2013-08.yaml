@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1613.1-D-47-2013-08
 title:
 - content: IEEE Draft Standard Environmental and Testing Requirements for Communications
@@ -91,15 +91,16 @@ keyword:
 - content: power frequency magnetic fields
 - content: damped oscillatory magnetic fields
 - content: common mode disturbances.
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.240.10
-  text: Substations. Surge arresters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.240.10
+    text: Substations. Surge arresters
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

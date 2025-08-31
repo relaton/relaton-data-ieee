@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1636.2-D-8-2017-07
 title:
 - content: 'IEEE Draft Standard for Software Interface for Maintenance Information
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P1636.2/D-8-2017-07
 date:
 - type: created
-  value: '2017'
+  value: '2017-07-25'
 - type: published
   value: '2017-07-26'
 - type: issued
@@ -87,15 +87,16 @@ keyword:
 - content: Software Interface for Maintenance Information Collection and Analysis
     (SIMICA)
 - content: XML schema
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '35.040'
-  text: Information coding
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: '35.040'
+    text: Information coding
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

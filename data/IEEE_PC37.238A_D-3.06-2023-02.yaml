@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.238a-D-3.06-2023-02
 title:
 - content: 'IEEE Draft Standard Profile for Use of IEEE 1588 Precision Time Protocol
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE PC37.238a/D-3.06-2023-02
 date:
 - type: created
-  value: '2023'
+  value: '2023-03-27'
 - type: published
   value: '2023-03-28'
 - type: issued
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.238-2017
+    id: IEEEStdC37.238-2017
     docid:
-    - id: IEEE C37.238-2017
+    - id: IEEE Std C37.238-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.238-2017
+      content: IEEE Std C37.238-2017
       format: text/plain
   description:
     content: amends
@@ -107,15 +107,16 @@ keyword:
 - content: synchrophasors
 - content: transparent clock
 - content: UTC
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
-ics:
-- code: 39.040.99
-  text: Other time-measuring instruments
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

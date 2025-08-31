@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE42030-2019
 title:
 - content: ISO/IEC/IEEE International Standard - Software, systems and enterprise
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2020-05-22'
 - type: created
-  value: '2019'
+  value: '2019-07-19'
 - type: published
   value: '2019-07-19'
 - type: issued
@@ -51,6 +51,22 @@ language:
 script:
 - Latn
 abstract:
+- content: 'This document complements the architecture-related processes identified
+    in ISO/IEC/IEEE 42020, ISO/IEC/IEEE 15288, ISO/IEC/IEEE 12207 and ISO 15704 with
+    a framework in support of architecture evaluation. It especially supports the
+    Architecture Evaluation process in ISO/IEC/IEEE 42020. Implementing the principles
+    and concepts in this framework will help ensure that the architecture has greater
+    influence on business and mission success. It specifies a coherent set of elements
+    for use in evaluation synthesis, value assessment and architectural analysis.
+    Users of this standard can apply the framework in the context of: (1) determination
+    of the suitability of a proposed architecture; (2) choosing among architecture
+    alternatives; and (3) assessing the mission or business impact from the use of
+    a new architecture or change to an established architecture.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 - content: 'This document complements the architecture-related processes identified
     in ISO/IEC/IEEE 42020, ISO/IEC/IEEE 15288, ISO/IEC/IEEE 12207 and ISO 15704 with
     a framework in support of architecture evaluation. It especially supports the
@@ -100,12 +116,14 @@ keyword:
 - content: tradeoff
 - content: assessment
 - content: analysis
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

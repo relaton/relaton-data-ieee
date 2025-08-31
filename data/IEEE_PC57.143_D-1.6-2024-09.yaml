@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.143-D-1.6-2024-09
 title:
 - content: IEEE Draft Guide for Application of Monitoring Equipment to Liquid-Immersed
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2024-09-23'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.143-2012
+    id: IEEEStdC57.143-2012
     docid:
-    - id: IEEE C57.143-2012
+    - id: IEEE Std C57.143-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.143-2012
+      content: IEEE Std C57.143-2012
       format: text/plain
   description:
     content: revises
@@ -95,20 +95,21 @@ keyword:
 - content: Licenses
 - content: IEEE C57.143
 - content: liquid-immersed transformers
-- content: transformer monitoring
-- content: transformer components
 - content: monitoring equipment
-- content: online monitoring.
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
+- content: online monitoring
+- content: transformer components
+- content: transformer monitoring
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

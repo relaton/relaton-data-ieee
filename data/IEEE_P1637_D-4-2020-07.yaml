@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1637-D-4-2020-07
 title:
 - content: IEEE Approved Draft Guide for Selection and Application of Terminations
@@ -80,13 +80,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1637-2010
+    id: IEEEStd1637-2010
     docid:
-    - id: IEEE 1637-2010
+    - id: IEEE Std 1637-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1637-2010
+      content: IEEE Std 1637-2010
       format: text/plain
   description:
     content: revises
@@ -97,13 +97,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE1637-2010
+    id: IEEEStd1637-2010
     docid:
-    - id: IEEE 1637-2010
+    - id: IEEE Std 1637-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1637-2010
+      content: IEEE Std 1637-2010
       format: text/plain
   description:
     content: revises
@@ -120,15 +120,13 @@ keyword:
 - content: power cable
 - content: shielded
 - content: termination
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

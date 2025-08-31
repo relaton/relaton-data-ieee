@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3154-D-1.3-2023-11
 title:
 - content: IEEE Draft Recommended Practice for the Application of Knowledge Graphs
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-11-28'
 - type: issued
-  value: '2023'
+  value: '2024-02-15'
 contributor:
 - organization:
     name:
@@ -79,17 +79,21 @@ keyword:
 - content: Performance evaluation
 - content: Companies
 - content: Artificial intelligence
-- content: IEEE P3154TM
-- content: Talent Services
-- content: Knowledge Graphs
-- content: Talent Recruitment
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board of the IEEE Computer Society
+- content: IEEE 3154&#8482;
+- content: knowledge graphs
+- content: talent recruitment
+- content: talent services
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.90
+    text: IT applications in education
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1CS-D-2.0-Cor1
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks--Link-local
@@ -26,9 +26,9 @@ date:
 - type: created
   value: '2023-10-18'
 - type: published
-  value: '2023-10-24'
+  value: '2023-10-23'
 - type: issued
-  value: '2023'
+  value: '2024-02-15'
 contributor:
 - organization:
     name:
@@ -42,14 +42,14 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-10-24'
+revdate: '2023-10-23'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Corrects errors in the YANG module, SNMP MIB and TLV encoding in IEEE Std
-    802.1CS-2020.
+- content: This corrigendum corrects errors in the YANG module, SNMP MIBs, and TLV
+    encoding in IEEE Std 802.1CS-2020.
   language:
   - en
   script:
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1
+    id: IEEEStd802.1
     docid:
-    - id: IEEE 802.1
+    - id: IEEE Std 802.1
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1
+      content: IEEE Std 802.1
       format: text/plain
   description:
     content: corrects
@@ -91,7 +91,7 @@ keyword:
 - content: Protocols
 - content: Telecommunication network management
 - content: Bridged Local Area Networks
-- content: bridges
+- content: Bridges
 - content: bridging
 - content: IEEE 802&#174;
 - content: IEEE 802.1CS&#8482;
@@ -103,16 +103,17 @@ keyword:
 - content: Time-Sensitive Networking
 - content: TSN
 - content: Virtual Bridged Local Area Networks (virtual LANs)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE7438946
 title:
 - content: A compilation of Documents for Nuclear Equipment Qualification and Supplement
@@ -77,12 +77,13 @@ keyword:
 - content: Nuclear power generation
 - content: Nuclear equipment
 - content: Nuclear engineering
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Nuclear and Plasma Sciences Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Nuclear and Plasma Sciences Society
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

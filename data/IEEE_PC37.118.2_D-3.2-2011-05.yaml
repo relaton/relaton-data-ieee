@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.118.2-D-3.2-2011-05
 title:
 - content: IEEE Draft Standard for Synchrophasor Data Transfer for Power Systems
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE PC37.118.2/D-3.2-2011-05
 date:
 - type: created
-  value: '2011'
+  value: '2011-06-30'
 - type: published
   value: '2011-06-16'
 - type: issued
@@ -72,15 +72,16 @@ keyword:
 - content: Power systems management
 - content: Data processing
 - content: Smart grids
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying of the IEEE Power &amp; Energy Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

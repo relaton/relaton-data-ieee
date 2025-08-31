@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.17-2006
 title:
 - content: American National Standard Methods of Measurement of the Electromagnetic
@@ -78,36 +78,6 @@ relation:
     formattedref:
       content: ANSI C63.17-2013
       format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.17-2013
-    docid:
-    - id: ANSI C63.17-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.17-2013
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.17-2013
-    docid:
-    - id: ANSI C63.17-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.17-2013
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.17-2013
-    docid:
-    - id: ANSI C63.17-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.17-2013
-      format: text/plain
 keyword:
 - content: Consumer electronics
 - content: ANSI
@@ -121,15 +91,16 @@ keyword:
 - content: spectrum access
 - content: unlicensed devices
 - content: UPCS
-doctype: standard
-editorialgroup:
-  committee:
-  - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
-ics:
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
+  ics:
+  - code: 33.100.10
+    text: Emission
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

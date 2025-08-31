@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.19-2001
 title:
 - content: American National Standard for Methods of Measurement of Capability between
@@ -79,15 +79,16 @@ keyword:
 - content: operational compatibility
 - content: personal communications service (PCS)
 - content: wireless communications device
-doctype: standard
-editorialgroup:
-  committee:
-  - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

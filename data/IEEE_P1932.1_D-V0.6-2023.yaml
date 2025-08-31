@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1932.1-D-v0.6-2023
 title:
 - content: IEEE Draft Standard for Licensed/Unlicensed Spectrum Interoperability in
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-10-20'
 - type: issued
-  value: '2023'
+  value: '2024-02-15'
 contributor:
 - organization:
     name:
@@ -48,27 +48,28 @@ script:
 - Latn
 abstract:
 - content: 'The proliferation of connected users and downloaded applications has driven
-    the development of a new paradigm in wireless mobile networks. This paradigm utilizes
-    additional air interfaces operating in the unlicensed spectrum to serve as supplementary
-    downlinks (SDL) and enhance end-user throughput. However, integrating these interfaces
-    into licensed base stations can be challenging, as they are distributed across
-    various domains. Wi-Fi is a key technology for increasing capacity through the
-    user plane interface. Traffic is buffered in Wi-Fi when unlicensed channels become
-    unavailable, and transmissions resume once new radio slots are free. To meet the
-    strict round-time delay requirements of 5G, this standard defines a new virtual
-    controller that resides at the mobile edge-cloud. The controller coordinates the
-    multi-connectivity model and traffic sharing between licensed and unlicensed interfaces
-    based on the real-time availability of unlicensed channels for a specific user
-    equipment. This standard presents two schemes for managing multi-connectivity
-    modes: Distributed and Centralized. In the Distributed scheme, the controller
-    manages traffic forwarding and steering between distributed radio interfaces across
-    domain sites. In the Centralized scheme, various radio interfaces are colocated
-    in the same base station, and the controller manages traffic steering through
-    a new unified 5G MAC design. The controller ensures traffic sharing between different
-    interfaces, given that operators provide access to operator-deployed Wi-Fis or
-    any other customer Wi-Fi using separate SLA agreements. Multi-connectivity modes
-    imply the provision of efficient new services that may require measuring airtime
-    for each interface and changes to user plane topology.'
+    the development of a new paradigm in wireless mobile networks. Additional air
+    interfaces operating in the unlicensed spectrum serving as supplementary downlinks
+    (SDL) and enhancing end-user throughput are utilized by this paradigm. However,
+    integrating these interfaces into licensed base stations can be challenging, as
+    they are distributed across various domains. WiFi is a key technology for increasing
+    capacity through the user plane interface. Traffic is buffered in WiFi when unlicensed
+    channels become unavailable, and transmissions resume once new radio slots are
+    free. To meet the strict round-time delay requirements of fifth generation (5G)
+    networks, a new virtual controller that resides at the mobile edge cloud is defined
+    in this standard. The multi-connectivity model and traffic sharing between licensed
+    and unlicensed interfaces are coordinated by the controller based on the real-time
+    availability of unlicensed channels for specific user equipment.Two schemes are
+    presented for managing multi-connectivity modes: distributed and centralized.
+    In the distributed scheme, traffic forwarding and steering between distributed
+    radio interfaces across domain sites is managed by the controller. In the centralized
+    scheme, various radio interfaces are co‑located in the same base station, and
+    traffic steering is managed by the controller through a new unified 5G media access
+    control (MAC) design. Traffic sharing between different interfaces is ensured
+    by the controller, given that access to operator-deployed WiFis or any other customer
+    WiFi using separate service level agreements (SLAs) is provided by operators.
+    Multi-connectivity modes imply the provision of efficient new services that may
+    require measuring airtime for each interface and changes to user plane topology.'
   language:
   - en
   script:
@@ -93,16 +94,22 @@ keyword:
 - content: Wireless communication
 - content: Virtual machining
 - content: 5G core
+- content: IEEE 1932.1
 - content: licensed band
 - content: spectrum utilization
 - content: unlicensed band
 - content: virtual controller
-doctype: standard
-editorialgroup:
-  committee:
-  - Mobile Communication Networks Standards Committee of the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Mobile Communication Networks Standards Committee of the IEEE Communications
+      Society
+  ics:
+  - code: 33.070.50
+    text: Global System for Mobile Communication (GSM)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

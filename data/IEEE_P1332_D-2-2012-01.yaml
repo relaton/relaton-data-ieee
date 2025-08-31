@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1332-D-2-2012-01
 title:
 - content: IEEE Draft Reliability Program for the Development and Production of Electronic
@@ -78,15 +78,16 @@ keyword:
 - content: reliability
 - content: reliability program
 - content: reliability program standard
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Reliability of the IEEE Reliability Society
-ics:
-- code: '31.020'
-  text: Electronic components in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Reliability of the IEEE Reliability Society
+  ics:
+  - code: '31.020'
+    text: Electronic components in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE62582.6-2019
 title:
 - content: 'IEEE/IEC International Standard - Nuclear power plants -- Instrumentation
@@ -84,12 +84,13 @@ keyword:
 - content: Power generation
 - content: Condition monitoring
 - content: IEC Standards
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

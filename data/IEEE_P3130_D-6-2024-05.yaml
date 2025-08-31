@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3130-D-6-2024-05
 title:
 - content: IEEE Draft Standard for Security Requirements and Testing Methods of Operating
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P3130/D-6-2024-05
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-05'
 - type: published
-  value: '2024-06-07'
+  value: '2024-06-06'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -41,17 +41,17 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-06-07'
+revdate: '2024-06-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Main assets and threats targeting operating systems used in connected vehicles.
-    This standard defines the security requirements of the operating systems to support
-    the core security functions in connected vehicles are identified in this standard.
-    This standard also establishes a set of test specifications to evaluate the security
-    of operating systems in connected vehicles
+- content: The main assets and threats targeting operating systems used in connected
+    vehicles are identified. The security requirements of the operating systems to
+    support the core security functions in connected vehicles are defined. A set of
+    test methods is established to evaluate the security of operating systems in connected
+    vehicles.
   language:
   - en
   script:
@@ -77,13 +77,17 @@ keyword:
 - content: connected vehicles
 - content: IEEE 3130&#8482;
 - content: vehicle operating system security
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

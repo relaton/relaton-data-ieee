@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1526-D-7-2020-08
 title:
 - content: IEEE Draft Recommended Practice for Testing the Performance of Stand-Alone
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1526-2003
+    id: IEEEStd1526-2003
     docid:
-    - id: IEEE 1526-2003
+    - id: IEEE Std 1526-2003
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1526-2003
+      content: IEEE Std 1526-2003
       format: text/plain
   description:
     content: revises
@@ -91,13 +91,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE1526-2003
+    id: IEEEStd1526-2003
     docid:
-    - id: IEEE 1526-2003
+    - id: IEEE Std 1526-2003
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1526-2003
+      content: IEEE Std 1526-2003
       format: text/plain
   description:
     content: revises
@@ -117,15 +117,13 @@ keyword:
 - content: performance testing
 - content: PV
 - content: stand-alone photovoltaic system The
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '27.160'
-  text: Solar energy engineering
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '27.160'
+    text: Solar energy engineering
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

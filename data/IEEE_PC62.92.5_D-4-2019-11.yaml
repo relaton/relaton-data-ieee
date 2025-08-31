@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.92.5-D-4-2019-11
 title:
 - content: IEEE Draft Guide for the Application of Neutral Grounding in Electrical
@@ -72,13 +72,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC62.92.5-2009
+    id: IEEEStdC62.92.5-2009
     docid:
-    - id: IEEE C62.92.5-2009
+    - id: IEEE Std C62.92.5-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C62.92.5-2009
+      content: IEEE Std C62.92.5-2009
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStdC62.92.5-2009
+    docid:
+    - id: IEEE Std C62.92.5-2009
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std C62.92.5-2009
       format: text/plain
   description:
     content: revises
@@ -103,15 +120,13 @@ keyword:
 - content: subtransmission systems
 - content: transformer tertiary systems
 - content: transmission systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/High Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

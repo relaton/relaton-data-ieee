@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3003.2-D-15-2014-05
 title:
 - content: IEEE Recommended Practice for Equipment Grounding and Bonding in Industrial
@@ -82,15 +82,16 @@ keyword:
 - content: grounded
 - content: grounding
 - content: IEEE 3003.2(TM)
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee of the IEEE Industry Applications Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee of the IEEE Industry Applications Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

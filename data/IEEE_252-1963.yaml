@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE252-1963
 title:
 - content: IEEE Proposed Procedure for Polyphase Induction Motors Having Liquid in
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEE252-1977
+    id: IEEEStd252-1977
     docid:
-    - id: IEEE 252-1977
+    - id: IEEE Std 252-1977
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 252-1977
+      content: IEEE Std 252-1977
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -85,9 +85,10 @@ keyword:
 - content: 'Polyphase Induction motors '
 - content: Liquid immersion
 - content: Magnetic gap
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

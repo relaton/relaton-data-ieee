@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1303-D-1-2010-10
 title:
 - content: IEEE Draft Guide for Static Var Compensator Field Tests
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1303-1994
+    id: IEEEStd1303-1994
     docid:
-    - id: IEEE 1303-1994
+    - id: IEEE Std 1303-1994
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1303-1994
+      content: IEEE Std 1303-1994
       format: text/plain
   description:
     content: revises
@@ -96,15 +96,13 @@ keyword:
 - content: SVC
 - content: var
 - content: field tests.
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: '29.020'
-  text: Electrical engineering in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.020'
+    text: Electrical engineering in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

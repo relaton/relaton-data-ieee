@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1106-D-8-2015-02
 title:
 - content: IEEE Approved Draft Recommended Practice for Installation, Maintenance,
@@ -77,15 +77,16 @@ keyword:
 - content: capacity test methods
 - content: stationary applications
 - content: vented nickel-cadmium batteries
-doctype: standard
-editorialgroup:
-  committee:
-  - Stationary Batteries Committee of the IEEE Power and Energy Society
-ics:
-- code: 29.220.30
-  text: Alkaline secondary cells and batteries
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Stationary Batteries Committee of the IEEE Power and Energy Society
+  ics:
+  - code: 29.220.30
+    text: Alkaline secondary cells and batteries
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

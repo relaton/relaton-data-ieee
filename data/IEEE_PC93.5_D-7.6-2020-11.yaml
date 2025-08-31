@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC93.5-D-7.6-2020-11
 title:
 - content: IEEE Approved Draft Standard for Power Line Carrier Transmitter/Receiver
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC93.5/D-7.6-2020-11
 date:
 - type: created
-  value: '2021'
+  value: '2021-03-29'
 - type: published
   value: '2021-03-30'
 - type: issued
@@ -47,10 +47,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard describes requirements for power line carrier (PLC) transmitter/receiver
-    equipment used to transfer discrete teleprotection signals at power line carrier
-    frequencies (30-500 kHz). Test requirements and conditions for determining performance,
-    as well as manufacturing requirements, are defined.
+- content: Requirements for power line carrier (PLC) transmitter/receiver equipment
+    used to transfer discrete teleprotection signals at power line carrier frequencies
+    (30-500 kHz) are described in this standard. Test requirements and conditions
+    for determining performance, as well as manufacturing requirements, are defined.
   language:
   - en
   script:
@@ -74,26 +74,28 @@ keyword:
 - content: Security
 - content: Grounding
 - content: Substations
-- content: power line carrier
-- content: PLC
-- content: teleprotection
-- content: transmitter
-- content: receiver
-- content: transceiver
-- content: security
 - content: dependability
-- content: ON-OFF
 - content: FSK
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
+- content: IEEE C93.5
+- content: ON-OFF
+- content: PLC
+- content: power line carrier
+- content: receiver
+- content: security
+- content: teleprotection
+- content: transceiver
+- content: transmitter
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Power and Energy Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

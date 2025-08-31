@@ -1,10 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1588d-D-1.4-2023-06
 title:
-- content: 'IEEE Approved Draft Standard for a Precision Clock Synchronization Protocol
-    for Networked Measurement and Control Systems Amendment: GDOI (Group Domain of
-    Interpretation) Key Management'
+- content: 'IEEE Draft Standard for a Precision Clock Synchronization Protocol for
+    Networked Measurement and Control Systems Amendment: GDOI (Group Domain of Interpretation)
+    Key Management'
   format: text/plain
   type: main
 link:
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P1588d/D-1.4-2023-06
 date:
 - type: created
-  value: '2023-12-12'
+  value: '2023-07-13'
 - type: published
   value: '2023-07-17'
 - type: issued
@@ -48,10 +48,10 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This draft standard is an amendment of IEEE Std 1588TM-2019. This amendment:
-    a) Adds guidelines on the application and operation of GDOI key management to
-    Annex P. Additional key management approaches might be covered in future amendments.
-    b) Fixes errors and clarifies statements in Annex P and Subclause 16.14.'
+- content: Updates to IEEE Std 1588&#8482;-2019 are provided in this amendment. This
+    amendment also adds guidelines on the application and operation of GDOI (Group
+    Domain of Interpretation) key management to Annex P. and it corrects errors and
+    clarifies statements in 16.4 and Annex P.
   language:
   - en
   script:
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1588-2019
+    id: IEEEStd1588-2019
     docid:
-    - id: IEEE 1588-2019
+    - id: IEEE Std 1588-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1588-2019
+      content: IEEE Std 1588-2019
       format: text/plain
   description:
     content: amends
@@ -94,19 +94,21 @@ keyword:
 - content: Trademarks
 - content: Patents
 - content: Organizations
-- content: Key management
 - content: GDOI
 - content: Group Domain of Interpretation
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 39.040.99
-  text: Other time-measuring instruments
+- content: IEEE 1588d&#8482;
+- content: Key management
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

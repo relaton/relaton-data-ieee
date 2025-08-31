@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3207-D-7-2022-05
 title:
 - content: IEEE Draft Standard for Blockchain-based Digital Asset Identification
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P3207/D-7-2022-05
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-10'
 - type: published
   value: '2022-06-13'
 - type: issued
@@ -80,17 +80,18 @@ keyword:
 - content: IEEE 3207&#8482;
 - content: NFT
 - content: nonfungible token
-doctype: standard
-editorialgroup:
-  committee:
-  - Blockchain and Distributed Ledgers of the IEEE Computer Society
-ics:
-- code: '03.060'
-  text: Finances. Banking. Monetary systems. Insurance
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Blockchain and Distributed Ledgers of the IEEE Computer Society
+  ics:
+  - code: '03.060'
+    text: Finances. Banking. Monetary systems. Insurance
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

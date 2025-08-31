@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3225-D-5.1-2024-09
 title:
 - content: IEEE Draft Standard for Using Blockchain in Low Carbon Zones Evaluation
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2024-09-23'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -46,13 +46,13 @@ language:
 script:
 - Latn
 abstract:
-- content: The zone is the core unit of industrial development, and is an important
-    component in both promoting urban development and achieving energy-conservation,
-    emission-reduction. This standard defines the evaluation model and evaluation
-    indicators system for low carbon zones based on blockchain technology. The technical
-    and management requirements are also defined. The purpose is to support and promote
-    the construction of a credible regulatory environment and carbon emission reduction
-    ecosystem.
+- content: The zone is the core unit of industrial development and is an important
+    component in both promoting urban development and achieving energy conservation
+    and emission reduction. The evaluation model and evaluation indicators system
+    for low-carbon zones based on blockchain technology are defined in this standard.
+    The technical and management requirements are also defined. The purpose is to
+    support and promote the construction of a credible regulatory environment and
+    carbon emission reduction ecosystem.
   language:
   - en
   script:
@@ -78,18 +78,23 @@ keyword:
 - content: Carbon dioxide
 - content: Warranties
 - content: blockchain
-- content: low carbon zones
-- content: evaluation model
 - content: evaluation indicators system
-- content: technical and management requirements
-- content: IEEE 3225&#8482;
-doctype: standard
-editorialgroup:
-  committee:
-  - Blockchain and Distributed Ledgers of the IEEE Computer Society
+- content: evaluation model
+- content: IEEE 3241.01™
+- content: low carbon zones
+- content: management requirements
+- content: technical requirements
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Blockchain and Distributed Ledgers of the IEEE Computer Society
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

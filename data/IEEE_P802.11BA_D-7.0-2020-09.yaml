@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11ba-D-7.0-2020-09
 title:
 - content: 'IEEE Draft Standard for Information Technology--Telecommunications and
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.11-2020
+    id: IEEEStd802.11-2020
     docid:
-    - id: IEEE 802.11-2020
+    - id: IEEE Std 802.11-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2020
+      content: IEEE Std 802.11-2020
       format: text/plain
   description:
     content: amends
@@ -88,13 +88,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE802.11-2020
+    id: IEEEStd802.11-2016
     docid:
-    - id: IEEE 802.11-2020
+    - id: IEEE Std 802.11-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2020
+      content: IEEE Std 802.11-2016
       format: text/plain
   description:
     content: amends
@@ -120,15 +120,13 @@ keyword:
 - content: physical layer
 - content: power save
 - content: wake-up radio
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

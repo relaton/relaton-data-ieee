@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP400.4-D-9-2015-06
 title:
 - content: IEEE Draft Guide for Field-Testing of Shielded Power Cable Systems Rated
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P400.4/D-9-2015-06
 date:
 - type: created
-  value: '2015'
+  value: '2015-07-21'
 - type: published
   value: '2015-06-24'
 - type: issued
@@ -83,7 +83,6 @@ keyword:
 - content: Voltage control
 - content: Cable shielding
 - content: After-laying testing
-- content: Asset management
 - content: Cable fault locating
 - content: Cable system testing
 - content: Cable testing
@@ -91,7 +90,6 @@ keyword:
 - content: Condition monitoring
 - content: Damped ac voltage testing
 - content: Diagnostic testing
-- content: Electric breakdown
 - content: Grounding
 - content: High voltage testing
 - content: IEEE 400.4
@@ -103,15 +101,16 @@ keyword:
 - content: Safety
 - content: Tangent delta testing
 - content: Dielectric losses.
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 33.120.20
-  text: Wires and symmetrical cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 33.120.20
+    text: Wires and symmetrical cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

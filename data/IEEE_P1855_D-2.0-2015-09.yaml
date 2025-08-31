@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1855-D-2.0-2015-09
 title:
 - content: IEEE Draft Standard for FML - Fuzzy Markup Language - for achieving interoperability
@@ -79,7 +79,6 @@ keyword:
 - content: Fuzzy Markup Language
 - content: FML
 - content: eXtensible markup language
-- content: XML
 - content: fuzzy logic
 - content: fuzzy system
 - content: fuzzy logic controller
@@ -87,12 +86,13 @@ keyword:
 - content: interoperability
 - content: labeled tree
 - content: XML Schema
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Computational Intelligence Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Computational Intelligence Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

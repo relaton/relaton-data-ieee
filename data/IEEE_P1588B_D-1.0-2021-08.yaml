@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1588b-D-1.0-2021-08
 title:
 - content: 'IEEE Draft Standard for a Precision Clock Synchronization Protocol for
@@ -28,7 +28,7 @@ date:
 - type: published
   value: '2021-09-10'
 - type: issued
-  value: '2021'
+  value: '2022-06-16'
 contributor:
 - organization:
     name:
@@ -48,10 +48,10 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This draft standard is an amendment of IEEE Std 1588&#8482;-2019. This
-    amendment: a) Adds a normative annex that specifies the mapping of PTP to OTN;
-    b) Adds an enumeration value to the network Protocol table (Table 3, in 7.4.1);
-    c) Corrects errors in the text and clarifies unclear passages.'
+- content: This amendment to IEEE Std 1588-2019 adds a normative annex that specifies
+    the mapping of PTP to the OTN; and adds an enumeration value to the network Protocol
+    table (Table 3, in 7.4.1; and corrects errors in the text and clarifies unclear
+    passages.
   language:
   - en
   script:
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1588-2019
+    id: IEEEStd1588-2019
     docid:
-    - id: IEEE 1588-2019
+    - id: IEEE Std 1588-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1588-2019
+      content: IEEE Std 1588-2019
       format: text/plain
   description:
     content: amends
@@ -87,19 +87,29 @@ relation:
     - Latn
     format: text/plain
 keyword:
-- content: PTP
-- content: OTN
+- content: IEEE Standards
+- content: Optical variables measurement
+- content: TIme measurement
 - content: Synchronization
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 39.040.99
-  text: Other time-measuring instruments
+- content: Control systems
+- content: Optical fiber networks
+- content: Adaptive optics
+- content: Transport protocols
+- content: IEEE 1588b
+- content: Optical Transport Network (OTN)
+- content: Precision Time Protocol (PTP)
+- content: synchronization
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

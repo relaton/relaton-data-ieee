@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC37.27-1972
 title:
 - content: IEEE Standard Application Guide for Low-Voltage AC Non-Integrally Fused
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2016-03-25'
 - type: created
-  value: '1972'
+  value: '1972-07-28'
 - type: published
   value: '2016-02-16'
 - type: issued
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: ANSI-IEEEC37.27-1987
+    id: ANSI-IEEEStdC37.27-1987
     docid:
-    - id: ANSI/IEEE C37.27-1987
+    - id: ANSI/IEEE Std C37.27-1987
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE C37.27-1987
+      content: ANSI/IEEE Std C37.27-1987
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -90,9 +90,10 @@ keyword:
 - content: Voltage control
 - content: Current limiters
 - content: ANSI Standards
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

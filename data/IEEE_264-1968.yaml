@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE264-1968
 title:
 - content: IEEE Standard for High-Power Wide-Band Transformers.
@@ -76,12 +76,13 @@ keyword:
 - content: Frequency modulation
 - content: Inductors
 - content: Electron tubes
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Magnetics Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Magnetics Society
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

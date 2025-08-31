@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1450.4-D-05-2017-09
 title:
 - content: IEEE Draft Standard for Extensions to Standard Test Interface Language
@@ -91,12 +91,13 @@ keyword:
 - content: test flow
 - content: binning
 - content: device under test (DUT).
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

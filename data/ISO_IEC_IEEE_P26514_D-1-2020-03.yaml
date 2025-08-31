@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEP26514-D-1-2020-03
 title:
 - content: IEEE Draft International Standard - Systems and Software Engineering--Design
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE P26514/D-1-2020-03
 date:
 - type: created
-  value: '2020'
+  value: '2020-03-20'
 - type: published
   value: '2020-04-01'
 - type: issued
@@ -64,13 +64,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE26514-2010
+    id: IEEEStd26514-2010
     docid:
-    - id: IEEE 26514-2010
+    - id: IEEE Std 26514-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 26514-2010
+      content: IEEE Std 26514-2010
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd26514-2010
+    docid:
+    - id: IEEE Std 26514-2010
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 26514-2010
       format: text/plain
   description:
     content: revises
@@ -84,15 +101,13 @@ keyword:
 - content: Systems engineering and theory
 - content: Software engineering
 - content: Software design
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

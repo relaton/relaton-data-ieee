@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1680.2a-D-1-2017-06
 title:
 - content: IEEE Draft Standard for Environmental Assessment of Imaging Equipment Amendment
@@ -100,17 +100,18 @@ keyword:
 - content: mailing machines
 - content: multifunction devices
 - content: scanners
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board of the IEEE Computer Society
-ics:
-- code: 13.020.30
-  text: Environmental impact assessment
-- code: '35.160'
-  text: Microprocessor systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board of the IEEE Computer Society
+  ics:
+  - code: 13.020.30
+    text: Environmental impact assessment
+  - code: '35.160'
+    text: Microprocessor systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

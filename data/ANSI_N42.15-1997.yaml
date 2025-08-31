@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.15-1997
 title:
 - content: American National Standard Check Sources for and Verification of Liquid-Scintillation
@@ -72,15 +72,16 @@ copyright:
   from: '1997'
 keyword:
 - content: ANSI standards
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation, N42
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation, N42
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

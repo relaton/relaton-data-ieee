@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1609.2-D-12-2012-01
 title:
 - content: IEEE Draft Standard for Wireless Access in Vehicular Environments - Security
@@ -80,15 +80,16 @@ keyword:
 - content: security
 - content: cryptography
 - content: wireless access in vehicular environments (WAVE)
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
-ics:
-- code: 35.240.60
-  text: IT applications in transport and trade
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport and trade
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

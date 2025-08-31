@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEECD2P12207.2-2019-02
 title:
 - content: 'ISO/IEC/IEEE Draft International Standard - Systems and Software Engineering
@@ -24,7 +24,7 @@ docid:
 docnumber: ISO/IEC/IEEE CD2 P12207.2-2019-02
 date:
 - type: created
-  value: '2019'
+  value: '2019-04-06'
 - type: published
   value: '2019-04-10'
 - type: issued
@@ -69,15 +69,17 @@ keyword:
 - content: Product life cycle management
 - content: ISO Standards
 - content: IEC Standards
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

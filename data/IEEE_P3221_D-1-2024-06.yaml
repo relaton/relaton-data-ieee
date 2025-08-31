@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3221-D-1-2024-06
 title:
 - content: IEEE Draft Standard for Technical Requirements of Digital Collection Services
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P3221/D-1-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-18'
 - type: published
   value: '2024-06-21'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -46,6 +46,15 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Technical requirements for a digital collection service based on Blockchain
+    technologies are defined in this standard. A technical architecture, functional
+    components, functional requirements and security requirements are defined.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -62,17 +71,21 @@ keyword:
 - content: Blockchains
 - content: Digital systems
 - content: Technical management
-- content: Digital collection service
 - content: Blockchain
-- content: Technical requirements
-- content: IEEE 3221TM
-doctype: standard
-editorialgroup:
-  committee:
-  - Blockchain and Distributed Ledgers of the IEEE Computer Society
+- content: digital collection service
+- content: IEEE 3270.03&#8482;
+- content: technical requirements
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Blockchain and Distributed Ledgers of the IEEE Computer Society
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

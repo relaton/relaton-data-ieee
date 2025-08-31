@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1591.3-D-7-2011-07
 title:
 - content: IEEE Draft Standard for Qualifying Hardware for Helically-Applied Fiber
@@ -77,15 +77,16 @@ keyword:
 - content: conductor
 - content: earthwarap
 - content: wrap
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Communications of the IEEE Power &amp; Energy Society
-ics:
-- code: 33.180.10
-  text: Fibres and cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 33.180.10
+    text: Fibres and cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

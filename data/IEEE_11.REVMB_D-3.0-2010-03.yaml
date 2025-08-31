@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE11.REVmb-D-3.0-2010-03
 title:
 - content: 'IEEE Draft Standard for Information Technology - Telecommunications and
@@ -105,8 +105,6 @@ keyword:
 - content: physical layer
 - content: QoS
 - content: quality of service
-- content: PHY
-- content: physical layer
 - content: radio
 - content: radio frequency
 - content: RF
@@ -118,19 +116,20 @@ keyword:
 - content: wireless LAN
 - content: wireless local area network
 - content: WLAN
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1901.1-D-0.8-2017-09
 title:
 - content: IEEE Draft Standard for Medium Frequency (less than 15 MHz) Power Line
@@ -77,7 +77,6 @@ keyword:
 - content: IEEE Standards
 - content: Broadband communication
 - content: Communication networks
-- content: Broadband communication
 - content: Narrowband
 - content: BPL
 - content: broadband power line
@@ -95,12 +94,13 @@ keyword:
 - content: power line communication
 - content: security
 - content: smart grid
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Line Communications of the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power Line Communications of the IEEE Communications Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

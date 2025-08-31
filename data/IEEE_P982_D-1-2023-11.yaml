@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP982-D-1-2023-11
 title:
 - content: IEEE Draft Standard for Measures of the Software Aspects of Dependability
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2023-12-05'
 - type: issued
-  value: '2023'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -46,11 +46,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document provides definitions, sample requirements, formulas, and
-    guidance for data collection and analysis necessary to make consistent and actionable
-    measurements of a software system’s reliability, availability, supportability,
-    and recoverability. These characteristics collectively define the dependability
-    of software systems.
+- content: Definitions, sample requirements, equations, and guidance for data collection
+    and analysis necessary to make consistent and actionable measurements of a software
+    system’s reliability, availability, supportability, and recoverability are provided
+    in this document. The dependability of software systems is collectively defined
+    by these characteristics.
   language:
   - en
   script:
@@ -70,183 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE982.1-2005
+    id: IEEEStd982.1-2005
     docid:
-    - id: IEEE 982.1-2005
+    - id: IEEE Std 982.1-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 982.1-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE982.1-2005
-    docid:
-    - id: IEEE 982.1-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 982.1-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE982.1-2005
-    docid:
-    - id: IEEE 982.1-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 982.1-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE982.1-2005
-    docid:
-    - id: IEEE 982.1-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 982.1-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE982.1-2005
-    docid:
-    - id: IEEE 982.1-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 982.1-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE982.1-2005
-    docid:
-    - id: IEEE 982.1-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 982.1-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE982.1-2005
-    docid:
-    - id: IEEE 982.1-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 982.1-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE982.1-2005
-    docid:
-    - id: IEEE 982.1-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 982.1-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE982.1-2005
-    docid:
-    - id: IEEE 982.1-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 982.1-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE982.1-2005
-    docid:
-    - id: IEEE 982.1-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 982.1-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE982.1-2005
-    docid:
-    - id: IEEE 982.1-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 982.1-2005
+      content: IEEE Std 982.1-2005
       format: text/plain
   description:
     content: revises
@@ -261,24 +91,27 @@ keyword:
 - content: Software measurement
 - content: Software reliability
 - content: Software reusability
-- content: dependability
-- content: measurement
-- content: reliability
 - content: availability
-- content: supportability
+- content: dependability
+- content: IEEE 982&#8482;
+- content: measurement
 - content: recoverability
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: 01.040.35
-  text: Information technology (Vocabularies)
-- code: '35.080'
-  text: Software
+- content: reliability
+- content: supportability
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: 03.120.10
+    text: Quality management and quality assurance
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

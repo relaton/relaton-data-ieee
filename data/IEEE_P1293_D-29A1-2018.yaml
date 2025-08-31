@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1293-D-29a1-2018
 title:
 - content: IEEE Approved Draft Standard Specification Format Guide and Test Procedure
@@ -92,15 +92,16 @@ keyword:
 - content: testing
 - content: vibrating beam accelerometer
 - content: vibration and shock
-doctype: standard
-editorialgroup:
-  committee:
-  - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
-ics:
-- code: '17.080'
-  text: Measurement of time, velocity, acceleration, angular velocity
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
+  ics:
+  - code: '17.080'
+    text: Measurement of time, velocity, acceleration, angular velocity
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

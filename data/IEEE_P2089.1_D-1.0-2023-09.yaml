@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2089.1-D-1.0-2023-09
 title:
 - content: IEEE Draft Standard for Online Age Verification
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2023-12-01'
 - type: issued
-  value: '2023'
+  value: '2024-03-21'
 contributor:
 - organization:
     name:
@@ -77,13 +77,17 @@ keyword:
 - content: children’s rights
 - content: IEEE 2089&#8482;
 - content: IEEE 2089.1&#8482;
-doctype: standard
-editorialgroup:
-  committee:
-  - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: 35.240.95
+    text: Internet applications
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

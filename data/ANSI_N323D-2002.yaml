@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN323D-2002
 title:
 - content: American National Standard for Installed Radiation Protection Instrumentation
@@ -78,15 +78,16 @@ copyright:
 keyword:
 - content: ANSI standards
 - content: Dosimetry
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation, N42
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation, N42
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

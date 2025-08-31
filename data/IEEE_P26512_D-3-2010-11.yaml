@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP26512-D-3-2010-11
 title:
 - content: IEEE Draft Standard for Systems and Software Engineering -- Requirements
@@ -86,13 +86,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1063-2001
+    id: IEEEStd1063-2001
     docid:
-    - id: IEEE 1063-2001
+    - id: IEEE Std 1063-2001
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1063-2001
+      content: IEEE Std 1063-2001
       format: text/plain
   description:
     content: revises
@@ -111,15 +111,13 @@ keyword:
 - content: supply
 - content: proposal
 - content: statement of work
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

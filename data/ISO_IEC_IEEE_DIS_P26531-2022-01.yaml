@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEDISP26531-2022-01
 title:
 - content: IEEE/ISO/IEC Draft International Standard - Systems and Software Engineering
@@ -79,16 +79,25 @@ relation:
     script:
     - Latn
     format: text/plain
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
+keyword:
+- content: IEEE Standards
+- content: Software engineering
+- content: Service level agreements
+- content: Content management
+- content: Product lifecycle management
+- content: System analysis and design
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

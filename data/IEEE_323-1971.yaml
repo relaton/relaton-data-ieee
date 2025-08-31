@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE323-1971
 title:
 - content: 'IEEE Trial-Use Standard: General Guide for Qualifying Class I Electric
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2013-08-09'
 - type: created
-  value: '1971'
+  value: '1971-04-01'
 - type: published
   value: '2013-06-11'
 - type: issued
@@ -56,6 +56,15 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This document describes the basic requirements for the qualification of
+    Class I electric equipment. This is equipment which is essential to the safe shutdown
+    or isolation of the reactor or whose failure or damage could result in significant
+    release of radio active material
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -67,13 +76,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEE323-1983
+    id: IEEEStd323-1983
     docid:
-    - id: IEEE 323-1983
+    - id: IEEE Std 323-1983
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 323-1983
+      content: IEEE Std 323-1983
       format: text/plain
 keyword:
 - content: IEEE standards
@@ -81,15 +90,13 @@ keyword:
 - content: Electric equipment
 - content: Power system reliability
 - content: Performance evaluation
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 27.120.99
-  text: Other standards related to nuclear energy
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 27.120.99
+    text: Other standards related to nuclear energy
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

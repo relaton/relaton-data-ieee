@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-ISO-IECFDISP26515-2018-05
 title:
 - content: IEEE/ISO/IEC Draft Standard for Software and systems engineering -- Developing
@@ -96,12 +96,14 @@ keyword:
 - content: information management
 - content: documentation management
 - content: documentation management plan
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

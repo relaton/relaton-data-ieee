@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP952-D-09-2020-06
 title:
 - content: IEEE Approved Draft Standard Specification Format Guide and Test Procedure
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE952-1997
+    id: IEEEStd952-1997
     docid:
-    - id: IEEE 952-1997
+    - id: IEEE Std 952-1997
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 952-1997
+      content: IEEE Std 952-1997
       format: text/plain
   description:
     content: revises
@@ -87,13 +87,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE952-1997
+    id: IEEEStd952-1997
     docid:
-    - id: IEEE 952-1997
+    - id: IEEE Std 952-1997
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 952-1997
+      content: IEEE Std 952-1997
       format: text/plain
   description:
     content: revises
@@ -124,15 +124,13 @@ keyword:
 - content: Sagnac gyro
 - content: specification
 - content: test procedures
-doctype: standard
-editorialgroup:
-  committee:
-  - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
-ics:
-- code: '49.090'
-  text: On-board equipment and instruments
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '49.090'
+    text: On-board equipment and instruments
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

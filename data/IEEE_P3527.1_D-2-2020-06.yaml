@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3527.1-D-2-2020-06
 title:
 - content: IEEE Draft Standard for Digital Intelligence (DQ) -- Framework for Digital
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P3527.1/D-2-2020-06
 date:
 - type: created
-  value: '2020'
+  value: '2020-06-30'
 - type: published
   value: '2020-07-01'
 - type: issued
@@ -104,12 +104,13 @@ keyword:
 - content: skills development
 - content: technology design
 - content: technology education
-doctype: standard
-editorialgroup:
-  committee:
-  - Learning Technology of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Learning Technology of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

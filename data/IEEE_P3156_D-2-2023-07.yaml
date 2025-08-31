@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3156-D-2-2023-07
 title:
 - content: IEEE Draft Standard for Requirements of Privacy-preserving Computation
@@ -78,15 +78,16 @@ keyword:
 - content: IEEE 3156&#8482;
 - content: integrated platform
 - content: privacy-preserving computation
-doctype: standard
-editorialgroup:
-  committee:
-  - Artificial Intelligence Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.030'
-  text: IT Security
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Artificial Intelligence Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.030'
+    text: IT Security
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

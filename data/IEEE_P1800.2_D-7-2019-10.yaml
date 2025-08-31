@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1800.2-D-7-2019-10
 title:
 - content: IEEE Draft Standard for Universal Verification Methodology Language Reference
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1800.2-2017
+    id: IEEEStd1800.2-2017
     docid:
-    - id: IEEE 1800.2-2017
+    - id: IEEE Std 1800.2-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1800.2-2017
+      content: IEEE Std 1800.2-2017
       format: text/plain
   description:
     content: revises
@@ -118,15 +118,13 @@ keyword:
 - content: sequencer
 - content: transaction level modeling
 - content: verification methodology
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

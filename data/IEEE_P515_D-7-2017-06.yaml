@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP515-D-7-2017-06
 title:
 - content: IEEE Draft Standard for the Testing, Design, Installation, and Maintenance
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P515/D-7-2017-06
 date:
 - type: created
-  value: '2017'
+  value: '2017-06-26'
 - type: published
   value: '2017-06-27'
 - type: issued
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE515-2011
+    id: IEEEStd515-2011
     docid:
-    - id: IEEE 515-2011
+    - id: IEEE Std 515-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 515-2011
+      content: IEEE Std 515-2011
       format: text/plain
   description:
     content: revises
@@ -110,15 +110,13 @@ keyword:
 - content: trace heaters
 - content: trace heating
 - content: vessel heater
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 25.180.10
-  text: Electric furnaces
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 25.180.10
+    text: Electric furnaces
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

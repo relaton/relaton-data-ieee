@@ -1,10 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-IECP62271.37-013-2021-D-1-Cor1-2023
 title:
-- content: 'IEEE/IEC Draft International Standard for High-voltage Switchgear and
-    Controlgear--Part 37-013: Alternating current generator circuit-breakers - Corrigendum
-    1'
+- content: 'IEEE/IEC Approved Draft International Standard for High-voltage Switchgear
+    and Controlgear--Part 37-013: Alternating current generator circuit-breakers -
+    Corrigendum 1'
   format: text/plain
   type: main
 link:
@@ -24,11 +24,11 @@ docid:
 docnumber: IEEE/IEC P62271.37-013-2021/D-1/Cor1-2023
 date:
 - type: created
-  value: '2023-11-20'
+  value: '2024-10-10'
 - type: published
   value: '2023-11-22'
 - type: issued
-  value: '2023'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -47,6 +47,23 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: This part of IEC 62271 is applicable to three-phase AC high-voltage generator
+    circuit breakers, hereafter called generator circuit-breakers, designed for indoor
+    or outdoor installation and for operation at frequencies of 50 Hz and 60 Hz on
+    systems having voltages above 1 kV and up to 38 kV. It is applicable to generator
+    circuit-breakers that are installed between the generator and the transformer
+    terminals. Requirements relative to generator circuit-breakers intended for use
+    with generators and transformers rated 10 MVA or more are covered specifically.
+    Generator circuits rated less than 10 MVA and pumped-storage installations are
+    considered special applications, and their requirements are not completely covered
+    by this document. This document is also applicable to the operating mechanisms
+    of generator circuit-breakers and to their auxiliary equipment.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -86,16 +103,17 @@ keyword:
 - content: Control systems
 - content: High-voltage techniques
 - content: Circuit breakers
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

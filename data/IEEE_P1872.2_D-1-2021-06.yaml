@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1872.2-D-1-2021-06
 title:
 - content: IEEE Draft Standard for Autonomous Robotics (AuR) Ontology
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1872.2/D-1-2021-06
 date:
 - type: created
-  value: '2021'
+  value: '2021-06-24'
 - type: published
   value: '2021-06-28'
 - type: issued
@@ -79,15 +79,16 @@ keyword:
 - content: IEEE1872.2
 - content: ontology
 - content: robotics
-doctype: standard
-editorialgroup:
-  committee:
-  - Standing Committee for Standards of the IEEE Robotics and Automation Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standing Committee for Standards of the IEEE Robotics and Automation Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

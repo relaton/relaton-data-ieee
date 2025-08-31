@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP835a-D-2-2012-10
 title:
 - content: 'IEEE Draft Standard Power Cable Ampacity Tables - Amendment 1: Revision
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE835-1994
+    id: IEEEStd835-1994
     docid:
-    - id: IEEE 835-1994
+    - id: IEEE Std 835-1994
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 835-1994
+      content: IEEE Std 835-1994
       format: text/plain
   description:
     content: amends
@@ -86,30 +86,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE835-1994
+    id: IEEEStd835-1994
     docid:
-    - id: IEEE 835-1994
+    - id: IEEE Std 835-1994
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 835-1994
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE835-1994
-    docid:
-    - id: IEEE 835-1994
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 835-1994
+      content: IEEE Std 835-1994
       format: text/plain
   description:
     content: amends
@@ -129,15 +112,13 @@ keyword:
 - content: extruded
 - content: laminar
 - content: power
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

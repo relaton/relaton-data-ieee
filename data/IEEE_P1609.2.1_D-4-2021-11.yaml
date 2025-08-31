@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1609.2.1-D-4-2021-11
 title:
 - content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
@@ -70,47 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1609.2.1-2020
+    id: IEEEStd1609.2.1-2020
     docid:
-    - id: IEEE 1609.2.1-2020
+    - id: IEEE Std 1609.2.1-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1609.2.1-2020
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1609.2.1-2020
-    docid:
-    - id: IEEE 1609.2.1-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1609.2.1-2020
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1609.2.1-2020
-    docid:
-    - id: IEEE 1609.2.1-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1609.2.1-2020
+      content: IEEE Std 1609.2.1-2020
       format: text/plain
   description:
     content: revises
@@ -133,15 +99,16 @@ keyword:
 - content: IEEE Std 1609.2.1
 - content: interface
 - content: Security Credential Management System (SCMS)
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
-ics:
-- code: 35.240.60
-  text: IT applications in transport
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

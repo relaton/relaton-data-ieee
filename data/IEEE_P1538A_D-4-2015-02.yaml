@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1538a-D-4-2015-02
 title:
 - content: IEEE Draft Guide for Determination of Maximum Winding Temperature Rise
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1538a/D-4-2015-02
 date:
 - type: created
-  value: '2015'
+  value: '2015-07-03'
 - type: published
   value: '2015-06-18'
 - type: issued
@@ -69,13 +69,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1538-2000
+    id: IEEEStd1538-2000
     docid:
-    - id: IEEE 1538-2000
+    - id: IEEE Std 1538-2000
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1538-2000
+      content: IEEE Std 1538-2000
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1538-2000
+    docid:
+    - id: IEEE Std 1538-2000
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1538-2000
       format: text/plain
   description:
     content: amends
@@ -95,15 +112,13 @@ keyword:
 - content: hottest-spot temperature
 - content: power transformers. temperature-rise test
 - content: thermal model
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

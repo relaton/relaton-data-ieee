@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1901-D-4.01-2010-07
 title:
 - content: 'IEEE Draft Standard for Broadband over Power Line Networks: Medium Access
@@ -102,15 +102,16 @@ keyword:
 - content: quality of service (QoS)
 - content: security
 - content: privacy
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Communications Society
-ics:
-- code: 33.040.60
-  text: Powerline telecommunications
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Communications Society
+  ics:
+  - code: 33.040.60
+    text: Powerline telecommunications
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

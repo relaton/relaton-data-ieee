@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEEE11073.20702-2018
 title:
 - content: 'ISO/IEEE International Standard for Health informatics -- Point-of-care
@@ -63,6 +63,17 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Within the context of the ISO/IEEE 11073 family of standards for point-of-care
+    (PoC)medical device communication, a communication protocol specification for
+    a distributed system of PoC medical devices and medical IT systems that need to
+    exchange data, or safely control networked PoC medical devices by profiling Web
+    Service specifications, is defined by this standard. Additional Web Service specifications
+    are part of this standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -79,13 +90,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE11073.20702-2016
+    id: IEEEStd11073.20702-2016
     docid:
-    - id: IEEE 11073.20702-2016
+    - id: IEEE Std 11073.20702-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.20702-2016
+      content: IEEE Std 11073.20702-2016
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -111,16 +122,17 @@ keyword:
 - content: SOAP
 - content: Streaming Web Services
 - content: WS-Discovery
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

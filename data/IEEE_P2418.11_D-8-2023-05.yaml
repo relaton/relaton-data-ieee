@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2418.11-D-8-2023-05
 title:
 - content: IEEE Draft Framework for Use of Distributed Ledger Technology in Security
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2418.11/D-8-2023-05
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-02'
 - type: published
   value: '2023-06-08'
 - type: issued
@@ -168,18 +168,19 @@ keyword:
 - content: voter identification card
 - content: voting
 - content: Web 3
-doctype: standard
-editorialgroup:
-  committee:
-  - Industrial Electronics Society Standards Committee of the IEEE Industrial Electronics
-    Society
-ics:
-- code: '35.030'
-  text: IT Security
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Industrial Electronics Society Standards Committee of the IEEE Industrial Electronics
+      Society
+  ics:
+  - code: '35.030'
+    text: IT Security
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

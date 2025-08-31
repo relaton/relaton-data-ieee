@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP63198.2775_CD5.0-2021
 title:
 - content: IEC/IEEE Draft Technical Guide for Smart Hydroelectric Power Plant
@@ -22,11 +22,11 @@ docid:
 docnumber: IEC/IEEE P63198.2775_CD5.0-2021
 date:
 - type: created
-  value: '2021'
+  value: '2021-04-15'
 - type: published
   value: '2021-04-16'
 - type: issued
-  value: '2021'
+  value: '2023-02-15'
 contributor:
 - organization:
     name:
@@ -58,16 +58,32 @@ copyright:
   - name:
     - content: IEC
   from: '2021'
-doctype: standard
-editorialgroup:
-  committee:
-  - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
+keyword:
+- content: IEEE Standards
+- content: IEC Standards
+- content: Hydroelectric power generation
+- content: Smart manufacturing
+- content: Industrial power systems
+- content: communication networks
+- content: digitized
+- content: hydroelectric
+- content: IEEE 63198-2775
+- content: power
+- content: power plant
+- content: sensors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
+  ics:
+  - code: '27.140'
+    text: Hydraulic energy engineering
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

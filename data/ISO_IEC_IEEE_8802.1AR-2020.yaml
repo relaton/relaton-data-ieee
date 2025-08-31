@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.1AR-2020
 title:
 - content: ISO/IEC/IEEE International Standard for Telecommunications and exchange
@@ -28,7 +28,7 @@ date:
 - type: updated
   value: '2020-04-24'
 - type: created
-  value: '2020'
+  value: '2020-03-30'
 - type: published
   value: '2020-03-31'
 - type: issued
@@ -62,6 +62,16 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: A Secure Device Identifier (DevID) is cryptographically bound to a device
+    and supports authentication of the device???s identity. An Initial Device Identifier
+    (IDevID) provided by the supplier of a device can be supplemented by Local Device
+    Identifiers (LDevIDs) facilitating enrollment (provisioning of authentication
+    and authorization credentials) by local network administrators.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -80,13 +90,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.1AR-2018
+    id: IEEEStd802.1AR-2018
     docid:
-    - id: IEEE 802.1AR-2018
+    - id: IEEE Std 802.1AR-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1AR-2018
+      content: IEEE Std 802.1AR-2018
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -115,15 +125,16 @@ keyword:
 - content: Secure Device Identifier
 - content: security
 - content: X.509
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

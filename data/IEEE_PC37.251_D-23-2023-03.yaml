@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.251-D-23-2023-03
 title:
 - content: IEEE Draft Standard for Common Protection and Control Settings or Configuration
@@ -25,7 +25,7 @@ date:
 - type: created
   value: '2023-05-10'
 - type: published
-  value: '2023-05-12'
+  value: '2023-05-11'
 - type: issued
   value: '2023'
 contributor:
@@ -41,13 +41,13 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-05-12'
+revdate: '2023-05-11'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This standard defines a c 1 ommon format for protection and control configuration
+- content: This standard defines a common format for protection and control configuration
     or settings data files based on the IEC 61850 System Configuration Language (SCL)
     format. The format will specify organizational structure and methods of content
     extension.
@@ -81,13 +81,14 @@ keyword:
 - content: '61850'
 - content: setting groups
 - content: default settings
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

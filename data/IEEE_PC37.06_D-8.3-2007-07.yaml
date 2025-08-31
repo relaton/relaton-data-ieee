@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.06-D-8.3-2007-07
 title:
 - content: 'IEEE Draft: Standard AC High-Voltage Circuit Breakers Rated on a Symmetrical
@@ -62,12 +62,13 @@ keyword:
 - content: IEEE Standards
 - content: Capacitance
 - content: IEC Standards
-doctype: standard
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

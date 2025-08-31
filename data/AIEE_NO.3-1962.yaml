@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEENo.3-1962
 title:
 - content: AIEE Guiding Principles for the Selection of Reference Values for Electrical
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEE3-1982
+    id: IEEEStd3-1982
     docid:
-    - id: IEEE 3-1982
+    - id: IEEE Std 3-1982
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 3-1982
+      content: IEEE Std 3-1982
       format: text/plain
 keyword:
 - content: AIEE Standards
@@ -91,9 +91,10 @@ keyword:
 - content: Temperature distribution
 - content: Conductors
 - content: Surge protection
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

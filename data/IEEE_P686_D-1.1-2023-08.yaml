@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP686-D-1.1-2023-08
 title:
-- content: IEEE Draft Standard for Radar Definitions
+- content: IEEE Approved Draft Standard for Radar Definitions
   format: text/plain
   type: main
 link:
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P686/D-1.1-2023-08
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-11'
 - type: published
-  value: '2024-07-05'
+  value: '2024-07-04'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -40,7 +40,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-07-05'
+revdate: '2024-07-04'
 language:
 - en
 script:
@@ -68,13 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE686-2017
+    id: IEEEStd686-2017
     docid:
-    - id: IEEE 686-2017
+    - id: IEEE Std 686-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 686-2017
+      content: IEEE Std 686-2017
       format: text/plain
   description:
     content: revises
@@ -91,18 +91,19 @@ keyword:
 - content: IEEE 686&#8482;
 - content: radar
 - content: terminology
-doctype: standard
-editorialgroup:
-  committee:
-  - Radar Systems Panel of the IEEE Aerospace and Electronic Systems Society
-ics:
-- code: 01.040.33
-  text: Telecommunications. Audio and video engineering (Vocabularies)
-- code: 33.060.99
-  text: Other equipment for radiocommunications
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Radar Systems Panel of the IEEE Aerospace and Electronic Systems Society
+  ics:
+  - code: 01.040.33
+    text: Telecommunications. Audio and video engineering (Vocabularies)
+  - code: 33.060.99
+    text: Other equipment for radiocommunications
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

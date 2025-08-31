@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1716-D-12-2014-02
 title:
 - content: IEEE Recommended Practice for Managing Natural Disaster Impact on Key Electrical
@@ -80,15 +80,16 @@ keyword:
 - content: disaster emergency management
 - content: IEEE 1716(TM)
 - content: recovery
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 91.140.50
-  text: Electricity supply system
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 91.140.50
+    text: Electricity supply system
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

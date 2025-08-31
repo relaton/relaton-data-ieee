@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.16Rev3-D-5-2012-03
 title:
 - content: 'IEEE Draft Standard for local and metropolitan area networks Part 16:
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P802.16Rev3/D-5-2012-03
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-05'
 - type: published
   value: '2012-04-05'
 - type: issued
@@ -101,19 +101,20 @@ keyword:
 - content: wireless access systems (WAS)
 - content: WirelessMAN(R)
 - content: wireless etropolitan area network
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

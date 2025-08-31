@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE61636.1-2021
 title:
 - content: 'International Standard-Software Interface for Maintenance Information
@@ -26,7 +26,7 @@ docid:
 docnumber: IEC/IEEE 61636.1-2021
 date:
 - type: created
-  value: '2021'
+  value: '2021-06-08'
 - type: published
   value: '2021-06-10'
 - type: issued
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE1636.1-2018
+    id: IEEEStd1636.1-2018
     docid:
-    - id: IEEE 1636.1-2018
+    - id: IEEE Std 1636.1-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1636.1-2018
+      content: IEEE Std 1636.1-2018
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -99,17 +99,18 @@ keyword:
     (SIMICA)
 - content: test results and session information
 - content: XML schema
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 25.040.01
-  text: Industrial automation systems in general
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 25.040.01
+    text: Industrial automation systems in general
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

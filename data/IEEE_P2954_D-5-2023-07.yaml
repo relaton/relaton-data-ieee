@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2954-D-5-2023-07
 title:
 - content: IEEE Draft Recommended Practice for Overhead Transmission Line Design
@@ -79,15 +79,16 @@ keyword:
 - content: IEEE 2954&#8482;
 - content: overhead transmission line
 - content: structures
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

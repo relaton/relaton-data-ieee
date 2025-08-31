@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP421.4-D-1.16-2013-03
 title:
 - content: IEEE Approved Draft Guide for the Preparation of Excitation System Specifications
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P421.4/D-1.16-2013-03
 date:
 - type: created
-  value: '2014'
+  value: '2014-04-21'
 - type: published
   value: '2014-04-18'
 - type: issued
@@ -86,15 +86,16 @@ keyword:
 - content: power system stabilizers
 - content: redundant controllers
 - content: rotating exciters
-doctype: standard
-editorialgroup:
-  committee:
-  - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
-ics:
-- code: 29.130.99
-  text: Other switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.99
+    text: Other switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

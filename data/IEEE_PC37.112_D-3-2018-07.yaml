@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.112-D-3-2018-07
 title:
 - content: IEEE Approved Draft Standard Inverse-Time Characteristic Equations for
@@ -78,15 +78,16 @@ keyword:
 - content: Switchgear
 - content: inverse-time characteristics
 - content: overcurrent relays
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.70
+    text: Relays
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

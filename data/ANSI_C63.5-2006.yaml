@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.5-2006
 title:
 - content: American National Standard for Electromagnetic Compatibility Radiated Emission
@@ -26,7 +26,7 @@ docid:
 docnumber: ANSI C63.5-2006
 date:
 - type: created
-  value: '2006'
+  value: '2006-04-21'
 - type: published
   value: '2017-05-05'
 - type: issued
@@ -92,146 +92,6 @@ relation:
     formattedref:
       content: ANSI C63.5-2017
       format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.5-2017
-    docid:
-    - id: ANSI C63.5-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.5-2017
-      format: text/plain
 keyword:
 - content: ANSI Standards
 - content: Antenna measurements
@@ -250,12 +110,13 @@ keyword:
 - content: standard antenna
 - content: standard site
 - content: standard transmitting loop
-doctype: standard
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

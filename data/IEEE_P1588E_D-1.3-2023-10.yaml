@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1588e-D-1.3-2023-10
 title:
 - content: 'IEEE Draft Standard for a Precision Clock Synchronization Protocol for
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-10-20'
 - type: issued
-  value: '2023'
+  value: '2024-02-15'
 contributor:
 - organization:
     name:
@@ -47,8 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This draft standard is an amendment of IEEE Std 1588&#8482;-2019. This
-    amendment identifies the structure and content of the IEEE 1588 MIB and YANG modules.
+- content: Updates to IEEE Std 1588&#8482;-2019 are provided in this amendment. This
+    amendment specifies the structure and content of the IEEE 1588 MIB and YANG modules.
   language:
   - en
   script:
@@ -68,13 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1588-2019
+    id: IEEEStd1588-2019
     docid:
-    - id: IEEE 1588-2019
+    - id: IEEE Std 1588-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1588-2019
+      content: IEEE Std 1588-2019
       format: text/plain
   description:
     content: amends
@@ -88,19 +88,21 @@ keyword:
 - content: Synchronization
 - content: Data models
 - content: Control systems
-- content: PTP
-- content: MIB
-- content: YANG
+- content: IEEE 1588e&#8482;
 - content: Management
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 39.040.99
-  text: Other time-measuring instruments
+- content: MIB
+- content: PTP
+- content: YANG
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

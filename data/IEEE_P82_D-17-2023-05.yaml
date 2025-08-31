@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP82-D-17-2023-05
 title:
 - content: IEEE Approved Draft Recommended Practice for Impulse Voltage Tests on Insulated
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE82-2002
+    id: IEEEStd82-2002
     docid:
-    - id: IEEE 82-2002
+    - id: IEEE Std 82-2002
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 82-2002
+      content: IEEE Std 82-2002
       format: text/plain
   description:
     content: revises
@@ -99,15 +99,16 @@ keyword:
 - content: IEEE 82&#8482;
 - content: impulse testing
 - content: insulated conductors
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

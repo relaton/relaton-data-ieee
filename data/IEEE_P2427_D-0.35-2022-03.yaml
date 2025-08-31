@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2427-D-0.35-2022-03
 title:
 - content: IEEE Draft Standard for Analog Defect Modeling and Coverage
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2427/D-0.35-2022-03
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-23'
 - type: published
   value: '2022-06-24'
 - type: issued
@@ -45,6 +45,20 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: This standard defines a defect coverage accounting method based on simulation
+    models for defects observed within integrated circuits (ICs). The portion of a
+    defect universe, comprising thousands or millions of reasonably likely defects,
+    that is detected or “covered” by tests of analog and mixed-signal circuits depends
+    on many factors, which this standard considers, such as detectability, process
+    variations, defect characteristics, and redundancy. The contents of a defect coverage
+    summary are specified, and dozens of commonly used terms are clearly defined,
+    to aid communication about the quality of tested ICs
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -61,16 +75,22 @@ keyword:
 - content: Analog computers
 - content: Reliability
 - content: Modeling
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
+- content: defect coverage
+- content: analog test coverage
+- content: design for test (DFT)
+- content: analog/mixed-signal (AMS) test
+- content: defective parts per million (DPPM)
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

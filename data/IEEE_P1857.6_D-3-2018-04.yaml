@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1857.6-D-3-2018-04
 title:
 - content: IEEE Draft Standard for Digital Media Content Description
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1857.6/D-3-2018-04
 date:
 - type: created
-  value: '2018'
+  value: '2018-07-24'
 - type: published
   value: '2018-07-25'
 - type: issued
@@ -83,12 +83,13 @@ keyword:
 - content: image
 - content: label
 - content: video
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.92-D-5.0-2022-09
 title:
 - content: IEEE Draft Standard for Low-Energy Analog Interfaces between Protective
@@ -72,64 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.92-2005
+    id: IEEEStdC37.92-2005
     docid:
-    - id: IEEE C37.92-2005
+    - id: IEEE Std C37.92-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.92-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.92-2005
-    docid:
-    - id: IEEE C37.92-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.92-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.92-2005
-    docid:
-    - id: IEEE C37.92-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.92-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.92-2005
-    docid:
-    - id: IEEE C37.92-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.92-2005
+      content: IEEE Std C37.92-2005
       format: text/plain
   description:
     content: revises
@@ -160,15 +109,16 @@ keyword:
 - content: sensing system
 - content: sensor
 - content: transient response
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.70
+    text: Relays
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

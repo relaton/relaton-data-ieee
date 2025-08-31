@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP433-D-9-2021-12
 title:
 - content: IEEE Approved Draft Recommended Practice for Insulation Testing of AC Electric
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE433-2009
+    id: IEEEStd433-2009
     docid:
-    - id: IEEE 433-2009
+    - id: IEEE Std 433-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 433-2009
+      content: IEEE Std 433-2009
       format: text/plain
   description:
     content: revises
@@ -103,17 +103,18 @@ keyword:
 - content: very low frequency testing
 - content: VLF testing
 - content: withstand test
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.080.01
-  text: Electrical insulation in general
-- code: 29.160.01
-  text: Rotating machinery in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: 29.080.01
+    text: Electrical insulation in general
+  - code: 29.160.01
+    text: Rotating machinery in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

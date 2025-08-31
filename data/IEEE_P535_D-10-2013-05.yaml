@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP535-D-10-2013-05
 title:
 - content: IEEE Draft Standard for Qualification of Class 1E Vented Lead Acid Storage
@@ -89,15 +89,16 @@ keyword:
 - content: specific gravity
 - content: test-discharge rate
 - content: vented lead-acid battery
-doctype: standard
-editorialgroup:
-  committee:
-  - Stationary Batteries Committee of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.220.20
-  text: Acid secondary cells and batteries
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Stationary Batteries Committee of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.220.20
+    text: Acid secondary cells and batteries
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

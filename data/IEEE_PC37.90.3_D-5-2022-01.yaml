@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.90.3-D-5-2022-01
 title:
 - content: IEEE Draft Standard Electrostatic Discharge Tests for Protective Relays
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE PC37.90.3/D-5-2022-01
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-17'
 - type: published
   value: '2022-06-20'
 - type: issued
@@ -71,115 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.90.3-2001
+    id: IEEEStdC37.90.3-2001
     docid:
-    - id: IEEE C37.90.3-2001
+    - id: IEEE Std C37.90.3-2001
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.90.3-2001
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.90.3-2001
-    docid:
-    - id: IEEE C37.90.3-2001
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.90.3-2001
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.90.3-2001
-    docid:
-    - id: IEEE C37.90.3-2001
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.90.3-2001
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.90.3-2001
-    docid:
-    - id: IEEE C37.90.3-2001
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.90.3-2001
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.90.3-2001
-    docid:
-    - id: IEEE C37.90.3-2001
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.90.3-2001
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.90.3-2001
-    docid:
-    - id: IEEE C37.90.3-2001
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.90.3-2001
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.90.3-2001
-    docid:
-    - id: IEEE C37.90.3-2001
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.90.3-2001
+      content: IEEE Std C37.90.3-2001
       format: text/plain
   description:
     content: revises
@@ -191,10 +89,10 @@ relation:
 keyword:
 - content: IEEE Standards
 - content: Discharges (electric)
-- content: Protective relays
 - content: Relays
 - content: Couplings
-- content: Electrostatic discharge
+- content: Electrostatic discharges
+- content: Protective relaying
 - content: air discharge
 - content: contact discharge
 - content: coupling plane
@@ -203,15 +101,16 @@ keyword:
 - content: IEEE C37.90.3&#8482;
 - content: indirect application
 - content: protective relay
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.70
+    text: Relays
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

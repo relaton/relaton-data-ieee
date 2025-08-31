@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEEno
 title:
 - content: AIEE Report on Aircraft D-C Apparatus Voltage Ratings
@@ -52,6 +52,12 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Report on Aircraft D-C Apparatus Voltage Ratings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -63,9 +69,10 @@ keyword:
 - content: Voltage measurement
 - content: Aircraft
 - content: Aerospace electronics
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

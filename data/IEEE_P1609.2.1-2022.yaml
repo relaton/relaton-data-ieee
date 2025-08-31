@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1609.2.1-2022
 title:
-- content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
-    - Certificate Management Interfaces for End Entities - Corrigendum 1
+- content: IEEE Approved Draft Standard for Wireless Access in Vehicular Environments
+    (WAVE) - Certificate Management Interfaces for End Entities - Corrigendum 1
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P1609.2.1-2022
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-12'
 - type: published
   value: '2023-04-07'
 - type: issued
-  value: '2023'
+  value: '2023-06-05'
 contributor:
 - organization:
     name:
@@ -46,6 +46,14 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: This corrigendum provides corrections to references, figures, processes,
+    tables, and ASN.1 modules from 1609.2.1-2022.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,13 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1609.2.1-2022
+    id: IEEEStd1609.2.1-2022
     docid:
-    - id: IEEE 1609.2.1-2022
+    - id: IEEE Std 1609.2.1-2022
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1609.2.1-2022
+      content: IEEE Std 1609.2.1-2022
       format: text/plain
   description:
     content: corrects
@@ -75,16 +83,29 @@ relation:
     script:
     - Latn
     format: text/plain
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
-ics:
-- code: 35.240.60
-  text: IT applications in transport
+keyword:
+- content: IEEE Standards
+- content: Vehicular ad hoc networks
+- content: Intelligent transportation systems
+- content: authorization
+- content: certificate
+- content: end entity
+- content: enrollment
+- content: IEEE 1609&#8482;
+- content: IEEE 1609.2.1&#8482;
+- content: interface
+- content: Security Credential Management System (SCMS)
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

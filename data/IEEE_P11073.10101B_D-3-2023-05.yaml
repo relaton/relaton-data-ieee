@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10101b-D-3-2023-05
 title:
 - content: 'IEEE Draft Standard for Health informatics -- Device Interoperability
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE11073.10101-2019
+    id: IEEEStd11073.10101-2019
     docid:
-    - id: IEEE 11073.10101-2019
+    - id: IEEE Std 11073.10101-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10101-2019
+      content: IEEE Std 11073.10101-2019
       format: text/plain
   description:
     content: amends
@@ -155,18 +155,19 @@ keyword:
 - content: units of measure
 - content: ventilation
 - content: ventilation mode
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 01.040.35
-  text: Information technology (Vocabularies)
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

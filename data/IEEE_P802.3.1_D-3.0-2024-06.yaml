@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3.1-D-3.0-2024-06
 title:
 - content: IEEE Draft Standard for Ethernet Structure of Management Information version
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P802.3.1/D-3.0-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-01'
 - type: published
-  value: '2024-07-05'
+  value: '2024-07-04'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -41,11 +41,22 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-07-05'
+revdate: '2024-07-04'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: This standard defines Structure of Management Information version 2 (SMIv2)
+    MIB module specifications for IEEE Std 802.3 Ethernet and associated managed object
+    branch and leaf assignments used in the variable descriptors in IEEE Std 802.3
+    Variable Request operations, administration, and maintenance protocol data units
+    (OAMPDU).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3.1-2013
+    id: IEEEStd802.3.1-2013
     docid:
-    - id: IEEE 802.3.1-2013
+    - id: IEEE Std 802.3.1-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3.1-2013
+      content: IEEE Std 802.3.1-2013
       format: text/plain
   description:
     content: revises
@@ -83,22 +94,25 @@ keyword:
 - content: Metropolitan area networks
 - content: Management information base
 - content: Data models
-- content: Ethernet
 - content: IEEE 802.3.1TM
-- content: Management Information Base (MIB)
+- content: Management Information Base
+- content: MIB
 - content: network management
-- content: Simple Network Management Protocol (SNMP)
-- content: Structure of Management Information Version 2 (SMIv2)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
+- content: Simple Network Management Protocol
+- content: SMIv2
+- content: SNMP
+- content: Structure of Management Information version 2
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

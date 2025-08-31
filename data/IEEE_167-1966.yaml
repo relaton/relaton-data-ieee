@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE167-1966
 title:
 - content: IEEE Test Procedure for Facsimile
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE 167-1966
 date:
 - type: created
-  value: '1966'
+  value: '1966-06-29'
 - type: published
   value: '2015-12-29'
 - type: issued
@@ -79,12 +79,13 @@ keyword:
 - content: Facsimile
 - content: Testing
 - content: ANSI Standards
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Communications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Communications Society
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

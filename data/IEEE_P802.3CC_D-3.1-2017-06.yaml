@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3cc-D-3.1-2017-06
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment: Physical Layer and Management
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2015
+    id: IEEEStd802.3-2015
     docid:
-    - id: IEEE 802.3-2015
+    - id: IEEE Std 802.3-2015
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2015
+      content: IEEE Std 802.3-2015
       format: text/plain
   description:
     content: amends
@@ -97,7 +97,6 @@ keyword:
 - content: 25GBASE-LR
 - content: 25GBASE-SR
 - content: Energy Efficient Ethernet (EEE)
-- content: Ethernet
 - content: Forward Error Correction (FEC)
 - content: IEEE 802.3(TM)
 - content: IEEE 802.3by(TM)
@@ -107,17 +106,15 @@ keyword:
 - content: Physical Medium Dependent (PMD) sublayer
 - content: Reconciliation sublayer (RS)
 - content: single-mode fiber (SMF)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

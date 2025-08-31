@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEDISP24748.4
 title:
 - content: 'ISO/IEC/IEEE Draft International Standard for Systems and Software Engineering
@@ -158,17 +158,19 @@ keyword:
 - content: WBS
 - content: PMP SEMP relationships
 - content: SEMP outline
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: 03.120.10
-  text: Quality management and quality assurance
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: 03.120.10
+    text: Quality management and quality assurance
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

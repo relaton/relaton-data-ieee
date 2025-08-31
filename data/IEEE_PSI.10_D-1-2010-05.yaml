@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPSI.10-D-1-2010-05
 title:
 - content: 'IEEE Draft Standard for Use of the International System of Units (SI):
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PSI.10/D-1-2010-05
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-12'
 - type: published
   value: '2010-07-15'
 - type: issued
@@ -76,15 +76,16 @@ keyword:
 - content: Temperature measurement
 - content: Measurement
 - content: Current
-doctype: standard
-editorialgroup:
-  committee:
-  - SCC14 - Quantities, Units, and Letter Symbols
-ics:
-- code: '17.020'
-  text: Metrology and measurement in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - SCC14 - Quantities, Units, and Letter Symbols
+  ics:
+  - code: '17.020'
+    text: Metrology and measurement in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

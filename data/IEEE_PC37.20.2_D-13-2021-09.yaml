@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.20.2-D-13-2021-09
 title:
 - content: IEEE Draft Standard for Metal-Clad Switchgear
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2021-09-09'
 - type: issued
-  value: '2021'
+  value: '2022-09-21'
 contributor:
 - organization:
     name:
@@ -45,6 +45,22 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Metal-clad (MC) medium-voltage switchgear that contains drawout electrically
+    operated circuit breakers is covered. MC switchgear is compartmentalized to isolate
+    components such as instrumentation, main bus, and both incoming and outgoing connections
+    with grounded metal barriers. Ranges from 4.76 kV to 48.3 kV with main bus continuous
+    current ratings of 1200 A, 2000 A, 3000 A, and 4000 A are the rated maximum voltage
+    levels for metal-clad switchgear . Associated control, instruments, metering,
+    relaying, protective, and regulating devices, as necessary, are also contained
+    by MC switchgear. Service conditions, ratings, temperature limitations and classification
+    of insulating materials, insulation (dielectric) withstand voltage requirements,
+    test procedures, and applications are discussed.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -59,47 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.20.2-2015
+    id: IEEEStdC37.20.2-2015
     docid:
-    - id: IEEE C37.20.2-2015
+    - id: IEEE Std C37.20.2-2015
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.20.2-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.20.2-2015
-    docid:
-    - id: IEEE C37.20.2-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.20.2-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.20.2-2015
-    docid:
-    - id: IEEE C37.20.2-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.20.2-2015
+      content: IEEE Std C37.20.2-2015
       format: text/plain
   description:
     content: revises
@@ -112,16 +94,32 @@ keyword:
 - content: IEEE Standards
 - content: Metal
 - content: Switchgear
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.99
-  text: Other switchgear and controlgear
+- content: control
+- content: cumulative loading
+- content: current transformers
+- content: drawout
+- content: IEEE C37.20.2
+- content: indoor
+- content: instrumentation
+- content: load current-carrying
+- content: metal-clad (MC) switchgear
+- content: metal-enclosed (ME) power switchgear
+- content: outdoor
+- content: protection
+- content: switchgear assemblies
+- content: transformer accuracy
+- content: voltage transformers
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.99
+    text: Other switchgear and controlgear
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

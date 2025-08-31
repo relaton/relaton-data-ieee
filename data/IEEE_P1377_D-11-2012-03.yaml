@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1377-D-11-2012-03
 title:
-- content: IEEE Standard for Utility Industry Metering Communication Protocol Application
-    Layer (End Device Data Tables)
+- content: IEEE Approved Draft Standard for Utility Industry Metering Communication
+    Protocol Application Layer (End Device Data Tables)
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/6182564
+- content: https://ieeexplore.ieee.org/document/6200817
   type: src
 type: standard
 docid:
@@ -18,14 +18,14 @@ docid:
   type: IEEE
   scope: trademark
   primary: true
-- id: 978-1-5044-7778-9
+- id: 978-0-7381-7502-7
   type: ISBN
 docnumber: IEEE P1377/D-11-2012-03
 date:
 - type: created
-  value: '2012'
+  value: '2012-08-08'
 - type: published
-  value: '2012-05-18'
+  value: '2012-05-16'
 - type: issued
   value: '2012-05-14'
 contributor:
@@ -41,29 +41,29 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2012-05-18'
+revdate: '2012-05-16'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Common structures are provided in this standard for encoding data in communication
+- content: This standard provides common structures for encoding data in communication
     between End Devices (meters, home appliances, IEEE 1703 Nodes) and Utility enterprise
-    collection and control systems using binary codes and Extensible Markup Language
-    (XML) content. The Advanced Metering Infrastructure (AMI) and SmartGrid requirements
-    are addressed as identified by the Office of Electricity Delivery and Energy Reliability
-    of the U.S. Department of Energy and by the Smart Metering Initiative of the Ontario
-    Ministry of Energy (Canada) and of Measurement Canada. Sets of tables are exposed
-    that are grouped together into sections that pertain to a particular feature-set
-    and related function such as Time-of-use, Load Profile, Security, Power Quality,
-    and more. Each standard Table Set (Data Model) can be expanded or restricted by
-    the Manufacturer of the IEEE 1377 Device or home appliance using XML/TDL descriptive
-    registered syntax (XML-based Table Definition Language) and enterprise data-value
-    management using EDL (Exchange Data Language) in a manner that is machine readable.
-    Published jointly with NEMA and Measurement Canada, Tables are provided in support
-    of Gas, Water, and Electric sensors and related appliances. Tables are also provided
-    for network configuration and management by referencing its companion standard
-    IEEE Std 1703TM-2012. IEEE Std 1377-2012 is co-published as ANSI C12.19 and MC12.19.
+    collection and control systems using binary codes and XML content. The standard
+    addresses the AMI and SmartGrid requirements as identified by the Office of Electricity
+    Delivery and Energy Reliability of the U.S. Department of Energy; the Smart Metering
+    Initiative of the Ontario Ministry of Energy (Canada) and of Measurement Canada.
+    The standard exposes sets of tables that are grouped together into sections that
+    pertain to a particular feature-set and related function such as Time-of-use,
+    Load Profile, Security, Power Quality and more. Each standard Table Set (Data
+    Model) can be expanded or restricted by the Manufacturer of the IEEE 1377 Device
+    or home appliance using XML/TDL descriptive registered syntax (XML-based Table
+    Definition Language) and enterprise data-value management using EDL (Exchange
+    Data Language) in a manner that is machine readable. Published jointly with NEMA
+    and Measurement Canada, this standard provides Tables in support of Gas, Water
+    and Electric sensors and related appliances. It also provides Tables for network
+    configuration and management by referencing its companion standard IEEE 1703.
+    IEEE 1377 is co-published as ANSI C12.19 and MC12.19.
   language:
   - en
   script:
@@ -83,13 +83,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1377-1997
+    id: IEEEStd1377-1997
     docid:
-    - id: IEEE 1377-1997
+    - id: IEEE Std 1377-1997
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1377-1997
+      content: IEEE Std 1377-1997
       format: text/plain
   description:
     content: revises
@@ -100,13 +100,880 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE1377-1997
+    id: IEEEStd1377-1997
     docid:
-    - id: IEEE 1377-1997
+    - id: IEEE Std 1377-1997
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1377-1997
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1377-1997
+    docid:
+    - id: IEEE Std 1377-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1377-1997
       format: text/plain
   description:
     content: revises
@@ -117,22 +984,21 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE standards
+- content: Protocols
 - content: Electricity supply industry
+- content: Automatic meter reading
 - content: Meter reading
-- content: Power system measurements
+- content: IEEE 1377
 - content: ANSI C12.19
 - content: End Device
-- content: IEEE 1377
 - content: Utility Tables
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '35.180'
-  text: IT terminal and other peripheral equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

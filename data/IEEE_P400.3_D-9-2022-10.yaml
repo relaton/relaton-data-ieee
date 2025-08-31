@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP400.3-D-9-2022-10
 title:
-- content: IEEE Approved Draft Guide for Partial Discharge Field Diagnostic Testing
-    of Shielded Power Cable Systems
+- content: IEEE Draft Guide for Partial Discharge Field Diagnostic Testing of Shielded
+    Power Cable Systems
   format: text/plain
   type: main
 link:
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P400.3/D-9-2022-10
 date:
 - type: created
-  value: '2022-12-12'
+  value: '2022-10-12'
 - type: published
   value: '2022-10-13'
 - type: issued
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE400.3-2006
+    id: IEEEStd400.3-2006
     docid:
-    - id: IEEE 400.3-2006
+    - id: IEEE Std 400.3-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 400.3-2006
+      content: IEEE Std 400.3-2006
       format: text/plain
   description:
     content: revises
@@ -104,15 +104,16 @@ keyword:
 - content: field test
 - content: IEEE 400.3
 - content: partial discharge testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 33.120.20
-  text: Wires and symmetrical cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 33.120.20
+    text: Wires and symmetrical cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

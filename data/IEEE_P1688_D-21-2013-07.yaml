@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1688-D-21-2013-07
 title:
 - content: IEEE Draft Standard for Requirements for the Control of Electromagnetic
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1688/D-21-2013-07
 date:
 - type: created
-  value: '2015'
+  value: '2015-04-28'
 - type: published
   value: '2015-01-22'
 - type: issued
@@ -81,7 +81,6 @@ keyword:
 - content: EMC. EMI
 - content: ESD
 - content: REM
-- content: Electromagnetic compatibility
 - content: Electromagnetic emission
 - content: Electromagnetic interference
 - content: electromagnetic susceptibility
@@ -89,15 +88,16 @@ keyword:
 - content: Replaceable Electronic Module
 - content: Test Limits
 - content: EMI
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
-ics:
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
+  ics:
+  - code: 33.100.10
+    text: Emission
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

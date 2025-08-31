@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.5-1965
 title:
 - content: American National Standard for Bases for GM Counter Tubes
@@ -71,15 +71,16 @@ keyword:
 - content: Meter reading
 - content: Power system measurements
 - content: Geiger-Mueller counter tubes
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

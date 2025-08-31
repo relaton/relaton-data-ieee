@@ -1,0 +1,107 @@
+---
+schema-version: v1.2.9
+id: IEEEStd1194.1-1991
+title:
+- content: IEEE Standard for Electrical Characteristics of Backplane Transceiver Logic
+    (BTL) Interface Circuits
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/159086
+  type: src
+type: standard
+docid:
+- id: IEEE Std 1194.1-1991
+  type: IEEE
+  primary: true
+- id: IEEE Std 1194.1™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-0-7381-2771-2
+  type: ISBN
+- id: 10.1109/IEEESTD.1991.101022
+  type: DOI
+docnumber: IEEE Std 1194.1-1991
+date:
+- type: created
+  value: '1991-08-12'
+- type: published
+  value: '2019-04-26'
+- type: issued
+  value: '1991-06-27'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2019-04-26'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: The proper treatment of the electrical elements of the backplane that provides
+    a physical and electrical connection between different modules in a computer system
+    is covered. Techniques for measuring impedance, capacitance, and crosstalk are
+    provided; and crosstalk, ground bounce, and decoupling are discussed. Relationships
+    among the key elements controlling backplane performance, such as driver and receiver
+    characteristics, the distance of the driver and receiver from the backplane, the
+    impedance of the bus traces treated as transmission lines, lumped elements such
+    as connectors and vias, and the termination are examined.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: withdrawn
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '1991'
+keyword:
+- content: Crosstalk
+- content: Delay effects
+- content: Driver circuits
+- content: Connectors
+- content: Logic circuits
+- content: Standards
+- content: backplane bus
+- content: BTL
+- content: digital interface
+- content: digital circuit
+- content: interface circuit
+- content: driver
+- content: receiver
+- content: transceiver
+- content: transmission line
+- content: Digital interface circuit
+- content: Backplane transceiver logic
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

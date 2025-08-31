@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEC62.31-1987
 title:
 - content: IEEE Standard Test Specification for Gas-Tube Surge Protective Devices
@@ -69,13 +69,23 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEE649-2006
+    id: IEEEStd649-2006
     docid:
-    - id: IEEE 649-2006
+    - id: IEEE Std 649-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 649-2006
+      content: IEEE Std 649-2006
+      format: text/plain
+- type: obsoletedBy
+  bibitem:
+    id: IEEEStd649-2006
+    docid:
+    - id: IEEE Std 649-2006
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 649-2006
       format: text/plain
 keyword:
 - content: test
@@ -84,15 +94,13 @@ keyword:
 - content: protective
 - content: devices
 - content: Arresters
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

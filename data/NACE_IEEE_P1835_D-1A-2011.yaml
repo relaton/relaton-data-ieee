@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NACE-IEEEP1835-D-1a-2011
 title:
 - content: NACE International and IEEE Joint Standard Practice for Atmospheric (Above
@@ -92,12 +92,13 @@ keyword:
 - content: Control systems
 - content: Substations
 - content: Maintenance engineering
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

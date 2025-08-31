@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC95.7-D-11-2014-03
 title:
 - content: IEEE Approved Draft Recommended Practice for Radio Frequency Safety Programs,
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC95.7/D-11-2014-03
 date:
 - type: created
-  value: '2014'
+  value: '2014-06-14'
 - type: published
   value: '2014-04-01'
 - type: issued
@@ -86,13 +86,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC95.7-2005
+    id: IEEEStdC95.7-2005
     docid:
-    - id: IEEE C95.7-2005
+    - id: IEEE Std C95.7-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C95.7-2005
+      content: IEEE Std C95.7-2005
       format: text/plain
   description:
     content: revises
@@ -127,15 +127,13 @@ keyword:
 - content: RF safety committee
 - content: RF safety officer
 - content: signage
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '13.280'
-  text: Radiation protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '13.280'
+    text: Radiation protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

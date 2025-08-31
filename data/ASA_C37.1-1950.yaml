@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ASAC37.1-1950
 title:
 - content: ASA American Standard for Relays Associated with Electric Power Apparatus
@@ -26,7 +26,7 @@ date:
 - type: updated
   value: '2016-04-15'
 - type: created
-  value: '1950'
+  value: '1950-03-25'
 - type: published
   value: '2016-03-25'
 - type: issued
@@ -56,6 +56,20 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The standard in this publication is the first revision of the American
+    Standard for Relays Associated with Power Switchgear, C37.1-1937. A proposed revision,
+    dated January 12, 1949, was prepared by the American Institute of Electrical Engineers
+    Relay Committee and then submitted to the American Standards Association, Incorporated.
+    Subsequent work on the proposed standard was carried on by the Sectional Committee
+    on Power Switchgear, C37.The standard relates only to relays of types directly
+    associated with power switchgear. It does notcover relays of types designed primarily
+    for industrial control, excitation, or governor regulating, telephone, telegraph,
+    traffic signal, or similar purpose.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -74,9 +88,10 @@ keyword:
 - content: Voltage control
 - content: Impedance
 - content: Switchgear
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

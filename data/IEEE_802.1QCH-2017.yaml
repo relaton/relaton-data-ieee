@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE802.1Qch-2017
 title:
 - content: 'IEEE Standard for Local and metropolitan area networks--Bridges and Bridged
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2017-07-21'
 - type: created
-  value: '2017'
+  value: '2017-06-28'
 - type: published
   value: '2017-06-28'
 - type: issued
@@ -47,6 +47,14 @@ language:
 script:
 - Latn
 abstract:
+- content: The use of traffic scheduling and per-stream filtering and policing to
+    support cyclic queuing and forwarding are described in this amendment to IEEE
+    Std 802.1Q-2014.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 - content: The use of traffic scheduling and per-stream filtering and policing to
     support cyclic queuing and forwarding are described in this amendment to IEEE
     Std 802.1Q-2014.
@@ -76,13 +84,13 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: IEEE802.1Q-2014
+    id: IEEEStd802.1Q-2014
     docid:
-    - id: IEEE 802.1Q-2014
+    - id: IEEE Std 802.1Q-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1Q-2014
+      content: IEEE Std 802.1Q-2014
       format: text/plain
   description:
     content: amends
@@ -91,163 +99,6 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.1Q-2014
-    docid:
-    - id: IEEE 802.1Q-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1Q-2014
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ISO-IEC-IEEE8802.1Q-Amd7-2016
-    docid:
-    - id: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 8802.1Q/Amd7-2016
-      format: text/plain
 - type: obsoletedBy
   bibitem:
     id: ISO-IEC-IEEE8802.1Q-Amd7-2016
@@ -279,15 +130,13 @@ keyword:
 - content: metropolitan area networks
 - content: scheduled traffic
 - content: Virtual Bridged Local Area Networks (virtual LANs)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEFDISP42010-2022-04
 title:
-- content: IEEE/ISO/IEC Approved Draft International Standard for Systems and Software
-    Engineering -- Architecture Description
+- content: IEEE/ISO/IEC Draft International Standard for Systems and Software Engineering
+    -- Architecture Description
   format: text/plain
   type: main
 link:
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE FDIS P42010-2022-04
 date:
 - type: created
-  value: '2022'
+  value: '2022-04-28'
 - type: published
   value: '2022-04-29'
 - type: issued
@@ -79,74 +79,6 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE42010-2011
-    docid:
-    - id: ISO/IEC/IEEE 42010-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 42010-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE42010-2011
-    docid:
-    - id: ISO/IEC/IEEE 42010-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 42010-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE42010-2011
-    docid:
-    - id: ISO/IEC/IEEE 42010-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 42010-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE42010-2011
-    docid:
-    - id: ISO/IEC/IEEE 42010-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 42010-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: ISO Standards
@@ -154,16 +86,18 @@ keyword:
 - content: Software engineering
 - content: Systems engineering and theory
 - content: Software architecture
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

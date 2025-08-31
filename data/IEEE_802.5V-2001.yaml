@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE802.5v-2001
 title:
 - content: 'IEEE Standard for Information Technology-Telecommunications and information
@@ -84,17 +84,18 @@ keyword:
 - content: TKP Access Protocol
 - content: TXI Access Protocol
 - content: DTR C-Port and Station
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

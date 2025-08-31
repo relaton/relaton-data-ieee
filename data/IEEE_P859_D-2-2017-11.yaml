@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP859-D-2-2017-11
 title:
 - content: IEEE Approved Draft Standard Terms for Reporting and Analyzing Outage Occurrences
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE859-1987
+    id: IEEEStd859-1987
     docid:
-    - id: IEEE 859-1987
+    - id: IEEE Std 859-1987
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 859-1987
+      content: IEEE Std 859-1987
       format: text/plain
   description:
     content: revises
@@ -104,15 +104,13 @@ keyword:
 - content: power systems
 - content: reliability
 - content: weather
-doctype: standard
-editorialgroup:
-  committee:
-  - Analytic Methods for Power Systems of the IEEE Power and Energy Society
-ics:
-- code: '29.020'
-  text: Electrical engineering in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.020'
+    text: Electrical engineering in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

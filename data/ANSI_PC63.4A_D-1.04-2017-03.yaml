@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIPC63.4a-D-1.04-2017-03
 title:
 - content: 'Draft American National Standard for Methods of Measurement of Radio-Noise
@@ -100,15 +100,13 @@ keyword:
 - content: NSA
 - content: site attenuation
 - content: site validation
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Electromagnetic Compatibility Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

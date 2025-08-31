@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE24748.4
 title:
 - content: 'ISO/IEC/IEEE International Standard for Systems and Software Engineering
@@ -65,6 +65,22 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The evolution of the harmonized set of ISO/IEC/IEEE 15288-12207 related
+    standards and technical reports that are discussed in this International Standard
+    provides detailed requirements and guidance on the application of system life
+    cycle processes. This International Standard unifies technical and management
+    requirements and guidance from several of these sources to specify the requirements
+    for the content of a SEMP and to provide a common SEMP format. This International
+    Standard also identifies the processes as defined in ISO/IEC/IEEE 15288 to perform
+    the necessary project planning activities to accomplish the project's technical
+    effort and to develop the project's SEMP. Due to close alignment with the content
+    of ISO/IEC 24748, ISO/IEC 26702 is now Part 4 of the multi-part International
+    Standard, ISO/IEC 24748 (Systems and software engineering -- Life cycle management).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -83,149 +99,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1220-2005
+    id: IEEEStd1220-2005
     docid:
-    - id: IEEE 1220-2005
+    - id: IEEE Std 1220-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1220-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1220-2005
-    docid:
-    - id: IEEE 1220-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1220-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1220-2005
-    docid:
-    - id: IEEE 1220-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1220-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1220-2005
-    docid:
-    - id: IEEE 1220-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1220-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1220-2005
-    docid:
-    - id: IEEE 1220-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1220-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1220-2005
-    docid:
-    - id: IEEE 1220-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1220-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1220-2005
-    docid:
-    - id: IEEE 1220-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1220-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1220-2005
-    docid:
-    - id: IEEE 1220-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1220-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1220-2005
-    docid:
-    - id: IEEE 1220-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1220-2005
+      content: IEEE Std 1220-2005
       format: text/plain
   description:
     content: revises
@@ -314,17 +194,19 @@ keyword:
 - content: TPM
 - content: SBS
 - content: WBS
-- content: PMP &#8211; SEMP relationships
+- content: PMP - SEMP relationships
 - content: SEMP outline.
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.240.01
-  text: Application of information technology in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE158-D-8-6158
 title:
 - content: IEC/IEEE International Standard - Precision clock synchronization protocol
@@ -92,26 +92,6 @@ relation:
     formattedref:
       content: IEC 61588-2009
       format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: IEC61588-2009
-    docid:
-    - id: IEC 61588-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEC 61588-2009
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: IEC61588-2009
-    docid:
-    - id: IEC 61588-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEC 61588-2009
-      format: text/plain
 keyword:
 - content: IEC Standards
 - content: Clocks
@@ -126,15 +106,13 @@ keyword:
 - content: measurement and control systems
 - content: real-time clock
 - content: synchronized clocks
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

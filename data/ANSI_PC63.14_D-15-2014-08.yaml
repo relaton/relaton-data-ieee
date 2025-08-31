@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIPC63.14-D-15-2014-08
 title:
 - content: American National Standard Dictionary of Electromagnetic Compatibility
@@ -81,17 +81,18 @@ keyword:
 - content: electromagnetic environmental effects (E3)
 - content: electromagnetic pulse (EMP)
 - content: electrostatic discharge (ESD)
-doctype: standard
-editorialgroup:
-  committee:
-  - Accredited Standards Committee on Electromagnetic Compatibility
-ics:
-- code: 01.040.33
-  text: Telecommunications. Audio and video engineering (Vocabularies)
-- code: 33.100.01
-  text: Electromagnetic compatibility (EMC) in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Accredited Standards Committee on Electromagnetic Compatibility
+  ics:
+  - code: 01.040.33
+    text: Telecommunications. Audio and video engineering (Vocabularies)
+  - code: 33.100.01
+    text: Electromagnetic compatibility (EMC) in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

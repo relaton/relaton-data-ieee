@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE26531-2023
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering--Content
@@ -26,7 +26,7 @@ docid:
 docnumber: ISO/IEC/IEEE 26531-2023
 date:
 - type: created
-  value: '2023'
+  value: '2023-03-30'
 - type: published
   value: '2023-03-28'
 - type: issued
@@ -112,23 +112,6 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE26531-2015
-    docid:
-    - id: ISO/IEC/IEEE 26531-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 26531-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: IEC Standards
@@ -141,15 +124,17 @@ keyword:
 - content: content management
 - content: component content management system
 - content: single source information for users
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1816-D-15-2024-02
 title:
-- content: Ieee draft guide for preparation techniques of shielded cables rated 2.5
-    kv through 46 kv and the installation of mating accessories
+- content: IEEE Draft Guide for Preparation Techniques of Shielded Cables Rated 2.5
+    kV through 46 kV and the Installation of Mating Accessories
   format: text/plain
   type: main
 link:
@@ -25,7 +25,7 @@ date:
 - type: created
   value: '2024-02-26'
 - type: published
-  value: '2024-02-28'
+  value: '2024-02-27'
 - type: issued
   value: '2024'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-02-28'
+revdate: '2024-02-27'
 language:
 - en
 script:
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1816-2013
+    id: IEEEStd1816-2013
     docid:
-    - id: IEEE 1816-2013
+    - id: IEEE Std 1816-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1816-2013
+      content: IEEE Std 1816-2013
       format: text/plain
   description:
     content: revises
@@ -100,16 +100,17 @@ keyword:
 - content: separable connectors
 - content: system reliability
 - content: terminations
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 29.060.20
+    text: Cables
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

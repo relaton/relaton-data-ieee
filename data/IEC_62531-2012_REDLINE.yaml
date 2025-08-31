@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62531-2012Redline
 title:
 - content: 'IEC 62531:2012(E) (IEEE Std 1850-2010): Standard for Property Specification
@@ -27,7 +27,7 @@ docid:
 docnumber: IEC 62531-2012 Redline
 date:
 - type: created
-  value: '2012'
+  value: '2012-06-28'
 - type: published
   value: '2012-12-20'
 - type: issued
@@ -94,17 +94,18 @@ keyword:
 - content: specification
 - content: temporal logic
 - content: verification
-doctype: redline
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '25.040'
-  text: Industrial automation systems
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '25.040'
+    text: Industrial automation systems
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

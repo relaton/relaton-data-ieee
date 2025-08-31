@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1159.3-D-18-2018-07
 title:
 - content: IEEE Draft Recommended Practice for Power Quality Data Interchange Format
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1159.3/D-18-2018-07
 date:
 - type: created
-  value: '2018'
+  value: '2018-07-24'
 - type: published
   value: '2018-07-25'
 - type: issued
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1159.3-2003
+    id: IEEEStd1159.3-2003
     docid:
-    - id: IEEE 1159.3-2003
+    - id: IEEE Std 1159.3-2003
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1159.3-2003
+      content: IEEE Std 1159.3-2003
       format: text/plain
   description:
     content: revises
@@ -104,15 +104,13 @@ keyword:
 - content: monitoring
 - content: power quality
 - content: PQDIF
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

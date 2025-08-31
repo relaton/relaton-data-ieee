@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC57.12.20-1997
 title:
 - content: 'American National Standard for Transformers - Standard for Overhead Type
@@ -28,7 +28,7 @@ date:
 - type: updated
   value: '2014-07-24'
 - type: created
-  value: '2003'
+  value: '2003-06-11'
 - type: published
   value: '2014-06-11'
 - type: issued
@@ -61,6 +61,19 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: 'Superseded by IEEE Std C57.12.20-2005.This standard covers certain electrical,
+    dimensional, and mechanical characteristics and takes into consideration certain
+    safety features of single- and three-phase, 60-Hz, mineral-oil-immersed, self-cooled,
+    overhead-type distribution transformers 500 kVA and smaller, with high voltages
+    34500 volts and below and low voltages 7970/13800Y volts and below. Such transformers
+    may include one or more of the following features: 1) High-voltage, overcurrent
+    protection; 2) High-voltage, overvoltage protection. 3) Low-voltage, overcurrent
+    protection; 4) Low-voltage, overvoltage protection'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -72,31 +85,38 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEEC57.12.20-2005
+    id: IEEEStdC57.12.20-2005
     docid:
-    - id: IEEE C57.12.20-2005
+    - id: IEEE Std C57.12.20-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.20-2005
+      content: IEEE Std C57.12.20-2005
+      format: text/plain
+- type: obsoletedBy
+  bibitem:
+    id: IEEEStdC57.12.20-2005
+    docid:
+    - id: IEEE Std C57.12.20-2005
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std C57.12.20-2005
       format: text/plain
 keyword:
 - content: ANSI standards
 - content: Transformers
 - content: Power distribution
-- content: Transformers
 - content: Safety
 - content: Voltage control
 - content: Power transmission lines
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

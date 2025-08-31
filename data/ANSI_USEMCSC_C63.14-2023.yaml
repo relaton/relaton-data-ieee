@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-USEMCSCC63.14-2023
 title:
 - content: American National Standard Dictionary of Electromagnetic Compatibility
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI/USEMCSC C63.14-2023
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-07'
 - type: published
   value: '2024-06-05'
 - type: issued
@@ -101,17 +101,18 @@ keyword:
 - content: EMC
 - content: EMP
 - content: ESD
-doctype: standard
-editorialgroup:
-  committee:
-  - Committee on Electromagnetic Compatibility
-ics:
-- code: 01.040.33
-  text: Telecommunications. Audio and video engineering (Vocabularies)
-- code: 33.100.01
-  text: Electromagnetic compatibility in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Committee on Electromagnetic Compatibility
+  ics:
+  - code: 01.040.33
+    text: Telecommunications. Audio and video engineering (Vocabularies)
+  - code: 33.100.01
+    text: Electromagnetic compatibility in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

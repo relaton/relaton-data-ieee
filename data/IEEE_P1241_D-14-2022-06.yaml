@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1241-D-14-2022-06
 title:
 - content: IEEE Draft Standard for Terminology and Test Methods for Analog-to-Digital
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1241-2010
+    id: IEEEStd1241-2010
     docid:
-    - id: IEEE 1241-2010
+    - id: IEEE Std 1241-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1241-2010
+      content: IEEE Std 1241-2010
       format: text/plain
   description:
     content: revises
@@ -113,16 +113,17 @@ keyword:
 - content: SAR
 - content: SFDR
 - content: sine fitting
-doctype: standard
-editorialgroup:
-  committee:
-  - TC10 - Waveform Generation Measurement and Analysis of the IEEE Instrumentation
-    and Measurement Society
-ics:
-- code: '31.200'
-  text: Integrated circuits. Microelectronics
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC10 - Waveform Generation Measurement and Analysis of the IEEE Instrumentation
+      and Measurement Society
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

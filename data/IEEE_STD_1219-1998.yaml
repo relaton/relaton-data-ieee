@@ -1,0 +1,109 @@
+---
+schema-version: v1.2.9
+id: IEEEStd1219-1998
+title:
+- content: IEEE Standard for Software Maintenance
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/720567
+  type: src
+type: standard
+docid:
+- id: IEEE Std 1219-1998
+  type: IEEE
+  primary: true
+- id: IEEE Std 1219™-1998
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-0-7381-0533-8
+  type: ISBN
+- id: 10.1109/IEEESTD.1998.88278
+  type: DOI
+docnumber: IEEE Std 1219-1998
+date:
+- type: created
+  value: '1998-10-21'
+- type: published
+  value: '2018-11-07'
+- type: issued
+  value: '1998-06-25'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2018-11-07'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'Replaced by ISO/IEC 14764: 2006. The process for managing and executing
+    software maintenance activities is described.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '1998'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd1219-1993
+    docid:
+    - id: IEEE Std 1219-1993
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1219-1993
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: obsoletedBy
+  bibitem:
+    id: ISO-IEC14764-2006
+    docid:
+    - id: ISO/IEC 14764-2006
+      type: IEEE
+      primary: true
+    formattedref:
+      content: ISO/IEC 14764-2006
+      format: text/plain
+keyword:
+- content: Software maintenance
+- content: life cycle
+- content: maintenance
+- content: software
+- content: software maintenance
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Active
+  pubstatus: Active
+  holdstatus: Publish

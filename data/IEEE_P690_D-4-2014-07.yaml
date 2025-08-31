@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP690-D-4-2014-07
 title:
 - content: IEEE Draft Standard for the Design and Installation of Cable Systems for
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE690-2004
+    id: IEEEStd690-2004
     docid:
-    - id: IEEE 690-2004
+    - id: IEEE Std 690-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 690-2004
+      content: IEEE Std 690-2004
       format: text/plain
   description:
     content: revises
@@ -97,15 +97,13 @@ keyword:
 - content: Cable
 - content: Generating Facility
 - content: Electrical Design
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

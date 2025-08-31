@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3df-D-3.0-2023-07
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment: Media Access Control Parameters
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P802.3df/D-3.0-2023-07
 date:
 - type: created
-  value: '2023'
+  value: '2023-07-18'
 - type: published
   value: '2023-07-19'
 - type: issued
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2022
+    id: IEEEStd802.3-2022
     docid:
-    - id: IEEE 802.3-2022
+    - id: IEEE Std 802.3-2022
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2022
+      content: IEEE Std 802.3-2022
       format: text/plain
   description:
     content: amends
@@ -114,17 +114,18 @@ keyword:
 - content: Physical Coding Sublayer
 - content: PMD
 - content: Physical Medium Attachment
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

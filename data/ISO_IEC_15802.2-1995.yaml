@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC15802.2-1995
 title:
 - content: 'ISO/IEC 15802-2:1995: Information technology - Telecommunications and
@@ -26,7 +26,7 @@ docid:
 docnumber: ISO/IEC 15802.2-1995
 date:
 - type: created
-  value: '1995'
+  value: '1995-03-10'
 - type: published
   value: '2014-07-29'
 - type: issued
@@ -90,15 +90,16 @@ keyword:
 - content: metropolitan area networks
 - content: LAN
 - content: MAN
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

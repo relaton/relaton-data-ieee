@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1048b-D-003-2024-07
 title:
-- content: 'IEEE Draft Guide for Protective Grounding of Power Lines Amendment B:
-    Differentiating the Fabric Carrier Mat and the Rigid Carrier Mat'
+- content: 'IEEE Approved Draft Guide for Protective Grounding of Power Lines Amendment
+    B: Differentiating the Fabric Carrier Mat and the Rigid Carrier Mat'
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P1048b/D-003-2024-07
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-09'
 - type: published
   value: '2024-07-25'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -47,12 +47,9 @@ language:
 script:
 - Latn
 abstract:
-- content: Guidelines are provided for Temporary Protective Grounding (TPG) of electric
-    power lines to assist in protection of workers from voltages and currents that
-    might develop at a de-energized worksite during maintenance of ac overhead and
-    underground, transmission and distribution lines, cables, and equipment. Other
-    forms of worker protection include isolation and insulation. These methods are
-    described in other documents and guides and are not discussed here.
+- content: Expanded in this amendment is the use of conductive mats for creating equipotential
+    zones. Specific guidance in the use of conductive mats while applying temporary
+    protective ground cables is provided.
   language:
   - en
   script:
@@ -72,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1048-2016
+    id: IEEEStd1048-2016
     docid:
-    - id: IEEE 1048-2016
+    - id: IEEE Std 1048-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1048-2016
+      content: IEEE Std 1048-2016
       format: text/plain
   description:
     content: amends
@@ -96,22 +93,23 @@ keyword:
 - content: Underground power cables
 - content: Maintenance engineering
 - content: Power distribution
+- content: conductive matting
 - content: grounding
-- content: IEEE 1048
+- content: IEEE 1048&#8482;
 - content: protective grounds
 - content: safety
 - content: worksite grounds
-- content: conductive matting
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

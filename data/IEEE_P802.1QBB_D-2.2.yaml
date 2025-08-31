@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1Qbb-D-2.2
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks - Virtual
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P802.1Qbb/D-2.2
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-12'
 - type: published
   value: '2010-07-15'
 - type: issued
@@ -81,17 +81,18 @@ keyword:
 - content: VLANs
 - content: priority
 - content: flow control.
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

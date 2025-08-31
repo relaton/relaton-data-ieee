@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3001.3-D-1-2023-09
 title:
 - content: 'IEEE Draft Recommended Practice for the Design of Industrial and Commercial
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-10-02'
 - type: issued
-  value: '2023'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -47,16 +47,16 @@ language:
 script:
 - Latn
 abstract:
-- content: This recommended practice contains information concerning system voltage
-    nomenclature and the preferred voltage ratings of distribution apparatus and utilization
-    equipment. This is essential to proper voltage identification throughout a power
-    distribution system. The recommended practice also discusses the dynamic characteristics
-    of the system and the proper principles of voltage control applied so that satisfactory
-    voltages will be supplied to utilization equipment under operating conditions.
+- content: Information concerning system voltage nomenclature and the preferred voltage
+    ratings of distribution apparatus and utilization equipment are contained in this
+    recommended practice. This is essential to proper voltage identification throughout
+    a power distribution system. The dynamic characteristics of the system and the
+    proper principles of voltage control applied so that satisfactory voltages will
+    be supplied to utilization equipment under operating conditions are discussed.
     An understanding of system voltage nomenclature and the preferred voltage ratings
     of distribution apparatus and utilization equipment is essential to help ensure
     proper voltage identification throughout a power distribution system. The dynamic
-    characteristics of the system need to be recognized and the proper principles
+    characteristics of the system need to be recognized, and the proper principles
     of voltage control applied so that satisfactory voltages will be supplied to all
     utilization equipment under all normal conditions of operation.
   language:
@@ -89,14 +89,18 @@ keyword:
 - content: voltage tolerance
 - content: sag
 - content: flicker.
-doctype: standard
-editorialgroup:
-  committee:
-  - Industrial &amp; Commercial Power Systems Standards Development Committee of the
-    IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Industrial &amp; Commercial Power Systems Standards Development Committee of
+      the IEEE Industry Applications Society
+  ics:
+  - code: 91.140.50
+    text: Electricity supply systems
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1676-D-1.0-2010-07
 title:
 - content: IEEE Draft Guide for Control Architecture for High Power Electronics (1
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1676/D-1.0-2010-07
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-15'
 - type: published
   value: '2010-07-19'
 - type: issued
@@ -89,15 +89,16 @@ keyword:
 - content: Power Electronics
 - content: SSTS
 - content: STATCOM
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.240.30
-  text: Control equipment for electric power systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.240.30
+    text: Control equipment for electric power systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP516-D-3-2020-06
 title:
 - content: IEEE Draft Guide for Maintenance Methods on Energized Power Lines
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P516/D-3-2020-06
 date:
 - type: created
-  value: '2020'
+  value: '2020-06-18'
 - type: published
   value: '2020-06-22'
 - type: issued
@@ -70,13 +70,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE516-2009
+    id: IEEEStd516-2009
     docid:
-    - id: IEEE 516-2009
+    - id: IEEE Std 516-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 516-2009
+      content: IEEE Std 516-2009
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd516-2009
+    docid:
+    - id: IEEE Std 516-2009
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 516-2009
       format: text/plain
   description:
     content: revises
@@ -96,15 +113,13 @@ keyword:
 - content: maintenance
 - content: power lines
 - content: tools
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

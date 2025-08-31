@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEFDISP15289.-E-3-D-2-2016
 title:
 - content: ISO/IEC/IEEE Draft International Standard - Systems and software engineering
@@ -96,38 +96,19 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE15289-2015
-    docid:
-    - id: ISO/IEC/IEEE 15289-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 15289-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: ISO Standards
 - content: IEC Standards
 - content: Software engineering
 - content: Documentation
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

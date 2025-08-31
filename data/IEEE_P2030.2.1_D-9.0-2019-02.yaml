@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.2.1-D-9.0-2019-02
 title:
 - content: IEEE Draft Guide for Design, Operation, and Maintenance of Battery Energy
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P2030.2.1/D-9.0-2019-02
 date:
 - type: created
-  value: '2019'
+  value: '2019-04-04'
 - type: published
   value: '2019-04-10'
 - type: issued
@@ -86,12 +86,13 @@ keyword:
 - content: mobile
 - content: operation
 - content: stationary
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

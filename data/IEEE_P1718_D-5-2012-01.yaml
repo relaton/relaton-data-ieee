@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1718-D-5-2012-01
 title:
 - content: IEEE Draft Guide for Temperature Monitoring of Cable Systems
@@ -75,17 +75,18 @@ keyword:
 - content: Raman scattering
 - content: Real time systems
 - content: Distributed control
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power &amp; Energy Society
-ics:
-- code: 17.200.20
-  text: Temperature-measuring instruments
-- code: 33.180.99
-  text: Other fibre optic equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 17.200.20
+    text: Temperature-measuring instruments
+  - code: 33.180.99
+    text: Other fibre optic equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

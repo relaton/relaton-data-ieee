@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE282-1968
 title:
 - content: IEEE Proposed IEEE Recommended Specification for Speed Governing and Temperature
@@ -65,9 +65,10 @@ keyword:
 - content: Turbines
 - content: Generators
 - content: Electrical equipment
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

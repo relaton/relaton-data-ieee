@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3812.1-D-1.1-2023-03
 title:
 - content: IEEE Draft Standard for General Requirements for Identity Framework for
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P3812.1/D-1.1-2023-03
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-26'
 - type: published
   value: '2023-06-28'
 - type: issued
@@ -78,16 +78,17 @@ keyword:
 - content: identity framework for metaverse
 - content: IEEE 3812.1
 - content: metaverse
-doctype: standard
-editorialgroup:
-  committee:
-  - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
-    Society
-ics:
-- code: 35.240.95
-  text: Internet applications
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
+      Society
+  ics:
+  - code: 35.240.95
+    text: Internet applications
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

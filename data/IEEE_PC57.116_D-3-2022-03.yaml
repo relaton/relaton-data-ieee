@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.116-D-3-2022-03
 title:
 - content: IEEE Draft Guide for Transformers Directly Connected to Generators
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE PC57.116/D-3-2022-03
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-23'
 - type: published
-  value: '2022-07-01'
+  value: '2022-06-30'
 - type: issued
-  value: '2022'
+  value: '2022-12-03'
 contributor:
 - organization:
     name:
@@ -40,7 +40,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2022-07-01'
+revdate: '2022-06-30'
 language:
 - en
 script:
@@ -73,47 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.116-2014
+    id: IEEEStdC57.116-2014
     docid:
-    - id: IEEE C57.116-2014
+    - id: IEEE Std C57.116-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.116-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.116-2014
-    docid:
-    - id: IEEE C57.116-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.116-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.116-2014
-    docid:
-    - id: IEEE C57.116-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.116-2014
+      content: IEEE Std C57.116-2014
       format: text/plain
   description:
     content: revises
@@ -132,25 +98,26 @@ keyword:
 - content: back-feed
 - content: electrical parameters
 - content: generator bus
-- content: IEEE C57.116&#8482;
+- content: IEEE C57.116
 - content: load tap changing
 - content: overcurrent
 - content: overexcitation
 - content: transformer connections
 - content: transmission system
 - content: unit auxiliaries
-- content: unit power transformer
 - content: unit auxiliary transformer
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
+- content: unit power transformer
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

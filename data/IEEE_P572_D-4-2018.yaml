@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP572-D-4-2018
 title:
-- content: IEEE Approved Draft Standard for Qualification of Class 1E Connection Assemblies
+- content: IEEE Draft Standard for Qualification of Class 1E Connection Assemblies
     for Nuclear Power Generating Stations and Other Nuclear Facilities
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/8640871
+- content: https://ieeexplore.ieee.org/document/8635615
   type: src
 type: standard
 docid:
@@ -23,9 +23,9 @@ docid:
 docnumber: IEEE P572/D-4-2018
 date:
 - type: created
-  value: '2019-01-25'
+  value: '2018-12-04'
 - type: published
-  value: '2019-02-12'
+  value: '2019-02-05'
 - type: issued
   value: '2019-02-08'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2019-02-12'
+revdate: '2019-02-05'
 language:
 - en
 script:
@@ -79,13 +79,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE572-2006
+    id: IEEEStd572-2006
     docid:
-    - id: IEEE 572-2006
+    - id: IEEE Std 572-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 572-2006
+      content: IEEE Std 572-2006
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd572-2006
+    docid:
+    - id: IEEE Std 572-2006
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 572-2006
       format: text/plain
   description:
     content: revises
@@ -97,10 +114,11 @@ relation:
 keyword:
 - content: IEEE Standards
 - content: Aging
-- content: Condition monitoring
-- content: Nuclear power generation
 - content: Power system reliability
-- content: Testing
+- content: Nuclear power generation
+- content: Assembly
+- content: Connectors
+- content: Condition monitoring
 - content: age
 - content: age conditioning
 - content: aging
@@ -127,15 +145,13 @@ keyword:
 - content: test plan
 - content: test sequence
 - content: type testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 27.120.20
-  text: Nuclear power plants. Safety
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

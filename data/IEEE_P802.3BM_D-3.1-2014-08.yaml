@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3bm-D-3.1-2014-08
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment: Physical Layer Specifications
@@ -89,25 +89,25 @@ keyword:
 - content: 40GBASE-SR4
 - content: CAUI-4
 - content: Energy Efficient Ethernet (EEE)
-- content: Ethernet
 - content: forward error correction (FEC)
 - content: IEEE Std 802.3bm
 - content: MMF
 - content: physical medium dependent Physical Medium Dependent (PMD) sublayer
 - content: SMF.
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

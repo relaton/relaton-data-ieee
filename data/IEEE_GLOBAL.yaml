@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEGlobal
 title:
 - content: IEEE Global Consumer Socialization of Smart Grid
@@ -92,18 +92,19 @@ keyword:
 - content: industry bodies
 - content: smart grid deployment
 - content: energy consumption
-doctype: standard
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
-- code: 03.080.30
-  text: Services for consumers
-- code: 33.040.40
-  text: Data communication networks
-- code: '33.200'
-  text: Telecontrol. Telemetering
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: 03.080.30
+    text: Services for consumers
+  - code: 33.040.40
+    text: Data communication networks
+  - code: '33.200'
+    text: Telecontrol. Telemetering
   standard_status: Active
   pubstatus: Active
   holdstatus: Publish

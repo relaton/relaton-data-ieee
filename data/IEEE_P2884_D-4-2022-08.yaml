@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2884-D-4-2022-08
 title:
 - content: 'IEEE Approved Draft Standard for Performance Evaluation of Biometric Information:
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2884/D-4-2022-08
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-09'
 - type: published
   value: '2023-02-07'
 - type: issued
@@ -46,6 +46,20 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Requirements and testing methods for a facial recognition testing system
+    for end user devices are discussed in this standard. System and security requirements,
+    algorithm testing, testing methods, and criteria-level definitions are defined.
+    Key metrics for quantized performance evaluation indexes including false accept
+    rate (FAR), false reject rate (FRR), attack presentation false acceptance (APFAR),
+    and bona fide presentation false rejection rate (BFPFRR) are also defined. Criteria
+    levels for testing the performance indexes are specified, including the detailed
+    steps, environment, and minimum requirements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -63,17 +77,22 @@ keyword:
 - content: Biometrics (access control)
 - content: Performance evaluation
 - content: biometric
-- content: face recognition
-- content: test
-- content: performance
 - content: end user device
-doctype: standard
-editorialgroup:
-  committee:
-  - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+- content: facial recognition
+- content: IEEE 2884&#8482;
+- content: performance
+- content: test
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

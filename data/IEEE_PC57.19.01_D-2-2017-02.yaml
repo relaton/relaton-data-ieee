@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.19.01-D-2-2017-02
 title:
 - content: IEEE Draft Standard for Performance Characteristics and Dimensions for
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.19.01-2000
+    id: IEEEStdC57.19.01-2000
     docid:
-    - id: IEEE C57.19.01-2000
+    - id: IEEE Std C57.19.01-2000
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.19.01-2000
+      content: IEEE Std C57.19.01-2000
       format: text/plain
   description:
     content: revises
@@ -107,15 +107,13 @@ keyword:
 - content: power factor
 - content: power reactor bushings
 - content: power transformer bushings
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 29.080.20
-  text: Bushings
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.080.20
+    text: Bushings
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

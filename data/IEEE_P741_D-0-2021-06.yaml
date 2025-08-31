@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP741-D-0-2021-06
 title:
-- content: IEEE Draft Standard for Criteria for the Protection of Class 1E Power Systems
-    and Equipment in Nuclear Power Generating Stations
+- content: IEEE Approved Draft Standard for Criteria for the Protection of Class 1E
+    Power Systems and Equipment in Nuclear Power Generating Stations
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P741/D-0-2021-06
 date:
 - type: created
-  value: '2021'
+  value: '2022-03-30'
 - type: published
   value: '2021-06-14'
 - type: issued
-  value: '2021'
+  value: '2022-03-24'
 contributor:
 - organization:
     name:
@@ -73,30 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE741-2017
+    id: IEEEStd741-2017
     docid:
-    - id: IEEE 741-2017
+    - id: IEEE Std 741-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 741-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE741-2017
-    docid:
-    - id: IEEE 741-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 741-2017
+      content: IEEE Std 741-2017
       format: text/plain
   description:
     content: revises
@@ -107,23 +90,27 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE Standards
-- content: Electronics equipment
-- content: Power systems reliability
 - content: Nuclear power generation
 - content: Regulation
+- content: Electronic equipment
+- content: Power system reliability
 - content: Class 1E
 - content: electrical equipment
-- content: IEEE 741&#8482;
+- content: IEEE 741
 - content: nuclear power generating stations
 - content: power systems
 - content: protection
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

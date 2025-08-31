@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1641.1-D-4-2012-10
 title:
 - content: IEEE Draft Guide for the Use of IEEE Std 1641, Standard for Signal and
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1641.1-2006
+    id: IEEEStd1641.1-2006
     docid:
-    - id: IEEE 1641.1-2006
+    - id: IEEE Std 1641.1-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1641.1-2006
+      content: IEEE Std 1641.1-2006
       format: text/plain
   description:
     content: revises
@@ -86,13 +86,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE1641.1-2006
+    id: IEEEStd1641.1-2006
     docid:
-    - id: IEEE 1641.1-2006
+    - id: IEEE Std 1641.1-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1641.1-2006
+      content: IEEE Std 1641.1-2006
       format: text/plain
   description:
     content: revises
@@ -117,17 +117,15 @@ keyword:
 - content: test signals
 - content: unit under test
 - content: UUT
-doctype: standard
-editorialgroup:
-  committee:
-  - SCC20 - Test and Diagnosis for Electronic Systems
-ics:
-- code: '31.020'
-  text: Electronic components in general
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '31.020'
+    text: Electronic components in general
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE62582.2
 title:
 - content: 'IEC/IEEE International Standard for Nuclear power plants -- Instrumentation
@@ -57,6 +57,13 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The scope is the correction of Figure 1, Figure 2, Figure A. 1 and Figure
+    B.1 of IEC/IEEE 62582-2:2011.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -75,15 +82,16 @@ keyword:
 - content: Electrical equipment
 - content: Monitoring
 - content: Power system reliability
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 27.120.20
-  text: Nuclear power plants. Safety
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
   standard_status: Inactive
   standard_modified: Reserved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-EIA12207.1-1997
 title:
 - content: 'IEEE/EIA Guide - Industry Implementation of International Standard ISO/IEC
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE/EIA 12207.1-1997
 date:
 - type: created
-  value: '1998'
+  value: '1998-04-27'
 - type: published
   value: '2013-03-14'
 - type: issued
@@ -92,15 +92,13 @@ keyword:
 - content: tailoring process
 - content: validation
 - content: verification
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.140-D-7-2016-12
 title:
 - content: IEEE Approved Draft Guide for Evaluation and Reconditioning of Liquid Immersed
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.140-2006
+    id: IEEEStdC57.140-2006
     docid:
-    - id: IEEE C57.140-2006
+    - id: IEEE Std C57.140-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.140-2006
+      content: IEEE Std C57.140-2006
       format: text/plain
   description:
     content: revises
@@ -100,15 +100,13 @@ keyword:
 - content: power transformers
 - content: reconditioning
 - content: risk assessment
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

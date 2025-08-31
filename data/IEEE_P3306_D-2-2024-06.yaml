@@ -1,10 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3306-D-2-2024-06
 title:
-- content: IEEE Draft Standard for Adoption of Moving Picture, Audio and Data Coding
-    by Artificial Intelligence (MPAI) Technical Specification Portable Avatar Format
-    (PAF) Version 1
+- content: IEEE Approved Draft Standard for Adoption of Moving Picture, Audio and
+    Data Coding by Artificial Intelligence (MPAI) Technical Specification Portable
+    Avatar Format (PAF) Version 1
   format: text/plain
   type: main
 link:
@@ -24,11 +24,11 @@ docid:
 docnumber: IEEE P3306/D-2-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-10'
 - type: published
   value: '2024-06-28'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -47,6 +47,20 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: 'This standard adopts MPAI Technical Specification Version 1 as an IEEE
+    Standard. The Technical Specification MPAI Portable Avatar Format (MPAI-PAF) specifies
+    the following: a) the PAF and data-related formats that allow a sender to enable
+    a receiver to decode and render an avatar as intended by the sender, b) the personal
+    status display composite AI module allowing the conversion of a text and a personal
+    status to a portable avatar, and c) the artificial intelligence framework conforming
+    AI workflows and AI modules composing the avatar-based videoconference use case
+    also using data types from other MPAI technical specifications.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,13 +74,31 @@ copyright:
   - name:
     - content: MPAI
   from: '2024'
-doctype: standard
-editorialgroup:
-  committee:
-  - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+keyword:
+- content: IEEE Standards
+- content: Motion pictures
+- content: Audio coding
+- content: Data analysis
+- content: Encoding
+- content: Artificial intelligence
+- content: Avatars
+- content: adoption
+- content: avatar
+- content: IEEE 3306&#8482;
+- content: MPAI-PAF
+- content: PAF
+- content: portable avatar format
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

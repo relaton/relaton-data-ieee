@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP62271.37-013-2015-D-2-Cor1-2017
 title:
 - content: 'IEEE/IEC International Standard for high-voltage switchgear and controlgear
@@ -89,15 +89,16 @@ keyword:
 - content: generator source short-circuit
 - content: out-of-phase
 - content: TRV.
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,0 +1,105 @@
+---
+schema-version: v1.2.9
+id: IEEEStd802.11bh-2024
+title:
+- content: 'IEEE Standard for Information Technology--Telecommunications and Information
+    Exchange Between Systems Local and Metropolitan Area Networks--Specific Requirements
+    - Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications
+    Amendment 1: Operation with Randomized and Changing MAC Addresses'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/11023005
+  type: src
+type: standard
+docid:
+- id: IEEE Std 802.11bh-2024
+  type: IEEE
+  primary: true
+- id: IEEE Std 802.11bh®-2024
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2138-6
+  type: ISBN
+- id: 10.1109/IEEESTD.2025.11023005
+  type: DOI
+docnumber: IEEE Std 802.11bh-2024
+date:
+- type: created
+  value: '2025-06-03'
+- type: published
+  value: '2025-06-04'
+- type: issued
+  value: '2024-09-26'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-06-04'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: This amendment specifies modifications to the IEEE Std 802.11 medium access
+    control (MAC) sublayer mechanisms to preserve the existing services that might
+    otherwise be restricted in environments where STAs in extended service set (ESS)
+    use randomized or changing MAC addresses, without affecting the privacy of the
+    users corresponding to the STAs. User privacy includes exposure of trackable information
+    to third parties or exposure of an individual’s presence of behavior. This amendment
+    introduces mechanisms to enable session continuity in the absence of unique MAC
+    address-to-STA mapping. For STAs in an ESS that use randomized or changing MAC
+    addresses, this amendment preserves the ability to provide customer support, conduct
+    network diagnostics and troubleshooting, and detect device arrival in a trusted
+    environment.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: approved
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+keyword:
+- content: IEEE Standards
+- content: Media Access Control
+- content: Wireless LAN
+- content: Telecommunications
+- content: Regulation
+- content: Privacy
+- content: Physical layer
+- content: IEEE 802.11
+- content: 802.11bh
+- content: Randomized and Changing MAC Address (RCM)
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

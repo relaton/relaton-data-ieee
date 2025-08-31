@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.38a-2018
 title:
 - content: American National Standard for Performance Criteria for Spectroscopy-Based
@@ -59,6 +59,15 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Amendment 1 addresses an observation made by a user of the standard. The
+    observation raised a concern that misunderstandings may occur due to the common
+    use of “tn” for other calculations. To address the concern, “tn” was changed to
+    “p”. The value for the number of trials used in the standard remains the same.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -101,17 +110,18 @@ keyword:
 - content: portal monitor
 - content: spectrometric
 - content: spectroscopy
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '13.310'
-  text: Protection against crime
-- code: 71.040.50
-  text: Physicochemical methods of analysis
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '13.310'
+    text: Protection against crime
+  - code: 71.040.50
+    text: Physicochemical methods of analysis
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

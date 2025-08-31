@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11aq-D-9.0-2017-06
 title:
 - content: 'IEEE Draft Standard for Information technology--Telecommunications and
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.11-2012Redline
+    id: IEEEStd802.11-2012Redline
     docid:
-    - id: IEEE 802.11-2012 Redline
+    - id: IEEE Std 802.11-2012 Redline
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2012 Redline
+      content: IEEE Std 802.11-2012 Redline
       format: text/plain
   description:
     content: amends
@@ -103,17 +103,15 @@ keyword:
 - content: IEEE 802.11aq™
 - content: preassociation
 - content: service discovery
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

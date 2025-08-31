@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP525-D-1-Cor1-2007
 title:
 - content: IEEE Draft Guide for the Design and Installation of Cable Systems in Substations
@@ -63,12 +63,13 @@ keyword:
 - content: Licenses
 - content: IEEE Standards activities
 - content: Mathematical models
-doctype: standard
-ics:
-- code: 29.240.10
-  text: Substations. Surge arresters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.10
+    text: Substations. Surge arresters
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

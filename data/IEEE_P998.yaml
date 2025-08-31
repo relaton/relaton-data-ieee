@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP998
 title:
 - content: IEEE Draft Guide for Direct Lightning Stroke Shielding of Substations
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P998
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-30'
 - type: published
   value: '2024-07-31'
 - type: issued
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE998-2012
+    id: IEEEStd998-2012
     docid:
-    - id: IEEE 998-2012
+    - id: IEEE Std 998-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 998-2012
+      content: IEEE Std 998-2012
       format: text/plain
   description:
     content: revises
@@ -102,15 +102,16 @@ keyword:
 - content: lightning stroke protection
 - content: self-consistent leader inception and propagation model (SLIM)
 - content: substations empirical curves
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations Committee of the IEEE Power and Energy Society
-ics:
-- code: 91.120.40
-  text: Lightning protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations Committee of the IEEE Power and Energy Society
+  ics:
+  - code: 91.120.40
+    text: Lightning protection
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

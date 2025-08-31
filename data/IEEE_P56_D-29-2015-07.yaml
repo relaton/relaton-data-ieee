@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP56-D-29-2015-07
 title:
 - content: IEEE Draft Guide for Insulation Maintenance of Electric Machines
@@ -72,17 +72,18 @@ keyword:
 - content: Stator testing
 - content: Alternating Commutator Core Current Electric Flux Insulation Machines Maintenance
     Reliability Rotating Service Stator Testing.
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.080.01
-  text: Insulation in general
-- code: 29.160.01
-  text: Rotating machinery in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: 29.080.01
+    text: Insulation in general
+  - code: 29.160.01
+    text: Rotating machinery in general
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

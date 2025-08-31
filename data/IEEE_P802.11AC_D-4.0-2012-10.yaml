@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11ac-D-4.0-2012-10
 title:
 - content: 'IEEE Draft Standard for IT - Telecommunications and Information Exchange
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.11-2007
+    id: IEEEStd802.11-2007
     docid:
-    - id: IEEE 802.11-2007
+    - id: IEEE Std 802.11-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2007
+      content: IEEE Std 802.11-2007
       format: text/plain
   description:
     content: amends
@@ -89,64 +89,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE802.11-2007
+    id: IEEEStd802.11-2007
     docid:
-    - id: IEEE 802.11-2007
+    - id: IEEE Std 802.11-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2007
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.11-2007
-    docid:
-    - id: IEEE 802.11-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.11-2007
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.11-2007
-    docid:
-    - id: IEEE 802.11-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.11-2007
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.11-2007
-    docid:
-    - id: IEEE 802.11-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.11-2007
+      content: IEEE Std 802.11-2007
       format: text/plain
   description:
     content: amends
@@ -167,19 +116,17 @@ keyword:
 - content: Multi-user MIMO
 - content: Beamforming
 - content: Wider Bandwidth
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

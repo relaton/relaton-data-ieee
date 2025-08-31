@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1882-D-2-2024
 title:
 - content: IEEE Draft Guide for Establishing, Benchmarking and Maintaining a Work
@@ -66,6 +66,9 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
+- content: IEEE Standards
+- content: Benchmark testing
+- content: Power transmission lines
 - content: live work
 - content: live line
 - content: barehand
@@ -80,13 +83,14 @@ keyword:
 - content: over voltage controls
 - content: PPAG
 - content: protective gap
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

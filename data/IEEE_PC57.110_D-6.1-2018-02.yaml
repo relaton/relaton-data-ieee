@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.110-D-6.1-2018-02
 title:
 - content: IEEE Draft Recommended Practice for Establishing Liquid-Immersed and Dry-Type
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.110-2008
+    id: IEEEStdC57.110-2008
     docid:
-    - id: IEEE C57.110-2008
+    - id: IEEE Std C57.110-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.110-2008
+      content: IEEE Std C57.110-2008
       format: text/plain
   description:
     content: revises
@@ -102,15 +102,13 @@ keyword:
 - content: IEEE C57.110&#8482;
 - content: k-factor
 - content: nonsinusoidal load currents
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

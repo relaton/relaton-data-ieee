@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE1250-D-11-2010
 title:
 - content: IEEE Draft Guide for Identifying and Improving Voltage Quality in Power
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE 1250/D-11-2010
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-19'
 - type: published
   value: '2010-07-23'
 - type: issued
@@ -92,15 +92,16 @@ keyword:
 - content: surges
 - content: voltage fluctuation
 - content: voltage quality
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

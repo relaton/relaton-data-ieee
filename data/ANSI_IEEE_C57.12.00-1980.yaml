@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEC57.12.00-1980
 title:
 - content: American National Standard General Requirements for Liquid-Immersed Distribution,
@@ -81,13 +81,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: ANSI-IEEEC57.12.00-1987
+    id: ANSI-IEEEStdC57.12.00-1987
     docid:
-    - id: ANSI/IEEE C57.12.00-1987
+    - id: ANSI/IEEE Std C57.12.00-1987
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE C57.12.00-1987
+      content: ANSI/IEEE Std C57.12.00-1987
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -97,9 +97,10 @@ keyword:
 - content: Transformers
 - content: Regulators
 - content: Power transformers
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

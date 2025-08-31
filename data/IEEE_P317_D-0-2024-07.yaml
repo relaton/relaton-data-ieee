@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP317-D-0-2024-07
 title:
 - content: IEEE Draft Standard for Electric Penetration Assemblies in Containment
@@ -80,13 +80,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE317-2013
+    id: IEEEStd317-2013
     docid:
-    - id: IEEE 317-2013
+    - id: IEEE Std 317-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 317-2013
+      content: IEEE Std 317-2013
       format: text/plain
   description:
     content: revises
@@ -96,6 +96,14 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Apertures
+- content: Seals
+- content: Voltage control
+- content: Nuclear power generation
+- content: Periodic structures
+- content: Regulation
+- content: Electrification
 - content: aperture seals
 - content: class MC components
 - content: conductor seals
@@ -107,7 +115,7 @@ keyword:
 - content: electric penetration assembly
 - content: electrical penetration assembly
 - content: fiber seals
-- content: IEEE 317&#8482;
+- content: IEEE 317
 - content: instrumentation penetrations
 - content: low voltage power penetrations
 - content: LVP
@@ -119,16 +127,17 @@ keyword:
 - content: qualified life
 - content: SAC
 - content: severe accident conditions
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering Committee of the IEEE Power and Energy Society
-ics:
-- code: 27.120.10
-  text: Reactor engineering
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering Committee of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.10
+    text: Reactor engineering
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

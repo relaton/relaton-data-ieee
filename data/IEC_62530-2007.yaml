@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62530-2007
 title:
 - content: 'IEC 62530 Ed. 1 (IEEE Std 1800(TM)-2005): Standard for SystemVerilog -
@@ -87,17 +87,18 @@ keyword:
 - content: Verilog
 - content: Verilog programming interface
 - content: VPI
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '25.040'
-  text: Industrial automation systems
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '25.040'
+    text: Industrial automation systems
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

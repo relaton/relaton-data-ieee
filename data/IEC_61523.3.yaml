@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61523.3
 title:
 - content: 'IEC 61523-3 Ed.1 (IEEE Std 1497(TM)-2001): Delay and Power Calculation
@@ -59,6 +59,18 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The Standard Delay Format (SDF) is defined in this standard. SDF is a textual
+    file format for representing the delay and timing information of electronic systems.
+    While both human and machine readable, in its most common usage it will be machine
+    written and machine read in support of timing analysis and verification tools,
+    and of other tools requiring delay and timing information. The primary audience
+    for this standard is the implementers of tools supporting the format, but anyone
+    with a need to understand the format’s contents will find it useful.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -72,13 +84,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE1497-2001
+    id: IEEEStd1497-2001
     docid:
-    - id: IEEE 1497-2001
+    - id: IEEE Std 1497-2001
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1497-2001
+      content: IEEE Std 1497-2001
       format: text/plain
 keyword:
 - content: IEC Standards
@@ -100,15 +112,16 @@ keyword:
 - content: timing analysis
 - content: timing backannotation
 - content: timing verification
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

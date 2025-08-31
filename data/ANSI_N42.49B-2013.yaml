@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.49B-2013
 title:
 - content: American National Standard for Performance Criteria for Non-alarming Personal
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI N42.49B-2013
 date:
 - type: created
-  value: '2014'
+  value: '2014-07-18'
 - type: published
   value: '2014-07-18'
 - type: issued
@@ -58,6 +58,15 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The purpose of this standard is to specify technical performance requirements
+    and performance testing requirements for those purchasing and using non-alarming
+    Personal Emergency Radiation Detectors “PERDs” for Homeland Security and other
+    radiological emergency applications.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -85,15 +94,16 @@ keyword:
 - content: photon radiation
 - content: pocket-sized
 - content: radiation detection
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

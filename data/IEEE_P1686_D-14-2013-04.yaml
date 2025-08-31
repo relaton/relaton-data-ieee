@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1686-D-14-2013-04
 title:
 - content: IEEE Draft Standard for Intelligent Electronic Devices (IEDs) Cyber Security
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1686/D-14-2013-04
 date:
 - type: created
-  value: '2013'
+  value: '2013-07-23'
 - type: published
   value: '2013-04-30'
 - type: issued
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1686-2007
+    id: IEEEStd1686-2007
     docid:
-    - id: IEEE 1686-2007
+    - id: IEEE Std 1686-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1686-2007
+      content: IEEE Std 1686-2007
       format: text/plain
   description:
     content: revises
@@ -94,7 +94,6 @@ keyword:
 - content: Computer crime
 - content: Intelligent networks
 - content: Data security
-- content: Computer crime
 - content: CIP
 - content: critical infrastructure protection
 - content: cyber
@@ -103,15 +102,13 @@ keyword:
 - content: intelligent electronic device
 - content: security
 - content: substation
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power &amp; Energy Society
-ics:
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

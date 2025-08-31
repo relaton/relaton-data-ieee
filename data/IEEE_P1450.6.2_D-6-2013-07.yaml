@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1450.6.2-D-6-2013-07
 title:
 - content: IEEE Draft Standard for Memory Modeling in Core Test Language (CTL)
@@ -85,15 +85,16 @@ keyword:
 - content: Memory Built-In-Self-Test (Memory BIST)
 - content: memory modeling
 - content: memory repair
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

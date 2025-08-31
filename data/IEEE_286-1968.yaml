@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE286-1968
 title:
 - content: IEEE Recommended Practice for Measurement of Power-Factor Tip-Up of Rotating
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2016-02-03'
 - type: created
-  value: '1968'
+  value: '1968-07-31'
 - type: published
   value: '2016-01-18'
 - type: issued
@@ -65,13 +65,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: ANSI-IEEE286-1975
+    id: ANSI-IEEEStd286-1975
     docid:
-    - id: ANSI/IEEE 286-1975
+    - id: ANSI/IEEE Std 286-1975
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE 286-1975
+      content: ANSI/IEEE Std 286-1975
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -79,9 +79,10 @@ keyword:
 - content: Stators
 - content: Insulation
 - content: Coil insulation
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

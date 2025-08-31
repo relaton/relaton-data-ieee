@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEE275-1981
 title:
 - content: IEEE Recommended Practice for Thermal Evaluation of Insulation Systems
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEE275-1992
+    id: IEEEStd275-1992
     docid:
-    - id: IEEE 275-1992
+    - id: IEEE Std 275-1992
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 275-1992
+      content: IEEE Std 275-1992
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -94,12 +94,10 @@ keyword:
 - content: insulation
 - content: systems
 - content: electric
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

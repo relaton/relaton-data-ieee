@@ -1,0 +1,167 @@
+---
+schema-version: v1.2.9
+id: IEEEStd1906.1.1-2020
+title:
+- content: IEEE Standard Data Model for Nanoscale Communication Systems
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/9285373
+  type: src
+type: standard
+docid:
+- id: IEEE Std 1906.1.1-2020
+  type: IEEE
+  primary: true
+- id: IEEE Std 1906.1.1™-2020
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-1-5044-6994-4
+  type: ISBN
+- id: 10.1109/IEEESTD.2020.9285373
+  type: DOI
+docnumber: IEEE Std 1906.1.1-2020
+date:
+- type: updated
+  value: '2021-01-29'
+- type: created
+  value: '2020-12-07'
+- type: published
+  value: '2020-12-07'
+- type: issued
+  value: '2020-09-24'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2020-12-07'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: A set of YANG modules describing nanoscale communication systems and their
+    associated physical quantities in conformance with IEEE Std 1906.1-2015--a common
+    framework for all nanoscale communication technologies--are comprised by this
+    data model. Physics unique to the nanoscale are represented by the model. The
+    physics are referred to as non-standard, required by IEEE Std 1906.1-2015. Remote
+    configuration and management for remote simulation, operation, and analysis of
+    nanoscale communication systems are defined by the model. A self-describing data
+    structure is defined by the model for datastores and repositories of nanoscale
+    communication experimental data enabling a common understanding of the data from
+    a wide variety of nanoscale communication media and technologies. Augmentation
+    of the IEEE Std 1906.1-2015 common core components with details specific to the
+    physics of the nanoscale communication system is allowed by the model. Techniques
+    used by the model facilitate reuse and augmentation. In addition, extensions to
+    IEEE Std 802.1Q and Internet Engineering Task Force (IETF) interfaces--allowing
+    reusability within existing networks, which implies a macroscale to nanoscale
+    interface, and defines nanoscale communication as a feature for bridge ports as
+    defined in IEEE Std 802.1 - are provided. The model is composed of simple, required
+    core components while allowing optional, device-specific components and metrics
+    to be added. There is conformity with best practices as defined by the IEEE 802
+    YANG editors' coordination committee and IETF RFC 6087, and consideration of coexistence
+    and interoperability with existing domain models and tools, such as the Systems
+    Biology Markup Language (SBML).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: A set of YANG modules describing nanoscale communication systems and their
+    associated physical quantities in conformance with IEEE Std 1906.1-2015--a common
+    framework for all nanoscale communication technologies--are comprised by this
+    data model. Physics unique to the nanoscale are represented by the model. The
+    physics are referred to as non-standard, required by IEEE Std 1906.1-2015. Remote
+    configuration and management for remote simulation, operation, and analysis of
+    nanoscale communication systems are defined by the model. A self-describing data
+    structure is defined by the model for datastores and repositories of nanoscale
+    communication experimental data enabling a common understanding of the data from
+    a wide variety of nanoscale communication media and technologies. Augmentation
+    of the IEEE Std 1906.1-2015 common core components with details specific to the
+    physics of the nanoscale communication system is allowed by the model. Techniques
+    used by the model facilitate reuse and augmentation. In addition, extensions to
+    IEEE Std 802.1Q and Internet Engineering Task Force (IETF) interfaces--allowing
+    reusability within existing networks, which implies a macroscale to nanoscale
+    interface, and defines nanoscale communication as a feature for bridge ports as
+    defined in IEEE Std 802.1--are provided. The model is composed of simple, required
+    core components while allowing optional, device-specific components and metrics
+    to be added. There is conformity with best practices as defined by the IEEE 802
+    YANG editors’ coordination committee and IETF RFC 6087, and consideration of coexistence
+    and interoperability with existing domain models and tools, such as the Systems
+    Biology Markup Language (SBML).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: approved
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2020'
+keyword:
+- content: IEEE Standards
+- content: Nanoscale devices
+- content: Communication systems
+- content: Molecular communication
+- content: Data models
+- content: Nanoelectromechanical systems
+- content: Nanobioscience
+- content: communication networks
+- content: communication standards
+- content: communication systems
+- content: data model
+- content: IEEE 1906.1
+- content: molecular communication
+- content: multi-scale network
+- content: nanobioscience
+- content: nanobiotechnology
+- content: nanobots
+- content: nanodevice
+- content: nanoelectrochemical systems
+- content: nanoelectromechanical systems
+- content: nanofluidics
+- content: nanomedicine
+- content: nanophysics
+- content: nanopositioning
+- content: nanoscale
+- content: nanoscale communication framework
+- content: nanoscale devices
+- content: nanosensors
+- content: nanostructured materials
+- content: nanotechnology
+- content: nanotube devices
+- content: nanowires
+- content: network management
+- content: quantum mechanics
+- content: simulation
+- content: standards development
+- content: YANG
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Edge, Fog, Cloud Communications with IOT and Big Data Standards Committee of
+      the IEEE Communications Society
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

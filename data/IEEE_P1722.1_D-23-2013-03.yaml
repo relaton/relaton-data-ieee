@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1722.1-D-23-2013-03
 title:
 - content: IEEE Standard for Device Discovery, Connection Management, and Control
@@ -89,15 +89,16 @@ keyword:
 - content: QoS
 - content: time sensitive media streaming
 - content: time synchronization
-doctype: standard
-editorialgroup:
-  committee:
-  - Microprocessor Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

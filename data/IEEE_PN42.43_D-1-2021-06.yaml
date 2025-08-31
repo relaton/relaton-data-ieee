@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPN42.43-D-1-2021-06
 title:
 - content: IEEE Draft Standard for Mobile Radiation Monitors for Homeland Security
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE PN42.43/D-1-2021-06
 date:
 - type: created
-  value: '2021'
+  value: '2021-06-15'
 - type: published
   value: '2021-06-16'
 - type: issued
@@ -66,17 +66,23 @@ copyright:
     url: http://www.ieee.org
   from: '2021'
 keyword:
+- content: IEEE Standards
+- content: Radiation detectors
+- content: US Department of Homeland Security
+- content: Terrorism
+- content: Radiation monitoring
 - content: ANSI N42.43
 - content: mobile radiation monitors
 - content: MRM
-doctype: standard
-editorialgroup:
-  committee:
-  - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
-    and Measurement Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
+      and Measurement Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

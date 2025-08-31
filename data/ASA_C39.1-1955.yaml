@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ASAC39.1-1955
 title:
 - content: ASA American Standard Electrical Indicating Instruments Panel, Switchboard,
@@ -23,7 +23,7 @@ docid:
 docnumber: ASA C39.1-1955
 date:
 - type: created
-  value: '1955'
+  value: '1955-07-27'
 - type: published
   value: '2020-03-04'
 - type: issued
@@ -57,9 +57,10 @@ keyword:
 - content: Electroincs equipment
 - content: Switching circuits
 - content: Instruments
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

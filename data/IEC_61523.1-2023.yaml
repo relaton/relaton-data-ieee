@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61523.1-2023
 title:
 - content: 'IEEE/IEC International Standard--Delay and power calculation standards--Part
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE1481-2019
+    id: IEEEStd1481-2019
     docid:
-    - id: IEEE 1481-2019
+    - id: IEEE Std 1481-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1481-2019
+      content: IEEE Std 1481-2019
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -97,15 +97,16 @@ keyword:
 - content: IEEE 1481TM
 - content: integrated circuit (IC) design
 - content: power calculation
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '31.200'
-  text: Integrated circuits. Microelectronics
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

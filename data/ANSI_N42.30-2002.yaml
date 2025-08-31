@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.30-2002
 title:
 - content: American National Standard for Performance Specification for Tritium Monitors
@@ -74,15 +74,16 @@ keyword:
 - content: Radiation monitoring
 - content: Standards
 - content: Calibration
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation, N42
-ics:
-- code: '31.020'
-  text: Electronic display devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation, N42
+  ics:
+  - code: '31.020'
+    text: Electronic display devices
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

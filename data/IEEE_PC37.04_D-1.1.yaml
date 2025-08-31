@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.04-D-1.1
 title:
 - content: IEEE Draft Standard for Ratings and Requirements for AC High-Voltage Circuit
@@ -78,64 +78,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.04-2018
+    id: IEEEStdC37.04-2018
     docid:
-    - id: IEEE C37.04-2018
+    - id: IEEE Std C37.04-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.04-2018
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.04-2018
-    docid:
-    - id: IEEE C37.04-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.04-2018
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.04-2018
-    docid:
-    - id: IEEE C37.04-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.04-2018
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.04-2018
-    docid:
-    - id: IEEE C37.04-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.04-2018
+      content: IEEE Std C37.04-2018
       format: text/plain
   description:
     content: corrects
@@ -165,15 +114,16 @@ keyword:
 - content: short-circuit current
 - content: short-line fault
 - content: transient recovery voltage
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

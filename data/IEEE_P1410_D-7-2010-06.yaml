@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1410-D-7-2010-06
 title:
 - content: IEEE Draft Guide for Improving the Lightning Performance of Electric Power
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1410/D-7-2010-06
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-19'
 - type: published
   value: '2010-07-23'
 - type: issued
@@ -82,15 +82,16 @@ keyword:
 - content: induced overvoltage
 - content: surge impedance
 - content: ground conductivity
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

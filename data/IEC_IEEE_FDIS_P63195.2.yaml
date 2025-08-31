@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEFDISP63195.2
 title:
 - content: 'IEEE International Draft Standard - Assessment of power density of human
@@ -69,12 +69,13 @@ keyword:
 - content: Radiofrequency exposure
 - content: Human factors
 - content: Electromagnetic analysis
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

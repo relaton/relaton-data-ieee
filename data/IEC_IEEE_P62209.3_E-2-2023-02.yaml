@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP62209.3-E-2-2023-02
 title:
 - content: 'Iec/ieee draft international standard - measurement procedure for the
@@ -70,12 +70,13 @@ keyword:
 - content: Human factors
 - content: Radiation detectors
 - content: Radiation monitoring
-doctype: standard
-editorialgroup:
-  committee:
-  - International Committee on Electromagnetic Safety of the IEEE SA Board of Governors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - International Committee on Electromagnetic Safety of the IEEE SA Board of Governors
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

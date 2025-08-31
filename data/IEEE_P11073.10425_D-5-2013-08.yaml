@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10425-D-5-2013-08
 title:
 - content: IEEE Draft Standard for Health informatics - Personal health device communication
@@ -85,16 +85,17 @@ keyword:
 - content: medical device communication
 - content: personal health devices
 - content: continuous glucose monitor
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073TM Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073TM Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

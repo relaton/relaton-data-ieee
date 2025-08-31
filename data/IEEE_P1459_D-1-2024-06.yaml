@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1459-D-1-2024-06
 title:
 - content: IEEE Draft Standard Definitions for the Measurement of Electric Power Quantities
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P1459/D-1-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-01'
 - type: published
-  value: '2024-07-05'
+  value: '2024-07-04'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -41,11 +41,27 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-07-05'
+revdate: '2024-07-04'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: 'Definitions used for measurement of electric power quantities under sinusoidal,
+    nonsinusoidal, balanced, or unbalanced conditions are provided in this standard.
+    Mathematical formulas for measurements and the appropriate notations for expressing
+    quantity values are given. Informative annexes discuss (A) the measurement observation
+    period, (B) combining Fourier decomposition and phase-sequence components, (C)
+    a systems approach to measurement, (D) filtering, (E) a Trust Metric and a No-trust
+    Metric, (F) Source Apparent Power, and (G) omissions from the previous version
+    of Std 1459. Expressions that were used in the past, as well as new expressions,
+    are listed, as well as explanations of the features of the new definitions. An
+    errata for this PDF is available at: https://standards.ieee.org/wp-content/uploads/2025/06/1459-2025_errata.pdf'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,81 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1459-2010
+    id: IEEEStd1459-2010
     docid:
-    - id: IEEE 1459-2010
+    - id: IEEE Std 1459-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1459-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1459-2010
-    docid:
-    - id: IEEE 1459-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1459-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1459-2010
-    docid:
-    - id: IEEE 1459-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1459-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1459-2010
-    docid:
-    - id: IEEE 1459-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1459-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1459-2010
-    docid:
-    - id: IEEE 1459-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1459-2010
+      content: IEEE Std 1459-2010
       format: text/plain
   description:
     content: revises
@@ -148,18 +96,28 @@ keyword:
 - content: Terminology
 - content: Power system measurements
 - content: Power electronics
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Instrumentation and Measurements of the IEEE Power and Energy Society
-ics:
-- code: 01.040.17
-  text: Metrology and measurement. Physical phenomena (Vocabularies)
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
+- content: apparent power
+- content: average power
+- content: IEEE 1459™
+- content: legal metrology
+- content: operational measurement
+- content: power factor
+- content: reactive power
+- content: representational measurement
+- content: scientific meaning
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Instrumentation and Measurements of the IEEE Power and Energy Society
+  ics:
+  - code: 01.040.17
+    text: Metrology and measurement. Physical phenomena (Vocabularies)
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

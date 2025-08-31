@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.243-D-4.2-2015-01
 title:
 - content: IEEE Approved Draft Guide for Application of Digital Line Current Differential
@@ -80,15 +80,16 @@ keyword:
 - content: Power system protection
 - content: Transmission line measurements
 - content: Current measurements
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying of the IEEE Power and Energy Society
-ics:
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.70
+    text: Relays
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

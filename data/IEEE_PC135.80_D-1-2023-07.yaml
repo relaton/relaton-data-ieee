@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC135.80-D-1-2023-07
 title:
 - content: IEEE Draft Standard for Fasteners for Overhead Line Construction
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC135.80-2012
+    id: IEEEStdC135.80-2012
     docid:
-    - id: IEEE C135.80-2012
+    - id: IEEE Std C135.80-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C135.80-2012
+      content: IEEE Std C135.80-2012
       format: text/plain
   description:
     content: revises
@@ -100,16 +100,17 @@ keyword:
 - content: screw
 - content: staple
 - content: washer
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 21.060.10
-  text: Bolts, screws, studs
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 21.060.10
+    text: Bolts, screws, studs
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

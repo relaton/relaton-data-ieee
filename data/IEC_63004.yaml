@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC63004
 title:
 - content: IEC/IEEE International standard for receiver fixture interface
@@ -72,6 +72,30 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: 'A mechanical and electrical specification for implementing a common interoperable
+    mechanical quick-disconnect interconnect system for use by industry for interfacing
+    large numbers of electrical signals (digital, analog, RF, power, etc.) is provided.
+    These large interface panels (receiver and fixture panels) are employed primarily
+    in test systems between stimulus/measurement assets and a related unit-under-test
+    (UUT), although any application involving high-density contacts requiring a quick
+    disconnect interface could benefit. The receiver is a receptacle that is mounted
+    to test system mates with multiple fixtures, which serve as thebuffer between
+    the UUT and automatic test equipment (ATE). Fixtures translate standard input/output
+    (I/O) signal routing offered at the receiver to a wiring interface that directly
+    connects to the UUT. These UUT interfaces can represent cable connectors, direct
+    plug-in (printed circuit board edge connectors), sensor monitoring, or manual
+    feedback from the test technician.The primary objectives of this standard are:
+    (a) to establish interface standards that permit interchangeability of mechanical/electrical
+    receiver/fixture/connector product assemblies from various manufacturers under
+    an open architecture; and (b) to develop within this framework a defined set(s)
+    of interconnecting connector and mechanical specifications that supports available,
+    accepted, low-cost commercial technology to reduced dependence on proprietary
+    designs and extend life-cycle availability.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -88,66 +112,15 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE1505-2010
+    id: IEEEStd1505-2010
     docid:
-    - id: IEEE 1505-2010
+    - id: IEEE Std 1505-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1505-2010
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE1505-2010
-    docid:
-    - id: IEEE 1505-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1505-2010
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE1505-2010
-    docid:
-    - id: IEEE 1505-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1505-2010
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE1505-2010
-    docid:
-    - id: IEEE 1505-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1505-2010
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE1505-2010
-    docid:
-    - id: IEEE 1505-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1505-2010
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE1505-2010
-    docid:
-    - id: IEEE 1505-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1505-2010
+      content: IEEE Std 1505-2010
       format: text/plain
 keyword:
-- content: IEC Standards
 - content: IEC Standards
 - content: Receivers
 - content: Connectors
@@ -161,15 +134,16 @@ keyword:
 - content: quick disconnect
 - content: receiver
 - content: specification
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 31.220.10
-  text: Plug-and-socket devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 31.220.10
+    text: Plug-and-socket devices
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

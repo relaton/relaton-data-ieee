@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.120-D-015-2016-03
 title:
 - content: IEEE Approved Draft Guide for Loss Evaluation of Distribution and Power
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.120-1991
+    id: IEEEStdC57.120-1991
     docid:
-    - id: IEEE C57.120-1991
+    - id: IEEE Std C57.120-1991
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.120-1991
+      content: IEEE Std C57.120-1991
       format: text/plain
   description:
     content: revises
@@ -95,15 +95,13 @@ keyword:
 - content: losses
 - content: reactor
 - content: transformer
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

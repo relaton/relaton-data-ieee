@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.32.10-D-6.1-2024-04
 title:
 - content: IEEE Draft Guide for the Selection of Neutral-Grounding Devices for High
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE PC57.32.10/D-6.1-2024-04
 date:
 - type: created
-  value: '2024'
+  value: '2024-04-26'
 - type: published
-  value: '2024-04-30'
+  value: '2024-04-29'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -41,11 +41,22 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-04-30'
+revdate: '2024-04-29'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: The applications, selection principles, technical requirements, and test
+    requirements for dry type and liquid-immersed neutral-grounding devices used with
+    high-voltage direct current (HVDC) converter transformers are discussed. HVDC
+    converter transformers with a star-connected winding on the grid side and a delta-connected
+    winding on the valve side are applicable to this guide.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -66,18 +77,23 @@ keyword:
 - content: Grounding
 - content: Inductors
 - content: Insulation testing
-- content: HVDC converter transformers
-- content: short-circuit currents
+- content: high-voltage direct current (HVDC) converter transformers
+- content: IEEE C57.32.10
+- content: insulation level
 - content: neutral-grounding devices
 - content: reactors
-- content: insulation level
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
+- content: short-circuit currents
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

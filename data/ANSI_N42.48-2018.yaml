@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.48-2018
 title:
 - content: American National Standard Performance Requirements for Spectroscopic Personal
@@ -24,8 +24,6 @@ docid:
   type: DOI
 docnumber: ANSI N42.48-2018
 date:
-- type: updated
-  value: '2020-05-29'
 - type: created
   value: '2019-02-01'
 - type: published
@@ -55,6 +53,17 @@ abstract:
     radiation detection instruments that are pocket-sized and worn on the body for
     the purpose of rapid detection and identification of radioactive materials are
     described in this standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: Design and performance requirements, along with testing methods, for evaluating
+    radiation detection instruments that are pocket-sized and worn on the body for
+    the purpose of rapid detection and identification of radioactive materials are
+    described in this standard. (The PDF of this standards is available at no cost
+    to you compliments of the Department of Homeland Security Domestic Nuclear Detection
+    Office. https://ieeexplore.ieee.org/browse/standards/get-program/page)
   language:
   - en
   script:
@@ -94,15 +103,16 @@ keyword:
 - content: radiation detection
 - content: radiation instrumentation
 - content: spectroscopic
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

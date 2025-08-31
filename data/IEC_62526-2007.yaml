@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62526-2007
 title:
 - content: 'IEC 62526 Ed. 1 (IEEE Std 1450.1(TM)-2005): Standard for Extensions to
@@ -93,12 +93,13 @@ keyword:
 - content: signal variable
 - content: system on chip (SoC)
 - content: test protocol
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

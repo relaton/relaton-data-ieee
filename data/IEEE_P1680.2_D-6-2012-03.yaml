@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1680.2-D-6-2012-03
 title:
 - content: IEEE Draft Standard for Environmental Assessment of Imaging Equipment
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1680.2/D-6-2012-03
 date:
 - type: created
-  value: '2012'
+  value: '2012-03-06'
 - type: published
   value: '2012-03-06'
 - type: issued
@@ -91,17 +91,18 @@ keyword:
 - content: printers
 - content: mailing machines
 - content: scanners
-doctype: standard
-editorialgroup:
-  committee:
-  - Environmental Assessment of Standards Committee of the IEEE Computer Society
-ics:
-- code: 13.020.30
-  text: Environmental impact assessment
-- code: '35.160'
-  text: Microprocessor systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Environmental Assessment of Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 13.020.30
+    text: Environmental impact assessment
+  - code: '35.160'
+    text: Microprocessor systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

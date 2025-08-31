@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.41-2021
 title:
 - content: American National Standard Performance Criteria for Active Interrogation
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI N42.41-2021
 date:
 - type: created
-  value: '2022'
+  value: '2022-07-15'
 - type: published
   value: '2022-07-14'
 - type: issued
@@ -92,7 +92,7 @@ keyword:
 - content: Terrorism
 - content: Weapons
 - content: Security
-- content: Chemical warfare
+- content: Chemical weapons
 - content: active interrogation
 - content: ANSI N42.41
 - content: baggage
@@ -109,12 +109,16 @@ keyword:
 - content: special nuclear materials
 - content: weapons of mass destruction
 - content: WMD
-doctype: standard
-ics:
-- code: '13.310'
-  text: Protection against crime
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '13.310'
+    text: Protection against crime
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

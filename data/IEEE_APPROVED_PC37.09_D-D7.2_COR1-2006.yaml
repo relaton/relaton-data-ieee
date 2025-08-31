@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEApprovedPC37.09-D-D7.2-Cor1-2006
 title:
 - content: 'Approved IEEE Draft Standard Test Procedure for AC High-Voltage Circuit
@@ -64,12 +64,13 @@ keyword:
 - content: Patents
 - content: Licenses
 - content: Switches
-doctype: standard
-ics:
-- code: 29.120.40
-  text: Switches
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.40
+    text: Switches
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

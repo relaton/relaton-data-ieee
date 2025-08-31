@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ASAC39.1-1959
 title:
 - content: ASA American Standard Requirements for Electrical Indicating Instruments
@@ -25,7 +25,7 @@ docid:
 docnumber: ASA C39.1-1959
 date:
 - type: created
-  value: '1959'
+  value: '1959-06-30'
 - type: published
   value: '2020-03-04'
 - type: issued
@@ -62,9 +62,10 @@ keyword:
 - content: Switching circuits
 - content: NEMA
 - content: Electroincs equipment
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

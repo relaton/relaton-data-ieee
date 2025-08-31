@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE80005.1-2019
 title:
 - content: 'ISO/IEC/IEEE International Standard - Utility connections in port -- Part
@@ -64,6 +64,24 @@ copyright:
   - name:
     - content: IEC
   from: '2023'
+relation:
+- type: updates
+  bibitem:
+    id: IEC-IEEE80005.1-2019
+    docid:
+    - id: IEC/IEEE 80005.1-2019
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEC/IEEE 80005.1-2019
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: IEC Standards
@@ -71,15 +89,16 @@ keyword:
 - content: Maritime communications
 - content: Voltage control
 - content: Marine vehicles
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 47.020.60
-  text: Electrical equipment of ships and of marine structures
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 47.020.60
+    text: Electrical equipment of ships and of marine structures
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

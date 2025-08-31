@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.98-D-2-2022-08
 title:
 - content: IEEE Draft Standard for Seismic Qualification Testing of Protective Relays
@@ -74,81 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.98-2013
+    id: IEEEStdC37.98-2013
     docid:
-    - id: IEEE C37.98-2013
+    - id: IEEE Std C37.98-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.98-2013
-    docid:
-    - id: IEEE C37.98-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.98-2013
+      content: IEEE Std C37.98-2013
       format: text/plain
   description:
     content: revises
@@ -184,17 +116,18 @@ keyword:
 - content: seismic test
 - content: test
 - content: test response spectrum
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 27.120.20
-  text: Nuclear power plants. Safety
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  - code: 29.120.70
+    text: Relays
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1591.1-D-4-2022-12
 title:
 - content: IEEE Draft Standard for Testing and Performance of Hardware for Optical
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P1591.1/D-4-2022-12
 date:
 - type: created
-  value: '2023'
+  value: '2023-03-16'
 - type: published
   value: '2023-03-17'
 - type: issued
-  value: '2023'
+  value: '2023-09-21'
 contributor:
 - organization:
     name:
@@ -49,10 +49,10 @@ script:
 abstract:
 - content: Hardware performance, test requirements, procedures, and acceptance criteria
     for a transmission line overhead ground wire (also known as shield wire, static
-    wire, earth wire, sky wire) with optical fibers commonly known as optical ground
-    wire (OPGW) are covered. Functional requirements, such as electrical, mechanical,
+    wire, earth wire, and sky wire) with optical fibers commonly known as optical
+    ground wire (OPGW) are covered. Functional requirements--such as electrical, mechanical,
     optical fiber, environmental, and test requirements related to design, installation,
-    in service, and maintenance, including routine tests, are included.
+    in service, and maintenance, including routine tests--are included.
   language:
   - en
   script:
@@ -72,115 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1591.1-2012
+    id: IEEEStd1591.1-2012
     docid:
-    - id: IEEE 1591.1-2012
+    - id: IEEE Std 1591.1-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1591.1-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1591.1-2012
-    docid:
-    - id: IEEE 1591.1-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1591.1-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1591.1-2012
-    docid:
-    - id: IEEE 1591.1-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1591.1-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1591.1-2012
-    docid:
-    - id: IEEE 1591.1-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1591.1-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1591.1-2012
-    docid:
-    - id: IEEE 1591.1-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1591.1-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1591.1-2012
-    docid:
-    - id: IEEE 1591.1-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1591.1-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1591.1-2012
-    docid:
-    - id: IEEE 1591.1-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1591.1-2012
+      content: IEEE Std 1591.1-2012
       format: text/plain
   description:
     content: revises
@@ -196,20 +94,21 @@ keyword:
 - content: Testing
 - content: Grounding
 - content: fiber optic ground wire
-- content: IEEE 1591.1
+- content: IEEE 1591.1&#8482;
 - content: laboratory tests
 - content: OPGW
 - content: optical ground wire
 - content: type tests
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: 33.180.10
-  text: Fibres and cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
+  ics:
+  - code: 33.180.10
+    text: Fibres and cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

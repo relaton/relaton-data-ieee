@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62014.5
 title:
 - content: IEEE/IEC International Standard - Quality of Electronic and Software Intellectual
@@ -25,7 +25,7 @@ docid:
 docnumber: IEC 62014.5
 date:
 - type: created
-  value: '2015'
+  value: '2015-03-24'
 - type: published
   value: '2015-03-25'
 - type: issued
@@ -64,6 +64,21 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: A standard XML format for representing electronic design intellectual property
+    (IP)quality information, based on an information model for IP quality measurement,
+    is defined. Itincludes a schema and the terms that are relevant for measuring
+    IP quality, including the softwarethat executes on the system. The schema and
+    information model can be focused to representparticular categories of interest
+    to IP users. In the context of this document, the term IP shall beused to mean
+    electronic design intellectual property. Electronic design intellectual property
+    is aterm used in the electronic design community to refer to a reusable collection
+    of designspecifications that represent the behavior, properties, and/or representation
+    of the design invarious media.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -80,13 +95,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE1724-2011
+    id: IEEEStd1724-2011
     docid:
-    - id: IEEE 1724-2011
+    - id: IEEE Std 1724-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1724-2011
+      content: IEEE Std 1724-2011
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -120,15 +135,16 @@ keyword:
 - content: VIP
 - content: XML design meta data
 - content: XML schema
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

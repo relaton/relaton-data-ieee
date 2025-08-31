@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.123-D-2-2023-04
 title:
 - content: IEEE Draft Guide for Specifications for High-Voltage Gas-Insulated Substations
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2023-05-24'
 - type: published
-  value: '2023-05-26'
+  value: '2023-05-25'
 - type: issued
-  value: '2023'
+  value: '2023-12-06'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-05-26'
+revdate: '2023-05-25'
 language:
 - en
 script:
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.123-2016
+    id: IEEEStdC37.123-2016
     docid:
-    - id: IEEE C37.123-2016
+    - id: IEEE Std C37.123-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.123-2016
+      content: IEEE Std C37.123-2016
       format: text/plain
   description:
     content: revises
@@ -94,22 +94,23 @@ keyword:
 - content: gas-insulated substation
 - content: GIS equipment
 - content: GIS specification
-- content: IEEE C37.123
-- content: SF6
-- content: sulfur hexafluoride
+- content: IEEE C37.123&#8482;
 - content: insulating gas
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: '27.100'
-  text: Power stations in general
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
+- content: SF
+- content: sulfur hexafluoride
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations Committee of the IEEE Power and Energy Society
+  ics:
+  - code: '27.100'
+    text: Power stations in general
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

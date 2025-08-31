@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3307-D-1-2024-01
 title:
 - content: Draft Standard - Adoption of Moving Picture, Audio and Data Coding by Artificial
@@ -28,7 +28,7 @@ date:
 - type: published
   value: '2024-03-01'
 - type: issued
-  value: '2024'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -47,6 +47,18 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: 'This is an adoption of the Moving Picture, Audio and Data Coding by Artificial
+    Intelligence (MPAI)--Technical Specification Connected Autonomous Vehicle-Architecture
+    as a standard. This Technical Specification specifies the architecture of connected
+    autonomous vehicle (CAV) based on a reference model. The CAV is broken down into
+    subsystems for each of which are as follows: functions, input/output data, and
+    topology of components.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -78,13 +90,23 @@ keyword:
 - content: Diagnostic expert systems
 - content: Mass customization
 - content: Machine learning
-doctype: standard
-editorialgroup:
-  committee:
-  - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+- content: adoption
+- content: AI framework
+- content: Artificial Intelligence
+- content: CAV
+- content: connected autonomous vehicle-architecture
+- content: IEEE 3307
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+  ics:
+  - code: '43.020'
+    text: Road vehicles in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

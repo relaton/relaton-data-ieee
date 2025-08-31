@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.69-D-3-2013-09
 title:
 - content: IEEE Draft Standard for the Surge Parameters of Isolating Transformers
@@ -83,15 +83,16 @@ keyword:
 - content: impulse voltage
 - content: 1.2/50
 - content: lightning overvoltage
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.240.10
-  text: Substations. Surge arresters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.10
+    text: Substations. Surge arresters
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

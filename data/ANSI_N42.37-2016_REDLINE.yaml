@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.37-2016Redline
 title:
 - content: American National Standard Training for the Radiological/Nuclear Detection
@@ -95,15 +95,16 @@ keyword:
 - content: radionuclide identifier
 - content: reachback
 - content: Secondary Screener
-doctype: redline
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

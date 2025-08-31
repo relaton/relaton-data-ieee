@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEECDP26513-D-1-2015
 title:
 - content: ISO/IEC/IEEE International Draft Standard - Systems and Software Engineering
@@ -84,13 +84,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE26513-2010
+    id: IEEEStd26513-2010
     docid:
-    - id: IEEE 26513-2010
+    - id: IEEE Std 26513-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 26513-2010
+      content: IEEE Std 26513-2010
       format: text/plain
   description:
     content: revises
@@ -110,15 +110,13 @@ keyword:
 - content: user documentation
 - content: testing and reviewing user documentation
 - content: usability testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

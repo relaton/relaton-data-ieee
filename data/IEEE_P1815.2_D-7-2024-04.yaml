@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1815.2-D-7-2024-04
 title:
 - content: IEEE Draft Standard Profile for Communications with Distributed Energy
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1815.2/D-7-2024-04
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-30'
 - type: published
   value: '2024-07-31'
 - type: issued
@@ -92,13 +92,14 @@ keyword:
 - content: photovoltaic systems
 - content: battery storage systems
 - content: plant controllers
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

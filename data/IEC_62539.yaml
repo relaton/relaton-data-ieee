@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62539
 title:
 - content: IEC/IEEE Guide for the Statistical Analysis of Electrical Insulation Breakdown
@@ -24,10 +24,10 @@ docid:
   type: DOI
 docnumber: IEC 62539
 date:
-- type: updated
-  value: '2016-07-08'
 - type: created
   value: '2007'
+- type: published
+  value: '2007-08-13'
 - type: issued
   value: '2004-09-23'
 contributor:
@@ -37,8 +37,13 @@ contributor:
     abbreviation:
       content: IEEE
     url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
   role:
   - type: publisher
+revdate: '2007-08-13'
 language:
 - en
 script:
@@ -49,6 +54,17 @@ abstract:
     insulating materials, for purposes including characterization of the system, comparison
     with another insulator system, and prediction of the probability of breakdown
     at given times or voltages.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: 'This guide describes, with examples, statistical methods to analyze times
+    to break down and breakdown voltage data obtained from electrical testing of solid
+    insulating materials, for purposes including characterization of the system, comparison
+    with another insulator system, and prediction of the probability of breakdown
+    at given times or voltages. Keywords: breakdown voltage and time, Gumbel, Lognormal
+    distributions, statistical methods, statistical confidence limits, Weibull'
   language:
   - en
   script:
@@ -73,16 +89,17 @@ keyword:
 - content: Statistical analysis
 - content: Insulators
 - content: Solids
-doctype: standard
-editorialgroup:
-  committee:
-  - Statistical Technical Committee of the IEEE Dielectrics and Electrical Insulation
-    Society
-ics:
-- code: 29.035.01
-  text: Insulating materials in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Statistical Technical Committee of the IEEE Dielectrics and Electrical Insulation
+      Society
+  ics:
+  - code: 29.035.01
+    text: Insulating materials in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

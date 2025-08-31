@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10427-D-3-2016-05
 title:
 - content: 'IEEE Draft Standard - Health Informatics - Personal Health Device Communication
@@ -86,13 +86,14 @@ keyword:
 - content: medical device communication
 - content: personal health devices
 - content: power status monitor (PSM)
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

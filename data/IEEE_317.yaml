@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE317
 title:
 - content: IEEE Standard for Electrical Penetration Assemblies in Containment Structures
@@ -25,7 +25,7 @@ date:
 - type: updated
   value: '2020-06-19'
 - type: created
-  value: '1971'
+  value: '1971-04-30'
 - type: published
   value: '2020-05-19'
 - type: issued
@@ -72,24 +72,22 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEE317-1972
+    id: IEEEStd317-1972
     docid:
-    - id: IEEE 317-1972
+    - id: IEEE Std 317-1972
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 317-1972
+      content: IEEE Std 317-1972
       format: text/plain
 keyword:
 - content: IEEE Standards
 - content: Nuclear power generation
 - content: Power generation
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Nuclear and Plasma Sciences Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

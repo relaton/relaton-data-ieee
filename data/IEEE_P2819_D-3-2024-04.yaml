@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2819-D-3-2024-04
 title:
 - content: IEEE Draft Recommended Practice for Measuring Electromagnetic Fields from
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2024-05-17'
 - type: published
-  value: '2024-05-21'
+  value: '2024-05-20'
 - type: issued
-  value: '2024'
+  value: '2025-03-27'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-05-21'
+revdate: '2024-05-20'
 language:
 - en
 script:
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE2819-2022
+    id: IEEEStd2819-2022
     docid:
-    - id: IEEE 2819-2022
+    - id: IEEE Std 2819-2022
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 2819-2022
+      content: IEEE Std 2819-2022
       format: text/plain
   description:
     content: revises
@@ -97,20 +97,22 @@ keyword:
 - content: dc electric field
 - content: electric field measurement
 - content: IEEE 2819
+- content: magnetic field measurement
 - content: parallel ac/dc power transmission lines
 - content: power frequency electric field
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

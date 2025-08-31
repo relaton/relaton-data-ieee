@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE61588-2021
 title:
 - content: IEC/IEEE International Standard - Precision Clock Synchronization Protocol
@@ -25,7 +25,7 @@ docid:
 docnumber: IEC/IEEE 61588-2021
 date:
 - type: created
-  value: '2021'
+  value: '2021-06-08'
 - type: published
   value: '2021-06-15'
 - type: issued
@@ -79,13 +79,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE1588-2019
+    id: IEEEStd1588-2019
     docid:
-    - id: IEEE 1588-2019
+    - id: IEEE Std 1588-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1588-2019
+      content: IEEE Std 1588-2019
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -105,15 +105,16 @@ keyword:
 - content: security
 - content: synchronization
 - content: Transparent Clock
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 39.040.99
-  text: Other time-measuring instruments
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

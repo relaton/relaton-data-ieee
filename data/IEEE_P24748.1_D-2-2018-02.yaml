@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP24748.1-D-2-2018-02
 title:
 - content: 'ISO/IEC/IEEE Draft International Standard - Systems and Software Engineering
@@ -80,13 +80,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE24748.1-2011
+    id: IEEEStd24748.1-2011
     docid:
-    - id: IEEE 24748.1-2011
+    - id: IEEE Std 24748.1-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 24748.1-2011
+      content: IEEE Std 24748.1-2011
       format: text/plain
   description:
     content: revises
@@ -103,15 +103,13 @@ keyword:
 - content: Adaptation models
 - content: Iterative methods
 - content: Software engineering
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

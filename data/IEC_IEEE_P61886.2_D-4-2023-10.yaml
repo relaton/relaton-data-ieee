@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP61886.2-D-4-2023-10
 title:
 - content: IEEE/IEC Approved Draft International Standard - Subsea Power Transformers
@@ -77,12 +77,13 @@ keyword:
 - content: IEC Standards
 - content: Power transformers
 - content: Underwater cables
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

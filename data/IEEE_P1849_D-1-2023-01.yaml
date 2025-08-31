@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1849-D-1-2023-01
 title:
 - content: IEEE Approved Draft Standard for eXtensible Event Stream (XES) for Achieving
@@ -50,7 +50,7 @@ abstract:
 - content: A grammar for a tag-based language whose aim is to provide designers of
     information systems with a unified and extensible methodology for capturing systems’
     behaviors by means of event logs and event streams is defined in the XES standard.
-    An “XML Schema” describing the structure of an XES event log/stream and a “XML
+    An “XML Schema” describing the structure of an XES event log/stream and an “XML
     Schema” describing the structure of an extension of such a log/stream are included
     in this standard. Moreover, a basic collection of so-called “XES extension” prototypes
     that provide semantics to certain attributes as recorded in the event log/stream
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1849-2016
+    id: IEEEStd1849-2016
     docid:
-    - id: IEEE 1849-2016
+    - id: IEEE Std 1849-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1849-2016
+      content: IEEE Std 1849-2016
       format: text/plain
   description:
     content: revises
@@ -101,19 +101,19 @@ keyword:
 - content: extensions
 - content: IEEE 1849&#8482;
 - content: system behavior
-- content: XML
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Computational Intelligence Society
-ics:
-- code: 35.240.50
-  text: IT applications in industry
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Computational Intelligence Society
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

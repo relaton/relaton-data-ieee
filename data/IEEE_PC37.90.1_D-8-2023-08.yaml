@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.90.1-D-8-2023-08
 title:
 - content: IEEE Draft Standard for Relays, Relay Systems, and Control Devices used
@@ -28,7 +28,7 @@ date:
 - type: published
   value: '2023-11-03'
 - type: issued
-  value: '2023'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -47,6 +47,22 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: 'Design tests for relays, relay systems, and control devices used for protection
+    and control of electric power apparatus that relate to the immunity of this equipment
+    to repetitive electrical transients are specified in this standard. Two types
+    of tests are specified: the slow damped oscillatory test, and the electrical fast
+    transient (EFT ) burst test. For devices with communication ports, where the device
+    does not perform protection or control functions, testing of the communication
+    functions is covered by IEEE Std 1613&#8482;. Where the device performs protection
+    or control functions and has communication ports, tests for all communication
+    functions are covered by this document. For devices without communication ports,
+    the tests are covered by this document.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -61,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.90.1-2012
+    id: IEEEStdC37.90.1-2012
     docid:
-    - id: IEEE C37.90.1-2012
+    - id: IEEE Std C37.90.1-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.90.1-2012
+      content: IEEE Std C37.90.1-2012
       format: text/plain
   description:
     content: revises
@@ -84,17 +100,19 @@ keyword:
 - content: Control systems
 - content: Power systems
 - content: Warranties
-- content: Switching(surge)
+- content: IEEE C37.90.1&#8482;
+- content: switching (surge)
 - content: transient
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.70
+    text: Relays
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

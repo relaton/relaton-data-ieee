@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC95.2-D-1.5-2018-02
 title:
 - content: IEEE Draft Standard for Radio-Frequency Energy and Current-Flow Symbols
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC95.2-1999
+    id: IEEEStdC95.2-1999
     docid:
-    - id: IEEE C95.2-1999
+    - id: IEEE Std C95.2-1999
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C95.2-1999
+      content: IEEE Std C95.2-1999
       format: text/plain
   description:
     content: revises
@@ -101,18 +101,16 @@ keyword:
 - content: signs
 - content: symbol
 - content: warning
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 01.080.40
-  text: Graphical symbols for use on electrical and electronics engineering drawings,
-    diagrams, charts and in relevant technical product documentation
-- code: '13.280'
-  text: Radiation protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.080.40
+    text: Graphical symbols for use on electrical and electronics engineering drawings,
+      diagrams, charts and in relevant technical product documentation
+  - code: '13.280'
+    text: Radiation protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP522-D-9-2023-06
 title:
 - content: IEEE Draft Guide for Testing Turn Insulation of Form-Wound Stator Coils
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P522/D-9-2023-06
 date:
 - type: created
-  value: '2023'
+  value: '2023-07-17'
 - type: published
   value: '2023-07-18'
 - type: issued
@@ -78,13 +78,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE522-2004
+    id: IEEEStd522-2004
     docid:
-    - id: IEEE 522-2004
+    - id: IEEE Std 522-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 522-2004
+      content: IEEE Std 522-2004
       format: text/plain
   description:
     content: revises
@@ -100,21 +100,21 @@ keyword:
 - content: Electric machines
 - content: Insulation testing
 - content: AC machines
-- content: AC machines
 - content: coils
 - content: IEEE 522
 - content: impulses
 - content: insulation testing
 - content: surges
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.080.99
-  text: Other standards related to insulation
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: 29.080.99
+    text: Other standards related to insulation
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

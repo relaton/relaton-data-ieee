@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1474.2-D-1-2023-06
 title:
 - content: IEEE Draft Standard for User Interface Requirements in Communications-Based
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P1474.2/D-1-2023-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-01'
 - type: published
-  value: '2024-07-05'
+  value: '2024-07-04'
 - type: issued
-  value: '2024'
+  value: '2025-03-27'
 contributor:
 - organization:
     name:
@@ -41,14 +41,14 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-07-05'
+revdate: '2024-07-04'
 language:
 - en
 script:
 - Latn
 abstract:
 - content: User interface requirements for communications-based train control (CBTC)
-    subsystems are established in this standard.
+    subsystems are established in this standard
   language:
   - en
   script:
@@ -68,30 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1474.2-2003
+    id: IEEEStd1474.2-2003
     docid:
-    - id: IEEE 1474.2-2003
+    - id: IEEE Std 1474.2-2003
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1474.2-2003
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1474.2-2003
-    docid:
-    - id: IEEE 1474.2-2003
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1474.2-2003
+      content: IEEE Std 1474.2-2003
       format: text/plain
   description:
     content: revises
@@ -112,19 +95,21 @@ keyword:
 - content: automatic train supervision (ATS)
 - content: communications-based train control (CBTC)
 - content: graphical user interface (GUI)
-doctype: standard
-editorialgroup:
-  committee:
-  - Communications Based Train Control and Signals of the IEEE Vehicular Technology
-    Society
-ics:
-- code: 03.220.30
-  text: Transport by rail
-- code: 35.240.60
-  text: IT applications in transport
+- content: IEEE 1474.2
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Communications Based Train Control and Signals of the IEEE Vehicular Technology
+      Society
+  ics:
+  - code: 03.220.30
+    text: Transport by rail
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

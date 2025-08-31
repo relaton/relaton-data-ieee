@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.17-2013Redline
 title:
 - content: American National Standard Methods of Measurement of the Electromagnetic
@@ -60,6 +60,15 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Specific test procedures for verifying the compliance of unlicensed personal
+    communications services (UPCS) devices (including wideband voice and data devices)
+    are established including applicable regulatory requirements regarding radio-frequency
+    emission levels and spectrum access procedures.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -106,12 +115,13 @@ keyword:
 - content: unlicensed devices
 - content: UPCS
 - content: wideband
-doctype: redline
-ics:
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  ics:
+  - code: 33.100.10
+    text: Emission
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

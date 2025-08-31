@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIPN42.54-D-7-2018-01
 title:
 - content: Draft American National Standard Instrumentation and Systems for Monitoring
@@ -23,7 +23,7 @@ docid:
 docnumber: ANSI PN42.54/D-7-2018-01
 date:
 - type: created
-  value: '2018'
+  value: '2018-03-20'
 - type: published
   value: '2018-04-17'
 - type: issued
@@ -86,12 +86,13 @@ keyword:
 - content: radioiodine
 - content: transuranic
 - content: tritium
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

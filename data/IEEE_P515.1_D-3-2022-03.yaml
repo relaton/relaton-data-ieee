@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP515.1-D-3-2022-03
 title:
 - content: IEEE Approved Draft Standard for the Testing, Design, Installation, and
@@ -71,30 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE515.1-2012
+    id: IEEEStd515.1-2012
     docid:
-    - id: IEEE 515.1-2012
+    - id: IEEE Std 515.1-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 515.1-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE515.1-2012
-    docid:
-    - id: IEEE 515.1-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 515.1-2012
+      content: IEEE Std 515.1-2012
       format: text/plain
   description:
     content: revises
@@ -124,17 +107,18 @@ keyword:
 - content: maintenance
 - content: snow melting
 - content: trace heater
-- content: trace heating.
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 25.180.10
-  text: Electric furnaces
+- content: trace heating
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 25.180.10
+    text: Electric furnaces
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

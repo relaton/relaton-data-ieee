@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.32-2006
 title:
 - content: American National Standard Performance Criteria for Alarming Personal Radiation
@@ -108,15 +108,13 @@ keyword:
 - content: radiation
 - content: radiation detection
 - content: radiation instrumentation
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1856-D-33-2017-03
 title:
 - content: IEEE Draft Standard Framework for Prognostics and Health Management of
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1856/D-33-2017-03
 date:
 - type: created
-  value: '2017'
+  value: '2017-03-28'
 - type: published
   value: '2017-03-29'
 - type: issued
@@ -86,12 +86,13 @@ keyword:
 - content: PHM Metrics
 - content: PHM operational model
 - content: prognostics
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Reliability of the IEEE Reliability Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Reliability of the IEEE Reliability Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

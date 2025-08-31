@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10421-D-4-2023-01
 title:
 - content: 'IEEE Approved Draft Standard for Health Informatics--Device Interoperability--Part
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P11073.10421/D-4-2023-01
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-05'
 - type: published
   value: '2023-01-19'
 - type: issued
@@ -78,13 +78,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE11073.10421-2010
+    id: IEEEStd11073.10421-2010
     docid:
-    - id: IEEE 11073.10421-2010
+    - id: IEEE Std 11073.10421-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10421-2010
+      content: IEEE Std 11073.10421-2010
       format: text/plain
   description:
     content: revises
@@ -101,24 +101,26 @@ keyword:
 - content: Biomedical monitoring
 - content: Point of care
 - content: forced expiratory volume
+- content: IEEE 11073-10421
 - content: medical device communication
 - content: peak expiratory flow
 - content: peak expiratory flow monitor
 - content: peak flow
 - content: personal health devices
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 11.040.55
-  text: Diagnostic equipment
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 11.040.55
+    text: Diagnostic equipment
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

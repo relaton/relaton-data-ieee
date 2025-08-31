@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2144.1-D-2-2020-07
 title:
 - content: IEEE Draft Standard for Framework of Blockchain-based Internet of Things
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2144.1/D-2-2020-07
 date:
 - type: created
-  value: '2020'
+  value: '2020-07-16'
 - type: published
   value: '2020-07-20'
 - type: issued
@@ -78,12 +78,13 @@ keyword:
 - content: IEEE 2144.1&#8482;
 - content: internet of things
 - content: trust data
-doctype: standard
-editorialgroup:
-  committee:
-  - Blockchain Standards Committee of the IEEE Consumer Technology Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Blockchain Standards Committee of the IEEE Consumer Technology Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

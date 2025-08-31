@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC15288-2008Redline
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering
@@ -79,13 +79,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE15288-2004
+    id: IEEEStd15288-2004
     docid:
-    - id: IEEE 15288-2004
+    - id: IEEE Std 15288-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15288-2004
+      content: IEEE Std 15288-2004
       format: text/plain
   description:
     content: revises
@@ -147,17 +147,19 @@ keyword:
 - content: transition
 - content: validation
 - content: verification
-doctype: redline
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: 03.100.40
-  text: Research and development
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: 03.100.40
+    text: Research and development
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Superseded
   standard_modified: Redline
   pubstatus: Active

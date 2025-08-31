@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2621.1-D-2.0-2021-11
 title:
 - content: IEEE Draft Standard for Wireless Diabetes Device Security Assurance Evaluation--Connected
@@ -83,12 +83,20 @@ keyword:
 - content: protection profile
 - content: security
 - content: security target
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Engineering in Medicine and Biology Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+  ics:
+  - code: '35.030'
+    text: IT Security
+  - code: 35.240.80
+    text: IT applications in health care technology
+  - code: 11.040.55
+    text: Diagnostic equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

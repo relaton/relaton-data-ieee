@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3006.8-D-5-2018-04
 title:
 - content: IEEE Draft Recommended Practice for Analyzing Reliability Data for Equipment
@@ -83,12 +83,13 @@ keyword:
 - content: Mean Time to Repair (MTTR)
 - content: Mean Time to Maintain (MTTM)
 - content: Mean Down Time (MDT).
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee of the IEEE Industry Applications Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

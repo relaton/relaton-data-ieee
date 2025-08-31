@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.150-D-5-2023-03
 title:
 - content: IEEE Draft Guide for the Transportation of Transformers and Reactors Rated
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE PC57.150/D-5-2023-03
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-12'
 - type: published
-  value: '2023-04-18'
+  value: '2023-04-17'
 - type: issued
-  value: '2023'
+  value: '2023-09-21'
 contributor:
 - organization:
     name:
@@ -41,13 +41,13 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-04-18'
+revdate: '2023-04-17'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Information for minimizing the risk of damage and delays during transportation
+- content: Information for reducing the risk of damage and delays during the transportation
     of transformers and reactors rated 10 000 kVA or higher is provided in this guide.
   language:
   - en
@@ -68,81 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.150-2012
+    id: IEEEStdC57.150-2012
     docid:
-    - id: IEEE C57.150-2012
+    - id: IEEE Std C57.150-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.150-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.150-2012
-    docid:
-    - id: IEEE C57.150-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.150-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.150-2012
-    docid:
-    - id: IEEE C57.150-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.150-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.150-2012
-    docid:
-    - id: IEEE C57.150-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.150-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.150-2012
-    docid:
-    - id: IEEE C57.150-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.150-2012
+      content: IEEE Std C57.150-2012
       format: text/plain
   description:
     content: revises
@@ -153,25 +85,26 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE Standards
-- content: Reactors
 - content: Power transformers
 - content: Transportation
-- content: Maritime vehicles
+- content: Inductors
+- content: Marine vehicles
 - content: IEEE C57.150&#8482;
 - content: reactors
 - content: shipping
 - content: transformers
 - content: transportation
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

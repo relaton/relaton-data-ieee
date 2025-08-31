@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE63113-2021
 title:
 - content: IEC/IEEE International Standard--Nuclear facilities--Instrumentation important
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2021-05-23'
 - type: created
-  value: '2021'
+  value: '2021-04-20'
 - type: published
   value: '2021-04-23'
 - type: issued
@@ -91,12 +91,13 @@ keyword:
 - content: Instrumentation
 - content: Safety
 - content: Power system reliability
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

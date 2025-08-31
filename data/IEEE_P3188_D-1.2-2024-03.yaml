@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3188-D-1.2-2024-03
 title:
 - content: IEEE Draft Standard for Virtual E-card Platform
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P3188/D-1.2-2024-03
 date:
 - type: created
-  value: '2024'
+  value: '2024-04-03'
 - type: published
-  value: '2024-04-05'
+  value: '2024-04-04'
 - type: issued
-  value: '2024'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -40,15 +40,15 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-04-05'
+revdate: '2024-04-04'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This standard defines a reference architecture and technical requirements
-    for virtual e-card, which is used for identity verification, mobile payment, and
-    access control.
+- content: The reference architecture and technical requirements for the virtual e-card,
+    which is utilized for identity verification, mobile payment, and access control,
+    are defined by this standard.
   language:
   - en
   script:
@@ -67,22 +67,25 @@ copyright:
   from: '2024'
 keyword:
 - content: IEEE Standards
-- content: Standards
-- content: Patents
-- content: Regulation
-- content: Warranties
-- content: Trademarks
-- content: Reviews
+- content: Electronic commerce
+- content: Virtual reality
+- content: Credit cards
+- content: Online banking
+- content: IEEE 3188&#8482;
 - content: mobile payment
 - content: reference architecture
 - content: virtual e-card
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

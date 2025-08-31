@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE-FDISP4203-D-0-2019
 title:
 - content: IEEE/ISO/IEC Approved Draft International Standard - Software, systems
@@ -67,12 +67,14 @@ keyword:
 - content: IEC Standards
 - content: Software engineering
 - content: Software architecture
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

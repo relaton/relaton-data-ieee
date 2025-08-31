@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3188-D-1.3
 title:
-- content: IEEE Draft Standard for Virtual E-card Platform
+- content: IEEE Approved Draft Standard for Virtual E-card Platform
   format: text/plain
   type: main
 link:
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P3188/D-1.3
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-12'
 - type: published
   value: '2024-05-15'
 - type: issued
-  value: '2024'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -46,9 +46,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard defines a reference architecture and technical requirements
-    for virtual e-card, which is used for identity verification, mobile payment, and
-    access control.
+- content: The reference architecture and technical requirements for the virtual e-card,
+    which is utilized for identity verification, mobile payment, and access control,
+    are defined by this standard.
   language:
   - en
   script:
@@ -72,16 +72,21 @@ keyword:
 - content: Online banking
 - content: Access control
 - content: Identification of persons
+- content: IEEE 3188&#8482;
 - content: mobile payment
 - content: reference architecture
 - content: virtual e-card
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

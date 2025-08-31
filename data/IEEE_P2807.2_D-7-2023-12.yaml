@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2807.2-D-7-2023-12
 title:
 - content: IEEE Draft Guide for Application of Knowledge Graphs for Financial Services
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2024-01-01'
 - type: issued
-  value: '2023'
+  value: '2024-03-21'
 contributor:
 - organization:
     name:
@@ -46,12 +46,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard defines the application guide of knowledge graphs for financial
-    services, proposes the knowledge model of knowledge graphs for financial services,
-    gives the general framework of technical activities of knowledge graphs for financial
-    services, describes the process and application methods of constructing knowledge
-    graphs for financial services, and expounds the practical application factors
-    for use cases of knowledge graphs for financial services.
+- content: The application guide of knowledge graphs for financial services is defined
+    in this standard, the knowledge model of knowledge graphs for financial services
+    is proposed, the general framework of technical activities of knowledge graphs
+    for financial services is given, the process and application methods of constructing
+    knowledge graphs for financial services is described, and the practical application
+    factors for use cases of knowledge graphs for financial services is expounded.
   language:
   - en
   script:
@@ -106,13 +106,19 @@ keyword:
 - content: property graph
 - content: semantic graph
 - content: stock forecasting
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Knowledge Engineering Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.01
+    text: Application of information technology in general
+  - code: 35.240.40
+    text: IT applications in banking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

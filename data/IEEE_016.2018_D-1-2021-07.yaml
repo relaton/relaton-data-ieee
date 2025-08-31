@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE016.2018-D-1-2021-07
 title:
 - content: IEEE Draft Standard for AC High Voltage Circuit Switchers Rated 15.5 kV
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE 016.2018/D-1-2021-07
 date:
 - type: created
-  value: '2021'
+  value: '2021-07-21'
 - type: published
-  value: '2021-07-23'
+  value: '2021-07-26'
 - type: issued
-  value: '2021'
+  value: '2021-11-09'
 contributor:
 - organization:
     name:
@@ -41,11 +41,18 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2021-07-23'
+revdate: '2021-07-26'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: This corrigendum is to improve the current IEEE Std C37.016.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,47 +67,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.016-2018
+    id: IEEEStdC37.016-2018
     docid:
-    - id: IEEE C37.016-2018
+    - id: IEEE Std C37.016-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.016-2018
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.016-2018
-    docid:
-    - id: IEEE C37.016-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.016-2018
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.016-2018
-    docid:
-    - id: IEEE C37.016-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.016-2018
+      content: IEEE Std C37.016-2018
       format: text/plain
   description:
     content: corrects
@@ -115,11 +88,11 @@ keyword:
 - content: Circuit breakers
 - content: Voltage control
 - content: Fault diagnosis
-- content: Enerty storage
 - content: Current limiters
 - content: Testing
 - content: AC machines
 - content: High-voltage techniques
+- content: Energy storage
 - content: circuit switcher
 - content: coordinated disconnect
 - content: design tests
@@ -133,16 +106,17 @@ keyword:
 - content: stored energy
 - content: transformer-limited fault
 - content: transient recovery voltage
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.120.40
-  text: Switches
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.40
+    text: Switches
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

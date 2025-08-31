@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEESmartGridResearch-ConnectedHomes
 title:
 - content: Impact of Smart Grid on Connected Homes Landmark Research Study
@@ -86,18 +86,19 @@ keyword:
 - content: communications
 - content: home business model
 - content: grid-enable application
-doctype: standard
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
-- code: 33.040.40
-  text: Data communication networks
-- code: '33.200'
-  text: Telecontrol. Telemetering
-- code: 35.240.01
-  text: Applications of information technology in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: 33.040.40
+    text: Data communication networks
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  - code: 35.240.01
+    text: Applications of information technology in general
   standard_status: Active
   pubstatus: Active
   holdstatus: Publish

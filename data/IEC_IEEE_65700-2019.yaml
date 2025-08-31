@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE65700-2019
 title:
 - content: IEC/IEEE International Standard -- Bushings for DC application
@@ -24,7 +24,7 @@ docid:
 docnumber: IEC/IEEE 65700-2019
 date:
 - type: created
-  value: '2014'
+  value: '2014-07-10'
 - type: published
   value: '2014-07-11'
 - type: issued
@@ -56,6 +56,14 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: In this first edition of IEC/IEEE 65700-19-03, service experiences as well
+    as established marketrequirements have been harmonized with existing IEC and IEEE
+    standards
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -77,15 +85,16 @@ keyword:
 - content: Power system measurements
 - content: Voltage control
 - content: Power cables
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 29.080.20
-  text: Bushings
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: 29.080.20
+    text: Bushings
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

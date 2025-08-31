@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1680.1a-D-2-2019-11
 title:
 - content: IEEE Draft Standard for Environmental and Social Responsibility Assessment
@@ -71,13 +71,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1680.1-2018
+    id: IEEEStd1680.1-2018
     docid:
-    - id: IEEE 1680.1-2018
+    - id: IEEE Std 1680.1-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1680.1-2018
+      content: IEEE Std 1680.1-2018
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1680.1-2018
+    docid:
+    - id: IEEE Std 1680.1-2018
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1680.1-2018
       format: text/plain
   description:
     content: amends
@@ -116,17 +133,15 @@ keyword:
 - content: sustainability
 - content: thin client
 - content: workstation
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board of the IEEE Computer Society
-ics:
-- code: 13.020.30
-  text: Environmental impact assessment
-- code: '35.160'
-  text: Microprocessor systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 13.020.30
+    text: Environmental impact assessment
+  - code: '35.160'
+    text: Microprocessor systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

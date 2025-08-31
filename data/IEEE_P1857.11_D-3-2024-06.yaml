@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1857.11-D-3-2024-06
 title:
-- content: IEEE Draft Standard for Neural Network-Based Image Coding
+- content: IEEE Approved Draft Standard for Neural Network-Based Image Coding
   format: text/plain
   type: main
 link:
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P1857.11/D-3-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-03'
 - type: published
   value: '2024-06-27'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -46,10 +46,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard defines a set of tools for efficient image coding, including
-    tools for encoding, for decoding, and for encapsulation. Some of the tools are
-    based on trained neural networks. These tools are designed to perform block partitioning,
-    prediction, transform, quantization, entropy coding, filtering, etc., respectively.
+- content: A set of tools is defined in this standard for efficient image coding,
+    including tools for encoding, for decoding, and for encapsulation. Some of the
+    tools are based on trained neural networks. These tools are designed to perform
+    block partitioning, prediction, transform, quantization, entropy coding, filtering,
+    and so on.
   language:
   - en
   script:
@@ -67,21 +68,33 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
-- content: Block partitioning
+- content: IEEE Standards
+- content: Entropy
+- content: Encoding
+- content: Neural networks
+- content: Predictive models
+- content: Quantization (signal)
+- content: Transforms
+- content: block partitioning
 - content: entropy coding
 - content: filtering
+- content: IEEE 1857.11&#8482;
 - content: image coding
 - content: neural network
 - content: prediction
 - content: quantization
-- content: transform.
-doctype: standard
-editorialgroup:
-  committee:
-  - Data Compression Standards Committee of the IEEE Computer Society
+- content: transform
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Data Compression Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEFDISP24641-2023-01
 title:
 - content: ISO/IEC/IEEE Approved Draft International Standard - Systems and software
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE FDIS P24641-2023-01
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-05'
 - type: published
   value: '2023-02-22'
 - type: issued
@@ -85,13 +85,18 @@ keyword:
 - content: IEC Standards
 - content: Software engineering
 - content: Systems engineering and theory
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

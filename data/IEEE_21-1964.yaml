@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE21-1964
 title:
 - content: American Standards Requirements and Test Code for Outdoor Apparatus Bushings
@@ -26,7 +26,7 @@ date:
 - type: updated
   value: '2016-02-19'
 - type: created
-  value: '1964'
+  value: '1964-07-31'
 - type: published
   value: '2016-01-04'
 - type: issued
@@ -78,9 +78,10 @@ keyword:
 - content: Testing
 - content: Service conditions
 - content: Outdoor communication
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1Qcw-D-2.2-2023-04
 title:
-- content: 'IEEE Approved Draft Standard for Local and Metropolitan Area Networks--Bridges
+- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks--Bridges
     and Bridged Networks Amendment 36: YANG Data Models for Scheduled Traffic, Frame
     Preemption, and Per-Stream Filtering and Policing'
   format: text/plain
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P802.1Qcw/D-2.2-2023-04
 date:
 - type: created
-  value: '2023'
+  value: '2023-05-01'
 - type: published
   value: '2023-05-02'
 - type: issued
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1Q-2022
+    id: IEEEStd802.1Q-2022
     docid:
-    - id: IEEE 802.1Q-2022
+    - id: IEEE Std 802.1Q-2022
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1Q-2022
+      content: IEEE Std 802.1Q-2022
       format: text/plain
   description:
     content: amends
@@ -91,8 +91,8 @@ keyword:
 - content: Metropolitan area networks
 - content: Bridge circuits
 - content: Virtual LAN
-- content: Media Access Protocol
-- content: Telecommunications traffic
+- content: Media Access Control
+- content: Telecommunication traffic
 - content: amendment
 - content: Bridged Local Area Networks
 - content: frame preemption
@@ -105,15 +105,16 @@ keyword:
 - content: traffic shaping
 - content: Virtual Bridged Local Area Networks (virtual LANs)
 - content: YANG
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1720-D-3-2012-06
 title:
 - content: IEEE Draft Recommended Practice for Near-Field Antenna Measurements
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1720/D-3-2012-06
 date:
 - type: created
-  value: '2012'
+  value: '2012-06-12'
 - type: published
   value: '2012-06-12'
 - type: issued
@@ -80,15 +80,16 @@ keyword:
 - content: planar near-field measurements
 - content: probe calibrations
 - content: spherical near-field measurements
-doctype: standard
-editorialgroup:
-  committee:
-  - Antennas of the IEEE Antennas and Propagation Society
-ics:
-- code: 33.120.40
-  text: Aerials
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Antennas of the IEEE Antennas and Propagation Society
+  ics:
+  - code: 33.120.40
+    text: Aerials
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

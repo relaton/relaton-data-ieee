@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE62582.5-2015
 title:
 - content: 'IEEE/IEC International Standard - Nuclear power plants -- Instrumentation
@@ -26,7 +26,7 @@ docid:
 docnumber: IEC/IEEE 62582.5-2015
 date:
 - type: created
-  value: '2015'
+  value: '2015-06-19'
 - type: published
   value: '2015-06-18'
 - type: issued
@@ -68,15 +68,16 @@ keyword:
 - content: Nuclear power generation
 - content: Instrumentation
 - content: Electrical equipment
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

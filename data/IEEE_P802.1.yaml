@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks--Timing and
@@ -24,11 +24,11 @@ docid:
 docnumber: IEEE P802.1
 date:
 - type: created
-  value: '2021'
+  value: '2021-07-27'
 - type: published
   value: '2021-07-28'
 - type: issued
-  value: '2021'
+  value: '2021-12-08'
 contributor:
 - organization:
     name:
@@ -48,8 +48,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This corrigendum to IEEE Std 802.1ASTM-2020 provides technical and editorial
-    corrections.
+- content: Technical and editorial corrections to IEEE Std 802.1AS&#8482;-2020 are
+    provided in this corrigendum.
   language:
   - en
   script:
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1AS-2020
+    id: IEEEStd802.1AS-2020
     docid:
-    - id: IEEE 802.1AS-2020
+    - id: IEEE Std 802.1AS-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1AS-2020
+      content: IEEE Std 802.1AS-2020
       format: text/plain
   description:
     content: corrects
@@ -85,6 +85,12 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Local area networks
+- content: Metropolitan area networks
+- content: Synchronization
+- content: Timing analysis
+- content: Sensitivity
 - content: best master
 - content: frequency offset
 - content: Grandmaster Clock
@@ -96,16 +102,17 @@ keyword:
 - content: synchronization
 - content: syntonization
 - content: time-aware system
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

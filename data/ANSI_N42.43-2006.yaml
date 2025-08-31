@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.43-2006
 title:
 - content: American National Standard Performance Criteria for Mobile and Transportable
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI N42.43-2006
 date:
 - type: created
-  value: '2007'
+  value: '2007-04-23'
 - type: published
   value: '2015-10-30'
 - type: issued
@@ -90,12 +90,10 @@ keyword:
 - content: Mobile handsets
 - content: mobile radiation monitors
 - content: transportable radiation monitors
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE259-1965
 title:
 - content: IEEE Proposed Test Procedure for Evaluation of Systems of Insulation for
@@ -78,9 +78,10 @@ keyword:
 - content: Insulation
 - content: Transformers
 - content: Power transformers
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

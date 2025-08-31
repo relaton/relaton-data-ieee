@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2888.4-D-02-2023-07
 title:
 - content: IEEE Draft Standard on Architecture for Virtual Reality Disaster Response
@@ -82,15 +82,16 @@ keyword:
 - content: motion tracking
 - content: training
 - content: virtual reality
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.240.90
-  text: IT applications in education
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.90
+    text: IT applications in education
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

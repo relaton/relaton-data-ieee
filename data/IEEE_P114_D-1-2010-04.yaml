@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP114-D-1-2010-04
 title:
 - content: IEEE Draft Standard Test Procedure for Single-Phase Induction Motors
@@ -72,15 +72,16 @@ keyword:
 - content: IEEE standards
 - content: Induction motors
 - content: Testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machines of the IEEE Industry Applications Society
-ics:
-- code: 29.160.30
-  text: Motors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machines of the IEEE Industry Applications Society
+  ics:
+  - code: 29.160.30
+    text: Motors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

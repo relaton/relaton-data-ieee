@@ -1,12 +1,12 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1680.2-D-7-2012-05
 title:
 - content: IEEE Approved Draft Standard for Environmental Assessment of Imaging Equipment
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/6203476
+- content: https://ieeexplore.ieee.org/document/6298907
   type: src
 type: standard
 docid:
@@ -17,14 +17,14 @@ docid:
   type: IEEE
   scope: trademark
   primary: true
-- id: 978-0-7381-6748-0
+- id: 978-0-7381-7325-2
   type: ISBN
 docnumber: IEEE P1680.2/D-7-2012-05
 date:
 - type: created
   value: '2012-10-05'
 - type: published
-  value: '2012-05-22'
+  value: '2012-09-11'
 - type: issued
   value: '2012-08-30'
 contributor:
@@ -40,7 +40,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2012-05-22'
+revdate: '2012-09-11'
 language:
 - en
 script:
@@ -72,11 +72,10 @@ copyright:
   from: '2012'
 keyword:
 - content: IEEE standards
-- content: Image processing
-- content: Photocopiers
-- content: Facsimile
 - content: Environmental factors
-- content: Product design
+- content: Office automation
+- content: Facsimile
+- content: Equipment
 - content: copiers
 - content: digital duplicators
 - content: electronic product
@@ -93,17 +92,18 @@ keyword:
 - content: mailing machines
 - content: scanners&amp;#56256
 - content: "&amp;#56440"
-doctype: standard
-editorialgroup:
-  committee:
-  - Environmental Assessment of Standards Committee of the IEEE Computer Society
-ics:
-- code: 13.020.30
-  text: Environmental impact assessment
-- code: '35.160'
-  text: Microprocessor systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Environmental Assessment of Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 13.020.30
+    text: Environmental impact assessment
+  - code: '35.160'
+    text: Microprocessor systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

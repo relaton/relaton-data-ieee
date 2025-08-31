@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.11-D-9.0
 title:
 - content: IEEE Approved Draft Standard for Metal-Oxide Surge Arresters for AC Power
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC62.11-2012
+    id: IEEEStdC62.11-2012
     docid:
-    - id: IEEE C62.11-2012
+    - id: IEEE Std C62.11-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C62.11-2012
+      content: IEEE Std C62.11-2012
       format: text/plain
   description:
     content: revises
@@ -111,15 +111,13 @@ keyword:
 - content: thermal charge transfer rating
 - content: thermal energy withstand rating
 - content: TOV
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/High Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

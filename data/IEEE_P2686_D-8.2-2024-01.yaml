@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2686-D-8.2-2024-01
 title:
 - content: IEEE Draft Recommended Practice for Battery Management Systems in Energy
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2024-01-29'
 - type: published
-  value: '2024-01-31'
+  value: '2024-01-30'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -41,11 +41,28 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-01-31'
+revdate: '2024-01-30'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: Information and recommendations on the design, configuration, and interoperability
+    of battery management systems in stationary applications is included in this recommended
+    practice. The battery management system is considered to be a functionally distinct
+    component of a battery energy storage system that includes active functions necessary
+    to protect the battery from modes of operation that could impact its safety or
+    longevity. Recommendations on how to configure a battery management system to
+    protect a given battery type in each application environment are provided. Lastly,
+    recommended communication structures and data models that help support interoperability
+    and cybersecurity are stipulated. A comprehensive list of best practices around
+    the design and integration of battery management systems that protect the safety
+    and longevity of batteries in energy storage applications is developed as a result.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -61,14 +78,33 @@ keyword:
 - content: IEEE Standards
 - content: Energy storage
 - content: Battery management systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Energy Storage &amp; Stationary Battery Committee of the IEEE Power and Energy
-    Society
+- content: batteries
+- content: battery degradation
+- content: battery management system
+- content: battery safety
+- content: BMS
+- content: distributed energy technologies
+- content: energy storage
+- content: IEEE Std 2686&#8482;
+- content: interoperability
+- content: SOC
+- content: SOH
+- content: state-of-charge
+- content: state-of-health
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Energy Storage &amp; Stationary Battery Committee of the IEEE Power and Energy
+      Society
+  ics:
+  - code: 29.220.10
+    text: Primary cells and batteries
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

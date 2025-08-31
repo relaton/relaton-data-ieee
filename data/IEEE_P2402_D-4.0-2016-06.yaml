@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2402-D-4.0-2016-06
 title:
 - content: IEEE Approved Draft Standard Design Criteria of Complex Virtual Instruments
@@ -66,12 +66,13 @@ keyword:
 - content: Ocean Observation
 - content: CVI (Complex Virtual Instrument)
 - content: software development
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE67-1957
 title:
 - content: AIEE Proposed Guide for Operation and Maintenance of Turbine - Generators
@@ -26,7 +26,7 @@ date:
 - type: updated
   value: '2016-04-01'
 - type: created
-  value: '1957'
+  value: '1957-06-30'
 - type: published
   value: '2016-03-16'
 - type: issued
@@ -66,9 +66,10 @@ keyword:
 - content: Generators
 - content: Turbines
 - content: Maintenance engineering
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

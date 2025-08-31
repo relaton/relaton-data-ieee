@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP7002-D-9-2021-12
 title:
 - content: IEEE Approved Draft Standard for Data Privacy Process
@@ -83,15 +83,17 @@ keyword:
 - content: privacy impact assessment
 - content: privacy controls
 - content: systems development life cycle
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.030'
-  text: IT Security
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.030'
+    text: IT Security
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

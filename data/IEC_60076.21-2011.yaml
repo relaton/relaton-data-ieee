@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC60076.21-2011
 title:
 - content: 'Power Transformers – Part 21: Standard Requirements, Terminology, and
@@ -62,6 +62,20 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Adoption of IEEE Std C57.15-2009. Description of design types, tables of
+    50 Hz and 60 Hz ratings, supplementary ratings, construction, and available accessories
+    are provided. Methods for performing routine and design tests applicable to liquid-immersed
+    single and three-phase step-voltage regulators are described. Winding resistance
+    measurements, polarity tests, insulation power factor and resistance tests, ratio
+    tests, no load loss and excitation current measurements, impedance and load loss
+    measurements, dielectric tests, temperature tests, routine and design impulse
+    tests, short-circuit tests, control tests, calculated data, and certified test
+    data are covered.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -75,173 +89,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEEC57.15-2009
+    id: IEEEStdC57.15-2009
     docid:
-    - id: IEEE C57.15-2009
+    - id: IEEE Std C57.15-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEEC57.15-2009
-    docid:
-    - id: IEEE C57.15-2009
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.15-2009
+      content: IEEE Std C57.15-2009
       format: text/plain
 keyword:
 - content: IEEE standards
@@ -259,17 +113,18 @@ keyword:
 - content: Type A
 - content: Type B
 - content: voltage regulator
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 01.040.29
-  text: Electrical engineering (Vocabularies)
-- code: '29.200'
-  text: Rectifiers. Converters. Stabilized power supply
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: 01.040.29
+    text: Electrical engineering (Vocabularies)
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

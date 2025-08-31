@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP61158-D-4-2017-03
 title:
 - content: IEEE Approved Draft Standard for Industrial Hard Real-Time Communication
@@ -83,13 +83,14 @@ keyword:
 - content: Industrial Ethernet
 - content: Industrial Automation
 - content: Ethernet POWERLINK
-doctype: standard
-editorialgroup:
-  committee:
-  - Industrial Electronics Society Standards Committee of the IEEE Industrial Electronics
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Industrial Electronics Society Standards Committee of the IEEE Industrial Electronics
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEC37.23-1969
 title:
 - content: ANSI/IEEE Guide for Calculating Losses in Isolated Phase Bus
@@ -26,7 +26,7 @@ date:
 - type: updated
   value: '2016-04-15'
 - type: created
-  value: '1969'
+  value: '1969-06-29'
 - type: published
   value: '2016-03-25'
 - type: issued
@@ -65,6 +65,25 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Over the years, the isolated-phase bus has received widespread application
+    in connecting the output of generators to step-up transformers. The trend toward
+    generating units of larger capacity has dictated the need for higher rated isolated-phase
+    bus designs. The increased losses associated with the higher capacity bus may
+    be significant in the economic evaluation of alternate schemes or selection of
+    equipment. The bus designer must know the magnitude and distribution of losses
+    in order to keep temperature rises of bus components within the limits specified
+    in USA Standard C37.20. In addition, the losses must be known to permit proper
+    sizing of forced-cooling equipment whenever it is used. Various papers have been
+    presented that deal with the determination of losses in isolated-phase bus enclosures.
+    The difference in the results obtained for the same bus using various methods
+    is of sufficient magnitude to cause concern. The industry has indicated the need
+    for a guide for calculating losses to establish a common yardstick for establishing,
+    evaluating, and applying different designs.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -88,9 +107,10 @@ keyword:
 - content: Heating
 - content: Magnetic hysteresis
 - content: Eddy currents
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

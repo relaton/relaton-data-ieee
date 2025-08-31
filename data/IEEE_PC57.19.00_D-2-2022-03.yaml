@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.19.00-D-2-2022-03
 title:
 - content: IEEE Draft Standard General Requirements and Test Procedure for Power Apparatus
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE PC57.19.00/D-2-2022-03
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-14'
 - type: published
   value: '2022-06-15'
 - type: issued
-  value: '2022'
+  value: '2023-02-15'
 contributor:
 - organization:
     name:
@@ -47,9 +47,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard applies to bushings that have basic impulse insulation levels
-    of above 110 kV for use as components of liquid immersed transformers and liquid
-    immersed reactors.
+- content: Bushings that have basic impulse insulation levels of above 110 kV for
+    use as components of liquid-immersed transformers and liquid-immersed reactors
+    are addressed by this standard.
   language:
   - en
   script:
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.19.00-2004
+    id: IEEEStdC57.19.00-2004
     docid:
-    - id: IEEE C57.19.00-2004
+    - id: IEEE Std C57.19.00-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.19.00-2004
+      content: IEEE Std C57.19.00-2004
       format: text/plain
   description:
     content: revises
@@ -92,17 +92,19 @@ keyword:
 - content: Inductors
 - content: apparatus bushings
 - content: bushings
-- content: liquid filled transformers
-- content: liquid filled reactors
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 29.080.20
-  text: Bushings
+- content: IEEE C57.19.00
+- content: liquid-filled transformers
+- content: liquid-filled reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: 29.080.20
+    text: Bushings
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

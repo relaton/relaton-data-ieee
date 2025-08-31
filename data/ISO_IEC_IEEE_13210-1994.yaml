@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE13210-1994
 title:
 - content: ISO/IEC/IEEE International standard for Information Technology--Test Methods
@@ -79,19 +79,19 @@ keyword:
 - content: base assertion
 - content: conditional feature
 - content: extended assertion
-- content: POSIX
 - content: POSIX conformance test suite
 - content: test method
 - content: test result code
-doctype: standard
-editorialgroup:
-  committee:
-  - Portable Applications of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Portable Applications of the IEEE Computer Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

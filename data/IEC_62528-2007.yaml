@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62528-2007
 title:
 - content: 'IEC 62528 Ed. 1 (IEEE Std 1500(TM)-2005): Standard Testability Method
@@ -56,6 +56,15 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Replaced IEEE Std 1500-2005. This standard defines a mechanism for the
+    test of core designs within a system on chip(SoC). This mechanism constitutes
+    a hardware architecture and leverages the core test language(CTL) to facilitate
+    communication between core designers and core integrators.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -73,19 +82,20 @@ keyword:
 - content: embedded core test
 - content: IP test
 - content: test reuse
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
-ics:
-- code: '31.020'
-  text: Industrial automation systems
-- code: '31.220'
-  text: Electronic components in general
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: '31.020'
+    text: Industrial automation systems
+  - code: '31.220'
+    text: Electronic components in general
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

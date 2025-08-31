@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP360-D-5-2021-05
 title:
 - content: IEEE Draft Standard for Wearable Consumer Electronic Devices - Overview
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2021-08-23'
 - type: issued
-  value: '2021'
+  value: '2022-02-09'
 contributor:
 - organization:
     name:
@@ -46,6 +46,18 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Wearable Consumer Electronic Devices (Wearables) are given an overview,
+    terminology, and categorization in this standard. An architecture for a series
+    of standard specifications that define technical requirements and testing methods
+    for different aspects of wearables--from basic security and suitableness of wear
+    to various functional areas, such as health, fitness, and infotainment--is further
+    outlined.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -59,30 +71,32 @@ copyright:
   from: '2021'
 keyword:
 - content: IEEE Standards
-- content: Wearable computers
 - content: Safety
 - content: Information security
-- content: Classification
 - content: Reliability
-- content: wearable
-- content: classification
+- content: Classification algorithms
+- content: Wearable devices
+- content: application
 - content: architecture
-- content: safety
+- content: classification
+- content: IEEE 360
 - content: information security
 - content: reliability
-- content: wireless
+- content: safety
 - content: software
-- content: application
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Consumer Technology Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
+- content: wearable
+- content: wireless
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10442-D-21-2018-03
 title:
 - content: 'IEEE Draft Health Informatics - Personal Health Device Communication Part
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P11073.10442/D-21-2018-03
 date:
 - type: created
-  value: '2018'
+  value: '2018-04-25'
 - type: published
   value: '2018-04-26'
 - type: issued
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE11073.10442-2008
+    id: IEEEStd11073.10442-2008
     docid:
-    - id: IEEE 11073.10442-2008
+    - id: IEEE Std 11073.10442-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10442-2008
+      content: IEEE Std 11073.10442-2008
       format: text/plain
   description:
     content: revises
@@ -107,16 +107,17 @@ keyword:
 - content: medical device communication
 - content: personal health devices
 - content: strength fitness equipment
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

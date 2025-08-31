@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1149.8.1-D-5.4-2012-03
 title:
 - content: IEEE Draft Standard for Boundary-Scan-Based Stimulus of Interconnections
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1149.8.1/D-5.4-2012-03
 date:
 - type: created
-  value: '2012'
+  value: '2012-03-06'
 - type: published
   value: '2012-03-06'
 - type: issued
@@ -80,15 +80,16 @@ keyword:
 - content: Active circuits
 - content: Boundary conditions
 - content: Interconnected systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
-ics:
-- code: '31.180'
-  text: Printed circuits and boards
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: '31.180'
+    text: Printed circuits and boards
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

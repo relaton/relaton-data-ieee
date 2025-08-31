@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1872-D-2-2014-08
 title:
 - content: IEEE Draft Standard Ontologies for Robotics and Automation
@@ -79,17 +79,18 @@ keyword:
 - content: methodology
 - content: ontology
 - content: robotics
-doctype: standard
-editorialgroup:
-  committee:
-  - Standing Committee for Standards of the IEEE Robotics and Automation Society
-ics:
-- code: 25.040.30
-  text: Industrial robots. Manipulators
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standing Committee for Standards of the IEEE Robotics and Automation Society
+  ics:
+  - code: 25.040.30
+    text: Industrial robots. Manipulators
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

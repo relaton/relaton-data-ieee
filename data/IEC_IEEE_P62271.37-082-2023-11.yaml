@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP62271.37-082-2023-11
 title:
 - content: 'IEC/IEEE Draft International Standard - High-voltage Switchgear and Controlgear
@@ -85,20 +85,21 @@ keyword:
 - content: High-voltage techniques
 - content: Control systems
 - content: Pressure measurement
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.120.40
-  text: Switches
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
-- code: 17.140.20
-  text: Noise emitted by machines and equipment
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.40
+    text: Switches
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
+  - code: 17.140.20
+    text: Noise emitted by machines and equipment
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

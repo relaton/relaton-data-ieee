@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN323AB-2013
 title:
 - content: American National Standard for Radiation Protection Instrumentation Test
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI N323AB-2013
 date:
 - type: created
-  value: '2014'
+  value: '2014-06-27'
 - type: published
   value: '2014-06-20'
 - type: issued
@@ -86,17 +86,18 @@ keyword:
 - content: calibration frequency
 - content: portable radiation detectors
 - content: testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Radiation Instrumentation of the Accredited Standards Committee N42
-ics:
-- code: '13.280'
-  text: Radiation protection
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Radiation Instrumentation of the Accredited Standards Committee N42
+  ics:
+  - code: '13.280'
+    text: Radiation protection
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.13-D-14-2024-08
 title:
 - content: IEEE Draft Standard for Low-Voltage AC (1058 V and Below) Power Circuit
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2024-08-21'
 - type: published
-  value: '2024-08-23'
+  value: '2024-08-22'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-08-23'
+revdate: '2024-08-22'
 language:
 - en
 script:
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.13-2015
+    id: IEEEStdC37.13-2015
     docid:
-    - id: IEEE C37.13-2015
+    - id: IEEE Std C37.13-2015
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.13-2015
+      content: IEEE Std C37.13-2015
       format: text/plain
   description:
     content: revises
@@ -105,16 +105,17 @@ keyword:
 - content: low-voltage ac power circuit breaker
 - content: open-fuse trip device
 - content: unfused circuit breaker
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.20
-  text: Low voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.20
+    text: Low voltage switchgear and controlgear
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

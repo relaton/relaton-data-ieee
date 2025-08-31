@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1695-D-4-2023-11
 title:
 - content: IEEE Draft Guide to Understanding, Diagnosing, and Mitigating Stray and
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2023-11-08'
 - type: published
-  value: '2023-11-10'
+  value: '2023-11-09'
 - type: issued
-  value: '2023'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-11-10'
+revdate: '2023-11-09'
 language:
 - en
 script:
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1695-2016
+    id: IEEEStd1695-2016
     docid:
-    - id: IEEE 1695-2016
+    - id: IEEE Std 1695-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1695-2016
+      content: IEEE Std 1695-2016
       format: text/plain
   description:
     content: revises
@@ -94,16 +94,17 @@ keyword:
 - content: contact voltage
 - content: IEEE 1695&#8482;
 - content: stray voltage
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: '29.020'
-  text: Electrical engineering in general
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: '29.020'
+    text: Electrical engineering in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

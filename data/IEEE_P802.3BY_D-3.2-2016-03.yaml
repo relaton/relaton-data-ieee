@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3by-D-3.2-2016-03
 title:
 - content: 'IEEE Standard for Ethernet - Amendment 2: Media Access Control Parameters,
@@ -86,7 +86,6 @@ keyword:
 - content: Auto-Negotiation (AN)
 - content: Backplane Ethernet
 - content: Energy Efficient Ethernet (EEE)
-- content: Ethernet
 - content: Forward Error Correction (FEC)
 - content: IEEE 802(R)
 - content: IEEE 802.3(TM)
@@ -96,17 +95,18 @@ keyword:
 - content: Physical Medium Attachment (PMA) sublayer
 - content: Physical Medium Dependent (PMD) sublayer
 - content: Reconciliation Sublayer (RS)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

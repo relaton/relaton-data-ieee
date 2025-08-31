@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1711.1-D-09-2023-05
 title:
 - content: 'IEEE Draft Standard for a Cryptographic Protocol for Cyber Security of
@@ -77,13 +77,14 @@ keyword:
 - content: IEEE 1711
 - content: integrity
 - content: serial link
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

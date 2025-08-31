@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN323A-1997
 title:
 - content: American National Standard Radiation Protection Instrumentation Test and
@@ -72,15 +72,16 @@ keyword:
 - content: radiation measurements
 - content: radiation protection instruments
 - content: radiation survey
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

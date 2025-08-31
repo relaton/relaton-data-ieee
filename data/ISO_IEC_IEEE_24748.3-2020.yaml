@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE24748.3-2020
 title:
 - content: 'ISO/IEC/IEEE International Standard - Systems and software engineering--Life
@@ -88,13 +88,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE24748.3-2012
+    id: IEEEStd24748.3-2012
     docid:
-    - id: IEEE 24748.3-2012
+    - id: IEEE Std 24748.3-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 24748.3-2012
+      content: IEEE Std 24748.3-2012
       format: text/plain
   description:
     content: revises
@@ -111,15 +111,17 @@ keyword:
 - content: project
 - content: stage
 - content: software engineering
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

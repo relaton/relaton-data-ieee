@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE1076-199O
 title:
 - content: 1076-CONC-1990 The Sense of VASG
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE 1076-199O
 date:
 - type: created
-  value: '1990'
+  value: '1990-03-30'
 - type: published
   value: '2019-04-12'
 - type: issued
@@ -75,15 +75,16 @@ keyword:
 - content: IEEE activities
 - content: Two dimensional displays
 - content: Signal resolution
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

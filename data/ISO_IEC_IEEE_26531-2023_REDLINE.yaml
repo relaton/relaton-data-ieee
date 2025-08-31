@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE26531-2023Redline
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering--Content
@@ -29,7 +29,7 @@ docid:
 docnumber: ISO/IEC/IEEE 26531-2023 Redline
 date:
 - type: created
-  value: '2023'
+  value: '2023-03-30'
 - type: published
   value: '2023-07-18'
 - type: issued
@@ -125,15 +125,17 @@ keyword:
 - content: content management
 - content: component content management system
 - content: single source information for users
-doctype: redline
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

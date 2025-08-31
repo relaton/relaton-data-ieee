@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1685-D-1-2022-04
 title:
 - content: IEEE Draft Standard for IP-XACT, Standard Structure for Packaging, Integrating,
@@ -78,47 +78,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1685-2014
+    id: IEEEStd1685-2014
     docid:
-    - id: IEEE 1685-2014
+    - id: IEEE Std 1685-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1685-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1685-2014
-    docid:
-    - id: IEEE 1685-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1685-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1685-2014
-    docid:
-    - id: IEEE 1685-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1685-2014
+      content: IEEE Std 1685-2014
       format: text/plain
   description:
     content: revises
@@ -153,15 +119,16 @@ keyword:
 - content: use models
 - content: XML design metadata
 - content: XML schema
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: 35.240.95
-  text: Internet applications
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: 35.240.95
+    text: Internet applications
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

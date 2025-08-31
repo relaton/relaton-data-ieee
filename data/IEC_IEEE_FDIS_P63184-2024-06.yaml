@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEFDISP63184-2024-06
 title:
 - content: IEC/IEEE Draft International Standard - Assessment methods of the human
@@ -25,11 +25,11 @@ docid:
 docnumber: IEC/IEEE FDIS P63184-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-26'
 - type: published
   value: '2024-06-27'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -75,13 +75,25 @@ copyright:
   - name:
     - content: IEC
   from: '2024'
-doctype: standard
-editorialgroup:
-  committee:
-  - International Committee on Electromagnetic Safety of the IEEE SA Board of Governors
+keyword:
+- content: IEEE Standards
+- content: IEC Standards
+- content: Radiation monitoring
+- content: Radiation detectors
+- content: Magnetic fields
+- content: Human factors
+- content: Wireless power transfer
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - International Committee on Electromagnetic Safety of the IEEE SA Board of Governors
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.15.4y-D-3-2021-02
 title:
 - content: IEEE Draft Standard for Low-Rate Wireless Networks - Amendment for Advanced
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2021-02-15'
 - type: issued
-  value: '2021'
+  value: '2021-05-09'
 contributor:
 - organization:
     name:
@@ -46,6 +46,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: This amendment defines security extensions to IEEE Std 802.15.4 adding
+    AES-256-CCM plus a cipher suite/authentication method registry and a process for
+    inclusion of additional algorithms. The registry defines a capability to align
+    IEEE Std 802.15.4 with the security requirements of higher layer standards.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,404 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.15.4-2015
+    id: IEEEStd802.15.4-2015
     docid:
-    - id: IEEE 802.15.4-2015
+    - id: IEEE Std 802.15.4-2015
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.15.4-2015
-    docid:
-    - id: IEEE 802.15.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.15.4-2015
+      content: IEEE Std 802.15.4-2015
       format: text/plain
   description:
     content: amends
@@ -469,7 +88,7 @@ relation:
 keyword:
 - content: IEEE Standards
 - content: Wireless communication
-- content: Telecommuication services
+- content: Telecommunication services
 - content: AEAD
 - content: AES-128
 - content: AES-128-CCM
@@ -485,15 +104,16 @@ keyword:
 - content: security
 - content: wireless personal area network
 - content: WPAN
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

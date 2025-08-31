@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2020
 title:
 - content: IEEE P2020 Automotive Imaging
@@ -80,12 +80,13 @@ keyword:
 - content: Image quality
 - content: Image processing
 - content: Computer vision
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Vehicular Technology Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Vehicular Technology Society
   standard_status: Active
   pubstatus: Active
   holdstatus: Publish

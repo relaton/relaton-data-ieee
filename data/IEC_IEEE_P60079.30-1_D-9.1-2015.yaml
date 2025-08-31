@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP60079.30-1-D-9.1-2015
 title:
 - content: 'IEC/IEEE Approved Draft International Standard - Explosive Atmospheres
@@ -83,15 +83,16 @@ keyword:
 - content: Resistance heating
 - content: Gases
 - content: Surface heating
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.260.20
-  text: Electrical installations for explosive atmospheres
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.260.20
+    text: Electrical installations for explosive atmospheres
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

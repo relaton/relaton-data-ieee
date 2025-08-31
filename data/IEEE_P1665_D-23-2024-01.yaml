@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1665-D-23-2024-01
 title:
 - content: IEEE Approved Draft Guide for the Rewind of Synchronous Generators, 50
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1665/D-23-2024-01
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-13'
 - type: published
   value: '2024-06-14'
 - type: issued
@@ -49,13 +49,13 @@ script:
 abstract:
 - content: 50 Hz or 60 Hz synchronous generators driven by diesel engines, steam turbines,
     combustion gas turbines, and hydro-turbines are covered in this guide. The drive
-    may be direct or through a gear box or other device that permits different speeds
+    may be direct or through a gearbox or other device that permits different speeds
     for the prime mover and the generator. The guide generally applies to the stator
     and rotor of generators with rated outputs of 1 MVA and above. The guide does
     not address machine auxiliaries or the excitation system. This guide will provide
     the generator Owner with insight into the considerations that are necessary when
-    rewinding or refurbishing a generator. Particular emphasis is placed on the complete
-    rewind of the stator and rotor.
+    rewinding or refurbishing a generator. Emphasis is placed on the complete rewind
+    of the stator and rotor.
   language:
   - en
   script:
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1665-2009
+    id: IEEEStd1665-2009
     docid:
-    - id: IEEE 1665-2009
+    - id: IEEE Std 1665-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1665-2009
+      content: IEEE Std 1665-2009
       format: text/plain
   description:
     content: revises
@@ -91,6 +91,10 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Rotors
+- content: Synchronous generators
+- content: Stators
 - content: cylindrical-pole rotor
 - content: IEEE 1665
 - content: insulation
@@ -98,16 +102,17 @@ keyword:
 - content: salient-pole rotor
 - content: stator rewind
 - content: synchronous generator
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.160.20
-  text: Generators
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: 29.160.20
+    text: Generators
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

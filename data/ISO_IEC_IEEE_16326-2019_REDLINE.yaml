@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE16326-2019Redline
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering
@@ -64,6 +64,17 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This document provides normative content specifications for project management
+    plans concerned with systems, and software systems. This document also provides
+    detailed discussion and advice on applying a set of technical management processes
+    that are common to both the system and software life cycles as covered by ISO/IEC/IEEE
+    15288 and ISO/IEC/IEEE 12207 respectively. The discussion and advice are intended
+    to aid in the preparation of the normative content of project management plans.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -84,15 +95,17 @@ keyword:
 - content: Systems engineering and theory
 - content: Product life cycle management
 - content: Project management
-doctype: redline
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

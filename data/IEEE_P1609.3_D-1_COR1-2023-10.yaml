@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1609.3-D-1-Cor1-2023-10
 title:
 - content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)--Networking
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-11-03'
 - type: issued
-  value: '2023'
+  value: '2024-02-15'
 contributor:
 - organization:
     name:
@@ -67,13 +67,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1609.3-2020
+    id: IEEEStd1609.3-2020
     docid:
-    - id: IEEE 1609.3-2020
+    - id: IEEE Std 1609.3-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1609.3-2020
+      content: IEEE Std 1609.3-2020
       format: text/plain
   description:
     content: corrects
@@ -88,20 +88,22 @@ keyword:
 - content: Security management
 - content: Advertising
 - content: Service level agreements
+- content: IEEE 1609.2&#8482;
+- content: IEEE 1609.3&#8482;
 - content: security profile
 - content: WAVE Service Advertisement (WSA)
-- content: IEEE 1609.2&#8482;
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.240.60
-  text: IT applications in transport
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.240.60
+    text: IT applications in transport
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

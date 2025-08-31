@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP620-D-4-2021-09
 title:
 - content: IEEE Draft Guide for the Presentation of Thermal Limit Curves for Squirrel
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2021-09-23'
 - type: issued
-  value: '2021'
+  value: '2022-02-09'
 contributor:
 - organization:
     name:
@@ -49,7 +49,7 @@ script:
 abstract:
 - content: A procedure is established for the presentation of thermal limit curves,
     and guidance for the interpretation and use of these curves for machine thermal
-    protection is provided
+    protection is provided in this guide.
   language:
   - en
   script:
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE620-1996
+    id: IEEEStd620-1996
     docid:
-    - id: IEEE 620-1996
+    - id: IEEE Std 620-1996
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 620-1996
+      content: IEEE Std 620-1996
       format: text/plain
   description:
     content: revises
@@ -86,13 +86,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE620-1996
+    id: IEEEStd620-1996
     docid:
-    - id: IEEE 620-1996
+    - id: IEEE Std 620-1996
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 620-1996
+      content: IEEE Std 620-1996
       format: text/plain
   description:
     content: revises
@@ -103,26 +103,24 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE Standards
-- content: 'Induction '
 - content: Thermal analysis
 - content: Rotors
 - content: Windings
-- content: IEEE 620&#8482;
+- content: Induction motors
+- content: IEEE 620
 - content: machine thermal protection
 - content: rotor cage windings
 - content: stator cage windings
 - content: thermal limit curves
 - content: three-phase squirrel cage induction machines
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.160.01
-  text: Rotating machinery in general
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.160.01
+    text: Rotating machinery in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

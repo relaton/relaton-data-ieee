@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP81-D-2-2023-12
 title:
 - content: IEEE Draft Guide for Measuring Earth Resistivity, Ground Impedance, and
@@ -47,13 +47,13 @@ language:
 script:
 - Latn
 abstract:
-- content: Practical test methods and techniques 1 are presented for measuring the
-    electrical characteristics of grounding systems. Topics addressed include safety
-    considerations, measuring earth resistivity, measuring the power system frequency
-    resistance or impedance of the ground system to remote earth, measuring the transient
-    or surge impedance of the ground system to remote earth, measuring touch and step
-    voltages, verifying the integrity of the grounding system, reviewing common methods
-    for performing ground testing, reviewing instrumentation characteristics and limitations,
+- content: Practical test methods and techniques are presented for measuring the electrical
+    characteristics of grounding systems. Topics addressed include safety considerations,
+    measuring earth resistivity, measuring the power system frequency resistance or
+    impedance of the ground system to remote earth, measuring the transient or surge
+    impedance of the ground system to remote earth, measuring touch and step voltages,
+    verifying the integrity of the grounding system, reviewing common methods for
+    performing ground testing, reviewing instrumentation characteristics and limitations,
     and reviewing various factors that can distort test measurements.
   language:
   - en
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE81-2012
+    id: IEEEStd81-2012
     docid:
-    - id: IEEE 81-2012
+    - id: IEEE Std 81-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 81-2012
+      content: IEEE Std 81-2012
       format: text/plain
   description:
     content: revises
@@ -90,6 +90,12 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Current measurement
+- content: Impedance measurement
+- content: Grounding
+- content: Soil measurements
+- content: Remote sensing
 - content: electrical measurements
 - content: ground impedance
 - content: ground potential rise
@@ -98,16 +104,17 @@ keyword:
 - content: IEEE 81TM
 - content: remote earth
 - content: soil resistivity
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations Committee of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

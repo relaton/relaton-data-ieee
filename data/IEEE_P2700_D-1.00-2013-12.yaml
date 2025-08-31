@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2700-D-1.00-2013-12
 title:
 - content: IEEE Standard for Sensor Performance Parameter Definitions
@@ -84,17 +84,18 @@ keyword:
 - content: pressure
 - content: temperature
 - content: terminology
-doctype: standard
-editorialgroup:
-  committee:
-  - Microelectromechanical Systems (MEMS) Standards Development Committee of the IEEE
-    Electron Devices Society
-ics:
-- code: 31.220.01
-  text: Electromechanical components for electronic and telecommunications equipment
-    in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microelectromechanical Systems (MEMS) Standards Development Committee of the
+      IEEE Electron Devices Society
+  ics:
+  - code: 31.220.01
+    text: Electromechanical components for electronic and telecommunications equipment
+      in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

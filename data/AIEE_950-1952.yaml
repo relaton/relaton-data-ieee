@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE950-1952
 title:
 - content: AIEE Recommended Practice for the Measurement of Radio Frequency Emission
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2016-04-01'
 - type: created
-  value: '1952'
+  value: '1952-03-31'
 - type: published
   value: '2016-03-10'
 - type: issued
@@ -70,9 +70,10 @@ keyword:
 - content: Scientific equipment
 - content: Industrial plants
 - content: Maintenance engineering
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

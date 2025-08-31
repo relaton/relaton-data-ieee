@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3333.1.1-D-2-2014-11
 title:
 - content: IEEE Approved Draft Standard for the Quality of Experience (QoE) and Visual
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P3333.1.1/D-2-2014-11
 date:
 - type: created
-  value: '2015'
+  value: '2015-07-10'
 - type: published
   value: '2015-03-31'
 - type: issued
@@ -91,15 +91,16 @@ keyword:
 - content: saliency detection
 - content: visual contents analysis
 - content: subjective assessment
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board of the IEEE Computer Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board of the IEEE Computer Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

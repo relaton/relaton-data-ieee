@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3001.2-D-3-2016-06
 title:
 - content: IEEE Draft Recommended Practice for Evaluating the Electrical Service Requirements
@@ -86,12 +86,13 @@ keyword:
 - content: utility metering
 - content: utility billing
 - content: vaults.
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee of the IEEE Industry Applications Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

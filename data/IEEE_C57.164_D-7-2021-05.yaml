@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEC57.164-D-7-2021-05
 title:
 - content: IEEE Draft Guide for Establishing Short Circuit Withstand Capabilities
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2021-05-26'
 - type: issued
-  value: '2021'
+  value: '2021-12-08'
 contributor:
 - organization:
     name:
@@ -48,7 +48,7 @@ script:
 - Latn
 abstract:
 - content: Guidance on determining and establishing short-circuit withstand capabilities
-    of power transformers, regulators and reactors
+    of power transformers, regulators, and reactors is provided in this standard.
   language:
   - en
   script:
@@ -70,21 +70,22 @@ keyword:
 - content: Power transformers
 - content: Regulators
 - content: Liquids
-- content: Inducers
 - content: Short-circuit currents
 - content: Material properties
-- content: transformer
 - content: autotransformer
-- content: reactor
 - content: fault
-- content: short-circuit
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
+- content: IEEE C57.164
+- content: reactor
+- content: short circuit
+- content: transformer
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

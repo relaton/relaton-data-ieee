@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.118.2-D-3.25-2022-11
 title:
 - content: IEEE Draft Standard for Synchrophasor Data Transfer for Power Systems
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2023-01-06'
 - type: issued
-  value: '2023'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -46,14 +46,15 @@ language:
 script:
 - Latn
 abstract:
-- content: A method for real-time exchange of synchronized phasor measurement data
-    between power system equipment is defined. This standard specifies messaging that
-    can be used with any suitable communication protocol for real-time communication
-    between phasor measurement units (PMU), phasor data concentrators (PDC), and other
-    applications. It defines message types, contents, and use. Data types and formats
-    are specified. A typical measurement system is described. Communication options
-    and requirements are described. Cybersecurity is discussed, and while its importance
-    is acknowledged in the overall system, it is beyond the scope of this standard.
+- content: 'A method for the real-time exchange of synchronized phasor measurement
+    data between power system equipment is defined within this standard. This includes
+    the following: messaging that can be used with any suitable communication protocol
+    for real-time communication between phasor measurement units (PMU), phasor data
+    concentrators (PDC), and other applications; message types, contents, and their
+    use as well as data types and format specifications; descriptions of typical measurement
+    systems; communication options and requirements . Note that while cybersecurity
+    is discussed, and while its importance is acknowledged in the overall system,
+    it is considered beyond the scope of this standard.'
   language:
   - en
   script:
@@ -73,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.118.2-2011
+    id: IEEEStdC37.118.2-2011
     docid:
-    - id: IEEE C37.118.2-2011
+    - id: IEEE Std C37.118.2-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.118.2-2011
+      content: IEEE Std C37.118.2-2011
       format: text/plain
   description:
     content: revises
@@ -93,7 +94,7 @@ keyword:
 - content: Power systems
 - content: Phasor measurement units
 - content: Data transfer
-- content: IEEE C37.118.2
+- content: IEEE C37.118.2&#8482;
 - content: PDC
 - content: phasor
 - content: phasor data concentrator
@@ -101,15 +102,18 @@ keyword:
 - content: PMU
 - content: synchronized phasor
 - content: synchrophasor
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  - code: 29.120.70
+    text: Relays
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

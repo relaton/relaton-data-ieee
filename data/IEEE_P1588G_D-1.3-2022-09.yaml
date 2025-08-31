@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1588g-D-1.3-2022-09
 title:
 - content: 'IEEE Approved Draft Standard for a Precision Clock Synchronization Protocol
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1588-2019
+    id: IEEEStd1588-2019
     docid:
-    - id: IEEE 1588-2019
+    - id: IEEE Std 1588-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1588-2019
+      content: IEEE Std 1588-2019
       format: text/plain
   description:
     content: amends
@@ -88,10 +88,10 @@ relation:
 keyword:
 - content: IEEE Standards
 - content: Main-secondary
-- content: Receiverws
 - content: Clocks
 - content: Synchronization
 - content: Transmitters
+- content: Receivers
 - content: grandmaster
 - content: IEEE 1588g&#8482;
 - content: master
@@ -100,15 +100,16 @@ keyword:
 - content: slave
 - content: timeReceiver
 - content: timeTransmitter
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 39.040.99
-  text: Other time-measuring instruments
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

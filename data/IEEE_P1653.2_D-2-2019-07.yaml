@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1653.2-D-2-2019-07
 title:
 - content: IEEE Draft Standard for Uncontrolled Traction Power Rectifiers for Substation
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1653.2-2009
+    id: IEEEStd1653.2-2009
     docid:
-    - id: IEEE 1653.2-2009
+    - id: IEEE Std 1653.2-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1653.2-2009
+      content: IEEE Std 1653.2-2009
       format: text/plain
   description:
     content: revises
@@ -110,15 +110,13 @@ keyword:
 - content: rectifier transformer unit
 - content: service rating
 - content: traction power substation
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
-ics:
-- code: 45.060.10
-  text: Tractive stock
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 45.060.10
+    text: Tractive stock
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

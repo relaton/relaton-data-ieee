@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP370-D-5-2019-05
 title:
 - content: IEEE Draft Electrical Characterization of Printed Circuit Board and Related
@@ -87,12 +87,13 @@ keyword:
 - content: reciprocity
 - content: S-parameters
 - content: verification
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

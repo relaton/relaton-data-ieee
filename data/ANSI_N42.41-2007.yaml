@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.41-2007
 title:
 - content: American National Standard Minimum Performance Criteria for Active Interrogation
@@ -62,6 +62,21 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The performance criteria for active interrogation systems in Homeland Security
+    applications are describe in this standard. These systems are intended for non-intrusive
+    inspection of closed containers, vehicles, and packages of a wide range of types
+    and sizes. In these systems, the contents of an inspection zone are irradiated
+    with penetrating ionizing radiation to determine the presence of a hidden substance
+    of interest by the analysis of stimulated secondary radiations or nuclear resonance
+    absorption spectra that are indicative of the chemical and/or nuclidic composition
+    of the substance of interest. The "IEEE Get Program" grants public access to view
+    and download individual PDFs of select standards at no charge. Visit https://ieeexplore.ieee.org/browse/standards/get-program/page
+    for details.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -95,15 +110,16 @@ keyword:
 - content: special nuclear materials
 - content: weapons of mass destruction
 - content: WMD
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '13.310'
-  text: Protection against crime
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '13.310'
+    text: Protection against crime
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

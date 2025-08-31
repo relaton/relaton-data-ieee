@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1930.1-D-1-2021-12
 title:
 - content: IEEE Draft Recommended Practice for Software Defined Networking (SDN) based
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1930.1/D-1-2021-12
 date:
 - type: created
-  value: '2022'
+  value: '2022-03-08'
 - type: published
   value: '2022-03-10'
 - type: issued
@@ -79,16 +79,17 @@ keyword:
 - content: 5G
 - content: Software Defined Networking (SDN)
 - content: Network virtualization
-doctype: standard
-editorialgroup:
-  committee:
-  - Virtualized and Software Defined Networks, and Services Standards Committee of
-    the IEEE Communications Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Virtualized and Software Defined Networks, and Services Standards Committee
+      of the IEEE Communications Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

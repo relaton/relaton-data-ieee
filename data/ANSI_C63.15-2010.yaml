@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.15-2010
 title:
 - content: American National Standard Recommended Practice for the Immunity Measurement
@@ -62,6 +62,19 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This immunity measurement and measurement instrumentation specification
+    document complements the recommended procedures for making emission measurements
+    as specified in ANSI C63.4. The immunity methods are alternative methods that
+    might be of use to manufacturers who want to ensure a reliable product and reduce
+    customer complaints by adding some additional immunity into their products beyond
+    that required by law or by correcting problems experienced in the field not related
+    to regulatory requirements. This document generally covers the frequency range
+    of 30 Hz to 10 GHz.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -91,146 +104,6 @@ relation:
     formattedref:
       content: ANSI C63.15-2017
       format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.15-2017
-    docid:
-    - id: ANSI C63.15-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.15-2017
-      format: text/plain
 keyword:
 - content: IEEE standards
 - content: electromagnetic compatibility
@@ -239,16 +112,16 @@ keyword:
 - content: Trademarks
 - content: Electronic equipment
 - content: FCC
-- content: electromagnetic compatibility
 - content: EMC
 - content: immunity
 - content: RF immunity
-doctype: standard
-ics:
-- code: 33.100.20
-  text: Immunity
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 33.100.20
+    text: Immunity
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2840-D-1.2-2024-05
 title:
 - content: IEEE Draft Standard for Responsible AI Licensing
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P2840/D-1.2-2024-05
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-17'
 - type: published
-  value: '2024-07-19'
+  value: '2024-07-18'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -40,19 +40,19 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-07-19'
+revdate: '2024-07-18'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The IEEE P2840 standard pertains to licenses which, by subscribing to this
-    standard, meaningfully engage with the spirit of responsible use of AI systems.
-    In this regard, the standard is not intended to define what a license or contract
-    is--these are well understood by legal systems across the world. Rather, licenses
-    subscribing to the IEEE P2840 standard shall adhere to and specify clauses that
-    pertain to dimensions of use (i.e., capabilities, consequences, areas of application)
-    of specific technical artifacts.
+- content: The contents within IEEE Std 2840™ pertains to licenses which, by conforming
+    to this standard, meaningfully engages with the spirit of responsible use of AI
+    systems. In this regard, the standard is not intended to define what a license
+    or contract is as these are well understood by legal systems across the world.
+    Rather, licenses conforming to the IEEE Std 2840 standard shall adhere to and
+    specify clauses that pertain to dimensions of use (i.e., capabilities, consequences,
+    and areas of application) of specific technical artifacts.
   language:
   - en
   script:
@@ -74,16 +74,21 @@ keyword:
 - content: Artificial intelligence
 - content: Licenses
 - content: Contracts
-- content: AI Licensing
-- content: Responsible-use
+- content: AI licensing
+- content: IEEE 2840™
 - content: RAIL
-doctype: standard
-editorialgroup:
-  committee:
-  - Artificial Intelligence Standards Committee of the IEEE Computer Society
+- content: responsible-use
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Artificial Intelligence Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.01
+    text: Application of information technology in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

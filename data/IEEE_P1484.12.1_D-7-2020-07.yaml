@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1484.12.1-D-7-2020-07
 title:
 - content: IEEE Approved Draft Standard for Learning Object Metadata
@@ -59,13 +59,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1484.12.1-2002
+    id: IEEEStd1484.12.1-2002
     docid:
-    - id: IEEE 1484.12.1-2002
+    - id: IEEE Std 1484.12.1-2002
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1484.12.1-2002
+      content: IEEE Std 1484.12.1-2002
       format: text/plain
   description:
     content: revises
@@ -81,7 +81,6 @@ keyword:
 - content: Vocabulary
 - content: Data models
 - content: Learning Object Metadata
-- content: Metadata
 - content: LOM
 - content: Data Schema
 - content: Schema
@@ -89,16 +88,13 @@ keyword:
 - content: Learning Objects
 - content: Datatypes
 - content: Data Types
-- content: Vocabulary
-doctype: standard
-editorialgroup:
-  committee:
-  - Learning Technology of the IEEE Computer Society
-ics:
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

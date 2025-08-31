@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.32-2016
 title:
 - content: American National Standard Performance Criteria for Alarming Personal Radiation
@@ -63,6 +63,23 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Minimum performance specifications and testing methods for the evaluation
+    of alarming personal radiation detectors, also known as PRDs, are contained in
+    this standard. These detectors are pocket-sized and carried on the body. These
+    instruments are primarily designed for the detection and location of radioactive
+    materials emitting gamma rays, and possibly neutrons, and not intended to function
+    as electronic dosimeters. The specifications for general, radiological, environmental,
+    electromagnetic, and mechanical performance are given, and the corresponding testing
+    methods are described. The documentation to be provided by the manufacturer is
+    listed as part of the requirements. A number of informative annexes that provide
+    useful information and guidance in implementing this standard are also contained
+    in this standard. (The PDF of this standard is available at no cost compliments
+    of the Department of Homeland Security Domestic Nuclear Detection Office. https://ieeexplore.ieee.org/browse/standards/get-program/page)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -118,15 +135,16 @@ keyword:
 - content: radiation detection
 - content: radiation detection instruments
 - content: radioactive material
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

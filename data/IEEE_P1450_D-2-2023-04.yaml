@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1450-D-2-2023-04
 title:
 - content: IEEE Draft Standard Test Interface Language (STIL) for Digital Test Vector
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1450-1999
+    id: IEEEStd1450-1999
     docid:
-    - id: IEEE 1450-1999
+    - id: IEEE Std 1450-1999
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1450-1999
+      content: IEEE Std 1450-1999
       format: text/plain
   description:
     content: revises
@@ -108,15 +108,16 @@ keyword:
 - content: timed event
 - content: waveform
 - content: waveshape
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

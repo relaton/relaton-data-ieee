@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1905.1-D-06-2012-09
 title:
 - content: IEEE Draft Standard for a Convergent Digital Home Network for Heterogeneous
@@ -94,21 +94,21 @@ keyword:
 - content: Fragmentation and Reassembly
 - content: Topology Discovery Protocol
 - content: Legacy Bridge Discovery
-- content: Security
 - content: Push Button
 - content: Pairwise Master Key
 - content: AP Autoconfiguration
 - content: Registration
 - content: Data Models
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Line Communications of the IEEE Communications Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power Line Communications of the IEEE Communications Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

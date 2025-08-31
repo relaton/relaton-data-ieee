@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP29119-1-FDIS,Sept2021
 title:
 - content: 'ISO/IEC/IEEE Approved Draft International Standard - Software and systems
@@ -79,74 +79,6 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE29119.1-2013
-    docid:
-    - id: ISO/IEC/IEEE 29119.1-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 29119.1-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE29119.1-2013
-    docid:
-    - id: ISO/IEC/IEEE 29119.1-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 29119.1-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE29119.1-2013
-    docid:
-    - id: ISO/IEC/IEEE 29119.1-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 29119.1-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE29119.1-2013
-    docid:
-    - id: ISO/IEC/IEEE 29119.1-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 29119.1-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: ISO Standards
@@ -155,15 +87,17 @@ keyword:
 - content: Systems engineering and theory
 - content: Terminology
 - content: Software engineering
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

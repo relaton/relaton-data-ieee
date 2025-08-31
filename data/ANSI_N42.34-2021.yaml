@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.34-2021
 title:
 - content: American National Standard Performance Criteria for Handheld Instruments
@@ -97,49 +97,15 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ANSIN42.34-2015
-    docid:
-    - id: ANSI N42.34-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI N42.34-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ANSIN42.34-2015
-    docid:
-    - id: ANSI N42.34-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI N42.34-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: US Department of Homeland Security
-- content: Gamma rays
-- content: Handheld computers
 - content: Security
 - content: Neutrons
 - content: ANSI Standards
 - content: Electromagnetics
+- content: Gamma-rays
+- content: Personal digital devices
 - content: ANSI N42.34
 - content: gamma rays
 - content: homeland security
@@ -147,15 +113,16 @@ keyword:
 - content: medical radionuclides
 - content: neutrons
 - content: special nuclear material (SNM)
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

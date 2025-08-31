@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEPC63.26-D-15-2015-06
 title:
 - content: Draft IEEE/ANSI Standard for Compliance Testing of Transmitters Used in
@@ -95,17 +95,18 @@ keyword:
 - content: radiated and conducted emissions
 - content: RF power
 - content: test procedures
-doctype: standard
-editorialgroup:
-  committee:
-  - Accredited Standards Committee on Electromagnetic Compatibility
-ics:
-- code: 33.060.01
-  text: Radiocommunications in general
-- code: 33.100.01
-  text: Electromagnetic compatibility in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Accredited Standards Committee on Electromagnetic Compatibility
+  ics:
+  - code: 33.060.01
+    text: Radiocommunications in general
+  - code: 33.100.01
+    text: Electromagnetic compatibility in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

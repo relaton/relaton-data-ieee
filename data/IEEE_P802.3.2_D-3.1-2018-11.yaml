@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3.2-D-3.1-2018-11
 title:
 - content: IEEE Draft Standard for Ethernet YANG Data Model Definitions
@@ -72,12 +72,13 @@ keyword:
 - content: Terminology
 - content: 802.3 Ethernet
 - content: YANG.
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

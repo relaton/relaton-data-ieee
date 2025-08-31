@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN322-1977
 title:
 - content: American National Standard Inspection and Test Specifications for Direct
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI N322-1977
 date:
 - type: created
-  value: '1977'
+  value: '1977-06-30'
 - type: published
   value: '2014-02-26'
 - type: issued
@@ -82,15 +82,16 @@ keyword:
 - content: Manufacturing
 - content: X-ray detectors
 - content: Gamma-ray detectors
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

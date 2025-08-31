@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1DC-D-3.0
 title:
 - content: IEEE Draft Standard for Local and metropolitan area networks--Quality of
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-10-23'
 - type: issued
-  value: '2023'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -47,10 +47,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard specifies procedures and managed objects for Quality of Service
-    (QoS) features specified in IEEE Std 802.1Q, such as per-stream filtering and
-    policing, queuing, transmission selection, stream control and preemption, in a
-    network system which is not a bridge.
+- content: This standard specifies procedures and managed objects for quality of service
+    (QoS) features specified in IEEE Std 802.1Q, such as Per-Stream Filtering and
+    Policing, queuing, transmission selection, stream control, and frame preemption,
+    in a network system that is not a Bridge.
   language:
   - en
   script:
@@ -73,29 +73,34 @@ keyword:
 - content: Metropolitan area networks
 - content: Quality of service
 - content: Network systems
+- content: asynchronous traffic shaping
 - content: CQF
+- content: credit-based shaper
+- content: cyclic queuing and forwarding
+- content: frame preemption
+- content: IEEE 802.1DC&#8482;
 - content: IEEE 802.1Q&#8482;
 - content: LAN
 - content: local area network
+- content: Per-Stream Filtering and Policing
+- content: priority
+- content: quality of service
+- content: scheduled traffic
 - content: Time-Sensitive Networking
 - content: TSN
 - content: Virtual Bridged Network
 - content: virtual LAN
 - content: VLAN Bridge
-- content: Quality of Service
-- content: priority
-- content: credit-based shaper
-- content: scheduled traffic
-- content: asynchronous traffic shaping
-- content: cyclic queuing and forwarding
-- content: per-Stream filtering and policing
-- content: preemption
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

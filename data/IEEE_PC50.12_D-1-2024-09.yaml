@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC50.12-D-1-2024-09
 title:
 - content: IEEE Draft Standard for 50 Hz and 60 Hz Synchronous Generators and Generator/Motors
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC50.12-2005
+    id: IEEEStdC50.12-2005
     docid:
-    - id: IEEE C50.12-2005
+    - id: IEEE Std C50.12-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C50.12-2005
+      content: IEEE Std C50.12-2005
       format: text/plain
   description:
     content: revises
@@ -96,16 +96,17 @@ keyword:
 - content: hydrogenerator
 - content: salient-pole rotor
 - content: cylindrical-rotor
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.160.20
-  text: Generators
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: 29.160.20
+    text: Generators
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

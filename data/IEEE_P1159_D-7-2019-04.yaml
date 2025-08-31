@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1159-D-7-2019-04
 title:
 - content: IEEE Approved Draft Recommended Practice for Monitoring Electric Power
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1159/D-7-2019-04
 date:
 - type: created
-  value: '2019'
+  value: '2019-06-13'
 - type: published
   value: '2019-05-06'
 - type: issued
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1159-2009
+    id: IEEEStd1159-2009
     docid:
-    - id: IEEE 1159-2009
+    - id: IEEE Std 1159-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1159-2009
+      content: IEEE Std 1159-2009
       format: text/plain
   description:
     content: revises
@@ -116,15 +116,13 @@ keyword:
 - content: swell
 - content: transient
 - content: unbalance
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

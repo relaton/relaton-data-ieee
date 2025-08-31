@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2954-D-4-2023
 title:
 - content: IEEE Draft Recommended Practice for Overhead Transmission Line Design
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P2954/D-4-2023
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-06'
 - type: published
-  value: '2023-06-09'
+  value: '2023-06-08'
 - type: issued
-  value: '2023'
+  value: '2023-11-08'
 contributor:
 - organization:
     name:
@@ -40,11 +40,24 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-06-09'
+revdate: '2023-06-08'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: large collection of peer-reviewed IEEE and other industry standards and
+    guidelines related to overhead transmission line design, testing, construction,
+    and maintenance is summarized in this recommended practice. This includes aspects
+    such as structures, foundations, conductors, insulators, hardware, and electrical
+    effects. It identifies the documents in an organized and comprehensive fashion
+    along with explanations of the material presented within each document and when
+    a particular document should be considered.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -61,17 +74,22 @@ keyword:
 - content: Power transmission lines
 - content: Conductors
 - content: Power distribution
-- content: overhead transmission line
 - content: conductors
-- content: structures
 - content: electrical aspects
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
+- content: IEEE 2954&#8482;
+- content: overhead transmission line
+- content: structures
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

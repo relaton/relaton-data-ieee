@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.150-D-6-2023-06
 title:
-- content: IEEE Approved Draft Guide for the Transportation of Transformers and Reactors
-    Rated 10,000 kVA or Higher
+- content: IEEE Draft Guide for the Transportation of Transformers and Reactors Rated
+    10,000 kVA or Higher
   format: text/plain
   type: main
 link:
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC57.150/D-6-2023-06
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-29'
 - type: published
   value: '2023-06-30'
 - type: issued
@@ -68,64 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.150-2012
+    id: IEEEStdC57.150-2012
     docid:
-    - id: IEEE C57.150-2012
+    - id: IEEE Std C57.150-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.150-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.150-2012
-    docid:
-    - id: IEEE C57.150-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.150-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.150-2012
-    docid:
-    - id: IEEE C57.150-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.150-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.150-2012
-    docid:
-    - id: IEEE C57.150-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.150-2012
+      content: IEEE Std C57.150-2012
       format: text/plain
   description:
     content: revises
@@ -145,15 +94,16 @@ keyword:
 - content: shipping
 - content: transformers
 - content: transportation
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.12-1999
 title:
 - content: American National Standard for Electromagnetic Compatibility Limits--Recommended
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI C63.12-1999
 date:
 - type: created
-  value: '2000'
+  value: '2000-03-28'
 - type: published
   value: '2014-01-07'
 - type: issued
@@ -81,12 +81,13 @@ keyword:
 - content: electromagnetic compatibility
 - content: electromagnetic noise
 - content: radio noise
-doctype: standard
-ics:
-- code: 33.100.01
-  text: Electromagnetic compatibility (EMC) in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 33.100.01
+    text: Electromagnetic compatibility (EMC) in general
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

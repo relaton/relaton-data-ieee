@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10406-D-10-2011-07
 title:
 - content: IEEE Draft Standard for Health informatics - Personal health device communication
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE P11073.10406/D-10-2011-07
 date:
 - type: created
-  value: '2011'
+  value: '2011-07-28'
 - type: published
   value: '2011-07-29'
 - type: issued
@@ -93,18 +93,19 @@ keyword:
 - content: Basic ECG (1 to 3-lead ECG)
 - content: medical device communication
 - content: personal health devices
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073TM Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
-- code: 11.040.55
-  text: Diagnostic equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073TM Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  - code: 11.040.55
+    text: Diagnostic equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

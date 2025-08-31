@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1473-D-8-2010-06
 title:
 - content: IEEE Draft Standard for Communications Protocol Aboard Passenger Trains
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1473/D-8-2010-06
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-15'
 - type: published
   value: '2010-07-19'
 - type: issued
@@ -80,17 +80,18 @@ keyword:
 - content: rail transit
 - content: train bus
 - content: vehicle bus
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
-ics:
-- code: 35.240.60
-  text: IT applications in transport and trade
-- code: 45.060.20
-  text: Trailing stock
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport and trade
+  - code: 45.060.20
+    text: Trailing stock
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

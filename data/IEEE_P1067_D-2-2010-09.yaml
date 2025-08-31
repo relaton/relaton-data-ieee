@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1067-D-2-2010-09
 title:
 - content: IEEE Draft Guide for In-Service Use, Care, Maintenance, and Testing of
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE P1067/D-2-2010-09
 date:
 - type: created
-  value: '2011'
+  value: '2011-03-08'
 - type: published
   value: '2011-03-10'
 - type: issued
@@ -79,15 +79,16 @@ keyword:
 - content: energized
 - content: maintenance
 - content: power lines
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power &amp; Energy Society
-ics:
-- code: 13.340.10
-  text: Protective clothing
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 13.340.10
+    text: Protective clothing
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

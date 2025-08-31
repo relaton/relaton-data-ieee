@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP48-D-7-2019-09
 title:
 - content: IEEE Draft Standard for Test Procedures and Requirements for Alternating-Current
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE48-2009
+    id: IEEEStd48-2009
     docid:
-    - id: IEEE 48-2009
+    - id: IEEE Std 48-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 48-2009
+      content: IEEE Std 48-2009
       format: text/plain
   description:
     content: revises
@@ -104,15 +104,13 @@ keyword:
 - content: standard service conditions
 - content: test requirements
 - content: ultraviolet light
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

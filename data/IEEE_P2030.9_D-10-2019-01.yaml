@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.9-D-10-2019-01
 title:
 - content: IEEE Approved Draft Recommended Practice for the Planning and Design of
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2030.9/D-10-2019-01
 date:
 - type: created
-  value: '2019'
+  value: '2019-03-20'
 - type: published
   value: '2019-06-26'
 - type: issued
@@ -83,12 +83,13 @@ keyword:
 - content: safety
 - content: scheme evaluation
 - content: system configuration
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

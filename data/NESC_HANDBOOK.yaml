@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NESCHandbook
 title:
 - content: NESC Handbook, Premier Edition – Spanish version - A Discussion of the
@@ -70,12 +70,13 @@ keyword:
     of electric supply systems; power station equipment; power station safety; public
     utility safety; safety work rules; underground communication line safety; underground
     electric line safety
-doctype: standard
-editorialgroup:
-  committee:
-  - National Electrical Safety Code
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Electrical Safety Code
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

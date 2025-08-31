@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1623-D-5-2020-05
 title:
 - content: IEEE Draft Guide for the Functional Specification of Medium Voltage (1
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1623-2004
+    id: IEEEStd1623-2004
     docid:
-    - id: IEEE 1623-2004
+    - id: IEEE Std 1623-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1623-2004
+      content: IEEE Std 1623-2004
       format: text/plain
   description:
     content: revises
@@ -100,15 +100,13 @@ keyword:
 - content: power quality
 - content: sensitive loads
 - content: voltage control
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2400-D-2-2016-01
 title:
 - content: IEEE Approved Draft Standard of Wind Turbine Aero Acoustic Noise Measurement
@@ -103,13 +103,14 @@ keyword:
 - content: Amplitude Modulation Noise
 - content: Low Frequency Noise including Infrasound
 - content: Aero Acoustic Noise
-doctype: standard
-editorialgroup:
-  committee:
-  - TC39 Measurements in Power Systems of the IEEE Instrumentation and Measurement
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC39 Measurements in Power Systems of the IEEE Instrumentation and Measurement
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3158-D-2-2024-02
 title:
 - content: IEEE Draft Standard for Trusted Data Matrix System Architecture
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P3158/D-2-2024-02
 date:
 - type: created
-  value: '2024'
+  value: '2024-03-18'
 - type: published
   value: '2024-03-20'
 - type: issued
-  value: '2024'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -50,7 +50,7 @@ abstract:
     functional, process, and technology requirements, are specified in this standard.
     Based on consensus-made requirements, agreements and management tools, the trusted
     data matrix is a data and resource sharing digital infrastructure to facilitate
-    trusted, secure, transparent and accountable data sharing, exchanging, circulation
+    trusted, secure, transparent, and accountable data sharing, exchanging, circulation,
     and trading among different stakeholders.
   language:
   - en
@@ -69,6 +69,12 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
+- content: IEEE Standards
+- content: Business intelligence
+- content: Systems engineering and theory
+- content: Trusted computing
+- content: Data models
+- content: Software architecture
 - content: business view
 - content: centralized mode
 - content: federated mode
@@ -78,13 +84,17 @@ keyword:
 - content: system architecture
 - content: technology view
 - content: trusted data matrix
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

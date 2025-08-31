@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3004.8-D-12.4-2016-10
 title:
 - content: IEEE Approved Draft Recommended Practice for Motor Protection in Industrial
@@ -94,12 +94,13 @@ keyword:
 - content: temperature detector voting
 - content: thermal model overload protection
 - content: permanent magnet motors
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee of the IEEE Industry Applications Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

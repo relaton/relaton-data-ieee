@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.152-D-1-2024-09
 title:
 - content: IEEE Draft Guide for Diagnostic Field Testing of Liquid-Filled Power Transformers,
@@ -78,13 +78,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.152-2013
+    id: IEEEStdC57.152-2013
     docid:
-    - id: IEEE C57.152-2013
+    - id: IEEE Std C57.152-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.152-2013
+      content: IEEE Std C57.152-2013
       format: text/plain
   description:
     content: revises
@@ -94,12 +94,19 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Testing
+- content: Insulation testing
+- content: Liquids
+- content: Inductors
+- content: Safety
+- content: Tap changers
 - content: bushing
 - content: core
 - content: diagnostic evaluation
 - content: field testing
 - content: fluid-filled transformer
-- content: IEEE C57.152&#8482;
+- content: IEEE C57.152(TM)
 - content: insulating liquid
 - content: off-line testing
 - content: reactor
@@ -108,16 +115,17 @@ keyword:
 - content: tank
 - content: tap changer
 - content: winding
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

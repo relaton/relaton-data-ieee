@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1900.5.2-D-1.01-2016-01
 title:
 - content: IEEE Draft Standard Method for Modeling Spectrum Consumption
@@ -79,13 +79,14 @@ keyword:
 - content: IEEE 1900.5.2(TM)
 - content: SCM
 - content: spectrum consumption model
-doctype: standard
-editorialgroup:
-  committee:
-  - Dynamic Spectrum Access Networks Standards Committee of the IEEE Communications
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Dynamic Spectrum Access Networks Standards Committee of the IEEE Communications
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

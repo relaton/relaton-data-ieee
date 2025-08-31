@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE26-1930
 title:
 - content: AIEE Automatic Stations
@@ -24,7 +24,7 @@ docid:
 docnumber: AIEE 26-1930
 date:
 - type: created
-  value: '1930'
+  value: '1930-04-30'
 - type: published
   value: '2016-01-20'
 - type: issued
@@ -58,9 +58,10 @@ keyword:
 - content: Substation automation
 - content: Power transmission
 - content: Power systems
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

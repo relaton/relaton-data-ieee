@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1409-D-15-2011-11
 title:
 - content: IEEE Draft Guide for the Application of Power Electronics for Power Quality
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1409/D-15-2011-11
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-03'
 - type: published
   value: '2012-02-09'
 - type: issued
@@ -92,15 +92,16 @@ keyword:
 - content: transfer switch
 - content: voltage fluctuations
 - content: voltage sags
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

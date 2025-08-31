@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3cd-D-3.3-2018-06
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment: Media Access Control Parameters
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P802.3cd/D-3.3-2018-06
 date:
 - type: created
-  value: '2018'
+  value: '2018-06-06'
 - type: published
   value: '2018-06-09'
 - type: issued
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2015
+    id: IEEEStd802.3-2015
     docid:
-    - id: IEEE 802.3-2015
+    - id: IEEE Std 802.3-2015
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2015
+      content: IEEE Std 802.3-2015
       format: text/plain
   description:
     content: amends
@@ -92,7 +92,6 @@ keyword:
 - content: Media Access Protocol
 - content: Physical layer
 - content: Ethernet
-- content: Media Access Protocol
 - content: 50GAUI-1
 - content: 50GAUI-2
 - content: 50GBASE-CR
@@ -116,7 +115,6 @@ keyword:
 - content: amendment
 - content: EEE
 - content: Energy-Efficient Ethernet
-- content: Ethernet
 - content: FEC
 - content: forward error correction
 - content: IEEE 802.3&#8482;
@@ -124,17 +122,15 @@ keyword:
 - content: LAUI-2
 - content: MMF
 - content: SMF
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

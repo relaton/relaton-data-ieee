@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.136-D-8-2022-12
 title:
 - content: IEEE Draft Guide for Audible Sound of Liquid-Immersed Power Transformers
@@ -83,17 +83,18 @@ keyword:
 - content: liquid-immersed power transformers
 - content: sound
 - content: sound reduction methods
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 13.040.40
-  text: Stationary source emissions
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: 13.040.40
+    text: Stationary source emissions
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

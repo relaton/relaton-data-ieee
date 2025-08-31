@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEP15288-D-IS
 title:
 - content: ISO/IEC/IEEE Draft Standard - Systems and Software engineering -- System
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE P15288/D-IS
 date:
 - type: created
-  value: '2022'
+  value: '2022-04-26'
 - type: published
   value: '2022-04-28'
 - type: issued
@@ -92,108 +92,6 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE15288
-    docid:
-    - id: ISO/IEC/IEEE 15288
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 15288
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE15288
-    docid:
-    - id: ISO/IEC/IEEE 15288
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 15288
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE15288
-    docid:
-    - id: ISO/IEC/IEEE 15288
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 15288
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE15288
-    docid:
-    - id: ISO/IEC/IEEE 15288
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 15288
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE15288
-    docid:
-    - id: ISO/IEC/IEEE 15288
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 15288
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE15288
-    docid:
-    - id: ISO/IEC/IEEE 15288
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 15288
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: IEC Standards
@@ -201,15 +99,17 @@ keyword:
 - content: Software engineering
 - content: Systems engineering and theory
 - content: Life testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

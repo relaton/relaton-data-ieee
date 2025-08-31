@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC37.06-2000
 title:
 - content: American National Standard for AC High-Voltage Circuit Breakers - Rated
@@ -79,15 +79,16 @@ keyword:
 - content: IEEE C37.06
 - content: Circuit Breakers
 - content: Symmetrical Current Basis
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

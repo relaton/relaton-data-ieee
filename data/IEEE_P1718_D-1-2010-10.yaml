@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1718-D-1-2010-10
 title:
 - content: IEEE Draft Guide for Temperature Monitoring of Cable Systems
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P1718/D-1-2010-10
 date:
 - type: created
-  value: '2011'
+  value: '2011-03-31'
 - type: published
   value: '2011-04-05'
 - type: issued
@@ -38,7 +38,7 @@ contributor:
     url: http://www.ieee.org
     contact:
     - address:
-        city: Piscataway
+        city: New York
         country: USA
   role:
   - type: publisher
@@ -76,17 +76,18 @@ keyword:
 - content: Power cables
 - content: Power distribution lines
 - content: Power cable insulation
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power &amp; Energy Society
-ics:
-- code: 17.200.20
-  text: Temperature-measuring instruments
-- code: 33.180.99
-  text: Other fibre optic equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 17.200.20
+    text: Temperature-measuring instruments
+  - code: 33.180.99
+    text: Other fibre optic equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

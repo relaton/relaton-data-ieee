@@ -1,0 +1,132 @@
+---
+schema-version: v1.2.9
+id: IEEEP802.1AX-D-2.1-2019-08
+title:
+- content: IEEE Draft Standard for Local and Metropolitan Area Networks -- Link Aggregation
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/8820190
+  type: src
+type: standard
+docid:
+- id: IEEE P802.1AX/D-2.1-2019-08
+  type: IEEE
+  primary: true
+- id: IEEE P802.1AX™/D-2.1-2019-08
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-1-5044-6101-6
+  type: ISBN
+docnumber: IEEE P802.1AX/D-2.1-2019-08
+date:
+- type: created
+  value: '2019-08-24'
+- type: published
+  value: '2019-08-29'
+- type: issued
+  value: '2020-01-30'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2019-08-29'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: Link Aggregation allows parallel point-to-point links to be used as if
+    they were a single link and also supports the use of multiple links as a resilient
+    load-sharing interconnect between multiple nodes in two separately administered
+    networks. This standard defines a MAC-independent Link Aggregation capability
+    and provides general information relevant to specific MAC types.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2019'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd802.1AX-2014
+    docid:
+    - id: IEEE Std 802.1AX-2014
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.1AX-2014
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd802.1AX-2014
+    docid:
+    - id: IEEE Std 802.1AX-2014
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.1AX-2014
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Link aggregation
+- content: Local area networks
+- content: Metropolitan area networks
+- content: Resilience
+- content: Aggregated Link
+- content: Aggregator
+- content: Distributed Resilient Network Interconnect
+- content: DRNI
+- content: interconnect
+- content: Link Aggregation
+- content: Link Aggregation Group
+- content: local area network
+- content: management
+- content: Network-Network Interface
+- content: NNI
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

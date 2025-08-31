@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3209-D-5-2023-04
 title:
-- content: IEEE Approved Draft Standard for Blockchain Identity Key Management
+- content: IEEE Draft Standard for Blockchain Identity Key Management
   format: text/plain
   type: main
 link:
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P3209/D-5-2023-04
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-21'
 - type: published
   value: '2023-04-26'
 - type: issued
@@ -81,12 +81,18 @@ keyword:
 - content: IEEE 3209&#8482;
 - content: public key
 - content: private key
-doctype: standard
-editorialgroup:
-  committee:
-  - Blockchain and Distributed Ledgers of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Blockchain and Distributed Ledgers of the IEEE Computer Society
+  ics:
+  - code: '35.030'
+    text: IT Security
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

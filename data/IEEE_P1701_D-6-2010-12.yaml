@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1701-D-6-2010-12
 title:
 - content: IEEE Draft Standard for Optical Port Communication Protocol to Complement
@@ -78,17 +78,18 @@ keyword:
 - content: Optical Port
 - content: ANSI Type II
 - content: PSEM
-doctype: standard
-editorialgroup:
-  committee:
-  - SCC31 - Automatic Meter Reading and Energy Management
-ics:
-- code: '35.040'
-  text: Character sets and information coding
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - SCC31 - Automatic Meter Reading and Energy Management
+  ics:
+  - code: '35.040'
+    text: Character sets and information coding
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

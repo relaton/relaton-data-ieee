@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP62704.2-2016-04
 title:
 - content: 'IEEE/IEC Draft International Standard for Determining the Peak Spatial
@@ -88,12 +88,13 @@ keyword:
 - content: Wireless communications
 - content: Data models
 - content: Spatial databases
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

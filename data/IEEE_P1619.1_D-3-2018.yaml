@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1619.1-D-3-2018
 title:
 - content: IEEE Draft Standard for Authenticated Encryption with Length Expansion
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1619.1/D-3-2018
 date:
 - type: created
-  value: '2018'
+  value: '2018-06-18'
 - type: published
   value: '2018-06-20'
 - type: issued
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1619.1-2007
+    id: IEEEStd1619.1-2007
     docid:
-    - id: IEEE 1619.1-2007
+    - id: IEEE Std 1619.1-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1619.1-2007
+      content: IEEE Std 1619.1-2007
       format: text/plain
   description:
     content: revises
@@ -106,17 +106,15 @@ keyword:
 - content: tape drive
 - content: variable-length block
 - content: XTS
-doctype: standard
-editorialgroup:
-  committee:
-  - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.040'
-  text: Information coding
-- code: 35.240.60
-  text: IT applications in transport
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  - code: 35.240.60
+    text: IT applications in transport
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

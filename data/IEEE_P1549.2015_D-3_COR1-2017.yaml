@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1549.2015-D-3-Cor1-2017
 title:
 - content: IEEE Approval Draft Standard for Microwave Filter Definitions--Corrigendum
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1549-2011
+    id: IEEEStd1549-2011
     docid:
-    - id: IEEE 1549-2011
+    - id: IEEE Std 1549-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1549-2011
+      content: IEEE Std 1549-2011
       format: text/plain
   description:
     content: corrects
@@ -91,17 +91,15 @@ keyword:
 - content: Microwave filters
 - content: IEEE 1549&#8482;
 - content: microwave filters
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Microwave Theory and Techniques Society
-ics:
-- code: '31.140'
-  text: Piezoelectric devices
-- code: '31.160'
-  text: Electric filters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '31.140'
+    text: Piezoelectric devices
+  - code: '31.160'
+    text: Electric filters
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEC37.90-1978
 title:
 - content: IEEE Standard for Relays and Relay Systems Associated with Electric Power
@@ -71,163 +71,23 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: ANSI-IEEEC37.90-1989
+    id: ANSI-IEEEStdC37.90-1989
     docid:
-    - id: ANSI/IEEE C37.90-1989
+    - id: ANSI/IEEE Std C37.90-1989
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE C37.90-1989
+      content: ANSI/IEEE Std C37.90-1989
       format: text/plain
 - type: obsoletedBy
   bibitem:
-    id: ANSI-IEEEC37.90-1989
+    id: ANSI-IEEEStdC37.90-1989
     docid:
-    - id: ANSI/IEEE C37.90-1989
+    - id: ANSI/IEEE Std C37.90-1989
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
-    id: ANSI-IEEEC37.90-1989
-    docid:
-    - id: ANSI/IEEE C37.90-1989
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.90-1989
+      content: ANSI/IEEE Std C37.90-1989
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -241,12 +101,10 @@ keyword:
 - content: electric
 - content: power
 - content: apparatus
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

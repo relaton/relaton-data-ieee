@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3102-D-4-2023-04
 title:
 - content: IEEE Draft Standard for Conservation Voltage Reduction (CVR) Data Collection
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P3102/D-4-2023-04
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-25'
 - type: published
   value: '2023-04-26'
 - type: issued
-  value: '2023'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -47,15 +47,16 @@ language:
 script:
 - Latn
 abstract:
-- content: Utilities face challenges in conducting measurement and verification in
-    CVR deployed feeders. A standard is needed to provide procedures for electric
-    utilities to determine the value of their CVR programs, define parameters for
-    regulatory reporting, and define standardized verification methodology selection
-    based on standard data collection methodologies. The purpose of this standard
-    is to specify CVR data management and collection procedures for use by the electric
-    utility industry to enable improved system operation. The stakeholders for this
-    standard include Electric utilities, Electric utility equipment manufacturers,
-    Software vendors, and Electric utility regulatory commissions.
+- content: Challenges in conducting measurement and verification in conservation voltage
+    reduction (CVR) deployed feeders are faced by utilities. A standard is needed
+    to provide procedures for electric utilities to determine the energy savings and
+    CVR factors of their CVR programs, to define parameters for regulatory reporting,
+    and to define standardized verification methodology selection based on standard
+    data collection methodologies. The specification of CVR data management and collection
+    procedures for use by the electric utility industry to enable energy savings is
+    the purpose of this standard. Electric utilities, electric utility equipment manufacturers,
+    software vendors, and electric utility regulatory commissions are the included
+    stakeholders for this standard.
   language:
   - en
   script:
@@ -81,24 +82,28 @@ keyword:
 - content: Power transmission
 - content: Power system control
 - content: Data quality
-- content: Voltage Optimization
-- content: Conservation Voltage Reduction
-- content: Energy Efficiency
-- content: Volt-Var Control
-- content: Reactive Power Control
-- content: Data Collection
-- content: Data Cleaning
-- content: Data Reconstruction
-- content: 13 Methodology Selection
-- content: Distribution System Operations
-- content: Transmission System Operations.
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
+- content: conservation voltage reduction
+- content: data cleaning
+- content: data collection
+- content: data reconstruction
+- content: distribution system
+- content: energy efficiency
+- content: IEEE 3102&#8482;
+- content: methodology selection
+- content: reactive power control
+- content: voltage optimization
+- content: volt-var control
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: '27.010'
+    text: Energy and heat transfer engineering in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

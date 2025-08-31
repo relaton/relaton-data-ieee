@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1667-D-11-2015-02
 title:
 - content: IEEE Draft Standard for Discovery, Authentication, and Authorization in
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1667/D-11-2015-02
 date:
 - type: created
-  value: '2015'
+  value: '2015-06-12'
 - type: published
   value: '2015-03-03'
 - type: issued
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1667-2009
+    id: IEEEStd1667-2009
     docid:
-    - id: IEEE 1667-2009
+    - id: IEEE Std 1667-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1667-2009
+      content: IEEE Std 1667-2009
       format: text/plain
   description:
     content: revises
@@ -119,17 +119,15 @@ keyword:
 - content: UFS
 - content: USB BOT
 - content: USB.
-doctype: standard
-editorialgroup:
-  committee:
-  - Information Assurance of the IEEE Computer Society
-ics:
-- code: '35.040'
-  text: Character sets and information coding
-- code: 35.220.01
-  text: Data storage devices in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.040'
+    text: Character sets and information coding
+  - code: 35.220.01
+    text: Data storage devices in general
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

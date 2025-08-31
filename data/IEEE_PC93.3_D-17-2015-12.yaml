@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC93.3-D-17-2015-12
 title:
 - content: IEEE Draft Standard for the Requirements for Power Line Carrier Line Traps
@@ -77,12 +77,13 @@ keyword:
 - content: power line carrier
 - content: PLC
 - content: wave trap
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

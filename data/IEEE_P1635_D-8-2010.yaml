@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1635-ASHRAE21-D-8-2010
 title:
 - content: IEEE Draft Guide for the Ventilation and Thermal Management of Batteries
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE P1635/D-8-2010
 date:
 - type: created
-  value: '2011'
+  value: '2011-03-18'
 - type: published
   value: '2011-03-22'
 - type: issued
@@ -78,7 +78,6 @@ keyword:
 - content: Ventilation
 - content: Thermal management
 - content: Stationary state
-- content: Ventilation
 - content: Battery
 - content: Battery Room
 - content: Thermal Management
@@ -90,15 +89,16 @@ keyword:
 - content: Forced Ventilation
 - content: Stationary Battery
 - content: Ventilation System Maintenance.
-doctype: standard
-editorialgroup:
-  committee:
-  - Stationary Batteries Committee of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.220.01
-  text: Galvanic cells and batteries in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Stationary Batteries Committee of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.220.01
+    text: Galvanic cells and batteries in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

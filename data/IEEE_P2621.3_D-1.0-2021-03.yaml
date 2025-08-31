@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2621.3-D-1.0-2021-03
 title:
 - content: IEEE Draft Standard for Wireless Diabetes Device Security—Use of Mobile
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2621.3/D-1.0-2021-03
 date:
 - type: created
-  value: '2021'
+  value: '2021-06-29'
 - type: published
   value: '2021-06-30'
 - type: issued
@@ -67,6 +67,12 @@ copyright:
     url: http://www.ieee.org
   from: '2021'
 keyword:
+- content: IEEE Standards
+- content: Biomedical monitoring
+- content: Diabetes
+- content: Medical devices
+- content: Security
+- content: Mobile communication
 - content: security
 - content: assurance
 - content: diabetes
@@ -75,13 +81,14 @@ keyword:
 - content: firmware
 - content: protection profile
 - content: security target
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Engineering in Medicine and Biology Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

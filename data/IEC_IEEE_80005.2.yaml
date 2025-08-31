@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE80005.2
 title:
 - content: 'IEC/IEEE International Standard - Utility connections in port -- Part
@@ -26,7 +26,7 @@ docid:
 docnumber: IEC/IEEE 80005.2
 date:
 - type: created
-  value: '2016'
+  value: '2016-06-27'
 - type: published
   value: '2016-06-27'
 - type: issued
@@ -90,8 +90,6 @@ keyword:
 - content: Power system reliability
 - content: High Byte
 - content: Low Byte
-- content: Low Byte
-- content: Most Significant Bit
 - content: Most Significant Bit
 - content: bypass key
 - content: alarm
@@ -100,15 +98,16 @@ keyword:
 - content: SCADA
 - content: HVSC
 - content: LVSC
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

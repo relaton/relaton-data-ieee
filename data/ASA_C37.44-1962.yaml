@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ASAC37.44-1962
 title:
 - content: ASA American Standard Specifications for Distribution Oil Cutouts and Fuse
@@ -23,9 +23,9 @@ docid:
 docnumber: ASA C37.44-1962
 date:
 - type: created
-  value: '1962'
+  value: '1962-07-20'
 - type: published
-  value: '2022-10-14'
+  value: '2022-10-17'
 - type: issued
   value: '1962-07-20'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2022-10-14'
+revdate: '2022-10-17'
 language:
 - en
 script:
@@ -58,12 +58,13 @@ keyword:
 - content: High-voltage techniques
 - content: Oils
 - content: Power transformers
-doctype: standard
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   pubstatus: Active
   holdstatus: Publish

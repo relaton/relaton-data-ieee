@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.22.2-2015
 title:
 - content: 'ISO/IEC/IEEE International Standard - Information technology -- Telecommunications
@@ -29,7 +29,7 @@ docid:
 docnumber: ISO/IEC/IEEE 8802.22.2-2015
 date:
 - type: created
-  value: '2018'
+  value: '2018-03-15'
 - type: published
   value: '2018-03-16'
 - type: issued
@@ -100,15 +100,16 @@ keyword:
 - content: IEEE 802.22b(TM)
 - content: monitoring applications
 - content: WRAN standard
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2735-D-4.2-2022-08
 title:
 - content: IEEE Approved Draft Standard for Interoperability of Complex Virtual Instruments
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2735/D-4.2-2022-08
 date:
 - type: created
-  value: '2023'
+  value: '2023-03-31'
 - type: published
   value: '2022-11-16'
 - type: issued
@@ -77,17 +77,17 @@ keyword:
 - content: Sensors
 - content: complex virtual instrumentation
 - content: IEEE 2735
-- content: Internet of Things
 - content: interoperability
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 35.240.95
-  text: Internet applications
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 35.240.95
+    text: Internet applications
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

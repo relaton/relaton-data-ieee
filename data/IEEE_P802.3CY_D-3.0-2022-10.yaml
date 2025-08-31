@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3cy-D-3.0-2022-10
 title:
 - content: 'IEEE Draft Standard for Ethernet - Amendment 9: Physical Layer Specifications
@@ -69,47 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2022
+    id: IEEEStd802.3-2022
     docid:
-    - id: IEEE 802.3-2022
+    - id: IEEE Std 802.3-2022
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2022
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.3-2022
-    docid:
-    - id: IEEE 802.3-2022
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3-2022
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.3-2022
-    docid:
-    - id: IEEE 802.3-2022
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3-2022
+      content: IEEE Std 802.3-2022
       format: text/plain
   description:
     content: amends
@@ -129,17 +95,18 @@ keyword:
 - content: 25GBASE-T1; amendment; automotive Ethernet; IEEE 802.3; IEEE 802.3cy; Medium
     Dependent Interface; Physical Coding Sublayer; Physical Layer; Physical Medium
     Attachment
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

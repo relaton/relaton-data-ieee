@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE30.2-D-6-2023-03
 title:
 - content: 'IEEE/IEC Draft International Standard for Explosive atmospheres -- Part
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE 30.2/D-6-2023-03
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-04'
 - type: published
   value: '2023-04-05'
 - type: issued
@@ -78,84 +78,23 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: IEC-IEEE60079-1930
-    docid:
-    - id: IEC/IEEE 60079-1930
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEC/IEEE 60079-1930
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEC-IEEE60079-1930
-    docid:
-    - id: IEC/IEEE 60079-1930
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEC/IEEE 60079-1930
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEC-IEEE60079-1930
-    docid:
-    - id: IEC/IEEE 60079-1930
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEC/IEEE 60079-1930
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEC-IEEE60079-1930
-    docid:
-    - id: IEC/IEEE 60079-1930
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEC/IEEE 60079-1930
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.260.20
-  text: Electrical apparatus for explosive atmospheres
+keyword:
+- content: IEEE Standards
+- content: IEC Standards
+- content: Resistance heating
+- content: Maintenance engineering
+- content: Explosives
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.260.20
+    text: Electrical apparatus for explosive atmospheres
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP605-D-9-2023-08
 title:
 - content: IEEE Draft Guide for Bus Design in Air Insulated Substations
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2023-09-11'
 - type: issued
-  value: '2023'
+  value: '2023-12-06'
 contributor:
 - organization:
     name:
@@ -46,15 +46,15 @@ language:
 script:
 - Latn
 abstract:
-- content: A proper design of the substation bus aims towards a safe and reliable
+- content: 'A proper design of the substation bus is aimed towards a safe and reliable
     operation of the substation and the power system. Two different types of buses
-    are used in substations, the rigid bus and the strain (cable). This guide provides
-    information on the different bus arrangements used in substations stating the
-    advantages and disadvantages of each. Also it provides information as related
-    to each bus type and construction. Once the bus type is selected, this guide provides
-    the calculation tools for each bus type. Based on these calculations, the engineer
-    can specify the bus size, forces acting on the bus structure, number of mounting
-    structures required, and hardware requirements.
+    are used in substations: the rigid bus and the strain (cable). Information is
+    provided by this guide on the different bus arrangements used in substations stating
+    the advantages and disadvantages of each. Information as related to each bus type
+    and construction is also provided. Once the bus type is selected, the calculation
+    tools for each bus type are provided by this guide. Based on these calculations,
+    the bus size, forces acting on the bus structure, the number of mounting structures
+    required, and hardware requirements can be specified by the engineer.'
   language:
   - en
   script:
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE605-2008
+    id: IEEEStd605-2008
     docid:
-    - id: IEEE 605-2008
+    - id: IEEE Std 605-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 605-2008
+      content: IEEE Std 605-2008
       format: text/plain
   description:
     content: revises
@@ -102,22 +102,24 @@ keyword:
 - content: finite-element
 - content: forces
 - content: ice
+- content: IEEE 605&#8482;
 - content: mounting structure
 - content: rigid bus structures
 - content: short circuit
 - content: strain-bus structures
 - content: substation design
 - content: wind
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: '31.200'
-  text: Integrated circuits. Microelectronics
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations Committee of the IEEE Power and Energy Society
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

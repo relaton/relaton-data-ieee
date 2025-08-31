@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEP24748.9
 title:
 - content: 'ISO/IEC/IEEE Draft Standard - Systems and software engineering – Part
@@ -24,11 +24,11 @@ docid:
 docnumber: ISO/IEC/IEEE P24748.9
 date:
 - type: created
-  value: '2021'
+  value: '2021-04-09'
 - type: published
   value: '2021-04-26'
 - type: issued
-  value: '2021'
+  value: '2023-03-30'
 contributor:
 - organization:
     name:
@@ -88,17 +88,22 @@ keyword:
 - content: IEC Standards
 - content: Systems engineering and theory
 - content: Software engineering
-- content: Product life cylce management
 - content: Epidemics
 - content: Control systems
+- content: Product lifecycle management
 - content: epidemic prevention and control
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

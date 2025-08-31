@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1826-D-3.5-2020-03
 title:
 - content: IEEE Draft Standard for Power Electronics Open System Interfaces in Zonal
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1826/D-3.5-2020-03
 date:
 - type: created
-  value: '2020'
+  value: '2020-03-18'
 - type: published
   value: '2020-03-19'
 - type: issued
@@ -79,13 +79,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1826-2012
+    id: IEEEStd1826-2012
     docid:
-    - id: IEEE 1826-2012
+    - id: IEEE Std 1826-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1826-2012
+      content: IEEE Std 1826-2012
       format: text/plain
   description:
     content: revises
@@ -111,15 +111,13 @@ keyword:
 - content: quality of service
 - content: verification and validation
 - content: zonal electrical distribution system
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.240.30
-  text: Control equipment for electric power systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.30
+    text: Control equipment for electric power systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3178-D-1.0-2024-02
 title:
 - content: IEEE Draft Standard for General Requirements and Protocols for Software-defined
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2024-02-06'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -48,7 +48,7 @@ script:
 - Latn
 abstract:
 - content: General requirements and protocols for the software-defined physical layer
-    for wireless backscatter networks are given.
+    for wireless backscatter networks are given in this standard.
   language:
   - en
   script:
@@ -71,22 +71,27 @@ keyword:
 - content: Software defined networking
 - content: Physical layer
 - content: Backscatter
-- content: software-defined
-- content: physical layer
-- content: wireless
 - content: backscatter
-- content: wake-up
-- content: modulator
 - content: clock rate synthesis
+- content: IEEE 3178&#8482;
+- content: modulator
 - content: multiple access
-doctype: standard
-editorialgroup:
-  committee:
-  - Industrial Electronics Society Standards Committee of the IEEE Industrial Electronics
-    Society
+- content: physical layer
+- content: software-defined
+- content: wake-up
+- content: wireless
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Industrial Electronics Society Standards Committee of the IEEE Industrial Electronics
+      Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

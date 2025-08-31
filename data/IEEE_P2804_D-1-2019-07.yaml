@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2804-D-1-2019-07
 title:
 - content: IEEE Approved Draft Standard for Software-Hardware Interface for Multi-Many-Core
@@ -78,12 +78,13 @@ keyword:
 - content: SHIM
 - content: software hardware interface
 - content: software tools
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

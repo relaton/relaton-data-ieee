@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.235-D-13-2021-01
 title:
 - content: IEEE Draft Guide for the Application of Rogowski Coils Used for Protective
@@ -70,98 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.235-2007
+    id: IEEEStdC37.235-2007
     docid:
-    - id: IEEE C37.235-2007
+    - id: IEEE Std C37.235-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.235-2007
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.235-2007
-    docid:
-    - id: IEEE C37.235-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.235-2007
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.235-2007
-    docid:
-    - id: IEEE C37.235-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.235-2007
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.235-2007
-    docid:
-    - id: IEEE C37.235-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.235-2007
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.235-2007
-    docid:
-    - id: IEEE C37.235-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.235-2007
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.235-2007
-    docid:
-    - id: IEEE C37.235-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.235-2007
+      content: IEEE Std C37.235-2007
       format: text/plain
   description:
     content: revises
@@ -178,15 +93,16 @@ keyword:
 - content: Rogowski Coil
 - content: Low-Power Instrument Transformer
 - content: Air Core Current Transformer
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

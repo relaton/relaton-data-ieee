@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.7-2015Redline
 title:
 - content: American National Standard Guide for Construction of Test Sites for Performing
@@ -27,7 +27,7 @@ docid:
 docnumber: ANSI C63.7-2015 Redline
 date:
 - type: created
-  value: '2015'
+  value: '2015-03-09'
 - type: published
   value: '2015-06-04'
 - type: issued
@@ -104,12 +104,13 @@ keyword:
 - content: open-area test site
 - content: radiated emission measurement
 - content: semi-anechoic chamber
-doctype: redline
-ics:
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  ics:
+  - code: 33.100.10
+    text: Emission
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

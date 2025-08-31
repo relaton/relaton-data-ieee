@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.13.2-D-6.1-2020-08
 title:
 - content: IEEE Draft Standard for Conformance Test Procedure for Instrument Transformers
@@ -59,13 +59,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.13.2-2005
+    id: IEEEStdC57.13.2-2005
     docid:
-    - id: IEEE C57.13.2-2005
+    - id: IEEE Std C57.13.2-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.13.2-2005
+      content: IEEE Std C57.13.2-2005
       format: text/plain
   description:
     content: revises
@@ -81,15 +81,16 @@ keyword:
 - content: Conformance testing
 - content: conformance test
 - content: instrument transformer
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

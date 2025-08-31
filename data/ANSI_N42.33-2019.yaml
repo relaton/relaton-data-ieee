@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.33-2019
 title:
 - content: American National Standard Portable Exposure Rate Meters for Homeland Security
@@ -23,8 +23,6 @@ docid:
   type: DOI
 docnumber: ANSI N42.33-2019
 date:
-- type: updated
-  value: '2020-06-05'
 - type: created
   value: '2019-10-09'
 - type: published
@@ -50,6 +48,16 @@ language:
 script:
 - Latn
 abstract:
+- content: This standard describes design criteria, performance requirements, and
+    performance tests for portable exposure rate meters. The PDF of this standard
+    is available in the IEEE GET program. "IEEE Get Program" grants public access
+    to view and download individual PDFs of select standards at no charge. Visit https://ieeexplore.ieee.org/browse/standards/get-program/page
+    for details.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 - content: This standard describes design criteria, performance requirements, and
     performance tests for portable exposure rate meters. The PDF of this standard
     is available in the IEEE GET program. "IEEE Get Program" grants public access
@@ -88,15 +96,16 @@ keyword:
 - content: performance requirements
 - content: performance tests
 - content: portable radiation detectors
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

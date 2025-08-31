@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NACESP0315-2015
 title:
 - content: NACE International and IEEE Joint Standard Practice for Atmospheric (Above
@@ -65,9 +65,30 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
+- content: This standard provides a procedure that shall be used to (1) assess structures
+    for atmospheric corrosion; (2) assess the level of risk to the structure in terms
+    of corrosion attack and degradation to the existing coating system; (3) make informed
+    decisions based on those findings as to whether coating repair is needed and if
+    so, to what extent; and (4) apply repair coatings to the structure if applicable.
+    This standard applies to the repair of above-grade atmospheric coatings. For the
+    purposes of this standard, the atmospheric area to be coated is generally comprised
+    of that portion of the utility support structure above the transition zone. This
+    standard is limited to the above-grade and atmospheric portions of utility support
+    structures. It does not address below-grade coating repair within and below the
+    transition zone. This standard does not address foundations or guy anchoring systems.
+    This standard does not cover the coating of aluminum, weathering steel, concrete,
+    or any material other than steel. Likewise, it does not cover the coating of non-support
+    structures such as fencing, buildings, transformers, or other miscellaneous components
+    within the transmission, distribution, and substation systems. This standard does
+    not cover new construction, transition zone, below-grade, or water immersion.
+    These areas of concern are addressed specifically in other NACE/IEEE standards.
+    This standard does not address mechanical or structural damage, mechanical or
+    structural repairs, or structural integrity.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -85,16 +106,17 @@ keyword:
 - content: Maintenance engineering
 - content: Safety
 - content: Substations
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 25.220.01
-  text: Surface treatment and coating in general
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
-  standard_modified: Approved
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 25.220.01
+    text: Surface treatment and coating in general
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

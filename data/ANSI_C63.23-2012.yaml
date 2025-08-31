@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.23-2012
 title:
 - content: American National Standard Guide for Electromagnetic Compatibility—Computations
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI C63.23-2012
 date:
 - type: created
-  value: '2013'
+  value: '2013-03-13'
 - type: published
   value: '2013-03-19'
 - type: issued
@@ -49,6 +49,14 @@ language:
 script:
 - Latn
 abstract:
+- content: Methods for estimating measurement uncertainty of emissions measurement
+    results are provided, for use in conjunction with the basic methods of ANSI C63.4.
+    Included in this document are both Type A and Type B uncertainty evaluation methods.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 - content: Methods for estimating measurement uncertainty of emissions measurement
     results are provided, for use in conjunction with the basic methods of ANSI C63.4.
     Included in this document are both Type A and Type B uncertainty evaluation methods.
@@ -82,12 +90,13 @@ keyword:
 - content: metrology
 - content: Type A evaluation
 - content: Type B evaluation
-doctype: standard
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

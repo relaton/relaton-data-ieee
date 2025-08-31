@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.102.1-D-1.13-2020-05
 title:
 - content: IEEE Approved Draft Standard for Interoperability of Internet Protocol
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2030.102.1/D-1.13-2020-05
 date:
 - type: created
-  value: '2021'
+  value: '2021-03-17'
 - type: published
   value: '2021-03-18'
 - type: issued
@@ -95,15 +95,16 @@ keyword:
 - content: privacy
 - content: Virtual Private Network
 - content: VPN
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Power and Energy Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

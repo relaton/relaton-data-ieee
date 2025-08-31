@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1584-D-6-2018-07
 title:
 - content: IEEE Draft Guide for Performing Arc-Flash Hazard Calculations
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1584/D-6-2018-07
 date:
 - type: created
-  value: '2018'
+  value: '2018-07-03'
 - type: published
   value: '2018-07-04'
 - type: issued
@@ -68,13 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1584-2002
+    id: IEEEStd1584-2002
     docid:
-    - id: IEEE 1584-2002
+    - id: IEEE Std 1584-2002
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1584-2002
+      content: IEEE Std 1584-2002
       format: text/plain
   description:
     content: revises
@@ -106,15 +106,13 @@ keyword:
 - content: protective device coordination study
 - content: short-circuit study
 - content: working distances
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.260.99
-  text: Other electrical equipment for working in special conditions
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.260.99
+    text: Other electrical equipment for working in special conditions
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3bn-D-3.1-2016-04
 title:
 - content: 'IEEE Draft Standard for Ethernet - Amendment: Physical Layer Specifications
@@ -74,7 +74,6 @@ keyword:
 - content: Time measurement
 - content: Synchronization
 - content: IEEE 802.3 Standard
-- content: Ethernet
 - content: Ethernet Passive Optical Networks (EPON)
 - content: EPON Protocol over Coax (EPoC)
 - content: Multi-Point MAC Control (MPMC)
@@ -85,17 +84,18 @@ keyword:
 - content: PON
 - content: Point to Multipoint (P2MP)
 - content: Reconciliation Sublayer (RS).
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

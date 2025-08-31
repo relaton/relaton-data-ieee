@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.19.3-D-0.06-2020-07
 title:
 - content: 'IEEE Draft Recommended Practice for Local and Metropolitan Area Networks
@@ -91,12 +91,13 @@ keyword:
 - content: OFDM
 - content: energy detection
 - content: receiver sensitivity
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

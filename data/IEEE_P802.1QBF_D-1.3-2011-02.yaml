@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1Qbf-D-1.3-2011-02
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks---Virtual
@@ -85,17 +85,18 @@ keyword:
 - content: time sensitive data streams
 - content: audio video bridging
 - content: AVB.
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

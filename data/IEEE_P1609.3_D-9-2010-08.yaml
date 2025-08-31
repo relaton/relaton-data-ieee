@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1609.3-D-9-2010-08
 title:
 - content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
@@ -77,17 +77,18 @@ keyword:
 - content: WAVE
 - content: Wireless Access in Vehicular Environments
 - content: WSM
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.240.60
-  text: IT applications in transport and trade
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.240.60
+    text: IT applications in transport and trade
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

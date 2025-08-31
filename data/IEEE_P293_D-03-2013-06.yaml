@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP293-D-03-2013-06
 title:
 - content: 'IEEE Approved Draft Test Procedure for Single-Degree-of-Freedom Spring-Restrained
@@ -67,13 +67,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSI-IEEE293-1969
+    id: ANSI-IEEEStd293-1969
     docid:
-    - id: ANSI/IEEE 293-1969
+    - id: ANSI/IEEE Std 293-1969
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE 293-1969
+      content: ANSI/IEEE Std 293-1969
+      format: text/plain
+  description:
+    content: corrects
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: ANSI-IEEEStd293-1969
+    docid:
+    - id: ANSI/IEEE Std 293-1969
+      type: IEEE
+      primary: true
+    formattedref:
+      content: ANSI/IEEE Std 293-1969
       format: text/plain
   description:
     content: corrects
@@ -86,15 +103,13 @@ keyword:
 - content: IEEE standards
 - content: Gyroscopes
 - content: Accelerometers
-doctype: standard
-editorialgroup:
-  committee:
-  - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
-ics:
-- code: '49.090'
-  text: On-board equipment and instruments
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '49.090'
+    text: On-board equipment and instruments
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

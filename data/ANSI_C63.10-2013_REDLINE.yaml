@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.10-2013Redline
 title:
 - content: American National Standard of Procedures for Compliance Testing of Unlicensed
@@ -108,23 +108,26 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
+- type: obsoletedBy
   bibitem:
-    id: ANSIC63.10-2009
+    id: ANSIC63.10-2020
     docid:
-    - id: ANSI C63.10-2009
+    - id: ANSI C63.10-2020
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI C63.10-2009
+      content: ANSI C63.10-2020
       format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
+- type: obsoletedBy
+  bibitem:
+    id: ANSIC63.10-2020
+    docid:
+    - id: ANSI C63.10-2020
+      type: IEEE
+      primary: true
+    formattedref:
+      content: ANSI C63.10-2020
+      format: text/plain
 keyword:
 - content: ANSI standards
 - content: Wireless communication
@@ -141,14 +144,15 @@ keyword:
 - content: test procedures
 - content: Unlicensed National Information Infrastructure (U-NII)
 - content: unlicensed wireless devices
-doctype: redline
-ics:
-- code: 33.070.01
-  text: Mobile services in general
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  ics:
+  - code: 33.070.01
+    text: Mobile services in general
+  - code: 33.100.10
+    text: Emission
   standard_status: Superseded
   standard_modified: Redline
   pubstatus: Active

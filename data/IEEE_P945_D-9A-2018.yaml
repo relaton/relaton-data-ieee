@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP945-D-9a-2018
 title:
-- content: IEEE Approved Draft Recommended Practice for Preferred Metric Units for
-    Use in Electrical and Electronics Science and Technology
+- content: IEEE Draft Recommended Practice for Preferred Metric Units for Use in Electrical
+    and Electronics Science and Technology
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/8640867
+- content: https://ieeexplore.ieee.org/document/8542980
   type: src
 type: standard
 docid:
@@ -23,9 +23,9 @@ docid:
 docnumber: IEEE P945/D-9a-2018
 date:
 - type: created
-  value: '2019-01-25'
+  value: '2018-11-16'
 - type: published
-  value: '2019-02-12'
+  value: '2018-11-21'
 - type: issued
   value: '2019-02-08'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2019-02-12'
+revdate: '2018-11-21'
 language:
 - en
 script:
@@ -69,13 +69,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSI-IEEE945-1984
+    id: ANSI-IEEEStd945-1984
     docid:
-    - id: ANSI/IEEE 945-1984
+    - id: ANSI/IEEE Std 945-1984
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE 945-1984
+      content: ANSI/IEEE Std 945-1984
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: ANSI-IEEEStd945-1984
+    docid:
+    - id: ANSI/IEEE Std 945-1984
+      type: IEEE
+      primary: true
+    formattedref:
+      content: ANSI/IEEE Std 945-1984
       format: text/plain
   description:
     content: revises
@@ -87,27 +104,24 @@ relation:
 keyword:
 - content: IEEE Standards
 - content: International System of Units
-- content: Measurement units
-- content: Electrical equipment
+- content: Technology
+- content: Measurement of units
 - content: conversion factors
 - content: IEEE 945
 - content: International System
-- content: International System of Units
 - content: metric practice
 - content: metric system
 - content: preferred units
 - content: SI
 - content: SI 10
 - content: Système International d’Unités
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '01.060'
-  text: Quantities and units
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '01.060'
+    text: Quantities and units
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

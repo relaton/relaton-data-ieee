@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.4-D-5.3-2022-10
 title:
 - content: IEEE Draft Guide for Control and Automation Installations Applied to the
@@ -106,18 +106,19 @@ keyword:
 - content: interoperability
 - content: smart grid reference model
 - content: SGIRM
-doctype: standard
-editorialgroup:
-  committee:
-  - Distributed Generation, Energy Storage and Interoperability Standards Committee
-    of the IEEE SA Board of Governors
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Distributed Generation, Energy Storage and Interoperability Standards Committee
+      of the IEEE SA Board of Governors
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1516.1-D-1-2023-02
 title:
-- content: IEEE Draft Standard for Modeling and Simulation (M&S) High Level Architecture
-    (HLA)-- Federate Interface Specification
+- content: IEEE Approved Draft Standard for Modeling and Simulation (M&S) High Level
+    Architecture (HLA)-- Federate Interface Specification
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P1516.1/D-1-2023-02
 date:
 - type: created
-  value: '2023-02-22'
+  value: '2025-03-07'
 - type: published
-  value: '2023-02-24'
+  value: '2023-02-23'
 - type: issued
-  value: '2023'
+  value: '2025-02-14'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-02-24'
+revdate: '2023-02-23'
 language:
 - en
 script:
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1516.1-2010
+    id: IEEEStd1516.1-2010
     docid:
-    - id: IEEE 1516.1-2010
+    - id: IEEE Std 1516.1-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1516.1-2010
+      content: IEEE Std 1516.1-2010
       format: text/plain
   description:
     content: revises
@@ -114,16 +114,17 @@ keyword:
 - content: simulation object model
 - content: timeconstrained
 - content: time-regulating
-doctype: standard
-editorialgroup:
-  committee:
-  - Simulation Interoperability Stds Organization/Stds Activity Committee of the IEEE
-    Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Simulation Interoperability Stds Organization/Stds Activity Committee of the
+      IEEE Computer Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

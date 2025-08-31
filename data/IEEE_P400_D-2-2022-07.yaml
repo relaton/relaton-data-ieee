@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP400-D-2-2022-07
 title:
 - content: IEEE Draft Guide for Field Testing and Evaluation of the Insulation of
@@ -72,47 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE400-2012
+    id: IEEEStd400-2012
     docid:
-    - id: IEEE 400-2012
+    - id: IEEE Std 400-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 400-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE400-2012
-    docid:
-    - id: IEEE 400-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 400-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE400-2012
-    docid:
-    - id: IEEE 400-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 400-2012
+      content: IEEE Std 400-2012
       format: text/plain
   description:
     content: revises
@@ -131,15 +97,16 @@ keyword:
 - content: field testing
 - content: IEEE 400&#8482;
 - content: power cable system
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

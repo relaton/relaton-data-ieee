@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEECD2P24748.4-2024-06
 title:
 - content: 'ISO/IEC/IEEE Draft International Standard - Systems and Software Engineering
@@ -23,9 +23,9 @@ docid:
 docnumber: ISO/IEC/IEEE CD2 P24748.4-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-01'
 - type: published
-  value: '2024-07-05'
+  value: '2024-07-04'
 - type: issued
   value: '2024'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-07-05'
+revdate: '2024-07-04'
 language:
 - en
 script:
@@ -112,16 +112,18 @@ keyword:
 - content: Software engineering
 - content: systems engineering (SE)
 - content: systems engineering management planning (SEMP)
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

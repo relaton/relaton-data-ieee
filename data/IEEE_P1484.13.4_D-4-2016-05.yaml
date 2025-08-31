@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1484.13.4-D-4-2016-05
 title:
 - content: IEEE Approved Draft Recommended Practice for Learning Technology - IMS
@@ -86,12 +86,13 @@ keyword:
 - content: RAMLET
 - content: resource aggregation
 - content: resource aggregation format
-doctype: standard
-editorialgroup:
-  committee:
-  - Learning Technology of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Learning Technology of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

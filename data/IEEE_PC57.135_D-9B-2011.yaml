@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.135-D-9b-2011
 title:
 - content: IEEE Draft Guide for the Application, Specification and Testing of Phase
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE PC57.135/D-9b-2011
 date:
 - type: created
-  value: '2011'
+  value: '2011-04-20'
 - type: published
   value: '2011-04-25'
 - type: issued
@@ -83,15 +83,16 @@ keyword:
 - content: series transformer
 - content: single-core design
 - content: special tests
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power &amp; Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power &amp; Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

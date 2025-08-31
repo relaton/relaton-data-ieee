@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE21451.4-2010
 title:
 - content: 'ISO/IEC/IEEE Standard for Information technology -- Smart transducer interface
@@ -60,6 +60,17 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Adoption of IEEE Std 1451.2-1997. A digital interface for connecting transducers
+    to microprocessors is defined. A Transducer Electronic Data Sheets (TEDS) and
+    its data formats are described. An electrical interface, read and write logic
+    functions to access the TEDS and a wide variety of transducers are defined. This
+    standard does not specify signal conditioning, signal conversion, or how the TEDS
+    data is used in applications.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -93,19 +104,20 @@ keyword:
 - content: smart transducer interface
 - content: STIM
 - content: TEDS
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 25.040.40
-  text: Industrial process measurement and control
-- code: '35.040'
-  text: Character sets and information coding
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: '35.040'
+    text: Character sets and information coding
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE1512
 title:
 - content: Guide for Implementing IEEE Std 1512(tm) - Using a Systems Engineering
@@ -73,9 +73,10 @@ keyword:
 - content: Systems engineering and theory
 - content: Traffic control
 - content: Intelligent transportation systems
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

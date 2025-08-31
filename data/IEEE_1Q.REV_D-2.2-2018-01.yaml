@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE1Q.REV-D-2.2-2018-01
 title:
 - content: IEEE Draft Standard for Local and Metropolitan Area Networks--Bridges and
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1Q-2014
+    id: IEEEStd802.1Q-2014
     docid:
-    - id: IEEE 802.1Q-2014
+    - id: IEEE Std 802.1Q-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1Q-2014
+      content: IEEE Std 802.1Q-2014
       format: text/plain
   description:
     content: revises
@@ -113,15 +113,13 @@ keyword:
 - content: Virtual Bridged Network
 - content: virtual LAN
 - content: VLAN Bridge
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

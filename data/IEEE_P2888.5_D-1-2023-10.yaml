@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2888.5-D-1-2023-10
 title:
 - content: IEEE Draft Standard for Virtual Training System Evaluation Methods
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2023-12-29'
 - type: issued
-  value: '2023'
+  value: '2024-05-20'
 contributor:
 - organization:
     name:
@@ -46,9 +46,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard defines the evaluation methods and frameworks for virtual
-    training systems. The evaluation framework consists of a plan, design, data, test,
-    and analysis that can evaluate the virtual training systems' effectiveness, usability
+- content: Evaluation methods and frameworks for virtual training systems are defined
+    in this standard. The evaluation framework consists of a plan, design, data, test,
+    and analysis that can evaluate the virtual training systems' effectiveness, usability,
     and acceptability.
   language:
   - en
@@ -67,17 +67,27 @@ copyright:
     url: http://www.ieee.org
   from: '2023'
 keyword:
-- content: virtual training system
+- content: IEEE Standards
+- content: Electronic learning
+- content: Virtual reality
+- content: Performance evaluation
+- content: Learning systems
 - content: evaluation
-- content: evaluation indicator
 - content: evaluation framework
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board Standards Committee of the IEEE Computer Society
+- content: evaluation indicator
+- content: IEEE 2888.5&#8482;
+- content: virtual training system
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.90
+    text: IT applications in education
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

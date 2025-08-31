@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.302-D-3-2015-08
 title:
 - content: IEEE Draft Guide for Fault Current Limiter (FCL) Testing FCLs rated above
@@ -89,21 +89,20 @@ keyword:
 - content: Lightning Impulse / BIL
 - content: Insulation resistance
 - content: Inter-turns insulation
-- content: Partial discharge
 - content: Insertion impedance
-- content: Loss measurement
 - content: Temperature rise
 - content: Asymmetrical Short-Circuit Current
 - content: Insulation resistance.
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: '29.240'
-  text: Power transmission and distribution networks
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: '29.240'
+    text: Power transmission and distribution networks
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

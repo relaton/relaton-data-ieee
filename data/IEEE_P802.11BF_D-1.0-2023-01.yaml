@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11bf-D-1.0-2023-01
 title:
 - content: 'IEEE Draft Standard for Information Technology -- Telecommunications and
@@ -27,7 +27,7 @@ date:
 - type: created
   value: '2023-05-01'
 - type: published
-  value: '2023-05-03'
+  value: '2023-05-02'
 - type: issued
   value: '2023'
 contributor:
@@ -43,7 +43,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-05-03'
+revdate: '2023-05-02'
 language:
 - en
 script:
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.11-2020
+    id: IEEEStd802.11-2020
     docid:
-    - id: IEEE 802.11-2020
+    - id: IEEE Std 802.11-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2020
+      content: IEEE Std 802.11-2020
       format: text/plain
   description:
     content: amends
@@ -104,16 +104,17 @@ keyword:
 - content: wireless local area network
 - content: WLAN
 - content: Wireless LAN sensing
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1703-D-9-2012-02
 title:
 - content: IEEE Draft Standard for Local Area Network/Wide Area Network (LAN/WAN)
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P1703/D-9-2012-02
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-03'
 - type: published
   value: '2012-03-01'
 - type: issued
@@ -88,15 +88,16 @@ keyword:
 - content: End Device
 - content: Communication Module
 - content: C12.19 Device
-doctype: standard
-editorialgroup:
-  committee:
-  - SCC31 - Automatic Meter Reading and Energy Management
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - SCC31 - Automatic Meter Reading and Energy Management
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

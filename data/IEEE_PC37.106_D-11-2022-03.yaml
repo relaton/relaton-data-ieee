@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.106-D-11-2022-03
 title:
 - content: IEEE Approved Draft Guide for Abnormal Frequency Protection for Power Generating
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.106/D-11-2022-03
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-22'
 - type: published
   value: '2022-03-17'
 - type: issued
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.106-2003
+    id: IEEEStdC37.106-2003
     docid:
-    - id: IEEE C37.106-2003
+    - id: IEEE Std C37.106-2003
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.106-2003
+      content: IEEE Std C37.106-2003
       format: text/plain
   description:
     content: revises
@@ -113,15 +113,16 @@ keyword:
 - content: underfrequency
 - content: voltage regulator
 - content: volts per hertz
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.70
+    text: Relays
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

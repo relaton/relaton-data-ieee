@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2870-D-4.4-2021-04
 title:
 - content: IEEE Draft Grip Test Method Guide for Fittings of High-Temperature, Low-Sag
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2870/D-4.4-2021-04
 date:
 - type: created
-  value: '2021'
+  value: '2021-07-06'
 - type: published
   value: '2021-07-07'
 - type: issued
@@ -58,19 +58,25 @@ copyright:
     url: http://www.ieee.org
   from: '2021'
 keyword:
+- content: IEEE Standards
+- content: Power transmission lines
+- content: Temperature measurement
+- content: Conductors
+- content: Voltage control
 - content: high-temperature
 - content: low-sag overhead conductor
 - content: tension
 - content: current
 - content: grip strength
 - content: test
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

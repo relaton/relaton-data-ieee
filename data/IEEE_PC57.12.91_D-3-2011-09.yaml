@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.12.91-D-3-2011-09
 title:
 - content: IEEE Draft Standard Test Code for Dry-Type Distribution and Power Transformers
@@ -72,15 +72,16 @@ keyword:
 - content: Transformers
 - content: dry-type transformer
 - content: power transformer
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power &amp; Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power &amp; Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

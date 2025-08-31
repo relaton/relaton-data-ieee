@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3cg-D-3.4-2019-09
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment 5: Physical Layer Specifications
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2018
+    id: IEEEStd802.3-2018
     docid:
-    - id: IEEE 802.3-2018
+    - id: IEEE Std 802.3-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2018
+      content: IEEE Std 802.3-2018
       format: text/plain
   description:
     content: amends
@@ -96,27 +96,23 @@ keyword:
 - content: 10BASE-T1S
 - content: amendment
 - content: copper
-- content: Ethernet
 - content: IEEE 802.3
 - content: IEEE 802.3cg
 - content: MASTER-SLAVE
 - content: medium dependent interface
 - content: physical coding sublayer
-- content: Physical Layer
 - content: Physical Layer Collision Avoidance
 - content: PLCA
 - content: physical medium attachment
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

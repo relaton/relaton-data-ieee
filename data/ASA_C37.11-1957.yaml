@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ASAC37.11-1957
 title:
 - content: ASA American National Standard Requirements for Power Circuit Breaker Control
@@ -24,7 +24,7 @@ docid:
 docnumber: ASA C37.11-1957
 date:
 - type: created
-  value: '1957'
+  value: '1957-03-25'
 - type: published
   value: '2016-03-25'
 - type: issued
@@ -79,9 +79,10 @@ keyword:
 - content: Switchgear
 - content: Power system protection
 - content: Switching circuits
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

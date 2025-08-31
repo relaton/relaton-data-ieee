@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.16-2016
 title:
 - content: American National Standard Guide for Electrostatic Discharge Test Methodologies
@@ -60,6 +60,17 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Expanded explanations, best practices, and guidance for avoiding the pitfalls
+    associated with electrostatic discharge (ESD) testing to IEC and other international
+    ESD standards are provided and should be considered a supplement to these standards,
+    rather than a replacement. Unique ESD test procedures related to connecting charged
+    peripherals to equipment in use are also included. ** Downloads file posted at
+    http://standards.ieee.org/downloads/C63/C63.16/
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -87,9 +98,10 @@ keyword:
 - content: ESD simulator
 - content: ESD test criteria
 - content: indirect discharge
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.244-D-6.0
 title:
 - content: IEEE Guide for Phasor Data Concentrator Requirements for Power System Protection,
@@ -79,17 +79,18 @@ keyword:
 - content: phasor measurement
 - content: phasor measurement unit (PMU)
 - content: synchrophasor
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying of the IEEE Power &amp; Energy Society
-ics:
-- code: '29.180'
-  text: Power transmission and distribution networks in general
-- code: ''
-  text: Telecontrol. Telemetering
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying of the IEEE Power &amp; Energy Society
+  ics:
+  - code: '29.180'
+    text: Power transmission and distribution networks in general
+  - code: ''
+    text: Telecontrol. Telemetering
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

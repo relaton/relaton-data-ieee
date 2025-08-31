@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE18880-2015
 title:
 - content: ISO/IEC/IEEE Information technology- Ubiquitous green community control
@@ -25,7 +25,7 @@ docid:
 docnumber: ISO/IEC/IEEE 18880-2015
 date:
 - type: created
-  value: '2015'
+  value: '2015-04-15'
 - type: published
   value: '2015-04-30'
 - type: issued
@@ -49,6 +49,19 @@ language:
 script:
 - Latn
 abstract:
+- content: The standard identifies gateways for field-bus networks, data storage for
+    archiving and developing data sharing platforms, and application units as important
+    system components for developing digital communities, i.e., building-scale and
+    city-wide ubiquitous facility networking infrastructure. The standard defines
+    a data exchange protocol that generalizes and interconnects these components (gateways,
+    storage, application units) over the IPv4/v6-based networks. This enables integration
+    of multiple facilities, data storage, application services such as central management,
+    energy saving, environmental monitoring, and alarm notification systems.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 - content: The standard identifies gateways for field-bus networks, data storage for
     archiving and developing data sharing platforms, and application units as important
     system components for developing digital communities, i.e., building-scale and
@@ -106,12 +119,13 @@ keyword:
 - content: sensor
 - content: SOAP
 - content: storage
-doctype: standard
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

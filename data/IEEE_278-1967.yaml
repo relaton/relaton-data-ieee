@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE278-1967
 title:
 - content: IEEE Guide for Classifying Electrical Insulating Materials Exposed to Neutron
@@ -67,9 +67,10 @@ keyword:
 - content: Life estimation
 - content: Temperature measurement
 - content: Gamma-ray detection
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

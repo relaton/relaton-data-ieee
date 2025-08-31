@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP303-D-6-2023-09
 title:
 - content: IEEE Approved Draft Recommended Practice for Auxiliary Devices for Rotating
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE303-2004
+    id: IEEEStd303-2004
     docid:
-    - id: IEEE 303-2004
+    - id: IEEE Std 303-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 303-2004
+      content: IEEE Std 303-2004
       format: text/plain
   description:
     content: revises
@@ -96,23 +96,30 @@ keyword:
 - content: IEEE Standards
 - content: Rotating machines
 - content: Auxiliary transmitters
-- content: auxiliary devices
-- content: Class I Division 2
-- content: Zone 2
-- content: Class II Division 2
-- content: Zone 22
 - content: arcing/sparking component
+- content: auxiliary devices
+- content: bearing oil heaters
+- content: Class I Division 2
+- content: Class II Division 2
+- content: IEEE 303&#8482;
+- content: power factor correction capacitors
 - content: rotating electrical machine
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.260.20
-  text: Electrical apparatus for explosive atmospheres
+- content: shaft bonding
+- content: space heaters
+- content: surge protection
+- content: Zone 2
+- content: Zone 22
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.260.20
+    text: Electrical apparatus for explosive atmospheres
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

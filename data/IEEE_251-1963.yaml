@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE251-1963
 title:
 - content: IEEE Proposed Test Procedure for Direct Current Tachometer Generators
@@ -75,22 +75,23 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: ANSI-IEEE251-1984
+    id: ANSI-IEEEStd251-1984
     docid:
-    - id: ANSI/IEEE 251-1984
+    - id: ANSI/IEEE Std 251-1984
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE 251-1984
+      content: ANSI/IEEE Std 251-1984
       format: text/plain
 keyword:
 - content: IEEE Standards
 - content: Generators
 - content: Tachometer generators
 - content: DC motors
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

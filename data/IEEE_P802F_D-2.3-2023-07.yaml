@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802f-D-2.3-2023-07
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks: Overview
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P802f/D-2.3-2023-07
 date:
 - type: created
-  value: '2023'
+  value: '2023-07-31'
 - type: published
   value: '2023-08-01'
 - type: issued
@@ -71,81 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802-2014
+    id: IEEEStd802-2014
     docid:
-    - id: IEEE 802-2014
+    - id: IEEE Std 802-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802-2014
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802-2014
-    docid:
-    - id: IEEE 802-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802-2014
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802-2014
-    docid:
-    - id: IEEE 802-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802-2014
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802-2014
-    docid:
-    - id: IEEE 802-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802-2014
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802-2014
-    docid:
-    - id: IEEE 802-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802-2014
+      content: IEEE Std 802-2014
       format: text/plain
   description:
     content: amends
@@ -182,15 +114,16 @@ keyword:
 - content: protocol development
 - content: protocol types
 - content: YANG
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

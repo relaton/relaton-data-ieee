@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP400.3-D-8-2022-09
 title:
 - content: IEEE Draft Guide for Partial Discharge Field Diagnostic Testing of Shielded
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2022'
 - type: published
-  value: '2022-09-28'
+  value: '2022-09-27'
 - type: issued
-  value: '2022'
+  value: '2022-12-03'
 contributor:
 - organization:
     name:
@@ -41,18 +41,18 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2022-09-28'
+revdate: '2022-09-27'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This guide covers the diagnostic testing of new or service-aged, installed
-    shielded power cable systems, which include cable, joints, and terminations, using
-    electrical partial discharge (PD) detection, measurement, and location. Partial
-    discharge testing, which is a useful indicator of insulation degradation, may
-    be carried out on-line or by means of an external voltage source. This guide does
-    not cover the testing of compressed gas insulated cable or termination systems.
+- content: The diagnostic testing of new or service-aged, installed shielded power
+    cable systems, which include cable, joints, and terminations, using electrical
+    partial discharge (PD) detection, measurement, and location is covered by this
+    guide. PD testing, which is a useful indicator of insulation degradation, may
+    be carried out online or by means of an external voltage source. The testing of
+    compressed gas insulated cable or termination systems is not covered by this guide.
   language:
   - en
   script:
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE400.3-2006
+    id: IEEEStd400.3-2006
     docid:
-    - id: IEEE 400.3-2006
+    - id: IEEE Std 400.3-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 400.3-2006
+      content: IEEE Std 400.3-2006
       format: text/plain
   description:
     content: revises
@@ -102,16 +102,17 @@ keyword:
 - content: field test
 - content: IEEE 400.3
 - content: partial discharge testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 33.120.20
-  text: Wires and symmetrical cables
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 33.120.20
+    text: Wires and symmetrical cables
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

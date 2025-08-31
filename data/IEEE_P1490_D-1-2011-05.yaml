@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1490-D-1-2011-05
 title:
 - content: 'IEEE Draft Guide: Adoption of the Project Management Institute (PMI) Standard:
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE P1490/D-1-2011-05
 date:
 - type: created
-  value: '2011'
+  value: '2011-06-30'
 - type: published
   value: '2011-06-30'
 - type: issued
@@ -77,15 +77,17 @@ keyword:
 - content: IEEE standards
 - content: Project management
 - content: Management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.020'
-  text: Information technology in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.020'
+    text: Information technology in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

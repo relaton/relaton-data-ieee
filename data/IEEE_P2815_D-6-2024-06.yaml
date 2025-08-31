@@ -1,12 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2815-D-6-2024-06
 title:
-- content: IEEE Draft Standard for Evaluation Method of Machine Learning Fairness
+- content: IEEE Approved Draft Guide for the Technical Specification of Smart Distribution
+    Transformer Terminal
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/10679699
+- content: https://ieeexplore.ieee.org/document/10812985
   type: src
 type: standard
 docid:
@@ -17,16 +18,16 @@ docid:
   type: IEEE
   scope: trademark
   primary: true
-- id: 979-8-8557-1253-7
+- id: 979-8-8557-1630-6
   type: ISBN
 docnumber: IEEE P2815/D-6-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-12-23'
 - type: published
-  value: '2024-09-12'
+  value: '2024-12-23'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -40,19 +41,17 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-09-12'
+revdate: '2024-12-23'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document specifies a method for evaluating the fairness of machine
-    learning. Multiple causes contribute to the unfairness of machine learning. In
-    this document, these causes of machine learning unfairness are categorized. The
-    widely recognized and used definitions of machine learning fairness are presented.
-    This document also specifies various metrics corresponding to the definitions,
-    and how to calculate the metrics. Test cases in this document give detailed conditions
-    and procedures to set up the tests for evaluating machine learning fairness.
+- content: The general functional and technical specifications of the smart distribution
+    transformer terminal (as a device) used in distribution network monitoring and
+    operation are provided in this guide. Various functions and recommendations of
+    its environmental aspect, power supply, communication, and information exchange
+    interface, hardware and software platform, and application cases are addressed.
   language:
   - en
   script:
@@ -71,23 +70,31 @@ copyright:
   from: '2024'
 keyword:
 - content: IEEE Standards
-- content: Machine learning
-- content: Performance evaluation
-- content: Quality assessment
-- content: Ethics
-- content: Artificial intelligence
-- content: machine learning
-- content: fairness
-- content: evaluation method
-- content: evaluation metric
-- content: bias
-doctype: standard
-editorialgroup:
-  committee:
-  - Artificial Intelligence Standards Committee of the IEEE Computer Society
+- content: Transformers
+- content: Internet of Things
+- content: Smart devices
+- content: Power distribution
+- content: Distributed power generation
+- content: Energy storage
+- content: App-defined services
+- content: distribution network
+- content: IEEE 2815
+- content: IoT
+- content: monitoring and operation
+- content: smart distribution transformer terminal
+- content: unified hardware platform
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Distributed Generation, Energy Storage and Interoperability Standards Committee
+      of the IEEE SA Board of Governors
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE1023-2020Redline
 title:
 - content: IEEE Recommended Practice for the Application of Human Factors Engineering
@@ -72,81 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1023-2004
+    id: IEEEStd1023-2004
     docid:
-    - id: IEEE 1023-2004
+    - id: IEEE Std 1023-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1023-2004
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1023-2004
-    docid:
-    - id: IEEE 1023-2004
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1023-2004
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1023-2004
-    docid:
-    - id: IEEE 1023-2004
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1023-2004
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1023-2004
-    docid:
-    - id: IEEE 1023-2004
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1023-2004
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1023-2004
-    docid:
-    - id: IEEE 1023-2004
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1023-2004
+      content: IEEE Std 1023-2004
       format: text/plain
   description:
     content: revises
@@ -176,15 +108,16 @@ keyword:
 - content: task analysis
 - content: validation
 - content: verification
-doctype: redline
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: '13.180'
-  text: Ergonomics
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
+  ics:
+  - code: '13.180'
+    text: Ergonomics
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

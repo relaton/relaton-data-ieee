@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1267-D-3-2018-05
 title:
 - content: IEEE Draft Guide for Development of Specification for Turnkey Substation
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1267-1999
+    id: IEEEStd1267-1999
     docid:
-    - id: IEEE 1267-1999
+    - id: IEEE Std 1267-1999
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1267-1999
+      content: IEEE Std 1267-1999
       format: text/plain
   description:
     content: revises
@@ -100,17 +100,15 @@ keyword:
 - content: specify
 - content: substation
 - content: turnkey
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: 29.080.30
-  text: Insulation systems
-- code: 29.240.10
-  text: Substations. Surge arresters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.080.30
+    text: Insulation systems
+  - code: 29.240.10
+    text: Substations. Surge arresters
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

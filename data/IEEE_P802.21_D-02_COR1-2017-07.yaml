@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.21-D-02-Cor1-2017-07
 title:
 - content: 'IEEE Approved Draft Standard for Local and Metropolitan Area Networks
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.21-2017Redline
+    id: IEEEStd802.21-2017Redline
     docid:
-    - id: IEEE 802.21-2017 Redline
+    - id: IEEE Std 802.21-2017 Redline
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.21-2017 Redline
+      content: IEEE Std 802.21-2017 Redline
       format: text/plain
   description:
     content: corrects
@@ -94,15 +94,13 @@ keyword:
 - content: IEEE 802.21(TM)
 - content: master group key
 - content: media independent session key
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

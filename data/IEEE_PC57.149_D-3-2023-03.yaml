@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.149-D-3-2023-03
 title:
 - content: IEEE Draft Guide for the Application and Interpretation of Frequency Response
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE PC57.149/D-3-2023-03
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-28'
 - type: published
-  value: '2023-06-09'
+  value: '2023-06-08'
 - type: issued
-  value: '2023'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -41,13 +41,13 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-06-09'
+revdate: '2023-06-08'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The measurement of Frequency Response Analysis (FRA) of oil immersed power
+- content: The measurement of frequency response analysis (FRA) of oil-immersed power
     transformers is applicable in this guide. It is intended to provide the user with
     the requirements and specifications for instrumentation, procedures for performing
     the tests, techniques for analyzing the data, and recommendations for long-term
@@ -71,30 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.149-2012
+    id: IEEEStdC57.149-2012
     docid:
-    - id: IEEE C57.149-2012
+    - id: IEEE Std C57.149-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.149-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.149-2012
-    docid:
-    - id: IEEE C57.149-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.149-2012
+      content: IEEE Std C57.149-2012
       format: text/plain
   description:
     content: revises
@@ -111,27 +94,29 @@ keyword:
 - content: Impedance
 - content: admittance
 - content: attenuation
-- content: Bode Plot
+- content: Bode plot
 - content: deviation
 - content: frequency domain
-- content: Frequency 5 Response Analysis (FRA)
+- content: FRA
+- content: frequency response analysis
+- content: IEEE C57.149™
 - content: impedance
 - content: magnitude
 - content: phase angle
 - content: resonance
 - content: RLC network
-- content: 6 transfer function
-- content: deviation
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
+- content: transfer function
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

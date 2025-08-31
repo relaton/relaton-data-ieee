@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2988-D-6.0-2024-07
 title:
 - content: IEEE Draft Recommended Practice for Use and Functions of Virtual Synchronous
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P2988/D-6.0-2024-07
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-25'
 - type: published
   value: '2024-07-26'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -47,27 +47,13 @@ language:
 script:
 - Latn
 abstract:
-- content: Electrification is the greatest engineering achievement of the 20th century
-    and power systems have been serving as the crucial infrastructure for societal
-    and economic functioning. A paradigm shift is underway, transitioning from centralized
-    generation with synchronous machines to distributed generation interfaced with
-    power electronic converters. An increasing number of loads are interfaced with
-    power electronic converters as well. Moreover, electrification is still ongoing
-    - over a billion people still lack electricity access and those who do still have
-    limited freedom to choose reliable suppliers. The rise of renewable distributed
-    energy resources (DER), like wind and solar power, offers an affordable solution
-    and expedites the shift. This shift, termed the democratization of power systems,
-    presents unprecedented challenges to grid stability and reliability. Turning power
-    electronic converters into Virtual Synchronous Machines (VSM) to mimic and, in
-    some cases, to surpass the dynamics and behavior of conventional synchronous machines
-    through the inherent synchronization mechanism of synchronous machines is a promising
-    solution to unify and harmonize their interface and interaction with each other
-    and the grid. This standard defines fundamental principles, mandatory functions,
-    and optional functions of a Virtual Synchronous Machine (VSM) to make power electronic
-    converters standardized for different applications and suitable for single-unit
-    operation, multi-unit operation, islanded/off-grid operation, and grid-tied operation,
-    facilitating the large-scale utilization of DER and the integration of power electronic
-    converters into the grid, and advancing energy freedom and energy access.
+- content: The fundamental principles, essential functions, and optional functions
+    of a virtual synchronous machine (VSM) to make power electronic converters standardized
+    for different applications and suitable for single-unit operation, multi-unit
+    operation, islanded/off-grid operation, and grid-tied operation, facilitating
+    the large-scale utilization of DER and the integration of power electronic converters
+    into the grid, and advancing energy freedom and energy access are defined in this
+    standard.
   language:
   - en
   script:
@@ -85,42 +71,57 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
-- content: Synchronous Machines (SM)
-- content: Power Electronic Converters
-- content: Virtual Synchronous Machines (VSM)
-- content: Synchronization
-- content: Distributed Energy Resources (DER)
-- content: Wind Energy
-- content: Solar Energy
-- content: Storage Systems
-- content: Centralized Control
-- content: Democratized Interaction
-- content: Paradigm Shift
-- content: Fundamental Challenge
-- content: Electrification
-- content: Energy Freedom
-- content: Energy Access
-- content: Stability
-- content: Black-start
-- content: Droop Control
-- content: Frequency Regulation
-- content: Voltage Regulation
-- content: Inertia
+- content: IEEE Standards
+- content: Synchronous machines
+- content: Power electronics
+- content: Virtual machining
+- content: Distributed power generation
+- content: Regulation
 - content: Damping
-- content: Islanding Detection
-- content: Reclosing
-- content: Fault Ride-through
-- content: Phase-Locked Loop
-- content: Rate of Change of Frequency (RoCoF)
-- content: Grid-forming
-- content: Grid-following
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Power Electronics Society
+- content: Energy storage
+- content: Wind energy
+- content: Solar energy
+- content: black-start
+- content: centralized control
+- content: damping
+- content: democratized interaction
+- content: distributed energy resources (DER)
+- content: droop control
+- content: electrification
+- content: energy access
+- content: energy freedom
+- content: fault ride-through
+- content: frequency regulation
+- content: fundamental challenge
+- content: grid-following
+- content: grid-forming
+- content: IEEE 2988&#8482;
+- content: inertia
+- content: islanding detection
+- content: paradigm shift
+- content: phase-locked loop
+- content: power electronic converters
+- content: rate of change of frequency (RoCoF)
+- content: reclosing
+- content: solar energy
+- content: stability
+- content: storage systems
+- content: synchronous machines (SM)
+- content: synchronization
+- content: virtual synchronous machines (VSM)
+- content: voltage regulation
+- content: wind energy
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Power Electronics Society
+  ics:
+  - code: '29.020'
+    text: Electrical engineering in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

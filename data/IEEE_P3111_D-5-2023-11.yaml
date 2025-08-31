@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3111-D-5-2023-11
 title:
 - content: IEEE Approved Draft Recommended Practice for Test and Inspection of Laser
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P3111/D-5-2023-11
 date:
 - type: created
-  value: '2024'
+  value: '2024-03-28'
 - type: published
   value: '2024-03-29'
 - type: issued
@@ -47,18 +47,11 @@ language:
 script:
 - Latn
 abstract:
-- content: There are a large number of public infrastructure installations with a
-    wide range of locations including high-voltage transmission lines, railway high-voltage
-    lines, communication towers, road light poles, and similar structures. Unwanted
-    intrusion of foreign matter into public infrastructure equipment is a frequent
-    occurrence, for example, kites, advertising banners and sun-shade nets are often
-    found during maintenance operations, especially in high-voltage transmission lines
-    and railway high-voltage lines. Once exposed to an environment of rain, snow,
-    or dew, invasive moistened foreign matter may lead to extremely dangerous situations
-    of line tripping or triggering line interphase short circuits and causing blackouts
-    or even falling onto and burning out damaged wires as well as possibly causing
-    human and animal injuries. These situations pose a great threat to the reliability
-    and security of the electrical power supply system.
+- content: Recommended practices for the test and inspection of laser devices used
+    for remote removal of foreign matter in public infrastructure equipment are specified
+    in this document. This includes function and composition, technical requirements,
+    test methods, inspection rules, marking and packaging, and transportation and
+    storage.
   language:
   - en
   script:
@@ -76,16 +69,27 @@ copyright:
     url: http://www.ieee.org
   from: '2023'
 keyword:
+- content: IEEE Standards
 - content: Public infrastructure
-- content: Device
-- content: Remote removal
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Photonics Society
+- content: Laser applications
+- content: Inspection
+- content: Regulation
+- content: Lasers and electrooptics
+- content: IEEE 3111
+- content: laser device
+- content: public infrastructure
+- content: remote removal
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Photonics Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

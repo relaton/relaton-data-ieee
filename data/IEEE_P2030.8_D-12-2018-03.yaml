@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.8-D-12-2018-03
 title:
 - content: IEEE Draft Standard for the Testing of Microgrid Controllers
@@ -124,12 +124,13 @@ keyword:
 - content: steady state (SS)
 - content: transition
 - content: unplanned islanding
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

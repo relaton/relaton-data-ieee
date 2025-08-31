@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE33-1927
 title:
 - content: AIEE Standards - Electrical Measuring Instruments
@@ -24,7 +24,7 @@ docid:
 docnumber: AIEE 33-1927
 date:
 - type: created
-  value: '1927'
+  value: '1927-04-01'
 - type: published
   value: '2016-02-16'
 - type: issued
@@ -74,9 +74,10 @@ keyword:
 - content: AIEE Standards
 - content: Instrumentation and measurement
 - content: Electrical equipment
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

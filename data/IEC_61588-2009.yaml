@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61588-2009
 title:
 - content: IEC/IEEE International Standard - Precision Clock Synchronization Protocol
@@ -61,6 +61,20 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: A protocol is provided in this standard that enables precise synchronization
+    of clocks in measurement and control systems implemented with technologies such
+    as network communication, local computing, and distributed objects. The protocol
+    is applicable to systems communicating via packet networks. Heterogeneous systems
+    are enabled that include clocks of various inherent precision, resolution, and
+    stability to synchronize. System-wide synchronization accuracy and precision in
+    the sub-microsecond range are supported with minimal network and local clock computing
+    resources. Simple systems are installed and operated without requiring the management
+    attention of users because the default behavior of the protocol allows for it.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -72,13 +86,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE1588-2008
+    id: IEEEStd1588-2008
     docid:
-    - id: IEEE 1588-2008
+    - id: IEEE Std 1588-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1588-2008
+      content: IEEE Std 1588-2008
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -94,15 +108,16 @@ keyword:
 - content: real-time clock
 - content: synchronized clock
 - content: transparent clock
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 39.040.99
-  text: Other time-measuring instruments
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

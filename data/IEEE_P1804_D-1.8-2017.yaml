@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1804-D-1.8-2017
 title:
 - content: IEEE Draft Standard for Fault Accounting and Coverage Reporting to Digital
@@ -81,7 +81,6 @@ keyword:
 - content: Digital circuits
 - content: Integrated circuit modeling
 - content: Circuit faults
-- content: Integrated circuit modeling
 - content: ATPG
 - content: fault models
 - content: fault simulation
@@ -89,12 +88,13 @@ keyword:
 - content: semiconductor testing
 - content: stuck-at faults
 - content: test coverage
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

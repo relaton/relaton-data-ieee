@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.27-2017
 title:
 - content: American National Standard for Evaluation of Wireless Coexistence
@@ -56,6 +56,14 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: An evaluation process and supporting test methods are provided in this
+    standard to quantify the ability of a wireless device to coexist with other wireless
+    services in its intended radio frequency (RF) environments.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -86,12 +94,13 @@ keyword:
 - content: RF
 - content: RFI
 - content: susceptibility
-doctype: standard
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

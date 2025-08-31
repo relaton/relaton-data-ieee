@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE62271.37-013-2021
 title:
-- content: 'IEEE/IEC International Standard for High-voltage switchgear and controlgear--Part
-    37-013: Alternating current generator circuit-breakers'
+- content: 'IEEE/IEC International Standard for High-voltage Switchgear and Controlgear--Part
+    37-013: Alternating current generator circuit-breakers - Corrigendum 1'
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/9586449
+- content: https://ieeexplore.ieee.org/document/10763445
   type: src
 type: standard
 docid:
@@ -18,18 +18,18 @@ docid:
   type: IEEE
   scope: trademark
   primary: true
-- id: 978-1-5044-7984-4
+- id: 979-8-8557-1467-8
   type: ISBN
-- id: 10.1109/IEEESTD.2021.9586449
+- id: 10.1109/IEEESTD.2024.10763445
   type: DOI
 docnumber: IEC/IEEE 62271.37-013-2021
 date:
 - type: created
-  value: '2021-10-19'
+  value: '2024-11-22'
 - type: published
-  value: '2021-10-26'
+  value: '2024-11-21'
 - type: issued
-  value: '2021-09-23'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -43,11 +43,28 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2021-10-26'
+revdate: '2024-11-21'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: This part of IEC 62271 is applicable to three-phase AC high-voltage generator
+    circuit breakers, hereafter called generator circuit-breakers, designed for indoor
+    or outdoor installation and for operation at frequencies of 50 Hz and 60 Hz on
+    systems having voltages above 1 kV and up to 38 kV. It is applicable to generator
+    circuit-breakers that are installed between the generator and the transformer
+    terminals. Requirements relative to generator circuit-breakers intended for use
+    with generators and transformers rated 10 MVA or more are covered specifically.
+    Generator circuits rated less than 10 MVA and pumped-storage installations are
+    considered special applications, and their requirements are not completely covered
+    by this document. This document is also applicable to the operating mechanisms
+    of generator circuit-breakers and to their auxiliary equipment.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -60,54 +77,20 @@ copyright:
     url: http://www.ieee.org
   - name:
     - content: IEC
-  from: '2021'
+  from: '2024'
 relation:
 - type: updates
   bibitem:
-    id: IEC-IEEE62271.37-013-2015
+    id: IEC-IEEE62271.37-013-2021
     docid:
-    - id: IEC/IEEE 62271.37-013-2015
+    - id: IEC/IEEE 62271.37-013-2021
       type: IEEE
       primary: true
     formattedref:
-      content: IEC/IEEE 62271.37-013-2015
+      content: IEC/IEEE 62271.37-013-2021
       format: text/plain
   description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEC-IEEE62271.37-013-2015
-    docid:
-    - id: IEC/IEEE 62271.37-013-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEC/IEEE 62271.37-013-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEC-IEEE62271.37-013-2015
-    docid:
-    - id: IEC/IEEE 62271.37-013-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEC/IEEE 62271.37-013-2015
-      format: text/plain
-  description:
-    content: revises
+    content: corrects
     language:
     - en
     script:
@@ -115,24 +98,22 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE Standards
-- content: Switchgear
 - content: IEC Standards
-- content: Control systems
-- content: Voltage control
-- content: Encoding
-- content: Dielectric liquids
-- content: Generators
 - content: High-voltage techniques
 - content: Switchgear
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
+- content: Control systems
+- content: Generators
+- content: Circuit breakers
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

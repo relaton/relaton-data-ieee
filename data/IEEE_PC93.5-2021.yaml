@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC93.5-2021
 title:
 - content: IEEE Draft Standard for Power Line Carrier Transmitter/Receiver Equipment
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC93.5-2021
 date:
 - type: created
-  value: '2022'
+  value: '2022-03-22'
 - type: published
   value: '2022-03-23'
 - type: issued
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC93.5-2021
+    id: IEEEStdC93.5-2021
     docid:
-    - id: IEEE C93.5-2021
+    - id: IEEE Std C93.5-2021
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C93.5-2021
+      content: IEEE Std C93.5-2021
       format: text/plain
   description:
     content: corrects
@@ -91,7 +91,7 @@ keyword:
 - content: Receivers
 - content: Transceivers
 - content: Security
-- content: IEEE C93.5&#8482; power line carrier
+- content: IEEE C93.5 power line carrier
 - content: PLC
 - content: teleprotection
 - content: transmitter
@@ -101,15 +101,16 @@ keyword:
 - content: dependability
 - content: ON-OFF
 - content: 6 FSK
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: 33.040.50
-  text: Lines, connections and circuits
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
+  ics:
+  - code: 33.040.50
+    text: Lines, connections and circuits
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

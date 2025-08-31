@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC37.32-1996
 title:
 - content: American National Standard High-Voltage Air Disconnect Switches Interrupter
@@ -28,6 +28,8 @@ docnumber: ANSI C37.32-1996
 date:
 - type: created
   value: '1996'
+- type: published
+  value: '2005-02-07'
 - type: issued
   value: '1996'
 contributor:
@@ -37,8 +39,13 @@ contributor:
     abbreviation:
       content: IEEE
     url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
   role:
   - type: publisher
+revdate: '2005-02-07'
 language:
 - en
 script:
@@ -62,15 +69,16 @@ keyword:
 - content: Control systems
 - content: Fault diagnosis
 - content: Switching systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear Committee of the IEEE Power Engineering Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear Committee of the IEEE Power Engineering Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Active
   standard_modified: Superseded
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2746-D-5-2019-11
 title:
 - content: IEEE Draft Guide for Evaluating AC Interference on Linear Facilities Co-Located
@@ -88,12 +88,13 @@ keyword:
 - content: lines
 - content: pipelines
 - content: transmission lines
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

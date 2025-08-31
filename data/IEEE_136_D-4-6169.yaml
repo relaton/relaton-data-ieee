@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE136-D-4-6169
 title:
 - content: 'IEC 61691-4 Ed.1 (IEEE Std 1364(TM)-2001): Behavioural Languages - Part
@@ -89,16 +89,16 @@ keyword:
 - content: programming language interface
 - content: Verilog HDL
 - content: Verilog PLI
-- content: Verilog
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

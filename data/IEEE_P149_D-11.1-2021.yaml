@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP149-D-11.1-2021
 title:
 - content: IEEE Draft Recommended Practice for Antenna Measurements
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2021-08-09'
 - type: issued
-  value: '2021'
+  value: '2021-09-23'
 contributor:
 - organization:
     name:
@@ -46,15 +46,15 @@ language:
 script:
 - Latn
 abstract:
-- content: This document comprises recommended practices for the measurement of antenna
-    transmitting and receiving properties. Throughout this standard it is assumed
-    that the antenna to be measured can be treated as a passive, linear, and reciprocal
+- content: The recommended practices for the measurement of antenna transmitting and
+    receiving properties are presented. Throughout this standard it is assumed that
+    the antenna to be measured can be treated as a passive, linear, and reciprocal
     device. A fundamental property of any antenna is its radiation pattern. The measurement
     of radiation patterns in an antenna test facility is discussed. The design of
     antenna test facilities is described along with instrumentation requirements for
     the proper operation of the antenna facility, directions for the evaluation of
     an (existing) range, and the operation of ranges is discussed. References are
-    provided which are illustrative of measurement techniques and in which details
+    provided that are illustrative of measurement techniques and in which details
     may be found.
   language:
   - en
@@ -75,64 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSI-IEEE149-1979
+    id: ANSI-IEEEStd149-1979
     docid:
-    - id: ANSI/IEEE 149-1979
+    - id: ANSI/IEEE Std 149-1979
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE 149-1979
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ANSI-IEEE149-1979
-    docid:
-    - id: ANSI/IEEE 149-1979
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE 149-1979
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ANSI-IEEE149-1979
-    docid:
-    - id: ANSI/IEEE 149-1979
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE 149-1979
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ANSI-IEEE149-1979
-    docid:
-    - id: ANSI/IEEE 149-1979
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE 149-1979
+      content: ANSI/IEEE Std 149-1979
       format: text/plain
   description:
     content: revises
@@ -146,35 +95,40 @@ keyword:
 - content: Antenna measurements
 - content: Calibration
 - content: Noise measurement
-- content: Radiation
 - content: Electromagnetic compatibility
-- content: Antenna
-- content: antenna measurements
-- content: antenna gain
+- content: Radiation effects
 - content: absorbers
 - content: accuracy
 - content: alignment
 - content: anechoic
+- content: antenna
+- content: antenna gain
+- content: antenna measurements
 - content: calibration
 - content: chamber
-- content: compact range EIRP
+- content: compact range
+- content: EIRP
+- content: electromagnetic compatibility
 - content: electromagnetic testing
-- content: EMI/EMC
+- content: EMC
+- content: equivalent isotropically radiated power
 - content: errors
 - content: evaluation
 - content: facilities
-- content: far-Field
+- content: far field
 - content: far-field range
 - content: gain/temperature
 - content: ground bounce
 - content: high power
+- content: IEEE 149
 - content: impedance
 - content: instrumentation
-- content: inter-Range comparison
+- content: inter-range comparison
 - content: measurement
-- content: near zone
 - content: near-field
+- content: near zone
 - content: noise
+- content: outdoor range
 - content: passive
 - content: pattern
 - content: phase
@@ -183,7 +137,7 @@ keyword:
 - content: quiet zone
 - content: radar
 - content: radiation
-- content: radio Frequency
+- content: radio frequency
 - content: radome
 - content: range
 - content: receiver
@@ -194,27 +148,31 @@ keyword:
 - content: software
 - content: standard gain horn
 - content: standard
-- content: Tapered chamber
+- content: tapered chamber
 - content: target support
 - content: techniques
+- content: test facility
+- content: test range
+- content: test zone
 - content: three-antenna measurement
 - content: tracking
 - content: uncertainties
 - content: uncertainty analysis
 - content: verification
-doctype: standard
-editorialgroup:
-  committee:
-  - Antennas and Propagation Standards Committee of the IEEE Antennas and Propagation
-    Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
-- code: 33.120.40
-  text: Aerials
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Antennas and Propagation Standards Committee of the IEEE Antennas and Propagation
+      Society
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 33.120.40
+    text: Aerials
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

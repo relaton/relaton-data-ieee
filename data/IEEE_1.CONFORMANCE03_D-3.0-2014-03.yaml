@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE1.Conformance03-D-3.0-2014-03
 title:
 - content: IEEE Draft Standard for Conformance Test Procedures for Service Interoperability
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE 1.Conformance03/D-3.0-2014-03
 date:
 - type: created
-  value: '2014'
+  value: '2014-04-04'
 - type: published
   value: '2014-04-04'
 - type: issued
@@ -73,15 +73,16 @@ keyword:
 - content: Testing
 - content: Conformance testing
 - content: Ethernet Passive Optical Network
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Development Board of the IEEE Communications Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Development Board of the IEEE Communications Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

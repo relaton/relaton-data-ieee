@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: NESCHBK-2012
 title:
 - content: National Electrical Safety Code (NESC) Handbook, Seventh Edition
@@ -82,14 +82,15 @@ keyword:
     operation of electric supply systems; power station equipment; power station safety;
     public utility safety; safety work rules; underground communication line safety;
     underground electric line safety.
-doctype: standard
-ics:
-- code: '13.260'
-  text: Protection against electric shock. Live working
-- code: '29.020'
-  text: Electrical engineering in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '13.260'
+    text: Protection against electric shock. Live working
+  - code: '29.020'
+    text: Electrical engineering in general
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

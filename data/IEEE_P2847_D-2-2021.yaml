@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2847-D-2-2021
 title:
 - content: IEEE Draft Standard for DC Power Transmission and Communication to DC Loads
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2847/D-2-2021
 date:
 - type: created
-  value: '2021'
+  value: '2021-06-23'
 - type: published
   value: '2021-06-24'
 - type: issued
@@ -73,13 +73,14 @@ keyword:
 - content: Differential signal
 - content: Differential signal communication
 - content: High power differential signal power line communication
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Line Communications of the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power Line Communications of the IEEE Communications Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

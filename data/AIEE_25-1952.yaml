@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE25-1952
 title:
 - content: AIEE Standards for Fuses Above 600 Volts
@@ -26,7 +26,7 @@ date:
 - type: updated
   value: '2016-02-03'
 - type: created
-  value: '1952'
+  value: '1952-07-31'
 - type: published
   value: '2016-01-14'
 - type: issued
@@ -75,9 +75,10 @@ keyword:
 - content: Fuses
 - content: Voltage measurement
 - content: Power cables
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

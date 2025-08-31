@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP60079.30-2-D-4A-2013
 title:
 - content: 'IEEE/IEC Draft Standard for Explosive atmospheres - Part 30-2: Electrical
@@ -82,15 +82,16 @@ keyword:
 - content: Explosives
 - content: Maintenance engineering
 - content: Resistance
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.260.20
-  text: Electrical installations for explosive atmospheres
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.260.20
+    text: Electrical installations for explosive atmospheres
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

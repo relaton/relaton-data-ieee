@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.105-D-7.1-2018-08
 title:
 - content: IEEE Draft Guide for Application of Transformer Connections in Three-Phase
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSI-IEEEC57.105-1978
+    id: ANSI-IEEEStdC57.105-1978
     docid:
-    - id: ANSI/IEEE C57.105-1978
+    - id: ANSI/IEEE Std C57.105-1978
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE C57.105-1978
+      content: ANSI/IEEE Std C57.105-1978
       format: text/plain
   description:
     content: revises
@@ -116,15 +116,13 @@ keyword:
 - content: toxic
 - content: valve-regulated lead-acid (VRLA) battery
 - content: vented battery
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

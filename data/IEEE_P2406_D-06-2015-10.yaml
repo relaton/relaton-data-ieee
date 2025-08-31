@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2406-D-06-2015-10
 title:
 - content: IEEE Draft Standard for Design and Construction of Non-Load Break Disconnect
@@ -79,12 +79,13 @@ keyword:
 - content: grounding switches
 - content: silver insert switches
 - content: high voltage direct current disconnect switches
-doctype: standard
-editorialgroup:
-  committee:
-  - Overhead Contact Systems of the IEEE Vehicular Technology Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Overhead Contact Systems of the IEEE Vehicular Technology Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

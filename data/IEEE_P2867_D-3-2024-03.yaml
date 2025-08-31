@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2867-D-3-2024-03
 title:
-- content: IEEE Draft Guide for Direct Current (DC) Power Transmitter of Wireless
-    Charging for Kitchen Appliances
+- content: IEEE Approved Draft Guide for Direct Current (DC) Power Transmitter of
+    Wireless Charging for Kitchen Appliances
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P2867/D-3-2024-03
 date:
 - type: created
-  value: '2024-08-07'
+  value: '2024-11-21'
 - type: published
-  value: '2024-08-09'
+  value: '2024-08-08'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -41,19 +41,18 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-08-09'
+revdate: '2024-08-08'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Within the context of the IEEE P2867 family of standards for dc power transmitter
-    of wireless charging for kitchen appliances, a normative definition of wireless
-    power supply kitchen system, typical structure, interface and key component，function
-    requirements and performance requirements are established in this standard. It
-    specifies the use of specific term codes, formats. And behaviors in dc wireless
-    transmitters in the kitchen application environment and limits the optional parameters
-    and topology in the basic electrical framework.
+- content: For dc power transmitters of wireless charging for kitchen appliances,
+    a definition of wireless power supply kitchen system, typical structure, interface
+    and key component, function requirements, and performance requirements are established
+    in this standard. Specific term codes and formats are specified. Behaviors of
+    dc wireless transmitters in kitchen environments, limits of the optional parameters,
+    and topology in the basic electrical framework are discussed.
   language:
   - en
   script:
@@ -75,17 +74,23 @@ keyword:
 - content: Home appliances
 - content: Inductive charging
 - content: DC power transmission
-- content: dc
-- content: direct power transmitter of wireless charging
+- content: current (dc)
+- content: direct power transmitters of wireless charging
 - content: IEEE 2867
 - content: kitchen appliances
-doctype: standard
-editorialgroup:
-  committee:
-  - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
+  - code: 97.040.50
+    text: Small kitchen appliances
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

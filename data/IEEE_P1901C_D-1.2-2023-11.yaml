@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1901c-D-1.2-2023-11
 title:
 - content: 'IEEE Draft Standard for Broadband over Power Line Networks: Medium Access
@@ -28,7 +28,7 @@ date:
 - type: published
   value: '2023-11-28'
 - type: issued
-  value: '2023'
+  value: '2024-02-15'
 contributor:
 - organization:
     name:
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1901-2020
+    id: IEEEStd1901-2020
     docid:
-    - id: IEEE 1901-2020
+    - id: IEEE Std 1901-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1901-2020
+      content: IEEE Std 1901-2020
       format: text/plain
   description:
     content: amends
@@ -99,33 +99,35 @@ keyword:
 - content: Smart cities
 - content: Energy management
 - content: Channel capacity
-- content: extended flexible channel wavelet (FCW) PHY/MAC
-- content: physical layer (PHY)
-- content: medium access control (MAC)
-- content: wavelet orthogonal frequency division multiplexing (wavelet OFDM)
-- content: Internet of Things (IoT)
 - content: any media
-- content: power lines
-- content: coaxial cables
-- content: signal cables
-- content: underwater communication
-- content: near field communication
-- content: IEEE Std 1588
-- content: precision time protocol (PTP)
 - content: channel notification
+- content: coaxial cables
+- content: extended flexible channel wavelet (FCW) PHY/MAC
+- content: IEEE Std 1588
+- content: IEEE Std 1901
+- content: Internet of Things (IoT)
+- content: medium access control (MAC)
+- content: near field communication
+- content: physical layer (PHY)
+- content: power lines
+- content: precision time protocol (PTP)
+- content: signal cables
 - content: smart city
-- content: smart grid
 - content: smart energy
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Line Communications of the IEEE Communications Society
-ics:
-- code: 33.040.60
-  text: Powerline telecommunications
+- content: smart grid
+- content: underwater communication
+- content: wavelet orthogonal frequency division multiplexing (wavelet OFDM)
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power Line Communications of the IEEE Communications Society
+  ics:
+  - code: 33.040.60
+    text: Powerline telecommunications
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

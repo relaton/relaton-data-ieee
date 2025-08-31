@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEENESCHandbook
 title:
 - content: 2023 National Electrical Safety Code (NESC®) Handbook
@@ -80,18 +80,30 @@ keyword:
 - content: Electrical safety
 - content: Guidelines
 - content: National Electric Code
-- content: communications industry safety; construction of communication lines; construction
-    of electric supply lines; electrical safety; electric supply stations; electric
-    utility stations; high-voltage safety; NESC; National Electrical Safety Code;
-    operation of communications sys­tems; operation of electric supply systems; power
-    station equipment; power station safety; public utility safety; safety work rules;
-    underground communication line safety; underground electric line safety.
-doctype: standard
-editorialgroup:
-  committee:
-  - National Electrical Safety Code
+- content: communications industry safety
+- content: construction of communication lines
+- content: construction of electric supply lines
+- content: electrical safety
+- content: electric supply stations
+- content: electric utility stations
+- content: high-voltage safety
+- content: NESC
+- content: National Electrical Safety Code
+- content: operation of communications sys­tems
+- content: operation of electric supply systems
+- content: power station equipment
+- content: power station safety
+- content: public utility safety
+- content: safety work rules
+- content: underground communication line safety
+- content: underground electric line safety
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Electrical Safety Code
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

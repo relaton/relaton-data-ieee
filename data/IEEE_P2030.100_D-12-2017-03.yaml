@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.100-D-12-2017-03
 title:
 - content: IEEE Approved Draft Recommended Practice for Implementing an IEC 61850
@@ -82,12 +82,13 @@ keyword:
 - content: Sample Values
 - content: SV
 - content: MMS
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering
@@ -73,6 +73,30 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This standard defines system engineering and management requirements for
+    the life cycle of websites, including strategy, design, engineering, testing and
+    validation, and management and sustainment for Intranet and Extranet environments.
+    The goal of this standard is to improve the usability of informational websites
+    and ease of maintenance of managed Web operations in terms of locating relevant
+    and timely information, applying information security management, facilitating
+    ease of use, and providing for consistent and efficient development and maintenance
+    practices. .It applies to those using web technology to present information and
+    communications technology (ICT) information, such as user documentation for systems
+    and software, life-cycle documentation for systems and software engineering projects,
+    and documentation of policies, plans, and procedures for IT service management.
+    This standard provides requirements for website owners and website providers,
+    managers responsible for establishing guidelines for website development and operations,
+    for software developers and operations and maintenance staff who may be external
+    or internal to the website owner's organization. It applies to websites for public
+    access and for limited access, such as for users, customers, and subscribers seeking
+    information on IT products and services. It includes increased emphasis on the
+    human factors concerns for making information easily retrievable and usable for
+    the intended audience. It focuses on vendor- and product-independent considerations.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -86,610 +110,25 @@ copyright:
     - content: IEC
   from: '2015'
 relation:
-- type: updates
+- type: obsoletedBy
   bibitem:
-    id: IEEE2001-2002
+    id: ISO-IEC-IEEE23026-2023
     docid:
-    - id: IEEE 2001-2002
+    - id: ISO/IEC/IEEE 23026-2023
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 2001-2002
+      content: ISO/IEC/IEEE 23026-2023
       format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 - type: updates
   bibitem:
-    id: IEEE2001-2002
+    id: IEEEStd2001-2002
     docid:
-    - id: IEEE 2001-2002
+    - id: IEEE Std 2001-2002
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE2001-2002
-    docid:
-    - id: IEEE 2001-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2001-2002
+      content: IEEE Std 2001-2002
       format: text/plain
   description:
     content: revises
@@ -710,15 +149,17 @@ keyword:
 - content: website management
 - content: website engineering
 - content: webmaster
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

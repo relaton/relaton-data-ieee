@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP810-D-11-2015-08
 title:
 - content: IEEE Approved Draft Standard for Hydraulic Turbine and Generator Shaft
@@ -83,15 +83,16 @@ keyword:
 - content: Runout
 - content: Shaft
 - content: Tolerance Turbine
-doctype: standard
-editorialgroup:
-  committee:
-  - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
-ics:
-- code: '27.040'
-  text: Gas and steam turbines. Steam engines
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Energy Development &amp; Power Generation of the IEEE Power and Energy Society
+  ics:
+  - code: '27.040'
+    text: Gas and steam turbines. Steam engines
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.3-Amd2-2017
 title:
 - content: 'ISO/IEC/IEEE International Standard - Part 3: Standard for Ethernet -
@@ -26,7 +26,7 @@ docid:
 docnumber: ISO/IEC/IEEE 8802.3/Amd2-2017
 date:
 - type: created
-  value: '2018'
+  value: '2018-03-07'
 - type: published
   value: '2018-03-09'
 - type: issued
@@ -75,153 +75,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.3by-2016
+    id: IEEEStd802.3by-2016
     docid:
-    - id: IEEE 802.3by-2016
+    - id: IEEE Std 802.3by-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3by-2016
-    docid:
-    - id: IEEE 802.3by-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3by-2016
+      content: IEEE Std 802.3by-2016
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -241,7 +101,6 @@ keyword:
 - content: Auto-Negotiation (AN)
 - content: Backplane Ethernet
 - content: Energy Efficient Ethernet (EEE)
-- content: Ethernet
 - content: Forward Error Correction (FEC)
 - content: IEEE 802
 - content: IEEE 802.3
@@ -251,17 +110,18 @@ keyword:
 - content: Physical Medium Attachment (PMA) sublayer
 - content: Physical Medium Dependent (PMD) sublayer
 - content: Reconciliation Sublayer (RS)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

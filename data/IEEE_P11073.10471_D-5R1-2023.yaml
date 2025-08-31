@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10471-D-5r1-2023
 title:
 - content: 'IEEE Approved Draft Standard for Health informatics - Device Interoperability
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P11073.10471/D-5r1-2023
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-05'
 - type: published
   value: '2023-01-19'
 - type: issued
@@ -49,16 +49,16 @@ script:
 - Latn
 abstract:
 - content: Within the context of the ISO/IEEE 11073 family of standards for device
-    communication, this standard establishes a normative definition of communication
-    between personal telehealth independent living activity hub devices and compute
-    engines (e.g. cell phones, personal computers, personal health appliances, set
-    top boxes) in a manner that enables plug-and-play interoperability. It leverages
-    appropriate portions of existing standards including ISO/IEEE 11073 terminology,
-    information models, application profile standards, and transport standards. It
-    specifies the use of specific term codes, formats, and behaviors in telehealth
-    environments restricting optionality in base frameworks in favor of interoperability.
-    This standard defines a common core of communication functionality for personal
-    telehealth independent living activity hubs.
+    communication, a normative definition of communication between personal telehealth
+    independent living activity hub devices and compute engines (e.g., cell phones,
+    personal computers, personal health appliances, set top boxes) in a manner that
+    enables plug-and-play interoperability is established in this standard. Appropriate
+    portions of existing standards, including ISO/IEEE 11073 terminology, information
+    models, application profile standards, and transport standards are leveraged.
+    The use of specific term codes, formats, and behaviors in telehealth environments
+    restricting optionality in base frameworks in favor of interoperability are specified.
+    A common core of communication functionality for personal telehealth independent
+    living activity hubs is defined in this standard.
   language:
   - en
   script:
@@ -78,13 +78,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE11073.10471-2008
+    id: IEEEStd11073.10471-2008
     docid:
-    - id: IEEE 11073.10471-2008
+    - id: IEEE Std 11073.10471-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10471-2008
+      content: IEEE Std 11073.10471-2008
       format: text/plain
   description:
     content: revises
@@ -101,22 +101,22 @@ keyword:
 - content: Regulation
 - content: Telemedicine
 - content: Interoperability
+- content: IEEE 11073-10471
 - content: independent living activity hub
 - content: medical device communication
 - content: personal health devices
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
-- code: 11.040.55
-  text: Diagnostic equipment
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

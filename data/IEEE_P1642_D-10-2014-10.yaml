@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1642-D-10-2014-10
 title:
 - content: IEEE Draft Recommended Practice for Protecting Public Accessible Computer
@@ -88,17 +88,18 @@ keyword:
 - content: high power electromagnetics
 - content: HPEM
 - content: electromagnetic protection
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
-ics:
-- code: '35.160'
-  text: Microprocessor systems
-- code: 33.100.20
-  text: Immunity
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  - code: 33.100.20
+    text: Immunity
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

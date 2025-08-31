@@ -3,12 +3,13 @@
 name: Crawler
 
 on:
-  push:
-    branches: [ master, main ]
-    tags: [ v* ]
-  pull_request:
-  schedule:
-  - cron: '0 16 * * *'
+  # @TODO: uncomment everithing below when https://github.com/ietf-tools/relaton-data-ieee is updated
+  # push:
+  #   branches: [ master, main ]
+  #   tags: [ v* ]
+  # pull_request:
+  # schedule:
+  # - cron: '0 16 * * *'
   workflow_dispatch:
     inputs:
       args:

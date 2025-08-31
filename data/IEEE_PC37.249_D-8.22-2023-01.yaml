@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.249-D-8.22-2023-01
 title:
 - content: IEEE Draft Guide for Categorizing Security Needs for Protection, Automation,
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-12-01'
 - type: issued
-  value: '2023'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -48,16 +48,17 @@ script:
 - Latn
 abstract:
 - content: Security categorization is the first step in a security risk management
-    framework because of its impact on all other steps, from selection of security
-    controls to apply based upon the assessment to the level of effort required to
-    assess the effectiveness of the security controls put in place. Security categorization
-    covers information (data) at rest and information systems. The approach used in
-    this guide applies only to data at rest. The approach aligns National Institute
-    of Standards and Technology (NIST) Special Publication (SP) 800-60 Volume 1, revision
-    1 [B2] and with Federal Information Processing Standards (FIPS) FIPS 199 [B1],
-    the latter of which establishes security categories based on the magnitude of
-    harm expected to result from compromises rather than on the results of an assessment
-    that includes an attempt to determine 9 the probability of compromise.
+    framework because of its impact on all other steps, from the selection of security
+    controls to apply based on the assessment to the level of effort required to assess
+    the effectiveness of the security controls put in place. Information (data) at
+    rest and information systems are covered by security categorization. The approach
+    used in this guide applies only to data at rest. Types of information and information
+    systems are considered by the National Institute of Standards and Technology (NIST)
+    Special Publication (SP) 800-60 Vol. 1, Rev. 1 [B16]. Security categories--based
+    on the magnitude of harm expected to result from compromises rather than on the
+    results of an assessment that includes an attempt to determine the probability
+    of compromise--are established by Federal Information Processing Standards (FIPS)
+    199 [B1]. These standards are aligned by the approach in this guide.
   language:
   - en
   script:
@@ -79,18 +80,23 @@ keyword:
 - content: Automation
 - content: File systems
 - content: Security
-- content: data at rest
-- content: protection files
 - content: automation files
 - content: control files
+- content: data at rest
+- content: IEEE C37.249
+- content: protection files
 - content: security categorization
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: '35.030'
+    text: IT Security
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

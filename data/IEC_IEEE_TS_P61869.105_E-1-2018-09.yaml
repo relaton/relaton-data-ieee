@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEETSP61869.105-E-1-2018-09
 title:
 - content: IEEE/IEC Draft Recommended Practice for Uncertainty Evaluation in the Calibration
@@ -66,13 +66,14 @@ keyword:
 - content: Calibration
 - content: Power transformers
 - content: Instrumentation
-doctype: standard
-editorialgroup:
-  committee:
-  - TC39 - Measurements in Power Systems of the IEEE Instrumentation and Measurement
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC39 - Measurements in Power Systems of the IEEE Instrumentation and Measurement
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

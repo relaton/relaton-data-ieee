@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE151-1965
 title:
 - content: Standard Definitions of Terms for Audio and Electroacoustics
@@ -81,9 +81,10 @@ keyword:
 - content: Dictionaries
 - content: Acoustics
 - content: Electroacoustics
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

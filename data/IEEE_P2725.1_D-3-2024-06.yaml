@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2725.1-D-3-2024-06
 title:
 - content: IEEE Draft Standard for Microwave Structural, Vascular, or Functional Brain
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P2725.1/D-3-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-02'
 - type: published
   value: '2024-07-03'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -47,14 +47,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard specifies requirements and guidelines, for the design of
-    radio frequency (RF) brain imaging systems, to help protect subjects/users/patients
-    from adverse effects from overexposure to RF electromagnetic energy, and from
-    other electrical, mechanical, chemical, and biological hazards. This standard
+- content: Requirements and guidelines for the design of radiofrequency (RF) brain
+    imaging systems, to help protect subjects/users/patients from adverse effects
+    from overexposure to RF electromagnetic energy, and from other electrical, mechanical,
+    chemical, and biological hazards are specified by this standard. This standard
     is limited to brain imaging devices using a brain machine interface (BMI) that
     intentionally couples low-level RF electromagnetic energy, in the frequency range
     between 10 MHz and 20 GHz, into the human head using antennas or probes in direct
-    6 contact with, or close proximity to, the human head.
+    contact with, or close proximity to, the human head.
   language:
   - en
   script:
@@ -90,24 +90,30 @@ keyword:
 - content: Dosimetry
 - content: Safety
 - content: BMI
-- content: Brain Machine Interface
-- content: Brain Imager
-- content: Microwave
-- content: Microwave Imager Safety
-- content: RF Exposure
-- content: Microwave Imager Safety
-- content: Electromagnetic Fields
-- content: Tissue Heating
-- content: SAR
-- content: Dosimetric Reference Limits
+- content: brain imager
+- content: brain machine interface
+- content: dosimetric reference limits
 - content: DRL
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+- content: electromagnetic fields
+- content: IEEE 2725.1™
+- content: microwave
+- content: microwave imager safety
+- content: RF exposure
+- content: SAR
+- content: tissue heating
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+  ics:
+  - code: 11.040.55
+    text: Diagnostic equipment
+  - code: '13.280'
+    text: Radiation protection
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

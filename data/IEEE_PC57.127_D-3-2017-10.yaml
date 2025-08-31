@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.127-D-3-2017-10
 title:
 - content: IEEE Draft Guide for the Detection, Location and Interpretation of Sources
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.127-2007
+    id: IEEEStdC57.127-2007
     docid:
-    - id: IEEE C57.127-2007
+    - id: IEEE Std C57.127-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.127-2007
+      content: IEEE Std C57.127-2007
       format: text/plain
   description:
     content: revises
@@ -103,17 +103,15 @@ keyword:
 - content: partial discharge (PD)
 - content: power transformers
 - content: reactors
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 17.140.20
-  text: Noise emitted by machines and equipment
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 17.140.20
+    text: Noise emitted by machines and equipment
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

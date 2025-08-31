@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61671.6
 title:
 - content: IEC/IEEE International Standard - Standard for Automatic Test Markup Language
@@ -25,7 +25,7 @@ docid:
 docnumber: IEC 61671.6
 date:
 - type: created
-  value: '2016'
+  value: '2016-04-08'
 - type: published
   value: '2016-04-21'
 - type: issued
@@ -49,6 +49,15 @@ language:
 script:
 - Latn
 abstract:
+- content: An exchange format, using extensible markup language (XML), for identifying
+    all of the hardware, software, and documentation associated with a test station
+    is specified in this document. This test station may be used with a test program
+    set to test and diagnose a unit under test.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 - content: An exchange format, using extensible markup language (XML), for identifying
     all of the hardware, software, and documentation associated with a test station
     is specified in this document. This test station may be used with a test program
@@ -85,15 +94,16 @@ keyword:
 - content: IEEE 1671.6(TM)
 - content: test station
 - content: XML schema
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 35.240.30
-  text: IT applications in information, documentation and publishing
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 35.240.30
+    text: IT applications in information, documentation and publishing
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2796-D-2-2024-02
 title:
 - content: IEEE Draft Standard for Framework for the Internet of Food (IoF)
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2024-02-08'
 - type: issued
-  value: '2024'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -46,11 +46,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard provides an architectural framework for the Internet of Food
-    (IoF) system applications. The framework addresses interoperability, scalability
-    to help ensure cross-domain interaction and data trust for the food chain sector.
-    IoF system requirements are also defined to accommodate various domain applications
-    from smart farming, smart agri-logistics to smart home intelligence.
+- content: An architectural framework for the Internet of Food (IoF) system applications
+    is provided in this standard. Interoperability, scalability is addressed in this
+    framework to help ensure cross-domain interaction and data trust for the food
+    chain sector. The IoF system requirements are also defined to accommodate various
+    domain applications from smart farming, smart agri-logistics to smart home intelligence.
   language:
   - en
   script:
@@ -78,17 +78,24 @@ keyword:
 - content: Interoperability
 - content: Logistics
 - content: Intelligent systems
-- content: Internet of Food
 - content: architectural framework
-- content: food chain
 - content: cross-domain interaction
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board Standards Committee of the IEEE Computer Society
+- content: food chain
+- content: IEEE 2796&#8482;
+- content: Internet of Food
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.240.95
+    text: Internet applications
+  - code: '67.040'
+    text: Food products in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEC37.30C-1984
 title:
 - content: IEEE Standard Definitions and Requirements for High Voltage Air Switches,
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI/IEEE C37.30C-1984
 date:
 - type: created
-  value: '1984'
+  value: '1984-06-30'
 - type: published
   value: '2019-04-05'
 - type: issued
@@ -68,13 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSI-IEEEC37.30-1971
+    id: ANSI-IEEEStdC37.30-1971
     docid:
-    - id: ANSI/IEEE C37.30-1971
+    - id: ANSI/IEEE Std C37.30-1971
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE C37.30-1971
+      content: ANSI/IEEE Std C37.30-1971
       format: text/plain
   description:
     content: amends
@@ -92,15 +92,16 @@ keyword:
 - content: Force
 - content: Conductors
 - content: C37.30C
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

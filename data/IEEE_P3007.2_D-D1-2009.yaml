@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3007.2-D-D1-2009
 title:
 - content: IEEE Draft Recommended Practice for the Maintenance of Industrial and Commercial
@@ -76,8 +76,6 @@ keyword:
 - content: Failure effect
 - content: failure mode
 - content: failure mode and effects analysis
-- content: failure mode
-- content: failure mode
 - content: effects and criticality analysis
 - content: hidden/latent failure
 - content: maintenance
@@ -86,15 +84,16 @@ keyword:
 - content: probability
 - content: reliability
 - content: reliability centered maintenance and safety-related work practices.
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee
-ics:
-- code: 91.140.50
-  text: Electricity supply system
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee
+  ics:
+  - code: 91.140.50
+    text: Electricity supply system
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP634-D-1-2023-01
 title:
 - content: IEEE Approved Draft Standard for Cable-Penetration Fire Stop Qualification
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P634/D-1-2023-01
 date:
 - type: created
-  value: '2023'
+  value: '2023-07-07'
 - type: published
   value: '2023-02-17'
 - type: issued
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE634-2004
+    id: IEEEStd634-2004
     docid:
-    - id: IEEE 634-2004
+    - id: IEEE Std 634-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 634-2004
+      content: IEEE Std 634-2004
       format: text/plain
   description:
     content: revises
@@ -108,17 +108,18 @@ keyword:
 - content: thermocouple
 - content: time-temperature curve
 - content: T-rating
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 13.220.40
-  text: Ignitability and burning behaviour of materials and products
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 13.220.40
+    text: Ignitability and burning behaviour of materials and products
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

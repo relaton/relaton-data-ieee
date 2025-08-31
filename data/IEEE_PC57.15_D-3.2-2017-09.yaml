@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.15-D-3.2-2017-09
 title:
 - content: IEEE Approved Draft Standard Requirements, Terminology, and Test Code for
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.15-2009
+    id: IEEEStdC57.15-2009
     docid:
-    - id: IEEE C57.15-2009
+    - id: IEEE Std C57.15-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.15-2009
+      content: IEEE Std C57.15-2009
       format: text/plain
   description:
     content: revises
@@ -107,17 +107,15 @@ keyword:
 - content: Type A
 - content: Type B
 - content: voltage regulator
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 01.040.29
-  text: Electrical engineering (Vocabularies)
-- code: '29.200'
-  text: Rectifiers. Converters. Stabilized power supply
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.29
+    text: Electrical engineering (Vocabularies)
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

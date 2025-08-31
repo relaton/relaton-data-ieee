@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP644-D-6-2019-01
 title:
 - content: IEEE Draft Standard Procedures for Measurement of Power Frequency Electric
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P644/D-6-2019-01
 date:
 - type: created
-  value: '2019'
+  value: '2019-03-28'
 - type: published
   value: '2019-04-10'
 - type: issued
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE644-1994
+    id: IEEEStd644-1994
     docid:
-    - id: IEEE 644-1994
+    - id: IEEE Std 644-1994
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 644-1994
+      content: IEEE Std 644-1994
       format: text/plain
   description:
     content: revises
@@ -99,15 +99,13 @@ keyword:
 - content: IEEE 644
 - content: magnetic field
 - content: measurement
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

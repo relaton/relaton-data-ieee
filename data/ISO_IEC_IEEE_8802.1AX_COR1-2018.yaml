@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.1AX-Cor1-2018
 title:
 - content: 'IEEE/ISO/IEC International Standard for Information technology -- Telecommunications
@@ -59,6 +59,13 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Technical and editorial corrections are provided in this corrigendum to
+    IEEE Std 802.1AX-2014.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -77,13 +84,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.1AX-Cor1-2017
+    id: IEEEStd802.1AX-Cor1-2017
     docid:
-    - id: IEEE 802.1AX/Cor1-2017
+    - id: IEEE Std 802.1AX/Cor1-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1AX/Cor1-2017
+      content: IEEE Std 802.1AX/Cor1-2017
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -107,15 +114,16 @@ keyword:
 - content: management
 - content: Network-Network Interface
 - content: NNI
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

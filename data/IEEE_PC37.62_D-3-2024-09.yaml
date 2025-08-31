@@ -1,9 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.62-D-3-2024-09
 title:
-- content: IEEE Draft Standard for Pad-Mounted Dry Vault, Submersible, and Overhead
-    Fault Interrupters for Alternating Current Systems Up to and Including 38 kV
+- content: IEEE Approved Draft Standard for Pad-Mounted Dry Vault, Submersible, and
+    Overhead Fault Interrupters for Alternating Current Systems Up to and Including
+    38 kV
   format: text/plain
   type: main
 link:
@@ -23,11 +24,11 @@ docid:
 docnumber: IEEE PC37.62/D-3-2024-09
 date:
 - type: created
-  value: '2024'
+  value: '2024-12-20'
 - type: published
   value: '2024-09-23'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -70,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.62-2020
+    id: IEEEStdC37.62-2020
     docid:
-    - id: IEEE C37.62-2020
+    - id: IEEE Std C37.62-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.62-2020
+      content: IEEE Std C37.62-2020
       format: text/plain
   description:
     content: revises
@@ -96,22 +97,23 @@ keyword:
 - content: dry vault
 - content: fault interrupter
 - content: FI
-- content: IEEE C37.62&#8482;
+- content: IEEE C37.62™
 - content: medium voltage
 - content: overhead
 - content: pad-mounted
 - content: submersible
 - content: switchgear
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

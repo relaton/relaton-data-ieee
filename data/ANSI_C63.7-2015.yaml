@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.7-2015
 title:
 - content: American National Standard Guide for Construction of Test Sites for Performing
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2015-04-03'
 - type: created
-  value: '2015'
+  value: '2015-03-09'
 - type: published
   value: '2015-03-16'
 - type: issued
@@ -47,6 +47,16 @@ language:
 script:
 - Latn
 abstract:
+- content: Information that is useful in constructing test sites used to perform radiated
+    emission measurements in the frequency range of 30 MHz to 18 GHz is provided.
+    Final validity of a test site can only be determined by performing normalized
+    site attenuation and/or site voltage standing-wave ratio measurements as described
+    in ANSI C63.4.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 - content: Information that is useful in constructing test sites used to perform radiated
     emission measurements in the frequency range of 30 MHz to 18 GHz is provided.
     Final validity of a test site can only be determined by performing normalized
@@ -104,12 +114,13 @@ keyword:
 - content: open-area test site
 - content: radiated emission measurement
 - content: semi-anechoic chamber
-doctype: standard
-ics:
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 33.100.10
+    text: Emission
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

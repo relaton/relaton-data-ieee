@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE15-1928-05
 title:
 - content: 'A.I.E.E. Standards: Industrial Control Apparatus'
@@ -24,7 +24,7 @@ docid:
 docnumber: AIEE 15-1928-05
 date:
 - type: created
-  value: '1928'
+  value: '1928-07-20'
 - type: published
   value: '2015-12-29'
 - type: issued
@@ -57,12 +57,13 @@ keyword:
 - content: Industrial control
 - content: Industrial electronics
 - content: Equipment
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Association Standards Board of the IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Association Standards Board of the IEEE-SASB Coordinating Committees
   standard_status: Inactive
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1542-D-8-2018-02
 title:
 - content: IEEE Draft Guide for Installation, Maintenance, and Operation of Irrigation
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1542-2007
+    id: IEEEStd1542-2007
     docid:
-    - id: IEEE 1542-2007
+    - id: IEEE Std 1542-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1542-2007
+      content: IEEE Std 1542-2007
       format: text/plain
   description:
     content: revises
@@ -98,15 +98,13 @@ keyword:
 - content: irrigation
 - content: irrigation systems
 - content: sprinklers
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 65.060.35
-  text: Irrigation and drainage equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 65.060.35
+    text: Irrigation and drainage equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

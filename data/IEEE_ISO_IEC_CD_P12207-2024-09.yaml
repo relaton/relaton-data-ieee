@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-ISO-IECCDP12207-2024-09
 title:
 - content: IEEE/ISO/IEC Draft International standard - Systems and software engineering
@@ -25,7 +25,7 @@ date:
 - type: created
   value: '2024'
 - type: published
-  value: '2024-09-24'
+  value: '2024-09-23'
 - type: issued
   value: '2024'
 contributor:
@@ -41,11 +41,24 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-09-24'
+revdate: '2024-09-23'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: This document establishes a common process framework for describing the
+    full life cycle of software systems from conception through retirement. It applies
+    to the acquisition or development of software products and services whether performed
+    internally or externally to an organization. Those aspects of software system
+    definition needed to provide the context for software products and services are
+    included. The document also supports the definition, control, assessment, and
+    improvement of these processes.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -79,57 +92,6 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE12207-2017
-    docid:
-    - id: ISO/IEC/IEEE 12207-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 12207-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE12207-2017
-    docid:
-    - id: ISO/IEC/IEEE 12207-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 12207-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE12207-2017
-    docid:
-    - id: ISO/IEC/IEEE 12207-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 12207-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: ISO Standards
@@ -138,16 +100,18 @@ keyword:
 - content: Systems engineering and theory
 - content: Life cycle assessment
 - content: Software development management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

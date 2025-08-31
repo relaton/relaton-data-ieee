@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1474.3-D-1-2024-06
 title:
 - content: IEEE Draft Recommended Practice for Communications-Based Train Control
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P1474.3/D-1-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-28'
 - type: published
   value: '2024-07-12'
 - type: issued
-  value: '2024'
+  value: '2025-03-27'
 contributor:
 - organization:
     name:
@@ -47,11 +47,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This recommended practice for communications-based train control (CBTC)
-    system design and functional allocations builds on IEEE Std 1474.1 by decomposing
-    each identified automatic train protection, automatic train operation and automatic
-    train supervision function to a level where each subfunction can be allocated
-    to one of the CBTC subsystems.
+- content: Communications-based train control (CBTC) system design and functional
+    allocations from IEEE Std 1474.1-2025 are built upon in the recommended practice
+    by decomposing each identified automatic train protection, automatic train operation,
+    and automatic train supervision function to a level where each subfunction can
+    be allocated to one of the CBTC subsystems.
   language:
   - en
   script:
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1474.3-2008
+    id: IEEEStd1474.3-2008
     docid:
-    - id: IEEE 1474.3-2008
+    - id: IEEE Std 1474.3-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1474.3-2008
+      content: IEEE Std 1474.3-2008
       format: text/plain
   description:
     content: revises
@@ -87,24 +87,34 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Resource management
+- content: Control systems
+- content: System analysis and design
+- content: Railway communication
+- content: Rail transportation
+- content: Automation
+- content: Signal processing
 - content: automation
 - content: communication
+- content: function
+- content: IEEE 1474.1
 - content: signaling
 - content: train control
-- content: function
-doctype: standard
-editorialgroup:
-  committee:
-  - Communications Based Train Control and Signals of the IEEE Vehicular Technology
-    Society
-ics:
-- code: 03.220.30
-  text: Transport by rail
-- code: 35.240.60
-  text: IT applications in transport
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Communications Based Train Control and Signals of the IEEE Vehicular Technology
+      Society
+  ics:
+  - code: 03.220.30
+    text: Transport by rail
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

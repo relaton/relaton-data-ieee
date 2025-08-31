@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1873-D-1.0.1-2015-01
 title:
 - content: IEEE Approved Draft Standard for Robot Map Data Representation for Navigation
@@ -76,17 +76,18 @@ keyword:
 - content: metric map
 - content: robot navigation
 - content: topological map
-doctype: standard
-editorialgroup:
-  committee:
-  - Standing Committee for Standards of the IEEE Robotics and Automation Society
-ics:
-- code: 25.040.30
-  text: Industrial robots. Manipulators
-- code: '17.040'
-  text: Linear and angular measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standing Committee for Standards of the IEEE Robotics and Automation Society
+  ics:
+  - code: 25.040.30
+    text: Industrial robots. Manipulators
+  - code: '17.040'
+    text: Linear and angular measurements
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE11-1937
 title:
 - content: AIEE American Tentative Standards for Railway Motors and Other Rotating
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2016-01-29'
 - type: created
-  value: '1937'
+  value: '1937-03-01'
 - type: published
   value: '2015-12-21'
 - type: issued
@@ -55,6 +55,14 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The rules in this division of American Stand­ards cover definitions, classification,
+    rating and and methods of test for rotating electrical machin­ery forming a part
+    of the power equipment of electrically propelled railway cars and locomo­tives.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -67,11 +75,11 @@ keyword:
 - content: Electric machines
 - content: Velocity control
 - content: Rotation measurement
-- content: Machinery
 - content: Rail transportation
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

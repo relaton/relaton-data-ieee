@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1Qbe-D-1.6-2010-08
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks -- Virtual
@@ -84,17 +84,18 @@ keyword:
 - content: Provider Backbone Bridges
 - content: Virtual Bridged Local Area Networks
 - content: virtual LANs.
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

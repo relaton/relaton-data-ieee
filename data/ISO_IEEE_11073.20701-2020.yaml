@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEEE11073.20701-2020
 title:
 - content: ISO/IEC/IEEE International Standard for Health informatics--Device interoperability--Part
@@ -28,7 +28,7 @@ date:
 - type: updated
   value: '2020-04-24'
 - type: created
-  value: '2020'
+  value: '2020-03-30'
 - type: published
   value: '2020-03-31'
 - type: issued
@@ -65,6 +65,19 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Within the context of the ISO/IEEE 11073 family of standards for point-of-care
+    (PoC) medical device communication, an architecture for service-oriented distributed
+    PoC medical devices and medical IT systems is defined. This standard defines a
+    binding of the Participant, Discovery, and Communication Model defined in IEEE
+    Std 11073-10207&#8482; to the profile for transport over Web Services defined
+    in IEEE Std 11073-20702&#8482;. Moreover, a binding to Network Time Protocol (NTP)
+    and Differentiated Services (DiffServ) is defined for time synchronization and
+    transport Quality of Service requirements.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -83,13 +96,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE11073.20701-2018
+    id: IEEEStd11073.20701-2018
     docid:
-    - id: IEEE 11073.20701-2018
+    - id: IEEE Std 11073.20701-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.20701-2018
+      content: IEEE Std 11073.20701-2018
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -112,16 +125,17 @@ keyword:
 - content: point-of-care
 - content: remote control
 - content: service-oriented architecture
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

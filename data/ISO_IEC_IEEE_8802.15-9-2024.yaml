@@ -1,0 +1,128 @@
+---
+schema-version: v1.2.9
+id: ISO-IEC-IEEE8802.15-9-2024
+title:
+- content: 'ISO/IEC/IEEE International Standard: Telecommunications and information
+    exchange between systems--Local and metropolitan area networks specific requirements--Part
+    15-9: Transport of Key Management Protocol (KMP) Datagrams'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/10791463
+  type: src
+type: standard
+docid:
+- id: ISO/IEC/IEEE 8802.15-9-2024
+  type: IEEE
+  primary: true
+- id: ISO/IEC/IEEE 8802.15-9™-2024
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-1575-0
+  type: ISBN
+- id: 10.1109/IEEESTD.2024.10791463
+  type: DOI
+docnumber: ISO/IEC/IEEE 8802.15-9-2024
+date:
+- type: created
+  value: '2024-12-11'
+- type: published
+  value: '2024-12-11'
+- type: issued
+  value: '2024'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2024-12-11'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: A message exchange framework based on information elements as a transport
+    method for key management protocol (KMP) datagrams and guidelines for the use
+    of some existing KMPs with IEEE Std 802.15.4&#8482; is defined in this standard.
+    A new KMP is not created in this standard. In support of KMP transmission and
+    reception, a generic multiplexed data service layer that can be used to transmit
+    large packets from the upper KMP to another peer and that provides for protocol
+    discrimination is also provided in this standard. The multiplexed data service
+    provides a fragmentation and multiplexing layer for those packets so they can
+    be delivered over smaller MAC layer frames and multiplexed on the recipient end
+    to the right processing service. The multiplexing provides for EtherType protocol
+    discrimination.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: approved
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  - name:
+    - content: ISO
+  - name:
+    - content: IEC
+  from: '2024'
+relation:
+- type: adoptedFrom
+  bibitem:
+    id: IEEEStd802.15.9-2021
+    docid:
+    - id: IEEE Std 802.15.9-2021
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.15.9-2021
+      format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Protocols
+- content: Data security
+- content: Telecommunication network management
+- content: Information exchange
+- content: Transport protocols
+- content: Local area networks
+- content: Metropolitan area networks
+- content: IEC Standards
+- content: ISO Standards
+- content: EtherType
+- content: fragmentation
+- content: IE
+- content: IEEE 802.15.9&#8482;
+- content: information element
+- content: key management protocol
+- content: KMP
+- content: multiplexed data service
+- content: security
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

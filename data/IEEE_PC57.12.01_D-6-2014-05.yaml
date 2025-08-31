@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.12.01-D-6-2014-05
 title:
 - content: IEEE Draft Standard for General Requirements for Dry-Type Distribution
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.12.01-2005
+    id: IEEEStdC57.12.01-2005
     docid:
-    - id: IEEE C57.12.01-2005
+    - id: IEEE Std C57.12.01-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.01-2005
+      content: IEEE Std C57.12.01-2005
       format: text/plain
   description:
     content: revises
@@ -87,13 +87,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEEC57.12.01-2005
+    id: IEEEStdC57.12.01-2005
     docid:
-    - id: IEEE C57.12.01-2005
+    - id: IEEE Std C57.12.01-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.01-2005
+      content: IEEE Std C57.12.01-2005
       format: text/plain
   description:
     content: revises
@@ -114,15 +114,13 @@ keyword:
 - content: IEEE C57.12.01
 - content: power transformer
 - content: voltage winding
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

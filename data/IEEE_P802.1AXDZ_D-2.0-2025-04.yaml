@@ -1,0 +1,117 @@
+---
+schema-version: v1.2.9
+id: IEEEP802.1AXdz-D-2.0-2025-04
+title:
+- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks--Link Aggregation
+    Amendment: YANG for Link Aggregation'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/10964798
+  type: src
+type: standard
+docid:
+- id: IEEE P802.1AXdz/D-2.0-2025-04
+  type: IEEE
+  primary: true
+- id: IEEE P802.1AXdz™/D-2.0-2025-04
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2104-1
+  type: ISBN
+docnumber: IEEE P802.1AXdz/D-2.0-2025-04
+date:
+- type: created
+  value: '2025-04-10'
+- type: published
+  value: '2025-04-14'
+- type: issued
+  value: '2025'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-04-14'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: This amendment to IEEE Std 802.1AX-2020 specifies a Unified Modeling Language
+    (UML)-based model and YANG modules for Link Aggregation configuration and status
+    reporting.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd802.1AX-2020
+    docid:
+    - id: IEEE Std 802.1AX-2020
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.1AX-2020
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Link aggregation
+- content: Local area networks
+- content: Metropolitan area networks
+- content: Aggregated Link
+- content: Aggregator
+- content: Distributed Resilient Network Interconnect
+- content: DRNI
+- content: interconnect
+- content: Link Aggregation
+- content: Link Aggregation Group
+- content: local area network
+- content: management
+- content: Network-Network Interface
+- content: NNI
+- content: YANG.
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

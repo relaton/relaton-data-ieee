@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.12.210-D-3.1-2024-07
 title:
-- content: IEEE Draft Recommended Practice for On-load Capacity Switching Distribution
-    Transformers
+- content: IEEE Approved Draft Recommended Practice for On-load Capacity Switching
+    Distribution Transformers
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE PC57.12.210/D-3.1-2024-07
 date:
 - type: created
-  value: '2024-08-01'
+  value: '2024-10-08'
 - type: published
   value: '2024-08-02'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -46,6 +46,19 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Guidance and references are provided by this recommended practice for the
+    design, manufacture, testing and selection of oil-immersed on-load capacity switching
+    distribution transformers with rated frequency of 50 Hz/60 Hz, voltages of 10
+    kV or below, and rated capacity of 750 kVA and below. On-load capacity switching
+    distribution transformers are transformers with two rated capacities and equipped
+    with additional components to control the operating capacity for energy saving
+    purposes.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -58,20 +71,30 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
-- content: distribution transformer
+- content: IEEE Standards
+- content: Power transformers
+- content: Capacity planning
+- content: Switching systems
+- content: Testing
+- content: Energy efficiency
 - content: capacity switching
-- content: IEEE C57.12.210
+- content: distribution transformer
+- content: energy efficiency
+- content: IEEE C57.12.210™
 - content: on-load switching
 - content: technical requirements
 - content: testing requirements
-- content: energy efficiency
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

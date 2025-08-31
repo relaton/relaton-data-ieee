@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE62704.2-2017
 title:
 - content: 'IEEE/IEC International Standard -- Determining the peak spatial-average
@@ -27,7 +27,7 @@ docid:
 docnumber: IEC/IEEE 62704.2-2017
 date:
 - type: created
-  value: '2017'
+  value: '2017-06-30'
 - type: published
   value: '2017-06-30'
 - type: issued
@@ -93,15 +93,16 @@ keyword:
 - content: Biological system modeling
 - content: Antennas
 - content: Vehicles
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.14-2009
 title:
 - content: American National Standard Dictionary of Electromagnetic Compatibility
@@ -67,16 +67,6 @@ copyright:
     url: http://www.ieee.org
   from: '2009'
 relation:
-- type: obsoletedBy
-  bibitem:
-    id: ANSIC63.14-2014
-    docid:
-    - id: ANSI C63.14-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.14-2014
-      format: text/plain
 - type: updates
   bibitem:
     id: ANSIC63.14-1998
@@ -94,6 +84,16 @@ relation:
     script:
     - Latn
     format: text/plain
+- type: obsoletedBy
+  bibitem:
+    id: ANSIC63.14-2014
+    docid:
+    - id: ANSI C63.14-2014
+      type: IEEE
+      primary: true
+    formattedref:
+      content: ANSI C63.14-2014
+      format: text/plain
 keyword:
 - content: Electromagnetic compatibility
 - content: Consumer electronics
@@ -107,14 +107,15 @@ keyword:
 - content: terms and definitions; electromagnetic pulse (EMP)
 - content: terms and definitions; electrostatic discharge (ESD)
 - content: terms and definitions
-doctype: standard
-ics:
-- code: 01.040.33
-  text: Telecommunications. Audio and video engineering (Vocabularies)
-- code: 33.100.01
-  text: Electromagnetic compatibility in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.33
+    text: Telecommunications. Audio and video engineering (Vocabularies)
+  - code: 33.100.01
+    text: Electromagnetic compatibility in general
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

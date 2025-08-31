@@ -1,10 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3301-D-2-2024-06
 title:
-- content: IEEE Draft Standard for Adoption of Moving Picture, Audio and Data Coding
-    by Artificial Intelligence (MPAI) Technical Specification Artificial Intelligence
-    Framework (AIF) Version 2
+- content: IEEE Approved Draft Standard for Adoption of Moving Picture, Audio and
+    Data Coding by Artificial Intelligence (MPAI) Technical Specification Artificial
+    Intelligence Framework (AIF) Version 2
   format: text/plain
   type: main
 link:
@@ -24,11 +24,11 @@ docid:
 docnumber: IEEE P3301/D-2-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-10'
 - type: published
   value: '2024-06-28'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -47,6 +47,17 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: This standard adopts MPAI AI Framework (MPAI-AIF) Technical Specification
+    Version 2 as an IEEE Standard. The MPAI-AIF Technical Specification specifies
+    architecture, interfaces, protocols, and Application Programming Interfaces (API)
+    of an AI Framework (AIF), especially designed for the execution of AI-based implementation,
+    but also suitable for mixed AI and traditional data processing workflow.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,13 +71,29 @@ copyright:
   - name:
     - content: MPAI
   from: '2024'
-doctype: standard
-editorialgroup:
-  committee:
-  - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+keyword:
+- content: IEEE Standards
+- content: Motion pictures
+- content: Audio coding
+- content: Data analysis
+- content: Artificial intelligence
+- content: adoption
+- content: AI framework
+- content: AI modules
+- content: AIMs
+- content: IEEE 3301&#8482;
+- content: MPAI-AIF
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-EAB193
 title:
 - content: Fault Calculations in Industrial/Commercial Power Systems - IEEE Red Book
@@ -55,6 +55,15 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: 'This paper treats in successive steps the solution lo problems influencing
+    the design and performance of a-c system equipment grounding circuits in the presence
+    of an insulation failure from one phase conductor to the grounding conductor.
+    (NOTE: This item is no longer available for purchase)'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -71,12 +80,13 @@ keyword:
 - content: Industrial power systems
 - content: 141-1993
 - content: Red Book
-doctype: standard
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Approved
   pubstatus: Active

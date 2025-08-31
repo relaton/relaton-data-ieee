@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.20701-D-5-2018-07
 title:
 - content: IEEE Draft Standard for Service-Oriented Medical Device Exchange Architecture
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P11073.20701/D-5-2018-07
 date:
 - type: created
-  value: '2018'
+  value: '2018-07-07'
 - type: published
   value: '2018-07-11'
 - type: issued
@@ -92,13 +92,14 @@ keyword:
 - content: point-of-care
 - content: remote control
 - content: service-oriented architecture
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

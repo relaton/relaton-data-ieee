@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEC37.92-1969
 title:
 - content: ANSI American National Standard Guide for Induction Motor protection
@@ -80,9 +80,10 @@ keyword:
 - content: ANSI Standards
 - content: Induction motors
 - content: Power system protection
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

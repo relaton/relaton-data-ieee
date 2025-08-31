@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE29119.1-2013
 title:
 - content: ISO/IEC/IEEE International Standard - Software and systems engineering
@@ -62,6 +62,19 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The purpose of the ISO/IEC/IEEE 29119 series of software testing standards
+    is to define an internationally-agreed set of standards for software testing that
+    can be used by any organization when performing any form of software testing.
+    ISO/IEC/IEEE 29119-1 facilitates the use of the other ISO/IEC/IEEE 29119 standards
+    by introducing the concepts and vocabulary on which these standards are built,
+    as well as providing examples of its application in practice. ISO/IEC/IEEE 29119-1
+    is informative, providing a starting point, context, and guidance for the other
+    parts.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -99,15 +112,17 @@ keyword:
 - content: Test Planning Process
 - content: Test Plan
 - content: verification and validation
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

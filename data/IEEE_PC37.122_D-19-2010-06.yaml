@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.122-D-19-2010-06
 title:
 - content: IEEE Draft Standard for High Voltage Gas-Insulated Substations Rated above
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.122/D-19-2010-06
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-19'
 - type: published
   value: '2010-07-23'
 - type: issued
@@ -83,15 +83,16 @@ keyword:
 - content: GIS testing
 - content: SF6
 - content: sulfur hexafluoride
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power &amp; Energy Society
-ics:
-- code: '27.100'
-  text: Power stations in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power &amp; Energy Society
+  ics:
+  - code: '27.100'
+    text: Power stations in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

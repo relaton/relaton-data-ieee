@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.11-2012Redline
 title:
 - content: 'ISO/IEC/IEEE International Standard - Information technology--Telecommunications
@@ -79,13 +79,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.11-2012
+    id: IEEEStd802.11-2012
     docid:
-    - id: IEEE 802.11-2012
+    - id: IEEE Std 802.11-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2012
+      content: IEEE Std 802.11-2012
       format: text/plain
 keyword:
 - content: IEEE standards
@@ -148,8 +148,6 @@ keyword:
 - content: power saving
 - content: QoS
 - content: quality of service
-- content: PHY
-- content: physical layer
 - content: QoS mapping
 - content: radio
 - content: radio frequency
@@ -170,17 +168,18 @@ keyword:
 - content: WLAN
 - content: wireless network management
 - content: zero-knowledge proof
-doctype: redline
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Superseded
   standard_modified: Redline
   pubstatus: Active

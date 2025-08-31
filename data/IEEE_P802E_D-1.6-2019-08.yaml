@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802E-D-1.6-2019-08
 title:
 - content: IEEE Draft Recommended Practice for Privacy Considerations for IEEE 802
@@ -89,12 +89,13 @@ keyword:
 - content: privacy
 - content: routing
 - content: security
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

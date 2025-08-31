@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP286-D-12-2023-10
 title:
 - content: IEEE Draft Recommended Practice for Measurement of Power Factor Tip-Up
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-11-03'
 - type: issued
-  value: '2023'
+  value: '2024-03-21'
 contributor:
 - organization:
     name:
@@ -47,10 +47,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This recommended practice covers power factor and power factor tip-up testing
-    of stator coils and bars for use in large electric machinery. This also defines
-    power factor, tangent delta, dissipation factor and conversions between these
-    values.
+- content: Covered in this recommended practice are power factor and power factor
+    tip-up testing of stator coils and bars for use in large electric machinery. This
+    document also defines power factor, tangent delta, dissipation factor, and conversions
+    between these values.
   language:
   - en
   script:
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE286-2000
+    id: IEEEStd286-2000
     docid:
-    - id: IEEE 286-2000
+    - id: IEEE Std 286-2000
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 286-2000
+      content: IEEE Std 286-2000
       format: text/plain
   description:
     content: revises
@@ -95,20 +95,22 @@ keyword:
 - content: coil
 - content: dissipation
 - content: electric generators
+- content: IEEE 286
 - content: power factor
 - content: stator bar
 - content: stator winding
 - content: tan delta
 - content: tangent delta
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.080.30
-  text: Insulation systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: 29.080.30
+    text: Insulation systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

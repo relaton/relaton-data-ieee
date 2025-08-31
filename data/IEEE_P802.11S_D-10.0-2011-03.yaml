@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11s-D-10.0-2011-03
 title:
 - content: 'IEEE Draft Standard for Information Technology-Telecommunications and
@@ -27,7 +27,7 @@ docid:
 docnumber: IEEE P802.11s/D-10.0-2011-03
 date:
 - type: created
-  value: '2011'
+  value: '2011-03-29'
 - type: published
   value: '2015-04-27'
 - type: issued
@@ -80,23 +80,23 @@ keyword:
 - content: Metropolitan area networks
 - content: P802.11s
 - content: '802.11'
-- content: Wireless LAN
 - content: Medium Access Control
 - content: Mesh
 - content: Multi-hop
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

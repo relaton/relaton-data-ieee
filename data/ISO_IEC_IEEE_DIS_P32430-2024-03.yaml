@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEDISP32430-2024-03
 title:
-- content: IEEE Draft International Standard - Software engineering - Software Non-Functional
-    Sizing Measurement
+- content: IEEE Approved Draft International Standard - Software engineering - Software
+    Non-Functional Sizing Measurement
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: ISO/IEC/IEEE DIS P32430-2024-03
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-11'
 - type: published
-  value: '2024-04-03'
+  value: '2024-04-02'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-04-03'
+revdate: '2024-04-02'
 language:
 - en
 script:
@@ -64,13 +64,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE2430-2019
+    id: IEEEStd2430-2019
     docid:
-    - id: IEEE 2430-2019
+    - id: IEEE Std 2430-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 2430-2019
+      content: IEEE Std 2430-2019
       format: text/plain
   description:
     content: revises
@@ -80,22 +80,23 @@ relation:
     - Latn
     format: text/plain
 keyword:
-- content: ISO Standards
+- content: IEEE Standards
 - content: IEC Standards
-- content: Standards
 - content: Software engineering
 - content: Size measurement
-- content: Regulation
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
+- content: ISO Standards
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1451.2-D-20-2011-02
 title:
 - content: IEEE Draft Standard for a Smart Transducer Interface for Sensors and Actuators
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1451.2/D-20-2011-02
 date:
 - type: created
-  value: '2012'
+  value: '2012-06-12'
 - type: published
   value: '2012-06-12'
 - type: issued
@@ -72,13 +72,64 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1451.2-1997
+    id: IEEEStd1451.2-1997
     docid:
-    - id: IEEE 1451.2-1997
+    - id: IEEE Std 1451.2-1997
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1451.2-1997
+      content: IEEE Std 1451.2-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1451.2-1997
+    docid:
+    - id: IEEE Std 1451.2-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1451.2-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1451.2-1997
+    docid:
+    - id: IEEE Std 1451.2-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1451.2-1997
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1451.2-1997
+    docid:
+    - id: IEEE Std 1451.2-1997
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1451.2-1997
       format: text/plain
   description:
     content: revises
@@ -106,17 +157,15 @@ keyword:
 - content: TEDS
 - content: TIM
 - content: UART
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 25.040.40
-  text: Industrial process measurement and control
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

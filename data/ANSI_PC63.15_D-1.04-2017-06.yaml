@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIPC63.15-D-1.04-2017-06
 title:
 - content: Approved Draft American National Standard Recommended Practice for the
@@ -105,15 +105,13 @@ keyword:
 - content: EMC
 - content: immunity testing
 - content: RF immunity
-doctype: standard
-editorialgroup:
-  committee:
-  - Accredited Standards Committee on Electromagnetic Compatibility
-ics:
-- code: 33.100.20
-  text: Immunity
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 33.100.20
+    text: Immunity
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

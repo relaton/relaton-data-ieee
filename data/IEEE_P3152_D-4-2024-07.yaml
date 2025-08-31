@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3152-D-4-2024-07
 title:
-- content: IEEE Draft Standard for Transparent Human and Machine Agency Identification
+- content: IEEE Approved Draft Standard for Transparent Human and Machine Agency Identification
   format: text/plain
   type: main
 link:
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P3152/D-4-2024-07
 date:
 - type: created
-  value: '2024'
+  value: '2024-12-17'
 - type: published
-  value: '2024-10-02'
+  value: '2024-10-01'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -40,18 +40,18 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-10-02'
+revdate: '2024-10-01'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The purpose of this standard is to define elements to improve transparency
-    in the identification of the agency behind media or communications, such as a
-    machine intelligence, a human being, or a combination of entities. The goal is
-    to facilitate transparency, understanding, and trust during online, telephone,
-    robotic, or other electronic interactions, thereby strengthening provisions for
-    public safety and security.
+- content: 'Elements to improve transparency in the identification of the agency behind
+    media or communications, such as machine intelligence, a human being, or a combination
+    of entities, are defined in this standard. The goal is to facilitate transparency,
+    understanding, and trust during online, telephone, robotic, or other electronic
+    interactions, thereby strengthening provisions for public safety and security.
+    Additional files can be found here: https://standards.ieee.org/wp-content/uploads/2025/05/3152-2024_downloads.zip'
   language:
   - en
   script:
@@ -78,23 +78,32 @@ keyword:
 - content: Avatars
 - content: Synthetic data
 - content: Identification of persons
-- content: 'Keywords: Autonomous systems'
 - content: artificial intelligence
-- content: transparency
-- content: explainability
-- content: ethics
-- content: deepfakes
-- content: communication
-- content: chatbots
+- content: autonomous systems
 - content: avatars
+- content: chatbots
+- content: communication
+- content: deepfakes
+- content: ethics
+- content: explainability
+- content: IEEE 3152™
 - content: synthetic media
-doctype: standard
-editorialgroup:
-  committee:
-  - Artificial Intelligence Standards Committee of the IEEE Computer Society
+- content: transparency
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Artificial Intelligence Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '13.180'
+    text: Ergonomics
+  - code: '33.020'
+    text: Telecommunications in general
+  - code: '35.020'
+    text: Information technology (IT) in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

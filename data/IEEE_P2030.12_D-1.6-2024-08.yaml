@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.12-D-1.6-2024-08
 title:
 - content: IEEE Draft Guide for the Design of Microgrid Protection Systems
@@ -71,6 +71,13 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
+- content: IEEE Standards
+- content: Microgrids
+- content: Power distribution networks
+- content: Power system reliability
+- content: Islanding
+- content: Power system protection
+- content: Protective relaying
 - content: microgrid
 - content: microgrid control system
 - content: microgrid protection system
@@ -83,13 +90,14 @@ keyword:
 - content: IEEE Std 2030.7TM-2017
 - content: IEEE Std 2030.8TM-2018
 - content: IEEE 2030.12TM
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

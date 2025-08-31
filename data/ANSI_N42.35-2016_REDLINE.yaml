@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.35-2016Redline
 title:
 - content: American National Standard for Evaluation and Performance of Radiation
@@ -100,15 +100,16 @@ keyword:
 - content: radiation detection instruments
 - content: radiation portal monitor
 - content: radioactive material
-doctype: redline
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

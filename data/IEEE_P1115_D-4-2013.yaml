@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1115-D-4-2013
 title:
 - content: IEEE Draft Recommended Practice for Sizing Nickel-Cadmium Batteries for
@@ -7,7 +7,7 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/6826464
+- content: https://ieeexplore.ieee.org/document/8734171
   type: src
 type: standard
 docid:
@@ -23,9 +23,9 @@ docid:
 docnumber: IEEE P1115/D-4-2013
 date:
 - type: created
-  value: '2014'
+  value: '2013-07-15'
 - type: published
-  value: '2014-06-05'
+  value: '2019-06-10'
 - type: issued
   value: '2014-08-21'
 contributor:
@@ -41,14 +41,14 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2014-06-05'
+revdate: '2019-06-10'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This recommended practice covers the sizing of nickel-cadmium batteries
-    used in standby operation for stationary applications.
+- content: The sizing of nickel-cadmium batteries used in standby operation for stationary
+    applications is discussed in this recommended practice.
   language:
   - en
   script:
@@ -68,13 +68,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1115-2000
+    id: IEEEStd1115-2000
     docid:
-    - id: IEEE 1115-2000
+    - id: IEEE Std 1115-2000
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1115-2000
+      content: IEEE Std 1115-2000
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1115-2000
+    docid:
+    - id: IEEE Std 1115-2000
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1115-2000
       format: text/plain
   description:
     content: revises
@@ -84,23 +101,20 @@ relation:
     - Latn
     format: text/plain
 keyword:
-- content: IEEE standards
+- content: IEEE Standards
+- content: Nickel cadmium batteries
 - content: Batteries
-- content: Nickel
-- content: Cadmium
-- content: Stationary applications
+- content: Measurement
+- content: IEEE 1115(TM)
 - content: nickel-cadmium batteries
 - content: stationary applications
-doctype: standard
-editorialgroup:
-  committee:
-  - Energy Storage &amp; Stationary Battery Committee of the IEEE Power and Energy
-    Society
-ics:
-- code: 29.220.30
-  text: Alkaline secondary cells and batteries
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.220.30
+    text: Alkaline secondary cells and batteries
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

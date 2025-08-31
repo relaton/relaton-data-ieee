@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1914.3-D-2.1-2023-08
 title:
 - content: IEEE Approved Draft Standard for Radio over Ethernet Encapsulations and
@@ -46,6 +46,21 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: The encapsulation and mapping of radio protocols transported over Ethernet
+    frames and Internet Protocol (IP) packets and the operation of the mappers and
+    de-mappers are defined in this standard. Structure-agnostic definitions are provided
+    for any digitized radio data. Structure-aware definitions are provided for the
+    Common Public Radio Interface (CPRI&#8482;). Native mode definitions are provided
+    for normal and compressed digitized radio in-phase and quadrature (I/Q) payload.
+    Specifications are provided for parameters, control messages, and mechanisms that
+    help operate, administrate, and maintain the mapping and demapping functions.
+    A management model and a YANG data model are defined.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,81 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1914.3-2018
+    id: IEEEStd1914.3-2018
     docid:
-    - id: IEEE 1914.3-2018
+    - id: IEEE Std 1914.3-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1914.3-2018
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1914.3-2018
-    docid:
-    - id: IEEE 1914.3-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1914.3-2018
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1914.3-2018
-    docid:
-    - id: IEEE 1914.3-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1914.3-2018
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1914.3-2018
-    docid:
-    - id: IEEE 1914.3-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1914.3-2018
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1914.3-2018
-    docid:
-    - id: IEEE 1914.3-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1914.3-2018
+      content: IEEE Std 1914.3-2018
       format: text/plain
   description:
     content: revises
@@ -156,16 +103,18 @@ keyword:
 - content: RoE mapper
 - content: structure-agnostic
 - content: structure-aware
-doctype: standard
-editorialgroup:
-  committee:
-  - Mobile Communication Networks Standards Committee of the IEEE Communications Society
-ics:
-- code: 33.070.01
-  text: Mobile services in general
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Mobile Communication Networks Standards Committee of the IEEE Communications
+      Society
+  ics:
+  - code: 33.070.01
+    text: Mobile services in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,0 +1,110 @@
+---
+schema-version: v1.2.9
+id: IEEEStd1500-2022
+title:
+- content: IEEE Standard Testability Method for Embedded Core-based Integrated Circuits
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/9916221
+  type: src
+type: standard
+docid:
+- id: IEEE Std 1500-2022
+  type: IEEE
+  primary: true
+- id: IEEE Std 1500™-2022
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-1-5044-8866-2
+  type: ISBN
+- id: 10.1109/IEEESTD.2022.9916221
+  type: DOI
+docnumber: IEEE Std 1500-2022
+date:
+- type: created
+  value: '2022-10-12'
+- type: published
+  value: '2022-10-11'
+- type: issued
+  value: '2022-06-16'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2022-10-11'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: A mechanism for the test of core designs within a system on chip (SoC)
+    is defined. This mechanism is a hardware architecture and the core test language
+    (CTL) is leveraged to facilitate communication between core designers and core
+    integrators.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: approved
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2022'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd1500-2005
+    docid:
+    - id: IEEE Std 1500-2005
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1500-2005
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Integrated circuit testing
+- content: core test
+- content: embedded core test
+- content: IEEE 1500
+- content: IP test
+- content: test reuse
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

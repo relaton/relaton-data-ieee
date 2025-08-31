@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE21451.7-2011
 title:
 - content: 'Information technology--Smart transducer interface for sensors and actuators--Part
@@ -61,6 +61,17 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: ISO/IEC/IEEE 21451-7:2011 defines data formats to facilitate communications
+    between radio frequency identification (RFID) systems and smart RFID tags with
+    integral transducers (sensors and actuators). It defines new Transducer Electronic
+    Data Sheet (TEDS) formats based on the ISO/IEC/IEEE 21451 series of standards.
+    It also defines a command structure and specifies the communication methods with
+    which the command structure is designed to be compatible.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -89,17 +100,18 @@ keyword:
 - content: sensor physical interface
 - content: sensor security
 - content: smart transducer
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 25.040.40
-  text: Industrial process measurement and control
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Reserved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.4-1988
 title:
 - content: American National Standard Methods of Measurement of Radio-Noise Emissions
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: ANSIC63.4-1991
+    id: ANSIStdC63.4-1991
     docid:
-    - id: ANSI C63.4-1991
+    - id: ANSI Std C63.4-1991
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI C63.4-1991
+      content: ANSI Std C63.4-1991
       format: text/plain
 keyword:
 - content: ANSI Standards
@@ -94,13 +94,13 @@ keyword:
 - content: Electrical equipment
 - content: Radio frequency
 - content: Uniform methods
-- content: Uniform methods
 - content: low-voltage electrical and electronic equipment
 - content: including digital and other information technology equipment
 - content: frequency range of 9 kHz to 40 GHz
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE24641-2023
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and Software engineering--Methods
@@ -27,7 +27,7 @@ date:
 - type: created
   value: '2023-05-16'
 - type: published
-  value: '2023-05-12'
+  value: '2023-05-11'
 - type: issued
   value: '2023-03-30'
 contributor:
@@ -43,7 +43,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-05-12'
+revdate: '2023-05-11'
 language:
 - en
 script:
@@ -88,12 +88,17 @@ keyword:
 - content: Software engineering
 - content: Systems engineering and theory
 - content: Modeling
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEECDP24748.2-2022-08
 title:
 - content: 'ISO/IEC/IEEE Draft International Standard - Systems and software engineering
@@ -28,7 +28,7 @@ date:
 - type: published
   value: '2022-08-31'
 - type: issued
-  value: '2022'
+  value: '2024-02-15'
 contributor:
 - organization:
     name:
@@ -103,15 +103,17 @@ keyword:
 - content: Software engineering
 - content: Systems engineering and theory
 - content: Product lifecycle management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

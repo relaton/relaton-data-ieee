@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.A-Amd1-2015
 title:
 - content: 'ISO/IEC/IEEE International Standard - Information technology--Telecommunications
@@ -56,6 +56,13 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: How Uniform Resource Name (URN) values are allocated in IEEE 802(R) standards
+    is described in this amendment to IEEE Std 802(R)-2014.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -81,15 +88,16 @@ keyword:
 - content: IEEE 802(R)
 - content: Uniform Resource Name
 - content: URN
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

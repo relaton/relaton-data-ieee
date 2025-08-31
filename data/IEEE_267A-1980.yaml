@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE267A-1980
 title:
 - content: IEEE International System of Units Conversion Factors Card
@@ -66,12 +66,13 @@ keyword:
 - content: IEEE Standards
 - content: Measurement standards
 - content: Measurement units
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.131-D-1.3-2023-11
 title:
 - content: IEEE Approved Draft Standard Performance Requirements and Test Methods
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC57.131/D-1.3-2023-11
 date:
 - type: created
-  value: '2024'
+  value: '2024-03-04'
 - type: published
   value: '2024-03-05'
 - type: issued
@@ -46,6 +46,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Electrical and mechanical performance and test requirements for on-load
+    tap-changers of both resistor and reactor types, de-energized tap-changers, and
+    their motor-drive mechanisms installed in power and distribution transformers,
+    reactors, and voltage regulators are covered.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.131-2012
+    id: IEEEStdC57.131-2012
     docid:
-    - id: IEEE C57.131-2012
+    - id: IEEE Std C57.131-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.131-2012
+      content: IEEE Std C57.131-2012
       format: text/plain
   description:
     content: revises
@@ -82,38 +92,38 @@ keyword:
 - content: Gas insulated transmission lines
 - content: Motor drives
 - content: Inductors
-- content: C57.131
-- content: 60214-1
-- content: 60214-2
 - content: bridging position
 - content: change-over selector
-- content: De-Energized Tap-Changer (DETC)
+- content: de-energized tap-changer (DETC)
 - content: diverter switch
 - content: equalizer winding
-- content: gas immersed tap-changer
+- content: gas-immersed tap-changer
+- content: IEC 60214-1
+- content: IEC 60214-2
+- content: IEEE C57.131
 - content: motor-drive
 - content: non-bridging position
-- content: On-Load Tap-Changer (OLTC)
+- content: on-load tap-changer (OLTC)
 - content: reactor
 - content: regulating transformer
 - content: resistor
 - content: tap positions
-- content: tap-changer
 - content: through-current
 - content: transfer contacts
 - content: transition contacts
 - content: vacuum
 - content: voltage regulator
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

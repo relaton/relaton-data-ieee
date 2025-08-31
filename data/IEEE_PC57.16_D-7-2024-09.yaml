@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.16-D-7-2024-09
 title:
 - content: IEEE Draft Standard for Requirements, Terminology, and Test Code for Dry-Type
@@ -25,7 +25,7 @@ date:
 - type: created
   value: '2024'
 - type: published
-  value: '2024-09-24'
+  value: '2024-09-23'
 - type: issued
   value: '2024'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-09-24'
+revdate: '2024-09-23'
 language:
 - en
 script:
@@ -73,64 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.16-2011
+    id: IEEEStdC57.16-2011
     docid:
-    - id: IEEE C57.16-2011
+    - id: IEEE Std C57.16-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.16-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.16-2011
-    docid:
-    - id: IEEE C57.16-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.16-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.16-2011
-    docid:
-    - id: IEEE C57.16-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.16-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.16-2011
-    docid:
-    - id: IEEE C57.16-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.16-2011
+      content: IEEE Std C57.16-2011
       format: text/plain
   description:
     content: revises
@@ -161,18 +110,19 @@ keyword:
 - content: shunt capacitor reactors
 - content: transient limiting inductors
 - content: AC-side converter reactors
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 01.040.29
-  text: Electrical engineering (Vocabularies)
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: 01.040.29
+    text: Electrical engineering (Vocabularies)
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

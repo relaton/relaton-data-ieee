@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1717-D-1.5-2023-08
 title:
 - content: IEEE Draft Standard for Testing Fire-Resistive, Circuit Integrity Cables
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-09-19'
 - type: issued
-  value: '2023'
+  value: '2024-05-20'
 contributor:
 - organization:
     name:
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1717-2012
+    id: IEEEStd1717-2012
     docid:
-    - id: IEEE 1717-2012
+    - id: IEEE Std 1717-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1717-2012
+      content: IEEE Std 1717-2012
       format: text/plain
   description:
     content: revises
@@ -105,7 +105,7 @@ keyword:
 - content: horizontal furnace
 - content: hydrocarbon pool fire
 - content: hydrocarbons
-- content: IEEE 1717
+- content: IEEE 1717&#8482;
 - content: motor operated valves
 - content: MOV
 - content: rapid rise
@@ -114,17 +114,18 @@ keyword:
 - content: safety systems
 - content: test protocol
 - content: wire
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 13.220.40
-  text: Ignitability and burning behaviour of materials and products
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 13.220.40
+    text: Ignitability and burning behaviour of materials and products
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

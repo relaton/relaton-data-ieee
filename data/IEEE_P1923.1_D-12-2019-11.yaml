@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1923.1-D-12-2019-11
 title:
 - content: IEEE Draft Standard for computation of energy efficiency upper bound for
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1923.1/D-12-2019-11
 date:
 - type: created
-  value: '2020'
+  value: '2020-07-14'
 - type: published
   value: '2020-07-15'
 - type: issued
@@ -82,15 +82,16 @@ keyword:
 - content: modulation
 - content: power amplifier
 - content: signal waveforms
-doctype: standard
-editorialgroup:
-  committee:
-  - Green ICT Standards Committee of the IEEE Communications Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Green ICT Standards Committee of the IEEE Communications Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1786-D-7-2010-09
 title:
 - content: IEEE Draft Human Factors Guide for Applications of Computerized Operating
@@ -79,17 +79,18 @@ keyword:
 - content: Human Factors
 - content: Computerized Procedures
 - content: Nuclear Facilities
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power &amp; Energy Society
-ics:
-- code: 27.120.20
-  text: Nuclear power plants. Safety
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

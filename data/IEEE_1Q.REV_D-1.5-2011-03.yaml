@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE1Q.REV-D-1.5-2011-03
 title:
 - content: IEEE Approved Draft Standard for Local and Metropolitan Area Networks---Media
@@ -87,17 +87,18 @@ keyword:
 - content: metropolitan area networks
 - content: Multiple Spanning Tree Protocol (MSTP)
 - content: Rapid
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

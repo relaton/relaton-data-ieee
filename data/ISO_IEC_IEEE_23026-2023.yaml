@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE23026-2023
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and Software Engineering
@@ -26,9 +26,9 @@ docid:
 docnumber: ISO/IEC/IEEE 23026-2023
 date:
 - type: created
-  value: '2023'
+  value: '2023-07-18'
 - type: published
-  value: '2023-07-19'
+  value: '2023-07-18'
 - type: issued
   value: '2023-06-05'
 contributor:
@@ -44,7 +44,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-07-19'
+revdate: '2023-07-18'
 language:
 - en
 script:
@@ -82,23 +82,6 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE
-    docid:
-    - id: ISO/IEC/ IEEE
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/ IEEE
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: IEC Standards
@@ -107,15 +90,19 @@ keyword:
 - content: Systems engineering and theory
 - content: Engineering management
 - content: Web sites
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.95
+    text: Internet applications
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

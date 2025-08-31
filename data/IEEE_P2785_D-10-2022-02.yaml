@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2785-D-10-2022-02
 title:
 - content: IEEE Draft Standard for Architectural Framework and General Requirements
@@ -77,17 +77,18 @@ keyword:
 - content: interfaces
 - content: reference model
 - content: smart home
-doctype: standard
-editorialgroup:
-  committee:
-  - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
-ics:
-- code: 35.240.67
-  text: IT applications in building and construction industry
-- code: '97.120'
-  text: Automatic controls for household use
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: 35.240.67
+    text: IT applications in building and construction industry
+  - code: '97.120'
+    text: Automatic controls for household use
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

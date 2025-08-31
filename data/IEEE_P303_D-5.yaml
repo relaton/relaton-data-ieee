@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP303-D-5
 title:
 - content: IEEE Draft Recommended Practice for Auxiliary Devices for Rotating Electrical
@@ -26,9 +26,9 @@ date:
 - type: created
   value: '2023-05-19'
 - type: published
-  value: '2023-05-23'
+  value: '2023-05-22'
 - type: issued
-  value: '2023'
+  value: '2023-11-08'
 contributor:
 - organization:
     name:
@@ -42,11 +42,27 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-05-23'
+revdate: '2023-05-22'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: 'This recommended practice applies to the application and installation
+    procedures of auxiliary devices in or on electric rotating machines that are employed
+    in hazardous locations classified as Class I, Division 2 and Zone 2 and Class
+    II, Division 2 and Zone 22 under commonly used worldwide regulations. These regulations
+    are: the National Electrical Code&#174; (NEC&#174;); the Canadian Electrical Code
+    (CE Code); and combined practices of the International Electrotechnical Commission
+    (IEC). Included is a list of source documents, definitions and nomenclature. Devices
+    include terminal housings, heaters, surge protection, power factor correction
+    capacitors, shaft bonding (shaft grounding), and enclosures. Special marking requirements
+    are also discussed.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -61,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE303-2004
+    id: IEEEStd303-2004
     docid:
-    - id: IEEE 303-2004
+    - id: IEEE Std 303-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 303-2004
+      content: IEEE Std 303-2004
       format: text/plain
   description:
     content: revises
@@ -81,23 +97,30 @@ keyword:
 - content: Electric machines
 - content: Sparks
 - content: Rotating machines
-- content: auxiliary devices
-- content: Class I Division 2
-- content: Zone 2
-- content: Class II Division 2
-- content: Zone 22
 - content: arcing/sparking component
+- content: auxiliary devices
+- content: bearing oil heaters
+- content: Class I Division 2
+- content: Class II Division 2
+- content: IEEE 303&#8482;
+- content: power factor correction capacitors
 - content: rotating electrical machine
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.260.20
-  text: Electrical apparatus for explosive atmospheres
+- content: shaft bonding
+- content: space heaters
+- content: surge protection
+- content: Zone 2
+- content: Zone 22
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.260.20
+    text: Electrical apparatus for explosive atmospheres
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

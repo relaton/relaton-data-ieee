@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1735-D-7
 title:
 - content: IEEE Approved Draft Recommended Practice for Encryption and Management
@@ -81,17 +81,18 @@ keyword:
 - content: trust model
 - content: keys
 - content: rights management
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '03.140'
-  text: Patents. Intellectual property
-- code: '31.000'
-  text: Electronics
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '03.140'
+    text: Patents. Intellectual property
+  - code: '31.000'
+    text: Electronics
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

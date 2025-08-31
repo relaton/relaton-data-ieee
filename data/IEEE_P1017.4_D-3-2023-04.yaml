@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1017.4-D-3-2023-04
 title:
 - content: IEEE Approved Draft Recommended Practice for Testing and Rating of Electrical
@@ -80,15 +80,16 @@ keyword:
 - content: induction
 - content: motor
 - content: submersible motor
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: '23.080'
-  text: Pumps
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: '23.080'
+    text: Pumps
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

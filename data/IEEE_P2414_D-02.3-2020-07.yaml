@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2414-D-02.3-2020-07
 title:
 - content: IEEE Approved Draft Standard for Jitter and Phase Noise
@@ -96,16 +96,17 @@ keyword:
 - content: timing error
 - content: timing jitter
 - content: wander.
-doctype: standard
-editorialgroup:
-  committee:
-  - TC10 - Waveform Generation Measurement and Analysis of the IEEE Instrumentation
-    and Measurement Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC10 - Waveform Generation Measurement and Analysis of the IEEE Instrumentation
+      and Measurement Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

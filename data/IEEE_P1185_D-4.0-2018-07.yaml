@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1185-D-4.0-2018-07
 title:
 - content: IEEE Draft Recommended Practice for Cable Installation in Generating Stations
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1185/D-4.0-2018-07
 date:
 - type: created
-  value: '2018'
+  value: '2018-07-27'
 - type: published
   value: '2018-07-28'
 - type: issued
@@ -68,13 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1185-2010
+    id: IEEEStd1185-2010
     docid:
-    - id: IEEE 1185-2010
+    - id: IEEE Std 1185-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1185-2010
+      content: IEEE Std 1185-2010
       format: text/plain
   description:
     content: revises
@@ -128,15 +128,13 @@ keyword:
 - content: trench
 - content: wire
 - content: wire way
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

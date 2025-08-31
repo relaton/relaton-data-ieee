@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEEE11073.10425-2019
 title:
 - content: 'ISO/IEEE International Standard - Health informatics--Personal health
@@ -28,7 +28,7 @@ date:
 - type: updated
   value: '2020-06-12'
 - type: created
-  value: '2019'
+  value: '2019-03-29'
 - type: published
   value: '2019-03-27'
 - type: issued
@@ -69,6 +69,23 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, a normative definition of the communication between continuous
+    glucose monitor (CGM) devices and managers (e.g., cell phones, personal computers,
+    personal health appliances, set top boxes), in a manner that enables plug-and-play
+    interoperability, is established in this standard. It leverages appropriate portions
+    of existing standards including ISO/IEEE 11073 terminology and information models.
+    It specifies the use of specific term codes, formats, and behaviors in telehealth
+    environments, restricting optionality in base frameworks in favor of interoperability.
+    This standard defines a common core of communication functionality of CGM devices.
+    In this context, CGM refers to the measurement of the level of glucose in the
+    body on a regular (typically 5 minute) basis through a sensor continuously attached
+    to the person.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -85,13 +102,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE11073.10425-2017
+    id: IEEEStd11073.10425-2017
     docid:
-    - id: IEEE 11073.10425-2017
+    - id: IEEE Std 11073.10425-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10425-2017
+      content: IEEE Std 11073.10425-2017
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -104,14 +121,15 @@ keyword:
 - content: IEEE 11073-10425
 - content: medical device communication
 - content: personal health devices
-doctype: standard
-ics:
-- code: 11.040.55
-  text: Diagnostic equipment
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 11.040.55
+    text: Diagnostic equipment
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

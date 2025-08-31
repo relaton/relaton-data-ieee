@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3002.7-D-13-2018-09
 title:
 - content: IEEE Approved Draft Recommended Practice for Conducting Motor-Starting
@@ -93,12 +93,13 @@ keyword:
 - content: static motor starting
 - content: variable frequency drive
 - content: voltage flicker
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee of the IEEE Industry Applications Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

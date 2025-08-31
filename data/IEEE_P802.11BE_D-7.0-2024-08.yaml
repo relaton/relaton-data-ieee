@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11be-D-7.0-2024-08
 title:
-- content: 'IEEE Draft Standard for Information technology--Telecommunications and
-    information exchange between systems Local and metropolitan area networks--Specific
+- content: 'IEEE Approved Draft Standard for Information technology--Telecommunications
+    and information exchange between systems Local and metropolitan area networks--Specific
     requirements - Part 11: Wireless LAN Medium Access Control (MAC) and Physical
     Layer (PHY) Specifications Amendment: Enhancements for Extremely High Throughput
     (EHT)'
@@ -26,11 +26,11 @@ docid:
 docnumber: IEEE P802.11be/D-7.0-2024-08
 date:
 - type: created
-  value: '2024-08-01'
+  value: '2024-10-03'
 - type: published
   value: '2024-08-02'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -49,6 +49,20 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: This amendment defines standardized modifications to both the IEEE Std
+    802.11 physical layers (PHY) and the Medium Access Control Layer (MAC) that enable
+    at least one mode of operation capable of supporting a maximum throughput of at
+    least 30 Gbit/s, as measured at the MAC data service access point (SAP), with
+    carrier frequency operation between 1 and 7.250 GHz while ensuring backward compatibility
+    and coexistence with legacy IEEE Std 802.11 compliant devices operating in the
+    2.4 GHz, 5 GHz, and 6 GHz bands. This amendment defines at least one mode of operation
+    capable of improved worst case latency and jitter.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,28 +74,21 @@ copyright:
       content: IEEE
     url: http://www.ieee.org
   from: '2024'
-relation:
-- type: updates
-  bibitem:
-    id: IEEE802.11-2020
-    docid:
-    - id: IEEE 802.11-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.11-2020
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Throughput
+- content: Jitter
+- content: Media Access Protocol
+- content: Physical layer
+- content: Local area networks
+- content: Information exchange
+- content: Wireless LAN
 - content: EHT
 - content: extremely high throughput
 - content: jitter
+- content: IEEE 802.11(TM)
+- content: IEEE 802.11be(TM)
+- content: IEEE 802.11bh(TM)
 - content: latency
 - content: MAC
 - content: medium access control
@@ -89,16 +96,17 @@ keyword:
 - content: physical layer
 - content: wireless local area network
 - content: WLAN
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

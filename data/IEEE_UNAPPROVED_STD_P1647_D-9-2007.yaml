@@ -1,0 +1,103 @@
+---
+schema-version: v1.2.9
+id: IEEEUnapprovedStdP1647-D-9-2007
+title:
+- content: IEEE Draft Standard for the Functional Verification Language 'E' (Revision
+    of IEEE 1647-2006)
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/4459200
+  type: src
+type: standard
+docid:
+- id: IEEE Unapproved Std P1647/D-9-2007
+  type: IEEE
+  primary: true
+- id: IEEE Unapproved Std P1647™/D-9-2007
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-1-5044-3070-8
+  type: ISBN
+docnumber: IEEE Unapproved Std P1647/D-9-2007
+date:
+- type: created
+  value: '2008'
+- type: published
+  value: '2008-02-25'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2008-02-25'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: The e functional verification language is an application-specific programming
+    language, aimed at automating the task of verifying a hardware or software design
+    with respect to its specification. Verification environments written in e provide
+    a model of the environment in which the design is expected to function, including
+    the kinds of erroneous conditions the design needs to withstand. A typical verification
+    environment is capable of generating user-controlled test inputs with statistically
+    interesting characteristics. Such an environment can check the validity of the
+    design responses. Functional coverage metrics are used to control the verification
+    effort and gauge the quality of the design. e verification environments can be
+    used throughout the design cycle, from a high-level architectural model to a fully
+    realized system. This standard contains a definition of the e language syntax
+    and semantics, and how tool developers and verification engineers should use them.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2008'
+keyword:
+- content: Standards
+- content: IEEE Standards
+- content: Patents
+- content: Licenses
+- content: Trademarks
+- content: Object oriented modeling
+- content: Uniform resource locators
+- content: assertion
+- content: concurrent programming
+- content: constraint
+- content: dynamic verification
+- content: functional coverage
+- content: functional verification
+- content: simulation
+- content: temporal logic
+- content: test generation
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

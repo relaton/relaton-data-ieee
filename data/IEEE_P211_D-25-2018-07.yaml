@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP211-D-25-2018-07
 title:
 - content: IEEE Draft Standard Definitions of Terms for Radio Wave Propagation
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P211/D-25-2018-07
 date:
 - type: created
-  value: '2018'
+  value: '2018-07-23'
 - type: published
   value: '2018-07-24'
 - type: issued
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE211-1997
+    id: IEEEStd211-1997
     docid:
-    - id: IEEE 211-1997
+    - id: IEEE Std 211-1997
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 211-1997
+      content: IEEE Std 211-1997
       format: text/plain
   description:
     content: revises
@@ -91,18 +91,15 @@ keyword:
 - content: electromagnetic wave propagation
 - content: IEEE 211
 - content: terminology
-doctype: standard
-editorialgroup:
-  committee:
-  - Antennas and Propagation Standards Committee of the IEEE Antennas and Propagation
-    Society
-ics:
-- code: 01.040.33
-  text: Telecommunications. Audio and video engineering (Vocabularies)
-- code: 33.120.40
-  text: Aerials
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.33
+    text: Telecommunications. Audio and video engineering (Vocabularies)
+  - code: 33.120.40
+    text: Aerials
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

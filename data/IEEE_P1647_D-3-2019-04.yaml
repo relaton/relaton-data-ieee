@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1647-D-3-2019-04
 title:
 - content: IEEE Approved Standard for the Functional Verification Language e
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1647/D-3-2019-04
 date:
 - type: created
-  value: '2019'
+  value: '2019-06-13'
 - type: published
   value: '2019-06-18'
 - type: issued
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1647-2016
+    id: IEEEStd1647-2016
     docid:
-    - id: IEEE 1647-2016
+    - id: IEEE Std 1647-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1647-2016
+      content: IEEE Std 1647-2016
       format: text/plain
   description:
     content: revises
@@ -106,15 +106,13 @@ keyword:
 - content: simulation
 - content: temporal logic
 - content: test generation
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

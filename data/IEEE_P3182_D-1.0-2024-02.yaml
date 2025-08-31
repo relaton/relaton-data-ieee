@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3182-D-1.0-2024-02
 title:
 - content: IEEE Draft Standard for a Unified Terminology and Framework for Percutaneous
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P3182/D-1.0-2024-02
 date:
 - type: created
-  value: '2024'
+  value: '2024-04-17'
 - type: published
-  value: '2024-04-19'
+  value: '2024-04-18'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -41,19 +41,19 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-04-19'
+revdate: '2024-04-18'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This standard establishes terminologies and a framework for Percutaneous
-    and Nonfluoroscopic Technology (PAN technology) which is conducted by ultrasound
-    in a percutaneous cardiovascular interventional therapy. This standard can promote
-    the communication and cooperation with various stakeholders under a unified terminology
-    and framework; as well as overcome differences to make technology more reliable,
-    efficient and safer. The standardization of PAN technology will help scale up
-    solution, satisfy people’s needs and promote healthcare services sustainable developments.
+- content: Terminologies and a framework for percutaneous and non-fluoroscopic (PAN)
+    technology, which is conducted by ultrasound in a percutaneous cardiovascular
+    interventional therapy, are established in this standard. Communication and cooperation
+    with various stakeholders under a unified terminology and framework to overcome
+    differences and to make technology more reliable, efficient, and safer, is promoted
+    by this standard. The standardization of PAN technology will help scale up solution,
+    satisfy people’s needs and promote healthcare services sustainable.
   language:
   - en
   script:
@@ -71,20 +71,29 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
-- content: Germanium
-- content: PAN technology
-- content: ultrasound
-- content: interventional
-- content: terminology
+- content: IEEE Standards
+- content: Cardiovascular diseases
+- content: Terminology
+- content: Ultrasonic imaging
 - content: framework
-- content: IEEE3182TM
-doctype: standard
-editorialgroup:
-  committee:
-  - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+- content: IEEE 3182&#8482;
+- content: interventional
+- content: PAN technology
+- content: terminology
+- content: ultrasound
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+  ics:
+  - code: 11.040.60
+    text: Therapy equipment
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

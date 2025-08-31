@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2010-D-13-2012-03
 title:
 - content: IEEE Draft Recommended Practice for Neurofeedback Systems
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2010/D-13-2012-03
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-03'
 - type: published
   value: '2012-04-05'
 - type: issued
@@ -85,15 +85,16 @@ keyword:
 - content: biofeedback software
 - content: biofeedback assessment
 - content: biofeedback training
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Engineering in Medicine and Biology Society
-ics:
-- code: 11.040.55
-  text: Diagnostic equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+  ics:
+  - code: 11.040.55
+    text: Diagnostic equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

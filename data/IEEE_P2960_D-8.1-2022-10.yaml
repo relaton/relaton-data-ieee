@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2960-D-8.1-2022-10
 title:
 - content: IEEE Apprvoved Draft Guide for Testing Equipment for Direct Current Electrical
@@ -25,7 +25,7 @@ date:
 - type: created
   value: '2023-02-21'
 - type: published
-  value: '2023-05-30'
+  value: '2024-12-10'
 - type: issued
   value: '2023-02-15'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-05-30'
+revdate: '2024-12-10'
 language:
 - en
 script:
@@ -72,23 +72,26 @@ copyright:
   from: '2022'
 keyword:
 - content: IEEE Standards
-- content: Electronic testing equipment
 - content: Meters
+- content: Testing
+- content: Equipment
+- content: Electronic equipment
 - content: acceptance test
 - content: direct current electrical energy meters
 - content: IEEE 2960
 - content: meter test units
 - content: type test
 - content: verification test
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Instrumentation and Measurements of the IEEE Power and Energy Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Instrumentation and Measurements of the IEEE Power and Energy Society
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

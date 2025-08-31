@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1857.12-D-3-2022-08
 title:
 - content: IEEE Approved Draft Standard for Smart Media Transport
@@ -74,19 +74,24 @@ keyword:
 - content: IEEE Standards
 - content: Data models
 - content: Modeling
-- content: Smart Media
+- content: Media
+- content: Smart systems
 - content: adaptive FEC
 - content: common encapsulation
 - content: data modeling
 - content: IEEE 1857.12
 - content: media presentation
 - content: smart media transport
-doctype: standard
-editorialgroup:
-  committee:
-  - Data Compression Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Data Compression Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

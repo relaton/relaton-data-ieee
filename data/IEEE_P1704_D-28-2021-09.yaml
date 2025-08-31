@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1704-D-28-2021-09
 title:
 - content: IEEE Approved Draft Standard for Utility Industry End Device Communications
@@ -78,7 +78,6 @@ keyword:
 - content: Automatic meter reading
 - content: Mobile communication
 - content: Smart grids
-- content: Smart grids
 - content: Interoperability
 - content: advance metering infrastructure
 - content: AMI
@@ -100,12 +99,13 @@ keyword:
 - content: smart grid
 - content: swappable module
 - content: WAN
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

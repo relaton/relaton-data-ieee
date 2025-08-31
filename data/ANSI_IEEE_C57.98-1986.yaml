@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEC57.98-1986
 title:
 - content: IEEE Guide for Transformer Impulse Tests
@@ -68,13 +68,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEEC57.98-1993
+    id: IEEEStdC57.98-1993
     docid:
-    - id: IEEE C57.98-1993
+    - id: IEEE Std C57.98-1993
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.98-1993
+      content: IEEE Std C57.98-1993
       format: text/plain
 keyword:
 - content: Dielectric breakdown
@@ -83,15 +83,13 @@ keyword:
 - content: Standards
 - content: Transformers
 - content: Insulation
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

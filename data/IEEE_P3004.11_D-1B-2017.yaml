@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3004.11-D-1b-2017
 title:
 - content: IEEE Draft Recommended Practice for Bus and Switchgear Protection in Industrial
@@ -82,12 +82,14 @@ keyword:
 - content: IEEE 3004.11&#8482;
 - content: percentage differential relay
 - content: tie circuit breaker
-doctype: standard
-editorialgroup:
-  committee:
-  - Industrial &amp; Commercial Power Systems of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Industrial &amp; Commercial Power Systems of the IEEE Industry Applications
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

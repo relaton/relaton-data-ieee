@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1871.2-D-22-2017-04
 title:
 - content: IEEE Draft Recommended Practice for IEEE 1671 Test Equipment Templates
@@ -86,12 +86,13 @@ keyword:
 - content: pin(s)
 - content: switch(es)
 - content: intrinsic path characteristics.
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

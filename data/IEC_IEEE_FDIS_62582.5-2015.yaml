@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEFDIS62582.5-2015
 title:
 - content: 'IEEE/IEC Approved Draft Nuclear power Plants - Instrumentation and control
@@ -24,7 +24,7 @@ docid:
 docnumber: IEC/IEEE FDIS 62582.5-2015
 date:
 - type: created
-  value: '2015'
+  value: '2015-06-19'
 - type: published
   value: '2015-06-12'
 - type: issued
@@ -89,17 +89,18 @@ keyword:
 - content: Nuclear power generation
 - content: Electrical safety
 - content: Electrical equipment
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 27.120.20
-  text: Nuclear power plants. Safety
-- code: 33.180.99
-  text: Other fibre optic equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  - code: 33.180.99
+    text: Other fibre optic equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

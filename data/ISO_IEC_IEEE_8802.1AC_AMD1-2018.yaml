@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.1AC-Amd1-2018
 title:
 - content: 'ISO/IEC/IEEE International Standard - Information technology -- Telecommunications
@@ -27,7 +27,7 @@ docid:
 docnumber: ISO/IEC/IEEE 8802.1AC/Amd1-2018
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-26'
 - type: published
   value: '2023-04-27'
 - type: issued
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.1ACct-2021
+    id: IEEEStd802.1ACct-2021
     docid:
-    - id: IEEE 802.1ACct-2021
+    - id: IEEE Std 802.1ACct-2021
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1ACct-2021
+      content: IEEE Std 802.1ACct-2021
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -91,26 +91,27 @@ keyword:
 - content: Ad hoc networks
 - content: Multimedia communication
 - content: Wireless networks
-- content: IEEE 802.15 standards
 - content: Information exchange
-- content: Media Access Protocol
 - content: Local area networks
 - content: Metropolitan area networks
+- content: IEEE 802.15 Standard
+- content: Media Access Control
 - content: ad-hoc network
 - content: IEEE 802.1AC
 - content: IEEE 802.15.3
 - content: Internal Sublayer Service
 - content: multi-media
 - content: wireless
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

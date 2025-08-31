@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1896-D-2.1-2014
 title:
 - content: IEEE Draft Standard for Identification of Contact Wire Used in Overhead
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1896/D-2.1-2014
 date:
 - type: created
-  value: '2014'
+  value: '2014-07-23'
 - type: published
   value: '2014-10-30'
 - type: issued
@@ -85,15 +85,16 @@ keyword:
 - content: OCS design
 - content: contact wire
 - content: trolley wire.
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
-ics:
-- code: '45.100'
-  text: Cableway equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
+  ics:
+  - code: '45.100'
+    text: Cableway equipment
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

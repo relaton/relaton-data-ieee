@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: USASC57.12.00-1968
 title:
 - content: USA Standard General Requirements for Distribution, Power and Regulating
@@ -25,7 +25,7 @@ docid:
 docnumber: USAS C57.12.00-1968
 date:
 - type: created
-  value: '1968'
+  value: '1968-03-22'
 - type: published
   value: '2017-05-02'
 - type: issued
@@ -79,12 +79,13 @@ keyword:
 - content: Power transformers
 - content: Current limiters
 - content: Reactors
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

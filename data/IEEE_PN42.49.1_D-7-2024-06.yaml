@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPN42.49.1-D-7-2024-06
 title:
-- content: IEEE Draft Standard for Performance Criteria for Non-alarming Personal
-    Emergency Radiation Detectors (PERDs) for Exposure Control
+- content: IEEE Approved Draft Standard for Performance Criteria for Non-alarming
+    Personal Emergency Radiation Detectors (PERDs) for Exposure Control
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE PN42.49.1/D-7-2024-06
 date:
 - type: created
-  value: '2024-08-02'
+  value: '2024-11-21'
 - type: published
-  value: '2024-08-06'
+  value: '2024-08-05'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-08-06'
+revdate: '2024-08-05'
 language:
 - en
 script:
@@ -49,7 +49,7 @@ script:
 abstract:
 - content: The purpose of this standard is to specify technical performance requirements
     and performance testing requirements for those purchasing and using non-alarming
-    Personal Emergency Radiation Detectors “PERDs” for Homeland Security and other
+    personal emergency radiation detectors (PERDs) for Homeland Security and other
     radiological emergency applications.
   language:
   - en
@@ -71,24 +71,28 @@ keyword:
 - content: IEEE Standards
 - content: Radiation detectors
 - content: Performance evaluation
-- content: non-alarming detectors
-- content: IEEE PN42.49B
 - content: design criteria
 - content: exposure
 - content: exposure rate
+- content: IEEE N42.49.1
+- content: non-alarming detectors
 - content: performance specifications
 - content: personal radiation detectors
 - content: photon radiation
 - content: pocket-sized
 - content: radiation detection
-doctype: standard
-editorialgroup:
-  committee:
-  - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
-    and Measurement Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
+      and Measurement Society
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

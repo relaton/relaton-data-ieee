@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP521-D-1-2019-03
 title:
 - content: IEEE Draft Standard Letter Designations for Radar-Frequency Bands
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P521/D-1-2019-03
 date:
 - type: created
-  value: '2019'
+  value: '2019-07-23'
 - type: published
   value: '2019-07-25'
 - type: issued
@@ -67,13 +67,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE521-2002
+    id: IEEEStd521-2002
     docid:
-    - id: IEEE 521-2002
+    - id: IEEE Std 521-2002
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 521-2002
+      content: IEEE Std 521-2002
       format: text/plain
   description:
     content: revises
@@ -89,15 +89,13 @@ keyword:
 - content: frequency
 - content: IEEE 521 letter band
 - content: radar
-doctype: standard
-editorialgroup:
-  committee:
-  - Radar Systems Panel of the IEEE Aerospace and Electronic Systems Society
-ics:
-- code: 33.060.99
-  text: Other equipment for radiocommunications
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 33.060.99
+    text: Other equipment for radiocommunications
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

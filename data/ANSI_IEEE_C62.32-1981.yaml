@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEC62.32-1981
 title:
 - content: IEEE Standard Test Specifications for Low-Voltage Air Gap Surge-Protective
@@ -58,6 +58,17 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Air gaps for overvoltage protection applications on systems with operating
+    voltages equal to or less than 600 V rms are covered. These protective devices
+    are designed for limiting the voltages on balanced or unbalanced communication,
+    power, and signaling circuits. A series of standard design tests for determining
+    the electrical characteristics of these air gap devices is specified. The tests
+    provide a means of comparison among various air gap surge-protective devices.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -66,6 +77,17 @@ copyright:
       content: IEEE
     url: http://www.ieee.org
   from: '1981'
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: IEEEStdC62.32-2004
+    docid:
+    - id: IEEE Std C62.32-2004
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std C62.32-2004
+      format: text/plain
 keyword:
 - content: IEEE Standards
 - content: Low power electronics
@@ -79,14 +101,10 @@ keyword:
 - content: air
 - content: gap
 - content: spd
-- content: Testing
-- content: Arresters
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

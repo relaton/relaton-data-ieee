@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE2030.101-2018
 title:
 - content: IEEE Guide for Designing a Time Synchronization System for Power Substations
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE 2030.101-2018
 date:
 - type: created
-  value: '2018'
+  value: '2018-07-26'
 - type: published
   value: '2018-07-26'
 - type: issued
@@ -76,12 +76,13 @@ keyword:
 - content: Substations
 - content: IEEE 2030.101(TM)
 - content: time synchronization
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power and Energy Society
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

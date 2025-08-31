@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.122.3-D-9-2011-09
 title:
 - content: IEEE Draft Guide for Sulphur Hexafluoride (SF6) Gas Handling for High Voltage
@@ -90,15 +90,16 @@ keyword:
 - content: SF6 recovery
 - content: SF6 reclaiming
 - content: SF6 safety
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.040.20
-  text: Insulating gases
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.040.20
+    text: Insulating gases
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

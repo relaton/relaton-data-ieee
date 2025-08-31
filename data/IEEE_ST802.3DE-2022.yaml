@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEESt802.3de-2022
 title:
 - content: 'IEEE Standard for Ethernet - Amendment 5: Enhancements to the MAC Merge
@@ -74,30 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2022
+    id: IEEEStd802.3-2022
     docid:
-    - id: IEEE 802.3-2022
+    - id: IEEE Std 802.3-2022
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2022
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.3-2022
-    docid:
-    - id: IEEE 802.3-2022
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3-2022
+      content: IEEE Std 802.3-2022
       format: text/plain
   description:
     content: amends
@@ -117,24 +100,24 @@ keyword:
 - content: 10BASE-T1L
 - content: 10BASE-T1S
 - content: copper
-- content: Ethernet
 - content: express traffic
 - content: IEEE 802.3
 - content: IEEE 802.3cg
 - content: IEEE 802.3de
 - content: preemption
 - content: TSSI
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

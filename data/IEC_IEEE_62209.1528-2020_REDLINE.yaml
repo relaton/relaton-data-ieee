@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE62209.1528-2020Redline
 title:
 - content: 'IEC/IEEE International Standard - Measurement procedure for the assessment
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1528-2013
+    id: IEEEStd1528-2013
     docid:
-    - id: IEEE 1528-2013
+    - id: IEEE Std 1528-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1528-2013
+      content: IEEE Std 1528-2013
       format: text/plain
   description:
     content: revises
@@ -97,17 +97,18 @@ keyword:
 - content: Frequency measurement
 - content: Wireless communication
 - content: Specific absorption rate
-doctype: redline
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
-- code: 33.070.01
-  text: Mobile services in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 33.070.01
+    text: Mobile services in general
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

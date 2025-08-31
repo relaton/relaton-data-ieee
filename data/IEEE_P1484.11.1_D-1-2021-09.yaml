@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1484.11.1-D-1-2021-09
 title:
 - content: IEEE Draft Standard for Learning Technology--Data Model for Content Object
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1484.11.1-2004
+    id: IEEEStd1484.11.1-2004
     docid:
-    - id: IEEE 1484.11.1-2004
+    - id: IEEE Std 1484.11.1-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1484.11.1-2004
+      content: IEEE Std 1484.11.1-2004
       format: text/plain
   description:
     content: revises
@@ -107,15 +107,16 @@ keyword:
 - content: LMS
 - content: runtime service
 - content: RTS
-doctype: standard
-editorialgroup:
-  committee:
-  - Learning Technology of the IEEE Computer Society
-ics:
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Learning Technology of the IEEE Computer Society
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

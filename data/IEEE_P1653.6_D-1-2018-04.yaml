@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1653.6-D-1-2018-04
 title:
 - content: IEEE Approved Draft Recommended Practice for Grounding of DC Equipment
@@ -123,15 +123,16 @@ keyword:
 - content: traction power
 - content: transfer trip
 - content: wall insulation
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
-ics:
-- code: '29.280'
-  text: Electric traction equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
+  ics:
+  - code: '29.280'
+    text: Electric traction equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

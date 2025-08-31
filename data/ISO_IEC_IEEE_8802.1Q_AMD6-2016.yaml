@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.1Q-Amd6-2016
 title:
 - content: 'IEEE/ISO/IEC International Standard - Information technology - Telecommunications
@@ -29,7 +29,7 @@ date:
 - type: updated
   value: '2020-05-22'
 - type: created
-  value: '2019'
+  value: '2019-03-08'
 - type: published
   value: '2019-03-11'
 - type: issued
@@ -55,6 +55,13 @@ script:
 abstract:
 - content: Enhancements to the forwarding process that support per-stream filtering
     and policing are provided in this amendment to IEEE Std 802.1Q-2014.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: Enhancements to the forwarding process that support per-stream filtering
+    and policing are provided in this amendment to IEEE Std 802.1Q-2014
   language:
   - en
   script:
@@ -102,15 +109,16 @@ keyword:
 - content: scheduled traffic
 - content: Time-Sensitive Networking
 - content: Virtual Bridged Local Area Networks (virtual LANs)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

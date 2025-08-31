@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2841-D-2.1-2022-06
 title:
 - content: IEEE Approved Draft Framework and Process for Deep Learning Evaluation
@@ -77,12 +77,18 @@ keyword:
 - content: deep learning evaluation
 - content: IEEE 2841
 - content: quality of deep learning algorithm
-doctype: standard
-editorialgroup:
-  committee:
-  - Artificial Intelligence Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Artificial Intelligence Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.01
+    text: Application of information technology in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

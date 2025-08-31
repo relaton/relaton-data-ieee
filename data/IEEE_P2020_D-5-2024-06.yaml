@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2020-D-5-2024-06
 title:
 - content: IEEE Draft Standard for Automotive System Image Quality
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P2020/D-5-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-18'
 - type: published
   value: '2024-06-19'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -45,6 +45,20 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Some of the fundamental attributes that contribute to image quality for
+    automotive applications are addressed in this standard. Existing metrics and other
+    information relating to these attributes are also identified, as well as a standardized
+    suite of objective test methods for measuring automotive camera image quality.
+    In addition, baseline test methods and relevant information about tools available
+    to facilitate standards-based communication, as well as a comparison of performance
+    among vehicle manufacturers, system integrators, and component vendors regarding
+    automotive image quality, are outlined.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -57,22 +71,38 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
-- content: IEEE P2020
-- content: Image Quality Factors
-- content: Spatial Frequency Response
-- content: Resolution
+- content: IEEE Standards
+- content: Intelligent transportation systems
+- content: Q-factor
+- content: Quality assessment
+- content: Image quality
+- content: Noise measurement
 - content: Geometry
-- content: Flicker
-- content: Noise
-- content: Dynamic Range
-- content: Flare
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+- content: Automotive engineering
+- content: automotive
+- content: camera
+- content: contrast performance indicator
+- content: dynamic range
+- content: flare
+- content: flicker
+- content: geometry
+- content: IEEE 2020™
+- content: image quality factors
+- content: noise
+- content: spatial frequency response
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: '35.140'
+    text: Computer graphics
+  - code: '35.180'
+    text: IT terminal and other peripheral equipment
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

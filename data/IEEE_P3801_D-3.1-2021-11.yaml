@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3801-D-3.1-2021-11
 title:
 - content: IEEE Draft Standard for Blockchain-based Electronic Contracts
@@ -79,13 +79,14 @@ keyword:
 - content: Electronic contracts
 - content: Blockchain
 - content: Electronic contracts lifecycle management
-doctype: standard
-editorialgroup:
-  committee:
-  - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
+      Society
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

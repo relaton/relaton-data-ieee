@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.122.7-D-9-2021-03
 title:
-- content: IEEE Draft Standard for High Voltage Gas-Insulated Substations Rated Above
-    52 kV
+- content: IEEE Approved Draft Standard for High Voltage Gas-Insulated Substations
+    Rated Above 52 kV
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE PC37.122.7/D-9-2021-03
 date:
 - type: created
-  value: '2021'
+  value: '2021-06-21'
 - type: published
   value: '2021-03-11'
 - type: issued
-  value: '2021'
+  value: '2021-06-16'
 contributor:
 - organization:
     name:
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.122-2010
+    id: IEEEStdC37.122-2010
     docid:
-    - id: IEEE C37.122-2010
+    - id: IEEE Std C37.122-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.122-2010
+      content: IEEE Std C37.122-2010
       format: text/plain
   description:
     content: revises
@@ -93,7 +93,6 @@ keyword:
 - content: Switchgear
 - content: Metal enclosures
 - content: Sulfur hexafluoride
-- content: IEEE C37.122
 - content: gas-insulated metal enclosed switchgear
 - content: gas-insulated substation
 - content: gas-insulated switchgear
@@ -102,18 +101,20 @@ keyword:
 - content: GIS equipment
 - content: GIS installation
 - content: GIS testing
+- content: IEEE C37.122(TM)
 - content: SF6
 - content: sulfur hexafluoride
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: '27.100'
-  text: Power stations in general
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power and Energy Society
+  ics:
+  - code: '27.100'
+    text: Power stations in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

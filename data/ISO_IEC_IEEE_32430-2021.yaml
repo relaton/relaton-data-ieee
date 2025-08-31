@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE32430-2021
 title:
 - content: IEEE/ISO/IEC International Standard--Software engineering--Trial use standard
@@ -69,9 +69,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -87,53 +84,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE2430-2019
+    id: IEEEStd2430-2019
     docid:
-    - id: IEEE 2430-2019
+    - id: IEEE Std 2430-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 2430-2019
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE2430-2019
-    docid:
-    - id: IEEE 2430-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2430-2019
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE2430-2019
-    docid:
-    - id: IEEE 2430-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2430-2019
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE2430-2019
-    docid:
-    - id: IEEE 2430-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2430-2019
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE2430-2019
-    docid:
-    - id: IEEE 2430-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 2430-2019
+      content: IEEE Std 2430-2019
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -147,16 +104,17 @@ keyword:
 - content: non-functional size measurements
 - content: non-functional requirements
 - content: SNAP
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
-  standard_modified: Approved
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

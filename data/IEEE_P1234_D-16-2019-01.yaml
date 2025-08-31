@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1234-D-16-2019-01
 title:
 - content: IEEE Draft Guide for Fault Locating Techniques on Shielded Power Cable
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1234-2007
+    id: IEEEStd1234-2007
     docid:
-    - id: IEEE 1234-2007
+    - id: IEEE Std 1234-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1234-2007
+      content: IEEE Std 1234-2007
       format: text/plain
   description:
     content: revises
@@ -103,12 +103,10 @@ keyword:
 - content: thumping
 - content: time domain reflectometry
 - content: "(TDR)"
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

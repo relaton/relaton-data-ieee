@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.19-2019Redline
 title:
 - content: American National Standard Methods of Measurement of Compatibility between
@@ -71,6 +71,24 @@ copyright:
       content: ANSI
     url: https://www.ansi.org
   from: '2019'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEC63.19-
+    docid:
+    - id: IEEE C63.19-
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE C63.19-
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: ANSI Standards
@@ -87,17 +105,18 @@ keyword:
 - content: measurement methods
 - content: operational compatibility
 - content: wireless communications device
-doctype: redline
-editorialgroup:
-  committee:
-  - Accredited Standards Committee on Electromagnetic Compatibility
-ics:
-- code: 11.180.15
-  text: Aids for deaf and hearing impaired people
-- code: 33.070.01
-  text: Mobile services in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - Accredited Standards Committee on Electromagnetic Compatibility
+  ics:
+  - code: 11.180.15
+    text: Aids for deaf and hearing impaired people
+  - code: 33.070.01
+    text: Mobile services in general
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

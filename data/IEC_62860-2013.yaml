@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62860-2013
 title:
 - content: IEC/IEEE Test methods for the characterization of organic transistors and
@@ -25,7 +25,7 @@ docid:
 docnumber: IEC 62860-2013
 date:
 - type: created
-  value: '2013'
+  value: '2013-07-30'
 - type: published
   value: '2013-10-02'
 - type: issued
@@ -93,14 +93,15 @@ keyword:
     for printed and organic transistors. This standard also givesrecommended practices
     in order to minimize and/or characterize the effect of measurementartifacts and
     other sources of error encountered while measuring printed and organic transistors.
-doctype: standard
-ics:
-- code: '07.030'
-  text: Physics. Chemistry
-- code: 31.080.30
-  text: Transistors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '07.030'
+    text: Physics. Chemistry
+  - code: 31.080.30
+    text: Transistors
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

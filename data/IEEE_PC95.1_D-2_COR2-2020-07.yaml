@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC95.1-D-2-Cor2-2020-07
 title:
 - content: IEEE Approved Draft Standard for Safety Levels with Respect to Human Exposure
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC95.1-2019
+    id: IEEEStdC95.1-2019
     docid:
-    - id: IEEE C95.1-2019
+    - id: IEEE Std C95.1-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C95.1-2019
+      content: IEEE Std C95.1-2019
       format: text/plain
   description:
     content: corrects
@@ -98,15 +98,13 @@ keyword:
 - content: magnetic flux density
 - content: restricted environment
 - content: unrestricted environment
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '13.280'
-  text: Radiation protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '13.280'
+    text: Radiation protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

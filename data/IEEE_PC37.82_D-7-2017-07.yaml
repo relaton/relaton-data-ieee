@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.82-D-7-2017-07
 title:
 - content: IEEE Draft Standard for the Qualification of Switchgear Assemblies for
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.82/D-7-2017-07
 date:
 - type: created
-  value: '2017'
+  value: '2017-07-14'
 - type: published
   value: '2017-07-15'
 - type: issued
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSI-IEEEC37.82-1987
+    id: ANSI-IEEEStdC37.82-1987
     docid:
-    - id: ANSI/IEEE C37.82-1987
+    - id: ANSI/IEEE Std C37.82-1987
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE C37.82-1987
+      content: ANSI/IEEE Std C37.82-1987
       format: text/plain
   description:
     content: revises
@@ -100,15 +100,13 @@ keyword:
 - content: DBE
 - content: IEEE C37.82&#8482;
 - content: qualified life
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.01
-  text: Switchgear and controlgear in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.130.01
+    text: Switchgear and controlgear in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

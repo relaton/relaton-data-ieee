@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.1CM-Amd1-2019
 title:
 - content: 'IEEE/ISO/IEC International Standard-Telecommunications and information
@@ -78,33 +78,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.1CMde-2020
+    id: IEEEStd802.1CMde-2020
     docid:
-    - id: IEEE 802.1CMde-2020
+    - id: IEEE Std 802.1CMde-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1CMde-2020
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CMde-2020
-    docid:
-    - id: IEEE 802.1CMde-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CMde-2020
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CMde-2020
-    docid:
-    - id: IEEE 802.1CMde-2020
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CMde-2020
+      content: IEEE Std 802.1CMde-2020
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -133,15 +113,16 @@ keyword:
 - content: Virtual Local Area Network
 - content: VLAN
 - content: VLAN Bridge
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

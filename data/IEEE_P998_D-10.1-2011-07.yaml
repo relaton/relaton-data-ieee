@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP998-D-10.1-2011-07
 title:
 - content: IEEE Guide for Direct Lightning Stroke Shielding of Substations
@@ -76,15 +76,16 @@ keyword:
 - content: direct stroke shielding
 - content: lightning stroke protection
 - content: substations
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power &amp; Energy Society
-ics:
-- code: 91.120.40
-  text: Lightning protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 91.120.40
+    text: Lightning protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

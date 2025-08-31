@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE11-1943
 title:
 - content: AIEE American Standard for Rotating Electrical Machinery on Railway Locomotives
@@ -81,9 +81,10 @@ keyword:
 - content: Velocity control
 - content: Rotation measurement
 - content: Rail transportation
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

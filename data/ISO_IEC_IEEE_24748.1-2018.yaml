@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE24748.1-2018
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering
@@ -64,6 +64,21 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The purpose of this document is to facilitate the joint usage of the process
+    content of the latest revisions of both ISO/IEC/IEEE 15288 and ISO/IEC/IEEE 12207,
+    by providing unified and consolidated guidance on life cycle management of systems
+    and software. This is to help ensure consistency in system concepts and life cycle
+    concepts, models, stages, processes, process application, key points of view,
+    adaptation and use in various domains as the two International Standards are used
+    in combination. That will in turn help a project team design a life cycle model
+    for managing the progress of their project. Hence, ISO/IEC/IEEE 15288 and ISO/IEC/IEEE
+    12207 are the documents that apply the concepts found in this document to specific
+    processes.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -77,270 +92,25 @@ copyright:
     - content: IEC
   from: '2018'
 relation:
-- type: updates
+- type: obsoletedBy
   bibitem:
-    id: IEEE24748.1-2011
+    id: ISO-IEC-IEEE24748.1-2024
     docid:
-    - id: IEEE 24748.1-2011
+    - id: ISO/IEC/IEEE 24748.1-2024
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 24748.1-2011
+      content: ISO/IEC/IEEE 24748.1-2024
       format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 - type: updates
   bibitem:
-    id: IEEE24748.1-2011
+    id: IEEEStd24748.1-2011
     docid:
-    - id: IEEE 24748.1-2011
+    - id: IEEE Std 24748.1-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE24748.1-2011
-    docid:
-    - id: IEEE 24748.1-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 24748.1-2011
+      content: IEEE Std 24748.1-2011
       format: text/plain
   description:
     content: revises
@@ -356,15 +126,17 @@ keyword:
 - content: Product life cycle management
 - content: ISO Standards
 - content: IEC Standards
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

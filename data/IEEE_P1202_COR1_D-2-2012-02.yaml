@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1202_Cor1-D-2-2012-02
 title:
 - content: IEEE Draft Standard for Flame-Propagation Testing of Wire & Cable - Corrigendum
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1202-2006
+    id: IEEEStd1202-2006
     docid:
-    - id: IEEE 1202-2006
+    - id: IEEE Std 1202-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1202-2006
+      content: IEEE Std 1202-2006
       format: text/plain
   description:
     content: corrects
@@ -88,30 +88,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE1202-2006
+    id: IEEEStd1202-2006
     docid:
-    - id: IEEE 1202-2006
+    - id: IEEE Std 1202-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1202-2006
-      format: text/plain
-  description:
-    content: corrects
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1202-2006
-    docid:
-    - id: IEEE 1202-2006
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1202-2006
+      content: IEEE Std 1202-2006
       format: text/plain
   description:
     content: corrects
@@ -138,17 +121,15 @@ keyword:
 - content: test protocol
 - content: vertical cable tray
 - content: wire
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power &amp; Energy Society
-ics:
-- code: 13.220.40
-  text: Ignitability and burning behaviour of materials and products
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 13.220.40
+    text: Ignitability and burning behaviour of materials and products
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

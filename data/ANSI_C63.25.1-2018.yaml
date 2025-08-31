@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.25.1-2018
 title:
 - content: American National Standard Validation Methods for Radiated Emission Test
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI C63.25.1-2018
 date:
 - type: created
-  value: '2019'
+  value: '2019-03-29'
 - type: published
   value: '2019-03-27'
 - type: issued
@@ -49,6 +49,13 @@ language:
 script:
 - Latn
 abstract:
+- content: This standard specifies methods for the validation of test sites used for
+    radiated emission measurements in the frequency range of 1 GHz to 18 GHz.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 - content: This standard specifies methods for the validation of test sites used for
     radiated emission measurements in the frequency range of 1 GHz to 18 GHz.
   language:
@@ -82,15 +89,16 @@ keyword:
 - content: radiated emission test sites
 - content: site voltage standing-wave ratio
 - content: test site validation
-doctype: standard
-editorialgroup:
-  committee:
-  - Accredited Standards Committee on Electromagnetic Compatibility
-ics:
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Accredited Standards Committee on Electromagnetic Compatibility
+  ics:
+  - code: 33.100.10
+    text: Emission
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

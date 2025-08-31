@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEECDP16085-2018-02
 title:
 - content: IEEE Draft Standard - Systems and Software Engineering - Life Cycle Processes
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE CD P16085-2018-02
 date:
 - type: created
-  value: '2018'
+  value: '2018-04-03'
 - type: published
   value: '2018-04-04'
 - type: issued
@@ -75,20 +75,35 @@ relation:
     script:
     - Latn
     format: text/plain
+- type: updates
+  bibitem:
+    id: IEEE16085-2006
+    docid:
+    - id: IEEE 16085-2006
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE 16085-2006
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: Software engineering
 - content: Product life cycle management
 - content: Risk management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

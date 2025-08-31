@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP308-D-2-2019
 title:
 - content: IEEE Approved Draft Standard Criteria for Class 1E Power Systems for Nuclear
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE308-2012
+    id: IEEEStd308-2012
     docid:
-    - id: IEEE 308-2012
+    - id: IEEE Std 308-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 308-2012
+      content: IEEE Std 308-2012
       format: text/plain
   description:
     content: revises
@@ -98,17 +98,15 @@ keyword:
 - content: IEEE 308
 - content: nuclear power station design
 - content: nuclear safety
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 27.120.30
-  text: Fissile materials and nuclear fuel technology
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 27.120.30
+    text: Fissile materials and nuclear fuel technology
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

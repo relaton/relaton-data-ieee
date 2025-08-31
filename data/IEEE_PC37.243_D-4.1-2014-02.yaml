@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.243-D-4.1-2014-02
 title:
 - content: IEEE Draft Guide for Application of Digital Line Current Differential Relays
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.243/D-4.1-2014-02
 date:
 - type: created
-  value: '2014'
+  value: '2014-04-15'
 - type: published
   value: '2014-06-20'
 - type: issued
@@ -76,17 +76,18 @@ keyword:
 - content: Digital communication
 - content: Relays
 - content: Differential relays
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying of the IEEE Power and Energy Society
-ics:
-- code: 29.120.70
-  text: Relays
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.70
+    text: Relays
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

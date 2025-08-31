@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEECD2P15026.4-2018-02
 title:
 - content: 'IEEE Draft Standard - Systems and Software Engineering -- Systems and
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE CD2 P15026.4-2018-02
 date:
 - type: created
-  value: '2018'
+  value: '2018-04-03'
 - type: published
   value: '2018-04-04'
 - type: issued
@@ -74,15 +74,17 @@ keyword:
 - content: Product life cycle management
 - content: Quality assurance
 - content: Software maintenance
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

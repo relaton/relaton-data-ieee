@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1531-D-4-2019-03
 title:
 - content: IEEE Draft Guide for Application and Specification of Harmonic Filters
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1531/D-4-2019-03
 date:
 - type: created
-  value: '2019'
+  value: '2019-03-28'
 - type: published
   value: '2019-04-10'
 - type: issued
@@ -72,13 +72,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1531-2003
+    id: IEEEStd1531-2003
     docid:
-    - id: IEEE 1531-2003
+    - id: IEEE Std 1531-2003
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1531-2003
+      content: IEEE Std 1531-2003
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1531-2003
+    docid:
+    - id: IEEE Std 1531-2003
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1531-2003
       format: text/plain
   description:
     content: revises
@@ -104,15 +121,13 @@ keyword:
 - content: power system harmonics
 - content: reactors
 - content: switched capacitor filters
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: '31.160'
-  text: Electric filters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '31.160'
+    text: Electric filters
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

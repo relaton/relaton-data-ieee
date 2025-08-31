@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1505.3-D-8-2014-11
 title:
 - content: IEEE Draft Standard for the Universal Test Interface Framework and Pin
@@ -90,15 +90,16 @@ keyword:
 - content: ITA
 - content: ICD
 - content: Mass Termination.
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 31.220.10
-  text: Plug-and-socket devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 31.220.10
+    text: Plug-and-socket devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

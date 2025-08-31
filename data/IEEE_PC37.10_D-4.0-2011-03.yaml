@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.10-D-4.0-2011-03
 title:
 - content: IEEE Draft Guide for Investigation, Analysis, and Reporting of Power Circuit
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE PC37.10/D-4.0-2011-03
 date:
 - type: created
-  value: '2011'
+  value: '2011-03-31'
 - type: published
   value: '2019-09-25'
 - type: issued
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.10-1995
+    id: IEEEStdC37.10-1995
     docid:
-    - id: IEEE C37.10-1995
+    - id: IEEE Std C37.10-1995
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.10-1995
+      content: IEEE Std C37.10-1995
       format: text/plain
   description:
     content: revises
@@ -96,15 +96,13 @@ keyword:
 - content: circuit breaker failure investigation
 - content: circuit breaker failure reporting
 - content: IEEE C37.10
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.120.40
-  text: Switches
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.40
+    text: Switches
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

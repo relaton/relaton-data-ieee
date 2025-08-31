@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-MPAIP3302-D-1-2024-06
 title:
-- content: IEEE/MPAI Draft Standard for the adoption of Moving Picture, Audio and
-    Data Coding by Artificial Intelligence (MPAI) Technical Specification - Context-based
+- content: IEEE/MPAI Approved Draft Standard for the adoption of Moving Picture, Audio
+    and Data Coding by Artificial Intelligence (MPAI) Technical Specification - Context-based
     Audio Enhancement (MPAI-CAE) V2.1
   format: text/plain
   type: main
@@ -24,11 +24,11 @@ docid:
 docnumber: IEEE/MPAI P3302/D-1-2024-06
 date:
 - type: created
-  value: '2024-08-30'
+  value: '2024-12-20'
 - type: published
   value: '2024-09-02'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -47,6 +47,23 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: This standard adopts MPAI Technical Specification Version 2.1 as an IEEE
+    Standard. The Moving Picture, Audio and Data Coding by Artificial Intelligence
+    (MPAI) Technical Specification Context-based Audio Enhancement (CAE) Version 2.1
+    collects use cases that improve the user experience of audio applications using
+    technologies that act on the input audio content using context information. The
+    coverage of MPAI-CAE use cases includes entertainment, communication, teleconfer-encing,
+    gaming, post-production, restoration, etc., in a variety of contexts such as in
+    the home, in the car, on the go, and in the studio. The technologies are specified
+    as AI Workflows, AI Modules, and Data Types. The currently specified use cases
+    are Emotion Enhan-ced Speech (EES), Audio Recording Preservation (ARP), Speech
+    Restoration System (SSR), and Enhanced Audioconference Experience (EAE).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -69,13 +86,30 @@ keyword:
 - content: Acoustic signal processing
 - content: Audio coding
 - content: Data collection
-doctype: standard
-editorialgroup:
-  committee:
-  - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+- content: adoption
+- content: AI module
+- content: AI workflow
+- content: ARP
+- content: audio recording preservation
+- content: EAE
+- content: EES
+- content: emotion enhanced speech
+- content: enhanced audio-conference experience
+- content: IEEE 3302
+- content: MPAI-CAE
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  - code: 35.240.01
+    text: Application of information technology in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

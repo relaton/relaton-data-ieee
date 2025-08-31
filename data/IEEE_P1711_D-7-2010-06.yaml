@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1711-D-7-2010-06
 title:
 - content: IEEE Draft Trial Use Standard for a Cryptographic Protocol for Cyber Security
@@ -77,17 +77,18 @@ keyword:
 - content: serial link
 - content: encryption
 - content: integrity
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: '35.040'
-  text: Character sets and information coding
-- code: 35.240.60
-  text: IT applications in transport and trade
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Power and Energy Society
+  ics:
+  - code: '35.040'
+    text: Character sets and information coding
+  - code: 35.240.60
+    text: IT applications in transport and trade
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

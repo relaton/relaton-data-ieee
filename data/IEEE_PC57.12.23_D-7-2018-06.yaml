@@ -1,14 +1,14 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.12.23-D-7-2018-06
 title:
-- content: 'IEEE Approved Draft Standard for Submersible Single-Phase Transformers:
-    250 kVA and Smaller; High Voltage 34 500GrdY/19 920V and Below; Low Voltage 600
-    V and Below'
+- content: 'IEEE Draft Standard for Submersible Single-Phase Transformers: 250 kVA
+    and Smaller; High Voltage 34 500GrdY/19 920V and Below; Low Voltage 600 V and
+    Below'
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/8807429
+- content: https://ieeexplore.ieee.org/document/8398613
   type: src
 type: standard
 docid:
@@ -24,9 +24,9 @@ docid:
 docnumber: IEEE PC57.12.23/D-7-2018-06
 date:
 - type: created
-  value: '2019-12-05'
+  value: '2018-06-26'
 - type: published
-  value: '2019-08-20'
+  value: '2018-06-27'
 - type: issued
   value: '2018-12-05'
 contributor:
@@ -42,7 +42,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2019-08-20'
+revdate: '2018-06-27'
 language:
 - en
 script:
@@ -73,13 +73,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.12.23-2009
+    id: IEEEStdC57.12.23-2009
     docid:
-    - id: IEEE C57.12.23-2009
+    - id: IEEE Std C57.12.23-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.23-2009
+      content: IEEE Std C57.12.23-2009
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStdC57.12.23-2009
+    docid:
+    - id: IEEE Std C57.12.23-2009
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std C57.12.23-2009
       format: text/plain
   description:
     content: revises
@@ -91,9 +108,9 @@ relation:
 keyword:
 - content: IEEE Standards
 - content: Power transformers
-- content: Power distribution
+- content: Immersion cooling
 - content: Liquid cooling
-- content: Underwater cables
+- content: Power distribution
 - content: Underground power cables
 - content: distribution transformer
 - content: IEEE C57.12.23
@@ -104,15 +121,13 @@ keyword:
 - content: subsurface
 - content: transformer
 - content: underground
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

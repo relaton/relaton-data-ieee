@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1591.3-D-6-2010-09
 title:
 - content: IEEE Draft Standard for Qualifying Hardware for Helically-Applied Fiber
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE P1591.3/D-6-2010-09
 date:
 - type: created
-  value: '2011'
+  value: '2011-07-08'
 - type: published
   value: '2011-03-03'
 - type: issued
@@ -72,15 +72,16 @@ keyword:
 - content: IEEE standards
 - content: Hardware
 - content: Optical fiber cables
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Communications of the IEEE Power &amp; Energy Society
-ics:
-- code: 33.180.10
-  text: Fibres and cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 33.180.10
+    text: Fibres and cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

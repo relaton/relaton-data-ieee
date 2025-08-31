@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE29119.5
 title:
 - content: 'ISO/IEC/IEEE International Standard - Software and systems engineering
@@ -24,8 +24,6 @@ docid:
   type: DOI
 docnumber: ISO/IEC/IEEE 29119.5
 date:
-- type: updated
-  value: '2016-12-12'
 - type: created
   value: '2016-11-15'
 - type: published
@@ -39,6 +37,10 @@ contributor:
     abbreviation:
       content: IEEE
     url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
   role:
   - type: publisher
 revdate: '2016-11-21'
@@ -80,17 +82,33 @@ copyright:
   - name:
     - content: IEC
   from: '2016'
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: ISO-IEC-IEEE29119.5-2024
+    docid:
+    - id: ISO/IEC/IEEE 29119.5-2024
+      type: IEEE
+      primary: true
+    formattedref:
+      content: ISO/IEC/IEEE 29119.5-2024
+      format: text/plain
 keyword:
 - content: IEEE Standards
 - content: ISO Standards
 - content: IEC Standards
 - content: Software engineering
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

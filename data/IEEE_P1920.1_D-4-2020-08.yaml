@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1920.1-D-4-2020-08
 title:
 - content: IEEE Draft Standard for Aerial Communications and Networking Standards
@@ -87,12 +87,14 @@ keyword:
 - content: Unmanned Aircraft (UA)
 - content: Unmanned Aircraft Systems (UAS)
 - content: Self-Organized Aerial Networks (SOANs).
-doctype: standard
-editorialgroup:
-  committee:
-  - Mobile Communication Networks Standards Committee of the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Mobile Communication Networks Standards Committee of the IEEE Communications
+      Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

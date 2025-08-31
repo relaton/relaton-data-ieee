@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2815-D-5-2024-06
 title:
 - content: IEEE Draft Guide for the Technical Specification of Smart Distribution
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2024-08-06'
 - type: published
-  value: '2024-08-09'
+  value: '2024-08-08'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -41,11 +41,22 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-08-09'
+revdate: '2024-08-08'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: The general functional and technical specifications of the smart distribution
+    transformer terminal (as a device) used in distribution network monitoring and
+    operation are provided in this guide. Various functions and recommendations of
+    its environmental aspect, power supply, communication, and information exchange
+    interface, hardware and software platform, and application cases are addressed.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -63,19 +74,25 @@ keyword:
 - content: Power transformers
 - content: Internet of Things
 - content: Hardware
-- content: smart distribution transformer terminal
-- content: Internet of Things (IoT)
-- content: IEEE 2815&#8482;
-- content: unified hardware platform
 - content: App-defined services
-doctype: standard
-editorialgroup:
-  committee:
-  - Distributed Generation, Energy Storage and Interoperability Standards Committee
-    of the IEEE SA Board of Governors
+- content: distribution network
+- content: IEEE 2815
+- content: IoT
+- content: monitoring and operation
+- content: smart distribution transformer terminal
+- content: unified hardware platform
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Distributed Generation, Energy Storage and Interoperability Standards Committee
+      of the IEEE SA Board of Governors
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1937.3-D-9.0-2023-11
 title:
-- content: IEEE Approved Draft Standard for Flight Data Transmission of Civil Unmanned
-    Aerial Vehicle Based on Short Message Mechanisms
+- content: IEEE Draft Standard for Flight Data Transmission of Civil Unmanned Aerial
+    Vehicle Based on Short Message Mechanisms
   format: text/plain
   type: main
 link:
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1937.3/D-9.0-2023-11
 date:
 - type: created
-  value: '2024'
+  value: '2023-11-27'
 - type: published
   value: '2024-03-29'
 - type: issued
@@ -47,18 +47,9 @@ language:
 script:
 - Latn
 abstract:
-- content: Effective regulation of civil unmanned aerial vehicle (UAV) is a key factor
-    to ensure the implementation of the low-altitude opening policy and promote the
-    development of the Drone industry and low-altitude economy. The current UAV flight
-    supervision technology based on cloud system relies on mobile public networks
-    that have many blind spots and UAV ground measurement and control links that are
-    easily interrupted by terrain and other factors, affecting the continuity of UAV
-    flight supervision. Message transmission through GNSS short message 6 mechanism
-    are not restricted by space, territory and terrain, which can enhance the continuity
-    and stability of transmission for UAV flight supervision and is an effective supplement
-    of the existing technique. This document specifies the content, the transmission
-    protocol, and the transmission method of UAV flight supervision data based on
-    GNSS short message mechanism.
+- content: The content, the transmission protocol, and the transmission method of
+    UAV flight supervision data based on Global Navigation Satellite System (GNSS)
+    short message mechanisms are specified in this standard.
   language:
   - en
   script:
@@ -76,19 +67,28 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
-- content: IEEE std
-- content: UAV
-- content: short message mechanism
-- content: transmission protocol
+- content: IEEE Standards
+- content: Autonomous aerial vehicles
+- content: Data communication
+- content: Message services
+- content: Aerospace engineering
 - content: flight supervision data
-doctype: standard
-editorialgroup:
-  committee:
-  - Unmanned Aerial Vehicles Communications Standards Committee of the IEEE Communications
-    Society
+- content: IEEE 1937.3&#8482;
+- content: short message mechanisms
+- content: transmission protocol
+- content: UAV
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Unmanned Aerial Vehicles Communications Standards Committee of the IEEE Communications
+      Society
+  ics:
+  - code: '49.020'
+    text: Aircraft and space vehicles in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

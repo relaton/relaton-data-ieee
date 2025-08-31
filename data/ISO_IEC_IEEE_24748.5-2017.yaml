@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE24748.5-2017
 title:
 - content: 'ISO/IEC/IEEE International Standard - Systems and Software Engineering--Life
@@ -25,7 +25,7 @@ docid:
 docnumber: ISO/IEC/IEEE 24748.5-2017
 date:
 - type: created
-  value: '2017'
+  value: '2017-06-23'
 - type: published
   value: '2017-06-22'
 - type: issued
@@ -64,6 +64,21 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: ISO/IEC/IEEE 24748 provides unified and consolidated guidance on the life
+    cycle management of systems and software. This document focuses on the processes
+    required for successful planning and management of the project's software development
+    effort and for development of the software development plan (SDP) as a vehicle
+    for representing a project's application of software life cycle processes. The
+    SDP is a top level technical planning document for a project which addresses technical
+    management processes established by three principal sources (the project’s contract,
+    applicable organizational and technical management processes, and the software
+    development project team) as necessary to successfully accomplish the software
+    development related tasks of the project.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -94,15 +109,17 @@ keyword:
 - content: technical management
 - content: technical planning processes
 - content: '24748'
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

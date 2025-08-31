@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1671.2-D-15-2012-09
 title:
 - content: IEEE Approved Draft Standard for Automatic Test Markup Language (ATML)
@@ -69,13 +69,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1671.2-2008
+    id: IEEEStd1671.2-2008
     docid:
-    - id: IEEE 1671.2-2008
+    - id: IEEE Std 1671.2-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1671.2-2008
+      content: IEEE Std 1671.2-2008
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1671.2-2008
+    docid:
+    - id: IEEE Std 1671.2-2008
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1671.2-2008
       format: text/plain
   description:
     content: revises
@@ -100,15 +117,13 @@ keyword:
 - content: instrumentation
 - content: synthetic instrument
 - content: XML schema
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 35.240.30
-  text: IT applications in information, documentation and publishing
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.240.30
+    text: IT applications in information, documentation and publishing
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

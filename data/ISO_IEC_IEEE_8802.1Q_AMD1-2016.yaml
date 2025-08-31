@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.1Q-Amd1-2016
 title:
 - content: 'ISO/IEC/IEEE International Standard -- Information technology -- Telecommunications
@@ -27,7 +27,7 @@ docid:
 docnumber: ISO/IEC/IEEE 8802.1Q/Amd1-2016
 date:
 - type: created
-  value: '2017'
+  value: '2017-07-15'
 - type: published
   value: '2018-10-26'
 - type: issued
@@ -95,12 +95,13 @@ keyword:
 - content: SPB
 - content: Virtual Bridged Local Area Network
 - content: virtual LAN
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.90.2-D-6-2024-04
 title:
 - content: IEEE Draft Standard for Relays, Relay Systems, and Control Devices used
@@ -28,7 +28,7 @@ date:
 - type: published
   value: '2024-05-22'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -49,11 +49,11 @@ script:
 - Latn
 abstract:
 - content: Design tests for relays and relay systems that relate to the immunity of
-    this equipment to Radiated Electromagnetic Interference from Transceivers are
-    specified. Field strength, test frequencies, modulation, sweep rates, equipment
-    setup and connection, test procedures, criteria for acceptance, and documentation
-    for test results are described. This standard has been harmonized with IEC standards
-    where consensus could be reached
+    this equipment to radiated electromagnetic interference from transceivers are
+    specified in this standard. Field strength, test frequencies, modulation, sweep
+    rates, equipment setup and connection, test procedures, criteria for acceptance,
+    and documentation for test results are described. This standard has been harmonized
+    with IEC standards where consensus could be reached.
   language:
   - en
   script:
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.90.2-2004
+    id: IEEEStdC37.90.2-2004
     docid:
-    - id: IEEE C37.90.2-2004
+    - id: IEEE Std C37.90.2-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.90.2-2004
+      content: IEEE Std C37.90.2-2004
       format: text/plain
   description:
     content: revises
@@ -89,24 +89,31 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Electromagnetic interference
+- content: Relays
+- content: Transceivers
+- content: Power system control
 - content: field strength
+- content: IEEE C37.90.2&#8482;
 - content: keying test
-- content: Radiated Electromagnetic Interference
+- content: radiated electromagnetic interference
 - content: relay
 - content: relay systems
 - content: step test
 - content: sweep test
 - content: transceivers
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.70
+    text: Relays
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

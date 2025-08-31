@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: P1635-D10-ASHARE21-D-10-2016
 title:
 - content: IEEE/ASHRAE Draft Guide for the Ventilation and Thermal Management of Batteries
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1635-2012
+    id: IEEEStd1635-2012
     docid:
-    - id: IEEE 1635-2012
+    - id: IEEE Std 1635-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1635-2012
+      content: IEEE Std 1635-2012
       format: text/plain
   description:
     content: revises
@@ -113,16 +113,13 @@ keyword:
 - content: thermal management
 - content: ventilation
 - content: ventilation system maintenance
-doctype: standard
-editorialgroup:
-  committee:
-  - Energy Storage &amp; Stationary Battery Committee of the IEEE Power and Energy
-    Society
-ics:
-- code: 29.220.01
-  text: Galvanic cells and batteries in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.220.01
+    text: Galvanic cells and batteries in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

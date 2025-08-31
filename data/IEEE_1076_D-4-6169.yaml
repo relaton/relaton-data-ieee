@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE1076-D-4-6169
 title:
 - content: 'IEC/IEEE International Standard - Behavioral Languages - Part 5: Standard
@@ -85,15 +85,16 @@ keyword:
 - content: timing
 - content: Verilog
 - content: VHDL
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

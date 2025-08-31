@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3cq-D-3.0-2019-07
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment: Maintenance #13: Power over
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P802.3cq/D-3.0-2019-07
 date:
 - type: created
-  value: '2019'
+  value: '2019-07-29'
 - type: published
   value: '2019-07-30'
 - type: issued
@@ -68,13 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2018
+    id: IEEEStd802.3-2018
     docid:
-    - id: IEEE 802.3-2018
+    - id: IEEE Std 802.3-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2018
+      content: IEEE Std 802.3-2018
       format: text/plain
   description:
     content: amends
@@ -92,21 +92,18 @@ keyword:
 - content: '802.3'
 - content: 802.3cq
 - content: amendment
-- content: Ethernet
 - content: DTE power via MDI
 - content: Power over Ethernet
 - content: PoE
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

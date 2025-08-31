@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1617-D-3-2019-06
 title:
 - content: IEEE Draft Guide for Assessment, Mitigation, and Control of Corrosion of
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1617/D-3-2019-06
 date:
 - type: created
-  value: '2019'
+  value: '2019-06-20'
 - type: published
   value: '2019-06-24'
 - type: issued
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1617-2007
+    id: IEEEStd1617-2007
     docid:
-    - id: IEEE 1617-2007
+    - id: IEEE Std 1617-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1617-2007
+      content: IEEE Std 1617-2007
       format: text/plain
   description:
     content: revises
@@ -90,81 +90,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE1617-2007
+    id: IEEEStd1617-2007
     docid:
-    - id: IEEE 1617-2007
+    - id: IEEE Std 1617-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1617-2007
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1617-2007
-    docid:
-    - id: IEEE 1617-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1617-2007
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1617-2007
-    docid:
-    - id: IEEE 1617-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1617-2007
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1617-2007
-    docid:
-    - id: IEEE 1617-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1617-2007
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1617-2007
-    docid:
-    - id: IEEE 1617-2007
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1617-2007
+      content: IEEE Std 1617-2007
       format: text/plain
   description:
     content: revises
@@ -191,15 +123,13 @@ keyword:
 - content: power cable
 - content: time domain reflectometry (TDR)
 - content: unjacketed cable
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

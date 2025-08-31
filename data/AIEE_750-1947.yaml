@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE750-1947
 title:
 - content: AIEE Report on Aircraft Electric System Guide
@@ -24,7 +24,7 @@ docid:
 docnumber: AIEE 750-1947
 date:
 - type: created
-  value: '1974'
+  value: '1974-07-18'
 - type: published
   value: '2016-03-18'
 - type: issued
@@ -58,6 +58,16 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Preparation of material incorporated in this report has been undertaken
+    by the AIEE. in the belief that it will materially aid in the realization of a
+    better aircraft electric system. This conviction is confirmed by opinions expressed
+    in joint meetings, including representation from SAE, NASC, NEMA, Army Air Forces,
+    and the Bureau of Aeronautics.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: withdrawn
@@ -72,9 +82,10 @@ keyword:
 - content: Aerospace electronics
 - content: System guide
 - content: Performance evaluation
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

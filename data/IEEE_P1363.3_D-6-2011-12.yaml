@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1363.3-D-6-2011-12
 title:
 - content: IEEE Draft Standard for Identity-Based Cryptographic Techniques using Pairings
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1363.3/D-6-2011-12
 date:
 - type: created
-  value: '2013'
+  value: '2013-04-26'
 - type: published
   value: '2013-04-18'
 - type: issued
@@ -73,20 +73,20 @@ keyword:
 - content: Cryptography
 - content: Encryption
 - content: Public-key cryptography
-- content: Public-key cryptography
 - content: encryption
 - content: identity-based encryption
 - content: pairing-based encryption
 - content: pairing-based cryptography
-doctype: standard
-editorialgroup:
-  committee:
-  - Microprocessor Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.040'
-  text: Character sets and information coding
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.040'
+    text: Character sets and information coding
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

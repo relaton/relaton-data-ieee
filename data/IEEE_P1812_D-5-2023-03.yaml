@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1812-D-5-2023-03
 title:
 - content: IEEE Draft Guide for Testing Permanent Magnet Machines
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1812/D-5-2023-03
 date:
 - type: created
-  value: '2023'
+  value: '2023-03-21'
 - type: published
   value: '2023-03-22'
 - type: issued
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1812-2014
+    id: IEEEStd1812-2014
     docid:
-    - id: IEEE 1812-2014
+    - id: IEEE Std 1812-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1812-2014
+      content: IEEE Std 1812-2014
       format: text/plain
   description:
     content: revises
@@ -100,17 +100,18 @@ keyword:
 - content: parameter determination
 - content: permanent magnet machines
 - content: testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: '19.080'
-  text: Electrical and electronic testing
-- code: 29.160.30
-  text: Motors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: '19.080'
+    text: Electrical and electronic testing
+  - code: 29.160.30
+    text: Motors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

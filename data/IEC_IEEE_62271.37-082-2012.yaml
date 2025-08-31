@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE62271.37-082-2012
 title:
 - content: 'High-voltage switchgear and controlgear -Part 37-082: Standard practice
@@ -59,6 +59,15 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This standard provides methods for the measurement of sound pressure level
+    produced by outdoor alternating current circuit-breakers in a free-field environment.
+    These methods may also be used indoors or in restricted field, provided that precautions
+    are observed in the measurement and interpretation of the results.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -69,24 +78,6 @@ copyright:
   - name:
     - content: IEC
   from: '2012'
-relation:
-- type: updates
-  bibitem:
-    id: ANSI-IEEEC37.082-1982
-    docid:
-    - id: ANSI/IEEE C37.082-1982
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI/IEEE C37.082-1982
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE standards
 - content: Switched circuits
@@ -100,19 +91,20 @@ keyword:
 - content: C37.082
 - content: alternating current circuit breakers
 - content: sound pressure
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.120.40
-  text: Switches
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
-- code: 17.140.20
-  text: Noise emitted by machines and equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.40
+    text: Switches
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
+  - code: 17.140.20
+    text: Noise emitted by machines and equipment
   standard_status: Inactive
   standard_modified: Reserved
   pubstatus: Active

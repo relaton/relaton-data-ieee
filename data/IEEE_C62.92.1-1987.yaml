@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEC62.92.1-1987
 title:
 - content: IEEE Guide for the Application of Neutral Grounding in Electrical Utility
@@ -66,13 +66,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEEC62.92.1-2016
+    id: IEEEStdC62.92.1-2016
     docid:
-    - id: IEEE C62.92.1-2016
+    - id: IEEE Std C62.92.1-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C62.92.1-2016
+      content: IEEE Std C62.92.1-2016
       format: text/plain
 keyword:
 - content: class of grounding
@@ -89,15 +89,13 @@ keyword:
 - content: power-system grounding
 - content: reactance grounded
 - content: system grounding
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/High Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

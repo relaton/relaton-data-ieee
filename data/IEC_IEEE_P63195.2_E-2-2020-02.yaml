@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP63195.2-E-2-2020-02
 title:
 - content: 'IEC/IEEE International Draft Standard - Assessment of power density of
@@ -25,7 +25,7 @@ docid:
 docnumber: IEC/IEEE P63195.2/E-2-2020-02
 date:
 - type: created
-  value: '2020'
+  value: '2020-03-02'
 - type: published
   value: '2020-03-03'
 - type: issued
@@ -70,15 +70,16 @@ keyword:
 - content: Radiation monitoring
 - content: Radiaion effects
 - content: IEC Standards
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

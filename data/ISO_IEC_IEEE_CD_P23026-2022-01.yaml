@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEECDP23026-2022-01
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and Software Engineering
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE CD P23026-2022-01
 date:
 - type: created
-  value: '2022'
+  value: '2022-03-03'
 - type: published
   value: '2022-03-04'
 - type: issued
@@ -79,57 +79,6 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE
-    docid:
-    - id: ISO/IEC/ IEEE
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/ IEEE
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE
-    docid:
-    - id: ISO/IEC/ IEEE
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/ IEEE
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE
-    docid:
-    - id: ISO/IEC/ IEEE
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/ IEEE
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: ISO Standards
@@ -138,17 +87,19 @@ keyword:
 - content: Software engineering
 - content: Documentation
 - content: Product lifecycle management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
-- code: 35.240.95
-  text: Internet applications
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.95
+    text: Internet applications
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

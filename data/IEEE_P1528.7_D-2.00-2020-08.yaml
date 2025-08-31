@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1528.7-D-2.00-2020-08
 title:
 - content: IEEE Draft Guide to Assess the Electromagnetic Fields (EMF) Exposure of
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1528.7/D-2.00-2020-08
 date:
 - type: created
-  value: '2020'
+  value: '2020-07-27'
 - type: published
   value: '2020-07-28'
 - type: issued
@@ -79,15 +79,16 @@ keyword:
 - content: IEEE 1528&#8482;
 - content: Internet of Things devices
 - content: multiple IoT devices
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

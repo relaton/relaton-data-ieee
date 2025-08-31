@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10103-D-1.05.02-2011-Sept
 title:
 - content: Standard for Health informatics - Point-of-care medical device communication
@@ -95,20 +95,21 @@ keyword:
 - content: Home Monitoring
 - content: Remote Monitoring
 - content: Terminology
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073TM Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
-- code: 11.040.40
-  text: Implants for surgery,  prosthetics and orthotics
-- code: 01.040.35
-  text: Information technology. Office machines (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073TM Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  - code: 11.040.40
+    text: Implants for surgery,  prosthetics and orthotics
+  - code: 01.040.35
+    text: Information technology. Office machines (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

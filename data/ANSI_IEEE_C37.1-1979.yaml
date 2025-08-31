@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEC37.1-1979
 title:
 - content: American National Standard Definition, Specification, and Analysis of Manual,
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: ANSI-IEEEC37.1-1987
+    id: ANSI-IEEEStdC37.1-1987
     docid:
-    - id: ANSI/IEEE C37.1-1987
+    - id: ANSI/IEEE Std C37.1-1987
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE C37.1-1987
+      content: ANSI/IEEE Std C37.1-1987
       format: text/plain
 keyword:
 - content: ANSI Standards
@@ -89,9 +89,10 @@ keyword:
 - content: Supervisory control
 - content: Terminology
 - content: Manuals
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEEE11073.10404-2022
 title:
 - content: 'IEEE/ISO International Standard--Health informatics--Device interoperability--Part
@@ -81,13 +81,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE11073.10404-2020
+    id: IEEEStd11073.10404-2020
     docid:
-    - id: IEEE 11073.10404-2020
+    - id: IEEE Std 11073.10404-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10404-2020
+      content: IEEE Std 11073.10404-2020
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -101,16 +101,17 @@ keyword:
 - content: personal health devices
 - content: PHD
 - content: pulse oximeter
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

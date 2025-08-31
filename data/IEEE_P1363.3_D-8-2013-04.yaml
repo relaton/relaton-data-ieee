@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1363.3-D-8-2013-04
 title:
 - content: IEEE Approved Draft Standard for Identity-Based Cryptographic Techniques
@@ -80,15 +80,16 @@ keyword:
 - content: identity-based encryption
 - content: pairing-based encryption
 - content: pairing-based cryptography
-doctype: standard
-editorialgroup:
-  committee:
-  - Microprocessor Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.040'
-  text: Character sets and information coding
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.040'
+    text: Character sets and information coding
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

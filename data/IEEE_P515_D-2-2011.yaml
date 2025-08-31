@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP515-D-2-2011
 title:
 - content: IEEE Draft Standard for the Testing, Design, Installation, and Maintenance
@@ -91,15 +91,16 @@ keyword:
 - content: trace heating
 - content: trace heater
 - content: vessel heater
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 25.180.10
-  text: Electric furnaces
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 25.180.10
+    text: Electric furnaces
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

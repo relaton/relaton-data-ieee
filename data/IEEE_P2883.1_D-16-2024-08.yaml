@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2883.1-D-16-2024-08
 title:
 - content: IEEE Draft Recommended Practice for Use of Storage Sanitization Methods
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2024-08-07'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -45,6 +45,15 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Recommendations in using the sanitization methods specified in IEEE Std
+    2883™ to appropriately sanitize storage media before reuse, resale, or disposal
+    are provided in this document.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -57,26 +66,40 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
+- content: IEEE Standards
+- content: Cryptography
+- content: Data collection
+- content: Data analysis
+- content: Data integrity
+- content: Security
+- content: Cleaning
 - content: clear
 - content: crypto erase
-- content: cryptographic erase
 - content: crypto scramble
+- content: cryptographic erase
 - content: data destruct
 - content: data removal
-- content: 4 destroy
-- content: IEEE 2883&#8482;
+- content: destroy
+- content: IEEE 2883™
+- content: IEEE 2883.1™
 - content: media sanitization
 - content: purge
 - content: sanitization
 - content: sanitize
 - content: security
-doctype: standard
-editorialgroup:
-  committee:
-  - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  - code: 35.220.01
+    text: Data storage devices in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3321-D-2-2024-08
 title:
-- content: IEEE Draft Recommended Practice for the Application of Assumptions on Reasonably
-    Foreseeable Behavior of Other Road Users in Safety Related Models
+- content: IEEE Approved Draft Recommended Practice for the Application of Assumptions
+    on Reasonably Foreseeable Behavior of Other Road Users in Safety Related Models
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P3321/D-2-2024-08
 date:
 - type: created
-  value: '2024'
+  value: '2024-12-20'
 - type: published
-  value: '2024-10-02'
+  value: '2024-10-01'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -41,21 +41,21 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-10-02'
+revdate: '2024-10-01'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This recommended practice provides guidelines for applying the assumptions
-    defined in IEEE 2846:2022 in safety-related models during the development, testing,
-    and deployment of Automated Driving Systems (ADS). It specifically covers approaches
-    to identify values for the applicable IEEE 2846:2022 assumptions given the scenario
-    context; approaches for identifying reasonably foreseeable values for these assumptions
-    given the scenario context and for updating these assumptions across the temporal
-    evolution of a scenario; and approaches to validate the selection of assumptions
-    through an analysis of the output of the safety-related model, considering different
-    kinds of performance objectives of interest.
+- content: Guidelines for applying the assumptions defined in IEEE 2846™-2022 in safety-related
+    models during the development, testing, and deployment of automated driving systems
+    (ADS) are provided in this recommended practice. Approaches to identify values
+    for the applicable IEEE 2846-2022 assumptions given the scenario context; approaches
+    for identifying reasonably foreseeable values for these assumptions given the
+    scenario context and for updating these assumptions across the temporal evolution
+    of a scenario; and approaches to validate the selection of assumptions through
+    an analysis of the output of the safety-related model, considering different kinds
+    of performance objectives of interest, are specifically covered.
   language:
   - en
   script:
@@ -78,21 +78,26 @@ keyword:
 - content: Safety
 - content: Road traffic
 - content: Autonomous driving
-- content: Automated Driving Systems
-- content: Assumptions
-- content: Safety-related models
-- content: Other Road Users
-- content: IEEE 2846
-- content: Reasonably Foreseeable Behavior
-- content: Kinematic Parameters
-- content: Scenarios
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+- content: assumptions
+- content: automated driving systems
+- content: IEEE 2846™
+- content: IEEE 3321™
+- content: kinematic parameters
+- content: other road users
+- content: reasonably foreseeable behavior
+- content: safety-related models
+- content: scenarios
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: 43.040.10
+    text: Electrical and electronic equipment
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

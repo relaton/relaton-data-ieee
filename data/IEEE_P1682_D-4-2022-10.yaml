@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1682-D-4-2022-10
 title:
 - content: IEEE Draft Standard for Qualifying Fiber Optic Cables, Connections, and
@@ -74,115 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1682-2011
+    id: IEEEStd1682-2011
     docid:
-    - id: IEEE 1682-2011
+    - id: IEEE Std 1682-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1682-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1682-2011
-    docid:
-    - id: IEEE 1682-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1682-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1682-2011
-    docid:
-    - id: IEEE 1682-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1682-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1682-2011
-    docid:
-    - id: IEEE 1682-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1682-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1682-2011
-    docid:
-    - id: IEEE 1682-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1682-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1682-2011
-    docid:
-    - id: IEEE 1682-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1682-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1682-2011
-    docid:
-    - id: IEEE 1682-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1682-2011
+      content: IEEE Std 1682-2011
       format: text/plain
   description:
     content: revises
@@ -206,17 +104,18 @@ keyword:
 - content: optical fiber
 - content: safety
 - content: splices
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering Committee of the IEEE Power and Energy Society
-ics:
-- code: 27.120.99
-  text: Other standards related to nuclear energy
-- code: 33.180.10
-  text: Fibres and cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering Committee of the IEEE Power and Energy Society
+  ics:
+  - code: 27.120.99
+    text: Other standards related to nuclear energy
+  - code: 33.180.10
+    text: Fibres and cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

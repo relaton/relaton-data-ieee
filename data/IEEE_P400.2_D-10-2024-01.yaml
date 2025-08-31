@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP400.2-D-10-2024-01
 title:
 - content: IEEE Draft Guide for Field Testing of Shielded Power Cable Systems Using
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2024-02-08'
 - type: issued
-  value: '2024'
+  value: '2024-05-20'
 contributor:
 - organization:
     name:
@@ -72,64 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE400.2-2013
+    id: IEEEStd400.2-2013
     docid:
-    - id: IEEE 400.2-2013
+    - id: IEEE Std 400.2-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 400.2-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE400.2-2013
-    docid:
-    - id: IEEE 400.2-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 400.2-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE400.2-2013
-    docid:
-    - id: IEEE 400.2-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 400.2-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE400.2-2013
-    docid:
-    - id: IEEE 400.2-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 400.2-2013
+      content: IEEE Std 400.2-2013
       format: text/plain
   description:
     content: revises
@@ -163,16 +112,17 @@ keyword:
 - content: tangent delta testing
 - content: very low frequency testing
 - content: VLF ac voltage testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 33.120.20
-  text: Wires and symmetrical cables
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 33.120.20
+    text: Wires and symmetrical cables
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

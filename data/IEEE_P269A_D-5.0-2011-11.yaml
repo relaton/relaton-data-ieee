@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP269a-D-5.0-2011-11
 title:
 - content: IEEE Draft Standard Methods for Measuring Transmission Performance of Analog
@@ -84,15 +84,16 @@ keyword:
 - content: electroacoustic measurements on telephones
 - content: telephony
 - content: voice transmission performance.
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Communications Society
-ics:
-- code: 33.050.10
-  text: Telephone equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Communications Society
+  ics:
+  - code: 33.050.10
+    text: Telephone equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

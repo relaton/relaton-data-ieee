@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62142-2005
 title:
 - content: IEC/IEEE International Standard - Verilog(R) Register Transfer Level Synthesis
@@ -78,15 +78,16 @@ keyword:
 - content: RTL
 - content: synthesis
 - content: Verilog&#174;
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

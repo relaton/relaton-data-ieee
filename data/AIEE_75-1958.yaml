@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE75-1958
 title:
 - content: AIEE Proposed Test Code for Power-Factor Testing of Mineral Oil Insulated
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2016-04-08'
 - type: created
-  value: '1958'
+  value: '1958-03-31'
 - type: published
   value: '2016-03-18'
 - type: issued
@@ -71,12 +71,13 @@ keyword:
 - content: Minerals
 - content: Testing
 - content: Instrument transformers
-doctype: standard
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

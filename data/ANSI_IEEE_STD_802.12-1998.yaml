@@ -1,0 +1,104 @@
+---
+schema-version: v1.2.9
+id: ANSI-IEEEStd802.12-1998
+title:
+- content: 'IEEE Standard for Information Technology- Telecommunications and Information
+    Exchange Between Systems- Local and Metropolitan Area Networks- Specific Requirements
+    Part 12: Demand-Priority Access Method, Physical Layer and Repeater Specifications'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/1389254
+  type: src
+type: standard
+docid:
+- id: ANSI/IEEE Std 802.12-1998
+  type: IEEE
+  primary: true
+- id: ANSI/IEEE Std 802.12™-1998
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 0-7381-1487-1
+  type: ISBN
+- id: 10.1109/IEEESTD.1998.95618
+  type: DOI
+docnumber: ANSI/IEEE Std 802.12-1998
+date:
+- type: created
+  value: '1998'
+- type: published
+  value: '2005-02-07'
+- type: issued
+  value: '1998'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2005-02-07'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: The media access control characteristics for the demand-priority access
+    method are specified. The layer management, physical layers, and media that support
+    this access method are also specified. Layer and sublayer interface specifications
+    are aligned to the ISO Open Systems Interconnection Basic Reference Model and
+    ISO/IEC 8802 models. Specifications for 100 Mb/s operation over 100 /spl Omaga/
+    balanced cable (twisted-pair) Categories 3 through 5, 150 /spl Omaga/ shielded
+    balanced cable, and fibre-optic media are included. Optional implementation of
+    redundant links to facilitate automatic recovery of network connectivity in case
+    of link or repeater failure anywhere in the network path is specified. Rules for
+    connecting redundant links within a network are defined.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: withdrawn
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '1998'
+keyword:
+- content: Standards
+- content: IEEE Standards
+- content: ISO Standards
+- content: IEC Standards
+- content: Protocols
+- content: Media Access Protocol
+- content: Repeaters
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

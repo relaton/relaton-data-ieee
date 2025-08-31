@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE77-1965
 title:
 - content: IEEE Recommended Practice for Electric Installations on Textile Machinery
@@ -76,9 +76,10 @@ keyword:
 - content: Installations
 - content: Electrical safety
 - content: Maintenance engineering
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

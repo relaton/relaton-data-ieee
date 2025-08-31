@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1500-D-1.5-2022
 title:
 - content: IEEE Draft Standard Testability Method for Embedded Core-based Integrated
@@ -23,7 +23,9 @@ docid:
 docnumber: IEEE P1500/D-1.5-2022
 date:
 - type: created
-  value: '2022'
+  value: '2022-04-07'
+- type: published
+  value: '2022-04-08'
 - type: issued
   value: '2022'
 contributor:
@@ -39,6 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
+revdate: '2022-04-08'
 language:
 - en
 script:
@@ -67,81 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1500-2005
+    id: IEEEStd1500-2005
     docid:
-    - id: IEEE 1500-2005
+    - id: IEEE Std 1500-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1500-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1500-2005
-    docid:
-    - id: IEEE 1500-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1500-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1500-2005
-    docid:
-    - id: IEEE 1500-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1500-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1500-2005
-    docid:
-    - id: IEEE 1500-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1500-2005
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1500-2005
-    docid:
-    - id: IEEE 1500-2005
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1500-2005
+      content: IEEE Std 1500-2005
       format: text/plain
   description:
     content: revises
@@ -151,20 +86,25 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Integrated circuits
+- content: System-on-chip
+- content: Testing
 - content: core test
 - content: embedded core test
 - content: IP test
 - content: test reuse
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
-ics:
-- code: '31.200'
-  text: Integrated circuits. Microelectronics
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

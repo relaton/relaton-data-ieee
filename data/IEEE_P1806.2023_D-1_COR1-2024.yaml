@@ -1,10 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1806.2023-D-1-Cor1-2024
 title:
-- content: IEEE Draft Guide for Reliability-Based Placement of Overhead and Underground
-    Switching and Overcurrent Protection Equipment up to and Including 38 kV - Corrigendum
-    1
+- content: IEEE Approved Draft Guide for Reliability-Based Placement of Overhead and
+    Underground Switching and Overcurrent Protection Equipment up to and Including
+    38 kV - Corrigendum 1
   format: text/plain
   type: main
 link:
@@ -24,11 +24,11 @@ docid:
 docnumber: IEEE P1806.2023/D-1/Cor1-2024
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-10'
 - type: published
   value: '2024-04-03'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -48,9 +48,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This corrigendum provides corrections to typographical errors in Table
-    10 and aligns currency values in table A.1 and updates all currency values to
-    remove dollar signs and to change to generic currency signs.
+- content: Provided in this corrigendum are corrections to typographical errors in
+    Table 10. Currency values in Table A.1 are aligned, and all currency values are
+    updated to remove dollar signs and changed to generic currency signs.
   language:
   - en
   script:
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1806-2021
+    id: IEEEStd1806-2021
     docid:
-    - id: IEEE 1806-2021
+    - id: IEEE Std 1806-2021
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1806-2021
+      content: IEEE Std 1806-2021
       format: text/plain
   description:
     content: corrects
@@ -86,25 +86,32 @@ relation:
     - Latn
     format: text/plain
 keyword:
-- content: Device Placement
-- content: Distribution
-- content: Interruptions
-- content: Overhead
-- content: Protection
+- content: IEEE Standards
+- content: Power distribution
+- content: Power transmission lines
 - content: Reliability
-- content: Sectionalizing
-- content: Switching
-- content: Underground
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
+- content: Switching systems
+- content: device placement
+- content: distribution
+- content: IEEE 1806
+- content: interruptions
+- content: overhead
+- content: protection
+- content: reliability
+- content: sectionalizing
+- content: switching
+- content: underground
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

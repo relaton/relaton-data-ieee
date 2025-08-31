@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.27-D-3-2024-02
 title:
 - content: IEEE Draft Guide for Low-Voltage AC (635 V and below) Power Circuit Breakers
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE PC37.27/D-3-2024-02
 date:
 - type: created
-  value: '2024'
+  value: '2024-03-18'
 - type: published
-  value: '2024-03-20'
+  value: '2024-03-19'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -41,15 +41,15 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-03-20'
+revdate: '2024-03-19'
 language:
 - en
 script:
 - Latn
 abstract:
 - content: Application recommendations to assist in selection of separately mounted
-    current-38 limiting fuses to be installed in series with low-voltage ac power
-    circuit breakers are provided in this guide.
+    current-limiting fuses to be installed in series with low-voltage ac power circuit
+    breakers are provided in this guide.
   language:
   - en
   script:
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.27-2015
+    id: IEEEStdC37.27-2015
     docid:
-    - id: IEEE C37.27-2015
+    - id: IEEE Std C37.27-2015
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.27-2015
+      content: IEEE Std C37.27-2015
       format: text/plain
   description:
     content: revises
@@ -96,16 +96,17 @@ keyword:
 - content: IEEE C37.27&#8482;
 - content: low-voltage ac power circuit breaker
 - content: open-fuse trip device
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.20
-  text: Low voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.20
+    text: Low voltage switchgear and controlgear
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

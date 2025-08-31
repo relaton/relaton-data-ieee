@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP824-D-1-2019-07
 title:
 - content: IEEE Draft Standard for Series Capacitor Banks in Power Systems
@@ -59,13 +59,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE824-2004
+    id: IEEEStd824-2004
     docid:
-    - id: IEEE 824-2004
+    - id: IEEE Std 824-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 824-2004
+      content: IEEE Std 824-2004
       format: text/plain
   description:
     content: revises
@@ -79,15 +79,13 @@ keyword:
 - content: Capacitors
 - content: Power distribution planning
 - content: Power systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 31.060.99
-  text: Other capacitors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 31.060.99
+    text: Other capacitors
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE18-1964
 title:
 - content: IEEE Standard for Capacitor Units
@@ -67,9 +67,10 @@ keyword:
 - content: IEEE Standards
 - content: Capacitors
 - content: Measurements
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1857-D-2-2023-02
 title:
 - content: IEEE Approved Draft Standard for Advanced Audio and Video Coding
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1857/D-2-2023-02
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-12'
 - type: published
   value: '2023-02-14'
 - type: issued
@@ -72,64 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1857-2013
+    id: IEEEStd1857-2013
     docid:
-    - id: IEEE 1857-2013
+    - id: IEEE Std 1857-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1857-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1857-2013
-    docid:
-    - id: IEEE 1857-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1857-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1857-2013
-    docid:
-    - id: IEEE 1857-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1857-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1857-2013
-    docid:
-    - id: IEEE 1857-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1857-2013
+      content: IEEE Std 1857-2013
       format: text/plain
   description:
     content: revises
@@ -162,15 +111,16 @@ keyword:
 - content: quantization
 - content: slice
 - content: transform
-doctype: standard
-editorialgroup:
-  committee:
-  - Data Compression Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Data Compression Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

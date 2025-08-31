@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE082_IEC62271.113-D-2-2010-01
 title:
 - content: IEEE Draft Recommended Practice for the Measurement of Sound Pressure Levels
@@ -69,16 +69,17 @@ keyword:
 - content: IEEE standards
 - content: Measurement
 - content: Circuit breakers
-doctype: standard
-ics:
-- code: 29.120.40
-  text: Switches
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
-- code: 17.140.20
-  text: Noise emitted by machines and equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.40
+    text: Switches
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
+  - code: 17.140.20
+    text: Noise emitted by machines and equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

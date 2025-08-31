@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.236-D-3.2
 title:
 - content: IEEE Draft Guide for Power System Protective Relay Applications over Digital
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.236/D-3.2
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-24'
 - type: published
   value: '2012-04-24'
 - type: issued
@@ -75,17 +75,18 @@ keyword:
 - content: PC37.236
 - content: Power System Protective Relay Applications
 - content: Digital Communication Channels
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
-- code: 29.120.70
-  text: Relays
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  - code: 29.120.70
+    text: Relays
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

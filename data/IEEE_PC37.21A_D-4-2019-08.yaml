@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.21a-D-4-2019-08
 title:
 - content: 'IEEE Draft Standard for Control Switchboards Amendment 1: Control and
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.21-2017
+    id: IEEEStdC37.21-2017
     docid:
-    - id: IEEE C37.21-2017
+    - id: IEEE Std C37.21-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.21-2017
+      content: IEEE Std C37.21-2017
       format: text/plain
   description:
     content: amends
@@ -102,15 +102,13 @@ keyword:
 - content: IEEE C37.21a
 - content: swing rack cabinet
 - content: vertical switchboard
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.99
-  text: Other switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.130.99
+    text: Other switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

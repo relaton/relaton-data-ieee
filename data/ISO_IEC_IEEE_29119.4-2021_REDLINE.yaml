@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE29119.4-2021Redline
 title:
 - content: 'IEEE/ISO/IEC International Standard - Software and systems engineering--Software
@@ -100,23 +100,6 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE29119.4-2015
-    docid:
-    - id: ISO/IEC/IEEE 29119.4-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 29119.4-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: ISO Standards
@@ -124,15 +107,17 @@ keyword:
 - content: Software engineering
 - content: System analysis and design
 - content: Software testing
-doctype: redline
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

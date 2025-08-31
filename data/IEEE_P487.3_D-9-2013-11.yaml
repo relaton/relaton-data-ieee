@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP487.3-D-9-2013-11
 title:
 - content: IEEE Draft Standard for the Electrical Protection of Communication Facilities
@@ -86,15 +86,16 @@ keyword:
 - content: fiber optic systems
 - content: ground potential rise
 - content: high-voltageenvironment.
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Communications of the IEEE Power and Energy Society
-ics:
-- code: 33.040.01
-  text: Telecommunication systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications of the IEEE Power and Energy Society
+  ics:
+  - code: 33.040.01
+    text: Telecommunication systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

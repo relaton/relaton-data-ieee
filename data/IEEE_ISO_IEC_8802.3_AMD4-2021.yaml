@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-ISO-IEC8802.3-Amd4-2021
 title:
 - content: 'IEEE/ISO/IEC Telecommunications and exchange between information technology
@@ -77,43 +77,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.3cn-2019
+    id: IEEEStd802.3cn-2019
     docid:
-    - id: IEEE 802.3cn-2019
+    - id: IEEE Std 802.3cn-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3cn-2019
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3cn-2019
-    docid:
-    - id: IEEE 802.3cn-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3cn-2019
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3cn-2019
-    docid:
-    - id: IEEE 802.3cn-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3cn-2019
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3cn-2019
-    docid:
-    - id: IEEE 802.3cn-2019
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3cn-2019
+      content: IEEE Std 802.3cn-2019
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -136,7 +106,6 @@ keyword:
 - content: amendment
 - content: EEE
 - content: Energy-Efficient Ethernet
-- content: Ethernet
 - content: FEC
 - content: forward error correction
 - content: IEEE 802.3&#8482;
@@ -146,17 +115,18 @@ keyword:
 - content: PMD sublayer
 - content: single-mode fiber
 - content: SMF
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

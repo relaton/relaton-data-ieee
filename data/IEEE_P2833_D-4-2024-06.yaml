@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2833-D-4-2024-06
 title:
-- content: IEEE Draft Guide for Overhead Transmission Lines with Composite-Insulated-Crossarm
+- content: IEEE Approved Draft Guide for Overhead Transmission Lines with Composite-Insulated-Crossarm
     Supports
   format: text/plain
   type: main
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P2833/D-4-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-09'
 - type: published
   value: '2024-06-27'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -47,10 +47,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This guide specifies the technical requirements for overhead transmission
-    lines with composite insulated crossarm (CICA) supports, which includes design
-    and functional provisions, component requirements, tests, installation and acceptance
-    needs, and operation and maintenance procedures.
+- content: The technical requirements for overhead transmission lines with composite
+    insulated crossarm (CICA) supports, which include design and functional provisions;
+    component requirements; tests; installation and acceptance needs; and operation
+    and maintenance procedures are specified in this Guide.
   language:
   - en
   script:
@@ -68,18 +68,26 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
+- content: IEEE Standards
+- content: Power transmission lines
+- content: Composite materials
+- content: Insulators
 - content: CICA
-- content: Composite insulated crossarm
-- content: compact transmission line
 - content: composite insulator
-- content: IEEE 2833TM.
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
+- content: composite insulated crossarm
+- content: compact transmission line
+- content: IEEE 2833
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

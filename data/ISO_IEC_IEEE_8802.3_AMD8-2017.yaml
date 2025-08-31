@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.3-Amd8-2017
 title:
 - content: 'ISO/IEC/IEEE International Standard - Information technology -- Telecommunications
@@ -63,6 +63,15 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Specifications and management parameters for the provision of power via
+    a single twisted pair to connected Data Terminal Equipment (DTE) with IEEE 802.3
+    single balanced twisted-pair interfaces are added by this amendment to IEEE Std
+    802.3-2015.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -78,23 +87,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.3bu-2016
+    id: IEEEStd802.3bu-2016
     docid:
-    - id: IEEE 802.3bu-2016
+    - id: IEEE Std 802.3bu-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3bu-2016
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.3bu-2016
-    docid:
-    - id: IEEE 802.3bu-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3bu-2016
+      content: IEEE Std 802.3bu-2016
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -117,17 +116,18 @@ keyword:
 - content: PoDL
 - content: PoDL PD
 - content: PoDL PSE
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

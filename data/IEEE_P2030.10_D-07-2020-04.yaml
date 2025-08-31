@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.10-D-07-2020-04
 title:
 - content: IEEE Draft Standard for DC Microgrids for Rural and Remote Electricity
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2030.10/D-07-2020-04
 date:
 - type: created
-  value: '2020'
+  value: '2020-07-27'
 - type: published
   value: '2020-07-28'
 - type: issued
@@ -79,15 +79,16 @@ keyword:
 - content: IEEE 2030.10
 - content: microgrid
 - content: stand-alone microgrid
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1210-D-2-2022-06
 title:
 - content: IEEE Draft Standard Tests for Determining Compatibility of Cable-Pulling
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1210-2004
+    id: IEEEStd1210-2004
     docid:
-    - id: IEEE 1210-2004
+    - id: IEEE Std 1210-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1210-2004
+      content: IEEE Std 1210-2004
       format: text/plain
   description:
     content: revises
@@ -110,15 +110,16 @@ keyword:
 - content: physical properties
 - content: volume resistance measurement
 - content: wire
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

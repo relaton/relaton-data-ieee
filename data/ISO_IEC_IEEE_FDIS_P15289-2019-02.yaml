@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEFDISP15289-2019-02
 title:
 - content: ISO/IEC/IEEE Approved Draft International Standard -- Systems and Software
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE FDIS P15289-2019-02
 date:
 - type: created
-  value: '2019'
+  value: '2019-06-13'
 - type: published
   value: '2019-02-20'
 - type: issued
@@ -110,15 +110,13 @@ keyword:
 - content: system
 - content: information item
 - content: information management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

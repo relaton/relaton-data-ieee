@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2874-D-3.1-2024-06
 title:
 - content: IEEE Draft Standard for Spatial Web Protocol, Architecture and Governance
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2874/D-3.1-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-07'
 - type: published
   value: '2024-06-14'
 - type: issued
@@ -83,13 +83,14 @@ keyword:
 - content: SWID
 - content: W3C Decentralized Identifier (DID)
 - content: Verifiable Credentials
-doctype: standard
-editorialgroup:
-  committee:
-  - Artificial Intelligence Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Artificial Intelligence Standards Committee of the IEEE Computer Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

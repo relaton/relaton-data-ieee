@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AMPPSP21496-2023
 title:
 - content: AMPP/IEEE Guide to Strength Loss of Tubular Steel Poles
@@ -79,15 +79,16 @@ keyword:
 - content: strength loss
 - content: corrosion
 - content: local buckling
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 25.220.01
-  text: Surface treatment and coating in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 25.220.01
+    text: Surface treatment and coating in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

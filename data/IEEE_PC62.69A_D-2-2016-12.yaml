@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.69a-D-2-2016-12
 title:
 - content: 'IEEE Draft Standard for the Surge Parameters of Isolating Transformers
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC62.69-2016
+    id: IEEEStdC62.69-2016
     docid:
-    - id: IEEE C62.69-2016
+    - id: IEEE Std C62.69-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C62.69-2016
+      content: IEEE Std C62.69-2016
       format: text/plain
   description:
     content: amends
@@ -88,13 +88,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEEC62.69-2016
+    id: IEEEStdC62.69-2016
     docid:
-    - id: IEEE C62.69-2016
+    - id: IEEE Std C62.69-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C62.69-2016
+      content: IEEE Std C62.69-2016
       format: text/plain
   description:
     content: amends
@@ -112,17 +112,15 @@ keyword:
 - content: Resistance
 - content: Windings
 - content: core-saturation
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

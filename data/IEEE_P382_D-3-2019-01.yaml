@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP382-D-3-2019-01
 title:
 - content: IEEE Draft Standard for Qualification of Safety-Related Actuators for Nuclear
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P382/D-3-2019-01
 date:
 - type: created
-  value: '2019'
+  value: '2019-04-15'
 - type: published
   value: '2019-04-16'
 - type: issued
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE382-2006
+    id: IEEEStd382-2006
     docid:
-    - id: IEEE 382-2006
+    - id: IEEE Std 382-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 382-2006
+      content: IEEE Std 382-2006
       format: text/plain
   description:
     content: revises
@@ -101,17 +101,15 @@ keyword:
 - content: nuclear power generating stations
 - content: safety-related actuators
 - content: SOV
-doctype: standard
-editorialgroup:
-  committee:
-  - Nuclear Power Engineering of the IEEE Power and Energy Society
-ics:
-- code: 23.060.40
-  text: Pressure regulators
-- code: 27.120.10
-  text: Reactor engineering
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 23.060.40
+    text: Pressure regulators
+  - code: 27.120.10
+    text: Reactor engineering
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

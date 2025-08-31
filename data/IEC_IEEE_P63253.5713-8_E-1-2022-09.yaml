@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP63253.5713-8-E-1-2022-09
 title:
 - content: IEC/IEEE Draft International Standard Requirements for Station Service
@@ -25,9 +25,9 @@ date:
 - type: created
   value: '2022-10-25'
 - type: published
-  value: '2024-02-23'
+  value: '2024-12-17'
 - type: issued
-  value: '2022'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-02-23'
+revdate: '2024-12-17'
 language:
 - en
 script:
@@ -64,12 +64,16 @@ keyword:
 - content: IEC Standards
 - content: Power transformers
 - content: Voltage control
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

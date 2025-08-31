@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.121-D-1.6-2020-07
 title:
 - content: IEEE Approved Draft Guide for Switchgear - Unit Substation - Requirements
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.121-2012
+    id: IEEEStdC37.121-2012
     docid:
-    - id: IEEE C37.121-2012
+    - id: IEEE Std C37.121-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.121-2012
+      content: IEEE Std C37.121-2012
       format: text/plain
   description:
     content: revises
@@ -91,64 +91,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEEC37.121-2012
+    id: IEEEStdC37.121-2012
     docid:
-    - id: IEEE C37.121-2012
+    - id: IEEE Std C37.121-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.121-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.121-2012
-    docid:
-    - id: IEEE C37.121-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.121-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.121-2012
-    docid:
-    - id: IEEE C37.121-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.121-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.121-2012
-    docid:
-    - id: IEEE C37.121-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.121-2012
+      content: IEEE Std C37.121-2012
       format: text/plain
   description:
     content: revises
@@ -165,7 +114,6 @@ keyword:
 - content: Power distribution
 - content: Circuit breakers
 - content: Rectifers
-- content: Power distribution
 - content: Gas insulated transmission lines
 - content: Metal enclosures
 - content: control
@@ -192,15 +140,13 @@ keyword:
 - content: transformer
 - content: transition section
 - content: unit substation
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.31-D-8-2020-07
 title:
 - content: IEEE Approved Draft Standard for Test Methods and Preferred Values for
@@ -73,13 +73,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE649-2006
+    id: IEEEStd649-2006
     docid:
-    - id: IEEE 649-2006
+    - id: IEEE Std 649-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 649-2006
+      content: IEEE Std 649-2006
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd649-2006
+    docid:
+    - id: IEEE Std 649-2006
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 649-2006
       format: text/plain
   description:
     content: revises
@@ -106,15 +123,13 @@ keyword:
 - content: holdover voltage
 - content: IEEE C62.31&#8482;
 - content: sparkover voltage
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

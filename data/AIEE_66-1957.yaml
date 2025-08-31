@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE66-1957
 title:
 - content: AIEE Proposed Guide for Determination of Short Circuit Characteristics
@@ -25,7 +25,7 @@ docid:
 docnumber: AIEE 66-1957
 date:
 - type: created
-  value: '1957'
+  value: '1957-07-16'
 - type: published
   value: '2016-03-16'
 - type: issued
@@ -74,9 +74,10 @@ keyword:
 - content: Electrical machines
 - content: Short circuits
 - content: Power system reliability
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.163-D-1-2022-08
 title:
 - content: IEEE Draft Guide for Establishing Power Transformer Capability while under
@@ -74,64 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.163-2015
+    id: IEEEStdC57.163-2015
     docid:
-    - id: IEEE C57.163-2015
+    - id: IEEE Std C57.163-2015
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.163-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.163-2015
-    docid:
-    - id: IEEE C57.163-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.163-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.163-2015
-    docid:
-    - id: IEEE C57.163-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.163-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.163-2015
-    docid:
-    - id: IEEE C57.163-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.163-2015
+      content: IEEE Std C57.163-2015
       format: text/plain
   description:
     content: revises
@@ -160,15 +109,16 @@ keyword:
 - content: temperature gradient
 - content: testing
 - content: thermal
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

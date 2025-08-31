@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.10.1-D-04-2021-02
 title:
 - content: IEEE Draft Standard for Electricity Access Requirements with Safety Extra
@@ -87,13 +87,15 @@ keyword:
 - content: Tier 2
 - content: Tier 3
 - content: Multi-Tier Framework
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Distributed Generation, Energy Storage and Interoperability Standards Committee
+      of the IEEE SA Board of Governors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

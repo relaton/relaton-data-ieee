@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.82.1-D-5-2010-07
 title:
 - content: IEEE Draft Standard for Insulation Coordination - Definitions, Principles,
@@ -84,15 +84,16 @@ keyword:
 - content: protective ratio
 - content: standard withstand voltages
 - content: and voltage stress
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/High Voltage of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.080.01
-  text: Insulation in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Surge Protective Devices/High Voltage of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.080.01
+    text: Insulation in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

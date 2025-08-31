@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3-2015_Cor1-D-2.1-2017
 title:
 - content: 'IEEE Draft Standard for Ethernet - Corrigendum 1: Multilane Timestamping'
@@ -72,19 +72,19 @@ keyword:
 - content: Synchronization
 - content: Passive optical networks
 - content: IEEE 802.3 Standard
-- content: Ethernet
 - content: Time Synchronization
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

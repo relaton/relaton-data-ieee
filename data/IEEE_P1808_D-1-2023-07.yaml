@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1808-D-1-2023-07
 title:
-- content: IEEE Draft Guide for Collecting and Managing Transmission Line Inspection
-    and Maintenance Data
+- content: IEEE Approved Draft Guide for Collecting and Managing Transmission Line
+    Inspection and Maintenance Data
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P1808/D-1-2023-07
 date:
 - type: created
-  value: '2023-12-08'
+  value: '2024-05-23'
 - type: published
   value: '2023-12-12'
 - type: issued
-  value: '2023'
+  value: '2024-05-20'
 contributor:
 - organization:
     name:
@@ -50,12 +50,12 @@ abstract:
 - content: Reference information to assist electric utilities and their contractors
     with the development of computer-based means for collecting and managing transmission
     line inspection and maintenance data and associated asset information is provided.
-    The guide provides a high level overview of key principles and considerations
-    learned through experience that helps ensure common pitfalls are avoided and enhance
+    A high-level overview is provided in this guide for key principles and considerations
+    learned through experience that help ensure common pitfalls are avoided and enhance
     the usability of systems and collected data. It is not intended to provide an
-    exhaustive discussion of the many details and specifics that shall be accounted
-    for when designing and developing a system including data requirements for an
-    individual utility’s application and needs.
+    exhaustive discussion of the many details and specifics accounted for when designing
+    and developing a system including data requirements for an individual utility’s
+    application and needs.
   language:
   - en
   script:
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1808-2011
+    id: IEEEStd1808-2011
     docid:
-    - id: IEEE 1808-2011
+    - id: IEEE Std 1808-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1808-2011
+      content: IEEE Std 1808-2011
       format: text/plain
   description:
     content: revises
@@ -99,35 +99,40 @@ keyword:
 - content: Machine learning
 - content: Maintenance engineering
 - content: Power transmission lines
+- content: AI
 - content: analytics
-- content: artificial intelligence (AI)
+- content: artificial intelligence
 - content: asset management
-- content: defect reporting
 - content: automated
 - content: compliance
 - content: data
 - content: database
 - content: data science
+- content: defect reporting
 - content: electric
 - content: electronic
-- content: GIS
 - content: field/virtual inspection
+- content: geographic information systems
+- content: GIS
+- content: IEEE 1808&#8482;
 - content: lines
-- content: machine learning (ML)
+- content: machine learning
 - content: maintenance
+- content: ML
 - content: regulations
 - content: risk
 - content: transmission
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

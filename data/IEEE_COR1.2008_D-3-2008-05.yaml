@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEECor1.2008-D-3-2008-05
 title:
 - content: 'IEEE Draft Standard Specification Format Guide and Test Procedure for
@@ -77,12 +77,13 @@ keyword:
 - content: Regulation
 - content: IEEE Standards activities
 - content: Uniform resource locators
-doctype: standard
-ics:
-- code: '17.080'
-  text: Measurement of time, velocity, acceleration, angular velocity
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '17.080'
+    text: Measurement of time, velocity, acceleration, angular velocity
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEECDP32430-2023-08
 title:
 - content: IEEE Draft International Standard for Software Engineering -- Standard
@@ -60,13 +60,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE2430-2019
+    id: IEEEStd2430-2019
     docid:
-    - id: IEEE 2430-2019
+    - id: IEEE Std 2430-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 2430-2019
+      content: IEEE Std 2430-2019
       format: text/plain
   description:
     content: revises
@@ -79,15 +79,17 @@ keyword:
 - content: IEEE Standards
 - content: Software engineering
 - content: Software measurement
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

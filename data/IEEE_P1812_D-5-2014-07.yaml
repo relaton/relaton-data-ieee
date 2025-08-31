@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1812-D-5-2014-07
 title:
 - content: IEEE Approved Draft Trial-Use Guide for Testing Permanent Magnet Machines
@@ -84,17 +84,18 @@ keyword:
 - content: permanent magnet machines
 - content: testing
 - content: characteristics
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.160.30
-  text: Motors
-- code: '19.080'
-  text: Electrical and electronic testing
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: 29.160.30
+    text: Motors
+  - code: '19.080'
+    text: Electrical and electronic testing
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

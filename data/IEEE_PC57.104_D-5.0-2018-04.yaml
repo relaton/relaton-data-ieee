@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.104-D-5.0-2018-04
 title:
 - content: IEEE Draft Guide for the Interpretation of Gases Generated in Oil-Immersed
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC57.104/D-5.0-2018-04
 date:
 - type: created
-  value: '2018'
+  value: '2018-04-14'
 - type: published
   value: '2018-04-15'
 - type: issued
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.104-2008
+    id: IEEEStdC57.104-2008
     docid:
-    - id: IEEE C57.104-2008
+    - id: IEEE Std C57.104-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.104-2008
+      content: IEEE Std C57.104-2008
       format: text/plain
   description:
     content: revises
@@ -100,15 +100,13 @@ keyword:
 - content: mineral oil
 - content: mineral oil-filled transformers
 - content: transformers
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

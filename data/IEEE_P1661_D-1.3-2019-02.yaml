@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1661-D-1.3-2019-02
 title:
 - content: IEEE Approved Draft Guide for Test and Evaluation of Lead-Acid Batteries
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1661/D-1.3-2019-02
 date:
 - type: created
-  value: '2019'
+  value: '2019-06-13'
 - type: published
   value: '2019-02-25'
 - type: issued
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1661-2007
+    id: IEEEStd1661-2007
     docid:
-    - id: IEEE 1661-2007
+    - id: IEEE Std 1661-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1661-2007
+      content: IEEE Std 1661-2007
       format: text/plain
   description:
     content: revises
@@ -102,15 +102,13 @@ keyword:
 - content: lead-acid battery testing
 - content: PV hybrid battery test
 - content: PV system testing
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 29.220.20
-  text: Acid secondary cells and batteries
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.220.20
+    text: Acid secondary cells and batteries
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

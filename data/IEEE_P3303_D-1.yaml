@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3303-D-1
 title:
 - content: IEEE Draft Standard for Adoption of Moving Picture, Audio and Data Coding
@@ -82,17 +82,18 @@ keyword:
 - content: Artificial Intelligence
 - content: IEEE 3303&#8482;
 - content: MPI-CUI
-doctype: standard
-editorialgroup:
-  committee:
-  - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
-ics:
-- code: 35.240.01
-  text: Application of information technology in general
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+  ics:
+  - code: 35.240.01
+    text: Application of information technology in general
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

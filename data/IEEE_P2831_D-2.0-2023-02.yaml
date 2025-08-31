@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2831-D-2.0-2023-02
 title:
 - content: IEEE Approved Draft Recommended Practice for Distributed Traveling Wave
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P2831/D-2.0-2023-02
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-12'
 - type: published
   value: '2023-02-22'
 - type: issued
@@ -47,6 +47,18 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: The category and composition, technical requirements, test methods, inspection
+    rules, marking, packing, transportation, storage, and installation of distributed
+    traveling wave fault location devices for high-voltage direct-current (HVDC) transmission
+    lines are detailed. This recommended practice is applicable to distributed traveling
+    wave fault location devices for HVDC transmission lines and alternating current
+    (ac) transmission lines.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -65,19 +77,24 @@ keyword:
 - content: Fault location
 - content: Power distribution
 - content: Power transmission lines
-- content: Distributed fault monitoring
-- content: recognition accuracy
+- content: dc transmission lines
+- content: distributed fault monitoring
 - content: double-ended fault location
-- content: single ended fault location
+- content: IEEE 2831&#8482;
+- content: recognition accuracy
 - content: section location
-- content: DC transmission lines
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
+- content: single-ended fault location
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

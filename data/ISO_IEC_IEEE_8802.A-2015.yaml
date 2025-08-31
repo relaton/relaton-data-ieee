@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.A-2015
 title:
 - content: ISO/IEC/IEEE International Standard - Information technology --Telecommunications
@@ -61,6 +61,19 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This standard provides an overview to the family of IEEE 802(R) standards.
+    It describes the reference models for the IEEE 802 standards and explains the
+    relationship of these standards to the higher layer protocols; it provides a standard
+    for the structure of IEEE 802 MAC addresses; it provides a standard for identification
+    of public, private, prototype, and standard protocols; it specifies an object
+    identifier hierarchy used within IEEE 802 for uniform allocation of object identifiers
+    used in IEEE 802 standards; and it specifies a method for higher layer protocol
+    identification.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -100,12 +113,13 @@ keyword:
 - content: regional area networks
 - content: protocol development
 - content: protocol types
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2847-D-3-2021-08
 title:
 - content: IEEE Draft Standard for DC Power Transmission and Communication to DC Loads
@@ -45,6 +45,25 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: This standard defines physical layer and data link layer specifications
+    for power supply and communication over power lines from a DC Power Source to
+    multiple DC loads as specified in IEEE P2847(TM)/D4 2021. Each receiver has its
+    own physical address and is connected to the transmitter through a pair of power
+    lines in a multi-drop bus or tree topology. The transmitter sends the DC Power
+    and the electric signals corresponding to the communication packets including
+    the control command/data for controlling the DC loads and the target address through
+    the power line by electrically changing the voltage of the wires. Each receiver
+    supplies power to the DC loads with the transmitted and voltage-flattened DC power.
+    Each receiver decodes the control command/data and address from electric signals
+    on the power line and uses them for the connected DC loads control if the addresses
+    match. The standard is in compliance with known Electro-Magnetic Compatibility
+    (EMC) regulations
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -71,13 +90,14 @@ keyword:
 - content: Differential signal
 - content: Differential signal communication
 - content: High power differential signal power line communication
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Line Communications of the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power Line Communications of the IEEE Communications Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

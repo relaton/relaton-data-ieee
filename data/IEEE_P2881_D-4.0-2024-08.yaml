@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2881-D-4.0-2024-08
 title:
 - content: IEEE Draft Standard for Learning Metadata Terms
@@ -80,7 +80,6 @@ keyword:
 - content: Resource description framework
 - content: Regulation
 - content: Warranties
-- content: Metadata
 - content: Learning Object
 - content: Learning Resource
 - content: Learning Event
@@ -100,13 +99,14 @@ keyword:
 - content: LRMI
 - content: DCMI
 - content: DC
-doctype: standard
-editorialgroup:
-  committee:
-  - Learning Technology of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Learning Technology of the IEEE Computer Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

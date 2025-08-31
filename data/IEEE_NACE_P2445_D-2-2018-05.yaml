@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-NACEP2445-D-2-2018-05
 title:
 - content: IEEE/NACE Draft Standard Practice - Inspection and Assessment of Below
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE/NACE P2445/D-2-2018-05
 date:
 - type: created
-  value: '2018'
+  value: '2018-06-28'
 - type: published
   value: '2018-06-30'
 - type: issued
@@ -67,12 +67,13 @@ keyword:
 - content: Steel
 - content: Atmospheric measurements
 - content: Maintenance engineering
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

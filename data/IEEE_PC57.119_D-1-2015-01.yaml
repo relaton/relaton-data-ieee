@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.119-D-1-2015-01
 title:
 - content: IEEE Draft Recommended Practice for Performing Temperature Rise Tests on
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.119-2001
+    id: IEEEStdC57.119-2001
     docid:
-    - id: IEEE C57.119-2001
+    - id: IEEE Std C57.119-2001
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.119-2001
+      content: IEEE Std C57.119-2001
       format: text/plain
   description:
     content: revises
@@ -107,15 +107,13 @@ keyword:
 - content: rated load
 - content: thermal capacity
 - content: top oil temperature
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

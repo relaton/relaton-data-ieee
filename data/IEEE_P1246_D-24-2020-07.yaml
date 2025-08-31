@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1246-D-24-2020-07
 title:
 - content: IEEE Draft Guide for Temporary Protective Grounding Systems Used in Substations
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1246/D-24-2020-07
 date:
 - type: created
-  value: '2020'
+  value: '2020-07-16'
 - type: published
   value: '2020-07-20'
 - type: issued
@@ -68,13 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1246-2011
+    id: IEEEStd1246-2011
     docid:
-    - id: IEEE 1246-2011
+    - id: IEEE Std 1246-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1246-2011
+      content: IEEE Std 1246-2011
       format: text/plain
   description:
     content: revises
@@ -85,13 +85,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE1246-2011
+    id: IEEEStd1246-2011
     docid:
-    - id: IEEE 1246-2011
+    - id: IEEE Std 1246-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1246-2011
+      content: IEEE Std 1246-2011
       format: text/plain
   description:
     content: revises
@@ -114,15 +114,13 @@ keyword:
 - content: temporary grounding
 - content: ultimate rating
 - content: withstand rating
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

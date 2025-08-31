@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1770-D-2-2021-01
 title:
 - content: IEEE Draft Recommended Practice for The Usage of Terms Commonly Employed
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2021-04-26'
 - type: issued
-  value: '2021'
+  value: '2021-11-09'
 contributor:
 - organization:
     name:
@@ -47,10 +47,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This Recommended Practice defines common terms in large-signal vector network
-    analysis. Some fundamental terms used in small-signal vector network analysis
-    that are also commonly used in large-signal vector network analysis are covered
-    as well.
+- content: Common terms in large-signal vector network analysis are defined in this
+    recommended practice. Some fundamental terms used in small-signal vector network
+    analysis that are also commonly used in large-signal vector network analysis are
+    covered as well.
   language:
   - en
   script:
@@ -71,20 +71,22 @@ keyword:
 - content: IEEE Standards
 - content: Vectors
 - content: Network analyzers
-- content: Definitions
+- content: definitions
+- content: IEEE 1770
 - content: large-signal network analysis
 - content: small-signal network analysis
-- content: vector network analysis.
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Microwave Theory and Techniques Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
+- content: vector network analysis
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Microwave Theory and Techniques Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC37.12-1981
 title:
 - content: American Standard Guide to s AC High-Voltage Circuit Breakers Rated on
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2016-04-22'
 - type: created
-  value: '1981'
+  value: '1981-03-25'
 - type: published
   value: '2016-03-25'
 - type: issued
@@ -98,9 +98,10 @@ keyword:
 - content: High voltage techniques
 - content: AC machines
 - content: Current distribution
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

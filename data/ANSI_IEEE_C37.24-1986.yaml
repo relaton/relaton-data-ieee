@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEC37.24-1986
 title:
 - content: IEEE Guide for Evaluating the Effect of Solar Radiation on Outdoor Metal-Enclosed
@@ -7,7 +7,7 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/1106069
+- content: https://ieeexplore.ieee.org/document/8684555
   type: src
 type: standard
 docid:
@@ -20,12 +20,14 @@ docid:
   primary: true
 - id: 978-0-7381-1060-8
   type: ISBN
-- id: 10.1109/IEEESTD.1986.94152
+- id: 10.1109/IEEESTD.1988.8684555
   type: DOI
 docnumber: ANSI/IEEE C37.24-1986
 date:
 - type: created
-  value: '1986'
+  value: '1988-03-29'
+- type: published
+  value: '2019-04-05'
 - type: issued
   value: '1986-09-18'
 contributor:
@@ -41,10 +43,24 @@ contributor:
         country: USA
   role:
   - type: publisher
+revdate: '2019-04-05'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: Superseded by C37.24-2003. This IEEE Standards product is part of the C37
+    family on Switchgear, Substations and Protective Relays. This standard applies
+    to all forms of outdoor metal-enclosed switchgear. It covers operating limitations;
+    the effect of ambient temperature, solar radiation, and wind on internal operating
+    temperatures; ventilation and condensation control; enclosure color and finish
+    considerations; current-carrying capabilities of switchgear, and suggested modifications
+    of standard designs.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -53,15 +69,21 @@ copyright:
       content: IEEE
     url: http://www.ieee.org
   from: '1986'
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
+keyword:
+- content: switchgear
+- content: Thermal factors
+- content: Switches
+- content: Solar radiation
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.5-2017
 title:
 - content: American National Standard for Electromagnetic Compatibility--Radiated
@@ -48,6 +48,20 @@ language:
 script:
 - Latn
 abstract:
+- content: Methods for determining antenna factors of antennas used for radiated emission
+    measurements in electromagnetic interference (EMI) control from 9 kHz to 40 GHz
+    are provided. Antennas included are linearly polarized antennas such as loops,
+    rods (monopoles), tuned dipoles, biconical dipoles, log-periodic dipole arrays,
+    biconical and log-periodic dipole array hybrids, broadband horns, etc., that are
+    used in measurements prescribed by ANSI C63.4 and ANSI C63.10. The antenna calibration
+    methods include standard site method (i.e., three-antenna method), reference antenna
+    method, equivalent capacitance substitution method, standard transmit loop method,
+    standard antenna method, and standard field method.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 - content: Methods for determining antenna factors of antennas used for radiated emission
     measurements in electromagnetic interference (EMI) control from 9 kHz to 40 GHz
     are provided. Antennas included are linearly polarized antennas such as loops,
@@ -116,15 +130,16 @@ keyword:
 - content: standard antenna method
 - content: standard site method
 - content: standard transmit loop method
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Electromagnetic Compatibility Society
-ics:
-- code: 33.100.10
-  text: Emission
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Electromagnetic Compatibility Society
+  ics:
+  - code: 33.100.10
+    text: Emission
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

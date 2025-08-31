@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3333.1.4-D-1.2-2022
 title:
 - content: IEEE Approved Draft Recommended Practice for the Quality Assessment of
@@ -86,12 +86,16 @@ keyword:
 - content: psycho-physical studies
 - content: quality assessment
 - content: subjective tests
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board of the IEEE Computer Society
+  ics:
+  - code: 37.040.99
+    text: Other standards related to photography
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

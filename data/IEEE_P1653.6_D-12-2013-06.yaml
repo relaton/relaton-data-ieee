@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1653.6-D-12-2013-06
 title:
 - content: IEEE Draft Recommended Practice for Grounding of Direct Current Equipment
@@ -84,9 +84,7 @@ keyword:
 - content: grounding
 - content: equipment ground
 - content: enclosure ground
-- content: grounding
 - content: bonding
-- content: dc
 - content: distribution facilities
 - content: traction power
 - content: switchgear
@@ -125,15 +123,16 @@ keyword:
 - content: '64'
 - content: 64M
 - content: 64MR
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
-ics:
-- code: '29.280'
-  text: Electric traction equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
+  ics:
+  - code: '29.280'
+    text: Electric traction equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP20000.2-D-1-2012
 title:
 - content: 'Draft Standard for Adoption of ISO/IEC 20000-2:2012, Information technology
@@ -87,17 +87,19 @@ keyword:
 - content: service management system
 - content: SMS
 - content: continual service improvement
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: 03.080.99
-  text: Other services
-- code: '35.020'
-  text: Information technology in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: 03.080.99
+    text: Other services
+  - code: '35.020'
+    text: Information technology in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

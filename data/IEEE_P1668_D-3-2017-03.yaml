@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1668-D-3-2017-03
 title:
 - content: IEEE Approved Draft Recommended Practice for Voltage Sag and Short Interruption
@@ -85,15 +85,16 @@ keyword:
 - content: voltage dip
 - content: voltage sag
 - content: voltage-sag characteristics
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Systems Engineering of the IEEE Industry Applications Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power Systems Engineering of the IEEE Industry Applications Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

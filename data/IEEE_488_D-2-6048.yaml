@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE488-D-2-6048
 title:
 - content: 'IEC/IEEE International - Standard Digital Interface for Programmable Instrumentation
@@ -84,21 +84,22 @@ keyword:
 - content: commands
 - content: deminitions
 - content: instrument system applications
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
-- code: 25.040.40
-  text: Industrial process measurement and control
-- code: '35.040'
-  text: Character sets and information coding
-- code: '35.200'
-  text: Interface and interconnection equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: '35.040'
+    text: Character sets and information coding
+  - code: '35.200'
+    text: Interface and interconnection equipment
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

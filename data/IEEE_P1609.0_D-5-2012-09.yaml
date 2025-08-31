@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1609.0-D-5-2012-09
 title:
 - content: IEEE Draft Guide for Wireless Access in Vehicular Environments (WAVE) -
@@ -86,15 +86,16 @@ keyword:
 - content: OBU
 - content: WSM
 - content: PSID
-doctype: standard
-editorialgroup:
-  committee:
-  - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
-ics:
-- code: 35.240.60
-  text: IT applications in transport and trade
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Intelligent Transportation Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport and trade
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1547.9-D-5.1-2021-09
 title:
 - content: IEEE Draft Guide to Using IEEE Std 1547(TM) for Interconnection of Energy
@@ -51,8 +51,8 @@ abstract:
     distributed energy resources (ES DER) to electric power systems (EPSs) is described
     in this guide. Along with examples of such interconnection, guidance on prudent
     and technically sound approaches to these interconnections is also given. The
-    guide’s scope includes ES DER that are capable of exporting real power to an EPS.
-    The guide also considers energy storage-related topics that are not currently
+    guide’s scope includes ES DER that are capable of exporting active power to an
+    EPS. The guide also considers energy storage-related topics that are not currently
     addressed or fully covered in IEEE Std 1547-2018 and sets a basis for future development
     of industry best practices for ES DER-specific interconnection requirements that
     could be considered in future revisions of IEEE Std 1547.
@@ -73,6 +73,13 @@ copyright:
     url: http://www.ieee.org
   from: '2021'
 keyword:
+- content: IEEE Standards
+- content: Energy storage
+- content: Frequency response
+- content: Power systems
+- content: Interoperability
+- content: Distributed power generation
+- content: Resource management
 - content: active power export
 - content: bidirectional
 - content: black start participation
@@ -104,13 +111,14 @@ keyword:
 - content: testing
 - content: use cases
 - content: vehicle-to-grid
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

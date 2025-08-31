@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2426-D-6.1-2023-09
 title:
 - content: 'IEEE Draft Guide for Field Measurement of Fast-Front and Very Fast-Front
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-09-27'
 - type: issued
-  value: '2023'
+  value: '2024-02-15'
 contributor:
 - organization:
     name:
@@ -47,10 +47,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The definition, formation, and characteristics of fast-front and very fast-front
-    overvoltages are introduced. The various measuring techniques, including technical
-    details that may be adopted for field application, are also described. Field measurement
-    results measured in this guide are included for reference.
+- content: Introduced in this guide are the definition, formation, and characteristics
+    of fast-front and very fast-front overvoltages. The various measuring techniques,
+    including technical details that may be adopted for field application, are also
+    described. Field measurement results measured using the techniques described in
+    this guide are included for reference.
   language:
   - en
   script:
@@ -68,23 +69,37 @@ copyright:
     url: http://www.ieee.org
   from: '2023'
 keyword:
-- content: fast-front overvoltage
-- content: very fast-front overvoltage
-- content: field measurement
-- content: gas insulated switchgear
+- content: IEEE Standards
+- content: Voltage control
+- content: Measurement
+- content: Substations
+- content: Insulation testing
+- content: Sensors
+- content: Insulators
+- content: Signal processing
+- content: Recording
 - content: air insulated substation
 - content: capacitive sensor
 - content: electric field sensor
-- content: transformer bushing sensor
-- content: signal transmission method
+- content: fast-front overvoltage
+- content: field measurement
+- content: gas insulated switchgear
+- content: IEEE 2426
 - content: recording instrument
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Instrumentation and Measurements of the IEEE Power and Energy Society
+- content: signal transmission method
+- content: transformer bushing sensor
+- content: very fast-front overvoltage
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Instrumentation and Measurements of the IEEE Power and Energy Society
+  ics:
+  - code: '19.080'
+    text: Electrical and electronic testing
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

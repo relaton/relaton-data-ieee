@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE1.2345-D-6.7-2013-06
 title:
 - content: IEEE Draft Standard for Military Workplaces--Force Health Protection Regarding
@@ -97,15 +97,16 @@ keyword:
 - content: specific absorption rate (SAR)
 - content: unrestricted environment
 - content: restricted expert only zone.
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '95.020'
-  text: Military engineering. Military affairs. Weapons
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: '95.020'
+    text: Military engineering. Military affairs. Weapons
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

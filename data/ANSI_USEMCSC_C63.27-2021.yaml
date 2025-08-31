@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-USEMCSCC63.27-2021
 title:
 - content: American National Standard for Evaluation of Wireless Coexistence
@@ -90,23 +90,6 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ANSIC63.27-2017
-    docid:
-    - id: ANSI C63.27-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ANSI C63.27-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: Electromagnetic compatibility
@@ -122,17 +105,18 @@ keyword:
 - content: RF
 - content: RFI
 - content: susceptibility
-doctype: standard
-editorialgroup:
-  committee:
-  - Accredited Standards Committee on Electromagnetic Compatibility
-ics:
-- code: 33.060.20
-  text: Receiving and transmitting equipment
-- code: 33.100.01
-  text: Electromagnetic compatibility in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Accredited Standards Committee on Electromagnetic Compatibility
+  ics:
+  - code: 33.060.20
+    text: Receiving and transmitting equipment
+  - code: 33.100.01
+    text: Electromagnetic compatibility in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

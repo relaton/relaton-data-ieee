@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE15026.1-2019
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering--Systems
@@ -24,10 +24,8 @@ docid:
   type: DOI
 docnumber: ISO/IEC/IEEE 15026.1-2019
 date:
-- type: updated
-  value: '2020-05-22'
 - type: created
-  value: '2019'
+  value: '2019-03-01'
 - type: published
   value: '2019-03-01'
 - type: issued
@@ -63,6 +61,18 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This document defines assurance-related terms and establishes an organized
+    set of concepts and their relationships, thereby establishing a basis for shared
+    understanding of the concepts and principles central to all parts of ISO/IEC/IEEE
+    15026 across its user communities. It provides information to users of the subsequent
+    parts of ISO/IEC/IEEE 15026, including the use of each part and the combined use
+    of multiple parts. Coverage of assurance for a service being operated and managed
+    on an ongoing basis is not covered in the ISO/IEC/IEEE 15026 series.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -78,6 +88,24 @@ copyright:
   - name:
     - content: IEC
   from: '2019'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd15026.1-2014
+    docid:
+    - id: IEEE Std 15026.1-2014
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 15026.1-2014
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: ISO Standards
@@ -85,15 +113,17 @@ keyword:
 - content: Systems engineering and theory
 - content: Software engineering
 - content: Terminology
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

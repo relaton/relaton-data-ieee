@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.92.4-D-1-2024-12
 title:
 - content: 'IEEE Draft Guide for the Application of Neutral Grounding in Electrical
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC62.92.4/D-1-2024-12
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-26'
 - type: published
   value: '2024-06-27'
 - type: issued
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC62.92.4-2014
+    id: IEEEStdC62.92.4-2014
     docid:
-    - id: IEEE C62.92.4-2014
+    - id: IEEE Std C62.92.4-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C62.92.4-2014
+      content: IEEE Std C62.92.4-2014
       format: text/plain
   description:
     content: revises
@@ -90,6 +90,10 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Grounding
+- content: Power distribution
+- content: Electricity supply industry
 - content: distribution-system grounding
 - content: distribution systems
 - content: electric utilities
@@ -97,15 +101,16 @@ keyword:
 - content: IEEE C62.92.4&#8482;
 - content: neutral grounding
 - content: primary distribution systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices Committee of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Surge Protective Devices Committee of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

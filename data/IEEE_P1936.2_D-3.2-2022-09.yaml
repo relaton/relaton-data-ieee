@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1936.2-D-3.2-2022-09
 title:
 - content: IEEE Approved Draft Standard for Photogrammetric Technical Standard of
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P1936.2/D-3.2-2022-09
 date:
 - type: created
-  value: '2022-02-21'
+  value: '2023-02-21'
 - type: published
   value: '2022-11-10'
 - type: issued
@@ -87,13 +87,17 @@ keyword:
 - content: light and small UAS photography
 - content: overhead transmission line
 - content: photograph control survey
-doctype: standard
-editorialgroup:
-  committee:
-  - Unmanned Aerial Vehicles Communications Standards Committee of the IEEE Communications
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Unmanned Aerial Vehicles Communications Standards Committee of the IEEE Communications
+      Society
+  ics:
+  - code: '49.020'
+    text: Aircraft and space vehicles in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1799-D-20-2022-04
 title:
 - content: IEEE Approved Draft Recommended Practice for Quality Control Testing of
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1799/D-20-2022-04
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-22'
 - type: published
   value: '2022-04-14'
 - type: issued
@@ -69,81 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1799-2012
+    id: IEEEStd1799-2012
     docid:
-    - id: IEEE 1799-2012
+    - id: IEEE Std 1799-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1799-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1799-2012
-    docid:
-    - id: IEEE 1799-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1799-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1799-2012
-    docid:
-    - id: IEEE 1799-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1799-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1799-2012
-    docid:
-    - id: IEEE 1799-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1799-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1799-2012
-    docid:
-    - id: IEEE 1799-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1799-2012
+      content: IEEE Std 1799-2012
       format: text/plain
   description:
     content: revises
@@ -168,15 +100,16 @@ keyword:
 - content: IEEE 1799
 - content: stator winding
 - content: ultraviolet radiation
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.160.01
-  text: Rotating machinery in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: 29.160.01
+    text: Rotating machinery in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

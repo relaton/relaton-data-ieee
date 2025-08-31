@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3bt-D-3.7-2018-07
 title:
 - content: 'IEEE Draft Standard for Ethernet - Amendment 2: Power over Ethernet over
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P802.3bt/D-3.7-2018-07
 date:
 - type: created
-  value: '2018'
+  value: '2018-07-19'
 - type: published
   value: '2018-07-20'
 - type: issued
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2018
+    id: IEEEStd802.3-2018
     docid:
-    - id: IEEE 802.3-2018
+    - id: IEEE Std 802.3-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2018
+      content: IEEE Std 802.3-2018
       format: text/plain
   description:
     content: amends
@@ -95,22 +95,19 @@ keyword:
 - content: Passive optical  networks
 - content: amendment
 - content: DTE power via MDI
-- content: Ethernet
 - content: IEEE 802.3(TM)
 - content: IEEE 802.3bt(TM)
 - content: PoE
 - content: Power over Ethernet
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

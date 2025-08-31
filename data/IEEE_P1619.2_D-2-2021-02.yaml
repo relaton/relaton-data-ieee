@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1619.2-D-2-2021-02
 title:
 - content: IEEE Approved Draft Standard for Wide-Block Encryption for Shared Storage
@@ -73,200 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1619.2-2010
+    id: IEEEStd1619.2-2010
     docid:
-    - id: IEEE 1619.2-2010
+    - id: IEEE Std 1619.2-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1619.2-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1619.2-2010
-    docid:
-    - id: IEEE 1619.2-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1619.2-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1619.2-2010
-    docid:
-    - id: IEEE 1619.2-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1619.2-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1619.2-2010
-    docid:
-    - id: IEEE 1619.2-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1619.2-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1619.2-2010
-    docid:
-    - id: IEEE 1619.2-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1619.2-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1619.2-2010
-    docid:
-    - id: IEEE 1619.2-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1619.2-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1619.2-2010
-    docid:
-    - id: IEEE 1619.2-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1619.2-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1619.2-2010
-    docid:
-    - id: IEEE 1619.2-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1619.2-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1619.2-2010
-    docid:
-    - id: IEEE 1619.2-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1619.2-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1619.2-2010
-    docid:
-    - id: IEEE 1619.2-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1619.2-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1619.2-2010
-    docid:
-    - id: IEEE 1619.2-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1619.2-2010
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1619.2-2010
-    docid:
-    - id: IEEE 1619.2-2010
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1619.2-2010
+      content: IEEE Std 1619.2-2010
       format: text/plain
   description:
     content: revises
@@ -289,18 +102,19 @@ keyword:
 - content: IEEE 1619.2
 - content: security
 - content: storage
-doctype: standard
-editorialgroup:
-  committee:
-  - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.040'
-  text: Information coding
-- code: 35.240.60
-  text: IT applications in transport
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.040'
+    text: Information coding
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

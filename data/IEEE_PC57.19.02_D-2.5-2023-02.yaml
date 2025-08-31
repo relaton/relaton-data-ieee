@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.19.02-D-2.5-2023-02
 title:
 - content: IEEE Approved Draft Standard for the Design and Performance Requirements
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC57.19.02/D-2.5-2023-02
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-12'
 - type: published
   value: '2023-02-16'
 - type: issued
@@ -80,15 +80,16 @@ keyword:
 - content: bushings
 - content: distribution transformers
 - content: IEEE C57.19.02&#8482;
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.60-IEC62271.111-D-6-2009
 title:
 - content: IEC/IEEE Draft International Standard for Automatic Circuit Reclosers and
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.60/D-6-2009
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-27'
 - type: published
   value: '2010-07-29'
 - type: issued
@@ -83,15 +83,16 @@ keyword:
 - content: switchgear
 - content: IEC 62271-111
 - content: C37.60
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

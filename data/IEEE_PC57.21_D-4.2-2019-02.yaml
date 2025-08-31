@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.21-D-4.2-2019-02
 title:
 - content: IEEE Draft Standard Requirements, Terminology, and Test Code for Shunt
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.21-2008
+    id: IEEEStdC57.21-2008
     docid:
-    - id: IEEE C57.21-2008
+    - id: IEEE Std C57.21-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.21-2008
+      content: IEEE Std C57.21-2008
       format: text/plain
   description:
     content: revises
@@ -92,13 +92,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEEC57.21-2008
+    id: IEEEStdC57.21-2008
     docid:
-    - id: IEEE C57.21-2008
+    - id: IEEE Std C57.21-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.21-2008
+      content: IEEE Std C57.21-2008
       format: text/plain
   description:
     content: revises
@@ -118,15 +118,13 @@ keyword:
 - content: dry-type shunt reactor
 - content: IEEE C57.21&#8482;
 - content: liquid-immersed shunt reactor
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.250-D-1.30-2019-11
 title:
 - content: IEEE Approved Draft Guide for Engineering, Implementation, and Management
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PC37.250/D-1.30-2019-11
 date:
 - type: created
-  value: '2020'
+  value: '2020-03-05'
 - type: published
   value: '2020-03-10'
 - type: issued
@@ -84,12 +84,13 @@ keyword:
 - content: stability
 - content: System Integrity Protection Scheme
 - content: system performance
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

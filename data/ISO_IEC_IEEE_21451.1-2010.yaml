@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE21451.1-2010
 title:
 - content: 'ISO/IEC/IEEE Information technology -- Smart transducer interface for
@@ -60,6 +60,16 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Adoption of IEEE Std 1451.1-1999. This standard defines an object model
+    with a network-neutral interface for connecting processors to communication networks,
+    sensors, and actuators. The object model containing blocks, services, and components
+    specifies interactions with sensors and actuators and forms the basis for implementing
+    application code executing in the processor.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -84,19 +94,20 @@ keyword:
 - content: communication network
 - content: object model
 - content: sensors
-doctype: standard
-editorialgroup:
-  committee:
-  - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
-ics:
-- code: 25.040.40
-  text: Industrial process measurement and control
-- code: '35.040'
-  text: Character sets and information coding
-- code: 35.240.50
-  text: IT applications in industry
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: '35.040'
+    text: Character sets and information coding
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

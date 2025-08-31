@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEEE11073.10421-2024
 title:
 - content: 'ISO/IEEE International Standard: Health informatics—Device interoperability—Part
@@ -82,13 +82,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE11073.10421-2023
+    id: IEEEStd11073.10421-2023
     docid:
-    - id: IEEE 11073.10421-2023
+    - id: IEEE Std 11073.10421-2023
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10421-2023
+      content: IEEE Std 11073.10421-2023
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -106,18 +106,19 @@ keyword:
 - content: peak expiratory flow monitor
 - content: peak flow
 - content: personal health devices
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 11.040.55
-  text: Diagnostic equipment
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 11.040.55
+    text: Diagnostic equipment
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

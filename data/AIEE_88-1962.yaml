@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE88-1962
 title:
 - content: AIEE Proposed Standard for Definitions of Terms Associated With Telemetering
@@ -24,7 +24,7 @@ docid:
 docnumber: AIEE 88-1962
 date:
 - type: created
-  value: '1962'
+  value: '1962-04-25'
 - type: published
   value: '2016-03-25'
 - type: issued
@@ -60,6 +60,12 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Definitions of terms associated with Telemetering
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: withdrawn
@@ -73,9 +79,10 @@ keyword:
 - content: Telemeters
 - content: Meter reading
 - content: Terminology
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

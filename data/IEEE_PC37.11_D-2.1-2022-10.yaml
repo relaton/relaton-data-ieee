@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.11-D-2.1-2022-10
 title:
 - content: IEEE Approved Draft Standard for Electrical Control for AC High-Voltage
@@ -72,47 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.11-2014
+    id: IEEEStdC37.11-2014
     docid:
-    - id: IEEE C37.11-2014
+    - id: IEEE Std C37.11-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.11-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.11-2014
-    docid:
-    - id: IEEE C37.11-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.11-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.11-2014
-    docid:
-    - id: IEEE C37.11-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.11-2014
+      content: IEEE Std C37.11-2014
       format: text/plain
   description:
     content: revises
@@ -145,15 +111,16 @@ keyword:
 - content: opening
 - content: reclosing
 - content: tripping
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

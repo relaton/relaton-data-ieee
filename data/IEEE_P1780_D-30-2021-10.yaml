@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1780-D-30-2021-10
 title:
 - content: IEEE Draft Standard for the Specification of Inertial Measurement Units
@@ -76,12 +76,13 @@ keyword:
 - content: inertial measurement unit
 - content: inertial system
 - content: specification
-doctype: standard
-editorialgroup:
-  committee:
-  - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

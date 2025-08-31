@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3652.1-D-6-2020-04
 title:
 - content: IEEE Draft Guide for Architectural Framework and Application of Federated
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P3652.1/D-6-2020-04
 date:
 - type: created
-  value: '2020'
+  value: '2020-06-01'
 - type: published
   value: '2020-07-07'
 - type: issued
@@ -81,7 +81,6 @@ keyword:
 - content: Privacy
 - content: Security
 - content: Performance evaluation
-- content: Security
 - content: Computational efficiency
 - content: computation efficiency
 - content: economic viability
@@ -93,12 +92,13 @@ keyword:
 - content: privacy
 - content: privacy regulations
 - content: security
-doctype: standard
-editorialgroup:
-  committee:
-  - Learning Technology of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Learning Technology of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

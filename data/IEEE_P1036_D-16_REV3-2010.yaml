@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1036-D-16_Rev3-2010
 title:
 - content: IEEE Draft Guide for Application of Shunt Power Capacitors
@@ -82,15 +82,16 @@ keyword:
 - content: externally fused
 - content: internally fused
 - content: fuseless
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power &amp; Energy Society
-ics:
-- code: 31.060.70
-  text: Power capacitors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 31.060.70
+    text: Power capacitors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

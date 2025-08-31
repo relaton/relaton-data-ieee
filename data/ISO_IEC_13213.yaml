@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC13213
 title:
 - content: ISO/IEC/IEEE International Standard for Information technology--Microprocessor
@@ -83,15 +83,16 @@ keyword:
 - content: node addressing
 - content: registers
 - content: transaction sets
-doctype: standard
-editorialgroup:
-  committee:
-  - Microprocessor Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.160'
-  text: Microprocessor systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1015-D-1-Cor1-2007
 title:
 - content: 'Approved IEEE Draft Recommended Practice for Applying Low Voltage Circuit
@@ -63,12 +63,13 @@ keyword:
 - content: Low voltage
 - content: Industrial power systems
 - content: IEEE Standards activities
-doctype: standard
-ics:
-- code: 29.060.20
-  text: Cables
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

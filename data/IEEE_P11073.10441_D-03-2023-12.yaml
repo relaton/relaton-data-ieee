@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10441-D-03-2023-12
 title:
 - content: 'IEEE Draft Standard - Health Informatics--Personal health device communication
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-12-12'
 - type: issued
-  value: '2023'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE11073.10441-2013
+    id: IEEEStd11073.10441-2013
     docid:
-    - id: IEEE 11073.10441-2013
+    - id: IEEE Std 11073.10441-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 11073.10441-2013
+      content: IEEE Std 11073.10441-2013
       format: text/plain
   description:
     content: revises
@@ -103,19 +103,20 @@ keyword:
 - content: IEEE 11073-10441
 - content: medical device communication
 - content: personal health devices
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
-ics:
-- code: 35.240.80
-  text: IT applications in health care technology
-- code: 11.040.55
-  text: Diagnostic equipment
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 11.040.55
+    text: Diagnostic equipment
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

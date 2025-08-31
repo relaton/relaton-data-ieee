@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.41.3-D-4-2019-08
 title:
 - content: IEEE Draft Guide for Interactions Between Power System Disturbances and
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC62.48-2005
+    id: IEEEStdC62.48-2005
     docid:
-    - id: IEEE C62.48-2005
+    - id: IEEE Std C62.48-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C62.48-2005
+      content: IEEE Std C62.48-2005
       format: text/plain
   description:
     content: revises
@@ -102,15 +102,13 @@ keyword:
 - content: swell
 - content: voltage sag
 - content: voltage surge.
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

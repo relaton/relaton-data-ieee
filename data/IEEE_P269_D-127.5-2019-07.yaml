@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP269-D-127.5-2019-07
 title:
 - content: IEEE Draft Standard for Measuring Electroacoustic Performance of Communication
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P269/D-127.5-2019-07
 date:
 - type: created
-  value: '2019'
+  value: '2019-07-31'
 - type: published
   value: '2019-08-01'
 - type: issued
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE269-2010
+    id: IEEEStd269-2010
     docid:
-    - id: IEEE 269-2010
+    - id: IEEE Std 269-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 269-2010
+      content: IEEE Std 269-2010
       format: text/plain
   description:
     content: revises
@@ -119,15 +119,13 @@ keyword:
 - content: voice transmission performance
 - content: wearables
 - content: Wi-F(R) terminals
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Development Board of the IEEE Communications Society
-ics:
-- code: 33.050.10
-  text: Telephone equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 33.050.10
+    text: Telephone equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

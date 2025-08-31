@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.15.10a-D-02-2018-09
 title:
 - content: IEEE Draft Recommended Practice for Routing Packets in IEEE 802.15.4 Dynamically
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.15.10-2017
+    id: IEEEStd802.15.10-2017
     docid:
-    - id: IEEE 802.15.10-2017
+    - id: IEEE Std 802.15.10-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.15.10-2017
+      content: IEEE Std 802.15.10-2017
       format: text/plain
   description:
     content: amends
@@ -110,15 +110,13 @@ keyword:
     3 mechanisms)
 - content: support for broadcast
 - content: support for multicast
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

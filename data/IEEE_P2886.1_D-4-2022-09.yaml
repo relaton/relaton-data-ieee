@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2886.1-D-4-2022-09
 title:
-- content: 'IEEE Approved Draft Standard for Device Trusted Extension: Software Architecture'
+- content: 'IEEE Draft Standard for Device Trusted Extension: Software Architecture'
   format: text/plain
   type: main
 link:
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2886.1/D-4-2022-09
 date:
 - type: created
-  value: '2023'
+  value: '2023-03-01'
 - type: published
   value: '2023-03-02'
 - type: issued
@@ -46,9 +46,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the software architecture of a Device Trusted Extension
-    system in a hierarchical way, maps the security components to the layers, and
-    defines the security components.
+- content: The software architecture of a device trusted extension system (DTX) is
+    described in a hierarchal way, the security components to the layers are mapped,
+    and the security components are defined by this document.
   language:
   - en
   script:
@@ -69,17 +69,24 @@ keyword:
 - content: IEEE Standards
 - content: Software architecture
 - content: Trusted computing
-- content: Device Trusted Extension
+- content: device trusted extension
 - content: DTX
-- content: Trusted
+- content: IEEE 2866.1&#8482;
 - content: software architecture
-doctype: standard
-editorialgroup:
-  committee:
-  - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+- content: trusted
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: '35.030'
+    text: IT Security
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

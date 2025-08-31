@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-USEMCSCC63.25.2-2024
 title:
 - content: American National Standard for Validation Methods for Radiated Emission
@@ -25,7 +25,7 @@ docid:
 docnumber: ANSI/USEMCSC C63.25.2-2024
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-22'
 - type: published
   value: '2024-07-23'
 - type: issued
@@ -90,12 +90,16 @@ keyword:
 - content: antennas
 - content: normalized site attenuation
 - content: site validation
-doctype: standard
-editorialgroup:
-  committee:
-  - Committee on Electromagnetic Compatibility
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Committee on Electromagnetic Compatibility
+  ics:
+  - code: 33.100.01
+    text: Electromagnetic compatibility in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

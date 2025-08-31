@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2797-D-5-2024-08
 title:
-- content: IEEE Draft Guide for Forecast and Early Warning of Icing on Overhead Transmission
-    Lines in Micro-topographic Areas
+- content: IEEE Approved Draft Guide for Forecast and Early Warning of Icing on Overhead
+    Transmission Lines in Micro-topographic Areas
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P2797/D-5-2024-08
 date:
 - type: created
-  value: '2024-08-28'
+  value: '2024-12-19'
 - type: published
   value: '2024-08-29'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -47,13 +47,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This guide is applicable to the prediction and early warning of icing on
-    overhead transmission lines (OHLs) in micro-topographic areas, presenting criteria
-    for identifying micro topographic areas and methods for predicting the icing thickness
-    of OHLs. This guide aims to provide guidelines for the observation, monitoring,
-    prediction, early warning, and melting of ice on OHLs in micro-topographic areas,
-    serving as references for anti-icing design and maintenance of OHLs in icing prone
-    areas.
+- content: This guide is applicable to The prediction and early warning of icing on
+    overhead transmission lines (OHLs) in micro-topographic areas is covered in this
+    guide. Criteria for identifying micro-topographic areas and methods for predicting
+    the icing thickness of OHLs is presented. This guide aims to provide guidelines
+    for the observation, monitoring, prediction, early warning, and melting of ice
+    on OHLs in micro-topographic areas, serving as references for anti-icing design
+    and maintenance of OHLs in icing-prone areas.
   language:
   - en
   script:
@@ -76,21 +76,23 @@ keyword:
 - content: Ice thickness
 - content: Environmental monitoring
 - content: Terrain mapping
-- content: micro-topographic areas
-- content: overhead transmission lines (OHLs)
-- content: manual ice observation
-- content: online icing monitoring
+- content: de-icing
 - content: equivalent ice thickness
 - content: icing prediction
-- content: de-icing
-- content: IEEE 2797TM
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
+- content: IEEE 2797™
+- content: manual ice observation
+- content: micro-topographic areas
+- content: OHLs
+- content: online icing monitoring
+- content: overhead transmission lines
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE431-1958
 title:
 - content: AIEE Proposed Standard for Presenting Data on Magnetic Core Materials
@@ -24,7 +24,7 @@ docid:
 docnumber: AIEE 431-1958
 date:
 - type: created
-  value: '1958'
+  value: '1958-04-23'
 - type: published
   value: '2016-02-25'
 - type: issued
@@ -74,9 +74,10 @@ keyword:
 - content: Magnetic hysteresis
 - content: Magnetic flux
 - content: Toroidal magnetic fields
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

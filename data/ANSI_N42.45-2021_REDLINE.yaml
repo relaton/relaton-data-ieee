@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.45-2021Redline
 title:
 - content: American National Standard for Evaluating the Image Quality of X-ray Computed
@@ -27,7 +27,7 @@ docid:
 docnumber: ANSI N42.45-2021 Redline
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-30'
 - type: published
   value: '2023-02-24'
 - type: issued
@@ -95,11 +95,11 @@ relation:
     format: text/plain
 keyword:
 - content: IEEE Standards
-- content: Computer tomography
 - content: Image quality
 - content: Airports
 - content: Security
 - content: Detectors
+- content: Computed tomography
 - content: ANSI N42.45
 - content: computed tomography
 - content: contraband
@@ -110,17 +110,18 @@ keyword:
 - content: screening
 - content: security
 - content: technical performance
-doctype: redline
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '13.310'
-  text: Protection against crime
-- code: 35.240.60
-  text: IT applications in transport
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '13.310'
+    text: Protection against crime
+  - code: 35.240.60
+    text: IT applications in transport
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

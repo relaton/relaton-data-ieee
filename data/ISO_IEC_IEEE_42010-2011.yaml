@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE42010-2011
 title:
 - content: ISO/IEC/IEEE Systems and software engineering -- Architecture description
@@ -74,24 +74,6 @@ copyright:
   - name:
     - content: IEC
   from: '2011'
-relation:
-- type: updates
-  bibitem:
-    id: IEEE1471-2000
-    docid:
-    - id: IEEE 1471-2000
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1471-2000
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE standards
 - content: Software engineering
@@ -109,15 +91,17 @@ keyword:
 - content: correspondence rule
 - content: IEEE 42010
 - content: system concern
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Reserved
   pubstatus: Active

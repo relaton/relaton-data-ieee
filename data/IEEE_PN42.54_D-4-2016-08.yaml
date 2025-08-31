@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPN42.54-D-4-2016-08
 title:
 - content: Draft American National Standard Instrumentation and Systems for Monitoring
@@ -86,12 +86,13 @@ keyword:
 - content: radioiodine
 - content: transuranic
 - content: tritium
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

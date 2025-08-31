@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.109-D-3.4-2023-01
 title:
 - content: IEEE Draft Guide for the Protection of Shunt Reactors
@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2023-01-24'
 - type: issued
-  value: '2023'
+  value: '2023-12-06'
 contributor:
 - organization:
     name:
@@ -46,9 +46,9 @@ language:
 script:
 - Latn
 abstract:
-- content: A comprehensive guide to the methods and configurations for the protection
-    of power system shunt reactors is provided in this guide. The protection of oil-immersed
-    reactors equipped with auxiliary power windings, improved turn-to-turn fault protection,
+- content: A guide to the methods and configurations for the protection of power system
+    shunt reactors is provided in this guide. The protection of oil-immersed reactors
+    equipped with auxiliary power windings, improved turn-to-turn fault protection,
     and use of digital (microprocessor-based) protection for shunt reactors are included.
   language:
   - en
@@ -69,47 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.109-2006
+    id: IEEEStdC37.109-2006
     docid:
-    - id: IEEE C37.109-2006
+    - id: IEEE Std C37.109-2006
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.109-2006
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.109-2006
-    docid:
-    - id: IEEE C37.109-2006
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.109-2006
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.109-2006
-    docid:
-    - id: IEEE C37.109-2006
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.109-2006
+      content: IEEE Std C37.109-2006
       format: text/plain
   description:
     content: revises
@@ -132,8 +98,11 @@ keyword:
 - content: air-core
 - content: auxiliary power winding
 - content: circuit switcher
+- content: dry-type
 - content: dry-type reactors
-- content: microprocessor based relays
+- content: IEEE C37.109&#8482;
+- content: iron-core
+- content: microprocessor-based relays
 - content: neutral reactor
 - content: oil-immersed
 - content: pole disagreement
@@ -145,15 +114,16 @@ keyword:
 - content: shunt reactors
 - content: turn-to-turn
 - content: voltage-unbalance relaying
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

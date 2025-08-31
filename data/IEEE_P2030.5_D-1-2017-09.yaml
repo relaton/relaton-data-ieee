@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.5-D-1-2017-09
 title:
 - content: IEEE Draft Standard for Smart Energy Profile Application Protocol
@@ -80,13 +80,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE2030.5-2013
+    id: IEEEStd2030.5-2013
     docid:
-    - id: IEEE 2030.5-2013
+    - id: IEEE Std 2030.5-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 2030.5-2013
+      content: IEEE Std 2030.5-2013
       format: text/plain
   description:
     content: revises
@@ -118,17 +118,15 @@ keyword:
 - content: smart energy
 - content: smart energy profile
 - content: Smart Energy Profile 2
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Line Communications of the IEEE Communications Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

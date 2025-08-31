@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3007.3-D-7-2011-11
 title:
 - content: IEEE Draft Recommended Practice for Electrical Safety in Industrial and
@@ -82,15 +82,16 @@ keyword:
 - content: personal protective equipment
 - content: safe electrical work practices
 - content: safety single-line diagram
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee
-ics:
-- code: 91.140.50
-  text: Electricity supply system
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee
+  ics:
+  - code: 91.140.50
+    text: Electricity supply system
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

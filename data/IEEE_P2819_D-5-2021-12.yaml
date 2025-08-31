@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2819-D-5-2021-12
 title:
 - content: IEEE Draft Recommended Practice for Measuring Method of Electromagnetic
@@ -80,19 +80,21 @@ keyword:
 - content: IEEE Standards
 - content: DC machines
 - content: Power transmission
-- content: Electric field measurements
-- content: Power frequency
+- content: Electric fields
+- content: Power systems
+- content: Frequency
 - content: dc electric field
 - content: electric field measurement
 - content: IEEE 2819
 - content: parallel ac/dc power transmission lines
 - content: power frequency electric field
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP45.3-D-1.5-2015-04
 title:
 - content: IEEE Approved Draft Recommended Practice for Shipboard Electrical Installations
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P45.3/D-1.5-2015-04
 date:
 - type: created
-  value: '2015'
+  value: '2015-07-27'
 - type: published
   value: '2015-04-20'
 - type: issued
@@ -81,15 +81,16 @@ keyword:
 - content: baselines
 - content: radial design
 - content: zonal design
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 47.020.60
-  text: Electrical equipment for ships or marine structures
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 47.020.60
+    text: Electrical equipment for ships or marine structures
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

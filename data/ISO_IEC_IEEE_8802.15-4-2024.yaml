@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.15-4-2024
 title:
 - content: 'IEEE/ISO/IEC International Standard -- Information technology -- Telecommunications
@@ -28,7 +28,7 @@ docid:
 docnumber: ISO/IEC/IEEE 8802.15-4-2024
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-26'
 - type: published
   value: '2024-07-25'
 - type: issued
@@ -80,13 +80,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.15.4-2020
+    id: IEEEStd802.15.4-2020
     docid:
-    - id: IEEE 802.15.4-2020
+    - id: IEEE Std 802.15.4-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.15.4-2020
+      content: IEEE Std 802.15.4-2020
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -113,15 +113,16 @@ keyword:
 - content: wireless network
 - content: wireless personal area network
 - content: WPAN
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

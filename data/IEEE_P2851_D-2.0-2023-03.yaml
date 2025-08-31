@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2851-D-2.0-2023-03
 title:
 - content: IEEE Draft Standard for Functional Safety Data Format for Interoperability
@@ -80,19 +80,20 @@ keyword:
 - content: functional safety
 - content: IEEE 2851&#8482;
 - content: interoperability
-doctype: standard
-editorialgroup:
-  committee:
-  - Functional Safety Standards Committee of the IEEE Computer Society
-ics:
-- code: 03.120.10
-  text: Quality management and quality assurance
-- code: '35.080'
-  text: Software
-- code: '43.020'
-  text: Road vehicles in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Functional Safety Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 03.120.10
+    text: Quality management and quality assurance
+  - code: '35.080'
+    text: Software
+  - code: '43.020'
+    text: Road vehicles in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

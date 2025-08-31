@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3006.9-D-1
 title:
 - content: IEEE Draft Recommended Practice for Collecting Data for Use in Reliability,
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P3006.9/D-1
 date:
 - type: created
-  value: '2013'
+  value: '2013-04-22'
 - type: published
   value: '2013-04-19'
 - type: issued
@@ -83,15 +83,16 @@ keyword:
 - content: database development
 - content: database analysis
 - content: maintainability.
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

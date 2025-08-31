@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11s-D-9.0-2011-02
 title:
 - content: 'IEEE Draft Standard for Information Technology-Telecommunications and
@@ -27,7 +27,7 @@ docid:
 docnumber: IEEE P802.11s/D-9.0-2011-02
 date:
 - type: created
-  value: '2011'
+  value: '2011-03-03'
 - type: published
   value: '2011-03-07'
 - type: issued
@@ -82,19 +82,20 @@ keyword:
 - content: Medium Access Control
 - content: Mesh
 - content: Multi-hop
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

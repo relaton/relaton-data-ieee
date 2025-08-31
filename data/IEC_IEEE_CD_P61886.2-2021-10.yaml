@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEECDP61886.2-2021-10
 title:
 - content: 'IEC/IEEE International Draft Standard - Subsea Equipment - Part 2: Power
@@ -79,12 +79,13 @@ keyword:
 - content: Power transformers
 - content: Underwater cables
 - content: Underwater equipment
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

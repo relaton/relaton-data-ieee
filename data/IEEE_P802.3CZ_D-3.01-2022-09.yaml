@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3cz-D-3.01-2022-09
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment 7: Physical Layer Specifications
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2022
+    id: IEEEStd802.3-2022
     docid:
-    - id: IEEE 802.3-2022
+    - id: IEEE Std 802.3-2022
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2022
+      content: IEEE Std 802.3-2022
       format: text/plain
   description:
     content: amends
@@ -99,24 +99,24 @@ keyword:
 - content: 50GBASE-AU
 - content: amendment
 - content: automotive Ethernet
-- content: Ethernet
 - content: IEEE 802.3
 - content: IEEE 802.3cz
 - content: Medium Dependent Interface
 - content: Physical Coding Sublayer
 - content: Physical Layer
 - content: Physical Medium Attachment
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

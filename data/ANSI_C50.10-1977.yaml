@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC50.10-1977
 title:
 - content: American National Standard General Requirements for Synchronous Machines
@@ -24,7 +24,7 @@ docid:
 docnumber: ANSI C50.10-1977
 date:
 - type: created
-  value: '1977'
+  value: '1977-06-17'
 - type: published
   value: '2016-07-29'
 - type: issued
@@ -86,9 +86,10 @@ keyword:
 - content: Turbines
 - content: Combustion
 - content: Synchronous generators
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

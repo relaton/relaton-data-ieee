@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE15-1944
 title:
 - content: AIEE American Standard for Industrial Control Apparatus
@@ -75,9 +75,10 @@ keyword:
 - content: Industrial control
 - content: Industrial electronics
 - content: Equipment
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

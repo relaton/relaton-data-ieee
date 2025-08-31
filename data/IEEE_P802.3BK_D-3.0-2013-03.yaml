@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3bk-D-3.0-2013-03
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment 1: Physical Layer Specifications
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P802.3bk/D-3.0-2013-03
 date:
 - type: created
-  value: '2013'
+  value: '2013-06-06'
 - type: published
   value: '2013-04-01'
 - type: issued
@@ -79,25 +79,25 @@ keyword:
 - content: Physical layer
 - content: Optical communication
 - content: Collision avoidance
-- content: Ethernet
 - content: PX30
 - content: PX40
 - content: PRX40
 - content: PR40
 - content: extended EPON
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

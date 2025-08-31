@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2772-D-7.1-2020-11
 title:
 - content: IEEE Approved Draft Standard for Test Method for Energy Loss of Overhead
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2772/D-7.1-2020-11
 date:
 - type: created
-  value: '2021'
+  value: '2021-03-29'
 - type: published
   value: '2021-03-30'
 - type: issued
@@ -77,13 +77,14 @@ keyword:
 - content: IEEE 2772
 - content: overhead conductor
 - content: test method
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

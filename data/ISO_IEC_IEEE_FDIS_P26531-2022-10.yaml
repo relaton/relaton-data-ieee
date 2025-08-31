@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEFDISP26531-2022-10
 title:
 - content: ISO/IEC/IEEE Approved Draft Standard - Systems and Software Engineering
@@ -24,9 +24,9 @@ docid:
 docnumber: ISO/IEC/IEEE FDIS P26531-2022-10
 date:
 - type: created
-  value: '2022-02-22'
+  value: '2023-02-22'
 - type: published
-  value: '2023-03-28'
+  value: '2024-12-10'
 - type: issued
   value: '2023-02-15'
 contributor:
@@ -42,7 +42,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-03-28'
+revdate: '2024-12-10'
 language:
 - en
 script:
@@ -110,74 +110,6 @@ relation:
     script:
     - Latn
     format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE26531-2015
-    docid:
-    - id: ISO/IEC/IEEE 26531-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 26531-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE26531-2015
-    docid:
-    - id: ISO/IEC/IEEE 26531-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 26531-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE26531-2015
-    docid:
-    - id: ISO/IEC/IEEE 26531-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 26531-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: ISO-IEC-IEEE26531-2015
-    docid:
-    - id: ISO/IEC/IEEE 26531-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: ISO/IEC/IEEE 26531-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: ISO Standards
@@ -185,20 +117,22 @@ keyword:
 - content: System analysis and design
 - content: Software engineering
 - content: Content management
-- content: Life cycle product management
+- content: Product lifecycle management
 - content: '26531'
 - content: content management
 - content: component content management system
 - content: single source information for users
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

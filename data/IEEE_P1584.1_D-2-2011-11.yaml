@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1584.1-D-2-2011-11
 title:
 - content: IEEE Draft Guide for the Specification of Scope and Deliverable Requirements
@@ -88,15 +88,16 @@ keyword:
 - content: protective device coordination study
 - content: short-circuit study
 - content: working distances
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.260.99
-  text: Other electrical equipment for working in special conditions
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.260.99
+    text: Other electrical equipment for working in special conditions
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

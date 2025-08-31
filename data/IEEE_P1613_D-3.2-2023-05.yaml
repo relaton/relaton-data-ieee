@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1613-D-3.2-2023-05
 title:
 - content: IEEE Approved Draft Standard for Environmental and Testing Requirements
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1613-2009
+    id: IEEEStd1613-2009
     docid:
-    - id: IEEE 1613-2009
+    - id: IEEE Std 1613-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1613-2009
+      content: IEEE Std 1613-2009
       format: text/plain
   description:
     content: revises
@@ -141,15 +141,16 @@ keyword:
 - content: temperature range
 - content: temperature rise
 - content: voltage rating
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 29.240.10
-  text: Substations. Surge arresters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.10
+    text: Substations. Surge arresters
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

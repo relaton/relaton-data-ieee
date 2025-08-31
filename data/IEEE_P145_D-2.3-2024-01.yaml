@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP145-D-2.3-2024-01
 title:
 - content: IEEE Draft Standard for Definitions of Terms for Antennas
@@ -22,9 +22,9 @@ docid:
 docnumber: IEEE P145/D-2.3-2024-01
 date:
 - type: created
-  value: '2024'
+  value: '2024-03-06'
 - type: published
-  value: '2024-03-08'
+  value: '2024-03-07'
 - type: issued
   value: '2024'
 contributor:
@@ -40,7 +40,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-03-08'
+revdate: '2024-03-07'
 language:
 - en
 script:
@@ -67,13 +67,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE145-2013
+    id: IEEEStd145-2013
     docid:
-    - id: IEEE 145-2013
+    - id: IEEE Std 145-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 145-2013
+      content: IEEE Std 145-2013
       format: text/plain
   description:
     content: revises
@@ -90,19 +90,20 @@ keyword:
 - content: definitions
 - content: IEEE 145&#8482;
 - content: terms
-doctype: standard
-editorialgroup:
-  committee:
-  - Antennas and Propagation Standards Committee of the IEEE Antennas and Propagation
-    Society
-ics:
-- code: 01.040.33
-  text: Telecommunications. Audio and video engineering (Vocabularies)
-- code: 33.120.40
-  text: Aerials
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Antennas and Propagation Standards Committee of the IEEE Antennas and Propagation
+      Society
+  ics:
+  - code: 01.040.33
+    text: Telecommunications. Audio and video engineering (Vocabularies)
+  - code: 33.120.40
+    text: Aerials
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

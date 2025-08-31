@@ -1,0 +1,89 @@
+---
+schema-version: v1.2.9
+id: IEEEP2427-D-0.42-2025-06
+title:
+- content: IEEE Draft Standard for Analog Defect Modeling and Coverage
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/11057914
+  type: src
+type: standard
+docid:
+- id: IEEE P2427/D-0.42-2025-06
+  type: IEEE
+  primary: true
+- id: IEEE P2427™/D-0.42-2025-06
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2362-5
+  type: ISBN
+docnumber: IEEE P2427/D-0.42-2025-06
+date:
+- type: created
+  value: '2025-06-26'
+- type: published
+  value: '2025-06-27'
+- type: issued
+  value: '2025'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-06-27'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: This standard defines a defect coverage accounting method based on simulation
+    models for defects observed within integrated circuits (ICs). The portion of a
+    defect universe, comprising thousands or millions of reasonably likely defects,
+    that is detected or “covered” by tests of analog and mixed-signal circuits depends
+    on many factors, which this standard considers, such as detectability, process
+    variations, defect characteristics, and redundancy. The contents of a defect coverage
+    summary are specified, and dozens of commonly used terms are clearly defined,
+    to aid communication about the quality of tested ICs
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+keyword:
+- content: defect coverage
+- content: analog test coverage
+- content: design for test (DFT)
+- content: analog/mixed-signal (AMS) test
+- content: defective parts per million (DPPM)
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

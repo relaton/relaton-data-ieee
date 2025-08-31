@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP937-D-2-2019-06
 title:
 - content: IEEE Draft Recommended Practice for Installation and Maintenance of Lead-Acid
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE937-2007
+    id: IEEEStd937-2007
     docid:
-    - id: IEEE 937-2007
+    - id: IEEE Std 937-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 937-2007
+      content: IEEE Std 937-2007
       format: text/plain
   description:
     content: revises
@@ -98,17 +98,15 @@ keyword:
 - content: IEEE 937
 - content: photovoltaic power system
 - content: sizing lead-acid battery
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '27.160'
-  text: Solar energy engineering
-- code: 29.220.20
-  text: Acid secondary cells and batteries
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '27.160'
+    text: Solar energy engineering
+  - code: 29.220.20
+    text: Acid secondary cells and batteries
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

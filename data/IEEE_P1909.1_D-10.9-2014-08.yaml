@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1909.1-D-10.9-2014-08
 title:
 - content: IEEE Recommended Practice for Smart Grid Communications Equipment -- Test
@@ -83,17 +83,18 @@ keyword:
 - content: mechanical testing
 - content: safety
 - content: smart grid
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Line Communications of the IEEE Communications Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power Line Communications of the IEEE Communications Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1406-D-10-2018-10
 title:
 - content: IEEE Draft Guide for the Use of Gas-in-Fluid Analysis for Paper and Laminated
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1406-1998
+    id: IEEEStd1406-1998
     docid:
-    - id: IEEE 1406-1998
+    - id: IEEE Std 1406-1998
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1406-1998
+      content: IEEE Std 1406-1998
       format: text/plain
   description:
     content: revises
@@ -104,15 +104,13 @@ keyword:
 - content: remaining life
 - content: self-contained
 - content: transmission cable
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

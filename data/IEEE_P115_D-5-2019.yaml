@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP115-D-5-2019
 title:
 - content: IEEE Approved Draft Guide for Test Procedures for Synchronous Machines
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE115-2009
+    id: IEEEStd115-2009
     docid:
-    - id: IEEE 115-2009
+    - id: IEEE Std 115-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 115-2009
+      content: IEEE Std 115-2009
       format: text/plain
   description:
     content: revises
@@ -99,17 +99,15 @@ keyword:
 - content: IEEE 115
 - content: parameter determination
 - content: synchronous machines
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.160.20
-  text: Generators
-- code: 29.160.30
-  text: Motors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.160.20
+    text: Generators
+  - code: 29.160.30
+    text: Motors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

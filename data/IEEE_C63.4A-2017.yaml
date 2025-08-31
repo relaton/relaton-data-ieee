@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEC63.4a-2017
 title:
 - content: "(Second Printing) American National Standard for Methods of Measurement
@@ -107,15 +107,16 @@ keyword:
 - content: NSA
 - content: site attenuation
 - content: site validation
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Electromagnetic Compatibility Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Electromagnetic Compatibility Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

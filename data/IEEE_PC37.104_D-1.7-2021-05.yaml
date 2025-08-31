@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.104-D-1.7-2021-05
 title:
 - content: IEEE Draft Guide for Automatic Reclosing on AC Distribution and Transmission
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE PC37.104/D-1.7-2021-05
 date:
 - type: created
-  value: '2021'
+  value: '2021-06-16'
 - type: published
   value: '2021-06-17'
 - type: issued
-  value: '2021'
+  value: '2022-02-09'
 contributor:
 - organization:
     name:
@@ -46,6 +46,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Accepted industry practices for application of automatic reclosing on transmission
+    and distribution lines are documented in this guide. The guide discusses fundamentals
+    of automatic reclosing, application considerations, and coordination practices.
+    Application of emerging technologies for automatic reclosing is also discussed.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,30 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.104-2012
+    id: IEEEStdC37.104-2012
     docid:
-    - id: IEEE C37.104-2012
+    - id: IEEE Std C37.104-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.104-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.104-2012
-    docid:
-    - id: IEEE C37.104-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.104-2012
+      content: IEEE Std C37.104-2012
       format: text/plain
   description:
     content: revises
@@ -98,16 +91,33 @@ keyword:
 - content: Power distribution
 - content: Power transmission
 - content: Automatic test equipment
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 29.120.40
-  text: Switches
+- content: automatic line sectionalizer
+- content: automatic reclosing
+- content: autoreclose blocking
+- content: autoreclose supervision
+- content: autoreclosing
+- content: dead time
+- content: fuse blowing scheme
+- content: fuse saving scheme
+- content: high-speed autoreclosing
+- content: IEEE C37.104&#8482;
+- content: leader-follower autoreclosing
+- content: reclosing
+- content: sync check
+- content: sync check supervision
+- content: time delayed autoreclosing
+- content: voltage supervision
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: 29.120.40
+    text: Switches
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

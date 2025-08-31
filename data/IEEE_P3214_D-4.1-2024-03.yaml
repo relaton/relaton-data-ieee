@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3214-D-4.1-2024-03
 title:
 - content: IEEE Draft Standard for Testing Specification of Blockchain Systems
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P3214/D-4.1-2024-03
 date:
 - type: created
-  value: '2024'
+  value: '2024-04-15'
 - type: published
-  value: '2024-04-17'
+  value: '2024-04-16'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -40,11 +40,22 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-04-17'
+revdate: '2024-04-16'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: Definitions, types, test specifications, test methods, and test processes
+    for blockchain systems are defined in this standard. The test architecture of
+    blockchain systems, including but not limited to, functional testing, performance
+    testing, security testing, stability testing, and compliance testing are also
+    defined.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -61,14 +72,19 @@ keyword:
 - content: Blockchains
 - content: Testing
 - content: blockchains
+- content: IEEE 3230.02&#8482;
 - content: testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Blockchain and Distributed Ledgers of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Blockchain and Distributed Ledgers of the IEEE Computer Society
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

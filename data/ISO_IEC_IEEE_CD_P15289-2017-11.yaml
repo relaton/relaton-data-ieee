@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEECDP15289-2017-11
 title:
 - content: ISO/IEC/IEEE Draft International Standard -- Systems and Software Engineering
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE CD P15289-2017-11
 date:
 - type: created
-  value: '2018'
+  value: '2018-03-09'
 - type: published
   value: '2018-03-13'
 - type: issued
@@ -108,15 +108,13 @@ keyword:
 - content: system
 - content: information item
 - content: information management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

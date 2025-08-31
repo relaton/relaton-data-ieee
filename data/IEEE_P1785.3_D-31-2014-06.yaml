@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1785.3-D-31-2014-06
 title:
 - content: 'IEEE Draft Recommended Practice for Rectangular Metallic Waveguides and
@@ -91,15 +91,16 @@ keyword:
 - content: waveguide apertures
 - content: waveguide interfaces
 - content: waveguide tolerances
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Microwave Theory and Techniques Society
-ics:
-- code: 33.120.10
-  text: Coaxial cables. Waveguides
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Microwave Theory and Techniques Society
+  ics:
+  - code: 33.120.10
+    text: Coaxial cables. Waveguides
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

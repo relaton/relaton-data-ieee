@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2664-D-3.2-2024-01
 title:
-- content: IEEE Draft Standard for Streaming Telemetry Transport Protocol
+- content: IEEE Approved Draft Standard for Streaming Telemetry Transport Protocol
   format: text/plain
   type: main
 link:
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P2664/D-3.2-2024-01
 date:
 - type: created
-  value: '2024-01-26'
+  value: '2024-03-28'
 - type: published
-  value: '2024-01-30'
+  value: '2024-01-29'
 - type: issued
-  value: '2024'
+  value: '2024-03-21'
 contributor:
 - organization:
     name:
@@ -40,14 +40,14 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-01-30'
+revdate: '2024-01-29'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This standard defines the Streaming Telemetry Transport Protocol, STTP.
-    This protocol is initially designed for streaming power system data over Internet
+- content: Streaming Telemetry Transport Protocol (STTP) is defined in this standard.
+    This protocol was initially designed for streaming power system data over Internet
     protocol (IP) communication systems. It is focused on streaming real-time measurements
     but can be used with any type of continuously flowing data. It features built-in
     security and lossless data compression options for efficient transport. It specifies
@@ -56,7 +56,7 @@ abstract:
     options, so it is easy to maintain and update. It is highly configurable for time
     precision, compression level, and packet sizes to optimize the stream within data
     and transport limitations. It has been proven and refined in several demonstration
-    projects and production environments.
+    projects and production environments. Open Source Files are available at https://opensource.ieee.org/sttp/sttp/
   language:
   - en
   script:
@@ -79,25 +79,32 @@ keyword:
 - content: Time series analysis
 - content: Real-time systems
 - content: Phasor measurement units
-- content: streaming telemetry
-- content: streaming data
-- content: time-series data
-- content: STTP
-- content: C37.118
-- content: real-time data
-- content: phasor
-- content: PMU
+- content: IEEE 2664&#8482;
+- content: IEEE C37.118&#8482;
 - content: PDC
-- content: synchrophasor
-- content: phasor measurement unit
+- content: phasor
 - content: phasor data concentrator
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
+- content: phasor measurement unit
+- content: PMU
+- content: real-time data
+- content: streaming data
+- content: streaming telemetry
+- content: STTP
+- content: synchrophasor
+- content: time-series data
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications and Cybersecurity of the IEEE Power and Energy Society
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  - code: 35.240.95
+    text: Internet applications
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

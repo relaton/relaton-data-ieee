@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.43.1-D-29-2019-05
 title:
 - content: IEEE Draft Guide for Surge Protectors and Surge Protective Circuits Used
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE PC62.43.1/D-29-2019-05
 date:
 - type: created
-  value: '2019'
+  value: '2019-06-25'
 - type: published
   value: '2019-06-26'
 - type: issued
@@ -87,12 +87,13 @@ keyword:
 - content: surge protective circuits
 - content: surge protective devices
 - content: surge protectors
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1562-D-1.1-2018-03
 title:
 - content: IEEE Draft Guide for Array and Battery Sizing in Stand-Alone Photovoltaic
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1562/D-1.1-2018-03
 date:
 - type: created
-  value: '2018'
+  value: '2018-03-10'
 - type: published
   value: '2018-03-13'
 - type: issued
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1562-2007
+    id: IEEEStd1562-2007
     docid:
-    - id: IEEE 1562-2007
+    - id: IEEE Std 1562-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1562-2007
+      content: IEEE Std 1562-2007
       format: text/plain
   description:
     content: revises
@@ -102,15 +102,13 @@ keyword:
 - content: energy storage
 - content: IEEE 1562(TM)
 - content: PV systems
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '27.160'
-  text: Solar energy engineering
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '27.160'
+    text: Solar energy engineering
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

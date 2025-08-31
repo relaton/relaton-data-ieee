@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62527-2007
 title:
 - content: 'IEC 62527 Ed. 1 (IEEE Std 1450.2(TM)-2002): Standard for Extensions to
@@ -59,6 +59,18 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: 'This standard extends IEEE Std 1450-1999 (STIL) to support the definition
+    of DC levels. STIL language constructs are defined to specify the DC conditions
+    necessary to execute digital vectors on automated test equipment (ATE). STIL language
+    extensions include structures for: (a) specifying the DC conditions for a device
+    under test; (b) specifying DC conditions either globally, by pattern burst, by
+    pattern, or by vector; (c) specifying alternate DC levels; and (d) selecting DC
+    levels and alternate levels within a period, much the same as timed format events.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -87,17 +99,18 @@ keyword:
 - content: power sequence
 - content: slew rate
 - content: voltage clamp
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
-ics:
-- code: '25.040'
-  text: Industrial automation systems
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: '25.040'
+    text: Industrial automation systems
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

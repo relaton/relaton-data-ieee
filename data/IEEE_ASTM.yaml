@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-ASTM
 title:
 - content: American National Standard for Metric Practice
@@ -26,7 +26,7 @@ date:
 - type: updated
   value: '2011-11-07'
 - type: created
-  value: '2011'
+  value: '2011-04-11'
 - type: published
   value: '2013-10-15'
 - type: issued
@@ -56,6 +56,13 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: conversion factors, International System, International System of Units,
+    metric practice, metric system, rounding, SI, SI 10, Systeme International d'Unites
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -67,16 +74,6 @@ copyright:
     - content: ASTM
   from: '2011'
 relation:
-- type: obsoletedBy
-  bibitem:
-    id: IEEE-ASTMSI10.2016
-    docid:
-    - id: IEEE/ASTM SI 10.2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE/ASTM SI 10.2016
-      format: text/plain
 - type: updates
   bibitem:
     id: IEEE-ASTMSI10.2002
@@ -94,6 +91,16 @@ relation:
     script:
     - Latn
     format: text/plain
+- type: obsoletedBy
+  bibitem:
+    id: IEEE-ASTMSI10.2016
+    docid:
+    - id: IEEE/ASTM SI 10.2016
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE/ASTM SI 10.2016
+      format: text/plain
 keyword:
 - content: IEEE standards
 - content: Measurement
@@ -104,17 +111,15 @@ keyword:
 - content: a list of units recognized for use with SI
 - content: and a list of conversion factors
 - content: together with general guidance on proper style and usage.
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '01.060'
-  text: Quantities and units
-- code: '17.020'
-  text: Metrology and measurement in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '01.060'
+    text: Quantities and units
+  - code: '17.020'
+    text: Metrology and measurement in general
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

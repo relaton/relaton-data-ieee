@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP45.1-D-4.1-2023-06
 title:
 - content: IEEE Draft Recommended Practice for Electrical Installations on Shipboard
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P45.1/D-4.1-2023-06
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-27'
 - type: published
   value: '2023-06-28'
 - type: issued
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE45.1-2017
+    id: IEEEStd45.1-2017
     docid:
-    - id: IEEE 45.1-2017
+    - id: IEEE Std 45.1-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 45.1-2017
+      content: IEEE Std 45.1-2017
       format: text/plain
   description:
     content: revises
@@ -94,15 +94,16 @@ keyword:
 - content: naval vessels
 - content: ship
 - content: shipboard electrical systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 47.020.60
-  text: Electrical equipment of ships and of marine structures
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 47.020.60
+    text: Electrical equipment of ships and of marine structures
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

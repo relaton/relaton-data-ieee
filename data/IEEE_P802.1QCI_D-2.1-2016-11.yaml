@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1Qci-D-2.1-2016-11
 title:
 - content: 'IEEE Approved Draft Standard for Local and Metropolitan Area Networks
@@ -7,7 +7,7 @@ title:
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/7856903
+- content: https://ieeexplore.ieee.org/document/7747725
   type: src
 type: standard
 docid:
@@ -23,9 +23,9 @@ docid:
 docnumber: IEEE P802.1Qci/D-2.1-2016-11
 date:
 - type: created
-  value: '2017-01-01'
+  value: '2016-01-01'
 - type: published
-  value: '2017-02-15'
+  value: '2016-11-17'
 - type: issued
   value: '2017-02-14'
 contributor:
@@ -41,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2017-02-15'
+revdate: '2016-11-17'
 language:
 - en
 script:
@@ -68,13 +68,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1Q-2014
+    id: IEEEStd802.1Q-2014
     docid:
-    - id: IEEE 802.1Q-2014
+    - id: IEEE Std 802.1Q-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1Q-2014
+      content: IEEE Std 802.1Q-2014
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd802.1Q-2014
+    docid:
+    - id: IEEE Std 802.1Q-2014
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.1Q-2014
       format: text/plain
   description:
     content: amends
@@ -86,10 +103,10 @@ relation:
 keyword:
 - content: IEEE Standards
 - content: Local area networks
+- content: Media Access Protocol
+- content: Virtual LAN
 - content: Metropolitan area networks
 - content: Bridge circuits
-- content: Streaming media
-- content: Virtual LAN
 - content: Bridged Local Area Networks
 - content: IEEE 802(R)
 - content: IEEE 802.1Q(TM)
@@ -107,15 +124,13 @@ keyword:
 - content: scheduled traffic
 - content: Time-Sensitive Networking
 - content: Virtual Bridged Local Area Networks (virtual LANs)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

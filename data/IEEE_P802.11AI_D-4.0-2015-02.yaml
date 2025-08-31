@@ -1,12 +1,11 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11ai-D-4.0-2015-02
 title:
-- content: 'IEEE Draft Standard for Information technology-Telecommunications and
-    information exchange between systems-Local and metropolitan area networks-Specific
-    requirements Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer
-    (PHY) Specifications: Amendment to IEEE P802.11-REVmcTM/D4.0: Fast Initial Link
-    Setup'
+- content: 'IEEE Standard for Information technology—Telecommunications and information
+    exchange between systems - Local and metropolitan area networks—Specific requirements
+    Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications
+    Amendment 1: Fast Initial Link Setup'
   format: text/plain
   type: main
 link:
@@ -26,11 +25,11 @@ docid:
 docnumber: IEEE P802.11ai/D-4.0-2015-02
 date:
 - type: created
-  value: '2015'
+  value: '2015-02-26'
 - type: published
   value: '2015-02-27'
 - type: issued
-  value: '2015-01-01'
+  value: '2016-12-07'
 contributor:
 - organization:
     name:
@@ -50,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This amendment defines mechanisms that provide IEEE Std 802.11 networks
-    with fastinitial link setup methods that do not degrade the security offered by
-    Robust Security NetworkAssociation (RSNA) already defined in IEEE Std 802.11.
+- content: Mechanisms that provide IEEE Std 802.11 networks with fast initial link
+    setup methods that do not degrade the security offered by Robust Security Network
+    Association (RSNA) already defined in IEEE Std 802.11 are defined in this amendment.
   language:
   - en
   script:
@@ -72,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.11-2012
+    id: IEEEStd802.11-2016
     docid:
-    - id: IEEE 802.11-2012
+    - id: IEEE Std 802.11-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2012
+      content: IEEE Std 802.11-2016
       format: text/plain
   description:
     content: amends
@@ -89,30 +88,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: IEEE802.11-2012
+    id: IEEEStd802.11-2012
     docid:
-    - id: IEEE 802.11-2012
+    - id: IEEE Std 802.11-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2012
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.11-2012
-    docid:
-    - id: IEEE 802.11-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.11-2012
+      content: IEEE Std 802.11-2012
       format: text/plain
   description:
     content: amends
@@ -131,22 +113,20 @@ keyword:
 - content: Physical layer
 - content: Media Access Protocol
 - content: Wireless communications
+- content: amendment
 - content: Fast Initial Link setup
 - content: FILS
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
+- content: IEEE 802.11ai
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

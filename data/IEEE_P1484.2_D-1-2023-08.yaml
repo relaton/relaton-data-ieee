@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1484.2-D-1-2023-08
 title:
 - content: IEEE Draft Recommended Practices for Learning and Employment Record (LER)
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-08-31'
 - type: issued
-  value: '2023'
+  value: '2024-05-20'
 contributor:
 - organization:
     name:
@@ -47,11 +47,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document is a standard set of recommended practices for ecosystem-scale
-    technical providers related to issuing, holding, and presenting Learning and Employment
-    Records (LERs) for education and employment achievements and related data. It
-    makes extensive normative and declarative references to other existing standards,
-    open-source projects, and shared services.
+- content: 'This document is a standard set of recommended practices for ecosystem-scale
+    technical providers related to issuing, holding, and presenting learning and employment
+    records (LERs) for education and employment achievements and related data. Extensive
+    normative and declarative references to other existing standards, open-source
+    projects, and shared services are made by it. Additional Open Source content available
+    here: https://opensource.ieee.org/ler'
   language:
   - en
   script:
@@ -77,39 +78,43 @@ keyword:
 - content: Security management
 - content: Authorization
 - content: Identification of persons
-- content: Human Development
-- content: Technical Standards
-- content: Academic Standards
-- content: Ecosystem Governance Framework
-- content: Person
-- content: Organization
-- content: Role
-- content: Identity
-- content: Digital Identity
-- content: Digital Identifier
+- content: academic standards
+- content: access control
+- content: authentication
+- content: competency assertion
+- content: competency definition
+- content: credential (award)
+- content: credential definition
+- content: data controller
+- content: digital identifier
+- content: digital identity
+- content: ecosystem governance framework
+- content: federation
+- content: human development
+- content: identity
+- content: IEEE 1484.2&#8482;
+- content: information security
+- content: learner information
+- content: organization
+- content: personal information
+- content: person
 - content: PII
-- content: Personal Information
-- content: Learner Information
-- content: Privacy Rights
-- content: Authentication
-- content: Authorization
-- content: Access Control
-- content: Self-sovereign identity
-- content: Information Security
-- content: Data Controller
-- content: Trust
-- content: Competency Definition
-- content: Competency Assertion
-- content: Credential Definition
-- content: Credential (Award)
-- content: Verifiable Credential
-- content: Federation.
-doctype: standard
-editorialgroup:
-  committee:
-  - Learning Technology of the IEEE Computer Society
+- content: privacy rights
+- content: role
+- content: self-sovereign identity
+- content: technical standards
+- content: trust
+- content: verifiable credential
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Learning Technology of the IEEE Computer Society
+  ics:
+  - code: 35.240.90
+    text: IT applications in education
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

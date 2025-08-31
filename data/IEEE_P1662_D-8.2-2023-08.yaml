@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1662-D-8.2-2023-08
 title:
 - content: IEEE Approved Draft Recommended Practice for the Design and Application
@@ -75,64 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1662-2016
+    id: IEEEStd1662-2016
     docid:
-    - id: IEEE 1662-2016
+    - id: IEEE Std 1662-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1662-2016
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1662-2016
-    docid:
-    - id: IEEE 1662-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1662-2016
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1662-2016
-    docid:
-    - id: IEEE 1662-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1662-2016
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1662-2016
-    docid:
-    - id: IEEE 1662-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1662-2016
+      content: IEEE Std 1662-2016
       format: text/plain
   description:
     content: revises
@@ -150,15 +99,16 @@ keyword:
 - content: PEBB
 - content: power electronic building blocks
 - content: power electronics
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 47.020.60
-  text: Electrical equipment of ships and of marine structures
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 47.020.60
+    text: Electrical equipment of ships and of marine structures
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

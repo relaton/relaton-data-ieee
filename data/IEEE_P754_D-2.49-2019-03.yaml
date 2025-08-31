@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP754-D-2.49-2019-03
 title:
 - content: IEEE Draft Standard for Floating-Point Arithmetic
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P754/D-2.49-2019-03
 date:
 - type: created
-  value: '2019'
+  value: '2019-03-28'
 - type: published
   value: '2019-04-10'
 - type: issued
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE754-2008
+    id: IEEEStd754-2008
     docid:
-    - id: IEEE 754-2008
+    - id: IEEE Std 754-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 754-2008
+      content: IEEE Std 754-2008
       format: text/plain
   description:
     content: revises
@@ -106,17 +106,15 @@ keyword:
 - content: rounding
 - content: significand
 - content: subnormal.
-doctype: standard
-editorialgroup:
-  committee:
-  - Microprocessor Standards Committee of the IEEE Computer Society
-ics:
-- code: '07.020'
-  text: Mathematics
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '07.020'
+    text: Mathematics
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2893
 title:
-- content: IEEE Draft Standard for Flexible Optical Service Unit (OSUFlex) of Optical
-    Transport Network (OTN) in Power Systems - Corrigendum 1 Technical correction
+- content: IEEE Approved Draft Standard for Flexible Optical Service Unit (OSUFlex)
+    of Optical Transport Network (OTN) in Power Systems - Corrigendum 1
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/10456578
+- content: https://ieeexplore.ieee.org/document/10643875
   type: src
 type: standard
 docid:
@@ -18,16 +18,16 @@ docid:
   type: IEEE
   scope: trademark
   primary: true
-- id: 979-8-8557-0573-7
+- id: 979-8-8557-1126-4
   type: ISBN
 docnumber: IEEE P2893
 date:
 - type: created
-  value: '2024-02-23'
+  value: '2024-10-03'
 - type: published
-  value: '2024-03-01'
+  value: '2024-08-22'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -41,13 +41,14 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-03-01'
+revdate: '2024-08-22'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Corrections to IEEE Std 2893-2023 are provided in this corrigendum
+- content: This corrigendum was not published separately, incorporated into the IEEE
+    2893-2023.
   language:
   - en
   script:
@@ -85,19 +86,20 @@ relation:
 keyword:
 - content: IEEE Standards
 - content: Payloads
+- content: Optical transmitters
 - content: Optical fiber communication
 - content: Transport protocols
-- content: Power systems
 - content: corrigendum
 - content: IEEE 2893&#8482;
 - content: payload type
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Line Communications of the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power Line Communications of the IEEE Communications Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

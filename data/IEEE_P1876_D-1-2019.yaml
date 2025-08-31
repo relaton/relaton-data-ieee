@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1876-D-1-2019
 title:
 - content: IEEE Approved Draft Standard for Networked Smart Learning for Online Laboratories
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1876/D-1-2019
 date:
 - type: created
-  value: '2019'
+  value: '2019-03-20'
 - type: published
   value: '2019-02-12'
 - type: issued
@@ -96,12 +96,13 @@ keyword:
 - content: and Mathematics (STEM) Education
 - content: smart device
 - content: virtual laboratory
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Education Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Education Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2893-D-2-2022-11
 title:
 - content: IEEE Approved Draft Standard for Flexible Optical Service Unit (OSUFlex)
@@ -46,6 +46,21 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: A communication layer, Flexible Optical Service Unit (OSUFlex), to provide
+    small service channels in optical transport networks is specified in this standard.
+    The main features of the OSUflex communication layer are providing massive OSUflex
+    connections to directly carry power services (e.g., E1 or IEEE Std C37.94&#8482;)
+    into an optical transport network, enabling the flexible bandwidth (e.g., n x
+    2 Mb/s) and hitless bandwidth adjustment for each OSUflex connection, direct mapping
+    of services into OSUflex with the capabilities of high-bandwidth efficiency, low
+    latency, low latency jitter, and high-precision clock synchronization for power
+    system applications.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -62,20 +77,24 @@ keyword:
 - content: Optical network units
 - content: Power systems
 - content: Transport protocols
-- content: OTN
+- content: flexible bandwidth
+- content: IEEE 2893&#8482;
+- content: IEEE C37.94&#8482;
+- content: low latency
+- content: low latency jitter
+- content: optical service unit
+- content: optical transport network
 - content: OSU
-- content: Power Systems
-- content: C37.94
-- content: E1
-- content: jitter
-- content: latency
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Line Communications of the IEEE Communications Society
+- content: OTN
+- content: power systems communication
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power Line Communications of the IEEE Communications Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

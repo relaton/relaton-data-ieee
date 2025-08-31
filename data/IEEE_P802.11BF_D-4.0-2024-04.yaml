@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11bf-D-4.0-2024-04
 title:
 - content: 'IEEE Draft Standard for Information Technology -- Telecommunications and
@@ -26,7 +26,7 @@ docid:
 docnumber: IEEE P802.11bf/D-4.0-2024-04
 date:
 - type: created
-  value: '2024'
+  value: '2024-04-22'
 - type: published
   value: '2024-04-23'
 - type: issued
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.11-2020
+    id: IEEEStd802.11-2020
     docid:
-    - id: IEEE 802.11-2020
+    - id: IEEE Std 802.11-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2020
+      content: IEEE Std 802.11-2020
       format: text/plain
   description:
     content: amends
@@ -107,16 +107,17 @@ keyword:
 - content: wireless local area network
 - content: WLAN
 - content: Wireless LAN sensing
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

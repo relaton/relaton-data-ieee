@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC95.7-D-2022.10.12-2022-10
 title:
 - content: IEEE Draft Standard for Electromagnetic Energy Safety Programs, 0 Hz to
@@ -79,30 +79,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC95.7-2014
+    id: IEEEStdC95.7-2014
     docid:
-    - id: IEEE C95.7-2014
+    - id: IEEE Std C95.7-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C95.7-2014
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC95.7-2014
-    docid:
-    - id: IEEE C95.7-2014
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C95.7-2014
+      content: IEEE Std C95.7-2014
       format: text/plain
   description:
     content: revises
@@ -144,15 +127,16 @@ keyword:
 - content: restricted environment
 - content: signage
 - content: unrestricted environment
-doctype: standard
-editorialgroup:
-  committee:
-  - International Committee on Electromagnetic Safety of the IEEE SA Board of Governors
-ics:
-- code: '13.280'
-  text: Radiation protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - International Committee on Electromagnetic Safety of the IEEE SA Board of Governors
+  ics:
+  - code: '13.280'
+    text: Radiation protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

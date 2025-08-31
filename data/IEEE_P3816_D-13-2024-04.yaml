@@ -1,8 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3816-D-13-2024-04
 title:
-- content: 'IEEE Draft Standard for Internet of Rights (IOR): Overview and Architecture'
+- content: 'IEEE Approved Draft Standard for Internet of Rights (IOR): Overview and
+    Architecture'
   format: text/plain
   type: main
 link:
@@ -22,11 +23,11 @@ docid:
 docnumber: IEEE P3816/D-13-2024-04
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-08'
 - type: published
-  value: '2024-04-17'
+  value: '2024-04-16'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -40,14 +41,14 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-04-17'
+revdate: '2024-04-16'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This standard contains descriptions of the IEEE Internet of Rights (IOR)&#174;
-    standards published by the IEEE for decentralized collaboration framework based
+- content: Contained in this standard are descriptions of the IEEE Internet of Rights
+    (IOR) standards published by IEEE for decentralized collaboration framework based
     on rights, as well as a reference model (RM) for logical service standards.
   language:
   - en
@@ -72,20 +73,29 @@ keyword:
 - content: Decentralized applications
 - content: Internet
 - content: Guidelines
+- content: blockchain
+- content: decentralized collaboration
+- content: IEEE 3816
+- content: internet of rights
 - content: IOR
-- content: Decentralized Collaboration
-- content: Blockchain
-- content: Privacy Protection
-- content: Rights Certificate
-- content: IEEE 3816&#8482;
-doctype: standard
-editorialgroup:
-  committee:
-  - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
-    Society
+- content: privacy protection
+- content: rights certificate
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
+      Society
+  ics:
+  - code: 03.100.01
+    text: Company organization and management in general
+  - code: '03.160'
+    text: Law. Administration
+  - code: 35.240.95
+    text: Internet applications
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

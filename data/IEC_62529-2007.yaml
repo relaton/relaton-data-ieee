@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62529-2007
 title:
 - content: IEC 62529 Ed. 1 Standard for Signal and Test Definition
@@ -92,19 +92,17 @@ keyword:
 - content: test signals
 - content: unit under test
 - content: UUT
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '25.040'
-  text: Industrial automation systems
-- code: '31.020'
-  text: Electronic components in general
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '25.040'
+    text: Industrial automation systems
+  - code: '31.020'
+    text: Electronic components in general
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

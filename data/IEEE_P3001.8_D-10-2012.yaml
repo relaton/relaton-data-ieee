@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3001.8-D-10-2012
 title:
 - content: IEEE Draft Recommended Practice for the Instrumentation and Metering of
@@ -71,21 +71,21 @@ keyword:
 - content: Power system measurements
 - content: Meter reading
 - content: Industrial power systems
-- content: Instrumentation
 - content: Metering
 - content: Industrial Power
 - content: Commercial Power
-doctype: standard
-editorialgroup:
-  committee:
-  - Technical Books Coordinating Committee
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
-- code: 91.140.50
-  text: Electricity supply system
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Technical Books Coordinating Committee
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 91.140.50
+    text: Electricity supply system
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

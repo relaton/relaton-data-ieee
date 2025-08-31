@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.116-D-1.12-2018-02
 title:
 - content: IEEE Draft Guide for Protective Relay Application to Transmission-Line
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.116-2007
+    id: IEEEStdC37.116-2007
     docid:
-    - id: IEEE C37.116-2007
+    - id: IEEE Std C37.116-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.116-2007
+      content: IEEE Std C37.116-2007
       format: text/plain
   description:
     content: revises
@@ -103,17 +103,15 @@ keyword:
 - content: MOV
 - content: series capacitor
 - content: unbalance protection
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
-ics:
-- code: 29.120.70
-  text: Relays
-- code: 31.060.99
-  text: Other capacitors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.70
+    text: Relays
+  - code: 31.060.99
+    text: Other capacitors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

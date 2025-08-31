@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.1X-Amd2-2013
 title:
 - content: 'ISO/IEC/IEEE International Standard - Telecommunications and exchange
@@ -61,6 +61,16 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The YANG data model specified in this amendment to IEEE Std 802.1X&#8482;-2010
+    allows configuration and status reporting for port-based network access control,
+    in the scenarios described in Clause 7 of this standard and Clause 11 of IEEE
+    Std 802.1AE&#8482;-2018, using the information model previously specified in this
+    standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -79,30 +89,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1Xck-2018
+    id: IEEEStd802.1Xck-2018
     docid:
-    - id: IEEE 802.1Xck-2018
+    - id: IEEE Std 802.1Xck-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1Xck-2018
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.1Xck-2018
-    docid:
-    - id: IEEE 802.1Xck-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1Xck-2018
+      content: IEEE Std 802.1Xck-2018
       format: text/plain
   description:
     content: amends
@@ -140,15 +133,16 @@ keyword:
 - content: security
 - content: transparent bridging
 - content: YANG
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

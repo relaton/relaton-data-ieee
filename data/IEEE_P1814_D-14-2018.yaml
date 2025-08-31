@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1814-D-14-2018
 title:
 - content: IEEE Draft Recommended Practice for Electrical System Design Techniques
@@ -62,6 +62,15 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This Recommended Practice addresses system and equipment design techniques
+    and equipment selection that will improve electrical safety. The techniques in
+    this Practice are intended to supplement the minimum requirements of installation
+    codes and equipment standards.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -86,15 +95,16 @@ keyword:
 - content: shock
 - content: arc-flash
 - content: arc-blast
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,0 +1,101 @@
+---
+schema-version: v1.2.9
+id: ANSI-IEEEStd1096-1988
+title:
+- content: 'IEEE Standard for a Multiplexed High-Performance Bus Structure: VSB'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/89819
+  type: src
+type: standard
+docid:
+- id: ANSI/IEEE Std 1096-1988
+  type: IEEE
+  primary: true
+- id: ANSI/IEEE Std 1096™-1988
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-0-7381-4719-2
+  type: ISBN
+- id: 10.1109/IEEESTD.1989.94738
+  type: DOI
+docnumber: ANSI/IEEE Std 1096-1988
+date:
+- type: created
+  value: '1989-07-28'
+- type: published
+  value: '2019-04-10'
+- type: issued
+  value: '1988-06-09'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2019-04-10'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'Withdrawn Standard. Specifications for the subsystem bus of the IEC 821
+    BUS, referred to as the VSB, are set forth. VSB is a local subsystem extension
+    bus that allows a processor board to access additional memory and I/O over a local
+    bus, removing traffic from the global bus and improving the total throughput of
+    the system. The objectives are: to improve the performance of multiprocessor systems
+    by allowing the design of local subsystems; to specify the electrical characteristics
+    required to design boards that will reliably transfer data over the VSB; to specify
+    the mechanical requirements to be compatible with VSB systems; to specify protocols
+    that precisely define the interaction between the VSB and devices interfaced to
+    it; and to provide terminology and definitions that describe VSB protocols.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: withdrawn
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '1989'
+keyword:
+- content: Computer interfaces
+- content: Standards
+- content: multiplexed
+- content: high
+- content: bus
+- content: VSB
+- content: performance
+- content: Multimicroprocessing
+- content: Microcomputer interfaces
+- content: Data buses
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

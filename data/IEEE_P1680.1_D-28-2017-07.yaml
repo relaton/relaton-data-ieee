@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1680.1-D-28-2017-07
 title:
 - content: IEEE Draft Standard for Environmental and Social Responsibility Assessment
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1680.1-2009
+    id: IEEEStd1680.1-2009
     docid:
-    - id: IEEE 1680.1-2009
+    - id: IEEE Std 1680.1-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1680.1-2009
+      content: IEEE Std 1680.1-2009
       format: text/plain
   description:
     content: revises
@@ -118,17 +118,15 @@ keyword:
 - content: environmental performance
 - content: social responsibility
 - content: sustainability
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board of the IEEE Computer Society
-ics:
-- code: 13.020.30
-  text: Environmental impact assessment
-- code: '35.160'
-  text: Microprocessor systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 13.020.30
+    text: Environmental impact assessment
+  - code: '35.160'
+    text: Microprocessor systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

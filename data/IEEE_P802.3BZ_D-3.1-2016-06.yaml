@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3bz-D-3.1-2016-06
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment: Media Access Control Parameters,
@@ -74,7 +74,6 @@ keyword:
 - content: Synchronization
 - content: Passive optical networks
 - content: IEEE 802.3 Standard
-- content: Ethernet
 - content: 802.3bz
 - content: 2.5G/5GBASE-T
 - content: Auto-Negotiation
@@ -82,17 +81,18 @@ keyword:
 - content: Physical Medium Attachment (PMA) sublayer
 - content: structured cabling
 - content: XGMII
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

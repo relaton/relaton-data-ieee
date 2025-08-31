@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.41-D-4-2017-10
 title:
 - content: IEEE Draft Standard Design Tests for High-Voltage (>1000 V) Fuses and Accessories
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.41-2016
+    id: IEEEStdC37.41-2016
     docid:
-    - id: IEEE C37.41-2016
+    - id: IEEE Std C37.41-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.41-2016
+      content: IEEE Std C37.41-2016
       format: text/plain
   description:
     content: corrects
@@ -95,15 +95,13 @@ keyword:
 - content: fuse-enclosure package (FEP)
 - content: high-voltage fuses
 - content: IEEE 37.41&#8482;
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

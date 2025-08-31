@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.21a-D-06-2011-11
 title:
 - content: 'IEEE Approved Draft Standard for Local and Metropolitan Area Networks:
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P802.21a/D-06-2011-11
 date:
 - type: created
-  value: '2012'
+  value: '2012-04-03'
 - type: published
   value: '2012-04-05'
 - type: issued
@@ -77,15 +77,16 @@ keyword:
 - content: Service access authentication
 - content: security protection
 - content: proactive authentication
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

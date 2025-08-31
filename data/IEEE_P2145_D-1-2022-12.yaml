@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2145-D-1-2022-12
 title:
 - content: IEEE Draft Standard for Framework and Definitions for Blockchain Governance
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P2145/D-1-2022-12
 date:
 - type: created
-  value: '2023'
+  value: '2023-03-10'
 - type: published
   value: '2023-03-13'
 - type: issued
-  value: '2023'
+  value: '2023-11-08'
 contributor:
 - organization:
     name:
@@ -45,6 +45,19 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: Provided in this standard is a common nomenclature and framework for describing
+    blockchain governance across all use cases and contexts, including public, private,
+    permissioned, permissionless, and hybrid. The standard is only normative regarding
+    terminology. It is non-normative with respect to the design of particular blockchain
+    protocols and systems. Where two terms are in common use for one concept, the
+    standard shall define both terms and elaborate on any meaningful distinctions
+    between them.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -61,16 +74,27 @@ keyword:
 - content: Blockchains
 - content: Design methodology
 - content: blockchain
-- content: governance
 - content: blockchain governance
-- content: framework
 - content: design plan
-doctype: standard
-editorialgroup:
-  committee:
-  - Blockchain Standards Committee of the IEEE Consumer Technology Society
+- content: framework
+- content: governance
+- content: IEEE 2145&#8482;
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Blockchain Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  - code: '35.030'
+    text: IT Security
+  - code: 35.240.40
+    text: IT applications in banking
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

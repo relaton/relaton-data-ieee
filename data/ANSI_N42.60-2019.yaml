@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.60-2019
 title:
 - content: IEEE/ANSI American National Standard Training for Radiological/Nuclear
@@ -58,6 +58,13 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The training requirements for radiological/nuclear detection for Initial
+    Response are covered in this standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -87,15 +94,16 @@ keyword:
 - content: PRND
 - content: radiation detection instrumentation
 - content: training
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

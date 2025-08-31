@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1349-D-9.0-2021-05
 title:
 - content: IEEE Approved Draft Guide for the Application of Electric Machines in Zone
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1349/D-9.0-2021-05
 date:
 - type: created
-  value: '2021'
+  value: '2021-06-21'
 - type: published
   value: '2021-05-21'
 - type: issued
@@ -81,30 +81,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1349-2011
+    id: IEEEStd1349-2011
     docid:
-    - id: IEEE 1349-2011
+    - id: IEEE Std 1349-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1349-2011
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1349-2011
-    docid:
-    - id: IEEE 1349-2011
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1349-2011
+      content: IEEE Std 1349-2011
       format: text/plain
   description:
     content: revises
@@ -129,17 +112,18 @@ keyword:
     sparking; rotor temperature; space heater test; synchronous motor; T Code; temperature
     code
 - content: Zone 2
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.160.30
-  text: Motors
-- code: 29.260.20
-  text: Electrical apparatus for explosive atmospheres
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.160.30
+    text: Motors
+  - code: 29.260.20
+    text: Electrical apparatus for explosive atmospheres
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.431.20-D-0-2024-07
 title:
 - content: IEEE Draft Guide for Protecting Transmission Dynamic Reactive Power Compensators
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE PC37.431.20/D-0-2024-07
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-25'
 - type: published
   value: '2024-07-31'
 - type: issued
@@ -92,12 +92,13 @@ keyword:
 - content: Thyristor Switched Capacitor (TSC)
 - content: Thyristor Switched Reactor (TSR)
 - content: Voltage Sourced Converter (VSC)
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations Committee of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations Committee of the IEEE Power and Energy Society
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

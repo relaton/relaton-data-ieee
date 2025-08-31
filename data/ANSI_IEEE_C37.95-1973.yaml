@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEEC37.95-1973
 title:
 - content: American National Standard Guide for Protective Relaying of Utility - Consumer
@@ -80,6 +80,24 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This guide has been prepared to aid in the effective and uniform application
+    of fuses, relays, and their associated switching equipment located at the point
+    of interconnection between the utility and the consumer electrical systems. Descriptions
+    of the various devices, definitions of terms, and references to other technical
+    technical publications have been included to make the guide useful not only to
+    relay engineers, but also to other technical people who may not be intimately
+    familiar with the art of relaying, but who nevertheless have a responsibility
+    for the installation and operation of such interconnections. It includes examples
+    for relaying of typical installations, both with and without consumer generation,
+    and with service from utility radial or loop feeders, either directly from the
+    utility substation bus or from a transmission line. It is expected that the guide
+    will be used by consulting engineers, utility relay and sales engineers, and by
+    consumer engineering and maintenance personnel.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -96,13 +114,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEEC37.95-1989
+    id: IEEEStdC37.95-1989
     docid:
-    - id: IEEE C37.95-1989
+    - id: IEEE Std C37.95-1989
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.95-1989
+      content: IEEE Std C37.95-1989
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -115,12 +133,10 @@ keyword:
 - content: utility
 - content: consumer
 - content: interconnection
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

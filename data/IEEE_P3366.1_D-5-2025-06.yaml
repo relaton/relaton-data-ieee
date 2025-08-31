@@ -1,0 +1,105 @@
+---
+schema-version: v1.2.9
+id: IEEEP3366.1-D-5-2025-06
+title:
+- content: IEEE Draft Standard for Geometry Point Cloud Compression
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/11066206
+  type: src
+type: standard
+docid:
+- id: IEEE P3366.1/D-5-2025-06
+  type: IEEE
+  primary: true
+- id: IEEE P3366.1™/D-5-2025-06
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2376-2
+  type: ISBN
+docnumber: IEEE P3366.1/D-5-2025-06
+date:
+- type: created
+  value: '2025-07-01'
+- type: published
+  value: '2025-07-02'
+- type: issued
+  value: '2025'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-07-02'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: This standard defines a set of tools for efficient compression of geometry
+    point clouds and the corresponding definitions of syntax, semantics, parsing and
+    decoding processes, including but not limited to prediction, transform, quantization,
+    and entropy coding, etc. This standard provides efficient coding tool sets for
+    compression, decompression, processing and packaging of point cloud data, which
+    can significantly reduce the disk storage and communication bandwidth. The target
+    applications and services include but are not limited to manufacturing, mapping,
+    ecommerce, e-tourism, digital culture heritage.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+keyword:
+- content: compression
+- content: coding
+- content: point cloud
+- content: sequence
+- content: geometry
+- content: attribute
+- content: reflectance
+- content: color
+- content: frame
+- content: slice
+- content: reorder
+- content: Morton
+- content: Hilbert
+- content: octree
+- content: predictive tree
+- content: prediction
+- content: transform
+- content: prediction and transform
+- content: quantization
+- content: entropy coding
+- content: exp-Golomb
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Data Compression Standards Committee of the IEEE Computer Society
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

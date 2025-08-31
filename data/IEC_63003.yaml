@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC63003
 title:
 - content: IEC/IEEE International standard for the common test interface pin map configuration
@@ -63,6 +63,19 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: 'This standard represents an extension to the IEEE 1505 receiver fixture
+    interface (RFI) standard specification. Particular emphasis is placed on defining
+    within the IEEE 1505 RFI standard a more specific set of performance requirements
+    that employ a common scalable: (a) pin map configuration; (b) specific connector
+    modules; (c) respective contacts; (d) recommended switching implementation; and
+    (e) legacy automatic test equipment (ATE) transitional devices. This is intentionally
+    done to standardize the footprint and assure mechanical and electrical interoperability
+    between past and future automatic test systems (ATS).'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -77,7 +90,6 @@ copyright:
     - content: IEC
   from: '2015'
 keyword:
-- content: IEC Standards
 - content: IEC Standards
 - content: Receivers
 - content: Scalability
@@ -95,15 +107,16 @@ keyword:
 - content: scalable
 - content: TPS
 - content: UUT
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 31.220.10
-  text: Plug-and-socket devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: 31.220.10
+    text: Plug-and-socket devices
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

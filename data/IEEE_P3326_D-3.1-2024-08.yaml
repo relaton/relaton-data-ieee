@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3326-D-3.1-2024-08
 title:
 - content: IEEE Draft Recommended Practice for Use of Infrared Online System for Substation
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2024-09-06'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -47,11 +47,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The application of on-line infrared inspection system for substations is
-    introduced in this recommended practice. The system composition, function and
-    performance requirements, test methods and test rules are provided, as well as
-    a comprehensive framework for realizing accurate and efficient infrared on-line
-    inspection
+- content: The application of online infrared inspection systems for substations is
+    introduced in this recommended practice. The system composition, functional and
+    performance requirements, test methods, and test rules are provided, as well as
+    a comprehensive framework for realizing accurate and efficient infrared online
+    inspection.
   language:
   - en
   script:
@@ -69,24 +69,39 @@ copyright:
     url: http://www.ieee.org
   from: '2024'
 keyword:
+- content: IEEE Standards
+- content: Defect detection
+- content: Diagnostic expert systems
+- content: Infrared imaging
+- content: Online services
+- content: Inspection
+- content: Alarm systems
+- content: Videos
+- content: Substations
 - content: alarm
 - content: defects
 - content: diagnostic basis
 - content: equipment management
-- content: IEEE 3326&#8482;
+- content: IEEE 3326
 - content: infrared image
 - content: infrared online inspection system
-- content: inspection
 - content: infrared video
+- content: inspection
 - content: judgment method
 - content: substation
-doctype: standard
-editorialgroup:
-  committee:
-  - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+  ics:
+  - code: 29.240.10
+    text: Substations. Surge arresters
+  - code: 29.240.99
+    text: Other equipment related to power transmission and distribution networks
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

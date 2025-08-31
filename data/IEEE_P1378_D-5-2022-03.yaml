@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1378-D-5-2022-03
 title:
 - content: IEEE Draft Guide for Commissioning High-Voltage Direct-Current (HVDC) Converter
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1378/D-5-2022-03
 date:
 - type: created
-  value: '2022'
+  value: '2022-03-07'
 - type: published
   value: '2022-03-08'
 - type: issued
@@ -71,166 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1378-1997
+    id: IEEEStd1378-1997
     docid:
-    - id: IEEE 1378-1997
+    - id: IEEE Std 1378-1997
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1378-1997
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1378-1997
-    docid:
-    - id: IEEE 1378-1997
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1378-1997
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1378-1997
-    docid:
-    - id: IEEE 1378-1997
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1378-1997
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1378-1997
-    docid:
-    - id: IEEE 1378-1997
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1378-1997
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1378-1997
-    docid:
-    - id: IEEE 1378-1997
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1378-1997
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1378-1997
-    docid:
-    - id: IEEE 1378-1997
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1378-1997
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1378-1997
-    docid:
-    - id: IEEE 1378-1997
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1378-1997
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1378-1997
-    docid:
-    - id: IEEE 1378-1997
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1378-1997
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1378-1997
-    docid:
-    - id: IEEE 1378-1997
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1378-1997
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1378-1997
-    docid:
-    - id: IEEE 1378-1997
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1378-1997
+      content: IEEE Std 1378-1997
       format: text/plain
   description:
     content: revises
@@ -251,17 +98,18 @@ keyword:
 - content: IEEE 1378
 - content: on-site tests
 - content: pre-commissioning
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: '29.200'
-  text: Rectifiers. Converters. Stabilized power supply
-- code: 29.240.99
-  text: Other equipment related to power transmission and distribution networks
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power and Energy Society
+  ics:
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
+  - code: 29.240.99
+    text: Other equipment related to power transmission and distribution networks
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

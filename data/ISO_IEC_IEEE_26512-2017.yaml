@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE26512-2017
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering
@@ -24,8 +24,6 @@ docid:
   type: DOI
 docnumber: ISO/IEC/IEEE 26512-2017
 date:
-- type: updated
-  value: '2018-03-09'
 - type: created
   value: '2017-11-01'
 - type: published
@@ -39,6 +37,10 @@ contributor:
     abbreviation:
       content: IEEE
     url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
   role:
   - type: publisher
 revdate: '2018-02-09'
@@ -109,15 +111,17 @@ keyword:
 - content: Software engineering
 - content: Systems engineering and theory
 - content: Requirements engineering
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

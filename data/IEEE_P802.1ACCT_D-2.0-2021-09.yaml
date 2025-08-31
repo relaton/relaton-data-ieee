@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1ACct-D-2.0-2021-09
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks -- Media
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2021-09-10'
 - type: issued
-  value: '2021'
+  value: '2021-12-08'
 contributor:
 - organization:
     name:
@@ -68,64 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1AC-2016
+    id: IEEEStd802.1AC-2016
     docid:
-    - id: IEEE 802.1AC-2016
+    - id: IEEE Std 802.1AC-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1AC-2016
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.1AC-2016
-    docid:
-    - id: IEEE 802.1AC-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1AC-2016
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.1AC-2016
-    docid:
-    - id: IEEE 802.1AC-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1AC-2016
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.1AC-2016
-    docid:
-    - id: IEEE 802.1AC-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1AC-2016
+      content: IEEE Std 802.1AC-2016
       format: text/plain
   description:
     content: amends
@@ -135,22 +84,30 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Ad hoc networks
+- content: Multimedia communication
+- content: Wireless communication
+- content: Local area networks
+- content: Metropolitan area networks
+- content: Media Access Protocols
 - content: ad-hoc network
 - content: IEEE 802.1AC
 - content: IEEE 802.15.3
 - content: Internal Sublayer Service
-- content: multimedia
-- content: wireless.
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
+- content: multi-media
+- content: wireless
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

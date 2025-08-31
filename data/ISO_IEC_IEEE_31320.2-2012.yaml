@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE31320.2-2012
 title:
 - content: 'ISO/IEC/IEEE International Standard - Information technology -- Modeling
@@ -68,6 +68,24 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: 'IDEF1X97 consists of two conceptual modeling languages. The key-style
+    language supportsdata/information modeling and is downward compatible with the
+    US governments 1993 standard, FIPSPUB 184. The identity-style language is based
+    on the object model with declarative rules and constraints.IDEF1X97 identity style
+    includes constructs for the distinct but related components of object abstraction:
+    interface, requests, and realization; utilizes graphics to state the interface;
+    and defines a declarative, directly executable Rule and Constraint Language for
+    requests and realizations. IDEF1X97 conceptual modeling supports implementation
+    by relational databases, extended relational databases, object databases, and
+    object programming languages. IDEF1X97 is formally defined in terms of first order
+    logic. A procedure is given whereby any valid IDEF1X97 model can be transformed
+    into an equivalent theory in first order logic. That procedure is then applied
+    to a meta model of IDEF1X97 to define the valid set of IDEF1X97 models.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -86,13 +104,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE1320.2-1998
+    id: IEEEStd1320.2-1998
     docid:
-    - id: IEEE 1320.2-1998
+    - id: IEEE Std 1320.2-1998
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1320.2-1998
+      content: IEEE Std 1320.2-1998
       format: text/plain
 keyword:
 - content: IEEE standards
@@ -114,17 +132,19 @@ keyword:
 - content: information model
 - content: keymodel style
 - content: object
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.060'
-  text: Languages used in information technology
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

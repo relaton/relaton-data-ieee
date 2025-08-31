@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.123-D-11-2019-08
 title:
 - content: IEEE Draft Guide for Transformer Loss Measurement
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.123-2010
+    id: IEEEStdC57.123-2010
     docid:
-    - id: IEEE C57.123-2010
+    - id: IEEE Std C57.123-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.123-2010
+      content: IEEE Std C57.123-2010
       format: text/plain
   description:
     content: revises
@@ -99,15 +99,13 @@ keyword:
 - content: no-load loss
 - content: testing
 - content: transformers
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

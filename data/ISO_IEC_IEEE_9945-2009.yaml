@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE9945-2009
 title:
 - content: IEEE/ISO/IEC International Standard - Information technology Portable Operating
@@ -77,6 +77,16 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Revision and Adoption of IEEE Std 1003.1-2008, this standard defines a
+    standard operating system interface and environment, including a command interpreter
+    (or ‘‘shell’’), and common utility programs to support applications portability
+    at the source code level. It is intended to be used by both application developers
+    and system implementers.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -124,15 +134,16 @@ keyword:
 - content: system
 - content: thread
 - content: X/Open System Interface (XSI)
-doctype: standard
-editorialgroup:
-  committee:
-  - Portable Applications of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Portable Applications of the IEEE Computer Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

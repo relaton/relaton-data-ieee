@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC61691.1-1-2023
 title:
 - content: 'IEEE/IEC International Standard--Behavioural languages--Part 1-1: VHDL
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE1076-2019
+    id: IEEEStd1076-2019
     docid:
-    - id: IEEE 1076-2019
+    - id: IEEE Std 1076-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1076-2019
+      content: IEEE Std 1076-2019
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -96,16 +96,16 @@ keyword:
 - content: hardware
 - content: hardware design
 - content: IEEE 1076&#8482;
-- content: VHDL
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

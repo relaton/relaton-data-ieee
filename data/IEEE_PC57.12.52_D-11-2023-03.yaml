@@ -1,8 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.12.52-D-11-2023-03
 title:
-- content: IEEE Draft Standard for Sealed Dry-Type Distribution and Power Transformers
+- content: IEEE Approved Draft Standard for Sealed Dry-Type Distribution and Power
+    Transformers
   format: text/plain
   type: main
 link:
@@ -22,11 +23,11 @@ docid:
 docnumber: IEEE PC57.12.52/D-11-2023-03
 date:
 - type: created
-  value: '2023'
+  value: '2024-05-23'
 - type: published
   value: '2023-03-10'
 - type: issued
-  value: '2023'
+  value: '2024-05-20'
 contributor:
 - organization:
     name:
@@ -48,14 +49,13 @@ script:
 abstract:
 - content: Characteristics are provided in this standard relating to performance,
     limited electrical and mechanical interchangeability, and guidance to assist in
-    the proper selection of sealed dry type transformers having a high voltage of
-    at least 601 Volts. Specific rating combinations are described in the range from
-    750 to 5000 kVA inclusive, with high-voltage 2400 to 34500 Volts inclusive and
-    low-voltage 208Y/120 to 4160 Volts inclusive. The fill gases used in these sealed
-    dry-type power transformers are not explicitly defined. This standard does not
-    apply to other types of transformers, such as those transformers described as
-    exceptions in IEEE C57.12.01, as well as ventilated dry-type, non-ventilated dry-type,
-    and liquid-immersed, and transformers.
+    the proper selection of sealed dry-type transformers having a high voltage of
+    at least 601 V. Specific rating combinations are described in the range from 500
+    kVA to 5000 kVA inclusive, with voltage ratings as described in IEEE Std C57.12.01&#8482;.
+    The fill gases used in these sealed dry-type power transformers are not explicitly
+    defined. This standard does not apply to other types of transformers, such as
+    those transformers described as exceptions in IEEE Std C57.12.01, as well as ventilated
+    dry-type and non-ventilated dry-type transformers.
   language:
   - en
   script:
@@ -75,115 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.12.52-2012
+    id: IEEEStdC57.12.52-2012
     docid:
-    - id: IEEE C57.12.52-2012
+    - id: IEEE Std C57.12.52-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.12.52-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.12.52-2012
-    docid:
-    - id: IEEE C57.12.52-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.12.52-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.12.52-2012
-    docid:
-    - id: IEEE C57.12.52-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.12.52-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.12.52-2012
-    docid:
-    - id: IEEE C57.12.52-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.12.52-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.12.52-2012
-    docid:
-    - id: IEEE C57.12.52-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.12.52-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.12.52-2012
-    docid:
-    - id: IEEE C57.12.52-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.12.52-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.12.52-2012
-    docid:
-    - id: IEEE C57.12.52-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.12.52-2012
+      content: IEEE Std C57.12.52-2012
       format: text/plain
   description:
     content: revises
@@ -198,6 +96,7 @@ keyword:
 - content: Power transformers
 - content: Temperature measurement
 - content: ambient temperature
+- content: basic impulse insulation level
 - content: BIL
 - content: construction
 - content: current transformer
@@ -207,7 +106,7 @@ keyword:
 - content: gas
 - content: GA
 - content: grounding
-- content: IEEE C57.12.52
+- content: IEEE C57.12.52&#8482;
 - content: insulation level
 - content: jacking
 - content: limiting temperature
@@ -226,16 +125,17 @@ keyword:
 - content: transformer tank
 - content: unit substation
 - content: winding temperature
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

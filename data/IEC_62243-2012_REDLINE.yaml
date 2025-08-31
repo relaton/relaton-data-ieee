@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62243-2012Redline
 title:
 - content: 'IEC 62243:2012(E) (IEEE Std 1232-2010): Artificial Intelligence Exchange
@@ -27,7 +27,7 @@ docid:
 docnumber: IEC 62243-2012 Redline
 date:
 - type: created
-  value: '2012'
+  value: '2012-07-16'
 - type: published
   value: '2012-12-20'
 - type: issued
@@ -93,19 +93,20 @@ keyword:
 - content: IEEE 1232
 - content: knowledge exchange
 - content: system test
-doctype: redline
-editorialgroup:
-  committee:
-  - SCC20 - Test and Diagnosis for Electronic Systems
-ics:
-- code: '35.080'
-  text: Software
-- code: '35.240'
-  text: Applications of information technology
-- code: '35.160'
-  text: Microprocessor systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: redline
+  editorialgroup:
+    committee:
+    - SCC20 - Test and Diagnosis for Electronic Systems
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: '35.240'
+    text: Applications of information technology
+  - code: '35.160'
+    text: Microprocessor systems
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

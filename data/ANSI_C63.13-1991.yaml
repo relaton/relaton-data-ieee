@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC63.13-1991
 title:
 - content: American National Standard Guide on the Application and Evaluation of EMI
@@ -87,15 +87,16 @@ keyword:
 - content: no load insertion
 - content: insertion loss
 - content: Power filters
-doctype: standard
-editorialgroup:
-  committee:
-  - Accredited Standards Committee on Electromagnetic Compatibility
-ics:
-- code: '31.160'
-  text: Electric filters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Accredited Standards Committee on Electromagnetic Compatibility
+  ics:
+  - code: '31.160'
+    text: Electric filters
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

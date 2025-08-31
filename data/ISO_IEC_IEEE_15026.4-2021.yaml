@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE15026.4-2021
 title:
 - content: 'ISO/IEC/IEEE International Standard - Systems and software engineering--Systems
@@ -78,19 +78,20 @@ keyword:
 - content: IEEE Standards
 - content: ISO Standards
 - content: IEC Standards
-- content: ISO Standards
 - content: Software engineering
 - content: System analysis and design
 - content: Product life cycle management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

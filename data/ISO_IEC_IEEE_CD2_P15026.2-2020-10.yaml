@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEECD2P15026.2-2020-10
 title:
 - content: 'IEEE Draft International Standard - Systems and software engineering--Systems
@@ -64,13 +64,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE15026.2-2011
+    id: IEEEStd15026.2-2011
     docid:
-    - id: IEEE 15026.2-2011
+    - id: IEEE Std 15026.2-2011
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15026.2-2011
+      content: IEEE Std 15026.2-2011
       format: text/plain
   description:
     content: revises
@@ -83,15 +83,17 @@ keyword:
 - content: IEEE Standards
 - content: Software engineering
 - content: Systems engineering and theory
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

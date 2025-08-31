@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1241-D-15-2023-02
 title:
 - content: IEEE Approved Draft Standard for Terminology and Test Methods for Analog-to-Digital
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1241/D-15-2023-02
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-13'
 - type: published
   value: '2023-02-17'
 - type: issued
@@ -46,6 +46,20 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: The material presented in this standard is intended to provide common terminology
+    and test methods for the testing and evaluation of analog-to-digital converters
+    (ADCs). This standard considers only those ADCs whose output values are extracted
+    (sampled) and then digitized at known time intervals. In general, this quantization
+    is assumed to be nominally uniform (the input-output transfer curve is approximately
+    a straight line) and the sampling is assumed to be at a nominally uniform rate.
+    Some but not all of the test methods in this standard can be used for ADCs that
+    are designed for non-uniform quantization.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -60,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1241-2010
+    id: IEEEStd1241-2010
     docid:
-    - id: IEEE 1241-2010
+    - id: IEEE Std 1241-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1241-2010
+      content: IEEE Std 1241-2010
       format: text/plain
   description:
     content: revises
@@ -99,17 +113,18 @@ keyword:
 - content: SAR
 - content: SFDR
 - content: sine fitting
-doctype: standard
-editorialgroup:
-  committee:
-  - TC10 - Waveform Generation Measurement and Analysis of the IEEE Instrumentation
-    and Measurement Society
-ics:
-- code: '31.200'
-  text: Integrated circuits. Microelectronics
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC10 - Waveform Generation Measurement and Analysis of the IEEE Instrumentation
+      and Measurement Society
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

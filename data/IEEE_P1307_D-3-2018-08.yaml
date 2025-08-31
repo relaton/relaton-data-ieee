@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1307-D-3-2018-08
 title:
 - content: IEEE Approved Draft Standard for Fall Protection for Electric Utility Transmission
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1307-2004
+    id: IEEEStd1307-2004
     docid:
-    - id: IEEE 1307-2004
+    - id: IEEE Std 1307-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1307-2004
+      content: IEEE Std 1307-2004
       format: text/plain
   description:
     content: revises
@@ -101,15 +101,13 @@ keyword:
 - content: IEEE 1307(TM)
 - content: total fall distance
 - content: work positioning system
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 13.340.60
-  text: Protection against falling and slipping
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 13.340.60
+    text: Protection against falling and slipping
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

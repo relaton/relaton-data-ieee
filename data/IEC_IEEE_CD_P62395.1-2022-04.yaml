@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEECDP62395.1-2022-04
 title:
 - content: 'IEEE/IEC Draft Standard - Electrical Resistance Trace Heating Systems
@@ -23,11 +23,11 @@ docid:
 docnumber: IEC/IEEE CD P62395.1-2022-04
 date:
 - type: created
-  value: '2022'
+  value: '2022-04-29'
 - type: published
   value: '2022-05-02'
 - type: issued
-  value: '2022'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -62,115 +62,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE515-2017
+    id: IEEEStd515-2017
     docid:
-    - id: IEEE 515-2017
+    - id: IEEE Std 515-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 515-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE515-2017
-    docid:
-    - id: IEEE 515-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 515-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE515-2017
-    docid:
-    - id: IEEE 515-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 515-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE515-2017
-    docid:
-    - id: IEEE 515-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 515-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE515-2017
-    docid:
-    - id: IEEE 515-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 515-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE515-2017
-    docid:
-    - id: IEEE 515-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 515-2017
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE515-2017
-    docid:
-    - id: IEEE 515-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 515-2017
+      content: IEEE Std 515-2017
       format: text/plain
   description:
     content: revises
@@ -185,15 +83,16 @@ keyword:
 - content: Heating systems
 - content: Industrial power systems
 - content: Resistance
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum and Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 25.180.10
-  text: Electric furnaces
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 25.180.10
+    text: Electric furnaces
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

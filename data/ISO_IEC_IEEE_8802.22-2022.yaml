@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.22-2022
 title:
 - content: 'ISO/IEC/IEEE International Standard--Telecommunications and information
@@ -29,7 +29,7 @@ docid:
 docnumber: ISO/IEC/IEEE 8802.22-2022
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-13'
 - type: published
   value: '2022-06-10'
 - type: issued
@@ -83,13 +83,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.22-2019
+    id: IEEEStd802.22-2019
     docid:
-    - id: IEEE 802.22-2019
+    - id: IEEE Std 802.22-2019
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.22-2019
+      content: IEEE Std 802.22-2019
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -111,15 +111,16 @@ keyword:
 - content: radio spectrum sensing
 - content: regional area network
 - content: WRAN standards ISO/IEC/IEEE FDIS 8802-22:2021(E) ISO/IEC/IEEE 8802-22:2022(E)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

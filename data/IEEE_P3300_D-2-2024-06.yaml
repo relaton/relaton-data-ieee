@@ -1,10 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3300-D-2-2024-06
 title:
-- content: IEEE Draft Standard for Adoption of Moving Picture, Audio and Data Coding
-    by Artificial Intelligence (MPAI) Technical Specification Multimodal Conversation
-    (MMC) Version 2
+- content: IEEE Approved Draft Standard for Adoption of Moving Picture, Audio and
+    Data Coding by Artificial Intelligence (MPAI) Technical Specification Multimodal
+    Conversation (MMC) Version 2
   format: text/plain
   type: main
 link:
@@ -24,11 +24,11 @@ docid:
 docnumber: IEEE P3300/D-2-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-10-10'
 - type: published
   value: '2024-06-28'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -47,6 +47,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: This standard adopts MPAI Technical Specification Version 2 as an IEEE
+    Standard. Multimodal Conversation (MPAI-MMC) specifies use cases, all of which
+    share the use of artificial intelligence (AI) to enable a complete and intense
+    form of human-machine conversation.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -58,13 +68,39 @@ copyright:
       content: IEEE
     url: http://www.ieee.org
   from: '2024'
-doctype: standard
-editorialgroup:
-  committee:
-  - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+keyword:
+- content: IEEE Standards
+- content: Multimodal sensors
+- content: Audio coding
+- content: Data analysis
+- content: Encoding
+- content: Artificial intelligence
+- content: adoption
+- content: AI modules
+- content: bidirectional speech translation
+- content: BST
+- content: conversation with emotion
+- content: CWE
+- content: IEEE 3300&#8482;
+- content: MQA
+- content: MST
+- content: multimodal conversation
+- content: multimodal question answering
+- content: one-to-many speech translation
+- content: unidirectional speech translation
+- content: use cases
+- content: UST
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

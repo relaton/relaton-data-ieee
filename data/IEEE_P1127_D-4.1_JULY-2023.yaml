@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1127-D-4.1_July-2023
 title:
 - content: IEEE Draft Guide for the Design, Construction, and Operation of Electric
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1127/D-4.1_July-2023
 date:
 - type: created
-  value: '2023'
+  value: '2023-07-12'
 - type: published
   value: '2023-07-18'
 - type: issued
@@ -71,47 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1127-2013
+    id: IEEEStd1127-2013
     docid:
-    - id: IEEE 1127-2013
+    - id: IEEE Std 1127-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1127-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1127-2013
-    docid:
-    - id: IEEE 1127-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1127-2013
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1127-2013
-    docid:
-    - id: IEEE 1127-2013
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1127-2013
+      content: IEEE Std 1127-2013
       format: text/plain
   description:
     content: revises
@@ -137,15 +103,16 @@ keyword:
 - content: permitting process
 - content: residential zone
 - content: wetlands
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: '27.100'
-  text: Power stations in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power and Energy Society
+  ics:
+  - code: '27.100'
+    text: Power stations in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

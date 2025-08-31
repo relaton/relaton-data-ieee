@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE22-1925
 title:
 - content: AIEE Standards Disconnecting and Horn Gap Switches
@@ -26,7 +26,7 @@ date:
 - type: updated
   value: '2016-02-26'
 - type: created
-  value: '1925'
+  value: '1925-07-31'
 - type: published
   value: '2016-01-05'
 - type: issued
@@ -63,9 +63,10 @@ keyword:
 - content: Switches
 - content: Switching systems
 - content: Horn gap switches
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

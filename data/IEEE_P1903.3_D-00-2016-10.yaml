@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1903.3-D-00-2016-10
 title:
 - content: IEEE Draft Standard for Self-Organizing Management Protocols of Next Generation
@@ -82,13 +82,14 @@ keyword:
 - content: Self-Configuration
 - content: Self-Optimization
 - content: Self-Recovery
-doctype: standard
-editorialgroup:
-  committee:
-  - Virtualized and Software Defined Networks, and Services Standards Committee of
-    the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Virtualized and Software Defined Networks, and Services Standards Committee
+      of the IEEE Communications Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

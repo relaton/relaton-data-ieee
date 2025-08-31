@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2417-D-7.8-2022-02
 title:
 - content: IEEE Draft Guide for Early Detection, Mitigation, Preventative Measures,
@@ -85,12 +85,20 @@ keyword:
 - content: manhole explosion
 - content: manhole fire
 - content: smoking manhole
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 13.220.99
+    text: Other standards related to protection against fire
+  - code: '13.230'
+    text: Explosion protection
+  - code: 29.060.20
+    text: Cables
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

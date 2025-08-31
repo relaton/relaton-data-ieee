@@ -1,10 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.154-D-8-2022-03
 title:
-- content: IEEE Approved Draft Standard for Liquid-Immersed Transformers Designed
-    to Operate at Temperatures Above Conventional Limits Using High-Temperature Insulation
-    Systems.
+- content: IEEE Draft Standard for Liquid-Immersed Transformers Designed to Operate
+    at Temperatures Above Conventional Limits Using High-Temperature Insulation Systems.
   format: text/plain
   type: main
 link:
@@ -24,7 +23,7 @@ docid:
 docnumber: IEEE PC57.154/D-8-2022-03
 date:
 - type: created
-  value: '2022'
+  value: '2022-04-04'
 - type: published
   value: '2022-04-05'
 - type: issued
@@ -75,64 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.154-2012
+    id: IEEEStdC57.154-2012
     docid:
-    - id: IEEE C57.154-2012
+    - id: IEEE Std C57.154-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.154-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.154-2012
-    docid:
-    - id: IEEE C57.154-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.154-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.154-2012
-    docid:
-    - id: IEEE C57.154-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.154-2012
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC57.154-2012
-    docid:
-    - id: IEEE C57.154-2012
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C57.154-2012
+      content: IEEE Std C57.154-2012
       format: text/plain
   description:
     content: revises
@@ -155,15 +103,16 @@ keyword:
 - content: hybrid
 - content: IEEE C57.154
 - content: insulation system
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

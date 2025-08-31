@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3005.4-D-8-2019-05
 title:
 - content: IEEE Draft Recommended Practice for Design and Operational Considerations
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P3005.4/D-8-2019-05
 date:
 - type: created
-  value: '2019'
+  value: '2019-07-09'
 - type: published
   value: '2019-07-15'
 - type: issued
@@ -62,13 +62,14 @@ keyword:
 - content: Power system reliability
 - content: Design methodology
 - content: Emergency services
-doctype: standard
-editorialgroup:
-  committee:
-  - Industrial &amp; Commercial Power Systems Standards Development Committee of the
-    IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Industrial &amp; Commercial Power Systems Standards Development Committee of
+      the IEEE Industry Applications Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

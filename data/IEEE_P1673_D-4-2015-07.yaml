@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1673-D-4-2015-07
 title:
 - content: IEEE Draft Standard for Requirements for Conduit and Cable Seals for Field
@@ -81,17 +81,18 @@ keyword:
 - content: cable
 - content: conduits systems
 - content: flammable process fluids
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.120.10
-  text: Conduits for electrical purposes
-- code: 75.180.99
-  text: Other equipment for petroleum and natural gas industries
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.120.10
+    text: Conduits for electrical purposes
+  - code: 75.180.99
+    text: Other equipment for petroleum and natural gas industries
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2939-D-2-2023-04
 title:
 - content: IEEE Draft Guide for the Joint Use of Electric Power Transmission & Distribution
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2939/D-2-2023-04
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-20'
 - type: published
   value: '2023-04-21'
 - type: issued
@@ -103,17 +103,18 @@ keyword:
 - content: wireless
 - content: wireline
 - content: worker zone
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
-- code: 33.070.99
-  text: Other mobile services
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  - code: 33.070.99
+    text: Other mobile services
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

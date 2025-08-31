@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2888.2-D-1-2023-07
 title:
 - content: IEEE Draft Standard for Actuator Interface for Cyber and Physical Worlds
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2888.2/D-1-2023-07
 date:
 - type: created
-  value: '2023'
+  value: '2023-07-13'
 - type: published
   value: '2023-07-17'
 - type: issued
@@ -80,15 +80,16 @@ keyword:
 - content: actuator data formats
 - content: IEEE 2888.2&#8482;
 - content: large space virtual reality (VR) training system actuators
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.180'
-  text: IT terminal and other peripheral equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.180'
+    text: IT terminal and other peripheral equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

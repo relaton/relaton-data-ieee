@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2811-D-9-2024-07
 title:
-- content: IEEE Draft Standard for Architectural Framework and Technical Requirements
-    for Smart Lock
+- content: IEEE Approved Draft Standard for Architectural Framework and Technical
+    Requirements for Smart Lock
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P2811/D-9-2024-07
 date:
 - type: created
-  value: '2024-08-07'
+  value: '2024-12-17'
 - type: published
-  value: '2024-08-09'
+  value: '2024-08-08'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -41,20 +41,20 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-08-09'
+revdate: '2024-08-08'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: As an important part of smart home, smart lock will be used by every household
+- content: 'As an important part of smart home, smart lock will be used by every household
     in the future. Therefore, the standard specification of smart lock is particularly
-    important. This draft standard introduces the concept of smart lock and defines
-    the architecture of smart lock which consists of smart lock, smart lock master,
-    smart lock visitor, cloud server and gateway. In addition, it introduces the interfaces
-    between architectures, security, privacy and processing. Through the standardization
-    of smart lock, it will actively promote the rapid development of smart lock in
-    the industry.
+    important. The contents of this standard introduces the concept of smart lock
+    and defines its architecture, which consists of: smart lock, smart lock master,
+    smart lock visitor, cloud server, and gateway. In addition, the contents of this
+    standard introduces the interfaces between architectures, security, privacy and
+    processing. Through the standardization of smart lock, it will actively promote
+    the rapid development of smart lock in the industry.'
   language:
   - en
   script:
@@ -76,17 +76,24 @@ keyword:
 - content: Smart devices
 - content: Security
 - content: Privacy
-- content: smart lock
+- content: IEEE 2811™
 - content: interface
-- content: security
 - content: privacy
-doctype: standard
-editorialgroup:
-  committee:
-  - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+- content: security
+- content: smart lock
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: 35.240.95
+    text: Internet applications
+  - code: '97.120'
+    text: Automatic controls for household use
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

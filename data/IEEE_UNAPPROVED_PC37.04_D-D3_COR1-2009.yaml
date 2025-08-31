@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEUnapprovedPC37.04-D-D3-Cor1-2009
 title:
 - content: IEEE Draft IEEE Standard Rating Structure for AC High-Voltage Circuit Breakers
@@ -73,12 +73,13 @@ keyword:
 - content: Transient analysis
 - content: Voltage
 - content: Circuit breaker
-doctype: standard
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

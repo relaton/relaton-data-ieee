@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1627-D-1-2017
 title:
 - content: IEEE Draft Standard for Transient Overvoltage Protection of DC Electrification
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1627/D-1-2017
 date:
 - type: created
-  value: '2017'
+  value: '2017-06-30'
 - type: published
   value: '2017-07-04'
 - type: issued
@@ -105,15 +105,15 @@ keyword:
 - content: Power transmission lines
 - content: Railway transportation
 - content: Surge arrester
-- content: Lightning
 - content: Overvoltage
 - content: Switching surges
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

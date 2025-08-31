@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC2-2016-01
 title:
 - content: 2017 Draft National Electrical Safety Code(R) (NESC(R))
@@ -95,6 +95,23 @@ relation:
     script:
     - Latn
     format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEC2-2012
+    docid:
+    - id: IEEE C2-2012
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE C2-2012
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
 keyword:
 - content: ANSI Standards
 - content: National electric code
@@ -117,14 +134,15 @@ keyword:
 - content: safety work rules
 - content: underground communication line safety
 - content: underground electric line safety
-doctype: standard
-ics:
-- code: '13.260'
-  text: Protection against electric shock. Live working
-- code: '29.020'
-  text: Electrical engineering in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '13.260'
+    text: Protection against electric shock. Live working
+  - code: '29.020'
+    text: Electrical engineering in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

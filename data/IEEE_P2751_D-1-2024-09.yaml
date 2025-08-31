@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2751-D-1-2024-09
 title:
 - content: IEEE Draft Standard for 3D Map Data Representation for Robotics and Automation
@@ -88,13 +88,14 @@ keyword:
 - content: octrees
 - content: point clouds
 - content: polygonal meshes
-doctype: standard
-editorialgroup:
-  committee:
-  - Standing Committee for Standards of the IEEE Robotics and Automation Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standing Committee for Standards of the IEEE Robotics and Automation Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

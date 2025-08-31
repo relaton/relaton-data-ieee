@@ -1,0 +1,117 @@
+---
+schema-version: v1.2.9
+id: IEEEStd802.1
+title:
+- content: 'IEEE Standard for Local and Metropolitan Area Networks--Timing and Synchronization
+    for Time‐Sensitive Applications Amendment 2: YANG Data Model'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/10697437
+  type: src
+type: standard
+docid:
+- id: IEEE Std 802.1
+  type: IEEE
+  primary: true
+- id: IEEE Std 802.1®
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-1238-4
+  type: ISBN
+- id: 10.1109/IEEESTD.2024.10697437
+  type: DOI
+docnumber: IEEE Std 802.1
+date:
+- type: created
+  value: '2024'
+- type: published
+  value: '2024-09-27'
+- type: issued
+  value: '2024-09-26'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2024-09-27'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: A YANG data model that allows configuration and state reporting for all
+    managed objects of the base standard is specified in this amendment.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: approved
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2024'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd802.1AS-2020
+    docid:
+    - id: IEEE Std 802.1AS-2020
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.1AS-2020
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Telecommunication network management
+- content: Synchronization
+- content: Timing
+- content: Data models
+- content: amendment
+- content: data model
+- content: IEEE 802.1AS™
+- content: IEEE 802.1ASdn™
+- content: managed objects
+- content: network management
+- content: synchronization
+- content: syntonization
+- content: time-aware system
+- content: YANG
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP828-D-6-2011-03
 title:
 - content: IEEE Draft Standard for Software and Software Systems Configuration Management
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P828/D-6-2011-03
 date:
 - type: created
-  value: '2011'
+  value: '2011-04-12'
 - type: published
   value: '2011-04-15'
 - type: issued
@@ -90,15 +90,17 @@ keyword:
 - content: software builds
 - content: software configuration management
 - content: system configuration management
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEEFDISP12207.1707
 title:
 - content: ISO/IEC/IEEE Draft International Standard - Systems and software engineering
@@ -23,7 +23,7 @@ docid:
 docnumber: ISO/IEC/IEEE FDIS P12207.1707
 date:
 - type: created
-  value: '2017'
+  value: '2017-07-05'
 - type: published
   value: '2017-07-08'
 - type: issued
@@ -84,13 +84,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE12207-2008
+    id: IEEEStd12207-2008
     docid:
-    - id: IEEE 12207-2008
+    - id: IEEE Std 12207-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 12207-2008
+      content: IEEE Std 12207-2008
       format: text/plain
   description:
     content: revises
@@ -152,15 +152,13 @@ keyword:
 - content: transition
 - content: validation
 - content: verification
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

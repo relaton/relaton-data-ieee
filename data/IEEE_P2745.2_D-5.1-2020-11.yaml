@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2745.2-D-5.1-2020-11
 title:
 - content: 'IEEE Approved Draft Guide for Technology of Unified Power Flow Controller
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2745.2/D-5.1-2020-11
 date:
 - type: created
-  value: '2021'
+  value: '2021-06-21'
 - type: published
   value: '2021-06-22'
 - type: issued
@@ -47,10 +47,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This guide specifies glossary and definition of unified power flow controller
-    (UPFC) related areas, including the structure, equipment, control and protection,
-    test, and maintenance utilized by UPFC. The guide is applicable in flexible ac
-    transmission system (FACTS) such as UPFC, static synchronous compensator (STATCOM),
+- content: A glossary and definition of unified power flow controller (UPFC) related
+    areas, including the structure, equipment, control and protection, test, and maintenance
+    utilized by UPFC are specified in this guide. The guide is applicable in flexible
+    ac transmission system (FACTS) such as UPFC, static synchronous compensator (STATCOM),
     and static synchronous series compensator (SSSC).
   language:
   - en
@@ -77,13 +77,14 @@ keyword:
 - content: modular multilevel converter
 - content: terminology
 - content: unified power flow controller
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

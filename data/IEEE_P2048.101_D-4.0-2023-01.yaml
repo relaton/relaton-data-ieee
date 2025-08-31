@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2048.101-D-4.0-2023-01
 title:
 - content: 'IEEE Draft Standard for Augmented Reality on Mobile Devices: General Requirements
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2048.101/D-4.0-2023-01
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-15'
 - type: published
   value: '2023-06-16'
 - type: issued
@@ -91,19 +91,20 @@ keyword:
 - content: rendering engine
 - content: scale estimation
 - content: target recognition and tracking
-doctype: standard
-editorialgroup:
-  committee:
-  - Metaverse Standards Committee of the IEEE Consumer Technology Society
-ics:
-- code: 33.070.01
-  text: Mobile services in general
-- code: 35.040.40
-  text: Coding of audio, video, multimedia and hypermedia information
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Metaverse Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: 33.070.01
+    text: Mobile services in general
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

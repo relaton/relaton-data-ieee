@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE182A-1964
 title:
 - content: IEEE Standard Definitions of Terms for Radio Transmitters
@@ -55,6 +55,12 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Definitions of Terms for Radio Transmitters
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: withdrawn
@@ -74,12 +80,13 @@ keyword:
 - content: Radio receivers
 - content: Dictionaries
 - content: 182A
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Broadcast Technology Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE Broadcast Technology Society
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

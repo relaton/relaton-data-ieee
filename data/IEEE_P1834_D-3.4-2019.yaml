@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1834-D-3.4-2019
 title:
 - content: IEEE Approved Draft Standard for Technology Supervision Code for Wind Turbine
@@ -86,12 +86,13 @@ keyword:
 - content: wind turbine blade
 - content: wind turbine rotor
 - content: yaw system
-doctype: standard
-editorialgroup:
-  committee:
-  - Corporate Advisory Group of the IEEE SA Board of Governors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Corporate Advisory Group of the IEEE SA Board of Governors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE61886.1-2021
 title:
 - content: 'IEEE/IEC International Standard for Subsea equipment--Part 1: Power connectors,
@@ -26,7 +26,7 @@ docid:
 docnumber: IEC/IEEE 61886.1-2021
 date:
 - type: created
-  value: '2021'
+  value: '2021-04-20'
 - type: published
   value: '2021-04-23'
 - type: issued
@@ -68,12 +68,13 @@ keyword:
 - content: Underwater cables
 - content: Voltage control
 - content: Assembly
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.170-D-1.0-2024-08
 title:
 - content: IEEE Draft Guide for the Condition Assessment of Liquid Immersed Transformers,
@@ -46,6 +46,14 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: This guide presents existing condition assessment methodologies that quantify
+    the current condition of liquid immersed transformers, reactors, and their components
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -63,18 +71,18 @@ keyword:
 - content: Indexes
 - content: Condition monitoring
 - content: Immersion cooling
-- content: Transformers
 - content: Inductors
 - content: Condition
 - content: Assessment
 - content: Indices
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

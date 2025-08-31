@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE78-1960
 title:
 - content: AIEE-FEMA-NEMA Standards Publication for Arc Furnace Transformer
@@ -75,9 +75,10 @@ keyword:
 - content: Transformers
 - content: Furnaces
 - content: Power transformers
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

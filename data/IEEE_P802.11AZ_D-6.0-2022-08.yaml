@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.11az-D-6.0-2022-08
 title:
 - content: 'IEEE Draft Standard for Information technology - Telecommunications and
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.11-2020
+    id: IEEEStd802.11-2020
     docid:
-    - id: IEEE 802.11-2020
+    - id: IEEE Std 802.11-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.11-2020
+      content: IEEE Std 802.11-2020
       format: text/plain
   description:
     content: amends
@@ -91,28 +91,29 @@ relation:
 keyword:
 - content: IEEE Standards
 - content: Information technology
-- content: Timing analysis
 - content: Local area networks
 - content: Metropolitan area networks
 - content: Wireless LAN
 - content: Information exchange
-- content: Media Access Protocol
 - content: Physical layer
+- content: Media Access Control
+- content: Timing
 - content: direction measurement
 - content: Fine Timing Measurement (FTM)
 - content: IEEE 802.11
 - content: IEEE 802.11az
 - content: positioning
 - content: ranging
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

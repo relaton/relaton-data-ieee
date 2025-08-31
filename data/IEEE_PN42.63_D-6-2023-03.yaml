@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPN42.63-D-6-2023-03
 title:
 - content: IEEE Approved Draft Standard for Unmanned Aerial Radiation Measurement
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE PN42.63/D-6-2023-03
 date:
 - type: created
-  value: '2023'
+  value: '2023-07-07'
 - type: published
   value: '2023-07-18'
 - type: issued
@@ -81,13 +81,17 @@ keyword:
 - content: radiation detector
 - content: radiation response
 - content: response vectors
-doctype: standard
-editorialgroup:
-  committee:
-  - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
-    and Measurement Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
+      and Measurement Society
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

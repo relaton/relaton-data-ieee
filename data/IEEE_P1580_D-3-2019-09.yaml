@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1580-D-3-2019-09
 title:
 - content: IEEE Draft Recommended Practice for Marine Cable for Use on Shipboard and
@@ -73,13 +73,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1580-2010
+    id: IEEEStd1580-2010
     docid:
-    - id: IEEE 1580-2010
+    - id: IEEE Std 1580-2010
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1580-2010
+      content: IEEE Std 1580-2010
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1580-2010
+    docid:
+    - id: IEEE Std 1580-2010
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1580-2010
       format: text/plain
   description:
     content: revises
@@ -98,15 +115,13 @@ keyword:
 - content: offshore facilities
 - content: platforms
 - content: shipboard
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 47.020.60
-  text: Electrical equipment of ships and of marine structures
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 47.020.60
+    text: Electrical equipment of ships and of marine structures
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

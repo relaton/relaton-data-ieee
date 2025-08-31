@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.35-D-1-2018-04
 title:
 - content: IEEE Approved Draft Standard Test Methods for Avalanche Junction Semiconductor
@@ -76,13 +76,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC62.35
+    id: IEEEStdC62.35
     docid:
-    - id: IEEE C62.35
+    - id: IEEE Std C62.35
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C62.35
+      content: IEEE Std C62.35
       format: text/plain
   description:
     content: corrects
@@ -120,15 +120,13 @@ keyword:
 - content: transient voltage suppressor
 - content: TVS
 - content: zener
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

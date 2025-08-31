@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1808-D-3-2010-05
 title:
 - content: IEEE Draft Guide for Collecting and Managing Transmission Line Inspection
@@ -81,7 +81,6 @@ keyword:
 - content: Electric
 - content: Transmission
 - content: Lines
-- content: Inspection
 - content: Maintenance
 - content: Data
 - content: Asset Management
@@ -91,15 +90,16 @@ keyword:
 - content: Automated
 - content: Electronic
 - content: GIS
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.240.20
-  text: Power transmission and distribution lines
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1888.3-D-5.0-2013-06
 title:
 - content: 'IEEE Draft Standard for Ubiquitous Green Community Control Network: Security'
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1888.3/D-5.0-2013-06
 date:
 - type: created
-  value: '2013'
+  value: '2013-07-18'
 - type: published
   value: '2013-07-03'
 - type: issued
@@ -84,15 +84,16 @@ keyword:
 - content: confidentiality
 - content: access control
 - content: certificate
-doctype: standard
-editorialgroup:
-  committee:
-  - Corporate Advisory Group of the IEEE-SA Board of Governors
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Corporate Advisory Group of the IEEE-SA Board of Governors
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

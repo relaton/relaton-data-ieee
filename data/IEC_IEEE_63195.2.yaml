@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE63195.2
 title:
 - content: 'IEC/IEEE International Standard - Assessment of power density of human
@@ -67,16 +67,17 @@ keyword:
 - content: IEEE Standards
 - content: IEC Standards
 - content: Frequency measurement
-- content: Power system measurement
 - content: Density measurement
 - content: Human factors
-- content: Radiation detection
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
+- content: Power system measurements
+- content: Radiation detectors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

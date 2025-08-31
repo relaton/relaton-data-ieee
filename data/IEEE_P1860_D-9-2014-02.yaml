@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1860-D-9-2014-02
 title:
 - content: IEEE Guide for Voltage Regulation and Reactive Power Compensation at 1000
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1860/D-9-2014-02
 date:
 - type: created
-  value: '2014'
+  value: '2014-07-18'
 - type: published
   value: '2014-02-25'
 - type: issued
@@ -73,7 +73,6 @@ keyword:
 - content: Reactive power
 - content: AC power
 - content: Voltage control
-- content: Reactive power
 - content: Power compensation
 - content: 1000 kV ac
 - content: IEEE 1860TM
@@ -83,15 +82,16 @@ keyword:
 - content: voltage deviation
 - content: voltage and reactive power
 - content: voltage regulating
-doctype: standard
-editorialgroup:
-  committee:
-  - Corporate Advisory Group of the IEEE-SA Board of Governors
-ics:
-- code: '29.020'
-  text: Electrical engineering in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Corporate Advisory Group of the IEEE-SA Board of Governors
+  ics:
+  - code: '29.020'
+    text: Electrical engineering in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

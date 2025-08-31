@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.138-D-4-2016-04
 title:
 - content: IEEE Approved Draft Recommended Practice for Routine Impulse Test for Distribution
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC57.138-1998
+    id: IEEEStdC57.138-1998
     docid:
-    - id: IEEE C57.138-1998
+    - id: IEEE Std C57.138-1998
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C57.138-1998
+      content: IEEE Std C57.138-1998
       format: text/plain
   description:
     content: revises
@@ -97,15 +97,13 @@ keyword:
 - content: IEEE PC57.138(TM)
 - content: routine test
 - content: production line testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

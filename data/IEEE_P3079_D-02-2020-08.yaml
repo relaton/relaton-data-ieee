@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3079-D-02-2020-08
 title:
 - content: IEEE Draft Standard for Head Mounted Display (HMD) Based Virtual Reality
@@ -79,12 +79,13 @@ keyword:
 - content: VR sickness assessment
 - content: VR sickness assessment framework
 - content: VR sickness level
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Activities Board of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Activities Board of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

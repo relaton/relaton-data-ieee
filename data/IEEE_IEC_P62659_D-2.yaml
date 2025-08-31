@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-IECP62659-D-2
 title:
 - content: IEEE/IEC Draft Standard for Large Scale Manufacturing of Nanoelectronics
@@ -73,15 +73,16 @@ keyword:
 - content: Manufacturing processing
 - content: Information technology
 - content: Large scale systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Nanotechnology Council
-ics:
-- code: '31.200'
-  text: Integrated circuits. Microelectronics
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Nanotechnology Council
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1CB-D-2.6-2016-08
 title:
 - content: IEEE Draft Standard for Local and metropolitan area networks -- Frame Replication
@@ -86,16 +86,16 @@ keyword:
 - content: IEEE 802.1Q(TM)
 - content: local area networks (LANs)
 - content: MAC Bridges
-- content: Redundancy
 - content: Time-Sensitive Networking
 - content: TSN
 - content: Virtual Bridged Local Area Networks (virtual LANs)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2715-D-1-2022-04
 title:
 - content: IEEE Draft Guide for the Characterization of the Shielding Effectiveness
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2715/D-1-2022-04
 date:
 - type: created
-  value: '2022'
+  value: '2022-07-08'
 - type: published
   value: '2022-07-11'
 - type: issued
@@ -88,21 +88,22 @@ keyword:
 - content: shielding effectiveness
 - content: TEM cell
 - content: transverse electromagnetic cell
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
-- code: '31.240'
-  text: Mechanical structures for electronic equipment
-- code: 33.100.10
-  text: Emission
-- code: 33.100.20
-  text: Immunity
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Development Committee of the IEEE Electromagnetic Compatibility Society
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: '31.240'
+    text: Mechanical structures for electronic equipment
+  - code: 33.100.10
+    text: Emission
+  - code: 33.100.20
+    text: Immunity
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

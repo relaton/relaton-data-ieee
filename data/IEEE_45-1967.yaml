@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE45-1967
 title:
 - content: IEEE Recommended Practice for Electric Installations on Shipboard
@@ -79,9 +79,10 @@ keyword:
 - content: Electric installations
 - content: Cable installations
 - content: Terminology
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

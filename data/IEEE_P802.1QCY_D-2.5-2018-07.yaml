@@ -1,15 +1,15 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1Qcy-D-2.5-2018-07
 title:
-- content: 'IEEE Approved Draft Standard for Local and Metropolitan Area Networks
-    - Bridges and Bridged Networks Amendment: Virtual Station Interface (VSI) Discovery
-    and Configuration Protocol (VDP) Extension to Support Network Virtualization Overlays
+- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks - Bridges
+    and Bridged Networks Amendment: Virtual Station Interface (VSI) Discovery and
+    Configuration Protocol (VDP) Extension to Support Network Virtualization Overlays
     Over Layer 3 (NVO3)'
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/8674878
+- content: https://ieeexplore.ieee.org/document/8423797
   type: src
 type: standard
 docid:
@@ -25,9 +25,9 @@ docid:
 docnumber: IEEE P802.1Qcy/D-2.5-2018-07
 date:
 - type: created
-  value: '2019'
+  value: '2018-07-30'
 - type: published
-  value: '2019-03-26'
+  value: '2018-07-31'
 - type: issued
   value: '2019-03-21'
 contributor:
@@ -43,7 +43,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2019-03-26'
+revdate: '2018-07-31'
 language:
 - en
 script:
@@ -74,13 +74,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1Q-2014
+    id: IEEEStd802.1Q-2014
     docid:
-    - id: IEEE 802.1Q-2014
+    - id: IEEE Std 802.1Q-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1Q-2014
+      content: IEEE Std 802.1Q-2014
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd802.1Q-2014
+    docid:
+    - id: IEEE Std 802.1Q-2014
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.1Q-2014
       format: text/plain
   description:
     content: amends
@@ -94,22 +111,20 @@ keyword:
 - content: Local area networks
 - content: Metropolitan area networks
 - content: Bridge circuits
-- content: Virtual reality
+- content: Virtualization
 - content: amendment
 - content: IEEE 802.1Q
 - content: IEEE 802.1Qcy
 - content: NVO3
 - content: VDP extension
 - content: VDP IP address extension
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

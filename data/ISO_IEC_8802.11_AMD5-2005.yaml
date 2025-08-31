@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC8802.11-Amd5-2005
 title:
 - content: 'ISO/IEC International Standard - Information technology-- Local and metropolitan
@@ -96,19 +96,17 @@ keyword:
 - content: dynamic frequency selection (DFS)
 - content: local area network (LAN)
 - content: transmit power control (TPC)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

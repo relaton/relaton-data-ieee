@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1573-D-1-2020-10
 title:
 - content: 'IEEE Draft Recommended Practice for Electronic Power Subsystems: Parameters,
@@ -79,13 +79,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1573-2003
+    id: IEEEStd1573-2003
     docid:
-    - id: IEEE 1573-2003
+    - id: IEEE Std 1573-2003
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1573-2003
+      content: IEEE Std 1573-2003
       format: text/plain
   description:
     content: revises
@@ -102,15 +102,16 @@ keyword:
 - content: electronic power subsystems
 - content: IEEE 1573
 - content: power electronics
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Power Electronics Society
-ics:
-- code: '31.020'
-  text: Electronic components in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Power Electronics Society
+  ics:
+  - code: '31.020'
+    text: Electronic components in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

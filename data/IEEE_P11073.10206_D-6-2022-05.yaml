@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP11073.10206-D-6-2022-05
 title:
 - content: 'IEEE Approved Draft Standard - Health informatics -- Device interoperability
@@ -50,8 +50,9 @@ script:
 abstract:
 - content: Within the context of the ISO/IEEE 11073 family of standards for device
     communication, a simplified framework for making an abstract model of personal
-    health data available. The specification addresses the structure and content of
-    information. It does not address communication of the information between devices.
+    health data is available in this standard. The specification addresses the structure
+    and content of information. It does not address communication of the information
+    between devices.
   language:
   - en
   script:
@@ -74,17 +75,23 @@ keyword:
 - content: Interoperability
 - content: Point of care
 - content: Biomedical monitoring
-- content: IEEE 11073-10206&#8482;
 - content: device interoperability
+- content: IEEE 11073-10206
 - content: personal health device communication
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
-    Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
+  ics:
+  - code: 35.100.70
+    text: Application layer
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

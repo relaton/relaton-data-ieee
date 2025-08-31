@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2802-D-2-2022-04
 title:
 - content: 'IEEE Approved Draft Standard for the Performance and Safety Evaluation
@@ -78,21 +78,22 @@ keyword:
 - content: dataset
 - content: evaluation of performance and safety
 - content: IEEE 2802
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Engineering in Medicine and Biology Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
-- code: 01.040.35
-  text: Information technology (Vocabularies)
-- code: 11.040.01
-  text: Medical equipment in general
-- code: 35.240.80
-  text: IT applications in health care technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Engineering in Medicine and Biology Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  - code: 11.040.01
+    text: Medical equipment in general
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

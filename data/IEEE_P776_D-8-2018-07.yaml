@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP776-D-8-2018-07
 title:
 - content: IEEE Draft Recommended Practice for Inductive Coordination of Electric
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P776/D-8-2018-07
 date:
 - type: created
-  value: '2018'
+  value: '2018-07-12'
 - type: published
   value: '2018-07-17'
 - type: issued
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE776-1992
+    id: IEEEStd776-1992
     docid:
-    - id: IEEE 776-1992
+    - id: IEEE Std 776-1992
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 776-1992
+      content: IEEE Std 776-1992
       format: text/plain
   description:
     content: revises
@@ -98,15 +98,13 @@ keyword:
 - content: electric supply
 - content: IEEE 776
 - content: inductive coordination
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE Power and Energy Society
-ics:
-- code: '33.020'
-  text: Telecommunications in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '33.020'
+    text: Telecommunications in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

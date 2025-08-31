@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP149-D-8-2020-04
 title:
 - content: IEEE Draft Recommended Practice for Antenna Measurements
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P149/D-8-2020-04
 date:
 - type: created
-  value: '2020'
+  value: '2020-04-27'
 - type: published
   value: '2020-04-29'
 - type: issued
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: ANSI-IEEE149-1979
+    id: ANSI-IEEEStd149-1979
     docid:
-    - id: ANSI/IEEE 149-1979
+    - id: ANSI/IEEE Std 149-1979
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE 149-1979
+      content: ANSI/IEEE Std 149-1979
       format: text/plain
   description:
     content: revises
@@ -92,13 +92,13 @@ relation:
     format: text/plain
 - type: updates
   bibitem:
-    id: ANSI-IEEE149-1979
+    id: ANSI-IEEEStd149-1979
     docid:
-    - id: ANSI/IEEE 149-1979
+    - id: ANSI/IEEE Std 149-1979
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE 149-1979
+      content: ANSI/IEEE Std 149-1979
       format: text/plain
   description:
     content: revises
@@ -175,18 +175,15 @@ keyword:
 - content: uncertainties
 - content: uncertainty analysis
 - content: verification
-doctype: standard
-editorialgroup:
-  committee:
-  - Antennas and Propagation Standards Committee of the IEEE Antennas and Propagation
-    Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
-- code: 33.120.40
-  text: Aerials
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 33.120.40
+    text: Aerials
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

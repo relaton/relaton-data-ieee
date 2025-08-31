@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE606-1959
 title:
 - content: AIEE Recommended Specification for Self Governing of Internal Combustion
@@ -65,6 +65,22 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The Recommended Specifications consist of four sections. Specification
+    Sections II, III and IV are complete purchase specifications. They cover alternate
+    arrangements and performance requirements of speed-governing systems for internal
+    combustion engine-generator units. These are printed as individual forms. To gain
+    the maximum benefit from these standards, particularly under normal conditions,
+    it is recommended that the applicable section be included in full and as a part
+    of the complete purchase specifications for the particular engine-generator unit.
+    The Terminology, Section I, includes definitions and applications of terms and
+    some explanatory comments. Pertinent portions of Section I, while not ordinarily
+    transcribed in full, are made an integral part of each speed-governing specification
+    as indicated in paragraphs 2 of Specification Sections II, III, and IV.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: withdrawn
@@ -79,9 +95,10 @@ keyword:
 - content: Internal combustion engines
 - content: Generators
 - content: Power transmission
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

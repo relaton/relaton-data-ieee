@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3cv-2021
 title:
 - content: 'IEEE Approved Draft Standard for Ethernet Amendment: Maintenance #15:
@@ -49,7 +49,7 @@ script:
 abstract:
 - content: This amendment implements editorial and technical corrections, refinements,
     and clarifications to Clause 145, Power over Ethernet, and related portions of
-    the standard. No new features are added by this project..
+    the standard. No new features are added by this amendment.
   language:
   - en
   script:
@@ -69,64 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2018
+    id: IEEEStd802.3-2018
     docid:
-    - id: IEEE 802.3-2018
+    - id: IEEE Std 802.3-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2018
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.3-2018
-    docid:
-    - id: IEEE 802.3-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3-2018
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.3-2018
-    docid:
-    - id: IEEE 802.3-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3-2018
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.3-2018
-    docid:
-    - id: IEEE 802.3-2018
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.3-2018
+      content: IEEE Std 802.3-2018
       format: text/plain
   description:
     content: amends
@@ -142,25 +91,25 @@ keyword:
 - content: Ethernet
 - content: Maintenance engineering
 - content: Power transmission
-- content: Ethernet
 - content: amendment
 - content: DTE power via MDI
 - content: IEEE 802.3&#8482;
 - content: IEEE 802.3bt&#8482;
 - content: PoE
 - content: Power over Ethernet
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

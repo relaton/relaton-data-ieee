@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEST430-9-2008Am1-2011
 title:
 - content: D-Cinema Operations — Key Delivery Bundle — Amendment 1
@@ -35,7 +35,8 @@ contributor:
     - content: SMPTE
     contact:
     - address:
-        city: White Plains, NY
+        city: White Plains
+        state: NY
         country: USA
   role:
   - type: publisher
@@ -59,15 +60,16 @@ copyright:
 keyword:
 - content: D-Cinema
 - content: Security
-doctype: standard
-editorialgroup:
-  committee:
-  - 21DC - Technology Committee on Digital Cinema
-ics:
-- code: 37.060.99
-  text: Other standards related to cinematography
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - 21DC - Technology Committee on Digital Cinema
+  ics:
+  - code: 37.060.99
+    text: Other standards related to cinematography
   standard_status: Active
   pubstatus: Active
   holdstatus: Publish

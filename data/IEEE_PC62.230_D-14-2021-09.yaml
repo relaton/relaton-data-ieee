@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC62.230-D-14-2021-09
 title:
 - content: IEEE Draft Guide for Surge Protection of Electric Vehicle Infrastructure
@@ -79,15 +79,16 @@ keyword:
 - content: electric vehicle supply equipment
 - content: IEEE C62.230
 - content: surge protection
-doctype: standard
-editorialgroup:
-  committee:
-  - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
-ics:
-- code: '43.120'
-  text: Electric road vehicles
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
+  ics:
+  - code: '43.120'
+    text: Electric road vehicles
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

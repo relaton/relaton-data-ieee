@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC57.163-D-2.5-2015-07
 title:
 - content: IEEE Draft Guide for Establishing Power Transformer Capability while under
@@ -91,17 +91,18 @@ keyword:
 - content: core saturation
 - content: testing
 - content: design review
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: 17.220.99
-  text: Other standards related to electricity and magnetism
-- code: '29.18'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: 17.220.99
+    text: Other standards related to electricity and magnetism
+  - code: '29.18'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

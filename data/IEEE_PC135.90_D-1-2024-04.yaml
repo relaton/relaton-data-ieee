@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC135.90-D-1-2024-04
 title:
 - content: IEEE Draft Standard for Pole Line Hardware for Overhead Line Construction
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE PC135.90/D-1-2024-04
 date:
 - type: created
-  value: '2024'
+  value: '2024-04-18'
 - type: published
   value: '2024-04-19'
 - type: issued
@@ -68,13 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC135.90-2014
+    id: IEEEStdC135.90-2014
     docid:
-    - id: IEEE C135.90-2014
+    - id: IEEE Std C135.90-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C135.90-2014
+      content: IEEE Std C135.90-2014
       format: text/plain
   description:
     content: revises
@@ -84,22 +84,27 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Hardware
+- content: Power transmission lines
+- content: Poles and towers
 - content: hardware
-- content: IEEE C135.90&#8482;
+- content: IEEE C135.90™
 - content: line
 - content: overhead
 - content: pole
 - content: wood
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 21.060.10
-  text: Bolts, screws, studs
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 21.060.10
+    text: Bolts, screws, studs
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

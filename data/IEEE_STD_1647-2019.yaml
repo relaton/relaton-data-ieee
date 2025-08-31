@@ -1,0 +1,145 @@
+---
+schema-version: v1.2.9
+id: IEEEStd1647-2019
+title:
+- content: IEEE Standard for the Functional Verification Language e
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/8793253
+  type: src
+type: standard
+docid:
+- id: IEEE Std 1647-2019
+  type: IEEE
+  primary: true
+- id: IEEE Std 1647™-2019
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-1-5044-5977-8
+  type: ISBN
+- id: 10.1109/IEEESTD.2019.8793253
+  type: DOI
+docnumber: IEEE Std 1647-2019
+date:
+- type: updated
+  value: '2020-05-29'
+- type: created
+  value: '2019-08-09'
+- type: published
+  value: '2019-08-09'
+- type: issued
+  value: '2019-06-13'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2019-08-09'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: The e functional verification language is an application-specific programming
+    language, aimed at automating the task of verifying a hardware or software design
+    with respect to its specification. Verification environments written in e provide
+    a model of the environment in which the design is expected to function, including
+    the kinds of erroneous conditions the design needs to withstand. A typical verification
+    environment is capable of generating user-controlled test inputs with statistically
+    interesting characteristics. Such an environment can check the validity of the
+    design responses. Functional coverage metrics are used to control the verification
+    effort and gauge the quality of the design. e verification environments can be
+    used throughout the design cycle, from a high-level architectural model to a fully
+    realized system. A definition of the e language syntax and semantics and how tool
+    developers and verification engineers should use them are contained in this standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+- content: The e functional verification language is an application-specific programming
+    language, aimed at automating the task of verifying a hardware or software design
+    with respect to its specification. Verification environments written in e provide
+    a model of the environment in which the design is expected to function, including
+    the kinds of erroneous conditions the design needs to withstand. A typical verification
+    environment is capable of generating user-controlled test inputs with statistically
+    interesting characteristics. Such an environment can check the validity of the
+    design responses. Functional coverage metrics are used to control the verification
+    effort and gauge the quality of the design. e verification environments can be
+    used throughout the design cycle, from a high-level architectural model to a fully
+    realized system. A definition of the e language syntax and semantics and how tool
+    developers and verification engineers should use them are contained in this standard.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: approved
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2019'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd1647-2016
+    docid:
+    - id: IEEE Std 1647-2016
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1647-2016
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Functional programming
+- content: System verification
+- content: Dynamic programming
+- content: Temporal logic
+- content: assertion
+- content: concurrent programming
+- content: constraint
+- content: dynamic verification
+- content: functional coverage
+- content: functional verification
+- content: IEEE 1647
+- content: simulation
+- content: temporal logic
+- content: test generation
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.20.6-D-4-2023-04
 title:
 - content: IEEE Draft Standard for 4.76 kV to 48.3 kV Rated Ground and Test Devices
@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2023-09-11'
 - type: issued
-  value: '2023'
+  value: '2024-06-06'
 contributor:
 - organization:
     name:
@@ -48,9 +48,9 @@ script:
 - Latn
 abstract:
 - content: Drawout-type ground and test devices for use in medium-voltage metal-clad
-    switchgear rated 4.76 kV through 48.3 kV are covered. The description, design,
-    and testing of these accessory devices that are inserted in place of drawout circuit
-    breakers for the purpose of grounding and testing are also covered
+    switchgear rated 4.76 kV through 48.3 kV are covered by this standard. The description,
+    design, and testing of these accessory devices that are inserted in place of drawout
+    circuit breakers for the purpose of grounding and testing are also covered.
   language:
   - en
   script:
@@ -70,166 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.20.6-2015
+    id: IEEEStdC37.20.6-2015
     docid:
-    - id: IEEE C37.20.6-2015
+    - id: IEEE Std C37.20.6-2015
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.20.6-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.20.6-2015
-    docid:
-    - id: IEEE C37.20.6-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.20.6-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.20.6-2015
-    docid:
-    - id: IEEE C37.20.6-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.20.6-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.20.6-2015
-    docid:
-    - id: IEEE C37.20.6-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.20.6-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.20.6-2015
-    docid:
-    - id: IEEE C37.20.6-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.20.6-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.20.6-2015
-    docid:
-    - id: IEEE C37.20.6-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.20.6-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.20.6-2015
-    docid:
-    - id: IEEE C37.20.6-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.20.6-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.20.6-2015
-    docid:
-    - id: IEEE C37.20.6-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.20.6-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.20.6-2015
-    docid:
-    - id: IEEE C37.20.6-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.20.6-2015
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEEC37.20.6-2015
-    docid:
-    - id: IEEE C37.20.6-2015
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE C37.20.6-2015
+      content: IEEE Std C37.20.6-2015
       format: text/plain
   description:
     content: revises
@@ -244,22 +91,24 @@ keyword:
 - content: Ground support
 - content: Metal enclosures
 - content: electrical operation
-- content: ground and test (G&amp;T) devices
+- content: G&amp;T
+- content: ground and test devices
 - content: IEEE C37.20.6&#8482;
 - content: locking/interlocking
 - content: manual operation
 - content: one or two terminal sets
 - content: terminal selector switch
 - content: test port
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.10
-  text: High voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
+  ics:
+  - code: 29.130.10
+    text: High voltage switchgear and controlgear
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

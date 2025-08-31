@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1268-D-12-2015
 title:
 - content: IEEE Draft Guide for Safety in the Installation of Mobile Substation Equipment
@@ -67,13 +67,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1268-2005
+    id: IEEEStd1268-2005
     docid:
-    - id: IEEE 1268-2005
+    - id: IEEE Std 1268-2005
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1268-2005
+      content: IEEE Std 1268-2005
       format: text/plain
   description:
     content: revises
@@ -91,15 +91,13 @@ keyword:
 - content: Voltage control
 - content: Installation
 - content: update:5230
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: 29.240.10
-  text: Substations. Surge arresters
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.240.10
+    text: Substations. Surge arresters
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

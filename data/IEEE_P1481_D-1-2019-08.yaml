@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1481-D-1-2019-08
 title:
 - content: IEEE Draft Standard for Integrated Circuit (IC) Open Library Architecture
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1481-2009
+    id: IEEEStd1481-2009
     docid:
-    - id: IEEE 1481-2009
+    - id: IEEE Std 1481-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1481-2009
+      content: IEEE Std 1481-2009
       format: text/plain
   description:
     content: revises
@@ -97,15 +97,13 @@ keyword:
 - content: IEEE 1481
 - content: integrated circuit (IC) design
 - content: power calculation
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: '31.200'
-  text: Integrated circuits. Microelectronics
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

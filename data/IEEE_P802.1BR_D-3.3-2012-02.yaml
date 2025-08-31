@@ -1,13 +1,13 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1BR-D-3.3-2012-02
 title:
-- content: IEEE Draft Standard for Local and metropolitan area networks--Virtual Bridged
-    Local Area Networks--Bridge Port Extension
+- content: IEEE Approved Draft Standard for Local and metropolitan area networks--Virtual
+    Bridged Local Area Networks--Bridge Port Extension
   format: text/plain
   type: main
 link:
-- content: https://ieeexplore.ieee.org/document/6161594
+- content: https://ieeexplore.ieee.org/document/6200811
   type: src
 type: standard
 docid:
@@ -18,16 +18,14 @@ docid:
   type: IEEE
   scope: trademark
   primary: true
-- id: 978-0-7381-7421-1
+- id: 978-0-7381-7500-3
   type: ISBN
-- id: 10.1109/IEEESTD.2012.6161594
-  type: DOI
 docnumber: IEEE P802.1BR/D-3.3-2012-02
 date:
 - type: created
-  value: '2012'
+  value: '2012-05-15'
 - type: published
-  value: '2019-04-26'
+  value: '2012-05-16'
 - type: issued
   value: '2012-05-14'
 contributor:
@@ -43,7 +41,7 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2019-04-26'
+revdate: '2012-05-16'
 language:
 - en
 script:
@@ -51,13 +49,16 @@ script:
 abstract:
 - content: This standard specifies the operation of Bridge Port Extenders, including
     management, protocols, and algorithms. Bridge Port Extenders operate in support
-    of the MAC Service by Extended Bridges. (The PDF of this standard is available
-    at no cost compliments of the GETIEEE802 program located at https://ieeexplore.ieee.org/browse/standards/get-program/page)
+    of the MAC Service by Extended Bridges. The PDF of this standard is available
+    at no cost compliments of the GETIEEE802 program located at http://standards.ieee.org/about/get/802/
   language:
   - en
   script:
   - Latn
   format: text/plain
+docstatus:
+  stage:
+    value: draft
 copyright:
 - owner:
   - name:
@@ -68,12 +69,11 @@ copyright:
   from: '2012'
 keyword:
 - content: IEEE standards
-- content: Bridge circuits
 - content: Local area networks
 - content: Metropolitan area networks
-- content: Virtual environments
-- content: Database systems
+- content: Bridge circuits
 - content: Media Access Protocol
+- content: Virtual environments
 - content: Bridged Local Area Networks
 - content: Data Center Bridging
 - content: DCB
@@ -86,15 +86,17 @@ keyword:
 - content: MANs
 - content: metropolitan area networks
 - content: Virtual Bridged Local Area Networks
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Superseded
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
   pubstatus: Active
-  holdstatus: Publish
+  holdstatus: Hold

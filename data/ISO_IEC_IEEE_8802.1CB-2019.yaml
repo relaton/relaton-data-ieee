@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.1CB-2019
 title:
 - content: 'IEEE/ISO/IEC International Standard-Information technology - Telecommunications
@@ -26,7 +26,7 @@ docid:
 docnumber: ISO/IEC/IEEE 8802.1CB-2019
 date:
 - type: created
-  value: '2019'
+  value: '2019-03-06'
 - type: published
   value: '2019-03-06'
 - type: issued
@@ -60,6 +60,16 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This standard specifies procedures, managed objects, and protocols for
+    bridges and end systems that provide identification and replication of packets
+    for redundant transmission, identification of duplicate packets, and elimination
+    of duplicate packets. It is not concerned with the creation of the multiple paths
+    over which the duplicates are transmitted.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -78,163 +88,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE802.1CB-2017
+    id: IEEEStd802.1CB-2017
     docid:
-    - id: IEEE 802.1CB-2017
+    - id: IEEE Std 802.1CB-2017
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
-      format: text/plain
-- type: adoptedFrom
-  bibitem:
-    id: IEEE802.1CB-2017
-    docid:
-    - id: IEEE 802.1CB-2017
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1CB-2017
+      content: IEEE Std 802.1CB-2017
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -258,15 +118,16 @@ keyword:
 - content: Time-Sensitive Networking
 - content: TSN
 - content: Virtual Bridged Local Area Networks (virtual LANs)
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

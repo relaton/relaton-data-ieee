@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1685-D-5-2014-04
 title:
 - content: IEEE Approved Draft Standard for IP-XACT, Standard Structure for Packaging,
@@ -78,13 +78,30 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1685-2009
+    id: IEEEStd1685-2009
     docid:
-    - id: IEEE 1685-2009
+    - id: IEEE Std 1685-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1685-2009
+      content: IEEE Std 1685-2009
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1685-2009
+    docid:
+    - id: IEEE Std 1685-2009
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1685-2009
       format: text/plain
   description:
     content: revises
@@ -121,15 +138,13 @@ keyword:
 - content: use models
 - content: XML design meta-data
 - content: XMLschema
-doctype: standard
-editorialgroup:
-  committee:
-  - Design Automation of the IEEE Computer Society
-ics:
-- code: 35.240.99
-  text: IT applications in other fields
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

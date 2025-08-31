@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1906.1.1-D-3-2020-08
 title:
 - content: IEEE Approved Draft Standard Data Model for Nanoscale Communication Systems
@@ -89,13 +89,14 @@ keyword:
 - content: quantum mechanics
 - content: simulation
 - content: standards development
-doctype: standard
-editorialgroup:
-  committee:
-  - Edge, Fog, Cloud Communications with IOT and Big Data Standards Committee of the
-    IEEE Communications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Edge, Fog, Cloud Communications with IOT and Big Data Standards Committee of
+      the IEEE Communications Society
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

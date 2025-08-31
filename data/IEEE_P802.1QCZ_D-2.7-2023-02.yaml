@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1Qcz-D-2.7-2023-02
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks--Bridges
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P802.1Qcz/D-2.7-2023-02
 date:
 - type: created
-  value: '2023'
+  value: '2023-03-06'
 - type: published
   value: '2023-03-07'
 - type: issued
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1Q-2022
+    id: IEEEStd802.1Q-2022
     docid:
-    - id: IEEE 802.1Q-2022
+    - id: IEEE Std 802.1Q-2022
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1Q-2022
+      content: IEEE Std 802.1Q-2022
       format: text/plain
   description:
     content: amends
@@ -105,15 +105,16 @@ keyword:
 - content: priority
 - content: Virtual Bridged Local Area Networks
 - content: virtual LANs
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

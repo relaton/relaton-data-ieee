@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2413.3-D-8.1-2024-07
 title:
-- content: IEEE Draft Guide for Hydropower Energy Internet of Things
+- content: IEEE Approved Draft Guide for Hydropower Energy Internet of Things
   format: text/plain
   type: main
 link:
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P2413.3/D-8.1-2024-07
 date:
 - type: created
-  value: '2024'
+  value: '2024-11-22'
 - type: published
-  value: '2024-07-31'
+  value: '2024-07-30'
 - type: issued
-  value: '2024'
+  value: '2024-11-12'
 contributor:
 - organization:
     name:
@@ -40,16 +40,16 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-07-31'
+revdate: '2024-07-30'
 language:
 - en
 script:
 - Latn
 abstract:
 - content: The system architecture, standard coding, technical requirements, and typical
-    application scenarios for Hydropower Energy Internet of Things (IoT) is specified
+    application scenarios for Hydropower Energy Internet of Things (IoT) are specified
     in this guide. This guide is applicable to hydropower stations, various design
-    institutes, manufacturers, and business partners, providing guiding recommendations
+    institutes, manufacturers, and business partners, and provides guiding recommendations
     for the design and construction of the Hydropower Energy IoT.
   language:
   - en
@@ -75,17 +75,22 @@ keyword:
 - content: Hydroelectric power generation
 - content: cloud-edge
 - content: data management
-- content: end nods
+- content: end nodes
 - content: HE-IoT
 - content: hydropower energy
+- content: IEEE 2413.3&#8482;
 - content: internet of things
-doctype: standard
-editorialgroup:
-  committee:
-  - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+  ics:
+  - code: 35.240.95
+    text: Internet applications
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

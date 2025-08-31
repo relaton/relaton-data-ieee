@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-IEC62529-2024
 title:
 - content: IEEE/IEC International Standard for Signal and Test Definition
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE/IEC 62529-2024
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-28'
 - type: published
   value: '2024-06-28'
 - type: issued
@@ -73,13 +73,13 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    id: IEEE1641-2022
+    id: IEEEStd1641-2022
     docid:
-    - id: IEEE 1641-2022
+    - id: IEEE Std 1641-2022
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1641-2022
+      content: IEEE Std 1641-2022
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -97,17 +97,18 @@ keyword:
 - content: test signals
 - content: unit under test
 - content: UUT
-doctype: standard
-editorialgroup:
-  committee:
-  - SCC20 - Test and Diagnosis for Electronic Systems of the IEEE SA Board of Governors
-ics:
-- code: '31.020'
-  text: Electronic components in general
-- code: '35.060'
-  text: Languages used in information technology
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - SCC20 - Test and Diagnosis for Electronic Systems of the IEEE SA Board of Governors
+  ics:
+  - code: '31.020'
+    text: Electronic components in general
+  - code: '35.060'
+    text: Languages used in information technology
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

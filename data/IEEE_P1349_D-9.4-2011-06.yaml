@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1349-D-9.4-2011-06
 title:
 - content: IEEE Draft Guide for Application of Electric Motors in Class I, Division
@@ -25,7 +25,7 @@ docid:
 docnumber: IEEE P1349/D-9.4-2011-06
 date:
 - type: created
-  value: '2011'
+  value: '2011-06-29'
 - type: published
   value: '2019-12-17'
 - type: issued
@@ -82,13 +82,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1349-2001
+    id: IEEEStd1349-2001
     docid:
-    - id: IEEE 1349-2001
+    - id: IEEE Std 1349-2001
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1349-2001
+      content: IEEE Std 1349-2001
       format: text/plain
   description:
     content: revises
@@ -109,17 +109,15 @@ keyword:
     IEEE 1349; induction motor; label test; motor; motor enclosure; motor temperature;
     multisection motor; paint test; rotor; rotor sparking; rotor temperature; synchronous
     motor; T Code; temperature code
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.160.30
-  text: Motors
-- code: 29.260.20
-  text: Electrical apparatus for explosive atmospheres
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.160.30
+    text: Motors
+  - code: 29.260.20
+    text: Electrical apparatus for explosive atmospheres
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

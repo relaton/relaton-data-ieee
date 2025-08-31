@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2753-D-6-2022-01
 title:
 - content: IEEE Approved Draft Guide for the Measurement of Pantograph Off-Line and
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P2753/D-6-2022-01
 date:
 - type: created
-  value: '2022'
+  value: '2022-03-30'
 - type: published
   value: '2022-01-21'
 - type: issued
@@ -82,12 +82,13 @@ keyword:
 - content: pantograph offline
 - content: test methods
 - content: transient overvoltage
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

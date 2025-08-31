@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1692-D-9.1-2011-02
 title:
 - content: IEEE Draft Guide for the Protection of Communication Installations from
@@ -78,17 +78,18 @@ keyword:
 - content: protection
 - content: communications equipment
 - content: towers
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Communications of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
-- code: 91.120.40
-  text: Lightning protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Communications of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  - code: 91.120.40
+    text: Lightning protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

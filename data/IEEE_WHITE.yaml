@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEWHITE
 title:
 - content: IEEE-SA Conformity Assessment Program for IEEE 1588™ in Mobile Networks
@@ -73,9 +73,10 @@ keyword:
 - content: Trademarks
 - content: Warranties
 - content: Portable document format
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Active
   pubstatus: Active
   holdstatus: Publish

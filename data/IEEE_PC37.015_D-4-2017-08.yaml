@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.015-D-4-2017-08
 title:
 - content: IEEE Draft Guide for the Application of Shunt Reactor Switching
@@ -71,13 +71,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.015-2009
+    id: IEEEStdC37.015-2009
     docid:
-    - id: IEEE C37.015-2009
+    - id: IEEE Std C37.015-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.015-2009
+      content: IEEE Std C37.015-2009
       format: text/plain
   description:
     content: revises
@@ -103,15 +103,13 @@ keyword:
 - content: reignition
 - content: shunt reactor switching
 - content: small inductive currents
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

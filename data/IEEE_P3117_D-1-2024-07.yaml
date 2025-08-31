@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3117-D-1-2024-07
 title:
 - content: IEEE Standard for Interworking Framework for Privacy-Preserving Computation
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P3117/D-1-2024-07
 date:
 - type: created
-  value: '2024'
+  value: '2024-07-15'
 - type: published
-  value: '2024-07-19'
+  value: '2024-07-18'
 - type: issued
-  value: '2024'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -40,15 +40,15 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-07-19'
+revdate: '2024-07-18'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This standard specifies a basic architecture of privacy-preserving computation
-    interworking framework, and defines the specification of node interworking, resource
-    interworking and algorithm component interworking.
+- content: A basic architecture of privacy-preserving computation interworking framework
+    is specified in this standard. The specifications for node interworking, resource
+    interworking, and algorithm component interworking are defined.
   language:
   - en
   script:
@@ -70,15 +70,22 @@ keyword:
 - content: Data privacy
 - content: Privacy
 - content: Digital arithmetic
-- content: Privacy-Preserving Computation
-- content: Interworking Framework
-doctype: standard
-editorialgroup:
-  committee:
-  - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
+- content: IEEE 3117™
+- content: interworking framework
+- content: privacy-preserving computation
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.030'
+    text: IT Security
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

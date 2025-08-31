@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC10861
 title:
 - content: 'ISO/IEC Standard for Information Technology- Microprocessor Systems- High-Performance
@@ -25,7 +25,7 @@ docid:
 docnumber: ISO/IEC 10861
 date:
 - type: created
-  value: '1994'
+  value: '1994-04-27'
 - type: published
   value: '2017-03-28'
 - type: issued
@@ -82,15 +82,16 @@ keyword:
 - content: multibus
 - content: multibus II
 - content: system bus architectures
-doctype: standard
-editorialgroup:
-  committee:
-  - Microprocessor Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.200'
-  text: Interface and interconnection equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

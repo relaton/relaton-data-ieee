@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.19.1-D-5.0-2014-02
 title:
 - content: 'IEEE Standard for Information technologyTelecommunications and information
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P802.19.1/D-5.0-2014-02
 date:
 - type: created
-  value: '2014'
+  value: '2014-06-30'
 - type: published
   value: '2014-02-21'
 - type: issued
@@ -76,15 +76,16 @@ keyword:
 - content: coexistence service
 - content: IEEE 802.19.1(TM)
 - content: radio coexistence
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,10 +1,10 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE62704.1-2017
 title:
 - content: 'IEC/IEEE International Standard -- Determining the peak spatial-average
     specific absorption rate (SAR) in the human body from wireless communications
-    devices, 30 MHz to 6 GHz - Part 1: General requirements for using the finite-difference
+    devices, 30 MHz to 6 GHz – Part 1: General requirements for using the finite-difference
     time-domain (FDTD) method for SAR calculations'
   format: text/plain
   type: main
@@ -26,8 +26,6 @@ docid:
   type: DOI
 docnumber: IEC/IEEE 62704.1-2017
 date:
-- type: updated
-  value: '2017-11-17'
 - type: created
   value: '2017-10-27'
 - type: published
@@ -41,6 +39,10 @@ contributor:
     abbreviation:
       content: IEEE
     url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
   role:
   - type: publisher
 revdate: '2017-10-27'
@@ -84,12 +86,18 @@ keyword:
 - content: TIme domain analysis
 - content: Peak to average power ratio
 - content: Biomedical measurements
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - International Committee on Electromagnetic Safety of the IEEE SA Board of Governors
+  ics:
+  - code: '13.280'
+    text: Radiation protection
+  - code: 33.070.01
+    text: Mobile services in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1553-D-11-2021-10
 title:
 - content: IEEE Draft Standard for Voltage Endurance Testing of Form-Wound Coils and
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1553-2002
+    id: IEEEStd1553-2002
     docid:
-    - id: IEEE 1553-2002
+    - id: IEEE Std 1553-2002
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1553-2002
+      content: IEEE Std 1553-2002
       format: text/plain
   description:
     content: revises
@@ -95,16 +95,17 @@ keyword:
 - content: form-wound coils
 - content: hydro generators
 - content: voltage-endurance testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 17.220.20
-  text: Measurement of electrical and magnetic quantities
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

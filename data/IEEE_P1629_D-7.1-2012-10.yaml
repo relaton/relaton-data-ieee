@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1629-D-7.1-2012-10
 title:
 - content: IEEE Draft Standard for Performance of dc Overhead Current Collectors for
@@ -96,15 +96,16 @@ keyword:
 - content: tramcar
 - content: transit
 - content: railway.
-doctype: standard
-editorialgroup:
-  committee:
-  - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
-ics:
-- code: '93.100'
-  text: Construction of railways
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Rail Transportation Standards Committee of the IEEE Vehicular Technology Society
+  ics:
+  - code: '93.100'
+    text: Construction of railways
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

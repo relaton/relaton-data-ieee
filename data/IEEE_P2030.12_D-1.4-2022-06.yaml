@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2030.12-D-1.4-2022-06
 title:
 - content: IEEE Draft Guide for the Design of Microgrid Protection Systems
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2030.12/D-1.4-2022-06
 date:
 - type: created
-  value: '2022'
+  value: '2022-06-28'
 - type: published
   value: '2022-06-30'
 - type: issued
@@ -89,12 +89,13 @@ keyword:
 - content: IEEE Std 2030.7TM-2017
 - content: IEEE Std 2030.8TM-2018
 - content: IEEE 2030.12TM
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

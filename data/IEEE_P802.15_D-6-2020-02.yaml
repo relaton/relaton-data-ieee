@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.15-D-6-2020-02
 title:
 - content: IEEE Draft Standard for Spectrum Characterization and Occupancy Sensing
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P802.15/D-6-2020-02
 date:
 - type: created
-  value: '2020'
+  value: '2020-07-02'
 - type: published
   value: '2020-07-07'
 - type: issued
@@ -81,15 +81,16 @@ keyword:
 - content: cognitive radio
 - content: IEEE 802.22.3
 - content: WRAN standards
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

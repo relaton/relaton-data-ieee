@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2861.3-D-1.0-2022-10
 title:
 - content: IEEE Draft Standard for Haptic Interface Enhancement for Mobile Gaming
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2861.3/D-1.0-2022-10
 date:
 - type: created
-  value: '2023'
+  value: '2023-03-01'
 - type: published
   value: '2024-02-20'
 - type: issued
@@ -80,15 +80,16 @@ keyword:
 - content: software development kit
 - content: tactile
 - content: vibration
-doctype: standard
-editorialgroup:
-  committee:
-  - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
-ics:
-- code: '35.180'
-  text: IT terminal and other peripheral equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Emerging Technology Standards Committee of the IEEE Consumer Technology Society
+  ics:
+  - code: '35.180'
+    text: IT terminal and other peripheral equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

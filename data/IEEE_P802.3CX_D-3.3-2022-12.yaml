@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.3cx-D-3.3-2022-12
 title:
 - content: 'IEEE Approved Draft Standard for Ethernet Amendment 6: Media Access Control
@@ -24,7 +24,7 @@ docid:
 docnumber: IEEE P802.3cx/D-3.3-2022-12
 date:
 - type: created
-  value: '2023'
+  value: '2023-04-05'
 - type: published
   value: '2022-12-16'
 - type: issued
@@ -72,13 +72,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.3-2022
+    id: IEEEStd802.3-2022
     docid:
-    - id: IEEE 802.3-2022
+    - id: IEEE Std 802.3-2022
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.3-2022
+      content: IEEE Std 802.3-2022
       format: text/plain
   description:
     content: amends
@@ -95,20 +95,22 @@ keyword:
 - content: Media Access Protocol
 - content: Physical layer
 - content: Ethernet
-- content: IEEE 802.3&#8482;
+- content: IEEE 802.3
 - content: IEEE 802.3cx
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
+- content: timestamp
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

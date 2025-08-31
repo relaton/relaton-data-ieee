@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1366-D-7-2012-01
 title:
 - content: IEEE Draft Guide for Electric Power Distribution Reliability Indices
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P1366/D-7-2012-01
 date:
 - type: created
-  value: '2012'
+  value: '2012-03-06'
 - type: published
   value: '2012-03-06'
 - type: issued
@@ -76,15 +76,16 @@ keyword:
 - content: distribution systems
 - content: electric power
 - content: reliability indices.
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power &amp; Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power &amp; Energy Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

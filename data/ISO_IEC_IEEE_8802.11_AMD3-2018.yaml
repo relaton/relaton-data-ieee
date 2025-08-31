@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE8802.11-Amd3-2018
 title:
 - content: 'Telecommunications and exchange between information technology systems--Requirements
@@ -65,6 +65,17 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: The IEEE 802.11 directional multi-gigabit (DMG) physical layer (PHY) and
+    the medium access control (MAC) layer are modified by this amendment to IEEE Std
+    802.11-2016 to enable operation in the Chinese millimeter wave frequency band
+    around 60 GHz. This amendment also defines modifications to the IEEE 802.11 PHY
+    and MAC layer to enable operation in the Chinese millimeter wave frequency band
+    around 45 GHz.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -106,17 +117,18 @@ keyword:
 - content: IEEE 802.11aj
 - content: opportunistic transmission
 - content: spatial sharing
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: 35.100.10
-  text: Physical layer
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC135.38-1987
 title:
 - content: American National Standard for Zinc-Coated Ferrous Washer Head Bolts and
@@ -63,12 +63,13 @@ keyword:
 - content: Iron
 - content: Furnaces
 - content: Welding
-doctype: standard
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

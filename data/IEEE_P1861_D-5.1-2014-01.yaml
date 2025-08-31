@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1861-D-5.1-2014-01
 title:
 - content: IEEE Draft Guide for On-site Acceptance Tests of Electrical Equipment and
@@ -98,15 +98,16 @@ keyword:
 - content: suspension insulator
 - content: post insulator
 - content: insulating oil.
-doctype: standard
-editorialgroup:
-  committee:
-  - Corporate Advisory Group of the IEEE-SA Board of Governors
-ics:
-- code: '29.020'
-  text: Electrical engineering in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Corporate Advisory Group of the IEEE-SA Board of Governors
+  ics:
+  - code: '29.020'
+    text: Electrical engineering in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

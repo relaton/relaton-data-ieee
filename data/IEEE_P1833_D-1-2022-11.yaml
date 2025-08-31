@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1833-D-1-2022-11
 title:
 - content: IEEE Draft Guidelines for the Design of Direct Current Overhead Contact
@@ -84,17 +84,18 @@ keyword:
 - content: streetcars
 - content: transit systems
 - content: trolley
-doctype: standard
-editorialgroup:
-  committee:
-  - Overhead Contact Systems of the IEEE Vehicular Technology Society
-ics:
-- code: 01.040.29
-  text: Electrical engineering (Vocabularies)
-- code: '29.280'
-  text: Electric traction equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Overhead Contact Systems of the IEEE Vehicular Technology Society
+  ics:
+  - code: 01.040.29
+    text: Electrical engineering (Vocabularies)
+  - code: '29.280'
+    text: Electric traction equipment
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEC2-1997
 title:
 - content: National Electric Safety Code (NESC), 1997 Edition
@@ -62,6 +62,22 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This standard covers basic provisions for safeguarding of persons from
+    hazards arising from the installation,operation, or maintenance of 1) conductors
+    and equipment in electric supply stations, and 2) overhead and underground electric
+    supply and communication lines. It also includes work rules for the construction,
+    maintenance, and operation of electric supply and communication lines and equipment.
+    The standard is applicable to the systems and equipment operated by utilities,
+    or similar systems and equipment, of an industrial establishment or complex under
+    the control of qualified persons. This standard consists of the introduction,
+    definitions, grounding rules, list of referenced and bibliographic documents,
+    and Parts 1, 2, 3, and 4 of the 1997 Edition of the National Electrical Safety
+    Code.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -84,14 +100,15 @@ keyword:
     of communications systems; operation of electric supply systems; power station
     equipment; power station safety; public utility safety; safety work rules; underground
     communication line safety; underground electric line safety
-doctype: standard
-ics:
-- code: '13.260'
-  text: Protection against electric shock. Live working
-- code: '29.020'
-  text: Electrical engineering in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '13.260'
+    text: Protection against electric shock. Live working
+  - code: '29.020'
+    text: Electrical engineering in general
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

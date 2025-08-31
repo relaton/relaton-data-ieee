@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1937.11-2023
 title:
 - content: IEEE Approved Draft Standard for Technical Requirements of Polar Coordinate
@@ -82,13 +82,17 @@ keyword:
 - content: polar coordinates
 - content: remote sensing
 - content: unmanned aircraft systems (UAS)
-doctype: standard
-editorialgroup:
-  committee:
-  - Unmanned Aerial Vehicles Communications Standards Committee of the IEEE Communications
-    Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Unmanned Aerial Vehicles Communications Standards Committee of the IEEE Communications
+      Society
+  ics:
+  - code: '07.040'
+    text: Astronomy. Geodesy. Geography
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

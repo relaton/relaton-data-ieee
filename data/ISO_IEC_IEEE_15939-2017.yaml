@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC-IEEE15939-2017
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering--Measurement
@@ -27,7 +27,7 @@ date:
 - type: updated
   value: '2018-05-25'
 - type: created
-  value: '2017'
+  value: '2017-04-20'
 - type: published
   value: '2017-04-21'
 - type: issued
@@ -64,6 +64,23 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: This document provides an elaboration of the measurement process from ISO/IEC
+    15288 and ISO/IEC 12207. The measurement process is applicable to system and software
+    engineering and management disciplines. The process is described through a model
+    that defines the activities of the measurement process that are required to adequately
+    specify what measurement information is required, how the measures and analysis
+    results are to be applied, and how to determine if the analysis results are valid.
+    The measurement process is flexible, tailorable, and adaptable to the needs of
+    different users. This document identifies a process that supports defining a suitable
+    set of measures that address specific information needs. It identifies the activities
+    and tasks that are necessary to successfully identify, define, select, apply,
+    and improve measurement within an overall project or organizational measurement
+    structure. It also provides definitions for commonly used measurement terms.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -82,13 +99,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE15939-2008
+    id: IEEEStd15939-2008
     docid:
-    - id: IEEE 15939-2008
+    - id: IEEE Std 15939-2008
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 15939-2008
+      content: IEEE Std 15939-2008
       format: text/plain
   description:
     content: revises
@@ -115,15 +132,17 @@ keyword:
 - content: derived measure
 - content: indicator
 - content: measurable concept
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

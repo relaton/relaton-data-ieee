@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.237-D-0.6-2016-04
 title:
 - content: IEEE Draft Standard Requirements for Time Tags Created by Intelligent Electronic
@@ -81,12 +81,13 @@ keyword:
 - content: time stamp
 - content: time synchronization
 - content: time tag
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,9 +1,9 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP63253.5713-8-2024
 title:
-- content: IEC/IEEE Draft International Standard Requirements for Station Service
-    Voltage Transformers
+- content: IEC/IEEE Approved Draft International Standard Requirements for Station
+    Service Voltage Transformers
   format: text/plain
   type: main
 link:
@@ -23,11 +23,11 @@ docid:
 docnumber: IEC/IEEE P63253.5713-8-2024
 date:
 - type: created
-  value: '2024-05-21'
+  value: '2024-10-08'
 - type: published
   value: '2024-05-22'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -59,13 +59,22 @@ copyright:
   - name:
     - content: IEC
   from: '2024'
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
+keyword:
+- content: IEEE Standards
+- content: IEC Standards
+- content: Transformers
+- content: Voltage control
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

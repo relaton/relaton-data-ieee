@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.300-D-6.4-2023-06
 title:
 - content: IEEE Draft Guide for Centralized Protection and Control (CPC) Systems within
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE PC37.300/D-6.4-2023-06
 date:
 - type: created
-  value: '2023'
+  value: '2023-06-26'
 - type: published
-  value: '2023-06-30'
+  value: '2023-06-29'
 - type: issued
-  value: '2023'
+  value: '2024-12-11'
 contributor:
 - organization:
     name:
@@ -41,11 +41,35 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2023-06-30'
+revdate: '2023-06-29'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: This guide for Centralized Protection and Control (CPC) systems within
+    a substation addresses the realization of various protection, automation, and
+    control functions within a CPC system utilizing data collected from intelligent
+    electronic devices. This guide includes protection, automation, and control functions
+    within a substation, including interconnecting circuits using devices and their
+    interconnections with suitable communication protocols. This guide includes references
+    to existing standards applicable to protection, automation, and control applications
+    for various types of circuit elements such as generators, transformers, bus bars,
+    shunt and series capacitor banks, reactors, transmission lines, and distribution
+    lines. Some protection and control systems may be applied to protect the integrity
+    of the power system, for example, to avoid cascading outages, equipment damage
+    from unanticipated power system conditions beyond equipment emergency ratings,
+    voltage collapse, angular instability, or other system problems. These systems
+    are referred to as SIPS (system integrity protection schemes). The guide addresses
+    CPC system architectures for typical substation configurations. The guide addresses
+    the reliability and maintainability of each architecture, along with their respective
+    testing requirements. The guide also addresses CPC-based system development, installation,
+    commissioning, troubleshooting, and maintenance.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -65,20 +89,29 @@ keyword:
 - content: Intelligent sensors
 - content: System improvement
 - content: Power system control
-- content: centralized protection and control (CPC)
-- content: CPC System
-- content: CPC-based System
-- content: Digital Substation
-- content: intelligent electronic device (IED)
-- content: process interface unit (PIU)
-- content: System Integrity Protection Scheme (SIPS).
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying and Control of the IEEE Power and Energy Society
+- content: centralized protection and control
+- content: CPC
+- content: CPC system
+- content: CPC-based system
+- content: digital substation
+- content: IED
+- content: IEEE C37.300
+- content: intelligent electronic device
+- content: PIU
+- content: process interface unit
+- content: SIPS
+- content: system integrity protection scheme
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSI-IEEE450-1980
 title:
 - content: IEEE Recommended Practice for Maintenance, Testing , and Replacement of
@@ -66,6 +66,19 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Large stationary lead storage batteries play an ever increasing role in
+    substation and generating station control and power systems and in providing the
+    back-up energy for emergencies. This recommended practice fulfills the need within
+    the industry to provide common or standard practices of maintenance, testing,
+    and replacement. The methods described are applicable to all installations and
+    battery sizes. The installations considered herein are designed for full-float
+    operation with a battery charger serving to maintain the battery in a charged
+    condition as well as to supply the normal dc load.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -82,13 +95,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: ANSI-IEEE450-1987
+    id: ANSI-IEEEStd450-1987
     docid:
-    - id: ANSI/IEEE 450-1987
+    - id: ANSI/IEEE Std 450-1987
       type: IEEE
       primary: true
     formattedref:
-      content: ANSI/IEEE 450-1987
+      content: ANSI/IEEE Std 450-1987
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -96,12 +109,13 @@ keyword:
 - content: Batteries
 - content: Maintenance engineering
 - content: Substations
-doctype: standard
-ics:
-- code: 29.220.20
-  text: Acid secondary cells and batteries
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.220.20
+    text: Acid secondary cells and batteries
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

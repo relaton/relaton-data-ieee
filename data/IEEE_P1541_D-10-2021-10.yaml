@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1541-D-10-2021-10
 title:
 - content: IEEE Approved Draft Standard for Prefixes for Binary Multiples
@@ -70,30 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1541-2002
+    id: IEEEStd1541-2002
     docid:
-    - id: IEEE 1541-2002
+    - id: IEEE Std 1541-2002
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1541-2002
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE1541-2002
-    docid:
-    - id: IEEE 1541-2002
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 1541-2002
+      content: IEEE Std 1541-2002
       format: text/plain
   description:
     content: revises
@@ -119,15 +102,16 @@ keyword:
 - content: tebi
 - content: yobi
 - content: zebi
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: '35.040'
-  text: Information coding
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
+  ics:
+  - code: '35.040'
+    text: Information coding
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

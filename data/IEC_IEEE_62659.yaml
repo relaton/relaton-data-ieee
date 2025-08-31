@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEE62659
 title:
 - content: IEC/IEEE International Standard - Nanomanufacturing -- Large scale manufacturing
@@ -65,12 +65,13 @@ keyword:
 - content: Large scale systems
 - content: Manufacturing
 - content: Nanoelectronics
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Committee of the IEEE Nanotechnology Council
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Committee of the IEEE Nanotechnology Council
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

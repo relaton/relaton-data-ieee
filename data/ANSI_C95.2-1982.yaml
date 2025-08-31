@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC95.2-1982
 title:
 - content: American National Standard Radio Frequency Radiation Hazard Warning Symbol
@@ -24,7 +24,7 @@ docid:
 docnumber: ANSI C95.2-1982
 date:
 - type: created
-  value: '1982'
+  value: '1982-06-07'
 - type: published
   value: '2019-04-05'
 - type: issued
@@ -66,13 +66,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEEC95.2-1999
+    id: IEEEStdC95.2-1999
     docid:
-    - id: IEEE C95.2-1999
+    - id: IEEE Std C95.2-1999
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C95.2-1999
+      content: IEEE Std C95.2-1999
       format: text/plain
 keyword:
 - content: Consumer electronics
@@ -82,18 +82,16 @@ keyword:
 - content: Microwave measurement
 - content: Symbols
 - content: Biological radiation effects
-doctype: standard
-editorialgroup:
-  committee:
-  - IEEE-SASB Coordinating Committees
-ics:
-- code: 01.080.40
-  text: Graphical symbols for use on electrical and electronics engineering technical
-    drawings, diagrams, plans and in relevant technical product documentation
-- code: '13.280'
-  text: Radiation protection
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 01.080.40
+    text: Graphical symbols for use on electrical and electronics engineering technical
+      drawings, diagrams, plans and in relevant technical product documentation
+  - code: '13.280'
+    text: Radiation protection
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

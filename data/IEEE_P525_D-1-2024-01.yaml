@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP525-D-1-2024-01
 title:
 - content: IEEE Draft Guide for the Design and Installation of Cable Systems in Substations
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P525/D-1-2024-01
 date:
 - type: created
-  value: '2024'
+  value: '2024-03-12'
 - type: published
   value: '2024-03-13'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -68,47 +68,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE525-2016
+    id: IEEEStd525-2016
     docid:
-    - id: IEEE 525-2016
+    - id: IEEE Std 525-2016
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 525-2016
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE525-2016
-    docid:
-    - id: IEEE 525-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 525-2016
-      format: text/plain
-  description:
-    content: revises
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE525-2016
-    docid:
-    - id: IEEE 525-2016
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 525-2016
+      content: IEEE Std 525-2016
       format: text/plain
   description:
     content: revises
@@ -118,6 +84,14 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Maintenance engineering
+- content: Power cables
+- content: Optical fiber cables
+- content: Routing
+- content: Power system reliability
+- content: Testing
+- content: Communication cables
 - content: acceptance testing
 - content: cable
 - content: cable installation
@@ -126,7 +100,7 @@ keyword:
 - content: electrical segregation
 - content: fiber-optic cable
 - content: handling
-- content: IEEE 525&#8482;
+- content: IEEE 525
 - content: power cable
 - content: pulling tension
 - content: raceway
@@ -136,16 +110,17 @@ keyword:
 - content: service conditions
 - content: substation
 - content: transient protection
-doctype: standard
-editorialgroup:
-  committee:
-  - Substations of the IEEE Power and Energy Society
-ics:
-- code: 29.240.10
-  text: Substations. Surge arresters
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Substations Committee of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.10
+    text: Substations. Surge arresters
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

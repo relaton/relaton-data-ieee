@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62032-2005
 title:
 - content: 'IEC 62032 Ed.1 (IEEE Std C57.135(TM)-2001): Guide for the Application,
@@ -25,7 +25,7 @@ docid:
 docnumber: IEC 62032-2005
 date:
 - type: created
-  value: '2005'
+  value: '2005-04-01'
 - type: published
   value: '2012-07-12'
 - type: issued
@@ -96,15 +96,13 @@ keyword:
 - content: single-core design
 - content: special tests You will receive an email from Customer Service with the
     URL needed to access
-doctype: standard
-editorialgroup:
-  committee:
-  - Transformers of the IEEE Power and Energy Society
-ics:
-- code: '29.180'
-  text: Transformers. Reactors
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE001.001-D-3.1-2014-07
 title:
 - content: IEEE Approved Draft Standard for Conformance Test Procedures for Service
@@ -75,22 +75,22 @@ keyword:
 - content: Passive optical networks
 - content: 1G-EPON
 - content: 10G-EPON
-- content: EPON
 - content: Ethernet Passive Optical Network
 - content: IEEE 1904.1
 - content: conformance
 - content: Conformance02
 - content: Package B
 - content: SIEPON
-doctype: standard
-editorialgroup:
-  committee:
-  - Standards Development Board of the IEEE Communications Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standards Development Board of the IEEE Communications Society
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

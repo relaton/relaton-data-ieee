@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC23026
 title:
 - content: ISO/IEC 23026:2006, Software Engineering---Recommended Practice for the
@@ -25,7 +25,7 @@ docid:
 docnumber: ISO/IEC 23026
 date:
 - type: created
-  value: '2006'
+  value: '2006-06-01'
 - type: published
   value: '2013-03-21'
 - type: issued
@@ -77,7 +77,6 @@ keyword:
 - content: Web sites
 - content: Web design
 - content: Extranet
-- content: Internet
 - content: Intranet
 - content: Web page
 - content: Web site
@@ -85,15 +84,17 @@ keyword:
 - content: Web site management
 - content: well-engineered Web page
 - content: World Wide Web
-doctype: standard
-editorialgroup:
-  committee:
-  - Software &amp; Systems Engineering Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.080'
-  text: Software
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIC37.17-1997
 title:
 - content: American National Standard for Trip Devices for AC and General Purpose
@@ -59,13 +59,13 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: IEEEC37.17-2012
+    id: IEEEStdC37.17-2012
     docid:
-    - id: IEEE C37.17-2012
+    - id: IEEE Std C37.17-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.17-2012
+      content: IEEE Std C37.17-2012
       format: text/plain
 keyword:
 - content: Circuit breakers
@@ -73,15 +73,13 @@ keyword:
 - content: ANSI
 - content: IEC
 - content: IEEE C37.17
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.130.20
-  text: Low voltage switchgear and controlgear
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.130.20
+    text: Low voltage switchgear and controlgear
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

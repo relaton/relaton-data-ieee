@@ -1,8 +1,8 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP3821-D-8.2-2024-01
 title:
-- content: IEEE Draft Standard for Framework of Digital Intelligent Comprehensive
+- content: IEEE Approved Draft Standard for Framework of Digital Intelligent Comprehensive
     Energy Service Station Management Systems
   format: text/plain
   type: main
@@ -23,11 +23,11 @@ docid:
 docnumber: IEEE P3821/D-8.2-2024-01
 date:
 - type: created
-  value: '2024-01-26'
+  value: '2024-05-22'
 - type: published
-  value: '2024-01-30'
+  value: '2024-01-29'
 - type: issued
-  value: '2024'
+  value: '2024-05-20'
 contributor:
 - organization:
     name:
@@ -41,11 +41,23 @@ contributor:
         country: USA
   role:
   - type: publisher
-revdate: '2024-01-30'
+revdate: '2024-01-29'
 language:
 - en
 script:
 - Latn
+abstract:
+- content: A framework of the management system for digital intelligent comprehensive
+    energy service stations is specified in this standard. Finance and business data
+    of all types of energy resources in stations is managed by this system. Comprehensive
+    energy services such as adding gasoline and natural gas, and car electric charging
+    in one station are provided to consumers by the energy facilities described in
+    this document.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -62,16 +74,22 @@ keyword:
 - content: Energy management
 - content: Intelligent systems
 - content: Digital systems
+- content: IEEE 3821&#8482;
 - content: management system
-- content: IEEE 3821TM
-doctype: standard
-editorialgroup:
-  committee:
-  - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
-    Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Digital Finance and Economy Standards Committee of the IEEE Consumer Technology
+      Society
+  ics:
+  - code: 35.240.63
+    text: IT applications in trade
+  - code: '75.200'
+    text: Petroleum products and natural gas handling equipment
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

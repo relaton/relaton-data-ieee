@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPC37.238-D-5.5-2010-10
 title:
 - content: IEEE Draft Standard Profile for Use of IEEE Std. 1588 Precision Time Protocol
@@ -80,17 +80,18 @@ keyword:
 - content: sample synchronization
 - content: synchrophasors
 - content: power substation.
-doctype: standard
-editorialgroup:
-  committee:
-  - Power System Relaying of the IEEE Power &amp; Energy Society
-ics:
-- code: '29.180'
-  text: Power transmission and distribution networks in general
-- code: ''
-  text: Transmission systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying of the IEEE Power &amp; Energy Society
+  ics:
+  - code: '29.180'
+    text: Power transmission and distribution networks in general
+  - code: ''
+    text: Transmission systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

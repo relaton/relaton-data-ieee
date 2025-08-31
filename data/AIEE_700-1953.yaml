@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: AIEE700-1953
 title:
 - content: AIEE Standard for Aircraft Direct- Current Apparatus Voltage Ratings
@@ -65,6 +65,12 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: Aircraft Direct-Current Apparatus Voltage Ratings
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: withdrawn
@@ -79,9 +85,10 @@ keyword:
 - content: Aerospace electronics
 - content: DC machines
 - content: Voltage measurement
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ASAC37.40-1962
 title:
 - content: ASA American National Standard Service Conditions and Definitions for Distribution
@@ -28,7 +28,7 @@ date:
 - type: updated
   value: '2016-04-15'
 - type: created
-  value: '1962'
+  value: '1962-03-29'
 - type: published
   value: '2016-03-29'
 - type: issued
@@ -80,9 +80,10 @@ keyword:
 - content: Fuses
 - content: Switching systems
 - content: Terminology
-doctype: standard
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -1,0 +1,195 @@
+---
+schema-version: v1.2.9
+id: IEEEStd802.3-2022
+title:
+- content: IEEE Standard for Ethernet
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/9844436
+  type: src
+type: standard
+docid:
+- id: IEEE Std 802.3-2022
+  type: IEEE
+  primary: true
+- id: IEEE Std 802.3®-2022
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-1-5044-8725-2
+  type: ISBN
+- id: 10.1109/IEEESTD.2022.9844436
+  type: DOI
+docnumber: IEEE Std 802.3-2022
+date:
+- type: created
+  value: '2022-07-29'
+- type: published
+  value: '2022-07-28'
+- type: issued
+  value: '2022-05-13'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2022-07-28'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'Ethernet local area network operation is specified for selected speeds
+    of operation from 1 Mb/s to 400 Gb/s using a common media access control (MAC)
+    specification and management information base (MIB). The Carrier Sense Multiple
+    Access with Collision Detection (CSMA/CD) MAC protocol specifies shared medium
+    (half duplex) operation, as well as full duplex operation. Speed specific Media
+    Independent Interfaces (MIIs) allow use of selected Physical Layer devices (PHYs)
+    for operation over coaxial, twisted pair or fiber optic cables, or electrical
+    backplanes. System considerations for multi-segment shared access networks describe
+    the use of Repeaters that are defined for operational speeds up to 1000 Mb/s.
+    Local Area Network (LAN) operation is supported at all speeds. Other specified
+    capabilities include: various PHY types for access networks, PHYs suitable for
+    metropolitan area network applications, and the provision of power over selected
+    twisted pair PHY types. NOTE: Additional downloads are available at: https://standards.ieee.org/wp-content/uploads/2024/02/802.3-2022_errata.pdf
+    and https://standards.ieee.org/wp-content/uploads/2022/07/802.3-2022_downloads.zip'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: approved
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2022'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd802.3-2018
+    docid:
+    - id: IEEE Std 802.3-2018
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.3-2018
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Standards
+- content: IEEE 802.3 Standard
+- content: EPON
+- content: Optical fiber LAN
+- content: Physical layer
+- content: Optical fiber cables
+- content: 2.5 Gigabit Ethernet
+- content: 5 Gigabit Ethernet
+- content: 10 Gigabit Ethernet
+- content: 25 Gigabit Ethernet
+- content: 40 Gigabit Ethernet
+- content: 50 Gigabit Ethernet
+- content: 100 Gigabit Ethernet
+- content: 200 Gigabit Ethernet
+- content: 400 Gigabit Ethernet
+- content: AN
+- content: attachment unit interface
+- content: AUI
+- content: Auto-Negotiation
+- content: Backplane Ethernet
+- content: balanced cable
+- content: data processing
+- content: DTE Power via the MDI
+- content: EEE
+- content: Energy-Efficient Ethernet
+- content: EPoC
+- content: EPON protocol over coax
+- content: Ethernet
+- content: Ethernet in the first mile
+- content: Ethernet Passive Optical Network
+- content: express traffic
+- content: Fast Ethernet
+- content: FEC
+- content: forward error correction
+- content: Gigabit Ethernet
+- content: IEEE 802.3
+- content: information exchange
+- content: isolation
+- content: LAN
+- content: local area network
+- content: management
+- content: MCRS
+- content: MDI
+- content: media independent interface
+- content: medium dependent interface
+- content: MIB
+- content: MII
+- content: MMF
+- content: MPCP
+- content: Multi-Channel Reconciliation Sublayer
+- content: multimode fiber
+- content: multipoint control protocol
+- content: P2MP
+- content: PCS
+- content: PD
+- content: PHY
+- content: physical coding sublayer
+- content: Physical Layer
+- content: Physical Layer Collision Avoidance
+- content: Physical Layer device
+- content: physical medium attachment
+- content: physical medium dependent
+- content: PLCA
+- content: PMA
+- content: PMD
+- content: PoDL
+- content: PoE
+- content: point to multipoint
+- content: Power over Data Lines
+- content: Power over Ethernet
+- content: Power Sourcing Equipment
+- content: Powered Device
+- content: PSE
+- content: reconciliation sublayer
+- content: repeater
+- content: RS
+- content: single-mode fiber
+- content: SMF
+- content: type field
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

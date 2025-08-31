@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IECP62271.111-IEEEPC37.60-D-5-2015
 title:
 - content: 'IEC/IEEE Draft International Standard - High-voltage switchgear and controlgear
@@ -63,13 +63,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEEC37.60-2012
+    id: IEEEStdC37.60-2012
     docid:
-    - id: IEEE C37.60-2012
+    - id: IEEE Std C37.60-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE C37.60-2012
+      content: IEEE Std C37.60-2012
       format: text/plain
   description:
     content: revises
@@ -89,15 +89,13 @@ keyword:
 - content: IEC P62271-11
 - content: HIGH-VOLTAGE SWITCHGEAR
 - content: CONTROLGEAR
-doctype: standard
-editorialgroup:
-  committee:
-  - Switchgear of the IEEE Power and Energy Society
-ics:
-- code: 29.120.50
-  text: Fuses and other overcurrent protection devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

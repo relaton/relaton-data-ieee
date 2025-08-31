@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC62525
 title:
 - content: "(IEEE Std 1450-1999) International Standard Test Interface Language (STIL)
@@ -58,6 +58,17 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: 'Standard Test Interface Language (STIL) provides an interface between
+    digital test generation tools and test equipment. A test description language
+    is defined that: (a) facilitates the transfer of digital test vector data from
+    CAE to ATE environments; (b) specifies pattern, format, and timing information
+    sufficient to define the application of digital test vectors to a DUT; and (c)
+    supports the volume of test vector data generated from structured tests.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -91,15 +102,16 @@ keyword:
 - content: timed event
 - content: waveform
 - content: waveshape
-doctype: standard
-editorialgroup:
-  committee:
-  - Test Technology of the IEEE Computer Society
-ics:
-- code: '31.200'
-  text: Integrated circuits. Microelectronics
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Test Technology of the IEEE Computer Society
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

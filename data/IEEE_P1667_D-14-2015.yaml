@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1667-D-14-2015
 title:
 - content: IEEE Draft Standard for Discovery, Authentication, and Authorization in
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1667-2009
+    id: IEEEStd1667-2009
     docid:
-    - id: IEEE 1667-2009
+    - id: IEEE Std 1667-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1667-2009
+      content: IEEE Std 1667-2009
       format: text/plain
   description:
     content: revises
@@ -87,13 +87,40 @@ relation:
     format: text/plain
 - type: obsoletedBy
   bibitem:
-    id: IEEE1667-2018
+    id: IEEEStd1667-2018
     docid:
-    - id: IEEE 1667-2018
+    - id: IEEE Std 1667-2018
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1667-2018
+      content: IEEE Std 1667-2018
+      format: text/plain
+- type: updates
+  bibitem:
+    id: IEEEStd1667-2009
+    docid:
+    - id: IEEE Std 1667-2009
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1667-2009
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+- type: obsoletedBy
+  bibitem:
+    id: IEEEStd1667-2018
+    docid:
+    - id: IEEE Std 1667-2018
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1667-2018
       format: text/plain
 keyword:
 - content: IEEE Standards
@@ -125,17 +152,15 @@ keyword:
 - content: UFS
 - content: USB BOT
 - content: USB
-doctype: standard
-editorialgroup:
-  committee:
-  - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.040'
-  text: Information coding
-- code: 35.220.01
-  text: Data storage devices in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  - code: 35.220.01
+    text: Data storage devices in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

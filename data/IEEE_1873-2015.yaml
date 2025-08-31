@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE1873-2015
 title:
 - content: IEEE Standard for Robot Map Data Representation for Navigation
@@ -54,6 +54,14 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: A map data representation of environments of a mobile robot performing
+    a navigation task is specified in this standard. It provides data models and data
+    formats for two-dimensional (2D) metric and topological maps.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -75,15 +83,16 @@ keyword:
 - content: metric map
 - content: robot navigation
 - content: topological map
-doctype: standard
-editorialgroup:
-  committee:
-  - Standing Committee for Standards of the IEEE Robotics and Automation Society
-ics:
-- code: 01.040.11
-  text: Health care technology (Vocabularies)
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Standing Committee for Standards of the IEEE Robotics and Automation Society
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

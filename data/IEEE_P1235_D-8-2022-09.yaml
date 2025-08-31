@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1235-D-8-2022-09
 title:
 - content: IEEE Draft Guide for Properties of Stripes and Ridges for Identification
@@ -77,13 +77,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1235-2000
+    id: IEEEStd1235-2000
     docid:
-    - id: IEEE 1235-2000
+    - id: IEEE Std 1235-2000
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1235-2000
+      content: IEEE Std 1235-2000
       format: text/plain
   description:
     content: revises
@@ -101,17 +101,18 @@ keyword:
 - content: power cables
 - content: raised ridges
 - content: stripes
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.060.20
-  text: Cables
-- code: 29.120.10
-  text: Conduits for electrical purposes
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
+  ics:
+  - code: 29.060.20
+    text: Cables
+  - code: 29.120.10
+    text: Conduits for electrical purposes
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

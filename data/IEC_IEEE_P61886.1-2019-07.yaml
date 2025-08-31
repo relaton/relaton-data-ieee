@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEC-IEEEP61886.1-2019-07
 title:
 - content: IEC/IEEE Draft International Standard for Subsea Equipment - Power Connectors,
@@ -24,7 +24,7 @@ docid:
 docnumber: IEC/IEEE P61886.1-2019-07
 date:
 - type: created
-  value: '2019'
+  value: '2019-07-18'
 - type: published
   value: '2019-07-19'
 - type: issued
@@ -77,12 +77,13 @@ keyword:
 - content: Power system reliability
 - content: Testing
 - content: AC machines
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

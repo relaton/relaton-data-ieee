@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1409-D-4-2023-12
 title:
 - content: IEEE Draft Guide for Technology Methods for Power Quality Improvement in
@@ -60,13 +60,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1409-2012
+    id: IEEEStd1409-2012
     docid:
-    - id: IEEE 1409-2012
+    - id: IEEE Std 1409-2012
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1409-2012
+      content: IEEE Std 1409-2012
       format: text/plain
   description:
     content: revises
@@ -80,15 +80,16 @@ keyword:
 - content: Power system reliability
 - content: Power quality
 - content: Power systems
-doctype: standard
-editorialgroup:
-  committee:
-  - Transmission and Distribution of the IEEE Power and Energy Society
-ics:
-- code: 29.240.01
-  text: Power transmission and distribution networks in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

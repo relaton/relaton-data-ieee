@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE802.16k-
 title:
 - content: 'IEEE Standard for Local and Metropolitan Area Networks: Media Access Control
@@ -67,47 +67,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1D-2004
+    id: IEEEStd802.1D-2004
     docid:
-    - id: IEEE 802.1D-2004
+    - id: IEEE Std 802.1D-2004
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1D-2004
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.1D-2004
-    docid:
-    - id: IEEE 802.1D-2004
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1D-2004
-      format: text/plain
-  description:
-    content: amends
-    language:
-    - en
-    script:
-    - Latn
-    format: text/plain
-- type: updates
-  bibitem:
-    id: IEEE802.1D-2004
-    docid:
-    - id: IEEE 802.1D-2004
-      type: IEEE
-      primary: true
-    formattedref:
-      content: IEEE 802.1D-2004
+      content: IEEE Std 802.1D-2004
       format: text/plain
   description:
     content: amends
@@ -129,19 +95,20 @@ keyword:
 - content: VLANs
 - content: wireless metropolitan area networks
 - content: WMAN
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
-- code: 35.100.20
-  text: Data link layer
-- code: 35.100.10
-  text: Physical layer
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

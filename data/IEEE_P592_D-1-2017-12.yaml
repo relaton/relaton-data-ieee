@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP592-D-1-2017-12
 title:
 - content: IEEE Draft Standard for Insulation Shields on Medium-Voltage (15 kV - 35
@@ -70,13 +70,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE592-2007
+    id: IEEEStd592-2007
     docid:
-    - id: IEEE 592-2007
+    - id: IEEE Std 592-2007
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 592-2007
+      content: IEEE Std 592-2007
       format: text/plain
   description:
     content: revises
@@ -95,15 +95,13 @@ keyword:
 - content: insulation shields
 - content: joints
 - content: separable connectors
-doctype: standard
-editorialgroup:
-  committee:
-  - Insulated Conductors of the IEEE Power and Energy Society
-ics:
-- code: 29.120.20
-  text: Connecting devices
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 29.120.20
+    text: Connecting devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

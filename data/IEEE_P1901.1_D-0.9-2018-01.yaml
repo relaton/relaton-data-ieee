@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1901.1-D-0.9-2018-01
 title:
 - content: IEEE Draft Standard for Medium Frequency (less than 15 MHz) Power Line
@@ -90,19 +90,19 @@ keyword:
 - content: IEEE 1901.2(TM)
 - content: MAC
 - content: medium frequency
-- content: OFDM
 - content: orthogonal frequency division multiplexing
 - content: PHY
 - content: PLC
 - content: power line communication
 - content: security
 - content: smart grid
-doctype: standard
-editorialgroup:
-  committee:
-  - Power Line Communications of the IEEE Communications Society
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Power Line Communications of the IEEE Communications Society
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

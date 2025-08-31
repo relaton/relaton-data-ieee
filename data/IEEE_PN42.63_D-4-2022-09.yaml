@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEPN42.63-D-4-2022-09
 title:
 - content: IEEE Draft Recommended Practice for Unmanned Aerial Radiation Measurement
@@ -89,14 +89,15 @@ keyword:
 - content: response vectors include those expected from distributed 38 radioactive
     contamination and from radioactive point sources. The primary UAVs of interest
     includethose from Group 1 and Group 2 UAV designations
-doctype: standard
-editorialgroup:
-  committee:
-  - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
-    and Measurement Society
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE Instrumentation
+      and Measurement Society
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

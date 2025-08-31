@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802.1ASdm-D-2.4-2024-06
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks - Timing
@@ -24,11 +24,11 @@ docid:
 docnumber: IEEE P802.1ASdm/D-2.4-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-26'
 - type: published
   value: '2024-06-27'
 - type: issued
-  value: '2024'
+  value: '2024-09-26'
 contributor:
 - organization:
     name:
@@ -48,7 +48,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This amendment to IEEE Std 802.1AS&#8482;-2020 specifies hot standby, and
+- content: This amendment to IEEE Std 802.1AS&#8482;-2020 specifies hot standby and
     addresses errors and omissions in the description of existing functionality.
   language:
   - en
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802.1AS-2020
+    id: IEEEStd802.1AS-2020
     docid:
-    - id: IEEE 802.1AS-2020
+    - id: IEEE Std 802.1AS-2020
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802.1AS-2020
+      content: IEEE Std 802.1AS-2020
       format: text/plain
   description:
     content: amends
@@ -85,28 +85,38 @@ relation:
     - Latn
     format: text/plain
 keyword:
-- content: hot standby
+- content: IEEE Standards
+- content: Synchronization
+- content: Delay effects
+- content: Local area networks
+- content: Metropolitan area networks
+- content: Sensitivity analysis
+- content: Error analysis
+- content: amendment
 - content: best timeTransmitter
 - content: frequency offset
 - content: Grandmaster Clock
 - content: Grandmaster PTP Instance
+- content: hot standby
+- content: IEEE 802.1AS&#8482;
+- content: IEEE 802.1ASdm&#8482;
+- content: phase offset
 - content: PTP End Instance
 - content: PTP Relay Instance
-- content: IEEE 802.1AS&#8482;
-- content: phase offset
 - content: synchronization
 - content: syntonization
 - content: time-aware system
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

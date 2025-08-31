@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ISO-IEC14536
 title:
 - content: ISO/IEC 14536:1995 [ANSI/IEEE Std 896.5-1995] Information technology -
@@ -94,15 +94,16 @@ keyword:
 - content: open architecture
 - content: serial bus
 - content: software debug
-doctype: standard
-editorialgroup:
-  committee:
-  - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
-ics:
-- code: '35.160'
-  text: Microprocessor systems
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems Society
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

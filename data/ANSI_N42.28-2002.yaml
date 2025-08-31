@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: ANSIN42.28-2002
 title:
 - content: American National Standard Calibration of Germanium Detectors for In-Situ
@@ -73,20 +73,20 @@ keyword:
 - content: ANSI Standards
 - content: Gamma rays
 - content: Detectors
-- content: Gamma rays
 - content: calibration
 - content: gamma-ray
 - content: germanium detectors
 - content: in-situ
-doctype: standard
-editorialgroup:
-  committee:
-  - National Committee on Radiation Instrumentation
-ics:
-- code: '17.240'
-  text: Radiation measurements
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - National Committee on Radiation Instrumentation
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

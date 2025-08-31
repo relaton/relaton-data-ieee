@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP356-D-8-2010-07
 title:
 - content: IEEE Draft Guide for Measurements of Electromagnetic Properties of Earth
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P356/D-8-2010-07
 date:
 - type: created
-  value: '2010'
+  value: '2010-07-15'
 - type: published
   value: '2010-07-19'
 - type: issued
@@ -77,15 +77,16 @@ keyword:
 - content: resistivity
 - content: earth materials
 - content: electromagnetic measurement techniques.
-doctype: standard
-editorialgroup:
-  committee:
-  - Propagation of the IEEE Antennas and Propagation Society
-ics:
-- code: 33.060.01
-  text: Radiocommunications in general
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Propagation of the IEEE Antennas and Propagation Society
+  ics:
+  - code: 33.060.01
+    text: Radiocommunications in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

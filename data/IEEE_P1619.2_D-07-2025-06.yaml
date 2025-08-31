@@ -1,0 +1,119 @@
+---
+schema-version: v1.2.9
+id: IEEEP1619.2-D-07-2025-06
+title:
+- content: IEEE Draft Standard for Wide-Block Encryption for Shared Storage Media
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/11051162
+  type: src
+type: standard
+docid:
+- id: IEEE P1619.2/D-07-2025-06
+  type: IEEE
+  primary: true
+- id: IEEE P1619.2™/D-07-2025-06
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2350-2
+  type: ISBN
+docnumber: IEEE P1619.2/D-07-2025-06
+date:
+- type: created
+  value: '2025-06-24'
+- type: published
+  value: '2025-06-25'
+- type: issued
+  value: '2025'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-06-25'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: EME2-AES wide-block encryption with associated data (EAD) mode of the NIST
+    AES block cipher, providing usage guidelines and test vectors, is described. A
+    wide-block encryption algorithm behaves as a single block cipher with a large
+    plaintext input and ciphertext output, but uses a narrow block cipher (in this
+    case Advanced Encryption Standard [AES]) internally. This encryption mode is oriented
+    toward random access storage devices that do not provide authentication, but need
+    to reduce the granularity of a potential attack.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd1619.2-2021
+    docid:
+    - id: IEEE Std 1619.2-2021
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1619.2-2021
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Encryption
+- content: Secure storage
+- content: Storage management
+- content: Computer security
+- content: Media
+- content: data-at-rest security
+- content: encryption
+- content: encryption with associated data (EAD)
+- content: encrypt-mix encrypt-v2 mode of operation (EME2)
+- content: IEEE 1619.2™
+- content: security
+- content: storage
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.040.01
+    text: Information coding in general
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1665-D-22-2023
 title:
 - content: IEEE Draft Guide for the Rewind of Synchronous Generators, 50 Hz and 60
@@ -75,13 +75,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE1665-2009
+    id: IEEEStd1665-2009
     docid:
-    - id: IEEE 1665-2009
+    - id: IEEE Std 1665-2009
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 1665-2009
+      content: IEEE Std 1665-2009
       format: text/plain
   description:
     content: revises
@@ -104,15 +104,16 @@ keyword:
 - content: salient-pole rotor
 - content: stator rewind
 - content: synchronous generator
-doctype: standard
-editorialgroup:
-  committee:
-  - Electric Machinery of the IEEE Power and Energy Society
-ics:
-- code: 29.160.20
-  text: Generators
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
+  ics:
+  - code: 29.160.20
+    text: Generators
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

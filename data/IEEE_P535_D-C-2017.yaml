@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP535-D-C-2017
 title:
 - content: 'IEEE Draft Standard for Qualification of Class 1E Vented Lead Acid Storage
@@ -69,13 +69,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE535-2013
+    id: IEEEStd535-2013
     docid:
-    - id: IEEE 535-2013
+    - id: IEEE Std 535-2013
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 535-2013
+      content: IEEE Std 535-2013
       format: text/plain
   description:
     content: corrects
@@ -100,18 +100,15 @@ keyword:
 - content: IEEE 535
 - content: performance test
 - content: vented lead-acid battery
-doctype: standard
-editorialgroup:
-  committee:
-  - Energy Storage &amp; Stationary Battery Committee of the IEEE Power and Energy
-    Society
-ics:
-- code: 27.120.20
-  text: Nuclear power plants. Safety
-- code: 29.220.20
-  text: Acid secondary cells and batteries
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  - code: 29.220.20
+    text: Acid secondary cells and batteries
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

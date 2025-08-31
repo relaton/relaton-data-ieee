@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEE-NEMIPR
 title:
 - content: IEEE/NEMI Low-Cost Open Architecture Controller Specification
@@ -54,6 +54,14 @@ abstract:
   script:
   - Latn
   format: text/plain
+- content: 'The following topics are dealt with: controller management; motion control;
+    events, states and I/O; exception handling; nodes, frames and attributes; position
+    and orientation; mechanism parameters; and axis parameters.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 copyright:
 - owner:
   - name:
@@ -74,14 +82,15 @@ keyword:
 - content: motion control
 - content: exception handling
 - content: mechanism parameters
-doctype: standard
-ics:
-- code: '31.180'
-  text: Printed circuits and boards
-- code: '35.180'
-  text: IT terminal and other peripheral equipment
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: '31.180'
+    text: Printed circuits and boards
+  - code: '35.180'
+    text: IT terminal and other peripheral equipment
   standard_status: Inactive
   pubstatus: Active
   holdstatus: Publish

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP802-D-2.0-2024-06
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks: Overview
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P802/D-2.0-2024-06
 date:
 - type: created
-  value: '2024'
+  value: '2024-06-18'
 - type: published
   value: '2024-06-19'
 - type: issued
@@ -74,13 +74,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE802-2014
+    id: IEEEStd802-2014
     docid:
-    - id: IEEE 802-2014
+    - id: IEEE Std 802-2014
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 802-2014
+      content: IEEE Std 802-2014
       format: text/plain
   description:
     content: revises
@@ -90,6 +90,14 @@ relation:
     - Latn
     format: text/plain
 keyword:
+- content: IEEE Standards
+- content: Body area networks
+- content: Local area networks
+- content: Metropolitan area networks
+- content: Object detection
+- content: Personal area networks
+- content: Regional area networks
+- content: Protocols
 - content: BANs
 - content: body area networks
 - content: EtherTypes
@@ -107,16 +115,17 @@ keyword:
 - content: regional area networks
 - content: protocol development
 - content: protocol types
-doctype: standard
-editorialgroup:
-  committee:
-  - LAN/MAN Standards Committee of the IEEE Computer Society
-ics:
-- code: '35.110'
-  text: Networking
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

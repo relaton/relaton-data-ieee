@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP2410-D-3-2017-05
 title:
 - content: IEEE Draft Standard for Biometric Open Protocol
@@ -22,7 +22,7 @@ docid:
 docnumber: IEEE P2410/D-3-2017-05
 date:
 - type: created
-  value: '2017'
+  value: '2017-06-17'
 - type: published
   value: '2017-06-20'
 - type: issued
@@ -84,13 +84,13 @@ copyright:
 relation:
 - type: updates
   bibitem:
-    id: IEEE2410-2015
+    id: IEEEStd2410-2015
     docid:
-    - id: IEEE 2410-2015
+    - id: IEEE Std 2410-2015
       type: IEEE
       primary: true
     formattedref:
-      content: IEEE 2410-2015
+      content: IEEE Std 2410-2015
       format: text/plain
   description:
     content: revises
@@ -125,16 +125,13 @@ keyword:
 - content: trusted adjudicated data
 - content: user
 - content: user device
-doctype: standard
-editorialgroup:
-  committee:
-  - Edge, Fog, Cloud Communications with IOT and Big Data Standards Committee of the
-    IEEE Communications Society
-ics:
-- code: 35.240.15
-  text: Identification cards. Chip cards. Biometrics
 ext:
-  schema-version: v1.0.0
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

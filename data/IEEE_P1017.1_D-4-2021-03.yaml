@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.9
 id: IEEEP1017.1-D-4-2021-03
 title:
 - content: IEEE Draft Recommended Practice for Testing Electric Submersible Pump Cable
@@ -22,11 +22,11 @@ docid:
 docnumber: IEEE P1017.1/D-4-2021-03
 date:
 - type: created
-  value: '2021'
+  value: '2021-04-09'
 - type: published
   value: '2021-04-12'
 - type: issued
-  value: '2021'
+  value: '2021-09-23'
 contributor:
 - organization:
     name:
@@ -46,10 +46,10 @@ language:
 script:
 - Latn
 abstract:
-- content: Procedures and test voltage values for factory, acceptance and maintenance
+- content: Procedures and test voltage values for factory, acceptance, and maintenance
     testing of electric submersible pump (ESP) cable systems are presented. This recommended
     practice applies to cable systems rated 3 kV through 8 kV (phase to phase) and
-    is intended only for this special-purpose cable. The intent is to provide uniform
+    is intended only for this special purpose cable. The intent is to provide uniform
     test procedures and guidelines for evaluation of the test results.
   language:
   - en
@@ -67,6 +67,24 @@ copyright:
       content: IEEE
     url: http://www.ieee.org
   from: '2021'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd1017-2013
+    docid:
+    - id: IEEE Std 1017-2013
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1017-2013
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
 keyword:
 - content: IEEE Standards
 - content: Underwater cables
@@ -77,22 +95,22 @@ keyword:
 - content: cable maintenance
 - content: cable testing
 - content: conductors
-- content: field testing
-- content: IEEE 1017&#8482;
-- content: submersible pump cable
-- content: ESP
-- content: electric submersible pump
+- content: electric submersible pump (ESP)
 - content: factory testing
-doctype: standard
-editorialgroup:
-  committee:
-  - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
-ics:
-- code: 29.060.20
-  text: Cables
+- content: field testing
+- content: IEEE 1017
+- content: submersible pump cable
 ext:
-  schema-version: v1.0.0
-  standard_status: Active
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Petroleum and Chemical Industry of the IEEE Industry Applications Society
+  ics:
+  - code: 29.060.20
+    text: Cables
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

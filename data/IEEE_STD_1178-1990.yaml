@@ -1,0 +1,88 @@
+---
+schema-version: v1.2.9
+id: IEEEStd1178-1990
+title:
+- content: IEEE Standard for the Scheme Programming Language
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/159138
+  type: src
+type: standard
+docid:
+- id: IEEE Std 1178-1990
+  type: IEEE
+  primary: true
+- id: IEEE Std 1178™-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 978-0-7381-1189-6
+  type: ISBN
+- id: 10.1109/IEEESTD.1991.101032
+  type: DOI
+docnumber: IEEE Std 1178-1990
+date:
+- type: created
+  value: '1991'
+- type: issued
+  value: '1990-12-10'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+language:
+- en
+script:
+- Latn
+abstract:
+- content: The form and meaning of programs written in the Scheme programming language
+    and in particular, their syntax, the semantic rules for interpreting them, and
+    the representation of data to be input or output by them, are specified. The fundamental
+    ideas of the language and the notational conventions used for describing and writing
+    programs in the language are presented. The syntax and semantics of expressions,
+    programs, and definitions are specified. Scheme's built-in procedures, which include
+    all of the language's data manipulation and input/output primitives, are described,
+    and a formal syntax for Scheme written in extended Backus-Naur form is provided.
+    A formal denotational semantics for Scheme and some issues in the implementation
+    of Scheme's arithmetic are covered.<<ETX>>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '1991'
+keyword:
+- content: LISP
+- content: Programming
+- content: Standards
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish
