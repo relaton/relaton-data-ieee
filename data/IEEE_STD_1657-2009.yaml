@@ -50,20 +50,6 @@ abstract:
 - content: This recommended practice defines the areas of recommended knowledge for
     installers and maintainers of stationary batteries and related systems to the
     extent that they affect the battery. Design of the dc system and sizing of the
-    dc battery charger(s) are beyond the scope of this document. This recommended
-    practice covers only lead-acid and nickel-cadmium battery technologies. Its purpose
-    is to provide an outline (not necessarily in training order) of the items that
-    should be covered by training programs for stationary battery installation and
-    maintenance personnel. The IEEE will not be certifying trained personnel nor providing
-    its own battery technician training programs.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This recommended practice defines the areas of recommended knowledge for
-    installers and maintainers of stationary batteries and related systems to the
-    extent that they affect the battery. Design of the dc system and sizing of the
     dc battery charger(s) are beyond the scope of this recommended practice. This
     document covers lead-acid and nickel-cadmium battery technologies.
   language:
@@ -106,6 +92,10 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Energy Storage &amp; Stationary Battery Committee of the IEEE Power and Energy
+      Society
   ics:
   - code: 03.100.30
     text: Management of human resources

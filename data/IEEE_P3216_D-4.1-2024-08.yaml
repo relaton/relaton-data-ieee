@@ -26,7 +26,7 @@ date:
 - type: published
   value: '2024-09-12'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -46,11 +46,11 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document establishes a blockchain service capability model, including
-    four levels: basic, expansion, optimization and leading, which are indicated by
-    I, II, III and IV respectively from low to high. At the same time, it stipulates
-    the requirements that the service capability at all levels shall meet in terms
-    of organization, personnel, technology, resources, and management processes.'
+- content: A blockchain service capability model, including four levels--basic, expansion,
+    optimization and leading, which are indicated by I, II, III, and IV, respectively,
+    from low to high--is established by this document. At the same time, the requirements
+    that the service capability at all levels shall meet in terms of organization,
+    personnel, technology, resources, and management processes are stipulated.
   language:
   - en
   script:
@@ -75,6 +75,7 @@ keyword:
 - content: Resource management
 - content: Quality of service
 - content: blockchains
+- content: IEEE 3230.03(TM)
 - content: service capability evaluation
 ext:
   schema-version: v1.0.1
@@ -83,6 +84,9 @@ ext:
   editorialgroup:
     committee:
     - Blockchain and Distributed Ledgers of the IEEE Computer Society
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

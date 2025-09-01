@@ -49,17 +49,6 @@ script:
 - Latn
 abstract:
 - content: 'Required procedures for performing design tests for high-voltage distribution
-    class and power class fuses, as well as for fuse disconnecting switches and enclosed
-    single-pole air switches, are specified. These design tests, as appropriate to
-    a particular device, include the following test types: dielectric, interrupting,
-    load-break, radio-influence, short-time current, temperature-rise, time-current,
-    manual-operation, thermal-cycle, bolt-torque, and liquid-tightness.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: 'Required procedures for performing design tests for high-voltage distribution
     class and power class fuses, as well as for fuse-disconnecting switches and enclosed
     single-pole air switches, are specified. These design tests, as appropriate to
     a particular device, include the following test types: dielectric, interrupting,
@@ -125,6 +114,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
   ics:
   - code: 29.120.40
     text: Switches

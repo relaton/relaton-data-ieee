@@ -54,14 +54,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: The design, installation, and protection of wire and cable systems in substations
-    with the objective of minimizing cable failures and their consequences are covered
-    in this guide.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -137,6 +129,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power and Energy Society
   ics:
   - code: 29.240.10
     text: Substations. Surge arresters

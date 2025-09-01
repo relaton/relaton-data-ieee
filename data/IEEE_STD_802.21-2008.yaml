@@ -47,14 +47,6 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard specifies IEEE 802<sup>reg</sup> media access-independent
-    mechanisms that optimize handovers between heterogeneous IEEE 802 systems and
-    between IEEE 802 systems and cellular systems.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: This standard specifies IEEE 802&#174; media access-independent mechanisms
     that optimize handovers between heterogeneous IEEE 802 systems and between IEEE
     802 systems and cellular systems.
@@ -100,6 +92,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   ics:
   - code: '35.110'
     text: Networking

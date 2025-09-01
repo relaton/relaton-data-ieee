@@ -44,17 +44,6 @@ language:
 script:
 - Latn
 abstract:
-- content: Directions for establishing type tests that may be used in qualifying Class
-    1E electric cables, field splices, and other connections for service in nuclear
-    power generating stations are provided. Though intended primarily for cable for
-    field installation, this guide may also be used for the qualification of internal
-    wiring of manufactured devices. It does not cover cables for service within the
-    reactor vessel.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: This standard provides direction for establishing type tests which may
     be used in qualifying Class IE electric cables, field splices and other connections
     for service in nuclear power generating stations. Categories of cables covered
@@ -104,6 +93,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
   ics:
   - code: 29.060.20
     text: Cables

@@ -48,19 +48,6 @@ language:
 - en
 script:
 - Latn
-abstract:
-- content: This document prescribes the mechanical, electrical, and test requirements
-    for the design, construction, and. installation of electrical penetration assemblies
-    in containment structures for stationary nuclear fueled power generating stations.
-    The electrical conductor and insulation characteristics of external circuits which
-    connect to penetration assemblies are beyond the scope of these criteria. If there
-    should be any conflict between this document and those documents referenced herein,
-    this document shall take precedence over the referenced documents.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -88,6 +75,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - IEEE Nuclear and Plasma Sciences Society
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

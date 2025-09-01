@@ -60,16 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: A review of generally accepted applications and coordination of protection
-    for power system distribution lines is presented. The advantages and disadvantages
-    of schemes presently being used in protecting distribution lines are examined
-    in this guide. Identification of problems with the methods used in distribution
-    line protection and the solutions for those problems is included.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -168,6 +158,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Power System Relaying and Control of the IEEE Power and Energy Society
   ics:
   - code: 29.120.70
     text: Relays

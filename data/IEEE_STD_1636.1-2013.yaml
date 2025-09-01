@@ -59,17 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: This standard is intended to promote and facilitate interoperability between
-    components of automatic test systems where test results need to be shared. The
-    standard thus facilitates the capture of test results data in storage devices
-    and databases, facilitating online and offline analysis. The test results schema
-    becomes a class of information that can be used within the SIMICA family of standards.
-    The exchange format utilizes the XML formats.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -109,6 +98,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   ics:
   - code: '35.040'
     text: Information coding

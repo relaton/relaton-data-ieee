@@ -47,12 +47,6 @@ language:
 script:
 - Latn
 abstract:
-- content: Removed.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: This standard applies to alternating current (ac) switchgear, designed
     for both indoor and outdoor installation and for operation at service frequencies
     up to and including 60 Hz on systems having voltages above 1000 V. This standard
@@ -110,6 +104,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
   ics:
   - code: 29.130.10
     text: High voltage switchgear and controlgear

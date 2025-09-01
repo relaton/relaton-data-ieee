@@ -59,16 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: The most common shield/sheath-bonding systems now in use on medium through
-    extra high-voltage (5 kV to 500 kV) single-conductor shielded power cables and
-    the methods of calculating the corresponding shield/sheath voltages and currents,
-    when the cables are operated as part of a three-phase system, with the neutral
-    grounded directly or through an impedance, are described in this guide.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -126,6 +116,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
   ics:
   - code: 29.035.01
     text: Insulating materials in general

@@ -1,0 +1,130 @@
+---
+schema-version: v1.2.9
+id: IEEEP802.3da-D-3.0-2025-06
+title:
+- content: 'IEEE Draft Standard for Ethernet Amendment 10: Physical Layer Specifications
+    and Management Parameters for Enhancement of 10 Mb/s Operation over Single Balanced
+    Pair Multidrop Segments'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/11124498
+  type: src
+type: standard
+docid:
+- id: IEEE P802.3da/D-3.0-2025-06
+  type: IEEE
+  primary: true
+- id: IEEE P802.3da™/D-3.0-2025-06
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2526-1
+  type: ISBN
+docnumber: IEEE P802.3da/D-3.0-2025-06
+date:
+- type: created
+  value: '2025-08-12'
+- type: published
+  value: '2025-08-13'
+- type: issued
+  value: '2025'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-08-13'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: This amendment to IEEE Std 802.3-2022 specifies additions and appropriate
+    modifications to enhance the 10 Mb/s shared-medium (multidrop) mode of the 10BASE-T1S
+    Physical Layer in a new, multidrop-only physical layer specification (including
+    reconciliation sublayers, management parameters, Ethernet support for time synchronization
+    protocols, and optional power delivery to support multiple Powered Devices on
+    the 10 Mb/s mixing segment).
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd802.3-2022
+    docid:
+    - id: IEEE Std 802.3-2022
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.3-2022
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Physical layer
+- content: Information theory
+- content: Ethernet
+- content: 'Keywords: 10BASE-T1S'
+- content: 10BASE-T1M
+- content: copper
+- content: IEEE 802.3cg(TM)
+- content: IEEE 802.3da(TM)
+- content: Medium Dependent Interface
+- content: mixing segment
+- content: MPD
+- content: MPI
+- content: MPoE
+- content: MPSE
+- content: multidrop
+- content: Multidrop Power
+- content: Physical Coding Sublayer
+- content: Physical Layer
+- content: Physical Medium Attachment
+- content: PoDL
+- content: PLCA
+- content: TCI
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

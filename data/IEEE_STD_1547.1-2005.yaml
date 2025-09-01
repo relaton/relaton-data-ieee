@@ -49,14 +49,6 @@ script:
 abstract:
 - content: This standard specifies the type, production, and commissioning tests that
     shall be performed to demonstrate that the interconnection functions and equipment
-    of the distributed resources (DR) conform to IEEE Std 1547
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This standard specifies the type, production, and commissioning tests that
-    shall be performed to demonstrate that the interconnection functions and equipment
     of the distributed resources (DR) conform to IEEE Std 1547(TM). https://standards.ieee.org/content/dam/ieee-standards/standards/web/documents/interpretations/1547.1-2005_interp.pdf
   language:
   - en
@@ -95,6 +87,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   ics:
   - code: '27.100'
     text: Power stations in general

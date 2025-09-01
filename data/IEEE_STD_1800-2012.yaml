@@ -51,18 +51,6 @@ abstract:
     which is a unified hardware design, specification, and verification language,
     is provided. This standard includes support for modeling hardware at the behavioral,
     register transfer level (RTL), and gate-level abstraction levels, and for writing
-    testbenches using coverage, assertions, object-oriented programming, and constrained
-    random verification. The standard also provides application programming interfaces
-    (APIs) to foreign programming languages.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: The definition of the language syntax and semantics for SystemVerilog,
-    which is a unified hardware design, specification, and verification language,
-    is provided. This standard includes support for modeling hardware at the behavioral,
-    register transfer level (RTL), and gate-level abstraction levels, and for writing
     test benches using coverage, assertions, object-oriented programming, and constrained
     random verification. The standard also provides application programming interfaces
     (APIs) to foreign programming languages. (Thanks to our sponsor, the PDF of this
@@ -131,6 +119,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
   ics:
   - code: '35.060'
     text: Languages used in information technology

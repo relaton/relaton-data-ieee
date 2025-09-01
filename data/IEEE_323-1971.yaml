@@ -49,15 +49,6 @@ script:
 abstract:
 - content: This document describes the basic requirements for the qualification of
     Class I electric equipment. This is equipment which is essential to the safe shutdown
-    and isolation of the reactor or whose failure or damage could result in significant
-    release of radioactive material.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This document describes the basic requirements for the qualification of
-    Class I electric equipment. This is equipment which is essential to the safe shutdown
     or isolation of the reactor or whose failure or damage could result in significant
     release of radio active material
   language:
@@ -94,6 +85,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
   ics:
   - code: 27.120.99
     text: Other standards related to nuclear energy

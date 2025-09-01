@@ -46,18 +46,6 @@ language:
 script:
 - Latn
 abstract:
-- content: The methods for assessing and predicting the reliability of software, based
-    on a life-cycle approach to software reliability engineering, are prescribed in
-    this recommended practice. It provides information necessary for the application
-    of software reliability (SR) measurement to a project, lays a foundation for building
-    consistent methods, and establishes the basic principle for collecting the data
-    needed to assess and predict the reliability of software. The recommended practice
-    prescribes how any user can participate in SR assessments and predictions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: Draft D12 This recommended practice prescribes the methods for assessing
     and predicting the reliability of software, based on a life cycle approach to
     software reliability engineering. It provides information necessary for the application
@@ -102,6 +90,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - IEEE Reliability of the IEEE Reliability Society
   ics:
   - code: '35.080'
     text: Software

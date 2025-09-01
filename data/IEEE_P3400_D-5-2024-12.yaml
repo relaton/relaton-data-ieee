@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2025-01-09'
 - type: issued
-  value: '2025'
+  value: '2025-06-19'
 contributor:
 - organization:
     name:
@@ -47,13 +47,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard provides requirements and recommendations for technical terminology
-    and communications in the English language that are more inclusive. These requirements
-    apply to technical information in communications, such as standards, policies,
-    plans, procedures, reports, specifications; machine-readable languages, and other
-    forms of human-readable technical communications. This standard includes requirements
-    for the processes of identifying and replacing non-inclusive and deprecated terminology.
-    This standard identifies deprecated terms and acceptable replacement terms.
+- content: Requirements and recommendations for technical terminology and communications
+    in the English language that are more inclusive are provided in this standard.
+    These requirements apply to technical information in communications, such as standards,
+    policies, plans, procedures, reports, specifications; machine-readable languages,
+    and other forms of human-readable technical communications. Requirements for the
+    processes of identifying and replacing non-inclusive and deprecated terminology
+    are included in this standard. Deprecated terms and acceptable replacement terms
+    are included in this standard.
   language:
   - en
   script:
@@ -77,6 +78,7 @@ keyword:
 - content: Professional communication
 - content: Inclusive language
 - content: deprecated terms
+- content: IEEE 3400(TM)
 - content: inclusive language
 - content: technical communications
 - content: terminology
@@ -87,6 +89,11 @@ ext:
   editorialgroup:
     committee:
     - Strategic and Emerging Standards Committee of the IEEE SA Board of Governors
+  ics:
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  - code: '35.020'
+    text: Information technology (IT) in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

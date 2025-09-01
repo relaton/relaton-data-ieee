@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2024-04-04'
 - type: issued
-  value: '2024'
+  value: '2025-02-12'
 contributor:
 - organization:
     name:
@@ -47,7 +47,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard establishes a radio frequency (RF) reference environment
+- content: This standard establishes a radio-frequency (RF) reference environment
     model, test methodology, and evaluation process for the performance testing of
     industrial wireless networks. The standard is protocol agnostic as it applies
     to all wireless protocols intended for use in industrial and mission-critical
@@ -56,11 +56,11 @@ abstract:
     system. Industrial wireless systems are used for carrying vital sensor, actuator,
     command, and control information that is used for the operation of sensing, optimization,
     control, and safety applications. This standard includes a functional model of
-    radio impairments (aggressors) that represents the radio frequency environment.
-    A reference test architecture and process of evaluation and reporting is provided.
-    Key performance metrics are described and indicated for the evaluation of the
-    test apparatus, the aggressors, and the industrial wireless system under evaluation.
-    Finally, a framework for the specification of standardized test profiles is described.
+    radio impairments (aggressors) that represents the RF environment. A reference
+    test architecture and process of evaluation and reporting are provided. Key performance
+    metrics are described and indicated for the evaluation of the test apparatus,
+    the aggressors, and the industrial wireless system under evaluation. Finally,
+    a framework for the specification of standardized test profiles is described.
   language:
   - en
   script:
@@ -87,11 +87,12 @@ keyword:
 - content: System integration
 - content: Performance evaluation
 - content: Testing
+- content: IEEE 3388(TM)
 - content: industrial automation
 - content: industrial wireless
 - content: industrial wireless networks
 - content: system integration and test
-- content: wireless performance evaluation evaluation
+- content: wireless performance evaluation
 ext:
   schema-version: v1.0.1
   doctype:
@@ -99,6 +100,11 @@ ext:
   editorialgroup:
     committee:
     - TC9 - Sensor Technology of the IEEE Instrumentation and Measurement Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

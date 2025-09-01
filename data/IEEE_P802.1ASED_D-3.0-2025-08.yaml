@@ -1,0 +1,111 @@
+---
+schema-version: v1.2.9
+id: IEEEP802.1ASed-D-3.0-2025-08
+title:
+- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks -Timing and
+    Synchronization for Time-Sensitive Applications - Amendment: Fault-Tolerant Timing
+    with Time Integrity'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/11131620
+  type: src
+type: standard
+docid:
+- id: IEEE P802.1ASed/D-3.0-2025-08
+  type: IEEE
+  primary: true
+- id: IEEE P802.1ASed™/D-3.0-2025-08
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2546-9
+  type: ISBN
+docnumber: IEEE P802.1ASed/D-3.0-2025-08
+date:
+- type: created
+  value: '2025-08-19'
+- type: published
+  value: '2025-08-20'
+- type: issued
+  value: '2025'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-08-20'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: This amendment to IEEE Std 802.1AS™-2020 specifies protocols, processes,
+    procedures, functions, mechanisms, and managed objects to enable fault-tolerant
+    timing by increasing the availability of the time and adding time integrity. This
+    is achieved using two or more generalized Precision Time Protocol (gPTP) domains,
+    multiple time distribution paths, the local oscillator clock, and a time selection
+    function with individual processes for times that have interdependencies and times
+    that do not have interdependencies. Fault-tolerant timing includes fault-tolerant
+    time generation and distribution.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd802.1AS-2020
+    docid:
+    - id: IEEE Std 802.1AS-2020
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.1AS-2020
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: fault-tolerant timing
+- content: time selection function
+- content: dependent gPTP times
+- content: independent gPTPtimes
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

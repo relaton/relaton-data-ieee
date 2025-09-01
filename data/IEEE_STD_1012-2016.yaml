@@ -23,12 +23,10 @@ docid:
   type: DOI
 docnumber: IEEE Std 1012-2016
 date:
-- type: updated
-  value: '2017-10-13'
 - type: created
   value: '2017'
 - type: published
-  value: '2017-09-30'
+  value: '2017-10-02'
 - type: issued
   value: '2016-05-15'
 contributor:
@@ -38,9 +36,13 @@ contributor:
     abbreviation:
       content: IEEE
     url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
   role:
   - type: publisher
-revdate: '2017-09-30'
+revdate: '2017-10-02'
 language:
 - en
 script:
@@ -62,25 +64,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Verification and validation (V&amp;V) processes are used to determine whether
-    the development products of a given activity conform to the requirements of that
-    activity and whether the product satisfies its intended use and user needs. V&amp;V
-    life cycle process requirements are specified for different integrity levels.
-    The scope of V&amp;V processes encompasses systems, software, and hardware, and
-    it includes their interfaces. This standard applies to systems, software, and
-    hardware being developed, maintained, or reused (legacy, commercial off-the-shelf
-    [COTS], non-developmental items). The term software also includes firmware and
-    microcode, and each of the terms system, software, and hardware includes documentation.
-    V&amp;V processes include the analysis, evaluation, review, inspection, assessment,
-    and testing of products.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-docstatus:
-  stage:
-    value: approved
 copyright:
 - owner:
   - name:
@@ -90,6 +73,16 @@ copyright:
     url: http://www.ieee.org
   from: '2016'
 relation:
+- type: obsoletedBy
+  bibitem:
+    id: IEEEStd1012-2024
+    docid:
+    - id: IEEE Std 1012-2024
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1012-2024
+      format: text/plain
 - type: updates
   bibitem:
     id: IEEEStd1012-2012
@@ -179,7 +172,6 @@ ext:
   ics:
   - code: '35.080'
     text: Software
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

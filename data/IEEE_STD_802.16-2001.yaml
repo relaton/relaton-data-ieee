@@ -49,17 +49,6 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard specifies the air interface of fixed (stationary) point-to-multipoint
-    broadband wireless access systems providing multiple services. The medium access
-    control layer is capable of supporting multiple physical layer specifications
-    optimized for the frequency bands of application. The standard includes a particular
-    physical layer specification applicable to systems operating between 10 and 66
-    GHz.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: 'Conformance to IEEE Std 802.16-2001 as amended by IEEE Std 802.16a-2003
     and IEEE Std 802.16c-2002) Abstract: This standard represents the Test Suite Structure
     and Test Purposes (TSS&amp;TP), per ISO/IEC 9646-1:1994 and 9646-2:1995 and ITU-T
@@ -105,6 +94,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   ics:
   - code: '35.110'
     text: Networking

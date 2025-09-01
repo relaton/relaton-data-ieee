@@ -47,18 +47,6 @@ language:
 script:
 - Latn
 abstract:
-- content: 'A stationary battery can be operated in two basic modes: 1) standby (or
-    float) and 2) cycling. Many standards developed for standby stationary applications
-    do not apply to cycling stationary applications, and vice versa. The purpose of
-    this guide is to differentiate between these two applications and increase awareness
-    of why and how their different operation and maintenance practices should be managed.
-    The guide is primarily informational and is not intended to provide specific recommendations
-    for battery management in cycling applications.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: This guide provides information on the differences between stationary standby
     and stationary cycling applications and appropriate battery management strategies
     in cycling operations. While the primary emphasis is on lead-acid batteries, information
@@ -105,6 +93,10 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Energy Storage &amp; Stationary Battery Committee of the IEEE Power and Energy
+      Society
   ics:
   - code: 29.220.01
     text: Galvanic cells and batteries in general

@@ -47,16 +47,6 @@ language:
 script:
 - Latn
 abstract:
-- content: This paper is the international standard IEC/ISO/IEEE 80005-1. The intention
-    of this standard is to define requirements that support, with the application
-    of suitable operating practices, efficiency and safety of connections by compliant
-    ships to compliant high-voltage shore power supplies through a compatible shore
-    to ship connection.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: 'IEC/ISO/IEEE 80005-1-2012 describes high voltage shore connection (HVSC)
     systems, on board the ship and on shore, to supply the ship with electrical power
     from shore. This standard is applicable to the design, installation and testing
@@ -106,6 +96,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
   ics:
   - code: 47.020.60
     text: Electrical equipment for ships or marine structures

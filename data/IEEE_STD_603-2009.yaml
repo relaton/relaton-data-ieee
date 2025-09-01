@@ -48,21 +48,6 @@ script:
 - Latn
 abstract:
 - content: Minimum functional and design criteria for the power, instrumentation,
-    and control portions of nuclear power generating station safety systems are established.
-    The criteria are to be applied to those systems required to protect the public
-    health and safety by functioning to mitigate the consequences of design basis
-    events. The intent is to promote appropriate practices for design and evaluation
-    of safety system performance and reliability. Although the standard is limited
-    to safety systems, many of the principles may have applicability to equipment
-    provided for safe shutdown, post accident monitoring display instrumentation,
-    preventive interlock features, or any other systems, structures, or equipment
-    related to safety.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Minimum functional and design criteria for the power, instrumentation,
     and control portions of nuclear power generating station safety systems are established
     in this standard. The criteria are to be applied to those systems required to
     protect the public health and safety by functioning to mitigate the consequences
@@ -135,6 +120,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Nuclear Power Engineering of the IEEE Power and Energy Society
   ics:
   - code: 27.120.20
     text: Nuclear power plants. Safety

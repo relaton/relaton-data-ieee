@@ -48,18 +48,6 @@ script:
 - Latn
 abstract:
 - content: The purpose of this standard is to present a simplified method of calculating
-    the current-temperature relationship of bare overhead lines when given the weather
-    conditions. This standard includes a mathematical method, and indicates sources
-    of the values to be used in the calculation. Because there is a great diversity
-    of weather conditions and operating circumstances for which conductor temperatures
-    must be known, each utility shall make its own assessment of the data that will
-    best pertain to its area or a particular transmission line.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: The purpose of this standard is to present a simplified method of calculating
     the current-temperature relationship of bare over-head lines when given the weather
     conditions.
   language:
@@ -101,6 +89,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Transmission and Distribution of the IEEE Power and Energy Society
   ics:
   - code: 29.240.20
     text: Power transmission and distribution lines

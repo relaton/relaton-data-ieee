@@ -50,22 +50,6 @@ abstract:
 - content: This standard applies to those parts of the electric systems in stationery
     single-unit and multi-unit land-based nuclear power generating stations that provide
     electric power to the Class IE electric equipment. The electric systems included
-    are comprised of the following interrelated systems" (1) alternating-current power
-    systems, (2) direct-current power systems, (3) vital instrumentation and control
-    power systems. These systems consist of power supplies (e.g., connections to the
-    station switchyard, stand-by generators, batteries), distribution equipment and
-    components (e.g, transformers, switchgear, bus cable, battery chargers, inverters),
-    and instrumentation and controls (e.g., relays, meters, switches, control devices).
-    This standard does not apply to the unit generator(s) and their buses, step-up
-    and auxiliary transformers, switchyard, transmission lines and transmission network.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This standard applies to those parts of the electric systems in stationery
-    single-unit and multi-unit land-based nuclear power generating stations that provide
-    electric power to the Class IE electric equipment. The electric systems included
     are comprised of the following interrelated systems" (!) alternating-current power
     systems, (2) direct-current power systems, (3) vital instrumentation and control
     power systems. These systems consist of power supplies (e.g., connections to the
@@ -121,6 +105,10 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - IEEE Nuclear and Plasma Sciences Society of the IEEE Nuclear and Plasma Sciences
+      Society
   ics:
   - code: 27.120.30
     text: Fissile materials and nuclear fuel technology

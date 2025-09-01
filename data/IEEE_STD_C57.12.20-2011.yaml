@@ -59,16 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Certain electrical, dimensional, and mechanical characteristics and safety
-    features of single- and three-phase, 60 Hz, mineral-oil-immersed, self-cooled,
-    overhead-type distribution transformers 500 kVA and smaller, high voltages 34
-    500 V and below, and low voltages 7970/13 800Y V and below are covered in this
-    standard.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -132,6 +122,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
   ics:
   - code: '29.180'
     text: Transformers. Reactors

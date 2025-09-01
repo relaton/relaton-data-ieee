@@ -47,14 +47,6 @@ language:
 script:
 - Latn
 abstract:
-- content: This application guide provides information on what a faulted circuit indicator
-    (FCI) is designed to do and describes methods for selecting FCIs for three-phase,
-    200 / 600 amp underground distribution circuits.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: This document specifies an exchange format, using XML, for identifying
     all of the hardware, software, and documentation associated with a unit under
     test (UUT). This UUT may be tested and diagnosed using a test program set (TPS)
@@ -101,6 +93,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
   ics:
   - code: 29.240.01
     text: Power transmission and distribution networks in general

@@ -47,17 +47,6 @@ language:
 script:
 - Latn
 abstract:
-- content: This guide applies to power electronics components and systems on ships
-    and similar applications. It summarizes current electrical engineering methods
-    and practices for applying power electronics in electrical power systems on ships
-    and describes analytical methods, preferred parameters, and performance characteristics
-    from a common frame of reference for reliable integrated marine electrical power
-    systems.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: This document summarizes current electrical engineering methods and practices
     for applying power electronics in Electrical Power Systems on Ships. It describes
     analytical methods, preferred parameters and performance characteristics from
@@ -104,6 +93,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Petroleum &amp; Chemical Industry of the IEEE Industry Applications Society
   ics:
   - code: 47.020.60
     text: Electrical equipment for ships or marine structures

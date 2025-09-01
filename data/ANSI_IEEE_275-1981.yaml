@@ -47,22 +47,6 @@ language:
 - en
 script:
 - Latn
-abstract:
-- content: This standard outlines a test procedure for comparing two or more insulation
-    systems in accordance with their expected life at rated temperature. The procedure
-    is limited to insulation systems for alternating-current electrical machines using
-    form-wound pre-insulated stator coils and rated 6900 V and below. It is the intent
-    of this procedure to evaluate insulation systems for use in usual service conditions
-    with air cooling. It does not cover such special requirements as machines enclosed
-    in gas atmospheres, subjected to strong chemicals, to metal dusts, or to submersion
-    in liquids, etc. The procedure includes instructions for testing candidate systems
-    in comparison with known systems having a proven record of service experience
-    and interpretation of the results.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -98,6 +82,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Electric Machinery of the IEEE Power and Energy Society
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -58,15 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Specifications and management parameters for the provision of power via
-    a single twisted pair to connected Data Terminal Equipment (DTE) with IEEE 802.3
-    single balanced twisted-pair interfaces are added by this amendment to IEEE Std
-    802.3-2015.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -121,6 +112,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   ics:
   - code: 35.100.10
     text: Physical layer

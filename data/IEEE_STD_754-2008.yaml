@@ -46,19 +46,6 @@ language:
 script:
 - Latn
 abstract:
-- content: This standard specifies interchange and arithmetic formats and methods
-    for binary and decimal floating-point arithmetic in computer programming environments.
-    This standard specifies exception conditions and their default handling. An implementation
-    of a floating-point system conforming to this standard may be realized entirely
-    in software, entirely in hardware, or in any combination of software and hardware.
-    For operations specified in the normative part of this standard, numerical results
-    and exceptions are uniquely determined by the values of the input data, sequence
-    of operations, and destination formats, all under user control.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: 'This standard specifies formats and methods for floating-point arithmetic
     in computer systems: standard and extended functions with single, double, extended,
     and extendable precision, and recommends formats for data interchange. Exception
@@ -139,6 +126,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
   ics:
   - code: '07.020'
     text: Mathematics

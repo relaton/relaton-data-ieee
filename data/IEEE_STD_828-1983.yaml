@@ -45,16 +45,6 @@ language:
 - en
 script:
 - Latn
-abstract:
-- content: This standard provides minimum requirements for preparation and content
-    of Software Configuration Management (SCM) Plans. SCM Plans document the methods
-    to be used for identifying software product items, controlling and implementing
-    changes, and recording and reporting change implementation status.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -88,6 +78,10 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

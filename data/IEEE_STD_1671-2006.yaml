@@ -46,14 +46,6 @@ script:
 abstract:
 - content: This standard specifies the framework for the family of ATML standards.
     ATML defines a standard exchange medium for sharing information between components
-    of an automatic test system (ATS), using the extensible markup language (XML).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This standard specifies the framework for the family of ATML standards.
-    ATML defines a standard exchange medium for sharing information between components
     of an Automatic Test System (ATS), usng the eXtensible Markup Language (XML).
   language:
   - en
@@ -104,6 +96,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   ics:
   - code: '19.080'
     text: Electrical and electronic testing

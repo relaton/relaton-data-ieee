@@ -47,19 +47,6 @@ language:
 script:
 - Latn
 abstract:
-- content: IEEE specifications for high-voltage (above 1000 V) distribution class
-    enclosed single-pole air switches and associated accessories with rated voltages
-    from 1 kV through 8.3 kV are established. All of these devices are intended for
-    use on alternating current distribution systems. These include distribution class
-    enclosed single-pole air switches, supports, mountings, fuse hooks, and tongs,
-    all of the type used exclusively with distribution class enclosed single-pole
-    air switches, and distribution class enclosed single-pole air switches used in
-    enclosure packages.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: Specifications for high-voltage (above 1000 volts) distribution class enclosed
     single pole air switches and associated accessories with rated voltages from 1
     kV through 8.3 kV are established. All of these devices are intended for use on
@@ -108,6 +95,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
   ics:
   - code: 29.130.10
     text: High voltage switchgear and controlgear

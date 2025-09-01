@@ -46,14 +46,6 @@ language:
 script:
 - Latn
 abstract:
-- content: Definitions, service conditions, test procedures, and test conditions for
-    faulted circuit indicators for use on power distribution systems are established
-    in this test code.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: Revision of IEEE Std 495-1986. Definitions, service conditions, test procedures,
     and test conditions for faulted circuit indicators for use on power distribution
     systems are established in this test code.
@@ -103,6 +95,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
   ics:
   - code: 29.240.01
     text: Power transmission and distribution networks in general

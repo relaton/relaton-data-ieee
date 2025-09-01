@@ -49,15 +49,6 @@ language:
 script:
 - Latn
 abstract:
-- content: Definitions, service conditions, ratings, interchangeable construction
-    features, and tests are established for loadbreak and deadbreak separable insulated
-    connector systems rated above 600 V and, 600 A or less, for use on power distribution
-    systems.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: Revision of IEEE Std 386-2000 Definitions, service conditions, ratings,
     interchangeable construction features, and tests are established for loadbreak
     and deadbreak separable insulated connector systems rated above 600 V and, 600
@@ -141,6 +132,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
   ics:
   - code: 29.120.30
     text: Plugs, socket-outlets, couplers

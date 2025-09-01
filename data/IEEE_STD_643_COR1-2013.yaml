@@ -54,13 +54,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Corrections to Equation 16, and Equation 18 through Equation 20 are addressed
-    in this corrigendum.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -98,6 +91,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - IEEE Power and Energy Society
   ics:
   - code: 29.240.20
     text: Power transmission and distribution lines

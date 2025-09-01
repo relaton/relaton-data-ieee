@@ -1,0 +1,107 @@
+---
+schema-version: v1.2.9
+id: IEEEP802.15.9a-D-02-2025-07
+title:
+- content: 'IEEE Draft Standard for Transport of Key Management Protocol Datagrams
+    Amendment: Additional Key Management Protocol'
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/11131611
+  type: src
+type: standard
+docid:
+- id: IEEE P802.15.9a/D-02-2025-07
+  type: IEEE
+  primary: true
+- id: IEEE P802.15.9a™/D-02-2025-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2548-3
+  type: ISBN
+docnumber: IEEE P802.15.9a/D-02-2025-07
+date:
+- type: created
+  value: '2025-08-19'
+- type: published
+  value: '2025-08-20'
+- type: issued
+  value: '2025'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-08-20'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'Abstract: This amendment specifies the use of Ephemeral Diffie-Hellman
+    Over Concise Binary Ob-ject Representation Object Signing and Encryption. EDHOC
+    - RFC 9528 Key Management Protocol (KMP) for the IEEE Std 802.15.9.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd802.15.9-2021
+    docid:
+    - id: IEEE Std 802.15.9-2021
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.15.9-2021
+      format: text/plain
+  description:
+    content: amends
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE 802.15.4(TM)
+- content: KMP
+- content: EDHOC
+- content: CBOR
+- content: COSE
+- content: RFC 9528.
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

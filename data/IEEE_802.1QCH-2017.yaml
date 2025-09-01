@@ -55,14 +55,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: The use of traffic scheduling and per-stream filtering and policing to
-    support cyclic queuing and forwarding are described in this amendment to IEEE
-    Std 802.1Q-2014.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -134,6 +126,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   ics:
   - code: '35.110'
     text: Networking

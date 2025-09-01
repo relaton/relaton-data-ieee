@@ -57,17 +57,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: A method is provided for specifying a common interoperable format for electronic
-    systems design. The format provides a common way to specify information/data about
-    the project management, netlists, components, design rules, and geometries used
-    in Large-Scale Integrated Circuit-Package-Board designs. The method provides the
-    ability to make electronic systems a key consideration early in the design process;
-    design tools can use it to exchange information/data seamlessly.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -110,6 +99,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

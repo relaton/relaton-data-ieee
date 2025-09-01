@@ -54,13 +54,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Enhancements to the forwarding process that support per-stream filtering
-    and policing are provided in this amendment to IEEE Std 802.1Q-2014.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -109,6 +102,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   ics:
   - code: '35.110'
     text: Networking

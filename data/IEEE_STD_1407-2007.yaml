@@ -47,16 +47,6 @@ language:
 script:
 - Latn
 abstract:
-- content: Accelerated aging tests on extruded medium-voltage cables using water-filled
-    tanks are addressed. Information on the equipment, cable samples, test conditions,
-    and measurements to perform the aging tests is provided. Techniques on how to
-    analyze the test data are also included. The implementation of this guide will
-    allow a better description of the test data obtained by different laboratories.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: This guide provides information on the equipment, cable specimens, test
     conditions, and measurements to perform accelerated aging tests on medium-voltage
     cables using water-filled tanks, whether the test be a time to failure test or
@@ -115,6 +105,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Insulated Conductors of the IEEE Power and Energy Society
   ics:
   - code: 29.060.20
     text: Cables

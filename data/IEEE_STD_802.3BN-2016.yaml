@@ -58,14 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Physical Layer specifications and management parameters for the operation
-    of Ethernet Passive Optical Networks (EPON) Protocol over coaxial media is defined
-    by this amendment to IEEE Std 802.3-2015.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -137,6 +129,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   ics:
   - code: 35.100.10
     text: Physical layer

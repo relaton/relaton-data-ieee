@@ -50,17 +50,6 @@ script:
 - Latn
 abstract:
 - content: The processes and procedures that should be followed by users of the High
-    Level Architecture (HLA)to develop and execute federations are de .ned in this
-    recommended practice.This recommended practice is not intended to replace low-level
-    management and systems engineering practices native to HLA user organizations,but
-    is rather intended as a higher-level framework into which such practices can be
-    integrated and tailored for specific uses.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: The processes and procedures that should be followed by users of the High
     Level Archi-tecture (HLA) to develop and execute federations are defined in this
     recommended practice. Thisrecommended practice is not intended to replace low-level
     management and systems engineeringpractices native to HLA user organizations,
@@ -108,6 +97,10 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Simulation Interoperability Stds Organization/Stds Activity Committee of the
+      IEEE Computer Society
   ics:
   - code: '35.080'
     text: Software

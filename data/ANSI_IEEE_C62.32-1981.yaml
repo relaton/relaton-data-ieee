@@ -58,17 +58,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Air gaps for overvoltage protection applications on systems with operating
-    voltages equal to or less than 600 V rms are covered. These protective devices
-    are designed for limiting the voltages on balanced or unbalanced communication,
-    power, and signaling circuits. A series of standard design tests for determining
-    the electrical characteristics of these air gap devices is specified. The tests
-    provide a means of comparison among various air gap surge-protective devices.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -105,6 +94,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

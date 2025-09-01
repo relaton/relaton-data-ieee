@@ -2,8 +2,8 @@
 schema-version: v1.2.9
 id: IEEEP1679.3-D-10.8-2025-01
 title:
-- content: IEEE Approved Draft Guide for the Characterization and Evaluation of Flow
-    Batteries in Stationary Applications
+- content: IEEE Draft Guide for the Characterization and Evaluation of Flow Batteries
+    in Stationary Applications
   format: text/plain
   type: main
 link:
@@ -23,7 +23,7 @@ docid:
 docnumber: IEEE P1679.3/D-10.8-2025-01
 date:
 - type: created
-  value: '2025-04-04'
+  value: '2025-02-05'
 - type: published
   value: '2025-02-06'
 - type: issued
@@ -48,18 +48,16 @@ script:
 - Latn
 abstract:
 - content: Guidance for an objective evaluation of flow batteries by a potential user
-    for any stationary application is provided in this document. IEEE Std 1679-2020,
-    IEEE Recommended Practice for the Characterization and Evaluation of Emerging
-    Energy Storage Technologies in Stationary Applications is to be used in conjunction
-    with this document. In a flow battery, the electrolyte is stored in one or two
-    tanks and pumps are utilized to deliver the electrolyte through the cells in order
-    to recharge or discharge the battery. (When two electrolytes are used they are
-    often referred to as negolyte and posolyte). Technology descriptions, operating
-    parameters, failure modes, safety information, battery architecture, and qualification
-    and application considerations are provided in this document. Batteries that do
-    not employ flowing electrolyte systems are not covered. Sizing, installation,
-    maintenance, and testing techniques are not covered except insofar as they may
-    influence the evaluation of a flow battery for its intended application.
+    for any stationary application is provided in this document. IEEE Std 1679™-2020
+    is to be used in conjunction with this document. In a flow battery, the electrolyte
+    is stored in one or two tanks, and pumps are utilized to deliver the electrolyte
+    through the cells in order to recharge or discharge the battery. (When two electrolytes
+    are used, they are often referred to as negolyte and posolyte). Technology descriptions,
+    operating parameters, failure modes, safety information, battery architecture,
+    and qualification and application considerations are provided in this document.
+    Batteries that do not employ flowing electrolyte systems are not covered. Sizing,
+    installation, maintenance, and testing techniques are not covered except insofar
+    as they may influence the evaluation of a flow battery for its intended application.
   language:
   - en
   script:
@@ -83,12 +81,12 @@ keyword:
 - content: Batteries
 - content: battery
 - content: energy storage
-- content: IEEE 1679.3™
 - content: flow battery
-- content: redox flow battery
 - content: hybrid flow battery
-- content: slurry flow battery
+- content: IEEE 1679.3(TM)
+- content: redox flow battery
 - content: secondary
+- content: slurry flow battery
 - content: stationary application
 ext:
   schema-version: v1.0.1
@@ -98,7 +96,12 @@ ext:
     committee:
     - Energy Storage &amp; Stationary Battery Committee of the IEEE Power and Energy
       Society
-  standard_status: Active
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

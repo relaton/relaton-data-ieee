@@ -60,18 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Interoperability between components of automatic test systems (ATS) is
-    promoted and facilitated. The standard facilitates the capture of maintenance
-    action information (MAI) associated with the removal, repair, and replacement
-    of a particular system component (e.g., unit(s) under test) in order to maintain/support
-    that particular operational system. The MAI schema becomes a class of information
-    that can be used within the SIMICA family of standards. The exchange format utilizes
-    the XML formats.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 docstatus:
   stage:
     value: approved
@@ -133,6 +121,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - IEEE-SASB Coordinating Committees
   ics:
   - code: '35.040'
     text: Character sets and information coding

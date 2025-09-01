@@ -49,16 +49,6 @@ script:
 abstract:
 - content: The MAC service provided by all IEEE 802(R) MACs along with the Internal
     Sublayer Service (ISS) that is provided by IEEE 802 MACs to the relay function
-    of a Media Access Control(MAC) Bridge are defined in this standard. The PDF of
-    this standard is available at no cost compliments of the GETIEEE802 program located
-    at http://standards.ieee.org/about/get/index.html
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: The MAC service provided by all IEEE 802(R) MACs along with the Internal
-    Sublayer Service (ISS) that is provided by IEEE 802 MACs to the relay function
     of a Media Access Control(MAC) Bridge are defined in this standard.
   language:
   - en
@@ -100,6 +90,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

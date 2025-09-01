@@ -64,21 +64,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Within the context of the ISO/IEEE 11073 family of standards for point-of-care
-    (POC) medical device communication (MDC), the nomenclature defined by the base
-    ISO/IEEE 11073-10101:2004 nomenclature standard is extended by this amendment.
-    Significant extensions to support haemodynamics, respiration, ventilation and
-    anesthesia monitoring, blood gas, urine, fluid-related metrics, and neurology,
-    as well as units of measurements and measurement sites, are included. Formal definitions
-    for observation identifiers used by the IEEE 11073 Personal Health Device standards
-    and additional attributes for reporting their regulatory and certification status
-    are also captured and provided. Information attributes to support alert communication
-    and accurate medical device time synchronization and timekeeping are also defined.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -162,6 +147,10 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - IEEE 11073 Standards Committee of the IEEE Engineering in Medicine and Biology
+      Society
   ics:
   - code: 01.040.35
     text: Information technology (Vocabularies)

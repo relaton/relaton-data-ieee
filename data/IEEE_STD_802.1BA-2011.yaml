@@ -52,15 +52,6 @@ abstract:
 - content: Profiles that select features, options, configurations, defaults, protocols
     and procedures of bridges, stations and LANs that are necessary to build networks
     that are capable of transporting time-sensitive audio and/or video data streams
-    are defined in this standard.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Profiles that select features, options, configurations, defaults, protocols
-    and procedures of bridges, stations and LANs that are necessary to build networks
-    that are capable of transporting time-sensitive audio and/or video data streams
     are defined in this standard. (This PDF of this standard is available as part
     of the IEEE Get program. Through the IEEE SA and industry support, select IEEE
     standards are available for download at no charge. For more details go to our
@@ -843,6 +834,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   ics:
   - code: '35.110'
     text: Networking

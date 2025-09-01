@@ -48,16 +48,6 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC TR 24748-2:2011 is a guide for the application of ISO/IEC 15288:2008.
-    It addresses system, life cycle, process, organizational, project, and adaptation
-    concepts, principally through reference to ISO/IEC TR 24748-1 and ISO/IEC 15288:2008.
-    It then gives guidance on applying ISO/IEC 15288:2008 from the aspects of strategy,
-    planning, application in organizations, and application on projects.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: ISO/IEC TR 24748-2:2011 is adopted by this standard. ISO/IEC TR 24748-2:2011
     is a guide for the application of ISO/IEC 15288:2008. It addresses system, life
     cycle, process, organizational, project, and adaptation concepts, principally
@@ -102,6 +92,10 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
   ics:
   - code: '35.080'
     text: Software

@@ -1,0 +1,131 @@
+---
+schema-version: v1.2.9
+id: IEEEP181-D-12-2025-08
+title:
+- content: IEEE Draft Standard for Transitions, Pulses, and Related Waveforms
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/11122587
+  type: src
+type: standard
+docid:
+- id: IEEE P181/D-12-2025-08
+  type: IEEE
+  primary: true
+- id: IEEE P181™/D-12-2025-08
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2519-3
+  type: ISBN
+docnumber: IEEE P181/D-12-2025-08
+date:
+- type: created
+  value: '2025-08-08'
+- type: published
+  value: '2025-08-12'
+- type: issued
+  value: '2025'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-08-12'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: Approximately 100 terms and their definitions, for accurately and precisely
+    describing the waveforms of pulse signals and the process of measuring pulse signals,
+    are presented in this standard. Algorithms are provided for computing the values
+    of defined terms that describe measurable parameters of the waveform, such as
+    transition duration, state level, pulse amplitude, and waveform aberrations. These
+    analysis algorithms are applicable to two-state waveforms having one or two transitions
+    connecting these states. Compound waveform analysis is accomplished by decomposing
+    the compound waveform into its constituent two-state single transition waveforms.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd181-2011
+    docid:
+    - id: IEEE Std 181-2011
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 181-2011
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Signal analysis
+- content: Pulse amplifiers
+- content: Pulse measurements
+- content: aberration
+- content: algorithms
+- content: compound waveform
+- content: histogram
+- content: IEEE 181
+- content: levels
+- content: pulse
+- content: pulse amplitude
+- content: pulse definitions
+- content: pulse measurement
+- content: states
+- content: state boundaries
+- content: state levels
+- content: transients
+- content: transitions
+- content: transition duration
+- content: waveforms
+- content: waveform analysis
+- content: waveform definitions
+- content: waveform parameters
+- content: waveform terms
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - TC10 - Waveform Generation Measurement and Analysis of the IEEE Instrumentation
+      and Measurement Society
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

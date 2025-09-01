@@ -60,18 +60,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Surge-protective devices (SPDs) intended to be installed on the load side
-    of the service equipment connected to 50 Hz or 60 Hz AC power circuits rated at
-    1000 V (root mean squared [rms]) or less are the focus of this standard. Performance
-    characteristics and standard methods for testing and rating are established for
-    these devices, which may be composed of any combination of components. The tests
-    in this standard are aimed at providing comparisons among the variety of SPDs
-    available.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -139,6 +127,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Surge Protective Devices/Low Voltage of the IEEE Power and Energy Society
   ics:
   - code: 29.120.50
     text: Fuses and other overcurrent protection devices

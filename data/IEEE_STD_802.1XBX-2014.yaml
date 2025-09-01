@@ -59,16 +59,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Media Access Control security (MACsec) Key Agreement protocol (MKA) data
-    elements and procedures that provide additional security and manageability capabilities,
-    including the ability to maintain secure communication while the operation of
-    MKA is suspended, when used in conjunction with MACsec Cipher Suites that support
-    Extended Packet Numbering are added in this amendment.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -395,6 +385,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
   ics:
   - code: '35.110'
     text: Networking

@@ -47,17 +47,18 @@ language:
 script:
 - Latn
 abstract:
-- content: Verification and validation (V&amp;V) processes are used to determine whether
-    the development products of a given activity conform to the requirements of that
-    activity and whether the product satisfies its intended use and user needs. V&amp;V
-    life cycle process requirements are specified for different integrity levels.
-    The scope of V&amp;V processes encompasses systems, software, and hardware, and
-    it includes their interfaces. This standard applies to systems, software, and
-    hardware being developed, maintained, or reused [legacy, commercial off-the-shelf
-    (COTS), non-developmental items]. The term software also includes firmware and
-    microcode, and each of the terms system, software, and hardware includes related
-    information or documentation. V&amp;V processes include the analysis, evaluation,
-    review, inspection, assessment, and testing of product
+- content: The Verification and Validation (V&amp;V) processes are used to determine
+    whether the development products of a given activity conform to the requirements
+    of that activity and whether the product satisfies its intended use and user needs.
+    V&amp;V life cycle process requirements are specified for different integrity
+    levels. The scope of V&amp;V processes encompasses systems, software, and hardware,
+    and it includes their interfaces. Systems, software, and hardware being developed,
+    maintained, or reused [legacy, commercial off-the-shelf (COTS), non-developmental
+    items] can be the system of interest to which this standard is applied. The term
+    software also includes firmware and microcode, and each of the terms system, software,
+    and hardware includes related information or documentation. V&amp;V processes
+    include the analysis, evaluation, review, inspection, assessment, and testing
+    of products.
   language:
   - en
   script:
@@ -104,10 +105,10 @@ keyword:
 - content: Hardware
 - content: Life cycle assessment
 - content: acceptance testing
-- content: architecture evaluation
 - content: adaptive
 - content: Agile
 - content: AI
+- content: architecture evaluation
 - content: artificial intelligence
 - content: component testing
 - content: concept documentation evaluation
@@ -116,15 +117,15 @@ keyword:
 - content: criticality analysis
 - content: design evaluation
 - content: disposal plan evaluation
-- content: environmental verification and validation (V&amp;V) factors
+- content: environmental Verification and Validation (V&amp;V) factors
 - content: field programmable gate array
 - content: firmware
 - content: FPGA
 - content: hardware life cycle
 - content: hardware V&amp;V
-- content: hardware verification and validation
+- content: hardware Verification and Validation
 - content: hazard analysis
-- content: IEEE 1012
+- content: IEEE 1012(TM)
 - content: implementation evaluation
 - content: independent V&amp;V
 - content: integration testing
@@ -147,11 +148,11 @@ keyword:
 - content: reuse software
 - content: risk analysis
 - content: security analysis
-- content: software as a service
 - content: SaaS software life cycle
+- content: software as a service
 - content: software quality assurance
 - content: software V&amp;V
-- content: software verification and validation
+- content: software Verification and Validation
 - content: source code documentation evaluation
 - content: source code evaluation
 - content: SQA
@@ -162,13 +163,13 @@ keyword:
 - content: system of interest
 - content: system requirements evaluation
 - content: system V&amp;V
-- content: system verification and validation
+- content: system Verification and Validation
 - content: testing
 - content: traceability analysis
 - content: V&amp;V
 - content: V&amp;V measures
-- content: validation
-- content: verification
+- content: Validation
+- content: Verification
 - content: vignette
 ext:
   schema-version: v1.0.1
@@ -181,7 +182,7 @@ ext:
   ics:
   - code: '35.080'
     text: Software
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

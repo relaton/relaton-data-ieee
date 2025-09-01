@@ -27,7 +27,7 @@ date:
 - type: published
   value: '2025-01-03'
 - type: issued
-  value: '2025'
+  value: '2025-05-28'
 contributor:
 - organization:
     name:
@@ -46,6 +46,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: The architectural and functional requirements of the low-code development
+    platform are specified, as are the performance requirements such as scalability,
+    portability, and security. It is applicable to providing guidance and specifications
+    for the design, implementation, and application of low-code development platforms.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 docstatus:
   stage:
     value: draft
@@ -62,11 +72,11 @@ keyword:
 - content: Codes
 - content: Scalability
 - content: Security
-- content: IEEE 3358TM
-- content: Low code
-- content: low code development platform
-- content: Integrated Development
-- content: DSL
+- content: domain-specific language (DSL)
+- content: IEEE 3358
+- content: integrated development
+- content: low-code
+- content: low-code development platform
 ext:
   schema-version: v1.0.1
   doctype:
@@ -74,6 +84,11 @@ ext:
   editorialgroup:
     committee:
     - Entity Collaborative Activities Governance Board of the IEEE SA Board of Governors
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

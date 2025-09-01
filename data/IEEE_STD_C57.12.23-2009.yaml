@@ -47,16 +47,6 @@ language:
 script:
 - Latn
 abstract:
-- content: Electrical, dimensional, and mechanical characteristics and certain safety
-    features of single-phase, 60 Hz, liquid-immersed, self-cooled, submersible distribution
-    transformers are covered. This standard is intended for use as a basis for establishing
-    the performance, electrical and mechanical interchangeability, and safety of the
-    equipment covered, and to assist in the proper selection of such equipment.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: This standard covers certain electrical, dimensional, and mechanical characteristics
     and takes into consideration certain safety features of single-phase, 60 Hz, liquid-immersed,
     self-cooled, submersible distribution transformers with separable insulated high-voltage
@@ -121,6 +111,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Transformers of the IEEE Power and Energy Society
   ics:
   - code: '29.180'
     text: Transformers. Reactors

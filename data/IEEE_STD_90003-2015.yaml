@@ -56,15 +56,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: This International Standard provides guidance for organizations in the
-    application of ISO 9001:2008 to the acquisition, supply, development, operation,
-    and maintenance of computer software and related support services. It does not
-    add to or otherwise change the requirements of ISO 9001:2008.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -121,6 +112,10 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
   ics:
   - code: 03.120.10
     text: Quality management and quality assurance

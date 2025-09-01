@@ -62,21 +62,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: AC high-voltage circuit breakers rated in accordance with ANSI/IEEE C37.04-1979,
-    Rating Structure for AC High-Voltage Circuit Breakers, and listed in ANSI C37.06-1979,
-    Schedules of Preferred Ratings and Related Required Capabilities for AC High-Voltage
-    Circuit Breakers Rated on a Symmetrical Current Basis, are covered. Considerations
-    for capacitance-current switching applications include maximum voltage for application,
-    frequency, capacitance current, interrupting time, transient overvoltage, open-wire
-    transmission lines, capacitor banks, cables, switching through transformers, unusual
-    circuits, effect of load, effect of reclosing, resistor thermal limitations, and
-    the current pause method. Capacitance currents and recovery voltages under fault
-    conditions are also addressed.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -123,6 +108,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
   ics:
   - code: 29.120.40
     text: Switches

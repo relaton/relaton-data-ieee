@@ -49,18 +49,6 @@ script:
 abstract:
 - content: This Standard defines a World Wide Web Consortium (W3C) Extensible Markup
     Language (XML) Schema definition language binding of the learning object metadata
-    (LOM) data model defined in IEEE Std 1484.12.1<sup>TM </sup>-2002. The purpose
-    of this Standard is to allow the creation of LOM instances in XML, which allows
-    for interoperability and the exchange of LOM XML instances between various systems.
-    This Standard uses the W3C XML Schema definition language to define the syntax
-    and semantics of the XML encodings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This Standard defines a World Wide Web Consortium (W3C) Extensible Markup
-    Language (XML) Schema definition language binding of the learning object metadata
     (LOM) data model defined in IEEE 1484.12.1-2002 Standard for Learning Object Metadata.
     The purpose of this Standard is to allow the creation of LOM instances in XML.
     This allows for interoperability and the exchange of LOM XML instances between
@@ -106,6 +94,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Learning Technology of the IEEE Computer Society
   ics:
   - code: 35.240.99
     text: IT applications in other fields

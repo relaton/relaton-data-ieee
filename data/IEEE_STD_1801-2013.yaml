@@ -52,16 +52,6 @@ abstract:
     for use in verification of the structure and behavior of the design in the context
     of a given power management architecture, and for driving implementation of that
     power management architecture. The method supports incremental refinement of power
-    intent specifications required for IP-based design flows.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: A method is provided for specifying power intent for an electronic design,
-    for use in verification of the structure and behavior of the design in the context
-    of a given power management architecture, and for driving implementation of that
-    power management architecture. The method supports incremental refinement of power
     intent specifications required for IP-based design flows. (Thanks to our sponsor,
     the PDF of this standard is provided to the public no charge. Visit https://ieeexplore.ieee.org/browse/standards/get-program/page
     for more details.)
@@ -143,6 +133,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Design Automation of the IEEE Computer Society
   ics:
   - code: '31.200'
     text: Integrated circuits. Microelectronics

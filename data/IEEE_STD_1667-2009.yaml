@@ -47,16 +47,6 @@ language:
 script:
 - Latn
 abstract:
-- content: A method for host authentication of removable storage devices and an optional
-    method for authentication of hosts by removable storage devices are specified
-    by this standard. Both methods are certificate based and manageable by device
-    owners. In addition, a method for identifying non-storage capabilities of removable
-    storage devices is specified.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: This project defines a standard protocol for secure authentication and
     creation of trust between a secure host and a directly attached Transient and
     other Storage Devices, such as a USB flash drive, portable hard drive, or cellular
@@ -122,6 +112,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Cybersecurity and Privacy Standards Committee of the IEEE Computer Society
   ics:
   - code: '35.040'
     text: Information coding

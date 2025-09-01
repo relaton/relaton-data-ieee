@@ -47,13 +47,6 @@ script:
 - Latn
 abstract:
 - content: Information pertaining to the installation of mobile substation equipment
-    up to 245 kV is provided
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: Information pertaining to the installation of mobile substation equipment
     up to 245 kV is provided in this guide.
   language:
   - en
@@ -116,6 +109,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Substations of the IEEE Power and Energy Society
   ics:
   - code: 29.240.10
     text: Substations. Surge arresters

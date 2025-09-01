@@ -51,20 +51,6 @@ abstract:
     service-level, multi-vendor interoperability of Ethernet Passive Optical Network
     (EPON) equipment. The specifications complement the existing IEEE 802.3 and IEEE
     802.1 standards, which ensure the interoperability at the Physical Layer (PHY)
-    and Data Link Layer. Specifically included in this specification are- EPON system-level
-    interoperability specifications covering equipment functionality, traffic engineering,
-    and service-level quality of service/class of service (QoS/CoS) mechanisms;- Management
-    specifications covering equipment management, service management, and EPON power-saving
-    mechanism.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: This standard describes the system-level requirements needed to ensure
-    service-level, multi-vendor interoperability of Ethernet Passive Optical Network
-    (EPON) equipment. The specifications complement the existing IEEE 802.3 and IEEE
-    802.1 standards, which ensure the interoperability at the Physical Layer (PHY)
     and Data Link Layer. Specifically included in this specification are - EPON system-level
     interoperability specifications covering equipment functionality, traffic engineering,
     and service-level quality of service/class of service (QoS/CoS) mechanisms; -
@@ -116,6 +102,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Access and Core Networks Standards Committee of the IEEE Communications Society
   ics:
   - code: '35.110'
     text: Networking

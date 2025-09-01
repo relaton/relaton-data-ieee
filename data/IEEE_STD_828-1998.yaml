@@ -48,14 +48,6 @@ language:
 script:
 - Latn
 abstract:
-- content: The minimum required contents of a Software Configuration Management Plan
-    (SCMP) are established, and the specific activities to be addressed and their
-    requirements for any portion of a software product's life cycle are defined.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: Superseded by 828-2005 (SH/SS95326) The minimum required contents of a
     Software Configuration Management Plan (SCMP) areestablished, and the specific
     activities to be addressed and their requirements for any portion of a software
@@ -110,6 +102,10 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Software &amp; Systems Engineering Standards Committee of the IEEE Computer
+      Society
   ics:
   - code: '35.080'
     text: Software

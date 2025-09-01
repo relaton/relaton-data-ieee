@@ -50,16 +50,6 @@ abstract:
 - content: The protocol, data encapsulations, and presentation time procedures used
     to ensure interoperability between audio- and video-based end stations that use
     standard networking services provided by all IEEE 802 networks meeting quality-of-service
-    requirements for time sensitive applications by leveraging concepts of IEC 61883
-    are specified in this standard.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-- content: The protocol, data encapsulations, and presentation time procedures used
-    to ensure interoperability between audio- and video-based end stations that use
-    standard networking services provided by all IEEE 802 networks meeting quality-of-service
     requirements for time-sensitive applications by leveraging concepts of IEC 61883
     are specified in this standard.
   language:
@@ -108,6 +98,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Microprocessor Standards Committee of the IEEE Computer Society
   ics:
   - code: '35.110'
     text: Networking

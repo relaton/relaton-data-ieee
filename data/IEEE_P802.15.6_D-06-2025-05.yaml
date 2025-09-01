@@ -1,0 +1,121 @@
+---
+schema-version: v1.2.9
+id: IEEEP802.15.6-D-06-2025-05
+title:
+- content: IEEE Draft Standard for Wireless Body Area Networks
+  format: text/plain
+  type: main
+link:
+- content: https://ieeexplore.ieee.org/document/11120326
+  type: src
+type: standard
+docid:
+- id: IEEE P802.15.6/D-06-2025-05
+  type: IEEE
+  primary: true
+- id: IEEE P802.15.6™/D-06-2025-05
+  type: IEEE
+  scope: trademark
+  primary: true
+- id: 979-8-8557-2510-0
+  type: ISBN
+docnumber: IEEE P802.15.6/D-06-2025-05
+date:
+- type: created
+  value: '2025-08-06'
+- type: published
+  value: '2025-08-08'
+- type: issued
+  value: '2025'
+contributor:
+- organization:
+    name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+    contact:
+    - address:
+        city: New York
+        country: USA
+  role:
+  - type: publisher
+revdate: '2025-08-08'
+language:
+- en
+script:
+- Latn
+abstract:
+- content: Short-range, wireless communications in the vicinity of, or inside, a human
+    body (but not limited to humans) are specified in this standard. It uses existing
+    industrial scientific medical (ISM) bands as well as frequency bands approved
+    by national medical and/or regulatory authorities. Support for quality o service
+    (QoS), extremely low power, and data rates up to 50 Mbps is required while simultaneously
+    complying with strict non-interference guidelines where needed. This standard
+    considers effect ts on portable antennas due to the presence of a person (varying
+    with male, female, skinny, heavy, etc.), radiation pattern shaping to minimize
+    the specific absorption rate (SAR) into the body, and changes in characteristics
+    as a result of the user motions.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docstatus:
+  stage:
+    value: draft
+copyright:
+- owner:
+  - name:
+    - content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+    url: http://www.ieee.org
+  from: '2025'
+relation:
+- type: updates
+  bibitem:
+    id: IEEEStd802.15.6-2012
+    docid:
+    - id: IEEE Std 802.15.6-2012
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 802.15.6-2012
+      format: text/plain
+  description:
+    content: revises
+    language:
+    - en
+    script:
+    - Latn
+    format: text/plain
+keyword:
+- content: IEEE Standards
+- content: Body area networks
+- content: Remote control
+- content: Wireless communication
+- content: Antenna radiation patterns
+- content: Quality of service
+- content: Media Access Control
+- content: Interference
+- content: BAN
+- content: human-body area network
+- content: vehicle-area network
+- content: IEEE Std 802.15.6-2012.
+ext:
+  schema-version: v1.0.1
+  doctype:
+    type: standard
+  editorialgroup:
+    committee:
+    - LAN/MAN Standards Committee of the IEEE Computer Society
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

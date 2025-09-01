@@ -46,17 +46,6 @@ language:
 script:
 - Latn
 abstract:
-- content: Guidance for the application of ac high-voltage circuit breakers for shunt
-    reactor switching is provided. Overvoltage generation for the three cases of shunt
-    reactors being directly grounded, ungrounded, or grounded through a neutral reactor
-    is addressed in terms of derivation and limitation methods. Circuit breaker specification
-    for the purpose and the use of laboratory test results to predict field performance
-    is also covered by this guide.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 - content: This application guide applies to ac high-voltage circuit breakers rated
     for shunt reactor switching. The guide covers the specific cases of switching
     directly grounded shunt reactors, ungrounded shunt reactors and shunt reactors
@@ -124,6 +113,9 @@ ext:
   schema-version: v1.0.1
   doctype:
     type: standard
+  editorialgroup:
+    committee:
+    - Switchgear of the IEEE Power and Energy Society
   ics:
   - code: '29.180'
     text: Transformers. Reactors

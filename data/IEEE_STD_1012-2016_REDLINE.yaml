@@ -25,8 +25,6 @@ docid:
   type: ISBN
 docnumber: IEEE Std 1012-2016 Redline
 date:
-- type: updated
-  value: '2019-09-06'
 - type: created
   value: '2017'
 - type: published
@@ -68,22 +66,6 @@ abstract:
   script:
   - Latn
   format: text/plain
-- content: Verification and validation (V&amp;V) processes are used to determine whether
-    the development products of a given activity conform to the requirements of that
-    activity and whether the product satisfies its intended use and user needs. V&amp;V
-    life cycle process requirements are specified for different integrity levels.
-    The scope of V&amp;V processes encompasses systems, software, and hardware, and
-    it includes their interfaces. This standard applies to systems, software, and
-    hardware being developed, maintained, or reused (legacy, commercial off-the-shelf
-    [COTS], non-developmental items). The term software also includes firmware and
-    microcode, and each of the terms system, software, and hardware includes documentation.
-    V&amp;V processes include the analysis, evaluation, review, inspection, assessment,
-    and testing of products.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 copyright:
 - owner:
   - name:
@@ -93,6 +75,16 @@ copyright:
     url: http://www.ieee.org
   from: '2016'
 relation:
+- type: obsoletedBy
+  bibitem:
+    id: IEEEStd1012-2024
+    docid:
+    - id: IEEE Std 1012-2024
+      type: IEEE
+      primary: true
+    formattedref:
+      content: IEEE Std 1012-2024
+      format: text/plain
 - type: updates
   bibitem:
     id: IEEEStd1012-2012
@@ -185,7 +177,7 @@ ext:
   ics:
   - code: '35.080'
     text: Software
-  standard_status: Active
+  standard_status: Superseded
   standard_modified: Redline
   pubstatus: Active
   holdstatus: Publish
