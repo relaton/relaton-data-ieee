@@ -71,7 +71,7 @@ abstract:
 - language: en
   script: Latn
   content: This standard defines a set of tools for efficient video coding, including
-    directional intraprediction, variable block size inter prediction and context
+    directional intra-prediction, variable block size inter prediction and context
     adaptive binary arithmetic coding and the corresponding decoding procedure. The
     target applications and services include but not limited TV over Internet, User
     Generated Multimedia Content, IP-based video conference, IP-based surveillance
@@ -183,6 +183,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 35.040.40
     text: Coding of audio, video, multimedia and hypermedia information

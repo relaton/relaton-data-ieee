@@ -1,0 +1,181 @@
+---
+id: IEEEStd18572023Redline
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Advanced Audio and Video Coding
+  type: title-main
+- content: IEEE Standard for Advanced Audio and Video Coding - Redline
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10998935
+docidentifier:
+- content: IEEE Std 1857-2023 Redline
+  type: IEEE
+  primary: true
+- content: IEEE Std 1857™-2023 Redline
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1537-8
+  type: ISBN
+docnumber: IEEE Std 1857-2023 Redline
+date:
+- type: created
+  at: '2023-10-25'
+- type: published
+  at: '2025-05-09'
+- type: issued
+  at: '2023-06-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Data Compression Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines a set of tools for efficient video coding, including
+    directional intra-prediction, variable block size inter prediction and context
+    adaptive binary arithmetic coding and the corresponding decoding procedure. The
+    target applications and services include but not limited TV over Internet, User
+    Generated Multimedia Content, IP-based video conference, IP-based surveillance
+    and other video/audio enabled services and applications such as digital television
+    broadcasting, digital storage media, and communication.
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1857-2013
+    docidentifier:
+    - content: IEEE Std 1857-2013
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Audio coding
+  - language: en
+    script: Latn
+    content: Image coding
+  - language: en
+    script: Latn
+    content: Quantization (signal)
+  - language: en
+    script: Latn
+    content: block
+  - language: en
+    script: Latn
+    content: coefficients
+  - language: en
+    script: Latn
+    content: decoding
+  - language: en
+    script: Latn
+    content: encoding
+  - language: en
+    script: Latn
+    content: entropy coding
+  - language: en
+    script: Latn
+    content: field
+  - language: en
+    script: Latn
+    content: frame
+  - language: en
+    script: Latn
+    content: IEEE 1857
+  - language: en
+    script: Latn
+    content: image
+  - language: en
+    script: Latn
+    content: inter prediction
+  - language: en
+    script: Latn
+    content: intra prediction
+  - language: en
+    script: Latn
+    content: IPTV
+  - language: en
+    script: Latn
+    content: macroblock
+  - language: en
+    script: Latn
+    content: picture
+  - language: en
+    script: Latn
+    content: quantization
+  - language: en
+    script: Latn
+    content: slice
+  - language: en
+    script: Latn
+    content: transform
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: redline
+  flavor: ieee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

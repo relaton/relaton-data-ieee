@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1584-2018
 date:
-- type: updated
-  at: '2020-09-25'
 - type: created
   at: '2018-11-30'
 - type: published
@@ -61,7 +59,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Petroleum &amp; Chemical Industry of the IEEE Industry Applications
+        content: Petroleum and Chemical Industry of the IEEE Industry Applications
           Society
       type: committee
     abbreviation:
@@ -76,6 +74,8 @@ abstract:
   content: This guide provides mathematical models for designers and facility operators
     to apply in determining the arc-flash hazard distance and the incident energy
     to which workers could be exposed during their work on or near electrical equipment.
+    An errata is available at https://standards.ieee.org/wp-content/uploads/import/documents/erratas/1584-2018_errata.pdf.
+    Additional files can be found at https://ieee-dataport.org/open-access/arc-flash-ie-and-iarc-calculators
 status:
   stage:
     content: approved
@@ -153,7 +153,7 @@ keyword:
     content: electrical hazard
   - language: en
     script: Latn
-    content: IEEE 1584&#8482;
+    content: IEEE 1584
   - language: en
     script: Latn
     content: incident energy
@@ -176,6 +176,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.260.99
     text: Other electrical equipment for working in special conditions

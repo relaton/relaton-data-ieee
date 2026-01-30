@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.91-2011
 date:
-- type: updated
-  at: '2012-08-06'
 - type: created
   at: '2012-03-07'
 - type: published
-  at: '2013-08-15'
+  at: '2012-03-09'
 - type: issued
   at: '2011-12-07'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -71,17 +72,14 @@ abstract:
 - language: en
   script: Latn
   content: This guide provides recommendations for loading mineral-oil-immersed transformers
-    and step-voltage regulators with insulation systems rated for a 65 &#176;C average
+    and step-voltage regulators with insulation systems rated for a 65 °C average
     winding temperature rise at rated load. This guide applies to transformers manufactured
     in accordance with IEEE Std C57.12.001 and tested in accordance with IEEE Std
     C57.12.90, and step-voltage regulators manufactured and tested in accordance with
     IEEE Std C57.15. Because a substantial population of transformers and step-voltage
-    regulators with insulation systems rated for 55 &#176;C average winding temperature
+    regulators with insulation systems rated for 55 °C average winding temperature
     rise at rated load are still in service, recommendations that are specific to
     this equipment are also included.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2012'
   owner:
@@ -95,18 +93,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: IEEE Std C57.91-1995
-    docidentifier:
-    - content: IEEE Std C57.91-1995
-      type: IEEE
-      primary: true
 keyword:
 - taxon:
   - language: en
@@ -149,10 +135,11 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: '29.180'
     text: Transformers. Reactors
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

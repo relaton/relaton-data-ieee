@@ -24,8 +24,6 @@ docidentifier:
   type: ISBN
 docnumber: IEEE Std 1115-2014 Redline
 date:
-- type: updated
-  at: '2015-02-06'
 - type: created
   at: '2014-11-21'
 - type: published
@@ -36,6 +34,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -87,18 +88,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: IEEE Std 1115-2000
-    docidentifier:
-    - content: IEEE Std 1115-2000
-      type: IEEE
-      primary: true
 keyword:
 - taxon:
   - language: en
@@ -135,10 +124,11 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: redline
+  flavor: ieee
   ics:
   - code: 29.220.30
     text: Alkaline secondary cells and batteries
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Redline
   pubstatus: Active
   holdstatus: Publish

@@ -3,8 +3,8 @@ id: IEEEP802D22202409
 type: standard
 schema_version: v1.4.1
 title:
-- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks: Overview
-    and Architecture'
+- content: 'IEEE Approved Draft Standard for Local and Metropolitan Area Networks:
+    Overview and Architecture'
   type: main
 source:
 - type: src
@@ -22,11 +22,11 @@ docidentifier:
 docnumber: IEEE P802/D-2.2-2024-09
 date:
 - type: created
-  at: '2024'
+  at: '2024-12-20'
 - type: published
   at: '2024-09-23'
 - type: issued
-  at: '2024'
+  at: '2024-12-11'
 contributor:
 - role:
   - type: publisher
@@ -69,14 +69,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard provides an overview to the family of IEEE 802&#174; standards.
+  content: An overview to the family of IEEE 802® standards is provided in this standard.
     It describes the reference models for the IEEE 802 standards and explains the
-    relationship of these standards to the higher layer protocols; it provides a standard
-    for the structure of IEEE 802 MAC addresses; it provides a standard for identification
-    of public, private, prototype, and standard protocols; it specifies an object
-    identifier hierarchy used within IEEE 802 for uniform allocation of object identifiers
-    used in IEEE 802 standards; and it specifies a method for higher layer protocol
-    identification.
+    relationship of these standards to the higher layer protocols; it specifies the
+    structure of IEEE 802 MAC addresses; it specifies identification of public, private,
+    prototype, and standard protocols; it specifies an object identifier hierarchy
+    used within IEEE 802 for uniform allocation of object identifiers used in IEEE
+    802 standards; and it specifies a method for higher layer protocol identification.
 status:
   stage:
     content: draft
@@ -136,7 +135,7 @@ keyword:
     content: EtherTypes
   - language: en
     script: Latn
-    content: IEEE 802&#174;
+    content: IEEE 802®
   - language: en
     script: Latn
     content: IEEE 802 architecture
@@ -172,7 +171,7 @@ keyword:
     content: regional area networks
   - language: en
     script: Latn
-    content: protocol development
+    content: protocol identifiers
   - language: en
     script: Latn
     content: protocol types
@@ -180,10 +179,11 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: '35.110'
     text: Networking
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

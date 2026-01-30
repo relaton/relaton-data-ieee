@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1222-2019
 date:
-- type: updated
-  at: '2020-05-01'
 - type: created
   at: '2020-03-31'
 - type: published
@@ -62,7 +60,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: IEEE Power and Energy Society
+        content: Power System Communications and Cybersecurity of the IEEE Power and
+          Energy Society
       type: committee
     abbreviation:
       content: IEEE
@@ -139,6 +138,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 33.180.10
     text: Fibres and cables

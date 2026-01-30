@@ -76,11 +76,7 @@ abstract:
     local area networks (WLANs) as well as enhancements to the existing medium access
     control (MAC) and physical layer (PHY) functions are specified in this revision.
     Amendments 1 to 5 published in 2016 and 2018 have also been incorporated into
-    this revision. (The PDF of this standard is available at no cost to you compliments
-    of the IEEE GET program https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68)
-status:
-  stage:
-    content: approved
+    this revision.
 copyright:
 - from: '2021'
   owner:
@@ -97,9 +93,9 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE 11.REVme/D-7.0-2024-08
+    formattedref: IEEE Std 802.11-2024
     docidentifier:
-    - content: IEEE 11.REVme/D-7.0-2024-08
+    - content: IEEE Std 802.11-2024
       type: IEEE
       primary: true
 - type: updates
@@ -407,10 +403,10 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: '35.110'
     text: Networking
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

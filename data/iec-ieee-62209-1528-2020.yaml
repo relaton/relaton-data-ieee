@@ -62,7 +62,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: IEEE-SASB Coordinating Committees
+        content: International Committee on Electromagnetic Safety of the IEEE SA
+          Board of Governors
       type: committee
     abbreviation:
       content: IEEE
@@ -70,6 +71,11 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: Replaces IEC 62209-1:2016, IEC 62209-2:2010, and IEEE Std 61528:2013 and
+    supersedes IEEE Std 1528-2013
 status:
   stage:
     content: approved
@@ -132,9 +138,10 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
-  - code: 17.220.20
-    text: Measurement of electrical and magnetic quantities
+  - code: '17.240'
+    text: Radiation measurements
   - code: 33.070.01
     text: Mobile services in general
   standard_status: Active

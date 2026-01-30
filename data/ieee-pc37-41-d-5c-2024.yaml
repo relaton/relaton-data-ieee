@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2024-02-26'
 - type: issued
-  at: '2024'
+  at: '2024-12-11'
 contributor:
 - role:
   - type: publisher
@@ -132,6 +132,9 @@ keyword:
     content: Dielectrics
   - language: en
     script: Latn
+    content: FEP
+  - language: en
+    script: Latn
     content: fuse accessories
   - language: en
     script: Latn
@@ -141,17 +144,18 @@ keyword:
     content: fuse disconnecting switches
   - language: en
     script: Latn
-    content: fuse-enclosure package (FEP)
+    content: fuse-enclosure package
   - language: en
     script: Latn
     content: high-voltage fuses
   - language: en
     script: Latn
-    content: IEEE C37.41&#8482;
+    content: IEEE C37.41(TM)
 ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.120.50
     text: Fuses and other overcurrent protection devices

@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C37.110-2007
 date:
-- type: updated
-  at: '2008-10-24'
 - type: created
   at: '2008-04-07'
 - type: published
-  at: '2013-08-15'
+  at: '2008-04-03'
 - type: issued
   at: '2007-12-05'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -124,6 +125,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: '29.200'
     text: Rectifiers. Converters. Stabilized power supply

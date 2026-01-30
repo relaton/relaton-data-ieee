@@ -79,9 +79,6 @@ abstract:
     scheme to help reduce disk space and transmission times. The utilization of Globally
     Unique Identifiers (GUID) to represent each element in the file permits the format
     to be extensible without the need for a central registration authority.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2019'
   owner:
@@ -96,6 +93,13 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1159.3-2025
+    docidentifier:
+    - content: IEEE Std 1159.3-2025
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -152,12 +156,12 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.240.01
     text: Power transmission and distribution networks in general
   - code: 35.240.63
     text: IT applications in trade
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

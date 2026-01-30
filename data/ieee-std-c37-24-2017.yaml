@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C37.24-2017
 date:
-- type: updated
-  at: '2017-09-22'
 - type: created
   at: '2017-08-28'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -128,7 +129,7 @@ keyword:
     content: finish
   - language: en
     script: Latn
-    content: IEEE C37.24&#8482;
+    content: IEEE C37.24
   - language: en
     script: Latn
     content: metal-enclosed switchgear
@@ -148,6 +149,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.130.01
     text: Switchgear and controlgear in general

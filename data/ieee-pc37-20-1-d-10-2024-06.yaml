@@ -148,7 +148,7 @@ keyword:
     content: drawout
   - language: en
     script: Latn
-    content: IEEE C37.20.1&#8482;
+    content: IEEE C37.20.1™
   - language: en
     script: Latn
     content: indoor
@@ -180,10 +180,11 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.130.20
     text: Low voltage switchgear and controlgear
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

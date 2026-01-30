@@ -71,7 +71,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard provides an overview to the family of IEEE 802 standards.
+  content: This standard provides an overview to the family of IEEE 802® standards.
     It describes the reference models for the IEEE 802 standards and explains the
     relationship of these standards to the higher layer protocols; it provides a standard
     for the structure of IEEE 802 MAC addresses; it provides a standard for identification
@@ -79,7 +79,8 @@ abstract:
     identifier hierarchy used within IEEE 802 for uniform allocation of object identifiers
     used in IEEE 802 standards; and it specifies a method for higher layer protocol
     identification. (The PDF of this standard is available at no charge compliments
-    of the GETIEEE Program. Visit http://standards.ieee.org/getieee802/ for more details.)
+    of the IEEE GET Program. Visit https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68
+    for more details.)
 copyright:
 - from: '2014'
   owner:
@@ -186,10 +187,11 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: redline
+  flavor: ieee
   ics:
   - code: '35.110'
     text: Networking
-  standard_status: Active
+  standard_status: Superseded
   standard_modified: Redline
   pubstatus: Active
   holdstatus: Publish

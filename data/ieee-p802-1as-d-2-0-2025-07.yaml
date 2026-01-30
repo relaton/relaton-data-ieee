@@ -1,0 +1,166 @@
+---
+id: IEEEP8021ASD20202507
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Local and Metropolitan Area Networks--Timing and
+    Synchronization for Time-Sensitive Applications
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11120342
+docidentifier:
+- content: IEEE P802.1AS/D-2.0-2025-07
+  type: IEEE
+  primary: true
+- content: IEEE P802.1AS™/D-2.0-2025-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2511-7
+  type: ISBN
+docnumber: IEEE P802.1AS/D-2.0-2025-07
+date:
+- type: created
+  at: '2025-08-06'
+- type: published
+  at: '2025-08-07'
+- type: issued
+  at: '2025-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Protocols, procedures, and managed objects for the transport of timing
+    over local area networks are defined in this standard. It includes the transport
+    of synchronized time, the selection of the timing source (i.e., best timeTransmitter),
+    and the indication of the occurrence and magnitude of timing impairments (i.e.,
+    phase and frequency discontinuities).
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.1AS-2020
+    docidentifier:
+    - content: IEEE Std 802.1AS-2020
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Timing
+  - language: en
+    script: Latn
+    content: best timeTransmitter
+  - language: en
+    script: Latn
+    content: frequency offset
+  - language: en
+    script: Latn
+    content: Grandmaster Clock
+  - language: en
+    script: Latn
+    content: Grandmaster PTP Instance
+  - language: en
+    script: Latn
+    content: IEEE 802.1AS(TM)
+  - language: en
+    script: Latn
+    content: phase offset
+  - language: en
+    script: Latn
+    content: PTP End Instance
+  - language: en
+    script: Latn
+    content: PTP Relay Instance
+  - language: en
+    script: Latn
+    content: synchronization
+  - language: en
+    script: Latn
+    content: syntonization
+  - language: en
+    script: Latn
+    content: time-aware system
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

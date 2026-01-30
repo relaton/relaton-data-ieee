@@ -109,13 +109,25 @@ keyword:
 - taxon:
   - language: en
     script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Switchgear
+  - language: en
+    script: Latn
+    content: Solar radiation
+  - language: en
+    script: Latn
+    content: Temperature measurement
+  - language: en
+    script: Latn
     content: absorption coefficient
   - language: en
     script: Latn
     content: finish
   - language: en
     script: Latn
-    content: IEEE C37.24&#8482;
+    content: IEEE C37.24™
   - language: en
     script: Latn
     content: metal-enclosed switchgear
@@ -135,7 +147,8 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
-  standard_status: Active
+  flavor: ieee
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

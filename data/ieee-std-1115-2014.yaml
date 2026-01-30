@@ -74,9 +74,6 @@ abstract:
   script: Latn
   content: The sizing of nickel-cadmium batteries used in standby operation for stationary
     applications is discussed in this recommended practice.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2014'
   owner:
@@ -90,18 +87,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: IEEE Std 1115-2000
-    docidentifier:
-    - content: IEEE Std 1115-2000
-      type: IEEE
-      primary: true
 keyword:
 - taxon:
   - language: en
@@ -129,10 +114,11 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.220.30
     text: Alkaline secondary cells and batteries
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

@@ -25,7 +25,7 @@ date:
 - type: published
   at: '2023-10-20'
 - type: issued
-  at: '2023'
+  at: '2023-12-06'
 contributor:
 - role:
   - type: publisher
@@ -118,7 +118,13 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
-  standard_status: Active
+  flavor: ieee
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  - code: 75.180.10
+    text: Exploratory, drilling and extraction equipment
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

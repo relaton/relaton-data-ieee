@@ -4,11 +4,11 @@ type: standard
 schema_version: v1.4.1
 title:
 - content: IEEE Guide for the Application of Electric Machines in Zone 2 and Class
-    I, Division 2 Hazardous (Classified) Locations
+    I, Division 2 Hazardous (Classified) Locations - SPANISH VERSION
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/9574628
+  content: https://ieeexplore.ieee.org/document/11018259
 docidentifier:
 - content: IEEE Std 1349-2021
   type: IEEE
@@ -17,16 +17,16 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 978-1-5044-7722-2
+- content: 979-8-8557-2266-6
   type: ISBN
-- content: 10.1109/IEEESTD.2021.9574628
+- content: 10.1109/IEEESTD.2021.11018259
   type: DOI
 docnumber: IEEE Std 1349-2021
 date:
 - type: created
   at: '2021-10-15'
 - type: published
-  at: '2021-10-14'
+  at: '2025-05-29'
 - type: issued
   at: '2021-06-16'
 contributor:
@@ -74,7 +74,7 @@ abstract:
   script: Latn
   content: Three-phase and single-phase ac synchronous and induction electric machines
     in ratings 0.18 kW (1/4 hp) and larger are covered in this guide. Primary emphasis
-    is on the use of open or nonexplosionproof or nonflameproof enclosed machines
+    is on the use of open or non-explosion proof or non-flame proof enclosed machines
     in Zone 2 and Class I, Division 2 locations as covered in the NEC(R) (NFPA 70-2020)
     and CE Code(R) (CSA C22.1-2021) as applicable. Surface temperature test methods
     and sine wave and non-sine wave applications are covered. Precautions against
@@ -125,29 +125,76 @@ keyword:
     content: Variable speed drives
   - language: en
     script: Latn
-    content: Electric machines
-  - language: en
-    script: Latn
     content: Rotors
   - language: en
     script: Latn
-    content: Temperature measurement
+    content: Electric motors
   - language: en
     script: Latn
-    content: Motors
+    content: Hazardous areas
   - language: en
     script: Latn
-    content: Synchronous motors
+    content: adjustable speed drive
   - language: en
     script: Latn
-    content: adjustable speed drive; autoignition temperature; Class I
+    content: auto ignition temperature
   - language: en
     script: Latn
-    content: Division 2; classified locations; electric machine; enclosure sparking;
-      generator; hazardous locations; IEEE 1349; induction motor; label test; motor;
-      motor enclosure; motor temperature; multisection motor; paint test; rotor; rotor
-      sparking; rotor temperature; space heater test; synchronous motor; T Code; temperature
-      code
+    content: Class I
+  - language: en
+    script: Latn
+    content: Division 2
+  - language: en
+    script: Latn
+    content: classified locations; electric machine
+  - language: en
+    script: Latn
+    content: enclosure sparking; generator
+  - language: en
+    script: Latn
+    content: hazardous locations
+  - language: en
+    script: Latn
+    content: IEEE 1349
+  - language: en
+    script: Latn
+    content: induction motor
+  - language: en
+    script: Latn
+    content: label test motor
+  - language: en
+    script: Latn
+    content: motor enclosure
+  - language: en
+    script: Latn
+    content: motor temperature
+  - language: en
+    script: Latn
+    content: multisection motor
+  - language: en
+    script: Latn
+    content: paint test
+  - language: en
+    script: Latn
+    content: rotor
+  - language: en
+    script: Latn
+    content: rotor sparking
+  - language: en
+    script: Latn
+    content: rotor temperature
+  - language: en
+    script: Latn
+    content: space heater test
+  - language: en
+    script: Latn
+    content: synchronous motor
+  - language: en
+    script: Latn
+    content: T Code
+  - language: en
+    script: Latn
+    content: temperature code
   - language: en
     script: Latn
     content: Zone 2
@@ -155,6 +202,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.160.30
     text: Motors

@@ -3,12 +3,12 @@ id: IEEEStdC37092018
 type: standard
 schema_version: v1.4.1
 title:
-- content: IEEE Standard Test Procedure for AC High-Voltage Circuit Breakers with
-    Rated Maximum Voltage Above 1000 V - Corrigendum 1
+- content: IEEE Standard Test Procedures for AC High-Voltage Circuit Breakers with
+    Rated Maximum Voltage Above 1000 V
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/9445823
+  content: https://ieeexplore.ieee.org/document/8686408
 docidentifier:
 - content: IEEE Std C37.09-2018
   type: IEEE
@@ -17,20 +17,18 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 978-1-5044-7597-6
+- content: 978-1-5044-5437-7
   type: ISBN
-- content: 10.1109/IEEESTD.2021.9445823
+- content: 10.1109/IEEESTD.2019.8686408
   type: DOI
 docnumber: IEEE Std C37.09-2018
 date:
-- type: updated
-  at: '2021-08-06'
 - type: created
-  at: '2021-06-03'
+  at: '2019-04-11'
 - type: published
-  at: '2021-06-02'
+  at: '2019-04-11'
 - type: issued
-  at: '2021-05-09'
+  at: '2018-12-05'
 contributor:
 - role:
   - type: publisher
@@ -73,12 +71,25 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This corrigendum is to improve the current IEEE Std C37.09(TM).
+  content: 'The testing procedures for all high-voltage circuit breakers that include
+    voltage ratings above 1000 V ac and comprise both indoor and outdoor types having
+    the preferred ratings as listed in IEEE Std C37.04(TM) are covered. Typical circuit
+    breakers covered by these standards have maximum voltage ratings from 4.76 kV
+    through 800 kV, and continuous current ratings of 600 A through 5000 A associated
+    with the various maximum voltage ratings. The test procedures verify all assigned
+    ratings, including continuous current, dielectric withstand voltages, short-circuit
+    current, transient recovery voltage, and capacitor switching, plus associated
+    capabilities such as mechanical endurance, load current, and out-of-phase switching.
+    Production test procedures are also included. This standard does not cover generator
+    circuit breakers as these are covered in IEC/IEEE 62271-37-013. (Note: IEEE Std
+    C37.09-2018 requires the use of a color monitor (and color printer) to view many
+    of the graphics contained in this standard. Color is essential to the understanding
+    of the graphics.)'
 status:
   stage:
     content: approved
 copyright:
-- from: '2021'
+- from: '2018'
   owner:
   - organization:
       uri:
@@ -95,11 +106,11 @@ relation:
   description:
     language: en
     script: Latn
-    content: corrects
+    content: revises
   bibitem:
-    formattedref: IEEE Std C37.09-2018
+    formattedref: IEEE Std C37.09-1999
     docidentifier:
-    - content: IEEE Std C37.09-2018
+    - content: IEEE Std C37.09-1999
       type: IEEE
       primary: true
 keyword:
@@ -109,19 +120,13 @@ keyword:
     content: IEEE Standards
   - language: en
     script: Latn
-    content: AC machines
+    content: Circuit breakers
   - language: en
     script: Latn
-    content: Voltage control
+    content: Short circuits
   - language: en
     script: Latn
-    content: Testing
-  - language: en
-    script: Latn
-    content: Power system reliability
-  - language: en
-    script: Latn
-    content: Mechanical engineering
+    content: Power system transients
   - language: en
     script: Latn
     content: arcing time
@@ -130,7 +135,7 @@ keyword:
     content: direct test
   - language: en
     script: Latn
-    content: IEEE C37.09
+    content: IEEE C37.09(TM)
   - language: en
     script: Latn
     content: mechanical endurance
@@ -168,6 +173,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.120.40
     text: Switches

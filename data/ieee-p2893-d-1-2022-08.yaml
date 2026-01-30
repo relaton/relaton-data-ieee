@@ -24,9 +24,9 @@ date:
 - type: created
   at: '2022-10-17'
 - type: published
-  at: '2022-11-23'
+  at: '2024-12-17'
 - type: issued
-  at: '2022'
+  at: '2023-02-15'
 contributor:
 - role:
   - type: publisher
@@ -66,6 +66,18 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: A communication layer, Flexible Optical Service Unit (OSUFlex), to provide
+    small service channels in optical transport networks is specified in this standard.
+    The main features of the OSUflex communication layer are providing massive OSUflex
+    connections to directly carry power services (e.g., E1 or IEEE Std C37.94&#8482;)
+    into an optical transport network, enabling the flexible bandwidth (e.g., n x
+    2 Mb/s) and hitless bandwidth adjustment for each OSUflex connection, direct mapping
+    of services into OSUflex with the capabilities of high-bandwidth efficiency, low
+    latency, low latency jitter, and high-precision clock synchronization for power
+    system applications.
 status:
   stage:
     content: draft
@@ -104,29 +116,42 @@ keyword:
     content: Low latency communication
   - language: en
     script: Latn
-    content: OTN
+    content: flexible bandwidth
+  - language: en
+    script: Latn
+    content: IEEE 2893&#8482;
+  - language: en
+    script: Latn
+    content: IEEE C37.94&#8482;
+  - language: en
+    script: Latn
+    content: low latency
+  - language: en
+    script: Latn
+    content: low latency jitter
+  - language: en
+    script: Latn
+    content: optical service unit
+  - language: en
+    script: Latn
+    content: optical transport network
   - language: en
     script: Latn
     content: OSU
   - language: en
     script: Latn
-    content: Power Systems
+    content: OTN
   - language: en
     script: Latn
-    content: C37.94
-  - language: en
-    script: Latn
-    content: E1
-  - language: en
-    script: Latn
-    content: jitter
-  - language: en
-    script: Latn
-    content: latency
+    content: power systems communication
 ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
+  ics:
+  - code: 33.040.20
+    text: Transmission systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

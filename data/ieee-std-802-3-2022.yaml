@@ -83,7 +83,8 @@ abstract:
     capabilities include: various PHY types for access networks, PHYs suitable for
     metropolitan area network applications, and the provision of power over selected
     twisted pair PHY types. NOTE: Additional downloads are available at: https://standards.ieee.org/wp-content/uploads/2024/02/802.3-2022_errata.pdf
-    and https://standards.ieee.org/wp-content/uploads/2022/07/802.3-2022_downloads.zip'
+    and https://standards.ieee.org/wp-content/uploads/2022/07/802.3-2022_downloads.zip.
+    A corrigendum is also available at https://ieeexplore.ieee.org/document/10841976'
 status:
   stage:
     content: approved
@@ -358,6 +359,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 35.100.10
     text: Physical layer

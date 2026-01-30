@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.105-2019
 date:
-- type: updated
-  at: '2020-04-24'
 - type: created
   at: '2020-03-31'
 - type: published
@@ -162,7 +160,7 @@ keyword:
     content: electrolyte spill
   - language: en
     script: Latn
-    content: IEEE 1578&#8482;
+    content: IEEE 1578
   - language: en
     script: Latn
     content: irritant
@@ -203,6 +201,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: '29.180'
     text: Transformers. Reactors

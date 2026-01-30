@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2024-05-14'
 - type: issued
-  at: '2024'
+  at: '2024-09-26'
 contributor:
 - role:
   - type: publisher
@@ -70,14 +70,15 @@ abstract:
 - language: en
   script: Latn
   content: Procedures for testing and evaluating the performance of switchgear for
-    internal arcing faults is covered. A method of identifying the capabilities of
-    this equipment is given. Service conditions, installation, and application of
-    equipment are also discussed. As used in this document, the term switchgear is
-    used as a general term covering switching and interrupting devices and their combination
-    with associated control, instrumentation, metering, protective and regulating
-    devices, assemblies of those devices with associated interconnections, accessories,
-    and supporting structures used primarily in conjunction with the generation, transmission,
-    distribution, and conversion of electrical power.
+    internal arcing faults are covered by this recommended practice. A method of identifying
+    the capabilities of this equipment is given. Service conditions, installation,
+    and application of equipment are also discussed. As used in this document, the
+    term switchgear is used as a general term covering switching and interrupting
+    devices and their combination with associated control, instrumentation, metering,
+    protective and regulating devices, assemblies of those devices with associated
+    interconnections, accessories, and supporting structures used primarily in conjunction
+    with the generation, transmission, distribution, and conversion of electrical
+    power.
 status:
   stage:
     content: draft
@@ -149,7 +150,7 @@ keyword:
     content: compartment
   - language: en
     script: Latn
-    content: IEEE PC37.20.7
+    content: IEEE C37.20.7™
   - language: en
     script: Latn
     content: internal arcing fault
@@ -179,7 +180,7 @@ keyword:
     content: motor control centers
   - language: en
     script: Latn
-    content: over pressure
+    content: overpressure
   - language: en
     script: Latn
     content: protection
@@ -190,6 +191,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.130.10
     text: High voltage switchgear and controlgear

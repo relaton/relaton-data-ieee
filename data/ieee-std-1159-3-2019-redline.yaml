@@ -93,6 +93,18 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1159.3-2003
+    docidentifier:
+    - content: IEEE Std 1159.3-2003
+      type: IEEE
+      primary: true
 keyword:
 - taxon:
   - language: en
@@ -135,10 +147,13 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: redline
+  flavor: ieee
   ics:
   - code: 29.240.01
     text: Power transmission and distribution networks in general
-  standard_status: Active
+  - code: 35.240.63
+    text: IT applications in trade
+  standard_status: Superseded
   standard_modified: Redline
   pubstatus: Active
   holdstatus: Publish

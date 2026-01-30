@@ -3,8 +3,8 @@ id: IEEEPC37207D9202405
 type: standard
 schema_version: v1.4.1
 title:
-- content: IEEE Draft Recommended Practice for Testing Switchgear with Rated Voltages
-    Up to 52 kV for Internal Arcing Faults
+- content: IEEE Approved Draft Recommended Practice for Testing Switchgear with Rated
+    Voltages Up to 52 kV for Internal Arcing Faults
   type: main
 source:
 - type: src
@@ -22,11 +22,11 @@ docidentifier:
 docnumber: IEEE PC37.20.7/D-9-2024-05
 date:
 - type: created
-  at: '2024-07-08'
+  at: '2024-10-02'
 - type: published
-  at: '2024-07-17'
+  at: '2024-07-16'
 - type: issued
-  at: '2024'
+  at: '2024-09-26'
 contributor:
 - role:
   - type: publisher
@@ -70,14 +70,15 @@ abstract:
 - language: en
   script: Latn
   content: Procedures for testing and evaluating the performance of switchgear for
-    internal arcing faults is covered. A method of identifying the capabilities of
-    this equipment is given. Service conditions, installation, and application of
-    equipment are also discussed. As used in this document, the term switchgear is
-    used as a general term covering switching and interrupting devices and their combination
-    with associated control, instrumentation, metering, protective and regulating
-    devices, assemblies of those devices with associated interconnections, accessories,
-    and supporting structures used primarily in conjunction with the generation, transmission,
-    distribution, and conversion of electrical power.
+    internal arcing faults are covered by this recommended practice. A method of identifying
+    the capabilities of this equipment is given. Service conditions, installation,
+    and application of equipment are also discussed. As used in this document, the
+    term switchgear is used as a general term covering switching and interrupting
+    devices and their combination with associated control, instrumentation, metering,
+    protective and regulating devices, assemblies of those devices with associated
+    interconnections, accessories, and supporting structures used primarily in conjunction
+    with the generation, transmission, distribution, and conversion of electrical
+    power.
 status:
   stage:
     content: draft
@@ -149,7 +150,7 @@ keyword:
     content: compartment
   - language: en
     script: Latn
-    content: IEEE PC37.20.7
+    content: IEEE C37.20.7™
   - language: en
     script: Latn
     content: internal arcing fault
@@ -179,7 +180,7 @@ keyword:
     content: motor control centers
   - language: en
     script: Latn
-    content: over pressure
+    content: overpressure
   - language: en
     script: Latn
     content: protection
@@ -190,10 +191,11 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.130.10
     text: High voltage switchgear and controlgear
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -24,8 +24,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 11073.10424-2014
 date:
-- type: updated
-  at: '2014-10-10'
 - type: created
   at: '2014'
 - type: published
@@ -36,6 +34,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -86,9 +87,6 @@ abstract:
     the symptoms of a patient who suffers from sleep apnoea by delivering a therapeutic
     breathing pressure to the patient. SABTE is primarily used in the home health-care
     environment by a lay operator without direct professional supervision.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2014'
   owner:
@@ -138,10 +136,11 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

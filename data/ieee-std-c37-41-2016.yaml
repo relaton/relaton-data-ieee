@@ -77,9 +77,6 @@ abstract:
     radio-influence, temperature-rise, time-current, manual-operation, liquid-tightness,
     thermal-cycle, bolt-torque, withstand tests for motor circuit fuses, expulsion
     fuses using polymeric insulators, load-break, and short-time current.'
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -94,6 +91,13 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.41-2024
+    docidentifier:
+    - content: IEEE Std C37.41-2024
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -144,10 +148,10 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.120.50
     text: Fuses and other overcurrent protection devices
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

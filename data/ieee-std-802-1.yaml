@@ -3,12 +3,12 @@ id: IEEEStd8021
 type: standard
 schema_version: v1.4.1
 title:
-- content: 'IEEE Standard for Local and Metropolitan Area Networks--Link-local Registration
-    Protocol Corrigendum 1: Corrections to Management Modules and Protocol Encoding'
+- content: IEEE Standard for Local and Metropolitan Area Networks--Link-local Registration
+    Protocol
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/10499229
+  content: https://ieeexplore.ieee.org/document/9416320
 docidentifier:
 - content: IEEE Std 802.1
   type: IEEE
@@ -17,18 +17,18 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 979-8-8557-0580-5
+- content: 978-1-5044-7253-1
   type: ISBN
-- content: 10.1109/IEEESTD.2024.10499229
+- content: 10.1109/IEEESTD.2021.9416320
   type: DOI
 docnumber: IEEE Std 802.1
 date:
 - type: created
-  at: '2024-04-12'
+  at: '2021-04-23'
 - type: published
-  at: '2024-04-12'
+  at: '2021-04-26'
 - type: issued
-  at: '2024-02-15'
+  at: '2020-12-03'
 contributor:
 - role:
   - type: publisher
@@ -71,14 +71,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This corrigendum corrects errors in the YANG module, SNMP MIBs, and TLV
-    encoding in IEEE Std 802.1CS-2020. (The PDF of this standard is available at no
-    cost compliments of the IEEE GET program https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68)
+  content: Protocols, procedures, and managed objects for a Link-local Registration
+    Protocol (LRP) to replicate a registration database from one end to the other
+    of a point-to-point link and to replicate changes to parts of that database are
+    specified in this standard. A facility is provided to purge the replicated database
+    if the source becomes unresponsive. LRP is optimized for databases on the order
+    of 1 Mbyte. (The PDF of this standard is available at no cost to you compliments
+    of the IEEE GET program at https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68.
 status:
   stage:
     content: approved
 copyright:
-- from: '2024'
+- from: '2021'
   owner:
   - organization:
       uri:
@@ -90,18 +94,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: corrects
-  bibitem:
-    formattedref: IEEE Std 802.1
-    docidentifier:
-    - content: IEEE Std 802.1
-      type: IEEE
-      primary: true
 keyword:
 - taxon:
   - language: en
@@ -115,34 +107,34 @@ keyword:
     content: Metropolitan area networks
   - language: en
     script: Latn
-    content: Bridge circuits
-  - language: en
-    script: Latn
-    content: Couplings
-  - language: en
-    script: Latn
     content: Media Access Protocol
   - language: en
     script: Latn
-    content: Virtual LAN
+    content: Bridge circuits
+  - language: en
+    script: Latn
+    content: Timing
+  - language: en
+    script: Latn
+    content: Urban areas
   - language: en
     script: Latn
     content: Bridged Local Area Networks
   - language: en
     script: Latn
-    content: Bridges
+    content: bridges
   - language: en
     script: Latn
     content: bridging
   - language: en
     script: Latn
-    content: IEEE 802®
+    content: IEEE 802
   - language: en
     script: Latn
-    content: IEEE 802.1CS™
+    content: IEEE 802.1CS
   - language: en
     script: Latn
-    content: IEEE 802.1Q™
+    content: IEEE 802.1Q
   - language: en
     script: Latn
     content: Link-local Registration Protocol
@@ -168,6 +160,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: '35.110'
     text: Networking

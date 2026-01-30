@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 802.1CB-2017
 date:
-- type: updated
-  at: '2017-11-17'
 - type: created
   at: '2017-10-27'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -74,8 +75,7 @@ abstract:
     bridges and end systems that provide identification and replication of packets
     for redundant transmission, identification of duplicate packets, and elimination
     of duplicate packets. It is not concerned with the creation of the multiple paths
-    over which the duplicates are transmitted. (The PDF of this standard is available
-    at no cost at http://standards.ieee.org/findstds/standard/802.1CB-2017.html)
+    over which the duplicates are transmitted.
 status:
   stage:
     content: approved
@@ -129,13 +129,13 @@ keyword:
     content: Frame Replication
   - language: en
     script: Latn
-    content: IEEE 802(R)
+    content: IEEE 802®
   - language: en
     script: Latn
-    content: IEEE 802.1CB(TM)
+    content: IEEE 802.1CB
   - language: en
     script: Latn
-    content: IEEE 802.1Q(TM)
+    content: IEEE 802.1Q
   - language: en
     script: Latn
     content: local area networks (LANs)
@@ -158,6 +158,16 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
+  ics:
+  - code: 01.040.25
+    text: Manufacturing engineering (Vocabularies)
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

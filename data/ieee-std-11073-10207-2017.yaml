@@ -24,8 +24,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 11073.10207-2017
 date:
-- type: updated
-  at: '2018-03-09'
 - type: created
   at: '2018-02-21'
 - type: published
@@ -36,6 +34,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -72,7 +73,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Within the context of the ISO/IEEE 11073(TM) family of standards for point-of-care
+  content: Within the context of the ISO/IEEE 11073™ family of standards for point-of-care
     medical device communication, a Participant Model derived from the ISO/IEEE11073-10201
     Domain Information Model is provided in this standard. The Participant Model specifies
     the structure of medical information objects. This standard also defines an abstract
@@ -82,7 +83,7 @@ abstract:
     device-related data, e.g., measurements and settings, alert systems, contextual
     information (e.g., patient demographics and location information), remote control,
     and archival information. Model extensibility is provided inherently through the
-    use of XML Schema.textual information like patient demographics and location information,
+    use of XML Schema textual information like patient demographics and location information,
     remote control, and archival. Model extensibility is provided inherently through
     the use of XML Schema. (Additional files are available for this standard at http://standards.ieee.org/downloads/11073/)
 status:
@@ -126,7 +127,7 @@ keyword:
     content: alert systems
   - language: en
     script: Latn
-    content: IEEE 11073-10207(TM)
+    content: IEEE 11073-10207
   - language: en
     script: Latn
     content: medical device communication
@@ -149,6 +150,10 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

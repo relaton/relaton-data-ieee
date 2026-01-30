@@ -68,21 +68,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The application layer with TCP/IP providing functions in the transport
+  content: 'The application layer with TCP/IP providing functions in the transport
     and Internet layers to enable utility management of the end user energy environment,
     including demand response, load control, time of day pricing, management of distributed
-    generation, electric vehicles, etc. is defined in this standard. Depending on
-    the physical layer in use (e.g., IEEE 802.15.4, IEEE 802.11, IEEE 1901, IEEE 1901.2),
-    a variety of lower layer protocols may be involved in providing a complete solution.
-    Generally, lower layer protocols are not discussed in this standard except where
-    there is direct interaction with the application protocol. The mechanisms for
-    exchanging application messages, the exact messages exchanged including error
-    messages, and the security features used to protect the application messages are
-    defined in this standard. With respect to the Open Systems Interconnection (OSI)
-    network model, this standard is built using the four layer Internet stack model.
-    The defined application profile sources elements from many existing standards,
-    including IEC 61968 and IEC 61850, and follows a RESTful architecture (Fielding
-    [B2]) using IETF protocols such as HTTP.
+    generation, electric vehicles, etc., is defined in this standard. Depending on
+    the physical layer in use (e.g., IEEE 802.15.4&#8482;, IEEE 802.11&#8482;, IEEE
+    1901&#8482;, IEEE 1901.2&#8482;), a variety of lower layer protocols may be involved
+    in providing a complete solution. Generally, lower layer protocols are not discussed
+    in this standard except where there is direct interaction with the application
+    protocol. The mechanisms for exchanging application messages, the exact messages
+    exchanged, including error messages, and the security features used to protect
+    the application messages are defined in this standard. With respect to the Open
+    Systems Interconnection (OSI) network model, this standard is built using the
+    four-layer Internet stack model. Elements from many existing standards, including
+    IEC 61968 and IEC 61850, are sourced and a RESTful architecture (Fielding [B2])
+    using IETF protocols such as HTTP is followed by the defined application profile.
+    Additional files available on downloads page: https://standards.ieee.org/wp-content/uploads/2024/12/2030.5-2023_downloads.zip'
 status:
   stage:
     content: draft
@@ -157,7 +158,7 @@ keyword:
     content: energy usage information
   - language: en
     script: Latn
-    content: IEEE 2030.5
+    content: IEEE 2030.5&#8482;
   - language: en
     script: Latn
     content: load control
@@ -192,6 +193,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.240.01
     text: Power transmission and distribution networks in general

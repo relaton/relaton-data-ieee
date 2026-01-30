@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: ANSI N42.32-2016
 date:
-- type: updated
-  at: '2017-04-14'
 - type: created
   at: '2016-11-22'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -80,8 +81,7 @@ abstract:
     methods are described. The documentation to be provided by the manufacturer is
     listed as part of the requirements. A number of informative annexes that provide
     useful information and guidance in implementing this standard are also contained
-    in this standard. (The PDF of this standard is available at no cost compliments
-    of the Department of Homeland Security Domestic Nuclear Detection Office. https://ieeexplore.ieee.org/browse/standards/get-program/page)
+    in this standard.
 status:
   stage:
     content: approved
@@ -186,6 +186,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: '17.240'
     text: Radiation measurements

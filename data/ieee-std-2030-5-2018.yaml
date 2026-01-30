@@ -100,6 +100,13 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 2030.5-2023
+    docidentifier:
+    - content: IEEE Std 2030.5-2023
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -183,6 +190,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: 29.240.01
     text: Power transmission and distribution networks in general

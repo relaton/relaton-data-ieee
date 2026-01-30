@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 802.1AB-2016
 date:
-- type: updated
-  at: '2016-04-15'
 - type: created
   at: '2016-03-11'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -73,8 +74,7 @@ abstract:
   content: This document defines a protocol and a set of managed objects that can
     be used for discovering the physical topology from adjacent stations in IEEE 802(R)
     LANs. (The PDF of this standard is available at no cost compliments of the IEEE
-    GET program. http://ieeexplore.ieee.org/document/7433915. Additional downloads
-    are attached or can be downloaded at http://standards.ieee.org/downloads/802.1/index.html)
+    GET program. Additional downloads are attached or can be downloaded at https://ieeexplore.ieee.org/browse/standards/get-program/page)
 status:
   stage:
     content: approved
@@ -142,6 +142,7 @@ ext:
   schema_version: v1.0.1
   doctype:
     content: standard
+  flavor: ieee
   ics:
   - code: '35.110'
     text: Networking
