@@ -1,0 +1,173 @@
+---
+id: IEEEStd15282003
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Recommended Practice for Determining the Peak Spatial-Average Specific
+    Absorption Rate (SAR) in the Human Head from Wireless Communications Devices:
+    Measurement Techniques'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1259064
+docidentifier:
+- content: IEEE Std 1528-2003
+  type: IEEE
+  primary: true
+- content: IEEE Std 1528™-2003
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3717-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2003.94414
+  type: DOI
+docnumber: IEEE Std 1528-2003
+date:
+- type: created
+  at: '2003-12-19'
+- type: published
+  at: '2013-09-05'
+- type: issued
+  at: '2003-06-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'IEEE Std 1528-2003 specifies protocols and test procedures for the measurement
+    of the peak spatial-average SAR induced inside a simplified model of the head
+    of users of certain handheld radio transceivers. These transceivers are intended
+    to be used for personal wireless communications services, operate in the 300 MHz&#8211;3
+    GHz frequency range, and are intended to be operated while held against the ear.
+    The results obtained by following the protocols specified in this recommended
+    practice represent a conservative estimate of the peak spatial-average SAR induced
+    in the head of a significant majority of persons, subject to measurement and other
+    uncertainties that are defined in this standard. The results are representative
+    of those expected during conditions of normal use of a handheld wireless device.
+    It is not the intent of this recommended practice to provide a result representative
+    of the absolute maximum SAR value possible under every conceivable combination
+    of head size, head shape, handset orientation, and spacing relative to the head.
+    The measurement of SAR induced in the external tissues of the head, e.g., the
+    external ear (pinna), is not addressed in this standard. The following items are
+    described in detail: measurement concepts, measurement techniques, instruments,
+    calibration techniques, simulated-tissue (phantom) models, including homogeneous
+    anatomical models of the human head and simple phantoms for validation of the
+    SAR measurement system, and the limitations of these systems when used for measuring
+    the spatial-peak mass-averaged SAR. Procedures for calibrating electric field
+    (E-field) probes used for SAR measurements and assessing the SAR measurement and
+    system uncertainties are provided in the annexes. This recommended practice is
+    intended primarily for use by engineers and other specialists who are familiar
+    with electromagnetic (EM) theory and measurement techniques.'
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Wireless communication
+  - language: en
+    script: Latn
+    content: Electromagnetics
+  - language: en
+    script: Latn
+    content: Electric variables measurement
+  - language: en
+    script: Latn
+    content: Specific absorption rate
+  - language: en
+    script: Latn
+    content: Measurement techniques
+  - language: en
+    script: Latn
+    content: cellular and mobile telephones
+  - language: en
+    script: Latn
+    content: dosimetry
+  - language: en
+    script: Latn
+    content: handheld wireless transceivers
+  - language: en
+    script: Latn
+    content: measurement uncertainty
+  - language: en
+    script: Latn
+    content: miniature electric field E-field probes
+  - language: en
+    script: Latn
+    content: nonionizing radiation
+  - language: en
+    script: Latn
+    content: RFmicrowave exposure assessment
+  - language: en
+    script: Latn
+    content: RFmicrowave hazard assessment
+  - language: en
+    script: Latn
+    content: SAR measurements
+  - language: en
+    script: Latn
+    content: SAR measurement systems
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 33.070.01
+    text: Mobile services in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

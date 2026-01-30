@@ -1,0 +1,161 @@
+---
+id: IEEEStdC3711822024
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Synchrophasor Data Transfer for Power Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10794635
+docidentifier:
+- content: IEEE Std C37.118.2-2024
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.118.2™-2024
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1298-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2024.10794635
+  type: DOI
+docnumber: IEEE Std C37.118.2-2024
+date:
+- type: created
+  at: '2024-12-13'
+- type: published
+  at: '2024-12-11'
+- type: issued
+  at: '2024-06-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Communications and Cybersecurity of the IEEE Power and
+          Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'A method for the real-time exchange of synchronized phasor measurement
+    data between power system equipment is defined within this standard. This includes
+    the following: messaging that can be used with any suitable communication protocol
+    for real-time communication between phasor measurement units (PMU), phasor data
+    concentrators (PDC), and other applications; message types, contents, and their
+    use as well as data types and format specifications; descriptions of typical measurement
+    systems; communication options and requirements. Note that while cybersecurity
+    is discussed, and while its importance is acknowledged in the overall system,
+    it is considered beyond the scope of this standard.'
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.118.2-2011
+    docidentifier:
+    - content: IEEE Std C37.118.2-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Phasor measurement units
+  - language: en
+    script: Latn
+    content: Synchronous machines
+  - language: en
+    script: Latn
+    content: Data processing
+  - language: en
+    script: Latn
+    content: IEEE C37.118.2™
+  - language: en
+    script: Latn
+    content: PDC
+  - language: en
+    script: Latn
+    content: phasor
+  - language: en
+    script: Latn
+    content: phasor data concentrator
+  - language: en
+    script: Latn
+    content: phasor measurement unit
+  - language: en
+    script: Latn
+    content: PMU
+  - language: en
+    script: Latn
+    content: synchronized phasor
+  - language: en
+    script: Latn
+    content: synchrophasor
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  - code: 29.120.70
+    text: Relays
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

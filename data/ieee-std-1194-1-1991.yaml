@@ -1,0 +1,161 @@
+---
+id: IEEEStd119411991
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Electrical Characteristics of Backplane Transceiver Logic
+    (BTL) Interface Circuits
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159086
+docidentifier:
+- content: IEEE Std 1194.1-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 1194.1™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2771-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1991.101022
+  type: DOI
+docnumber: IEEE Std 1194.1-1991
+date:
+- type: created
+  at: '1991-08-12'
+- type: published
+  at: '2019-04-26'
+- type: issued
+  at: '1991-06-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The proper treatment of the electrical elements of the backplane that provides
+    a physical and electrical connection between different modules in a computer system
+    is covered. Techniques for measuring impedance, capacitance, and crosstalk are
+    provided; and crosstalk, ground bounce, and decoupling are discussed. Relationships
+    among the key elements controlling backplane performance, such as driver and receiver
+    characteristics, the distance of the driver and receiver from the backplane, the
+    impedance of the bus traces treated as transmission lines, lumped elements such
+    as connectors and vias, and the termination are examined.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Crosstalk
+  - language: en
+    script: Latn
+    content: Delay effects
+  - language: en
+    script: Latn
+    content: Driver circuits
+  - language: en
+    script: Latn
+    content: Connectors
+  - language: en
+    script: Latn
+    content: Logic circuits
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: backplane bus
+  - language: en
+    script: Latn
+    content: BTL
+  - language: en
+    script: Latn
+    content: digital interface
+  - language: en
+    script: Latn
+    content: digital circuit
+  - language: en
+    script: Latn
+    content: interface circuit
+  - language: en
+    script: Latn
+    content: driver
+  - language: en
+    script: Latn
+    content: receiver
+  - language: en
+    script: Latn
+    content: transceiver
+  - language: en
+    script: Latn
+    content: transmission line
+  - language: en
+    script: Latn
+    content: Digital interface circuit
+  - language: en
+    script: Latn
+    content: Backplane transceiver logic
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

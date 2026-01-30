@@ -1,0 +1,133 @@
+---
+id: IEEEStd10031d1999
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information Technology--Portable Operating System Interface
+    (POSIX(TM))--Part 1: System Application Program Interface (API)--Amendment 4:
+    Additional Realtime Extensions [C Language]'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8684694
+docidentifier:
+- content: IEEE Std 1003.1d-1999
+  type: IEEE
+  primary: true
+- content: IEEE Std 1003.1d™-1999
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1816-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.8684694
+  type: DOI
+docnumber: IEEE Std 1003.1d-1999
+date:
+- type: created
+  at: '2000-06-16'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1999-09-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Portable Applications of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard is part of the POSIX series of standards for applications
+    and user inter-faces to open systems. It defines the applications interface to
+    system services for spawning a process, timeouts for blocking services, sporadic
+    server scheduling, execution time clocks andtimers, and advisory information for
+    file management. This standard is stated in terms of its Cbinding.
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: application portability
+  - language: en
+    script: Latn
+    content: C (programming language)
+  - language: en
+    script: Latn
+    content: data processing
+  - language: en
+    script: Latn
+    content: open systems
+  - language: en
+    script: Latn
+    content: operating system
+  - language: en
+    script: Latn
+    content: portable application
+  - language: en
+    script: Latn
+    content: POSIX
+  - language: en
+    script: Latn
+    content: realtime
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

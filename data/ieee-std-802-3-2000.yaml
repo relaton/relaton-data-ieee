@@ -1,0 +1,181 @@
+---
+id: IEEEStd80232000
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information Technology - LAN/MAN - Specific Requirements
+    -Part 3: Carrier Sense Multiple Access with Collision Detection (CSMA/CD) Access
+    Method and Physical Layer Specifications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/879000
+docidentifier:
+- content: IEEE Std 802.3-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.3®-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2574-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.91946
+  type: DOI
+docnumber: IEEE Std 802.3-2000
+date:
+- type: created
+  at: '2000-10-16'
+- type: published
+  at: '2019-05-03'
+- type: issued
+  at: '2000'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Incoporating IEEE Std 802.3, 1998 Edition, IEEE Std 802.3ac-1998, IEEE
+    Std 802.3ab-1999, and IEEE Std 802.3ad-2000. Superseded by 802.3-2002 (802.3ag).
+    The media access control characteristics for the Carrier Sense Multiple Access
+    with Collision Detection (CSMA/CD) access method for shared medium local area
+    networks are described. The control characteristics for full duplex dedicated
+    channel use are also described. Specifications are provided for MAU types 1BASE5
+    at 1 Mb/s; Attachment Unit Interface (AUI) and MAU types 10BASE5, 10BASE2, FOIRL
+    (fiber optic inter-repeater link), 10BROAD36, 10BASE-T, 10BASE-FL, 10BASE-FB,
+    and 10BASE-FP at 10 Mb/s; Media Independent Interface (MII) and PHY types 100BASE-T4,
+    100BASE-TX, 100BASE-FX, and 100BASE-T2 at 100 Mb/s; and the Gigabit MII (GMII)
+    and 1000BASE-X PHY types, 1000BASE-SX, 1000BASE-LX, and 1000BASE-CX, which operate
+    at 1000 Mb/s (Gigabit Ethernet) as well as PHY type 1000BASE-T. Repeater specifications
+    are provided at each speed. Full duplex specifications are provided at the Physical
+    Layer for 10BASE-T, 10BASE-FL, 100BASE-TX, 100BASE-FX, 100BASE-T2, and Gigabit
+    Ethernet. System considerations for multi-segment networks at each speed and management
+    information base (MIB) specifications and additions to support Virtual Bridged
+    Local Area Networks (VLANs) as specified in IEEE P802.1Q are also provided. Also
+    specified is an optional Link Aggregation sublayer which multiple physical links
+    to be aggregated together to form a single logical link.
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.3-1998
+    docidentifier:
+    - content: IEEE Std 802.3-1998
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 802.3-2002
+    docidentifier:
+    - content: IEEE Std 802.3-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE 802.3 Standard
+  - language: en
+    script: Latn
+    content: EPON
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Aggregated Link; Aggregator; Auto Negotiation; Category 5; copper; data
+      processing; Ethernet
+  - language: en
+    script: Latn
+    content: gigabit
+  - language: en
+    script: Latn
+    content: information interchange
+  - language: en
+    script: Latn
+    content: Link Aggregation; local area networks
+  - language: en
+    script: Latn
+    content: management
+  - language: en
+    script: Latn
+    content: MASTER-SLAVE; medium dependent interface; mode of data transmission;
+      models
+  - language: en
+    script: Latn
+    content: network interconnection; physical coding sublayer; Physical Layer; physical
+      medium attachment; repeater
+  - language: en
+    script: Latn
+    content: type field; VLAN TAG
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

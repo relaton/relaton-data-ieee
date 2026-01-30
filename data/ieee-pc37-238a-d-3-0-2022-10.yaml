@@ -1,0 +1,184 @@
+---
+id: IEEEPC37238aD30202210
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard Profile for Use of IEEE 1588 Precision Time Protocol
+    in Power System Applications Amendment 1: Adding a Type-Length-Value (TLV) to
+    indicate the latest International Earth Rotation Service (IERS)-specified Universal
+    Time Coordinated (UTC) Leap Second Event'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9955489
+docidentifier:
+- content: IEEE PC37.238a/D-3.0-2022-10
+  type: IEEE
+  primary: true
+- content: IEEE PC37.238a™/D-3.0-2022-10
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9203-4
+  type: ISBN
+docnumber: IEEE PC37.238a/D-3.0-2022-10
+date:
+- type: created
+  at: '2022-11-17'
+- type: published
+  at: '2022-11-18'
+- type: issued
+  at: '2023-06-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Communications and Cybersecurity of the IEEE Power and
+          Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std. C37.238&#8482;-2017 specifies a LEAP_SECOND_EVENT
+    TLV to enable grandmaster-capable clocks to distribute leap second event and validity
+    information in advance.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std C37.238-2017
+    docidentifier:
+    - content: IEEE Std C37.238-2017
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Clocks
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Substations
+  - language: en
+    script: Latn
+    content: Precision engineering
+  - language: en
+    script: Latn
+    content: Phasor measurement units
+  - language: en
+    script: Latn
+    content: Timing
+  - language: en
+    script: Latn
+    content: boundary clock
+  - language: en
+    script: Latn
+    content: end device
+  - language: en
+    script: Latn
+    content: grandmaster clock
+  - language: en
+    script: Latn
+    content: IEEE 1588&#8482;
+  - language: en
+    script: Latn
+    content: IEEE C37.238&#8482;
+  - language: en
+    script: Latn
+    content: leap second
+  - language: en
+    script: Latn
+    content: power substation
+  - language: en
+    script: Latn
+    content: precise time
+  - language: en
+    script: Latn
+    content: precision time protocol
+  - language: en
+    script: Latn
+    content: PTP
+  - language: en
+    script: Latn
+    content: sample synchronization
+  - language: en
+    script: Latn
+    content: synchronization
+  - language: en
+    script: Latn
+    content: synchrophasors
+  - language: en
+    script: Latn
+    content: transparent clock
+  - language: en
+    script: Latn
+    content: UTC
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

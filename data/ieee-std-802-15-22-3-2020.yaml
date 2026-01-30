@@ -1,0 +1,144 @@
+---
+id: IEEEStd802152232020
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Spectrum Characterization and Occupancy Sensing
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9253019
+docidentifier:
+- content: IEEE Std 802.15.22.3-2020
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.22.3®-2020
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-7046-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2020.9253019
+  type: DOI
+docnumber: IEEE Std 802.15.22.3-2020
+date:
+- type: updated
+  at: '2020-12-11'
+- type: created
+  at: '2020-11-06'
+- type: published
+  at: '2020-11-09'
+- type: issued
+  at: '2020-09-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The architecture, abstraction layers, interfaces, and metadata requirements
+    for spectrum characterization and occupancy sensing (SCOS) systems are specified
+    in this standard. This standard also defines performance parameters, units, and
+    measures. This SCOS system comprises one or more semi-autonomous spectrum sensors,
+    which scan electromagnetic spectrum, digitize it, and perform processing, transmitting
+    the resultant data with appropriate metadata to a central storage and processing
+    system. (The PDF of this standard is available at no charge compliments of the
+    IEEE GET program https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Spread spectrum communication
+  - language: en
+    script: Latn
+    content: Communication system signaling
+  - language: en
+    script: Latn
+    content: WRAN
+  - language: en
+    script: Latn
+    content: cognitive radio
+  - language: en
+    script: Latn
+    content: IEEE 802.15.22.3
+  - language: en
+    script: Latn
+    content: IEEE 802.22
+  - language: en
+    script: Latn
+    content: radio spectrum sensing
+  - language: en
+    script: Latn
+    content: SCOS
+  - language: en
+    script: Latn
+    content: signal characterization
+  - language: en
+    script: Latn
+    content: spectrum monitoring
+  - language: en
+    script: Latn
+    content: WRAN standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

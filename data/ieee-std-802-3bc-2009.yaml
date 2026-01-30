@@ -1,0 +1,137 @@
+---
+id: IEEEStd8023bc2009
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information technology-- Local and metropolitan area
+    networks-- Specific requirements-- Part 3: CSMA/CD Access Method and Physical
+    Layer Specifications Amendment 2: Ethernet Organizationally Specific Type, Length,
+    Value (TLVs)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5274490
+docidentifier:
+- content: IEEE Std 802.3bc-2009
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.3bc®-2009
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6040-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2009.5274490
+  type: DOI
+docnumber: IEEE Std 802.3bc-2009
+date:
+- type: updated
+  at: '2009-10-30'
+- type: created
+  at: '2009'
+- type: published
+  at: '2013-07-11'
+- type: issued
+  at: '2009-09-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2008 transfers the IEEE 802.3 Organizationally
+    Specific TLVs, specified in IEEE Std 802.1AB(TM)-2009, Station and Media Access
+    Control Connectivity Discovery, to IEEE Std 802.3.
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Data mining
+  - language: en
+    script: Latn
+    content: Standards Board
+  - language: en
+    script: Latn
+    content: Societies
+  - language: en
+    script: Latn
+    content: IEEE 802.3 Standards
+  - language: en
+    script: Latn
+    content: Materials
+  - language: en
+    script: Latn
+    content: 802.3bc-2009
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: LLDP
+  - language: en
+    script: Latn
+    content: type
+  - language: en
+    script: Latn
+    content: length
+  - language: en
+    script: Latn
+    content: value (TLVs)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

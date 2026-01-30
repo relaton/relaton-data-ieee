@@ -1,0 +1,139 @@
+---
+id: IEEEStd5961982
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Parallel Highway Interface System (CAMAC) (Computer Automated
+    Measurement and Control)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/574717
+docidentifier:
+- content: IEEE Std 596-1982
+  type: IEEE
+  primary: true
+- content: IEEE Std 596™-1982
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0699-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1982.81715
+  type: DOI
+docnumber: IEEE Std 596-1982
+date:
+- type: created
+  at: '1982-02-26'
+- type: published
+  at: '2016-03-11'
+- type: issued
+  at: '1981-09-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Instruments and Detectors of the IEEE Nuclear and Plasma
+          Sciences Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The CAMAC parallel highway interface system for interconnecting up to seven
+    CAMAC crates (or other devices) and a system controller is defined. In particular,
+    the signals, timing, and logical organization of the connections from crate controllers
+    and parallel highway drivers to the parallel highway through a standard connector
+    are defined. The internal structures of crate controllers and parallel highway
+    drivers, and the physical construction of the parallel highway system, are defined
+    only as they affect compatibility between parts of the system.
+copyright:
+- from: '1982'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Instrumentation
+  - language: en
+    script: Latn
+    content: Data communication
+  - language: en
+    script: Latn
+    content: ANSI Standards
+  - language: en
+    script: Latn
+    content: Data transfer
+  - language: en
+    script: Latn
+    content: parallel
+  - language: en
+    script: Latn
+    content: highway
+  - language: en
+    script: Latn
+    content: interface
+  - language: en
+    script: Latn
+    content: system
+  - language: en
+    script: Latn
+    content: CAMAC
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.99
+    text: Other standards related to nuclear energy
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

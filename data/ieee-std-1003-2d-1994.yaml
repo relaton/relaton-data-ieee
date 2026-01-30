@@ -1,0 +1,144 @@
+---
+id: IEEEStd10032d1994
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information Technology--Portable Operating System Interface
+    (POSIX(TM))--Part 2: Shell and Utilities--Amendment 1: Batch Environment'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7379697
+docidentifier:
+- content: IEEE Std 1003.2d-1994
+  type: IEEE
+  primary: true
+- content: IEEE Std 1003.2d™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0633-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1995.7379697
+  type: DOI
+docnumber: IEEE Std 1003.2d-1994
+date:
+- type: updated
+  at: '2016-02-19'
+- type: created
+  at: '1995-06-09'
+- type: published
+  at: '2016-01-12'
+- type: issued
+  at: '1994-12-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Portable Applications of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment is part of the POSIX series of standards for applications
+    and user interfaces to open systems. It is a supplement to IEEE Std 1003.2-1992,
+    which defines the applications interface to a shell command language and a set
+    of utility programs for complex data manipulation. This supplement defines the
+    user interface to a distributed batch queuing environment and includes application
+    environments.
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE 1003.2-1994-12
+    docidentifier:
+    - content: IEEE 1003.2-1994-12
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Batch processing
+  - language: en
+    script: Latn
+    content: Operating systems
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Queueing analysis
+  - language: en
+    script: Latn
+    content: batch
+  - language: en
+    script: Latn
+    content: batch extensions
+  - language: en
+    script: Latn
+    content: distributed batch
+  - language: en
+    script: Latn
+    content: queuing
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

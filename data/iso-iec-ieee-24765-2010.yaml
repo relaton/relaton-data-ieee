@@ -1,0 +1,165 @@
+---
+id: ISOIECIEEE247652010
+type: standard
+schema_version: v1.4.1
+title:
+- content: ISO/IEC/IEEE International Standard - Systems and software engineering
+    -- Vocabulary
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5733835
+docidentifier:
+- content: ISO/IEC/IEEE 24765-2010
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 24765™-2010
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6205-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2010.5733835
+  type: DOI
+docnumber: ISO/IEC/IEEE 24765-2010
+date:
+- type: updated
+  at: '2011-11-14'
+- type: created
+  at: '2010-12-15'
+- type: published
+  at: '2018-02-08'
+- type: issued
+  at: '2010-02-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: ISO/IEC/IEEE 24765:2010 provides a common vocabulary applicable to all
+    systems and software engineering work. It was prepared to collect and standardize
+    terminology. ISO/IEC/IEEE 24765:2010 is intended to serve as a useful reference
+    for those in the information technology field, and to encourage the use of systems
+    and software engineering standards prepared by ISO and liaison organizations IEEE
+    Computer Society and Project Management Institute. ISO/IEC/IEEE 24765:2010 includes
+    references to the active source standards for each definition so that the use
+    of the term can be further explored.
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 610.12-1990
+    docidentifier:
+    - content: IEEE Std 610.12-1990
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: ISO/IEC/IEEE 24765-2017
+    docidentifier:
+    - content: ISO/IEC/IEEE 24765-2017
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: ISO standards
+  - language: en
+    script: Latn
+    content: IEC standards
+  - language: en
+    script: Latn
+    content: Software engineering
+  - language: en
+    script: Latn
+    content: Dictionaries
+  - language: en
+    script: Latn
+    content: computer
+  - language: en
+    script: Latn
+    content: dictionary
+  - language: en
+    script: Latn
+    content: information technology
+  - language: en
+    script: Latn
+    content: software engineering
+  - language: en
+    script: Latn
+    content: systems engineering
+  - language: en
+    script: Latn
+    content: terminology
+  - language: en
+    script: Latn
+    content: vocabulary
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  - code: 35.240.70
+    text: IT applications in science
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

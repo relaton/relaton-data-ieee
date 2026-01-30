@@ -1,0 +1,145 @@
+---
+id: IEEEP1610D9201609
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for the Application of Faulted Circuit Indicators on Distribution
+    Circuits
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7570456
+docidentifier:
+- content: IEEE P1610/D-9-2016-09
+  type: IEEE
+  primary: true
+- content: IEEE P1610™/D-9-2016-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-2365-6
+  type: ISBN
+docnumber: IEEE P1610/D-9-2016-09
+date:
+- type: created
+  at: '2016-01-01'
+- type: published
+  at: '2016-09-16'
+- type: issued
+  at: '2016-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Insulated Conductors of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Information on what a faulted circuit indicator (FCI) is designed to do,
+    along with methods for selecting and applying FCIs for 200 / 600 A distribution
+    circuits are described in this application guide.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1610-2007
+    docidentifier:
+    - content: IEEE Std 1610-2007
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Fault diagnosis
+  - language: en
+    script: Latn
+    content: Sensors
+  - language: en
+    script: Latn
+    content: Fault sensors
+  - language: en
+    script: Latn
+    content: Power distribution
+  - language: en
+    script: Latn
+    content: fault circuit indicator
+  - language: en
+    script: Latn
+    content: fault indicators
+  - language: en
+    script: Latn
+    content: fault sensors
+  - language: en
+    script: Latn
+    content: FCIs
+  - language: en
+    script: Latn
+    content: IEEE 1610(TM)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

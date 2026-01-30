@@ -1,0 +1,202 @@
+---
+id: ISOIECIEEE88021AECor12021
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEC/IEEE International Standard - Information technology - Telecommunications
+    and exchange between information technology systems -- Requirements for local
+    and metropolitan area networks--Part 1AE: Media access control (MAC) security
+    -TECHNICAL CORRIGENDUM 1: Tag control information figure'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9508909
+docidentifier:
+- content: ISO/IEC/IEEE 8802.1AE/Cor1-2021
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 8802.1AE™/Cor1-2021
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-7826-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2021.9508909
+  type: DOI
+docnumber: ISO/IEC/IEEE 8802.1AE/Cor1-2021
+date:
+- type: created
+  at: '2021-07-26'
+- type: published
+  at: '2021-08-06'
+- type: issued
+  at: '2021'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: How all or part of a network can be secured transparently to peer protocol
+    entities that use the MAC Service provided by IEEE 802(R) LANs to communicate
+    is specified in this standard. MAC security (MACsec) provides connectionless user
+    data confidentiality, data frame integrity, and data origin authenticity.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 802.1AE/Cor1-2020
+    docidentifier:
+    - content: IEEE Std 802.1AE/Cor1-2020
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Security
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Telecommunications
+  - language: en
+    script: Latn
+    content: authorized port
+  - language: en
+    script: Latn
+    content: confidentiality
+  - language: en
+    script: Latn
+    content: corrigendum
+  - language: en
+    script: Latn
+    content: data origin authenticity
+  - language: en
+    script: Latn
+    content: IEEE 802.1AE&#8482;
+  - language: en
+    script: Latn
+    content: integrity
+  - language: en
+    script: Latn
+    content: LANs
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: MAC Bridges
+  - language: en
+    script: Latn
+    content: MAC security
+  - language: en
+    script: Latn
+    content: MAC Service
+  - language: en
+    script: Latn
+    content: MANs
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: port-based network access control
+  - language: en
+    script: Latn
+    content: secure association
+  - language: en
+    script: Latn
+    content: security
+  - language: en
+    script: Latn
+    content: transparent bridging
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

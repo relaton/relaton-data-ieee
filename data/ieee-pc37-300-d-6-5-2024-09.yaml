@@ -1,0 +1,172 @@
+---
+id: IEEEPC37300D65202409
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Approved Draft Guide for Centralized Protection and Control (CPC)
+    Systems within a Substation
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10707148
+docidentifier:
+- content: IEEE PC37.300/D-6.5-2024-09
+  type: IEEE
+  primary: true
+- content: IEEE PC37.300™/D-6.5-2024-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1306-0
+  type: ISBN
+docnumber: IEEE PC37.300/D-6.5-2024-09
+date:
+- type: created
+  at: '2024-12-19'
+- type: published
+  at: '2024-10-07'
+- type: issued
+  at: '2024-12-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This guide for Centralized Protection and Control (CPC) systems within
+    a substation addresses the realization of various protection, automation, and
+    control functions within a CPC system utilizing data collected from intelligent
+    electronic devices. This guide includes protection, automation, and control functions
+    within a substation, including interconnecting circuits using devices and their
+    interconnections with suitable communication protocols. This guide includes references
+    to existing standards applicable to protection, automation, and control applications
+    for various types of circuit elements such as generators, transformers, bus bars,
+    shunt and series capacitor banks, reactors, transmission lines, and distribution
+    lines. Some protection and control systems may be applied to protect the integrity
+    of the power system, for example, to avoid cascading outages, equipment damage
+    from unanticipated power system conditions beyond equipment emergency ratings,
+    voltage collapse, angular instability, or other system problems. These systems
+    are referred to as SIPS (system integrity protection schemes). The guide addresses
+    CPC system architectures for typical substation configurations. The guide addresses
+    the reliability and maintainability of each architecture, along with their respective
+    testing requirements. The guide also addresses CPC-based system development, installation,
+    commissioning, troubleshooting, and maintenance.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Substations
+  - language: en
+    script: Latn
+    content: Intelligent systems
+  - language: en
+    script: Latn
+    content: Centralized control
+  - language: en
+    script: Latn
+    content: Digital systems
+  - language: en
+    script: Latn
+    content: Electronic equipment
+  - language: en
+    script: Latn
+    content: centralized protection and control
+  - language: en
+    script: Latn
+    content: CPC
+  - language: en
+    script: Latn
+    content: CPC system
+  - language: en
+    script: Latn
+    content: CPC-based system
+  - language: en
+    script: Latn
+    content: digital substation
+  - language: en
+    script: Latn
+    content: IED
+  - language: en
+    script: Latn
+    content: IEEE C37.300
+  - language: en
+    script: Latn
+    content: intelligent electronic device
+  - language: en
+    script: Latn
+    content: PIU
+  - language: en
+    script: Latn
+    content: process interface unit
+  - language: en
+    script: Latn
+    content: SIPS
+  - language: en
+    script: Latn
+    content: system integrity protection scheme
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,143 @@
+---
+id: IEEEStd6951990
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Microprocessor Universal Format for Object Modules
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159333
+docidentifier:
+- content: IEEE Std 695-1990
+  type: IEEE
+  primary: true
+- content: IEEE Std 695™-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3028-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1990.101062
+  type: DOI
+docnumber: IEEE Std 695-1990
+date:
+- type: created
+  at: '1990-02-15'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1990-02-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The format of linkable, relocatable, and absolute object modules is specified.
+    MUFOM, the Microprocessor Universal Format for Object Modules, is designed to
+    apply to a variety of target machines. It permits the linking and relocating functions
+    to be isolated from the specification of target architecture, so that a user may
+    employ a single program for these functions across all CPUs. It applies to binary
+    computers of arbitrary word size and architecture. Two levels of compliance are
+    specified, minimum and full. The minimum compliance level affords sufficient flexibility
+    to link separately compiled modules, to relocate addresses in simple ways, and
+    to load the resulting absolute object modules with a minimal loader. The full
+    compliance level affords all of the functionality of the minimum level and adds
+    to it arbitrary address-expression handling, type checking capability, librarian
+    control commands, and other useful functions for full generality.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Microprocessors
+  - language: en
+    script: Latn
+    content: Program processors
+  - language: en
+    script: Latn
+    content: Software portability
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: microprocessor
+  - language: en
+    script: Latn
+    content: universal
+  - language: en
+    script: Latn
+    content: object
+  - language: en
+    script: Latn
+    content: format
+  - language: en
+    script: Latn
+    content: modules
+  - language: en
+    script: Latn
+    content: Microcomputer software
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

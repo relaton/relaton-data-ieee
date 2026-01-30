@@ -1,0 +1,155 @@
+---
+id: IEEEP8023bpD30201512
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Ethernet Amendment 4: Physical Layer Specifications
+    and Management Parameters for 1 Gb/s Operation over a Single Twisted-Pair Copper
+    Cable'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7358446
+docidentifier:
+- content: IEEE P802.3bp/D-3.0-2015-12
+  type: IEEE
+  primary: true
+- content: IEEE P802.3bp™/D-3.0-2015-12
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0602-4
+  type: ISBN
+docnumber: IEEE P802.3bp/D-3.0-2015-12
+date:
+- type: created
+  at: '2015-12-16'
+- type: published
+  at: '2015-12-16'
+- type: issued
+  at: '2016-06-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2015 adds point-to-point 1 Gb/s Physical
+    Layer (PHY) specifications and management parameters for operation on a single
+    twisted-pair copper cable in an automotive application.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: ISO/IEC/IEEE 8802.3/Amd4-2017
+    docidentifier:
+    - content: ISO/IEC/IEEE 8802.3/Amd4-2017
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2015
+    docidentifier:
+    - content: IEEE Std 802.3-2015
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Time measurement
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Passive optical networks
+  - language: en
+    script: Latn
+    content: IEEE 802.3 Standard
+  - language: en
+    script: Latn
+    content: 1000BASE-T1
+  - language: en
+    script: Latn
+    content: IEEE 802&#174;
+  - language: en
+    script: Latn
+    content: IEEE 802.3&#8482;
+  - language: en
+    script: Latn
+    content: IEEE 802.3bp&#8482;
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,203 @@
+---
+id: IEEEStd151622025
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Modeling and Simulation (M&S) High Level Architecture
+    (HLA)--Object Model Template (OMT) Specification
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11112812
+docidentifier:
+- content: IEEE Std 1516.2-2025
+  type: IEEE
+  primary: true
+- content: IEEE Std 1516.2™-2025
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2019-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2025.11112812
+  type: DOI
+docnumber: IEEE Std 1516.2-2025
+date:
+- type: created
+  at: '2025-08-01'
+- type: published
+  at: '2025-08-04'
+- type: issued
+  at: '2025-02-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Simulation Interoperability Stds Organization/Stds Activity Committee
+          of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The High Level Architecture (HLA) has been developed to provide a common
+    architecture for distributed modeling and simulation. The HLA defines an integrated
+    approach that provides a common framework for the interconnection of interacting
+    simulations. This document, the third in a family of three related HLA documents,
+    defines the format and syntax (but not content) of HLA object models. The standards
+    contained in this architecture are interrelated and need to be considered as a
+    product set, when changes are made. They each have value independently.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1516.2-2010
+    docidentifier:
+    - content: IEEE Std 1516.2-2010
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Database systems
+  - language: en
+    script: Latn
+    content: High level languages
+  - language: en
+    script: Latn
+    content: Computer architecture
+  - language: en
+    script: Latn
+    content: Runtime
+  - language: en
+    script: Latn
+    content: Simulation
+  - language: en
+    script: Latn
+    content: architecture
+  - language: en
+    script: Latn
+    content: class attribute
+  - language: en
+    script: Latn
+    content: data distribution management
+  - language: en
+    script: Latn
+    content: federate
+  - language: en
+    script: Latn
+    content: federation
+  - language: en
+    script: Latn
+    content: federation execution
+  - language: en
+    script: Latn
+    content: federation object model
+  - language: en
+    script: Latn
+    content: framework
+  - language: en
+    script: Latn
+    content: High Level Architecture
+  - language: en
+    script: Latn
+    content: IEEE 1516.2(TM)
+  - language: en
+    script: Latn
+    content: instance attribute
+  - language: en
+    script: Latn
+    content: instance attribute ownership
+  - language: en
+    script: Latn
+    content: interaction class
+  - language: en
+    script: Latn
+    content: joined federate
+  - language: en
+    script: Latn
+    content: object class
+  - language: en
+    script: Latn
+    content: object model template
+  - language: en
+    script: Latn
+    content: rules
+  - language: en
+    script: Latn
+    content: runtime infrastructure
+  - language: en
+    script: Latn
+    content: simulation object model
+  - language: en
+    script: Latn
+    content: time-constrained
+  - language: en
+    script: Latn
+    content: time-regulating.
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,144 @@
+---
+id: ANSIIEEEStdC571311981
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Field Testing of Relaying Current Transformers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/27784
+docidentifier:
+- content: ANSI/IEEE Std C57.13.1-1981
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std C57.13.1™-1981
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0907-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1981.81012
+  type: DOI
+docnumber: ANSI/IEEE Std C57.13.1-1981
+date:
+- type: created
+  at: '1981-05-15'
+- type: published
+  at: '2014-05-14'
+- type: issued
+  at: '1978-03-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A description is given of field-test methods that will ensure that the
+    current transformers used as a source of relay input current are connected properly,
+    are of marked ratio and polarity, and are in condition to perform as designed
+    both initially and after a period of service. The standard covers safety considerations;
+    current transformer types and construction and the effect of these on test methods;
+    insulation resistance tests; ratio tests; polarity check; winding and lead resistance
+    (internal resistance); excitation tests; burden measurements; and specialized
+    situations.
+copyright:
+- from: '1981'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C57.13.1-2006
+    docidentifier:
+    - content: IEEE Std C57.13.1-2006
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C57.13.1-2006
+    docidentifier:
+    - content: IEEE Std C57.13.1-2006
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Current transformers
+  - language: en
+    script: Latn
+    content: Protective relaying
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: field testing
+  - language: en
+    script: Latn
+    content: relaying
+  - language: en
+    script: Latn
+    content: current
+  - language: en
+    script: Latn
+    content: transformers
+  - language: en
+    script: Latn
+    content: Power distribution testing
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

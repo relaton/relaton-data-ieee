@@ -1,0 +1,145 @@
+---
+id: ANSIN42422006
+type: standard
+schema_version: v1.4.1
+title:
+- content: American National Standard Data Format Standard for Radiation Detectors
+    Used for Homeland Security
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6202310
+docidentifier:
+- content: ANSI N42.42-2006
+  type: IEEE
+  primary: true
+- content: ANSI N42.42™-2006
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5561-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2007.6202310
+  type: DOI
+docnumber: ANSI N42.42-2006
+date:
+- type: created
+  at: '2007-03-23'
+- type: published
+  at: '2012-05-17'
+- type: issued
+  at: '2006-11-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Association Standards Board of the IEEE-SASB Coordinating
+          Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies the data format that shall be used for both required
+    and optional data to be made available by radiation instruments for homeland security
+    applications. The performance for these types of instruments is described in other
+    standards; such as ANSI/IEEE N42.32, ANSI/IEEE N42.33, ANSI/IEEE N42.34, ANSI/IEEE
+    N42.35, and ANSI/IEEE N42.38.
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: ANSI N42.42-2012
+    docidentifier:
+    - content: ANSI N42.42-2012
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: ANSI N42.42-2012
+    docidentifier:
+    - content: ANSI N42.42-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Radiation detectors
+  - language: en
+    script: Latn
+    content: Security
+  - language: en
+    script: Latn
+    content: Data analysis
+  - language: en
+    script: Latn
+    content: data format
+  - language: en
+    script: Latn
+    content: DHS standards
+  - language: en
+    script: Latn
+    content: homeland security
+  - language: en
+    script: Latn
+    content: radiation detectors
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
+  - code: '35.040'
+    text: Information coding
+  standard_status: Inactive
+  pubstatus: Active
+  holdstatus: Publish

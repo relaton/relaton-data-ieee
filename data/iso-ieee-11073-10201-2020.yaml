@@ -1,0 +1,204 @@
+---
+id: ISOIEEE11073102012020
+type: standard
+schema_version: v1.4.1
+title:
+- content: ISO/IEC/IEEE International Standard - Health informatics--Device interoperability--Part
+    10201:Point-of-care medical device communication--Domain information model
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9102466
+docidentifier:
+- content: ISO/IEEE 11073.10201-2020
+  type: IEEE
+  primary: true
+- content: ISO/IEEE 11073.10201™-2020
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6724-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2020.9102466
+  type: DOI
+docnumber: ISO/IEEE 11073.10201-2020
+date:
+- type: updated
+  at: '2020-06-12'
+- type: created
+  at: '2020-05-25'
+- type: published
+  at: '2020-05-27'
+- type: issued
+  at: '2020'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for point-of-care
+    medical device communication, an abstract, object-oriented domain information
+    model that specifies the structure of exchanged information, as well as the vents
+    and services that are supported by each type of object, is provided in this standard.
+    All data structure elements are specified using abstract syntax (ASN.1) and may
+    be applied to many different implementation technologies, transfer syntaxes, and
+    application service models. Core subjects include medical, alert, system, patient,
+    control, archival, communication, and extended services. Model extensibility is
+    supported, and a conformance model and statement template is provided.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 11073.10201-2018
+    docidentifier:
+    - content: IEEE Std 11073.10201-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Bioinformatics
+  - language: en
+    script: Latn
+    content: Point of care
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: abstract syntax
+  - language: en
+    script: Latn
+    content: alarm
+  - language: en
+    script: Latn
+    content: alert
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: DIM
+  - language: en
+    script: Latn
+    content: domain information model
+  - language: en
+    script: Latn
+    content: IEEE 11073-10201
+  - language: en
+    script: Latn
+    content: information model
+  - language: en
+    script: Latn
+    content: medical device communications
+  - language: en
+    script: Latn
+    content: medical information bus
+  - language: en
+    script: Latn
+    content: MIB
+  - language: en
+    script: Latn
+    content: object-oriented
+  - language: en
+    script: Latn
+    content: patient
+  - language: en
+    script: Latn
+    content: POC
+  - language: en
+    script: Latn
+    content: point-of-care
+  - language: en
+    script: Latn
+    content: remote control
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.70
+    text: Application layer
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

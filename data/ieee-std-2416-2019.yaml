@@ -1,0 +1,162 @@
+---
+id: IEEEStd24162019
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Power Modeling to Enable System-Level Analysis
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8782907
+docidentifier:
+- content: IEEE Std 2416-2019
+  type: IEEE
+  primary: true
+- content: IEEE Std 2416™-2019
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5888-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2019.8782907
+  type: DOI
+docnumber: IEEE Std 2416-2019
+date:
+- type: created
+  at: '2019-07-31'
+- type: published
+  at: '2019-07-31'
+- type: issued
+  at: '2019-05-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: In this standard, a parameterized and abstracted power model enabling system,
+    software, and hardware intellectual property (IP)-centric power analysis and optimization
+    are described. Concepts and constructs are defined for the development of parameterized,
+    accurate, efficient, and complete power models for systems and hardware IP blocks
+    usable for system power analysis and optimization. Process, voltage, and temperature
+    (PVT) independence; power and thermal management interface; and workload and architecture
+    parameterization are some of the concepts included.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Voltage control
+  - language: en
+    script: Latn
+    content: Intellectual property
+  - language: en
+    script: Latn
+    content: Modeling
+  - language: en
+    script: Latn
+    content: Data processing
+  - language: en
+    script: Latn
+    content: Temperature measurement
+  - language: en
+    script: Latn
+    content: Optimization
+  - language: en
+    script: Latn
+    content: IEEE 2416
+  - language: en
+    script: Latn
+    content: intellectual property (IP) blocks
+  - language: en
+    script: Latn
+    content: modeling standards
+  - language: en
+    script: Latn
+    content: models
+  - language: en
+    script: Latn
+    content: optimization
+  - language: en
+    script: Latn
+    content: parameterization
+  - language: en
+    script: Latn
+    content: power contributors
+  - language: en
+    script: Latn
+    content: power data
+  - language: en
+    script: Latn
+    content: process
+  - language: en
+    script: Latn
+    content: voltage
+  - language: en
+    script: Latn
+    content: and temperature (PVT)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

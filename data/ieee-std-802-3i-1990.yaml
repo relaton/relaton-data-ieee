@@ -1,0 +1,148 @@
+---
+id: IEEEStd8023i1990
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Local and Metropolitan Area Networks - System Considerations
+    for Multi-segment 10 Mb/S Baseband Networks (Section 13) and Twisted-Pair Medium
+    Attachment Unit (MAU) and Baseband Medium, Type 10BASE-T (Section 14)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7508548
+docidentifier:
+- content: IEEE Std 802.3i-1990
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.3i®-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-2165-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1990.7508548
+  type: DOI
+docnumber: IEEE Std 802.3i-1990
+date:
+- type: created
+  at: '1990-12-30'
+- type: published
+  at: '2016-07-08'
+- type: issued
+  at: '1990-09-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This Local Area Network (LAN)standard specifies the Type 10BASE-T Medium
+    Attachment Unit (MAU) and one specific unshielded twisted-pair medium for use
+    with the MAU. This MAU is specified for use in a 10 Mb/s baseband CSMA/CD LAN.
+    Guidelines for its application in a repeatered multisegment heterogeneous CSMA/CD
+    network are included.
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.3-1985
+    docidentifier:
+    - content: ANSI/IEEE Std 802.3-1985
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Twisted pair wiring
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Baseband
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: medium
+  - language: en
+    script: Latn
+    content: twisted pair
+  - language: en
+    script: Latn
+    content: baseband
+  - language: en
+    script: Latn
+    content: 10baset
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

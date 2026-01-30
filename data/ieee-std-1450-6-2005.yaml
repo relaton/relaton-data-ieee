@@ -1,0 +1,132 @@
+---
+id: IEEEStd145062005
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Test Interface Language (STIL) for Digital Test Vector Data-Core
+    Test Language (CTL)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8328064
+docidentifier:
+- content: IEEE Std 1450.6-2005
+  type: IEEE
+  primary: true
+- content: IEEE Std 1450.6™-2005
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4805-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2006.8328064
+  type: DOI
+docnumber: IEEE Std 1450.6-2005
+date:
+- type: created
+  at: '2006-04-05'
+- type: published
+  at: '2018-03-29'
+- type: issued
+  at: '2005-11-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The Core Test Language (CTL) is a language created for a System-on-Chip
+    flow (or SoC flow), where a design created by one group is reused as a sub-design
+    of a design created by another group. In an SoC flow, the smaller design embedded
+    in the larger design is commonly called a core and the larger design is commonly
+    called the SoC. The core is a design provided by a core provider, and the task
+    of incorporating the sub-design into the SoC is called Core System Integration.
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: System integration
+  - language: en
+    script: Latn
+    content: Task analysis
+  - language: en
+    script: Latn
+    content: System-on-chip
+  - language: en
+    script: Latn
+    content: Core Test Language (CTL)
+  - language: en
+    script: Latn
+    content: Standard Test Interface Language (STIL)
+  - language: en
+    script: Latn
+    content: System-on-Chip (SoC)
+  - language: en
+    script: Latn
+    content: wrapped core
+  - language: en
+    script: Latn
+    content: unwrapped core
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

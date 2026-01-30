@@ -1,0 +1,170 @@
+---
+id: IEEEStd8021j1996
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'Supplement to Information technology-Telecommunications and information
+    exchange between systems- Local area networks-Media access control (MAC) bridges:
+    Managed objects for MAC bridges'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/588341
+docidentifier:
+- content: IEEE Std 802.1j-1996
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1j®-1996
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4841-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1997.82409
+  type: DOI
+docnumber: IEEE Std 802.1j-1996
+date:
+- type: created
+  at: '1997-06-09'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1996-10-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Managed object classes and their components that permit remote management
+    of ISO/IEC 10038-conformant MAC bridges by means of suitable management protocols,
+    including the services and protocols defined in ISO/IEC 15802-2: 1995, LAN/MAN
+    Management; and those defined in ISO/IEC 9595: 1991, CMIS; and ISO/IEC 9596-1:
+    1991, CMIP; are defined. The managed object definitions are documented in the
+    notation defined in ISO/IEC 10165-4: 1992, GDMO.'
+copyright:
+- from: '1997'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.1D-1990
+    docidentifier:
+    - content: IEEE Std 802.1D-1990
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Bridges
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: 802.1D
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: data processing
+  - language: en
+    script: Latn
+    content: layer managed objects
+  - language: en
+    script: Latn
+    content: layer management
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: managed objects
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: MAN
+  - language: en
+    script: Latn
+    content: network interconnection
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

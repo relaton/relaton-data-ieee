@@ -1,0 +1,131 @@
+---
+id: ANSIIEEEStd80251992
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Information Technology - Local and metropolitan area networks - Part
+    5: Token ring access method and physical layer specifications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7438701
+docidentifier:
+- content: ANSI/IEEE Std 802.5-1992
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 802.5™-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-55937-205-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1992.7438701
+  type: DOI
+docnumber: ANSI/IEEE Std 802.5-1992
+date:
+- type: updated
+  at: '2016-04-22'
+- type: created
+  at: '1992-06-12'
+- type: published
+  at: '2016-03-22'
+- type: issued
+  at: '1992-03-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This Local and Metropolitan Area Network standard, ISO/IEC 8802-5 :1992,
+    is part of a family of local area network (LAN) standards dealing with the physical
+    and data link layers as defined by the ISO Open System Interconnection Reference
+    Model. Its purpose is to provide compatible interconnection of data processing
+    equipment by means of a local area network using the token-passing ring access
+    method. The frame format, including delimiters, addressing, and frame-check sequence,
+    are defined, and medium access control (MAC) frames, timers, and priority stacks
+    are defined. The MAC protocol is defined. The finite-state machine and state tables
+    are supplemented with a prose description of the algorithms. The physical layer
+    (PHY) functions of symbol encoding and decoding, symbol time, and latency buffering
+    are defined. The services provided by the MAC to the station management (SMT)
+    and the services provided by the PHY to SMT and the MAC are described. These services
+    are defined in terms of service primitives and associated parameters. The 4 and
+    16 Mb/s, shielded twisted pair attachment of the station to the medium, including
+    the medium interface connector (MIC) are also defined. The applications environment
+    for the LAN is intended to be commercial and light industrial. The use of token
+    ring LANs in home and heavy industrial environments, while not precluded, has
+    not been considered in the development of the standard. A Protocol Implementation
+    Conformance Statement (PICS) proforma is provided as an annex to the standard
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: https://www.ansi.org
+      name:
+      - language: en
+        script: Latn
+        content: American National Standards Institute
+      abbreviation:
+        content: ANSI
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ANSI Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Local area netowrks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Token networks
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

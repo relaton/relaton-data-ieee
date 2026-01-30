@@ -1,0 +1,158 @@
+---
+id: IEEEStd3522016
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for General Principles of Reliability Analysis of Nuclear Power
+    Generating Station Systems and Other Nuclear Facilities
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7891100
+docidentifier:
+- content: IEEE Std 352-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 352™-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-3643-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2017.7891100
+  type: DOI
+docnumber: IEEE Std 352-2016
+date:
+- type: updated
+  at: '2017-04-14'
+- type: created
+  at: '2017-04-07'
+- type: published
+  at: '2017-03-31'
+- type: issued
+  at: '2016-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: General reliability and availability analysis methods that can be applied
+    to structures, systems, and components (SSCs) in nuclear power generating stations
+    and other nuclear facilities are contained in this guide.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 352-1987
+    docidentifier:
+    - content: ANSI/IEEE Std 352-1987
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Failure analysis
+  - language: en
+    script: Latn
+    content: Nuclear power generation
+  - language: en
+    script: Latn
+    content: Power system reliability
+  - language: en
+    script: Latn
+    content: Safety
+  - language: en
+    script: Latn
+    content: availability
+  - language: en
+    script: Latn
+    content: Class 1E
+  - language: en
+    script: Latn
+    content: failure rate
+  - language: en
+    script: Latn
+    content: IEEE 352&#8482;
+  - language: en
+    script: Latn
+    content: MTBF
+  - language: en
+    script: Latn
+    content: MTTF
+  - language: en
+    script: Latn
+    content: MTTR
+  - language: en
+    script: Latn
+    content: nuclear power generating station
+  - language: en
+    script: Latn
+    content: reliability
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

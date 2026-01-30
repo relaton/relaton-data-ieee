@@ -1,0 +1,167 @@
+---
+id: IEEEStd12931998
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Specification Format Guide and Test Procedure for Linear,
+    Single-Axis, Non-Gyroscopic Accelerometers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/782464
+docidentifier:
+- content: IEEE Std 1293-1998
+  type: IEEE
+  primary: true
+- content: IEEE Std 1293™-1998
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1430-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1999.89857
+  type: DOI
+docnumber: IEEE Std 1293-1998
+date:
+- type: created
+  at: '1999-04-16'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1998-09-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The specification and test requirements for a linear, single-axis, nongyroscopic
+    accelerometer for use in internal navigation, guidance, and leveling systems are
+    defined. A standard specification guide and a compilation of recommended test
+    procedures for such accelerometers are provide. Informative annexes are given
+    on the various types of such accelerometers (force or pendulous torque rebalance
+    with analog or digital output, vibrating beam, and micromechanical) and error
+    effects, on filtering, noise, and transient anaysis techniques, and on calibration
+    and modeling techniques (multipoint tumble analysis, vibration and shock test
+    analyses, and geophysical effects in inertial instrument testing). IEEE 1293 is
+    revision combining IEEE Stds 337 and 530.
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 337-1972
+    docidentifier:
+    - content: IEEE Std 337-1972
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1293-2018
+    docidentifier:
+    - content: IEEE Std 1293-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Acceleration measurement
+  - language: en
+    script: Latn
+    content: accelerometer
+  - language: en
+    script: Latn
+    content: inertial instrument
+  - language: en
+    script: Latn
+    content: inertial sensor
+  - language: en
+    script: Latn
+    content: pendulous accelerometer
+  - language: en
+    script: Latn
+    content: vibrating beam accelerometer
+  - language: en
+    script: Latn
+    content: micromechanical accelerometer
+  - language: en
+    script: Latn
+    content: power spectal density
+  - language: en
+    script: Latn
+    content: vibration and shock
+  - language: en
+    script: Latn
+    content: geophysical effects
+  - language: en
+    script: Latn
+    content: specification
+  - language: en
+    script: Latn
+    content: testing
+  - language: en
+    script: Latn
+    content: IEEE 1293
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '17.080'
+    text: Measurement of time, velocity, acceleration, angular velocity
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,150 @@
+---
+id: IEEEP1107310207D9201708
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Domain Information & Service Model for Service-Oriented
+    Point-of-Care Medical Device Communication
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8031300
+docidentifier:
+- content: IEEE P11073.10207/D-9-2017-08
+  type: IEEE
+  primary: true
+- content: IEEE P11073.10207™/D-9-2017-08
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4377-7
+  type: ISBN
+docnumber: IEEE P11073.10207/D-9-2017-08
+date:
+- type: created
+  at: '2017-01-01'
+- type: published
+  at: '2017-09-09'
+- type: issued
+  at: '2017-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073(TM) family of standards for point-of-care
+    medical device communication, a Participant Model derived from the ISO/IEEE11073-10201
+    Domain Information Model is provided in this standard. The Participant Model specifies
+    the structure of medical information objects. This standard also defines an abstract
+    Communication Model to support the exchange of medical information objects. All
+    elements of the Participant Model and Communication Model are specified using
+    XML Schema. Core subjects of the Participant Model comprise modelling of medical
+    device-related data, e.g., measurements and settings, alert systems, contextual
+    information (e.g., patient demographics and location information), remote control,
+    and archival information. Model extensibility is provided inherently through the
+    use of XML Schema.textual information like patient demographics and location information,
+    remote control, and archival. Model extensibility is provided inherently through
+    the use of XML Schema. (Additional files are available for this standard at http://standards.ieee.org/downloads/11073/)
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Context modeling
+  - language: en
+    script: Latn
+    content: Licenses
+  - language: en
+    script: Latn
+    content: Data models
+  - language: en
+    script: Latn
+    content: alert systems
+  - language: en
+    script: Latn
+    content: IEEE 11073-10207(TM)
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: patient
+  - language: en
+    script: Latn
+    content: point-of-care
+  - language: en
+    script: Latn
+    content: remote control
+  - language: en
+    script: Latn
+    content: service-oriented architecture
+  - language: en
+    script: Latn
+    content: XML Schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

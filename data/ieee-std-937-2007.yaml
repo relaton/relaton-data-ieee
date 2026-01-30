@@ -1,0 +1,128 @@
+---
+id: IEEEStd9372007
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Installation and Maintenance of Lead-Acid
+    Batteries for Photovoltaic (PV) Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4238866
+docidentifier:
+- content: IEEE Std 937-2007
+  type: IEEE
+  primary: true
+- content: IEEE Std 937™-2007
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5592-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2007.372756
+  type: DOI
+docnumber: IEEE Std 937-2007
+date:
+- type: updated
+  at: '2008-02-11'
+- type: created
+  at: '2007-06-13'
+- type: published
+  at: '2013-08-15'
+- type: issued
+  at: '2007-03-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Design considerations and procedures for storage, location, mounting, ventilation,
+    assembly, and maintenance of lead-acid secondary batteries for photovoltaic power
+    systems are provided. Safety precautions and instrumentation considerations are
+    also included. Even though general recommended practices are covered, battery
+    manufacturers may provide specific instructions for battery installation and maintenance.
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 937-2000
+    docidentifier:
+    - content: IEEE Std 937-2000
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: battery
+  - language: en
+    script: Latn
+    content: battery installation
+  - language: en
+    script: Latn
+    content: battery maintenance
+  - language: en
+    script: Latn
+    content: photovoltaic power system
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '27.160'
+    text: Solar energy engineering
+  - code: 29.220.20
+    text: Acid secondary cells and batteries
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

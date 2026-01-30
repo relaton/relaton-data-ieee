@@ -1,0 +1,200 @@
+---
+id: ISOIECIEEE88023Amd62017
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEC/IEEE International Standard - Information technology - Telecommunications
+    and information exchange between systems - Local and metropolitan area networks
+    - Specific requirements - Part 3: Standard for Ethernet AMENDMENT 6: Physical
+    layer specifications and management parameters for ethernet passive optical networks
+    protocol over coax'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8575216
+docidentifier:
+- content: ISO/IEC/IEEE 8802.3/Amd6-2017
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 8802.3™/Amd6-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5375-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2018.8575216
+  type: DOI
+docnumber: ISO/IEC/IEEE 8802.3/Amd6-2017
+date:
+- type: created
+  at: '2018-12-11'
+- type: published
+  at: '2018-12-13'
+- type: issued
+  at: '2018'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Physical Layer specifications and management parameters for the operation
+    of Ethernet Passive Optical Networks (EPON) Protocol over coaxial media is defined
+    by this amendment to IEEE Std 802.3-2015.
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 802.3bn-2016
+    docidentifier:
+    - content: IEEE Std 802.3bn-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Passive optical networks
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: EPoC
+  - language: en
+    script: Latn
+    content: EPON
+  - language: en
+    script: Latn
+    content: EPON Protocol over Coax
+  - language: en
+    script: Latn
+    content: Ethernet; Ethernet Passive Optical Networks
+  - language: en
+    script: Latn
+    content: IEEE 802.3
+  - language: en
+    script: Latn
+    content: IEEE 802.3bn
+  - language: en
+    script: Latn
+    content: Multi-Point MAC Control (MPMC)
+  - language: en
+    script: Latn
+    content: orthogonal frequency division multiplexing (OFDM)
+  - language: en
+    script: Latn
+    content: Physical Coding Sublayer (PCS)
+  - language: en
+    script: Latn
+    content: Physical Media Attachment (PMA)
+  - language: en
+    script: Latn
+    content: Physical Medium Dependent (PMD)
+  - language: en
+    script: Latn
+    content: PON
+  - language: en
+    script: Latn
+    content: point to multipoint (P2MP)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

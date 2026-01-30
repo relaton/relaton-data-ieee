@@ -1,0 +1,162 @@
+---
+id: IEEEStd8412009
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Petroleum and Chemical Industry--Premium-Efficiency,
+    Severe-Duty, Totally Enclosed Fan-Cooled (TEFC) Squirrel Cage Induction Motors--Up
+    to and Including 370 kW (500 hp)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5210065
+docidentifier:
+- content: IEEE Std 841-2009
+  type: IEEE
+  primary: true
+- content: IEEE Std 841™-2009
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5923-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2009.5210065
+  type: DOI
+docnumber: IEEE Std 841-2009
+date:
+- type: updated
+  at: '2009-09-11'
+- type: created
+  at: '2009-08-17'
+- type: published
+  at: '2013-08-26'
+- type: issued
+  at: '2009-03-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Petroleum &amp; Chemical Industry of the IEEE Industry Applications
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard applies to premium efficiency totally enclosed fan-cooled
+    (TEFC), horizontal and vertical, single-speed, squirrel cage polyphase induction
+    motors, up to and including 370 kW (500 hp), and 4000 volts in National Electrical
+    Manufacturers Association (NEMA) frame sizes 143T and larger, for petroleum, chemical,
+    and other severe duty applications (commonly referred to as premium efficiency
+    severe duty motors). Excluded from the scope of this standard are motors with
+    sleeve bearings and additional specific features required for explosion-proof
+    motors.
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE P841/D-3-2018-05
+    docidentifier:
+    - content: IEEE P841/D-3-2018-05
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 841-2001
+    docidentifier:
+    - content: IEEE Std 841-2001
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Induction motors
+  - language: en
+    script: Latn
+    content: Petroleum
+  - language: en
+    script: Latn
+    content: Chemicals
+  - language: en
+    script: Latn
+    content: Warranties
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: 841-2009
+  - language: en
+    script: Latn
+    content: NEMA frame motors; polyphase induction motor
+  - language: en
+    script: Latn
+    content: severe duty motors
+  - language: en
+    script: Latn
+    content: squirrel cage motors
+  - language: en
+    script: Latn
+    content: totally enclosed fan-cooled (TEFC) motors
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.160.30
+    text: Motors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

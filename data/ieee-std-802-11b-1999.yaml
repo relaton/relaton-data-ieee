@@ -1,0 +1,148 @@
+---
+id: IEEEStd80211b1999
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information Technology - Telecommunications and information
+    exchange between systems - Local and Metropolitan networks - Specific requirements
+    - Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) specifications:
+    Higher Speed Physical Layer (PHY) Extension in the 2.4 GHz band'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/817038
+docidentifier:
+- content: IEEE Std 802.11b-1999
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.11b®-1999
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-1812-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.90914
+  type: DOI
+docnumber: IEEE Std 802.11b-1999
+date:
+- type: created
+  at: '2000-01-20'
+- type: published
+  at: '2016-02-16'
+- type: issued
+  at: '1999-09-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Changes and additions are provided for IEEE Std 802.11b-1999 to support
+    the higher rate Physical Layer for operation in the 2.4 GHz band.
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.11-1999
+    docidentifier:
+    - content: ANSI/IEEE Std 802.11-1999
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: IEEE 802.11 Standard
+  - language: en
+    script: Latn
+    content: 2.4 GHz
+  - language: en
+    script: Latn
+    content: high speed
+  - language: en
+    script: Latn
+    content: local area network (LAN)
+  - language: en
+    script: Latn
+    content: radio frequency (RF)
+  - language: en
+    script: Latn
+    content: wireless
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,167 @@
+---
+id: IEEEStd802172011
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information technology--Telecommunications and information
+    exchange between systems Local and metropolitan area networks--Specific requirements
+    Part 17: Resilient packet ring (RPR) access method and physical layer specifications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6026209
+docidentifier:
+- content: IEEE Std 802.17-2011
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.17®-2011
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6710-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.6026209
+  type: DOI
+docnumber: IEEE Std 802.17-2011
+date:
+- type: created
+  at: '2011'
+- type: published
+  at: '2011-09-21'
+- type: issued
+  at: '2011-05-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines the medium access control characteristics, physical
+    layer interface methods and layer management parameters for the resilient packet
+    ring (RPR) access method for ring topologies. A set of protocols for detecting
+    and initializing the shared ring configuration, recovering from failures, and
+    regulating fair access to the shared medium are also described. Specifications
+    are provided for interface to a number of physical layers, supporting data rates
+    up to 10 Gb/s. System considerations and management information base (MIB) specifications
+    are also provided in this standard. The PDF of the standard is available at no
+    cost compliments of the GETIEEE802 group located at http://standards.ieee.org/about/get/802/support.html
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Resilience
+  - language: en
+    script: Latn
+    content: fairness
+  - language: en
+    script: Latn
+    content: IEEE 802.17
+  - language: en
+    script: Latn
+    content: layer management
+  - language: en
+    script: Latn
+    content: metropolitan area network (MAN)
+  - language: en
+    script: Latn
+    content: medium access control
+  - language: en
+    script: Latn
+    content: physical layer
+  - language: en
+    script: Latn
+    content: protection switching
+  - language: en
+    script: Latn
+    content: resilient packet ring (RPR)
+  - language: en
+    script: Latn
+    content: ring topology
+  - language: en
+    script: Latn
+    content: topology detection
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

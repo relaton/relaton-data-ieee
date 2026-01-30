@@ -1,0 +1,156 @@
+---
+id: IEEEStd14452016
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Digital Test Interchange Format (DTIF)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7837032
+docidentifier:
+- content: IEEE Std 1445-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 1445™-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-3691-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2017.7837032
+  type: DOI
+docnumber: IEEE Std 1445-2016
+date:
+- type: updated
+  at: '2017-02-25'
+- type: created
+  at: '2017-01-27'
+- type: published
+  at: '2017-01-31'
+- type: issued
+  at: '2016-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The information content and the data formats for the interchange of digital
+    test program data between digital automated test program generators (DATPGs) and
+    automatic test equipment (ATE) for board-level printed circuit assemblies are
+    defined. This information can be broadly grouped into data that defines the following:
+    user under test (UUT) model, stimulus and response, fault dictionary, and probe.'
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1445-1998
+    docidentifier:
+    - content: IEEE Std 1445-1998
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Test equipment
+  - language: en
+    script: Latn
+    content: Digital systems
+  - language: en
+    script: Latn
+    content: Test interchange format
+  - language: en
+    script: Latn
+    content: Automatic test equipment
+  - language: en
+    script: Latn
+    content: automatic test equipment
+  - language: en
+    script: Latn
+    content: ATE
+  - language: en
+    script: Latn
+    content: DATPG
+  - language: en
+    script: Latn
+    content: digital automated test program generator
+  - language: en
+    script: Latn
+    content: digital test interchange format
+  - language: en
+    script: Latn
+    content: DTIF
+  - language: en
+    script: Latn
+    content: fault dictionary data
+  - language: en
+    script: Latn
+    content: IEEE 1445(TM)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

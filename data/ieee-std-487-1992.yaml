@@ -1,0 +1,143 @@
+---
+id: IEEEStd4871992
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for the Protection of Wire-Line Communication
+    Facilities Serving Electric Power Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/210903
+docidentifier:
+- content: IEEE Std 487-1992
+  type: IEEE
+  primary: true
+- content: IEEE Std 487™-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3059-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1992.114372
+  type: DOI
+docnumber: IEEE Std 487-1992
+date:
+- type: created
+  at: '1992-11-04'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1992-03-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Workable methods for protecting wire-line communication circuits entering
+    power stations are presented. This document covers: the electric power station
+    environment; protection apparatus; service types, reliability, service performance
+    objective classifications, and transmission considerations; protection theory
+    and philosophy; protection configurations; installation and inspection; and safety.'
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 487-1980
+    docidentifier:
+    - content: ANSI/IEEE Std 487-1980
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 487-2000
+    docidentifier:
+    - content: IEEE Std 487-2000
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Protection
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Wire communication cables
+  - language: en
+    script: Latn
+    content: wire
+  - language: en
+    script: Latn
+    content: line
+  - language: en
+    script: Latn
+    content: communication
+  - language: en
+    script: Latn
+    content: protection
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

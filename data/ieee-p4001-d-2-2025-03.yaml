@@ -1,0 +1,211 @@
+---
+id: IEEEP4001D2202503
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Characterization and Calibration of Ultraviolet
+    through Shortwave Infrared (250 nm to 2500 nm) Hyperspectral Imaging Devices
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10949824
+docidentifier:
+- content: IEEE P4001/D-2-2025-03
+  type: IEEE
+  primary: true
+- content: IEEE P4001™/D-2-2025-03
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2055-6
+  type: ISBN
+docnumber: IEEE P4001/D-2-2025-03
+date:
+- type: created
+  at: '2025-04-03'
+- type: published
+  at: '2025-04-04'
+- type: issued
+  at: '2025-06-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Committee of the IEEE Geoscience and Remote Sensing Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines performance characteristics for hyperspectral imaging
+    devices, usually referred to as hyperspectral cameras or imagers, as well as metadata
+    for hyperspectral images, for a set of use cases defined to represent a wide range
+    of applications. In the context of this standard, a hyperspectral camera or data
+    set is defined as one in which pixel spectra are measured over a specified spectral
+    range without gaps and with a spectral sampling interval not exceeding 1/30 of
+    the spectral range. The standard considers cameras operating in the spectral range
+    from 250 nm to 2500 nm wavelength, and applies to a defined set of hyperspectral
+    camera architectures. Camera characteristics are defined to cover all key aspects
+    of camera performance. Within the applicable camera architectures, the characteristics
+    are defined so as to be directly comparable between cameras. Metadata are defined
+    for describing camera-related aspects of a hyperspectral image, which can aid
+    information extraction in the subsequent exploitation of the image.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Hyperspectral imaging
+  - language: en
+    script: Latn
+    content: Spectroscopy
+  - language: en
+    script: Latn
+    content: Cameras
+  - language: en
+    script: Latn
+    content: Image resolution
+  - language: en
+    script: Latn
+    content: Distortion
+  - language: en
+    script: Latn
+    content: Metadata
+  - language: en
+    script: Latn
+    content: Infrared imaging
+  - language: en
+    script: Latn
+    content: band
+  - language: en
+    script: Latn
+    content: camera
+  - language: en
+    script: Latn
+    content: co-registration error
+  - language: en
+    script: Latn
+    content: distortion
+  - language: en
+    script: Latn
+    content: étendue
+  - language: en
+    script: Latn
+    content: field of view
+  - language: en
+    script: Latn
+    content: ground sampling distance
+  - language: en
+    script: Latn
+    content: hyperspectral
+  - language: en
+    script: Latn
+    content: IEEE 4001(TM)
+  - language: en
+    script: Latn
+    content: image
+  - language: en
+    script: Latn
+    content: imaging spectroscopy
+  - language: en
+    script: Latn
+    content: spectrometer
+  - language: en
+    script: Latn
+    content: keystone
+  - language: en
+    script: Latn
+    content: imager
+  - language: en
+    script: Latn
+    content: metadata
+  - language: en
+    script: Latn
+    content: multispectral
+  - language: en
+    script: Latn
+    content: pixel
+  - language: en
+    script: Latn
+    content: resolution
+  - language: en
+    script: Latn
+    content: smile
+  - language: en
+    script: Latn
+    content: spectral camera
+  - language: en
+    script: Latn
+    content: spectral imager
+  - language: en
+    script: Latn
+    content: spectral image
+  - language: en
+    script: Latn
+    content: spectral sampling interval
+  - language: en
+    script: Latn
+    content: stray light
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 17.180.01
+    text: Optics and optical measurements in general
+  - code: 37.040.01
+    text: Photography in general
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

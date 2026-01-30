@@ -1,0 +1,155 @@
+---
+id: IEEEStd11101991
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Synchronous Generator Modeling Practices in Stability Analyses
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159388
+docidentifier:
+- content: IEEE Std 1110-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 1110™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3909-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1991.101073
+  type: DOI
+docnumber: IEEE Std 1110-1991
+date:
+- type: created
+  at: '1991-11-18'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1991-03-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Electric Machinery of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by 1110-2002. Three direct-axis and four quadrature-axis models
+    are categorized, along with the basic transient reactance model. Some of the assumptions
+    made in using various models, including the basic model, are discussed, and the
+    fundamental equations and concepts involved in generator/system interfacing are
+    presented. The various attributes of power system stability are covered in a general
+    way, with two basic approaches being recognized. The first is categorized under
+    large-disturbance nonlinear analysis. The second approach considers small disturbances,
+    where the corresponding dynamic equations are linearized. Applications of a range
+    of generator models are discussed and treated. The manner in which generator saturation
+    is treated in stability studies, both in the initialization process, as well as
+    during large or small disturbance stability analysis procedures is addressed.
+    Saturation functions that are derived either from test data or by the methods
+    of finite elements are developed. Different saturation algorithms for calculating
+    values of excitation and internal power angle, depending upon generator terminal
+    conditions, are compared. The question of parameter determination is thoroughly
+    covered. Two approaches in accounting for generator field and excitation system
+    base quantities are identified. Conversion factors are given for transferring
+    field parameters from one base to another for correct generator/excitation system
+    interface modeling. Suggestions for modeling of negative field currents and other
+    field circuit discontinuities are included.
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1110-2002
+    docidentifier:
+    - content: IEEE Std 1110-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Power systems
+  - language: en
+    script: Latn
+    content: Stability
+  - language: en
+    script: Latn
+    content: Synchronous generators
+  - language: en
+    script: Latn
+    content: models
+  - language: en
+    script: Latn
+    content: application
+  - language: en
+    script: Latn
+    content: analyses
+  - language: en
+    script: Latn
+    content: Synchronous generator stability
+  - language: en
+    script: Latn
+    content: Stability data determination
+  - language: en
+    script: Latn
+    content: Saturation practices
+  - language: en
+    script: Latn
+    content: Modeling practices
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.160.20
+    text: Generators
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

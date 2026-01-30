@@ -1,0 +1,163 @@
+---
+id: ISOIEEE11073107002024
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEEE International Standard: Health informatics--Device interoperability--Part
+    10700: Point‐of‐care medical device communication--Standard for base requirements
+    for participants in a Service‐oriented Device Connectivity (SDC) system'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10693342
+docidentifier:
+- content: ISO/IEEE 11073.10700-2024
+  type: IEEE
+  primary: true
+- content: ISO/IEEE 11073.10700™-2024
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1254-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2024.10693342
+  type: DOI
+docnumber: ISO/IEEE 11073.10700-2024
+date:
+- type: created
+  at: '2024'
+- type: published
+  at: '2024-09-24'
+- type: issued
+  at: '2024'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Medical devices that offer a communication interface as specified by the
+    IEEE 11073 Service-oriented Device Connectivity (SDC) standards can be integrated
+    into a health IT system to jointly execute system functions. However, implementing
+    the IEEE 11073 SDC communication protocol is not sufficient to demonstrate safety,
+    effectiveness, and security of system functions resulting from the combination
+    of system function contributions from two or more medical devices. SDC participant
+    key purposes (PKPs) are sets of requirements that allow for manufacturers to have
+    certain expectations about BICEPS participants from other manufacturers. This
+    common understanding enables the manufacturers to perform risk management, verification,
+    validation, and usability engineering for the safe use of system functions. This
+    standard specifies requirements for the allocation of responsibilities to SDC
+    base participants.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 11073.10700-2022
+    docidentifier:
+    - content: IEEE Std 11073.10700-2022
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Interoperability
+  - language: en
+    script: Latn
+    content: Service-oriented architecture
+  - language: en
+    script: Latn
+    content: Point of care
+  - language: en
+    script: Latn
+    content: base PKP; BICEPS; communication protocol specification; documentation
+      and process responsibilities; dynamic medical device interoperability; IEEE
+      11073-10700&#8482;; integrated clinical environment; participant key purpose;
+      point-of-care medical device communication; risk management; SDC; service-oriented
+      device connectivity; safety
+  - language: en
+    script: Latn
+    content: effectiveness
+  - language: en
+    script: Latn
+    content: and security; system function; system function contribution; usability
+      engineering
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

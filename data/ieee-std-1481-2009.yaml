@@ -1,0 +1,154 @@
+---
+id: IEEEStd14812009
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Integrated Circuit (IC) Open Library Architecture (OLA)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9056870
+docidentifier:
+- content: IEEE Std 1481-2009
+  type: IEEE
+  primary: true
+- content: IEEE Std 1481™-2009
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6155-6
+  type: ISBN
+docnumber: IEEE Std 1481-2009
+date:
+- type: created
+  at: '2010-03-11'
+- type: published
+  at: '2020-04-03'
+- type: issued
+  at: '2009-12-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Ways for integrated circuit designers to analyze chip timing and power
+    consistently across a broad set of electric design automation (EDA) applications
+    are covered in this standard. Methods by which integrated circuit vendors can
+    express timing and power information once per given technology are also covered.
+    In addition, this standard covers means by which EDA vendors can meet their application
+    performance and capacity needs.
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1481-1999
+    docidentifier:
+    - content: IEEE Std 1481-1999
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1481-2019
+    docidentifier:
+    - content: IEEE Std 1481-2019
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1481-2019
+    docidentifier:
+    - content: IEEE Std 1481-2019
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Integrated circuits
+  - language: en
+    script: Latn
+    content: Delays
+  - language: en
+    script: Latn
+    content: Printed circuits
+  - language: en
+    script: Latn
+    content: Electronic design automation
+  - language: en
+    script: Latn
+    content: 1481-2009
+  - language: en
+    script: Latn
+    content: chip delay
+  - language: en
+    script: Latn
+    content: electronic design automation (EDA)
+  - language: en
+    script: Latn
+    content: integrated circuit (IC) design
+  - language: en
+    script: Latn
+    content: power calculation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

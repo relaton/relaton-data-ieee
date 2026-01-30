@@ -1,0 +1,160 @@
+---
+id: IEEEStd185732013
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for System of Advanced Audio and Video Coding
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6716945
+docidentifier:
+- content: IEEE Std 1857.3-2013
+  type: IEEE
+  primary: true
+- content: IEEE Std 1857.3™-2013
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8866-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2014.6716945
+  type: DOI
+docnumber: IEEE Std 1857.3-2013
+date:
+- type: created
+  at: '2014-01-20'
+- type: published
+  at: '2014-01-20'
+- type: issued
+  at: '2013-12-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Data Compression Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Storage file formats and real-time transport protocol (RTP) payload formats
+    for IEEE 1857(tm) video and IEEE 1857.2(tm) audio are defined. The storage of
+    video and audio not only uses the existing capabilities of the ISO base media
+    file format, but also defines extensions to support specific features of the IEEE
+    1857 video codec and IEEE 1857.2 audio codec. The target applications and services
+    include but are not limited to Internet media streaming, IPTV, video conference,
+    video telephony, and video-on-demand.
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Video coding
+  - language: en
+    script: Latn
+    content: Storage automation
+  - language: en
+    script: Latn
+    content: Audio coding
+  - language: en
+    script: Latn
+    content: File formats
+  - language: en
+    script: Latn
+    content: Packetization
+  - language: en
+    script: Latn
+    content: audio
+  - language: en
+    script: Latn
+    content: box
+  - language: en
+    script: Latn
+    content: file format
+  - language: en
+    script: Latn
+    content: IEEE 1857.3(tm)
+  - language: en
+    script: Latn
+    content: NAL unit
+  - language: en
+    script: Latn
+    content: packetization
+  - language: en
+    script: Latn
+    content: RTP payload format
+  - language: en
+    script: Latn
+    content: storage
+  - language: en
+    script: Latn
+    content: system
+  - language: en
+    script: Latn
+    content: track
+  - language: en
+    script: Latn
+    content: transmission
+  - language: en
+    script: Latn
+    content: video
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  - code: '35.040'
+    text: Information coding
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

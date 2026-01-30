@@ -1,0 +1,146 @@
+---
+id: IEEEStd14961993
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for a Chip and Module Interconnect Bus: SBus'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/278329
+docidentifier:
+- content: IEEE Std 1496-1993
+  type: IEEE
+  primary: true
+- content: IEEE Std 1496™-1993
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-55937-353-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.119229
+  type: DOI
+docnumber: IEEE Std 1496-1993
+date:
+- type: created
+  at: '1993'
+- type: published
+  at: '2019-02-01'
+- type: issued
+  at: '1993-06-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An input/output expansion bus with a 32- or 64-bit width is described in
+    this standard. The SBus is designed for systems requiring a small number of expansion
+    ports. SBus Cards may be connected to a standard SBus Connector mounted on the
+    motherboard. SBus Devices may also be attached to the SBus directly on the system's
+    motherboard. The dimensions of the Sbus Card are 83.8 mm by 146.7 mm, making the
+    cards appropriate for small computer systems that make extensive use of highly
+    integrated circuits. The SBus cards are designed to be installed in a plane parallel
+    to the system's motherboard as mezzanine cards. They are designed to provide connections
+    for devices external to the computer system through an exposed back panel. The
+    form factor is useful in Futurebus+, VMEbus, desktop computers, and similar applications.
+    The SBus has the capability of transferring data rates up to 168 Mbytes/s, depending
+    on the implementation options selected.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Data transfer
+  - language: en
+    script: Latn
+    content: Integrated circuit interconnections
+  - language: en
+    script: Latn
+    content: Microprogramming
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Sun
+  - language: en
+    script: Latn
+    content: Standard for Boot Firmware
+  - language: en
+    script: Latn
+    content: high
+  - language: en
+    script: Latn
+    content: reliability
+  - language: en
+    script: Latn
+    content: I/O bus
+  - language: en
+    script: Latn
+    content: SBus Card
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

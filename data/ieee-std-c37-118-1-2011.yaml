@@ -1,0 +1,200 @@
+---
+id: IEEEStdC3711812011
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Synchrophasor Measurements for Power Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6111219
+docidentifier:
+- content: IEEE Std C37.118.1-2011
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.118.1™-2011
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6811-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.6111219
+  type: DOI
+docnumber: IEEE Std C37.118.1-2011
+date:
+- type: updated
+  at: '2012-01-16'
+- type: created
+  at: '2011-12-28'
+- type: published
+  at: '2014-12-03'
+- type: issued
+  at: '2011-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Synchronized phasor (synchrophasor) measurements for power systems are
+    presented. This standard defines synchrophasors, frequency, and rate of change
+    of frequency (ROCOF) measurement under all operating conditions. It specifies
+    methods for evaluating these measurements and requirements for compliance with
+    the standard under both steady-state and dynamic conditions. Time tag and synchronization
+    requirements are included. Performance requirements are confirmed with a reference
+    model, provided in detail. This document defines a phasor measurement unit (PMU),
+    which can be a stand-alone physical unit or a functional unit within anotherre
+    physical unit. This standard does not specify hardware, software, or a method
+    for computing phasors, frequency, or ROCOF.
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.118-2005
+    docidentifier:
+    - content: IEEE Std C37.118-2005
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEC/IEEE 60255.118-1-2018
+    docidentifier:
+    - content: IEC/IEEE 60255.118-1-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Data storage
+  - language: en
+    script: Latn
+    content: Data processing
+  - language: en
+    script: Latn
+    content: Vectors
+  - language: en
+    script: Latn
+    content: Error statistics
+  - language: en
+    script: Latn
+    content: Phasor measurement units
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: data concentrator
+  - language: en
+    script: Latn
+    content: DC
+  - language: en
+    script: Latn
+    content: FE
+  - language: en
+    script: Latn
+    content: frequency error
+  - language: en
+    script: Latn
+    content: IEEE C37.118.1
+  - language: en
+    script: Latn
+    content: IRIG-B
+  - language: en
+    script: Latn
+    content: PDC
+  - language: en
+    script: Latn
+    content: phasor
+  - language: en
+    script: Latn
+    content: phasor measurement
+  - language: en
+    script: Latn
+    content: phasor measurement unit
+  - language: en
+    script: Latn
+    content: PMU
+  - language: en
+    script: Latn
+    content: RFE
+  - language: en
+    script: Latn
+    content: ROCOF
+  - language: en
+    script: Latn
+    content: ROCOF error
+  - language: en
+    script: Latn
+    content: synchronized phasor
+  - language: en
+    script: Latn
+    content: synchrophasor
+  - language: en
+    script: Latn
+    content: total vector error
+  - language: en
+    script: Latn
+    content: TVE
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

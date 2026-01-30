@@ -1,0 +1,148 @@
+---
+id: IEEEStd5772004
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Requirements for Reliability Analysis in the Design and Operation
+    of Safety Systems for Nuclear Facilities
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1331003
+docidentifier:
+- content: IEEE Std 577-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 577™-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4062-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.94603
+  type: DOI
+docnumber: IEEE Std 577-2004
+date:
+- type: created
+  at: '2004-08-30'
+- type: published
+  at: '2012-10-19'
+- type: issued
+  at: '2004-05-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard sets forth minimum acceptable requisites for the performance
+    of reliability analyses for safety-related systems of nuclear facilities when
+    used to address the reliability requirements identified in regulations and other
+    standards. The requirement that a reliability analysis be performed does not originate
+    with this standard. However, when reliability analysis is used to demonstrate
+    compliance with reliability requirements, this standard describes an acceptable
+    response to the requirements.
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 577-1976
+    docidentifier:
+    - content: ANSI/IEEE Std 577-1976
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 577-2012
+    docidentifier:
+    - content: IEEE Std 577-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Reliability engineering
+  - language: en
+    script: Latn
+    content: Power engineering
+  - language: en
+    script: Latn
+    content: Safety
+  - language: en
+    script: Latn
+    content: nuclear facilities
+  - language: en
+    script: Latn
+    content: reliability analysis
+  - language: en
+    script: Latn
+    content: safety systems
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

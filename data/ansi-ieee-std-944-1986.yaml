@@ -1,0 +1,120 @@
+---
+id: ANSIIEEEStd9441986
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for the Application and Testing of Uninterruptible
+    Power Supplies for Power Generating Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/26582
+docidentifier:
+- content: ANSI/IEEE Std 944-1986
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 944™-1986
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-0722-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1986.79646
+  type: DOI
+docnumber: ANSI/IEEE Std 944-1986
+date:
+- type: created
+  at: '1986'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1985-12-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power Generation Committee of the IEEE Power Engineering Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The application and performance requirements for a low-voltage uninterruptible
+    power supply system used for service in power generating stations are defined.
+    Application requirements such as load information and service conditions, routine
+    testing requirements for inverters with or without rectifiers/chargers, and transfer
+    switches are all covered. Only semiconductor AC to AC converter systems with a
+    DC electric energy storage capability are considered. Particular attention is
+    given to nuclear power generating stations.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1986'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Electronic equipment testing
+  - language: en
+    script: Latn
+    content: Emergency power supplies
+  - language: en
+    script: Latn
+    content: Standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '27.100'
+    text: Power stations in general
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,160 @@
+---
+id: IEEEP19321Dv042023
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Licensed/Unlicensed Spectrum Interoperability in
+    Wireless Mobile Networks
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10192532
+docidentifier:
+- content: IEEE P1932.1/D-v0.4-2023
+  type: IEEE
+  primary: true
+- content: IEEE P1932.1™/D-v0.4-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9944-6
+  type: ISBN
+docnumber: IEEE P1932.1/D-v0.4-2023
+date:
+- type: created
+  at: '2023-07-21'
+- type: published
+  at: '2023-07-24'
+- type: issued
+  at: '2024-02-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Mobile Communication Networks Standards Committee of the IEEE Communications
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The proliferation of connected users and downloaded applications has driven
+    the development of a new paradigm in wireless mobile networks. Additional air
+    interfaces operating in the unlicensed spectrum serving as supplementary downlinks
+    (SDL) and enhancing end-user throughput are utilized by this paradigm. However,
+    integrating these interfaces into licensed base stations can be challenging, as
+    they are distributed across various domains. WiFi is a key technology for increasing
+    capacity through the user plane interface. Traffic is buffered in WiFi when unlicensed
+    channels become unavailable, and transmissions resume once new radio slots are
+    free. To meet the strict round-time delay requirements of fifth generation (5G)
+    networks, a new virtual controller that resides at the mobile edge cloud is defined
+    in this standard. The multi-connectivity model and traffic sharing between licensed
+    and unlicensed interfaces are coordinated by the controller based on the real-time
+    availability of unlicensed channels for specific user equipment.Two schemes are
+    presented for managing multi-connectivity modes: distributed and centralized.
+    In the distributed scheme, traffic forwarding and steering between distributed
+    radio interfaces across domain sites is managed by the controller. In the centralized
+    scheme, various radio interfaces are co‑located in the same base station, and
+    traffic steering is managed by the controller through a new unified 5G media access
+    control (MAC) design. Traffic sharing between different interfaces is ensured
+    by the controller, given that access to operator-deployed WiFis or any other customer
+    WiFi using separate service level agreements (SLAs) is provided by operators.
+    Multi-connectivity modes imply the provision of efficient new services that may
+    require measuring airtime for each interface and changes to user plane topology.'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Wireless networks
+  - language: en
+    script: Latn
+    content: Interoperability
+  - language: en
+    script: Latn
+    content: Licenses
+  - language: en
+    script: Latn
+    content: 5G mobile communication
+  - language: en
+    script: Latn
+    content: Radio spectrum management
+  - language: en
+    script: Latn
+    content: 5G core
+  - language: en
+    script: Latn
+    content: IEEE 1932.1
+  - language: en
+    script: Latn
+    content: licensed band
+  - language: en
+    script: Latn
+    content: spectrum utilization
+  - language: en
+    script: Latn
+    content: unlicensed band
+  - language: en
+    script: Latn
+    content: virtual controller
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.070.50
+    text: Global System for Mobile Communication (GSM)
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,134 @@
+---
+id: IEEEStd1151983
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Guide: Test Procedures for Synchronous Machines'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/35041
+docidentifier:
+- content: IEEE Std 115-1983
+  type: IEEE
+  primary: true
+- content: IEEE Std 115™-1983
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4331-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1983.86121
+  type: DOI
+docnumber: IEEE Std 115-1983
+date:
+- type: created
+  at: '1983'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1982-03-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Electric Machinery of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Instructions for conducting the more generally applicable and accepted
+    tests to determine the performance characteristics of synchronous machines are
+    contained in this guide. Although the tests described are applicable in general
+    to synchronous generators, synchronous motors (larger than fractional horsepower),
+    synchronous condensers, and synchronous frequency changers, the descriptions make
+    reference primarily to synchronous generators and synchronous motors.
+copyright:
+- from: '1983'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 115-1995
+    docidentifier:
+    - content: IEEE Std 115-1995
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Insulation testing
+  - language: en
+    script: Latn
+    content: Bearings (mechanical)
+  - language: en
+    script: Latn
+    content: Synchronous machines
+  - language: en
+    script: Latn
+    content: synchronous
+  - language: en
+    script: Latn
+    content: machines
+  - language: en
+    script: Latn
+    content: motor
+  - language: en
+    script: Latn
+    content: Rotating-machine testing
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.160.20
+    text: Generators
+  - code: 29.160.30
+    text: Motors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

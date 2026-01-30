@@ -1,0 +1,121 @@
+---
+id: IEEEStd12841994
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Signaling Method for a Bidirectional Parallel Peripheral
+    Interface for Personal Computers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/469123
+docidentifier:
+- content: IEEE Std 1284-1994
+  type: IEEE
+  primary: true
+- content: IEEE Std 1284™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2749-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1994.122650
+  type: DOI
+docnumber: IEEE Std 1284-1994
+date:
+- type: created
+  at: '1994'
+- type: issued
+  at: '1994-03-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A signaling method for asynchronous, fully interlocked, bidirectional parallel
+    communications between hosts and printers or other peripherals is defined. A format
+    for a peripheral identification string and a method of returning this string to
+    the host outside of the bidirectional data stream is also specified<<ETX>>
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1284-2000
+    docidentifier:
+    - content: IEEE Std 1284-2000
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1284-2000
+    docidentifier:
+    - content: IEEE Std 1284-2000
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Communication system signaling
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

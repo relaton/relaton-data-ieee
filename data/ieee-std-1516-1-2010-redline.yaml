@@ -1,0 +1,184 @@
+---
+id: IEEEStd151612010Redline
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Modeling and Simulation (M&S) High Level Architecture
+    (HLA)-- Federate Interface Specification
+  type: title-main
+- content: IEEE Standard for Modeling and Simulation (M&S) High Level Architecture
+    (HLA)-- Federate Interface Specification - Redline
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5954120
+docidentifier:
+- content: IEEE Std 1516.1-2010 Redline
+  type: IEEE
+  primary: true
+- content: IEEE Std 1516.1™-2010 Redline
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6833-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2010.5954120
+  type: DOI
+docnumber: IEEE Std 1516.1-2010 Redline
+date:
+- type: created
+  at: '2010-08-18'
+- type: published
+  at: '2011-07-13'
+- type: issued
+  at: '2010-03-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Simulation Interoperability Stds Organization/Stds Activity Committee
+          of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The High Level Architecture (HLA) has been developed to provide a common
+    architecture for distributed modeling and simulation. The HLA defines an integrated
+    approach that provides a common framework for the interconnection of interacting
+    simulations. This document, the second in a family of three related HLA documents,
+    defines the standard services of and interfaces to the HLA runtime infrastructure
+    (RTI). These services are used by the interacting simulations to achieve a coordinated
+    exchange of information when they participate in a distributed federation. The
+    standards contained in this architecture are interrelated and need to be considered
+    as a product set, when changes are made. They each have value independently.
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Metasearch
+  - language: en
+    script: Latn
+    content: Computer architecture
+  - language: en
+    script: Latn
+    content: Software architecture
+  - language: en
+    script: Latn
+    content: User interfaces
+  - language: en
+    script: Latn
+    content: Modeling
+  - language: en
+    script: Latn
+    content: Simulatin
+  - language: en
+    script: Latn
+    content: Object oriented modeling
+  - language: en
+    script: Latn
+    content: architecture
+  - language: en
+    script: Latn
+    content: class attribute
+  - language: en
+    script: Latn
+    content: data distribution management
+  - language: en
+    script: Latn
+    content: federate
+  - language: en
+    script: Latn
+    content: federation
+  - language: en
+    script: Latn
+    content: federation execution
+  - language: en
+    script: Latn
+    content: federation object model
+  - language: en
+    script: Latn
+    content: HLA
+  - language: en
+    script: Latn
+    content: instance attribute
+  - language: en
+    script: Latn
+    content: instance attribute ownership
+  - language: en
+    script: Latn
+    content: interaction class
+  - language: en
+    script: Latn
+    content: object class
+  - language: en
+    script: Latn
+    content: runtime infrastructure
+  - language: en
+    script: Latn
+    content: simulation object model
+  - language: en
+    script: Latn
+    content: time-constrained
+  - language: en
+    script: Latn
+    content: time-regulating
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: redline
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

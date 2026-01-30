@@ -1,0 +1,165 @@
+---
+id: IEEEStd74322016
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Criteria for Programmable Digital Devices in Safety Systems
+    of Nuclear Power Generating Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7552419
+docidentifier:
+- content: IEEE Std 7.4.3.2-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 7.4.3.2™-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0859-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7552419
+  type: DOI
+docnumber: IEEE Std 7.4.3.2-2016
+date:
+- type: created
+  at: '2016-08-25'
+- type: published
+  at: '2016-08-25'
+- type: issued
+  at: '2016-01-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Power Engineering Committee of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Additional specific requirements to supplement the criteria and requirements
+    of IEEE Std 603(TM) are specified for programmable digital devices. Within the
+    context of this standard, the term programmable digital device is any device that
+    relies on software instructions or programmable logic to accomplish a function.
+    Examples include a computer, a programmable hardware device, or a device with
+    firmware. Systems using these devices will also be referred to as digital safety
+    systems in this standard. The criteria contained herein, in conjunction with criteria
+    in IEEE Std 603, establish minimum functional and design requirements for programmable
+    digital devices used as components of a safety system
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 7.4.3.2-2010
+    docidentifier:
+    - content: IEEE Std 7.4.3.2-2010
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Digital systems
+  - language: en
+    script: Latn
+    content: Safety
+  - language: en
+    script: Latn
+    content: Software verification
+  - language: en
+    script: Latn
+    content: Nuclear power generation
+  - language: en
+    script: Latn
+    content: commercial grade item
+  - language: en
+    script: Latn
+    content: diversity
+  - language: en
+    script: Latn
+    content: IEEE 7-4.3.2(TM)
+  - language: en
+    script: Latn
+    content: programmable digital devices
+  - language: en
+    script: Latn
+    content: safety systems
+  - language: en
+    script: Latn
+    content: software
+  - language: en
+    script: Latn
+    content: software tools
+  - language: en
+    script: Latn
+    content: software verifi cation and validation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

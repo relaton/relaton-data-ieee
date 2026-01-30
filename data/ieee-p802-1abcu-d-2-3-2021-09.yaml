@@ -1,0 +1,159 @@
+---
+id: IEEEP8021ABcuD23202109
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Approved Draft Standard for Local and Metropolitan Area Networks
+    - Station and Media Access Control Connectivity Discovery Amendment: YANG Data
+    Model'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9547249
+docidentifier:
+- content: IEEE P802.1ABcu/D-2.3-2021-09
+  type: IEEE
+  primary: true
+- content: IEEE P802.1ABcu™/D-2.3-2021-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8023-9
+  type: ISBN
+docnumber: IEEE P802.1ABcu/D-2.3-2021-09
+date:
+- type: created
+  at: '2021-12-11'
+- type: published
+  at: '2021-09-23'
+- type: issued
+  at: '2021-12-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.1AB-2016 specifies a Unified Modeling Language
+    (UML)-based information model and a YANG data model that allows configuration
+    and status reporting for bridges and bridge components with regards to topology
+    discovery.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.1AB-2016
+    docidentifier:
+    - content: IEEE Std 802.1AB-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Data models
+  - language: en
+    script: Latn
+    content: Knowledge discovery
+  - language: en
+    script: Latn
+    content: Bridged Local Area Networks
+  - language: en
+    script: Latn
+    content: IEEE 802
+  - language: en
+    script: Latn
+    content: IEEE 802.1AB
+  - language: en
+    script: Latn
+    content: IEEE 802.1ABcu
+  - language: en
+    script: Latn
+    content: local area networks (LANs)
+  - language: en
+    script: Latn
+    content: MAC Bridges
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: YANG
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

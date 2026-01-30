@@ -1,0 +1,164 @@
+---
+id: IEEEStd123232014
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for the Use of Artificial Intelligence Exchange and Service
+    Tie to All Test Environments (AI-ESTATE)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6922153
+docidentifier:
+- content: IEEE Std 1232.3-2014
+  type: IEEE
+  primary: true
+- content: IEEE Std 1232.3™-2014
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9322-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2014.6922153
+  type: DOI
+docnumber: IEEE Std 1232.3-2014
+date:
+- type: created
+  at: '2014-10-10'
+- type: published
+  at: '2014-10-13'
+- type: issued
+  at: '2014-08-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: SCC20 - Test and Diagnosis for Electronic Systems of the IEEE SA
+          Board of Governors
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Guidance to developers of IEEE Std 1232-conformant applications is provided
+    in this guide. A simple doorbell is used as an example system under test to illustrate
+    how the static model constructs of Artificial Intelligence Exchange and Service
+    Tie to All Test Environments (AI-ESTATE) are used to form a diagnostic reasoner
+    knowledge base. Each of AI-ESTATE's knowledge base types is discussed in conceptual
+    terms, and how those concepts are represented in exchange files is shown. Also,
+    some of the nuanced aspects of diagnostic knowledge bases in AI-ESTATE are clarified.
+    An example reasoner session is provided to illustrate the use of AI-ESTATE services.
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Bayes methods
+  - language: en
+    script: Latn
+    content: Artificial intelligence
+  - language: en
+    script: Latn
+    content: Diagnostics
+  - language: en
+    script: Latn
+    content: Fault diagnosis
+  - language: en
+    script: Latn
+    content: Knowledge management
+  - language: en
+    script: Latn
+    content: AI-ESTATE
+  - language: en
+    script: Latn
+    content: Bayesian Network
+  - language: en
+    script: Latn
+    content: diagnosis
+  - language: en
+    script: Latn
+    content: diagnostic inference
+  - language: en
+    script: Latn
+    content: diagnostic model
+  - language: en
+    script: Latn
+    content: diagnostic services
+  - language: en
+    script: Latn
+    content: D-matrix
+  - language: en
+    script: Latn
+    content: fault tree
+  - language: en
+    script: Latn
+    content: IEEE 1232.3(TM)
+  - language: en
+    script: Latn
+    content: knowledge exchange
+  - language: en
+    script: Latn
+    content: reasoner
+  - language: en
+    script: Latn
+    content: system test
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

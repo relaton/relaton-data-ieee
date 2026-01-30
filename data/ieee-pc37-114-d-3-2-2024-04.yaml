@@ -1,0 +1,162 @@
+---
+id: IEEEPC37114D32202404
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Guide for Determining Fault Location on AC Transmission and
+    Distribution Lines
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10510396
+docidentifier:
+- content: IEEE PC37.114/D-3.2-2024-04
+  type: IEEE
+  primary: true
+- content: IEEE PC37.114™/D-3.2-2024-04
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0768-7
+  type: ISBN
+docnumber: IEEE PC37.114/D-3.2-2024-04
+date:
+- type: created
+  at: '2024-04-26'
+- type: published
+  at: '2024-04-30'
+- type: issued
+  at: '2024'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Electrical faults on transmission and distribution lines are detected
+    and isolated by system protective devices. Once the fault has been cleared, outage
+    times can be reduced if the location of the fault can be determined more quickly.
+    The techniques and application considerations for determining the location of
+    a fault on ac transmission and distribution lines are outlined in this guide.
+    Traditional approaches and the primary measurement techniques used in modern devices
+    are reviewed: one- and two-terminal impedance-based methods and traveling-wave
+    methods. Application considerations include: two- and three-terminal lines, series-compensated
+    lines, parallel lines, untransposed lines, underground cables, fault resistance
+    effects, and other power system conditions, including those unique to distribution
+    systems.'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.114-2014
+    docidentifier:
+    - content: IEEE Std C37.114-2014
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Phasor measurement units
+  - language: en
+    script: Latn
+    content: Traveling wave tubes
+  - language: en
+    script: Latn
+    content: Fault diagnosis
+  - language: en
+    script: Latn
+    content: Power distribution lines
+  - language: en
+    script: Latn
+    content: AC machines
+  - language: en
+    script: Latn
+    content: Power transmission lines
+  - language: en
+    script: Latn
+    content: fault location
+  - language: en
+    script: Latn
+    content: IEEE C37.114&#8482;
+  - language: en
+    script: Latn
+    content: relays
+  - language: en
+    script: Latn
+    content: synchrophasor
+  - language: en
+    script: Latn
+    content: system protection
+  - language: en
+    script: Latn
+    content: travelling waves
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

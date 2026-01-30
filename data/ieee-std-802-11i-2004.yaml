@@ -1,0 +1,190 @@
+---
+id: IEEEStd80211i2004
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for information technology-Telecommunications and information
+    exchange between systems-Local and metropolitan area networks-Specific requirements-Part
+    11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) specifications:
+    Amendment 6: Medium Access Control (MAC) Security Enhancements'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1318903
+docidentifier:
+- content: IEEE Std 802.11i-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.11i®-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4074-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.94585
+  type: DOI
+docnumber: IEEE Std 802.11i-2004
+date:
+- type: created
+  at: '2004-07-24'
+- type: published
+  at: '2014-12-08'
+- type: issued
+  at: '2004-06-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment defines security mechanisms for IEEE 802.11. It includes
+    a definition of WEP for backward compatibility with the original standard, IEEE
+    Std 802.11, 1999 Edition. It defines TKIP and CCMP, which provide more robust
+    data protection mechanisms than WEP affords. This amendment introduces the concept
+    of a security association into IEEE 802.11, and defines security association management
+    protocols called the 4-Way Handshake and the Group Key Handshake. Finally, it
+    specifies how IEEE 802.1X may be utilized by IEEE 802.11 LANs to effect authentication.
+    An Interpretation is available at http://standards.ieee.org/findstds/interps/802.11i-2004.html
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.11-1999
+    docidentifier:
+    - content: ANSI/IEEE Std 802.11-1999
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Security
+  - language: en
+    script: Latn
+    content: IEEE 802.11 Standard
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Licenses
+  - language: en
+    script: Latn
+    content: AES
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: CCM
+  - language: en
+    script: Latn
+    content: CCMP
+  - language: en
+    script: Latn
+    content: confidentiality
+  - language: en
+    script: Latn
+    content: countermeasures
+  - language: en
+    script: Latn
+    content: data authenticity
+  - language: en
+    script: Latn
+    content: EAPOL-Key
+  - language: en
+    script: Latn
+    content: 4-Way Handshake
+  - language: en
+    script: Latn
+    content: Group Key Handshake
+  - language: en
+    script: Latn
+    content: IEEE 802.1X
+  - language: en
+    script: Latn
+    content: key management
+  - language: en
+    script: Latn
+    content: key mixing
+  - language: en
+    script: Latn
+    content: Michael
+  - language: en
+    script: Latn
+    content: RC4
+  - language: en
+    script: Latn
+    content: replay protection
+  - language: en
+    script: Latn
+    content: robust security network
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

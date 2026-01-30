@@ -1,0 +1,155 @@
+---
+id: IEEEStd5281994
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Inertial Sensor Terminology
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/392610
+docidentifier:
+- content: IEEE Std 528-1994
+  type: IEEE
+  primary: true
+- content: IEEE Std 528™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3130-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1994.121447
+  type: DOI
+docnumber: IEEE Std 528-1994
+date:
+- type: created
+  at: '1994-08-10'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1994-05-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: SUPERSEDED BY IEEE STD 528-2001. Terms and definitions relating to inertial
+    sensors are presented. Usage as understood by the inertial sensor community is
+    given preference over general technical usage of the terms herein. The criterion
+    for inclusion of a term and its definition in this document is usefulness as related
+    to inertial sensor technology.
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 528-1984
+    docidentifier:
+    - content: ANSI/IEEE Std 528-1984
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 528-2001
+    docidentifier:
+    - content: IEEE Std 528-2001
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 528-2001
+    docidentifier:
+    - content: IEEE Std 528-2001
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Terminology
+  - language: en
+    script: Latn
+    content: Accelerometers
+  - language: en
+    script: Latn
+    content: Diamond
+  - language: en
+    script: Latn
+    content: Aerospace and electronic systems
+  - language: en
+    script: Latn
+    content: IEEE Societies
+  - language: en
+    script: Latn
+    content: Inertial sensor terminology
+  - language: en
+    script: Latn
+    content: Inertial sensor technology
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.17
+    text: Metrology and measurement. Physical phenomena (Vocabularies)
+  - code: '17.020'
+    text: Metrology and measurement in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

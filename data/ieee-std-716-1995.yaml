@@ -1,0 +1,129 @@
+---
+id: IEEEStd7161995
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Test Language for All Systems - Common/Abbreviated Test Language
+    for All Systems (C/ATLAS)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1582053
+docidentifier:
+- content: IEEE Std 716-1995
+  type: IEEE
+  primary: true
+- content: IEEE Std 716™-1995
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0622-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1995.98752
+  type: DOI
+docnumber: IEEE Std 716-1995
+date:
+- type: created
+  at: '1995-06-14'
+- type: published
+  at: '2006-01-30'
+- type: issued
+  at: '1995-03-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A high order language for testing is defined. This language is designed
+    to describe tests in terms that are independent of any specific test system, and
+    has been constrained to ensure that it can be implemented on automatic test equipment.
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: 'Testing '
+  - language: en
+    script: Latn
+    content: Computer languages
+  - language: en
+    script: Latn
+    content: abbreviated
+  - language: en
+    script: Latn
+    content: C/ATLAS
+  - language: en
+    script: Latn
+    content: common
+  - language: en
+    script: Latn
+    content: test language
+  - language: en
+    script: Latn
+    content: unit under test
+  - language: en
+    script: Latn
+    content: UUT
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

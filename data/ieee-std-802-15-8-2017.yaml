@@ -1,0 +1,151 @@
+---
+id: IEEEStd8021582017
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Wireless Medium Access Control (MAC) and Physical Layer
+    (PHY) Specifications for Peer Aware Communications (PAC)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8287784
+docidentifier:
+- content: IEEE Std 802.15.8-2017
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.8®-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4612-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2018.8287784
+  type: DOI
+docnumber: IEEE Std 802.15.8-2017
+date:
+- type: updated
+  at: '2018-03-23'
+- type: created
+  at: '2018-02-07'
+- type: published
+  at: '2018-02-08'
+- type: issued
+  at: '2017-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Physical layer (PHY) and medium access control (MAC) mechanisms are defined
+    in this standard for wireless personal area networks (WPANs) peer aware communications
+    (PAC) optimized for peer-to-peer and infrastructure-less communications with fully
+    distributed coordination. PAC features include discovery for peer information
+    without association, discovery signaling rate typically greater than 100 kb/s,
+    discovery of the number of devices in the network, scalable data transmission
+    rates typically up to 10 Mb/s, group communications with simultaneous membership
+    in multiple groups typically up to 10, relative positioning, security, and operation
+    in selected globally available unlicensed/licensed bands below 11 GHz capable
+    of supporting these requirements. (The PDF of this standard is available at no
+    cost to you compliments of the IEEE GET program https://ieeexplore.ieee.org/servlet/opac?punumber=8287782)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Device-to-device communication
+  - language: en
+    script: Latn
+    content: Distributed processing
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Wireless networks
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: D2D
+  - language: en
+    script: Latn
+    content: device-to-device communications
+  - language: en
+    script: Latn
+    content: distributed network synchronization
+  - language: en
+    script: Latn
+    content: group communications
+  - language: en
+    script: Latn
+    content: IEEE 802.15.8(TM)
+  - language: en
+    script: Latn
+    content: infrastructure-less
+  - language: en
+    script: Latn
+    content: peer aware communications
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

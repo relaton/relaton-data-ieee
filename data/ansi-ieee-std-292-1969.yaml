@@ -1,0 +1,129 @@
+---
+id: ANSIIEEEStd2921969
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Specification Format for Single-Degree-of-Freedom Spring-Restrained
+    Rate Gyros
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9404074
+docidentifier:
+- content: ANSI/IEEE Std 292-1969
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 292™-1969
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0542-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1968.9404074
+  type: DOI
+docnumber: ANSI/IEEE Std 292-1969
+date:
+- type: created
+  at: '1968-11-30'
+- type: published
+  at: '2021-04-13'
+- type: issued
+  at: '1969'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This specification defines the requirements for a single-degree-of-freedom
+    spring-restrained rate gyro for [aircraft, missile, spacecraft,______] applications.
+    The rate gyro shall be capable of providing [(dc, ac) voltage outputs proportional
+    to angular rate inputs up to______ degrees per second, a switch closure(s) at
+    angular rates (exceeding,less than)______ (+,-,±)______ degrees per second].
+copyright:
+- from: '1969'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Mathematical model
+  - language: en
+    script: Latn
+    content: Accelerometers
+  - language: en
+    script: Latn
+    content: Terminology
+  - language: en
+    script: Latn
+    content: Rotors
+  - language: en
+    script: Latn
+    content: Reliability
+  - language: en
+    script: Latn
+    content: Optical switches
+  - language: en
+    script: Latn
+    content: Gyroscopes
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '49.090'
+    text: On-board equipment and instruments
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

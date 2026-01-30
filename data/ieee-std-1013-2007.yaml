@@ -1,0 +1,166 @@
+---
+id: IEEEStd10132007
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Sizing Lead-Acid Batteries for Stand-Alone
+    Photovoltaic (PV) Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4280849
+docidentifier:
+- content: IEEE Std 1013-2007
+  type: IEEE
+  primary: true
+- content: IEEE Std 1013™-2007
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5594-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2007.4280849
+  type: DOI
+docnumber: IEEE Std 1013-2007
+date:
+- type: updated
+  at: '2008-03-17'
+- type: created
+  at: '2007-07-20'
+- type: published
+  at: '2013-08-15'
+- type: issued
+  at: '2007-03-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A method for determining the energy-capacity requirements (sizing) of both
+    vented and valve-regulated lead-acid batteries used in terrestrial stand-alone
+    photovoltaic (PV) systems is described. Sizing batteries for hybrid or grid-connected
+    PV systems is beyond the scope of this document. Installation, maintenance, safety,
+    testing procedures, and consideration of battery types other than lead-acid are
+    beyond the scope of this document. Recommended practices for the remainder of
+    the electrical systems associated with PV installations are also beyond the scope
+    of this document.
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1013-2000
+    docidentifier:
+    - content: IEEE Std 1013-2000
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1013-2019
+    docidentifier:
+    - content: IEEE Std 1013-2019
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Batteries
+  - language: en
+    script: Latn
+    content: Photovoltaic power systems
+  - language: en
+    script: Latn
+    content: Solar energy
+  - language: en
+    script: Latn
+    content: Lead acid batteries
+  - language: en
+    script: Latn
+    content: battery capacity
+  - language: en
+    script: Latn
+    content: battery requirements
+  - language: en
+    script: Latn
+    content: lead-acid batteries
+  - language: en
+    script: Latn
+    content: photovoltaic (PV)
+  - language: en
+    script: Latn
+    content: photovoltaic power systems
+  - language: en
+    script: Latn
+    content: sizing
+  - language: en
+    script: Latn
+    content: sizing lead-acid batteries
+  - language: en
+    script: Latn
+    content: solar
+  - language: en
+    script: Latn
+    content: stand-alone
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.220.20
+    text: Acid secondary cells and batteries
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,98 @@
+---
+id: IEEEStd3081978
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Criteria for Class 1E Power Systems for Nuclear Power Generating
+    Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7407235
+docidentifier:
+- content: IEEE Std 308-1978
+  type: IEEE
+  primary: true
+- content: IEEE Std 308™-1978
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0286-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1978.7407235
+  type: DOI
+docnumber: IEEE Std 308-1978
+date:
+- type: updated
+  at: '2016-03-04'
+- type: created
+  at: '1978-08-14'
+- type: published
+  at: '2016-02-15'
+- type: issued
+  at: '1978-09-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+copyright:
+- from: '1978'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 308-1974
+    docidentifier:
+    - content: IEEE Std 308-1974
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Power system planning
+  - language: en
+    script: Latn
+    content: Nuclear power generation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.30
+    text: Fissile materials and nuclear fuel technology
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,152 @@
+---
+id: IEEEStd802154s2018
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Low-Rate Wireless Networks Amendment 6: Enabling Spectrum
+    Resource Measurement Capability'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8398601
+docidentifier:
+- content: IEEE Std 802.15.4s-2018
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.4s®-2018
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4794-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2018.8398601
+  type: DOI
+docnumber: IEEE Std 802.15.4s-2018
+date:
+- type: updated
+  at: '2020-09-25'
+- type: created
+  at: '2018-06-27'
+- type: published
+  at: '2018-06-27'
+- type: issued
+  at: '2018-02-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Definitions of MAC related functions to enable spectrum resource management
+    are addressed in this amendment to IEEE Std 802.15.4&#8482;. It specifies the
+    following: &#8212; Spectrum resource measurements and network performance metrics,
+    such as packet error ratio, delay, etc. &#8212; Information elements and data
+    structures to capture these measurements, &#8212; Procedures for collecting and
+    exchanging spectrum resource measurement information with higher layers or otherre
+    devices. The PDF of this standard is available at no cost to you compliments of
+    the IEEE GET program. Visit https://ieeexplore.ieee.org/browse/standards/get-program/page
+    for more details.'
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.15.4-2011
+    docidentifier:
+    - content: IEEE Std 802.15.4-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Wireless networks
+  - language: en
+    script: Latn
+    content: Spread spectrum management
+  - language: en
+    script: Latn
+    content: Resource management
+  - language: en
+    script: Latn
+    content: Power transmission
+  - language: en
+    script: Latn
+    content: Power control
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4(TM)
+  - language: en
+    script: Latn
+    content: spectrum resource measurement
+  - language: en
+    script: Latn
+    content: transmit power control
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

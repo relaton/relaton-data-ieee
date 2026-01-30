@@ -1,0 +1,130 @@
+---
+id: ANSIIEEEStd770X31601989
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE/ANSI Standard for the Programming Language Extended Pascal
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159330
+docidentifier:
+- content: ANSI/IEEE Std 770X3.160-1989
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 770X3.160™-1989
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4247-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1990.101061
+  type: DOI
+docnumber: ANSI/IEEE Std 770X3.160-1989
+date:
+- type: created
+  at: '1990'
+- type: published
+  at: '2012-06-04'
+- type: issued
+  at: '1989-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The standard provides an unambiguous and machine-independent definition
+    of the computer programming language Extended Pascal by specifying requirements
+    for a processor and for a conforming program. Its purpose is to facilitate portability
+    of Extended Pascal programs for use on a wide variety of data processing systems.
+    Two levels of compliance are defined for both processors and programs.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: High-level languages
+  - language: en
+    script: Latn
+    content: Software portability
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Pascal
+  - language: en
+    script: Latn
+    content: extended Pascal
+  - language: en
+    script: Latn
+    content: portability
+  - language: en
+    script: Latn
+    content: data processing systems
+  - language: en
+    script: Latn
+    content: programming
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

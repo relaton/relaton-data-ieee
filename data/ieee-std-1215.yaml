@@ -1,0 +1,135 @@
+---
+id: IEEEStd1215
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for the Application of Separable Insulated Connectors
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/992173
+docidentifier:
+- content: IEEE Std 1215
+  type: IEEE
+  primary: true
+- content: IEEE Std 1215™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3004-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2002.93572
+  type: DOI
+docnumber: IEEE Std 1215
+date:
+- type: created
+  at: '2002-03-22'
+- type: published
+  at: '2013-07-11'
+- type: issued
+  at: '2001-10-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Insulated Conductors of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This guide provides general information on the application and operation
+    of separable connectors. It is intended to be basic, and supplement the manufacturer’s
+    specific recommenda-tions and established utility practices.
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1215-2013
+    docidentifier:
+    - content: IEEE Std 1215-2013
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Connectors
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Power engineering
+  - language: en
+    script: Latn
+    content: Warranties
+  - language: en
+    script: Latn
+    content: Licenses
+  - language: en
+    script: Latn
+    content: connectors
+  - language: en
+    script: Latn
+    content: power distribution
+  - language: en
+    script: Latn
+    content: switchgear
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.20
+    text: Connecting devices
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

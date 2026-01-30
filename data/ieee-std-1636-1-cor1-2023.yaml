@@ -1,0 +1,169 @@
+---
+id: IEEEStd16361Cor12023
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Software Interface for Maintenance Information Collection
+    and Analysis (SIMICA): Exchanging Test Results and Session Information via the
+    eXtensible Markup Language (XML) - Corrigenda 1'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10431705
+docidentifier:
+- content: IEEE Std 1636.1/Cor1-2023
+  type: IEEE
+  primary: true
+- content: IEEE Std 1636.1™/Cor1-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0303-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2024.10431705
+  type: DOI
+docnumber: IEEE Std 1636.1/Cor1-2023
+date:
+- type: created
+  at: '2024-02-13'
+- type: published
+  at: '2024-02-09'
+- type: issued
+  at: '2023-11-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: SCC20 - Test and Diagnosis for Electronic Systems of the IEEE SA
+          Board of Governors
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard is intended to promote and facilitate interoperability between
+    components of automatic test systems where test results need to be shared. The
+    standard thus facilitates the capture of test results data in storage devices
+    and databases, facilitating online and offline analysis. The test results schema
+    becomes a class of information that can be used within the SIMICA family of standards.
+    The exchange format is expressed in both the OWL and XML formats.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: corrects
+  bibitem:
+    formattedref: IEEE Std 1636.1-2018
+    docidentifier:
+    - content: IEEE Std 1636.1-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Automatic test equipment
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Ontologies
+  - language: en
+    script: Latn
+    content: Software engineering
+  - language: en
+    script: Latn
+    content: Interface management
+  - language: en
+    script: Latn
+    content: Information processing
+  - language: en
+    script: Latn
+    content: automated test system (ATS)
+  - language: en
+    script: Latn
+    content: extensible markup language (XML)
+  - language: en
+    script: Latn
+    content: IEEE 1636.1
+  - language: en
+    script: Latn
+    content: OWL ontology
+  - language: en
+    script: Latn
+    content: Software Interface for Maintenance Information Collection and Analysis
+      (SIMICA)
+  - language: en
+    script: Latn
+    content: test results and session information
+  - language: en
+    script: Latn
+    content: XML schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 25.040.01
+    text: Industrial automation systems in general
+  - code: '35.060'
+    text: Languages used in information technology
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

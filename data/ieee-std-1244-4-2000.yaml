@@ -1,0 +1,111 @@
+---
+id: IEEEStd124442000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Media Management Systems (MMS) Drive Management Protocol
+    (DMP)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/865194
+docidentifier:
+- content: IEEE Std 1244.4-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 1244.4™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-2512-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.91906
+  type: DOI
+docnumber: IEEE Std 1244.4-2000
+date:
+- type: created
+  at: '2000'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '2000-06-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Storage Systems Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Version 1.0 of the Drive Management Protocol (DMP) IEEE standard is specified.
+    The following areas are examined: application independent architecture, automated
+    tape library, content neutral data model, device manager, distributed drive manager,
+    fully scalable heterogeneous environment, information access, middleware, open
+    source, operating system independence and platform-independence, robotic tape
+    library, storage management, and system architecture.'
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

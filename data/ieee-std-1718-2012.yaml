@@ -1,0 +1,164 @@
+---
+id: IEEEStd17182012
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Temperature Monitoring of Cable Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6214562
+docidentifier:
+- content: IEEE Std 1718-2012
+  type: IEEE
+  primary: true
+- content: IEEE Std 1718™-2012
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7233-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2012.6214562
+  type: DOI
+docnumber: IEEE Std 1718-2012
+date:
+- type: created
+  at: '2012-06-08'
+- type: published
+  at: '2012-06-08'
+- type: issued
+  at: '2012-03-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Insulated Conductors of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The various existing technologies that are used or can be used to monitor
+    the temperature of cable systems are reviewed in this guide. The conventional
+    technologies, like thermocouples and resistance temperature detectors (RTDs),
+    and the more recent technologies, like the distributed temperature sensing known
+    as DTS, are covered. The latter technology is treated in more detail in this guide
+    because it constitutes the logical and obvious choice for advanced and more accurate
+    cable temperature monitoring where the hot spots along the cable route can be
+    easily identified. This guide can also be considered as the first step that a
+    potential user should consult before dealing with the issue of real-time rating
+    of cable systems.
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Power cables
+  - language: en
+    script: Latn
+    content: Temperature measurement
+  - language: en
+    script: Latn
+    content: Optical variables measurement
+  - language: en
+    script: Latn
+    content: Time domain analysis
+  - language: en
+    script: Latn
+    content: Remote sensing
+  - language: en
+    script: Latn
+    content: Reflectometry
+  - language: en
+    script: Latn
+    content: ampacity
+  - language: en
+    script: Latn
+    content: cable
+  - language: en
+    script: Latn
+    content: distributed temperature monitoring
+  - language: en
+    script: Latn
+    content: distributed temperature sensing (DTS)
+  - language: en
+    script: Latn
+    content: fiber
+  - language: en
+    script: Latn
+    content: IEEE 1718
+  - language: en
+    script: Latn
+    content: optical frequency domain reflectometry (OFDR)
+  - language: en
+    script: Latn
+    content: optical time domain reflectometry (OTDR)
+  - language: en
+    script: Latn
+    content: Raman
+  - language: en
+    script: Latn
+    content: real-time rating
+  - language: en
+    script: Latn
+    content: spatial resolution
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 17.200.20
+    text: Temperature-measuring instruments
+  - code: 33.180.99
+    text: Other fibre optic equipment
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

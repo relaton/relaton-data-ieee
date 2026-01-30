@@ -1,0 +1,144 @@
+---
+id: IEEEStd8026k1992
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standards for Local and Metropolitan Area Networks: Supplement to
+    Media Access Control (MAC) Bridges - IEEE Standard 802.6 Distributed Queue Dual
+    Bus (DQDB) Subnetwork of a MAN'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/552900
+docidentifier:
+- content: IEEE Std 802.6k-1992
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.6k®-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0282-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.81540
+  type: DOI
+docnumber: IEEE Std 802.6k-1992
+date:
+- type: created
+  at: '1993-04-23'
+- type: published
+  at: '2019-10-31'
+- type: issued
+  at: '1992-12-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Modifications and additions to IEEE Std 802.1D-1990 that extend its scope
+    and field of application to transparent bridging between 802.6 Subnetworks of
+    MANs and between Fibre Distributed Data Interface (FDDI), IEEE 802 LANs and 802.6
+    Subnetworks of MANs are specified.
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.1D-1990
+    docidentifier:
+    - content: IEEE Std 802.1D-1990
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: IEEE 802.3 Standard
+  - language: en
+    script: Latn
+    content: EPON
+  - language: en
+    script: Latn
+    content: distributed queue dual bus (DQDB)
+  - language: en
+    script: Latn
+    content: media access control bridges
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

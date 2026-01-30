@@ -1,0 +1,169 @@
+---
+id: IEEEP1484111D1202109
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Learning Technology--Data Model for Content Object
+    Communication
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9567730
+docidentifier:
+- content: IEEE P1484.11.1/D-1-2021-09
+  type: IEEE
+  primary: true
+- content: IEEE P1484.11.1™/D-1-2021-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8050-5
+  type: ISBN
+docnumber: IEEE P1484.11.1/D-1-2021-09
+date:
+- type: created
+  at: '2021-10-07'
+- type: published
+  at: '2021-10-11'
+- type: issued
+  at: '2021'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Learning Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This Standard describes a data model to support the interchange of data
+    elements and their values between a content object and a runtime service (RTS).
+    It is based on a current industry practice called “CMI&#8212;Computer Managed
+    Instruction.” The work upon which this Standard is based was developed to support
+    a client/server environment in which a learning technology system, generically
+    called a learning management system (LMS), de-livers digital content, called content
+    objects, to learners. The data model supports learner data and preferences, interactions,
+    objectives, content-object entry, exit, and status information, time parameters,
+    and scores.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1484.11.1-2004
+    docidentifier:
+    - content: IEEE Std 1484.11.1-2004
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Learning systems
+  - language: en
+    script: Latn
+    content: Data systems
+  - language: en
+    script: Latn
+    content: Content management
+  - language: en
+    script: Latn
+    content: Computer aided instruction
+  - language: en
+    script: Latn
+    content: content object
+  - language: en
+    script: Latn
+    content: computer managed instruction
+  - language: en
+    script: Latn
+    content: CMI
+  - language: en
+    script: Latn
+    content: data model
+  - language: en
+    script: Latn
+    content: IEEE 1484.11.1&#8482;
+  - language: en
+    script: Latn
+    content: interoperability
+  - language: en
+    script: Latn
+    content: learning content
+  - language: en
+    script: Latn
+    content: learning management system
+  - language: en
+    script: Latn
+    content: LMS
+  - language: en
+    script: Latn
+    content: runtime service
+  - language: en
+    script: Latn
+    content: RTS
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

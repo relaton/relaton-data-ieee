@@ -1,0 +1,164 @@
+---
+id: IEEE1ABREVD10201508
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Local and Metropolitan Area Networks - Station
+    and Media Access Control Connectivity Discovery
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7203310
+docidentifier:
+- content: IEEE 1AB.REV/D-1.0-2015-08
+  type: IEEE
+  primary: true
+- content: IEEE 1AB.REV™/D-1.0-2015-08
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9875-0
+  type: ISBN
+docnumber: IEEE 1AB.REV/D-1.0-2015-08
+date:
+- type: created
+  at: '2015'
+- type: published
+  at: '2015-08-14'
+- type: issued
+  at: '2015-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This document defines a protocol and a set of managed objects that can
+    be used for discovering the physical topology from adjacent stations in IEEE 802
+    LANs.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.1AB-2009
+    docidentifier:
+    - content: IEEE Std 802.1AB-2009
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.1AB-2009
+    docidentifier:
+    - content: IEEE Std 802.1AB-2009
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Topology
+  - language: en
+    script: Latn
+    content: Protocol management
+  - language: en
+    script: Latn
+    content: Information base technology
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Media Access Control
+  - language: en
+    script: Latn
+    content: link layer discovery protocol
+  - language: en
+    script: Latn
+    content: management information base
+  - language: en
+    script: Latn
+    content: topology discovery
+  - language: en
+    script: Latn
+    content: topology information
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

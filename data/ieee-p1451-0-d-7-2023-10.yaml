@@ -1,0 +1,197 @@
+---
+id: IEEEP14510D7202310
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for a Smart Transducer Interface for Sensors, Actuators,
+    Devices, and Systems - Common Functions, Communication Protocols, and Transducer
+    Electronic Data Sheet (TEDS) Formats
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10308746
+docidentifier:
+- content: IEEE P1451.0/D-7-2023-10
+  type: IEEE
+  primary: true
+- content: IEEE P1451.0™/D-7-2023-10
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0276-7
+  type: ISBN
+docnumber: IEEE P1451.0/D-7-2023-10
+date:
+- type: created
+  at: '2023-11-02'
+- type: published
+  at: '2023-11-03'
+- type: issued
+  at: '2024-02-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC9 - Sensor Technology of the IEEE Instrumentation and Measurement
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The common functions, network services, transducer services, and Transducer
+    Electronic Data Sheet (TEDS) formats for members of the IEEE 1451 family of standards
+    to be interoperable in both network interface and transducer interface are provided.
+    The common functions and characteristics that are to be performed by a network
+    capable application processor (NCAP), which is a 1451 server, and all devices
+    that implement the NCAP are defined. A set of network services that includes a
+    set of commands and replies to access transducer data and TEDS data from the NCAP
+    (1451 server) by the Internet of Things (IoT) applications (APPs) that are 1451
+    clients are also defined. Application programming interfaces (APIs) of network
+    services are outlined to facilitate communications between the APPs (1451 clients)
+    and NCAPs. Furthermore, the common functions and characteristics that are to be
+    performed by a transducer interface module (TIM) and all devices that implement
+    the TIM are discussed. A set of transducer services that includes a set of commands
+    and replies to facilitate the setup and control of the TIM, as well as reading
+    and writing the data used by the NCAP, are outlined. APIs of transducer services
+    are also discussed to facilitate communications between the NCAPs and TIMs. Finally,
+    the formats for a TEDS and methods to access the TEDS are specified, along with
+    the common functions and characteristics that are to be performed by an APP and
+    all devices that implement the APP. Additional Open Source content available here:
+    https://opensource.ieee.org/1451/1451.0-schema/'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1451.0-2007
+    docidentifier:
+    - content: IEEE Std 1451.0-2007
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Actuators
+  - language: en
+    script: Latn
+    content: Sensors
+  - language: en
+    script: Latn
+    content: Transducers
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Surge protection
+  - language: en
+    script: Latn
+    content: Relays
+  - language: en
+    script: Latn
+    content: Wireless networks
+  - language: en
+    script: Latn
+    content: Smart devices
+  - language: en
+    script: Latn
+    content: actuator
+  - language: en
+    script: Latn
+    content: application programming interface
+  - language: en
+    script: Latn
+    content: communication protocol
+  - language: en
+    script: Latn
+    content: IEEE 1451.0&#8482;
+  - language: en
+    script: Latn
+    content: network-capable application processor
+  - language: en
+    script: Latn
+    content: sensor
+  - language: en
+    script: Latn
+    content: smart transducer
+  - language: en
+    script: Latn
+    content: transducer channel
+  - language: en
+    script: Latn
+    content: transducer electronic data sheet
+  - language: en
+    script: Latn
+    content: transducer interface module
+  - language: en
+    script: Latn
+    content: universal unique identification
+  - language: en
+    script: Latn
+    content: wireless interface
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,210 @@
+---
+id: IEEEStd151212006
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Common Traffic Incident Management Message Sets for Use
+    by Emergency Management Centers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4014405
+docidentifier:
+- content: IEEE Std 1512.1-2006
+  type: IEEE
+  primary: true
+- content: IEEE Std 1512.1™-2006
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5240-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2006.248143
+  type: DOI
+docnumber: IEEE Std 1512.1-2006
+date:
+- type: created
+  at: '2006-11-02'
+- type: published
+  at: '2014-03-18'
+- type: issued
+  at: '2006-10-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Intelligent Transportation Systems of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Revision of IEEE Std 1512.1-2003. This standard addresses the exchange
+    of vital data about public safety and emergency management issues involved in
+    transportation-related events, through common incident management message sets.
+    The message sets specified are consistent with the National Intelligent Transportation
+    Systems Architecture and are described using Abstract Syntax Notation One (ASN.1
+    or ASN) syntax. This standard comprises the basic volume of the family of incident
+    management standards, a multi-volume set of documents centered around this Base
+    Standard. Other members of that family include three other companion volumes,
+    specifying incident management message sets for transportation-management-related
+    data exchange and hazardous-material- and cargo-related data exchange, etc. Collectively,
+    that family of standards shall be referred to as the 1512 Family of Standards.
+    The goal of that family of standards is to support efficient communication for
+    the real-time, interagency management of transportation related events. Those
+    events include incidents, emergencies, accidents, planned roadway closures, special
+    events, and disasters caused by humans or natural events. Those events include
+    any such event that impacts transportation systems or that causes a report to
+    be received by an emergency management system, whether or not the event actually
+    affects a transportation system and whether or not a response is required.
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: '911'
+  - language: en
+    script: Latn
+    content: Abstract Syntax Notation One (ASN.1)
+  - language: en
+    script: Latn
+    content: ATMS
+  - language: en
+    script: Latn
+    content: computer-aided dispatch (CAD)
+  - language: en
+    script: Latn
+    content: center-to-center
+  - language: en
+    script: Latn
+    content: commercial vehicles
+  - language: en
+    script: Latn
+    content: dangerous goods
+  - language: en
+    script: Latn
+    content: data exchange
+  - language: en
+    script: Latn
+    content: emergency management center (EMC)
+  - language: en
+    script: Latn
+    content: emergency response
+  - language: en
+    script: Latn
+    content: emergency services
+  - language: en
+    script: Latn
+    content: emergency management service (EMS)
+  - language: en
+    script: Latn
+    content: fire
+  - language: en
+    script: Latn
+    content: hazardous materials
+  - language: en
+    script: Latn
+    content: hazmat
+  - language: en
+    script: Latn
+    content: incidents
+  - language: en
+    script: Latn
+    content: incident response
+  - language: en
+    script: Latn
+    content: incident management
+  - language: en
+    script: Latn
+    content: incident command
+  - language: en
+    script: Latn
+    content: incident management system
+  - language: en
+    script: Latn
+    content: intelligent transportation systems
+  - language: en
+    script: Latn
+    content: law enforcement
+  - language: en
+    script: Latn
+    content: message sets
+  - language: en
+    script: Latn
+    content: police
+  - language: en
+    script: Latn
+    content: public safety
+  - language: en
+    script: Latn
+    content: traffic incidents
+  - language: en
+    script: Latn
+    content: traffic incident management
+  - language: en
+    script: Latn
+    content: traffic management
+  - language: en
+    script: Latn
+    content: traffic management center (TMC)
+  - language: en
+    script: Latn
+    content: transportation system management
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 03.220.01
+    text: Transport in general
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

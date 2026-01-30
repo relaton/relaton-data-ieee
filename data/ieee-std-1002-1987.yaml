@@ -1,0 +1,117 @@
+---
+id: IEEEStd10021987
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Taxonomy for Software Engineering Standards
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/26473
+docidentifier:
+- content: IEEE Std 1002-1987
+  type: IEEE
+  primary: true
+- content: IEEE Std 1002™-1987
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-0399-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1987.122157
+  type: DOI
+docnumber: IEEE Std 1002-1987
+date:
+- type: created
+  at: '1987'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1986-12-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software Engineering Subcommittee of the Technical Committee on Software
+          Engineering of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Describes the form and content of a software engineering standards taxonomy.
+    Applicability is not restricted by software application, size, complexity, criticality,
+    or hardware environment. This taxonomy applies to standards (from the related
+    disciplines of engineering management, systems engineering, computer hardware
+    engineering, computer science, and information science) with which a software
+    engineer would be reasonably acquainted. This taxonomy is application independent.
+    The document explains the various types of software engineering standards, their
+    functional and external relationships, and the role of various functions participating
+    in the software life cycle.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1987'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Software engineering
+  - language: en
+    script: Latn
+    content: Standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

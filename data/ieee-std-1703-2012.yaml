@@ -1,0 +1,148 @@
+---
+id: IEEEStd17032012
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Local Area Network/Wide Area Network (LAN/WAN) Node Communication
+    Protocol to Complement the Utility Industry End Device Data Tables
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6226334
+docidentifier:
+- content: IEEE Std 1703-2012
+  type: IEEE
+  primary: true
+- content: IEEE Std 1703™-2012
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7234-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2012.6226334
+  type: DOI
+docnumber: IEEE Std 1703-2012
+date:
+- type: created
+  at: '2012-06-29'
+- type: published
+  at: '2012-06-26'
+- type: issued
+  at: '2012-03-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Strategic and Emerging Standards Committee of the IEEE SA Board of
+          Governors
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A set of application layer messaging services are provided in this standard
+    that are applicable for the enterprise and End Device ends of an Advanced Metering
+    Infrastructure (AMI). The application services include those useful for managing
+    the AMI network assets defined by this standard. These messages may be transported
+    over a wide range of underlying network transports such as TCP/IP, UDP, IEEE 802.11,
+    IEEE 802.15.4 IEEE 802.16, PLC, and SMS over GSM, over a wide range of physical
+    media. Additionally, interfaces are defined for a Communication Module and a Local
+    Port (e.g., an IEEE 1701 optical port).The described protocol is tailored for,
+    but not limited to, the transport of IEEE 1377 Table data.Also, a means by which
+    information can be sent in a secure manner using AES-128 and the EAX' mode is
+    provided in this standard. This standard was developed jointly with ANSI (published
+    as ANSI C12.22) and Measurement Canada (published as MC12.22).
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Wide area networks
+  - language: en
+    script: Latn
+    content: Standards Board
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Committees
+  - language: en
+    script: Latn
+    content: Optical fiber LAN
+  - language: en
+    script: Latn
+    content: ACSE
+  - language: en
+    script: Latn
+    content: ANSI C12.22
+  - language: en
+    script: Latn
+    content: C12.19 Device
+  - language: en
+    script: Latn
+    content: Communication Module
+  - language: en
+    script: Latn
+    content: End Device
+  - language: en
+    script: Latn
+    content: IEEE 1703
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

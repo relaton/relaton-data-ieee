@@ -1,0 +1,145 @@
+---
+id: IEEEStd48812003
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard For Higher Performance Protocol for the Standard Digital
+    Interface for Programmable Instrumentation
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1258186
+docidentifier:
+- content: IEEE Std 488.1-2003
+  type: IEEE
+  primary: true
+- content: IEEE Std 488.1™-2003
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3693-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2003.94413
+  type: DOI
+docnumber: IEEE Std 488.1-2003
+date:
+- type: created
+  at: '2003-12-12'
+- type: published
+  at: '2015-07-08'
+- type: issued
+  at: '2003-06-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard applies to interface systems used to interconnect both programmable
+    and nonprogrammable electronic measuring apparatus with other apparatus and accessories
+    necessary to assemble instrumentation systems. It applies to the interface of
+    instrumentation systems, or portions of them, in which the a) Data exchanged among
+    the interconnected apparatus is digital (as distinct from analog); b) Number of
+    devices that may be interconnected by one contiguous bus does not exceed 15; c)
+    Total transmission path lengths over the interconnecting cables does not exceed
+    20 m; d) Data rate among devices does not exceed 8 000 000 B/s. The basic functional
+    specifications of this standard may be used in digital interface applications
+    that require longer distances, more devices, increased noise immunity, or combinations
+    of these. Different electrical and mechanical specifications may be required (for
+    example, symmetrical circuit configurations, high threshold logic, special connectors,
+    or cable configurations) for these extended applications.
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Instruments
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: GPIB
+  - language: en
+    script: Latn
+    content: HPIB
+  - language: en
+    script: Latn
+    content: HS488
+  - language: en
+    script: Latn
+    content: non-interlocked handshake
+  - language: en
+    script: Latn
+    content: three-wire handshake
+  - language: en
+    script: Latn
+    content: SCPI
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

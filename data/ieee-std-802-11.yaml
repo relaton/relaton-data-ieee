@@ -1,0 +1,161 @@
+---
+id: IEEEStd80211
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information Technology--Telecommunications and Information
+    Exchange between Systems Local and Metropolitan Area Networks--Specific Requirements
+    Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications
+    Amendment 5: Enhancements for Next Generation V2X'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10063942
+docidentifier:
+- content: IEEE Std 802.11
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.11®
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9521-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10063942
+  type: DOI
+docnumber: IEEE Std 802.11
+date:
+- type: created
+  at: '2023-03-10'
+- type: published
+  at: '2023-03-08'
+- type: issued
+  at: '2022-12-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment defines modifications to both the IEEE 802.11 physical layer
+    (PHY) and the medium access control (MAC) sublayer for next generation vehicle-to-everything
+    (V2X) communication in the 5.9 GHz and 60 GHz frequency bands.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.11-2020
+    docidentifier:
+    - content: IEEE Std 802.11-2020
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: IEEE 802.11
+  - language: en
+    script: Latn
+    content: IEEE 802.11bd
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: medium access control
+  - language: en
+    script: Latn
+    content: OCB
+  - language: en
+    script: Latn
+    content: outside the context of BSS
+  - language: en
+    script: Latn
+    content: PHY
+  - language: en
+    script: Latn
+    content: physical layer
+  - language: en
+    script: Latn
+    content: V2X
+  - language: en
+    script: Latn
+    content: vehicular communication
+  - language: en
+    script: Latn
+    content: vehicle-to-everything communication
+  - language: en
+    script: Latn
+    content: wireless local area network
+  - language: en
+    script: Latn
+    content: WLAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

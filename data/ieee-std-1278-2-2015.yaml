@@ -1,0 +1,159 @@
+---
+id: IEEEStd127822015
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Distributed Interactive Simulation (DIS) -- Communication
+    Services and Profiles
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7459689
+docidentifier:
+- content: IEEE Std 1278.2-2015
+  type: IEEE
+  primary: true
+- content: IEEE Std 1278.2™-2015
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9909-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2015.7459689
+  type: DOI
+docnumber: IEEE Std 1278.2-2015
+date:
+- type: created
+  at: '2015-11-06'
+- type: published
+  at: '2016-04-26'
+- type: issued
+  at: '2015-09-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Simulation Interoperability Stds Organization/Stds Activity Committee
+          of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Communication services to support information exchange between simulation
+    applications participating in the distributed interactive simulation (DIS) environment
+    are defined. These communication services describe a connectionless information
+    transfer that supports real-time, as well as non-real-time, exchange. Several
+    communication profiles specifying communication services are provided.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1278.2-1995
+    docidentifier:
+    - content: IEEE Std 1278.2-1995
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Telecommunication services
+  - language: en
+    script: Latn
+    content: Distributed processing
+  - language: en
+    script: Latn
+    content: Multicast communication
+  - language: en
+    script: Latn
+    content: Simulation networks
+  - language: en
+    script: Latn
+    content: Interactive simulation
+  - language: en
+    script: Latn
+    content: communication service
+  - language: en
+    script: Latn
+    content: DIS
+  - language: en
+    script: Latn
+    content: distributed interactive simulation
+  - language: en
+    script: Latn
+    content: IEEE 1278.2(TM)
+  - language: en
+    script: Latn
+    content: multicast
+  - language: en
+    script: Latn
+    content: protocol data units (PDUs)
+  - language: en
+    script: Latn
+    content: simulation network
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.020'
+    text: Information technology (IT) in general
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

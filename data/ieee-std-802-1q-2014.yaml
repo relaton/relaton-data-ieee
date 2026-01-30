@@ -1,0 +1,189 @@
+---
+id: IEEEStd8021Q2014
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Local and metropolitan area networks--Bridges and Bridged
+    Networks
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6991462
+docidentifier:
+- content: IEEE Std 802.1Q-2014
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1Q®-2014
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9433-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2014.6991462
+  type: DOI
+docnumber: IEEE Std 802.1Q-2014
+date:
+- type: created
+  at: '2014-12-19'
+- type: published
+  at: '2014-12-18'
+- type: issued
+  at: '2014-11-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This standard specifies how the Media Access Control (MAC) Service is
+    supported by Bridged Networks, the principles of operation of those networks,
+    and the operation of MAC Bridges and VLAN Bridges, including management, protocols,
+    and algorithms. This revision includes the following amendments and corrigenda:
+    IEEE 802.1Qbe-2011 IEEE 802.1Qbc-2011 IEEE 802.1Qbb-2011 IEEE 802.1Qaz-2011 IEEE
+    802.1Qbf-2011 IEEE 802.1Qbg-2012 IEEE 802.1aq-2012 IEEE 802.1Q-2011/Cor 2-2012
+    IEEE 802.1Qbp-2014./index.html. It also supersedes IEEE 802.1D-2004.'
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.1Q-2011
+    docidentifier:
+    - content: IEEE Std 802.1Q-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Protofcols
+  - language: en
+    script: Latn
+    content: Bridged circuits
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Virtual environments
+  - language: en
+    script: Latn
+    content: Bridged Network
+  - language: en
+    script: Latn
+    content: IEEE 802.1Q(TM)
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: MAC Bridge
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: MSTP
+  - language: en
+    script: Latn
+    content: Multiple Spanning Tree Protocol
+  - language: en
+    script: Latn
+    content: Rapid Spanning Tree Protocol
+  - language: en
+    script: Latn
+    content: RSTP
+  - language: en
+    script: Latn
+    content: PBN
+  - language: en
+    script: Latn
+    content: Provider Bridged Network
+  - language: en
+    script: Latn
+    content: Shortest Path Bridging Protocol
+  - language: en
+    script: Latn
+    content: SPB Protocol
+  - language: en
+    script: Latn
+    content: Virtual Bridged Network
+  - language: en
+    script: Latn
+    content: virtual LAN
+  - language: en
+    script: Latn
+    content: VLAN Bridge
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

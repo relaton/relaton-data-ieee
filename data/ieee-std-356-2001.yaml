@@ -1,0 +1,176 @@
+---
+id: IEEEStd3562001
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Measurements of Electromagnetic Properties of Earth Media
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1007393
+docidentifier:
+- content: IEEE Std 356-2001
+  type: IEEE
+  primary: true
+- content: IEEE Std 356™-2001
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3084-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2002.93616
+  type: DOI
+docnumber: IEEE Std 356-2001
+date:
+- type: created
+  at: '2002-06-03'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2001-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Antennas and Propagation Standards Committee of the IEEE Antennas
+          and Propagation Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: '" The electromagnetic properties of the earth play an important role in
+    the design and implementationof radio communications systems, geophysical prospecting
+    instruments, and subsurface mapping techniques.Measurement techniques include
+    dc resistivity, surface impedance, propagation studies, wave tilt methods,probe
+    impedance methods, mutual impedance methods, transient methods, time domain reflectometry,
+    groundprobing radar, laboratory-based techniques, and free-space reflection measurements.
+    The separation distancebetween the probes and the wavelength of the radiation
+    both affect the volume of earth material measured.This guide provides a summary
+    of current measurement techniques and, where appropriate, inversion methodsfor
+    determining the conductivity and the relative permittivity of the volume under
+    investigation."'
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 356-2001
+    docidentifier:
+    - content: IEEE Std 356-2001
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 356-2010
+    docidentifier:
+    - content: IEEE Std 356-2010
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Earth
+  - language: en
+    script: Latn
+    content: Electromagnetics
+  - language: en
+    script: Latn
+    content: Permittivity measurement
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Antenna measurements
+  - language: en
+    script: Latn
+    content: dc resistivity
+  - language: en
+    script: Latn
+    content: earth permittivity measurements
+  - language: en
+    script: Latn
+    content: electromagnetic geophysics
+  - language: en
+    script: Latn
+    content: ground conductivity measurements
+  - language: en
+    script: Latn
+    content: ice
+  - language: en
+    script: Latn
+    content: inversion
+  - language: en
+    script: Latn
+    content: radio communications
+  - language: en
+    script: Latn
+    content: radio reflection
+  - language: en
+    script: Latn
+    content: surface impedance
+  - language: en
+    script: Latn
+    content: time domain reflectometry
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.060.01
+    text: Radiocommunications in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

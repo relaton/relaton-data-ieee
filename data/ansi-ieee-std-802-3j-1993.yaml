@@ -1,0 +1,150 @@
+---
+id: ANSIIEEEStd8023j1993
+type: standard
+schema_version: v1.4.1
+title:
+- content: Supplement to 802.3 - Fiber Optic Active and Passive Star-Based Segments,
+    Type 10BASE-F (Sections 15-18)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/286112
+docidentifier:
+- content: ANSI/IEEE Std 802.3j-1993
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 802.3j™-1993
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5593-7334-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.119667
+  type: DOI
+docnumber: ANSI/IEEE Std 802.3j-1993
+date:
+- type: created
+  at: '1993-10-12'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1993-09-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEEE Std 802.3-2002 This amendment to IEEE Std 802.3-2002,
+    as amended by IEEE Std 802.3ae-2002 10Gb/s Ethernet and IEEE Std 802.3af-2003
+    DTE Power via MDI, contains a set of maintenance requests approved for ballot
+    at the November 2002 IEEE 802.3 closing plenary as part of project IEEE P802.3aj
+    Maintenance 7.
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.3-1985
+    docidentifier:
+    - content: ANSI/IEEE Std 802.3-1985
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE 802.3 Standard
+  - language: en
+    script: Latn
+    content: EPON
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: conformance requirements
+  - language: en
+    script: Latn
+    content: fiber optic
+  - language: en
+    script: Latn
+    content: star-based segments
+  - language: en
+    script: Latn
+    content: type 10BASE-F
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: MAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

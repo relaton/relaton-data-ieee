@@ -1,0 +1,181 @@
+---
+id: ISOIEEE11073401022022
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE/ISO International Standard - Health informatics--Device interoperability
+    Part 40102: Foundational--Cybersecurity--Capabilities for mitigation'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9738540
+docidentifier:
+- content: ISO/IEEE 11073.40102-2022
+  type: IEEE
+  primary: true
+- content: ISO/IEEE 11073.40102™-2022
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8520-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2022.9738540
+  type: DOI
+docnumber: ISO/IEEE 11073.40102-2022
+date:
+- type: created
+  at: '2022-03-18'
+- type: published
+  at: '2022-03-18'
+- type: issued
+  at: '2022'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: For Personal Health Devices (PHDs) and Point-of-Care Devices (PoCDs), a
+    security baseline of application layer cybersecurity mitigation techniques is
+    defined by this standard for certain use cases or for times when certain criteria
+    are met. The mitigation techniques are based on an extended confidentiality, integrity,
+    and availability (CIA) triad and are described generally to allow manufacturers
+    to determine the most appropriate algorithms and implementations. A scalable information
+    security toolbox appropriate for PHD/PoCD interfaces is specified that fulfills
+    the intersection of requirements and recommendations from the National Institute
+    of Standards and Technology (NIST) and the European Network and Information Security
+    Agency (ENISA). A mapping of this standard to the NIST cybersecurity framework;
+    IEC TR 80001-2-2; and the Spoofing, Tampering, Repudiation, Information Disclosure,
+    Denial of Service, and Elevation of Privilege (STRIDE) classification scheme is
+    defined.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 11073.40102-2020
+    docidentifier:
+    - content: IEEE Std 11073.40102-2020
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Smart devices
+  - language: en
+    script: Latn
+    content: Interoperability
+  - language: en
+    script: Latn
+    content: Risk assessment
+  - language: en
+    script: Latn
+    content: Bioinformatics
+  - language: en
+    script: Latn
+    content: Computer security
+  - language: en
+    script: Latn
+    content: Privacy
+  - language: en
+    script: Latn
+    content: Point of care
+  - language: en
+    script: Latn
+    content: cybersecurity
+  - language: en
+    script: Latn
+    content: IEEE 11073-40102
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: mitigation techniques
+  - language: en
+    script: Latn
+    content: Personal Health Devices
+  - language: en
+    script: Latn
+    content: Point-of-Care Devices
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

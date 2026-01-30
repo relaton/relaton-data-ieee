@@ -1,0 +1,172 @@
+---
+id: IEEEStd802222019
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard - Information Technology-Telecommunications and information
+    exchange between systems-Wireless Regional Area Networks-Specific requirements-Part
+    22: Cognitive Wireless RAN MAC and PHY specifications: Policies and Procedures
+    for Operation in the Bands that Allow Spectrum Sharing where the Communications
+    Devices May Opportunistically Operate in the Spectrum of Primary Service'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9086951
+docidentifier:
+- content: IEEE Std 802.22-2019
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.22®-2019
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6147-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2020.9086951
+  type: DOI
+docnumber: IEEE Std 802.22-2019
+date:
+- type: updated
+  at: '2020-05-29'
+- type: created
+  at: '2020-05-05'
+- type: published
+  at: '2020-05-05'
+- type: issued
+  at: '2019-09-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies the air interface, including the cognitive medium
+    access control layer (MAC) and physical layer (PHY), of point&#8211;to&#8211;multipoint
+    wireless regional area networks (WRANs) comprised of a professional fixed base
+    station (BS) with fixed and portable user terminals operating in the VHF/UHF TV
+    broadcast bands between 54 MHz to 862 MHz, and potentially in the 1300 MHz to
+    1750 MHz, and 2700 MHz to 3700 MHz bands provided the regulatory regime allows
+    it. (The PDF of this standard is available at no cost to you compliments of the
+    IEEE GET program at https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.22-2011
+    docidentifier:
+    - content: IEEE Std 802.22-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Regional area networks
+  - language: en
+    script: Latn
+    content: Wireless communcation
+  - language: en
+    script: Latn
+    content: Radio access networks
+  - language: en
+    script: Latn
+    content: Meda Access Protocol
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: broadband wireless access network
+  - language: en
+    script: Latn
+    content: cognitive radio
+  - language: en
+    script: Latn
+    content: fixed user terminals
+  - language: en
+    script: Latn
+    content: IEEE 802.22(TM)
+  - language: en
+    script: Latn
+    content: portable user terminals
+  - language: en
+    script: Latn
+    content: radio spectrum sensing
+  - language: en
+    script: Latn
+    content: regional area network
+  - language: en
+    script: Latn
+    content: WRAN standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

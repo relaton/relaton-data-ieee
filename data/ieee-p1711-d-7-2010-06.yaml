@@ -1,0 +1,133 @@
+---
+id: IEEEP1711D7201006
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Trial Use Standard for a Cryptographic Protocol for Cyber Security
+    of Substation Serial Links
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5562695
+docidentifier:
+- content: IEEE P1711/D-7-2010-06
+  type: IEEE
+  primary: true
+- content: IEEE P1711™/D-7-2010-06
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0611-6
+  type: ISBN
+docnumber: IEEE P1711/D-7-2010-06
+date:
+- type: created
+  at: '2010-01-01'
+- type: published
+  at: '2015-12-21'
+- type: issued
+  at: '2010'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This trial use standard defines a cryptographic protocol to provide integrity,
+    and optional confidentiality, for cyber security of serial links. It does not
+    address specific applications or hardware implementations, and is independent
+    of the underlying communications protocol.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Encryption
+  - language: en
+    script: Latn
+    content: Computer security
+  - language: en
+    script: Latn
+    content: Computer crime
+  - language: en
+    script: Latn
+    content: Security
+  - language: en
+    script: Latn
+    content: cyber security
+  - language: en
+    script: Latn
+    content: serial link
+  - language: en
+    script: Latn
+    content: encryption
+  - language: en
+    script: Latn
+    content: integrity
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

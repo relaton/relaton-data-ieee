@@ -1,0 +1,194 @@
+---
+id: IEEEP20305D1201709
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Smart Energy Profile Application Protocol
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8080288
+docidentifier:
+- content: IEEE P2030.5/D-1-2017-09
+  type: IEEE
+  primary: true
+- content: IEEE P2030.5™/D-1-2017-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4445-3
+  type: ISBN
+docnumber: IEEE P2030.5/D-1-2017-09
+date:
+- type: created
+  at: '2017-01-01'
+- type: published
+  at: '2017-10-22'
+- type: issued
+  at: '2018-05-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power Line Communications of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The application layer with TCP/IP providing functions in the transport
+    and Internet layers to enable utility management of the end user energy environment,
+    including demand response, load control, time of day pricing, management of distributed
+    generation, electric vehicles, etc. is defined in this standard. Depending on
+    the physical layer in use (e.g., IEEE 802.15.4&#8482;, IEEE 802.11&#8482;, IEEE
+    1901&#8482;, IEEE 1901.2&#8482;), a variety of lower layer protocols may be involved
+    in providing a complete solution. Generally, lower layer protocols are not discussed
+    in this standard except where there is direct interaction with the application
+    protocol. The mechanisms for exchanging application messages, the exact messages
+    exchanged including error messages, and the security features used to protect
+    the application messages are defined in this standard. With respect to the Open
+    Systems Interconnection (OSI) network model, this standard is built using the
+    four layer Internet stack model. The defined application profile sources elements
+    from many existing standards, including IEC 61968 and IEC 61850, and follows a
+    RESTful architecture (Fielding [B3]) using IETF protocols such as HTTP.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 2030.5-2013
+    docidentifier:
+    - content: IEEE Std 2030.5-2013
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Energy managemnet
+  - language: en
+    script: Latn
+    content: Electric vehicles
+  - language: en
+    script: Latn
+    content: Smart devices
+  - language: en
+    script: Latn
+    content: Automatic meter reading
+  - language: en
+    script: Latn
+    content: adoption
+  - language: en
+    script: Latn
+    content: application
+  - language: en
+    script: Latn
+    content: application protocol
+  - language: en
+    script: Latn
+    content: demand response
+  - language: en
+    script: Latn
+    content: distributed energy resources
+  - language: en
+    script: Latn
+    content: energy usage information
+  - language: en
+    script: Latn
+    content: IEEE 2030.5
+  - language: en
+    script: Latn
+    content: load control
+  - language: en
+    script: Latn
+    content: metering
+  - language: en
+    script: Latn
+    content: plugin electric vehicles
+  - language: en
+    script: Latn
+    content: prepayment
+  - language: en
+    script: Latn
+    content: pricing communication
+  - language: en
+    script: Latn
+    content: RESTful
+  - language: en
+    script: Latn
+    content: SEP 2
+  - language: en
+    script: Latn
+    content: smart energy
+  - language: en
+    script: Latn
+    content: smart energy profile
+  - language: en
+    script: Latn
+    content: Smart Energy Profile 2
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

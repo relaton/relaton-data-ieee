@@ -1,0 +1,184 @@
+---
+id: IEEEStdC372322007
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Naming Time Sequence Data Files
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4293268
+docidentifier:
+- content: IEEE Std C37.232-2007
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.232™-2007
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5608-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2007.4293268
+  type: DOI
+docnumber: IEEE Std C37.232-2007
+date:
+- type: updated
+  at: '2008-03-17'
+- type: created
+  at: '2007-08-22'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2007-03-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A procedure for naming time sequence data (TSD) files, such as files produced
+    by digital fault recorders, power swing recorders, power quality monitors, and
+    so on is recommended. The sources of TSD files are described, and a survey of
+    current naming techniques is provided. The advantages of using a common naming
+    procedure are highlighted, and the limitations and applications are identified.
+    Issues of compatibility across operating systems and various vintages, and adaptability
+    to other types of files are also discussed. The required and optional portions
+    of the naming procedure are described in detail, and many examples are provided.
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.232-2011
+    docidentifier:
+    - content: IEEE Std C37.232-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Power engineering
+  - language: en
+    script: Latn
+    content: Power system relaying
+  - language: en
+    script: Latn
+    content: Fault diagnosis
+  - language: en
+    script: Latn
+    content: Object recognition
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: comma separated values
+  - language: en
+    script: Latn
+    content: CSV
+  - language: en
+    script: Latn
+    content: company name
+  - language: en
+    script: Latn
+    content: device identifier
+  - language: en
+    script: Latn
+    content: fault data
+  - language: en
+    script: Latn
+    content: fault time
+  - language: en
+    script: Latn
+    content: file extension
+  - language: en
+    script: Latn
+    content: filename
+  - language: en
+    script: Latn
+    content: file name
+  - language: en
+    script: Latn
+    content: file naming convention
+  - language: en
+    script: Latn
+    content: required fields
+  - language: en
+    script: Latn
+    content: start date
+  - language: en
+    script: Latn
+    content: start time
+  - language: en
+    script: Latn
+    content: station identifier
+  - language: en
+    script: Latn
+    content: time code
+  - language: en
+    script: Latn
+    content: time sequence data
+  - language: en
+    script: Latn
+    content: TSD
+  - language: en
+    script: Latn
+    content: user fields
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

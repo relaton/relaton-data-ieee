@@ -1,0 +1,127 @@
+---
+id: IEEEStd8051984
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for System Identification in Nuclear Power Plants
+    and Related Facilities
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/574230
+docidentifier:
+- content: IEEE Std 805-1984
+  type: IEEE
+  primary: true
+- content: IEEE Std 805™-1984
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4112-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1984.81712
+  type: DOI
+docnumber: IEEE Std 805-1984
+date:
+- type: created
+  at: '1984-03-27'
+- type: published
+  at: '2015-01-12'
+- type: issued
+  at: '1983-06-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Energy Development &amp; Power Generation of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This recommended practice provides a single source of nuclear power plant
+    system descriptions that, along with related recommended practices concerning
+    unique identification principles and definitions, component function identifiers,
+    and implementation instructions, provide a basis for uniquely identifying systems,
+    structures, and components of light water nuclear power plant projects (electric
+    power generating stations) and related facilities. The system descriptions concentrate
+    on system function and include such internal details as are necessary to clearly
+    support the system function description. They are not intended to serve as design
+    input. Fossil, hydro, and other types of power plants are not included. This standard
+    is part of a series of recommended practices, entitled the Energy Industry Identification
+    System (EIIS), the purpose of which is to present a common language of communication
+    that will permit a user to correlate a system, structure, or component with that
+    of another organization for the purposes of reporting, comparison, or general
+    communication. A significant feature of this concept is that the unique identification
+    code identifies the function at the component level and not the hardware itself.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1984'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: power plants
+  - language: en
+    script: Latn
+    content: Power system identification
+  - language: en
+    script: Latn
+    content: Nuclear power generation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

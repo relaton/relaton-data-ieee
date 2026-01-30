@@ -1,0 +1,141 @@
+---
+id: IEEEStd8023aj2003
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'Standard for Information Technology - Telecommunications and Information
+    Exchange Between Systems - Local and Metropolitan Area Networks - Specific Requirements
+    - Part 3: Carrier Sense Multiple Access with Collision Detection (CSMA/CD) Access
+    Method and Physical Layer Specifications - Maintenance 7'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1237563
+docidentifier:
+- content: IEEE Std 802.3aj-2003
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.3aj®-2003
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3817-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2003.94392
+  type: DOI
+docnumber: IEEE Std 802.3aj-2003
+date:
+- type: created
+  at: '2003'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2003-09-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEEE Std 802.3-2005 IEEE Std 802.3, which addresses the CSMA/CD
+    access method and physical layer specifications will be enhanced through necessary
+    amendments and corrigenda.
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2002
+    docidentifier:
+    - content: IEEE Std 802.3-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE 802.3 Standard
+  - language: en
+    script: Latn
+    content: EPON
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Maintenance engineering
+  - language: en
+    script: Latn
+    content: 802.3aj
+  - language: en
+    script: Latn
+    content: 1000BASE-T
+  - language: en
+    script: Latn
+    content: auto-negotiation
+  - language: en
+    script: Latn
+    content: NEXT page
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

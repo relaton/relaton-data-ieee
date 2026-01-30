@@ -1,0 +1,151 @@
+---
+id: ISOIEC8802
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEC International Standard - Information technology--Telecommunications
+    and information exchange between systems-- Local and metropolitan area networks--Specific
+    requirements--Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer
+    (PHY) specifications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4140843
+docidentifier:
+- content: ISO/IEC 8802
+  type: IEEE
+  primary: true
+- content: ISO/IEC 8802™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4773-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2005.339589
+  type: DOI
+docnumber: ISO/IEC 8802
+date:
+- type: created
+  at: '2005'
+- type: published
+  at: '2007-09-04'
+- type: issued
+  at: '2005'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The medium access control (MAC) and physical characteristics for wireless
+    local area networks (LANs) are specified in this standard, which is part of a
+    series of standards for local and metropolitan area networks. The medium access
+    control unit in this standard is designed to support physical layer units as they
+    may be adopted dependent on the availability of spectrum. This standard contains
+    five physical layer units: four radio units, operating in the 2400-2500 MHz band
+    and in the bands comprising 5.15-5.25 GHz, 5.25-5.35 GHz, and 5.725-5.825 GHz,
+    and one baseband infrared (IR) unit. One radio unit employs the frequency-hopping
+    spread spectrum (FHSS) technique, two employ the direct sequence spread spectrum
+    (DSSS) technique, and another employs the orthogonal frequency division multiplexing
+    (OFDM) technique.'
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: IEEE 802.11 Standard
+  - language: en
+    script: Latn
+    content: Portable document format
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: ad hoc network
+  - language: en
+    script: Latn
+    content: infrared
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: mobility
+  - language: en
+    script: Latn
+    content: radio frequency
+  - language: en
+    script: Latn
+    content: wireless
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

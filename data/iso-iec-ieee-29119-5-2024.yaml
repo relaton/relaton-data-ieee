@@ -1,0 +1,181 @@
+---
+id: ISOIECIEEE2911952024
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEC/IEEE International Standard Software and systems engineering --
+    Software testing -- Part 5: Keyword-Driven Testing'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10806546
+docidentifier:
+- content: ISO/IEC/IEEE 29119.5-2024
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 29119.5™-2024
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1596-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2024.10806546
+  type: DOI
+docnumber: ISO/IEC/IEEE 29119.5-2024
+date:
+- type: created
+  at: '2024-12-19'
+- type: published
+  at: '2024-12-17'
+- type: issued
+  at: '2024-12-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The purpose of the ISO/IEC/IEEE 29119 series is to define an internationally-agreed
+    set of standards for software testing that can be used by any organization when
+    performing any form of software testing. ISO/IEC/IEEE 29119-5 defines keyword-driven
+    testing, which is an approach to describing test cases in a modular way. This
+    standard explains the main concepts and attributes of keyword-driven testing and
+    is applicable to all those who want to create keyword-driven test specifications,
+    create corresponding frameworks, or build test automation based on keywords. This
+    standard defines requirements on frameworks for keyword-driven testing to enable
+    test engineers to share their test artefacts, such as test cases, test data, keywords,
+    or complete test specifications. It also defines minimum requirements for tools
+    supporting keyword-driven testing and defines requirements on a common data exchange
+    format to ensure that tools from different vendors can exchange their data (e.g.
+    test cases, test data and test results).
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ISO/IEC/IEEE 29119.5
+    docidentifier:
+    - content: ISO/IEC/IEEE 29119.5
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Keyword search
+  - language: en
+    script: Latn
+    content: Software testing
+  - language: en
+    script: Latn
+    content: Automation
+  - language: en
+    script: Latn
+    content: Formal verification
+  - language: en
+    script: Latn
+    content: framework
+  - language: en
+    script: Latn
+    content: keyword-driven testing
+  - language: en
+    script: Latn
+    content: software testing
+  - language: en
+    script: Latn
+    content: test automation
+  - language: en
+    script: Latn
+    content: test specification
+  - language: en
+    script: Latn
+    content: verification and validation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

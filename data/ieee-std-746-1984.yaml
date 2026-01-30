@@ -1,0 +1,139 @@
+---
+id: IEEEStd7461984
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Performance Measurements of A/D and D/A Converters for
+    PCM Television Video Circuits
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/30675
+docidentifier:
+- content: IEEE Std 746-1984
+  type: IEEE
+  primary: true
+- content: IEEE Std 746™-1984
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4404-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1984.82420
+  type: DOI
+docnumber: IEEE Std 746-1984
+date:
+- type: created
+  at: '1984-10-15'
+- type: published
+  at: '2013-02-26'
+- type: issued
+  at: '1983-09-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Broadcast Technology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard describes methods for measuring ther performance of uniformly
+    coded alnalog-to-digital (A/D) coverters and digital-to-analog (D/A) converters
+    for pulse code modulation (PSM) television video signals. Excluded are A/D and
+    D/A converters that employ nonlinear processes for bit reduction television circuits,
+    as for example, sub-Nyquist encoding, differential PCM, transform coders, etc.
+    This standard is intended primarily for CCIR System M, 525-line/60-field television
+    circuits. The performance to be measured should be relevant to the subjective
+    quality of the television picture. Measurements not related to the quality of
+    the video signal are excluded from this standard. Where possible, television type
+    test signals are used to accomodate clamping circuits in the converters.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1984'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Analog-digital conversion
+  - language: en
+    script: Latn
+    content: Digital-analog conversion
+  - language: en
+    script: Latn
+    content: Pulse code modulation
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: a/d
+  - language: en
+    script: Latn
+    content: d/a
+  - language: en
+    script: Latn
+    content: converters
+  - language: en
+    script: Latn
+    content: video
+  - language: en
+    script: Latn
+    content: circuits
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.160.40
+    text: Video systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

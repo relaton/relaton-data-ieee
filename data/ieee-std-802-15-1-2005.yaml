@@ -1,0 +1,124 @@
+---
+id: IEEEStd8021512005
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information technology-- Local and metropolitan area
+    networks-- Specific requirements-- Part 15.1a: Wireless Medium Access Control
+    (MAC) and Physical Layer (PHY) specifications for Wireless Personal Area Networks
+    (WPAN)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1490827
+docidentifier:
+- content: IEEE Std 802.15.1-2005
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.1®-2005
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4708-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2005.96290
+  type: DOI
+docnumber: IEEE Std 802.15.1-2005
+date:
+- type: created
+  at: '2005-06-14'
+- type: published
+  at: '2015-09-16'
+- type: issued
+  at: '2005-02-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Methods for communicating devices in a Personal Area Network.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: WPAN
+  - language: en
+    script: Latn
+    content: Personal Area Network
+  - language: en
+    script: Latn
+    content: Bluetooth
+  - language: en
+    script: Latn
+    content: ISM
+  - language: en
+    script: Latn
+    content: Communications protocol
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

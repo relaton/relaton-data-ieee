@@ -1,0 +1,165 @@
+---
+id: ISOIECIEEE8802322021
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE/ISO/IEC International Standard for Telecommunications and exchange
+    between information technology systems--Requirements for local and metropolitan
+    area networks--Part 3-2:Standard for Ethernet YANG data model definitions
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9641795
+docidentifier:
+- content: ISO/IEC/IEEE 8802.3-2-2021
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 8802.3-2™-2021
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8204-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2021.9641795
+  type: DOI
+docnumber: ISO/IEC/IEEE 8802.3-2-2021
+date:
+- type: created
+  at: '2021-12-03'
+- type: published
+  at: '2021-12-07'
+- type: issued
+  at: '2021'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: YANG models for IEEE Std 802.3 are defined in this standard. This standard
+    also publishes these models in a machine-readable format.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 802.3.2-2019
+    docidentifier:
+    - content: IEEE Std 802.3.2-2019
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Data models
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: '802.3'
+  - language: en
+    script: Latn
+    content: 802.3.2
+  - language: en
+    script: Latn
+    content: YANG
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

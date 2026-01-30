@@ -1,0 +1,110 @@
+---
+id: ANSIIEEEStd80221985
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Local Area Networks - Logical Link Control
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/30705
+docidentifier:
+- content: ANSI/IEEE Std 802.2-1985
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 802.2™-1985
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-471-82748-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1984.82775
+  type: DOI
+docnumber: ANSI/IEEE Std 802.2-1985
+date:
+- type: created
+  at: '1984-12-17'
+- type: published
+  at: '2019-05-31'
+- type: issued
+  at: '1984-07-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This standard describes the functions, and features and protocol of the
+    logical link control (LLC) sublayer in the local area network protocol. It describes
+    the LLC sublayer interface service specifications to the network layer, to the
+    medium access control (MAC) sublayer, and to the LLC sublayer management function.
+    IEEE Std 802.2-1985 provides a description of the peer-to-peer protocol procedures
+    that are defined for the transfer of information and control between any pair
+    of data link layer service access points on a local area network. To satisfy a
+    broad range of potential applications, two types of data link control operation
+    are included. They are: a data-link-connectionless service across a data link
+    with minimum protocol complexity, and a data-link-connection-oriented service
+    across a data link comparable to existing data link control procedures provided
+    in national and international standards. Two distinct ''classes'' of LLC operation
+    are identified. Class I provides data-link-connectionless service only and Class
+    II provides data-link-connection-oriented service plus data-link-connectionless
+    service.<<ETX>>'
+copyright:
+- from: '1984'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: ISO 8802.2
+    docidentifier:
+    - content: ISO 8802.2
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

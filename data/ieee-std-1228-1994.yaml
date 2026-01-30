@@ -1,0 +1,127 @@
+---
+id: IEEEStd12281994
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Software Safety Plans
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9097571
+docidentifier:
+- content: IEEE Std 1228-1994
+  type: IEEE
+  primary: true
+- content: IEEE Std 1228™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0420-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.9097571
+  type: DOI
+docnumber: IEEE Std 1228-1994
+date:
+- type: created
+  at: '1993-11-30'
+- type: published
+  at: '2020-05-20'
+- type: issued
+  at: '1994-03-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The minimum acceptable requirements for the content of a software safety
+    plan are established. This standard applies to the software safety plan used for
+    the development, procurement, maintenance, and retirement of safety-critical software.
+    This standard requires that the plan be prepared within the context of the system
+    safety program. Only the safety aspects of the software are included. This standard
+    does not contain special provisions required for software used in distributed
+    systems or in parallel processors.
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Software safety
+  - language: en
+    script: Latn
+    content: Safety management
+  - language: en
+    script: Latn
+    content: Software safety program
+  - language: en
+    script: Latn
+    content: Software safety plan
+  - language: en
+    script: Latn
+    content: Safety-critical software
+  - language: en
+    script: Latn
+    content: Safety requirements
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

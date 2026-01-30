@@ -1,0 +1,156 @@
+---
+id: IEEEStd802154u2016
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Low-Rate Wireless Networks--Amendment 3: Use of the
+    865 MHz to 867 MHz Band in India'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7852415
+docidentifier:
+- content: IEEE Std 802.15.4u-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.4u®-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-2320-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2017.7852415
+  type: DOI
+docnumber: IEEE Std 802.15.4u-2016
+date:
+- type: updated
+  at: '2017-03-03'
+- type: created
+  at: '2017-02-10'
+- type: published
+  at: '2017-02-13'
+- type: issued
+  at: '2016-09-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A physical (PHY) layer enabling the use of the 865 MHz to 867 MHz band
+    in India is defined in this amendment. The supported data rate should be at least
+    40 kb/s and the typical line-of-sight range should be on the order of 5 km using
+    an omni directional antenna. Included are any channel access and/or timing changes
+    in the medium access control necessary to support this PHY layer.
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.15.4-2011
+    docidentifier:
+    - content: IEEE Std 802.15.4-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Low power electronics
+  - language: en
+    script: Latn
+    content: Personal area networks
+  - language: en
+    script: Latn
+    content: Wireless communication
+  - language: en
+    script: Latn
+    content: India
+  - language: en
+    script: Latn
+    content: Frequency bands
+  - language: en
+    script: Latn
+    content: 865 MHz to 867 MHz band
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4u(TM)
+  - language: en
+    script: Latn
+    content: low data rate
+  - language: en
+    script: Latn
+    content: low power
+  - language: en
+    script: Latn
+    content: wireless personal area network
+  - language: en
+    script: Latn
+    content: WPAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

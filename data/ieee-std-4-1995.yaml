@@ -1,0 +1,129 @@
+---
+id: IEEEStd41995
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Techniques for High-Voltage Testing
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/573333
+docidentifier:
+- content: IEEE Std 4-1995
+  type: IEEE
+  primary: true
+- content: IEEE Std 4™-1995
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0658-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1995.81695
+  type: DOI
+docnumber: IEEE Std 4-1995
+date:
+- type: created
+  at: '1995-10-12'
+- type: published
+  at: '2013-05-21'
+- type: issued
+  at: '1995-03-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Instrumentation and Measurements of the IEEE Power and
+          Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard establishes standard methods to measure high-voltage and
+    basic testing techniques, so far as they are generally applicable, to all types
+    of apparatus for alternating voltages, direct voltages, lightning impulse voltags,
+    switching impulse voltages, and impulse currents. This revision implements many
+    new procedures to improve accuracy, provide greater flexibility, and address practical
+    problems associated with high-voltage measurements.
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 4-1978
+    docidentifier:
+    - content: ANSI/IEEE Std 4-1978
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 4-2013
+    docidentifier:
+    - content: IEEE Std 4-2013
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: high-voltage testing
+  - language: en
+    script: Latn
+    content: testing
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '19.080'
+    text: Electrical and electronic testing
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

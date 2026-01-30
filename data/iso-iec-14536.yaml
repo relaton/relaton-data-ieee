@@ -1,0 +1,163 @@
+---
+id: ISOIEC14536
+type: standard
+schema_version: v1.4.1
+title:
+- content: ISO/IEC 14536:1995 [ANSI/IEEE Std 896.5-1995] Information technology -
+    Microprocessor systems - Futurebus+(R), Profile M (Military)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4140852
+docidentifier:
+- content: ISO/IEC 14536
+  type: IEEE
+  primary: true
+- content: ISO/IEC 14536™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1215-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1995.339592
+  type: DOI
+docnumber: ISO/IEC 14536
+date:
+- type: created
+  at: '1995-12-29'
+- type: published
+  at: '2018-12-10'
+- type: issued
+  at: '1995'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This International Standard provides a set of tools with which to implement
+    a Futurebus+¨ architecture. This high-performance bus-based system architecture
+    provides a wide range of performance and cost scalability over time for multiple
+    generations of single- and muliple-bus multiprocessor systems. This document,
+    a companion standard to ISO/IEC 10857:1994 [ANSI/IEEE Std 896.1,1994 Edition],
+    builds on the logical layer by adding requirements for three military profiles.
+    It is to these profiles that products will claim conformance. Othere specifications
+    that may be required in conjunction with this International Standard are [ISO/IEC
+    Std 10857: 1994 [ANSI/IEEE Std 896.1, 1994 Edition], IEEE Std 896.2-1991, IEEE
+    Std 896.2a-1994, IEEE Std 896.3-1993, IEEE Std 896.4-1993, IEEE P896.4a, IEEE
+    Std 896.9-1994, IEEE Std 1101.3-1993, IEEE Std 1101.4-1993, IEEE Std 1212-1991,
+    IEEE Std 1194.1-1991, IEEE Std P1394, IEEE Std 1301-1991, and IEEE Std 1301.1-1991.'
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Microprocessors
+  - language: en
+    script: Latn
+    content: Computer security
+  - language: en
+    script: Latn
+    content: bus architecture
+  - language: en
+    script: Latn
+    content: error logging
+  - language: en
+    script: Latn
+    content: fault logging
+  - language: en
+    script: Latn
+    content: futurebus+
+  - language: en
+    script: Latn
+    content: live insertion
+  - language: en
+    script: Latn
+    content: military profiles
+  - language: en
+    script: Latn
+    content: multiprocessor
+  - language: en
+    script: Latn
+    content: node management
+  - language: en
+    script: Latn
+    content: open architecture
+  - language: en
+    script: Latn
+    content: serial bus
+  - language: en
+    script: Latn
+    content: software debug
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,155 @@
+---
+id: IEEEStd4201982
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for the Design and Qualification of Class 1E Control Boards,
+    Panels, and Racks Used in Nuclear Power Generating Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/574823
+docidentifier:
+- content: IEEE Std 420-1982
+  type: IEEE
+  primary: true
+- content: IEEE Std 420™-1982
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3324-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1982.81709
+  type: DOI
+docnumber: IEEE Std 420-1982
+date:
+- type: created
+  at: '1982-12-07'
+- type: published
+  at: '2016-02-24'
+- type: issued
+  at: '1981-12-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Design requirements that are unique to Class 1E control boards, panels,
+    and racks are specified. Standards for qualification tests to verify that these
+    design requirements have been satisfied are provided. This standard is not intended
+    to define the selection, design, or qualification of piping, modules, or other
+    equipment mounted on the Class 1E control boards, panels, or racks. It is concerned,
+    however, with the effect such mounted equipment has on the design and qualifications.
+    Qualification and testing of individual Class 1E control board components and
+    modules and external field-run cables are not covered.
+copyright:
+- from: '1982'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 420-1973
+    docidentifier:
+    - content: IEEE Std 420-1973
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 420-2001
+    docidentifier:
+    - content: IEEE Std 420-2001
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Qualifications
+  - language: en
+    script: Latn
+    content: Nuclear power generation
+  - language: en
+    script: Latn
+    content: Accidents
+  - language: en
+    script: Latn
+    content: Task analysis
+  - language: en
+    script: Latn
+    content: qualifications
+  - language: en
+    script: Latn
+    content: 1E
+  - language: en
+    script: Latn
+    content: control
+  - language: en
+    script: Latn
+    content: panels
+  - language: en
+    script: Latn
+    content: racks
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,145 @@
+---
+id: IEEEStd32192023
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Blockchain-Based Zero-Trust Framework for the Internet
+    of Things (IoT)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10531234
+docidentifier:
+- content: IEEE Std 3219-2023
+  type: IEEE
+  primary: true
+- content: IEEE Std 3219™-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0417-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2024.10531234
+  type: DOI
+docnumber: IEEE Std 3219-2023
+date:
+- type: created
+  at: '2024-04-26'
+- type: published
+  at: '2024-05-15'
+- type: issued
+  at: '2023-11-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Blockchain and Distributed Ledgers of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The surging needs for the Internet of Things (IoT) are dramatically shifting
+    the network structure and challenging the traditional perimeter security paradigm.
+    To establish secure and trustworthy interoperability among billions of heterogeneous
+    interconnected devices, there is a need for standards defining a common framework.
+    In this standard, a blockchain-based Zero-Trust access control framework is defined.
+    The framework provides a typical implementation model and deployment variations,
+    addressing general security and trust in IoT applications with the inspiration
+    of the emerging Zero-Trust paradigm and blockchain technology. The leverage of
+    blockchain and Zero-Trust discussed could provide reliable interactions among
+    people, things, and applications in the presence of failures and attacks, and
+    improve an IoT system’s overall information technology security posture.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Access control
+  - language: en
+    script: Latn
+    content: Blockchains
+  - language: en
+    script: Latn
+    content: Zero Trust
+  - language: en
+    script: Latn
+    content: Internet of Things
+  - language: en
+    script: Latn
+    content: access control
+  - language: en
+    script: Latn
+    content: blockchain
+  - language: en
+    script: Latn
+    content: IEEE 3219&#8482;
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: Zero-Trust
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.020'
+    text: Information technology (IT) in general
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

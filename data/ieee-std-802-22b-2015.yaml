@@ -1,0 +1,171 @@
+---
+id: IEEEStd80222b2015
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information Technology--Telecommunications and information
+    exchange between systems - Wireless Regional Area Networks (WRAN)--Specific requirements
+    - Part 22: Cognitive Wireless RAN Medium Access Control (MAC) and Physical Layer
+    (PHY) Specifications:Policies and Procedures for Operation in the TV Bands - Amendment
+    2: Enhancement for Broadband Services and Monitoring Applications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7336461
+docidentifier:
+- content: IEEE Std 802.22b-2015
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.22b®-2015
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9838-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2015.7336461
+  type: DOI
+docnumber: IEEE Std 802.22b-2015
+date:
+- type: updated
+  at: '2015-12-11'
+- type: created
+  at: '2015-10-30'
+- type: published
+  at: '2015-11-24'
+- type: issued
+  at: '2015-09-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Alternate physical layer (PHY) and necessary medium access control layer
+    (MAC) enhancements to IEEE Std 802.22-2011 are specified in this amendment for
+    operation in very high frequency/ultra-high frequency (VHF/UHF) television broadcast
+    bands between 54 MHz and 862 MHz to support enhanced broadband services and monitoring
+    applications. The amendment supports aggregate data rates greater than the maximum
+    data rate supported by the IEEE Std 802.22-2011. This amendment defines new classes
+    of IEEE 802.22(TM) devices to address these applications and supports more than
+    512 devices in a network. This amendment also specifies techniques to enhance
+    communications among the devices and makes necessary amendments to the cognitive,
+    security, and parameters and connection management clauses. This amendment supports
+    mechanisms to enable coexistence with other IEEE 802(R) systems in the same band.(The
+    PDF of this standard is available at no cost compliments of the IEEE GET program
+    http://ieeexplore.ieee.org/document/7336461/)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.22-2011
+    docidentifier:
+    - content: IEEE Std 802.22-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Throughput
+  - language: en
+    script: Latn
+    content: Broadband communication
+  - language: en
+    script: Latn
+    content: WRAN
+  - language: en
+    script: Latn
+    content: broadband wireless access network
+  - language: en
+    script: Latn
+    content: enhanced broadband services
+  - language: en
+    script: Latn
+    content: high capacity
+  - language: en
+    script: Latn
+    content: high throughput
+  - language: en
+    script: Latn
+    content: IEEE 802.22(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.22b(TM)
+  - language: en
+    script: Latn
+    content: monitoring applications
+  - language: en
+    script: Latn
+    content: WRAN standard
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

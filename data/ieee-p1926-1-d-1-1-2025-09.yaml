@@ -1,0 +1,135 @@
+---
+id: IEEEP19261D11202509
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Approved Draft Standard for a Functional Architecture of Distributed
+    Energy Efficient Big Data Processing
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11170327
+docidentifier:
+- content: IEEE P1926.1/D-1.1-2025-09
+  type: IEEE
+  primary: true
+- content: IEEE P1926.1™/D-1.1-2025-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2607-7
+  type: ISBN
+docnumber: IEEE P1926.1/D-1.1-2025-09
+date:
+- type: created
+  at: '2025-11-14'
+- type: published
+  at: '2025-09-18'
+- type: issued
+  at: '2025-11-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Green ICT Standards Committee of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This recommended practice and guide 1 specifies an energy-efficient functional
+    architecture for big data transmission and processing. The architecture considers
+    distributed processing nodes in addition to centralized data centers to process
+    big data chunks. Distributed processing nodes provides processing closer to big
+    data sources which reduces the networking power consumption. The performance of
+    the energy-efficient functional architecture is compared to classical centralized
+    processing of big data under different use cases representing two of the main
+    characteristics of big data; volume and variety.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Big Data
+  - language: en
+    script: Latn
+    content: Energy efficiency
+  - language: en
+    script: Latn
+    content: IP networks
+  - language: en
+    script: Latn
+    content: WDM networks
+  - language: en
+    script: Latn
+    content: Power distribution networks
+  - language: en
+    script: Latn
+    content: big data
+  - language: en
+    script: Latn
+    content: energy efficiency
+  - language: en
+    script: Latn
+    content: processing placement
+  - language: en
+    script: Latn
+    content: IP over WDM.
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

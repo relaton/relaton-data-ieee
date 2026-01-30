@@ -1,0 +1,174 @@
+---
+id: IEEEStd15162010
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Modeling and Simulation (M&S) High Level Architecture
+    (HLA)-- Framework and Rules
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5553440
+docidentifier:
+- content: IEEE Std 1516-2010
+  type: IEEE
+  primary: true
+- content: IEEE Std 1516™-2010
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6251-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2010.5553440
+  type: DOI
+docnumber: IEEE Std 1516-2010
+date:
+- type: created
+  at: '2010-08-18'
+- type: published
+  at: '2010-08-23'
+- type: issued
+  at: '2010-03-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Simulation Interoperability Stds Organization/Stds Activity Committee
+          of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard, describing the framework and rules of the High Level Architecture
+    (HLA), is the capstone document for a family of related HLA standards. It defines
+    the HLA, its components, and the rules that outline the responsibilities of HLA
+    federates and federations to ensure a consistent implementation. Simulations are
+    abstractions of the real world, and no one simulation can solve all of the functional
+    needs for the modeling and simulation community. It is anticipated that technology
+    advances will allow for new and different modeling and simulation (M&amp;S) implementations
+    within the framework of the HLA. The standards contained in this architecture
+    are interrelated and need to be considered as a product set, as a change in one
+    is likely to have an impact on the others. As such, the HLA is an integrated approach
+    that has been developed to provide a common architecture for simulation.
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Modeling
+  - language: en
+    script: Latn
+    content: Simulation
+  - language: en
+    script: Latn
+    content: Computer architecture
+  - language: en
+    script: Latn
+    content: Metasearch
+  - language: en
+    script: Latn
+    content: architecture
+  - language: en
+    script: Latn
+    content: class attribute
+  - language: en
+    script: Latn
+    content: federate
+  - language: en
+    script: Latn
+    content: federation
+  - language: en
+    script: Latn
+    content: federation execution
+  - language: en
+    script: Latn
+    content: federation object model
+  - language: en
+    script: Latn
+    content: framework
+  - language: en
+    script: Latn
+    content: High Level Architecture
+  - language: en
+    script: Latn
+    content: instance attribute
+  - language: en
+    script: Latn
+    content: interaction class
+  - language: en
+    script: Latn
+    content: joined federate
+  - language: en
+    script: Latn
+    content: object class
+  - language: en
+    script: Latn
+    content: object model template
+  - language: en
+    script: Latn
+    content: rules
+  - language: en
+    script: Latn
+    content: runtime infrastructure
+  - language: en
+    script: Latn
+    content: simulation object model
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

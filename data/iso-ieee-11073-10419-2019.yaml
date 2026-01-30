@@ -1,0 +1,142 @@
+---
+id: ISOIEEE11073104192019
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEEE International Standard - Health informatics--Personal health
+    device communication - Part 10419: Device Specialization--Insulin Pump'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8686397
+docidentifier:
+- content: ISO/IEEE 11073.10419-2019
+  type: IEEE
+  primary: true
+- content: ISO/IEEE 11073.10419™-2019
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5695-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2019.8686397
+  type: DOI
+docnumber: ISO/IEEE 11073.10419-2019
+date:
+- type: created
+  at: '2019-04-12'
+- type: published
+  at: '2019-04-10'
+- type: issued
+  at: '2019'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, a normative definition of communication between personal telehealth
+    insulin pump devices and compute engines (e.g., cell phones, personal computers,
+    personal health appliances, set top boxes), in a manner that enables plug-and-play
+    interoperability, is established in this standard. It leverages appropriate portions
+    of existing standards including ISO/IEEE 11073 terminology, information models,
+    application profile standards, and transport standards. It specifies the use of
+    specific term codes, formats, and behaviors in telehealth environments restricting
+    optionality in base frameworks in favor of interoperability. The standard defines
+    a common core of communication functionality for personal telehealth insulin pump
+    devices.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 11073.10419-2017
+    docidentifier:
+    - content: IEEE Std 11073.10419-2017
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Pumps
+  - language: en
+    script: Latn
+    content: Insulin
+  - language: en
+    script: Latn
+    content: Biomedical monitoring
+  - language: en
+    script: Latn
+    content: Biomedical measurements
+  - language: en
+    script: Latn
+    content: Patient monitoring
+  - language: en
+    script: Latn
+    content: IEEE 11073-10419&#8482;
+  - language: en
+    script: Latn
+    content: insulin pump
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: personal health devices
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,128 @@
+---
+id: IEEEStd10361992
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Application of Shunt Power Capacitors
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/211735
+docidentifier:
+- content: IEEE Std 1036-1992
+  type: IEEE
+  primary: true
+- content: IEEE Std 1036™-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0376-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.114399
+  type: DOI
+docnumber: IEEE Std 1036-1992
+date:
+- type: created
+  at: '1993-02-19'
+- type: published
+  at: '2018-11-19'
+- type: issued
+  at: '1992-09-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Guidelines for the application protection, and ratings of equipment for
+    the safe and reliable utilization of shunt power capacitors are provided. This
+    guide applies to the use of 50 and 60 Hz shunt power capacitors rated 2400 Vac
+    and above, and assemblies of capacitors. Applications that range from simple unit
+    utilization to complex bank situations are covered.
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std P1036/D-13a
+    docidentifier:
+    - content: IEEE Std P1036/D-13a
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Power capacitors
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: capacitor
+  - language: en
+    script: Latn
+    content: power factor correction
+  - language: en
+    script: Latn
+    content: shunt power capacitor
+  - language: en
+    script: Latn
+    content: voltage control
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 31.060.70
+    text: Power capacitors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

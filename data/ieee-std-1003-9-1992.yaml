@@ -1,0 +1,141 @@
+---
+id: IEEEStd100391992
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for InformationTechnology - POSIX(R) FORTRAN 77 Language
+    Interfaces - Part 1: Binding for System Application Program Interface (API)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/182910
+docidentifier:
+- content: IEEE Std 1003.9-1992
+  type: IEEE
+  primary: true
+- content: IEEE Std 1003.9™-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3746-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1992.106985
+  type: DOI
+docnumber: IEEE Std 1003.9-1992
+date:
+- type: created
+  at: '1992'
+- type: published
+  at: '2019-04-30'
+- type: issued
+  at: '1992-06-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Portable Applications of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard provides a standardized interface for accessing the system
+    services of ISO/IEC 9945-1:1990 (IEEE Std 1003.1-1990, also know as POSIX.1),
+    and support routines to access constructs not directly accessible with FORTRAN
+    77. This standard supports application portability at the source level through
+    the binding between ANSI X3.9-1978 and POSIX.1, and a standardized definition
+    of language-specific services. The goal is to provide standardized interfaces
+    to the POSIX.1 system services via a FORTRAN 77 language interface. Terminology
+    and general requirements, process primitives, the process environment, files and
+    directories, input and output primitives, device- and class-specific functions,
+    the FORTRAN 77 language library, and system databases are covered.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: FORTRAN
+  - language: en
+    script: Latn
+    content: Software portability
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: interfaces
+  - language: en
+    script: Latn
+    content: POSIX
+  - language: en
+    script: Latn
+    content: System interfaces
+  - language: en
+    script: Latn
+    content: FORTRAN 77
+  - language: en
+    script: Latn
+    content: Application portability
+  - language: en
+    script: Latn
+    content: interoperability
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

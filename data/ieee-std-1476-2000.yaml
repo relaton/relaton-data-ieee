@@ -1,0 +1,129 @@
+---
+id: IEEEStd14762000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Passenger Train Auxiliary Power Systems Interfaces
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/842120
+docidentifier:
+- content: IEEE Std 1476-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 1476™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1965-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.91315
+  type: DOI
+docnumber: IEEE Std 1476-2000
+date:
+- type: created
+  at: '2000-05-03'
+- type: published
+  at: '2020-02-14'
+- type: issued
+  at: '2000-03-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Rail Transportation Standards Committee of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The electrical interfaces among the components comprising the auxiliary
+    power systems and their electrical interface with other train-borne systems are
+    described. As such, this standard treats the auxiliary power system components
+    (e.g., static inverters and converters, low-voltage dc power supplies, back-up
+    battery systems, and battery chargers) as black boxes and addresses only their
+    interface requirements.
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Rail transportation
+  - language: en
+    script: Latn
+    content: auxiliary power systems
+  - language: en
+    script: Latn
+    content: battery charger
+  - language: en
+    script: Latn
+    content: intermediate-voltage power supply
+  - language: en
+    script: Latn
+    content: low-voltage power supply batteries
+  - language: en
+    script: Latn
+    content: nickel-cadmium batteries
+  - language: en
+    script: Latn
+    content: rail-transit vehicles
+  - language: en
+    script: Latn
+    content: static inverters and converters
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 45.060.01
+    text: Railway rolling stock in general
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,191 @@
+---
+id: IEEEP8023dfD31202310
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Ethernet Amendment: Media Access Control Parameters
+    for 800 Gb/s and Physical Layers and Management Parameters for 400 Gb/s and 800
+    Gb/s Operation'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10289693
+docidentifier:
+- content: IEEE P802.3df/D-3.1-2023-10
+  type: IEEE
+  primary: true
+- content: IEEE P802.3df™/D-3.1-2023-10
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0241-5
+  type: ISBN
+docnumber: IEEE P802.3df/D-3.1-2023-10
+date:
+- type: created
+  at: '2023-10-19'
+- type: published
+  at: '2023-10-20'
+- type: issued
+  at: '2024-02-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This amendment includes changes to IEEE Std 802.3-2022 and adds Clause
+    169 through Clause 173, Annex 172A, and Annex 173A. This amendment adds MAC parameters,
+    Physical Layers, and management parameters for the transfer of IEEE 802.3 format
+    frames at 400 Gb/s and 800 Gb/s. Additional files can be found here: https://standards.ieee.org/wp-content/uploads/2024/03/802.3df-2024_downloads.zip'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2022
+    docidentifier:
+    - content: IEEE Std 802.3-2022
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: 800GAUI-8
+  - language: en
+    script: Latn
+    content: 800GBASE-CR8
+  - language: en
+    script: Latn
+    content: 400GBASE-DR4-2
+  - language: en
+    script: Latn
+    content: 800GBASE-DR8
+  - language: en
+    script: Latn
+    content: 800GBASE-DR8-2
+  - language: en
+    script: Latn
+    content: 800GBASE-KR8
+  - language: en
+    script: Latn
+    content: 800GBASE-R
+  - language: en
+    script: Latn
+    content: 800GBASE-SR8
+  - language: en
+    script: Latn
+    content: 800GBASE-VR8
+  - language: en
+    script: Latn
+    content: 800 Gigabit Ethernet
+  - language: en
+    script: Latn
+    content: 800GMII
+  - language: en
+    script: Latn
+    content: 800GXS
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: FEC
+  - language: en
+    script: Latn
+    content: IEEE 802.3&#8482;
+  - language: en
+    script: Latn
+    content: IEEE 802.3df&#8482;
+  - language: en
+    script: Latn
+    content: PCS
+  - language: en
+    script: Latn
+    content: Physical Coding Sublayer
+  - language: en
+    script: Latn
+    content: PMD
+  - language: en
+    script: Latn
+    content: Physical Medium Attachment
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

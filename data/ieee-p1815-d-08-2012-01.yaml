@@ -1,0 +1,144 @@
+---
+id: IEEEP1815D08201201
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Electric Power Systems Communications -Distributed
+    Network Protocol (DNP3)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6135465
+docidentifier:
+- content: IEEE P1815/D-08-2012-01
+  type: IEEE
+  primary: true
+- content: IEEE P1815™/D-08-2012-01
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7438-9
+  type: ISBN
+docnumber: IEEE P1815/D-08-2012-01
+date:
+- type: created
+  at: '2012-02-07'
+- type: published
+  at: '2012-01-23'
+- type: issued
+  at: '2012-02-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power &amp; Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The DNP3 protocol structure, functions, and interoperable application options
+    (subsetlevels) are specified. The simplest application level is intended for low-cost
+    distribution feederdevices, and the most complex for full-featured systems. The
+    appropriate level is selected to suit the functionality required in each device.
+    The protocol is suitable for operation on a variety of communication media consistent
+    with the makeup of most electric power communication systems.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Power system management
+  - language: en
+    script: Latn
+    content: Substations
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Power distribution
+  - language: en
+    script: Latn
+    content: Distributed control
+  - language: en
+    script: Latn
+    content: Distributed Network Protocol (DNP3)
+  - language: en
+    script: Latn
+    content: distribution automation
+  - language: en
+    script: Latn
+    content: distribution feeder
+  - language: en
+    script: Latn
+    content: electric power communication systems
+  - language: en
+    script: Latn
+    content: master station
+  - language: en
+    script: Latn
+    content: substation automation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,131 @@
+---
+id: IEEEStdN42632023
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Unmanned Aerial Radiation Measurement Systems (UARaMS)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10315107
+docidentifier:
+- content: IEEE Std N42.63-2023
+  type: IEEE
+  primary: true
+- content: IEEE Std N42.63™-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0201-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10315107
+  type: DOI
+docnumber: IEEE Std N42.63-2023
+date:
+- type: created
+  at: '2023-11-14'
+- type: published
+  at: '2023-11-10'
+- type: issued
+  at: '2023-06-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC45 - Radiation and Nuclear Instrumentation and Systems of the IEEE
+          Instrumentation and Measurement Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Performance criteria and characterization techniques are established in
+    this standard for radiation measurement systems incorporated onto unmanned aerial
+    systems. This standard focuses on radiation response expectations and environmental
+    parameters that could be experienced during use such as temperature changes, mechanical
+    shock, and onboard vibration. For radiation response expectations, response vectors
+    include those expected from distributed radioactive contamination and from radioactive
+    point sources. The primary unmanned aerial vehicles (UAVs) of interest include
+    those from Group 1 and Group 2 UAV designations.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Autonomous aerial vehicles
+  - language: en
+    script: Latn
+    content: Radiation detectors
+  - language: en
+    script: Latn
+    content: IEEE N42.63&#8482;
+  - language: en
+    script: Latn
+    content: radiation detector
+  - language: en
+    script: Latn
+    content: radiation response
+  - language: en
+    script: Latn
+    content: response vectors
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,154 @@
+---
+id: IEEEP80211aqTMD1302017
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Information technology--Telecommunications and
+    information exchange between systems Local and metropolitan area networks--Specific
+    requirements Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer
+    (PHY) Specifications Amendment 3: Pre-Association Discovery'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8080318
+docidentifier:
+- content: IEEE P802.11aqTM/D-13.0-2017
+  type: IEEE
+  primary: true
+- content: IEEE P802.11aqTM™/D-13.0-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4444-6
+  type: ISBN
+docnumber: IEEE P802.11aqTM/D-13.0-2017
+date:
+- type: created
+  at: '2017-01-01'
+- type: published
+  at: '2017-10-23'
+- type: issued
+  at: '2018-06-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Modifications to IEEE Std 802.11™-2016, above the physical layer (PHY),
+    to enable delivery of preassociation service discovery information to IEEE 802.11
+    stations (STAs) are defined in this amendment., above the physical layer (PHY),
+    to enable delivery of preassociation service discovery information to IEEE Std
+    802.11 stations (STAs).
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.11-2012 Redline
+    docidentifier:
+    - content: IEEE Std 802.11-2012 Redline
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Filters
+  - language: en
+    script: Latn
+    content: Knowledge discovery
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: bloom filter
+  - language: en
+    script: Latn
+    content: hash function
+  - language: en
+    script: Latn
+    content: IEEE 802.11™
+  - language: en
+    script: Latn
+    content: IEEE 802.11aq™
+  - language: en
+    script: Latn
+    content: preassociation
+  - language: en
+    script: Latn
+    content: service discovery
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,241 @@
+---
+id: IEEEStd802112007
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information Technology - Telecommunications and Information
+    Exchange Between Systems - Local and Metropolitan Area Networks - Specific Requirements
+    - Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4248378
+docidentifier:
+- content: IEEE Std 802.11-2007
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.11®-2007
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5656-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2007.373646
+  type: DOI
+docnumber: IEEE Std 802.11-2007
+date:
+- type: created
+  at: '2007-06-12'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2007-03-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This revision specifies technical corrections and clarifications to IEEE
+    Std 802.11 for wireless local area networks (WLANS) as well as enhancements to
+    the existing medium access control (MAC) and physical layer (PHY) functions. It
+    also incorporates Amendments 1 through 8 including a corrigendum.
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 802.11-2012
+    docidentifier:
+    - content: IEEE Std 802.11-2012
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.11-1999
+    docidentifier:
+    - content: ANSI/IEEE Std 802.11-1999
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 802.11-2012
+    docidentifier:
+    - content: IEEE Std 802.11-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Wireless LAN
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: 2.4 GHz
+  - language: en
+    script: Latn
+    content: 4.9 GHz
+  - language: en
+    script: Latn
+    content: 5 GHz
+  - language: en
+    script: Latn
+    content: advanced encryption standard
+  - language: en
+    script: Latn
+    content: AES
+  - language: en
+    script: Latn
+    content: carrier sense multiple access/collision avoidance
+  - language: en
+    script: Latn
+    content: CCMP
+  - language: en
+    script: Latn
+    content: Counter mode with Cipher-block chaining Message authentication code Protocol
+  - language: en
+    script: Latn
+    content: confidentiality
+  - language: en
+    script: Latn
+    content: CSMA/CA
+  - language: en
+    script: Latn
+    content: DFS
+  - language: en
+    script: Latn
+    content: dynamic frequency selection
+  - language: en
+    script: Latn
+    content: international roaming
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: medium access controller
+  - language: en
+    script: Latn
+    content: PHY
+  - language: en
+    script: Latn
+    content: physical layer
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: quality of service
+  - language: en
+    script: Latn
+    content: radio frequency
+  - language: en
+    script: Latn
+    content: RF
+  - language: en
+    script: Latn
+    content: temporal key integrity protocol
+  - language: en
+    script: Latn
+    content: TKIP
+  - language: en
+    script: Latn
+    content: TPC
+  - language: en
+    script: Latn
+    content: transmit power control
+  - language: en
+    script: Latn
+    content: wireless LAN
+  - language: en
+    script: Latn
+    content: WLAN
+  - language: en
+    script: Latn
+    content: Wi-Fi
+  - language: en
+    script: Latn
+    content: WiFi
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,140 @@
+---
+id: IEEEP1107310425D3201702
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft - Health Informatics--Personal Health Device Communication
+    - Part 10425: Device Specialization--Continuous Glucose Monitor (CGM)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7875061
+docidentifier:
+- content: IEEE P11073.10425/D-3-2017-02
+  type: IEEE
+  primary: true
+- content: IEEE P11073.10425™/D-3-2017-02
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-3901-5
+  type: ISBN
+docnumber: IEEE P11073.10425/D-3-2017-02
+date:
+- type: created
+  at: '2017-01-01'
+- type: published
+  at: '2017-03-09'
+- type: issued
+  at: '2017-09-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, a normative definition of the communication between continuous
+    glucose monitor (CGM) devices and managers (e.g., cell phones, personal computers,
+    personal health appliances, set top boxes), in a manner that enables plug-and-play
+    interoperability, is established in this standard. It leverages appropriate portions
+    of existing standards including ISO/IEEE 11073 terminology and information models.
+    It specifies the use of specific term codes, formats, and behaviors in telehealth
+    environments, restricting optionality in base frameworks in favor of interoperability.
+    This standard defines a common core of communication functionality of CGM devices.
+    In this context, CGM refers to the measurement of the level of glucose in the
+    body on a regular (typically 5 minute) basis through a sensor continuously attached
+    to the person.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Glucose
+  - language: en
+    script: Latn
+    content: Diabetes
+  - language: en
+    script: Latn
+    content: Biomedical monitoring
+  - language: en
+    script: Latn
+    content: continuous glucose monitor
+  - language: en
+    script: Latn
+    content: IEEE 11073-10425(TM)
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: personal health devices
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

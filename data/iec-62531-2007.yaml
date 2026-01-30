@@ -1,0 +1,170 @@
+---
+id: IEC625312007
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEC 62531 Ed. 1 (2007-11) (IEEE Std 1850-2005): Standard for Property
+    Specification Language (PSL)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4408637
+docidentifier:
+- content: IEC 62531-2007
+  type: IEEE
+  primary: true
+- content: IEC 62531™-2007
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5727-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2007.4408637
+  type: DOI
+docnumber: IEC 62531-2007
+date:
+- type: updated
+  at: '2008-03-17'
+- type: created
+  at: '2007-12-09'
+- type: published
+  at: '2012-06-29'
+- type: issued
+  at: '2007'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "(IEC 62531 Ed. 1 (2007-11) (IEEE Std 1850-2005). The IEEE Property Specification
+    Language (PSL) is defined in this standard. PSL is a formal notation for specification
+    of electronic system behavior, compatible with multiple electronic system design
+    languages, including IEEE Std 1076&#8482; (VHDL&#174;), IEEE Std 1364&#8482; (Verilog&#174;),
+    IEEE P1666&#8482; (SystemC&#174;), and IEEE P1800&#8482; (SystemVerilog&#174;),
+    thereby enabling a common specification and verification flow for multi-language
+    and mixed-language designs. PSL captures design intent in a form suitable for
+    simulation, formal verification, formal analysis, and hybrid verification tools.
+    PSL enhances communication among architects, designers, and verification engineers
+    to increase productivity throughout the design and verification process. The primary
+    audiences for this standard are the implementors of tools supporting the language
+    and advanced users of the language."
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEC 62531-2012
+    docidentifier:
+    - content: IEC 62531-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: IEC
+  - language: en
+    script: Latn
+    content: Syntactics
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Specification languages
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: ABV
+  - language: en
+    script: Latn
+    content: assertion
+  - language: en
+    script: Latn
+    content: assertion-based verification
+  - language: en
+    script: Latn
+    content: assumption
+  - language: en
+    script: Latn
+    content: cover
+  - language: en
+    script: Latn
+    content: model checking
+  - language: en
+    script: Latn
+    content: property
+  - language: en
+    script: Latn
+    content: PSL
+  - language: en
+    script: Latn
+    content: specification
+  - language: en
+    script: Latn
+    content: temporal logic
+  - language: en
+    script: Latn
+    content: verification
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '25.040'
+    text: Industrial automation systems
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Active
+  pubstatus: Active
+  holdstatus: Publish

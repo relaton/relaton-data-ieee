@@ -1,0 +1,139 @@
+---
+id: IEEEStd190212009
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Long Wavelength Wireless Network Protocol
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4810102
+docidentifier:
+- content: IEEE Std 1902.1-2009
+  type: IEEE
+  primary: true
+- content: IEEE Std 1902.1™-2009
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5897-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2009.4810102
+  type: DOI
+docnumber: IEEE Std 1902.1-2009
+date:
+- type: updated
+  at: '2009-04-27'
+- type: created
+  at: '2009-03-31'
+- type: published
+  at: '2020-04-08'
+- type: issued
+  at: '2009-01-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Development Board of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines the air interface for radiating transceiver radio
+    tags using long wavelength signals (kilometric and hectometric frequencies, &lt;450
+    kHz). Conforming devices can have very low power consumption (a few microwatts
+    on average), while operating over medium ranges (0.5 to 30 meters) and at low
+    data transfer speeds (300&#8211;9600 bits per s). They are well suited for visibility
+    networks, sensors, effectors and battery operated displays. This standard fills
+    a gap between non-network-based RFID standards (e.g., ISO/IEC CD 15961-3, ISO
+    18000-6C or 7) and existing high bandwidth network standards such as IEEE Std
+    802. IEEE 802.15.4
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: 1902.1-2009
+  - language: en
+    script: Latn
+    content: battery powered
+  - language: en
+    script: Latn
+    content: carrier powered
+  - language: en
+    script: Latn
+    content: displays
+  - language: en
+    script: Latn
+    content: effectors
+  - language: en
+    script: Latn
+    content: long wavelength
+  - language: en
+    script: Latn
+    content: low frequency
+  - language: en
+    script: Latn
+    content: RFID
+  - language: en
+    script: Latn
+    content: sensors
+  - language: en
+    script: Latn
+    content: transceiver
+  - language: en
+    script: Latn
+    content: visibility networks
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

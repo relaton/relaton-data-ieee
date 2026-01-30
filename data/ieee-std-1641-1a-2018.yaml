@@ -1,0 +1,132 @@
+---
+id: IEEEStd16411a2018
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Guide for the Use of IEEE Std 1641(TM), IEEE Standard for Signal
+    and Test Definition Amendment 1: Addition of Guidelines for Producing Reusable
+    Test Signal Frameworks for Use on Platforms Utilizing Automatic Test Markup Language'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8437261
+docidentifier:
+- content: IEEE Std 1641.1a-2018
+  type: IEEE
+  primary: true
+- content: IEEE Std 1641.1a™-2018
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5117-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2018.8437261
+  type: DOI
+docnumber: IEEE Std 1641.1a-2018
+date:
+- type: created
+  at: '2018-08-15'
+- type: published
+  at: '2018-08-15'
+- type: issued
+  at: '2018-03-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: SCC20 - Test and Diagnosis for Electronic Systems of the IEEE SA
+          Board of Governors
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Amend the guide to add guidelines for producing reusable TSFs for use on
+    platforms utilizing ATML, and produce example TSFs showing conformance with the
+    guidelines. This guide explains how signal definitions and test requirements may
+    be implemented in conformance with IEEE Std 1641-2010. It also provides background
+    information, tutorial support, and examples of signal definitions and test requirements
+    for users of the standard. TSFs are major component for adhering with the IEEE
+    Std 1641. There is little guidance in helping users create their own reusable
+    TSFs or examples that show good practices to copy.
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Markup languages
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: ATLAS
+  - language: en
+    script: Latn
+    content: IEEE 1641.1
+  - language: en
+    script: Latn
+    content: TSF Library
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.020'
+    text: Electronic components in general
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

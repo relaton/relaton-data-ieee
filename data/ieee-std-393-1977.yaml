@@ -1,0 +1,141 @@
+---
+id: IEEEStd3931977
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Test Procedures for Magnetic Cores
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/27723
+docidentifier:
+- content: IEEE Std 393-1977
+  type: IEEE
+  primary: true
+- content: IEEE Std 393™-1977
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4370-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1977.80497
+  type: DOI
+docnumber: IEEE Std 393-1977
+date:
+- type: created
+  at: '1977-05-27'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1991-06-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Magnetics Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by 393-1991. This publication specifies applicable tests to
+    describe the significant properties of magnetic cores used in electronic applications.
+    This publication is primarily concerned with magnetic cores of the type used in
+    electronics transformers, magnetic amplifiers, inductors, and related devices.
+    However, many of the test specified herein are general in scope and adaptable
+    to magnetic cores used in many other applications. Standards covered by this publication
+    include test for specifying or measuring, or both, permeability, core loss, apparant
+    core loss, induction, hysteresis, thermal characteristics, and other properties
+    of all commonly used types of magnetic cores.
+copyright:
+- from: '1977'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 393-1991
+    docidentifier:
+    - content: IEEE Std 393-1991
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Loss measurement
+  - language: en
+    script: Latn
+    content: Magnetic cores
+  - language: en
+    script: Latn
+    content: Magnetic variables measurement
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: test
+  - language: en
+    script: Latn
+    content: procedures
+  - language: en
+    script: Latn
+    content: magnetic
+  - language: en
+    script: Latn
+    content: cores
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.100.10
+    text: Magnetic components
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

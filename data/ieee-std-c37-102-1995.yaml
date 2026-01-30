@@ -1,0 +1,128 @@
+---
+id: IEEEStdC371021995
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for AC Generator Protection
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/511938
+docidentifier:
+- content: IEEE Std C37.102-1995
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.102™-1995
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0911-4
+  type: ISBN
+- content: 10.1109/IEEESTD.1996.81046
+  type: DOI
+docnumber: IEEE Std C37.102-1995
+date:
+- type: created
+  at: '1996'
+- type: issued
+  at: '1995-12-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: In this IEEE standard a review of the generally accepted forms of relay
+    protection for the synchronous generator and its excitation system is presented.
+    This guide is primarily concerned with protection against faults and abnormal
+    operating conditions for large hydraulic, steam, and combustion-turbine generators.
+copyright:
+- from: '1996'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.102-1987
+    docidentifier:
+    - content: IEEE Std C37.102-1987
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.102-2006
+    docidentifier:
+    - content: IEEE Std C37.102-2006
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.102-2006
+    docidentifier:
+    - content: IEEE Std C37.102-2006
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Synchronous generator excitation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.160.20
+    text: Generators
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

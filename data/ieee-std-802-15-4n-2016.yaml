@@ -1,0 +1,188 @@
+---
+id: IEEEStd802154n2016
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Low-Rate Wireless Networks -- Amendment 1: Physical
+    Layer Utilizing China Medical Bands'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7466445
+docidentifier:
+- content: IEEE Std 802.15.4n-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.4n®-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0780-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7466445
+  type: DOI
+docnumber: IEEE Std 802.15.4n-2016
+date:
+- type: updated
+  at: '2016-05-27'
+- type: created
+  at: '2016-04-29'
+- type: published
+  at: '2016-05-06'
+- type: issued
+  at: '2016-01-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The Ministry of Industry and Information Technology (MIIT) of the People’s
+    Republic of China has approved the 174--216 MHz, 407--425 MHz, and 608--630 MHz
+    bands for medical information transmission. China medical band (CMB) devices operating
+    within these bands conform to a set of rules specified in MIIT Doc 423-2005, which
+    restricts use of the band to only medical, non-voice use under direction of a
+    healthcare practitioner, among other requirements. A physical layer (PHY) for
+    devices operating on Chinese approved bands for medical signals is defined in
+    this amendment. (The PDF of this standard is available at no cost compliments
+    of the IEEE GET program. http://ieeexplore.ieee.org/document/7466445/)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.15.4-2015
+    docidentifier:
+    - content: IEEE Std 802.15.4-2015
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: IEEE 802.15 Standard
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Wireless personal area networks
+  - language: en
+    script: Latn
+    content: China
+  - language: en
+    script: Latn
+    content: Personal area networks
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4n(TM)
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: MAN
+  - language: en
+    script: Latn
+    content: medical services
+  - language: en
+    script: Latn
+    content: metropolitan area network
+  - language: en
+    script: Latn
+    content: PAN
+  - language: en
+    script: Latn
+    content: personal area network
+  - language: en
+    script: Latn
+    content: PHY
+  - language: en
+    script: Latn
+    content: physical layer
+  - language: en
+    script: Latn
+    content: wireless personal area network
+  - language: en
+    script: Latn
+    content: WPAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

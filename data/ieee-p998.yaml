@@ -1,0 +1,162 @@
+---
+id: IEEEP998
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Guide for Direct Lightning Stroke Shielding of Substations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10618999
+docidentifier:
+- content: IEEE P998
+  type: IEEE
+  primary: true
+- content: IEEE P998™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1062-5
+  type: ISBN
+docnumber: IEEE P998
+date:
+- type: created
+  at: '2024-07-30'
+- type: published
+  at: '2024-07-31'
+- type: issued
+  at: '2024'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Substations Committee of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Design information for the methods historically and typically applied by
+    substation designers to reduce direct lightning strokes to equipment and buswork
+    within substations is provided. Two approaches, the classical empirical method
+    and the electro-geometric model, are presented in detail. A third approach, which
+    involves the use of non-conventional lightning terminals and related design methods,
+    is also reviewed.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 998-2012
+    docidentifier:
+    - content: IEEE Std 998-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Lightning protection
+  - language: en
+    script: Latn
+    content: Power system protection
+  - language: en
+    script: Latn
+    content: Substation protection
+  - language: en
+    script: Latn
+    content: collection volume method (CVM)
+  - language: en
+    script: Latn
+    content: direct stroke shielding
+  - language: en
+    script: Latn
+    content: electro-geometric model (EGM)
+  - language: en
+    script: Latn
+    content: field intensification factor method (FIFM)
+  - language: en
+    script: Latn
+    content: fixed angle
+  - language: en
+    script: Latn
+    content: IEEE Std 998&#8482;
+  - language: en
+    script: Latn
+    content: leader inception theory (LIT)
+  - language: en
+    script: Latn
+    content: leader progression model (LPM)
+  - language: en
+    script: Latn
+    content: lightning stroke protection
+  - language: en
+    script: Latn
+    content: self-consistent leader inception and propagation model (SLIM)
+  - language: en
+    script: Latn
+    content: substations empirical curves
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 91.120.40
+    text: Lightning protection
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

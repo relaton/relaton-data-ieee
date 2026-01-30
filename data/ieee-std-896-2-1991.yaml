@@ -1,0 +1,123 @@
+---
+id: IEEEStd89621991
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Futurebus+ - Physical Layer and Profile Specification
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159479
+docidentifier:
+- content: IEEE Std 896.2-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 896.2™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4587-4
+  type: ISBN
+- content: 10.1109/IEEESTD.1992.101089
+  type: DOI
+docnumber: IEEE Std 896.2-1991
+date:
+- type: created
+  at: '1992'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1991-09-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Bus Architecture Standards Committee of the lEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Futurebus+ standards provide systems developers a set of tools with which
+    high-performance bus-based systems may be developed. This architecture provides
+    a wide range of performance scalability over both cost and time for multiple generations
+    of single- and multiple-bus multiprocessor systems. This document, a companion
+    standard to IEEE Std. 896.1-1991, builds on the logical layer by adding requirements
+    for physical layer instantiation. Material in this document includes specifications
+    for node management, live insertion, and profiles. It is to these profiles that
+    products will claim conformance. Other specifications that may be required in
+    conjunction with this standard are the following: IEEE Std 896.1-1991; P896.3,
+    Futurebus+ Recommended Practices; P1212.x, Control and Status Register Architectures;
+    IEEE Std 1194.1-1991, Electrical Characteristics of Backplane Transceiver Logic
+    (BTL) Interface Circuits; and IEEE Std 1301.x, Metric Equipment Practices for
+    Microcomputers.<<ETX>>'
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Computer interfaces
+  - language: en
+    script: Latn
+    content: Multiprocessing
+  - language: en
+    script: Latn
+    content: Standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

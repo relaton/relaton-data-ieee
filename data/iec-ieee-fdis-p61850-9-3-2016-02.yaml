@@ -1,0 +1,135 @@
+---
+id: IECIEEEFDISP6185093201602
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEC/IEEE Draft Communication Networks and Systems for Power Utility Automation
+    - Part 9-3: Precision Time Protocol Profile for Power Utility Automation'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7407241
+docidentifier:
+- content: IEC/IEEE FDIS P61850.9-3-2016-02
+  type: IEEE
+  primary: true
+- content: IEC/IEEE FDIS P61850.9-3™-2016-02
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0744-1
+  type: ISBN
+docnumber: IEC/IEEE FDIS P61850.9-3-2016-02
+date:
+- type: created
+  at: '2016-01-01'
+- type: published
+  at: '2016-02-15'
+- type: issued
+  at: '2016'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This part of IEC 61850 specifies a precision time protocol (PTP) profile
+    of IEC 61588:2009, IEEE Std 1588-2008 applicable to power utility automation which
+    allows compliance with the highest synchronization classes of IEC 61850-5 and
+    IEC 61869-9.This part of IEC 61850 applies Layer 2 communication according to
+    IEC 61588:2009, IEEE Std 1588-2008, Annex F, and uses peer-to-peer delay measurement
+    according to the default profile of IEC 61588:2009, IEEE Std 1588-2008, Annex
+    J.4 with restricted range of values.When clocks are singly attached, this profile
+    is a subset of IEC 61588:2009, IEEE Std 1588-2008 with above restrictions.When
+    clocks have optionally a double attachmentare doubly attached, this profile extends
+    theBMCA of IEC 61588:2009,IEEE Std 1588-2008 as IEC 62439-3:2016, Annex A, specifies.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Communication networks
+  - language: en
+    script: Latn
+    content: Electricity supply industry
+  - language: en
+    script: Latn
+    content: Power transmission lines
+  - language: en
+    script: Latn
+    content: Timing anlaysis
+  - language: en
+    script: Latn
+    content: Automation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

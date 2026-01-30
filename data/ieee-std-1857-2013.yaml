@@ -1,0 +1,192 @@
+---
+id: IEEEStd18572013
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Advanced Audio and Video Coding
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6522104
+docidentifier:
+- content: IEEE Std 1857-2013
+  type: IEEE
+  primary: true
+- content: IEEE Std 1857™-2013
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8283-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2013.6522104
+  type: DOI
+docnumber: IEEE Std 1857-2013
+date:
+- type: created
+  at: '2013-06-04'
+- type: published
+  at: '2013-05-30'
+- type: issued
+  at: '2013-03-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Data Compression Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: In this standard, a set of tools for efficient video coding is defined,
+    including directional intra prediction, variable block size inter prediction and
+    context adaptive binary arithmetic coding, and the corresponding decoding procedure.
+    The target applications and services include but not limited TV over Internet,
+    user-generated multimedia content, IP-based video conference, IP-based surveillance,
+    and other video/audio enabled services and applications such as digital television
+    broadcasting, digital storage media, and communication.
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1857-2023
+    docidentifier:
+    - content: IEEE Std 1857-2023
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: VIdeo coding
+  - language: en
+    script: Latn
+    content: Audio coding
+  - language: en
+    script: Latn
+    content: Decoding
+  - language: en
+    script: Latn
+    content: Encoding
+  - language: en
+    script: Latn
+    content: IP networks
+  - language: en
+    script: Latn
+    content: Image processing
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: Entropy coding
+  - language: en
+    script: Latn
+    content: block
+  - language: en
+    script: Latn
+    content: coefficients
+  - language: en
+    script: Latn
+    content: decoding
+  - language: en
+    script: Latn
+    content: encoding
+  - language: en
+    script: Latn
+    content: entropy coding
+  - language: en
+    script: Latn
+    content: field
+  - language: en
+    script: Latn
+    content: frame
+  - language: en
+    script: Latn
+    content: IEEE 1857
+  - language: en
+    script: Latn
+    content: image
+  - language: en
+    script: Latn
+    content: Internet Protocol television (IPTV)
+  - language: en
+    script: Latn
+    content: inter prediction
+  - language: en
+    script: Latn
+    content: intra prediction
+  - language: en
+    script: Latn
+    content: macroblock
+  - language: en
+    script: Latn
+    content: picture
+  - language: en
+    script: Latn
+    content: quantization
+  - language: en
+    script: Latn
+    content: slice
+  - language: en
+    script: Latn
+    content: transform
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  - code: '35.040'
+    text: Information coding
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

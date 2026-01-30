@@ -1,0 +1,138 @@
+---
+id: IEEEStd80261990
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'Local and Metropolitan Area Networks: Distributed Queue Dual Bus (DQDB)
+    Subnetwork of a Metropolitan Area Network (MAN)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/182761
+docidentifier:
+- content: IEEE Std 802.6-1990
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.6®-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-55937-093-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1991.106962
+  type: DOI
+docnumber: IEEE Std 802.6-1990
+date:
+- type: created
+  at: '1991-07-03'
+- type: published
+  at: '2021-06-14'
+- type: issued
+  at: '1990-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Withdrawn Standard. Withdrawn Date: Feb 07, 2003. No longer endorsed by
+    the IEEE. This standard is part of a family of standards for local area networks
+    (LANs) and metropolitan area networks (MANs) that deal with the Physical and Data
+    Link Layers as defined by the ISO Open Systems Interconnection Reference Model.
+    It defines a high-speed shared medium access protocol for use over a dual, counterflowing,
+    unidirectional bus subnetwork. The Physical Layer and Distributed Queue Dual Bus
+    (DQDB) Layer are required to support a Logical Link Control (LLC) Sublayer by
+    means of a connectionless Medium Access Control (MAC) Sublayer service in a manner
+    consistent with other IEEE 902 networks. Additional DQDB Layer functions are specified
+    as a framework for other services. These additional functions will support Isochronous
+    Service Users and Connection-Oriented Data Service users, but their implementation
+    is not required for conformance.'
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Computer networks
+  - language: en
+    script: Latn
+    content: Open systems
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: metro
+  - language: en
+    script: Latn
+    content: area
+  - language: en
+    script: Latn
+    content: networks
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

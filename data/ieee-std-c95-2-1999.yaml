@@ -1,0 +1,158 @@
+---
+id: IEEEStdC9521999
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Radio-Frequency Energy and Current-Flow Symbols
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/815311
+docidentifier:
+- content: IEEE Std C95.2-1999
+  type: IEEE
+  primary: true
+- content: IEEE Std C95.2™-1999
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1840-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1999.90612
+  type: DOI
+docnumber: IEEE Std C95.2-1999
+date:
+- type: created
+  at: '1999-12-30'
+- type: published
+  at: '2017-01-06'
+- type: issued
+  at: '1999-09-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Symbols to inform people about the presence of potentially hazardous levels
+    of radio-frequency energy or the presence of contact current hazards in the frequency
+    range of 3 kHz to300 GHz are specified. Guidance is given about how these symbols
+    should be used on warning signs and labels.
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI C95.2-1982
+    docidentifier:
+    - content: ANSI C95.2-1982
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std PC95.2/D-1.6-2018-02
+    docidentifier:
+    - content: IEEE Std PC95.2/D-1.6-2018-02
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Terminology
+  - language: en
+    script: Latn
+    content: caution
+  - language: en
+    script: Latn
+    content: contact current
+  - language: en
+    script: Latn
+    content: danger
+  - language: en
+    script: Latn
+    content: hazard
+  - language: en
+    script: Latn
+    content: labels
+  - language: en
+    script: Latn
+    content: microwave
+  - language: en
+    script: Latn
+    content: radio frequency
+  - language: en
+    script: Latn
+    content: shock
+  - language: en
+    script: Latn
+    content: signs
+  - language: en
+    script: Latn
+    content: symbol
+  - language: en
+    script: Latn
+    content: warning
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.080.20
+    text: Graphical symbols for use on specific equipment
+  - code: '13.280'
+    text: Radiation protection
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

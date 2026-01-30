@@ -1,0 +1,169 @@
+---
+id: IEEEStd8021Qca2015
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Local and metropolitan area networks--- Bridges and
+    Bridged Networks - Amendment 24: Path Control and Reservation'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7434544
+docidentifier:
+- content: IEEE Std 802.1Qca-2015
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1Qca®-2015
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0772-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7434544
+  type: DOI
+docnumber: IEEE Std 802.1Qca-2015
+date:
+- type: updated
+  at: '2016-04-01'
+- type: created
+  at: '2016-03-11'
+- type: published
+  at: '2016-03-16'
+- type: issued
+  at: '2015-09-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Explicit path control, bandwidth reservation, and redundancy (protection,
+    restoration) for data flows are specified in this amendment to IEEE Std 802.1Q-2014.
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.1Q-2011
+    docidentifier:
+    - content: IEEE Std 802.1Q-2011
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: ISO/IEC/IEEE 8802.1Q/Amd1-2016
+    docidentifier:
+    - content: ISO/IEC/IEEE 8802.1Q/Amd1-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Bridged circuits
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Virtual LAN
+  - language: en
+    script: Latn
+    content: Bridge
+  - language: en
+    script: Latn
+    content: Bridged Local Area Network
+  - language: en
+    script: Latn
+    content: IEEE 802(R)
+  - language: en
+    script: Latn
+    content: IEEE 802.1Q(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.1Qac(TM)
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: metropolitan area network
+  - language: en
+    script: Latn
+    content: Shortest Path Bridging
+  - language: en
+    script: Latn
+    content: SPB
+  - language: en
+    script: Latn
+    content: Virtual Bridged Local Area Network
+  - language: en
+    script: Latn
+    content: virtual LAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

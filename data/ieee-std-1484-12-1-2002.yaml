@@ -1,0 +1,127 @@
+---
+id: IEEEStd14841212002
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Learning Object Metadata
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1032843
+docidentifier:
+- content: IEEE Std 1484.12.1-2002
+  type: IEEE
+  primary: true
+- content: IEEE Std 1484.12.1™-2002
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3298-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2002.94128
+  type: DOI
+docnumber: IEEE Std 1484.12.1-2002
+date:
+- type: created
+  at: '2002'
+- type: published
+  at: '2016-11-22'
+- type: issued
+  at: '2002-06-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: Piscataway
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Learning Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A conceptual data schema that defines the structure of a metadata instance
+    for a learning object is specified in this standard.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: category
+  - language: en
+    script: Latn
+    content: data type
+  - language: en
+    script: Latn
+    content: extended data element
+  - language: en
+    script: Latn
+    content: Lang String
+  - language: en
+    script: Latn
+    content: learning object
+  - language: en
+    script: Latn
+    content: learning object metadata (LOM)
+  - language: en
+    script: Latn
+    content: smallest permitted maximum
+  - language: en
+    script: Latn
+    content: value space
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

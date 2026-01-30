@@ -1,0 +1,159 @@
+---
+id: IEEEStd8021AXbk2012
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Local and metropolitan area networks--Link Aggregation
+    Amendment 1: Protocol Addressing'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6205327
+docidentifier:
+- content: IEEE Std 802.1AXbk-2012
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1AXbk®-2012
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7367-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2012.6205327
+  type: DOI
+docnumber: IEEE Std 802.1AXbk-2012
+date:
+- type: updated
+  at: '2012-07-20'
+- type: created
+  at: '2012-05-25'
+- type: published
+  at: '2012-05-25'
+- type: issued
+  at: '2012-03-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Link Aggregation allows one or more links to be aggregated together to
+    form a Link Aggregation Group, such that a Media Access Control (MAC) Client can
+    treat the Link Aggregation Group as if it were a single link. To this end, it
+    specifies the establishment of data terminal equipment (DTE) to DTE logical links,
+    consisting of N parallel instances of full-duplex, point-to-point links operating
+    at the same data rate. The MAC independent Link Aggregation capability, and general
+    information relevant to specific MAC types that support Link Aggregation, are
+    defined in this standard.
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.1AX-2008
+    docidentifier:
+    - content: IEEE Std 802.1AX-2008
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Local area netowrks
+  - language: en
+    script: Latn
+    content: Management
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Aggregates
+  - language: en
+    script: Latn
+    content: Aggregated Link
+  - language: en
+    script: Latn
+    content: Aggregator
+  - language: en
+    script: Latn
+    content: IEEE 802.1AX
+  - language: en
+    script: Latn
+    content: IEEE 802.1AXbk
+  - language: en
+    script: Latn
+    content: Link Aggregation
+  - language: en
+    script: Latn
+    content: Link Aggregation Group
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: management
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

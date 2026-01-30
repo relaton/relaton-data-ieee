@@ -1,0 +1,185 @@
+---
+id: IEEEP33661D4202504
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Geometry Point Cloud Compression
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11004601
+docidentifier:
+- content: IEEE P3366.1/D-4-2025-04
+  type: IEEE
+  primary: true
+- content: IEEE P3366.1™/D-4-2025-04
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2213-0
+  type: ISBN
+docnumber: IEEE P3366.1/D-4-2025-04
+date:
+- type: created
+  at: '2025-05-13'
+- type: published
+  at: '2025-05-14'
+- type: issued
+  at: '2025'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Data Compression Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines a set of tools for efficient compression of geometry
+    point clouds and the corresponding definitions of syntax, semantics, parsing and
+    decoding processes, including but not limited to prediction, transform, quantization,
+    and entropy coding, etc. This standard provides efficient coding tool sets for
+    compression, decompression, processing and packaging of point cloud data, which
+    can significantly reduce the disk storage and communication bandwidth. The target
+    applications and services include but are not limited to manufacturing, mapping,
+    ecommerce, e-tourism, digital culture heritage.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Geometry
+  - language: en
+    script: Latn
+    content: Hilbert space
+  - language: en
+    script: Latn
+    content: Power transformers
+  - language: en
+    script: Latn
+    content: Predictive models
+  - language: en
+    script: Latn
+    content: Point cloud compression
+  - language: en
+    script: Latn
+    content: compression
+  - language: en
+    script: Latn
+    content: coding
+  - language: en
+    script: Latn
+    content: point cloud
+  - language: en
+    script: Latn
+    content: sequence
+  - language: en
+    script: Latn
+    content: geometry
+  - language: en
+    script: Latn
+    content: attribute
+  - language: en
+    script: Latn
+    content: reflectance
+  - language: en
+    script: Latn
+    content: color
+  - language: en
+    script: Latn
+    content: frame
+  - language: en
+    script: Latn
+    content: slice
+  - language: en
+    script: Latn
+    content: reorder
+  - language: en
+    script: Latn
+    content: Morton
+  - language: en
+    script: Latn
+    content: Hilbert
+  - language: en
+    script: Latn
+    content: octree
+  - language: en
+    script: Latn
+    content: predictive tree
+  - language: en
+    script: Latn
+    content: prediction
+  - language: en
+    script: Latn
+    content: transform
+  - language: en
+    script: Latn
+    content: prediction and transform
+  - language: en
+    script: Latn
+    content: quantization
+  - language: en
+    script: Latn
+    content: entropy coding
+  - language: en
+    script: Latn
+    content: exp-Golomb
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

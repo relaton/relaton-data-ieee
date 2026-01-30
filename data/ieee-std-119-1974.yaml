@@ -1,0 +1,124 @@
+---
+id: IEEEStd1191974
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for General Principles of Temperature Measurement
+    as Applied to Electrical Apparatus
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/29002
+docidentifier:
+- content: IEEE Std 119-1974
+  type: IEEE
+  primary: true
+- content: IEEE Std 119™-1974
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4334-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1975.81090
+  type: DOI
+docnumber: IEEE Std 119-1974
+date:
+- type: created
+  at: '1975'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1973-02-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Instrumentation and Measurements Committee of the IEEE
+          Power Engineering Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The purpose of this document is to provide guidelines for the application
+    of temperature-measurement techniques in measuring the operating temperature and
+    temperature rise of electrical machines, instruments, and apparatus in common
+    use. The guidelines are limited to measurement of temperatures below 500 degrees
+    C; however, some measurement techniques described herein are capable of measuring
+    temperatures above 500 degrees C, and these may be used at the higher temperatures
+    after the validity and safety of the technique for the temperature involved have
+    been confirmed. This recommended practice does not define permissible temperature
+    rise or corrections since they must form a part of the standard for the particular
+    apparatus involved. Should contradiction between guidelines stated herein and
+    those in a specific apparatus test procedure or standard exist, the specific apparatus
+    publication will govern.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1975'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Electric machines
+  - language: en
+    script: Latn
+    content: Measurement standards
+  - language: en
+    script: Latn
+    content: Temperature measurement
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.020'
+    text: Electrical engineering in general
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

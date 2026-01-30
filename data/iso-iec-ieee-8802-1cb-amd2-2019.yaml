@@ -1,0 +1,182 @@
+---
+id: ISOIECIEEE88021CBAmd22019
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE/ISO/IEC International Standard--Information technology--Telecommunications
+    and information exchange between systems--Local and metropolitan area networks--Specific
+    requirements--Part 1CB: Frame replication and elimination for reliability AMENDMENT
+    2: Extend stream identification functions'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10063945
+docidentifier:
+- content: ISO/IEC/IEEE 8802.1CB/Amd2-2019
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 8802.1CB™/Amd2-2019
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9535-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10063945
+  type: DOI
+docnumber: ISO/IEC/IEEE 8802.1CB/Amd2-2019
+date:
+- type: created
+  at: '2023-03-10'
+- type: published
+  at: '2023-03-08'
+- type: issued
+  at: '2023'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment specifies procedures, managed objects, and protocols for
+    bridges and end systems that provide identification and replication of packets
+    for redundant transmission, identification of duplicate packets, and elimination
+    of duplicate packets. It is not concerned with the creation of the multiple paths
+    over which the duplicates are transmitted.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 802.1CBdb-2021
+    docidentifier:
+    - content: IEEE Std 802.1CBdb-2021
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: Bridged Local Area Networks
+  - language: en
+    script: Latn
+    content: Bridges
+  - language: en
+    script: Latn
+    content: Bridging
+  - language: en
+    script: Latn
+    content: Extended Stream identification
+  - language: en
+    script: Latn
+    content: Frame Elimination
+  - language: en
+    script: Latn
+    content: Frame Replication
+  - language: en
+    script: Latn
+    content: IEEE 802
+  - language: en
+    script: Latn
+    content: IEEE 802.1CB
+  - language: en
+    script: Latn
+    content: IEEE 802.1CBdb
+  - language: en
+    script: Latn
+    content: IEEE 802.1Q
+  - language: en
+    script: Latn
+    content: local area networks (LANs)
+  - language: en
+    script: Latn
+    content: MAC Bridges
+  - language: en
+    script: Latn
+    content: Redundancy
+  - language: en
+    script: Latn
+    content: Stream identification
+  - language: en
+    script: Latn
+    content: Time-Sensitive Networking
+  - language: en
+    script: Latn
+    content: TSN
+  - language: en
+    script: Latn
+    content: Virtual Bridged Local Area Networks (virtual LANs)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

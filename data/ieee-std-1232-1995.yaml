@@ -1,0 +1,154 @@
+---
+id: IEEEStd12321995
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Artificial Intelligence and Expert System Tie to Automatic
+    Test Equipment (AI-ESTATE): Overview and Architecture'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/499685
+docidentifier:
+- content: IEEE Std 1232-1995
+  type: IEEE
+  primary: true
+- content: IEEE Std 1232™-1995
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3531-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1996.80816
+  type: DOI
+docnumber: IEEE Std 1232-1995
+date:
+- type: created
+  at: '1996-03-15'
+- type: published
+  at: '2015-01-12'
+- type: issued
+  at: '1995-09-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: SUPERSEDED BY IEEE STD 1232-2002 This document is the base standard for
+    the AI-ESTATE set of standards. The overall concept of AIESTATE, which is a set
+    of specifications for data interchange and for standard services for the test
+    and diagnostic environment, is defined; mandatory requirements for implementing
+    AI-ESTATE are specified; the elements of AI-ESTATE and their interrelationships
+    are described; guidelines and requirements to govern the documents in the AI-ESTATE
+    set of standards are established; and the terminology used throughout the set
+    is defined. The purpose of the AI-ESTATE set of standards is to standardize interfaces
+    between functional elements of an intelligent test environment and representations
+    of knowledge and data for the functional elements of the intelligent test environment.
+copyright:
+- from: '1996'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1232-2002
+    docidentifier:
+    - content: IEEE Std 1232-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Automatic testing
+  - language: en
+    script: Latn
+    content: Expert systems
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Software standards
+  - language: en
+    script: Latn
+    content: Knowledge representation
+  - language: en
+    script: Latn
+    content: AI-ESTATE
+  - language: en
+    script: Latn
+    content: artificial
+  - language: en
+    script: Latn
+    content: intelligence
+  - language: en
+    script: Latn
+    content: diagnosis
+  - language: en
+    script: Latn
+    content: system test
+  - language: en
+    script: Latn
+    content: unit under test
+  - language: en
+    script: Latn
+    content: UUT
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

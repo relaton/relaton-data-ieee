@@ -1,0 +1,190 @@
+---
+id: IEEEStd80216h2010
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Local and metropolitan area networks Part 16: Air Interface
+    for Broadband Wireless Access Systems Amendment 2: Improved Coexistence Mechanisms
+    for License-Exempt Operation'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5538195
+docidentifier:
+- content: IEEE Std 802.16h-2010
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.16h®-2010
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6352-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2010.5538195
+  type: DOI
+docnumber: IEEE Std 802.16h-2010
+date:
+- type: updated
+  at: '2010-08-20'
+- type: created
+  at: '2010-07-30'
+- type: published
+  at: '2012-08-17'
+- type: issued
+  at: '2010-06-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEEE Std 802.16-2012. This amendment specifies improved mechanisms,
+    as policies and medium access control enhancements, to enable coexistence among
+    license-exempt systems based on IEEE Std 802.16 and to facilitate the coexistence
+    of such systems with primary users.
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.16-2009
+    docidentifier:
+    - content: IEEE Std 802.16-2009
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: OFDM
+  - language: en
+    script: Latn
+    content: Modulation
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Wireless communication
+  - language: en
+    script: Latn
+    content: Broadband communication
+  - language: en
+    script: Latn
+    content: broadband wireless access
+  - language: en
+    script: Latn
+    content: BWA
+  - language: en
+    script: Latn
+    content: coexistence
+  - language: en
+    script: Latn
+    content: Coexistence Control Channel
+  - language: en
+    script: Latn
+    content: coexistence mechanism
+  - language: en
+    script: Latn
+    content: Coexistence Protocol
+  - language: en
+    script: Latn
+    content: Coexistence Signaling
+  - language: en
+    script: Latn
+    content: contention-based protocol
+  - language: en
+    script: Latn
+    content: license-exempt
+  - language: en
+    script: Latn
+    content: OFDMA
+  - language: en
+    script: Latn
+    content: radio
+  - language: en
+    script: Latn
+    content: standard
+  - language: en
+    script: Latn
+    content: WAS
+  - language: en
+    script: Latn
+    content: wireless access systems
+  - language: en
+    script: Latn
+    content: WirelessMAN(R)
+  - language: en
+    script: Latn
+    content: WirelessMAN-CX
+  - language: en
+    script: Latn
+    content: WirelessMAN-UCP
+  - language: en
+    script: Latn
+    content: wireless metropolitan area network
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

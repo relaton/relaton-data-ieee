@@ -1,0 +1,171 @@
+---
+id: IEEEStd16872014
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Access and Control of Instrumentation Embedded within
+    a Semiconductor Device
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6974961
+docidentifier:
+- content: IEEE Std 1687-2014
+  type: IEEE
+  primary: true
+- content: IEEE Std 1687™-2014
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9416-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2014.6974961
+  type: DOI
+docnumber: IEEE Std 1687-2014
+date:
+- type: created
+  at: '2014-12-05'
+- type: published
+  at: '2014-12-04'
+- type: issued
+  at: '2014-11-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A methodology for accessing instrumentation embedded within a semiconductor
+    device, without defining the instruments or their features themselves, via the
+    IEEE 1149.1(TM) test access port (TAP) and/or other signals, is described in this
+    standard. The elements of the methodology include a hardware architecture for
+    the on-chip network connecting the instruments to the chip pins, a hardware description
+    language to describe this network, and a software language and protocol for communicating
+    with the instruments via this network.
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Semiconductor devices
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: Instruments
+  - language: en
+    script: Latn
+    content: Embedded systems
+  - language: en
+    script: Latn
+    content: Access networks
+  - language: en
+    script: Latn
+    content: access network
+  - language: en
+    script: Latn
+    content: built-in self-test (BIST)
+  - language: en
+    script: Latn
+    content: boundary scan
+  - language: en
+    script: Latn
+    content: debug
+  - language: en
+    script: Latn
+    content: design for testability (DFT)
+  - language: en
+    script: Latn
+    content: embedded instruments
+  - language: en
+    script: Latn
+    content: IEEE 1149.1(TM)
+  - language: en
+    script: Latn
+    content: IEEE 1687(TM)
+  - language: en
+    script: Latn
+    content: Instrument Connectivity Language (ICL)
+  - language: en
+    script: Latn
+    content: internal JTAG (IJTAG)
+  - language: en
+    script: Latn
+    content: Joint Test Action Group (JTAG)
+  - language: en
+    script: Latn
+    content: on-chip instrumentation
+  - language: en
+    script: Latn
+    content: Procedural Description Language (PDL)
+  - language: en
+    script: Latn
+    content: test
+  - language: en
+    script: Latn
+    content: Tool Command Language (Tcl)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.180'
+    text: Printed circuits and boards
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

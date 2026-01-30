@@ -1,0 +1,165 @@
+---
+id: IEEEStd161912018
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Authenticated Encryption with Length Expansion for Storage
+    Devices
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8637991
+docidentifier:
+- content: IEEE Std 1619.1-2018
+  type: IEEE
+  primary: true
+- content: IEEE Std 1619.1™-2018
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5454-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2019.8637991
+  type: DOI
+docnumber: IEEE Std 1619.1-2018
+date:
+- type: updated
+  at: '2020-05-22'
+- type: created
+  at: '2019-01-25'
+- type: published
+  at: '2019-02-08'
+- type: issued
+  at: '2018-10-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Cybersecurity and Privacy Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Cryptographic and data authentication procedures for storage devices that
+    support length expansion, such as tape drives, are specified. Such procedures
+    include the following cryptographic modes of operation for the AES block cipher:
+    CCM, GCM, CBC-HMAC, and XTS-HMAC.'
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Authentication
+  - language: en
+    script: Latn
+    content: Security
+  - language: en
+    script: Latn
+    content: Encryption
+  - language: en
+    script: Latn
+    content: Data storage systems
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: CBC
+  - language: en
+    script: Latn
+    content: CCM
+  - language: en
+    script: Latn
+    content: cryptography
+  - language: en
+    script: Latn
+    content: data storage
+  - language: en
+    script: Latn
+    content: encryption
+  - language: en
+    script: Latn
+    content: GCM
+  - language: en
+    script: Latn
+    content: HMAC
+  - language: en
+    script: Latn
+    content: IEEE 1619.1(TM)
+  - language: en
+    script: Latn
+    content: security
+  - language: en
+    script: Latn
+    content: tape drive
+  - language: en
+    script: Latn
+    content: variable-length block
+  - language: en
+    script: Latn
+    content: XTS
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

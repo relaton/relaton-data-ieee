@@ -1,0 +1,228 @@
+---
+id: IEEEStd16672015
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Discovery, Authentication, and Authorization in Host
+    Attachments of Storage Devices
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7389949
+docidentifier:
+- content: IEEE Std 1667-2015
+  type: IEEE
+  primary: true
+- content: IEEE Std 1667™-2015
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9869-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7389949
+  type: DOI
+docnumber: IEEE Std 1667-2015
+date:
+- type: updated
+  at: '2016-09-16'
+- type: created
+  at: '2016-01-22'
+- type: published
+  at: '2016-01-22'
+- type: issued
+  at: '2015-09-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Cybersecurity and Privacy Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Discovery, authentication, and authorization protocols between hosts and
+    storage devices over multiple transports are defined in this standard. It specifies
+    a new Silo Type Identifier (STID) allocation process that uses the IEEE Registration
+    Authority.
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1667-2009
+    docidentifier:
+    - content: IEEE Std 1667-2009
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1667-2018
+    docidentifier:
+    - content: IEEE Std 1667-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Authentication
+  - language: en
+    script: Latn
+    content: Authorization
+  - language: en
+    script: Latn
+    content: Storage devices
+  - language: en
+    script: Latn
+    content: Knowledge discovery
+  - language: en
+    script: Latn
+    content: Access controls
+  - language: en
+    script: Latn
+    content: Trust management
+  - language: en
+    script: Latn
+    content: Flash memory
+  - language: en
+    script: Latn
+    content: Smart cards
+  - language: en
+    script: Latn
+    content: Security
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: authorization
+  - language: en
+    script: Latn
+    content: CF
+  - language: en
+    script: Latn
+    content: compactflash
+  - language: en
+    script: Latn
+    content: discovery
+  - language: en
+    script: Latn
+    content: EMMC
+  - language: en
+    script: Latn
+    content: IEEE 1667(TM)
+  - language: en
+    script: Latn
+    content: password silo
+  - language: en
+    script: Latn
+    content: probe silo
+  - language: en
+    script: Latn
+    content: SAS
+  - language: en
+    script: Latn
+    content: SATA
+  - language: en
+    script: Latn
+    content: SCSI
+  - language: en
+    script: Latn
+    content: SCTS
+  - language: en
+    script: Latn
+    content: security
+  - language: en
+    script: Latn
+    content: SILO
+  - language: en
+    script: Latn
+    content: smart card transport silo
+  - language: en
+    script: Latn
+    content: STID
+  - language: en
+    script: Latn
+    content: storage
+  - language: en
+    script: Latn
+    content: TCG storage transport silo
+  - language: en
+    script: Latn
+    content: transport independent
+  - language: en
+    script: Latn
+    content: trusted computing group
+  - language: en
+    script: Latn
+    content: UAS
+  - language: en
+    script: Latn
+    content: UFS
+  - language: en
+    script: Latn
+    content: USB BOT
+  - language: en
+    script: Latn
+    content: USB
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  - code: 35.220.01
+    text: Data storage devices in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

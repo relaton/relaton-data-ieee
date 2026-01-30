@@ -1,0 +1,129 @@
+---
+id: ANSIIEEEStd4551976
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Test Procedure for Measuring Longitudinal Balance of Telephone
+    Equipment Operating in the Voice Band
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7422618
+docidentifier:
+- content: ANSI/IEEE Std 455-1976
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 455™-1976
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0354-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1976.7422618
+  type: DOI
+docnumber: ANSI/IEEE Std 455-1976
+date:
+- type: updated
+  at: '2016-04-29'
+- type: created
+  at: '1976'
+- type: published
+  at: '2016-03-01'
+- type: issued
+  at: '1975-09-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Telephone companies and equipment manufacturers have generally agreed on
+    a definition for longitudinal balance for many years. This agreement extends also
+    to the basic approach followed when measuring balance. Testing a device for balance
+    involves the application of a longitudinal voltage. Then any resulting metallic
+    voltage is measured, and the ratio of the two voltages is used to develop a balance
+    number. Unfortunately, agreement has ended at about this point. A number of different
+    test circuits are used by different segments of the telephone industry. Although
+    all of the existing test circuits have some merits supporting their use, the mere
+    existence of varied circuits leads to differences in test results. In addition
+    to differences related to the test set, test conditions and procedures can also
+    affect the result. When an item of equipment is to be tested, there is often a
+    test set or procedure,or both, capable of giving any desired result. Agreement
+    on one way of testing for longitudinal balance has been sought. This standard
+    represents such agreement. It defines the basic requirements of a standard test
+    circuit. Reasonable tolerances are included so that a test-set designer will find
+    considerable latitude to make the set his own way. Besides defining the requirements
+    for a test circuit, this standard includes test conditions and procedures that
+    must be established and followed. As a result, all test sets designed and used
+    in accordance with the standard will produce the same balance number for a given
+    test specimen. Similarly, comparing balance numbers for different devices will
+    become more meaningful when all come from tests meeting the standard.
+copyright:
+- from: '1976'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: https://www.ansi.org
+      name:
+      - language: en
+        script: Latn
+        content: American National Standards Institute
+      abbreviation:
+        content: ANSI
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: ANSI/IEEE Std 455-1985
+    docidentifier:
+    - content: ANSI/IEEE Std 455-1985
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Telehone equipment
+  - language: en
+    script: Latn
+    content: Speech processing
+  - language: en
+    script: Latn
+    content: 'Longitudinal balance '
+  - language: en
+    script: Latn
+    content: Attenuation measurement
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

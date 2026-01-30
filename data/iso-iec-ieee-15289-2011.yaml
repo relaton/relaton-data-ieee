@@ -1,0 +1,199 @@
+---
+id: ISOIECIEEE152892011
+type: standard
+schema_version: v1.4.1
+title:
+- content: ISO/IEC/IEEE Systems and software engineering -- Content of life-cycle
+    information products (documentation)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6104079
+docidentifier:
+- content: ISO/IEC/IEEE 15289-2011
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 15289™-2011
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6589-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.6104079
+  type: DOI
+docnumber: ISO/IEC/IEEE 15289-2011
+date:
+- type: updated
+  at: '2012-01-16'
+- type: created
+  at: '2011-11-01'
+- type: published
+  at: '2015-05-15'
+- type: issued
+  at: '2011-09-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: ISO/IEC/IEEE 15289:2011 provides requirements for identifying and planning
+    the specific information items (information products, documentation) to be developed
+    and revised during systems and software life cycles and service processes. It
+    specifies the purpose and content of all identified systems and software data
+    records and life cycle information items, as well as records and information items
+    for information technology service management. The information item contents are
+    defined according to generic document types (description, plan, policy, procedure,
+    report, request, and specification) and the specific purpose of the document.
+    For simplicity of reference, each information item is described as if it were
+    published as a separate document. However, information items may be unpublished
+    but available in a repository for reference, divided into separate documents or
+    volumes, or combined with other information items into one document. ISO/IEC/IEEE
+    15289:2011 is based on the life cycle processes specified in ISO/IEC 12207:2008
+    (IEEE Std 12207-2008) and ISO/IEC 15288:2008 (IEEE Std 15288-2008), and the service
+    management processes specified in ISO/IEC 20000-1:2005 and ISO/IEC 20000-2:2005.
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE/EIA 12207.1-1997
+    docidentifier:
+    - content: IEEE/EIA 12207.1-1997
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: ISO/IEC/IEEE 15289-2015
+    docidentifier:
+    - content: ISO/IEC/IEEE 15289-2015
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Software engineering
+  - language: en
+    script: Latn
+    content: Systems engineering and theory
+  - language: en
+    script: Latn
+    content: Product life cycle management
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: data management
+  - language: en
+    script: Latn
+    content: description
+  - language: en
+    script: Latn
+    content: document management
+  - language: en
+    script: Latn
+    content: IEEE 15289
+  - language: en
+    script: Latn
+    content: information items
+  - language: en
+    script: Latn
+    content: information management
+  - language: en
+    script: Latn
+    content: plan
+  - language: en
+    script: Latn
+    content: policy
+  - language: en
+    script: Latn
+    content: procedure
+  - language: en
+    script: Latn
+    content: records
+  - language: en
+    script: Latn
+    content: report
+  - language: en
+    script: Latn
+    content: request
+  - language: en
+    script: Latn
+    content: software documentation
+  - language: en
+    script: Latn
+    content: specification
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

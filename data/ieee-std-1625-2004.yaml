@@ -1,0 +1,150 @@
+---
+id: IEEEStd16252004
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Rechargable Batteries for Portable Computing
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1309986
+docidentifier:
+- content: IEEE Std 1625-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 1625™-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4012-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.243226
+  type: DOI
+docnumber: IEEE Std 1625-2004
+date:
+- type: created
+  at: '2004-05-28'
+- type: published
+  at: '2004-07-12'
+- type: issued
+  at: '2004-04-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Energy Storage &amp; Stationary Battery Committee of the IEEE Power
+          and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Guidance for the designer/manufacturer/supplier in planning and implementing
+    controls for the design and manufacture of lithium-ion (Li-ion) and lithium-ion
+    polymer (Li-ion polymer) rechargeable battery packs used for portable computing
+    is provided. This standard's provisions work together, and they define approaches
+    to design, test, and evaluate a cell, battery pack, and host device to mitigate
+    battery system failure in user environments. Additionally, this standard provides
+    recommendations for end-user education and communication materials. This approach
+    suggests the interfaces between subsystems (e.g., cell, battery pack, host device)
+    and end users are as important to system reliability as is robust subsystem design
+    and testing. This standard therefore includes subsystem interface design responsibilities
+    for each subsystem designer/ manufacturer/supplier, and it provides messaging
+    and communication provisions for end-user awareness.
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1625-2008
+    docidentifier:
+    - content: IEEE Std 1625-2008
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1625-2008
+    docidentifier:
+    - content: IEEE Std 1625-2008
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1625-2008
+    docidentifier:
+    - content: IEEE Std 1625-2008
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Batteries
+  - language: en
+    script: Latn
+    content: Lithium
+  - language: en
+    script: Latn
+    content: Reliability
+  - language: en
+    script: Latn
+    content: Computer power supplies
+  - language: en
+    script: Latn
+    content: Microcomputers
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.220.30
+    text: Alkaline secondary cells and batteries
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

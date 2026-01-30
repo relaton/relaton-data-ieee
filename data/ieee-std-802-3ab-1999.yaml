@@ -1,0 +1,154 @@
+---
+id: IEEEStd8023ab1999
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information Technology - Telecommunications and information
+    exchange between systems - Local and Metropolitan Area Networks - Part 3: Carrier
+    Sense Multiple Access with Collision Detection (CSMA/CD) Access Method and Physical
+    Layer Specifications - Physical Layer Parameters and Specifications for 1000 Mb/s
+    Operation over 4 pair of Category 5 Balanced Copper Cabling, Type 1000BASE-T'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/798775
+docidentifier:
+- content: IEEE Std 802.3ab-1999
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.3ab®-1999
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3765-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1999.90568
+  type: DOI
+docnumber: IEEE Std 802.3ab-1999
+date:
+- type: created
+  at: '1999-07-26'
+- type: published
+  at: '2018-06-22'
+- type: issued
+  at: '1999-06-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Superseded by IEEE Std 802.3-2002. This IEEE Standards product is part
+    of the 802 Family on LAN/MAN. Abstract: Type 1000BASE-T PCS, type 1000BASE-T PMA
+    sublayer, and type 1000BASE-T Medium Dependent Interface (MDI) are defined. This
+    supplement provides fully functional, electrical and mechanical specifications
+    for the type 1000BASE-T PCS, PMA, and MDI. This supplement also specifies the
+    baseband medium used with 1000BASE-T.'
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.3-1985
+    docidentifier:
+    - content: ANSI/IEEE Std 802.3-1985
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Auto-Negotiation
+  - language: en
+    script: Latn
+    content: Category 5
+  - language: en
+    script: Latn
+    content: copper
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: gigabit
+  - language: en
+    script: Latn
+    content: MASTER-SLAVE
+  - language: en
+    script: Latn
+    content: medium dependent interface
+  - language: en
+    script: Latn
+    content: physical coding sublayer
+  - language: en
+    script: Latn
+    content: Physical Layer
+  - language: en
+    script: Latn
+    content: physical medium attachment
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

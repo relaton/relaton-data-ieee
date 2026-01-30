@@ -1,0 +1,117 @@
+---
+id: ANSIIEEEStd3101969
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Reference-Standard Electrical Resistors
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/28999
+docidentifier:
+- content: ANSI/IEEE Std 310-1969
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 310™-1969
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4188-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1969.81089
+  type: DOI
+docnumber: ANSI/IEEE Std 310-1969
+date:
+- type: created
+  at: '1969'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1969'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: N/A
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard applies to precision electrical resistors exhibiting a high
+    degree of stability and intended for use as reference standards in accurate direct-current
+    resistance measurements. It does not apply to resistors which are intended for
+    use solely as circuit components.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1969'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Calibration
+  - language: en
+    script: Latn
+    content: Resistance measurement
+  - language: en
+    script: Latn
+    content: Measurement standards
+  - language: en
+    script: Latn
+    content: Resistors
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 31.040.01
+    text: Resistors in general
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

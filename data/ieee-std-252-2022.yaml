@@ -1,0 +1,149 @@
+---
+id: IEEEStd2522022
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Test Procedure for Polyphase Induction Motors Having Liquid
+    in the Magnetic Gap
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10197298
+docidentifier:
+- content: IEEE Std 252-2022
+  type: IEEE
+  primary: true
+- content: IEEE Std 252™-2022
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9602-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10197298
+  type: DOI
+docnumber: IEEE Std 252-2022
+date:
+- type: created
+  at: '2023-07-31'
+- type: published
+  at: '2023-07-28'
+- type: issued
+  at: '2022-12-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Electric Machinery of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Instructions for conducting and reporting the generally applicable and
+    acceptable tests to determine the performance characteristics of polyphase induction
+    motors having liquid in the magnetic gap are given. Constants in several equations
+    and forms apply to three-phase motors only and require modifications for applications
+    to motors having another number of phases. It is not intended that the procedures
+    cover all possible tests or tests of a research nature. The procedures shall not
+    be interpreted as requiring the making of any or all tests described herein in
+    any given transaction.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 252-1995
+    docidentifier:
+    - content: IEEE Std 252-1995
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Magnetic devices
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Induction motors
+  - language: en
+    script: Latn
+    content: Level measurement
+  - language: en
+    script: Latn
+    content: IEEE 252&#8482;
+  - language: en
+    script: Latn
+    content: liquid in the magnetic gap
+  - language: en
+    script: Latn
+    content: polyphase induction motor
+  - language: en
+    script: Latn
+    content: test procedures
+  - language: en
+    script: Latn
+    content: three-phase motor
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.160.30
+    text: Motors
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

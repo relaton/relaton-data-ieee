@@ -1,0 +1,123 @@
+---
+id: IEEEStd107611999
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard VHDL Analog and Mixed-Signal Extensions
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/808837
+docidentifier:
+- content: IEEE Std 1076.1-1999
+  type: IEEE
+  primary: true
+- content: IEEE Std 1076.1™-1999
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1641-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1999.90578
+  type: DOI
+docnumber: IEEE Std 1076.1-1999
+date:
+- type: created
+  at: '1999-12-23'
+- type: published
+  at: '2016-10-20'
+- type: issued
+  at: '1999-03-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines the IEEE 1076.1 language, a hardware description
+    language for the description and the simulation of analog, digital, and mixed-signal
+    systems. The language, also informally known as VHDL-AMS, is built on IEEE Std
+    1076-1993 (VHDL) and extends it with additions and changes to provide capabilities
+    of writing and simulating analog and mixed-signal models.
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: analog design
+  - language: en
+    script: Latn
+    content: computer
+  - language: en
+    script: Latn
+    content: computer languages
+  - language: en
+    script: Latn
+    content: hardware design
+  - language: en
+    script: Latn
+    content: mixed-signal design
+  - language: en
+    script: Latn
+    content: VHDL
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,155 @@
+---
+id: IEEEStd8023bw2015
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Ethernet Amendment 1: Physical Layer Specifications
+    and Management Parameters for 100 Mb/s Operation over a Single Balanced Twisted
+    Pair Cable (100BASE-T1)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7433918
+docidentifier:
+- content: IEEE Std 802.3bw-2015
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.3bw®-2015
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0137-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7433918
+  type: DOI
+docnumber: IEEE Std 802.3bw-2015
+date:
+- type: updated
+  at: '2016-04-01'
+- type: created
+  at: '2016-03-07'
+- type: published
+  at: '2016-03-15'
+- type: issued
+  at: '2015-10-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The 100BASE-T1 Physical Layer (PHY) specifications and management parameters
+    for point-to-point full duplex 100 Mb/s operation over single twisted pair balanced
+    cabling is defined in this amendment. This specification provides fully functional
+    and electrical specifications for the type 100BASE-T1 PHY. This specification
+    also specifies the baseband medium used with 100BASE-T1.
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: ISO/IEC/IEEE 8802.3/Amd1-2017
+    docidentifier:
+    - content: ISO/IEC/IEEE 8802.3/Amd1-2017
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Time measurement
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Passive optical networks
+  - language: en
+    script: Latn
+    content: IEEE 802.3 Standard
+  - language: en
+    script: Latn
+    content: 100BASE-T1
+  - language: en
+    script: Latn
+    content: copper
+  - language: en
+    script: Latn
+    content: IEEE 802.3bw(TM)
+  - language: en
+    script: Latn
+    content: MASTER-SLAVE
+  - language: en
+    script: Latn
+    content: Medium Dependent Interface
+  - language: en
+    script: Latn
+    content: Physical Coding Sublayer
+  - language: en
+    script: Latn
+    content: physical layer
+  - language: en
+    script: Latn
+    content: Physical Medium Attachment
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

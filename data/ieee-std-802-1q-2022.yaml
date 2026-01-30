@@ -1,0 +1,191 @@
+---
+id: IEEEStd8021Q2022
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Local and Metropolitan Area Networks--Bridges and Bridged
+    Networks
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10004498
+docidentifier:
+- content: IEEE Std 802.1Q-2022
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1Q®-2022
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9188-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2022.10004498
+  type: DOI
+docnumber: IEEE Std 802.1Q-2022
+date:
+- type: created
+  at: '2022-12-22'
+- type: published
+  at: '2022-12-30'
+- type: issued
+  at: '2022-09-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies how the Media Access Control (MAC) Service is supported
+    by Bridged Networks, the principles of operation of those networks, and the operation
+    of MAC Bridges and VLAN Bridges, including management, protocols, and algorithms.
+    (The PDF of this standard is available at no cost compliments of the IEEE GET
+    program https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.1Q-2018
+    docidentifier:
+    - content: IEEE Std 802.1Q-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Bridge circuits
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Bridged Network
+  - language: en
+    script: Latn
+    content: IEEE 802.1Q
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: MAC Bridge
+  - language: en
+    script: Latn
+    content: metropolitan area network
+  - language: en
+    script: Latn
+    content: MSTP
+  - language: en
+    script: Latn
+    content: Multiple Spanning Tree Protocol
+  - language: en
+    script: Latn
+    content: Rapid Spanning Tree Protocol
+  - language: en
+    script: Latn
+    content: RSTP
+  - language: en
+    script: Latn
+    content: PBN
+  - language: en
+    script: Latn
+    content: Provider Bridged Network
+  - language: en
+    script: Latn
+    content: Shortest Path Bridging Protocol
+  - language: en
+    script: Latn
+    content: SPB Protocol
+  - language: en
+    script: Latn
+    content: Time-Sensitive Networking
+  - language: en
+    script: Latn
+    content: TSN
+  - language: en
+    script: Latn
+    content: Virtual Bridged Network
+  - language: en
+    script: Latn
+    content: virtual LAN
+  - language: en
+    script: Latn
+    content: VLAN Bridge
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

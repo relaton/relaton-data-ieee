@@ -1,0 +1,153 @@
+---
+id: IEEEStdC62411991
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Surge Voltages in Low-Voltage AC Power Circuits
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159123
+docidentifier:
+- content: IEEE Std C62.41-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std C62.41™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0928-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1991.101029
+  type: DOI
+docnumber: IEEE Std C62.41-1991
+date:
+- type: created
+  at: '1991-10-11'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1991-02-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Surge Protective Devices/Low Voltage of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A practical basis is provided for the selection of voltage and current
+    tests to be applied in evaluating the surge withstand capability of equipment
+    connected to utility power circuits, primarily in residential, commercial, and
+    light industrial applications. The recommended practice covers the origin of surge
+    voltages, rate of occurrence and voltage levels in unprotected circuits, waveshapes
+    of representative surge voltages, energy and source and impedance. Three locations
+    categories are defined according to their relative position from the building
+    service entrance. For each category, representative waveforms of surge voltages
+    and surge currents are described, organized in two recommended standard waveforms
+    and three suggested additional waveforms.
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std C62.41-1980
+    docidentifier:
+    - content: ANSI/IEEE Std C62.41-1980
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Surges
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: Wave shape
+  - language: en
+    script: Latn
+    content: Voltage tests
+  - language: en
+    script: Latn
+    content: Test waveforms
+  - language: en
+    script: Latn
+    content: Surge voltages
+  - language: en
+    script: Latn
+    content: Surge test waveforms
+  - language: en
+    script: Latn
+    content: Surge monitoring
+  - language: en
+    script: Latn
+    content: Current tests
+  - language: en
+    script: Latn
+    content: AC power circuits
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

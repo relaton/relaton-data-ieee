@@ -1,0 +1,155 @@
+---
+id: IEEEP1107320601D10201404
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Health Informatics - Personal Health Device Communication
+    - Part 20601: Application Profile - Optimized Exchange Protocol'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6808390
+docidentifier:
+- content: IEEE P11073.20601/D-10-2014-04
+  type: IEEE
+  primary: true
+- content: IEEE P11073.20601™/D-10-2014-04
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9109-6
+  type: ISBN
+docnumber: IEEE P11073.20601/D-10-2014-04
+date:
+- type: created
+  at: '2014-06-18'
+- type: published
+  at: '2014-04-30'
+- type: issued
+  at: '2014-06-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073TM Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, this standard defines a common framework for making an abstract
+    model of personal health data available in transport-independent transfer syntax
+    required to establish logical connections between systems and to provide presentation
+    capabilities and services needed to perform communication tasks. The protocol
+    is optimized to personal health usage requirements and leverages commonly used
+    methods and tools wherever possible.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 11073.20601-2008
+    docidentifier:
+    - content: IEEE Std 11073.20601-2008
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 11073.20601-2008
+    docidentifier:
+    - content: IEEE Std 11073.20601-2008
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Communication services
+  - language: en
+    script: Latn
+    content: Informatics
+  - language: en
+    script: Latn
+    content: Bioinformatics
+  - language: en
+    script: Latn
+    content: '11073'
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: personal health devices
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

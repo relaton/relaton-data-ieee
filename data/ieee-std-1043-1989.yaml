@@ -1,0 +1,127 @@
+---
+id: IEEEStd10431989
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Voltage-Endurance Testing of Form-Wound Bars
+    and Coils
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/89796
+docidentifier:
+- content: IEEE Std 1043-1989
+  type: IEEE
+  primary: true
+- content: IEEE Std 1043™-1989
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4321-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1989.94616
+  type: DOI
+docnumber: IEEE Std 1043-1989
+date:
+- type: created
+  at: '1989-12-07'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1989-08-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Voltage Endurance of the IEEE Dielectrics and Electrical Insulation
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by 1043-1996. The voltage endurance testing of form-wound bars
+    and coils for use in large rotating machines is covered.
+copyright:
+- from: '1989'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1043-1996
+    docidentifier:
+    - content: IEEE Std 1043-1996
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Electric machines
+  - language: en
+    script: Latn
+    content: Machine windings
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: coils
+  - language: en
+    script: Latn
+    content: bars
+  - language: en
+    script: Latn
+    content: voltage-endurance testing
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.160.10
+    text: Components for rotating machines
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

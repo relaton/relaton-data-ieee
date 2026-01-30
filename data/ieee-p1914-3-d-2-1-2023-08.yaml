@@ -1,0 +1,158 @@
+---
+id: IEEEP19143D21202308
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Approved Draft Standard for Radio over Ethernet Encapsulations and
+    Mappings
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10235757
+docidentifier:
+- content: IEEE P1914.3/D-2.1-2023-08
+  type: IEEE
+  primary: true
+- content: IEEE P1914.3™/D-2.1-2023-08
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0051-0
+  type: ISBN
+docnumber: IEEE P1914.3/D-2.1-2023-08
+date:
+- type: created
+  at: '2023-11-13'
+- type: published
+  at: '2023-08-30'
+- type: issued
+  at: '2023-11-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Mobile Communication Networks Standards Committee of the IEEE Communications
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The encapsulation and mapping of radio protocols transported over Ethernet
+    frames and Internet Protocol (IP) packets and the operation of the mappers and
+    de-mappers are defined in this standard. Structure-agnostic definitions are provided
+    for any digitized radio data. Structure-aware definitions are provided for the
+    Common Public Radio Interface (CPRI&#8482;). Native mode definitions are provided
+    for normal and compressed digitized radio in-phase and quadrature (I/Q) payload.
+    Specifications are provided for parameters, control messages, and mechanisms that
+    help operate, administrate, and maintain the mapping and demapping functions.
+    A management model and a YANG data model are defined.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1914.3-2018
+    docidentifier:
+    - content: IEEE Std 1914.3-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Radio communication
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Encapsulation
+  - language: en
+    script: Latn
+    content: IEEE 1914.3&#8482;
+  - language: en
+    script: Latn
+    content: native RoE
+  - language: en
+    script: Latn
+    content: radio over Ethernet
+  - language: en
+    script: Latn
+    content: RoE
+  - language: en
+    script: Latn
+    content: RoE de-mapper
+  - language: en
+    script: Latn
+    content: RoE mapper
+  - language: en
+    script: Latn
+    content: structure-agnostic
+  - language: en
+    script: Latn
+    content: structure-aware
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.070.01
+    text: Mobile services in general
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

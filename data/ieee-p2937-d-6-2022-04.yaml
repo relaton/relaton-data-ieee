@@ -1,0 +1,144 @@
+---
+id: IEEEP2937D6202204
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Performance Benchmarking for AI Server Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9763456
+docidentifier:
+- content: IEEE P2937/D-6-2022-04
+  type: IEEE
+  primary: true
+- content: IEEE P2937™/D-6-2022-04
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8664-4
+  type: ISBN
+docnumber: IEEE P2937/D-6-2022-04
+date:
+- type: created
+  at: '2022-04-25'
+- type: published
+  at: '2022-04-26'
+- type: issued
+  at: '2022-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Artificial Intelligence Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Artificial intelligence (AI) computing differs from generic computing in
+    terms of device formation, operators, and usage. AI server systems, including
+    AI server, cluster, and high-performance computing (HPC) infrastructures are designed
+    specifically for this purpose. The performance of these infrastructures is important
+    to users not only on generic models but also on the ones for specific domains.
+    Formal methods for the performance benchmarking for AI server systems are provided
+    in this standard, including approaches for test, metrics, and measure. In addition,
+    the technical requirements for benchmarking tools are discussed.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Artificial intelligence
+  - language: en
+    script: Latn
+    content: Performance evaluation
+  - language: en
+    script: Latn
+    content: Benchmark testing
+  - language: en
+    script: Latn
+    content: Servers
+  - language: en
+    script: Latn
+    content: Intelligent systems
+  - language: en
+    script: Latn
+    content: artificial intelligence (AI)
+  - language: en
+    script: Latn
+    content: artificial intelligence computing
+  - language: en
+    script: Latn
+    content: artificial intelligence server system
+  - language: en
+    script: Latn
+    content: IEEE 2937
+  - language: en
+    script: Latn
+    content: performance benchmarking
+  - language: en
+    script: Latn
+    content: performance benchmarking tool
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.01
+    text: Application of information technology in general
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

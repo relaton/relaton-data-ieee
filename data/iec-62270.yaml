@@ -1,0 +1,131 @@
+---
+id: IEC62270
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEC/IEEE Guide for Computer-based Control for Hydroelectric Power Plant
+    Automation
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6613508
+docidentifier:
+- content: IEC 62270
+  type: IEEE
+  primary: true
+- content: IEC 62270™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8426-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2013.6613508
+  type: DOI
+docnumber: IEC 62270
+date:
+- type: created
+  at: '2013'
+- type: published
+  at: '2013-09-27'
+- type: issued
+  at: '2013-06-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Energy Development &amp; Power Generation of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This guide addresses the application, design concepts, and implementation
+    of computer-based control systems for hydroelectric plant automation. It addresses
+    functional capabilities, performance requirements, interface requirements, hardware
+    considerations, and operator training. It includes recommendations for system
+    testing and acceptance. The electrical protective system (generator and step-up
+    transformer) is beyond the scope of this guide.
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: IEC standards
+  - language: en
+    script: Latn
+    content: Power generation
+  - language: en
+    script: Latn
+    content: Hydroelectric power generation
+  - language: en
+    script: Latn
+    content: Control systems
+  - language: en
+    script: Latn
+    content: Computerized monitoring
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '27.140'
+    text: Hydraulic energy engineering
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

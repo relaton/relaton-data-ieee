@@ -1,0 +1,169 @@
+---
+id: IEEEStd17302022
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Distributed Simulation Engineering and Execution
+    Process (DSEEP
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9919118
+docidentifier:
+- content: IEEE Std 1730-2022
+  type: IEEE
+  primary: true
+- content: IEEE Std 1730™-2022
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8823-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2022.9919118
+  type: DOI
+docnumber: IEEE Std 1730-2022
+date:
+- type: created
+  at: '2022-10-14'
+- type: published
+  at: '2022-10-13'
+- type: issued
+  at: '2022-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Simulation Interoperability Stds Organization/Stds Activity Committee
+          of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The recommended practice for Distributed Simulation Engineering and Execution
+    Process (DSEEP) is described in this document. The DSEEP is intended as a high-level
+    process framework into which the lower-level systems engineering practices native
+    to any distributed simulation user can be easily integrated. Simulation architectures
+    include Distributed Interactive Simulation (DIS), High Level Architecture (HLA),
+    and Test and Training Enabling Architecture (TENA).
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1730-2010
+    docidentifier:
+    - content: IEEE Std 1730-2010
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Training
+  - language: en
+    script: Latn
+    content: Modeling
+  - language: en
+    script: Latn
+    content: Simulation
+  - language: en
+    script: Latn
+    content: Distributed processing
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: High level languages
+  - language: en
+    script: Latn
+    content: Distributed Interactive Simulation (DIS)
+  - language: en
+    script: Latn
+    content: distributed simulation
+  - language: en
+    script: Latn
+    content: engineering methodology
+  - language: en
+    script: Latn
+    content: high level architecture (HLA)
+  - language: en
+    script: Latn
+    content: IEEE 1730
+  - language: en
+    script: Latn
+    content: M&amp;S
+  - language: en
+    script: Latn
+    content: modeling and simulation
+  - language: en
+    script: Latn
+    content: system process
+  - language: en
+    script: Latn
+    content: Test and Training Enabling Architecture (TENA)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

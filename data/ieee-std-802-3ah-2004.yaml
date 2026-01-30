@@ -1,0 +1,208 @@
+---
+id: IEEEStd8023ah2004
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information technology-- Local and metropolitan area
+    networks-- Part 3: CSMA/CD Access Method and Physical Layer Specifications Amendment:
+    Media Access Control Parameters, Physical Layers, and Management Parameters for
+    Subscriber Access Networks'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1337489
+docidentifier:
+- content: IEEE Std 802.3ah-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.3ah®-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4076-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.94617
+  type: DOI
+docnumber: IEEE Std 802.3ah-2004
+date:
+- type: created
+  at: '2004'
+- type: published
+  at: '2013-11-11'
+- type: issued
+  at: '2004-06-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2002 as amended by IEEE Std 802.3ae-2002,
+    IEEE Std 802.3af-2003, IEEE Std 802.3aj-2003, and IEEE Std 802.3ak-2004 combines
+    a minimal set of extensions to the IEEE 802.3 Media Access Control (MAC) and MAC
+    Control sublayers with a family of Physical (PHY) Layers. These Physical Layers
+    include optical fiber and voice grade copper cable Physical Medium Dependent sublayers
+    (PMDs) for point-to-point connections in subscriber access networks. This amendment
+    also introduces the concept of Ethernet Passive Optical Networks (EPONs), in which
+    a point to multi-point (P2MP) network topology is implemented with passive optical
+    splitters, along with optical fiber PMDs that support this topology. In addition,
+    a mechanism for network Operations, Administration and Maintenance (OAM) is included
+    to facilitate network operation and troubleshooting. To support these innovations,
+    options for unidirectional transmission of frames are provided for 100BASE-X,
+    1000BASE-X, 10GBASE-R, 10GBASE-W, and 10GBASE-X.
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2002
+    docidentifier:
+    - content: IEEE Std 802.3-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE 802.3 Standard
+  - language: en
+    script: Latn
+    content: EPON
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Ethernet in the First Mile
+  - language: en
+    script: Latn
+    content: EFM
+  - language: en
+    script: Latn
+    content: Ethernet Passive Optical Network
+  - language: en
+    script: Latn
+    content: Ethernet over DSL
+  - language: en
+    script: Latn
+    content: Multi-point MAC Control
+  - language: en
+    script: Latn
+    content: MPMC
+  - language: en
+    script: Latn
+    content: Operations
+  - language: en
+    script: Latn
+    content: Administration
+  - language: en
+    script: Latn
+    content: Maintenance
+  - language: en
+    script: Latn
+    content: OAM
+  - language: en
+    script: Latn
+    content: full duplex MAC
+  - language: en
+    script: Latn
+    content: P2MP
+  - language: en
+    script: Latn
+    content: P2P
+  - language: en
+    script: Latn
+    content: 100BASE-LX10
+  - language: en
+    script: Latn
+    content: 100BASE-BX10
+  - language: en
+    script: Latn
+    content: 1000BASE-LX10
+  - language: en
+    script: Latn
+    content: 1000BASE-BX10
+  - language: en
+    script: Latn
+    content: 1000BASE-PX10
+  - language: en
+    script: Latn
+    content: 1000BASE-PX20
+  - language: en
+    script: Latn
+    content: 10PASS-TS
+  - language: en
+    script: Latn
+    content: 2BASE-TL
+  - language: en
+    script: Latn
+    content: last mile
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

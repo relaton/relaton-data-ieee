@@ -1,0 +1,135 @@
+---
+id: IEEEStd5301978
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Specification Format Guide and Test Procedure for Linear,
+    Single-Axis, Digital, Torque-Balance Accelerometer
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/27755
+docidentifier:
+- content: IEEE Std 530-1978
+  type: IEEE
+  primary: true
+- content: IEEE Std 530™-1978
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0548-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1978.80985
+  type: DOI
+docnumber: IEEE Std 530-1978
+date:
+- type: created
+  at: '1978-12-29'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1978-03-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEEE 1293-1998. A guide for the preparation of a digital
+    accelerometer specification and test procedure is provided. It is intended to
+    provide common terminology and practice for manufacturers and users. The accelerometer
+    considered utilizes a linear, single-axis, nongyroscopic accelerometer sensor
+    with a permanent magnet torquer. The torquing electronics are considered part
+    of the accelerometer. General design, performance, environmental, and reliability
+    requirements are covered. Information on classification of tests, acceptance tests,
+    qualification tests, reliability tests, standard test conditions, test equipment,
+    test methods, and data submittal is given.
+copyright:
+- from: '1978'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Acceleration measurement
+  - language: en
+    script: Latn
+    content: Digital measurements
+  - language: en
+    script: Latn
+    content: Measurement standards
+  - language: en
+    script: Latn
+    content: linear
+  - language: en
+    script: Latn
+    content: single axis
+  - language: en
+    script: Latn
+    content: digital
+  - language: en
+    script: Latn
+    content: torque
+  - language: en
+    script: Latn
+    content: accelerometer
+  - language: en
+    script: Latn
+    content: Torque measurement
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '17.080'
+    text: Measurement of time, velocity, acceleration, angular velocity
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,146 @@
+---
+id: IEEEP160911D8201008
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
+    - Over-the-Air Data Exchange Protocol for Intelligent Transportation Systems (ITS)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5570065
+docidentifier:
+- content: IEEE P1609.11/D-8-2010-08
+  type: IEEE
+  primary: true
+- content: IEEE P1609.11™/D-8-2010-08
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6410-6
+  type: ISBN
+docnumber: IEEE P1609.11/D-8-2010-08
+date:
+- type: created
+  at: '2010'
+- type: published
+  at: '2010-09-13'
+- type: issued
+  at: '2010-09-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Intelligent Transportation Systems of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies the electronic payment service layer and profile
+    for Payment and Identity authentication, and Payment Data transfer for Dedicated
+    Short Range Communication (DSRC) based applications in Wireless Access in Vehicular
+    Environments. This standard defines a basic level of technical interoperability
+    (vehicle-to-roadside) for electronic payment equipment, i.e. onboard unit (OBU)
+    and roadside unit (RSU) using DSRC. It does not provide a full solution for interoperability,
+    and it does not define other parts of the electronic payment system, other services,
+    other technologies and non-technical elements of payment interoperability. This
+    standard is not intended to define technology and processes to activate and store
+    data into the OBU (personalization), nor the applications using the payment service.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Wireless communication
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Intelligent transportation systems
+  - language: en
+    script: Latn
+    content: Data handling
+  - language: en
+    script: Latn
+    content: EFC
+  - language: en
+    script: Latn
+    content: electronic fee collection
+  - language: en
+    script: Latn
+    content: electronic payment service
+  - language: en
+    script: Latn
+    content: EPS
+  - language: en
+    script: Latn
+    content: WAVE
+  - language: en
+    script: Latn
+    content: Wireless Access in Vehicular Environments
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
+  - code: 43.040.15
+    text: Car informatics. On board computer systems
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

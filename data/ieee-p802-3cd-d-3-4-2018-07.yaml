@@ -1,0 +1,236 @@
+---
+id: IEEEP8023cdD34201807
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Ethernet Amendment: Media Access Control Parameters
+    for 50 Gb/s and Physical Layers and Management Parameters for 50 Gb/s, 100 Gb/s,
+    and 200 Gb/s Operation'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8438591
+docidentifier:
+- content: IEEE P802.3cd/D-3.4-2018-07
+  type: IEEE
+  primary: true
+- content: IEEE P802.3cd™/D-3.4-2018-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5122-2
+  type: ISBN
+docnumber: IEEE P802.3cd/D-3.4-2018-07
+date:
+- type: created
+  at: '2018-08-15'
+- type: published
+  at: '2018-08-16'
+- type: issued
+  at: '2018-12-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Clause 131 through Clause 140 and Annex 135A through Annex 136D are added
+    to IEEE Std 802.3-2018 by this amendment to specify IEEE 802.3 Media Access Control
+    (MAC) parameters, Physical Layer specifications, and management parameters for
+    the transfer of IEEE 802.3 format frames at 50 Gb/s, 100 Gb/s, and 200 Gb/s.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2015
+    docidentifier:
+    - content: IEEE Std 802.3-2015
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Energy efficiency
+  - language: en
+    script: Latn
+    content: Forward error correction
+  - language: en
+    script: Latn
+    content: Control systems
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: 50GAUI-1
+  - language: en
+    script: Latn
+    content: 50GAUI-2
+  - language: en
+    script: Latn
+    content: 50GBASE-CR
+  - language: en
+    script: Latn
+    content: 50GBASE-FR
+  - language: en
+    script: Latn
+    content: 50GBASE-KR
+  - language: en
+    script: Latn
+    content: 50GBASE-LR
+  - language: en
+    script: Latn
+    content: 50GBASE-SR
+  - language: en
+    script: Latn
+    content: 50 Gigabit Ethernet
+  - language: en
+    script: Latn
+    content: 50GMII
+  - language: en
+    script: Latn
+    content: 100GAUI-2
+  - language: en
+    script: Latn
+    content: 100GAUI-4
+  - language: en
+    script: Latn
+    content: 100GBASE-CR2
+  - language: en
+    script: Latn
+    content: 100GBASE-DR
+  - language: en
+    script: Latn
+    content: 100GBASE-KR2
+  - language: en
+    script: Latn
+    content: 100GBASE-SR2
+  - language: en
+    script: Latn
+    content: 100 Gigabit Ethernet
+  - language: en
+    script: Latn
+    content: 200GBASE-CR4
+  - language: en
+    script: Latn
+    content: 200GBASE-KR4
+  - language: en
+    script: Latn
+    content: 200GBASE-SR4
+  - language: en
+    script: Latn
+    content: 200 Gigabit Ethernet
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: EEE
+  - language: en
+    script: Latn
+    content: Energy-Efficient Ethernet
+  - language: en
+    script: Latn
+    content: FEC
+  - language: en
+    script: Latn
+    content: forward error correction
+  - language: en
+    script: Latn
+    content: IEEE 802.3&#8482;
+  - language: en
+    script: Latn
+    content: IEEE 802.3cd&#8482;
+  - language: en
+    script: Latn
+    content: LAUI-2
+  - language: en
+    script: Latn
+    content: MMF
+  - language: en
+    script: Latn
+    content: SMF
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

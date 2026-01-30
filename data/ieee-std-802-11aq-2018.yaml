@@ -1,0 +1,160 @@
+---
+id: IEEEStd80211aq2018
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information technology--Telecommunications and information
+    exchange between systems Local and metropolitan area network--Specific requirements
+    Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications
+    Amendment 5: Preassociation Discovery'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8457463
+docidentifier:
+- content: IEEE Std 802.11aq-2018
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.11aq®-2018
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5066-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2018.8457463
+  type: DOI
+docnumber: IEEE Std 802.11aq-2018
+date:
+- type: updated
+  at: '2020-09-25'
+- type: created
+  at: '2018-08-31'
+- type: published
+  at: '2018-09-06'
+- type: issued
+  at: '2018-06-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Modifications to IEEE Std 802.11&#8482;-2016, above the physical layer
+    (PHY), to enable delivery of preassociation service discovery information to IEEE
+    802.11 stations (STAs) are defined in this amendment., above the physical layer
+    (PHY), to enable delivery of preassociation service discovery information to IEEE
+    Std 802.11 stations (STAs).
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.11-2012
+    docidentifier:
+    - content: IEEE Std 802.11-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Wireless LAN
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: bloom filter
+  - language: en
+    script: Latn
+    content: hash function
+  - language: en
+    script: Latn
+    content: IEEE 802.11&#8482;
+  - language: en
+    script: Latn
+    content: IEEE 802.11aq&#8482;
+  - language: en
+    script: Latn
+    content: preassociation
+  - language: en
+    script: Latn
+    content: service discovery
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

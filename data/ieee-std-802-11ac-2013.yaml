@@ -1,0 +1,174 @@
+---
+id: IEEEStd80211ac2013
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information technology-- Telecommunications and information
+    exchange between systemsLocal and metropolitan area networks-- Specific requirements--Part
+    11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications--Amendment
+    4: Enhancements for Very High Throughput for Operation in Bands below 6 GHz.'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6687187
+docidentifier:
+- content: IEEE Std 802.11ac-2013
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.11ac®-2013
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8860-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2013.6687187
+  type: DOI
+docnumber: IEEE Std 802.11ac-2013
+date:
+- type: created
+  at: '2013-12-18'
+- type: published
+  at: '2013-12-18'
+- type: issued
+  at: '2013-12-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The purpose of this amendment is to improve the IEEE 802.11 wireless local
+    area network (WLAN) user experience by providing significantly higher basic service
+    set (BSS) throughput for existing WLAN application areas and to enable new market
+    segments for operation below 6 GHz including distribution of multiple multimedia/data
+    streams. The PDF of this standard is available at no cost compliments of the GETIEEE802
+    program located at http://standards.ieee.org/about/get/802/support.html
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.11-2007
+    docidentifier:
+    - content: IEEE Std 802.11-2007
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: IEEE 802.11 standards
+  - language: en
+    script: Latn
+    content: Array signal processing
+  - language: en
+    script: Latn
+    content: MIMO
+  - language: en
+    script: Latn
+    content: Bandwidth allocation
+  - language: en
+    script: Latn
+    content: Throughput
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: 256-QAM
+  - language: en
+    script: Latn
+    content: beamforming
+  - language: en
+    script: Latn
+    content: IEEE 802.11ac(TM)
+  - language: en
+    script: Latn
+    content: multi-user MIMO
+  - language: en
+    script: Latn
+    content: noncontiguous frequency segments
+  - language: en
+    script: Latn
+    content: very high throughput
+  - language: en
+    script: Latn
+    content: wider bandwidth
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

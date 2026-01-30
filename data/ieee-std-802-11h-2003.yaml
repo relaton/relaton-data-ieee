@@ -1,0 +1,142 @@
+---
+id: IEEEStd80211h2003
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information technology-- Local and metropolitan area
+    networks-- Specific requirements-- Part 11: Wireless LAN Medium Access Control
+    (MAC) and Physical Layer (PHY) Specifications - Spectrum and Transmit Power Management
+    Extensions in the 5 GHz Band in Europe'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1243739
+docidentifier:
+- content: IEEE Std 802.11h-2003
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.11h®-2003
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3819-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2003.94393
+  type: DOI
+docnumber: IEEE Std 802.11h-2003
+date:
+- type: updated
+  at: '2009-01-19'
+- type: created
+  at: '2003-10-14'
+- type: published
+  at: '2019-04-09'
+- type: issued
+  at: '2003-09-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'IEEE Std 802.11h-2003 Part 11: Wireless Medium Access Control (MAC) and
+    Physical Layer (PHY) specifications: Amendment 5: Spectrum and Transmit Power
+    Management Extensions in the 5 GHz band in Europe'
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.11-1999
+    docidentifier:
+    - content: ANSI/IEEE Std 802.11-1999
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Licenses
+  - language: en
+    script: Latn
+    content: Task analysis
+  - language: en
+    script: Latn
+    content: IEEE 802.11 Standard
+  - language: en
+    script: Latn
+    content: Europe
+  - language: en
+    script: Latn
+    content: dynamic frequency selection (DFS)
+  - language: en
+    script: Latn
+    content: local area network (LAN)
+  - language: en
+    script: Latn
+    content: transmit power control (TPC)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Active
+  pubstatus: Active
+  holdstatus: Publish

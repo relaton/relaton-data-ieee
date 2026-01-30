@@ -1,0 +1,148 @@
+---
+id: IEEEStd15882002
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for a Precision Clock Synchronization Protocol for Networked
+    Measurement and Control Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1048550
+docidentifier:
+- content: IEEE Std 1588-2002
+  type: IEEE
+  primary: true
+- content: IEEE Std 1588™-2002
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3370-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2002.94144
+  type: DOI
+docnumber: IEEE Std 1588-2002
+date:
+- type: created
+  at: '2002-10-31'
+- type: published
+  at: '2019-04-09'
+- type: issued
+  at: '2002-09-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC9 - Sensor Technology of the IEEE Instrumentation and Measurement
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Replaced by IEC 61588-2004 (SH95292 or SS95292) Dual-logo document Abstract:
+    A protocol to synchronize independent clocks running on separate nodes of a distributed
+    measurement and control system to a high degree of accuracy and precision is specified.
+    The protocol is independent of the networking technology, and the system topology
+    is self-configuring.'
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1588-2008
+    docidentifier:
+    - content: IEEE Std 1588-2008
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Licenses
+  - language: en
+    script: Latn
+    content: Clocks
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Control systems
+  - language: en
+    script: Latn
+    content: clocks
+  - language: en
+    script: Latn
+    content: distributed system
+  - language: en
+    script: Latn
+    content: master clock
+  - language: en
+    script: Latn
+    content: measurement and control systems
+  - language: en
+    script: Latn
+    content: real-time clock
+  - language: en
+    script: Latn
+    content: synchronized clocks
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
+  standard_status: Active
+  pubstatus: Active
+  holdstatus: Publish

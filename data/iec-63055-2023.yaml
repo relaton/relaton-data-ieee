@@ -1,0 +1,178 @@
+---
+id: IEC630552023
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE/IEC International Standard--Format for LSI-Package-Board Interoperable
+    design
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10287910
+docidentifier:
+- content: IEC 63055-2023
+  type: IEEE
+  primary: true
+- content: IEC 63055™-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0216-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10287910
+  type: DOI
+docnumber: IEC 63055-2023
+date:
+- type: created
+  at: '2023-10-19'
+- type: published
+  at: '2023-10-18'
+- type: issued
+  at: '2023'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A method is provided for specifying a common interoperable format for electronic
+    systems design. The format provides a common way to specify information/data about
+    the project management, netlists, components, design rules, and geometries used
+    in the large-scale integration-package-board designs. The method provides the
+    ability to make electronic systems a key consideration early in the design process;
+    design tools can use it to seamlessly exchange information/data.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 2401-2019
+    docidentifier:
+    - content: IEEE Std 2401-2019
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Interoperability
+  - language: en
+    script: Latn
+    content: Large scale integration
+  - language: en
+    script: Latn
+    content: Printed circuits
+  - language: en
+    script: Latn
+    content: Project management
+  - language: en
+    script: Latn
+    content: common interoperable format
+  - language: en
+    script: Latn
+    content: components
+  - language: en
+    script: Latn
+    content: design analysis
+  - language: en
+    script: Latn
+    content: design rules
+  - language: en
+    script: Latn
+    content: geometries
+  - language: en
+    script: Latn
+    content: IEEE 2401&#8482;
+  - language: en
+    script: Latn
+    content: large-scale integration (LSI)
+  - language: en
+    script: Latn
+    content: netlists
+  - language: en
+    script: Latn
+    content: packages for LSI circuits
+  - language: en
+    script: Latn
+    content: printed circuit board
+  - language: en
+    script: Latn
+    content: project management
+  - language: en
+    script: Latn
+    content: Verilog-HDL
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.180'
+    text: Printed circuits and boards
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

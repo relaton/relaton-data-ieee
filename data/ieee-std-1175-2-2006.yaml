@@ -1,0 +1,143 @@
+---
+id: IEEEStd117522006
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for CASE Tool Interconnection - Characterization
+    of Interconnections
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4068343
+docidentifier:
+- content: IEEE Std 1175.2-2006
+  type: IEEE
+  primary: true
+- content: IEEE Std 1175.2™-2006
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5234-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2007.288641
+  type: DOI
+docnumber: IEEE Std 1175.2-2006
+date:
+- type: created
+  at: '2007-01-15'
+- type: published
+  at: '2007-01-22'
+- type: issued
+  at: '2006-09-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Interconnections that need to be understood and evaluated when buying,
+    building, testing, or using Computer-Aided Software Engineering (CASE) tools are
+    described in this recommended practice. This recommended practice is intended
+    to help people interconnect tools by identifying and characterizing various contexts
+    for tool interconnection. Each context serves to define a group of interconnections
+    pertinent to various functional perspectives. Each group contains interconnections
+    that have a common kind of endpoint in the environment. This recommended practice
+    considers four contexts: an organizational context for a tool, the individual
+    user context for a tool, the platform context for a tool, and a peer context for
+    a tool. Within a context, subsets of interconnections are characterized by a collection
+    of common features applicable to a given functional perspective. The purpose of
+    this recommended practice is to establish sets of interconnection features with
+    which each perspective on a CASE tool''s interconnections can be characterized.'
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Context
+  - language: en
+    script: Latn
+    content: Computer aided software engineering
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: Standards Board
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Computer-Aided Software Engineering (CASE) tools
+  - language: en
+    script: Latn
+    content: tool communications
+  - language: en
+    script: Latn
+    content: tool interconnections
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,176 @@
+---
+id: IEEEUnapprovedStdP1800D8
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for SystemVerilog--Unified Hardware Design, Specification,
+    and Verification Language
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4796920
+docidentifier:
+- content: IEEE Unapproved Std P1800/D-8
+  type: IEEE
+  primary: true
+- content: IEEE Unapproved Std P1800™/D-8
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-3127-9
+  type: ISBN
+docnumber: IEEE Unapproved Std P1800/D-8
+date:
+- type: created
+  at: '2009-12-31'
+- type: published
+  at: '2019-05-03'
+- type: issued
+  at: '2009-11-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This standard represents a merger of two previous standards: IEEE Std
+    1364(TM)-2005 Verilog hardware description language (HDL) and IEEE Std 1800-2005
+    SystemVerilog unified hardware design, specification, and verification language.
+    The 2005 SystemVerilog standard defines extensions to the 2005 Verilog standard.
+    These two standards were designed to be used as one language. Merging the base
+    Verilog language and the SystemVerilog extensions into a single standard provides
+    users with all information regarding syntax and semantics in a single document.'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1800-2005
+    docidentifier:
+    - content: IEEE Std 1800-2005
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Hardware design languages
+  - language: en
+    script: Latn
+    content: Graphics
+  - language: en
+    script: Latn
+    content: Hardware
+  - language: en
+    script: Latn
+    content: IEEE Standards Association
+  - language: en
+    script: Latn
+    content: 1800-2009
+  - language: en
+    script: Latn
+    content: 1364-2005
+  - language: en
+    script: Latn
+    content: assertions
+  - language: en
+    script: Latn
+    content: design automation
+  - language: en
+    script: Latn
+    content: design verification
+  - language: en
+    script: Latn
+    content: hardware description language
+  - language: en
+    script: Latn
+    content: HDL
+  - language: en
+    script: Latn
+    content: HDVL
+  - language: en
+    script: Latn
+    content: PLI
+  - language: en
+    script: Latn
+    content: programming language interface
+  - language: en
+    script: Latn
+    content: SystemVerilog
+  - language: en
+    script: Latn
+    content: Verilog
+  - language: en
+    script: Latn
+    content: VPI
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

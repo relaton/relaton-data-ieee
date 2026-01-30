@@ -1,0 +1,205 @@
+---
+id: IEEEStd151232002
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Hazardous Material Incident Management Message Sets for
+    Use by Emergency Management Centers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1088461
+docidentifier:
+- content: IEEE Std 1512.3-2002
+  type: IEEE
+  primary: true
+- content: IEEE Std 1512.3™-2002
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3384-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2002.94150
+  type: DOI
+docnumber: IEEE Std 1512.3-2002
+date:
+- type: created
+  at: '2002-10-14'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2002-09-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Intelligent Transportation Systems of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEEE Std 1512.3-2006 This standard addresses the exchange
+    of vital data about hazardous material and other cargo and contents of vehicles
+    and buildings involved in transportation-related events, through common incident
+    management message sets. That data exchange is specifically to support real-time
+    interagency transportation-related incident management. Message sets specified
+    are consistent with the National Intelligent Transportation Systems Architecture
+    and are described using Abstract Syntax Notation One (ASN.1) syntax. This standard
+    comprises one companion volume of the family of incident management standards
+    centered around a base standard:IEEE Std 1512-2000, IEEE Standard for Common Incident
+    Management Message Sets for Use by Emergency Management Centers. Other members
+    of that family that are forthcoming include two other companion volumes, specifying
+    incident management message sets for transportation management and public safety.
+    Collectively, this family of standards shall be referred to as the IEEE 1512 Family
+    of Standards. The goal of these standards is to support efficient communication
+    for the real-time, interagency management of transportation-related events. Those
+    events include incidents, emergencies, accidents, planned roadway closures, special
+    events, and disasters caused by humans or natural events. These events include
+    any such event that impacts transportation systems, or that causes a report to
+    be received by an emergency management system, whether or not the event actually
+    affects a transportation system, and whether or not a response is required.
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1512.3-2006
+    docidentifier:
+    - content: IEEE Std 1512.3-2006
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Emergency services
+  - language: en
+    script: Latn
+    content: Hazardous materials
+  - language: en
+    script: Latn
+    content: Transportation
+  - language: en
+    script: Latn
+    content: Databases
+  - language: en
+    script: Latn
+    content: '911'
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: ATMS
+  - language: en
+    script: Latn
+    content: CAD
+  - language: en
+    script: Latn
+    content: cargo
+  - language: en
+    script: Latn
+    content: center-to-center
+  - language: en
+    script: Latn
+    content: commercial vehicles
+  - language: en
+    script: Latn
+    content: dangerous goods
+  - language: en
+    script: Latn
+    content: data exchange
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: emergency response
+  - language: en
+    script: Latn
+    content: emergency services
+  - language: en
+    script: Latn
+    content: EMS
+  - language: en
+    script: Latn
+    content: hazardous materials
+  - language: en
+    script: Latn
+    content: hazardous waste
+  - language: en
+    script: Latn
+    content: hazmat
+  - language: en
+    script: Latn
+    content: HM
+  - language: en
+    script: Latn
+    content: IM
+  - language: en
+    script: Latn
+    content: incident management
+  - language: en
+    script: Latn
+    content: incident response
+  - language: en
+    script: Latn
+    content: incidents
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,155 @@
+---
+id: IEEEStd4001991
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Making High-Direct-Voltage Tests on Power Cable Systems
+    in the Field
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159209
+docidentifier:
+- content: IEEE Std 400-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 400™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3323-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1991.101042
+  type: DOI
+docnumber: IEEE Std 400-1991
+date:
+- type: created
+  at: '1991-05-28'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1991-02-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Insulated Conductors of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by 400-2001. Procedures and recommended test voltage values
+    for acceptance and maintenance high-direct-voltage testing of shielded power cable
+    systems are set forth. They apply to all types of shielded, insulated power cable.
+    The aim is to provide uniform test procedures and guidelines for evaluation of
+    the test results. This guide is not intended to apply to unshielded power cables,
+    communication cables, control cables, high-frequency cables, or other special-purpose
+    cables, nor does it purport to require that testing be performed, either at the
+    time of installation or maintenance.
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 400-1980
+    docidentifier:
+    - content: ANSI/IEEE Std 400-1980
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 400-2001
+    docidentifier:
+    - content: IEEE Std 400-2001
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Cable insulation
+  - language: en
+    script: Latn
+    content: Power cables
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: cable installation
+  - language: en
+    script: Latn
+    content: cable maintenance
+  - language: en
+    script: Latn
+    content: cable tests
+  - language: en
+    script: Latn
+    content: insulated cable
+  - language: en
+    script: Latn
+    content: test procedures
+  - language: en
+    script: Latn
+    content: Shielded power cable systems
+  - language: en
+    script: Latn
+    content: High direct voltage tests
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

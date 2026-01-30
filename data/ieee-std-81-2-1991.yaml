@@ -1,0 +1,138 @@
+---
+id: IEEEStd8121991
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Measurement of Impedance and Safety Characteristics of Large,
+    Extended or Interconnected Grounding Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/182805
+docidentifier:
+- content: IEEE Std 81.2-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 81.2™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0661-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1992.106970
+  type: DOI
+docnumber: IEEE Std 81.2-1991
+date:
+- type: created
+  at: '1992-06-25'
+- type: published
+  at: '2014-04-23'
+- type: issued
+  at: '1991-12-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Substations of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Practical instrumentation methods are presented for measuring the ac characteristics
+    of large, extended or interconnected grounding systems. Measurements of impedance
+    to remote earth, step and touch potentials, and current distributions are covered
+    for grounding systems ranging in complexity from small grids (less than 900m 2),
+    with only a few connected overhead or direct burial bare concentric (2) neutrals,
+    to large grids (greater than 20 000m 2), with many connected neutrals, overhead
+    ground wires (sky wires), counterpoises, grid tie conductors, cable shields, and
+    metallic pipes. This standard addresses measurement safety; earth-return mutual
+    errors; low-current measurements; power-system staged faults; communication and
+    control cable transfer impedance; current distribution (current splits) in the
+    grounding system; step, touch, mesh, and profile measurements; the foot-equivalent
+    electrode earth resistance; and instrumentation characteristics and limitations.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Grounding
+  - language: en
+    script: Latn
+    content: Impedance measurement
+  - language: en
+    script: Latn
+    content: Power system protection
+  - language: en
+    script: Latn
+    content: Safety
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Grounding systems
+  - language: en
+    script: Latn
+    content: impedance
+  - language: en
+    script: Latn
+    content: safety
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

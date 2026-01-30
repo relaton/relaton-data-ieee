@@ -1,0 +1,145 @@
+---
+id: ISOIEEE11073104252019
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEEE International Standard - Health informatics--Personal health
+    device communication - Part 10425: Device Specialization--Continuous Glucose Monitor
+    (CGM)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8675785
+docidentifier:
+- content: ISO/IEEE 11073.10425-2019
+  type: IEEE
+  primary: true
+- content: ISO/IEEE 11073.10425™-2019
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5640-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2019.8675785
+  type: DOI
+docnumber: ISO/IEEE 11073.10425-2019
+date:
+- type: updated
+  at: '2020-06-12'
+- type: created
+  at: '2019-03-29'
+- type: published
+  at: '2019-03-27'
+- type: issued
+  at: '2019'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, a normative definition of the communication between continuous
+    glucose monitor (CGM) devices and managers (e.g., cell phones, personal computers,
+    personal health appliances, set top boxes), in a manner that enables plug-and-play
+    interoperability, is established in this standard. It leverages appropriate portions
+    of existing standards including ISO/IEEE 11073 terminology and information models.
+    It specifies the use of specific term codes, formats, and behaviors in telehealth
+    environments, restricting optionality in base frameworks in favor of interoperability.
+    This standard defines a common core of communication functionality of CGM devices.
+    In this context, CGM refers to the measurement of the level of glucose in the
+    body on a regular (typically 5 minute) basis through a sensor continuously attached
+    to the person.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 11073.10425-2017
+    docidentifier:
+    - content: IEEE Std 11073.10425-2017
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Biomedical equipment
+  - language: en
+    script: Latn
+    content: Biomedical monitoring
+  - language: en
+    script: Latn
+    content: Glucose
+  - language: en
+    script: Latn
+    content: Diabetes
+  - language: en
+    script: Latn
+    content: continuous glucose monitor
+  - language: en
+    script: Latn
+    content: IEEE 11073-10425
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: personal health devices
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 11.040.55
+    text: Diagnostic equipment
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

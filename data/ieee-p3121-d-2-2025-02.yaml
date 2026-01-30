@@ -1,0 +1,145 @@
+---
+id: IEEEP3121D2202502
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Non-intrusive State Monitoring Framework for Embedded
+    Devices in Industrial Control Systems (ICSs)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10896600
+docidentifier:
+- content: IEEE P3121/D-2-2025-02
+  type: IEEE
+  primary: true
+- content: IEEE P3121™/D-2-2025-02
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1876-8
+  type: ISBN
+docnumber: IEEE P3121/D-2-2025-02
+date:
+- type: created
+  at: '2025-02-18'
+- type: published
+  at: '2025-02-19'
+- type: issued
+  at: '2025-09-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Smart Manufacturing Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A nonintrusive state monitoring framework for embedded devices in industrial
+    control systems is provided in this standard. The techniques covered include analog
+    signal acquisition, analog data processing, model training, anomaly detection,
+    and human-machine interface. The analog signal acquisition is to gather various
+    types of sensor signals from the embedded devices. The analog data processing
+    is to process the collected data to extract features. The model training is to
+    train a classification model that can identify different types of attacks. The
+    anomaly detection is to implement, manage, and secure the detection engine. The
+    human-machine interface is to provide alarm information and get feedback.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Industrial control
+  - language: en
+    script: Latn
+    content: Anomaly detection
+  - language: en
+    script: Latn
+    content: Side-channel attacks
+  - language: en
+    script: Latn
+    content: Training
+  - language: en
+    script: Latn
+    content: Embedded systems
+  - language: en
+    script: Latn
+    content: anomaly detection
+  - language: en
+    script: Latn
+    content: embedded devices
+  - language: en
+    script: Latn
+    content: IEEE 3121(TM)
+  - language: en
+    script: Latn
+    content: industrial control systems
+  - language: en
+    script: Latn
+    content: model training
+  - language: en
+    script: Latn
+    content: side channel
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

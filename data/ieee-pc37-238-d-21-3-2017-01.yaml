@@ -1,0 +1,165 @@
+---
+id: IEEEPC37238D213201701
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Approved Draft Standard Profile for Use of IEEE 1588 Precision Time
+    Protocol in Power System Applications
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7835645
+docidentifier:
+- content: IEEE PC37.238/D-21.3-2017-01
+  type: IEEE
+  primary: true
+- content: IEEE PC37.238™/D-21.3-2017-01
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-3775-2
+  type: ISBN
+docnumber: IEEE PC37.238/D-21.3-2017-01
+date:
+- type: created
+  at: '2017-01-01'
+- type: published
+  at: '2017-01-27'
+- type: issued
+  at: '2017-03-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An extended profile for the use of Precision Time Protocol (PTP) of IEEE
+    Std 1588-2008 in power system protection, control, automation, and data communication
+    applications utilizing an Ethernet communications architecture is specified.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.238-2011
+    docidentifier:
+    - content: IEEE Std C37.238-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Substations
+  - language: en
+    script: Latn
+    content: Synchrophasors
+  - language: en
+    script: Latn
+    content: Clocks
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Precision engineering
+  - language: en
+    script: Latn
+    content: Power system measurements
+  - language: en
+    script: Latn
+    content: grandmaster clock
+  - language: en
+    script: Latn
+    content: IEEE 1588
+  - language: en
+    script: Latn
+    content: power substation
+  - language: en
+    script: Latn
+    content: precise time synchronization
+  - language: en
+    script: Latn
+    content: Precision Time Protocol (PTP)
+  - language: en
+    script: Latn
+    content: sample synchronization
+  - language: en
+    script: Latn
+    content: slave-only clock
+  - language: en
+    script: Latn
+    content: synchrophasors
+  - language: en
+    script: Latn
+    content: transparent clock.
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: 33.040.20
+    text: Transmission systems
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

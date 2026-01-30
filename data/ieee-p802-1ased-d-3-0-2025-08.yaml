@@ -1,0 +1,151 @@
+---
+id: IEEEP8021ASedD30202508
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks -Timing and
+    Synchronization for Time-Sensitive Applications - Amendment: Fault-Tolerant Timing
+    with Time Integrity'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11131620
+docidentifier:
+- content: IEEE P802.1ASed/D-3.0-2025-08
+  type: IEEE
+  primary: true
+- content: IEEE P802.1ASed™/D-3.0-2025-08
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2546-9
+  type: ISBN
+docnumber: IEEE P802.1ASed/D-3.0-2025-08
+date:
+- type: created
+  at: '2025-08-19'
+- type: published
+  at: '2025-08-20'
+- type: issued
+  at: '2025'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.1AS™-2020 specifies protocols, processes,
+    procedures, functions, mechanisms, and managed objects to enable fault-tolerant
+    timing by increasing the availability of the time and adding time integrity. This
+    is achieved using two or more generalized Precision Time Protocol (gPTP) domains,
+    multiple time distribution paths, the local oscillator clock, and a time selection
+    function with individual processes for times that have interdependencies and times
+    that do not have interdependencies. Fault-tolerant timing includes fault-tolerant
+    time generation and distribution.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.1AS-2020
+    docidentifier:
+    - content: IEEE Std 802.1AS-2020
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Fault tolerance
+  - language: en
+    script: Latn
+    content: Timing
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: fault-tolerant timing
+  - language: en
+    script: Latn
+    content: time selection function
+  - language: en
+    script: Latn
+    content: dependent gPTP times
+  - language: en
+    script: Latn
+    content: independent gPTPtimes
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

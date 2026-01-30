@@ -1,0 +1,176 @@
+---
+id: IEEEP8023csD30202111
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Ethernet Amendment 3: Physical Layers and management
+    parameters for increased-reach point-to-multipoint Ethernet optical subscriber
+    access (Super-PON)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9654159
+docidentifier:
+- content: IEEE P802.3cs/D-3.0-2021-11
+  type: IEEE
+  primary: true
+- content: IEEE P802.3cs™/D-3.0-2021-11
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8274-5
+  type: ISBN
+docnumber: IEEE P802.3cs/D-3.0-2021-11
+date:
+- type: created
+  at: '2021-12-15'
+- type: published
+  at: '2021-12-16'
+- type: issued
+  at: '2022-09-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Super-PON optical subscriber access networks, which are in the family of
+    Ethernet passive optical networks (EPONs), are defined in this amendment to IEEE
+    Std 802.3-2022. Super-PON has a reach of up to 50 km and up to 1024 ONUs over
+    a point-to-multipoint passive optical distribution network (ODN) through wavelength
+    division multiplexing (WDM). A Super-PON ODN contains a passive wavelength router
+    that determines the channels used by the ODN. This standard specifies the Super-PON
+    Reconciliation Sublayer (RS), Physical Coding Sublayer (PCS), Physical Medium
+    Attachment (PMA) sublayer, and Physical Medium Dependent (PMD) sublayer at a MAC
+    data rate of 10 Gb/s in the downstream direction and of 10 Gb/s or 2.5 Gb/s in
+    the upstream direction.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2022
+    docidentifier:
+    - content: IEEE Std 802.3-2022
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: EPON
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Optical fiber communication
+  - language: en
+    script: Latn
+    content: IEEE 802.3 Standard
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: IEEE 802.3
+  - language: en
+    script: Latn
+    content: IEEE 802.3cs
+  - language: en
+    script: Latn
+    content: Multipoint MAC Control (MPMC)
+  - language: en
+    script: Latn
+    content: Optical Distribution Network (ODN)
+  - language: en
+    script: Latn
+    content: Passive Optical Network (PON)
+  - language: en
+    script: Latn
+    content: Physical Coding Sublayer (PCS)
+  - language: en
+    script: Latn
+    content: Physical Medium Attachment (PMA)
+  - language: en
+    script: Latn
+    content: Physical Medium Dependent (PMD)
+  - language: en
+    script: Latn
+    content: Point-to- Multipoint (P2MP)
+  - language: en
+    script: Latn
+    content: Reconciliation Sublayer (RS)
+  - language: en
+    script: Latn
+    content: Super-PON
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,182 @@
+---
+id: IEEEStd17042021
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Utility Industry End Device Communications Module
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9772454
+docidentifier:
+- content: IEEE Std 1704-2021
+  type: IEEE
+  primary: true
+- content: IEEE Std 1704™-2021
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8283-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2022.9772454
+  type: DOI
+docnumber: IEEE Std 1704-2021
+date:
+- type: created
+  at: '2022-05-11'
+- type: published
+  at: '2022-05-10'
+- type: issued
+  at: '2021-12-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard is an extension to IEEE Std 1703(TM). Physical hardware interfaces
+    and signals, such as logical interface and power (digital and mains), that link
+    metrology devices to communications modules via the USB physical layer are specified
+    in this standard. The communication module described in this standard is not integral
+    (not on the same circuit board) with the metrology registers (circuit board) of
+    the assembly. However, the module is envisioned to partner with a device implementing
+    measurement registers (energy, demand load, power quality and related quantities)
+    that are semantically modeled using IEEE Std 1377&#8482;, and encapsulated for
+    communication using IEEE Std 1703(TM)application layer messages.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Smart grids
+  - language: en
+    script: Latn
+    content: Interoperability
+  - language: en
+    script: Latn
+    content: Meters
+  - language: en
+    script: Latn
+    content: Communication systems
+  - language: en
+    script: Latn
+    content: advance metering infrastructure
+  - language: en
+    script: Latn
+    content: AMI
+  - language: en
+    script: Latn
+    content: AMI interoperability
+  - language: en
+    script: Latn
+    content: AMI retrofitting
+  - language: en
+    script: Latn
+    content: comm module
+  - language: en
+    script: Latn
+    content: communication module
+  - language: en
+    script: Latn
+    content: detachable module
+  - language: en
+    script: Latn
+    content: end device
+  - language: en
+    script: Latn
+    content: IEEE 1377
+  - language: en
+    script: Latn
+    content: IEEE 1703
+  - language: en
+    script: Latn
+    content: IEEE 1704
+  - language: en
+    script: Latn
+    content: meter
+  - language: en
+    script: Latn
+    content: multi-sourcing
+  - language: en
+    script: Latn
+    content: network interface card
+  - language: en
+    script: Latn
+    content: plug-and-play
+  - language: en
+    script: Latn
+    content: physical interface
+  - language: en
+    script: Latn
+    content: removable module
+  - language: en
+    script: Latn
+    content: smart grid
+  - language: en
+    script: Latn
+    content: swappable module
+  - language: en
+    script: Latn
+    content: WAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

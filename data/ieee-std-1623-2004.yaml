@@ -1,0 +1,132 @@
+---
+id: IEEEStd16232004
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for the Functional Specification of Medium Voltage (1 kV - 35
+    kV) Electronic Shunt Devices for Dynamic Voltage Compensation
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1438744
+docidentifier:
+- content: IEEE Std 1623-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 1623™-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4672-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2005.96096
+  type: DOI
+docnumber: IEEE Std 1623-2004
+date:
+- type: created
+  at: '2005-05-11'
+- type: published
+  at: '2020-08-04'
+- type: issued
+  at: '2004-11-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Substations of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This document provides general guidelines for the preparation of a functional
+    specification for solid-state electronic shunt devices used mainly for compensation
+    of voltage fluctuation. The guide covers devices rated to medium voltage (1 kV-35
+    kV). This device contains in general: an inverter, rectifier or DC converter,
+    energy storage device, and coupling transformer. The device typically is connected
+    in parallel with the network using a coupling transformer.'
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: coupling transformer
+  - language: en
+    script: Latn
+    content: energy storage
+  - language: en
+    script: Latn
+    content: inverter
+  - language: en
+    script: Latn
+    content: parallel compensation
+  - language: en
+    script: Latn
+    content: power electronics
+  - language: en
+    script: Latn
+    content: power quality
+  - language: en
+    script: Latn
+    content: sensitive loads
+  - language: en
+    script: Latn
+    content: voltage control
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

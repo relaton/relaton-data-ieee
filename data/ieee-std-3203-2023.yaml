@@ -1,0 +1,129 @@
+---
+id: IEEEStd32032023
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Blockchain Interoperability--Naming Protocol
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10531211
+docidentifier:
+- content: IEEE Std 3203-2023
+  type: IEEE
+  primary: true
+- content: IEEE Std 3203™-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0315-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2024.10531211
+  type: DOI
+docnumber: IEEE Std 3203-2023
+date:
+- type: created
+  at: '2024-04-26'
+- type: published
+  at: '2024-05-15'
+- type: issued
+  at: '2023-11-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Blockchain and Distributed Ledgers of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A set of protocols are defined in this standard that enable blockchain
+    networks to locate each other’s trusted nodes through standardized names. The
+    set of protocols define a naming scheme, an interface for name registration, and
+    the data format that request and response messages use to resolve names.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Blockchains
+  - language: en
+    script: Latn
+    content: Interoperability
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: blockchain
+  - language: en
+    script: Latn
+    content: IEEE 3203&#8482;
+  - language: en
+    script: Latn
+    content: interoperability
+  - language: en
+    script: Latn
+    content: protocol
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

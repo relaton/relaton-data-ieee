@@ -1,0 +1,130 @@
+---
+id: IEEEStdC371112013
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE/IEC Measuring relays and protection equipment – Part 24: Common format
+    for transient data exchange (COMTRADE) for power systems'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6512503
+docidentifier:
+- content: IEEE Std C37.111-2013
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.111™-2013
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8415-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2013.6512503
+  type: DOI
+docnumber: IEEE Std C37.111-2013
+date:
+- type: created
+  at: '2013-04-30'
+- type: published
+  at: '2013-05-02'
+- type: issued
+  at: '2013-02-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Also known as IEC 60255-24 Ed.2, this standard defines a format for files
+    containing transient waveform and event data collected from power systems or power
+    system models. The format is intended to provide an easily interpretable form
+    for use in exchanging data. The standard is for files stored on currently used
+    physical media such as portable external hard drives, USB drives, flash drives,
+    CD, DVD. It is not a standard for transferring data files over communication networks.
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Power system p protection
+  - language: en
+    script: Latn
+    content: Relays
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Data handling
+  - language: en
+    script: Latn
+    content: Power systems planning
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.70
+    text: Relays
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

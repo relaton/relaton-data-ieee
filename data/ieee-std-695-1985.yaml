@@ -1,0 +1,95 @@
+---
+id: IEEEStd6951985
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Trial Use Standard for Microprocessor Universal Format for Object
+    Modules
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7435216
+docidentifier:
+- content: IEEE Std 695-1985
+  type: IEEE
+  primary: true
+- content: IEEE Std 695™-1985
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0418-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1985.7435216
+  type: DOI
+docnumber: IEEE Std 695-1985
+date:
+- type: updated
+  at: '2016-04-08'
+- type: created
+  at: '1985'
+- type: published
+  at: '2016-03-17'
+- type: issued
+  at: '1985-03-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+copyright:
+- from: '1985'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 695-1990
+    docidentifier:
+    - content: IEEE Std 695-1990
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Microprocessors
+  - language: en
+    script: Latn
+    content: Processor scheduling
+  - language: en
+    script: Latn
+    content: Integrated circuits
+  - language: en
+    script: Latn
+    content: Object modules
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

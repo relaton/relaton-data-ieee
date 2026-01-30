@@ -1,0 +1,214 @@
+---
+id: IEEEStd8021X2020
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Local and Metropolitan Area Networks--Port-Based Network
+    Access Control
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9018454
+docidentifier:
+- content: IEEE Std 802.1X-2020
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1X®-2020
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6440-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2020.9018454
+  type: DOI
+docnumber: IEEE Std 802.1X-2020
+date:
+- type: updated
+  at: '2020-05-01'
+- type: created
+  at: '2020-02-28'
+- type: published
+  at: '2020-02-28'
+- type: issued
+  at: '2020-01-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Port-based network access control allows a network administrator to restrict
+    the use of IEEE 802(R) LAN service access points (ports) to secure communication
+    between authenticated and authorized devices. This standard specifies a common
+    architecture, functional elements, and protocols that support mutual authentication
+    between the clients of ports attached to the same LAN and that secure communication
+    between the ports, including the media access method independent protocols that
+    are used to discover and establish the security associations used by IEEE 802.1AE(TM)
+    MAC Security.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.1X-2010
+    docidentifier:
+    - content: IEEE Std 802.1X-2010
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Access control
+  - language: en
+    script: Latn
+    content: Authorization
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Authentication
+  - language: en
+    script: Latn
+    content: Security
+  - language: en
+    script: Latn
+    content: access control
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: authorization
+  - language: en
+    script: Latn
+    content: controlled port
+  - language: en
+    script: Latn
+    content: EAP
+  - language: en
+    script: Latn
+    content: EAPOL
+  - language: en
+    script: Latn
+    content: IEEE 802.1X
+  - language: en
+    script: Latn
+    content: key agreement
+  - language: en
+    script: Latn
+    content: LANs
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: MACsec
+  - language: en
+    script: Latn
+    content: MACsec Key Agreeement
+  - language: en
+    script: Latn
+    content: MAC security
+  - language: en
+    script: Latn
+    content: MAC Service
+  - language: en
+    script: Latn
+    content: MANs
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: MKA
+  - language: en
+    script: Latn
+    content: port-based network access control
+  - language: en
+    script: Latn
+    content: secure association
+  - language: en
+    script: Latn
+    content: security
+  - language: en
+    script: Latn
+    content: service access point
+  - language: en
+    script: Latn
+    content: uncontrolled port
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

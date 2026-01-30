@@ -1,0 +1,162 @@
+---
+id: IEEEStd180231991
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'Conformance Test Methodology for IEEE Standards for Local and Metropolitan
+    Area Networks: - CSMA/CD Access Method and Physical Layer Specifications - Currently
+    Contains Attachment Unit Interface (AUI) Cable (Section 4)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159142
+docidentifier:
+- content: IEEE Std 1802.3-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 1802.3™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0270-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1991.101033
+  type: DOI
+docnumber: IEEE Std 1802.3-1991
+date:
+- type: created
+  at: '1991'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1991-03-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Methods for conformance testing to satisfy requirements arising from the
+    ISO/IEC 8802-3 [ANSI/IEEE Std 802.3] standard are defined. The conformance test
+    suite is intended to detect incorrect implementations of the ISO/IEC 8802-3 [ANSI/IEEE
+    Std 802.3] standard. It is comprised of two categories of test groups. The first
+    category relates to basic interconnection testing and the second to capability
+    and behavior testing. The test setups, adapters, and instruments used are described.
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1802.3-2001
+    docidentifier:
+    - content: IEEE Std 1802.3-2001
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1802.3-2001
+    docidentifier:
+    - content: IEEE Std 1802.3-2001
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Carrier sense multiaccess
+  - language: en
+    script: Latn
+    content: Computer networks
+  - language: en
+    script: Latn
+    content: Conformance testing
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local
+  - language: en
+    script: Latn
+    content: networks
+  - language: en
+    script: Latn
+    content: AUI
+  - language: en
+    script: Latn
+    content: compliance
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: MAU
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: PLS
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

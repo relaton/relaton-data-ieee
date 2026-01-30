@@ -1,0 +1,185 @@
+---
+id: IEEEStd8023bj2014
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Ethernet Amendment 2: Physical Layer Specifications
+    and Management Parameters for 100 Gb/s Operation Over Backplanes and Copper Cables'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6891095
+docidentifier:
+- content: IEEE Std 802.3bj-2014
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.3bj®-2014
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9134-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2014.6891095
+  type: DOI
+docnumber: IEEE Std 802.3bj-2014
+date:
+- type: updated
+  at: '2014-09-19'
+- type: created
+  at: '2014'
+- type: published
+  at: '2014-09-04'
+- type: issued
+  at: '2014-06-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 100 Gb/s Physical Layer (PHY) specifications and management parameters
+    for operation on electrical backplanes and twinaxial copper cables are added by
+    this amendment to IEEE Std 802.3-2012. This amendment also specifies optional
+    Energy Efficient Ethernet (EEE) for 40 Gb/s and 100 Gb/s operation over electrical
+    backplanes and copper cables.
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2012
+    docidentifier:
+    - content: IEEE Std 802.3-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Time measurement
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Passive optical networks
+  - language: en
+    script: Latn
+    content: IEEE 802.3 Standard
+  - language: en
+    script: Latn
+    content: 100 Gb/s Ethernet
+  - language: en
+    script: Latn
+    content: 100GBASE-CR10
+  - language: en
+    script: Latn
+    content: 100GBASE-CR4
+  - language: en
+    script: Latn
+    content: 100GBASE-KP4
+  - language: en
+    script: Latn
+    content: 100GBASE-KR4
+  - language: en
+    script: Latn
+    content: 40 Gb/s Ethernet
+  - language: en
+    script: Latn
+    content: 40GBASE-CR4
+  - language: en
+    script: Latn
+    content: 40GBASE-KR4
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: Auto-Negotiation (AN)
+  - language: en
+    script: Latn
+    content: Backplane Ethernet
+  - language: en
+    script: Latn
+    content: Energy Efficient Ethernet (EEE)
+  - language: en
+    script: Latn
+    content: Forward Error Correction (FEC)
+  - language: en
+    script: Latn
+    content: IEEE 802.3(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.3bj(TM)
+  - language: en
+    script: Latn
+    content: Physical Medium Attachment (PMA) sublayer
+  - language: en
+    script: Latn
+    content: Physical Medium Dependent (PMD) sublayer
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

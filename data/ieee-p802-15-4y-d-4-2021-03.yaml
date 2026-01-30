@@ -1,0 +1,179 @@
+---
+id: IEEEP802154yD4202103
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Approved Draft Standard for Low-Rate Wireless Networks - Amendment
+    for Advanced Encryption Standard (AES)-256 Encryption and Security Extensions
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9373037
+docidentifier:
+- content: IEEE P802.15.4y/D-4-2021-03
+  type: IEEE
+  primary: true
+- content: IEEE P802.15.4y™/D-4-2021-03
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-7472-6
+  type: ISBN
+docnumber: IEEE P802.15.4y/D-4-2021-03
+date:
+- type: created
+  at: '2021-05-09'
+- type: published
+  at: '2021-03-08'
+- type: issued
+  at: '2021-05-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment defines security extensions to IEEE Std 802.15.4 adding
+    AES-256-CCM plus a cipher suite/authentication method registry and a process for
+    inclusion of additional algorithms. The registry defines a capability to align
+    IEEE Std 802.15.4 with the security requirements of higher layer standards.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.15.4-2015
+    docidentifier:
+    - content: IEEE Std 802.15.4-2015
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Wireless networks
+  - language: en
+    script: Latn
+    content: Communication system security
+  - language: en
+    script: Latn
+    content: Authentication
+  - language: en
+    script: Latn
+    content: Low power electronics
+  - language: en
+    script: Latn
+    content: Encryption
+  - language: en
+    script: Latn
+    content: AEAD
+  - language: en
+    script: Latn
+    content: AES-128
+  - language: en
+    script: Latn
+    content: AES-128-CCM
+  - language: en
+    script: Latn
+    content: AES-256
+  - language: en
+    script: Latn
+    content: AES-256-CCM
+  - language: en
+    script: Latn
+    content: algorithm agility
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: ciphers
+  - language: en
+    script: Latn
+    content: encryption
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4&#8482;
+  - language: en
+    script: Latn
+    content: low data rate
+  - language: en
+    script: Latn
+    content: low power
+  - language: en
+    script: Latn
+    content: security
+  - language: en
+    script: Latn
+    content: wireless personal area network
+  - language: en
+    script: Latn
+    content: WPAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

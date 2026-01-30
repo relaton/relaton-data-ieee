@@ -1,0 +1,190 @@
+---
+id: IEEEP1107310418D2Cor12015
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Health informatics--Personal health device communication Part
+    10418: Device specialization--International Normalized Ratio (INR) monitor - Corrigendum
+    1'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7158994
+docidentifier:
+- content: IEEE P11073.10418/D-2/Cor1-2015
+  type: IEEE
+  primary: true
+- content: IEEE P11073.10418™/D-2/Cor1-2015
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9516-2
+  type: ISBN
+docnumber: IEEE P11073.10418/D-2/Cor1-2015
+date:
+- type: created
+  at: '2015-07-15'
+- type: published
+  at: '2015-07-15'
+- type: issued
+  at: '2015-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073TM Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A normative definition of communication between personal telehealth International
+    Normalized Ratio (INR) devices (agents) and managers (e.g., cell phones, personal
+    computers, personal health appliances, and set top boxes) is established in this
+    standard in a manner that enables plug-and-play interoperability. Work done in
+    other ISO/IEEE 11073 standards is leveraged, including existing terminology, information
+    profiles, application profile standards, and transport standards. The use of specific
+    term codes, formats, and behaviors in telehealth environments restricting optionality
+    in base frameworks in favor of interoperability is specified. A common core of
+    functionality of INR devices is defined in this standard. In the context of personal
+    health devices, the measurement of the prothrombin time (PT) that is used to assess
+    the level ofanticoagulant therapy and its presentation as the International Normalized
+    Ratio compared to theprothrombin time of normal blood plasma is referred to in
+    INR monitoring. Applications of the INRmonitor include the management of the therapeutic
+    level of anticoagulant used in the treatment ofa variety of conditions. The data
+    modeling and its transport shim layer according to IEEE Std11073-20601(TM)-2014
+    are provided by this standard, and the measurement method is not specified. This
+    standard corrects errors that have been identified in the IEEE Std 11073-10418-2011
+    to make it easier to implement the standard in an interoperable fashion.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: corrects
+  bibitem:
+    formattedref: IEEE Std 11073.10418-2011
+    docidentifier:
+    - content: IEEE Std 11073.10418-2011
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: corrects
+  bibitem:
+    formattedref: IEEE Std 11073.10418-2011
+    docidentifier:
+    - content: IEEE Std 11073.10418-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Biomedical monitoring
+  - language: en
+    script: Latn
+    content: Informatics
+  - language: en
+    script: Latn
+    content: Bioinformatics
+  - language: en
+    script: Latn
+    content: Mobile communication
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEEE 11073(TM)
+  - language: en
+    script: Latn
+    content: IEEE 11073-10418(TM)
+  - language: en
+    script: Latn
+    content: IEEE 11073-20601(TM)
+  - language: en
+    script: Latn
+    content: ISO/IEEE 11073-10418(TM)
+  - language: en
+    script: Latn
+    content: ISO/IEEE 11073-20601
+  - language: en
+    script: Latn
+    content: International Normalized Ratio (INR) monitor
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: personal health devices.
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  - code: 11.040.55
+    text: Diagnostic equipment
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

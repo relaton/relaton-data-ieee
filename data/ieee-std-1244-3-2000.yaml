@@ -1,0 +1,201 @@
+---
+id: IEEEStd124432000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Media Management System (MMS) Media Management Protocol
+    (MMP)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/890179
+docidentifier:
+- content: IEEE Std 1244.3-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 1244.3™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2511-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.92291
+  type: DOI
+docnumber: IEEE Std 1244.3-2000
+date:
+- type: created
+  at: '2000-12-15'
+- type: published
+  at: '2017-03-07'
+- type: issued
+  at: '2000-06-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Storage Systems of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: All relevant behavior and states of the Media Management System (MMS) and
+    the Media Manager (MM) from the time the MMS application successfully establishes
+    a session with the MM, until the session is severed is described. This standard
+    specifies the behavior of the MM itself in response to certain MMP commands and
+    events that occur during the existence of the MM, including but not limited to
+    booting the MM and the un-commanded exit of a MMS client.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: application independent
+  - language: en
+    script: Latn
+    content: architecture
+  - language: en
+    script: Latn
+    content: automated tape library
+  - language: en
+    script: Latn
+    content: content neutral
+  - language: en
+    script: Latn
+    content: data model
+  - language: en
+    script: Latn
+    content: device manager
+  - language: en
+    script: Latn
+    content: distributed
+  - language: en
+    script: Latn
+    content: drive manager
+  - language: en
+    script: Latn
+    content: fully scalable
+  - language: en
+    script: Latn
+    content: heterogeneous environment
+  - language: en
+    script: Latn
+    content: information access
+  - language: en
+    script: Latn
+    content: interoperability
+  - language: en
+    script: Latn
+    content: interoperable
+  - language: en
+    script: Latn
+    content: language neutral
+  - language: en
+    script: Latn
+    content: library management
+  - language: en
+    script: Latn
+    content: library manager
+  - language: en
+    script: Latn
+    content: media management
+  - language: en
+    script: Latn
+    content: media neutral
+  - language: en
+    script: Latn
+    content: middleware
+  - language: en
+    script: Latn
+    content: opensource
+  - language: en
+    script: Latn
+    content: operating system independent
+  - language: en
+    script: Latn
+    content: platform-independent
+  - language: en
+    script: Latn
+    content: protocol based
+  - language: en
+    script: Latn
+    content: removable media
+  - language: en
+    script: Latn
+    content: robotic tape library
+  - language: en
+    script: Latn
+    content: secure
+  - language: en
+    script: Latn
+    content: software
+  - language: en
+    script: Latn
+    content: storage
+  - language: en
+    script: Latn
+    content: storage management
+  - language: en
+    script: Latn
+    content: storage system
+  - language: en
+    script: Latn
+    content: system architecture
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

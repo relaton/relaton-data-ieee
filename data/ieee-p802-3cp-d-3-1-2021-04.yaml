@@ -1,0 +1,187 @@
+---
+id: IEEEP8023cpD31202104
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Ethernet Amendment 14: Bidirectional 10 Gb/s,
+    25 Gb/s, and 50 Gb/s Optical Access PHYs'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9404018
+docidentifier:
+- content: IEEE P802.3cp/D-3.1-2021-04
+  type: IEEE
+  primary: true
+- content: IEEE P802.3cp™/D-3.1-2021-04
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-7576-1
+  type: ISBN
+docnumber: IEEE P802.3cp/D-3.1-2021-04
+date:
+- type: created
+  at: '2021-04-12'
+- type: published
+  at: '2021-04-13'
+- type: issued
+  at: '2021-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2018 adds Physical Layer specifications
+    and management parameters for 10 Gb/s, 25 Gb/s, and 50 Gb/s Ethernet optical interfaces
+    for bidirectional operation over a single strand of single-mode fiber with reaches
+    of at least 10 km, 20 km, and 40 km.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2018
+    docidentifier:
+    - content: IEEE Std 802.3-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Optical fiber communication
+  - language: en
+    script: Latn
+    content: 10GBASE-BR10
+  - language: en
+    script: Latn
+    content: 10GBASE-BR20
+  - language: en
+    script: Latn
+    content: 10GBASE-BR40
+  - language: en
+    script: Latn
+    content: 25GBASE-BR10
+  - language: en
+    script: Latn
+    content: 25GBASE-BR20
+  - language: en
+    script: Latn
+    content: 25GBASE-BR40
+  - language: en
+    script: Latn
+    content: 50GBASE-BR10
+  - language: en
+    script: Latn
+    content: 50GBASE-BR20
+  - language: en
+    script: Latn
+    content: 50GBASE-BR40
+  - language: en
+    script: Latn
+    content: bidirectional (BiDi)
+  - language: en
+    script: Latn
+    content: forward error correction (FEC)
+  - language: en
+    script: Latn
+    content: IEEE 802.3&#8482;
+  - language: en
+    script: Latn
+    content: IEEE 802.3cp&#8482;
+  - language: en
+    script: Latn
+    content: multi-gigabit Ethernet bidirectional Physical Layers
+  - language: en
+    script: Latn
+    content: Physical Coding Sublayer (PCS)
+  - language: en
+    script: Latn
+    content: Physical Medium Attachment (PMA) sublayer
+  - language: en
+    script: Latn
+    content: Physical Medium Dependent (PMD) sublayer
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

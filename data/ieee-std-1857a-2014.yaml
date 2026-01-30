@@ -1,0 +1,163 @@
+---
+id: IEEEStd1857a2014
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Advanced Audio and Video Coding - Amendment 1: Extension
+    on Timing and Location Information to Support Object Tracking across Multiple
+    Cameras at Surveillance High Group'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6783681
+docidentifier:
+- content: IEEE Std 1857a-2014
+  type: IEEE
+  primary: true
+- content: IEEE Std 1857a™-2014
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9024-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2014.6783681
+  type: DOI
+docnumber: IEEE Std 1857a-2014
+date:
+- type: created
+  at: '2014-04-04'
+- type: published
+  at: '2014-04-04'
+- type: issued
+  at: '2014-03-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Data Compression Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Extensions to IEEE Std 1857(TM)-2013 are provided for surveillance video
+    to support tracking across tracing in multiple cameras at surveillance based on
+    the navigation information which mainly includes timing, location and movement
+    information.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 1857-2013
+    docidentifier:
+    - content: IEEE Std 1857-2013
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Navigation
+  - language: en
+    script: Latn
+    content: Surveillance
+  - language: en
+    script: Latn
+    content: Video coding
+  - language: en
+    script: Latn
+    content: Tracking
+  - language: en
+    script: Latn
+    content: Audio coding
+  - language: en
+    script: Latn
+    content: Cameras
+  - language: en
+    script: Latn
+    content: Object detection
+  - language: en
+    script: Latn
+    content: Location awareness
+  - language: en
+    script: Latn
+    content: IEEE 1857(TM)
+  - language: en
+    script: Latn
+    content: IEEE 1857a(TM)
+  - language: en
+    script: Latn
+    content: navigation information
+  - language: en
+    script: Latn
+    content: surveillance video
+  - language: en
+    script: Latn
+    content: tracking.
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  - code: '35.040'
+    text: Information coding
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

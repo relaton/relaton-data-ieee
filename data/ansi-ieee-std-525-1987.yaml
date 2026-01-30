@@ -1,0 +1,133 @@
+---
+id: ANSIIEEEStd5251987
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for the Design and Installation of Cable Systems in Substations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/27813
+docidentifier:
+- content: ANSI/IEEE Std 525-1987
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 525™-1987
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4227-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1988.81022
+  type: DOI
+docnumber: ANSI/IEEE Std 525-1987
+date:
+- type: created
+  at: '1988'
+- type: published
+  at: '2016-03-10'
+- type: issued
+  at: '1987-09-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Substations of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Guidance for the design, installation, and protection of wire and cable
+    systems in substations with the objective of minimizing cable failures and their
+    consequences is provided. The design of wire and cable systems in generating stations
+    is not covered.
+copyright:
+- from: '1988'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 525-1992
+    docidentifier:
+    - content: IEEE Std 525-1992
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Power cables
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Substations
+  - language: en
+    script: Latn
+    content: design
+  - language: en
+    script: Latn
+    content: installation
+  - language: en
+    script: Latn
+    content: cable
+  - language: en
+    script: Latn
+    content: systems
+  - language: en
+    script: Latn
+    content: substations
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.10
+    text: Substations. Surge arresters
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

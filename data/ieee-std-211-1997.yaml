@@ -1,0 +1,131 @@
+---
+id: IEEEStd2111997
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Definitions of Terms for Radio Wave Propagation
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/705931
+docidentifier:
+- content: IEEE Std 211-1997
+  type: IEEE
+  primary: true
+- content: IEEE Std 211™-1997
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0580-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1998.87897
+  type: DOI
+docnumber: IEEE Std 211-1997
+date:
+- type: created
+  at: '1998'
+- type: issued
+  at: '1997-12-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Antennas and Propagation Standards Committee of the IEEE Antennas
+          and Propagation Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Terms and definitions used in the context of electromagnetic wave propagation
+    relating to the fields of telecommunications, remote sensing, radio astronomy,
+    optical waves, plasma waves, the ionosphere, the magnetosphere, and magnetohydrodynamic,
+    acoustic, and electrostatic waves are supplied.
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 211-1990
+    docidentifier:
+    - content: IEEE Std 211-1990
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 211-2018
+    docidentifier:
+    - content: IEEE Std 211-2018
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 211-2018
+    docidentifier:
+    - content: IEEE Std 211-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.33
+    text: Telecommunications. Audio and video engineering (Vocabularies)
+  - code: 33.060.01
+    text: Radiocommunications in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

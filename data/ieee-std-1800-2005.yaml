@@ -1,0 +1,162 @@
+---
+id: IEEEStd18002005
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for SystemVerilog: Unified Hardware Design, Specification
+    and Verification Language'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1560791
+docidentifier:
+- content: IEEE Std 1800-2005
+  type: IEEE
+  primary: true
+- content: IEEE Std 1800™-2005
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4811-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2005.97972
+  type: DOI
+docnumber: IEEE Std 1800-2005
+date:
+- type: created
+  at: '2005-11-22'
+- type: published
+  at: '2005-12-19'
+- type: issued
+  at: '2005-11-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Corporate Advisory Group of the IEEE SA Board of Governors
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This standard represents a merger of two previous standards: IEEE 1364-2005
+    Verilog hardware description language (HDL) and IEEE 1800-2005 SystemVerilog unified
+    hardware design, specification and verification language. The 2005 SystemVerilog
+    standard defines extensions to the 2005 Verilog standard. These two standards
+    were designed to be used as one language. Merging the base Verilog language and
+    the SystemVerilog extensions into a single standard enables users to have all
+    information regarding syntax and semantics in a single document.'
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1800-2009
+    docidentifier:
+    - content: IEEE Std 1800-2009
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1800-2009
+    docidentifier:
+    - content: IEEE Std 1800-2009
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Hardware design languages
+  - language: en
+    script: Latn
+    content: Graphics
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Programming
+  - language: en
+    script: Latn
+    content: Color
+  - language: en
+    script: Latn
+    content: Hardware
+  - language: en
+    script: Latn
+    content: Assertions
+  - language: en
+    script: Latn
+    content: Design Automation
+  - language: en
+    script: Latn
+    content: Design Verification
+  - language: en
+    script: Latn
+    content: Hardware Description Language (HDL)
+  - language: en
+    script: Latn
+    content: Verilog
+  - language: en
+    script: Latn
+    content: Programming Language Interface (PLI)
+  - language: en
+    script: Latn
+    content: Verilog Programming Interface (VPI)
+  - language: en
+    script: Latn
+    content: SystemVerilog
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Active
+  pubstatus: Active
+  holdstatus: Publish

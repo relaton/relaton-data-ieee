@@ -1,0 +1,169 @@
+---
+id: IEEEP1484123D1201909
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Extensible Markup Language (XML) Schema Definition
+    Language Binding for Learning Object Metadata
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8844370
+docidentifier:
+- content: IEEE P1484.12.3/D-1-2019-09
+  type: IEEE
+  primary: true
+- content: IEEE P1484.12.3™/D-1-2019-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6160-3
+  type: ISBN
+docnumber: IEEE P1484.12.3/D-1-2019-09
+date:
+- type: created
+  at: '2019'
+- type: published
+  at: '2019-09-18'
+- type: issued
+  at: '2020-03-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Learning Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This Standard defines a World Wide Web Consortium (W3C) Extensible Markup
+    Language (XML) Schema definition language binding of the learning object metadata
+    (LOM) data model defined in IEEE Std 1484.12.1TM&#8211;2002. The purpose of this
+    Standard is to allow the creation of LOM instances in XML, which allows for interoperability
+    and the exchange of LOM XML instances between various systems. This Standard uses
+    the W3C XML Schema definition language to define the syntax and semantics of the
+    XML encodings.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1484.12.3-2005
+    docidentifier:
+    - content: IEEE Std 1484.12.3-2005
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1484.12.3-2005
+    docidentifier:
+    - content: IEEE Std 1484.12.3-2005
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Metadata
+  - language: en
+    script: Latn
+    content: Terminology
+  - language: en
+    script: Latn
+    content: Learning systems
+  - language: en
+    script: Latn
+    content: 1484.12.1&#8211;2002
+  - language: en
+    script: Latn
+    content: Extensible Markup Language (XML)
+  - language: en
+    script: Latn
+    content: learning object metadata (LOM)
+  - language: en
+    script: Latn
+    content: LOM XML instance
+  - language: en
+    script: Latn
+    content: LOM XML Schema binding
+  - language: en
+    script: Latn
+    content: metadata
+  - language: en
+    script: Latn
+    content: W3C XML Schema definition language
+  - language: en
+    script: Latn
+    content: XML Schema definition (XSD)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

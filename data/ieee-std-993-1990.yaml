@@ -1,0 +1,109 @@
+---
+id: IEEEStd9931990
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Trial-Use Standard for Test Equipment Description Language (TEDL)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/587768
+docidentifier:
+- content: IEEE Std 993-1990
+  type: IEEE
+  primary: true
+- content: IEEE Std 993™-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 1-55937-029-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1990.82369
+  type: DOI
+docnumber: IEEE Std 993-1990
+date:
+- type: created
+  at: '1990'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1990-02-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: The TEDL Subcommittee of Standards Coordinating Committee 20
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEEE Std 993-1990, IEEE Trial-Use Standard for Test Equipment Description
+    Language (TEDL), defines a language useful for describing automatic test equipment
+    (ATE) instrumentation and configurations, as well as interface test adapters (ITA).
+    Principally intended for testing environments using the ATLAS test language, TEDL
+    can also be used to describe instrumentation in non-ATLAS environments.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Automatic test equipment
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,149 @@
+---
+id: IEEEStd12462002
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Temporary Protective Grounding Systems Used in Substations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1194457
+docidentifier:
+- content: IEEE Std 1246-2002
+  type: IEEE
+  primary: true
+- content: IEEE Std 1246™-2002
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3362-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2003.94244
+  type: DOI
+docnumber: IEEE Std 1246-2002
+date:
+- type: created
+  at: '2003-04-14'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2002-09-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Substations of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The design, performance, use, testing, and installation of temporary protectivegrounding
+    systems, including the connection points, as used in permanent and mobile substations,are
+    covered in this guide.
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1246-1997
+    docidentifier:
+    - content: IEEE Std 1246-1997
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1246-2011
+    docidentifier:
+    - content: IEEE Std 1246-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Grounding
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Safety
+  - language: en
+    script: Latn
+    content: grounding
+  - language: en
+    script: Latn
+    content: personal safety
+  - language: en
+    script: Latn
+    content: protective grounding
+  - language: en
+    script: Latn
+    content: safety
+  - language: en
+    script: Latn
+    content: temporary grounding
+  - language: en
+    script: Latn
+    content: ultimate rating
+  - language: en
+    script: Latn
+    content: withstand rating
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.99
+    text: Other equipment related to power transmission and distribution networks
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

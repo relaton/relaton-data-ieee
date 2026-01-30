@@ -1,0 +1,141 @@
+---
+id: ANSIIEEEStd80241990
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information processing systems -- Local area networks
+    --Part 4: Standard for Token-Passing Bus Access Method and Physical Layer Specifications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7229456
+docidentifier:
+- content: ANSI/IEEE Std 802.4-1990
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 802.4™-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3268-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1990.7229456
+  type: DOI
+docnumber: ANSI/IEEE Std 802.4-1990
+date:
+- type: created
+  at: '1990-08-17'
+- type: published
+  at: '2015-08-28'
+- type: issued
+  at: '1990-02-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This local area network (LAN) standard deals with all elements of the
+    token-passing bus access method and its associated physical signaling and media
+    technologies. To facilitate interconnection of stations by way of a LAN using
+    the token-passing bus access method, this standard specifies the characteristics
+    of the transmission medium; the signaling method used; the frame formats transmitted;
+    the actions of a station upon receipt of a frame; the services provided at the
+    conceptual interface between the Medium Access Control (MAC) sublayer and the
+    Logical Link Control (LLC) sublayer; and the actions, entities and values used
+    by management. There are four medium characteristics and signaling methods: 5
+    and 10 Mb/s phase-coherent FSK; 1, 5, and 10 Mb/s broadband; 10 and 20 Mb/s fiberoptic;
+    and 1 Mb/s phase-continuous FSK.'
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Token passing
+  - language: en
+    script: Latn
+    content: Information processing
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: token-passing
+  - language: en
+    script: Latn
+    content: bus
+  - language: en
+    script: Latn
+    content: Protocols
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

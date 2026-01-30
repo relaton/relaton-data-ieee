@@ -1,0 +1,146 @@
+---
+id: IEEEStd1900522017
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Method for Modeling Spectrum Consumption
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8398607
+docidentifier:
+- content: IEEE Std 1900.5.2-2017
+  type: IEEE
+  primary: true
+- content: IEEE Std 1900.5.2™-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4813-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2018.8398607
+  type: DOI
+docnumber: IEEE Std 1900.5.2-2017
+date:
+- type: created
+  at: '2018-06-26'
+- type: published
+  at: '2018-06-27'
+- type: issued
+  at: '2017-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Dynamic Spectrum Access Networks Standards Committee of the IEEE
+          Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A vendor-independent generalized method for modeling spectrum consumption
+    of any type of use of radio frequency spectrum and the attendant computations
+    for arbitrating the compatibility among models are defined in this standard. The
+    methods of modeling are chosen to support the development of tractable algorithms
+    for determining the compatibility between models and for performing various spectrum
+    management tasks that operate on a plurality of models. The modeling methods are
+    exclusively focused on capturing spectrum use but are defined in a schema that
+    can be joined with other schemata related to spectrum management.
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1900.5.2-2024
+    docidentifier:
+    - content: IEEE Std 1900.5.2-2024
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Radio spectrum management
+  - language: en
+    script: Latn
+    content: Energy consumption
+  - language: en
+    script: Latn
+    content: Telecommunication network management
+  - language: en
+    script: Latn
+    content: Dynamic spectrum access
+  - language: en
+    script: Latn
+    content: DSA
+  - language: en
+    script: Latn
+    content: dynamic spectrum access
+  - language: en
+    script: Latn
+    content: IEEE 1900.5.2
+  - language: en
+    script: Latn
+    content: SCM
+  - language: en
+    script: Latn
+    content: spectrum consumption model
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.060.01
+    text: Radiocommunications in general
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

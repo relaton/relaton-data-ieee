@@ -1,0 +1,197 @@
+---
+id: ISOIECIEEE3132022012
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEC/IEEE International Standard - Information technology -- Modeling
+    Languages -- Part 2: Syntax and Semantics for IDEF1X97 (IDEFobject)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6357338
+docidentifier:
+- content: ISO/IEC/IEEE 31320.2-2012
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 31320.2™-2012
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8003-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2012.6357338
+  type: DOI
+docnumber: ISO/IEC/IEEE 31320.2-2012
+date:
+- type: created
+  at: '2012-10-30'
+- type: published
+  at: '2012-11-20'
+- type: issued
+  at: '2012-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'IDEF1X97 consists of two conceptual modeling languages. The key-style
+    language supportsdata/information modeling and is downward compatible with the
+    US governments 1993 standard, FIPSPUB 184. The identity-style language is based
+    on the object model with declarative rules and constraints.IDEF1X97 identity style
+    includes constructs for the distinct but related components of object abstraction:
+    interface, requests, and realization; utilizes graphics to state the interface;
+    and defines a declarative, directly executable Rule and Constraint Language for
+    requests and realizations. IDEF1X97 conceptual modeling supports implementation
+    by relational databases, extended relational databases, object databases, and
+    object programming languages. IDEF1X97 is formally defined in terms of first order
+    logic. A procedure is given whereby any valid IDEF1X97 model can be transformed
+    into an equivalent theory in first order logic. That procedure is then applied
+    to a meta model of IDEF1X97 to define the valid set of IDEF1X97 models.'
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 1320.2-1998
+    docidentifier:
+    - content: IEEE Std 1320.2-1998
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Computer languages
+  - language: en
+    script: Latn
+    content: Modeling
+  - language: en
+    script: Latn
+    content: Information technollgy
+  - language: en
+    script: Latn
+    content: Sematics
+  - language: en
+    script: Latn
+    content: enterprise
+  - language: en
+    script: Latn
+    content: functional modeling language
+  - language: en
+    script: Latn
+    content: IDEF0
+  - language: en
+    script: Latn
+    content: IEEE 1320.2
+  - language: en
+    script: Latn
+    content: language
+  - language: en
+    script: Latn
+    content: modeling language
+  - language: en
+    script: Latn
+    content: conceptual schema
+  - language: en
+    script: Latn
+    content: data model
+  - language: en
+    script: Latn
+    content: IDEF1X
+  - language: en
+    script: Latn
+    content: IDEF1X97
+  - language: en
+    script: Latn
+    content: identity style
+  - language: en
+    script: Latn
+    content: information model
+  - language: en
+    script: Latn
+    content: keymodel style
+  - language: en
+    script: Latn
+    content: object
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  - code: '35.080'
+    text: Software
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

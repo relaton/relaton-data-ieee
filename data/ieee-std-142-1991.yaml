@@ -1,0 +1,171 @@
+---
+id: IEEEStd1421991
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Grounding of Industrial and Commercial Power
+    Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/469115
+docidentifier:
+- content: IEEE Std 142-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 142™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1143-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1992.122648
+  type: DOI
+docnumber: IEEE Std 142-1991
+date:
+- type: created
+  at: '1992-06-22'
+- type: published
+  at: '2013-01-10'
+- type: issued
+  at: '1991-06-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Industrial &amp; Commercial Power Systems Standards Development Committee
+          of the IEEE Industry Applications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEEE Std 142-2007 (Green Book). This IEEE Standars product
+    is part of the Color Books family. The problems of system grounding, that is,
+    connection to ground of neutral, of the corner of the delta, or of the midtap
+    of one phase, are covered.
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 142-2007
+    docidentifier:
+    - content: IEEE Std 142-2007
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 142-1982
+    docidentifier:
+    - content: ANSI/IEEE Std 142-1982
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 142-2007
+    docidentifier:
+    - content: IEEE Std 142-2007
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Grounding
+  - language: en
+    script: Latn
+    content: system
+  - language: en
+    script: Latn
+    content: static
+  - language: en
+    script: Latn
+    content: lightning protection
+  - language: en
+    script: Latn
+    content: protection grounding
+  - language: en
+    script: Latn
+    content: connection to earth
+  - language: en
+    script: Latn
+    content: earth
+  - language: en
+    script: Latn
+    content: sensitive
+  - language: en
+    script: Latn
+    content: electronic equipment
+  - language: en
+    script: Latn
+    content: green book
+  - language: en
+    script: Latn
+    content: System grounding
+  - language: en
+    script: Latn
+    content: Static and lightning protection
+  - language: en
+    script: Latn
+    content: Sensitive electronic equipment
+  - language: en
+    script: Latn
+    content: Equipment grounding
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

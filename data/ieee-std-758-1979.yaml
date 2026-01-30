@@ -1,0 +1,126 @@
+---
+id: IEEEStd7581979
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Subroutines for Computer Automated Measurement and Control
+    (CAMAC)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/19507
+docidentifier:
+- content: IEEE Std 758-1979
+  type: IEEE
+  primary: true
+- content: IEEE Std 758™-1979
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0714-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1979.120307
+  type: DOI
+docnumber: IEEE Std 758-1979
+date:
+- type: created
+  at: '1979-12-28'
+- type: published
+  at: '2020-01-31'
+- type: issued
+  at: '1978-12-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Instruments and Detectors of the IEEE Nuclear and Plasma
+          Sciences Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A set of standard subroutines that provide access to CAMAC facilities in
+    a variety of computer programming languages is described. The subroutines are
+    specifically intended to be suitable for use with FORTRAN, although they are not
+    restricted to that language. The subroutines have been grouped into three subsets
+    in order to provide different standard levels of implementation. The lowest level
+    requires only two subroutines, but, nevertheless, gives access to most of the
+    facilities that can be found in CAMAC. In higher levels of implementation, subroutines
+    are added that permit procedures to be written in more mnemonic terminology, provide
+    better handling of LAMs, permit procedures to be independent of the type of CAMAC
+    highway used, and provide efficient block-transfer capability.
+copyright:
+- from: '1979'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: CAMAC
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Algorithms
+  - language: en
+    script: Latn
+    content: subroutines
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.99
+    text: Other standards related to nuclear energy
+  - code: '35.060'
+    text: Languages used in information technology
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

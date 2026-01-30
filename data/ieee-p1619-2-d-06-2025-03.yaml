@@ -1,0 +1,163 @@
+---
+id: IEEEP16192D06202503
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Wide-Block Encryption for Shared Storage Media
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10949037
+docidentifier:
+- content: IEEE P1619.2/D-06-2025-03
+  type: IEEE
+  primary: true
+- content: IEEE P1619.2™/D-06-2025-03
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2035-8
+  type: ISBN
+docnumber: IEEE P1619.2/D-06-2025-03
+date:
+- type: created
+  at: '2025-04-02'
+- type: published
+  at: '2025-04-03'
+- type: issued
+  at: '2025-09-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Cybersecurity and Privacy Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: EME2-AES wide-block encryption with associated data (EAD) mode of the NIST
+    AES block cipher, providing usage guidelines and test vectors, is described. A
+    wide-block encryption algorithm behaves as a single block cipher with a large
+    plaintext input and ciphertext output, but uses a narrow block cipher (in this
+    case, Advanced Encryption Standard [AES]) internally. This encryption mode is
+    oriented toward random access storage devices that do not provide authentication,
+    but need to reduce the granularity of a potential attack.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1619.2-2021
+    docidentifier:
+    - content: IEEE Std 1619.2-2021
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Security
+  - language: en
+    script: Latn
+    content: Encryption
+  - language: en
+    script: Latn
+    content: Storage management
+  - language: en
+    script: Latn
+    content: Media
+  - language: en
+    script: Latn
+    content: data-at-rest security
+  - language: en
+    script: Latn
+    content: EAD
+  - language: en
+    script: Latn
+    content: EME2
+  - language: en
+    script: Latn
+    content: encryption
+  - language: en
+    script: Latn
+    content: encryption with associated data
+  - language: en
+    script: Latn
+    content: encrypt-mix-encrypt-v2 mode of operation
+  - language: en
+    script: Latn
+    content: IEEE 1619.2(TM)
+  - language: en
+    script: Latn
+    content: security
+  - language: en
+    script: Latn
+    content: storage
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.040.01
+    text: Information coding in general
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

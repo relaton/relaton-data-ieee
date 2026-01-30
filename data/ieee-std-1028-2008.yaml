@@ -1,0 +1,131 @@
+---
+id: IEEEStd10282008
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Software Reviews and Audits
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4601584
+docidentifier:
+- content: IEEE Std 1028-2008
+  type: IEEE
+  primary: true
+- content: IEEE Std 1028™-2008
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5768-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2008.4601584
+  type: DOI
+docnumber: IEEE Std 1028-2008
+date:
+- type: updated
+  at: '2008-11-03'
+- type: created
+  at: '2008-08-15'
+- type: published
+  at: '2019-04-15'
+- type: issued
+  at: '2008-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Five types of software reviews and audits, together with procedures required
+    for the execution of each type, are defined in this standard. This standard is
+    concerned only with the reviews and audits; procedures for determining the necessity
+    of a review or audit are not defined, and the disposition of the results of the
+    review or audit is not specified. Types included are management reviews, technical
+    reviews, inspections, walk-throughs, and audits.
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Software testing
+  - language: en
+    script: Latn
+    content: Performance evaluation
+  - language: en
+    script: Latn
+    content: Software maintenance
+  - language: en
+    script: Latn
+    content: 1028-2008
+  - language: en
+    script: Latn
+    content: audit
+  - language: en
+    script: Latn
+    content: inspection
+  - language: en
+    script: Latn
+    content: review
+  - language: en
+    script: Latn
+    content: walk-through
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

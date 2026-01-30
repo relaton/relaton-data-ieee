@@ -1,0 +1,140 @@
+---
+id: IEEEStd187212024
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Robot Task Representation
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10557559
+docidentifier:
+- content: IEEE Std 1872.1-2024
+  type: IEEE
+  primary: true
+- content: IEEE Std 1872.1™-2024
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0553-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2024.10557559
+  type: DOI
+docnumber: IEEE Std 1872.1-2024
+date:
+- type: created
+  at: '2024-06-18'
+- type: published
+  at: '2024-06-13'
+- type: issued
+  at: '2024-02-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standing Committee for Standards of the IEEE Robotics and Automation
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Defined in this standard is an ontology that allows for the representation
+    of, reasoning about, and communication of task knowledge in the learning, robotics,
+    and automation domain. This ontology includes a list of essential terms and their
+    definitions, attributes, types, structures, properties, constraints, and relationships.
+    In addition, addresses how hierarchical planners and designers represent task
+    knowledge allowing them to better communicate among levels of the ontology hierarchy.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Robots
+  - language: en
+    script: Latn
+    content: Knowledge engineering
+  - language: en
+    script: Latn
+    content: Ontologies
+  - language: en
+    script: Latn
+    content: Task analysis
+  - language: en
+    script: Latn
+    content: IEEE 1872.1
+  - language: en
+    script: Latn
+    content: robot knowledge
+  - language: en
+    script: Latn
+    content: robot ontology
+  - language: en
+    script: Latn
+    content: robotics
+  - language: en
+    script: Latn
+    content: tasking
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 25.040.30
+    text: Industrial robots. Manipulators
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

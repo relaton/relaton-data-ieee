@@ -1,0 +1,163 @@
+---
+id: IEEEStd12781993
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Information Technology -- Protocols for Distributed Interactive
+    Simulation Applications--Entity Information and Interaction
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/237008
+docidentifier:
+- content: IEEE Std 1278-1993
+  type: IEEE
+  primary: true
+- content: IEEE Std 1278™-1993
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5593-7305-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.115125
+  type: DOI
+docnumber: IEEE Std 1278-1993
+date:
+- type: created
+  at: '1993-05-12'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1993-03-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Simulation Interoperability Stds Organization/Stds Activity Committee
+          of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded. Revision was redesignated 1278.1. Data messages, called protocol
+    data units (PDUs), that are exchanged between simulation applications are defined.
+    These PDUs provide information concerning simulated entity states and the types
+    of entity interactions that take place in a distributed interactive simulation
+    (DIS). The messages defined are for interactions that are primarily within visual
+    range. Future versions of this standard will contain additional PDUs required
+    to exchange information about interactions and functions not currently supported.
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1278.1-1995
+    docidentifier:
+    - content: IEEE Std 1278.1-1995
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1278.1-1995
+    docidentifier:
+    - content: IEEE Std 1278.1-1995
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Simulation
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Communication standards
+  - language: en
+    script: Latn
+    content: articulated parts
+  - language: en
+    script: Latn
+    content: attached parts
+  - language: en
+    script: Latn
+    content: dead reckoning
+  - language: en
+    script: Latn
+    content: entity coordinates
+  - language: en
+    script: Latn
+    content: Euler angles
+  - language: en
+    script: Latn
+    content: field
+  - language: en
+    script: Latn
+    content: guise
+  - language: en
+    script: Latn
+    content: PDUs
+  - language: en
+    script: Latn
+    content: right-hand rule
+  - language: en
+    script: Latn
+    content: simulation application
+  - language: en
+    script: Latn
+    content: simulation entity
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

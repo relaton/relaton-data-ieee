@@ -1,0 +1,171 @@
+---
+id: IEEEStd8021Qdx2024
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Local and Metropolitan Area Networks--Bridges and Bridged
+    Networks Amendment 39: YANG Data Models for the Credit-Based Shaper'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10643865
+docidentifier:
+- content: IEEE Std 802.1Qdx-2024
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1Qdx®-2024
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1019-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2024.10643865
+  type: DOI
+docnumber: IEEE Std 802.1Qdx-2024
+date:
+- type: created
+  at: '2024-08-23'
+- type: published
+  at: '2024-08-22'
+- type: issued
+  at: '2024-06-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A YANG data model that supports configuration and status reporting for
+    credit-based shaper algorithm capabilities in Bridges and end stations is specified
+    in this amendment to IEEE Std 802.1Q-2022 as amended by IEEE Std 802.1Qcz-2023,
+    IEEE Std 802.1Qcw-2023, IEEE Std 802.1Qcj-2023, and IEEE Std 802.1Qdj-2024. (The
+    PDF of this standard is available at no cost compliments of the IEEE GET program
+    at https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.1Q-2022
+    docidentifier:
+    - content: IEEE Std 802.1Q-2022
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Bridge circuits
+  - language: en
+    script: Latn
+    content: Data models
+  - language: en
+    script: Latn
+    content: Network security
+  - language: en
+    script: Latn
+    content: Algorithm design and analysis
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: Bridged Network
+  - language: en
+    script: Latn
+    content: credit-based shaper algorithm
+  - language: en
+    script: Latn
+    content: IEEE 802.1Q™
+  - language: en
+    script: Latn
+    content: IEEE 802.1Qdx™
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: MAC Bridge
+  - language: en
+    script: Latn
+    content: metropolitan area network
+  - language: en
+    script: Latn
+    content: YANG
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

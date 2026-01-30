@@ -1,0 +1,144 @@
+---
+id: IEEEStd16192007
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Cryptographic Protection of Data on Block-Oriented Storage
+    Devices
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4493450
+docidentifier:
+- content: IEEE Std 1619-2007
+  type: IEEE
+  primary: true
+- content: IEEE Std 1619™-2007
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5523-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2008.4493450
+  type: DOI
+docnumber: IEEE Std 1619-2007
+date:
+- type: created
+  at: '2008-03-04'
+- type: published
+  at: '2019-02-07'
+- type: issued
+  at: '2007-12-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Storage Systems of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies cryptographic transform and key archival methods
+    for protection of data in sector-level storage devices.
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1619-2018
+    docidentifier:
+    - content: IEEE Std 1619-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Cryptography
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Warranties
+  - language: en
+    script: Latn
+    content: 1619-2007
+  - language: en
+    script: Latn
+    content: data-at-rest security
+  - language: en
+    script: Latn
+    content: encryption
+  - language: en
+    script: Latn
+    content: key management
+  - language: en
+    script: Latn
+    content: security
+  - language: en
+    script: Latn
+    content: storage
+  - language: en
+    script: Latn
+    content: XTS
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

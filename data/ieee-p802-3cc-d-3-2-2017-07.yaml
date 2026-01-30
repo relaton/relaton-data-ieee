@@ -1,0 +1,174 @@
+---
+id: IEEEP8023ccD32201707
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Ethernet Amendment: Physical Layer and Management
+    Parameters for Serial 25 Gb/s Ethernet Operation Over Single-Mode Fiber'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8013161
+docidentifier:
+- content: IEEE P802.3cc/D-3.2-2017-07
+  type: IEEE
+  primary: true
+- content: IEEE P802.3cc™/D-3.2-2017-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4335-7
+  type: ISBN
+docnumber: IEEE P802.3cc/D-3.2-2017-07
+date:
+- type: created
+  at: '2017-01-01'
+- type: published
+  at: '2017-08-18'
+- type: issued
+  at: '2017-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2015 adds Physical Layer (PHY) specifications
+    and management parameters for 25 Gb/s operation over single-mode fiber at reaches
+    of at least 10 km (25GBASE-LR) and 40 km (25GBASE-ER).
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2015
+    docidentifier:
+    - content: IEEE Std 802.3-2015
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Foreword error correction
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Energy efficiency
+  - language: en
+    script: Latn
+    content: 25 Gb/s Ethernet
+  - language: en
+    script: Latn
+    content: 25GBASE-ER
+  - language: en
+    script: Latn
+    content: 25GBASE-LR
+  - language: en
+    script: Latn
+    content: 25GBASE-SR
+  - language: en
+    script: Latn
+    content: Energy Efficient Ethernet (EEE)
+  - language: en
+    script: Latn
+    content: Forward Error Correction (FEC)
+  - language: en
+    script: Latn
+    content: IEEE 802.3(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.3by(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.3cc(TM)
+  - language: en
+    script: Latn
+    content: Physical Coding sublayer (PCS)
+  - language: en
+    script: Latn
+    content: Physical Medium Attachment (PMA) sublayer
+  - language: en
+    script: Latn
+    content: Physical Medium Dependent (PMD) sublayer
+  - language: en
+    script: Latn
+    content: Reconciliation sublayer (RS)
+  - language: en
+    script: Latn
+    content: single-mode fiber (SMF)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

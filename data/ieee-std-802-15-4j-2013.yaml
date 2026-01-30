@@ -1,0 +1,151 @@
+---
+id: IEEEStd802154j2013
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Local and metropolitan area networks - Part 15.4: Low-Rate
+    Wireless Personal Area Networks (LR-WPANs) Amendment 4: Alternative Physical Layer
+    Extension to Support Medical Body Area Network (MBAN) Services Operating in the
+    2360 MHz – 2400 MHz Band'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6471722
+docidentifier:
+- content: IEEE Std 802.15.4j-2013
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.4j®-2013
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8209-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2013.6471722
+  type: DOI
+docnumber: IEEE Std 802.15.4j-2013
+date:
+- type: updated
+  at: '2013-05-03'
+- type: created
+  at: '2013-02-27'
+- type: published
+  at: '2013-02-27'
+- type: issued
+  at: '2013-02-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: In this amendment to IEEE Std 802.15.4TM-2011, a physical layer for IEEE
+    802.15.4 in the 2360 MHz to 2400 MHz band which complies with Federal Communications
+    Commission (FCC) MBAN rules is defined. Modifications to the MAC needed to support
+    this new physical layer are also defined in this amendment.
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.15.4-2011
+    docidentifier:
+    - content: IEEE Std 802.15.4-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Wireless communication
+  - language: en
+    script: Latn
+    content: Wireless LAN
+  - language: en
+    script: Latn
+    content: Personal area networks
+  - language: en
+    script: Latn
+    content: Body area networks
+  - language: en
+    script: Latn
+    content: Biomedical equipment
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4jTM
+  - language: en
+    script: Latn
+    content: MBAN
+  - language: en
+    script: Latn
+    content: medical body area network
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

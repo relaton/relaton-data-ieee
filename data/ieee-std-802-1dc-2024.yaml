@@ -1,0 +1,182 @@
+---
+id: IEEEStd8021DC2024
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Local and metropolitan area networks---Quality of Service
+    Provision by Network Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10745929
+docidentifier:
+- content: IEEE Std 802.1DC-2024
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1DC®-2024
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1309-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2024.10745929
+  type: DOI
+docnumber: IEEE Std 802.1DC-2024
+date:
+- type: created
+  at: '2024-11-01'
+- type: published
+  at: '2024-11-06'
+- type: issued
+  at: '2024-09-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies procedures and managed objects for quality of service
+    (QoS) features specified in IEEE Std 802.1Q, such as Per-Stream Filtering and
+    Policing, queuing, transmission selection, stream control, and frame preemption,
+    in a network system that is not a Bridge. (The PDF of this standard is available
+    at no cost compliments of the IEEE GET program https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Telecommunication traffic
+  - language: en
+    script: Latn
+    content: Queueing analysis
+  - language: en
+    script: Latn
+    content: Virtual LAN
+  - language: en
+    script: Latn
+    content: Quality of service
+  - language: en
+    script: Latn
+    content: asynchronous traffic shaping
+  - language: en
+    script: Latn
+    content: CQF
+  - language: en
+    script: Latn
+    content: credit-based shaper
+  - language: en
+    script: Latn
+    content: cyclic queuing and forwarding
+  - language: en
+    script: Latn
+    content: frame preemption
+  - language: en
+    script: Latn
+    content: IEEE 802.1DC™
+  - language: en
+    script: Latn
+    content: IEEE 802.1Q™
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: Per-Stream Filtering and Policing
+  - language: en
+    script: Latn
+    content: priority
+  - language: en
+    script: Latn
+    content: quality of service
+  - language: en
+    script: Latn
+    content: scheduled traffic
+  - language: en
+    script: Latn
+    content: Time-Sensitive Networking
+  - language: en
+    script: Latn
+    content: TSN
+  - language: en
+    script: Latn
+    content: Virtual Bridged Network
+  - language: en
+    script: Latn
+    content: virtual LAN
+  - language: en
+    script: Latn
+    content: VLAN Bridge
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

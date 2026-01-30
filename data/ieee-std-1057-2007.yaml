@@ -1,0 +1,174 @@
+---
+id: IEEEStd10572007
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Digitizing Waveform Recorders
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8291822
+docidentifier:
+- content: IEEE Std 1057-2007
+  type: IEEE
+  primary: true
+- content: IEEE Std 1057™-2007
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5350-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2008.8291822
+  type: DOI
+docnumber: IEEE Std 1057-2007
+date:
+- type: created
+  at: '2008-04-18'
+- type: published
+  at: '2018-02-14'
+- type: issued
+  at: '2007-12-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC10 - Waveform Generation Measurement and Analysis of the IEEE Instrumentation
+          and Measurement Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Revision of IEEE Std 1057-1994. This standard defines specifications and
+    describes test methods for measuring the performance of electronic digitizing
+    waveform recorders, waveform analyzers, and digitizing oscilloscopes with digital
+    outputs. The standard is directed toward, but not restricted to, general-purpose
+    waveform recorders and analyzers. Special applications can require additional
+    manufacturer information and verification tests not covered in this standard.
+    IEEE 1057 has many similarities to IEEE 1241 Standard for Terminology and Test
+    Methods for Analog to Digital Converters (ADCs) . However, IEEE Std. 1057 shall
+    be used for waveform recorders and IEEE Std. 1241 shall be used for ADCs.
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1057-1994
+    docidentifier:
+    - content: IEEE Std 1057-1994
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1057-2017
+    docidentifier:
+    - content: IEEE Std 1057-2017
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Harmonic analysis
+  - language: en
+    script: Latn
+    content: Distortion
+  - language: en
+    script: Latn
+    content: Oscilloscopes
+  - language: en
+    script: Latn
+    content: Analog-digital conversion
+  - language: en
+    script: Latn
+    content: Pulse measurements
+  - language: en
+    script: Latn
+    content: Frequency response
+  - language: en
+    script: Latn
+    content: 1057-2007
+  - language: en
+    script: Latn
+    content: effective number of bits
+  - language: en
+    script: Latn
+    content: frequency response
+  - language: en
+    script: Latn
+    content: noise
+  - language: en
+    script: Latn
+    content: sine fitting
+  - language: en
+    script: Latn
+    content: step pulse response
+  - language: en
+    script: Latn
+    content: total harmonic distortion
+  - language: en
+    script: Latn
+    content: transitions levels
+  - language: en
+    script: Latn
+    content: waveform recorders
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '17.160'
+    text: Vibrations, shock and vibration measurements
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

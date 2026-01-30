@@ -1,0 +1,220 @@
+---
+id: IEC620145
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE/IEC International Standard - Quality of Electronic and Software Intellectual
+    Property Used in System and System on Chip (SoC) Designs
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7067346
+docidentifier:
+- content: IEC 62014.5
+  type: IEEE
+  primary: true
+- content: IEC 62014.5™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-2-83222-386-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2015.7067346
+  type: DOI
+docnumber: IEC 62014.5
+date:
+- type: created
+  at: '2015-03-24'
+- type: published
+  at: '2015-03-25'
+- type: issued
+  at: '2015-04-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A standard XML format for representing electronic design intellectual property
+    (IP)quality information, based on an information model for IP quality measurement,
+    is defined. Itincludes a schema and the terms that are relevant for measuring
+    IP quality, including the softwarethat executes on the system. The schema and
+    information model can be focused to representparticular categories of interest
+    to IP users. In the context of this document, the term IP shall beused to mean
+    electronic design intellectual property. Electronic design intellectual property
+    is aterm used in the electronic design community to refer to a reusable collection
+    of designspecifications that represent the behavior, properties, and/or representation
+    of the design invarious media.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 1724-2011
+    docidentifier:
+    - content: IEEE Std 1724-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Copyright
+  - language: en
+    script: Latn
+    content: Intellectual property
+  - language: en
+    script: Latn
+    content: Electronic design automation and methodology
+  - language: en
+    script: Latn
+    content: Semantics
+  - language: en
+    script: Latn
+    content: Microelectromechanical systems
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Design automation
+  - language: en
+    script: Latn
+    content: AMS
+  - language: en
+    script: Latn
+    content: analog and mixed signal
+  - language: en
+    script: Latn
+    content: design environment
+  - language: en
+    script: Latn
+    content: EDA
+  - language: en
+    script: Latn
+    content: electronic designautomation
+  - language: en
+    script: Latn
+    content: electronic system level
+  - language: en
+    script: Latn
+    content: ESL
+  - language: en
+    script: Latn
+    content: IEEE 1734
+  - language: en
+    script: Latn
+    content: implementation constraints
+  - language: en
+    script: Latn
+    content: MEMS
+  - language: en
+    script: Latn
+    content: microelectromechanical systems
+  - language: en
+    script: Latn
+    content: QIP
+  - language: en
+    script: Latn
+    content: Quality IP metrics
+  - language: en
+    script: Latn
+    content: register transfer logic
+  - language: en
+    script: Latn
+    content: RTL
+  - language: en
+    script: Latn
+    content: SCRs
+  - language: en
+    script: Latn
+    content: semantic consistency rules
+  - language: en
+    script: Latn
+    content: use models
+  - language: en
+    script: Latn
+    content: verification IP
+  - language: en
+    script: Latn
+    content: VIP
+  - language: en
+    script: Latn
+    content: XML design meta data
+  - language: en
+    script: Latn
+    content: XML schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

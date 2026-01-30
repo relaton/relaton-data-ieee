@@ -1,0 +1,133 @@
+---
+id: IEEEStd621978
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Field Testing Power Apparatus Insulation
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/27742
+docidentifier:
+- content: IEEE Std 62-1978
+  type: IEEE
+  primary: true
+- content: IEEE Std 62™-1978
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4392-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1978.80815
+  type: DOI
+docnumber: IEEE Std 62-1978
+date:
+- type: created
+  at: '1978-12-14'
+- type: published
+  at: '2015-02-24'
+- type: issued
+  at: '1978-12-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Instrumentation and Measurements of the IEEE Power and
+          Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Diagnostic tests and measurements that are performed in the field on oil-immersed
+    power transformers and regulators are described. Whenever possible, shunt reactors
+    are treated in a similar manner to transformers. Tests are presented systematically
+    in categories depending on the subsystem of the unit being examined. A diagnostic
+    chart is included as an aid to identify the various subsystems. Additional information
+    is provided regarding specialized test and measuring techniques.
+copyright:
+- from: '1978'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 62-1995
+    docidentifier:
+    - content: IEEE Std 62-1995
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Insulation testing
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: insulation
+  - language: en
+    script: Latn
+    content: apparatus
+  - language: en
+    script: Latn
+    content: testing
+  - language: en
+    script: Latn
+    content: field
+  - language: en
+    script: Latn
+    content: power
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

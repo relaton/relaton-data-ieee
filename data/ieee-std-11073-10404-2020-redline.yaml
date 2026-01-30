@@ -1,0 +1,159 @@
+---
+id: IEEEStd11073104042020Redline
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard - Health informatics--Personal health device communication
+    Part 10404: Device specialization--Pulse oximeter'
+  type: title-main
+- content: 'IEEE Standard - Health informatics--Personal health device communication
+    Part 10404: Device specialization--Pulse oximeter - Redline'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9376754
+docidentifier:
+- content: IEEE Std 11073.10404-2020 Redline
+  type: IEEE
+  primary: true
+- content: IEEE Std 11073.10404™-2020 Redline
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-7458-0
+  type: ISBN
+docnumber: IEEE Std 11073.10404-2020 Redline
+date:
+- type: created
+  at: '2021-01-07'
+- type: published
+  at: '2021-03-11'
+- type: issued
+  at: '2020-01-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, this standard establishes a normative definition of communication
+    between personal telehealth pulse oximetry devices and compute engines (e.g.,
+    cell phones, personal computers, personal health appliances, set top boxes) in
+    a manner that enables plug-and-play interoperability. It leverages appropriate
+    portions of existing standards including ISO/IEEE 11073 terminology, information
+    models, application profile standards, and transport standards. It specifies the
+    use of specific term codes, formats, and behaviors in telehealth environments
+    restricting optionality in base frameworks in favor of interoperability. This
+    standard defines a common core of communication functionality for personal telehealth
+    pulse oximeters.
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 11073.10404-2008
+    docidentifier:
+    - content: IEEE Std 11073.10404-2008
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Pulse oximetry
+  - language: en
+    script: Latn
+    content: Interoperability
+  - language: en
+    script: Latn
+    content: Telemedicine
+  - language: en
+    script: Latn
+    content: IEEE 11073-10404&#8482;
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: personal health devices
+  - language: en
+    script: Latn
+    content: PHD
+  - language: en
+    script: Latn
+    content: pulse oximeter
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: redline
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  - code: 11.040.55
+    text: Diagnostic equipment
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

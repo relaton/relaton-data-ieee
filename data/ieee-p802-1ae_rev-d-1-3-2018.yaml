@@ -1,0 +1,188 @@
+---
+id: IEEEP8021AE_RevD132018
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks: Media Access
+    Control (MAC) Security'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8371754
+docidentifier:
+- content: IEEE P802.1AE_Rev/D-1.3-2018
+  type: IEEE
+  primary: true
+- content: IEEE P802.1AE_Rev™/D-1.3-2018
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4958-8
+  type: ISBN
+docnumber: IEEE P802.1AE_Rev/D-1.3-2018
+date:
+- type: created
+  at: '2018-01-01'
+- type: published
+  at: '2018-06-04'
+- type: issued
+  at: '2018-09-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: How all or part of a network can be secured transparently to peer protocol
+    entities that use the MAC Service provided by IEEE 802&#174; LANs to communicate
+    is specified in this standard. MAC security (MACsec) provides connectionless user
+    data confidentiality, frame data integrity, and data origin authenticity.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.1AE-2006
+    docidentifier:
+    - content: IEEE Std 802.1AE-2006
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Network security
+  - language: en
+    script: Latn
+    content: authorized port
+  - language: en
+    script: Latn
+    content: confidentiality
+  - language: en
+    script: Latn
+    content: data origin authenticity
+  - language: en
+    script: Latn
+    content: IEEE 802.1AE(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.1AEbn(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.1AEbw(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.1AEcg(TM)
+  - language: en
+    script: Latn
+    content: integrity
+  - language: en
+    script: Latn
+    content: LANs
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: MAC Bridges
+  - language: en
+    script: Latn
+    content: MAC security
+  - language: en
+    script: Latn
+    content: MAC Service
+  - language: en
+    script: Latn
+    content: MANs
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: port-based network access control
+  - language: en
+    script: Latn
+    content: secure association
+  - language: en
+    script: Latn
+    content: security
+  - language: en
+    script: Latn
+    content: transparent bridging
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,160 @@
+---
+id: IEEEStd671990
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Operation and Maintenance of Turbine Generators
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/89663
+docidentifier:
+- content: IEEE Std 67-1990
+  type: IEEE
+  primary: true
+- content: IEEE Std 67™-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0764-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1990.94588
+  type: DOI
+docnumber: IEEE Std 67-1990
+date:
+- type: created
+  at: '1990-06-27'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1990-02-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Electric Machinery of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEEE Std 67-2006 General recommendations for the operation,
+    loading, and maintenance of turbine-driven synchronous generators having cylindrical
+    rotors are provided. The manufacturer's and user's responsibility is discussed,
+    and the classification of generators and the basis on which they are rated are
+    covered. Mechanical considerations are also addressed.
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 67-1972
+    docidentifier:
+    - content: ANSI/IEEE Std 67-1972
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 67-2005
+    docidentifier:
+    - content: IEEE Std 67-2005
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Maintenance
+  - language: en
+    script: Latn
+    content: Machine windings
+  - language: en
+    script: Latn
+    content: Synchronous generators
+  - language: en
+    script: Latn
+    content: Turbogenerators
+  - language: en
+    script: Latn
+    content: cylindrical rotors
+  - language: en
+    script: Latn
+    content: operation
+  - language: en
+    script: Latn
+    content: turbine generators
+  - language: en
+    script: Latn
+    content: turbine driven
+  - language: en
+    script: Latn
+    content: synchronous
+  - language: en
+    script: Latn
+    content: reactive capability
+  - language: en
+    script: Latn
+    content: rotor windings
+  - language: en
+    script: Latn
+    content: stator windings
+  - language: en
+    script: Latn
+    content: Turbine-driven synchronous generator
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.160.20
+    text: Generators
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

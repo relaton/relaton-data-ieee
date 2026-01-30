@@ -1,0 +1,167 @@
+---
+id: IEEEStd13551995
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Heterogeneous InterConnect (HIC), (Low-Cost, Low-Latency
+    Scalable Serial Interconnect for Parallel System Construction)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/500300
+docidentifier:
+- content: IEEE Std 1355-1995
+  type: IEEE
+  primary: true
+- content: IEEE Std 1355™-1995
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1202-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1996.81004
+  type: DOI
+docnumber: IEEE Std 1355-1995
+date:
+- type: created
+  at: '1996-06-12'
+- type: published
+  at: '2019-05-01'
+- type: issued
+  at: '1995-09-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Enabling the construction of high-performance, scalable, modular, parallel
+    systems with low system integration cost is discussed. Complementary use of physical
+    connectors and cables, electrical properties, and logical protocols for point-to-point
+    serial scalable interconnect, operating at speeds of 10-200 Mb/s and at 1 Gb/s
+    in copper and optic technologies, is described.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1996'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: flow control
+  - language: en
+    script: Latn
+    content: encoding schemes
+  - language: en
+    script: Latn
+    content: OMI
+  - language: en
+    script: Latn
+    content: HIC
+  - language: en
+    script: Latn
+    content: packet routing
+  - language: en
+    script: Latn
+    content: parallelism
+  - language: en
+    script: Latn
+    content: point to point
+  - language: en
+    script: Latn
+    content: serial scalable
+  - language: en
+    script: Latn
+    content: scalable
+  - language: en
+    script: Latn
+    content: protocols
+  - language: en
+    script: Latn
+    content: routing fabric
+  - language: en
+    script: Latn
+    content: serial links
+  - language: en
+    script: Latn
+    content: serialization
+  - language: en
+    script: Latn
+    content: silicon integration
+  - language: en
+    script: Latn
+    content: switch chip
+  - language: en
+    script: Latn
+    content: transaction layer
+  - language: en
+    script: Latn
+    content: wormhole routing
+  - language: en
+    script: Latn
+    content: heterogeneous
+  - language: en
+    script: Latn
+    content: low latency
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

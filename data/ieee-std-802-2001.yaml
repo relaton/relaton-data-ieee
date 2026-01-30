@@ -1,0 +1,151 @@
+---
+id: IEEEStd8022001
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Local and Metropolitan Area Networks: Overview and Architecture'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/984782
+docidentifier:
+- content: IEEE Std 802-2001
+  type: IEEE
+  primary: true
+- content: IEEE Std 802®-2001
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2941-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2002.93395
+  type: DOI
+docnumber: IEEE Std 802-2001
+date:
+- type: created
+  at: '2002-02-07'
+- type: published
+  at: '2014-07-01'
+- type: issued
+  at: '2001-06-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'IEEE Std 802-2001, IEEE Standards for Local and Metropolitan Area Networks:
+    Overview and Architecture, provides an overview to the family of IEEE 802 Standards.
+    It defines compliance with the family of IEEE 802 Standards; it describes the
+    relationship of the IEEE 802 Standards to the Open Systems Interconnection Basic
+    Reference Model [ISO/IEC 7498-1:1994] and explains the relationship of these standards
+    to the higher layer protocols; it provides a standard for the structure of LAN
+    MAC addresses; and it provides a standard for identification of public, private,
+    and standard protocols.'
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802-1990
+    docidentifier:
+    - content: IEEE Std 802-1990
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 802-2014
+    docidentifier:
+    - content: IEEE Std 802-2014
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Communication standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: IEEE 802 standards compliance
+  - language: en
+    script: Latn
+    content: Local Area Networks (LANs)
+  - language: en
+    script: Latn
+    content: LAN/MAN architecture
+  - language: en
+    script: Latn
+    content: LAN/MAN reference model
+  - language: en
+    script: Latn
+    content: Metropolitan Area Networks (MANs).
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

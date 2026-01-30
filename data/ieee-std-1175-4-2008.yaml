@@ -1,0 +1,147 @@
+---
+id: IEEEStd117542008
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for CASE Tool Interconnections--Reference Model for Specifying
+    System Behavior
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4839189
+docidentifier:
+- content: IEEE Std 1175.4-2008
+  type: IEEE
+  primary: true
+- content: IEEE Std 1175.4™-2008
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6419-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2009.4839189
+  type: DOI
+docnumber: IEEE Std 1175.4-2008
+date:
+- type: created
+  at: '2009-04-17'
+- type: published
+  at: '2020-02-14'
+- type: issued
+  at: '2008-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The reference model that provides a common interpretation basis by which
+    tools can express and communicate the observable features of system/software behavior
+    to users and to other tools is presented in this standard. This standard specifies
+    a conceptual metamodel for understanding and describing the causal behavior for
+    a system. The purpose of this conceptual metamodel is to express causal behavior
+    and compositions of causal behavior in a model that integrates all observable
+    operational features of a system into one behavior specification. This conceptual
+    metamodel is useful for analyzing systems, for constructing particular system
+    behavior models, and for using those models in the specification, design, and
+    evaluation of engineered systems. It provides the necessary semantic elements
+    for describing general hardware/software systems, including hardware-only, software-only,
+    or mixed system components, and it allows these different types of components
+    to be treated in a consistent manner, providing a basis for representing a wide
+    variety of systems.
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: 1175.4-2008
+  - language: en
+    script: Latn
+    content: behavior model
+  - language: en
+    script: Latn
+    content: behavior specification
+  - language: en
+    script: Latn
+    content: Computer-Aided Software Engineering (CASE) tools
+  - language: en
+    script: Latn
+    content: engineering model
+  - language: en
+    script: Latn
+    content: model-based testing
+  - language: en
+    script: Latn
+    content: modeling principles
+  - language: en
+    script: Latn
+    content: requirements
+  - language: en
+    script: Latn
+    content: software specification
+  - language: en
+    script: Latn
+    content: specification-based testing
+  - language: en
+    script: Latn
+    content: system
+  - language: en
+    script: Latn
+    content: system testing
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

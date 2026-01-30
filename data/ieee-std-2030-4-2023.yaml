@@ -1,0 +1,205 @@
+---
+id: IEEEStd203042023
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Control and Automation Installations Applied to the Electric
+    Power Infrastructure
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10326147
+docidentifier:
+- content: IEEE Std 2030.4-2023
+  type: IEEE
+  primary: true
+- content: IEEE Std 2030.4®-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0182-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10326147
+  type: DOI
+docnumber: IEEE Std 2030.4-2023
+date:
+- type: created
+  at: '2023-11-22'
+- type: published
+  at: '2023-11-22'
+- type: issued
+  at: '2023-06-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Distributed Generation, Energy Storage and Interoperability Standards
+          Committee of the IEEE SA Board of Governors
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The smart grid interoperability reference model (SGIRM) was developed
+    in IEEE Std 2030&#8482;-2011 for systems that integrate, among other assets, distributed
+    energy resources (DER). DER management systems (DERMS) and microgrid controllers
+    are examples of such systems applied in this guide. In the process of applying
+    the SGIRM-2011, elements were added to reflect the changes that have occurred
+    since 2011 in electric grids. These include the increasing deployment of DER both
+    at the distribution system and, when aggregated, at the transmission system, the
+    increasing role of electricity markets, and business and environmental considerations
+    in their deployment. These elements were added to the SGIRM. The SGIRM defines
+    three integrated architectural perspectives (IAP): power systems, communications
+    and information technology, and business and regulatory requirements. The SGIRM
+    facilitates the implementation of interoperability requirements by establishing
+    relationships between elements of the complete installation, regrouped within
+    IAPs, and by identifying the relevant and applicable standards and rules. The
+    SGIRM can be used to complement design approaches for individual elements of a
+    system and facilitates extensibility, scalability, and upgradeability.'
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Microgrids
+  - language: en
+    script: Latn
+    content: Scalability
+  - language: en
+    script: Latn
+    content: Extensibility
+  - language: en
+    script: Latn
+    content: Power systems
+  - language: en
+    script: Latn
+    content: Smart grids
+  - language: en
+    script: Latn
+    content: Information and communication technology
+  - language: en
+    script: Latn
+    content: Communications technology
+  - language: en
+    script: Latn
+    content: Distributed power generation
+  - language: en
+    script: Latn
+    content: Network architecture
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: communication technology
+  - language: en
+    script: Latn
+    content: controls
+  - language: en
+    script: Latn
+    content: distributed energy resources
+  - language: en
+    script: Latn
+    content: DER
+  - language: en
+    script: Latn
+    content: electric power system
+  - language: en
+    script: Latn
+    content: EPS
+  - language: en
+    script: Latn
+    content: electricity markets
+  - language: en
+    script: Latn
+    content: grid architecture
+  - language: en
+    script: Latn
+    content: grid operations
+  - language: en
+    script: Latn
+    content: IEEE 2030&#8482;
+  - language: en
+    script: Latn
+    content: IEEE 2030.4&#8482;
+  - language: en
+    script: Latn
+    content: information technology
+  - language: en
+    script: Latn
+    content: interconnection
+  - language: en
+    script: Latn
+    content: interfaces
+  - language: en
+    script: Latn
+    content: interoperability
+  - language: en
+    script: Latn
+    content: smart grid reference model
+  - language: en
+    script: Latn
+    content: SGIRM
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

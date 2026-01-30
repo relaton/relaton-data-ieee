@@ -1,0 +1,138 @@
+---
+id: IEEEStd10501989
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Instrumentation and Control Equipment Grounding in Generating
+    Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/89802
+docidentifier:
+- content: IEEE Std 1050-1989
+  type: IEEE
+  primary: true
+- content: IEEE Std 1050™-1989
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4322-4
+  type: ISBN
+- content: 10.1109/IEEESTD.1989.94620
+  type: DOI
+docnumber: IEEE Std 1050-1989
+date:
+- type: created
+  at: '1989'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1989-02-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Energy Development &amp; Power Generation of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by 1050-1996. Guidance for the design of grounding systems for
+    instrumentation and control equipment specific to large central generating stations
+    is provided. The goal is to achieve both a suitable level of protection for personnel
+    and equipment and suitable electric noise immunity for signal ground references.
+    Requirements for the grounding of systems associated with the interconnection
+    of the station to adjacent substations are considered, since these are a large
+    source of electrical noise. Both ideal theoretical methods and accepted practices
+    in the electric utility industry are presented. Applications relating to advanced
+    energy storage and conversion technologies (photovoltaics, fuel cells, etc.) are
+    not considered. .
+copyright:
+- from: '1989'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1050-1996
+    docidentifier:
+    - content: IEEE Std 1050-1996
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Grounding
+  - language: en
+    script: Latn
+    content: Power system protection
+  - language: en
+    script: Latn
+    content: grounding
+  - language: en
+    script: Latn
+    content: control
+  - language: en
+    script: Latn
+    content: instrument
+  - language: en
+    script: Latn
+    content: equipment
+  - language: en
+    script: Latn
+    content: generating
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '27.100'
+    text: Power stations in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

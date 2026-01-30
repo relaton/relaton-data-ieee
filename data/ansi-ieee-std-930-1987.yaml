@@ -1,0 +1,146 @@
+---
+id: ANSIIEEEStd9301987
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for the Statistical Analysis of Electrical Insulation Voltage
+    Endurance Data
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/35060
+docidentifier:
+- content: ANSI/IEEE Std 930-1987
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 930™-1987
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1388-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1987.86250
+  type: DOI
+docnumber: ANSI/IEEE Std 930-1987
+date:
+- type: created
+  at: '1987-08-21'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1986-06-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Dielectrics and Electrical Insulation Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Replaced by 930-2004. This guide describes, with examples, statistical
+    methods to analyze the data for time-to-failure from constant-stress voltage endurance
+    tests or breakdown voltage from progressive-stress tests on specimens or systems
+    of electrical insulation. Methods to compare test data are also given. The methods
+    are principally applied to data from tests on solid insulation, but may also apply
+    to the analyses of data from tests on gas, liquid, and composite systems. The
+    statistical methods discussed here do not take into consideration the physical
+    mechanism of voltage aging. The methods assume that the only aging stress is alternating
+    voltage of constant frequency. The methods may not apply if there is more than
+    one aging stress. Methods to ascertain the short time withstand voltage or operating
+    voltage of an insulation system are not presented in this guide. The mathematical
+    techniques contained in this guide may not directly apply to the estimation of
+    equipment life.
+copyright:
+- from: '1987'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 930-2004
+    docidentifier:
+    - content: IEEE Std 930-2004
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Aging
+  - language: en
+    script: Latn
+    content: Failure analysis
+  - language: en
+    script: Latn
+    content: Insulation testing
+  - language: en
+    script: Latn
+    content: Statistics
+  - language: en
+    script: Latn
+    content: statistical analysis
+  - language: en
+    script: Latn
+    content: electrical
+  - language: en
+    script: Latn
+    content: insulation
+  - language: en
+    script: Latn
+    content: voltage
+  - language: en
+    script: Latn
+    content: endurance data
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.040.20
+    text: Insulating gases
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

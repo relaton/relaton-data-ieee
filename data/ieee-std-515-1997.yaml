@@ -1,0 +1,145 @@
+---
+id: IEEEStd5151997
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for the Testing, Design, Installation and Maintenance of
+    Electrical Resistance Heat Tracing for Industrial Applications
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/590305
+docidentifier:
+- content: IEEE Std 515-1997
+  type: IEEE
+  primary: true
+- content: IEEE Std 515™-1997
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0819-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1997.82402
+  type: DOI
+docnumber: IEEE Std 515-1997
+date:
+- type: created
+  at: '1997-06-02'
+- type: published
+  at: '2018-01-26'
+- type: issued
+  at: '1997-03-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Petroleum &amp; Chemical Industry of the IEEE Industry Applications
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The specific test requirements for qualifying electrical resistance heating
+    cables for industrial service are provided, as well as the basis for electrical
+    and thermal design. Heating device characteristics are addressed, and installation
+    and maintenance requirements are detailed. Heating cable and surface heating device
+    application recommendations and requirements are made for ordinary (unclassified)
+    and hazardous (classified) potentially flammable atmospheres and locations.
+copyright:
+- from: '1997'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 515-1989
+    docidentifier:
+    - content: IEEE Std 515-1989
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 515-2004
+    docidentifier:
+    - content: IEEE Std 515-2004
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Resistance heating
+  - language: en
+    script: Latn
+    content: electrical design
+  - language: en
+    script: Latn
+    content: heat tracing
+  - language: en
+    script: Latn
+    content: pipelines
+  - language: en
+    script: Latn
+    content: series heating cables
+  - language: en
+    script: Latn
+    content: surface heating devices
+  - language: en
+    script: Latn
+    content: thermal design
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 25.180.10
+    text: Electric furnaces
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

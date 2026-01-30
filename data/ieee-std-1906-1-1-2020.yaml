@@ -1,0 +1,234 @@
+---
+id: IEEEStd1906112020
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Data Model for Nanoscale Communication Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9285373
+docidentifier:
+- content: IEEE Std 1906.1.1-2020
+  type: IEEE
+  primary: true
+- content: IEEE Std 1906.1.1™-2020
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6994-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2020.9285373
+  type: DOI
+docnumber: IEEE Std 1906.1.1-2020
+date:
+- type: updated
+  at: '2021-01-29'
+- type: created
+  at: '2020-12-07'
+- type: published
+  at: '2020-12-07'
+- type: issued
+  at: '2020-09-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Edge, Fog, Cloud Communications with IOT and Big Data Standards Committee
+          of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A set of YANG modules describing nanoscale communication systems and their
+    associated physical quantities in conformance with IEEE Std 1906.1-2015--a common
+    framework for all nanoscale communication technologies--are comprised by this
+    data model. Physics unique to the nanoscale are represented by the model. The
+    physics are referred to as non-standard, required by IEEE Std 1906.1-2015. Remote
+    configuration and management for remote simulation, operation, and analysis of
+    nanoscale communication systems are defined by the model. A self-describing data
+    structure is defined by the model for datastores and repositories of nanoscale
+    communication experimental data enabling a common understanding of the data from
+    a wide variety of nanoscale communication media and technologies. Augmentation
+    of the IEEE Std 1906.1-2015 common core components with details specific to the
+    physics of the nanoscale communication system is allowed by the model. Techniques
+    used by the model facilitate reuse and augmentation. In addition, extensions to
+    IEEE Std 802.1Q and Internet Engineering Task Force (IETF) interfaces--allowing
+    reusability within existing networks, which implies a macroscale to nanoscale
+    interface, and defines nanoscale communication as a feature for bridge ports as
+    defined in IEEE Std 802.1--are provided. The model is composed of simple, required
+    core components while allowing optional, device-specific components and metrics
+    to be added. There is conformity with best practices as defined by the IEEE 802
+    YANG editors’ coordination committee and IETF RFC 6087, and consideration of coexistence
+    and interoperability with existing domain models and tools, such as the Systems
+    Biology Markup Language (SBML).
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Nanoscale devices
+  - language: en
+    script: Latn
+    content: Communication systems
+  - language: en
+    script: Latn
+    content: Molecular communication
+  - language: en
+    script: Latn
+    content: Data models
+  - language: en
+    script: Latn
+    content: Nanoelectromechanical systems
+  - language: en
+    script: Latn
+    content: Nanobioscience
+  - language: en
+    script: Latn
+    content: communication networks
+  - language: en
+    script: Latn
+    content: communication standards
+  - language: en
+    script: Latn
+    content: communication systems
+  - language: en
+    script: Latn
+    content: data model
+  - language: en
+    script: Latn
+    content: IEEE 1906.1
+  - language: en
+    script: Latn
+    content: molecular communication
+  - language: en
+    script: Latn
+    content: multi-scale network
+  - language: en
+    script: Latn
+    content: nanobioscience
+  - language: en
+    script: Latn
+    content: nanobiotechnology
+  - language: en
+    script: Latn
+    content: nanobots
+  - language: en
+    script: Latn
+    content: nanodevice
+  - language: en
+    script: Latn
+    content: nanoelectrochemical systems
+  - language: en
+    script: Latn
+    content: nanoelectromechanical systems
+  - language: en
+    script: Latn
+    content: nanofluidics
+  - language: en
+    script: Latn
+    content: nanomedicine
+  - language: en
+    script: Latn
+    content: nanophysics
+  - language: en
+    script: Latn
+    content: nanopositioning
+  - language: en
+    script: Latn
+    content: nanoscale
+  - language: en
+    script: Latn
+    content: nanoscale communication framework
+  - language: en
+    script: Latn
+    content: nanoscale devices
+  - language: en
+    script: Latn
+    content: nanosensors
+  - language: en
+    script: Latn
+    content: nanostructured materials
+  - language: en
+    script: Latn
+    content: nanotechnology
+  - language: en
+    script: Latn
+    content: nanotube devices
+  - language: en
+    script: Latn
+    content: nanowires
+  - language: en
+    script: Latn
+    content: network management
+  - language: en
+    script: Latn
+    content: quantum mechanics
+  - language: en
+    script: Latn
+    content: simulation
+  - language: en
+    script: Latn
+    content: standards development
+  - language: en
+    script: Latn
+    content: YANG
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

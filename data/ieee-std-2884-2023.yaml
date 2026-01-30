@@ -1,0 +1,144 @@
+---
+id: IEEEStd28842023
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Performance Evaluation of Biometric Information: Facial
+    Recognition'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10251762
+docidentifier:
+- content: IEEE Std 2884-2023
+  type: IEEE
+  primary: true
+- content: IEEE Std 2884™-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0058-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10251762
+  type: DOI
+docnumber: IEEE Std 2884-2023
+date:
+- type: created
+  at: '2023'
+- type: published
+  at: '2023-09-14'
+- type: issued
+  at: '2023-06-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Emerging Technology Standards Committee of the IEEE Consumer Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Requirements and testing methods for a facial recognition testing system
+    for end user devices are discussed in this standard. System and security requirements,
+    algorithm testing, testing methods, and criteria-level definitions are defined.
+    Key metrics for quantized performance evaluation indexes including false accept
+    rate (FAR), false reject rate (FRR), attack presentation false acceptance (APFAR),
+    and bona fide presentation false rejection rate (BFPFRR) are also defined. Criteria
+    levels for testing the performance indexes are specified, including the detailed
+    steps, environment, and minimum requirements.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Biometrics (access control)
+  - language: en
+    script: Latn
+    content: Face recognition
+  - language: en
+    script: Latn
+    content: Performance evaluation
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: biometric
+  - language: en
+    script: Latn
+    content: end user device
+  - language: en
+    script: Latn
+    content: facial recognition
+  - language: en
+    script: Latn
+    content: IEEE 2884&#8482;
+  - language: en
+    script: Latn
+    content: performance
+  - language: en
+    script: Latn
+    content: test
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

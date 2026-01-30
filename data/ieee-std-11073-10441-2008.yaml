@@ -1,0 +1,142 @@
+---
+id: IEEEStd11073104412008
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE/ISO International Standard - Health Informatics - Personal Health
+    Device Communication - Part 10441: Device Specialization - Cardiovascular Fitness
+    and Activity Monitor'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4747593
+docidentifier:
+- content: IEEE Std 11073.10441-2008
+  type: IEEE
+  primary: true
+- content: IEEE Std 11073.10441™-2008
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5820-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2009.4747593
+  type: DOI
+docnumber: IEEE Std 11073.10441-2008
+date:
+- type: updated
+  at: '2009-02-21'
+- type: created
+  at: '2009-01-09'
+- type: published
+  at: '2013-04-04'
+- type: issued
+  at: '2008-09-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, this standard establishes a normative definition of communication
+    between personal telehealth cardiovascular fitness and activity monitor devices
+    and compute engines (e.g. cell phones, personal computers, personal health appliances,
+    set top boxes) in a manner that enables plug-and-play interoperability. It leverages
+    appropriate portions of existing standards including ISO/IEEE 11073 terminology,
+    information models, application profile standards, and transport standards. It
+    specifies the use of specific term codes, formats, and behaviors in telehealth
+    environments restricting optionality in base frameworks in favor of interoperability.
+    This standard defines a common core of communication functionality for personal
+    telehealth cardiovascular fitness and activity monitor devices.
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Medical services
+  - language: en
+    script: Latn
+    content: Cardiovascular system
+  - language: en
+    script: Latn
+    content: Informatics
+  - language: en
+    script: Latn
+    content: Bioinformatics
+  - language: en
+    script: Latn
+    content: 11073-10441-2008
+  - language: en
+    script: Latn
+    content: Personal Health Devices
+  - language: en
+    script: Latn
+    content: Medical Device Communication
+  - language: en
+    script: Latn
+    content: Cardiovascular Fitness
+  - language: en
+    script: Latn
+    content: Activity Monitor
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  - code: 11.040.55
+    text: Diagnostic equipment
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

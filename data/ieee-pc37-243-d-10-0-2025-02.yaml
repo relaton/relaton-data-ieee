@@ -1,0 +1,167 @@
+---
+id: IEEEPC37243D100202502
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Guide for Application of Line Current Differential Protection
+    Using Digital Communications
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10932733
+docidentifier:
+- content: IEEE PC37.243/D-10.0-2025-02
+  type: IEEE
+  primary: true
+- content: IEEE PC37.243™/D-10.0-2025-02
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1948-2
+  type: ISBN
+docnumber: IEEE PC37.243/D-10.0-2025-02
+date:
+- type: created
+  at: '2025-03-06'
+- type: published
+  at: '2025-03-18'
+- type: issued
+  at: '2025'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A comprehensive guide to practical line current differential schemes using
+    digital communications. Operating principles, synchronization methods, communication
+    channel requirements, technologies, and design, current transformer requirements,
+    external time reference requirements, backup considerations, testing considerations,
+    and troubleshooting are included. This guide also provides specific guidelines
+    for various application aspects including multi-terminal lines, series compensated
+    lines, mutually coupled lines, line charging current, in-zone transformers and
+    reactors, single-phase tripping and reclosing.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.243-2015
+    docidentifier:
+    - content: IEEE Std C37.243-2015
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Transmission lines
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Power system protection
+  - language: en
+    script: Latn
+    content: Power transmission
+  - language: en
+    script: Latn
+    content: alpha plane
+  - language: en
+    script: Latn
+    content: charge comparison
+  - language: en
+    script: Latn
+    content: current differential line protection
+  - language: en
+    script: Latn
+    content: current differential operating methods
+  - language: en
+    script: Latn
+    content: IEEE C37.243™
+  - language: en
+    script: Latn
+    content: percentage differential
+  - language: en
+    script: Latn
+    content: ping-pong methods
+  - language: en
+    script: Latn
+    content: time synchronization
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.70
+    text: Relays
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,145 @@
+---
+id: IEEEStdC5712702011
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Standard Terminal Markings and Connections for Distribution
+    and Power Transformers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6149846
+docidentifier:
+- content: IEEE Std C57.12.70-2011
+  type: IEEE
+  primary: true
+- content: IEEE Std C57.12.70™-2011
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7192-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2012.6149846
+  type: DOI
+docnumber: IEEE Std C57.12.70-2011
+date:
+- type: updated
+  at: '2012-04-06'
+- type: created
+  at: '2012-02-07'
+- type: published
+  at: '2013-08-15'
+- type: issued
+  at: '2011-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transformers of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Standard terminal markings and connections are described for single-phase
+    and three phase distribution, power, and regulating transformers. For terminal
+    markings, it covers sequence designation, external terminal designation, neutral
+    terminal designation, grounded terminal designation, and marking of full and tap
+    winding terminals. Additive and subtractive polarity and parallel transformer
+    operation are described. Connections of single-phase transformers in various configurations
+    and angular displacement of three-phase transformers to connect to various system
+    phase displacements are covered.
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C57.12.70-2000
+    docidentifier:
+    - content: IEEE Std C57.12.70-2000
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C57.12.70-2020
+    docidentifier:
+    - content: IEEE Std C57.12.70-2020
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Transformers
+  - language: en
+    script: Latn
+    content: Polarization
+  - language: en
+    script: Latn
+    content: Power distribution systems
+  - language: en
+    script: Latn
+    content: transformer connection
+  - language: en
+    script: Latn
+    content: transformer terminals
+  - language: en
+    script: Latn
+    content: transformer polarity
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

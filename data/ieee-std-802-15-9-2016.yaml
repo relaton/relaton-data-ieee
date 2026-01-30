@@ -1,0 +1,153 @@
+---
+id: IEEEStd8021592016
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Transport of Key Management Protocol (KMP)
+    Datagrams
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7544442
+docidentifier:
+- content: IEEE Std 802.15.9-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.9®-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0790-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7544442
+  type: DOI
+docnumber: IEEE Std 802.15.9-2016
+date:
+- type: created
+  at: '2016-08-17'
+- type: published
+  at: '2016-08-16'
+- type: issued
+  at: '2016-03-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A message exchange framework based on information elements as a transport
+    method for key management protocol (KMP) datagrams and guidelines for the use
+    of some existing KMPs with IEEE Std 802.15.4&#8482; are defined in the recommended
+    practice. A new KMP is not created in this recommended practice. In support of
+    KMP transmission and reception, a generic multiplexed data service layer that
+    can be used to transmit large packets from the upper KMP to another peer is also
+    provided in this recommended practice. The multiplexed data service provides a
+    fragmentation and multiplexing layer for those packets so they can be delivered
+    over smaller MAC layer frames and multiplexed on the recipient end to the right
+    processing service. (The PDF of this standard is available at no cost compliments
+    of the IEEE GET program https://ieeexplore.ieee.org/browse/standards/get-program/page)
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 802.15.9-2021
+    docidentifier:
+    - content: IEEE Std 802.15.9-2021
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Key management protocols
+  - language: en
+    script: Latn
+    content: Data processing
+  - language: en
+    script: Latn
+    content: Security of data
+  - language: en
+    script: Latn
+    content: Data grams
+  - language: en
+    script: Latn
+    content: fragmentation
+  - language: en
+    script: Latn
+    content: IE
+  - language: en
+    script: Latn
+    content: IEEE 802.15.9(TM)
+  - language: en
+    script: Latn
+    content: information element
+  - language: en
+    script: Latn
+    content: key management protocol
+  - language: en
+    script: Latn
+    content: KMP
+  - language: en
+    script: Latn
+    content: multiplexed data service
+  - language: en
+    script: Latn
+    content: security
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,147 @@
+---
+id: IEEEStd16612007
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Test and Evaluation of Lead-Acid Batteries Used in Photovoltaic
+    (PV) Hybrid Power Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4449092
+docidentifier:
+- content: IEEE Std 1661-2007
+  type: IEEE
+  primary: true
+- content: IEEE Std 1661™-2007
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5705-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2008.4449092
+  type: DOI
+docnumber: IEEE Std 1661-2007
+date:
+- type: updated
+  at: '2008-03-17'
+- type: created
+  at: '2008-02-08'
+- type: published
+  at: '2019-09-18'
+- type: issued
+  at: '2007-09-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This guide is specifically prepared for a PV/engine generator hybrid power
+    system, but may also be applicable to all hybrid power systems where there is
+    at least one renewable power source, such as PV, and a dispatchable power source,
+    such as an engine generator. Taper-charge parameters for PV hybrid systems are
+    suggested to help in preparing the battery for a capacity test. A test procedure
+    is provided to ensure appropriate data acquisition, battery characterization,
+    and capacity measurements. Finally, a process to review test results and make
+    appropriate decisions regarding the battery is provided. No cycle-life predictions
+    are made.
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1661-2019
+    docidentifier:
+    - content: IEEE Std 1661-2019
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: Lead acid batteries
+  - language: en
+    script: Latn
+    content: Lead
+  - language: en
+    script: Latn
+    content: Photovoltaic systems
+  - language: en
+    script: Latn
+    content: 1661-2007
+  - language: en
+    script: Latn
+    content: Battery Testing
+  - language: en
+    script: Latn
+    content: Lead-Acid Battery Charging
+  - language: en
+    script: Latn
+    content: Lead-Acid Battery Testing
+  - language: en
+    script: Latn
+    content: PV Hybrid Battery Test
+  - language: en
+    script: Latn
+    content: PV System Testing
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.220.20
+    text: Acid secondary cells and batteries
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

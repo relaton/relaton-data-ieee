@@ -1,0 +1,142 @@
+---
+id: IEEEStd80212d1997
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standards for Local and Metropolitan Area Networks: Supplement to
+    Demand Priority Access Method, Physical Layer and Repeater Specifications: Redundant
+    Links'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/588351
+docidentifier:
+- content: IEEE Std 802.12d-1997
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.12d®-1997
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-55937-908-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1997.82398
+  type: DOI
+docnumber: IEEE Std 802.12d-1997
+date:
+- type: created
+  at: '1997-05-29'
+- type: published
+  at: '2019-10-31'
+- type: issued
+  at: '1997-03-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Withdrawn Standard. Supplement to the IEEE 802.12 Demand Priority Access
+    Method allowing optional implementation of redundant links to facilitate automatic
+    recovery of network connectivity in case of link or repeater failure anywhere
+    in the network path are specified. Rules for connecting redundant links within
+    a network are defined.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1997'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: demand priority access method
+  - language: en
+    script: Latn
+    content: fault tolerance
+  - language: en
+    script: Latn
+    content: network interconnection
+  - language: en
+    script: Latn
+    content: media access control
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: MAN
+  - language: en
+    script: Latn
+    content: redundant link
+  - language: en
+    script: Latn
+    content: repeater
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

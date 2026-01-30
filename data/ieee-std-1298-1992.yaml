@@ -1,0 +1,122 @@
+---
+id: IEEEStd12981992
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard Software Quality Management System Part 1: Requirements'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/213723
+docidentifier:
+- content: IEEE Std 1298-1992
+  type: IEEE
+  primary: true
+- content: IEEE Std 1298™-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3035-4
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.114466
+  type: DOI
+docnumber: IEEE Std 1298-1992
+date:
+- type: created
+  at: '1993-02-22'
+- type: published
+  at: '2019-05-03'
+- type: issued
+  at: '1992-12-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Requirements for a software developer's quality management system are established.
+    Each of the elements of a quality management system to be designed, developed,
+    and maintained by the developer are identified, with the objective of ensuring
+    that the software will meet the requirements of a contract, purchase order, or
+    other agreement (collectively referred to as a contract).
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Contracts
+  - language: en
+    script: Latn
+    content: Software quality
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: software development
+  - language: en
+    script: Latn
+    content: software quality management
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

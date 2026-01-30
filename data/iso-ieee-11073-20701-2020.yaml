@@ -1,0 +1,196 @@
+---
+id: ISOIEEE11073207012020
+type: standard
+schema_version: v1.4.1
+title:
+- content: ISO/IEC/IEEE International Standard for Health informatics--Device interoperability--Part
+    20701:Point-of-care medical device communication--Service oriented medical device
+    exchange architecture and protocol binding
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9052096
+docidentifier:
+- content: ISO/IEEE 11073.20701-2020
+  type: IEEE
+  primary: true
+- content: ISO/IEEE 11073.20701™-2020
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6589-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2020.9052096
+  type: DOI
+docnumber: ISO/IEEE 11073.20701-2020
+date:
+- type: updated
+  at: '2020-04-24'
+- type: created
+  at: '2020-03-30'
+- type: published
+  at: '2020-03-31'
+- type: issued
+  at: '2020'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for point-of-care
+    (PoC) medical device communication, an architecture for service-oriented distributed
+    PoC medical devices and medical IT systems is defined. This standard defines a
+    binding of the Participant, Discovery, and Communication Model defined in IEEE
+    Std 11073-10207&#8482; to the profile for transport over Web Services defined
+    in IEEE Std 11073-20702&#8482;. Moreover, a binding to Network Time Protocol (NTP)
+    and Differentiated Services (DiffServ) is defined for time synchronization and
+    transport Quality of Service requirements.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 11073.20701-2018
+    docidentifier:
+    - content: IEEE Std 11073.20701-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Bioinformatics
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Service oriented architecture
+  - language: en
+    script: Latn
+    content: Point of care
+  - language: en
+    script: Latn
+    content: Interoperability
+  - language: en
+    script: Latn
+    content: alert systems
+  - language: en
+    script: Latn
+    content: BICEPS
+  - language: en
+    script: Latn
+    content: DiffServ
+  - language: en
+    script: Latn
+    content: IEEE 11073-20701&#8482;
+  - language: en
+    script: Latn
+    content: ISO/IEEE 11073
+  - language: en
+    script: Latn
+    content: MDPWS
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: NTP
+  - language: en
+    script: Latn
+    content: patient
+  - language: en
+    script: Latn
+    content: point-of-care
+  - language: en
+    script: Latn
+    content: remote control
+  - language: en
+    script: Latn
+    content: service-oriented architecture
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,134 @@
+---
+id: ANSIIEEEStdC371081989
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for the Protection of Network Transformers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/89875
+docidentifier:
+- content: ANSI/IEEE Std C37.108-1989
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std C37.108™-1989
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3528-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1989.94806
+  type: DOI
+docnumber: ANSI/IEEE Std C37.108-1989
+date:
+- type: created
+  at: '1989-12-18'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1989-02-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This guide is intended to aid those engineers who have reevaluated the
+    risks associated with faults within network vaults, particularly for those network
+    vaults located within or near highrise buildings. It will also identify currently
+    available devices that are being used in network transformer protection schemes.
+    These devices should act to sense the fault and initiate fault interruption locally
+    or remotely, there by minimizing damage and restoration time. These devices will
+    be described as to their fault detecting capabilities. An example utilizing a
+    number of protective schemes is presented in Appendix B.
+copyright:
+- from: '1989'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.108-2002
+    docidentifier:
+    - content: IEEE Std C37.108-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Fault location
+  - language: en
+    script: Latn
+    content: Power transformers
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Transformers
+  - language: en
+    script: Latn
+    content: Protection
+  - language: en
+    script: Latn
+    content: Network transformer vaults are fire retardant enclosures within buildings
+      or adjacent to them that contain two or more power transformers. These transformers
+      are applied from different subtransmission or distribution lines and are paralleled
+      on their low
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

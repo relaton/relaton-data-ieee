@@ -1,0 +1,193 @@
+---
+id: ANSIC63182014Redline
+type: standard
+schema_version: v1.4.1
+title:
+- content: American National Standard Recommended Practice for an On-Site, Ad Hoc
+    Test Method for Estimating Electromagnetic Immunity of Medical Devices to Radiated
+    Radio-Frequency (RF) Emissions from RF Transmitters
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6889133
+docidentifier:
+- content: ANSI C63.18-2014 Redline
+  type: IEEE
+  primary: true
+- content: ANSI C63.18™-2014 Redline
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9308-3
+  type: ISBN
+docnumber: ANSI C63.18-2014 Redline
+date:
+- type: created
+  at: '2014-06-20'
+- type: published
+  at: '2014-09-03'
+- type: issued
+  at: '2014'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A guide to evaluating electromagnetic immunity of medical devices against
+    radiatedradio-frequency (RF) emissions from common RF transmitters is provided
+    in this recommendedpractice (e.g., two-way radios; walkie-talkies; mobile phones;
+    wireless-enabled tablets, e-readers,laptop computers, and similar devices; RFID
+    readers; networked mp3 players; two-way pagers;and wireless personal digital assistants
+    [PDAs]). A comprehensive test or a guarantee is notprovided by this protocol but,
+    instead, a basic evaluation is given that can help identify medicaldevices that
+    might be particularly vulnerable to interference from common RF transmitters.Existing
+    or newly purchased medical devices can be evaluated by this ad hoc test protocol
+    or theprotocol can be implemented for prepurchase evaluation. This recommended
+    practice applies tomedical devices used in health-care facilities but can also
+    be adapted to medical devices in homehealth-care or mobile health-care settings.
+    It does not apply to implantable medical devices (e.g.,pacemakers and defibrillators),
+    transport environments such as ambulances and helicopters, orRF transmitters rated
+    at more than 8 W of output power. Testing with transmitters greater than8 W in
+    health-care facilities is not recommended because of possible adverse effects
+    on critical care medical devices that are in use in nearby areas of the facility.
+    Finally, in-band RFinterference where the fundamental frequency of an RF transmitter
+    overlaps with frequenciesused by a hospital wireless network or monitoring or
+    other medical device wireless links is notaddressed by this recommended practice.
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - type: org
+        content: https://www.ansi.org
+      name:
+      - language: en
+        script: Latn
+        content: American National Standards Institute
+      abbreviation:
+        content: ANSI
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI C63.18-1997
+    docidentifier:
+    - content: ANSI C63.18-1997
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: ANSI standards
+  - language: en
+    script: Latn
+    content: Ad hoc networks
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: Electromagnetic compatibility
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: In situ
+  - language: en
+    script: Latn
+    content: Radio frequency
+  - language: en
+    script: Latn
+    content: Transmitters
+  - language: en
+    script: Latn
+    content: ad hoc testing
+  - language: en
+    script: Latn
+    content: American National Standard
+  - language: en
+    script: Latn
+    content: ANSI C63.18
+  - language: en
+    script: Latn
+    content: electromagnetic compatibility
+  - language: en
+    script: Latn
+    content: electromagnetic immunity
+  - language: en
+    script: Latn
+    content: electromagnetic interference
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: EMI
+  - language: en
+    script: Latn
+    content: health-care facilities
+  - language: en
+    script: Latn
+    content: in situ testing
+  - language: en
+    script: Latn
+    content: medical devices
+  - language: en
+    script: Latn
+    content: on-site testing
+  - language: en
+    script: Latn
+    content: portable radio frequency transmitters
+  - language: en
+    script: Latn
+    content: test method
+  - language: en
+    script: Latn
+    content: test procedure
+  - language: en
+    script: Latn
+    content: wireless
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: redline
+  ics:
+  - code: 33.100.20
+    text: Immunity
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

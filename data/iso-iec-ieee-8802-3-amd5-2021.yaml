@@ -1,0 +1,205 @@
+---
+id: ISOIECIEEE88023Amd52021
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE/ISO/IEC International Standard-Telecommunications and exchange between
+    information technology systems — Requirements for local and metropolitan area
+    networks —Part 3: Standard for Ethernet AMENDMENT 5: Physical layers specifications
+    and management parameters for 10 Mb/s operation and associated power delivery
+    over a single balanced pair of conductors'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9650822
+docidentifier:
+- content: ISO/IEC/IEEE 8802.3/Amd5-2021
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 8802.3™/Amd5-2021
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8233-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2021.9650822
+  type: DOI
+docnumber: ISO/IEC/IEEE 8802.3/Amd5-2021
+date:
+- type: created
+  at: '2021-12-15'
+- type: published
+  at: '2021-12-14'
+- type: issued
+  at: '2021'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2018 specifies additions and appropriate
+    modifications to add 10 Mb/s Physical Layer (PHY) specifications and management
+    parameters for operation, and associated optional provision of power, over a single
+    balanced pair of conductors.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 802.3cg-2019
+    docidentifier:
+    - content: IEEE Std 802.3cg-2019
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Main-secondary
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Power transmission
+  - language: en
+    script: Latn
+    content: Conductors
+  - language: en
+    script: Latn
+    content: 10BASE-T1L
+  - language: en
+    script: Latn
+    content: 10BASE-T1S
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: copper
+  - language: en
+    script: Latn
+    content: IEEE 802.3
+  - language: en
+    script: Latn
+    content: IEEE 802.3cg
+  - language: en
+    script: Latn
+    content: MASTER-SLAVE
+  - language: en
+    script: Latn
+    content: medium dependent interface
+  - language: en
+    script: Latn
+    content: physical coding sublayer
+  - language: en
+    script: Latn
+    content: Physical Layer
+  - language: en
+    script: Latn
+    content: Physical Layer Collision Avoidance
+  - language: en
+    script: Latn
+    content: PLCA
+  - language: en
+    script: Latn
+    content: physical medium attachment
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

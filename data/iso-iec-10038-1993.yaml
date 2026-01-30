@@ -1,0 +1,171 @@
+---
+id: ISOIEC100381993
+type: standard
+schema_version: v1.4.1
+title:
+- content: ISO/IEC/IEEE International Standard for Information technology-Telecommunications
+    and information exchange between systems - Local area networks - Media access
+    control (MAC) bridges
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6887403
+docidentifier:
+- content: ISO/IEC 10038-1993
+  type: IEEE
+  primary: true
+- content: ISO/IEC 10038™-1993
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9305-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.6887403
+  type: DOI
+docnumber: ISO/IEC 10038-1993
+date:
+- type: created
+  at: '1993-07-08'
+- type: published
+  at: '2014-08-28'
+- type: issued
+  at: '2014-08-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An architecture for the interconnection of IEEE 802 Local Area Networks
+    (LANs) below the level of the MAC Service, which is transparent to logical link
+    control (LLC) and higher layer protocols, is defined. Transparent Bridging between
+    Fibre Distributed Data Interface (FDDI) LANs and between FDDI LANs and IEEE 802
+    LANs is included. The operation and management of the connecting Bridges is specified.
+    A Spanning Tree Algorithm and Protocol ensures a loop-free topology and provides
+    redundancy. The Bridging method is not particular to any MAC Type; criteria for
+    additional MAC-specific Bridging methods are defined. Source-Routing Transparent
+    (SRT) Bridges are defined in an annex, and the protocols for the operation of
+    source routing in an SRT Bridge are specified.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: IEC standards
+  - language: en
+    script: Latn
+    content: ISO standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Telecommunication services
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Distributed processing
+  - language: en
+    script: Latn
+    content: Source coding
+  - language: en
+    script: Latn
+    content: data processing
+  - language: en
+    script: Latn
+    content: information interchange
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: fibre distributed data interface - FDDI
+  - language: en
+    script: Latn
+    content: mode of data transmission
+  - language: en
+    script: Latn
+    content: network interconnection
+  - language: en
+    script: Latn
+    content: models
+  - language: en
+    script: Latn
+    content: source routing
+  - language: en
+    script: Latn
+    content: Source-Routing Transparent
+  - language: en
+    script: Latn
+    content: SRT Bridge
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

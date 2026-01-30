@@ -1,0 +1,144 @@
+---
+id: IEEEStd11491b1994
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Supplement to Standard Test Access Port and Boundary-Scan Architecture
+    (1149.1)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/467487
+docidentifier:
+- content: IEEE Std 1149.1b-1994
+  type: IEEE
+  primary: true
+- content: IEEE Std 1149.1b™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0960-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1995.122623
+  type: DOI
+docnumber: IEEE Std 1149.1b-1994
+date:
+- type: created
+  at: '1995-03-01'
+- type: published
+  at: '2019-04-08'
+- type: issued
+  at: '1994-09-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by 1149.1-2001 A language to describe components that conform
+    to IEEE Std 1149.1-1990 is described in this supplement. The language is based
+    on the VHSIC Hardware Description Language (VHDL). General characteristics, the
+    overall structure of a boundary-scan description language (BSDL) description,
+    special cases, and example packages are included.
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 1149.1-1990
+    docidentifier:
+    - content: IEEE Std 1149.1-1990
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Boundary scan testing
+  - language: en
+    script: Latn
+    content: Hardware design languages
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: boundary scan architure
+  - language: en
+    script: Latn
+    content: description language
+  - language: en
+    script: Latn
+    content: BSDL
+  - language: en
+    script: Latn
+    content: test access port
+  - language: en
+    script: Latn
+    content: VHDL
+  - language: en
+    script: Latn
+    content: VHSIC Harware Description
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.180'
+    text: Printed circuits and boards
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

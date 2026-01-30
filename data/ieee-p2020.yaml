@@ -1,0 +1,122 @@
+---
+id: IEEEP2020
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE P2020 Automotive Imaging
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8439102
+docidentifier:
+- content: IEEE P2020
+  type: IEEE
+  primary: true
+- content: IEEE P2020™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5113-0
+  type: ISBN
+docnumber: IEEE P2020
+date:
+- type: created
+  at: '2018-08-17'
+- type: published
+  at: '2018-08-17'
+- type: issued
+  at: '2018'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Vehicular Technology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The IEEE SA P2020 working group on automotive imaging standards was established
+    in order to address the considerable ambiguity in measurement of image quality
+    of automotive imaging systems, both human and computer vision based. This white
+    paper outlines the goals, achievements, rationale and plans of the subgroup, which
+    has started to work on development of a new standard. Image quality plays a crucial
+    role for both automotive viewing and automotive computer vision applications and
+    today’s image evaluation approaches do not necessarily meet the needs of such
+    applications. Currently there is not a consistent approach within the industry
+    to measure automotive image quality. The IEEE P2020 working group is attempting
+    to remedy these deficiencies by connecting people in the field, identifying gaps
+    in existing standards, and working to address these by creating a coherent set
+    of key performance indicators by which camera systems and components may be evaluated
+    in a manner consistent with their intended use. This white paper provides an overview
+    of current activities including initial gap analysis and details of what may be
+    expected from the full standard when published.
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Automotive engineering
+  - language: en
+    script: Latn
+    content: Image quality
+  - language: en
+    script: Latn
+    content: Image processing
+  - language: en
+    script: Latn
+    content: Computer vision
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Active
+  pubstatus: Active
+  holdstatus: Publish

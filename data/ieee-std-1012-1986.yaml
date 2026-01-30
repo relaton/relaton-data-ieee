@@ -1,0 +1,126 @@
+---
+id: IEEEStd10121986
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Software Verification and Validation Plans
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9768044
+docidentifier:
+- content: IEEE Std 1012-1986
+  type: IEEE
+  primary: true
+- content: IEEE Std 1012™-1986
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0401-0
+  type: ISBN
+docnumber: IEEE Std 1012-1986
+date:
+- type: created
+  at: '1986-11-14'
+- type: issued
+  at: '1986-09-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Uniform and minimum requirements for the format and content of software
+    verification and validation (V&amp;V) tasks and their required inputs and outputs
+    that are to be included in SVVPs are provided for both critical and noncritical
+    software. For critical software, specific minimum verification and validation
+    (V&amp;V) tasks and their required inputs and outputs that are to be included
+    in SVVPs are defined. Optional V&amp;V tasks to be used to tailor SVVPs as appropriate
+    for the particular V&amp;V effort are suggested. An overview of V&amp;V is given,
+    and life-cycle V&amp;V, software V&amp;V reporting, and V&amp;V administrative
+    procedures are covered.
+copyright:
+- from: '1986'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1012-1998
+    docidentifier:
+    - content: IEEE Std 1012-1998
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Software testing
+  - language: en
+    script: Latn
+    content: System verification
+  - language: en
+    script: Latn
+    content: validation
+  - language: en
+    script: Latn
+    content: Software verification
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,138 @@
+---
+id: IEEEStd15122000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Common Incident Management Message Sets for use by Emergency
+    Management Centers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/856970
+docidentifier:
+- content: IEEE Std 1512-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 1512™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2487-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.91686
+  type: DOI
+docnumber: IEEE Std 1512-2000
+date:
+- type: created
+  at: '2000-07-07'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2000-06-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Intelligent Transportation Systems of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEEE Std 1512-2006. This standard will be a base standard
+    for Incident Management message sets which will be used by all response and/or
+    dispatch centers such that the exchange of information will be standard and produce
+    the needed responses(s). This standard will be limited to the common incident
+    management message sets for use by emergency management centers. This project
+    shall include the necessary research and compiling, analyzing, and the consolidation
+    of the results into message sets for Incident Management communications.
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1512-2006
+    docidentifier:
+    - content: IEEE Std 1512-2006
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Transportation
+  - language: en
+    script: Latn
+    content: Abstract Syntax Notation One
+  - language: en
+    script: Latn
+    content: emergency management centers
+  - language: en
+    script: Latn
+    content: HAZMAT
+  - language: en
+    script: Latn
+    content: incidents. message sets
+  - language: en
+    script: Latn
+    content: National Intelligent Transportation Systems Architecture
+  - language: en
+    script: Latn
+    content: public safety
+  - language: en
+    script: Latn
+    content: traffic
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

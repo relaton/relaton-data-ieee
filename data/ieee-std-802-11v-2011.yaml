@@ -1,0 +1,139 @@
+---
+id: IEEEStd80211v2011
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information technology-- Local and metropolitan area
+    networks-- Specific requirements-- Part 11: Wireless LAN Medium Access Control
+    (MAC) and Physical Layer (PHY) specifications Amendment 8: IEEE 802.11 Wireless
+    Network Management'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5716530
+docidentifier:
+- content: IEEE Std 802.11v-2011
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.11v®-2011
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6540-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.5716530
+  type: DOI
+docnumber: IEEE Std 802.11v-2011
+date:
+- type: updated
+  at: '2011-03-14'
+- type: created
+  at: '2011-02-09'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2011-02-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment provides Wireless Network Management enhancements to the
+    IEEE 802.11 MAC, and PHY, extending radio measurements to effect a complete and
+    coherent upper layer interface for managing IEEE 802.11 devices in wireless networks.
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.11-2007
+    docidentifier:
+    - content: IEEE Std 802.11-2007
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Data processing
+  - language: en
+    script: Latn
+    content: Radio Resource Management
+  - language: en
+    script: Latn
+    content: Wireless Network Management
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

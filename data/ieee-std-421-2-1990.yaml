@@ -1,0 +1,145 @@
+---
+id: IEEEStd42121990
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Identification, Testing, and Evaluation of the Dynamic Performance
+    of Excitation Control Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/89679
+docidentifier:
+- content: IEEE Std 421.2-1990
+  type: IEEE
+  primary: true
+- content: IEEE Std 421.2™-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1091-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1990.94594
+  type: DOI
+docnumber: IEEE Std 421.2-1990
+date:
+- type: created
+  at: '1990-08-07'
+- type: published
+  at: '2014-06-27'
+- type: issued
+  at: '1990-05-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Energy Development &amp; Power Generation of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEEE Std 421.2-1990, IEEE Guide for Identification, Testing, and Evaluation
+    of the Dynamic Performance of Excitation Control Systems, presents dynamic performance
+    criteria, definitions, and test objectives for excitation control systems as applied
+    by electric utilities. It should be specifically noted that the term “excitation
+    control system” refers to the entire control system including the synchronous
+    machine and power system as well as the excitation system.
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 421A-1978
+    docidentifier:
+    - content: ANSI/IEEE Std 421A-1978
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 421.2-2014
+    docidentifier:
+    - content: IEEE Std 421.2-2014
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Closed loop systems
+  - language: en
+    script: Latn
+    content: Power system control
+  - language: en
+    script: Latn
+    content: Closed-loop performance
+  - language: en
+    script: Latn
+    content: excitation control systems
+  - language: en
+    script: Latn
+    content: excitation system specifications
+  - language: en
+    script: Latn
+    content: large signal disturbances
+  - language: en
+    script: Latn
+    content: small signal disturbances
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.160.10
+    text: Components for rotating machines
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

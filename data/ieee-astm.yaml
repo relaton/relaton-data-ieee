@@ -1,0 +1,147 @@
+---
+id: IEEEASTM
+type: standard
+schema_version: v1.4.1
+title:
+- content: American National Standard for Metric Practice
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5750142
+docidentifier:
+- content: IEEE/ ASTM
+  type: IEEE
+  primary: true
+- content: IEEE/ ASTM™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6533-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.5750142
+  type: DOI
+docnumber: IEEE/ ASTM
+date:
+- type: updated
+  at: '2011-11-07'
+- type: created
+  at: '2011-04-11'
+- type: published
+  at: '2013-10-15'
+- type: issued
+  at: '2010-12-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: conversion factors, International System, International System of Units,
+    metric practice, metric system, rounding, SI, SI 10, Systeme International d'Unites
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: ASTM
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE/ASTM SI 10.2002
+    docidentifier:
+    - content: IEEE/ASTM SI 10.2002
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE/ASTM SI 10.2016
+    docidentifier:
+    - content: IEEE/ASTM SI 10.2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Measurement
+  - language: en
+    script: Latn
+    content: Guidance for the use of the modern metric system is given. Known as the
+      International System of Units (abbreviated SI)
+  - language: en
+    script: Latn
+    content: the system is the basis for worldwide standardization of measurement
+      units. Information is included on SI
+  - language: en
+    script: Latn
+    content: a list of units recognized for use with SI
+  - language: en
+    script: Latn
+    content: and a list of conversion factors
+  - language: en
+    script: Latn
+    content: together with general guidance on proper style and usage.
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '01.060'
+    text: Quantities and units
+  - code: '17.020'
+    text: Metrology and measurement in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

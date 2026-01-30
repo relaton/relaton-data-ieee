@@ -1,0 +1,157 @@
+---
+id: IEEEStd880221994
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEC/IEEE International Standard - Information Technology - Telecommunications
+    and information exchange between systems - Local and metropolitan area networks
+    - Specific requirements - Part 2: Logical link control'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4140828
+docidentifier:
+- content: IEEE Std 8802.2-1994
+  type: IEEE
+  primary: true
+- content: IEEE Std 8802.2™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-55937-392-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1994.339584
+  type: DOI
+docnumber: IEEE Std 8802.2-1994
+date:
+- type: created
+  at: '1994-12-30'
+- type: published
+  at: '2016-01-06'
+- type: issued
+  at: '1994'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The functions, features, protocol, and services of the Logical Link Control
+    (LLC) sublayer, which constitutes the top sublayer in the data link layer of the
+    ISO/IEC 8802 Local Area Network Protocol, are described. The services required
+    of, or by, the LLC sublayer at the logical interfaces with the network layer,
+    the MAC sublayer, and the LLC sublayer management function are specified. The
+    protocol data unit (PDU) structure for data communication systems is defined using
+    bit-oriented procedures, as are three types of operation for data communication
+    between service access points. In the first type of operation, PDUs are exchanged
+    between LLCs without the need for the establishment of a data link connection.
+    In the second type of operation, a data link connection is established between
+    two LLCs prior to any exchange of information-bearing PDUs. In the third type
+    of operation, PDUs are exchanged between LLCs without the need for the establishment
+    of a data link connection, but stations are permitted to both send data and request
+    the return of data simultaneously. Incorporating IEEE Stds 802.2-1989, 802.2a-1993,
+    802.2b-1993, 802.2d-1993, 802.2e-1993, and 802.5p-1993.
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ISO 8802.2
+    docidentifier:
+    - content: ISO 8802.2
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: protocols
+  - language: en
+    script: Latn
+    content: logical link control
+  - language: en
+    script: Latn
+    content: LAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

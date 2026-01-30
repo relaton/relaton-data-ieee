@@ -1,0 +1,182 @@
+---
+id: IEEEP1696
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Approved Draft Standard for Terminology and Test Methods for Circuit
+    Probes
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6687193
+docidentifier:
+- content: IEEE P1696
+  type: IEEE
+  primary: true
+- content: IEEE P1696™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8807-2
+  type: ISBN
+docnumber: IEEE P1696
+date:
+- type: created
+  at: '2014-02-17'
+- type: published
+  at: '2013-12-18'
+- type: issued
+  at: '2013-12-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC10 - Waveform Generation Measurement and Analysis of the IEEE Instrumentation
+          and Measurement Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: There is currently no defined, industry-accepted method for characterizing
+    the performance of electrical circuit probes. Each vendor has its own proprietary
+    methods for characterization, leaving probe customers and users without a valid
+    means of comparing probe performance and/or understanding the circuit-loading
+    effect of the probe. This standard provides methods for measuring parameters indicative
+    of a probes or probe systems performance and provides guidance on the design and
+    use of a test fixture for measuring probe performance. These methods provide an
+    industry-accepted, unbiased means for characterizing probe performance. This standard
+    considers high-impedance voltage probes that are used to measure the performance
+    of electrical circuits. The probe systems may include waveform acquisition hardware
+    and software and signal/waveform analysis software. The probe will include the
+    mechanism by which the circuit is contacted. This method and standard will be
+    applicable to all individual probes having one signal conductor and one ground
+    conductor or two signal conductors, and having an input impedance at least five
+    times greater than the impedance of the circuit under test
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Circuit probes
+  - language: en
+    script: Latn
+    content: Terminology
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: Frequency response
+  - language: en
+    script: Latn
+    content: Scattering
+  - language: en
+    script: Latn
+    content: Parameter estimation
+  - language: en
+    script: Latn
+    content: common mode
+  - language: en
+    script: Latn
+    content: frequency response
+  - language: en
+    script: Latn
+    content: gain
+  - language: en
+    script: Latn
+    content: input resistance
+  - language: en
+    script: Latn
+    content: linearity
+  - language: en
+    script: Latn
+    content: offset error
+  - language: en
+    script: Latn
+    content: offset range
+  - language: en
+    script: Latn
+    content: probe
+  - language: en
+    script: Latn
+    content: probe-only
+  - language: en
+    script: Latn
+    content: probe system
+  - language: en
+    script: Latn
+    content: scattering parameters
+  - language: en
+    script: Latn
+    content: test fixtutre
+  - language: en
+    script: Latn
+    content: text methods
+  - language: en
+    script: Latn
+    content: time response
+  - language: en
+    script: Latn
+    content: transfer function
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,147 @@
+---
+id: IEEEP80216pD6201207
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Approved Draft Standard for Air Interface for Broadband Wireless
+    Access Systems Amendment: Enhancements to Support Machine-to-Machine Applications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6293829
+docidentifier:
+- content: IEEE P802.16p/D-6-2012-07
+  type: IEEE
+  primary: true
+- content: IEEE P802.16p™/D-6-2012-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7556-0
+  type: ISBN
+docnumber: IEEE P802.16p/D-6-2012-07
+date:
+- type: created
+  at: '2012-08-31'
+- type: published
+  at: '2012-08-31'
+- type: issued
+  at: '2012-08-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment specifies IEEE Std 802.16 medium access control (MAC) enhancements
+    and minimal orthogonal frequency division multiple access (OFDMA) physical layer
+    (PHY) modifications in licensed bands to support lower power consumption at the
+    device, support by the base station of significantly larger numbers of devices,
+    efficient support for small burst transmissions, and improved device authentication.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.16-2009
+    docidentifier:
+    - content: IEEE Std 802.16-2009
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.16-2009
+    docidentifier:
+    - content: IEEE Std 802.16-2009
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Interface states
+  - language: en
+    script: Latn
+    content: Broadband communication
+  - language: en
+    script: Latn
+    content: Wireless networks
+  - language: en
+    script: Latn
+    content: Machine intelligence
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

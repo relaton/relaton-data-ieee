@@ -1,0 +1,164 @@
+---
+id: IEEEStd8021Qbf2011
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Local and metropolitan area networks--Media Access Control
+    (MAC) Bridges and Virtual Bridged Local Area Networks--Amendment 19: PBB-TE Infrastructure
+    Segment Protection'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6112163
+docidentifier:
+- content: IEEE Std 802.1Qbf-2011
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1Qbf®-2011
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7153-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.6112163
+  type: DOI
+docnumber: IEEE Std 802.1Qbf-2011
+date:
+- type: updated
+  at: '2012-01-20'
+- type: created
+  at: '2011-12-23'
+- type: published
+  at: '2015-08-20'
+- type: issued
+  at: '2011-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.1Q-2011 specifies localized protection of
+    selected Traffic Engineered Service Instances traversing a common sequence of
+    Provider Network Ports.
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.1Q-2011
+    docidentifier:
+    - content: IEEE Std 802.1Q-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Media Access Protovol
+  - language: en
+    script: Latn
+    content: Bridge circuits
+  - language: en
+    script: Latn
+    content: Telecommunication traffic
+  - language: en
+    script: Latn
+    content: Communication system traffic
+  - language: en
+    script: Latn
+    content: Bridged Local Area Networks
+  - language: en
+    script: Latn
+    content: IEEE 802.1Qbf
+  - language: en
+    script: Latn
+    content: Infrastructure Segment Protection
+  - language: en
+    script: Latn
+    content: LANs
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: MAC Bridges
+  - language: en
+    script: Latn
+    content: MANs
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: Provider Backbone Bridge
+  - language: en
+    script: Latn
+    content: Traffic Engineering
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

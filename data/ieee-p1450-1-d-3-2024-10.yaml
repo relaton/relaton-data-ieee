@@ -1,0 +1,177 @@
+---
+id: IEEEP14501D3202410
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Approved Draft Standard for Extensions to Standard Test Interface
+    Language (STIL) (IEEE Std 1450-1999) for Semiconductor Design Environments
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10763409
+docidentifier:
+- content: IEEE P1450.1/D-3-2024-10
+  type: IEEE
+  primary: true
+- content: IEEE P1450.1™/D-3-2024-10
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1473-9
+  type: ISBN
+docnumber: IEEE P1450.1/D-3-2024-10
+date:
+- type: created
+  at: '2025-02-20'
+- type: published
+  at: '2024-11-21'
+- type: issued
+  at: '2025-02-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An interface between digital test generation tools and test equipment is
+    provided by Standard Test Interface Language (STIL). Extensions to the test interface
+    language (contained in this standard) are defined that facilitate the use of the
+    language in the design environment and facilitate the use of the language for
+    large designs encompassing subdesigns with reusable patterns.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1450.1-2005
+    docidentifier:
+    - content: IEEE Std 1450.1-2005
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Feedback
+  - language: en
+    script: Latn
+    content: System-on-chip
+  - language: en
+    script: Latn
+    content: Digital systems
+  - language: en
+    script: Latn
+    content: Test equipment
+  - language: en
+    script: Latn
+    content: Semiconductor device manufacture
+  - language: en
+    script: Latn
+    content: advanced scan architecture
+  - language: en
+    script: Latn
+    content: core
+  - language: en
+    script: Latn
+    content: environment
+  - language: en
+    script: Latn
+    content: fail feedback
+  - language: en
+    script: Latn
+    content: IEEE 1450.1
+  - language: en
+    script: Latn
+    content: lockstep
+  - language: en
+    script: Latn
+    content: parallel patterns
+  - language: en
+    script: Latn
+    content: parameterized data
+  - language: en
+    script: Latn
+    content: pattern tiling
+  - language: en
+    script: Latn
+    content: pragma
+  - language: en
+    script: Latn
+    content: signal variable
+  - language: en
+    script: Latn
+    content: SoC
+  - language: en
+    script: Latn
+    content: system on chip
+  - language: en
+    script: Latn
+    content: test protocol
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

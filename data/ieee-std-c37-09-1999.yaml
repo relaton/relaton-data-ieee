@@ -1,0 +1,173 @@
+---
+id: IEEEStdC37091999
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Test Procedure for AC High-Voltage Circuit Breakers Rated
+    on a Symmetrical Current Basis
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/836277
+docidentifier:
+- content: IEEE Std C37.09-1999
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.09™-1999
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1784-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.91302
+  type: DOI
+docnumber: IEEE Std C37.09-1999
+date:
+- type: created
+  at: '2000-03-28'
+- type: published
+  at: '2019-04-11'
+- type: issued
+  at: '1999-06-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Switchgear of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The testing procedures for all high-voltage circuit breakers that include
+    all voltage ratings above 1000 V ac and comprise both indoor and outdoor types
+    having the preferred ratings as listed in ANSI C37.06-1997 are covered. Typical
+    circuit breakers covered by these standards have maximum voltage ratings from
+    4.76 kV through 800 kV, and continuous current ratings of 600 A, 1200 A, 2000
+    A, and 3000 A associated with the various maximum voltage ratings. The test procedures
+    verify all assigned ratings, including continuous current, dielectric withstand
+    voltages, short-circuit current, transient recovery voltage, and capacitor switching,
+    plus associated capabilities such as mechanical endurance, load current, and out-of-phase
+    switching. Production test procedures are also included. This standard does not
+    cover generator circuit breakers as these are covered in IEEE Std C37.013-1993.
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std C37.09-1979
+    docidentifier:
+    - content: ANSI/IEEE Std C37.09-1979
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.09-2018
+    docidentifier:
+    - content: IEEE Std C37.09-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Circuit breakers
+  - language: en
+    script: Latn
+    content: fast transient recovery voltage
+  - language: en
+    script: Latn
+    content: indoor
+  - language: en
+    script: Latn
+    content: initial
+  - language: en
+    script: Latn
+    content: mechanical endurance
+  - language: en
+    script: Latn
+    content: operating duty
+  - language: en
+    script: Latn
+    content: outdoor
+  - language: en
+    script: Latn
+    content: power frequency
+  - language: en
+    script: Latn
+    content: short-circuit current
+  - language: en
+    script: Latn
+    content: short-line fault
+  - language: en
+    script: Latn
+    content: single-phase testing
+  - language: en
+    script: Latn
+    content: test data reporting
+  - language: en
+    script: Latn
+    content: three-phase testing
+  - language: en
+    script: Latn
+    content: unit test
+  - language: en
+    script: Latn
+    content: voltage distribution synthetic test.
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.40
+    text: Switches
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

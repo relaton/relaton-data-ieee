@@ -1,0 +1,153 @@
+---
+id: IEEEStd14712000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Architectural Description for Software-Intensive
+    Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/875998
+docidentifier:
+- content: IEEE Std 1471-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 1471™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2519-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.91944
+  type: DOI
+docnumber: IEEE Std 1471-2000
+date:
+- type: created
+  at: '2000-10-09'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2000-09-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: '" This recommended practice addresses the activities of the creation,
+    analysis, and sus-tainment of architectures of software-intensive systems, and
+    the recording of such architectures interms of architectural descriptions . A
+    conceptual framework for architectural description is estab-lished. The content
+    of an architectural description is defined. Annexes provide the rationale for
+    keyconcepts and terminology, the relationships to other standards, and examples
+    of usage. "'
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Unapproved Std P42010/D-6-2009
+    docidentifier:
+    - content: IEEE Unapproved Std P42010/D-6-2009
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Computer architecture
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Software
+  - language: en
+    script: Latn
+    content: Consumer electronics
+  - language: en
+    script: Latn
+    content: Stakeholders
+  - language: en
+    script: Latn
+    content: architectural description
+  - language: en
+    script: Latn
+    content: architecture
+  - language: en
+    script: Latn
+    content: software-intensive system
+  - language: en
+    script: Latn
+    content: stakeholder con-cerns
+  - language: en
+    script: Latn
+    content: system stakeholder
+  - language: en
+    script: Latn
+    content: view
+  - language: en
+    script: Latn
+    content: viewpoint
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

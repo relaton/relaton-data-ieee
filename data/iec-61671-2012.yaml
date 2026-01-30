@@ -1,0 +1,185 @@
+---
+id: IEC616712012
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEC 61671:2012(E) (IEEE Std 1671-2010) Automatic Test Markup Language (ATML)
+    for Exchanging Automatic Test Equipment and Test Information via XML
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6238292
+docidentifier:
+- content: IEC 61671-2012
+  type: IEEE
+  primary: true
+- content: IEC 61671™-2012
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7297-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2012.6238292
+  type: DOI
+docnumber: IEC 61671-2012
+date:
+- type: created
+  at: '2012-07-16'
+- type: published
+  at: '2012-07-12'
+- type: issued
+  at: '2012-07-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: SCC20 - Test and Diagnosis for Electronic Systems
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This document specifies a framework for the automatic test markup language
+    (ATML) family of standards. ATML allows automatic test system (ATS) and test information
+    to be exchanged in a common format adhering to the extensible markup language
+    (XML) standard.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Instrumentation
+  - language: en
+    script: Latn
+    content: Automation
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: ATE description
+  - language: en
+    script: Latn
+    content: ATE test results
+  - language: en
+    script: Latn
+    content: ATML
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: automatic test equipment
+  - language: en
+    script: Latn
+    content: automatic test markup language
+  - language: en
+    script: Latn
+    content: automatic test system
+  - language: en
+    script: Latn
+    content: interface test adapter
+  - language: en
+    script: Latn
+    content: ITA
+  - language: en
+    script: Latn
+    content: SI
+  - language: en
+    script: Latn
+    content: synthetic instrumentation
+  - language: en
+    script: Latn
+    content: test configuration
+  - language: en
+    script: Latn
+    content: unit under test
+  - language: en
+    script: Latn
+    content: UUT description
+  - language: en
+    script: Latn
+    content: UUT maintenance
+  - language: en
+    script: Latn
+    content: XML instance document
+  - language: en
+    script: Latn
+    content: XML schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '19.080'
+    text: Electrical and electronic testing
+  - code: 35.240.30
+    text: IT applications in information, documentation and publishing
+  - code: '25.040'
+    text: Industrial automation systems
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

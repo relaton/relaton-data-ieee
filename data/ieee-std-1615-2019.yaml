@@ -1,0 +1,206 @@
+---
+id: IEEEStd16152019
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Network Communication in Electric Power Substations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8894229
+docidentifier:
+- content: IEEE Std 1615-2019
+  type: IEEE
+  primary: true
+- content: IEEE Std 1615™-2019
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6137-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2019.8894229
+  type: DOI
+docnumber: IEEE Std 1615-2019
+date:
+- type: updated
+  at: '2020-05-22'
+- type: created
+  at: '2019-11-08'
+- type: published
+  at: '2019-11-07'
+- type: issued
+  at: '2019-09-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Recommended practices for communication and interoperation of devices connected
+    on an electric power substation Internet Protocol (IP) network are provided. An
+    introduction to the concepts that need to be mastered as well as specific recommendations
+    to follow when deploying the technologies are provided for the power engineer
+    new to IP networking. Direction and requirements to facilitate interoperable electric
+    utility information networks are provided for equipment manufacturers and system
+    integrators.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1615-2007
+    docidentifier:
+    - content: IEEE Std 1615-2007
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Power distribution
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Internet
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: IP networks
+  - language: en
+    script: Latn
+    content: Optical fiber networks
+  - language: en
+    script: Latn
+    content: Data communication
+  - language: en
+    script: Latn
+    content: Network security
+  - language: en
+    script: Latn
+    content: Distributed Network Protocol 3 (DNP3)
+  - language: en
+    script: Latn
+    content: fiber-optic
+  - language: en
+    script: Latn
+    content: IEC 60870-5
+  - language: en
+    script: Latn
+    content: IEC 61850
+  - language: en
+    script: Latn
+    content: IEEE 1615
+  - language: en
+    script: Latn
+    content: intelligent electronic device (IED)
+  - language: en
+    script: Latn
+    content: Internet Protocol (IP)
+  - language: en
+    script: Latn
+    content: managed switch
+  - language: en
+    script: Latn
+    content: network
+  - language: en
+    script: Latn
+    content: network devices
+  - language: en
+    script: Latn
+    content: noise sources
+  - language: en
+    script: Latn
+    content: non-operational data
+  - language: en
+    script: Latn
+    content: operational data
+  - language: en
+    script: Latn
+    content: RS-232
+  - language: en
+    script: Latn
+    content: RS-485
+  - language: en
+    script: Latn
+    content: security awareness
+  - language: en
+    script: Latn
+    content: Transmission Control Protocol (TCP)
+  - language: en
+    script: Latn
+    content: time synchronization
+  - language: en
+    script: Latn
+    content: wireless network
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.130.01
+    text: Switchgear and controlgear in general
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

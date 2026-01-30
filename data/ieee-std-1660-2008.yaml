@@ -1,0 +1,145 @@
+---
+id: IEEEStd16602008
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Application and Management of Stationary Batteries Used
+    in Cycling Service
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4690900
+docidentifier:
+- content: IEEE Std 1660-2008
+  type: IEEE
+  primary: true
+- content: IEEE Std 1660™-2008
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5522-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2008.4690900
+  type: DOI
+docnumber: IEEE Std 1660-2008
+date:
+- type: updated
+  at: '2009-02-12'
+- type: created
+  at: '2008-12-25'
+- type: published
+  at: '2019-02-06'
+- type: issued
+  at: '2008-09-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Energy Storage &amp; Stationary Battery Committee of the IEEE Power
+          and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This guide provides information on the differences between stationary standby
+    and stationary cycling applications and appropriate battery management strategies
+    in cycling operations. While the primary emphasis is on lead-acid batteries, information
+    is also provided on alternative and emerging storage technologies. The management
+    of battery systems in stationary standby service is covered in other IEEE documents
+    and is beyond the scope of this guide.
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1660-2018
+    docidentifier:
+    - content: IEEE Std 1660-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Batteries
+  - language: en
+    script: Latn
+    content: Maintenance engineering
+  - language: en
+    script: Latn
+    content: Power system quality
+  - language: en
+    script: Latn
+    content: Battery charge measurement
+  - language: en
+    script: Latn
+    content: 1660-2008
+  - language: en
+    script: Latn
+    content: battery cycling
+  - language: en
+    script: Latn
+    content: battery maintenance
+  - language: en
+    script: Latn
+    content: battery operation
+  - language: en
+    script: Latn
+    content: standby battery
+  - language: en
+    script: Latn
+    content: stationary battery
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.220.01
+    text: Galvanic cells and batteries in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

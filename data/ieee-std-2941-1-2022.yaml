@@ -1,0 +1,147 @@
+---
+id: IEEEStd294112022
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Operator Interfaces of Artificial Intelligence
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10078793
+docidentifier:
+- content: IEEE Std 2941.1-2022
+  type: IEEE
+  primary: true
+- content: IEEE Std 2941.1™-2022
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9533-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10078793
+  type: DOI
+docnumber: IEEE Std 2941.1-2022
+date:
+- type: created
+  at: '2023-03-24'
+- type: published
+  at: '2023-03-22'
+- type: issued
+  at: '2022-11-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Data Compression Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A set of operator interfaces frequently used in artificial intelligence
+    (AI) applications is defined in this standard, where the AI operators refer to
+    the standard building blocks and primitives for performing basic AI operations.
+    The functionality and the specific input and output operands of an AI operator
+    are discussed, as well as both generality and efficiency. Various types of operators,
+    such as those related to basic mathematics, neural network, and machine learning,
+    are highlighted.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Artificial intelligence
+  - language: en
+    script: Latn
+    content: Mathematics
+  - language: en
+    script: Latn
+    content: Neural networks
+  - language: en
+    script: Latn
+    content: Machine learning
+  - language: en
+    script: Latn
+    content: User interfaces
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: AI
+  - language: en
+    script: Latn
+    content: basic mathematics
+  - language: en
+    script: Latn
+    content: IEEE 2941.1
+  - language: en
+    script: Latn
+    content: neural network
+  - language: en
+    script: Latn
+    content: machine learning
+  - language: en
+    script: Latn
+    content: operators
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.01
+    text: Application of information technology in general
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,126 @@
+---
+id: IEEEStd8281983
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Software Configuration Management Plans
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7439689
+docidentifier:
+- content: IEEE Std 828-1983
+  type: IEEE
+  primary: true
+- content: IEEE Std 828™-1983
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0451-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1983.7439689
+  type: DOI
+docnumber: IEEE Std 828-1983
+date:
+- type: updated
+  at: '2016-04-22'
+- type: created
+  at: '1983-06-24'
+- type: published
+  at: '2016-03-23'
+- type: issued
+  at: '1983-06-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+copyright:
+- from: '1983'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 828-1990
+    docidentifier:
+    - content: IEEE Std 828-1990
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Software engineering
+  - language: en
+    script: Latn
+    content: Software configuration
+  - language: en
+    script: Latn
+    content: Software management
+  - language: en
+    script: Latn
+    content: Planning
+  - language: en
+    script: Latn
+    content: software
+  - language: en
+    script: Latn
+    content: configuration
+  - language: en
+    script: Latn
+    content: management
+  - language: en
+    script: Latn
+    content: plans
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,192 @@
+---
+id: IEEEStd17222016
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for a Transport Protocol for Time-Sensitive Applications
+    in Bridged Local Area Networks
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7782716
+docidentifier:
+- content: IEEE Std 1722-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 1722™-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0802-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7782716
+  type: DOI
+docnumber: IEEE Std 1722-2016
+date:
+- type: created
+  at: '2016-12-16'
+- type: published
+  at: '2016-12-14'
+- type: issued
+  at: '2016-03-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The protocol, device discovery, connection management, and device-control
+    procedures used to facilitate interoperability between audio- and video-based
+    end stations that use IEEE 1722-based streams on IEEE 802-based networks are specified.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1722-2011
+    docidentifier:
+    - content: IEEE Std 1722-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Encryption
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Elliptic curve cryptography
+  - language: en
+    script: Latn
+    content: Media streaming
+  - language: en
+    script: Latn
+    content: Timing analysis
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: advanced encryption standard (AES)
+  - language: en
+    script: Latn
+    content: bridged local area network (LAN)
+  - language: en
+    script: Latn
+    content: clock recovery
+  - language: en
+    script: Latn
+    content: elliptic curve cryptography (ECC)
+  - language: en
+    script: Latn
+    content: encryption
+  - language: en
+    script: Latn
+    content: IEC 61883
+  - language: en
+    script: Latn
+    content: IEEE 802.1(TM) AVB protocols
+  - language: en
+    script: Latn
+    content: IEEE 802.1AS(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.1BA(TM)-2011
+  - language: en
+    script: Latn
+    content: IEEE 802.1Q(TM)-2014
+  - language: en
+    script: Latn
+    content: IEEE 1722(TM)-2011
+  - language: en
+    script: Latn
+    content: National Institute of Standards and Technology (NIST)
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: serial digital interface (SDI)
+  - language: en
+    script: Latn
+    content: SMPTE ST 2022-6
+  - language: en
+    script: Latn
+    content: time-sensitive media streaming
+  - language: en
+    script: Latn
+    content: Time-Sensitive Networking (TSN)
+  - language: en
+    script: Latn
+    content: time synchronization
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

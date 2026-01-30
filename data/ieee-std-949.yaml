@@ -1,0 +1,119 @@
+---
+id: IEEEStd949
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Trial-Use Standard for Media-Independent Information Transfer
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/30685
+docidentifier:
+- content: IEEE Std 949
+  type: IEEE
+  primary: true
+- content: IEEE Std 949™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4547-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1985.82457
+  type: DOI
+docnumber: IEEE Std 949
+date:
+- type: created
+  at: '1985'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1985'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The purpose of this standard is to define a format for the transmission
+    of files and their attributes between computer systems independent of the medium
+    of transmission. It is intended that any information medium capable of representing
+    a consecutive sequence of 8-bit bytes should be adaptable to the format specified
+    in this standard. The format is designed to facilitate the human interface to
+    file selection from transmissions by foreign systems.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1985'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Data communication
+  - language: en
+    script: Latn
+    content: Data handling
+  - language: en
+    script: Latn
+    content: File systems
+  - language: en
+    script: Latn
+    content: Standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,167 @@
+---
+id: IEEEP2416D5202508
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Approved Draft Standard for Power Modeling to Enable System Level
+    Analysis
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11143044
+docidentifier:
+- content: IEEE P2416/D-5-2025-08
+  type: IEEE
+  primary: true
+- content: IEEE P2416™/D-5-2025-08
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2565-0
+  type: ISBN
+docnumber: IEEE P2416/D-5-2025-08
+date:
+- type: created
+  at: '2025-11-20'
+- type: published
+  at: '2025-08-27'
+- type: issued
+  at: '2025-11-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard describes a parameterized and abstracted power model enabling
+    system, software, and hardware IP-centric power analysis and optimization. It
+    defines concepts for the development of parameterized, accurate, efficient, and
+    complete power models for systems and hardware IP blocks usable for system power
+    analysis and optimization. These concepts include, but are not limited to, process,
+    voltage and temperature (PVT) independence, power and thermal management interface,
+    and workload and architecture parameterization.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 2416-2019
+    docidentifier:
+    - content: IEEE Std 2416-2019
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: IP networks
+  - language: en
+    script: Latn
+    content: Modeling
+  - language: en
+    script: Latn
+    content: Parametric statistics
+  - language: en
+    script: Latn
+    content: Voltage control
+  - language: en
+    script: Latn
+    content: Temperature measurement
+  - language: en
+    script: Latn
+    content: IEEE 2416
+  - language: en
+    script: Latn
+    content: IP blocks
+  - language: en
+    script: Latn
+    content: modeling standards
+  - language: en
+    script: Latn
+    content: models
+  - language: en
+    script: Latn
+    content: optimization
+  - language: en
+    script: Latn
+    content: parameterization
+  - language: en
+    script: Latn
+    content: power contributors
+  - language: en
+    script: Latn
+    content: power data
+  - language: en
+    script: Latn
+    content: process
+  - language: en
+    script: Latn
+    content: voltage and temperature (PVT)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

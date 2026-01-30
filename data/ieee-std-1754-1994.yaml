@@ -1,0 +1,130 @@
+---
+id: IEEEStd17541994
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for a 32-bit Microprocessor Architecture
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/478092
+docidentifier:
+- content: IEEE Std 1754-1994
+  type: IEEE
+  primary: true
+- content: IEEE Std 1754™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2760-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1995.79519
+  type: DOI
+docnumber: IEEE Std 1754-1994
+date:
+- type: updated
+  at: '1995-09-18'
+- type: created
+  at: '1995-04-14'
+- type: published
+  at: '2019-04-26'
+- type: issued
+  at: '1994-03-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A 32-bit microprocessor architecture, available to a wide variety of manufacturers
+    and users, is defined. The standard includes the definition of the instruction
+    set, register model, data types, instruction op-codes, and coprocessor interface.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Microprocessors
+  - language: en
+    script: Latn
+    content: Computer architecture
+  - language: en
+    script: Latn
+    content: Computer instructions
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: computer
+  - language: en
+    script: Latn
+    content: ISA
+  - language: en
+    script: Latn
+    content: microprocessor
+  - language: en
+    script: Latn
+    content: instruction set architecture
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,155 @@
+---
+id: IEEEStd8021Q2011
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Local and metropolitan area networks--Media Access Control
+    (MAC) Bridges and Virtual Bridged Local Area Networks
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6009146
+docidentifier:
+- content: IEEE Std 802.1Q-2011
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1Q®-2011
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6708-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.6009146
+  type: DOI
+docnumber: IEEE Std 802.1Q-2011
+date:
+- type: updated
+  at: '2011-11-07'
+- type: created
+  at: '2011-08-31'
+- type: published
+  at: '2012-05-18'
+- type: issued
+  at: '2011-05-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies how the MAC Service is supported by Virtual Bridged
+    Local Area Networks, the principles of operation of those networks, and the operation
+    of VLAN-aware Bridges, including management, protocols, and algorithms. Incorporates
+    IEEE Std 802.1Q-2005, IEEE Std 802.1ad-2005, IEEE Std 802.1ak-2007, IEEE Std 802.1ag-2007,
+    IEEE Std 802.1ah-2008, IEEE Std 802-1Q-2005/Cor-1-2008, IEEE Std 802.1ap-2008,
+    IEEE Std 802.1Qaw-2009, IEEE Std 802.1Qay-2009, IEEE Std 802.1aj-2009, IEEE Std
+    802.1Qav-2009, IEEE Std Qau-2010, and IEEE Std Qat-2010. The PDF of this standard
+    is available at no cost, compliments of the IEEE 802 group. http://grouper.ieee.org/groups/802/1/
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.1Q-2005
+    docidentifier:
+    - content: IEEE Std 802.1Q-2005
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Bridge circuits
+  - language: en
+    script: Latn
+    content: Bridged Local Area Networks
+  - language: en
+    script: Latn
+    content: local area networks (LANs)
+  - language: en
+    script: Latn
+    content: MAC Bridges
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: Multiple Spanning Tree Protocol (MSTP)
+  - language: en
+    script: Latn
+    content: Rapid Spanning Tree Protocol (RSTP)
+  - language: en
+    script: Latn
+    content: Virtual Bridged Local Area Networks (virtual LANs)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

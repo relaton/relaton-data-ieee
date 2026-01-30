@@ -1,0 +1,139 @@
+---
+id: IEEEStd6031980
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Criteria for Safety Systems for Nuclear Power Generating
+    Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/30658
+docidentifier:
+- content: IEEE Std 603-1980
+  type: IEEE
+  primary: true
+- content: IEEE Std 603™-1980
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4390-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1980.82397
+  type: DOI
+docnumber: IEEE Std 603-1980
+date:
+- type: created
+  at: '1980-11-24'
+- type: published
+  at: '2016-03-11'
+- type: issued
+  at: '1980-03-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Establishes minimum functional design criteria for the power, instrumentation,
+    and control portions of nuclear power generating station safety systems. The criteria
+    are to be applied to those systems required to protect the public health and safety
+    by functioning to mitigate the consequences of design basis events. The intent
+    is to promote safe practices for design and evaluation of safety system performance
+    and reliability. Although the standard is limited to safety systems, many of the
+    principles may have applicability to equipment provided for safe shutdown, post-accident
+    monitoring display instrumentation, preventive interlock features, or any other
+    systems, structures, or equipment related to safety.
+copyright:
+- from: '1980'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 603-1991
+    docidentifier:
+    - content: IEEE Std 603-1991
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Nuclear power generation
+  - language: en
+    script: Latn
+    content: Safety
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: criteria
+  - language: en
+    script: Latn
+    content: safety
+  - language: en
+    script: Latn
+    content: systems
+  - language: en
+    script: Latn
+    content: nuclear
+  - language: en
+    script: Latn
+    content: power
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

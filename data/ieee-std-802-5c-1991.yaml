@@ -1,0 +1,146 @@
+---
+id: IEEEStd8025c1991
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standards for Local and Metropolitan Area Networks: Supplement to
+    Token Ring Access Method and Physical Layer Specifications: Recommended Practice
+    for Dual Ring Operation with Wrapback Reconfiguration'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/182758
+docidentifier:
+- content: IEEE Std 802.5c-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.5c®-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0301-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1991.106961
+  type: DOI
+docnumber: IEEE Std 802.5c-1991
+date:
+- type: created
+  at: '1991'
+- type: published
+  at: '2019-04-09'
+- type: issued
+  at: '1991-03-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This IEEE Standards product is part of the 802 family on LAN/MAN. Extensions
+    to the IEEE 802.5 Token-Passing Ring standard are defined. These extensions implement
+    a Dual Ring local area network (LAN) topology that provides full interoperability
+    between stations conforming to IEEE Std 802.5, including coexistence on the same
+    ring, and recovery from all single media failures with full capability restored.
+    The Dual Ring Topology and operation described are intended for applications that
+    require very high availability and recovery from media and station failures.
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.5-1989
+    docidentifier:
+    - content: IEEE Std 802.5-1989
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Token networks
+  - language: en
+    script: Latn
+    content: token
+  - language: en
+    script: Latn
+    content: ring
+  - language: en
+    script: Latn
+    content: configuration
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.10
+    text: Physical layer
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

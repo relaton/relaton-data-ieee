@@ -1,0 +1,162 @@
+---
+id: IEEEStd13942008Redline
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for a High-Performance Serial Bus
+  type: title-main
+- content: IEEE Standard for a High-Performance Serial Bus - Redline
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5978170
+docidentifier:
+- content: IEEE Std 1394-2008 Redline
+  type: IEEE
+  primary: true
+- content: IEEE Std 1394™-2008 Redline
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6912-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2008.5978170
+  type: DOI
+docnumber: IEEE Std 1394-2008 Redline
+date:
+- type: created
+  at: '2008-10-21'
+- type: published
+  at: '2013-08-15'
+- type: issued
+  at: '2008-06-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard provides specifications for a high-speed serial bus that
+    supports both asynchronous and isochronous communication and integrates well with
+    most IEEE standard 32-bit and 64-bit parallel buses. It is intended to provide
+    a low-cost interconnect between cards on the same backplane, cards on other backplanes,
+    and external peripherals. Interfaces to longer distance transmission media [such
+    as unshielded twisted pair (UTP), optical fiber, and plastic optical fiber (POF)]
+    allow the interconnection to be extended throughout a local network. This standard
+    follows the command and status register (CSR) architecture of IEEE Std 1212-2001.
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: High performance computing
+  - language: en
+    script: Latn
+    content: Universal Serial Bus
+  - language: en
+    script: Latn
+    content: Asynchronous transfer mode
+  - language: en
+    script: Latn
+    content: Optical fiber communication
+  - language: en
+    script: Latn
+    content: 1394-2008
+  - language: en
+    script: Latn
+    content: asynchronous
+  - language: en
+    script: Latn
+    content: bus
+  - language: en
+    script: Latn
+    content: computers
+  - language: en
+    script: Latn
+    content: high-speed serial bus
+  - language: en
+    script: Latn
+    content: interconnect
+  - language: en
+    script: Latn
+    content: isochronous
+  - language: en
+    script: Latn
+    content: optical fiber
+  - language: en
+    script: Latn
+    content: plastic optical fiber
+  - language: en
+    script: Latn
+    content: POF
+  - language: en
+    script: Latn
+    content: unshielded twisted pair
+  - language: en
+    script: Latn
+    content: UTP
+  - language: en
+    script: Latn
+    content: firewire (TM)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: redline
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,148 @@
+---
+id: IEEEP2752D52023
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Guide for Multi-Point Grounding System of Trains in Electrified
+    Railway
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10053673
+docidentifier:
+- content: IEEE P2752/D-5-2023
+  type: IEEE
+  primary: true
+- content: IEEE P2752™/D-5-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9487-8
+  type: ISBN
+docnumber: IEEE P2752/D-5-2023
+date:
+- type: created
+  at: '2023-02-23'
+- type: published
+  at: '2023-02-24'
+- type: issued
+  at: '2023-06-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Traction Power Systems Standards Committee of the IEEE Vehicular
+          Technology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Multi-point mobile grounding system plays a critical role in providing
+    safer power supply for electrified railway as the unique pathway of traction power
+    reflux. The multi-point mobile grounding system of electrified railway contains
+    two types of grounding modes--working grounding and protective grounding. However,
+    along with the traction power increasing, it is possible that the traction current
+    discharged by the working grounding flows through the neighboring protective grounding
+    points and back to the vehicle bodies. This vehicle body (VB) current may flee
+    through other protective grounding points back to the rail again during the dynamic
+    process of the vehicles, forming as the current reflux phenomenon. This VB current
+    reflux may directly result in thermal surge in the partial part of train bodies,
+    or cause the contact potential of vehicle bodies, which may interfere or even
+    burn the low-voltage control systems or on-board sensors. Apart from threatening
+    the on-board equipment, the uneven distribution of reflux locating at each wheel
+    set of carriage may also result in the erosion of the isolated joint of rail or
+    even shorten the life span of carbon brush contacting with the axles of grounding
+    wheels. The design and requirement of grounding system for vehicles operation
+    in electrified railway is applied in this guide.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Grounding
+  - language: en
+    script: Latn
+    content: Rail transportation
+  - language: en
+    script: Latn
+    content: Railway electrification
+  - language: en
+    script: Latn
+    content: Voltage control
+  - language: en
+    script: Latn
+    content: current reflux
+  - language: en
+    script: Latn
+    content: IEEE 2752&#8482;
+  - language: en
+    script: Latn
+    content: multi-point mobile grounding system
+  - language: en
+    script: Latn
+    content: overvoltage
+  - language: en
+    script: Latn
+    content: transient potential
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.280'
+    text: Electric traction equipment
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

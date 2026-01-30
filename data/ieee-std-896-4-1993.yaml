@@ -1,0 +1,141 @@
+---
+id: IEEEStd89641993
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Conformance Test Requirements for Futurebus+(R)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/392558
+docidentifier:
+- content: IEEE Std 896.4-1993
+  type: IEEE
+  primary: true
+- content: IEEE Std 896.4™-1993
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3038-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1994.121432
+  type: DOI
+docnumber: IEEE Std 896.4-1993
+date:
+- type: created
+  at: '1994-06-01'
+- type: published
+  at: '2019-04-09'
+- type: issued
+  at: '1993-09-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A suite of abstract test cases for verifying the conformance of products
+    based on the Futurebus+ family of standards and a means of selecting the exact
+    set of test cases necessary for testing any given product are provided. The test
+    suite is abstract in that it was not created with a specific test environment
+    in mind. It can be effectively used in conjunction with logic simulators during
+    product development as well as with physical testers after prototype or production
+    units are available. This standard is intended for use by Futurebus+ product suppliers
+    and users and by independent test labs. Consistent use of this standard should
+    promote comparability and, therefore, mutual recognition of test results produced
+    by different testers.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: Information processing
+  - language: en
+    script: Latn
+    content: AEP
+  - language: en
+    script: Latn
+    content: block copy
+  - language: en
+    script: Latn
+    content: interactive BICS
+  - language: en
+    script: Latn
+    content: Implementation under test (IUT)
+  - language: en
+    script: Latn
+    content: BIXIT proforma
+  - language: en
+    script: Latn
+    content: BICS proforma
+  - language: en
+    script: Latn
+    content: Application environment profile
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

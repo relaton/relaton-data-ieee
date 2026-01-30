@@ -1,0 +1,198 @@
+---
+id: IEEEP802fD23202307
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks: Overview
+    and Architecture Amendment 3: YANG Data Model for EtherTypes'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10201393
+docidentifier:
+- content: IEEE P802f/D-2.3-2023-07
+  type: IEEE
+  primary: true
+- content: IEEE P802f™/D-2.3-2023-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9966-8
+  type: ISBN
+docnumber: IEEE P802f/D-2.3-2023-07
+date:
+- type: created
+  at: '2023-07-31'
+- type: published
+  at: '2023-08-01'
+- type: issued
+  at: '2023-09-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The YANG module containing the EtherType information, including a compact
+    humanreadable name and description, for a subset of EtherTypes taken from the
+    IEEE Registration Authority EtherType public listing is specified in this amendment.
+    This amendment also addresses errors and omissions in IEEE Std 802 description
+    of existing functionality.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802-2014
+    docidentifier:
+    - content: IEEE Std 802-2014
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Regional area networks
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Body area networks
+  - language: en
+    script: Latn
+    content: Personal area networks
+  - language: en
+    script: Latn
+    content: Network architecture
+  - language: en
+    script: Latn
+    content: BANs
+  - language: en
+    script: Latn
+    content: body area networks
+  - language: en
+    script: Latn
+    content: EtherTypes
+  - language: en
+    script: Latn
+    content: IEEE 802&#174;
+  - language: en
+    script: Latn
+    content: IEEE 802f&#8482;
+  - language: en
+    script: Latn
+    content: IEEE 802 architecture
+  - language: en
+    script: Latn
+    content: IEEE 802 reference model
+  - language: en
+    script: Latn
+    content: LANs
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: MANs
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: object identifiers
+  - language: en
+    script: Latn
+    content: PANs
+  - language: en
+    script: Latn
+    content: personal area networks
+  - language: en
+    script: Latn
+    content: RANs
+  - language: en
+    script: Latn
+    content: regional area networks
+  - language: en
+    script: Latn
+    content: protocol development
+  - language: en
+    script: Latn
+    content: protocol types
+  - language: en
+    script: Latn
+    content: YANG
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

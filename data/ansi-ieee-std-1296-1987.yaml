@@ -1,0 +1,136 @@
+---
+id: ANSIIEEEStd12961987
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for a High-Performance Synchronous 32-Bit Bus: MULTIBUS
+    II'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/26494
+docidentifier:
+- content: ANSI/IEEE Std 1296-1987
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 1296™-1987
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3153-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1988.122654
+  type: DOI
+docnumber: ANSI/IEEE Std 1296-1987
+date:
+- type: created
+  at: '1988-08-03'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1987-06-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The operation, functions, and attributes of a parallel system bus (PSB),
+    called MULTIBUS II, are defined. A high- performance backplane bus intended for
+    use in multiple-microprocessor systems, the PSB incorporates synchronous, 32-bit
+    multiplexed address/data, with error detection, and uses a 10 MHz bus clock. This
+    design is intended to provide reliable state- of-the-art operation and to allow
+    the implementation of cost-effective high-performance VLSI for the bus interface.
+    Memory, I/O, message, and geographic address spaces are defined. Error detection
+    and retry is provided for messages. The message-passing design allows a VLSI implementation,
+    so that virtually all modules on the bus will utilize the bus at its highest performance32
+    to 40 Mbyte/s. An overview of PSB, signal descriptions, the PSB protocol, electrical
+    characteristics, and mechanical specifications are covered. This document also
+    contains IEEE Std 1101-1987, IEEE Standard for Mechanical Core Specifications
+    for Microcomputers.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1988'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Computer interfaces
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: high
+  - language: en
+    script: Latn
+    content: performance
+  - language: en
+    script: Latn
+    content: '32'
+  - language: en
+    script: Latn
+    content: bit
+  - language: en
+    script: Latn
+    content: bus
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,154 @@
+---
+id: IEEEP1107310406D10201107
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Health informatics - Personal health device communication
+    - Device specialization - Basic Electrocardiograph(ECG) (1 to 3-lead ECG)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5967856
+docidentifier:
+- content: IEEE P11073.10406/D-10-2011-07
+  type: IEEE
+  primary: true
+- content: IEEE P11073.10406™/D-10-2011-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6579-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.5967856
+  type: DOI
+docnumber: IEEE P11073.10406/D-10-2011-07
+date:
+- type: created
+  at: '2011-07-28'
+- type: published
+  at: '2011-07-29'
+- type: issued
+  at: '2011-07-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073TM Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, this standard establishes a normative definition of the communication
+    between personal basic electrocardiograph (ECG) devices and managers (e.g. cell
+    phones, personal computers, personal health appliances, set top boxes) in a manner
+    that enables plug-and-play interoperability. It leverages appropriate portions
+    of existing standards including ISO/IEEE 11073 terminology and IEEE Std 11073-20601
+    information models. It specifies the use of specific term codes, formats, and
+    behaviors in telehealth environments restricting optionality in base frameworks
+    in favor of interoperability. This standard defines a common core of communication
+    functionality for personal telehealth basic ECG (1 to 3-lead ECG) devices. Monitoring
+    ECG devices are distinguished from diagnostic ECG equipment with respect to: including
+    support for wearable ECG devices; limiting the number of leads supported by the
+    equipment to three; not requiring the capability of annotating or analyzing the
+    detected electrical activity to determine known cardiac phenomena. This standard
+    is consistent with the base framework and allows multi-function implementations
+    by following multiple device specializations (e.g., ECG and respiration rate).'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Bioinformatics
+  - language: en
+    script: Latn
+    content: Informatics
+  - language: en
+    script: Latn
+    content: Biomedical equipment
+  - language: en
+    script: Latn
+    content: Biomedical informatics
+  - language: en
+    script: Latn
+    content: Medical services
+  - language: en
+    script: Latn
+    content: Electrocardiography
+  - language: en
+    script: Latn
+    content: Cardiography
+  - language: en
+    script: Latn
+    content: Basic ECG (1 to 3-lead ECG)
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: personal health devices
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  - code: 11.040.55
+    text: Diagnostic equipment
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,182 @@
+---
+id: IEEEP8021CBcvD21202109
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Approved Draft Standard for Local and metropolitan area networks
+    -- Frame Replication and Elimination for Reliability - Amendment 1: Information
+    Model, YANG Data Model and Management Information Base Module'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9552639
+docidentifier:
+- content: IEEE P802.1CBcv/D-2.1-2021-09
+  type: IEEE
+  primary: true
+- content: IEEE P802.1CBcv™/D-2.1-2021-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8029-1
+  type: ISBN
+docnumber: IEEE P802.1CBcv/D-2.1-2021-09
+date:
+- type: created
+  at: '2021-12-13'
+- type: published
+  at: '2021-09-29'
+- type: issued
+  at: '2021-12-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment specifies YANG data models and MIB modules that allow configuration
+    and status reporting for bridges and end systems with the capabilities for Frame
+    Replication and Elimination for Reliability (FRER) and Stream identification.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.1CB-2017
+    docidentifier:
+    - content: IEEE Std 802.1CB-2017
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Management information base
+  - language: en
+    script: Latn
+    content: Data models
+  - language: en
+    script: Latn
+    content: Replicability
+  - language: en
+    script: Latn
+    content: Bridged Local Area Networks
+  - language: en
+    script: Latn
+    content: Bridges
+  - language: en
+    script: Latn
+    content: Bridging
+  - language: en
+    script: Latn
+    content: Frame Elimination
+  - language: en
+    script: Latn
+    content: Frame Replication
+  - language: en
+    script: Latn
+    content: IEEE 802
+  - language: en
+    script: Latn
+    content: IEEE 802.1CB
+  - language: en
+    script: Latn
+    content: IEEE 802.1Q
+  - language: en
+    script: Latn
+    content: local area networks (LANs)
+  - language: en
+    script: Latn
+    content: MAC Bridges
+  - language: en
+    script: Latn
+    content: Redundancy
+  - language: en
+    script: Latn
+    content: Time-Sensitive Networking
+  - language: en
+    script: Latn
+    content: TSN
+  - language: en
+    script: Latn
+    content: Virtual Bridged Local Area Networks (virtual LANs)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.25
+    text: Manufacturing engineering (Vocabularies)
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

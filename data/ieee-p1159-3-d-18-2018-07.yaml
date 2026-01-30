@@ -1,0 +1,160 @@
+---
+id: IEEEP11593D18201807
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Recommended Practice for Power Quality Data Interchange Format
+    (PQDIF)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8419804
+docidentifier:
+- content: IEEE P1159.3/D-18-2018-07
+  type: IEEE
+  primary: true
+- content: IEEE P1159.3™/D-18-2018-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5085-0
+  type: ISBN
+docnumber: IEEE P1159.3/D-18-2018-07
+date:
+- type: created
+  at: '2018-07-24'
+- type: published
+  at: '2018-07-25'
+- type: issued
+  at: '2019-02-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A file format suitable for exchanging power quality related measurement
+    and simulation data in a vendor independent manner is defined in this recommended
+    practice. The format is designed to represent all power quality phenomena identified
+    in IEEE Std 1159-2009, IEEE Recommended Practice on Monitoring Electric Power
+    Quality, other power related measurement data, and is extensible to other data
+    types as well. The recommended file format utilizes a highly compressed storage
+    scheme to help reduce disk space and transmission times. The utilization of Globally
+    Unique Identifiers (GUID) to represent each element in the file permits the format
+    to be extensible without the need for a central registration authority.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1159.3-2003
+    docidentifier:
+    - content: IEEE Std 1159.3-2003
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Power distribution
+  - language: en
+    script: Latn
+    content: Monitoring
+  - language: en
+    script: Latn
+    content: Power measurement
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Power quality
+  - language: en
+    script: Latn
+    content: data interchange
+  - language: en
+    script: Latn
+    content: file format
+  - language: en
+    script: Latn
+    content: IEEE 1159.3
+  - language: en
+    script: Latn
+    content: measurement
+  - language: en
+    script: Latn
+    content: monitoring
+  - language: en
+    script: Latn
+    content: power quality
+  - language: en
+    script: Latn
+    content: PQDIF
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

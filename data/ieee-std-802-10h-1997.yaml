@@ -1,0 +1,140 @@
+---
+id: IEEEStd80210h1997
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Secure Data Exchange (SDE) - Protocol Implementation Conformance
+    Statement (PICS) Proforma (Annex 2L)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/590311
+docidentifier:
+- content: IEEE Std 802.10h-1997
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.10h®-1997
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4724-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1997.82403
+  type: DOI
+docnumber: IEEE Std 802.10h-1997
+date:
+- type: created
+  at: '1997-05-27'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1997-03-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Withdrawn Jan 16, 2004. The secure data exchange (SDE) protocol implementation
+    conformance statement (PICS) proforma is provided. The SDE PICS proforma defines
+    the information to be supplied by protocol implementors claiming conformance with
+    IEEE Std 802.10, Clause 2, Secure Data Exchange (SDE).
+copyright:
+- from: '1997'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.10-1992
+    docidentifier:
+    - content: IEEE Std 802.10-1992
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: proforma
+  - language: en
+    script: Latn
+    content: protocol implementation
+  - language: en
+    script: Latn
+    content: conformance statement
+  - language: en
+    script: Latn
+    content: secure data exchange
+  - language: en
+    script: Latn
+    content: security association
+  - language: en
+    script: Latn
+    content: security protocol
+  - language: en
+    script: Latn
+    content: security services
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

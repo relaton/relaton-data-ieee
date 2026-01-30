@@ -1,0 +1,161 @@
+---
+id: IEEEStd8021X2004
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Local and metropolitan area networks - Port-Based Network
+    Access Control
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1438730
+docidentifier:
+- content: IEEE Std 802.1X-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1X®-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4529-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.96095
+  type: DOI
+docnumber: IEEE Std 802.1X-2004
+date:
+- type: created
+  at: '2004-12-13'
+- type: published
+  at: '2015-10-15'
+- type: issued
+  at: '2004-11-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Revision of IEEE Std 802.1X-2001 Port-based network access control makes
+    use of the physical access characteristics of IEEE 802 Local Area Networks (LAN)
+    infrastructures in order to provide a means of authenticating and authorizing
+    devices attached to a LAN port that has point-to-point connection characteristics,
+    and of preventing access to that port in cases in which the authentication and
+    authorization process fails.
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.1X-2001
+    docidentifier:
+    - content: IEEE Std 802.1X-2001
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Unapproved Std P802.1af/D-1.7-2007-11
+    docidentifier:
+    - content: IEEE Unapproved Std P802.1af/D-1.7-2007-11
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Access control
+  - language: en
+    script: Latn
+    content: Licenses
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: authorization
+  - language: en
+    script: Latn
+    content: controlled port
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: port access control
+  - language: en
+    script: Latn
+    content: uncontrolled port
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

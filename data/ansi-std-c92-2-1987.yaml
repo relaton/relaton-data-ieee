@@ -1,0 +1,125 @@
+---
+id: ANSIStdC9221987
+type: standard
+schema_version: v1.4.1
+title:
+- content: American National Standard for Power Systems - Alternating-Current Electrical
+    Systems and Equipment Operating at Voltages Above 230 kV Nominal-Preferred Voltage
+    Ratings
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/29051
+docidentifier:
+- content: ANSI Std C92.2-1987
+  type: IEEE
+  primary: true
+- content: ANSI Std C92.2™-1987
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0682-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1987.81534
+  type: DOI
+docnumber: ANSI Std C92.2-1987
+date:
+- type: created
+  at: '1987-12-21'
+- type: published
+  at: '2016-01-21'
+- type: issued
+  at: '1987'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Surge Protective Devices/High Voltage of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard supersedes ANSI C92.2-1981, Preferred Voltage Ratings for
+    Alternating-Current Electrical Systems and Equipment Operating at Voltages Above
+    230 kV Nominal. Preferred maximum voltage ratings provide guidance in the development
+    and design of these systems and equipment. Preferred nominal voltage ratings are
+    included to provide consistent standard designations for electrical systems in
+    the extra-high and ultra-high voltage classes. This standard includes preferred
+    voltage ratings up to and including 1200 kV maximum system voltage, as defined
+    in the standard. Above this value, additional research and development work is
+    needed before standard voltage levels can be specified. It is expected that the
+    next voltage level to be established will be as high as is technically and economically
+    feasible at the time that it is introduced.
+copyright:
+- from: '1987'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1312-1993
+    docidentifier:
+    - content: IEEE Std 1312-1993
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Power systems
+  - language: en
+    script: Latn
+    content: Standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

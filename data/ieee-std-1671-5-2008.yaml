@@ -1,0 +1,172 @@
+---
+id: IEEEStd167152008
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Automatic Test Markup Language (ATML) for Exchanging
+    Automatic Test Information via XML:Exchanging Test Adapter Information
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6781503
+docidentifier:
+- content: IEEE Std 1671.5-2008
+  type: IEEE
+  primary: true
+- content: IEEE Std 1671.5™-2008
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8166-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2012.6781503
+  type: DOI
+docnumber: IEEE Std 1671.5-2008
+date:
+- type: created
+  at: '2012-02-01'
+- type: published
+  at: '2014-04-01'
+- type: issued
+  at: '2008-09-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An exchange format, utilizing XML, for identifying all of the hardware,
+    software, and documentation associated with a test station is specified in this
+    document. This test station may be used as a component of a test program set to
+    test and diagnose a unit under test.
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1671.5-2015
+    docidentifier:
+    - content: IEEE Std 1671.5-2015
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1671.5-2015
+    docidentifier:
+    - content: IEEE Std 1671.5-2015
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1671.5-2015
+    docidentifier:
+    - content: IEEE Std 1671.5-2015
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Markup languages
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: Automatic test equipment
+  - language: en
+    script: Latn
+    content: Test requirements
+  - language: en
+    script: Latn
+    content: 1671.5-2008
+  - language: en
+    script: Latn
+    content: ATML instance document
+  - language: en
+    script: Latn
+    content: automatic test equipment (ATE)
+  - language: en
+    script: Latn
+    content: Automatic Test Markup Language (ATML)
+  - language: en
+    script: Latn
+    content: automatic test system (ATS)
+  - language: en
+    script: Latn
+    content: interface device (ID)
+  - language: en
+    script: Latn
+    content: interface test adapter (ITA)
+  - language: en
+    script: Latn
+    content: test adapter
+  - language: en
+    script: Latn
+    content: test fixture
+  - language: en
+    script: Latn
+    content: XML schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.30
+    text: IT applications in information, documentation and publishing
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

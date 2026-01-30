@@ -1,0 +1,146 @@
+---
+id: IEEEStd136412002
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Verilog Register Transfer Level Synthesis
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1146718
+docidentifier:
+- content: IEEE Std 1364.1-2002
+  type: IEEE
+  primary: true
+- content: IEEE Std 1364.1™-2002
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3502-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2002.94220
+  type: DOI
+docnumber: IEEE Std 1364.1-2002
+date:
+- type: created
+  at: '2002-12-18'
+- type: published
+  at: '2019-05-01'
+- type: issued
+  at: '2002-12-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEC/IEEE 62142-2005. To develop a standard syntax and semantics
+    for Verilog RTL synthesis. This standard shall define the subset of IEEE 1364
+    (Verilog HDL) which is suitable for RTL synthesis and shall define the semantics
+    of that subset for the synthesis domain. This standard shall be based on the current
+    existing standard IEEE 1364. To define syntax and semantics which can be used
+    in common by all compliant RTL synthesis tools to achieve uniformity of results
+    in a similar manner to which simulation tools currently use the IEEE 1364 standard.
+    This will allow users of synthesis tools to produce well-defined designs whose
+    functional characteristics are independent of any particular synthesis implementation
+    by making their design compliant with this developed standard. Standard syntax
+    and semantics for Verilog &#174; HDL-based RTL synthesis are described inthis
+    standard.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Hardware design languages
+  - language: en
+    script: Latn
+    content: Syntactics
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Semantics
+  - language: en
+    script: Latn
+    content: Registers
+  - language: en
+    script: Latn
+    content: hardware description language
+  - language: en
+    script: Latn
+    content: HDL
+  - language: en
+    script: Latn
+    content: RTL
+  - language: en
+    script: Latn
+    content: synthesis
+  - language: en
+    script: Latn
+    content: Verilog &#174;
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

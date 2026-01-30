@@ -1,0 +1,145 @@
+---
+id: IEEEP519D51202101
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Harmonic Control in Electric Power Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9420467
+docidentifier:
+- content: IEEE P519/D-5.1-2021-01
+  type: IEEE
+  primary: true
+- content: IEEE P519™/D-5.1-2021-01
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-7622-5
+  type: ISBN
+docnumber: IEEE P519/D-5.1-2021-01
+date:
+- type: created
+  at: '2021-04-29'
+- type: published
+  at: '2021-04-30'
+- type: issued
+  at: '2021'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Goals for the design of electrical systems that include both linear and
+    nonlinear loads are established in this standard. The voltage and current waveforms
+    that may exist throughout the system are described, and waveform distortion goals
+    for the system designer are established. The interface between sources and loads
+    is described as the point of common coupling and observance of the design goals
+    will reduce interference between electrical equipment. This standard addresses
+    steady-state limitations. Transient conditions exceeding these limitations may
+    be encountered. This document sets the quality of power that is to be provided
+    at the point of common coupling. This document does not cover the effects of radio-frequency
+    interference; however, guidance is offered for wired telephone systems
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 519-2014
+    docidentifier:
+    - content: IEEE Std 519-2014
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Power system harmonics
+  - language: en
+    script: Latn
+    content: Harmonic analysis
+  - language: en
+    script: Latn
+    content: Power system reliability
+  - language: en
+    script: Latn
+    content: Power quality
+  - language: en
+    script: Latn
+    content: harmonics
+  - language: en
+    script: Latn
+    content: IEEE 519&#8482;
+  - language: en
+    script: Latn
+    content: power quality
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '27.100'
+    text: Power stations in general
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

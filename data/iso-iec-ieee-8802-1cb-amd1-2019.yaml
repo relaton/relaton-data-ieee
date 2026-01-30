@@ -1,0 +1,201 @@
+---
+id: ISOIECIEEE88021CBAmd12019
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEC/IEEE International Standard--Information technology--Telecommunications
+    and information exchange between systems--Local and metropolitan area networks--Specific
+    requirements--Part 1CB: Frame replication and elimination for reliability AMENDMENT
+    1: Information model, YANG data model, and management information base module'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10056775
+docidentifier:
+- content: ISO/IEC/IEEE 8802.1CB/Amd1-2019
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 8802.1CB™/Amd1-2019
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9483-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10056775
+  type: DOI
+docnumber: ISO/IEC/IEEE 8802.1CB/Amd1-2019
+date:
+- type: created
+  at: '2023-02-28'
+- type: published
+  at: '2023-02-28'
+- type: issued
+  at: '2023'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment specifies YANG data models and MIB modules that allow configuration
+    and status reporting for bridges and end systems with the capabilities for Frame
+    Replication and Elimination for Reliability (FRER) and Stream identification.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: ISO/IEC/IEEE 8802.1CB-2019
+    docidentifier:
+    - content: ISO/IEC/IEEE 8802.1CB-2019
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Management information base
+  - language: en
+    script: Latn
+    content: Data models
+  - language: en
+    script: Latn
+    content: Urban areas
+  - language: en
+    script: Latn
+    content: Bridged Local Area Networks
+  - language: en
+    script: Latn
+    content: Bridges
+  - language: en
+    script: Latn
+    content: Bridging
+  - language: en
+    script: Latn
+    content: Frame Elimination
+  - language: en
+    script: Latn
+    content: Frame Replication
+  - language: en
+    script: Latn
+    content: IEEE 802
+  - language: en
+    script: Latn
+    content: IEEE 802.1CB
+  - language: en
+    script: Latn
+    content: IEEE 802.1Q
+  - language: en
+    script: Latn
+    content: local area networks (LANs)
+  - language: en
+    script: Latn
+    content: MAC Bridges
+  - language: en
+    script: Latn
+    content: Redundancy
+  - language: en
+    script: Latn
+    content: Time-Sensitive Networking
+  - language: en
+    script: Latn
+    content: TSN
+  - language: en
+    script: Latn
+    content: Virtual Bridged Local Area Networks (virtual LANs)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,130 @@
+---
+id: IEEEP1107300103D07201102
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Guide for Health Informatics - Personal Health Device Communication
+    - Overview
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5724247
+docidentifier:
+- content: IEEE P11073.00103/D-07-2011-02
+  type: IEEE
+  primary: true
+- content: IEEE P11073.00103™/D-07-2011-02
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6596-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.5724247
+  type: DOI
+docnumber: IEEE P11073.00103/D-07-2011-02
+date:
+- type: created
+  at: '2011-03-02'
+- type: published
+  at: '2011-03-03'
+- type: issued
+  at: '2011-03-02'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073TM Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, this guide describes the landscape of transport-independent applications
+    and information profiles for personal telehealth devices. These profiles define
+    data exchange, data representation, and terminology for communication between
+    personal telehealth devices and compute engines (e.g. health appliances, set top
+    boxes, cell phones, personal computers). The guide provides a definition of personal
+    telehealth devices as devices used for life activity, wellness monitoring, and/or
+    health monitoring in domestic home, communal home, and/or mobile applications.
+    Use cases relevant to these scenarios and environments are also presented.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Bioinformatics
+  - language: en
+    script: Latn
+    content: Informatics
+  - language: en
+    script: Latn
+    content: Medical services
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: personal health devices
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

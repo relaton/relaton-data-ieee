@@ -1,0 +1,177 @@
+---
+id: IEC615234
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE/IEC International Standard - Design and Verification of Low-Power
+    Integrated Circuits
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7076554
+docidentifier:
+- content: IEC 61523.4
+  type: IEEE
+  primary: true
+- content: IEC 61523.4™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-2-8322-2266-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2015.7076554
+  type: DOI
+docnumber: IEC 61523.4
+date:
+- type: created
+  at: '2015-03-24'
+- type: published
+  at: '2015-04-01'
+- type: issued
+  at: '2015-04-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A method is provided for specifying power intent for an electronic design,
+    for use inverification of the structure and behavior of the design in the context
+    of a given power managementarchitecture, and for driving implementation of that
+    power management architecture. The methodsupports incremental refinement of power
+    intent specifications required for IP-based design flows.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Low power electronics
+  - language: en
+    script: Latn
+    content: Semantics
+  - language: en
+    script: Latn
+    content: Power modes
+  - language: en
+    script: Latn
+    content: Integrated circuits
+  - language: en
+    script: Latn
+    content: corruption semantics
+  - language: en
+    script: Latn
+    content: IEEE 1801
+  - language: en
+    script: Latn
+    content: interface specification
+  - language: en
+    script: Latn
+    content: IP reuse
+  - language: en
+    script: Latn
+    content: isolation
+  - language: en
+    script: Latn
+    content: level shifting
+  - language: en
+    script: Latn
+    content: power-aware design
+  - language: en
+    script: Latn
+    content: power domains
+  - language: en
+    script: Latn
+    content: power intent
+  - language: en
+    script: Latn
+    content: power modes
+  - language: en
+    script: Latn
+    content: power states
+  - language: en
+    script: Latn
+    content: progressive design refinement
+  - language: en
+    script: Latn
+    content: retention
+  - language: en
+    script: Latn
+    content: retention strategies
+  - language: en
+    script: Latn
+    content: IEC 61523-4
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

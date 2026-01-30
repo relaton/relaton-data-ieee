@@ -1,0 +1,179 @@
+---
+id: IEEEStd30692024
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Consumer AR/VR Handheld‐Controller Location
+    Technology Based on Active Infrared Optics
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10980133
+docidentifier:
+- content: IEEE Std 3069-2024
+  type: IEEE
+  primary: true
+- content: IEEE Std 3069™-2024
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2037-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2025.10980133
+  type: DOI
+docnumber: IEEE Std 3069-2024
+date:
+- type: created
+  at: '2025-04-30'
+- type: published
+  at: '2025-04-29'
+- type: issued
+  at: '2024-12-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Metaverse Standards Committee of the IEEE Consumer Technology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The test indicators (including the definition and description of the indicators
+    and the explanation of the equation), requirements (the range of the test results),
+    and methods (test environment) are described in this recommended practice, as
+    well as the test steps for each indicator of the six-degrees-of-freedom (6DoF)
+    active infrared optics augmented reality (AR)/virtual reality (VR) handheld-controller
+    space tracking technology. Based on the product usage scenarios of the AR/VR handheld-controller,
+    the test indicators are mainly divided into three categories: dynamic scene test,
+    static scene test, and extreme scene test, including the following:-Dynamic scene
+    test, simulating the actual user’s handheld-controller interaction scene: The
+    corresponding tests include absolute position/rotation error, translation/rotation
+    resolution, tracking system latency, and tracking range.-Static scene test, testing
+    the space tracking performance of the handheld-controller when it is stationary:
+    The corresponding tests include static position jitter and angle drift, maximum
+    translation jitter, and pose sampling frequency.-Extreme scene test, corresponding
+    to the handheld-controller space tracking capability in extreme scenes: The corresponding
+    tests include maximum ambient light intensity, minimum number of cameras, and
+    time delay of tracking lost/recover.'
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Augmented reality
+  - language: en
+    script: Latn
+    content: Personal digital devices
+  - language: en
+    script: Latn
+    content: Virtual reality
+  - language: en
+    script: Latn
+    content: 3-DOF
+  - language: en
+    script: Latn
+    content: 6-DOF
+  - language: en
+    script: Latn
+    content: Optical fiber communication
+  - language: en
+    script: Latn
+    content: Consumer electronics
+  - language: en
+    script: Latn
+    content: 3DoF
+  - language: en
+    script: Latn
+    content: 6DoF
+  - language: en
+    script: Latn
+    content: AR
+  - language: en
+    script: Latn
+    content: augmented reality
+  - language: en
+    script: Latn
+    content: handheld-controller
+  - language: en
+    script: Latn
+    content: head-mounted display
+  - language: en
+    script: Latn
+    content: HMD
+  - language: en
+    script: Latn
+    content: IEEE 3069
+  - language: en
+    script: Latn
+    content: six degrees of freedom
+  - language: en
+    script: Latn
+    content: three degrees of freedom
+  - language: en
+    script: Latn
+    content: virtual reality
+  - language: en
+    script: Latn
+    content: VR
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.180'
+    text: IT terminal and other peripheral equipment
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

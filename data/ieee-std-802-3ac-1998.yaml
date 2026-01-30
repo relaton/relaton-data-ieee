@@ -1,0 +1,152 @@
+---
+id: IEEEStd8023ac1998
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information technology - Telecommunications and information
+    exchange between systems - Local and metropolitan area networks - Specific requirements
+    Part 3: Carrier sense multiple access with collision detection (CSMA/CD) frame
+    extensions for Virtual Bridged Local Area Networks (VLAN) tagging on 802.3 networks'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/729403
+docidentifier:
+- content: IEEE Std 802.3ac-1998
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.3ac®-1998
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1422-4
+  type: ISBN
+- content: 10.1109/IEEESTD.1998.88570
+  type: DOI
+docnumber: IEEE Std 802.3ac-1998
+date:
+- type: created
+  at: '1998-11-06'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1998-09-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Changes and additions to IEEE standard 802.3, 1998 edition, to support
+    virtual bridged local area networks (VLANs) as specified in IEEE P802.1Q. draft
+    standard for local and metropolitan area networks: virtual bridged local area
+    networks, are provided. Incoporating IEEE Std 802.3, 1998 Edition, IEEE Std 802.3ac-1998,
+    IEEE Std 802.3ab-1999, and IEEE Std 802.3ad-2000.'
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.3-1985
+    docidentifier:
+    - content: ANSI/IEEE Std 802.3-1985
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: data processing
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: information interchange
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: management
+  - language: en
+    script: Latn
+    content: models
+  - language: en
+    script: Latn
+    content: mode of data transmission
+  - language: en
+    script: Latn
+    content: network interconnection
+  - language: en
+    script: Latn
+    content: repeater
+  - language: en
+    script: Latn
+    content: type field
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

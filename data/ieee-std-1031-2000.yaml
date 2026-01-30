@@ -1,0 +1,156 @@
+---
+id: IEEEStd10312000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for the Functional Specification of Transmission Static Var
+    Compensators
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1277892
+docidentifier:
+- content: IEEE Std 1031-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 1031™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1945-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.94439
+  type: DOI
+docnumber: IEEE Std 1031-2000
+date:
+- type: created
+  at: '2000-04-21'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2000-01-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Substations of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This guide documents an approach to preparing a specification for a transmission
+    static var compensator. The document is intended to serve as a base specification
+    with an informative annex provided to allow users to modify or develop specific
+    clauses to meet a particular application.
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1031-1991
+    docidentifier:
+    - content: IEEE Std 1031-1991
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Static VAr compensators
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Substations
+  - language: en
+    script: Latn
+    content: Thyristors
+  - language: en
+    script: Latn
+    content: Valves
+  - language: en
+    script: Latn
+    content: filters
+  - language: en
+    script: Latn
+    content: harmonics
+  - language: en
+    script: Latn
+    content: static var compensators
+  - language: en
+    script: Latn
+    content: static var system
+  - language: en
+    script: Latn
+    content: TCR
+  - language: en
+    script: Latn
+    content: thyristor valves
+  - language: en
+    script: Latn
+    content: TSC
+  - language: en
+    script: Latn
+    content: TSR
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 31.060.60
+    text: Variable capacitors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

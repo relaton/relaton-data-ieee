@@ -1,0 +1,171 @@
+---
+id: IEC625262007
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEC 62526 Ed. 1 (IEEE Std 1450.1(TM)-2005): Standard for Extensions to
+    Standard Test Interface Language (STIL) for Semiconductor Design Environments'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8671481
+docidentifier:
+- content: IEC 62526-2007
+  type: IEEE
+  primary: true
+- content: IEC 62526™-2007
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 9-7807-3815-7221
+  type: ISBN
+- content: 10.1109/IEEESTD.2007.8671481
+  type: DOI
+docnumber: IEC 62526-2007
+date:
+- type: created
+  at: '2007-12-09'
+- type: published
+  at: '2019-03-19'
+- type: issued
+  at: '2007'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Standard Test Interface Language (STIL) provides an interface between digital
+    test generation tools and test equipment. Extensions to the test interface language
+    (contained in this standard) are defined that (1) facilitate the use of the language
+    in the design environment and (2) facilitate the use of the language for large
+    designs encompassing subdesigns with reusable patterns.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Feedback
+  - language: en
+    script: Latn
+    content: Test equipment
+  - language: en
+    script: Latn
+    content: Semiconductor materials
+  - language: en
+    script: Latn
+    content: System-on-chip
+  - language: en
+    script: Latn
+    content: Test pattern generation
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: advanced scan architecture
+  - language: en
+    script: Latn
+    content: core
+  - language: en
+    script: Latn
+    content: environment
+  - language: en
+    script: Latn
+    content: fail feedback
+  - language: en
+    script: Latn
+    content: lockstep
+  - language: en
+    script: Latn
+    content: parallel patterns
+  - language: en
+    script: Latn
+    content: parameterized data
+  - language: en
+    script: Latn
+    content: pattern tiling
+  - language: en
+    script: Latn
+    content: pragma
+  - language: en
+    script: Latn
+    content: signal variable
+  - language: en
+    script: Latn
+    content: system on chip (SoC)
+  - language: en
+    script: Latn
+    content: test protocol
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

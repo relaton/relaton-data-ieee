@@ -1,0 +1,156 @@
+---
+id: IEEEStd42152005
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Excitation System Models for Power System
+    Stability Studies
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1626480
+docidentifier:
+- content: IEEE Std 421.5-2005
+  type: IEEE
+  primary: true
+- content: IEEE Std 421.5™-2005
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4787-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2006.99499
+  type: DOI
+docnumber: IEEE Std 421.5-2005
+date:
+- type: created
+  at: '2006-04-21'
+- type: published
+  at: '2016-07-08'
+- type: issued
+  at: '2005-10-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Energy Development &amp; Power Generation of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Excitation system models suitable for use in large-scale system stability
+    studies are presented. Important limiters and supplementary controls are also
+    included. The model structures presented are intended to facilitate the use of
+    field test data as a means of obtaining model parameters. The models are, however,
+    reduced order models and do not represent all of the control loops on any particular
+    system. The models are valid for frequency deviations of +/-5% from rated frequency
+    and oscillation frequencies up to 3 Hz. These models would not normally be adequate
+    for use in studies of subsynchronous resonance or other shaft torsional interaction
+    problems. Delayed protective and control features that may come into play in long
+    term dynamic performance studies are not represented. A sample set of data for
+    each of the models, for at least one particular application, is provided.
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 421.5-1992
+    docidentifier:
+    - content: IEEE Std 421.5-1992
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 421.5-2016
+    docidentifier:
+    - content: IEEE Std 421.5-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Power system stability
+  - language: en
+    script: Latn
+    content: Data models
+  - language: en
+    script: Latn
+    content: Resonant frequency
+  - language: en
+    script: Latn
+    content: Power engineering
+  - language: en
+    script: Latn
+    content: excitation limiters
+  - language: en
+    script: Latn
+    content: excitation systems
+  - language: en
+    script: Latn
+    content: power system stability
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.160.20
+    text: Generators
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

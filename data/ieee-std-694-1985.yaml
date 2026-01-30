@@ -1,0 +1,122 @@
+---
+id: IEEEStd6941985
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Microprocessor Assembly Language
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/29141
+docidentifier:
+- content: IEEE Std 694-1985
+  type: IEEE
+  primary: true
+- content: IEEE Std 694™-1985
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-2752-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1985.81632
+  type: DOI
+docnumber: IEEE Std 694-1985
+date:
+- type: created
+  at: '1985'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1985-03-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Technical Committee on Microcomputers and Microprocessors of the
+          IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The intent of this standard is to name a common set of instructions used
+    by most general purpose microprocessors, to provide rules for the naming of new
+    instructions and the derivation of new mnemonics, and to establish assembly language
+    conventions and syntax. It is intended to be used as a basis for microprocessor
+    assembler specification. This standard sets forth the functional definitions and
+    corresponding mnemonics for microprocessor instructions. The specific set of instructions
+    differs for each type of processor. Likewise, the number of condition codes and
+    their setting and resetting is processor-dependent, and is not prescribed by this
+    standard. Each use of a particular microprocessor should be thoroughly conversant
+    with its operation and should make no a priori assumptions with regard to the
+    detailed behavior of its instructions.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1985'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Computer languages
+  - language: en
+    script: Latn
+    content: Computer instructions
+  - language: en
+    script: Latn
+    content: Standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

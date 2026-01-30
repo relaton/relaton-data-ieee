@@ -1,0 +1,685 @@
+---
+id: IEEEP11497D8202204
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Approved Draft Standard for Reduced-Pin and Enhanced-Functionality
+    Test Access Port and Boundary-Scan Architecture
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9762849
+docidentifier:
+- content: IEEE P1149.7/D-8-2022-04
+  type: IEEE
+  primary: true
+- content: IEEE P1149.7™/D-8-2022-04
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8662-0
+  type: ISBN
+docnumber: IEEE P1149.7/D-8-2022-04
+date:
+- type: created
+  at: '2022-06-22'
+- type: published
+  at: '2022-04-25'
+- type: issued
+  at: '2022-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Circuitry that may be added to an integrated circuit to provide access
+    to on-chip Test Access Ports (TAPs) specified by IEEE Std 1149.1 is described
+    in this standard. The circuitry uses IEEE Std 1149.1 as its foundation, providing
+    complete backward compatibility, while aggressively adding features to support
+    test and applications debug. It defines six classes of IEEE 1149.7 Test Access
+    Ports (TAP.7s), T0 to T5, with each class providing incremental capability, building
+    on that of the lower level classes. Class T0 provides the behavior specified by
+    1149.1 from startup when there are multiple on-chip TAPs. Class T1 adds common
+    debug functions and features to minimize power consumption. Class T2 adds operating
+    modes that maximize scan performance. It also provides an optional hot-connection
+    capability to prevent system corruption when a connection is made to a powered
+    system. Class T3 supports operation in either a four-wire Series or Star Scan
+    Topology. Class T4 provides for communication with either a two-pin or four-pin
+    interface. The two-pin operation serializes IEEE 1149.1 transactions and provides
+    for higher Test Clock rates. Class T5 adds the ability to perform data transfers
+    concurrently with scan, supports utilization of functions other than scan, and
+    provides control of TAP.7 pins to custom debug technologies in a manner that ensures
+    current and future interoperability.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1149.7-2009
+    docidentifier:
+    - content: IEEE Std 1149.7-2009
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Data transfer
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Pins
+  - language: en
+    script: Latn
+    content: Boundary conditions
+  - language: en
+    script: Latn
+    content: 2-pin
+  - language: en
+    script: Latn
+    content: 2-wire
+  - language: en
+    script: Latn
+    content: 4-pin
+  - language: en
+    script: Latn
+    content: 4-wire
+  - language: en
+    script: Latn
+    content: Advanced Protocol
+  - language: en
+    script: Latn
+    content: Advanced Protocol Unit
+  - language: en
+    script: Latn
+    content: APU
+  - language: en
+    script: Latn
+    content: Background Data Transfer
+  - language: en
+    script: Latn
+    content: background data transport
+  - language: en
+    script: Latn
+    content: BDX
+  - language: en
+    script: Latn
+    content: boundary scan
+  - language: en
+    script: Latn
+    content: BSDL
+  - language: en
+    script: Latn
+    content: BSDL.1
+  - language: en
+    script: Latn
+    content: BSDL.7
+  - language: en
+    script: Latn
+    content: BYPASS
+  - language: en
+    script: Latn
+    content: Capture-IR
+  - language: en
+    script: Latn
+    content: CDX
+  - language: en
+    script: Latn
+    content: Chip-Level TAP Controller
+  - language: en
+    script: Latn
+    content: CID
+  - language: en
+    script: Latn
+    content: Class T0
+  - language: en
+    script: Latn
+    content: Class T1
+  - language: en
+    script: Latn
+    content: Class T2
+  - language: en
+    script: Latn
+    content: Class T3
+  - language: en
+    script: Latn
+    content: Class T4
+  - language: en
+    script: Latn
+    content: Class T5
+  - language: en
+    script: Latn
+    content: CLTAPC
+  - language: en
+    script: Latn
+    content: compact JTAG
+  - language: en
+    script: Latn
+    content: compliant behavior
+  - language: en
+    script: Latn
+    content: compliant operation
+  - language: en
+    script: Latn
+    content: control level
+  - language: en
+    script: Latn
+    content: controller address
+  - language: en
+    script: Latn
+    content: Controller ID
+  - language: en
+    script: Latn
+    content: Controller Identification Number
+  - language: en
+    script: Latn
+    content: CP
+  - language: en
+    script: Latn
+    content: Custom Data Transfer
+  - language: en
+    script: Latn
+    content: custom data transport
+  - language: en
+    script: Latn
+    content: Data Register
+  - language: en
+    script: Latn
+    content: debug interface
+  - language: en
+    script: Latn
+    content: debug logic
+  - language: en
+    script: Latn
+    content: debug and test interface
+  - language: en
+    script: Latn
+    content: DOT1
+  - language: en
+    script: Latn
+    content: DOT7
+  - language: en
+    script: Latn
+    content: DTI
+  - language: en
+    script: Latn
+    content: DTS
+  - language: en
+    script: Latn
+    content: DTT
+  - language: en
+    script: Latn
+    content: Debug Test System
+  - language: en
+    script: Latn
+    content: debug test target
+  - language: en
+    script: Latn
+    content: Escape
+  - language: en
+    script: Latn
+    content: EOT
+  - language: en
+    script: Latn
+    content: EPU
+  - language: en
+    script: Latn
+    content: extended operation
+  - language: en
+    script: Latn
+    content: Extended Protocol
+  - language: en
+    script: Latn
+    content: EXTEST
+  - language: en
+    script: Latn
+    content: four-pin
+  - language: en
+    script: Latn
+    content: four-wire
+  - language: en
+    script: Latn
+    content: HSDL
+  - language: en
+    script: Latn
+    content: HSDL.7
+  - language: en
+    script: Latn
+    content: IDCODE
+  - language: en
+    script: Latn
+    content: IEEE 1149.1
+  - language: en
+    script: Latn
+    content: IEEE 1149.7
+  - language: en
+    script: Latn
+    content: Instruction Register
+  - language: en
+    script: Latn
+    content: JScan
+  - language: en
+    script: Latn
+    content: JScan0
+  - language: en
+    script: Latn
+    content: JScan1
+  - language: en
+    script: Latn
+    content: JScan2
+  - language: en
+    script: Latn
+    content: JScan3
+  - language: en
+    script: Latn
+    content: JTAG
+  - language: en
+    script: Latn
+    content: MScan
+  - language: en
+    script: Latn
+    content: MTCP
+  - language: en
+    script: Latn
+    content: Multi-TAP Control Path
+  - language: en
+    script: Latn
+    content: narrow Star Scan Topology
+  - language: en
+    script: Latn
+    content: nTRST
+  - language: en
+    script: Latn
+    content: nTRST_PD
+  - language: en
+    script: Latn
+    content: optimized scan
+  - language: en
+    script: Latn
+    content: OScan
+  - language: en
+    script: Latn
+    content: OScan0
+  - language: en
+    script: Latn
+    content: OScan1
+  - language: en
+    script: Latn
+    content: OScan2
+  - language: en
+    script: Latn
+    content: OScan3
+  - language: en
+    script: Latn
+    content: OScan4
+  - language: en
+    script: Latn
+    content: OScan5
+  - language: en
+    script: Latn
+    content: OScan6
+  - language: en
+    script: Latn
+    content: OScan7
+  - language: en
+    script: Latn
+    content: Pause-DR
+  - language: en
+    script: Latn
+    content: Pause-IR
+  - language: en
+    script: Latn
+    content: PC0
+  - language: en
+    script: Latn
+    content: PC1
+  - language: en
+    script: Latn
+    content: RSU
+  - language: en
+    script: Latn
+    content: Reset and selection unit
+  - language: en
+    script: Latn
+    content: RTI
+  - language: en
+    script: Latn
+    content: Run- Test/Idle
+  - language: en
+    script: Latn
+    content: scan
+  - language: en
+    script: Latn
+    content: scan DR
+  - language: en
+    script: Latn
+    content: scan format
+  - language: en
+    script: Latn
+    content: scan IR
+  - language: en
+    script: Latn
+    content: Scan Packet
+  - language: en
+    script: Latn
+    content: scan path
+  - language: en
+    script: Latn
+    content: scan performance
+  - language: en
+    script: Latn
+    content: scan protocol
+  - language: en
+    script: Latn
+    content: scan topology
+  - language: en
+    script: Latn
+    content: series
+  - language: en
+    script: Latn
+    content: Series Branch
+  - language: en
+    script: Latn
+    content: Series Scan
+  - language: en
+    script: Latn
+    content: Series Scan Topology
+  - language: en
+    script: Latn
+    content: Series- Equivalent Scan
+  - language: en
+    script: Latn
+    content: Series Topology
+  - language: en
+    script: Latn
+    content: Shift-DR
+  - language: en
+    script: Latn
+    content: Shift-IR
+  - language: en
+    script: Latn
+    content: SiP
+  - language: en
+    script: Latn
+    content: Star Scan
+  - language: en
+    script: Latn
+    content: Star Scan Topology
+  - language: en
+    script: Latn
+    content: Star Topology
+  - language: en
+    script: Latn
+    content: Star-2
+  - language: en
+    script: Latn
+    content: Star-2 Branch
+  - language: en
+    script: Latn
+    content: Star-2 Scan
+  - language: en
+    script: Latn
+    content: Scan Topology
+  - language: en
+    script: Latn
+    content: Star-4
+  - language: en
+    script: Latn
+    content: Star-4 Branch
+  - language: en
+    script: Latn
+    content: Star- 4 Scan
+  - language: en
+    script: Latn
+    content: Star-4 Scan Topology
+  - language: en
+    script: Latn
+    content: SP
+  - language: en
+    script: Latn
+    content: SScan
+  - language: en
+    script: Latn
+    content: SScan0
+  - language: en
+    script: Latn
+    content: SScan1
+  - language: en
+    script: Latn
+    content: SScan2
+  - language: en
+    script: Latn
+    content: SScan3
+  - language: en
+    script: Latn
+    content: stall
+  - language: en
+    script: Latn
+    content: SSD
+  - language: en
+    script: Latn
+    content: Scan Selection Directive
+  - language: en
+    script: Latn
+    content: Standard Protocol
+  - language: en
+    script: Latn
+    content: star scan
+  - language: en
+    script: Latn
+    content: STL
+  - language: en
+    script: Latn
+    content: System Test Logic
+  - language: en
+    script: Latn
+    content: TAP
+  - language: en
+    script: Latn
+    content: TAP controller
+  - language: en
+    script: Latn
+    content: TAP controller address
+  - language: en
+    script: Latn
+    content: TAP selection
+  - language: en
+    script: Latn
+    content: TAP.1
+  - language: en
+    script: Latn
+    content: TAP.7
+  - language: en
+    script: Latn
+    content: TAPC
+  - language: en
+    script: Latn
+    content: TCA
+  - language: en
+    script: Latn
+    content: TCK
+  - language: en
+    script: Latn
+    content: TCKC
+  - language: en
+    script: Latn
+    content: TDI
+  - language: en
+    script: Latn
+    content: TDIC
+  - language: en
+    script: Latn
+    content: TDOC
+  - language: en
+    script: Latn
+    content: TDOE
+  - language: en
+    script: Latn
+    content: Test Access Port
+  - language: en
+    script: Latn
+    content: test and debug
+  - language: en
+    script: Latn
+    content: Test-Logic-Reset
+  - language: en
+    script: Latn
+    content: TLR
+  - language: en
+    script: Latn
+    content: TMSC
+  - language: en
+    script: Latn
+    content: Transport Packet
+  - language: en
+    script: Latn
+    content: T0
+  - language: en
+    script: Latn
+    content: T0 TAP.7
+  - language: en
+    script: Latn
+    content: T1
+  - language: en
+    script: Latn
+    content: T1 TAP.7
+  - language: en
+    script: Latn
+    content: T2
+  - language: en
+    script: Latn
+    content: T2 TAP.7
+  - language: en
+    script: Latn
+    content: T3
+  - language: en
+    script: Latn
+    content: T3 TAP.7
+  - language: en
+    script: Latn
+    content: T4
+  - language: en
+    script: Latn
+    content: T4 TAP.7
+  - language: en
+    script: Latn
+    content: T4(N)
+  - language: en
+    script: Latn
+    content: T4(N) TAP.7
+  - language: en
+    script: Latn
+    content: T4(W)
+  - language: en
+    script: Latn
+    content: T4(W) TAP.7
+  - language: en
+    script: Latn
+    content: T5
+  - language: en
+    script: Latn
+    content: T5 TAP.7
+  - language: en
+    script: Latn
+    content: T5(N)
+  - language: en
+    script: Latn
+    content: T5(N) TAP.7
+  - language: en
+    script: Latn
+    content: T5(W)
+  - language: en
+    script: Latn
+    content: T5(W) TAP.7
+  - language: en
+    script: Latn
+    content: TP
+  - language: en
+    script: Latn
+    content: two-pin
+  - language: en
+    script: Latn
+    content: two-wire
+  - language: en
+    script: Latn
+    content: Update-DR
+  - language: en
+    script: Latn
+    content: Update-IR
+  - language: en
+    script: Latn
+    content: ZBS
+  - language: en
+    script: Latn
+    content: zero bit scan
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

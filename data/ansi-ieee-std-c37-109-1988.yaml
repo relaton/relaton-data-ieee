@@ -1,0 +1,134 @@
+---
+id: ANSIIEEEStdC371091988
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for the Protection of Shunt Reactors
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/89878
+docidentifier:
+- content: ANSI/IEEE Std C37.109-1988
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std C37.109™-1988
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0905-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1989.94807
+  type: DOI
+docnumber: ANSI/IEEE Std C37.109-1988
+date:
+- type: created
+  at: '1989-12-22'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1988-10-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This IEEE Standards product is part of the C37 family on Switchgear, Substations
+    and Protective Relays. This standard discusses the protection of shunt reactors
+    used typically to compensate for capacitive shunt reactance of transmission lines.
+    The more common circuit arrangements and protective relaying schemes presently
+    in use are discussed and illustrated.
+copyright:
+- from: '1989'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.109-2006
+    docidentifier:
+    - content: IEEE Std C37.109-2006
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Compensation
+  - language: en
+    script: Latn
+    content: Power transmission lines
+  - language: en
+    script: Latn
+    content: Inductors
+  - language: en
+    script: Latn
+    content: Protective relaying
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: reactor
+  - language: en
+    script: Latn
+    content: shunt
+  - language: en
+    script: Latn
+    content: protection
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

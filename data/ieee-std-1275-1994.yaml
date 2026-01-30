@@ -1,0 +1,158 @@
+---
+id: IEEEStd12751994
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Boot (Initialization Configuration) Firmware: Core Requirements
+    and Practices'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/763383
+docidentifier:
+- content: IEEE Std 1275-1994
+  type: IEEE
+  primary: true
+- content: IEEE Std 1275™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1194-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1994.89427
+  type: DOI
+docnumber: IEEE Std 1275-1994
+date:
+- type: created
+  at: '1994-10-28'
+- type: published
+  at: '2018-10-30'
+- type: issued
+  at: '1994-03-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Firmware is the read-only-memory (ROM)-based software that controls a
+    computer between the time it is turned on and the time the primary operating system
+    takes control of the machine. Open Firmware provides the following: a mechanism
+    for loading and executing programs (such as operating systems) from disks, tapes,
+    network interfaces, and other devices; an ISA-independent method for identifying
+    devices plugged in to expansion buses and for providing firmware and diagnostics
+    drivers for these devices; an extensible and programmable command language based
+    on the Forth programming language; methods for managing user-configurable options
+    stored in nonvolatile memory; a call back interface allowing other programs to
+    make use of Open Firmware services; and debugging tools for hardware, firmware,
+    firmware drivers, and system software.'
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Microprogramming
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Hardware
+  - language: en
+    script: Latn
+    content: Operating systems
+  - language: en
+    script: Latn
+    content: Sun
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: ROM
+  - language: en
+    script: Latn
+    content: Plug-in device
+  - language: en
+    script: Latn
+    content: Initialization
+  - language: en
+    script: Latn
+    content: Forth
+  - language: en
+    script: Latn
+    content: Firmware
+  - language: en
+    script: Latn
+    content: FCode
+  - language: en
+    script: Latn
+    content: Debug
+  - language: en
+    script: Latn
+    content: Configuration
+  - language: en
+    script: Latn
+    content: Boot
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

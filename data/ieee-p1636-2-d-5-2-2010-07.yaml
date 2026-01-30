@@ -1,0 +1,139 @@
+---
+id: IEEEP16362D52201007
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Trial-Use Standard for Software Interface for Maintenance Information
+    Collection and Analysis (SIMICA): Exchanging Maintenance Action Information via
+    the Extensible Markup Language (XML).'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5530302
+docidentifier:
+- content: IEEE P1636.2/D-5.2-2010-07
+  type: IEEE
+  primary: true
+- content: IEEE P1636.2™/D-5.2-2010-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6399-4
+  type: ISBN
+docnumber: IEEE P1636.2/D-5.2-2010-07
+date:
+- type: created
+  at: '2010-07-27'
+- type: published
+  at: '2010-07-29'
+- type: issued
+  at: '2010-07-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: SCC20 - Test and Diagnosis for Electronic Systems
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard is intended to promote and facilitate interoperability between
+    components of automatic test systems. The standard facilitates the capture of
+    maintenance action information associated with the removal, repair, and replacement
+    of a particular system components (e.g.; unit(s) under test) in order to maintain/support
+    that particular operational system. The maintenance action information schema
+    becomes a class of information that can be used within the SIMICA family of standards.
+    The exchange format utilizes the XML formats.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Maintenance engineering
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Information management
+  - language: en
+    script: Latn
+    content: Interface states
+  - language: en
+    script: Latn
+    content: Automated Test System (ATS)
+  - language: en
+    script: Latn
+    content: eXtensible markup language (XML)
+  - language: en
+    script: Latn
+    content: Maintenance Action Information (MAI)
+  - language: en
+    script: Latn
+    content: Software Interface for Maintenance Information Collection and Analysis
+      (SIMICA)
+  - language: en
+    script: Latn
+    content: XML schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

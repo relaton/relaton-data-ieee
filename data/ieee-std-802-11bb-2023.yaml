@@ -1,0 +1,167 @@
+---
+id: IEEEStd80211bb2023
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information Technology--Telecommunications and Information
+    Exchange between Systems Local and Metropolitan Area Networks--Specific Requirements
+    Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications
+    Amendment 6: Light Communications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10315104
+docidentifier:
+- content: IEEE Std 802.11bb-2023
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.11bb®-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0008-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2024.10315104
+  type: DOI
+docnumber: IEEE Std 802.11bb-2023
+date:
+- type: created
+  at: '2023-11-10'
+- type: published
+  at: '2023-11-10'
+- type: issued
+  at: '2023-06-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Modifications to existing physical layers (PHYs) and the medium access
+    control layer (MAC) that enable transparent operation of IEEE 802.11 over the
+    light in the 800 nm to 1000 nm band are specified in this amendment. This amendment
+    specifies PHYs that provide bidirectional operations that achieve a minimum and
+    maximum throughput of 10 Mb/s and 9.6 Gb/s, respectively, as measured at the MAC
+    data service access point (SAP), and facilitate interoperability among solid-state
+    light sources with different modulation bandwidths.
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.11-2020
+    docidentifier:
+    - content: IEEE Std 802.11-2020
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Systems engineering and theory
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: IEEE 802.11
+  - language: en
+    script: Latn
+    content: IEEE 802.11bb
+  - language: en
+    script: Latn
+    content: LC
+  - language: en
+    script: Latn
+    content: light communication
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: medium access control
+  - language: en
+    script: Latn
+    content: PHY
+  - language: en
+    script: Latn
+    content: physical layer
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

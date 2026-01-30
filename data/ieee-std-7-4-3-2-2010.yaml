@@ -1,0 +1,151 @@
+---
+id: IEEEStd74322010
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Criteria for Digital Computers in Safety Systems of Nuclear
+    Power Generating Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5542302
+docidentifier:
+- content: IEEE Std 7.4.3.2-2010
+  type: IEEE
+  primary: true
+- content: IEEE Std 7.4.3.2™-2010
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6316-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2010.5542302
+  type: DOI
+docnumber: IEEE Std 7.4.3.2-2010
+date:
+- type: updated
+  at: '2010-08-20'
+- type: created
+  at: '2010-08-02'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2010-06-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Additional computer specific requirements to supplement the criteria and
+    requirements of IEEE Std 603-2009 are specified. Within the context of this standard,
+    the term computer is a system that includes computer hardware, software, firmware,
+    and interfaces. The criteria contained herein, in conjunction with criteria in
+    IEEE Std 603-2009, establish minimum functional and design requirements for computers
+    used as components of a safety system.
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 7.4.3.2-2003
+    docidentifier:
+    - content: IEEE Std 7.4.3.2-2003
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 7.4.3.2-2016
+    docidentifier:
+    - content: IEEE Std 7.4.3.2-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Software systems
+  - language: en
+    script: Latn
+    content: Safety
+  - language: en
+    script: Latn
+    content: commercial grade item
+  - language: en
+    script: Latn
+    content: diversity
+  - language: en
+    script: Latn
+    content: safety systems
+  - language: en
+    script: Latn
+    content: software
+  - language: en
+    script: Latn
+    content: software tools
+  - language: en
+    script: Latn
+    content: software verification and validation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

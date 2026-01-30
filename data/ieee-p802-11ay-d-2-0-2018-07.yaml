@@ -1,0 +1,192 @@
+---
+id: IEEEP80211ayD20201807
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Information Technology--Telecommunications and
+    Information Exchange Between Systems Local and Metropolitan Area Networks--Specific
+    Requirements Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer
+    (PHY) Specifications--Amendment: Enhanced Throughput for Operation in License-Exempt
+    Bands Above 45 GHz'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8467510
+docidentifier:
+- content: IEEE P802.11ay/D-2.0-2018-07
+  type: IEEE
+  primary: true
+- content: IEEE P802.11ay™/D-2.0-2018-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5171-0
+  type: ISBN
+docnumber: IEEE P802.11ay/D-2.0-2018-07
+date:
+- type: created
+  at: '2018'
+- type: published
+  at: '2018-09-18'
+- type: issued
+  at: '2021-03-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: In this amendment to IEEE Std 802.11-2020, standardized modifications to
+    both the IEEE 802.11 physical layer (PHY) and the IEEE 802.11 medium access control
+    (MAC) sublayer are defined to enable at least one mode of operation capable of
+    supporting a maximum throughput of at least 20 gigabits per second (measured at
+    the MAC data service access point), while maintaining or improving the power efficiency
+    per station.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.11-2020
+    docidentifier:
+    - content: IEEE Std 802.11-2020
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.11-2012
+    docidentifier:
+    - content: IEEE Std 802.11-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: MIMO communication
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Millimeter wave communication
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: 60 GHz
+  - language: en
+    script: Latn
+    content: beamforming
+  - language: en
+    script: Latn
+    content: directional multi-gigabit
+  - language: en
+    script: Latn
+    content: EDMG
+  - language: en
+    script: Latn
+    content: Extended DMG
+  - language: en
+    script: Latn
+    content: IEEE 802.11&#8482;
+  - language: en
+    script: Latn
+    content: IEEE 802.11ay&#8482;
+  - language: en
+    script: Latn
+    content: millimeter-wave
+  - language: en
+    script: Latn
+    content: MIMO
+  - language: en
+    script: Latn
+    content: multiple input multiple output
+  - language: en
+    script: Latn
+    content: variable channel widths
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

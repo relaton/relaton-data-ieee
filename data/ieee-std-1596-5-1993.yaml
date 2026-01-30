@@ -1,0 +1,145 @@
+---
+id: IEEEStd159651993
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Shared-Data Formats Optimized for Scalable Coherent Interface
+    (SCI) Processors
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/400311
+docidentifier:
+- content: IEEE Std 1596.5-1993
+  type: IEEE
+  primary: true
+- content: IEEE Std 1596.5™-1993
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1209-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1994.121644
+  type: DOI
+docnumber: IEEE Std 1596.5-1993
+date:
+- type: created
+  at: '1994-04-25'
+- type: published
+  at: '2019-04-12'
+- type: issued
+  at: '1993-06-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Formats for interchanging integer, bit-field, and floating point data between
+    heterogeneous multiprocessors in a Scalable Coherent Interface (SCI) system are
+    specified. The defined data formats can also be used to share data among multiprocessors
+    on other bus standards that support the read, write, and lock transaction set
+    defined by IEEE Std 1212-1991 CSR Architecture. The intent is to support efficient
+    data transfers among heterogeneous workstations within a distributed computing
+    environment. (No longer endorsed by the IEEE)
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Consumer electronics
+  - language: en
+    script: Latn
+    content: Program processors
+  - language: en
+    script: Latn
+    content: Microcomputers
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: data formats
+  - language: en
+    script: Latn
+    content: data interchange
+  - language: en
+    script: Latn
+    content: floating point
+  - language: en
+    script: Latn
+    content: integer
+  - language: en
+    script: Latn
+    content: shared data
+  - language: en
+    script: Latn
+    content: Heterogeneous multiprocessors
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

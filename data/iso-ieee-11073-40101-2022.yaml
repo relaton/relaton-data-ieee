@@ -1,0 +1,183 @@
+---
+id: ISOIEEE11073401012022
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE/ISO International Standard-Health informatics--Device interoperability--Part
+    40101: Foundational--Cybersecurity--Processes for vulnerability assessment'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9738537
+docidentifier:
+- content: ISO/IEEE 11073.40101-2022
+  type: IEEE
+  primary: true
+- content: ISO/IEEE 11073.40101™-2022
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8517-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2022.9738537
+  type: DOI
+docnumber: ISO/IEEE 11073.40101-2022
+date:
+- type: created
+  at: '2022-03-18'
+- type: published
+  at: '2022-03-18'
+- type: issued
+  at: '2022'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: For Personal Health Devices (PHDs) and Point-of-Care Devices (PoCDs), an
+    iterative, systematic, scalable, and auditable approach to identification of cybersecurity
+    vulnerabilities and estimation of risk is defined by this standard. The standard
+    presents one approach to iterative vulnerability assessment that uses the Spoofing,
+    Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation
+    of Privilege (STRIDE) classification scheme and the embedded Common Vulnerability
+    Scoring System (eCVSS). The assessment includes system context, system decomposition,
+    pre-mitigation scoring, mitigation, and post-mitigation scoring and iterates until
+    the remaining vulnerabilities are reduced to an acceptable level of risk.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 11073.40101-2020
+    docidentifier:
+    - content: IEEE Std 11073.40101-2020
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Computer security
+  - language: en
+    script: Latn
+    content: Point of care
+  - language: en
+    script: Latn
+    content: Privacy
+  - language: en
+    script: Latn
+    content: Interoperability
+  - language: en
+    script: Latn
+    content: Bioinformatics
+  - language: en
+    script: Latn
+    content: Risk management
+  - language: en
+    script: Latn
+    content: Smart devices
+  - language: en
+    script: Latn
+    content: cybersecurity
+  - language: en
+    script: Latn
+    content: embedded Common Vulnerability Scoring System
+  - language: en
+    script: Latn
+    content: IEEE 11073-40101
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: Personal Health Devices
+  - language: en
+    script: Latn
+    content: Point-of-Care Devices
+  - language: en
+    script: Latn
+    content: STRIDE
+  - language: en
+    script: Latn
+    content: vulnerability assessment
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

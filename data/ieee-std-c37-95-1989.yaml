@@ -1,0 +1,136 @@
+---
+id: IEEEStdC37951989
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Protective Relaying of Utility-Consumer Interconnections
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/89895
+docidentifier:
+- content: IEEE Std C37.95-1989
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.95™-1989
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3740-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1989.94903
+  type: DOI
+docnumber: IEEE Std C37.95-1989
+date:
+- type: created
+  at: '1989-11-03'
+- type: published
+  at: '2014-04-30'
+- type: issued
+  at: '1989-06-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEEE C37.95-1989, IEEE Guide for Protective Relaying of Utility-Consumer
+    Interconnections, is intended to cover applications involving service to a consumer
+    that normally requires a transformation between the utility's supply voltage and
+    the consumer's utilization voltage. Interconnections supplied at the ultimate
+    utilization voltage are not covered.
+copyright:
+- from: '1989'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE C37.95-1973
+    docidentifier:
+    - content: ANSI/IEEE C37.95-1973
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.95-2002
+    docidentifier:
+    - content: IEEE Std C37.95-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Power system protection
+  - language: en
+    script: Latn
+    content: Protective relaying
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Interconnection tie
+  - language: en
+    script: Latn
+    content: protective relaying of utility-consumer interconnections
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.70
+    text: Relays
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

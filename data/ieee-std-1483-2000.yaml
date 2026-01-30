@@ -1,0 +1,132 @@
+---
+id: IEEEStd14832000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Verification of Vital Functions in Processor-Based Systems
+    Used in Rail Transit Control
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/836391
+docidentifier:
+- content: IEEE Std 1483-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 1483™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1967-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.91307
+  type: DOI
+docnumber: IEEE Std 1483-2000
+date:
+- type: created
+  at: '2000-04-05'
+- type: published
+  at: '2020-02-14'
+- type: issued
+  at: '2000-03-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Rail Transportation Standards Committee of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A set of standard verification tasks for processor-based equipment used
+    in safety-critical applications on rail and transit systems is covered. This standard
+    also covers processes that verify the level of safety achieved in the implementation
+    of safety-critical functions that are required to be fail-safe. Quality assurance
+    or validation processes that affect the overall level of system safety are not
+    covered.
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Traffic control (transportation)
+  - language: en
+    script: Latn
+    content: rail
+  - language: en
+    script: Latn
+    content: safety
+  - language: en
+    script: Latn
+    content: safety critical
+  - language: en
+    script: Latn
+    content: software
+  - language: en
+    script: Latn
+    content: transit
+  - language: en
+    script: Latn
+    content: verification
+  - language: en
+    script: Latn
+    content: vital
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
+  - code: 45.060.01
+    text: Railway rolling stock in general
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

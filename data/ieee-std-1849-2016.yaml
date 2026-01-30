@@ -1,0 +1,144 @@
+---
+id: IEEEStd18492016
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for eXtensible Event Stream (XES) for Achieving Interoperability
+    in Event Logs and Event Streams
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7740858
+docidentifier:
+- content: IEEE Std 1849-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 1849™-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-2421-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7740858
+  type: DOI
+docnumber: IEEE Std 1849-2016
+date:
+- type: created
+  at: '2016-11-11'
+- type: published
+  at: '2016-11-10'
+- type: issued
+  at: '2016-09-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Committee of the IEEE Computational Intelligence Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A grammar for a tag-based language whose aim is to provide designers of
+    information systems with a unified and extensible methodology for capturing systems'
+    behaviors by means of event logs and event streams is defined in the XES standard.
+    An "XML Schema" describing the structure of an XES event log/stream and a "XML
+    Schema" describing the structure of an extension of such a log/stream are included
+    in this standard. Moreover, a basic collection of so-called "XES extension" prototypes
+    that provide semantics to certain attributes as recorded in the event log/stream
+    is included in this standard.
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Event recognition
+  - language: en
+    script: Latn
+    content: Behavioral sciences
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Information systems
+  - language: en
+    script: Latn
+    content: Semantics
+  - language: en
+    script: Latn
+    content: Grammar
+  - language: en
+    script: Latn
+    content: event log
+  - language: en
+    script: Latn
+    content: event stream
+  - language: en
+    script: Latn
+    content: extensions
+  - language: en
+    script: Latn
+    content: IEEE 1849
+  - language: en
+    script: Latn
+    content: system behavior
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

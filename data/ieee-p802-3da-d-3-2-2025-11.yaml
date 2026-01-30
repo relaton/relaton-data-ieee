@@ -1,0 +1,202 @@
+---
+id: IEEEP8023daD32202511
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Ethernet Amendment 10: Physical Layer Specifications
+    and Management Parameters for Enhancement of 10 Mb/s Operation over Single Balanced
+    Pair Multidrop Segments'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11264524
+docidentifier:
+- content: IEEE P802.3da/D-3.2-2025-11
+  type: IEEE
+  primary: true
+- content: IEEE P802.3da™/D-3.2-2025-11
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2891-0
+  type: ISBN
+docnumber: IEEE P802.3da/D-3.2-2025-11
+date:
+- type: created
+  at: '2025-11-20'
+- type: published
+  at: '2025-11-21'
+- type: issued
+  at: '2025'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2022 specifies additions and appropriate
+    modifications to enhance the 10 Mb/s shared-medium (multidrop) mode of the 10BASE-T1S
+    Physical Layer in a new, multidrop-only physical layer specification (including
+    reconciliation sublayers, management parameters, Ethernet support for time synchronization
+    protocols, and optional power delivery to support multiple Powered Devices on
+    the 10 Mb/s mixing segment).
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2022
+    docidentifier:
+    - content: IEEE Std 802.3-2022
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Telecommunication network management
+  - language: en
+    script: Latn
+    content: Copper
+  - language: en
+    script: Latn
+    content: Encoding
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Power distribution
+  - language: en
+    script: Latn
+    content: 'Keywords: 10BASE-T1S'
+  - language: en
+    script: Latn
+    content: 10BASE-T1M
+  - language: en
+    script: Latn
+    content: copper
+  - language: en
+    script: Latn
+    content: IEEE 802.3cg(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.3da(TM)
+  - language: en
+    script: Latn
+    content: Medium Dependent Interface
+  - language: en
+    script: Latn
+    content: mixing segment
+  - language: en
+    script: Latn
+    content: MPD
+  - language: en
+    script: Latn
+    content: MPI
+  - language: en
+    script: Latn
+    content: MPoE
+  - language: en
+    script: Latn
+    content: MPSE
+  - language: en
+    script: Latn
+    content: multidrop
+  - language: en
+    script: Latn
+    content: Multidrop Power
+  - language: en
+    script: Latn
+    content: Physical Coding Sublayer
+  - language: en
+    script: Latn
+    content: Physical Layer
+  - language: en
+    script: Latn
+    content: Physical Medium Attachment
+  - language: en
+    script: Latn
+    content: PoDL
+  - language: en
+    script: Latn
+    content: PLCA
+  - language: en
+    script: Latn
+    content: TCI
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

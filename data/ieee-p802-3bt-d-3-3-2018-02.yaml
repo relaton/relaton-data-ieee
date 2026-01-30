@@ -1,0 +1,142 @@
+---
+id: IEEEP8023btD33201802
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Ethernet - Amendment 2: Power over Ethernet over
+    4 Pairs'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8291816
+docidentifier:
+- content: IEEE P802.3bt/D-3.3-2018-02
+  type: IEEE
+  primary: true
+- content: IEEE P802.3bt™/D-3.3-2018-02
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4699-0
+  type: ISBN
+docnumber: IEEE P802.3bt/D-3.3-2018-02
+date:
+- type: created
+  at: '2018-02-13'
+- type: published
+  at: '2018-02-14'
+- type: issued
+  at: '2018-09-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The maximum Powered Device (PD) power available is increased by this amendment
+    to IEEE Std 802.3-2018 by utilizing all four pairs in the specified structured
+    wiring plant. This represents a substantial change to the capabilities of Ethernet
+    with standardized power. The power classification information exchanged during
+    negotiation is extended to allow meaningful power management capability. These
+    enhancements solve the problem of higher power and more efficient standardized
+    Power over Ethernet (PoE) delivery systems.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Power distribution
+  - language: en
+    script: Latn
+    content: EPON
+  - language: en
+    script: Latn
+    content: Wiring
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: DTE power via MDI
+  - language: en
+    script: Latn
+    content: IEEE 802.3(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.3bt(TM)
+  - language: en
+    script: Latn
+    content: PoE
+  - language: en
+    script: Latn
+    content: Power over Ethernet
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

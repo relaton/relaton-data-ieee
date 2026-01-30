@@ -1,0 +1,156 @@
+---
+id: IEEEStd8241994
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Series Capacitors in Power Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/392631
+docidentifier:
+- content: IEEE Std 824-1994
+  type: IEEE
+  primary: true
+- content: IEEE Std 824™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0367-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1994.121452
+  type: DOI
+docnumber: IEEE Std 824-1994
+date:
+- type: created
+  at: '1994-07-18'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1994-06-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Capacitors and assemblies of capacitors, insulation means, switching, protective
+    equipment, and control accessories that form a complete bank for inserting in
+    series with a transmission line are applied. Included are requirements for safety
+    rating, and protective device levels. Functional requirements for alarm devices,
+    maintenance, design and production tests, and a guide for operation are included.
+    Functional requirements for protective devices are addressed, including varistors
+    and bypass gaps.
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 804-1983
+    docidentifier:
+    - content: IEEE Std 804-1983
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 824-2004
+    docidentifier:
+    - content: IEEE Std 824-2004
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Capacitors
+  - language: en
+    script: Latn
+    content: Varistors
+  - language: en
+    script: Latn
+    content: Insulators
+  - language: en
+    script: Latn
+    content: Power systems
+  - language: en
+    script: Latn
+    content: bypass gap
+  - language: en
+    script: Latn
+    content: series capacitor
+  - language: en
+    script: Latn
+    content: trigger circuit
+  - language: en
+    script: Latn
+    content: capacitors
+  - language: en
+    script: Latn
+    content: Self-triggered gap
+  - language: en
+    script: Latn
+    content: Force-triggered gap
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 31.060.99
+    text: Other capacitors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

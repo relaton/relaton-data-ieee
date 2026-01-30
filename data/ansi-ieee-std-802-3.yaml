@@ -1,0 +1,128 @@
+---
+id: ANSIIEEEStd8023
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standards for Local Area Networks: Supplements to Carrier Sense Multiple
+    Access with Collision Detection (CSMA/CD) Access Method and Physical Layer Specifications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/26520
+docidentifier:
+- content: ANSI/IEEE Std 802.3
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 802.3™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-471-61153-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1987.78883
+  type: DOI
+docnumber: ANSI/IEEE Std 802.3
+date:
+- type: created
+  at: '1987-12-28'
+- type: published
+  at: '2017-02-08'
+- type: issued
+  at: '1987'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This report contains four supplements to IEEE 802.3: 802.3a Type 10BASE2
+    Coaxial Medium Specification (Section 10); 802.3b Type 10BROAD36 Medium Specification
+    (Section 11); 802.3c Repeater Unit Specification; and 802.3e Type 1BASE5 Twisted
+    Pair Medium Specification (Section 12). ANSI/IEEE Std 802.3-1985, Sections 1-7
+    form the base specification for these supplements. Supplements a, b, and c are
+    specifications for an alternate medium to be used in the CSMA/CD access method.
+    Supplement c completes the necessary specification for a Receiver Unit implementation.'
+copyright:
+- from: '1987'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.3-1985
+    docidentifier:
+    - content: ANSI/IEEE Std 802.3-1985
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Multiaccess communication
+  - language: en
+    script: Latn
+    content: Standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

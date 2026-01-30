@@ -1,0 +1,174 @@
+---
+id: IEEEStd80216s2017
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Air Interface for Broadband Wireless Access Systems--Amendment
+    4: Fixed and Mobile Wireless Access in Channel Bandwidth up to 1.25 MHz'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8065154
+docidentifier:
+- content: IEEE Std 802.16s-2017
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.16s®-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4243-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2017.8065154
+  type: DOI
+docnumber: IEEE Std 802.16s-2017
+date:
+- type: updated
+  at: '2017-10-27'
+- type: created
+  at: '2017-10-13'
+- type: published
+  at: '2017-10-11'
+- type: issued
+  at: '2017-09-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: WirelessMAN-OFDMA TDD operation in exclusively licensed spectrum with channel
+    bandwidth from 100 kHz up to 1.25 MHz, including 1 MHz explicitly, is specified.
+    This amendment targets operation in the 700 MHz band but also supports operation
+    in other VHF/UHF bands. The project amends Clause 12 of IEEE Std 802.16-2012,
+    adding a new system profile and amending other clauses as required to support
+    the narrower channel widths. The range and data rate supported by the added profile
+    are commensurate with those of the base standard, as scaled by the reduced channel
+    bandwidth.
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.16-2012
+    docidentifier:
+    - content: IEEE Std 802.16-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Narrowband
+  - language: en
+    script: Latn
+    content: Wireless networks
+  - language: en
+    script: Latn
+    content: VHF devices
+  - language: en
+    script: Latn
+    content: UHF communication
+  - language: en
+    script: Latn
+    content: Smart grids
+  - language: en
+    script: Latn
+    content: band AMC
+  - language: en
+    script: Latn
+    content: critical infrastructure
+  - language: en
+    script: Latn
+    content: IEEE 802.16(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.16s(TM)
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: narrowband
+  - language: en
+    script: Latn
+    content: OFDMA
+  - language: en
+    script: Latn
+    content: PHY
+  - language: en
+    script: Latn
+    content: smart grid
+  - language: en
+    script: Latn
+    content: sub-1.25 MHz channels
+  - language: en
+    script: Latn
+    content: utilities
+  - language: en
+    script: Latn
+    content: VHF/UHF bands
+  - language: en
+    script: Latn
+    content: WirelessMAN(R)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

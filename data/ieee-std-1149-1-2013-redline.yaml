@@ -1,0 +1,179 @@
+---
+id: IEEEStd114912013Redline
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Test Access Port and Boundary-Scan Architecture
+  type: title-main
+- content: IEEE Standard for Test Access Port and Boundary-Scan Architecture - Redline
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6759738
+docidentifier:
+- content: IEEE Std 1149.1-2013 Redline
+  type: IEEE
+  primary: true
+- content: IEEE Std 1149.1™-2013 Redline
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8994-9
+  type: ISBN
+docnumber: IEEE Std 1149.1-2013 Redline
+date:
+- type: created
+  at: '2013-05-13'
+- type: published
+  at: '2014-03-07'
+- type: issued
+  at: '2013-02-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Circuitry that may be built into an integrated circuit to assist in the
+    test, maintenance and support of assembled printed circuit boards and the test
+    of internal circuits is defined. The circuitry includes a standard interface through
+    which instructions and test data are communicated. A set of test features is defined,
+    including a boundary-scan register, such that the component is able to respond
+    to a minimum set of instructions designed to assist with testing of assembled
+    printed circuit boards. Also, a language is defined that allows rigorous structural
+    description of the component-specific aspects of such testability features, and
+    a second language is defined that allows rigorous procedural description of how
+    the testability features may be used.
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Boundary conditions
+  - language: en
+    script: Latn
+    content: Circuit boards
+  - language: en
+    script: Latn
+    content: Integrated circuits
+  - language: en
+    script: Latn
+    content: Very high speed integrated circuits
+  - language: en
+    script: Latn
+    content: Hardware design languages
+  - language: en
+    script: Latn
+    content: Registers
+  - language: en
+    script: Latn
+    content: boundary scan
+  - language: en
+    script: Latn
+    content: boundary-scan architecture
+  - language: en
+    script: Latn
+    content: Boundary-Scan Description Language
+  - language: en
+    script: Latn
+    content: boundary-scan boundary scan
+  - language: en
+    script: Latn
+    content: Boundary-Scan Description Language (BSDL)
+  - language: en
+    script: Latn
+    content: boundary-scan register
+  - language: en
+    script: Latn
+    content: circuit boards
+  - language: en
+    script: Latn
+    content: circuitry
+  - language: en
+    script: Latn
+    content: IEEE 1149.1
+  - language: en
+    script: Latn
+    content: integrated circuit
+  - language: en
+    script: Latn
+    content: printed circuit boards
+  - language: en
+    script: Latn
+    content: Procedural Description Language (PDL)
+  - language: en
+    script: Latn
+    content: test
+  - language: en
+    script: Latn
+    content: test access port (TAP)
+  - language: en
+    script: Latn
+    content: very high speed integrated circuit (VHSIC)
+  - language: en
+    script: Latn
+    content: VHSIC Hardware Description Language (VHDL)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: redline
+  ics:
+  - code: '31.180'
+    text: Printed circuits and boards
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Inactive
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

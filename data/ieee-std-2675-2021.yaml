@@ -1,0 +1,158 @@
+---
+id: IEEEStd26752021
+type: standard
+schema_version: v1.4.1
+title:
+- content: ISO/IEC/IEEE International Standard--Information technology--DevOps--Building
+    reliable and secure systems including application build, package and deployment
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9882056
+docidentifier:
+- content: IEEE Std 2675-2021
+  type: IEEE
+  primary: true
+- content: IEEE Std 2675™-2021
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8954-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2022.9882056
+  type: DOI
+docnumber: IEEE Std 2675-2021
+date:
+- type: created
+  at: '2022'
+- type: published
+  at: '2022-09-09'
+- type: issued
+  at: '2022'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Technical principles and processes to build, package, and deploy systems
+    and applications in a reliable and secure way are specified. Establishing effective
+    compliance and information technology (IT) controls is the focus. DevOps principles
+    presented include mission first, customer focus, left-shift, continuous everything,
+    and systems thinking. How stakeholders, including developers and operations staff,
+    can collaborate and communicate effectively is described. The process outcomes
+    and activities herein are aligned with the process model specified in ISO/IEC/IEEE
+    12207:2017 and ISO/IEC/IEEE 15288:2015.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: ISO/IEC/IEEE Std 32675-2022
+    docidentifier:
+    - content: ISO/IEC/IEEE Std 32675-2022
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Reliability
+  - language: en
+    script: Latn
+    content: Continuous time systems
+  - language: en
+    script: Latn
+    content: agile
+  - language: en
+    script: Latn
+    content: continuous delivery
+  - language: en
+    script: Latn
+    content: continuous deployment
+  - language: en
+    script: Latn
+    content: continuous integration
+  - language: en
+    script: Latn
+    content: DevOps
+  - language: en
+    script: Latn
+    content: IEEE 2675
+  - language: en
+    script: Latn
+    content: left-shift
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

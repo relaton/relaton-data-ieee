@@ -1,0 +1,183 @@
+---
+id: IEEEStd802154q2016
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Low-Rate Wireless Networks --Amendment 2: Ultra-Low
+    Power Physical Layer'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7466448
+docidentifier:
+- content: IEEE Std 802.15.4q-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.4q®-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0782-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7466448
+  type: DOI
+docnumber: IEEE Std 802.15.4q-2016
+date:
+- type: updated
+  at: '2016-05-27'
+- type: created
+  at: '2016-04-29'
+- type: published
+  at: '2016-05-06'
+- type: issued
+  at: '2016-01-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Two alternate physical layers (PHYs), TASK and RS-GFSK, are specified in
+    this amendment in addition to the PHYs of IEEE Std 802.15.4-2015. The amendment
+    also defines the medium access control (MAC) modifications needed to support the
+    implementation of the TASK and RS-GFSK PHYs. These alternate PHYs enable low-cost,
+    ultra-low power consumption, as well as extended battery life, in various frequency
+    bands and geographical regions under multiple regulatory domains. (The PDF of
+    this standard is available at no cost compliments of the IEEE GET program. http://ieeexplore.ieee.org/document/7466448/)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.15.4-2015
+    docidentifier:
+    - content: IEEE Std 802.15.4-2015
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Wireless personal area networks
+  - language: en
+    script: Latn
+    content: Low-power electronics
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Power system economics
+  - language: en
+    script: Latn
+    content: IEEE 802.15 Standard
+  - language: en
+    script: Latn
+    content: Wireless communication
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4q(TM)
+  - language: en
+    script: Latn
+    content: low data rate
+  - language: en
+    script: Latn
+    content: LR-WPAN
+  - language: en
+    script: Latn
+    content: PAN
+  - language: en
+    script: Latn
+    content: personal area network
+  - language: en
+    script: Latn
+    content: PHY
+  - language: en
+    script: Latn
+    content: physical layer
+  - language: en
+    script: Latn
+    content: radio frequency
+  - language: en
+    script: Latn
+    content: RF
+  - language: en
+    script: Latn
+    content: ultra-low power
+  - language: en
+    script: Latn
+    content: wireless personal area network
+  - language: en
+    script: Latn
+    content: WPAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

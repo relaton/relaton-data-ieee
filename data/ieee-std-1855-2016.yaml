@@ -1,0 +1,155 @@
+---
+id: IEEEStd18552016
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Fuzzy Markup Language
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7479441
+docidentifier:
+- content: IEEE Std 1855-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 1855™-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0677-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7479441
+  type: DOI
+docnumber: IEEE Std 1855-2016
+date:
+- type: updated
+  at: '2016-07-06'
+- type: created
+  at: '2016-05-27'
+- type: published
+  at: '2016-05-26'
+- type: issued
+  at: '2016-01-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Committee of the IEEE Computational Intelligence Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A new specification language, named Fuzzy Markup Language (FML), is presented
+    in this standard, exploiting the benefits offered by eXtensible Markup Language
+    (XML) specifications and related tools in order to model a fuzzy logic system
+    in a human-readable and hardware independent way. Therefore, designers of industrial
+    fuzzy systems are provided with a unified and high-level methodology for describing
+    interoperable fuzzy systems. The W3C XML Schema definition language is used by
+    this standard to define the syntax and semantics of the FML programs.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Fuzzy logic
+  - language: en
+    script: Latn
+    content: Controllers
+  - language: en
+    script: Latn
+    content: Computer languages
+  - language: en
+    script: Latn
+    content: eXtensible markup language
+  - language: en
+    script: Latn
+    content: FML
+  - language: en
+    script: Latn
+    content: fuzzy logic
+  - language: en
+    script: Latn
+    content: fuzzy logic controller
+  - language: en
+    script: Latn
+    content: Fuzzy Markup Language
+  - language: en
+    script: Latn
+    content: fuzzy system
+  - language: en
+    script: Latn
+    content: hardware independence
+  - language: en
+    script: Latn
+    content: IEEE 1855(TM)
+  - language: en
+    script: Latn
+    content: interoperability
+  - language: en
+    script: Latn
+    content: labeled tree
+  - language: en
+    script: Latn
+    content: XML Schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

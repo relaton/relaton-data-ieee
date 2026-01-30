@@ -1,0 +1,138 @@
+---
+id: IEEEStd6862008
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Radar Definitions
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4530766
+docidentifier:
+- content: IEEE Std 686-2008
+  type: IEEE
+  primary: true
+- content: IEEE Std 686™-2008
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5744-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2008.4530766
+  type: DOI
+docnumber: IEEE Std 686-2008
+date:
+- type: created
+  at: '2008-05-21'
+- type: published
+  at: '2018-12-12'
+- type: issued
+  at: '2008-03-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Radar Systems Panel of the IEEE Aerospace and Electronic Systems
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Revision of IEEE Std 686-1997. This standard is devoted to providing radar
+    definitions. The standard includes terms formerly found in IEEE std 172-1971,
+    IEEE Standard Definitions of Navigation Aid Terms, with the exception of a few
+    terms that are common in both fields, and new and updated terms. IEEE std 172-1983
+    was withdrawn in 1983. As radar technology and literature evolve, new terms will
+    be added and obsolete terms deleted.
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 686-2017
+    docidentifier:
+    - content: IEEE Std 686-2017
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Radar
+  - language: en
+    script: Latn
+    content: Terminology
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: 686-1008
+  - language: en
+    script: Latn
+    content: radar
+  - language: en
+    script: Latn
+    content: terminology
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.33
+    text: Telecommunications. Audio and video engineering (Vocabularies)
+  - code: 33.060.99
+    text: Other equipment for radiocommunications
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

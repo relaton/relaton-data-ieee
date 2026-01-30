@@ -1,0 +1,116 @@
+---
+id: IEEEStd7261979
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Real-Time BASIC for CAMAC
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7435201
+docidentifier:
+- content: IEEE Std 726-1979
+  type: IEEE
+  primary: true
+- content: IEEE Std 726™-1979
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0424-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1979.7435201
+  type: DOI
+docnumber: IEEE Std 726-1979
+date:
+- type: updated
+  at: '2016-04-08'
+- type: created
+  at: '1979'
+- type: published
+  at: '2016-03-17'
+- type: issued
+  at: '1978-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This standard deals with software for the CAMAC modular instrumentation
+    and interface system of ANSI/IEEE Std 583-1975, Modular Instrumentation and Digital
+    Interface System (CAMAC) (also Report EUR 4100e of the Commission of the European
+    Communities). The report on which this document is based, ERDA Report TID-26619,
+    was prepared by the NIM Committee* of the United States Energy Research and Development
+    Administration (now the Department of Energy) and the ESONE Committee** of European
+    Laboratories. The corresponding ESONE document is ESONE/RTB/02. IEEE Std 726-1979
+    differs from the corresponding ESONE document ESONE/RTB/02 and US Energy Research
+    and Development Administration document TID-26619 in the following respects: (1)
+    The keyword RECEIVE is used in place of the keyword READ for process input. (2)
+    The section on interrupt handling is not included. In particular, reference to
+    the WHEN statement to link an event-name to an interrupt service routine has been
+    deleted. (3) The capability of handling errors at run-time has been deleted.'
+copyright:
+- from: '1979'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: ANSI/IEEE Std 726-1982
+    docidentifier:
+    - content: ANSI/IEEE Std 726-1982
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: BASIC programing
+  - language: en
+    script: Latn
+    content: Numerical analysis
+  - language: en
+    script: Latn
+    content: Data processing
+  - language: en
+    script: Latn
+    content: Programming
+  - language: en
+    script: Latn
+    content: Computer languages
+  - language: en
+    script: Latn
+    content: Computer applications
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

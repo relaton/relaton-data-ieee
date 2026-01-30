@@ -1,0 +1,119 @@
+---
+id: IEEEStd13632000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Specifications for Public-Key Cryptography
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/891000
+docidentifier:
+- content: IEEE Std 1363-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 1363™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1957-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.92292
+  type: DOI
+docnumber: IEEE Std 1363-2000
+date:
+- type: created
+  at: '2000-08-29'
+- type: published
+  at: '2014-08-08'
+- type: issued
+  at: '2000-01-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies common public-key cryptographic techniques, including
+    mathematical primitives for secret value (key) derivation, public-key encryption,
+    and digital signatures, and cryptographic schemes based on those primitives. It
+    also specifies related cryptographic parameters, public keys, and private keys.
+    The purpose of this standard is to provide a reference for specifications on a
+    variety of techniques from which applications may select.
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: digital signature
+  - language: en
+    script: Latn
+    content: encryption
+  - language: en
+    script: Latn
+    content: key agreement
+  - language: en
+    script: Latn
+    content: public-key cryptography
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

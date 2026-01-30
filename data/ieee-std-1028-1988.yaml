@@ -1,0 +1,123 @@
+---
+id: IEEEStd10281988
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Software Reviews and Audits
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/29123
+docidentifier:
+- content: IEEE Std 1028-1988
+  type: IEEE
+  primary: true
+- content: IEEE Std 1028™-1988
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4725-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1989.81607
+  type: DOI
+docnumber: IEEE Std 1028-1988
+date:
+- type: created
+  at: '1989-06-30'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1988-06-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Definitions and uniform procedures for review and audit applicable to both
+    critical and noncritical software are provided. The processes include management
+    review, technical review, software inspection, walkthrough, and audit. The processes
+    defined are applicable throughout the software life cycle.
+copyright:
+- from: '1989'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Computer industry
+  - language: en
+    script: Latn
+    content: Software engineering
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: reviews
+  - language: en
+    script: Latn
+    content: audits
+  - language: en
+    script: Latn
+    content: Software quality
+  - language: en
+    script: Latn
+    content: Software development management
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

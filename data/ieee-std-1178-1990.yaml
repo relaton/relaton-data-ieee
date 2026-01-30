@@ -1,0 +1,115 @@
+---
+id: IEEEStd11781990
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for the Scheme Programming Language
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159138
+docidentifier:
+- content: IEEE Std 1178-1990
+  type: IEEE
+  primary: true
+- content: IEEE Std 1178™-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1189-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1991.101032
+  type: DOI
+docnumber: IEEE Std 1178-1990
+date:
+- type: created
+  at: '1991'
+- type: issued
+  at: '1990-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The form and meaning of programs written in the Scheme programming language
+    and in particular, their syntax, the semantic rules for interpreting them, and
+    the representation of data to be input or output by them, are specified. The fundamental
+    ideas of the language and the notational conventions used for describing and writing
+    programs in the language are presented. The syntax and semantics of expressions,
+    programs, and definitions are specified. Scheme's built-in procedures, which include
+    all of the language's data manipulation and input/output primitives, are described,
+    and a formal syntax for Scheme written in extended Backus-Naur form is provided.
+    A formal denotational semantics for Scheme and some issues in the implementation
+    of Scheme's arithmetic are covered.<<ETX>>
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: LISP
+  - language: en
+    script: Latn
+    content: Programming
+  - language: en
+    script: Latn
+    content: Standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

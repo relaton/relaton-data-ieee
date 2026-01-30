@@ -1,0 +1,160 @@
+---
+id: IEEEStd2691992
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Methods for Measuring Transmission Performance of Analog
+    and Digital Telephone Sets
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/211096
+docidentifier:
+- content: IEEE Std 269-1992
+  type: IEEE
+  primary: true
+- content: IEEE Std 269™-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3736-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.114392
+  type: DOI
+docnumber: IEEE Std 269-1992
+date:
+- type: created
+  at: '1993-01-21'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1992-06-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Development Board of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Superseded by IEEE Std 269-2002. Practical methods for measuring the transmission
+    characteristics of both digital and conventional to wire analog telephone sets
+    by means of objective measurements on a test connection are described. The test
+    results thus obtained may be used as a means of evaluating or specifying the transmission
+    performance of a telephone set on a standardized basis. The measurements are applicable
+    to telephone sets incorporating carbon or linear transmitters. Measurements are
+    over the frequency range most useful for speech: 100-5000 Hz. The test methods
+    are not intended to be applicable to special devices, such as noise-exclusion
+    transmitters, distant-talking transmitters, insert-type receivers, or noise-exclusion
+    receivers equipped with large ear pads.'
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 269-1983
+    docidentifier:
+    - content: IEEE Std 269-1983
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 269-2002
+    docidentifier:
+    - content: IEEE Std 269-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Communication standards
+  - language: en
+    script: Latn
+    content: Telephone sets
+  - language: en
+    script: Latn
+    content: performance
+  - language: en
+    script: Latn
+    content: analog
+  - language: en
+    script: Latn
+    content: telephone
+  - language: en
+    script: Latn
+    content: sets
+  - language: en
+    script: Latn
+    content: digital
+  - language: en
+    script: Latn
+    content: voice
+  - language: en
+    script: Latn
+    content: transmission
+  - language: en
+    script: Latn
+    content: Voice transmission performance
+  - language: en
+    script: Latn
+    content: Telephony
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.050.10
+    text: Telephone equipment
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

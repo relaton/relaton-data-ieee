@@ -1,0 +1,145 @@
+---
+id: IEEEP802159aD02202507
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Transport of Key Management Protocol Datagrams
+    Amendment: Additional Key Management Protocol'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11131611
+docidentifier:
+- content: IEEE P802.15.9a/D-02-2025-07
+  type: IEEE
+  primary: true
+- content: IEEE P802.15.9a™/D-02-2025-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2548-3
+  type: ISBN
+docnumber: IEEE P802.15.9a/D-02-2025-07
+date:
+- type: created
+  at: '2025-08-19'
+- type: published
+  at: '2025-08-20'
+- type: issued
+  at: '2025'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Abstract: This amendment specifies the use of Ephemeral Diffie-Hellman
+    Over Concise Binary Object Representation Object Signing and Encryption. EDHOC
+    - RFC 9528 Key Management Protocol (KMP) for the IEEE Std 802.15.9.'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.15.9-2021
+    docidentifier:
+    - content: IEEE Std 802.15.9-2021
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Encryption
+  - language: en
+    script: Latn
+    content: Cryptographic protocols
+  - language: en
+    script: Latn
+    content: Access control
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4(TM)
+  - language: en
+    script: Latn
+    content: KMP
+  - language: en
+    script: Latn
+    content: EDHOC
+  - language: en
+    script: Latn
+    content: CBOR
+  - language: en
+    script: Latn
+    content: COSE
+  - language: en
+    script: Latn
+    content: RFC 9528.
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

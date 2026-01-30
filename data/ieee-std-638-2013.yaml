@@ -1,0 +1,144 @@
+---
+id: IEEEStd6382013
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Qualification of Class 1E Transformers for Nuclear Power
+    Generating Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6766175
+docidentifier:
+- content: IEEE Std 638-2013
+  type: IEEE
+  primary: true
+- content: IEEE Std 638™-2013
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8935-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2014.6766175
+  type: DOI
+docnumber: IEEE Std 638-2013
+date:
+- type: updated
+  at: '2014-07-24'
+- type: created
+  at: '2014-03-11'
+- type: published
+  at: '2014-03-12'
+- type: issued
+  at: '2013-12-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transformers of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Procedures for demonstrating the adequacy of new Class 1E transformers,
+    located in a mild environment of a nuclear power generating station, to perform
+    their required safety functions under postulated service conditions are presented.
+    Single- and three-phase transformers rated 601 V to 15 000 V for the highest voltage
+    winding and up to 2500 kVA (self-cooled rating) are covered. Because of the conservative
+    approach used in the development of this new standard for new transformers, the
+    end-point criteria cannot be used for in-service transformers.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 638-1992
+    docidentifier:
+    - content: IEEE Std 638-1992
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Nuclear power generation
+  - language: en
+    script: Latn
+    content: Transformers
+  - language: en
+    script: Latn
+    content: Design methodology
+  - language: en
+    script: Latn
+    content: Seismic measurements
+  - language: en
+    script: Latn
+    content: Class 1E transformers
+  - language: en
+    script: Latn
+    content: design qualification
+  - language: en
+    script: Latn
+    content: seismic qualification
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

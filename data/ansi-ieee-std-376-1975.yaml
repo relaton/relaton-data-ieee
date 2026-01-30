@@ -1,0 +1,134 @@
+---
+id: ANSIIEEEStd3761975
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for the Measurement of Impulse Strength and Impulse Bandwidth
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/20988
+docidentifier:
+- content: ANSI/IEEE Std 376-1975
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 376™-1975
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3954-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1975.120631
+  type: DOI
+docnumber: ANSI/IEEE Std 376-1975
+date:
+- type: created
+  at: '1975-11-07'
+- type: published
+  at: '2017-03-08'
+- type: issued
+  at: '1974-05-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Development Committee of the IEEE Electromagnetic Compatibility
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The use of the impulse generator for calibration purposes in electromagnetic
+    compatibility measurements is addressed. In particular, basic information relating
+    to the use of this device is provided, and interpretation of measurements made
+    using instruments based on it is considered. Two methods of measurement of spectrum
+    amplitude and impulse bandwidth are described in detail. The first method uses
+    a video pulse technique. The second uses a substitution method in which the reference
+    is a pulse- modulated sine-wave generator whose parameters are measured. Both
+    techniques are capable of about equal accuracy.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1975'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Calibration
+  - language: en
+    script: Latn
+    content: Electromagnetic compatibility
+  - language: en
+    script: Latn
+    content: Measurement standards
+  - language: en
+    script: Latn
+    content: Pulse generation
+  - language: en
+    script: Latn
+    content: Electromagnetic radiative interference
+  - language: en
+    script: Latn
+    content: strength
+  - language: en
+    script: Latn
+    content: bandwith
+  - language: en
+    script: Latn
+    content: Impulse measurements
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

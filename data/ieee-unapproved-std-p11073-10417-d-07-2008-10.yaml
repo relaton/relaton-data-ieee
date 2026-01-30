@@ -1,0 +1,112 @@
+---
+id: IEEEUnapprovedStdP1107310417D07200810
+type: standard
+schema_version: v1.4.1
+title:
+- content: ISO/IEEE Health Informatics -- Personal Health Device Communication --
+    Part 10417 Device Specialization --Glucose Meter
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4664986
+docidentifier:
+- content: IEEE Unapproved Std P11073.10417/D-07-2008-10
+  type: IEEE
+  primary: true
+- content: IEEE Unapproved Std P11073.10417™/D-07-2008-10
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-2859-0
+  type: ISBN
+docnumber: IEEE Unapproved Std P11073.10417/D-07-2008-10
+date:
+- type: created
+  at: '2008'
+- type: published
+  at: '2008-10-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, this standard establishes a normative definition of communication
+    between personal telehealth glucose meter devices and compute engines (e.g. cell
+    phones, personal computers, personal health appliances, set top boxes) in a manner
+    that enables plug-and-play interoperability. It leverages appropriate portions
+    of existing standards including ISO/IEEE 11073 terminology, information models,
+    application profile standards, and transport standards. It specifies the use of
+    specific term codes, formats, and behaviors in telehealth environments restricting
+    optionality in base frameworks in favor of interoperability. This standard defines
+    a common core of communication functionality for personal telehealth glucose meters.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO
+  - language: en
+    script: Latn
+    content: Meters
+  - language: en
+    script: Latn
+    content: Glucose
+  - language: en
+    script: Latn
+    content: Bioinformatics
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  - code: 11.040.55
+    text: Diagnostic equipment
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

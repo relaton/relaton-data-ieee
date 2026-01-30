@@ -1,0 +1,206 @@
+---
+id: IEEEP1801D10202402
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Design and Verification of Low Power, Energy Aware
+    Electronic Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10452332
+docidentifier:
+- content: IEEE P1801/D-10-2024-02
+  type: IEEE
+  primary: true
+- content: IEEE P1801™/D-10-2024-02
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0577-5
+  type: ISBN
+docnumber: IEEE P1801/D-10-2024-02
+date:
+- type: created
+  at: '2024-02-26'
+- type: published
+  at: '2024-02-27'
+- type: issued
+  at: '2024-09-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A method is provided for specifying power intent for an electronic design,
+    for use in verification of the structure and behavior of the design in the context
+    of a given power-management architecture, and for driving implementation of that
+    power-management architecture. The method supports incremental refinement of power
+    intent specifications required for IP-based design flows. (The PDF of this standard
+    is available to you at no cost through the IEEE GET program https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=80).
+    Open Source codes are available at https://opensource.ieee.org/upf.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1801-2018
+    docidentifier:
+    - content: IEEE Std 1801-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Design engineering
+  - language: en
+    script: Latn
+    content: Low-power electronics
+  - language: en
+    script: Latn
+    content: Acoustic devices
+  - language: en
+    script: Latn
+    content: Hazardous materials
+  - language: en
+    script: Latn
+    content: Industrial plants
+  - language: en
+    script: Latn
+    content: Noise measurement
+  - language: en
+    script: Latn
+    content: Urban areas
+  - language: en
+    script: Latn
+    content: Wetlands
+  - language: en
+    script: Latn
+    content: Energy efficiency
+  - language: en
+    script: Latn
+    content: Energy management
+  - language: en
+    script: Latn
+    content: Construction
+  - language: en
+    script: Latn
+    content: Buildings
+  - language: en
+    script: Latn
+    content: Green design
+  - language: en
+    script: Latn
+    content: Environmental factors
+  - language: en
+    script: Latn
+    content: corruption semantics
+  - language: en
+    script: Latn
+    content: IEEE 1801™
+  - language: en
+    script: Latn
+    content: interface specification
+  - language: en
+    script: Latn
+    content: IP reuse
+  - language: en
+    script: Latn
+    content: isolation
+  - language: en
+    script: Latn
+    content: level shifting
+  - language: en
+    script: Latn
+    content: power-aware design
+  - language: en
+    script: Latn
+    content: power domains
+  - language: en
+    script: Latn
+    content: power intent
+  - language: en
+    script: Latn
+    content: power modes
+  - language: en
+    script: Latn
+    content: power states
+  - language: en
+    script: Latn
+    content: progressive design refinement
+  - language: en
+    script: Latn
+    content: retention
+  - language: en
+    script: Latn
+    content: retention strategies
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

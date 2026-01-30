@@ -1,0 +1,137 @@
+---
+id: IEEEStd9461992
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for the Design of DC Auxiliary Power Systems
+    for Generating Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/213720
+docidentifier:
+- content: IEEE Std 946-1992
+  type: IEEE
+  primary: true
+- content: IEEE Std 946™-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1085-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.114465
+  type: DOI
+docnumber: IEEE Std 946-1992
+date:
+- type: created
+  at: '1993-02-25'
+- type: published
+  at: '2012-05-17'
+- type: issued
+  at: '1992-12-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Energy Development &amp; Power Generation of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by 946-2004 (SH/SS95307). Guidance for the design of the dc
+    auxiliary power systems for nuclear and large fossil-fueled power generating stations
+    is provided. The components of the dc auxiliary power system, including lead storage
+    batteries, static battery chargers, and distribution equipment, are addressed.
+    Guidance for selecting the quantity and types of equipment, the equipment ratings,
+    interconnections, instrumentation, control and protection is also provided.
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 946-2004
+    docidentifier:
+    - content: IEEE Std 946-2004
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Battery chargers
+  - language: en
+    script: Latn
+    content: Control equipment
+  - language: en
+    script: Latn
+    content: Power systems
+  - language: en
+    script: Latn
+    content: Protection
+  - language: en
+    script: Latn
+    content: Batteries
+  - language: en
+    script: Latn
+    content: dc auxiliary power systems
+  - language: en
+    script: Latn
+    content: Nuclear generating stations
+  - language: en
+    script: Latn
+    content: Fossil-fueled generating stations
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.10
+    text: Reactor engineering
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

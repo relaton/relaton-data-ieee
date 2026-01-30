@@ -1,0 +1,159 @@
+---
+id: IEEEPC37108D218201902
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Guide for the Protection of Secondary Network Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8882566
+docidentifier:
+- content: IEEE PC37.108/D-2.18-2019-02
+  type: IEEE
+  primary: true
+- content: IEEE PC37.108™/D-2.18-2019-02
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6221-1
+  type: ISBN
+docnumber: IEEE PC37.108/D-2.18-2019-02
+date:
+- type: created
+  at: '2019-10-22'
+- type: published
+  at: '2019-10-24'
+- type: issued
+  at: '2021-02-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Current available devices that are being used in secondary network systems
+    protections schemes are covered in this guide. These devices act to sense the
+    fault and initiate fault interruption locally or remotely, thereby minimizing
+    damage and restoration time.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.108-2002
+    docidentifier:
+    - content: IEEE Std C37.108-2002
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.108-2002
+    docidentifier:
+    - content: IEEE Std C37.108-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Relay networks (telecommunications)
+  - language: en
+    script: Latn
+    content: Power transformers
+  - language: en
+    script: Latn
+    content: Current limiters
+  - language: en
+    script: Latn
+    content: IEEE C37.108
+  - language: en
+    script: Latn
+    content: master relay
+  - language: en
+    script: Latn
+    content: network limiter
+  - language: en
+    script: Latn
+    content: network protector
+  - language: en
+    script: Latn
+    content: network relays
+  - language: en
+    script: Latn
+    content: network transformers
+  - language: en
+    script: Latn
+    content: spot networks
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

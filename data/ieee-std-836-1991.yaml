@@ -1,0 +1,132 @@
+---
+id: IEEEStd8361991
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Precision Centrifuge Testing of Linear Accelerometers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/239582
+docidentifier:
+- content: IEEE Std 836-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 836™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3131-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1992.115128
+  type: DOI
+docnumber: IEEE Std 836-1991
+date:
+- type: created
+  at: '1992-06-15'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1991-09-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Gyro Accelerometer Panel of the IEEE Aerospace and Electronic Systems
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by 836-2001. A guide to the conduct and analysis of precision
+    centrifuge tests of linear accelerometers is provided, covering each phase of
+    the tests beginning with the planning. Possible error sources and typical methods
+    of data analysis are addressed. The intent is to provide those involved in centrifuge
+    testing with a detailed understanding of the various factors affecting accuracy
+    of measurement, both those associated with the centrifuge and those in the data
+    collection process. Model equations are discussed, both for the centrifuge and
+    for a typical linear accelerometer, each with the complexity needed to accommodate
+    the various identified characteristics and error sources in each. A new iterative
+    matrix equation solution for deriving from the centrifuge test data the various
+    model equation coefficeints for the accelerometer under test is presented.
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 836-2001
+    docidentifier:
+    - content: IEEE Std 836-2001
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Acceleration measurement
+  - language: en
+    script: Latn
+    content: Measurement errors
+  - language: en
+    script: Latn
+    content: centrifuge
+  - language: en
+    script: Latn
+    content: accelerometer test
+  - language: en
+    script: Latn
+    content: Linear accelerometer
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '49.090'
+    text: On-board equipment and instruments
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

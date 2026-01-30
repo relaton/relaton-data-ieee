@@ -1,0 +1,157 @@
+---
+id: IEEEStd11242003
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Analysis and Definition of DC Side Harmonic Performance
+    of HVDC Transmision Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1237536
+docidentifier:
+- content: IEEE Std 1124-2003
+  type: IEEE
+  primary: true
+- content: IEEE Std 1124™-2003
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3575-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2003.94382
+  type: DOI
+docnumber: IEEE Std 1124-2003
+date:
+- type: created
+  at: '2003'
+- type: published
+  at: '2019-10-25'
+- type: issued
+  at: '2003-03-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Guidelines are provided for evaluating and mitigating harmonic induction
+    effects from high-voltage direct current (HVDC) lines on the adjacent telephone
+    communication lines. Specifically, this guide presents methodology and approach
+    for a) Determining the number of wireline communication circuits that will be
+    affected by unacceptable interference and cost-effective remedial measures; and
+    b) Computing interference levels that would result with various practical dc filter/smoothing
+    reactor designs and the costs of these filters.
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Harmonic analysis
+  - language: en
+    script: Latn
+    content: Power harmonic filters
+  - language: en
+    script: Latn
+    content: HVDC transmission
+  - language: en
+    script: Latn
+    content: Interference
+  - language: en
+    script: Latn
+    content: equivalent disturbing current
+  - language: en
+    script: Latn
+    content: filters
+  - language: en
+    script: Latn
+    content: harmonic currents
+  - language: en
+    script: Latn
+    content: harmonic voltages
+  - language: en
+    script: Latn
+    content: HVDC transmission systems
+  - language: en
+    script: Latn
+    content: induction
+  - language: en
+    script: Latn
+    content: inductive coordination
+  - language: en
+    script: Latn
+    content: interference
+  - language: en
+    script: Latn
+    content: mitigation methods
+  - language: en
+    script: Latn
+    content: mutual impedance
+  - language: en
+    script: Latn
+    content: noise
+  - language: en
+    script: Latn
+    content: telephone circuits
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.99
+    text: Other equipment related to power transmission and distribution networks
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

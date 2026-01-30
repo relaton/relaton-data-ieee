@@ -1,0 +1,141 @@
+---
+id: IEEEStd1394b2002
+type: standard
+schema_version: v1.4.1
+title:
+- content: Standard for High Performance Serial Bus (High Speed Supplement)]
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1146719
+docidentifier:
+- content: IEEE Std 1394b-2002
+  type: IEEE
+  primary: true
+- content: IEEE Std 1394b™-2002
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3254-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2002.94221
+  type: DOI
+docnumber: IEEE Std 1394b-2002
+date:
+- type: created
+  at: '2002-12-14'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2002-03-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Supplemental information for a high-speed serial bus that integrates well
+    with most IEEE standard 32-bit and 64-bit parallel buses is specified. It is intended
+    to extend the usefulness of a low-cost interconnect between external peripherals.
+    This standard follows the IEEE Std 1212 &#8482;-2001 Command and Status Register
+    (CSR) architecture.
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 1394-1995
+    docidentifier:
+    - content: IEEE Std 1394-1995
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE 1394 Standard
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Encoding
+  - language: en
+    script: Latn
+    content: Optical fibers
+  - language: en
+    script: Latn
+    content: Plastics
+  - language: en
+    script: Latn
+    content: bus
+  - language: en
+    script: Latn
+    content: Computers
+  - language: en
+    script: Latn
+    content: high-speed serial bus
+  - language: en
+    script: Latn
+    content: interconnect
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,176 @@
+---
+id: IEEEStd8021AE2006
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Local and Metropolitan Area Networks: Media Access Control
+    (MAC) Security'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1678345
+docidentifier:
+- content: IEEE Std 802.1AE-2006
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1AE®-2006
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4991-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2006.245590
+  type: DOI
+docnumber: IEEE Std 802.1AE-2006
+date:
+- type: created
+  at: '2006-08-18'
+- type: published
+  at: '2015-06-19'
+- type: issued
+  at: '2006-06-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies how all or part of a network can be secured transparently
+    to peer protocol entities that use the MAC Service provided by IEEE 802&#174;
+    LANs to communicate. MAC security (MACsec) provides connectionless user data confidentiality,
+    frame data integrity, and data origin authenticity.
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 802.1AE-2018
+    docidentifier:
+    - content: IEEE Std 802.1AE-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Security
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: authorized port
+  - language: en
+    script: Latn
+    content: data origin authenticity
+  - language: en
+    script: Latn
+    content: integrity/confidentiality
+  - language: en
+    script: Latn
+    content: LANs
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: MAC Bridges
+  - language: en
+    script: Latn
+    content: MAC security and tack
+  - language: en
+    script: Latn
+    content: MAC Service
+  - language: en
+    script: Latn
+    content: MANs
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: MSAP
+  - language: en
+    script: Latn
+    content: port-based network access control
+  - language: en
+    script: Latn
+    content: secure association
+  - language: en
+    script: Latn
+    content: security
+  - language: en
+    script: Latn
+    content: service access point
+  - language: en
+    script: Latn
+    content: transparent bridging
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

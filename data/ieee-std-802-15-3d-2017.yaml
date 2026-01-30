@@ -1,0 +1,147 @@
+---
+id: IEEEStd802153d2017
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for High Data Rate Wireless Multi-Media Networks--Amendment
+    2: 100 Gb/s Wireless Switched Point-to-Point Physical Layer'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8066476
+docidentifier:
+- content: IEEE Std 802.15.3d-2017
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.3d®-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4245-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2017.8066476
+  type: DOI
+docnumber: IEEE Std 802.15.3d-2017
+date:
+- type: created
+  at: '2017-10-18'
+- type: published
+  at: '2017-10-12'
+- type: issued
+  at: '2017-09-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An alternative physical layer (PHY) at the lower THz frequency range between
+    252 GHz and 325 GHz for switched point-to-point links is defined in this amendment.
+    Two PHY modes are defined that enable data rates of up to 100 Gb/s using eight
+    different bandwidths between 2.16 GHz and 69.12 GHz.
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.15.3-2003
+    docidentifier:
+    - content: IEEE Std 802.15.3-2003
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Multimedia communication
+  - language: en
+    script: Latn
+    content: Submillimeter wave communication
+  - language: en
+    script: Latn
+    content: Wireless communication
+  - language: en
+    script: Latn
+    content: 300 GHz
+  - language: en
+    script: Latn
+    content: fixed point-to-point
+  - language: en
+    script: Latn
+    content: IEEE 802.15.3
+  - language: en
+    script: Latn
+    content: IEEE 802.15.3d
+  - language: en
+    script: Latn
+    content: submillimeter waves
+  - language: en
+    script: Latn
+    content: THz
+  - language: en
+    script: Latn
+    content: wireless
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

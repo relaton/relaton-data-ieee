@@ -1,0 +1,151 @@
+---
+id: IEEEStd122411993
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Information Technology--X.400-Based Electronic Messaging--Application
+    Program Interface (API) [Language Independent]
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/286076
+docidentifier:
+- content: IEEE Std 1224.1-1993
+  type: IEEE
+  primary: true
+- content: IEEE Std 1224.1™-1993
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-55937-302-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.119658
+  type: DOI
+docnumber: IEEE Std 1224.1-1993
+date:
+- type: created
+  at: '1993-12-30'
+- type: published
+  at: '2019-05-03'
+- type: issued
+  at: '1993-03-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Portable Applications of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Application program interfaces (APIs) to X.400-based electronic messaging
+    services are defined in terms that are independent of any particular programming
+    language. A general-purpose API that makes the functionality of a message transfer
+    system (MTS) accessible to a message store (MS) or user agent (UA), or the functionality
+    of a simple MS accessible to a UA, is provided. An X.400 gateway API divides a
+    message transfer agent (MTA) into two software components, a messaging system
+    gateway and an X.400 gateway service. This standard, and the language bindings
+    derived from it, are intended to be used in conjunction with IEEE Std 1224-1993,
+    which provides a general-purpose API for the creation, examination, modification,
+    and deletion of OSI information objects.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Open systems
+  - language: en
+    script: Latn
+    content: Computer languages
+  - language: en
+    script: Latn
+    content: Logic gates
+  - language: en
+    script: Latn
+    content: Electronic messaging
+  - language: en
+    script: Latn
+    content: Consumer electronics
+  - language: en
+    script: Latn
+    content: X.400
+  - language: en
+    script: Latn
+    content: Open systems interconnection
+  - language: en
+    script: Latn
+    content: Object management
+  - language: en
+    script: Latn
+    content: OSI
+  - language: en
+    script: Latn
+    content: Language independent
+  - language: en
+    script: Latn
+    content: Application portability
+  - language: en
+    script: Latn
+    content: API
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.70
+    text: Application layer
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

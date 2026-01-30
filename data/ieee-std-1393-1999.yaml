@@ -1,0 +1,111 @@
+---
+id: IEEEStd13931999
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Space-borne Fiber-Optic Data Bus
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/757191
+docidentifier:
+- content: IEEE Std 1393-1999
+  type: IEEE
+  primary: true
+- content: IEEE Std 1393™-1999
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-1549-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1999.89421
+  type: DOI
+docnumber: IEEE Std 1393-1999
+date:
+- type: created
+  at: '1999'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1999-02-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Bus Architecture Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The design requirements for a fiber-optic serial interconnect protocol,
+    topology, and media is established. The application target for this standard is
+    the interconnection of multiple aerospace sensors, processing resources, bulk
+    storage resources, and communications resources onboard aerospace platforms. This
+    standard is for subsystem interconnection, as opposed to intra-backplane connection.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Field buses
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  - code: '49.060'
+    text: Aerospace electric equipment and systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

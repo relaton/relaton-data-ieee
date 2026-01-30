@@ -1,0 +1,143 @@
+---
+id: IEEEStd159631996
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Low-Voltage Differential Signals (LVDS) for Scalable
+    Coherent Interface (SCI)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/503756
+docidentifier:
+- content: IEEE Std 1596.3-1996
+  type: IEEE
+  primary: true
+- content: IEEE Std 1596.3™-1996
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3136-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1996.81028
+  type: DOI
+docnumber: IEEE Std 1596.3-1996
+date:
+- type: created
+  at: '1996-07-31'
+- type: published
+  at: '2019-04-09'
+- type: issued
+  at: '1996-03-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Scalable Coherent Interface (SCI), specified in IEEE Std 1596-1992, provides
+    computer-bus-like services but uses a collection of fast point-to-point links
+    instead of a physical bus in order to reach far higher speeds. The base specification
+    defines differential ECL signals, which provide a high transfer rate (16 bits
+    are transferred every 2 ns), but are inconvenient for some applications. IEEE
+    Std 1596.3-1996, an extension to IEEE Std 1596-1992, defines a lower-voltage differential
+    signal (as low as 250 mV swing) that is compatible with low-voltage CMOS, BiCMOS,
+    and GaAs circuitry. The power dissipation of the transceivers is low, since only
+    2.5 mA is needed to generate this differential voltage across a 100 W termination
+    resistance. Signal encoding is defined that allows transfer of SCI packets over
+    data paths that are 4-, 8-, 32-, 64-, and 128-bits wide. Narrow data paths (4
+    to 8 bits) transferring data every 2 ns can provide sufficient bandwidth for many
+    applications while reducing the physical size and cost of the interface. The wider
+    paths may be needed for very-high-performance systems.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1996'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Data buses
+  - language: en
+    script: Latn
+    content: backplane
+  - language: en
+    script: Latn
+    content: bus
+  - language: en
+    script: Latn
+    content: cable
+  - language: en
+    script: Latn
+    content: differential
+  - language: en
+    script: Latn
+    content: low power
+  - language: en
+    script: Latn
+    content: point to point
+  - language: en
+    script: Latn
+    content: scalable
+  - language: en
+    script: Latn
+    content: signal
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

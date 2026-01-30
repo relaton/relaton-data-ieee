@@ -1,0 +1,191 @@
+---
+id: IEEEP11073102072024D2Cor12025
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Approved Draft Standard for Domain Information and Service Model for
+    Service-Oriented Point-of-Care Medical Device Communication Corrigenda 1
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11077909
+docidentifier:
+- content: IEEE P11073.10207-2024/D-2/Cor1-2025
+  type: IEEE
+  primary: true
+- content: IEEE P11073.10207-2024™/D-2/Cor1-2025
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2397-7
+  type: ISBN
+docnumber: IEEE P11073.10207-2024/D-2/Cor1-2025
+date:
+- type: created
+  at: '2025'
+- type: published
+  at: '2025-07-10'
+- type: issued
+  at: '2025-09-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The IEEE 11073-10207-2017 standard falls within the context of the ISO/IEEE
+    11073™ family of standards for point-of-care medical device communication. In
+    this standard, a Participant Model is derived from the ISO/IEEE 11073-10201 Domain
+    Information Model. The Participant Model specifies the structure of medical information
+    objects. Additionally, the standard defines an 4 abstract Communication Model
+    to facilitate the exchange of medical information objects. Both the Participant
+    Model and Communication Model elements are specified using XML Schema. The core
+    subjects covered by the Participant Model include the modeling of medical device-related
+    7 data (such as measurements and settings), alert systems, contextual information
+    (such as patient demographics and location), remote control, and archival information.
+    XML Schema is utilized to provide extensibility to the model. The corrigendum
+    for this standard comprises fixes related to definition terms, requirements, and
+    a significant retrofit of the versioning concept. It ensures that the standard
+    remains accurate and up-to-date, addressing any issues that may have arisen since
+    its initial publication.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: corrects
+  bibitem:
+    formattedref: IEEE Std 11073.10207-2017
+    docidentifier:
+    - content: IEEE Std 11073.10207-2017
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Bioinformatics
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Point of care
+  - language: en
+    script: Latn
+    content: Biomedical monitoring
+  - language: en
+    script: Latn
+    content: Service-oriented architecture
+  - language: en
+    script: Latn
+    content: IEEE 11073-10207
+  - language: en
+    script: Latn
+    content: BICEPS
+  - language: en
+    script: Latn
+    content: Corrigendum 1
+  - language: en
+    script: Latn
+    content: SDC
+  - language: en
+    script: Latn
+    content: communication protocol specification
+  - language: en
+    script: Latn
+    content: dynamic medical device interoperability
+  - language: en
+    script: Latn
+    content: integrated clinical environment
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: point-of-care
+  - language: en
+    script: Latn
+    content: remote control
+  - language: en
+    script: Latn
+    content: safety
+  - language: en
+    script: Latn
+    content: service-oriented architecture
+  - language: en
+    script: Latn
+    content: service-oriented device connectivity
+  - language: en
+    script: Latn
+    content: system function
+  - language: en
+    script: Latn
+    content: xml schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

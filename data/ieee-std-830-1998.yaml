@@ -1,0 +1,137 @@
+---
+id: IEEEStd8301998
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Software Requirements Specifications
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/720574
+docidentifier:
+- content: IEEE Std 830-1998
+  type: IEEE
+  primary: true
+- content: IEEE Std 830™-1998
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0448-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1998.88286
+  type: DOI
+docnumber: IEEE Std 830-1998
+date:
+- type: created
+  at: '1998-10-20'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1998-06-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by ISO/IEC/IEEE 29148:2011. The content and qualities of a good
+    software requirements specification (SRS) are described and several sample SRS
+    outlines are presented. This recommended practice is aimed at specifying requirements
+    of software to be developed but also can be applied to assist in the selection
+    of in-house and commercial software products. Guidelines for compliance with IEEE/
+    EIA12207.1- 1997 are also provided.
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 830-1993
+    docidentifier:
+    - content: IEEE Std 830-1993
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Software requirements and specifications
+  - language: en
+    script: Latn
+    content: contract
+  - language: en
+    script: Latn
+    content: customer
+  - language: en
+    script: Latn
+    content: prototyping
+  - language: en
+    script: Latn
+    content: software requirements specification
+  - language: en
+    script: Latn
+    content: supplier
+  - language: en
+    script: Latn
+    content: system requirements specifications
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,123 @@
+---
+id: IEEEStd123211997
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Artificial Intelligence Exchange and Service Tie to
+    All Test Environments (AI-ESTATE): Data and Knowledge Specification'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/624686
+docidentifier:
+- content: IEEE Std 1232.1-1997
+  type: IEEE
+  primary: true
+- content: IEEE Std 1232.1™-1997
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3532-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1997.83836
+  type: DOI
+docnumber: IEEE Std 1232.1-1997
+date:
+- type: created
+  at: '1997'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1997-03-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Formal models for information used in system diagnosis are defined. As
+    part of the AI-ESTATE set of standards, this standard includes several models
+    that form the basis for a format to facilitate exchange of persistent diagnostic
+    information between two reasoners, and also provides a formal typing system for
+    the services defined in the AI-ESTATE service specification.
+copyright:
+- from: '1997'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: AI-ESTATE
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: diagnosis
+  - language: en
+    script: Latn
+    content: enhanced diagnostic inference model
+  - language: en
+    script: Latn
+    content: fault tree model
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

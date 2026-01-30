@@ -1,0 +1,154 @@
+---
+id: IEEEP80211eD60200311
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Amendment to Standard for Information technology-- Local and
+    metropolitan area networks-- Specific requirements-- Part 11: Wireless LAN Medium
+    Access Control (MAC) and Physical Layer (PHY) Specifications - Amendment: Medium
+    Access Method (MAC) Quality of Service Enhancements'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8629405
+docidentifier:
+- content: IEEE P802.11e/D-6.0-2003-11
+  type: IEEE
+  primary: true
+- content: IEEE P802.11e™/D-6.0-2003-11
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9106-5
+  type: ISBN
+docnumber: IEEE P802.11e/D-6.0-2003-11
+date:
+- type: created
+  at: '2003-01-01'
+- type: published
+  at: '2019-01-29'
+- type: issued
+  at: '2003'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment is based on the current edition of IEEE Std 802.11, 1999
+    (Reaff 2003) Edition and IEEE Std 802.11g, 2003 and IEEE Std 802.11h, 2003. Defines
+    the MAC procedures to support LAN applications with Quality of Service (QoS) requirements,
+    including the transport of voice, audio and video over IEEE 802.11 wireless LANs.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.11-1999
+    docidentifier:
+    - content: ANSI/IEEE Std 802.11-1999
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.11-1999
+    docidentifier:
+    - content: ANSI/IEEE Std 802.11-1999
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Quality of service
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,114 @@
+---
+id: IEEEStd1363a2004
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard Specifications for Public-Key Cryptography - Amendment 1:
+    Additional Techniques'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1335427
+docidentifier:
+- content: IEEE Std 1363a-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 1363a™-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4004-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.94612
+  type: DOI
+docnumber: IEEE Std 1363a-2004
+date:
+- type: created
+  at: '2004'
+- type: published
+  at: '2014-08-08'
+- type: issued
+  at: '2004-03-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Amendment to IEEE Std 1363-2000, this standard specifies additional public-key
+    cryptographic techniques beyond those in IEEE Std 1363-2000. It is intended to
+    be merged with IEEE Std 1363-2000 during future revisions.
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: digital signature
+  - language: en
+    script: Latn
+    content: encryption
+  - language: en
+    script: Latn
+    content: key agreement
+  - language: en
+    script: Latn
+    content: public-key cryptography
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

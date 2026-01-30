@@ -1,0 +1,156 @@
+---
+id: IEEEStd19012a2015
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Low-Frequency (less than 500 kHz) Narrowband Power Line
+    Communications for Smart Grid Applications - Amendment 1
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7286946
+docidentifier:
+- content: IEEE Std 1901.2a-2015
+  type: IEEE
+  primary: true
+- content: IEEE Std 1901.2a™-2015
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9959-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2015.7286946
+  type: DOI
+docnumber: IEEE Std 1901.2a-2015
+date:
+- type: created
+  at: '2015-10-02'
+- type: published
+  at: '2015-10-01'
+- type: issued
+  at: '2015-09-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power Line Communications of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Changes to clarify how and when to encrypt header and payload information
+    elements, update the interleaver design in order to eliminate some drawbacks in
+    certain channels, a new PHY data primitive attribute so sub-band SNR data can
+    be obtained from the PHY, modification to the frame counter size for security
+    to make it consistent with IEEE Std 802.15.4e(TM)-2012, and adding a beacon attribute
+    and change the zero crossing detector text are addressed in this amendment.
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Power transmission lines
+  - language: en
+    script: Latn
+    content: ODFM
+  - language: en
+    script: Latn
+    content: Narrowband
+  - language: en
+    script: Latn
+    content: coexistence
+  - language: en
+    script: Latn
+    content: G3-PLC
+  - language: en
+    script: Latn
+    content: IEEE 1901.2a(TM)
+  - language: en
+    script: Latn
+    content: IFFT OFDM
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: medium access control
+  - language: en
+    script: Latn
+    content: narrowband
+  - language: en
+    script: Latn
+    content: PHY
+  - language: en
+    script: Latn
+    content: physical layer
+  - language: en
+    script: Latn
+    content: PLC
+  - language: en
+    script: Latn
+    content: power line communications
+  - language: en
+    script: Latn
+    content: PRIME.
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.040.60
+    text: Powerline telecommunications
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

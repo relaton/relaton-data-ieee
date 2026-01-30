@@ -1,0 +1,133 @@
+---
+id: IEEEStd16332008
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice on Software Reliability
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4554206
+docidentifier:
+- content: IEEE Std 1633-2008
+  type: IEEE
+  primary: true
+- content: IEEE Std 1633™-2008
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5406-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2008.4554206
+  type: DOI
+docnumber: IEEE Std 1633-2008
+date:
+- type: updated
+  at: '2008-10-17'
+- type: created
+  at: '2008-06-27'
+- type: published
+  at: '2017-02-22'
+- type: issued
+  at: '2008-03-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Reliability of the IEEE Reliability Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Draft D12 This recommended practice prescribes the methods for assessing
+    and predicting the reliability of software, based on a life cycle approach to
+    software reliability engineering. It provides information necessary for the application
+    of software reliability measurement to a project, lays a foundation for building
+    consistent methods, and establishes the basic principle for collecting the data
+    needed to assess and predict the reliability of software. The document prescribes
+    how any user can participate in on going software reliability assessments and
+    predictions.
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1633-2016
+    docidentifier:
+    - content: IEEE Std 1633-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Software reliability
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Software
+  - language: en
+    script: Latn
+    content: 1633-2008
+  - language: en
+    script: Latn
+    content: software reliability
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,135 @@
+---
+id: IEEEStd10611992
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for a Software Quality Metrics Methodology
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/237006
+docidentifier:
+- content: IEEE Std 1061-1992
+  type: IEEE
+  primary: true
+- content: IEEE Std 1061™-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0411-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.115124
+  type: DOI
+docnumber: IEEE Std 1061-1992
+date:
+- type: created
+  at: '1993-03-12'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1992-12-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A methodology for establishing quality requirements and identifying, implementing,
+    analyzing, and validating the process and product of software quality metrics
+    is defined. The methodology spans the entire software life cycle. Although this
+    standard includes examples of metrics, this standard does not prescribe specific
+    metrics.
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1061-1998
+    docidentifier:
+    - content: IEEE Std 1061-1998
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Software metrics
+  - language: en
+    script: Latn
+    content: Software quality
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: direct metric
+  - language: en
+    script: Latn
+    content: factor
+  - language: en
+    script: Latn
+    content: metrics framework
+  - language: en
+    script: Latn
+    content: software quality metric
+  - language: en
+    script: Latn
+    content: subfactor
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

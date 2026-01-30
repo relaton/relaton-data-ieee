@@ -1,0 +1,220 @@
+---
+id: IEEEStd3891990
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Testing Electronic Transformers and Inductors
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/89676
+docidentifier:
+- content: IEEE Std 389-1990
+  type: IEEE
+  primary: true
+- content: IEEE Std 389™-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5593-7036-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1990.94593
+  type: DOI
+docnumber: IEEE Std 389-1990
+date:
+- type: created
+  at: '1990-08-28'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1990-05-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Committee of the IEEE Power Electronics Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A number of tests are presented for use in determining the significant
+    parameters and performance characteristics of electronics transformers and inductors.
+    These tests are designed primarily for transformers and inductors used in all
+    types of electronics applications, but they may apply to the other types of transformers
+    of large apparent-power rating used in the electric power utility industry. Some
+    of the tests are intended for qualifying a product for a specific application,
+    while others are test practices used widely for manufacturing and customer acceptance
+    testing. A guide for particular application categories is included.
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 389-1979
+    docidentifier:
+    - content: IEEE Std 389-1979
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 389-1996
+    docidentifier:
+    - content: IEEE Std 389-1996
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Inductors
+  - language: en
+    script: Latn
+    content: Power transformers
+  - language: en
+    script: Latn
+    content: Transformers
+  - language: en
+    script: Latn
+    content: common mode
+  - language: en
+    script: Latn
+    content: rejection tests
+  - language: en
+    script: Latn
+    content: corona tests
+  - language: en
+    script: Latn
+    content: current transformer
+  - language: en
+    script: Latn
+    content: electronic inductors
+  - language: en
+    script: Latn
+    content: power transformers
+  - language: en
+    script: Latn
+    content: inductance
+  - language: en
+    script: Latn
+    content: inrush current
+  - language: en
+    script: Latn
+    content: insulation tests
+  - language: en
+    script: Latn
+    content: large rectifiers
+  - language: en
+    script: Latn
+    content: noise tests
+  - language: en
+    script: Latn
+    content: product rating
+  - language: en
+    script: Latn
+    content: pulse transformers
+  - language: en
+    script: Latn
+    content: quality factors
+  - language: en
+    script: Latn
+    content: resistance tests
+  - language: en
+    script: Latn
+    content: self resonance
+  - language: en
+    script: Latn
+    content: temperature rise
+  - language: en
+    script: Latn
+    content: terminated rise test
+  - language: en
+    script: Latn
+    content: voltage time
+  - language: en
+    script: Latn
+    content: time shielding
+  - language: en
+    script: Latn
+    content: Voltage-time shielding
+  - language: en
+    script: Latn
+    content: Transformer capacitance
+  - language: en
+    script: Latn
+    content: Temperature rise tests
+  - language: en
+    script: Latn
+    content: Self-resonance
+  - language: en
+    script: Latn
+    content: Quality factor
+  - language: en
+    script: Latn
+    content: Inductance measurements
+  - language: en
+    script: Latn
+    content: Electronic power transformers
+  - language: en
+    script: Latn
+    content: Current transformer tests
+  - language: en
+    script: Latn
+    content: Common-mode rejection tests
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

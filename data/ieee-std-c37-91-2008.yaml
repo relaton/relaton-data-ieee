@@ -1,0 +1,176 @@
+---
+id: IEEEStdC37912008
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Protecting Power Transformers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4534870
+docidentifier:
+- content: IEEE Std C37.91-2008
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.91™-2008
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5388-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2008.4534870
+  type: DOI
+docnumber: IEEE Std C37.91-2008
+date:
+- type: updated
+  at: '2008-10-10'
+- type: created
+  at: '2008-05-30'
+- type: published
+  at: '2015-01-27'
+- type: issued
+  at: '2008-01-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Revision of IEEE Std C37.91-2000. This guide is intended to provide protection
+    engineers and other readers with guidelines for protecting three-phase power transformers
+    of more than 5 MVA rated capacity and operating at voltages exceeding 10 kV. In
+    some cases, a user may apply the techniques described in this guide for protecting
+    transformers of less than 5 MVA ratings or operating at voltages less than 10
+    kV. The guide provides information to assist protection engineers in applying
+    properly relays and other devices to protect transformers used in transmission
+    and distribution systems. General philosophy, practical applications, and economic
+    considerations involved in power transformer protection are discussed. Emphasis
+    is placed on practical applications. Types of faults in transformers are described.
+    Technical problems with the protection systems, including the behavior of current
+    transformers (CTs) during system faults, are discussed. Associated problems, such
+    as fault clearing and re-energization, are discussed as well.
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.91-2021
+    docidentifier:
+    - content: IEEE Std C37.91-2021
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.91-2000
+    docidentifier:
+    - content: IEEE Std C37.91-2000
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Power transformers
+  - language: en
+    script: Latn
+    content: Current transformers
+  - language: en
+    script: Latn
+    content: Oil insulation
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: Warranties
+  - language: en
+    script: Latn
+    content: C37.91-2007
+  - language: en
+    script: Latn
+    content: analysis of dissolved gases in transformer oil
+  - language: en
+    script: Latn
+    content: application of multifunction relays for transformer protection
+  - language: en
+    script: Latn
+    content: differential protection
+  - language: en
+    script: Latn
+    content: failures of transformers
+  - language: en
+    script: Latn
+    content: overcurrent protection
+  - language: en
+    script: Latn
+    content: protection of phase shifting transformers
+  - language: en
+    script: Latn
+    content: protection of transformers
+  - language: en
+    script: Latn
+    content: volts per hertz protection
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.70
+    text: Relays
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

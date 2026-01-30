@@ -1,0 +1,127 @@
+---
+id: IEEEStd124422000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Media Management Systems (MMS) Session Security, Authentication,
+    Initialization Protocol (SSAIP)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/892458
+docidentifier:
+- content: IEEE Std 1244.2-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 1244.2™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-2508-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.92295
+  type: DOI
+docnumber: IEEE Std 1244.2-2000
+date:
+- type: created
+  at: '2000'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '2000-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Storage Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The syntax and semantics of the protocol messages that pass between the
+    MMS client or MMS module and the MM are described. Since this protocol is only
+    used in the context of the MMS, this standard cannot be understood without a thorough
+    understanding of its architecture as described in IEEE Std 1244.1-2000.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Media
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Libraries
+  - language: en
+    script: Latn
+    content: Authentication
+  - language: en
+    script: Latn
+    content: Patents
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

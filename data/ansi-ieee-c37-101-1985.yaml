@@ -1,0 +1,122 @@
+---
+id: ANSIIEEEC371011985
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Generator Ground Protection
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/598500
+docidentifier:
+- content: ANSI/IEEE C37.101-1985
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE C37.101™-1985
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4126-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1985.82930
+  type: DOI
+docnumber: ANSI/IEEE C37.101-1985
+date:
+- type: created
+  at: '1985'
+- type: issued
+  at: '1981-12-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This guide has been prepared to aid in the application of relays and relaying
+    schemes for the protection of synchronous generators for single-phase-to- ground
+    faults in the stator winding. The guide is not intended for the selection of generator
+    or ground connection schemes. The information included in the main body is limited
+    to those generator connections, grounding practices, and protective schemes generally
+    used in North America. Appendix A provides information on some of the protective
+    schemes in use elsewhere in the world and on schemes which are not in wide- Npread
+    use throughout North America. Appendix B provides examples of how to calculate
+    ground overcurrent and overvoltage relay settings for the various protective schemes
+    (and how to coordinate them with voltage transformer secondary fuses. Appendix
+    C is a bibliography of available literature on the ground-fault problem from which
+    source material was drawn. Recommended protective schemes and the arrangements
+    in which they may be applied are indicated in Table 1. The use of this table is
+    described in Section 3 with supporting information provided in subsequent sections.
+copyright:
+- from: '1985'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.101-1993
+    docidentifier:
+    - content: IEEE Std C37.101-1993
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.101-1993
+    docidentifier:
+    - content: IEEE Std C37.101-1993
+      type: IEEE
+      primary: true
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.160.20
+    text: Generators
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

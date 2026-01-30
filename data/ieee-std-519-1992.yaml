@@ -1,0 +1,150 @@
+---
+id: IEEEStd5191992
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practices and Requirements for Harmonic Control in Electrical
+    Power Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/210894
+docidentifier:
+- content: IEEE Std 519-1992
+  type: IEEE
+  primary: true
+- content: IEEE Std 519™-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0915-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.114370
+  type: DOI
+docnumber: IEEE Std 519-1992
+date:
+- type: created
+  at: '1993-04-09'
+- type: published
+  at: '2013-11-12'
+- type: issued
+  at: '1992-06-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Industrial Power Converter of the IEEE Industry Applications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This guide applies to all types of static power converters used in industrial
+    and commercial power systems. The problems involved in the harmonic control and
+    reactive compensation of such converters are addressed, and an application guide
+    is provided. Limits of disturbances to the ac power distribution system that affect
+    other equipment and communications are recommended. This guide is not intended
+    to cover the effect of radio frequency interference.
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 519-1981
+    docidentifier:
+    - content: ANSI/IEEE Std 519-1981
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 519-2014
+    docidentifier:
+    - content: IEEE Std 519-2014
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Compensation
+  - language: en
+    script: Latn
+    content: Power conversion
+  - language: en
+    script: Latn
+    content: Power system control
+  - language: en
+    script: Latn
+    content: Power system harmonics
+  - language: en
+    script: Latn
+    content: Reactive power
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Reactive power compensation
+  - language: en
+    script: Latn
+    content: Harmonics
+  - language: en
+    script: Latn
+    content: Harmonic control
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

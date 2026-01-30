@@ -1,0 +1,187 @@
+---
+id: IEEEStd114912001
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Test Access Port and Boundary Scan Architecture
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/938734
+docidentifier:
+- content: IEEE Std 1149.1-2001
+  type: IEEE
+  primary: true
+- content: IEEE Std 1149.1™-2001
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2945-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2001.92950
+  type: DOI
+docnumber: IEEE Std 1149.1-2001
+date:
+- type: created
+  at: '2001-07-23'
+- type: published
+  at: '2013-05-21'
+- type: issued
+  at: '2001-06-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Circuitry that may be built into an integrated circuit to assist in the
+    test, maintenance, and support of assembled printed circuit boards is defined.
+    The circuitry includes a standard interface through which instructions and test
+    data are communicated. A set of test features is defined, including a boundary-scan
+    register, such that the component is able to respond to a minimum set of instructions
+    designed to assist with testing of assembled printed circuit boards.
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1149.1-1990
+    docidentifier:
+    - content: IEEE Std 1149.1-1990
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1149.1-2013
+    docidentifier:
+    - content: IEEE Std 1149.1-2013
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Printed circuits
+  - language: en
+    script: Latn
+    content: Registers
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Integrated circuits
+  - language: en
+    script: Latn
+    content: Binary codes
+  - language: en
+    script: Latn
+    content: boundary scan
+  - language: en
+    script: Latn
+    content: boundary-scan architecture
+  - language: en
+    script: Latn
+    content: Boundary-Scan Description Language
+  - language: en
+    script: Latn
+    content: boundary-scan register
+  - language: en
+    script: Latn
+    content: BSDL
+  - language: en
+    script: Latn
+    content: circuit boards
+  - language: en
+    script: Latn
+    content: circuitry
+  - language: en
+    script: Latn
+    content: integrated circuit
+  - language: en
+    script: Latn
+    content: printed circuit boards
+  - language: en
+    script: Latn
+    content: TAP
+  - language: en
+    script: Latn
+    content: test
+  - language: en
+    script: Latn
+    content: test access port
+  - language: en
+    script: Latn
+    content: VHDL
+  - language: en
+    script: Latn
+    content: VHSIC Hardware Description Language
+  - language: en
+    script: Latn
+    content: JTAG
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.180'
+    text: Printed circuits and boards
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

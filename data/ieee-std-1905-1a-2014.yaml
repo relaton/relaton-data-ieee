@@ -1,0 +1,202 @@
+---
+id: IEEEStd19051a2014
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for a Convergent Digital Home Network for Heterogeneous
+    Technologies Amendment 1: Support of New MAC/PHYs and Enhancements'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7050223
+docidentifier:
+- content: IEEE Std 1905.1a-2014
+  type: IEEE
+  primary: true
+- content: IEEE Std 1905.1a™-2014
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9496-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2015.7050223
+  type: DOI
+docnumber: IEEE Std 1905.1a-2014
+date:
+- type: created
+  at: '2015-02-20'
+- type: published
+  at: '2015-02-26'
+- type: issued
+  at: '2014-12-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power Line Communications of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'An abstraction layer for multiple home networking technologies that provides
+    a common interface to widely deployed home networking technologies is defined
+    in this standard: IEEE 1901(TM) over power lines, IEEE 802.11(TM) for wireless,
+    Ethernet over twisted pair cable, and MoCA 1.1 over coax. Additional network technologies
+    are supported by an extensible mechanism using an IEEE OUI and an XML-formatted
+    document. Connectivity selection for transmission of packets arriving from any
+    interface or application is supported by the 1905 abstraction layer. Modification
+    to the underlying home networking technologies is not required by the 1905 abstraction
+    layer, and hence it does not change the behavior or implementation of existing
+    home networking technologies. The 1905 abstraction layer is between layers 2 and
+    3 and abstracts the individual details of each interface, aggregates available
+    bandwidth, and facilitates seamless integration. The 1905 abstraction layer also
+    facilitates end-to-end quality of service (QoS) while simplifying the introduction
+    of new devices to the network, establishing secure connections, extending network
+    coverage, and facilitating advanced network management features including discovery,
+    path selection, autoconfiguration, and QoS negotiation.'
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Home automation
+  - language: en
+    script: Latn
+    content: Data models
+  - language: en
+    script: Latn
+    content: Network topology
+  - language: en
+    script: Latn
+    content: Registration
+  - language: en
+    script: Latn
+    content: Digital TV
+  - language: en
+    script: Latn
+    content: Digital systems
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: abstraction layer
+  - language: en
+    script: Latn
+    content: access point (AP) autoconfiguration
+  - language: en
+    script: Latn
+    content: data models
+  - language: en
+    script: Latn
+    content: extensibility
+  - language: en
+    script: Latn
+    content: fragmentation and reassembly
+  - language: en
+    script: Latn
+    content: Generic Phy
+  - language: en
+    script: Latn
+    content: IEEE 802.1(TM) bridge discovery
+  - language: en
+    script: Latn
+    content: IEEE Std 802.11(TM)
+  - language: en
+    script: Latn
+    content: IEEE Std 1901(TM)
+  - language: en
+    script: Latn
+    content: IEEE Std 1905.1(TM)
+  - language: en
+    script: Latn
+    content: L2
+  - language: en
+    script: Latn
+    content: MoCA(R)
+  - language: en
+    script: Latn
+    content: pairwise master key
+  - language: en
+    script: Latn
+    content: power management
+  - language: en
+    script: Latn
+    content: push button
+  - language: en
+    script: Latn
+    content: registration
+  - language: en
+    script: Latn
+    content: security
+  - language: en
+    script: Latn
+    content: topology discovery protocol
+  - language: en
+    script: Latn
+    content: Wi-Fi(R)
+  - language: en
+    script: Latn
+    content: XML
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

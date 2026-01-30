@@ -1,0 +1,205 @@
+---
+id: IEEEStd14502023Redline
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Test Interface Language (STIL) for Digital Test Vector Data
+  type: title-main
+- content: IEEE Standard Test Interface Language (STIL) for Digital Test Vector Data
+    - Redline
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10945594
+docidentifier:
+- content: IEEE Std 1450-2023 Redline
+  type: IEEE
+  primary: true
+- content: IEEE Std 1450™-2023 Redline
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1784-6
+  type: ISBN
+docnumber: IEEE Std 1450-2023 Redline
+date:
+- type: created
+  at: '2024-04-24'
+- type: published
+  at: '2025-03-28'
+- type: issued
+  at: '2023-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Standard test interface language (STIL) provides an interface between
+    digital test generation tools and test equipment. A test description language
+    is defined in this standard that: (a) facilitates the transfer of digital test
+    vector data from CAE to ATE environments; (b) specifies pattern, format, and timing
+    information sufficient to define the application of digital test vectors to a
+    DUT; and (c) supports the volume of test vector data generated from structured
+    tests.'
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1450-1999
+    docidentifier:
+    - content: IEEE Std 1450-1999
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Test pattern generators
+  - language: en
+    script: Latn
+    content: Built-in self-test
+  - language: en
+    script: Latn
+    content: Timing
+  - language: en
+    script: Latn
+    content: Test equipment
+  - language: en
+    script: Latn
+    content: Software testing
+  - language: en
+    script: Latn
+    content: Productivity
+  - language: en
+    script: Latn
+    content: Automatic test pattern generation
+  - language: en
+    script: Latn
+    content: Computer aided engineering
+  - language: en
+    script: Latn
+    content: automatic test pattern generator
+  - language: en
+    script: Latn
+    content: ATPG
+  - language: en
+    script: Latn
+    content: BIST
+  - language: en
+    script: Latn
+    content: built-in self-test
+  - language: en
+    script: Latn
+    content: CAE
+  - language: en
+    script: Latn
+    content: computer-aided engineering
+  - language: en
+    script: Latn
+    content: cyclize
+  - language: en
+    script: Latn
+    content: device under test
+  - language: en
+    script: Latn
+    content: digital test vectors
+  - language: en
+    script: Latn
+    content: DUT
+  - language: en
+    script: Latn
+    content: event
+  - language: en
+    script: Latn
+    content: functional vectors
+  - language: en
+    script: Latn
+    content: IEEE 1450™
+  - language: en
+    script: Latn
+    content: pattern
+  - language: en
+    script: Latn
+    content: scan vectors
+  - language: en
+    script: Latn
+    content: signal
+  - language: en
+    script: Latn
+    content: structural vectors
+  - language: en
+    script: Latn
+    content: timed event
+  - language: en
+    script: Latn
+    content: waveform
+  - language: en
+    script: Latn
+    content: waveshape
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: redline
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,144 @@
+---
+id: IEEEStd28042019
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Software-Hardware Interface for Multi-Many-Core
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8985663
+docidentifier:
+- content: IEEE Std 2804-2019
+  type: IEEE
+  primary: true
+- content: IEEE Std 2804™-2019
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6359-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2020.8985663
+  type: DOI
+docnumber: IEEE Std 2804-2019
+date:
+- type: updated
+  at: '2020-05-08'
+- type: created
+  at: '2020-01-24'
+- type: published
+  at: '2020-02-06'
+- type: issued
+  at: '2019-11-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard is intended primarily for tool developers and hardware developers
+    who would use Software Hardware Interface for Multi-Many-core (SHIM) to exchange
+    hardware description for software tools. It also attempts to provide software
+    developers with insights into what hardware information is described in SHIM to
+    foster understanding of the intention and the extent of SHIM.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Multicore processing
+  - language: en
+    script: Latn
+    content: Software tools
+  - language: en
+    script: Latn
+    content: Hardware
+  - language: en
+    script: Latn
+    content: Software
+  - language: en
+    script: Latn
+    content: Interface management
+  - language: en
+    script: Latn
+    content: IEEE 2804
+  - language: en
+    script: Latn
+    content: many-core
+  - language: en
+    script: Latn
+    content: multicore
+  - language: en
+    script: Latn
+    content: SHIM
+  - language: en
+    script: Latn
+    content: software hardware interface
+  - language: en
+    script: Latn
+    content: software tools
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

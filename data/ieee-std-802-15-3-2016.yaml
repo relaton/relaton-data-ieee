@@ -1,0 +1,158 @@
+---
+id: IEEEStd8021532016
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for High Data Rate Wireless Multi-Media Networks
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7524656
+docidentifier:
+- content: IEEE Std 802.15.3-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.3®-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-2023-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7524656
+  type: DOI
+docnumber: IEEE Std 802.15.3-2016
+date:
+- type: created
+  at: '2016-07-25'
+- type: published
+  at: '2016-07-28'
+- type: issued
+  at: '2016-05-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The protocol and compatible interconnection of data and multimedia communication
+    equipment via 2.4 GHz and 60 GHz radio transmissions in a Wireless Personal Area
+    Network (WPAN) using low power and multiple modulation formats to support scalable
+    data rates is defined in this standard. The Medium Access Control (MAC) sublayer
+    protocol supports both isochronous and asynchronous data types. (The PDF of this
+    standard is available at no cost compliments of the IEEE GET program at https://ieeexplore.ieee.org/browse/standards/get-program/page)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.15.3-2003
+    docidentifier:
+    - content: IEEE Std 802.15.3-2003
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ad hoc networks
+  - language: en
+    script: Latn
+    content: Mobile computing
+  - language: en
+    script: Latn
+    content: Millimeter wave technology
+  - language: en
+    script: Latn
+    content: Radio frequency
+  - language: en
+    script: Latn
+    content: Wireless communication
+  - language: en
+    script: Latn
+    content: Multimedia communication
+  - language: en
+    script: Latn
+    content: ad hoc network
+  - language: en
+    script: Latn
+    content: IEEE 802.15.3(TM)
+  - language: en
+    script: Latn
+    content: mobility
+  - language: en
+    script: Latn
+    content: mm-wave
+  - language: en
+    script: Latn
+    content: radio frequency
+  - language: en
+    script: Latn
+    content: wireless
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,159 @@
+---
+id: IEEEStd145012005
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Extensions to Standard Test Interface Language (STIL)
+    (IEEE Std 1450-1999) for Semiconductor Design Environments
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1519742
+docidentifier:
+- content: IEEE Std 1450.1-2005
+  type: IEEE
+  primary: true
+- content: IEEE Std 1450.1™-2005
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4733-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2005.97746
+  type: DOI
+docnumber: IEEE Std 1450.1-2005
+date:
+- type: created
+  at: '2005'
+- type: published
+  at: '2005-10-17'
+- type: issued
+  at: '2005-06-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Replaced by IEC 62526 Ed. 1 (2007-11. Standard Test Interface Language
+    (STIL) provides an interface between digital test generation tools and test equipment.
+    Extensions to the test interface language (contained in this standard) are defined
+    that (1) facilitate the use of the language in the design environment and (2)
+    facilitate the use of the language for large designs encompassing subdesigns with
+    reusable patterns.
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Test equipment
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: Warranties
+  - language: en
+    script: Latn
+    content: Licenses
+  - language: en
+    script: Latn
+    content: advanced scan architecture
+  - language: en
+    script: Latn
+    content: core
+  - language: en
+    script: Latn
+    content: environment
+  - language: en
+    script: Latn
+    content: fail feedback
+  - language: en
+    script: Latn
+    content: lockstep
+  - language: en
+    script: Latn
+    content: parallel patterns
+  - language: en
+    script: Latn
+    content: parameterized data
+  - language: en
+    script: Latn
+    content: pattern tilling
+  - language: en
+    script: Latn
+    content: pragma
+  - language: en
+    script: Latn
+    content: signal variable
+  - language: en
+    script: Latn
+    content: system on chip (SoC)
+  - language: en
+    script: Latn
+    content: test protocol
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

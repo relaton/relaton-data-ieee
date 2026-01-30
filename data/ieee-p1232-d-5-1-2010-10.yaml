@@ -1,0 +1,178 @@
+---
+id: IEEEP1232D51201010
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Artificial Intelligence Exchange and Service Tie
+    to All Test Environments (AI-ESTATE)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5599999
+docidentifier:
+- content: IEEE P1232/D-5.1-2010-10
+  type: IEEE
+  primary: true
+- content: IEEE P1232™/D-5.1-2010-10
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5785-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2010.5599999
+  type: DOI
+docnumber: IEEE P1232/D-5.1-2010-10
+date:
+- type: created
+  at: '2010-10-11'
+- type: published
+  at: '2010-10-14'
+- type: issued
+  at: '2010-12-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Data interchange and standard software services for test and diagnostic
+    environments are defined by Artificial Intelligence Exchange and Service Tie to
+    All Test Environments (AIESTATE). The purpose of AI-ESTATE is to standardize interfaces
+    for functional elements of an intelligent diagnostic reasoner and representations
+    of diagnostic knowledge and data for use by such diagnostic reasoners. Formal
+    information models are defined to form the basis for a format to facilitate exchange
+    of persistent diagnostic information between two reasoners and also to provide
+    a formal typing system for diagnostic services. The services to control a diagnostic
+    reasoned are defined by this standard.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1232-2002
+    docidentifier:
+    - content: IEEE Std 1232-2002
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1232-2002
+    docidentifier:
+    - content: IEEE Std 1232-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Artificial intelligence
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: AI-ESTATE
+  - language: en
+    script: Latn
+    content: Bayesian Network
+  - language: en
+    script: Latn
+    content: diagnosis
+  - language: en
+    script: Latn
+    content: diagnostic inference
+  - language: en
+    script: Latn
+    content: diagnostic model
+  - language: en
+    script: Latn
+    content: diagnostic services
+  - language: en
+    script: Latn
+    content: D-matrix
+  - language: en
+    script: Latn
+    content: fault tree
+  - language: en
+    script: Latn
+    content: IEEE 1232
+  - language: en
+    script: Latn
+    content: knowledge exchange
+  - language: en
+    script: Latn
+    content: system test
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,200 @@
+---
+id: ISOIEC88022012
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'Information technology-Telecommunications and information exchange between
+    systems--Local and metropolitan area networks - Specific requirements--Part 12:
+    Demand-Priority access method, physical layer and repeater specifications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6887406
+docidentifier:
+- content: ISO/IEC 8802-2012
+  type: IEEE
+  primary: true
+- content: ISO/IEC 8802™-2012
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0437-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1998.6887406
+  type: DOI
+docnumber: ISO/IEC 8802-2012
+date:
+- type: created
+  at: '1998'
+- type: published
+  at: '2014-08-28'
+- type: issued
+  at: '2015-01-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The media access control characteristics for the demand-priority access
+    method are specified. The layer management, physical layers, and media that support
+    this access method are also specified. Layer and sublayer interface specifications
+    are aligned to the ISO Open Systems Interconnection Basic Reference Model and
+    ISO/IEC 8802 models. Specifications for 100 Mb/s operation over 100 W balanced
+    cable (twisted-pair) Categories 3 through 5, 150 W shielded balanced cable, and
+    fibre-optic media are included. Optional implementation of redundant links to
+    facilitate automatic recovery of network connectivity in case of link or repeater
+    failure anywhere in the network path is specified. Rules for connecting redundant
+    links within a network are defined.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Data processing
+  - language: en
+    script: Latn
+    content: Fault tolerance
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: 802.12 balanced cable
+  - language: en
+    script: Latn
+    content: data processing
+  - language: en
+    script: Latn
+    content: demand-priority access method
+  - language: en
+    script: Latn
+    content: fault tolerance
+  - language: en
+    script: Latn
+    content: fibreoptic
+  - language: en
+    script: Latn
+    content: information interchange
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: media access control
+  - language: en
+    script: Latn
+    content: models
+  - language: en
+    script: Latn
+    content: mode of datatransmission
+  - language: en
+    script: Latn
+    content: network interconnection
+  - language: en
+    script: Latn
+    content: redundant link
+  - language: en
+    script: Latn
+    content: repeater
+  - language: en
+    script: Latn
+    content: star-topology local area network
+  - language: en
+    script: Latn
+    content: twisted pair
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

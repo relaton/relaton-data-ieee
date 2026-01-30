@@ -1,0 +1,134 @@
+---
+id: IEEEStd1121996
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Test Procedure for Polyphase Induction Motors and Generators
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/587531
+docidentifier:
+- content: IEEE Std 112-1996
+  type: IEEE
+  primary: true
+- content: IEEE Std 112™-1996
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0775-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1997.82360
+  type: DOI
+docnumber: IEEE Std 112-1996
+date:
+- type: created
+  at: '1997-05-08'
+- type: published
+  at: '2018-06-12'
+- type: issued
+  at: '1996-09-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Electric Machinery of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Instructions are given for conducting and reporting the more generally
+    applicable and acceptable tests to determine the performance characteristics of
+    polyphase induction motors and generators. Electrical measurements, performance
+    testing, temperature tests, and miscellaneous tests are covered.
+copyright:
+- from: '1997'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 112-1991
+    docidentifier:
+    - content: IEEE Std 112-1991
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 112-2004
+    docidentifier:
+    - content: IEEE Std 112-2004
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Induction motors
+  - language: en
+    script: Latn
+    content: generators
+  - language: en
+    script: Latn
+    content: motors
+  - language: en
+    script: Latn
+    content: tests
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.160.20
+    text: Generators
+  - code: 29.160.30
+    text: Motors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

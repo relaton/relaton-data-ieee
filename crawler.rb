@@ -17,8 +17,8 @@ puts "Started at: #{t1}"
 # index = Relaton::Index.find_or_create :ieee, file: 'index-v1.yaml'
 # Dir['data/*.yaml'].each do |f|
 #   yaml = YAML.load_file f
-#   docid = yaml['docid'].find { |i| i['type'] == 'IEEE' && i['primary'] == true && i['trademark'].nil? }
-#   index.add_or_update docid['id'], f
+#   docid = yaml['docidentifier'].find { |i| i['type'] == 'IEEE' && i['primary'] == true && i['trademark'].nil? }
+#   index.add_or_update docid['content'], f
 # end
 # index.save
 

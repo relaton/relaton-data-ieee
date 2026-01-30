@@ -1,0 +1,155 @@
+---
+id: IEEEPC37119D41202506
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Approved Draft Guide for Power System Circuit Breaker Failure Protection
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11042925
+docidentifier:
+- content: IEEE PC37.119/D-4.1-2025-06
+  type: IEEE
+  primary: true
+- content: IEEE PC37.119™/D-4.1-2025-06
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2335-9
+  type: ISBN
+docnumber: IEEE PC37.119/D-4.1-2025-06
+date:
+- type: created
+  at: '2025'
+- type: published
+  at: '2025-06-18'
+- type: issued
+  at: '2025-09-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Methods to protect a power system from faults that are not cleared because
+    of failure of a power circuit breaker to operate or interrupt when called upon
+    by a protective relay are described in this guide. The intent is to give the reader
+    a guide in how to detect that a breaker has failed to clear a fault, and how to
+    electrically isolate the fault after the breaker has failed to clear the fault.
+    Additionally, schemes that provide primary protection of the power system from
+    performance failures of the power circuit breaker other than fault clearing failures
+    such as failure to operate, either tripping or closing, manual or automatic, are
+    also described. Such schemes, when applied, are typically integrated as a part
+    of the overall breaker failure protection scheme. Also covered are recent practices
+    that take advantage of new technologies.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.119-2016
+    docidentifier:
+    - content: IEEE Std C37.119-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Circuit breakers
+  - language: en
+    script: Latn
+    content: Failure analysis
+  - language: en
+    script: Latn
+    content: Power system reliability
+  - language: en
+    script: Latn
+    content: BFP
+  - language: en
+    script: Latn
+    content: breaker failure
+  - language: en
+    script: Latn
+    content: breaker failure protection
+  - language: en
+    script: Latn
+    content: circuit breaker
+  - language: en
+    script: Latn
+    content: fault
+  - language: en
+    script: Latn
+    content: IEEE C37.119
+  - language: en
+    script: Latn
+    content: power system
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.40
+    text: Switches
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

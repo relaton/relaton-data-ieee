@@ -1,0 +1,137 @@
+---
+id: IEEEStd11742000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Serial Interface for Programmable Instrumentation
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/903083
+docidentifier:
+- content: IEEE Std 1174-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 1174™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1953-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2001.92336
+  type: DOI
+docnumber: IEEE Std 1174-2000
+date:
+- type: created
+  at: '2001-02-14'
+- type: published
+  at: '2020-05-08'
+- type: issued
+  at: '2000-01-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A serial, full-duplex, asynchronous, 9-pin data terminal equipment (DTE)
+    communications port for programmable instrumentation that follows ANSI/TIA/EIA-574-1990
+    and related standards is defined in this standard.
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: controller
+  - language: en
+    script: Latn
+    content: data communication equipment (DCE)
+  - language: en
+    script: Latn
+    content: data terminal equipment (DTE)
+  - language: en
+    script: Latn
+    content: device
+  - language: en
+    script: Latn
+    content: IEEE 488.1
+  - language: en
+    script: Latn
+    content: IEEE 488.2
+  - language: en
+    script: Latn
+    content: interchange circuit
+  - language: en
+    script: Latn
+    content: null modem cable
+  - language: en
+    script: Latn
+    content: observation
+  - language: en
+    script: Latn
+    content: permission
+  - language: en
+    script: Latn
+    content: recommendation
+  - language: en
+    script: Latn
+    content: rule
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,121 @@
+---
+id: IEEEStd200321996
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information Technology -Test Methods for Measuring Conformance
+    to POSIX(TM) - Part II: Shell and Utilities'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/951357
+docidentifier:
+- content: IEEE Std 2003.2-1996
+  type: IEEE
+  primary: true
+- content: IEEE Std 2003.2™-1996
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0655-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1997.93349
+  type: DOI
+docnumber: IEEE Std 2003.2-1996
+date:
+- type: created
+  at: '1997-10-01'
+- type: published
+  at: '2017-02-06'
+- type: issued
+  at: '1996-06-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Portable Applications of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A definition of the requirements placed upon providers of a POSIX&#8482;
+    Conformance Test Suite for the POSIX.2 standard (ISO/IEC 9945-2:1993, IEEE/ANSI
+    Std. 1003.2-1992) is provided. These requirements consist of a list of assertions
+    defining those aspects of POSIX.2 that are to be tested and the associated test
+    methods that are to be used in performing those tests. This standard is primarily
+    aimed at test suite providers but it also defines to POSIX.2 implementors those
+    aspects of the standard that will be verified by a conformance test suite.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1997'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: conformance
+  - language: en
+    script: Latn
+    content: POSIX
+  - language: en
+    script: Latn
+    content: Shell and Utilities
+  - language: en
+    script: Latn
+    content: test methods
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

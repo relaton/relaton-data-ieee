@@ -1,0 +1,145 @@
+---
+id: ISOIEC13213
+type: standard
+schema_version: v1.4.1
+title:
+- content: ISO/IEC/IEEE International Standard for Information technology--Microprocessor
+    systems--Control and Status Registers (CSR) Architecture for microcomputer buses
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4140849
+docidentifier:
+- content: ISO/IEC 13213
+  type: IEEE
+  primary: true
+- content: ISO/IEC 13213™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1214-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1994.339591
+  type: DOI
+docnumber: ISO/IEC 13213
+date:
+- type: created
+  at: '1994-10-05'
+- type: published
+  at: '2019-10-31'
+- type: issued
+  at: '1994'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The document structure and notation are described, and the objectives and
+    scope of the CSR Architecture are outlined. Transition set requirements, node
+    addressing, node architectures, unit architectures, and CSR definitions are set
+    forth. The ROM specification and bus standard requirements are covered.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Microprocessors
+  - language: en
+    script: Latn
+    content: Computer architecture
+  - language: en
+    script: Latn
+    content: CSR architecture
+  - language: en
+    script: Latn
+    content: bus architecture
+  - language: en
+    script: Latn
+    content: bus standard
+  - language: en
+    script: Latn
+    content: interoperability
+  - language: en
+    script: Latn
+    content: microprocessors
+  - language: en
+    script: Latn
+    content: node addressing
+  - language: en
+    script: Latn
+    content: registers
+  - language: en
+    script: Latn
+    content: transaction sets
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

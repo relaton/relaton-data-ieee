@@ -1,0 +1,140 @@
+---
+id: IEEEStd8023cy2023
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Ethernet Amendment 8: Physical Layer Specifications
+    and Management Parameters for 25 Gb/s - Electrical Automotive Ethernet'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10213388
+docidentifier:
+- content: IEEE Std 802.3cy-2023
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.3cy®-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9952-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10213388
+  type: DOI
+docnumber: IEEE Std 802.3cy-2023
+date:
+- type: created
+  at: '2023-08-11'
+- type: published
+  at: '2023-08-08'
+- type: issued
+  at: '2023-06-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This amendment to IEEE Std 802.3-2022 adds physical layer specifications
+    and management parameters for 25 Gb/s operation on a single balanced pair of conductors
+    suitable for automotive applications. NOTE: The PDF of this standard is available
+    at no cost to you compliments of the IEEE GET program, https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68.'
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2022
+    docidentifier:
+    - content: IEEE Std 802.3-2022
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Automotive engineering
+  - language: en
+    script: Latn
+    content: Electronic equipment
+  - language: en
+    script: Latn
+    content: 25GBASE-T1; amendment; automotive Ethernet; IEEE 802.3; IEEE 802.3cy;
+      Medium Dependent Interface; Physical Coding Sublayer; Physical Layer; Physical
+      Medium Attachment
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

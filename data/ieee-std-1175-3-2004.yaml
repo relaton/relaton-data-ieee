@@ -1,0 +1,146 @@
+---
+id: IEEEStd117532004
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for CASE Tool Interconnections - Reference Model for Specifying
+    Software Behavior
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1350464
+docidentifier:
+- content: IEEE Std 1175.3-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 1175.3™-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4002-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.95081
+  type: DOI
+docnumber: IEEE Std 1175.3-2004
+date:
+- type: created
+  at: '2004'
+- type: published
+  at: '2019-10-30'
+- type: issued
+  at: '2004-03-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Computer-Aided Software Engineering (CASE) tools are used to describe the
+    behavior of software using a variety of different design notations. These may
+    be graphical or textual in nature, or may be a combination. This standard provides
+    a reference model of fundamental software concepts that form the building blocks
+    for a number of these commonly used notations. This standard also includes a textual
+    language, the Semantic Transfer Language (STL), for representing software application
+    behavior descriptions. A software behavior description consists of a collection
+    of sentences that conform to the formal syntax of the STL and that are to be interpreted
+    in terms of the software concepts defined in this standard. The STL syntax is
+    designed to be computer-parsable, while at the same time remaining easy for users
+    to read and write. This reference model and transfer syntax may be used for directly
+    recording, storing, and analyzing a software behavior description, as well as
+    for transferring elements of a software behavior description between CASE tools.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Tools
+  - language: en
+    script: Latn
+    content: Computer aided software engineering
+  - language: en
+    script: Latn
+    content: Software
+  - language: en
+    script: Latn
+    content: Computational modeling
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Computer-Aided Software Engineering (CASE) tools
+  - language: en
+    script: Latn
+    content: Semantic Transfer Language (STL)
+  - language: en
+    script: Latn
+    content: software behavior concept
+  - language: en
+    script: Latn
+    content: transfer syntax
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

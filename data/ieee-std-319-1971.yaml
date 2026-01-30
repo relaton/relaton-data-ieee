@@ -1,0 +1,136 @@
+---
+id: IEEEStd3191971
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard on Magnetostrictive Materials: Piezomagnetic Nomenclature'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/19418
+docidentifier:
+- content: IEEE Std 319-1971
+  type: IEEE
+  primary: true
+- content: IEEE Std 319™-1971
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4365-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1971.119885
+  type: DOI
+docnumber: IEEE Std 319-1971
+date:
+- type: created
+  at: '1971'
+- type: issued
+  at: '1970-12-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Ultrasonics, Ferroelectrics and Frequency Control Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The purpose of this Standard is to make possible the comparison of the
+    relative merits of magnetostrictive, electromagnetic, piezoelectric, and electrostrictive
+    transducers on a simple and straightforward basis. The nomenclature used has evolved
+    from a proposed set of definitions for the parameters used in evaluating magnetostrictive
+    materials. In the literature, the symbol ' lambda ' has been widely used for the
+    magnetostriction constant, the saturation magnetostrictive strain, or occasionally,
+    the slope of some other curve associated with magnetostrictive measurement. No
+    quantity is represented by ' lambda ' in this standard.<<ETX>>
+copyright:
+- from: '1971'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 319-1990
+    docidentifier:
+    - content: IEEE Std 319-1990
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 319-1990
+    docidentifier:
+    - content: IEEE Std 319-1990
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Magnetic variables measurement
+  - language: en
+    script: Latn
+    content: Magnetostriction
+  - language: en
+    script: Latn
+    content: Magnetostrictive devices
+  - language: en
+    script: Latn
+    content: Terminology
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Transducers
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.030'
+    text: Magnetic materials
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

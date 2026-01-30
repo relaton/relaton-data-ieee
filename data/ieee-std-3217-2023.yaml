@@ -1,0 +1,129 @@
+---
+id: IEEEStd32172023
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Application Interface Specification for Blockchain Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10289681
+docidentifier:
+- content: IEEE Std 3217-2023
+  type: IEEE
+  primary: true
+- content: IEEE Std 3217™-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9964-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10289681
+  type: DOI
+docnumber: IEEE Std 3217-2023
+date:
+- type: created
+  at: '2023-10-20'
+- type: published
+  at: '2023-10-20'
+- type: issued
+  at: '2023-06-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Blockchain and Distributed Ledgers of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An application programming interface (API) collection and data transmission
+    format between the chain layer and the application layer in a blockchain system
+    is defined by this standard and the string, encoding, and request-response format
+    of the API is standardized.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Application programming interfaces
+  - language: en
+    script: Latn
+    content: Blockchains
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: application interface specification
+  - language: en
+    script: Latn
+    content: blockchain systems
+  - language: en
+    script: Latn
+    content: IEEE 3217&#8482;
+  - language: en
+    script: Latn
+    content: request-response
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

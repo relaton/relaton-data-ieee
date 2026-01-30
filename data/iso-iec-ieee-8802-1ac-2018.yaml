@@ -1,0 +1,179 @@
+---
+id: ISOIECIEEE88021AC2018
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEC/IEEE International Standard - Information technology -- Telecommunications
+    and information exchange between systems -- Local and metropolitan area networks
+    -- Part 1AC: Media access control (MAC) service definition'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8353812
+docidentifier:
+- content: ISO/IEC/IEEE 8802.1AC-2018
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 8802.1AC™-2018
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4883-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2018.8353812
+  type: DOI
+docnumber: ISO/IEC/IEEE 8802.1AC-2018
+date:
+- type: updated
+  at: '2018-05-18'
+- type: created
+  at: '2018-04-30'
+- type: published
+  at: '2018-05-03'
+- type: issued
+  at: '2018'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The MAC Service and the Internal Sublayer Service (ISS) are defined in
+    this standard. This standard specifies media-dependent convergence functions that
+    map IEEE 802&#174; MAC interfaces to the ISS. The MAC Service is derived from
+    the ISS.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 802.1AC-2016
+    docidentifier:
+    - content: IEEE Std 802.1AC-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: IEEE 802
+  - language: en
+    script: Latn
+    content: IEEE 802.1AC
+  - language: en
+    script: Latn
+    content: Internal Sublayer Service
+  - language: en
+    script: Latn
+    content: ISS
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: local area network
+  - language: en
+    script: Latn
+    content: MAC Service
+  - language: en
+    script: Latn
+    content: MAN
+  - language: en
+    script: Latn
+    content: metropolitan area network
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

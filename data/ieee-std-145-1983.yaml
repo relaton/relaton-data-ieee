@@ -1,0 +1,127 @@
+---
+id: IEEEStd1451983
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Definitions of Terms for Antennas
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/30651
+docidentifier:
+- content: IEEE Std 145-1983
+  type: IEEE
+  primary: true
+- content: IEEE Std 145™-1983
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4343-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1983.82386
+  type: DOI
+docnumber: IEEE Std 145-1983
+date:
+- type: created
+  at: '1983-06-22'
+- type: published
+  at: '2013-04-23'
+- type: issued
+  at: '1982-03-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Antennas of the IEEE Antennas and Propagation Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by 145-1993. Definitions of terms in the field of antennas are
+    provided.
+copyright:
+- from: '1983'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 145-1993
+    docidentifier:
+    - content: IEEE Std 145-1993
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Antennas
+  - language: en
+    script: Latn
+    content: Terminology
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: definitions
+  - language: en
+    script: Latn
+    content: antennas
+  - language: en
+    script: Latn
+    content: terms
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.33
+    text: Telecommunications. Audio and video engineering (Vocabularies)
+  - code: 33.120.40
+    text: Aerials
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,139 @@
+---
+id: IEEEStd861987
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Recommended Practice: Definitions of Basic Per-Unit Quantities for
+    AC Rotating Machines'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/27826
+docidentifier:
+- content: IEEE Std 86-1987
+  type: IEEE
+  primary: true
+- content: IEEE Std 86™-1987
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4421-4
+  type: ISBN
+- content: 10.1109/IEEESTD.1987.81029
+  type: DOI
+docnumber: IEEE Std 86-1987
+date:
+- type: created
+  at: '1987-02-16'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1986-06-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Electric Machinery of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The proper selection of base values is fundamental to the usefulness of
+    a per-unit system. Although per-unit quantities have been used for many years
+    by designers of rotating machinery, the base quantities were not standardized,
+    and it was necessary to define them in each publication. A working group of the
+    Rotating Machinery Committee was created to propose a set of standard definitions.
+    In 1961, a proposed standard was published for trial use. A critical review of
+    that proposed standard resulted in ANSI/IEEE Std 86-1975. Recently, systems analysts
+    and some designers of rotating electrical machinery have found it useful to have
+    a single generic model for all types of machines. Therefore, alternate per-unit
+    definitions, using input voltamperes as base power for induction motors, have
+    been included in this new revision, as well as an example of an induction generator.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1987'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: AC machines
+  - language: en
+    script: Latn
+    content: Induction motors
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: basic
+  - language: en
+    script: Latn
+    content: per-unit
+  - language: en
+    script: Latn
+    content: quantities
+  - language: en
+    script: Latn
+    content: rotating
+  - language: en
+    script: Latn
+    content: AC
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.29
+    text: Electrical engineering (Vocabularies)
+  - code: '29.020'
+    text: Electrical engineering in general
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

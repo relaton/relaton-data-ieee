@@ -1,0 +1,104 @@
+---
+id: IEEE2651966
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practices for Burst Measurements in the Frequency Domain
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7393399
+docidentifier:
+- content: IEEE 265-1966
+  type: IEEE
+  primary: true
+- content: IEEE 265™-1966
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0236-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1966.7393399
+  type: DOI
+docnumber: IEEE 265-1966
+date:
+- type: created
+  at: '1966-02-26'
+- type: published
+  at: '2016-01-26'
+- type: issued
+  at: '1966'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This document is a companion to Technical Committee Report on Recommended
+    Practices for Burst Measurements in the Time Domain, IEEE No. 257, May 1964. In
+    the time domain document, bursts are defined and particular attention is placed
+    on their duration and magnitude.The use of additional characteristics may prove
+    desirable when investigating both cause and effect of a burst. Mathematical transformations
+    have been widely used to bring out particular characteristics of signals. Perhaps
+    the one most commonly used is the Fourier Transform, which defines the spectrum
+    of signals. The energy density spectrum of a burst, a quantity derived from the
+    Fourier Transform, is the subject of this report. Other transformations such as
+    those of Hilbert or Hankel, may be used to display different characteristics of
+    a burst but they will not be considered here. Sampling the energy density spectrum
+    is the key concept of this document. It constitutes the basis by which this spectrum
+    can be characterized comprehensively by a practical number of measurements. The
+    sampling theorems in the frequency domain are, therefore, given detailed consideration
+    in Appendices to the extent necessary for understanding the measurement methods
+    to be discussed.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1966'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Burst switching
+  - language: en
+    script: Latn
+    content: Frequency-domain analysis
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

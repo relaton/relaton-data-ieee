@@ -1,0 +1,149 @@
+---
+id: ISOIECIEEE2145112010
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEC/IEEE Information technology -- Smart transducer interface for
+    sensors and actuators -- Part 1: Network Capable Application Processor (NCAP)
+    information model'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5668469
+docidentifier:
+- content: ISO/IEC/IEEE 21451.1-2010
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 21451.1™-2010
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6271-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2010.5668469
+  type: DOI
+docnumber: ISO/IEC/IEEE 21451.1-2010
+date:
+- type: created
+  at: '2010-05-20'
+- type: published
+  at: '2010-12-13'
+- type: issued
+  at: '2010-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC9 - Sensor Technology of the IEEE Instrumentation and Measurement
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Adoption of IEEE Std 1451.1-1999. This standard defines an object model
+    with a network-neutral interface for connecting processors to communication networks,
+    sensors, and actuators. The object model containing blocks, services, and components
+    specifies interactions with sensors and actuators and forms the basis for implementing
+    application code executing in the processor.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: IEC standards
+  - language: en
+    script: Latn
+    content: ISO standards
+  - language: en
+    script: Latn
+    content: Actuators
+  - language: en
+    script: Latn
+    content: Telecommunication networks
+  - language: en
+    script: Latn
+    content: Sensors
+  - language: en
+    script: Latn
+    content: 21451-1
+  - language: en
+    script: Latn
+    content: '1451.1'
+  - language: en
+    script: Latn
+    content: actuators
+  - language: en
+    script: Latn
+    content: communication network
+  - language: en
+    script: Latn
+    content: object model
+  - language: en
+    script: Latn
+    content: sensors
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: '35.040'
+    text: Information coding
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

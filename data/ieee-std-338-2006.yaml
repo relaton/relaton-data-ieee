@@ -1,0 +1,146 @@
+---
+id: IEEEStd3382006
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Criteria for the Periodic Surveillance Testing of Nuclear
+    Power Generating Station Safety Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8684665
+docidentifier:
+- content: IEEE Std 338-2006
+  type: IEEE
+  primary: true
+- content: IEEE Std 338™-2006
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5291-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2007.8684665
+  type: DOI
+docnumber: IEEE Std 338-2006
+date:
+- type: created
+  at: '2007-06-06'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2006-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The standard provides criteria for the performance of periodic testing
+    of nuclear power generating station safety systems. The scope of periodic testing
+    consists of functional tests and checks, calibration verification, and time response
+    measurements, as required, to verify that the safety system performs its defined
+    safety function. Post-maintenance and post-modification testing are not covered
+    by this document. This standard amplifies the periodic testing requirements of
+    other nuclear safety-related IEEE standards. Remarks: Revision of IEEE Std 338-1987'
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 338-1987
+    docidentifier:
+    - content: ANSI/IEEE Std 338-1987
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 338-2012
+    docidentifier:
+    - content: IEEE Std 338-2012
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 338-2012
+    docidentifier:
+    - content: IEEE Std 338-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: firmware
+  - language: en
+    script: Latn
+    content: IED
+  - language: en
+    script: Latn
+    content: Intelligent Electronic Device
+  - language: en
+    script: Latn
+    content: microprocessor
+  - language: en
+    script: Latn
+    content: revisions
+  - language: en
+    script: Latn
+    content: software
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

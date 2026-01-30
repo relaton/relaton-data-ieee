@@ -1,0 +1,171 @@
+---
+id: IEEEStd163622010
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Software Interface for Maintenance Information Collection
+    and Analysis (SIMICA): Exchanging Maintenance Action Information via the Extensible
+    Markup Language (XML)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6781494
+docidentifier:
+- content: IEEE Std 1636.2-2010
+  type: IEEE
+  primary: true
+- content: IEEE Std 1636.2™-2010
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8164-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2013.6781494
+  type: DOI
+docnumber: IEEE Std 1636.2-2010
+date:
+- type: updated
+  at: '2014-07-18'
+- type: created
+  at: '2013-02-01'
+- type: published
+  at: '2014-04-01'
+- type: issued
+  at: '2010-09-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Interoperability between components of automatic test systems (ATS) is
+    promoted and facilitated. The standard facilitates the capture of maintenance
+    action information (MAI) associated with the removal, repair, and replacement
+    of a particular system component (e.g., unit(s) under test) in order to maintain/support
+    that particular operational system. The MAI schema becomes a class of information
+    that can be used within the SIMICA family of standards. The exchange format utilizes
+    the XML formats.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1636.2-2018
+    docidentifier:
+    - content: IEEE Std 1636.2-2018
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1636.2-2018
+    docidentifier:
+    - content: IEEE Std 1636.2-2018
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1636.2-2018
+    docidentifier:
+    - content: IEEE Std 1636.2-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Automatic test equipment
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Markup languages
+  - language: en
+    script: Latn
+    content: Software engineering
+  - language: en
+    script: Latn
+    content: Software interfaces
+  - language: en
+    script: Latn
+    content: Software maintenance
+  - language: en
+    script: Latn
+    content: Information analysis
+  - language: en
+    script: Latn
+    content: automated test system (ATS)
+  - language: en
+    script: Latn
+    content: eXtensible markup language (XML)
+  - language: en
+    script: Latn
+    content: maintenance action information (MAI)
+  - language: en
+    script: Latn
+    content: Software Interface for Maintenance Information Collection and Analysis
+      (SIMICA)
+  - language: en
+    script: Latn
+    content: XML schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  standard_status: Inactive
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

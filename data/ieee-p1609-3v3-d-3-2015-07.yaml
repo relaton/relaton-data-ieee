@@ -1,0 +1,158 @@
+---
+id: IEEEP16093v3D3201507
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
+    - Networking Services
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7172990
+docidentifier:
+- content: IEEE P1609.3v3/D-3-2015-07
+  type: IEEE
+  primary: true
+- content: IEEE P1609.3v3™/D-3-2015-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9835-4
+  type: ISBN
+docnumber: IEEE P1609.3v3/D-3-2015-07
+date:
+- type: created
+  at: '2015-11-03'
+- type: published
+  at: '2015-07-30'
+- type: issued
+  at: '2015'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Intelligent Transportation Systems of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: P1609.3 Wireless Access in Vehicular Environments (WAVE) Networking Services
+    provides services to WAVE devices and systems. Layers 3 and 4 of the open system
+    interconnect (OSI) model and the Internet Protocol (IP), User Datagram Protocol
+    (UDP), and Transmission Control Protocol (TCP) elements of the Internet model
+    are represented.Management and data services within WAVE devices are provided.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1609.3-2007
+    docidentifier:
+    - content: IEEE Std 1609.3-2007
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1609.3-2007
+    docidentifier:
+    - content: IEEE Std 1609.3-2007
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Intelligent vehicles
+  - language: en
+    script: Latn
+    content: Wireless Access in Vehicular Environments
+  - language: en
+    script: Latn
+    content: Provider Service Identifier
+  - language: en
+    script: Latn
+    content: Message systems
+  - language: en
+    script: Latn
+    content: Provider Service Identifier (PSID)
+  - language: en
+    script: Latn
+    content: Wireless Access in Vehicular Environments (WAVE)
+  - language: en
+    script: Latn
+    content: WAVE Short Message (WSM)
+  - language: en
+    script: Latn
+    content: WAVE Service Advertisement (WSA)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

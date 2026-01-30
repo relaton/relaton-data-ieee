@@ -1,0 +1,166 @@
+---
+id: IEEEStd1076112004
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard VHDL Analog and Mixed-Signal Extensions---Packages for Multiple
+    Energy Domain Support
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1459160
+docidentifier:
+- content: IEEE Std 1076.1.1-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 1076.1.1™-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4646-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2005.96208
+  type: DOI
+docnumber: IEEE Std 1076.1.1-2004
+date:
+- type: created
+  at: '2005-06-17'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2004-12-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines a collection of VHDL 1076.1 packages, compatible
+    with IEEE Std 1076.1TM-1999, along with recommendations for conforming use, in
+    order to facilitate the interchange of simulation models of physical components
+    and subsystems. The packages include the definition of standard types, subtypes,
+    natures, and constants for modeling in multiple energy domains (electrical, fluidic,
+    mechanical, etc.).
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1076.1.1-2011
+    docidentifier:
+    - content: IEEE Std 1076.1.1-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Licenses
+  - language: en
+    script: Latn
+    content: Design automation
+  - language: en
+    script: Latn
+    content: Computational modeling
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: interchange
+  - language: en
+    script: Latn
+    content: modeling
+  - language: en
+    script: Latn
+    content: model interchange
+  - language: en
+    script: Latn
+    content: model portability
+  - language: en
+    script: Latn
+    content: multidisciplinary
+  - language: en
+    script: Latn
+    content: multidisciplinary modeling
+  - language: en
+    script: Latn
+    content: packages
+  - language: en
+    script: Latn
+    content: portability
+  - language: en
+    script: Latn
+    content: standard packages
+  - language: en
+    script: Latn
+    content: standard VHDL packages
+  - language: en
+    script: Latn
+    content: VHDL
+  - language: en
+    script: Latn
+    content: VHDL-AMS
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

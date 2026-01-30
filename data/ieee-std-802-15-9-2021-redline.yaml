@@ -1,0 +1,177 @@
+---
+id: IEEEStd8021592021Redline
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Transport of Key Management Protocol (KMP) Datagrams
+  type: title-main
+- content: IEEE Standard for Transport of Key Management Protocol (KMP) Datagrams
+    - Redline
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10669330
+docidentifier:
+- content: IEEE Std 802.15.9-2021 Redline
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.9®-2021 Redline
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1199-8
+  type: ISBN
+docnumber: IEEE Std 802.15.9-2021 Redline
+date:
+- type: created
+  at: '2022-01-18'
+- type: published
+  at: '2024-09-06'
+- type: issued
+  at: '2021-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A message exchange framework based on information elements as a transport
+    method for key management protocol (KMP) datagrams and guidelines for the use
+    of some existing KMPs with IEEE Std 802.15.4&#8482; is defined in this standard.
+    A new KMP is not created in this standard. In support of KMP transmission and
+    reception, a generic multiplexed data service layer that can be used to transmit
+    large packets from the upper KMP to another peer and that provides for protocol
+    discrimination is also provided in this standard. The multiplexed data service
+    provides a fragmentation and multiplexing layer for those packets so they can
+    be delivered over smaller MAC layer frames and multiplexed on the recipient end
+    to the right processing service. The multiplexing provides for EtherType protocol
+    discrimination. (The PDF of this standard is available at no cost compliments
+    of the IEEE GET program https://ieeexplore.ieee.org/browse/standards/get-program/page)
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.15.9-2016
+    docidentifier:
+    - content: IEEE Std 802.15.9-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Security
+  - language: en
+    script: Latn
+    content: Multiplexing
+  - language: en
+    script: Latn
+    content: Guidelines
+  - language: en
+    script: Latn
+    content: Costs
+  - language: en
+    script: Latn
+    content: Transport protocols
+  - language: en
+    script: Latn
+    content: Data communication
+  - language: en
+    script: Latn
+    content: Information management
+  - language: en
+    script: Latn
+    content: Packet switching
+  - language: en
+    script: Latn
+    content: EtherType
+  - language: en
+    script: Latn
+    content: fragmentation
+  - language: en
+    script: Latn
+    content: IE
+  - language: en
+    script: Latn
+    content: IEEE 802.15.9
+  - language: en
+    script: Latn
+    content: information element
+  - language: en
+    script: Latn
+    content: key management protocol
+  - language: en
+    script: Latn
+    content: KMP
+  - language: en
+    script: Latn
+    content: multiplexed data service
+  - language: en
+    script: Latn
+    content: security
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: redline
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

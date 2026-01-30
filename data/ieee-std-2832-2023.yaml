@@ -1,0 +1,153 @@
+---
+id: IEEEStd28322023
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Control and Protection System Test of Hybrid Multi-terminal
+    High Voltage Direct Current (HVDC) Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10236962
+docidentifier:
+- content: IEEE Std 2832-2023
+  type: IEEE
+  primary: true
+- content: IEEE Std 2832™-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9682-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2023.10236962
+  type: DOI
+docnumber: IEEE Std 2832-2023
+date:
+- type: created
+  at: '2023-08-31'
+- type: published
+  at: '2023-08-31'
+- type: issued
+  at: '2023-06-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This document provides general guidance on the control and protection tests
+    of hybrid multi-terminal high-voltage direct current (HVDC) systems that consist
+    of line-commutated converter (LCC) at the sending end and voltage source converter
+    (VSC) at the receiving end. It involves preconditions, composition of the test
+    system, test contents and boundaries, test items and design principles, and organization
+    and quality control requirements. The tests involved include factory test, acceptance
+    test, site commissioning test, and trial operation.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: High-voltage techniques
+  - language: en
+    script: Latn
+    content: DC machines
+  - language: en
+    script: Latn
+    content: Power system reliability
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: Power system control
+  - language: en
+    script: Latn
+    content: Manufacturing automation
+  - language: en
+    script: Latn
+    content: acceptance test
+  - language: en
+    script: Latn
+    content: control and protection system test
+  - language: en
+    script: Latn
+    content: factory test
+  - language: en
+    script: Latn
+    content: hybrid multi-terminal high voltage direct current systems
+  - language: en
+    script: Latn
+    content: IEEE 2832&#8482;
+  - language: en
+    script: Latn
+    content: site commissioning test
+  - language: en
+    script: Latn
+    content: trial operation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
+  - code: 29.240.99
+    text: Other equipment related to power transmission and distribution networks
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

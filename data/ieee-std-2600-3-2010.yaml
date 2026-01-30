@@ -1,0 +1,169 @@
+---
+id: IEEEStd260032010
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Protection Profile for Hardcopy Devices in IEEE Std 2600-2008
+    Operational Environment C
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5426355
+docidentifier:
+- content: IEEE Std 2600.3-2010
+  type: IEEE
+  primary: true
+- content: IEEE Std 2600.3™-2010
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6165-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2010.5426355
+  type: DOI
+docnumber: IEEE Std 2600.3-2010
+date:
+- type: updated
+  at: '2010-03-22'
+- type: created
+  at: '2010-03-05'
+- type: published
+  at: '2013-11-22'
+- type: issued
+  at: '2009-12-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Cybersecurity and Privacy Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Standard for a Protection Profile for Hardcopy Devices in a public-facing
+    environment in which document security is not guaranteed, but access control and
+    usage accounting are important to the operator of the environment. A retail copy
+    center, public library, Internet café, and hotel business center are typical applications
+    of this environment. This environment will be known as “Operational Environment
+    C.”
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Disk drives
+  - language: en
+    script: Latn
+    content: Data storage systems
+  - language: en
+    script: Latn
+    content: '2600.3'
+  - language: en
+    script: Latn
+    content: all-in-one
+  - language: en
+    script: Latn
+    content: Common Criteria
+  - language: en
+    script: Latn
+    content: copier
+  - language: en
+    script: Latn
+    content: disk overwrite
+  - language: en
+    script: Latn
+    content: document
+  - language: en
+    script: Latn
+    content: document server
+  - language: en
+    script: Latn
+    content: document storage and retrieval
+  - language: en
+    script: Latn
+    content: facsimile
+  - language: en
+    script: Latn
+    content: fax
+  - language: en
+    script: Latn
+    content: hardcopy
+  - language: en
+    script: Latn
+    content: ISO/IEC 15408
+  - language: en
+    script: Latn
+    content: multifunction device MFD
+  - language: en
+    script: Latn
+    content: MFP
+  - language: en
+    script: Latn
+    content: network
+  - language: en
+    script: Latn
+    content: network interface
+  - language: en
+    script: Latn
+    content: nonvolatile storage
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.180'
+    text: IT terminal and other peripheral equipment
+  - code: 35.240.01
+    text: Application of information technology in general
+  - code: 37.100.10
+    text: Reproduction equipment
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

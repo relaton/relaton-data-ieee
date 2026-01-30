@@ -1,0 +1,147 @@
+---
+id: IEEEP80211bhD30202401
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Information Technology--Telecommunications and
+    Information Exchange Between Systems Local and Metropolitan Area Networks--Specific
+    Requirements - Part 11: Wireless LAN Medium Access Control (MAC) and Physical
+    Layer (PHY) Specifications Amendment 1: Operation with Randomized and Changing
+    MAC Addresses'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10476367
+docidentifier:
+- content: IEEE P802.11bh/D-3.0-2024-01
+  type: IEEE
+  primary: true
+- content: IEEE P802.11bh™/D-3.0-2024-01
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0636-9
+  type: ISBN
+docnumber: IEEE P802.11bh/D-3.0-2024-01
+date:
+- type: created
+  at: '2024-03-18'
+- type: published
+  at: '2024-03-19'
+- type: issued
+  at: '2024-09-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment specifies modifications to the IEEE Std 802.11 medium access
+    control (MAC) sublayer mechanisms to preserve the existing services that might
+    otherwise be restricted in environments where STAs in extended service set (ESS)
+    use randomized or changing MAC addresses, without affecting the privacy of the
+    users corresponding to the STAs. User privacy includes exposure of trackable information
+    to third parties or exposure of an individual’s presence of behavior. This amendment
+    introduces mechanisms to enable session continuity in the absence of unique MAC
+    address-to-STA mapping. For STAs in an ESS that use randomized or changing MAC
+    addresses, this amendment preserves the ability to provide customer support, conduct
+    network diagnostics and troubleshooting, and detect device arrival in a trusted
+    environment.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Wireless LAN
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: IEEE 802.11
+  - language: en
+    script: Latn
+    content: 802.11bh
+  - language: en
+    script: Latn
+    content: Randomized and Changing MAC Address (RCM)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

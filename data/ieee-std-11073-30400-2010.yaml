@@ -1,0 +1,132 @@
+---
+id: IEEEStd11073304002010
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Health informatics--Point-of-care medical device communication Part
+    30400: Interface profile--Cabled Ethernet'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5522411
+docidentifier:
+- content: IEEE Std 11073.30400-2010
+  type: IEEE
+  primary: true
+- content: IEEE Std 11073.30400™-2010
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6237-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2010.5522411
+  type: DOI
+docnumber: IEEE Std 11073.30400-2010
+date:
+- type: created
+  at: '2010-06-04'
+- type: published
+  at: '2010-07-26'
+- type: issued
+  at: '2010-04-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The application of the Ethernet family (IEEE Std 802.3-2008) of protocols
+    for use in medical device communication is addressed in this document. The scope
+    is limited to referencing the appropriate Ethernet family specifications and calling
+    out any specific special needs or requirements of the ISO/IEEE 11073 environment,
+    with a particular focus on easing interoperability and controlling costs.
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Ethernet networks
+  - language: en
+    script: Latn
+    content: Management information systems
+  - language: en
+    script: Latn
+    content: Biomedical equipment
+  - language: en
+    script: Latn
+    content: '11073'
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: medical device
+  - language: en
+    script: Latn
+    content: medical device communications (MDCs)
+  - language: en
+    script: Latn
+    content: management information base (MIB)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

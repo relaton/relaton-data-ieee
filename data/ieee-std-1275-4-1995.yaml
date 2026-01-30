@@ -1,0 +1,148 @@
+---
+id: IEEEStd127541995
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Boot (Initialization Configuration) Firmware: Bus Supplement
+    for IEEE 896 (Futurebus+(R))'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/499692
+docidentifier:
+- content: IEEE Std 1275.4-1995
+  type: IEEE
+  primary: true
+- content: IEEE Std 1275.4™-1995
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2772-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1996.80827
+  type: DOI
+docnumber: IEEE Std 1275.4-1995
+date:
+- type: created
+  at: '1996-02-27'
+- type: published
+  at: '2019-04-24'
+- type: issued
+  at: '1995-09-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Withdrawn Standard. Withdrawn Date: Jan 15, 2001. Firmware is the read-only-memory
+    (ROM)-based software that controls a computer between the time it is turned on
+    and the time the primary operating system takes control of the machine. Firmware''s
+    responsibilities include testing and initializing the hardware, determining the
+    hardware configuration, loading (or booting) the operating system, and providing
+    interactive debugging facilities in case of faulty hardware or software. The core
+    requirements and practices specified by IEEE Std 1275-1994 must be supplemented
+    by system-specific requirements to form a complete specification for the firmware
+    for a particular system. This standard establishes such additional requirements
+    pertaining to the bus architecture defined by the IEEE Futurebus+¨ standards:
+    ISO/IEC 10857: 1994[ANSI/IEEE Std 896.1, 1994 Edition], Information technology-Microprocessor
+    systems-Futurebus -Logical protocol specifications; and IEEE Std 896.2-1991: IEEE
+    Standard for Futurebus -Physical Layer and Profile Specification.'
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1996'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Data buses
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: boot
+  - language: en
+    script: Latn
+    content: configuration
+  - language: en
+    script: Latn
+    content: debug
+  - language: en
+    script: Latn
+    content: FCode
+  - language: en
+    script: Latn
+    content: firmware
+  - language: en
+    script: Latn
+    content: forth
+  - language: en
+    script: Latn
+    content: initialization
+  - language: en
+    script: Latn
+    content: plug in device
+  - language: en
+    script: Latn
+    content: ROM
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,144 @@
+---
+id: IEEEStd11541991
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Programmed Inquiry, Learning, or Teaching (PILOT)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/689575
+docidentifier:
+- content: IEEE Std 1154-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 1154™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1184-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1991.108548
+  type: DOI
+docnumber: IEEE Std 1154-1991
+date:
+- type: created
+  at: '1991-08-22'
+- type: published
+  at: '2019-04-09'
+- type: issued
+  at: '1991-06-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Language and coding standards for the PILOT programming language are described.
+    PILOT (Programmed Inquiry, Learning, Or Teaching) is a language for the development
+    of conversational interactive sequences often used for the computer-based instruction.
+    The intent is to improve code portability ant to minimize the development of dialects
+    of this language,thereby improving the sharing of courseware among teaching institutions.
+    PILOT syntax, core statements, and the core language are defined. Variables and
+    language extensions are covered.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Computer aided instruction
+  - language: en
+    script: Latn
+    content: Computer science education
+  - language: en
+    script: Latn
+    content: Interactive systems
+  - language: en
+    script: Latn
+    content: Authoring languages
+  - language: en
+    script: Latn
+    content: learning
+  - language: en
+    script: Latn
+    content: teaching
+  - language: en
+    script: Latn
+    content: Self-evaluation testing
+  - language: en
+    script: Latn
+    content: Programmed inquiry
+  - language: en
+    script: Latn
+    content: PILOT programming language
+  - language: en
+    script: Latn
+    content: Computer-based instruction
+  - language: en
+    script: Latn
+    content: Computer-assisted instruction
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

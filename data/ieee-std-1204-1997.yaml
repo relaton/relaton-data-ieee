@@ -1,0 +1,150 @@
+---
+id: IEEEStd12041997
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Planning DC Links Terminating at AC Locations Having Low
+    Short-Circuit Capacities
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/653230
+docidentifier:
+- content: IEEE Std 1204-1997
+  type: IEEE
+  primary: true
+- content: IEEE Std 1204™-1997
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0380-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1997.85949
+  type: DOI
+docnumber: IEEE Std 1204-1997
+date:
+- type: created
+  at: '1997-01-21'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1997-06-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Guidance on the planning and design of dc links terminating at ac system
+    locations having low Guidance on the planning and design of dc links terminating
+    at ac system locations having lowshort-circuit capacities relative to the dc power
+    infeed is provided in this guide. This guide is limited to the aspects of interactions
+    between ac and dc systems that result from the fact that the ac system is weak
+    compared to the power of the dc link (i.e., ac system appears as a high impedance
+    at the ac/dc interface bus). This guide contains two parts: Part I, AC/DC Interaction
+    Phenomena, classifies the strength of the ac/dc system, provides information about
+    interactions between ac and dc systems, and gives guidance on design and performance;
+    and Part II, Planning Guidelines, considers the impact of ac/dc system interactions
+    and their mitigation on economics and overall system performance and discusses
+    the studies that need to be performed.'
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1997'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Interconnected power systems
+  - language: en
+    script: Latn
+    content: ac/dc interaction
+  - language: en
+    script: Latn
+    content: fault recovery
+  - language: en
+    script: Latn
+    content: frequency instability
+  - language: en
+    script: Latn
+    content: harmonic transfer
+  - language: en
+    script: Latn
+    content: instability
+  - language: en
+    script: Latn
+    content: low short-circuit ratio - SCR -
+  - language: en
+    script: Latn
+    content: power
+  - language: en
+    script: Latn
+    content: resonance
+  - language: en
+    script: Latn
+    content: subsynchronous torsional interaction
+  - language: en
+    script: Latn
+    content: temporary overvoltage - TOV -
+  - language: en
+    script: Latn
+    content: voltage instability
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,132 @@
+---
+id: IEEEStd14841132005
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Learning Technology Extensible Markup Language (XML)
+    Schema Binding for Data Model for Content Object Communication
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1633759
+docidentifier:
+- content: IEEE Std 1484.11.3-2005
+  type: IEEE
+  primary: true
+- content: IEEE Std 1484.11.3™-2005
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4879-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2006.215176
+  type: DOI
+docnumber: IEEE Std 1484.11.3-2005
+date:
+- type: created
+  at: '2006-05-08'
+- type: published
+  at: '2016-11-22'
+- type: issued
+  at: '2005-12-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Learning Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This Standard specifies a World Wide Web Consortium (W3C) Extensible Markup
+    Language (XML) binding of the data model defined in IEEE Std 1484.11.1-2004. The
+    purpose of this Standard is to allow for the creation of IEEE Standard 1484.11.1-2004
+    data-model instances in XML. This Standard uses the W3C XML Schema definition
+    language as the encoding, which allows for interoperability and the exchange of
+    data-model instances between various systems.
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: content object
+  - language: en
+    script: Latn
+    content: Content Object Communication Data Model
+  - language: en
+    script: Latn
+    content: Extensible Markup Language (XML)
+  - language: en
+    script: Latn
+    content: IEEE Std 1484.11.1-2004
+  - language: en
+    script: Latn
+    content: W3C XML Schema definition language
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: XML binding
+  - language: en
+    script: Latn
+    content: XML data instance
+  - language: en
+    script: Latn
+    content: XML Schema definition
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,119 @@
+---
+id: IEEEStd11811991
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Latchup Test Methods for CMOS and BiCMOS
+    Integrated-Circuit Process Characterization
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159391
+docidentifier:
+- content: IEEE Std 1181-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 1181™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-2388-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1991.101074
+  type: DOI
+docnumber: IEEE Std 1181-1991
+date:
+- type: created
+  at: '1991'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1991-06-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Latchup Committee of the IEEE Electron Devices Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Recommendations are provided for the layout and test methods required to
+    characterize properly latchup behavior in CMOS and BiCMOS integrated circuit processes
+    or other processes that have similar lateral PNPN topographical layout characteristics.
+    The aim is to allow the characterization of an integrated circuit process architecture
+    so that different approaches can be scientifically compared. This allows the evaluation
+    of the process capabilities on a 'worst-case' recommended structure and test method
+    independent of actual integrated circuit product topographical latchup layout
+    practices. Test structures and test philosophy are covered.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: BIMOS integrated circuits
+  - language: en
+    script: Latn
+    content: CMOS integrated circuits
+  - language: en
+    script: Latn
+    content: Integrated circuit testing
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

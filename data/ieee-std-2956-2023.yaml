@@ -1,0 +1,151 @@
+---
+id: IEEEStd29562023
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Test Method for Surface Transfer Impedance of the Shielded
+    Power Cables and Connectors for Rail Vehicles
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10413353
+docidentifier:
+- content: IEEE Std 2956-2023
+  type: IEEE
+  primary: true
+- content: IEEE Std 2956™-2023
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0447-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2024.10413353
+  type: DOI
+docnumber: IEEE Std 2956-2023
+date:
+- type: created
+  at: '2024-01-23'
+- type: published
+  at: '2024-01-23'
+- type: issued
+  at: '2023-09-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: High Speed Train and Maglev Standards Committee of the IEEE Vehicular
+          Technology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Uniform measurement procedures and technology are provided for determining
+    the shielding effectiveness of shielded power cables and connectors for rail vehicles
+    at frequencies from 9 kHz to 30 MHz (which can be extended according to the length
+    of the device under test). The test methods include triaxial method and tube-in-tube
+    method. These methods determine the shielding effectiveness by applying specified
+    current and voltage to the screen of the cable and measuring the induced voltage
+    in order to determine the surface transfer impedance.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Connectors
+  - language: en
+    script: Latn
+    content: Power cables
+  - language: en
+    script: Latn
+    content: Cable shielding
+  - language: en
+    script: Latn
+    content: Surface treatment
+  - language: en
+    script: Latn
+    content: Impedance
+  - language: en
+    script: Latn
+    content: connectors
+  - language: en
+    script: Latn
+    content: IEEE 2956&#8482;
+  - language: en
+    script: Latn
+    content: shielded power cables
+  - language: en
+    script: Latn
+    content: shielding effectiveness
+  - language: en
+    script: Latn
+    content: surface transfer impedance
+  - language: en
+    script: Latn
+    content: triaxial method
+  - language: en
+    script: Latn
+    content: tube-in-tube method
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.100.01
+    text: Electromagnetic compatibility in general
+  - code: 33.120.10
+    text: Coaxial cables. Waveguides
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

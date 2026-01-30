@@ -1,0 +1,120 @@
+---
+id: ANSIIEEEStd10511988
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Parameters to Characterize Digital Loop Performance
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/29131
+docidentifier:
+- content: ANSI/IEEE Std 1051-1988
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 1051™-1988
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4139-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1988.81611
+  type: DOI
+docnumber: ANSI/IEEE Std 1051-1988
+date:
+- type: created
+  at: '1988'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1988-03-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission Systems Committee of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The purpose of this recommended practice is to suggest a set of transmission
+    performance parameters to be used in the development of standards for low bit-rate
+    digital channels between the user's location and an appropriate test point at
+    the serving office. This recommended practice suggests a set of performance parameters
+    for digital loop transmission between the user location and the serving office.
+    In the case of ISDN the user location is defined as the T-reference point, or
+    the U-reference point. In the case of non-ISDN, the user location is defined as
+    the point in the transmission circuit analogous to the ISDN-defined T or U reference
+    point. This recommended practice is limited to user information bit rates of 200
+    kb/s or lower.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1988'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Digital communication
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Subscriber loops
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.040.30
+    text: Switching and signalling systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

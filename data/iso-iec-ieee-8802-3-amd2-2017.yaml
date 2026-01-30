@@ -1,0 +1,206 @@
+---
+id: ISOIECIEEE88023Amd22017
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEC/IEEE International Standard - Part 3: Standard for Ethernet -
+    Amendment 2: Media Access Control Parameters, Physical Layers, and Management
+    Parameters for 25 Gb/s Operation'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8310985
+docidentifier:
+- content: ISO/IEC/IEEE 8802.3/Amd2-2017
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 8802.3™/Amd2-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4731-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2018.8310985
+  type: DOI
+docnumber: ISO/IEC/IEEE 8802.3/Amd2-2017
+date:
+- type: created
+  at: '2018-03-07'
+- type: published
+  at: '2018-03-09'
+- type: issued
+  at: '2018'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2015 adds Physical Layer (PHY) specifications
+    and management parameters for 25 Gb/s operation over twinaxial copper cabling
+    (25GBASE-CR and 25GBASE-CR-S), electrical backplanes (25GBASE-KR and 25GBASE-KR-S),
+    and multimode fiber (25GBASE-SR). This amendment also specifies a 25 Gigabit Attachment
+    Unit Interface (25GAUI) and optional Energy Efficient Ethernet (EEE).
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 802.3by-2016
+    docidentifier:
+    - content: IEEE Std 802.3by-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Forward error correction
+  - language: en
+    script: Latn
+    content: Error correction codes
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Energy efficiency
+  - language: en
+    script: Latn
+    content: 25 Gigabit Ethernet
+  - language: en
+    script: Latn
+    content: 25GAUI
+  - language: en
+    script: Latn
+    content: 25GBASE-CR
+  - language: en
+    script: Latn
+    content: 25GBASE-CR-S
+  - language: en
+    script: Latn
+    content: 25GBASE-KR
+  - language: en
+    script: Latn
+    content: 25GBASE-KR-S
+  - language: en
+    script: Latn
+    content: 25GBASE-SR
+  - language: en
+    script: Latn
+    content: 25GMII
+  - language: en
+    script: Latn
+    content: Auto-Negotiation (AN)
+  - language: en
+    script: Latn
+    content: Backplane Ethernet
+  - language: en
+    script: Latn
+    content: Energy Efficient Ethernet (EEE)
+  - language: en
+    script: Latn
+    content: Forward Error Correction (FEC)
+  - language: en
+    script: Latn
+    content: IEEE 802
+  - language: en
+    script: Latn
+    content: IEEE 802.3
+  - language: en
+    script: Latn
+    content: IEEE 802.3by
+  - language: en
+    script: Latn
+    content: multimode fiber (MMF)
+  - language: en
+    script: Latn
+    content: Physical Coding Sublayer (PCS)
+  - language: en
+    script: Latn
+    content: Physical Medium Attachment (PMA) sublayer
+  - language: en
+    script: Latn
+    content: Physical Medium Dependent (PMD) sublayer
+  - language: en
+    script: Latn
+    content: Reconciliation Sublayer (RS)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

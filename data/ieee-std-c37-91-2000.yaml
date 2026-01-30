@@ -1,0 +1,147 @@
+---
+id: IEEEStdC37912000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Protective Relay Applications to Power Transformers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/875997
+docidentifier:
+- content: IEEE Std C37.91-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.91™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1977-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.91943
+  type: DOI
+docnumber: IEEE Std C37.91-2000
+date:
+- type: created
+  at: '2000-10-09'
+- type: published
+  at: '2015-02-11'
+- type: issued
+  at: '2000-03-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The protection of power transformers is covered;various electrical protection
+    schemes are explored;and guidelines are given for the application of these schemes
+    to transformers. Alternative detection methods including mechanical,thermal,and
+    gas analysis are discussed.
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std C37.91-1985
+    docidentifier:
+    - content: ANSI/IEEE Std C37.91-1985
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.91-2008
+    docidentifier:
+    - content: IEEE Std C37.91-2008
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Protective relaying
+  - language: en
+    script: Latn
+    content: Power transformers
+  - language: en
+    script: Latn
+    content: Circuit faults
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: power
+  - language: en
+    script: Latn
+    content: protection
+  - language: en
+    script: Latn
+    content: relaying
+  - language: en
+    script: Latn
+    content: transformer
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.70
+    text: Relays
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

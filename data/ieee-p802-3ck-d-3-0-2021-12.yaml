@@ -1,0 +1,182 @@
+---
+id: IEEEP8023ckD30202112
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Ethernet Amendment: Physical Layer Specifications
+    and Management Parameters for 100 Gb/s, 200 Gb/s, and 400 Gb/s Electrical Interfaces
+    Based on 100 Gb/s Signaling'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9650813
+docidentifier:
+- content: IEEE P802.3ck/D-3.0-2021-12
+  type: IEEE
+  primary: true
+- content: IEEE P802.3ck™/D-3.0-2021-12
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8253-0
+  type: ISBN
+docnumber: IEEE P802.3ck/D-3.0-2021-12
+date:
+- type: created
+  at: '2021-12-13'
+- type: published
+  at: '2021-12-14'
+- type: issued
+  at: '2022-09-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-202x adds Clause 161 through Clause 163,
+    Annex 120F, Annex 120G, and Annex 162A through Annex 162D, Annex 163A, and Annex
+    163B. This amendment includes Physical Layer specifications and management parameters
+    for 100 Gb/s, 200 Gb/s, and 400 Gb/s electrical interfaces based on 100 Gb/s signaling.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2022
+    docidentifier:
+    - content: IEEE Std 802.3-2022
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Forward error correction
+  - language: en
+    script: Latn
+    content: 100GAUI-1
+  - language: en
+    script: Latn
+    content: 100GBASE-CR1
+  - language: en
+    script: Latn
+    content: 100GBASE-KR1
+  - language: en
+    script: Latn
+    content: 100 Gigabit Ethernet
+  - language: en
+    script: Latn
+    content: 200GAUI-2
+  - language: en
+    script: Latn
+    content: 200GBASE-CR2
+  - language: en
+    script: Latn
+    content: 200GBASE-KR2
+  - language: en
+    script: Latn
+    content: 200 Gigabit Ethernet
+  - language: en
+    script: Latn
+    content: 400GAUI-4
+  - language: en
+    script: Latn
+    content: 400GBASE-CR4
+  - language: en
+    script: Latn
+    content: 400GBASE-KR4
+  - language: en
+    script: Latn
+    content: 400 Gigabit Ethernet
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: FEC
+  - language: en
+    script: Latn
+    content: forward error correction
+  - language: en
+    script: Latn
+    content: IEEE 802.3(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.3ck(TM)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,132 @@
+---
+id: IEEEStd12781a1998
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Distributed Interactive Simulation Application Protocols
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/729408
+docidentifier:
+- content: IEEE Std 1278.1a-1998
+  type: IEEE
+  primary: true
+- content: IEEE Std 1278.1a™-1998
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0993-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1998.88572
+  type: DOI
+docnumber: IEEE Std 1278.1a-1998
+date:
+- type: created
+  at: '1998-08-19'
+- type: published
+  at: '2016-06-21'
+- type: issued
+  at: '1998-03-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Simulation Interoperability Stds Organization/Stds Activity Committee
+          of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Data messages, known as protocol data units (PDUs), that are exchanged
+    on a network between simulation applications are defined. These PDUs are for interactions
+    that take place within specified domains called protocol families, which include
+    Entity Information/Interaction, Warfare, Logistics, Simulation Management, Distributed
+    Emission Regeneration, Radio Communications, Entity Management, Minefield, Synthetic
+    Environment, Simulation Management with Reliability, Live Entity Information/Interaction,
+    and Non-Real Time.
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 1278.1-1995
+    docidentifier:
+    - content: IEEE Std 1278.1-1995
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Distributed computing
+  - language: en
+    script: Latn
+    content: data messages
+  - language: en
+    script: Latn
+    content: Distributed Interactive Simulation
+  - language: en
+    script: Latn
+    content: protocol data units (PDUs)
+  - language: en
+    script: Latn
+    content: Simulation network
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.020'
+    text: Information technology (IT) in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

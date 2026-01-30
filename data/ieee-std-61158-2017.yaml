@@ -1,0 +1,146 @@
+---
+id: IEEEStd611582017
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Industrial Hard Real-Time Communication
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8024204
+docidentifier:
+- content: IEEE Std 61158-2017
+  type: IEEE
+  primary: true
+- content: IEEE Std 61158™-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4114-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2017.8024204
+  type: DOI
+docnumber: IEEE Std 61158-2017
+date:
+- type: updated
+  at: '2017-09-22'
+- type: created
+  at: '2017-08-31'
+- type: published
+  at: '2017-09-01'
+- type: issued
+  at: '2017-05-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Industrial Electronics Society Standards Committee of the IEEE Industrial
+          Electronics Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEEE Std 61158(TM) is an adoption of the EPSG DS 301, Ethernet POWERLINK--Communication
+    Profile Specification. Ethernet POWERLINK is a communication profile for Real-Time
+    Ethernet (RTE). It extends Ethernet according to IEEE Std 802.3(TM) with mechanisms
+    to transfer data with predictable timing and precise synchronisation. The communication
+    profile meets timing demands typical for high-performance automation and motion
+    applications. It does not change basic principles of the Fast Ethernet Standard
+    IEEE Std 802.3 but extends it towards RTE. Thus it is possible to leverage and
+    continue to use any standard Ethernet silicon, infrastructure component, or test
+    and measurement equipment like a network analyzer.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Real-time systems
+  - language: en
+    script: Latn
+    content: Automation
+  - language: en
+    script: Latn
+    content: Commerical power plants
+  - language: en
+    script: Latn
+    content: Communication technology
+  - language: en
+    script: Latn
+    content: adoption
+  - language: en
+    script: Latn
+    content: EPSG
+  - language: en
+    script: Latn
+    content: Ethernet POWERLINK
+  - language: en
+    script: Latn
+    content: IEEE 61158(TM)
+  - language: en
+    script: Latn
+    content: Industrial Automation
+  - language: en
+    script: Latn
+    content: Industrial Ethernet
+  - language: en
+    script: Latn
+    content: Real-time Ethernet
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

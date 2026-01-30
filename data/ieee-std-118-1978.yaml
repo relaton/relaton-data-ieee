@@ -1,0 +1,127 @@
+---
+id: IEEEStd1181978
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Test Code for Resistance Measurement
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/27744
+docidentifier:
+- content: IEEE Std 118-1978
+  type: IEEE
+  primary: true
+- content: IEEE Std 118™-1978
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0663-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1978.80821
+  type: DOI
+docnumber: IEEE Std 118-1978
+date:
+- type: created
+  at: '1978-05-29'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1977-09-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Instrumentation and Measurements of the IEEE Power and
+          Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Methods of measuring electrical resistance that are commonly used to determine
+    the characteristics of electric machinery and equipment are presented. The methods
+    are limited to those using direct-current or commercial power frequencies of 60
+    Hz or below, and to those measurements required to determine performance characteristics.
+    The choice of method in any given case depends on the degree of accuracy required
+    and the nature of the circuit to be measured; a guide for selecting the appropriate
+    method is given.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1978'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Electric machines
+  - language: en
+    script: Latn
+    content: Resistance measurement
+  - language: en
+    script: Latn
+    content: Insulation testing
+  - language: en
+    script: Latn
+    content: Measurement standards
+  - language: en
+    script: Latn
+    content: resistance
+  - language: en
+    script: Latn
+    content: measurement
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,161 @@
+---
+id: IEEEStd1201955
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Master Test Code for Electrical Measurements in Power
+    Circuits
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/18444
+docidentifier:
+- content: IEEE Std 120-1955
+  type: IEEE
+  primary: true
+- content: IEEE Std 120™-1955
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4335-4
+  type: ISBN
+- content: 10.1109/IEEESTD.1955.119034
+  type: DOI
+docnumber: IEEE Std 120-1955
+date:
+- type: created
+  at: '1955-11-25'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1955'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Instrumentation and Measurements of the IEEE Power and
+          Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The methods given here include measurements, as made with either indicating
+    or integrating instruments, of power, voltage and current in direct current and
+    alternating-current single-phase and polyphase rotating machinery, transformers,
+    induction apparatus, arc and resistance heating equipment and mercury rectifiers.
+    It also includes measurements made with supplementary instruments and devices.
+    This code does not include such measurements as resistance and temperature which
+    are often included in determining the performance characteristics of electric
+    machinery. Instruments for these latter measurements will be found in the specific
+    codes dealing with the particular measurement; such as AIEE Master Test Code for
+    Temperature Measurement, No. 551.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1955'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: ANSI/IEEE Std 120-1989
+    docidentifier:
+    - content: ANSI/IEEE Std 120-1989
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: ANSI/IEEE Std 120-1989
+    docidentifier:
+    - content: ANSI/IEEE Std 120-1989
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Current measurement
+  - language: en
+    script: Latn
+    content: Furnaces
+  - language: en
+    script: Latn
+    content: Electric machines
+  - language: en
+    script: Latn
+    content: Measurement standards
+  - language: en
+    script: Latn
+    content: Power measurement
+  - language: en
+    script: Latn
+    content: Power transformers
+  - language: en
+    script: Latn
+    content: Rectifiers
+  - language: en
+    script: Latn
+    content: Voltage measurement
+  - language: en
+    script: Latn
+    content: measurements
+  - language: en
+    script: Latn
+    content: power
+  - language: en
+    script: Latn
+    content: circuits
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

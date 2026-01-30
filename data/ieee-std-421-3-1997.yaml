@@ -1,0 +1,141 @@
+---
+id: IEEEStd42131997
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for High-Potential Test Requirements for Excitation Systems
+    for Synchronous Machines
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/658561
+docidentifier:
+- content: IEEE Std 421.3-1997
+  type: IEEE
+  primary: true
+- content: IEEE Std 421.3™-1997
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1391-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1998.85954
+  type: DOI
+docnumber: IEEE Std 421.3-1997
+date:
+- type: created
+  at: '1998-04-01'
+- type: published
+  at: '2016-03-30'
+- type: issued
+  at: '1997-12-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Energy Development &amp; Power Generation of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: High-potential test voltages for excitation systems used with synchronous
+    machines are established. Test voltages are established based on whether equipment
+    is connected to the exciter power circuit or is electrically isolated from the
+    exciter power circuit.
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 421B-1979
+    docidentifier:
+    - content: ANSI/IEEE Std 421B-1979
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 421.3-2016
+    docidentifier:
+    - content: IEEE Std 421.3-2016
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 421.3-2016
+    docidentifier:
+    - content: IEEE Std 421.3-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Synchronous machines
+  - language: en
+    script: Latn
+    content: dielectric testing
+  - language: en
+    script: Latn
+    content: excitation systems
+  - language: en
+    script: Latn
+    content: test voltages
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.130.99
+    text: Other switchgear and controlgear
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

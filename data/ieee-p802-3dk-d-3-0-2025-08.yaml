@@ -1,0 +1,169 @@
+---
+id: IEEEP8023dkD30202508
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Ethernet Amendment: Greater than 50 Gb/s Bidirectional
+    Optical Access PHYs'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11152734
+docidentifier:
+- content: IEEE P802.3dk/D-3.0-2025-08
+  type: IEEE
+  primary: true
+- content: IEEE P802.3dk™/D-3.0-2025-08
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2587-2
+  type: ISBN
+docnumber: IEEE P802.3dk/D-3.0-2025-08
+date:
+- type: created
+  at: '2025'
+- type: published
+  at: '2025-09-05'
+- type: issued
+  at: '2025'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2022 adds Physical Layer specifications
+    and management parameters for 100 Gb/s Ethernet optical interfaces for bidirectional
+    operation over a single strand of single-mode fiber with reaches of at least 10
+    km, 20 km, and 40 km
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2022
+    docidentifier:
+    - content: IEEE Std 802.3-2022
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Bidirectional control
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Forward error correction
+  - language: en
+    script: Latn
+    content: Optical fiber communication
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: bidirectional (BiDi)
+  - language: en
+    script: Latn
+    content: multi-gigabit Ethernet bidirectional Physical Layers
+  - language: en
+    script: Latn
+    content: 100GBASEBR10
+  - language: en
+    script: Latn
+    content: 100GBASE-BR20
+  - language: en
+    script: Latn
+    content: 100GBASE-BR40
+  - language: en
+    script: Latn
+    content: forward error correction (FEC)
+  - language: en
+    script: Latn
+    content: Optical Line Terminal (OLT)
+  - language: en
+    script: Latn
+    content: Optical Network Unit (ONU)
+  - language: en
+    script: Latn
+    content: Physical Coding Sublayer (PCS)
+  - language: en
+    script: Latn
+    content: Physical Medium Attachment (PMA)
+  - language: en
+    script: Latn
+    content: Physical Medium Dependent (PMD)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

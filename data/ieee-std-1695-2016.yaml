@@ -1,0 +1,137 @@
+---
+id: IEEEStd16952016
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide to Understanding, Diagnosing, and Mitigating Stray and Contact
+    Voltage
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7508856
+docidentifier:
+- content: IEEE Std 1695-2016
+  type: IEEE
+  primary: true
+- content: IEEE Std 1695™-2016
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0829-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7508856
+  type: DOI
+docnumber: IEEE Std 1695-2016
+date:
+- type: created
+  at: '2016-07-08'
+- type: published
+  at: '2016-07-11'
+- type: issued
+  at: '2016-01-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Voltage conditions that may arise at publicly and privately accessible
+    locations as a result of the delivery and use of electrical energy are addressed
+    in this guide. This guide is not intended for use as a statement of cause and
+    effect. It focuses primarily on the presence of power frequency related voltage
+    conditions and discusses definitions, sources, testing techniques, and strategies
+    that may be available to help reduce those conditions.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1695-2024
+    docidentifier:
+    - content: IEEE Std 1695-2024
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Voltage measurement
+  - language: en
+    script: Latn
+    content: Stray voltage
+  - language: en
+    script: Latn
+    content: Power system reliability
+  - language: en
+    script: Latn
+    content: contact voltage
+  - language: en
+    script: Latn
+    content: IEEE 1695(TM)
+  - language: en
+    script: Latn
+    content: stray voltage
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.020'
+    text: Electrical engineering in general
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

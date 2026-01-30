@@ -1,0 +1,155 @@
+---
+id: IEEEStd11073102072017
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Health informatics--Point-of-care medical device communication Part
+    10207: Domain Information and Service Model for Service-Oriented Point-of-Care
+    Medical Device Communication'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8299598
+docidentifier:
+- content: IEEE Std 11073.10207-2017
+  type: IEEE
+  primary: true
+- content: IEEE Std 11073.10207™-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4627-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2018.8299598
+  type: DOI
+docnumber: IEEE Std 11073.10207-2017
+date:
+- type: updated
+  at: '2018-03-09'
+- type: created
+  at: '2018-02-21'
+- type: published
+  at: '2018-02-21'
+- type: issued
+  at: '2017-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073(TM) family of standards for point-of-care
+    medical device communication, a Participant Model derived from the ISO/IEEE11073-10201
+    Domain Information Model is provided in this standard. The Participant Model specifies
+    the structure of medical information objects. This standard also defines an abstract
+    Communication Model to support the exchange of medical information objects. All
+    elements of the Participant Model and Communication Model are specified using
+    XML Schema. Core subjects of the Participant Model comprise modelling of medical
+    device-related data, e.g., measurements and settings, alert systems, contextual
+    information (e.g., patient demographics and location information), remote control,
+    and archival information. Model extensibility is provided inherently through the
+    use of XML Schema.textual information like patient demographics and location information,
+    remote control, and archival. Model extensibility is provided inherently through
+    the use of XML Schema. (Additional files are available for this standard at http://standards.ieee.org/downloads/11073/)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Context modeling
+  - language: en
+    script: Latn
+    content: Data models
+  - language: en
+    script: Latn
+    content: Point of care
+  - language: en
+    script: Latn
+    content: alert systems
+  - language: en
+    script: Latn
+    content: IEEE 11073-10207(TM)
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: patient
+  - language: en
+    script: Latn
+    content: point-of-care
+  - language: en
+    script: Latn
+    content: remote control
+  - language: en
+    script: Latn
+    content: service-oriented architecture
+  - language: en
+    script: Latn
+    content: XML Schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

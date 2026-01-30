@@ -1,0 +1,186 @@
+---
+id: IEEEStd8021542020
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Low-Rate Wireless Networks
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9144691
+docidentifier:
+- content: IEEE Std 802.15.4-2020
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.4®-2020
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6689-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2020.9144691
+  type: DOI
+docnumber: IEEE Std 802.15.4-2020
+date:
+- type: created
+  at: '2020-07-23'
+- type: published
+  at: '2020-07-20'
+- type: issued
+  at: '2020-05-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The physical layer (PHY) and medium access control (MAC) sublayer specifications
+    for low-data-rate wireless connectivity with fixed, portable, and moving devices
+    with no battery or very limited battery consumption requirements are defined in
+    this standard. In addition, the standard provides modes that allow for precision
+    ranging. PHYs are defined for devices operating in a variety of geographic regions.
+    (The PDF of the standard is available at no cost at https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=68
+    compliments of the IEEE GET program)
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 802.15.4-2015
+    docidentifier:
+    - content: IEEE Std 802.15.4-2015
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Wireless networks
+  - language: en
+    script: Latn
+    content: Wireless persaonal area networks
+  - language: en
+    script: Latn
+    content: Radio frequency
+  - language: en
+    script: Latn
+    content: Personal area networks
+  - language: en
+    script: Latn
+    content: Ad hoc networks
+  - language: en
+    script: Latn
+    content: Low power electronics
+  - language: en
+    script: Latn
+    content: ad hoc network
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4
+  - language: en
+    script: Latn
+    content: low data rate
+  - language: en
+    script: Latn
+    content: low power
+  - language: en
+    script: Latn
+    content: LR-WPAN
+  - language: en
+    script: Latn
+    content: mobility
+  - language: en
+    script: Latn
+    content: PAN
+  - language: en
+    script: Latn
+    content: personal area network
+  - language: en
+    script: Latn
+    content: radio frequency
+  - language: en
+    script: Latn
+    content: RF
+  - language: en
+    script: Latn
+    content: short range
+  - language: en
+    script: Latn
+    content: wireless
+  - language: en
+    script: Latn
+    content: wireless network
+  - language: en
+    script: Latn
+    content: wireless personal area network
+  - language: en
+    script: Latn
+    content: WPAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

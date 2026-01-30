@@ -1,0 +1,134 @@
+---
+id: IEEEStd16162004
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Motor Vehicle Event Data Recorder (MVEDR)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1408446
+docidentifier:
+- content: IEEE Std 1616-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 1616™-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4499-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2005.95756
+  type: DOI
+docnumber: IEEE Std 1616-2004
+date:
+- type: created
+  at: '2005-02-10'
+- type: published
+  at: '2019-10-23'
+- type: issued
+  at: '2004-09-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Intelligent Transportation Systems of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Motor Vehicle Event Data Recorders (MVEDRs) collect, record, store and
+    export data related to motor vehicle pre-defined events. This standard defines
+    a protocol for MVEDR output data compatibility and export protocols of MVEDR data
+    elements. This standard does not prescribe which specific data elements shall
+    be recorded, or how the data are to be collected, recorded and stored. It is applicable
+    to event data recorders for all types of motor vehicles licensed to operate on
+    public roadways, whether offered as original or aftermarket equipment, whether
+    stand-alone or integrated within the vehicle.
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Accidents
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Injuries
+  - language: en
+    script: Latn
+    content: Licenses
+  - language: en
+    script: Latn
+    content: Safety
+  - language: en
+    script: Latn
+    content: Crash data
+  - language: en
+    script: Latn
+    content: event data recorder
+  - language: en
+    script: Latn
+    content: motor vehicle
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 43.040.15
+    text: Car informatics. On board computer systems
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

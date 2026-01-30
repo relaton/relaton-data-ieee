@@ -1,0 +1,129 @@
+---
+id: IEEEStd147411999
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Communication Based Train Control Performance Requirements
+    and Functional Requirements
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/815310
+docidentifier:
+- content: IEEE Std 1474.1-1999
+  type: IEEE
+  primary: true
+- content: IEEE Std 1474.1™-1999
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1825-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1999.90611
+  type: DOI
+docnumber: IEEE Std 1474.1-1999
+date:
+- type: created
+  at: '1999-12-30'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1999-09-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Rail Transportation Standards Committee of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'SUPERSEDED BY 1474.1-2004 Abstract: Performance and functional requirements
+    for a communications-based train control (CBTC) system are established in this
+    standard. A CBTC system is a continuous, automatic train control system utilizing
+    high-resolution train location determination, independent of track circuits; continuous,
+    high-capacity, bidirectional train-to-wayside data communications; and trainborne
+    and wayside processors capable of implementing automatic train protection (ATP)
+    functions, as well as optional automatic train operation (ATO) and automatic train
+    supervision (ATS) functions. In addition to CBTC functional requirements, this
+    standard also defines headway criteria, system safety criteria, and system availability
+    criteria for a CBTC system.'
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1474.1-2004
+    docidentifier:
+    - content: IEEE Std 1474.1-2004
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Rail transportation
+  - language: en
+    script: Latn
+    content: communications
+  - language: en
+    script: Latn
+    content: signaling
+  - language: en
+    script: Latn
+    content: train control
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

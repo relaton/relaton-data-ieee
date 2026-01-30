@@ -1,0 +1,160 @@
+---
+id: IEEEStdC37992000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for the Protection of Shunt Capacitor Banks
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1033175
+docidentifier:
+- content: IEEE Std C37.99-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.99™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1979-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.94129
+  type: DOI
+docnumber: IEEE Std C37.99-2000
+date:
+- type: created
+  at: '2000-05-30'
+- type: published
+  at: '2013-06-06'
+- type: issued
+  at: '2000-01-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The protection of shunt power capacitor and filter banks are covered. Guidelines
+    forreliable applications of protection methods intended for use in many shunt
+    capacitor applicationsand designs are included. The protection of pole-mounted
+    capacitor banks on distribution circuitsand the application of capacitors connected
+    directly to routing apparatus are not included.
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.99-1990
+    docidentifier:
+    - content: IEEE Std C37.99-1990
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.99-2012
+    docidentifier:
+    - content: IEEE Std C37.99-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Capacitors
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Consumer electronics
+  - language: en
+    script: Latn
+    content: Filter banks
+  - language: en
+    script: Latn
+    content: Power system relaying
+  - language: en
+    script: Latn
+    content: capacitor
+  - language: en
+    script: Latn
+    content: fuseless
+  - language: en
+    script: Latn
+    content: power capacitor
+  - language: en
+    script: Latn
+    content: protection
+  - language: en
+    script: Latn
+    content: relaying
+  - language: en
+    script: Latn
+    content: shunt
+  - language: en
+    script: Latn
+    content: unbalance protection
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 31.060.99
+    text: Other capacitors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

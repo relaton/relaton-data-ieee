@@ -1,0 +1,179 @@
+---
+id: IEEEStdC37212005
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Control Switchboards
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1556466
+docidentifier:
+- content: IEEE Std C37.21-2005
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.21™-2005
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4751-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2005.97971
+  type: DOI
+docnumber: IEEE Std C37.21-2005
+date:
+- type: created
+  at: '2005-12-01'
+- type: published
+  at: '2017-06-06'
+- type: issued
+  at: '2005-06-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Switchgear of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard covers ratings, construction, and testing of dead-front control
+    switchboards containing but not limited to devices such as switches, control devices,
+    instrumentation, metering, monitoring, alarms, annunciators, protective and auxiliary
+    relays, and regulating devices and accessories. It includes, but is not specifically
+    limited to, switchboards for the control and protection of apparatus used for
+    or associated with power generation, conversion, transmission, and distribution.
+    Types of switchboards may include control, vertical, dead-front, enclosed, dual,
+    or duplex switchboards. Other construction types include control desks, consoles,
+    benchboards, dual or duplex benchboards, fixed rack, cabinet, and swing rack cabinets.
+    It does not apply to industrial controls, communication equipment, switchboards
+    for use on board ships, or Class 1E switchboards for use in nuclear generating
+    stations.
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std ANSI
+    docidentifier:
+    - content: IEEE Std ANSI
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.21-2017
+    docidentifier:
+    - content: IEEE Std C37.21-2017
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Switches
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: Switching circuits
+  - language: en
+    script: Latn
+    content: control switchboard
+  - language: en
+    script: Latn
+    content: vertical switchboard
+  - language: en
+    script: Latn
+    content: dead-front switchboard
+  - language: en
+    script: Latn
+    content: enclosed switchboard
+  - language: en
+    script: Latn
+    content: dual switchboard
+  - language: en
+    script: Latn
+    content: duplex switchboard
+  - language: en
+    script: Latn
+    content: control desk
+  - language: en
+    script: Latn
+    content: console
+  - language: en
+    script: Latn
+    content: benchboard
+  - language: en
+    script: Latn
+    content: dual or duplex benchboard
+  - language: en
+    script: Latn
+    content: fixed rack cabinet
+  - language: en
+    script: Latn
+    content: or swing rack cabinet
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.130.99
+    text: Other switchgear and controlgear
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

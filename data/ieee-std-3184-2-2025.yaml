@@ -1,0 +1,134 @@
+---
+id: IEEEStd318422025
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Property Graph Description of Road Networks
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11030249
+docidentifier:
+- content: IEEE Std 3184.2-2025
+  type: IEEE
+  primary: true
+- content: IEEE Std 3184.2™-2025
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2259-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2025.11030249
+  type: DOI
+docnumber: IEEE Std 3184.2-2025
+date:
+- type: created
+  at: '2025-06-12'
+- type: published
+  at: '2025-06-10'
+- type: issued
+  at: '2025-03-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Data Compression Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A property graph description of high-quality road network data, such as
+    lanes, roads, and intersections, is given in this standard. Lanes, roads, and
+    intersections within a road network are depicted as nodes, while the connections
+    and relationships between these elements are illustrated by edges in the graph.
+    This standard also defines properties of graph nodes and edges, as well as data
+    types.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Graphical models
+  - language: en
+    script: Latn
+    content: Roads
+  - language: en
+    script: Latn
+    content: Land use planning
+  - language: en
+    script: Latn
+    content: data type
+  - language: en
+    script: Latn
+    content: graph node
+  - language: en
+    script: Latn
+    content: IEEE 3184.2
+  - language: en
+    script: Latn
+    content: property graph
+  - language: en
+    script: Latn
+    content: road network
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.70
+    text: IT applications in science
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

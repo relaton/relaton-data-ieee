@@ -1,0 +1,153 @@
+---
+id: IEEEStdC3711994
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Definition, Specification and Analysis of Systems Used for
+    Supervisory Control, Data Acquisition, and Automatic Control
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/478424
+docidentifier:
+- content: IEEE Std C37.1-1994
+  type: IEEE
+  primary: true
+- content: IEEE Std C37.1™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1009-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1994.79185
+  type: DOI
+docnumber: IEEE Std C37.1-1994
+date:
+- type: created
+  at: '1994-10-31'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1994-03-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Distributed multi-computer master stations and distributed remote terminal
+    units (RTUs) are introduced. Submaster RTUs used in an automated distribution
+    system with downstream feeder RTUs is defined. Local area networks with master
+    stations are discussed. Intelligent electronic devices (IEDs) with respect to
+    their interface to RTUs and master stations are defined. New surge withstand capability
+    (SWC) standards and their applicability to SCADA is shown.
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std C37.1-1987
+    docidentifier:
+    - content: ANSI/IEEE Std C37.1-1987
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C37.1-2007
+    docidentifier:
+    - content: IEEE Std C37.1-2007
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Distributed control
+  - language: en
+    script: Latn
+    content: Distributed computing
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Power system control
+  - language: en
+    script: Latn
+    content: SCADA systems
+  - language: en
+    script: Latn
+    content: Surge protection
+  - language: en
+    script: Latn
+    content: automatic control
+  - language: en
+    script: Latn
+    content: data acquisition
+  - language: en
+    script: Latn
+    content: SCADA
+  - language: en
+    script: Latn
+    content: supervisory control
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

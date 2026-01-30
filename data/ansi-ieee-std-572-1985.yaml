@@ -1,0 +1,124 @@
+---
+id: ANSIIEEEStd5721985
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Qualification of Class 1E Connection Assemblies for Nuclear
+    Power Generating Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/27889
+docidentifier:
+- content: ANSI/IEEE Std 572-1985
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 572™-1985
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0695-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1985.81064
+  type: DOI
+docnumber: ANSI/IEEE Std 572-1985
+date:
+- type: created
+  at: '1985'
+- type: issued
+  at: '1984-12-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard provides general requirements, direction, and methods for
+    qualifying Class 1E connection assemblies for service in nuclear power generating
+    stations. These include connectors, terminations, and environmental seals in combination
+    with related cables or wires as assemblies.<<ETX>>
+copyright:
+- from: '1985'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 572-2006
+    docidentifier:
+    - content: IEEE Std 572-2006
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 572-2006
+    docidentifier:
+    - content: IEEE Std 572-2006
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Connectors
+  - language: en
+    script: Latn
+    content: Nuclear power generation
+  - language: en
+    script: Latn
+    content: Standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

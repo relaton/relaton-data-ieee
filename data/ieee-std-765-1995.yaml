@@ -1,0 +1,157 @@
+---
+id: IEEEStd7651995
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Preferred Power Supply (PPS) for Nuclear Power Generating
+    Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/696976
+docidentifier:
+- content: IEEE Std 765-1995
+  type: IEEE
+  primary: true
+- content: IEEE Std 765™-1995
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-55937-525-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1995.122638
+  type: DOI
+docnumber: IEEE Std 765-1995
+date:
+- type: updated
+  at: '1995-09-26'
+- type: created
+  at: '1995-07-11'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1995-03-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The design criteria of the preferred power supply (PPS) and its interfaces
+    with the Class 1E power system, switchyard, transmission system, and alternate
+    ac (AAC) source are described. This standard provides PPS requirements for nuclear
+    power plants and guidance in the areas of AAC power source interfaces with PPS,
+    physical independence of the PPS power and control circuits, and expanded PPS
+    criteria for multi-unit stations.
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 765-1983
+    docidentifier:
+    - content: IEEE Std 765-1983
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 765-2002
+    docidentifier:
+    - content: IEEE Std 765-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Nuclear power generation auxiliary systems
+  - language: en
+    script: Latn
+    content: Power supplies
+  - language: en
+    script: Latn
+    content: Substation switching
+  - language: en
+    script: Latn
+    content: Power transmission control
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: alternate ac source
+  - language: en
+    script: Latn
+    content: PPS
+  - language: en
+    script: Latn
+    content: switchyard
+  - language: en
+    script: Latn
+    content: transmission system
+  - language: en
+    script: Latn
+    content: preferred power supply
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.30
+    text: Fissile materials and nuclear fuel technology
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

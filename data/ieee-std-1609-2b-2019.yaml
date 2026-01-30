@@ -1,0 +1,146 @@
+---
+id: IEEEStd16092b2019
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Wireless Access in Vehicular Environments--Security Services
+    for Applications and Management Messages - Amendment 2--PDU Functional Types and
+    Encryption Key Management
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8734860
+docidentifier:
+- content: IEEE Std 1609.2b-2019
+  type: IEEE
+  primary: true
+- content: IEEE Std 1609.2b™-2019
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5852-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2019.8734860
+  type: DOI
+docnumber: IEEE Std 1609.2b-2019
+date:
+- type: updated
+  at: '2020-05-22'
+- type: created
+  at: '2019-06-14'
+- type: published
+  at: '2019-06-11'
+- type: issued
+  at: '2019-05-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Intelligent Transportation Systems of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Secure message formats and processing for use by Wireless Access in Vehicular
+    Environments (WAVE) devices, including methods to secure WAVE management messages
+    and methods to secure application messages are defined. Administrative functions
+    necessary to support the core security functions are also defined.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 1609.2-2016
+    docidentifier:
+    - content: IEEE Std 1609.2-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Cryptography
+  - language: en
+    script: Latn
+    content: Wireless Access in Vehicular Environments
+  - language: en
+    script: Latn
+    content: Computer security
+  - language: en
+    script: Latn
+    content: cryptography
+  - language: en
+    script: Latn
+    content: IEEE 1609.2
+  - language: en
+    script: Latn
+    content: security
+  - language: en
+    script: Latn
+    content: wireless access in vehicular environments (WAVE)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

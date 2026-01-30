@@ -1,0 +1,156 @@
+---
+id: IEEEP145116D02202409
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for a Smart Transducer Interface for Sensors, Actuators,
+    and Devices - Message Queue Telemetry Transport (MQTT) for Networked Device Communication
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10872884
+docidentifier:
+- content: IEEE P1451.1.6/D-02-2024-09
+  type: IEEE
+  primary: true
+- content: IEEE P1451.1.6™/D-02-2024-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1773-0
+  type: ISBN
+docnumber: IEEE P1451.1.6/D-02-2024-09
+date:
+- type: created
+  at: '2025-02-03'
+- type: published
+  at: '2025-02-04'
+- type: issued
+  at: '2025'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Industrial Electronics Society Standards Committee of the IEEE Industrial
+          Electronics Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines a method for transporting IEEE 1451 messages over
+    a network using Message Queue Telemetry Transport (MQTT) to establish a light-weight,
+    simplified protocol structure to handle IEEE 1451 communications, and this standard
+    enables to establish a light-weight, simplified protocol structure to handle IEEE
+    1451 communications over MQTT. Adding to the OASIS MQTT standards recommended
+    methods, different formats of 1451.0 message carriers are defined. Moreover, time-synchronization,
+    security, and other useful extensions are also defined
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Internet of Things
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Sensor systems
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Actuators
+  - language: en
+    script: Latn
+    content: Telemetry
+  - language: en
+    script: Latn
+    content: Message services
+  - language: en
+    script: Latn
+    content: Queueing analysis
+  - language: en
+    script: Latn
+    content: Transducers
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: Smart transducer
+  - language: en
+    script: Latn
+    content: LAN/WAN
+  - language: en
+    script: Latn
+    content: MQTT
+  - language: en
+    script: Latn
+    content: Sensor network
+  - language: en
+    script: Latn
+    content: Time synchronization
+  - language: en
+    script: Latn
+    content: Security
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

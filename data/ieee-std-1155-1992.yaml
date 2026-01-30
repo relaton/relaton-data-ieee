@@ -1,0 +1,136 @@
+---
+id: IEEEStd11551992
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for VMEbus Extensions for Instrumentation: VXIbus'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/278315
+docidentifier:
+- content: IEEE Std 1155-1992
+  type: IEEE
+  primary: true
+- content: IEEE Std 1155™-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1185-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.119226
+  type: DOI
+docnumber: IEEE Std 1155-1992
+date:
+- type: created
+  at: '1993'
+- type: published
+  at: '2020-02-13'
+- type: issued
+  at: '1992-09-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'A technically sound modular instrument standard base on IEEE Std 1014-1987,
+    IEEE Standard for a Versatile Backplane Bus: VMEbus, which is open to all manufacturers
+    and is compatible with present industry standards, is defined. The VXIbus specification
+    details the technical requirements of VXIbus compatible components, such as mainframes,
+    backplanes, power supplies, and modules.'
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Instrumentation
+  - language: en
+    script: Latn
+    content: Microprocessors
+  - language: en
+    script: Latn
+    content: Microcomputers
+  - language: en
+    script: Latn
+    content: high
+  - language: en
+    script: Latn
+    content: speed
+  - language: en
+    script: Latn
+    content: backplane
+  - language: en
+    script: Latn
+    content: instrumentation
+  - language: en
+    script: Latn
+    content: VMEbus
+  - language: en
+    script: Latn
+    content: VXIbus
+  - language: en
+    script: Latn
+    content: Common modular instrument architecture
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.160'
+    text: Microprocessor systems
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,183 @@
+---
+id: IEEEStd7542008Redline
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Floating-Point Arithmetic
+  type: title-main
+- content: IEEE Standard for Floating-Point Arithmetic - Redline
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5976968
+docidentifier:
+- content: IEEE Std 754-2008 Redline
+  type: IEEE
+  primary: true
+- content: IEEE Std 754™-2008 Redline
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6981-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2008.5976968
+  type: DOI
+docnumber: IEEE Std 754-2008 Redline
+date:
+- type: created
+  at: '2008-08-29'
+- type: published
+  at: '2013-08-15'
+- type: issued
+  at: '2008-06-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This standard specifies formats and methods for floating-point arithmetic
+    in computer systems: standard and extended functions with single, double, extended,
+    and extendable precision, and recommends formats for data interchange. Exception
+    conditions are defined and standard handling of these conditions is specified.'
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 754-2019
+    docidentifier:
+    - content: IEEE Std 754-2019
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 754-1985
+    docidentifier:
+    - content: ANSI/IEEE Std 754-1985
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 754-2019
+    docidentifier:
+    - content: IEEE Std 754-2019
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Arithmetic
+  - language: en
+    script: Latn
+    content: Floating-point arithmetic
+  - language: en
+    script: Latn
+    content: 754-2008
+  - language: en
+    script: Latn
+    content: arithmetic
+  - language: en
+    script: Latn
+    content: binary
+  - language: en
+    script: Latn
+    content: computer
+  - language: en
+    script: Latn
+    content: decimal
+  - language: en
+    script: Latn
+    content: exponent
+  - language: en
+    script: Latn
+    content: floating-point
+  - language: en
+    script: Latn
+    content: format
+  - language: en
+    script: Latn
+    content: interchange
+  - language: en
+    script: Latn
+    content: NaN
+  - language: en
+    script: Latn
+    content: number
+  - language: en
+    script: Latn
+    content: rounding
+  - language: en
+    script: Latn
+    content: significand
+  - language: en
+    script: Latn
+    content: subnormal
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: redline
+  ics:
+  - code: '07.020'
+    text: Mathematics
+  - code: '35.020'
+    text: Information technology (IT) in general
+  standard_status: Superseded
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

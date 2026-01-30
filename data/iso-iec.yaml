@@ -1,0 +1,168 @@
+---
+id: ISOIEC
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE/ISO/IEC International Standard--Systems and software engineering--Life
+    cycle management--Part 7000: Standard model process for addressing ethical concerns
+    during system design'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9967807
+docidentifier:
+- content: ISO/ IEC
+  type: IEEE
+  primary: true
+- content: ISO/ IEC™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9220-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2022.9967807
+  type: DOI
+docnumber: ISO/ IEC
+date:
+- type: created
+  at: '2022-12-02'
+- type: published
+  at: '2022-11-30'
+- type: issued
+  at: '2022'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A set of processes by which organizations can include consideration of
+    ethical values throughout the stages of concept exploration and development is
+    established by this standard. Management and engineering in transparent communication
+    with selected stakeholders for ethical values elicitation and prioritization is
+    supported by this standard, involving traceability of ethical values through an
+    operational concept, value propositions, and value dispositions in the system
+    design. Processes that provide for traceability of ethical values in the concept
+    of operations, ethical requirements, and ethical risk-based design are described
+    in the standard. All sizes and types of organizations using their own life cycle
+    models are relevant to this standard.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      - []
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref: IEEE Std 7000-2021
+    docidentifier:
+    - content: IEEE Std 7000-2021
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: case for ethics
+  - language: en
+    script: Latn
+    content: concept of operations
+  - language: en
+    script: Latn
+    content: ethical value requirements
+  - language: en
+    script: Latn
+    content: ethical values elicitation
+  - language: en
+    script: Latn
+    content: ethically aligned design
+  - language: en
+    script: Latn
+    content: IEEE 7000
+  - language: en
+    script: Latn
+    content: software engineering
+  - language: en
+    script: Latn
+    content: system engineering
+  - language: en
+    script: Latn
+    content: value-based requirements
+  - language: en
+    script: Latn
+    content: value prioritization
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 03.100.02
+    text: Governance and ethics
+  - code: 03.100.70
+    text: Management systems
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

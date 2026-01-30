@@ -1,0 +1,160 @@
+---
+id: IEEEStd7412007
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Criteria for the Protection of Class 1E Power Systems and
+    Equipment in Nuclear Power Generating Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4446219
+docidentifier:
+- content: IEEE Std 741-2007
+  type: IEEE
+  primary: true
+- content: IEEE Std 741™-2007
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5685-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2008.4446219
+  type: DOI
+docnumber: IEEE Std 741-2007
+date:
+- type: created
+  at: '2008-02-01'
+- type: published
+  at: '2013-08-15'
+- type: issued
+  at: '2007-09-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Revision of IEEE Std 741-1997. This standard prescribes criteria that establish
+    protection requirements for Class 1E power systems and equipment. It describes
+    the purpose of and the means for obtaining protection from electrical and mechanical
+    damage, or failures that can occur within a time period that is shorter than that
+    required for operator action. It includes testing and surveillance requirements.
+    It does not include plant physical design requirements to protect against events
+    such as pipe whip, fire, dropped load, etc.
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 741-1997
+    docidentifier:
+    - content: IEEE Std 741-1997
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 741-2017
+    docidentifier:
+    - content: IEEE Std 741-2017
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Power engineering
+  - language: en
+    script: Latn
+    content: Power systems
+  - language: en
+    script: Latn
+    content: Nuclear power generation
+  - language: en
+    script: Latn
+    content: Business
+  - language: en
+    script: Latn
+    content: Software
+  - language: en
+    script: Latn
+    content: 741-2007
+  - language: en
+    script: Latn
+    content: Class 1E
+  - language: en
+    script: Latn
+    content: Power Systems
+  - language: en
+    script: Latn
+    content: Electrical Equipment
+  - language: en
+    script: Latn
+    content: Protection
+  - language: en
+    script: Latn
+    content: Nuclear Power Generating Stations
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.20
+    text: Nuclear power plants. Safety
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

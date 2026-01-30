@@ -1,0 +1,159 @@
+---
+id: IEEEStd1172015
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Test Procedure for Thermal Evaluation of Systems of Insulating
+    Materials for Random-Wound AC Electric Machinery
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7466454
+docidentifier:
+- content: IEEE Std 117-2015
+  type: IEEE
+  primary: true
+- content: IEEE Std 117™-2015
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0688-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7466454
+  type: DOI
+docnumber: IEEE Std 117-2015
+date:
+- type: updated
+  at: '2017-03-31'
+- type: created
+  at: '2016-05-06'
+- type: published
+  at: '2016-05-06'
+- type: issued
+  at: '2015-12-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Electric Machinery of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The standard test procedure for the thermal evaluation and qualification
+    of electrical insulation systems (EISs) for random-wound ac electric machinery,
+    where thermal degradation is the dominating aging factor, is described. The relative
+    thermal performance of a candidate EIS is compared to that of a reference EIS.
+    Insulation systems for such machinery with input voltage of up to 600 V at 50/60
+    Hz are described in this standard. A statistical method for establishing a relative
+    life-temperature relationship for an insulation system is also described. To have
+    any significance, the reference insulation system must be supported with adequate
+    field service data. Evaluation of insulation systems for use in air-cooled, random-wound
+    ac electric machinery with usual service conditions is this procedure s intent.
+    This procedure, on its own, does not cover insulation systems such as exposure
+    to conducting contaminates, radiation, inverter applications, or operation in
+    oils, refrigerants, or other media that potentially degrades insulating materials.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI C50.32-1976
+    docidentifier:
+    - content: ANSI C50.32-1976
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Machinery
+  - language: en
+    script: Latn
+    content: Insulation
+  - language: en
+    script: Latn
+    content: Thermal degradation
+  - language: en
+    script: Latn
+    content: AC machines
+  - language: en
+    script: Latn
+    content: Thermal evaluation
+  - language: en
+    script: Latn
+    content: ac electric machinery
+  - language: en
+    script: Latn
+    content: IEEE(TM)
+  - language: en
+    script: Latn
+    content: insulation system
+  - language: en
+    script: Latn
+    content: random-wound
+  - language: en
+    script: Latn
+    content: thermal evaluation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.035.01
+    text: Insulating materials in general
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

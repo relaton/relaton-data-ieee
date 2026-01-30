@@ -1,0 +1,136 @@
+---
+id: IEEEStd8021990
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'Local and Metropolitan Area Networks: IEEE Standard: Overview and Architecture'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/467387
+docidentifier:
+- content: IEEE Std 802-1990
+  type: IEEE
+  primary: true
+- content: IEEE Std 802®-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3325-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1990.122158
+  type: DOI
+docnumber: IEEE Std 802-1990
+date:
+- type: created
+  at: '1990-12-31'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1990-05-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEEE Std 802-2001 This IEEE Standards product is part of
+    the 802 family on LAN/MAN. This document provides an overview to the family of
+    IEEE 802 Standards, defines compliance with the family of IEEE 802 Standards,
+    describes the relationship of the IEEE 802 Standards to the Open Systems Interconnections
+    Basic Reference Model [ISO 7498:1984] and explains the relationship of these standards
+    to the higher layer protocols, and provides a standard for identification of public,
+    private, and standard protocols.
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 802-2001
+    docidentifier:
+    - content: IEEE Std 802-2001
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Computer networks
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: overview
+  - language: en
+    script: Latn
+    content: architecture
+  - language: en
+    script: Latn
+    content: interconnection
+  - language: en
+    script: Latn
+    content: component
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Local area networks
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

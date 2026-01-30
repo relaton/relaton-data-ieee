@@ -1,0 +1,143 @@
+---
+id: IEEEStd8021D1990
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'Standard for Local and Metropolitan Area Networks: Media Access Control
+    (MAC) Bridges'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159274
+docidentifier:
+- content: IEEE Std 802.1D-1990
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1D®-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4411-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1991.101050
+  type: DOI
+docnumber: IEEE Std 802.1D-1990
+date:
+- type: created
+  at: '1991-03-08'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1990-05-31'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEEE Std 802.1D-1998 An architecture for the interconnection
+    of IEEE 802&#174; Local Area Networks (LANs) below the MAC Service boundary is
+    defined. MAC Bridges, as specified by this standard, allow communications between
+    end stations attached to separate LANs, each with its own separate MAC, to be
+    transparent to logical link control (LLC) and network layer protocols, just as
+    if the stations were attached to the same LAN.
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.1D-1998
+    docidentifier:
+    - content: ANSI/IEEE Std 802.1D-1998
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Computer networks
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: sublayer
+  - language: en
+    script: Latn
+    content: interconnection
+  - language: en
+    script: Latn
+    content: bridging
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

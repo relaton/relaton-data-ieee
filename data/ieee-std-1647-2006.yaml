@@ -1,0 +1,169 @@
+---
+id: IEEEStd16472006
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for the Functional Verification Language 'e'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1707465
+docidentifier:
+- content: IEEE Std 1647-2006
+  type: IEEE
+  primary: true
+- content: IEEE Std 1647™-2006
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4941-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2006.246244
+  type: DOI
+docnumber: IEEE Std 1647-2006
+date:
+- type: created
+  at: '2006'
+- type: published
+  at: '2006-10-09'
+- type: issued
+  at: '2006-03-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The e functional verification language is an application-specific programming
+    language, aimed at automating the task of verifying an electronic design with
+    respect to its specification. Verification environments written in e provide a
+    model of the environment in which the design is expected to function, including
+    the kinds of erroneous conditions the design needs to withstand. A typical verification
+    environment is capable of generating user-controlled test inputs with statistically
+    interesting characteristics. Such an environment can check the validity of the
+    design responses. Functional coverage metrics are used to control the verification
+    effort and gauge the quality of the design. e verification environments can be
+    used throughout the design cycle, from a high-level architectural model to a fully
+    realized system. This standard contains a definition of the e language syntax
+    and semantics, and how tool developers and verification engineers should use them.
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1647-2008
+    docidentifier:
+    - content: IEEE Std 1647-2008
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1647-2008
+    docidentifier:
+    - content: IEEE Std 1647-2008
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: Design automation
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Warranties
+  - language: en
+    script: Latn
+    content: ANSI
+  - language: en
+    script: Latn
+    content: assertion
+  - language: en
+    script: Latn
+    content: concurrent programming
+  - language: en
+    script: Latn
+    content: constraint
+  - language: en
+    script: Latn
+    content: dynamic verification
+  - language: en
+    script: Latn
+    content: functional coverage
+  - language: en
+    script: Latn
+    content: functional verification
+  - language: en
+    script: Latn
+    content: simulation
+  - language: en
+    script: Latn
+    content: temporal logic
+  - language: en
+    script: Latn
+    content: test generation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

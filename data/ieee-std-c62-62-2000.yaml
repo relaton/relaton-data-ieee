@@ -1,0 +1,135 @@
+---
+id: IEEEStdC62622000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Test Specifications for Surge Protective Devices for Low
+    Voltage AC Power Circuits
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/890180
+docidentifier:
+- content: IEEE Std C62.62-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std C62.62™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1991-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.92290
+  type: DOI
+docnumber: IEEE Std C62.62-2000
+date:
+- type: created
+  at: '2000-06-07'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2000-02-29'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Surge Protective Devices/Low Voltage of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: '" This standard establishes methods for testing and measuring the performance
+    charac-teristics for surge-protective devices used in low-voltage ac power circuits.
+    Definitions are statedthat apply specifically to surge-protective devices. The
+    testing requirements are categorized intotwo groups, in which a minimum set of
+    basic tests (BTs) are prescribed for all surge-protectivedevices within the scope
+    of its documents, supplemented by additional tests (ATs) that might beneeded to
+    establish particular application requirements. "'
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C62.62-2010
+    docidentifier:
+    - content: IEEE Std C62.62-2010
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Power system protection
+  - language: en
+    script: Latn
+    content: discharge voltage
+  - language: en
+    script: Latn
+    content: electromagnetic compatibility (EMI)
+  - language: en
+    script: Latn
+    content: flashover
+  - language: en
+    script: Latn
+    content: impulse
+  - language: en
+    script: Latn
+    content: lightning
+  - language: en
+    script: Latn
+    content: surge-protective devices
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

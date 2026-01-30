@@ -1,0 +1,147 @@
+---
+id: IEEEStd5242003
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide to the Installation of Overhead Transmission Line Conductors
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1278833
+docidentifier:
+- content: IEEE Std 524-2003
+  type: IEEE
+  primary: true
+- content: IEEE Std 524™-2003
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3815-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.94441
+  type: DOI
+docnumber: IEEE Std 524-2003
+date:
+- type: created
+  at: '2004-03-11'
+- type: published
+  at: '2017-05-03'
+- type: issued
+  at: '2003-10-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Revision of IEEE Std 524-1992. SUMMARY: This guide provides general recommendations
+    for the selection of methods, equipment, and tools that have been found to be
+    practical for the stringing of overhead transmission line conductors and overhead
+    groundwires. The guide also includes a comprehensive list of definitions for equipment
+    and tools used in stringing and for stringing terms commonly employed. This guide
+    does not address special conductors such as those used for river and canyon crossing.
+    These conductors may be custom designed and often may require special considerations.'
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 524-1992
+    docidentifier:
+    - content: IEEE Std 524-1992
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 524-2016
+    docidentifier:
+    - content: IEEE Std 524-2016
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Conductors
+  - language: en
+    script: Latn
+    content: Power transmission lines
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Power engineering
+  - language: en
+    script: Latn
+    content: Tools
+  - language: en
+    script: Latn
+    content: overhead transmission line conductors
+  - language: en
+    script: Latn
+    content: overhead groundwires
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

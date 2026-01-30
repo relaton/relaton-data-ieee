@@ -1,0 +1,137 @@
+---
+id: IEEEStd80211p2010
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information technology-- Local and metropolitan area
+    networks-- Specific requirements-- Part 11: Wireless LAN Medium Access Control
+    (MAC) and Physical Layer (PHY) Specifications Amendment 6: Wireless Access in
+    Vehicular Environments'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5514475
+docidentifier:
+- content: IEEE Std 802.11p-2010
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.11p®-2010
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6324-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2010.5514475
+  type: DOI
+docnumber: IEEE Std 802.11p-2010
+date:
+- type: created
+  at: '2010-07-15'
+- type: published
+  at: '2010-07-23'
+- type: issued
+  at: '2010-06-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment specifies the extensions to IEEE Std 802.11 for wireless
+    local area networks (WLANs) providing wireless communications while in a vehicular
+    environment.
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.11-2007
+    docidentifier:
+    - content: IEEE Std 802.11-2007
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Wireless communication
+  - language: en
+    script: Latn
+    content: Vehicles
+  - language: en
+    script: Latn
+    content: IEEE 802.11 Standards
+  - language: en
+    script: Latn
+    content: 5.9 GHz
+  - language: en
+    script: Latn
+    content: wireless access in vehicular environments
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,115 @@
+---
+id: AIEEStd800
+type: standard
+schema_version: v1.4.1
+title:
+- content: AIEE Test Code for D-C Aircraft Rotating Machines
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/18442
+docidentifier:
+- content: AIEE Std 800
+  type: IEEE
+  primary: true
+- content: AIEE Std 800™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4590-4
+  type: ISBN
+- content: 10.1109/IEEESTD.1953.119022
+  type: DOI
+docnumber: AIEE Std 800
+date:
+- type: created
+  at: '1953'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1953'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: AIEE Committee on Air Transportation
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: It is the purpose of this code to define uniform acceptable methods of
+    making tests to determine that the performance and other characteristics of DC
+    rotating machines for aircraft comply with specification and application requirements.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1953'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Aircraft
+  - language: en
+    script: Latn
+    content: DC machines
+  - language: en
+    script: Latn
+    content: Standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '19.080'
+    text: Electrical and electronic testing
+  - code: 29.160.99
+    text: Other standards related to rotating machinery
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

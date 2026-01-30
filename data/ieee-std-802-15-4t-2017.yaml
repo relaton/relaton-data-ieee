@@ -1,0 +1,182 @@
+---
+id: IEEEStd802154t2017
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Low-Rate Wireless Networks--Amendment 4: Higher Rate
+    (2 Mb/s) Physical (PHY) Layer'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7900315
+docidentifier:
+- content: IEEE Std 802.15.4t-2017
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.4t®-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-3933-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2017.7900315
+  type: DOI
+docnumber: IEEE Std 802.15.4t-2017
+date:
+- type: created
+  at: '2017-04-14'
+- type: published
+  at: '2017-04-14'
+- type: issued
+  at: '2017-02-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment defines a physical layer for IEEE Std 802.15.4(TM)-2015,
+    capable of supporting 2 Mb/s data rates, utilizing the 2400-2483.5 MHz band, having
+    backwards-compatibility to, and the same occupied bandwidth as, the present 2450
+    MHz O-QPSK physical layer, and capable of simple implementation. Target range
+    should be at least 10 meters. This amendment defines modifications to the medium
+    access control (MAC) sublayer needed to support this new physical layer.
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.15.4-2011
+    docidentifier:
+    - content: IEEE Std 802.15.4-2011
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ad hoc networks
+  - language: en
+    script: Latn
+    content: Low power electronics
+  - language: en
+    script: Latn
+    content: Wireless LAN
+  - language: en
+    script: Latn
+    content: Mobile communication
+  - language: en
+    script: Latn
+    content: Radio frequency
+  - language: en
+    script: Latn
+    content: Personal area networks
+  - language: en
+    script: Latn
+    content: Data rates
+  - language: en
+    script: Latn
+    content: ad hoc network
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4(TM)
+  - language: en
+    script: Latn
+    content: low data rate
+  - language: en
+    script: Latn
+    content: low power
+  - language: en
+    script: Latn
+    content: LR-WPAN
+  - language: en
+    script: Latn
+    content: mobility
+  - language: en
+    script: Latn
+    content: PAN
+  - language: en
+    script: Latn
+    content: personal area network
+  - language: en
+    script: Latn
+    content: radio frequency
+  - language: en
+    script: Latn
+    content: RF
+  - language: en
+    script: Latn
+    content: short range
+  - language: en
+    script: Latn
+    content: wireless
+  - language: en
+    script: Latn
+    content: wireless personal area network
+  - language: en
+    script: Latn
+    content: WPAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

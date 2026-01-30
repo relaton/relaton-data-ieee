@@ -1,0 +1,112 @@
+---
+id: IEEEStd1073412000
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Medical Device Communications - Physical Layer Interface
+    - Cable Connected
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/825131
+docidentifier:
+- content: IEEE Std 1073.4.1-2000
+  type: IEEE
+  primary: true
+- content: IEEE Std 1073.4.1™-2000
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-1817-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.90916
+  type: DOI
+docnumber: IEEE Std 1073.4.1-2000
+date:
+- type: created
+  at: '2000'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1999-10-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Medical Information Bus Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A physical interface for the interconnection of computers and medical devices
+    in the IEEE 1073 family of standards is defined. This interface is intended to
+    be highly robust in an environment where devices are frequently connected to and
+    disconnected from the network. The physical and electrical characteristics of
+    the connector and signals necessary to exchange digital information between cable-connected,
+    medical devices and host computer systems are specified.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Cables
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

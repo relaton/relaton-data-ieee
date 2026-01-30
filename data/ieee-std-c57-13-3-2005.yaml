@@ -1,0 +1,165 @@
+---
+id: IEEEStdC571332005
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Grounding of Instrument Transformer Secondary Circuits and
+    Cases
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1634985
+docidentifier:
+- content: IEEE Std C57.13.3-2005
+  type: IEEE
+  primary: true
+- content: IEEE Std C57.13.3™-2005
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4853-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2006.215279
+  type: DOI
+docnumber: IEEE Std C57.13.3-2005
+date:
+- type: created
+  at: '2006-05-08'
+- type: published
+  at: '2014-12-10'
+- type: issued
+  at: '2005-11-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The practices described in this guide apply to all instrument transformers,
+    including capacitive voltage transformers (VTs) and linear couplers, irrespective
+    of primary voltage or whether the primary windings are connected to, or are in,
+    power circuits or are connected in the secondary circuits of other transformers
+    as auxiliary current transformers (CTs) or VTs. This guide does not discuss the
+    grounding of some applications. For example, grounding of gas insulated substations
+    and metal clad switchgear is not discussed in this guide; the reader will find
+    these topics addressed in IEEE Std 242. The grounding of circuits of core-balance
+    CTs is also not discussed in this guide. The reader can also find this information
+    in IEEE Std 242. Another issue that is not discussed in this guide is the practice
+    of using separate safety and control grounds. For discussion on this topic, the
+    reader is directed to IEEE Std 665.
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std C57.13.3-1983
+    docidentifier:
+    - content: ANSI/IEEE Std C57.13.3-1983
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C57.13.3-2014
+    docidentifier:
+    - content: IEEE Std C57.13.3-2014
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Grounding
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: Instrument transformers
+  - language: en
+    script: Latn
+    content: Power engineering
+  - language: en
+    script: Latn
+    content: current transformers
+  - language: en
+    script: Latn
+    content: grounding of cases of instrument transformers
+  - language: en
+    script: Latn
+    content: grounding secondary circuits of instrument transformers
+  - language: en
+    script: Latn
+    content: instrument transformers
+  - language: en
+    script: Latn
+    content: low energy transducers
+  - language: en
+    script: Latn
+    content: voltage transformers
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.100.99
+    text: Other components for electrical equipment
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

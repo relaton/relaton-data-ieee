@@ -1,0 +1,125 @@
+---
+id: IEEEStd8231989
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Methodologies for Specifying Voice Grade Channel Transmission
+    Parameters and Evaluating Connection Transmission Performance for Speech Telephony
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/89756
+docidentifier:
+- content: IEEE Std 823-1989
+  type: IEEE
+  primary: true
+- content: IEEE Std 823™-1989
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4579-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1990.94607
+  type: DOI
+docnumber: IEEE Std 823-1989
+date:
+- type: created
+  at: '1990'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1989-08-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: the Transmission Systems Committee of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This IEEE Std 823-1989 provides network planners with the methodology and
+    models for calculating the transmission performance of connections made up of
+    one channel or of two or more tandem channels. The performance parameters covered
+    include connection loss, idle-circuit and quantisation noise, and talker echo
+    path loss and delay. The methodology is given for determining the speech transmission
+    performance and grade of service of a complete voice connection including the
+    terminals (telephone sets), and evaluating the relative performance of alternative
+    speech connections.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Speech intelligibility
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Communication channels
+  - language: en
+    script: Latn
+    content: Telephone sets
+  - language: en
+    script: Latn
+    content: Telephony
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.040.20
+    text: Transmission systems
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

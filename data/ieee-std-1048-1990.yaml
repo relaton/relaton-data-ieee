@@ -1,0 +1,143 @@
+---
+id: IEEEStd10481990
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Protective Grounding of Power Lines
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/89799
+docidentifier:
+- content: IEEE Std 1048-1990
+  type: IEEE
+  primary: true
+- content: IEEE Std 1048™-1990
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3908-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1990.94619
+  type: DOI
+docnumber: IEEE Std 1048-1990
+date:
+- type: created
+  at: '1990-06-22'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1990-04-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by 1048-2003. IEEE Guide for Protective Grounding of Power Lines,
+    provides guidelines for safe protective grounding methods for persons engaged
+    in de-energized overhead transmission and distribution line maintenance. This
+    guide compiles state-of-the-art information on protective grounding practices
+    employed by power utilities in North America
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1048-2003
+    docidentifier:
+    - content: IEEE Std 1048-2003
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Grounding
+  - language: en
+    script: Latn
+    content: Electric shock
+  - language: en
+    script: Latn
+    content: Maintenance
+  - language: en
+    script: Latn
+    content: Personnel
+  - language: en
+    script: Latn
+    content: Protection
+  - language: en
+    script: Latn
+    content: Safety
+  - language: en
+    script: Latn
+    content: Transmission lines
+  - language: en
+    script: Latn
+    content: Protective grounding
+  - language: en
+    script: Latn
+    content: Power lines
+  - language: en
+    script: Latn
+    content: Grounding practices
+  - language: en
+    script: Latn
+    content: Distribution lines
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

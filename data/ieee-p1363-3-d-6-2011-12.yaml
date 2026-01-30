@@ -1,0 +1,129 @@
+---
+id: IEEEP13633D6201112
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Standard for Identity-Based Cryptographic Techniques using Pairings
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6504866
+docidentifier:
+- content: IEEE P1363.3/D-6-2011-12
+  type: IEEE
+  primary: true
+- content: IEEE P1363.3™/D-6-2011-12
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7428-0
+  type: ISBN
+docnumber: IEEE P1363.3/D-6-2011-12
+date:
+- type: created
+  at: '2013-04-26'
+- type: published
+  at: '2013-04-18'
+- type: issued
+  at: '2013-04-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies common identity-based public-key cryptographic
+    techniques that use pairings, including mathematical primitives for secret value
+    (key) derivation, public-key encryption, and digital signatures, and cryptographic
+    schemes based on those primitives. It also specifies related cryptographic parameters,
+    public keys and private keys. The purpose of this standard is to provide a reference
+    for specifications of a variety of techniques from which applications may select.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Cryptography
+  - language: en
+    script: Latn
+    content: Encryption
+  - language: en
+    script: Latn
+    content: Public-key cryptography
+  - language: en
+    script: Latn
+    content: encryption
+  - language: en
+    script: Latn
+    content: identity-based encryption
+  - language: en
+    script: Latn
+    content: pairing-based encryption
+  - language: en
+    script: Latn
+    content: pairing-based cryptography
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

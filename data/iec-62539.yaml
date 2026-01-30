@@ -1,0 +1,130 @@
+---
+id: IEC62539
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEC/IEEE Guide for the Statistical Analysis of Electrical Insulation Breakdown
+    Data  (Adoption of IEEE Std 930-2004)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4288250
+docidentifier:
+- content: IEC 62539
+  type: IEEE
+  primary: true
+- content: IEC 62539™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-0000-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2007.4288250
+  type: DOI
+docnumber: IEC 62539
+date:
+- type: created
+  at: '2007'
+- type: published
+  at: '2007-08-13'
+- type: issued
+  at: '2004-09-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Statistical Technical Committee of the IEEE Dielectrics and Electrical
+          Insulation Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This guide describes, with examples, statistical methods to analyze times
+    to break down and breakdown voltage data obtained from electrical testing of solid
+    insulating materials, for purposes including characterization of the system, comparison
+    with another insulator system, and prediction of the probability of breakdown
+    at given times or voltages. Keywords: breakdown voltage and time, Gumbel, Lognormal
+    distributions, statistical methods, statistical confidence limits, Weibull'
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Electric breakdown
+  - language: en
+    script: Latn
+    content: Breakdown voltage
+  - language: en
+    script: Latn
+    content: Statistical analysis
+  - language: en
+    script: Latn
+    content: Insulators
+  - language: en
+    script: Latn
+    content: Solids
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.035.01
+    text: Insulating materials in general
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

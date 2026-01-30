@@ -1,0 +1,162 @@
+---
+id: IEEEP16361D4201707
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Software Interface for Maintenance Information
+    Collection and Analysis (SIMICA): Exchanging Test Results and Session Information
+    via the eXtensible Markup Language (XML)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8322464
+docidentifier:
+- content: IEEE P1636.1/D-4-2017-07
+  type: IEEE
+  primary: true
+- content: IEEE P1636.1™/D-4-2017-07
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4216-9
+  type: ISBN
+docnumber: IEEE P1636.1/D-4-2017-07
+date:
+- type: created
+  at: '2017-07-25'
+- type: published
+  at: '2018-03-22'
+- type: issued
+  at: '2018-09-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Promoting and facilitating interoperability between components of automatic
+    test systems where test results need to be shared is addressed in this standard.
+    The standard thus facilitates the capture of test results data in storage devices
+    and databases, facilitating online and offline analysis. The test results schema
+    becomes a class of information that can be used within the SIMICA family of standards.
+    The exchange format is expressed in both the OWL and XML formats.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1636.1-2013 Redline
+    docidentifier:
+    - content: IEEE Std 1636.1-2013 Redline
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Automatic testing
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Maintenance engineering
+  - language: en
+    script: Latn
+    content: Computer interfaces
+  - language: en
+    script: Latn
+    content: Ontologies
+  - language: en
+    script: Latn
+    content: Data collection
+  - language: en
+    script: Latn
+    content: automated test system (ATS)
+  - language: en
+    script: Latn
+    content: extensible markup language (XML)
+  - language: en
+    script: Latn
+    content: IEEE 1636.1
+  - language: en
+    script: Latn
+    content: OWL ontology
+  - language: en
+    script: Latn
+    content: Software Interface for Maintenance Information Collection and Analysis
+      (SIMICA)
+  - language: en
+    script: Latn
+    content: test results and session information
+  - language: en
+    script: Latn
+    content: XML schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

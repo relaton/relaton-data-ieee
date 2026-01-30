@@ -1,0 +1,135 @@
+---
+id: IEEEStd8021v2001
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Local and metropolitan area networks--Virtual Bridged
+    Local Area Networks -- Amendment 2: VLAN Classification by Protocol and Port'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/943066
+docidentifier:
+- content: IEEE Std 802.1v-2001
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1v®-2001
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2819-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2001.93277
+  type: DOI
+docnumber: IEEE Std 802.1v-2001
+date:
+- type: created
+  at: '2001-05-31'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2001-03-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.1Q,1998 Edition describes enhancements to
+    allow for classification of incoming packets by methods other than source port.Specifically,
+    it defines rules for classification based on data-link layer protocol identification.
+    The document identifies proposed changes to the text of IEEE Std 802.1Q,1998 Edition
+    that have arisen as a consequence of this activity.These are documented in the
+    usual form for amendments to IEEE 802 standards; i.e., as an explicit set of editing
+    instructions that,if correctly applied to the text of IEEE Std 802.1Q,1998 Edition,will
+    create a corrected document.
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.1Q-1998
+    docidentifier:
+    - content: IEEE Std 802.1Q-1998
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: local area networks
+  - language: en
+    script: Latn
+    content: MAC Bridge management
+  - language: en
+    script: Latn
+    content: media access control bridges
+  - language: en
+    script: Latn
+    content: virtual LANS
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

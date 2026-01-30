@@ -1,0 +1,155 @@
+---
+id: IEEEStd10741995
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Developing Software Life Cycle Processes
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/490501
+docidentifier:
+- content: IEEE Std 1074-1995
+  type: IEEE
+  primary: true
+- content: IEEE Std 1074™-1995
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0414-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1996.79663
+  type: DOI
+docnumber: IEEE Std 1074-1995
+date:
+- type: created
+  at: '1996-04-26'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1995-09-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software &amp; Systems Engineering Standards Committee of the IEEE
+          Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by 1074-1997. The set of Activities that constitute the Processes
+    that are mandatory for the development and maintenance of software, whether stand-
+    alone or part of a system, is provided. Non-software Activities, such as hardware
+    development and purchasing, are outside of the scope of this standard. Also provided
+    is associated Input and Output Information.
+copyright:
+- from: '1996'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1074-1991
+    docidentifier:
+    - content: IEEE Std 1074-1991
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1074-1997
+    docidentifier:
+    - content: IEEE Std 1074-1997
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Software maintenance
+  - language: en
+    script: Latn
+    content: Software standards
+  - language: en
+    script: Latn
+    content: Software design/development
+  - language: en
+    script: Latn
+    content: Software development management
+  - language: en
+    script: Latn
+    content: activities
+  - language: en
+    script: Latn
+    content: mapping
+  - language: en
+    script: Latn
+    content: processes
+  - language: en
+    script: Latn
+    content: software life cycle
+  - language: en
+    script: Latn
+    content: life cycle model
+  - language: en
+    script: Latn
+    content: life cycle process
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

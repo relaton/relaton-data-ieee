@@ -1,0 +1,147 @@
+---
+id: IEEEStd11001999
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Powering and Grounding Electronic Equipment
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/798784
+docidentifier:
+- content: IEEE Std 1100-1999
+  type: IEEE
+  primary: true
+- content: IEEE Std 1100™-1999
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1661-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1999.90559
+  type: DOI
+docnumber: IEEE Std 1100-1999
+date:
+- type: created
+  at: '1999'
+- type: published
+  at: '2013-01-17'
+- type: issued
+  at: '1999-03-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power Systems Engineering of the IEEE Industry Applications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Superseded by IEEE Std 1100-2005 Abstract: Recommended design, installation,
+    and maintenance practices for electrical powerand grounding (including both power-
+    related and signal-related noise control) of sensitive elec-tronic processing
+    equipment used in commercial and industrial applications are presented. Themain
+    objective is to provide a consensus of recommended practices in an area where
+    conflict-ing information and confusion, stemming primarily from different viewpoints
+    of the sameproblem, have dominated. Practices herein address electronic equipment
+    performance issueswhile maintaining a safe installation. A brief description is
+    given of the nature of power qualityproblems, possible solutions, and the resources
+    available for assistance in dealing with prob-lems. Fundamental concepts are reviewed.
+    Instrumentation and procedures for conducting asurvey of the power distribution
+    system are described. Site surveys and site power analysesare considered. Case
+    histories are given to illustrate typical problems.'
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1100-1992
+    docidentifier:
+    - content: IEEE Std 1100-1992
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1100-2005
+    docidentifier:
+    - content: IEEE Std 1100-2005
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: commercial applications
+  - language: en
+    script: Latn
+    content: electrical power
+  - language: en
+    script: Latn
+    content: grounding
+  - language: en
+    script: Latn
+    content: industrial applications
+  - language: en
+    script: Latn
+    content: sen-sitive equipment
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.020'
+    text: Electronic components in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

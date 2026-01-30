@@ -1,0 +1,198 @@
+---
+id: IEEEStd802154w2020
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Low-Rate Wireless Networks--Amendment 2: Low Power Wide
+    Area Network (LPWAN) Extension to the Low-Energy Critical Infrastructure Monitoring
+    (LECIM) Physical Layer (PHY)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9206104
+docidentifier:
+- content: IEEE Std 802.15.4w-2020
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.4w®-2020
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6796-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2020.9206104
+  type: DOI
+docnumber: IEEE Std 802.15.4w-2020
+date:
+- type: created
+  at: '2020'
+- type: published
+  at: '2020-09-25'
+- type: issued
+  at: '2020-06-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The existing low-energy critical infrastructure monitoring (LECIM) frequency
+    shift keying (FSK) physical layer of IEEE Std 802.15.4-2020 is extended to be
+    more robust in the presence of interference and achieve higher link budgets for
+    applications in low power wide area networks (LPWAN). Lower symbol rates and a
+    split mode with low-rate forward error correction (FEC) codes are introduced to
+    achieve this goal.
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.15.4-2015
+    docidentifier:
+    - content: IEEE Std 802.15.4-2015
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Personal area networks
+  - language: en
+    script: Latn
+    content: Wireless networks
+  - language: en
+    script: Latn
+    content: Energy consumption
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Radio frequency
+  - language: en
+    script: Latn
+    content: Low power electronics
+  - language: en
+    script: Latn
+    content: amendment
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4w
+  - language: en
+    script: Latn
+    content: low data rate
+  - language: en
+    script: Latn
+    content: LPWAN
+  - language: en
+    script: Latn
+    content: low power wide area network
+  - language: en
+    script: Latn
+    content: LECIM
+  - language: en
+    script: Latn
+    content: low-energy critical infrastructure monitoring
+  - language: en
+    script: Latn
+    content: PAN
+  - language: en
+    script: Latn
+    content: personal area network
+  - language: en
+    script: Latn
+    content: PHY
+  - language: en
+    script: Latn
+    content: physical layer
+  - language: en
+    script: Latn
+    content: radio frequency
+  - language: en
+    script: Latn
+    content: RF
+  - language: en
+    script: Latn
+    content: splitting
+  - language: en
+    script: Latn
+    content: ultra-low power
+  - language: en
+    script: Latn
+    content: wireless personal area network
+  - language: en
+    script: Latn
+    content: WPAN
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

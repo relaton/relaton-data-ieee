@@ -1,0 +1,118 @@
+---
+id: IEEEStd7481979
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Spectrum Analyzers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/19504
+docidentifier:
+- content: IEEE Std 748-1979
+  type: IEEE
+  primary: true
+- content: IEEE Std 748™-1979
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4405-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1979.120304
+  type: DOI
+docnumber: IEEE Std 748-1979
+date:
+- type: created
+  at: '1979'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1978-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Technical Committee on High Frequency Frequency IEEE Instrumentation
+          and Measurements Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This standard applies to frequency scanning spectrum analyzers. Instruments
+    covered by this standard include: swept front end (superheterodyning in which
+    the first local oscillator is swept); swept IF (superheterodyning in which other
+    than the first local oscillator is swept); and video detector-tunable filter (analysis
+    is accomplished by scanning the input filter across the signal in proportion to
+    the CRT horizontal deflection with the detector output providing the vertical
+    deflection). The purpose of this standard is to document the minimum specifications
+    required by users or purchasers, or both, of spectrum analyzers. It will also
+    provide a common means for comparison between instruments. In addition, uniformity
+    of information from different manufacturers is realized.<<ETX>>'
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1979'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Measurement standards
+  - language: en
+    script: Latn
+    content: Spectral analysis
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '19.080'
+    text: Electrical and electronic testing
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

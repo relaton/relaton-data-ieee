@@ -1,0 +1,147 @@
+---
+id: IEEEStd13032011
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Static Var Compensator Field Tests
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6003722
+docidentifier:
+- content: IEEE Std 1303-2011
+  type: IEEE
+  primary: true
+- content: IEEE Std 1303™-2011
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6685-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.6003722
+  type: DOI
+docnumber: IEEE Std 1303-2011
+date:
+- type: updated
+  at: '2011-11-07'
+- type: created
+  at: '2011-08-26'
+- type: published
+  at: '2013-08-15'
+- type: issued
+  at: '2011-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Substations of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: General guidelines and criteria for the field testing of static var compensators
+    (SVCs), before they are placed in-service, for the purpose of verifying their
+    specified performance are described. The major elements of a commissioning program
+    are identified so that the user can formulate a specific plan that is most suited
+    for his or her own SVC.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1303-1994
+    docidentifier:
+    - content: IEEE Std 1303-1994
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Reactive power
+  - language: en
+    script: Latn
+    content: Static VAr compensators
+  - language: en
+    script: Latn
+    content: Testing
+  - language: en
+    script: Latn
+    content: IEEE 1303
+  - language: en
+    script: Latn
+    content: mvar
+  - language: en
+    script: Latn
+    content: static var compensator
+  - language: en
+    script: Latn
+    content: SVC
+  - language: en
+    script: Latn
+    content: var
+  - language: en
+    script: Latn
+    content: field tests
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.020'
+    text: Electrical engineering in general
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

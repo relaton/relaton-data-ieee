@@ -1,0 +1,240 @@
+---
+id: IEEEStd802154z2020
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Low-Rate Wireless Networks--Amendment 1: Enhanced Ultra
+    Wideband (UWB) Physical Layers (PHYs) and Associated Ranging Techniques'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9179124
+docidentifier:
+- content: IEEE Std 802.15.4z-2020
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.4z®-2020
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6798-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2020.9179124
+  type: DOI
+docnumber: IEEE Std 802.15.4z-2020
+date:
+- type: created
+  at: '2020-08-25'
+- type: published
+  at: '2020-08-27'
+- type: issued
+  at: '2020-06-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment enhances the UWB PHYs with additional coding options and
+    improvements to increase the integrity and accuracy of ranging measurements. It
+    also enhances the MAC to support control of time-of-flight ranging procedures
+    and exchange ranging related information between the participating ranging devices.
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.15.4-2020
+    docidentifier:
+    - content: IEEE Std 802.15.4-2020
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Wideband
+  - language: en
+    script: Latn
+    content: Physical layer
+  - language: en
+    script: Latn
+    content: Wireless networks
+  - language: en
+    script: Latn
+    content: Ultra wideband technology
+  - language: en
+    script: Latn
+    content: Encoding
+  - language: en
+    script: Latn
+    content: Information exchange
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Distance measurement
+  - language: en
+    script: Latn
+    content: Receivers
+  - language: en
+    script: Latn
+    content: Transmitters
+  - language: en
+    script: Latn
+    content: Double-sided two-way ranging
+  - language: en
+    script: Latn
+    content: DS-TWR
+  - language: en
+    script: Latn
+    content: Enhanced ranging device
+  - language: en
+    script: Latn
+    content: ERDEV
+  - language: en
+    script: Latn
+    content: HRP UWB PHY
+  - language: en
+    script: Latn
+    content: HRP-ERDEV
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4
+  - language: en
+    script: Latn
+    content: IEEE 802.15.4z
+  - language: en
+    script: Latn
+    content: Low power
+  - language: en
+    script: Latn
+    content: Low-Rate Wireless Networks
+  - language: en
+    script: Latn
+    content: LRP UWB PHY
+  - language: en
+    script: Latn
+    content: LRP-ERDEV
+  - language: en
+    script: Latn
+    content: Multi-node ranging
+  - language: en
+    script: Latn
+    content: Precision ranging
+  - language: en
+    script: Latn
+    content: Ranging device
+  - language: en
+    script: Latn
+    content: RDEV
+  - language: en
+    script: Latn
+    content: RF
+  - language: en
+    script: Latn
+    content: RFID
+  - language: en
+    script: Latn
+    content: Real Time Location Systems
+  - language: en
+    script: Latn
+    content: RTLS
+  - language: en
+    script: Latn
+    content: Single-sided two-way ranging
+  - language: en
+    script: Latn
+    content: SS-TWR
+  - language: en
+    script: Latn
+    content: Time of flight
+  - language: en
+    script: Latn
+    content: TOF
+  - language: en
+    script: Latn
+    content: TOF integrity
+  - language: en
+    script: Latn
+    content: Two-way ranging
+  - language: en
+    script: Latn
+    content: TWR
+  - language: en
+    script: Latn
+    content: Ultra wideband
+  - language: en
+    script: Latn
+    content: UWB
+  - language: en
+    script: Latn
+    content: Wireless Specialty Networks
+  - language: en
+    script: Latn
+    content: WSN.
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

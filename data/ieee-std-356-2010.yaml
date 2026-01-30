@@ -1,0 +1,146 @@
+---
+id: IEEEStd3562010
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Measurements of Electromagnetic Properties of Earth Media
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5742810
+docidentifier:
+- content: IEEE Std 356-2010
+  type: IEEE
+  primary: true
+- content: IEEE Std 356™-2010
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6448-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.5742810
+  type: DOI
+docnumber: IEEE Std 356-2010
+date:
+- type: updated
+  at: '2011-11-07'
+- type: created
+  at: '2011-03-30'
+- type: published
+  at: '2021-02-03'
+- type: issued
+  at: '2010-09-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Antennas and Propagation Standards Committee of the IEEE Antennas
+          and Propagation Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Measurements of the electrical properties of naturally occurring solids
+    are covered in the scope of this project. Not covered are methods that rely on
+    mapping earth structure anomalies unless directly related to electrical properties.
+    Coverage of numerical methods for forward/inverse modeling is limited.
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 356-2001
+    docidentifier:
+    - content: IEEE Std 356-2001
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Electomagnetic compatiability
+  - language: en
+    script: Latn
+    content: Earth
+  - language: en
+    script: Latn
+    content: Conductivity
+  - language: en
+    script: Latn
+    content: Electromagnetic measurements
+  - language: en
+    script: Latn
+    content: conductivity
+  - language: en
+    script: Latn
+    content: earth materials
+  - language: en
+    script: Latn
+    content: electromagnetic measurement techniques
+  - language: en
+    script: Latn
+    content: IEEE 356
+  - language: en
+    script: Latn
+    content: permittivity
+  - language: en
+    script: Latn
+    content: resistivity
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

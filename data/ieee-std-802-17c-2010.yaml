@@ -1,0 +1,164 @@
+---
+id: IEEEStd80217c2010
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Information technology--Telecommunications and information
+    exchange between systems--Local and metropolitan area networks--Specific requirements
+    Part 17: Resilient packet ring (RPR) access method and physical layer specifications
+    Amendment 2: Protected inter-ring connection'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5465041
+docidentifier:
+- content: IEEE Std 802.17c-2010
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.17c®-2010
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6229-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.5465041
+  type: DOI
+docnumber: IEEE Std 802.17c-2010
+date:
+- type: updated
+  at: '2010-06-01'
+- type: created
+  at: '2010-05-07'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2010-03-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A service provider's use of the architecture and protocols of IEEE 802.17
+    to support ring interconnection through dual station homing, providing 50 ms protection,
+    loop prevention, and load balancing of traffic between rings, is added by this
+    amendment.
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.17-2004
+    docidentifier:
+    - content: IEEE Std 802.17-2004
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: Media access protocol
+  - language: en
+    script: Latn
+    content: topology
+  - language: en
+    script: Latn
+    content: bridging
+  - language: en
+    script: Latn
+    content: fairness
+  - language: en
+    script: Latn
+    content: layer management
+  - language: en
+    script: Latn
+    content: medium access control
+  - language: en
+    script: Latn
+    content: metropolitan area network (MAN)
+  - language: en
+    script: Latn
+    content: physical layer
+  - language: en
+    script: Latn
+    content: protection switching
+  - language: en
+    script: Latn
+    content: resilient packet ring (RPR)
+  - language: en
+    script: Latn
+    content: ring topology
+  - language: en
+    script: Latn
+    content: spatial reuse
+  - language: en
+    script: Latn
+    content: topology detection
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

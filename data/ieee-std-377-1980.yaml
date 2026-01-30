@@ -1,0 +1,121 @@
+---
+id: IEEEStd3771980
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Measurement of Spurious Emission From Land-Mobile
+    Communication Transmitters
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/29063
+docidentifier:
+- content: IEEE Std 377-1980
+  type: IEEE
+  primary: true
+- content: IEEE Std 377™-1980
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0585-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1980.81572
+  type: DOI
+docnumber: IEEE Std 377-1980
+date:
+- type: created
+  at: '1980'
+- type: issued
+  at: '1979-03-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Development Committee of the IEEE Electromagnetic Compatibility
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This recommended practice covers definitions of terms, controlled test
+    conditions, test apparatus, test methods and data presentation, all of which form
+    the basis for establishing the energy levels of spurious emissions of mobile communication
+    transmitters designed to generate frequency-modulated (FM) signals in the frequency
+    range of 25 MHz to 1000 MHz. Procedures for measuring both broadband and narrowband
+    spectra are provided for both conducted and radiated emissions. Specified limits
+    are not included. However, reference values which are not limited by the state
+    of the art are provided. Transmitter test conditions, apparatus and method are
+    based on standard instrumentation and measuring techniques and do not require
+    any special apparatus other than necessary terminal simulators. The procedures
+    do not cover the associated antenna and transmission lines.<<ETX>>
+copyright:
+- from: '1980'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Electromagnetic interference
+  - language: en
+    script: Latn
+    content: Measurement standards
+  - language: en
+    script: Latn
+    content: Mobile communication
+  - language: en
+    script: Latn
+    content: Transmitters
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.100.10
+    text: Emission
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

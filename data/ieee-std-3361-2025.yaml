@@ -1,0 +1,151 @@
+---
+id: IEEEStd33612025
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Evaluation Method of Robustness of Digital Watermarking
+    Implementation in Digital Content
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11120317
+docidentifier:
+- content: IEEE Std 3361-2025
+  type: IEEE
+  primary: true
+- content: IEEE Std 3361™-2025
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2471-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2025.11120317
+  type: DOI
+docnumber: IEEE Std 3361-2025
+date:
+- type: created
+  at: '2025-08-08'
+- type: published
+  at: '2025-08-07'
+- type: issued
+  at: '2025-05-28'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Cybersecurity and Privacy Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An evaluation method to assess the robustness of invisible watermarking
+    implementations in unstructured digital content, including images, video, audio,
+    documents, and webpages, is described in this standard. Also described are distortion
+    inferences that may result in the compromise of the watermark information embedded
+    in digital content. Furthermore, the metrics used for evaluation and test cases
+    for assessing the robustness against different distortion inferences are specified.
+    This standard does not specify the evaluation for the robustness of the watermarking
+    implementations in structured content, for example, a database. The risks faced
+    with watermarking implementations in structured content are different from those
+    of unstructured content and need different test cases.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Watermarking
+  - language: en
+    script: Latn
+    content: Performance evaluation
+  - language: en
+    script: Latn
+    content: Noise measurement
+  - language: en
+    script: Latn
+    content: Robustness
+  - language: en
+    script: Latn
+    content: Content management
+  - language: en
+    script: Latn
+    content: digital watermarking implementation
+  - language: en
+    script: Latn
+    content: evaluation method
+  - language: en
+    script: Latn
+    content: IEEE 3361(TM)
+  - language: en
+    script: Latn
+    content: noises
+  - language: en
+    script: Latn
+    content: robustness
+  - language: en
+    script: Latn
+    content: unstructured digital content
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.030'
+    text: IT Security
+  - code: 35.040.01
+    text: Information coding in general
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

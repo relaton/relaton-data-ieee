@@ -1,0 +1,140 @@
+---
+id: IEEEStdC57151999
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Requirements, Terminology, and Test Code for Step-Voltage
+    Regulators
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/838984
+docidentifier:
+- content: IEEE Std C57.15-1999
+  type: IEEE
+  primary: true
+- content: IEEE Std C57.15™-1999
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1834-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2000.91311
+  type: DOI
+docnumber: IEEE Std C57.15-1999
+date:
+- type: created
+  at: '2000-04-14'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1999-09-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transformers of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Electrical, mechanical, and safety requirements of oil-filled, single-
+    and three-phase voltage regulators not exceeding regulation of 2500 kVA (for three-phase
+    units) or 833 kVA (for single-phase units) are covered.
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std C57.15-1986
+    docidentifier:
+    - content: ANSI/IEEE Std C57.15-1986
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C57.15-2009
+    docidentifier:
+    - content: IEEE Std C57.15-2009
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: electrical
+  - language: en
+    script: Latn
+    content: mechanical
+  - language: en
+    script: Latn
+    content: safety
+  - language: en
+    script: Latn
+    content: step-voltage regulators
+  - language: en
+    script: Latn
+    content: test code
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.29
+    text: Electrical engineering (Vocabularies)
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,152 @@
+---
+id: IEEE2342009D907200903
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Protective Relay Applications to Power System Buses
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4810972
+docidentifier:
+- content: IEEE 234.2009/D-9.07-2009-03
+  type: IEEE
+  primary: true
+- content: IEEE 234.2009™/D-9.07-2009-03
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-3852-0
+  type: ISBN
+docnumber: IEEE 234.2009/D-9.07-2009-03
+date:
+- type: created
+  at: '2009-01-01'
+- type: published
+  at: '2017-02-16'
+- type: issued
+  at: '2009-09-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Concepts of power bus protection are discussed in this guide. Consideration
+    is given to availability and location of breakers, current transformers, and disconnectors
+    as well as bus-switching scenarios, and their impact on the selection and application
+    of bus protection. A number of bus protection schemes are presented; their adequacy,
+    complexity, strengths, and limitations with respect to a variety of bus arrangements
+    are discussed; specific application guidelines are provided. Breaker failure protection
+    is discussed as pertaining to bus protection. Means of securing bus protection
+    schemes against corrupted relay input signals are also included.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: C37.234-2009
+  - language: en
+    script: Latn
+    content: breaker-and-a-half
+  - language: en
+    script: Latn
+    content: failure protection
+  - language: en
+    script: Latn
+    content: substitution
+  - language: en
+    script: Latn
+    content: buses
+  - language: en
+    script: Latn
+    content: check zone
+  - language: en
+    script: Latn
+    content: CT
+  - language: en
+    script: Latn
+    content: current transformers
+  - language: en
+    script: Latn
+    content: differential protection
+  - language: en
+    script: Latn
+    content: double-bus double-breaker
+  - language: en
+    script: Latn
+    content: dynamic replica
+  - language: en
+    script: Latn
+    content: substations
+  - language: en
+    script: Latn
+    content: high-impedance
+  - language: en
+    script: Latn
+    content: percentage
+  - language: en
+    script: Latn
+    content: protective relaying
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.70
+    text: Relays
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

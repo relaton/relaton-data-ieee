@@ -1,0 +1,135 @@
+---
+id: IEEEStdC571091993
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Liquid-Immersed Transformers Through-Fault-Current Duration
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/278280
+docidentifier:
+- content: IEEE Std C57.109-1993
+  type: IEEE
+  primary: true
+- content: IEEE Std C57.109™-1993
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0840-7
+  type: ISBN
+- content: 10.1109/IEEESTD.1993.119214
+  type: DOI
+docnumber: IEEE Std C57.109-1993
+date:
+- type: created
+  at: '1993-10-15'
+- type: published
+  at: '2018-10-12'
+- type: issued
+  at: '1993-03-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transformers of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Recommendations believed essential for the application of over current
+    protective devices applied to limit the exposure time of transformers to short-circuit
+    current are set forth. Transformer coordination curves are presented for four
+    categories of transformers. There is no intent to imply overload capability
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std C57.109-1985
+    docidentifier:
+    - content: ANSI/IEEE Std C57.109-1985
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std C57.109-2018
+    docidentifier:
+    - content: IEEE Std C57.109-2018
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Liquid immersion
+  - language: en
+    script: Latn
+    content: Fault diagnosis
+  - language: en
+    script: Latn
+    content: Power transformers
+  - language: en
+    script: Latn
+    content: Liquid-immersed transformer
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

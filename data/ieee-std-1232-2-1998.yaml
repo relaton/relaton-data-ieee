@@ -1,0 +1,124 @@
+---
+id: IEEEStd123221998
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Artificial Intelligence Exchange and Service Tie to
+    All Test Environments (AI-ESTATE): Service Specification'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/749036
+docidentifier:
+- content: IEEE Std 1232.2-1998
+  type: IEEE
+  primary: true
+- content: IEEE Std 1232.2™-1998
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3533-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1999.89195
+  type: DOI
+docnumber: IEEE Std 1232.2-1998
+date:
+- type: created
+  at: '1999-02-19'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1998-09-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Formal software interfaces to system diagnosis tools and applications are
+    defined. As part of the AI-ESTATE set of standards, this standard defines services
+    to manipulate information models as defined in IEEE Std 1232.1-1997 and to control
+    a diagnostic reasoner. This standard includes a new information model to manipulate
+    dynamic information obtained during the process of system diagnosis. Service bindings
+    to ANSI C and ANSI Ada are also provided.
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: AI-ESTATE
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: diagnosis
+  - language: en
+    script: Latn
+    content: dynamic context model
+  - language: en
+    script: Latn
+    content: system test
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

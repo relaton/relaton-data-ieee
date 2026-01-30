@@ -1,0 +1,186 @@
+---
+id: IEEEStd8021D2004
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Local and metropolitan area networks: Media Access Control
+    (MAC) Bridges'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1309630
+docidentifier:
+- content: IEEE Std 802.1D-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.1D®-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3982-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.94569
+  type: DOI
+docnumber: IEEE Std 802.1D-2004
+date:
+- type: created
+  at: '2004-06-09'
+- type: published
+  at: '2012-05-22'
+- type: issued
+  at: '2004-02-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An architecture for the interconnection of IEEE 802(R) Local Area Networks
+    (LANs) below the MAC Service boundary is defined. MAC Bridges, as specified by
+    this standard, allow communications between end stations attached to separate
+    LANs, each with its own separate MAC, to be transparent to logical link control
+    (LLC) and network layer protocols, just as if the stations were attached to the
+    same LAN.
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 802.1D-1998
+    docidentifier:
+    - content: ANSI/IEEE Std 802.1D-1998
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Protocols
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: Bridges
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: active topology
+  - language: en
+    script: Latn
+    content: filtering
+  - language: en
+    script: Latn
+    content: GARP
+  - language: en
+    script: Latn
+    content: GMRP
+  - language: en
+    script: Latn
+    content: LANs
+  - language: en
+    script: Latn
+    content: local area networds
+  - language: en
+    script: Latn
+    content: MAC Bridges
+  - language: en
+    script: Latn
+    content: MAC Service
+  - language: en
+    script: Latn
+    content: MANS
+  - language: en
+    script: Latn
+    content: metropolitan area networks
+  - language: en
+    script: Latn
+    content: multicast registration
+  - language: en
+    script: Latn
+    content: transparent bridging
+  - language: en
+    script: Latn
+    content: quality of service
+  - language: en
+    script: Latn
+    content: RSTP
+  - language: en
+    script: Latn
+    content: spanning tree
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

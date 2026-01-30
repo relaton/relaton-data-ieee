@@ -1,0 +1,172 @@
+---
+id: IEEEStd145042017
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Extensions to Standard Test Interface Language (STIL)
+    (IEEE Std 1450-1999) for Test Flow Specification
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8283877
+docidentifier:
+- content: IEEE Std 1450.4-2017
+  type: IEEE
+  primary: true
+- content: IEEE Std 1450.4™-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4643-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2018.8283877
+  type: DOI
+docnumber: IEEE Std 1450.4-2017
+date:
+- type: updated
+  at: '2018-03-10'
+- type: created
+  at: '2018-02-09'
+- type: published
+  at: '2018-02-07'
+- type: issued
+  at: '2017-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEEE Std 1450-1999, which specifies the Standard Test Interface Language
+    (STIL), is extended by this standard to provide an interface between test generation
+    tools and test equipment with regard to the specification of the flow of execution
+    of test program components. It defines structures so that test flows, sub-flows,
+    and binning may be described in a manner that facilitates automated generation,
+    modification, and/or manual maintenance and, although not yet a complete run-time
+    test language, execution on automated test equipment (ATE). It also defines an
+    interface between tester configurations (described by IEEE Std 1450-1999 and IEEE
+    Std 1450.2-2002) and test program components. It also defines a hierarchy of flows,
+    sub-flows, and test components as well as structures for defining flow-related
+    variables and processing expressions involving those variables. It provides structures
+    that support automatic test program generation (ATPRG) and translation and that
+    support running it natively as an ATE programming language. As an adjunct, IEEE
+    Std 1450.3-2007 may be used by ATPRG for tester rules checking.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Automatic testing
+  - language: en
+    script: Latn
+    content: Integrated circuits
+  - language: en
+    script: Latn
+    content: Computer aided engineering
+  - language: en
+    script: Latn
+    content: Programming
+  - language: en
+    script: Latn
+    content: ATPG
+  - language: en
+    script: Latn
+    content: ATPRG
+  - language: en
+    script: Latn
+    content: automatic test program generator or generation
+  - language: en
+    script: Latn
+    content: binning
+  - language: en
+    script: Latn
+    content: CAE
+  - language: en
+    script: Latn
+    content: computer-aided engineering
+  - language: en
+    script: Latn
+    content: device under test
+  - language: en
+    script: Latn
+    content: DUT
+  - language: en
+    script: Latn
+    content: IC test
+  - language: en
+    script: Latn
+    content: IEEE 1450.4(TM)
+  - language: en
+    script: Latn
+    content: integrated circuit test
+  - language: en
+    script: Latn
+    content: test flow
+  - language: en
+    script: Latn
+    content: test program description
+  - language: en
+    script: Latn
+    content: test program language
+  - language: en
+    script: Latn
+    content: TPG
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

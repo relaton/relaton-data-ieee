@@ -1,0 +1,164 @@
+---
+id: IEC62271
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEC 62271-111 Ed.1 (IEEE Std C37.60-2003-Compilation): High Voltage Switchgear
+    and Controlgear — Part 111: Overhead, Pad-Mounted, Dry Vault, and Submersible
+    Automatic Circuit Reclosers and Fault Interrupters for alternating current systems
+    up to 38 kV'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7511635
+docidentifier:
+- content: IEC 62271
+  type: IEEE
+  primary: true
+- content: IEC 62271™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-2-8318-8378-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2006.7511635
+  type: DOI
+docnumber: IEC 62271
+date:
+- type: created
+  at: '2006-07-12'
+- type: published
+  at: '2016-07-13'
+- type: issued
+  at: '2006'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Switchgear of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This Standard applies to all overhead, pad mounted, dry vault and submersible
+    single or multi-pole alternating current automatic circuit reclosers and fault
+    interrupters for rated maximum voltages above 1000 V and up to 38 kV. The following
+    is also included in section 1: In order to simplify this standard where possible,
+    the term recloser/FI (reclosers/FIs) has been substituted for automatic circuit
+    recloser or fault interrupter or both. NOTE--When reclosers are applied in substation,
+    special considerations may apply.'
+copyright:
+- from: '2005'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std C37.60-2003
+    docidentifier:
+    - content: IEEE Std C37.60-2003
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEC Standards
+  - language: en
+    script: Latn
+    content: Dry vault
+  - language: en
+    script: Latn
+    content: Interrupters
+  - language: en
+    script: Latn
+    content: Switchgear
+  - language: en
+    script: Latn
+    content: Circuit faults
+  - language: en
+    script: Latn
+    content: Automatic voltage control
+  - language: en
+    script: Latn
+    content: Underwater vehicles
+  - language: en
+    script: Latn
+    content: dry vault
+  - language: en
+    script: Latn
+    content: fault interrupter
+  - language: en
+    script: Latn
+    content: overhead
+  - language: en
+    script: Latn
+    content: pad-mounted
+  - language: en
+    script: Latn
+    content: recloser
+  - language: en
+    script: Latn
+    content: submersible
+  - language: en
+    script: Latn
+    content: standard operating duty
+  - language: en
+    script: Latn
+    content: switchgear
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

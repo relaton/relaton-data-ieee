@@ -1,0 +1,189 @@
+---
+id: IEEEP80211ajD802017
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Information Technology--Telecommunications and
+    information exchange between systems Local and metropolitan area networks--Specific
+    requirements Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer
+    (PHY) Specifications Amendment 5: Enhancements for Very High Throughput to Support
+    Chinese Millimeter Wave Frequency Bands(60 GHz and 45 GHz).'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8011557
+docidentifier:
+- content: IEEE P802.11aj/D-8.0-2017
+  type: IEEE
+  primary: true
+- content: IEEE P802.11aj™/D-8.0-2017
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4328-9
+  type: ISBN
+docnumber: IEEE P802.11aj/D-8.0-2017
+date:
+- type: created
+  at: '2017-01-01'
+- type: published
+  at: '2017-08-16'
+- type: issued
+  at: '2018-02-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The IEEE 802.11(TM) directional multi-gigabit (DMG) physical layer (PHY)
+    and the medium access control (MAC) layer are modified by this amendment to IEEE
+    Std 802.11(TM)-2016 to enable operation in the Chinese millimeter wave frequency
+    band around 60 GHz. This amendment also defines modifications to the IEEE 802.11
+    PHY and MAC layer to enable operation in the Chinese millimeter wave frequency
+    band around 45 GHz.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.11-2012 Redline
+    docidentifier:
+    - content: IEEE Std 802.11-2012 Redline
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Information technology
+  - language: en
+    script: Latn
+    content: Local area networks
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: China
+  - language: en
+    script: Latn
+    content: Millimeter wave communication
+  - language: en
+    script: Latn
+    content: Array signal processing
+  - language: en
+    script: Latn
+    content: Channel allocation
+  - language: en
+    script: Latn
+    content: Bandwidth
+  - language: en
+    script: Latn
+    content: beamforming
+  - language: en
+    script: Latn
+    content: CDMG
+  - language: en
+    script: Latn
+    content: China directional multi-gigabit
+  - language: en
+    script: Latn
+    content: China millimeter-wave multigigabit
+  - language: en
+    script: Latn
+    content: CMMG
+  - language: en
+    script: Latn
+    content: DBC
+  - language: en
+    script: Latn
+    content: DCS
+  - language: en
+    script: Latn
+    content: dynamic bandwidth control
+  - language: en
+    script: Latn
+    content: dynamic channel selection
+  - language: en
+    script: Latn
+    content: IEEE 802.11(TM)
+  - language: en
+    script: Latn
+    content: IEEE 802.11aj(TM)
+  - language: en
+    script: Latn
+    content: opportunistic transmission
+  - language: en
+    script: Latn
+    content: spatial sharing
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

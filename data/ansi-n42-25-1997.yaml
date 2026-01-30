@@ -1,0 +1,124 @@
+---
+id: ANSIN42251997
+type: standard
+schema_version: v1.4.1
+title:
+- content: American National Standard Calibration and Usage of Alpha/Beta Proportional
+    Counters
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/621601
+docidentifier:
+- content: ANSI N42.25-1997
+  type: IEEE
+  primary: true
+- content: ANSI N42.25™-1997
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0749-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1997.83814
+  type: DOI
+docnumber: ANSI N42.25-1997
+date:
+- type: created
+  at: '1997'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '2012-05-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Radiation Instrumentation of the Accredited Standards Committee N42
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard establishes methods for the calibration and use of gas proportional
+    counters with and without active guard detectors. This standard also establishes
+    methods for measuring the alpha and beta counting plateau, crosstalk factors,
+    background, alpha and beta efficiency from prepared standards, correction factors
+    for samples whose self-attenuation or mass differs from that of the standard,
+    and calculation of the sample activities together with their random and total
+    uncertainties. Correction for pulse pileup due to high count rate is also discussed.
+    Although many principles articulated in this standard apply to the counting of
+    radionuclides emitting a maximum beta energy below 100 keV as well, the counting
+    of these low-energy beta emitters requires a higher degree of attention to detail
+    in sample preparation, instrument calibration, and measurement correction factors
+    than addressed in this standard. Therefore, this standard is intended for measuring
+    radionuclides with maximum beta energies above 100 keV.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '1997'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Proportional counters
+  - language: en
+    script: Latn
+    content: alpha/beta proportional counters
+  - language: en
+    script: Latn
+    content: calibration
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

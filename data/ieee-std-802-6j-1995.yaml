@@ -1,0 +1,125 @@
+---
+id: IEEEStd8026j1995
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standards for Local and Metropolitan Area Networks: Supplement to
+    Distributed Queue Dual Bus (DQDB) Access Method and Physical Layer Specifications.
+    Connection-Oriented Service on a Distributed Queue Dual Bus (DQDB) Subnetwork
+    of a Metropolitan Area Network (MAN)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/476643
+docidentifier:
+- content: IEEE Std 802.6j-1995
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.6j®-1995
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 1-55937-545-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1995.79553
+  type: DOI
+docnumber: IEEE Std 802.6j-1995
+date:
+- type: updated
+  at: '1995-11-09'
+- type: created
+  at: '1995'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1995-03-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Technical Committee on Computer Communications of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Enhanced Queued Arbitrated (QA) Functions, which can support applications
+    requiring bandwidth guarantees and delay limits on a DQDB subnetwork,are specified.
+    Connection-Oriented Convergence Functions (COCFs) using the enhanced QA Functions,
+    which are necessary to support connection-oriented service, are also specified.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Access protocols
+  - language: en
+    script: Latn
+    content: Metropolitan area networks
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Communication standards
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

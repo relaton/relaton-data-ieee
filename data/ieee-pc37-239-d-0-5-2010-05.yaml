@@ -1,0 +1,129 @@
+---
+id: IEEEPC37239D05201005
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Common Format for Event Data Exchange (COMFEDE) for Power
+    Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5514460
+docidentifier:
+- content: IEEE PC37.239/D-0.5-2010-05
+  type: IEEE
+  primary: true
+- content: IEEE PC37.239™/D-0.5-2010-05
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6418-2
+  type: ISBN
+docnumber: IEEE PC37.239/D-0.5-2010-05
+date:
+- type: created
+  at: '2010-01-01'
+- type: published
+  at: '2015-07-21'
+- type: issued
+  at: '2010'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A common format for data files used for the interchange of various types
+    of event data collected from electrical power systems or power system models is
+    defined. Extensibility, extension mechanisms and compatibility of future versions
+    of the format are discussed. An XML schema is defined. A sample file is given.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Data handling
+  - language: en
+    script: Latn
+    content: Payloads
+  - language: en
+    script: Latn
+    content: XML schema
+  - language: en
+    script: Latn
+    content: XML name spaces
+  - language: en
+    script: Latn
+    content: instance file
+  - language: en
+    script: Latn
+    content: payload data.
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.99
+    text: Other equipment related to power transmission and distribution networks
+  - code: '35.06'
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

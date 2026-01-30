@@ -1,0 +1,146 @@
+---
+id: IEEEStd10501996
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Instrumentation and Control Equipment Grounding in Generating
+    Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/531503
+docidentifier:
+- content: IEEE Std 1050-1996
+  type: IEEE
+  primary: true
+- content: IEEE Std 1050™-1996
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1107-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1996.81073
+  type: DOI
+docnumber: IEEE Std 1050-1996
+date:
+- type: created
+  at: '1996'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1996-04-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Energy Development &amp; Power Generation of the IEEE Power and Energy
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Information about grounding methods for generating station instrumentation
+    and control (I&amp;C) equipment is provided. The identification of I&amp;C equipment
+    methods to achieve both a suitable level of protection for personnel and equipment
+    is included, as well as suitable noise immunity for signal ground references in
+    generating stations. Both ideal theoretical methods and accepted practices in
+    the electric utility industry are presented.
+copyright:
+- from: '1996'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1050-2004
+    docidentifier:
+    - content: IEEE Std 1050-2004
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1050-1989
+    docidentifier:
+    - content: IEEE Std 1050-1989
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1050-2004
+    docidentifier:
+    - content: IEEE Std 1050-2004
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Power generation control
+  - language: en
+    script: Latn
+    content: control equipment
+  - language: en
+    script: Latn
+    content: generating stations
+  - language: en
+    script: Latn
+    content: grounding
+  - language: en
+    script: Latn
+    content: instrumentation
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '27.100'
+    text: Power stations in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

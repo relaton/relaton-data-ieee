@@ -1,0 +1,176 @@
+---
+id: IEEEP2410D4201409
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Biometrics Open Protocol Standard
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6985516
+docidentifier:
+- content: IEEE P2410/D-4-2014-09
+  type: IEEE
+  primary: true
+- content: IEEE P2410™/D-4-2014-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9467-7
+  type: ISBN
+docnumber: IEEE P2410/D-4-2014-09
+date:
+- type: created
+  at: '2014-05-27'
+- type: published
+  at: '2014-12-18'
+- type: issued
+  at: '2015-09-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Development Board of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Biometric Open Protocol Standard (BOPS) provides Identity Assertion, Role
+    Gathering, Multi-Level Access Control, Assurance, and Auditing. The BOPS includes
+    software running on a client device (Android, iPhone, etc.), a trusted BOPS Server,
+    and an Intrusion Detection(IDS) system. The BOPS allows pluggable components to
+    replace existing components functionality accepting integration into current operating
+    environments in a short period of time. The BOPS provides continuous protection
+    to the resources and assurance of the placement and viability of adjudication,
+    and other key features. Accountability is the mechanism that proves a service
+    level guarantee of security. The BOPS allows the systems to meet security needs
+    by using the API.The BOPS need not know whether the underlying system is a Relational
+    Database Management System (RDBMS) or a Search Engine. The BOPS functionality
+    offers a point and cut mechanism to add the appropriate security to the production
+    systems as well as to the systems in development. The architecture is a language
+    neutral allowing REST, JSON and Secure Socket Layers(SSL) to provide the communication
+    interface. The architecture is built on the servlet specification, open secure
+    socket layers, Java, JSON, REST and Apache Solr. Each and every tool adheres to
+    the open standards allowing maximum interoperability.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Biometrics
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Biomedical monitoring
+  - language: en
+    script: Latn
+    content: admin console
+  - language: en
+    script: Latn
+    content: application
+  - language: en
+    script: Latn
+    content: BOPS admin
+  - language: en
+    script: Latn
+    content: BOPS cluster
+  - language: en
+    script: Latn
+    content: BOPS server
+  - language: en
+    script: Latn
+    content: BOPS IDS
+  - language: en
+    script: Latn
+    content: client device IDS
+  - language: en
+    script: Latn
+    content: Jena Rules
+  - language: en
+    script: Latn
+    content: IDS cluster
+  - language: en
+    script: Latn
+    content: IEEE 2410
+  - language: en
+    script: Latn
+    content: liveness
+  - language: en
+    script: Latn
+    content: original site admin
+  - language: en
+    script: Latn
+    content: site admin
+  - language: en
+    script: Latn
+    content: trusted adjudicated data
+  - language: en
+    script: Latn
+    content: user
+  - language: en
+    script: Latn
+    content: user device
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

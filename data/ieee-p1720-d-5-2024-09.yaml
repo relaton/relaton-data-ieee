@@ -1,0 +1,357 @@
+---
+id: IEEEP1720D5202409
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Draft Recommended practice for near field antenna measurements
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10938367
+docidentifier:
+- content: IEEE P1720/D-5-2024-09
+  type: IEEE
+  primary: true
+- content: IEEE P1720™/D-5-2024-09
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-1990-1
+  type: ISBN
+docnumber: IEEE P1720/D-5-2024-09
+date:
+- type: created
+  at: '2025-03-21'
+- type: published
+  at: '2025-03-24'
+- type: issued
+  at: '2025'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Antennas and Propagation Standards Committee of the IEEE Antennas
+          and Propagation Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This document describes near-field test practices for the measurement of
+    antenna properties. It is written for the person responsible or otherwise involved
+    in operating the test system. It recommends procedures for testing and documenting
+    the quality of the near-field system, for calibration of the system, for carrying
+    out the antenna measurements, and for delivering the measurement data in a useful
+    format to the end user. The document defines useful antenna metrics, describes
+    different types of test ranges with a brief introduction to the theory and equipment
+    used. It reviews methods of characterizing and operating antenna measurement ranges.
+    Issues related to uncertainty analysis, anechoic chamber layout, probe calibration,
+    full probe compensation, echo reduction techniques and use of non-orthogonal expansion
+    functions in the Near-Field to Far-Field transformation are also discussed.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1720-2012
+    docidentifier:
+    - content: IEEE Std 1720-2012
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Near-field radiation pattern
+  - language: en
+    script: Latn
+    content: Anechoic chambers
+  - language: en
+    script: Latn
+    content: Calibration
+  - language: en
+    script: Latn
+    content: Antenna measurements
+  - language: en
+    script: Latn
+    content: Equivalent circuits
+  - language: en
+    script: Latn
+    content: Compressed sensing
+  - language: en
+    script: Latn
+    content: Polarization
+  - language: en
+    script: Latn
+    content: absorber
+  - language: en
+    script: Latn
+    content: alignment
+  - language: en
+    script: Latn
+    content: amplitude only
+  - language: en
+    script: Latn
+    content: anechoic chamber
+  - language: en
+    script: Latn
+    content: anechoic range design
+  - language: en
+    script: Latn
+    content: antenna calibration
+  - language: en
+    script: Latn
+    content: antenna measurements
+  - language: en
+    script: Latn
+    content: antenna near-field measurements
+  - language: en
+    script: Latn
+    content: arbitrary scan surfaces
+  - language: en
+    script: Latn
+    content: automotive
+  - language: en
+    script: Latn
+    content: back propagation
+  - language: en
+    script: Latn
+    content: bi-polar scan
+  - language: en
+    script: Latn
+    content: circular polarized field
+  - language: en
+    script: Latn
+    content: compressed sensing
+  - language: en
+    script: Latn
+    content: cross polarized field
+  - language: en
+    script: Latn
+    content: cylindrical near-field measurements
+  - language: en
+    script: Latn
+    content: data reduction
+  - language: en
+    script: Latn
+    content: diagnostics
+  - language: en
+    script: Latn
+    content: Directivity
+  - language: en
+    script: Latn
+    content: echo suppression
+  - language: en
+    script: Latn
+    content: EIRP
+  - language: en
+    script: Latn
+    content: EIS
+  - language: en
+    script: Latn
+    content: end-to-end testing
+  - language: en
+    script: Latn
+    content: equivalent currents
+  - language: en
+    script: Latn
+    content: equivalent sources
+  - language: en
+    script: Latn
+    content: facility comparison
+  - language: en
+    script: Latn
+    content: fields probe
+  - language: en
+    script: Latn
+    content: Gain
+  - language: en
+    script: Latn
+    content: G/T
+  - language: en
+    script: Latn
+    content: holography
+  - language: en
+    script: Latn
+    content: liner polarized field
+  - language: en
+    script: Latn
+    content: low frequency
+  - language: en
+    script: Latn
+    content: measurement uncertainty
+  - language: en
+    script: Latn
+    content: midfield testing
+  - language: en
+    script: Latn
+    content: millimeter waves
+  - language: en
+    script: Latn
+    content: near-field to far-field transformation
+  - language: en
+    script: Latn
+    content: near-field measurements
+  - language: en
+    script: Latn
+    content: non-redundant sampling
+  - language: en
+    script: Latn
+    content: non-regular sampling
+  - language: en
+    script: Latn
+    content: non uniform sampling
+  - language: en
+    script: Latn
+    content: OTA testing
+  - language: en
+    script: Latn
+    content: parallax correction
+  - language: en
+    script: Latn
+    content: phase retrieval
+  - language: en
+    script: Latn
+    content: phase recovery
+  - language: en
+    script: Latn
+    content: phase less
+  - language: en
+    script: Latn
+    content: planar near-field measurements
+  - language: en
+    script: Latn
+    content: planar wide mesh
+  - language: en
+    script: Latn
+    content: plane-polar
+  - language: en
+    script: Latn
+    content: polarization
+  - language: en
+    script: Latn
+    content: positioning errors
+  - language: en
+    script: Latn
+    content: post processing
+  - language: en
+    script: Latn
+    content: probe array
+  - language: en
+    script: Latn
+    content: probe calibration
+  - language: en
+    script: Latn
+    content: probe compensation
+  - language: en
+    script: Latn
+    content: probe selection
+  - language: en
+    script: Latn
+    content: radome testing
+  - language: en
+    script: Latn
+    content: reflection suppression
+  - language: en
+    script: Latn
+    content: robot scanning
+  - language: en
+    script: Latn
+    content: saturated flux density
+  - language: en
+    script: Latn
+    content: scanning schemes
+  - language: en
+    script: Latn
+    content: software gating
+  - language: en
+    script: Latn
+    content: spherical near-field measurements
+  - language: en
+    script: Latn
+    content: thermal testing
+  - language: en
+    script: Latn
+    content: time domain
+  - language: en
+    script: Latn
+    content: time gating
+  - language: en
+    script: Latn
+    content: transmission formular
+  - language: en
+    script: Latn
+    content: truncation error
+  - language: en
+    script: Latn
+    content: truncation mitigation
+  - language: en
+    script: Latn
+    content: UAV measurements
+  - language: en
+    script: Latn
+    content: uncertainty analysis
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 33.120.40
+    text: Aerials
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

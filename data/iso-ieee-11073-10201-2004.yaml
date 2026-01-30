@@ -1,0 +1,162 @@
+---
+id: ISOIEEE11073102012004
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEEE International Standard for Health Informatics - Point-of-care
+    medical device communication - Part 10201: Domain information model'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1389297
+docidentifier:
+- content: ISO/IEEE 11073.10201-2004
+  type: IEEE
+  primary: true
+- content: ISO/IEEE 11073.10201™-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4090-2
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.95742
+  type: DOI
+docnumber: ISO/IEEE 11073.10201-2004
+date:
+- type: created
+  at: '2004-12-15'
+- type: published
+  at: '2015-08-13'
+- type: issued
+  at: '2004-06-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for point-of-care
+    (POC) medical device communication (MDC), this standard provides an abstract object-oriented
+    domain information model that specifies the structure of exchanged information,
+    as well as the events and services that are supported by each object. All elements
+    are specified using abstract syntax (ASN.1) and may be applied to many different
+    implementation technologies, transfer syntaxes, and application service models.
+    Core subjects include medical, alert, system, patient, control, archival, communication,
+    and extended services. Model extensibility is supported, and a conformance model
+    and statement template is provided.
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Licenses
+  - language: en
+    script: Latn
+    content: Portable document format
+  - language: en
+    script: Latn
+    content: ISO
+  - language: en
+    script: Latn
+    content: abstract syntax
+  - language: en
+    script: Latn
+    content: alarm
+  - language: en
+    script: Latn
+    content: alert
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: information model
+  - language: en
+    script: Latn
+    content: medical device communications
+  - language: en
+    script: Latn
+    content: medi-cal information bus
+  - language: en
+    script: Latn
+    content: MIB
+  - language: en
+    script: Latn
+    content: point-of-care
+  - language: en
+    script: Latn
+    content: POC
+  - language: en
+    script: Latn
+    content: object-oriented
+  - language: en
+    script: Latn
+    content: patient
+  - language: en
+    script: Latn
+    content: remote control
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,116 @@
+---
+id: IEEEStd136312008
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Specification for Public Key Cryptographic Techniques Based
+    on Hard Problems over Lattices
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4800404
+docidentifier:
+- content: IEEE Std 1363.1-2008
+  type: IEEE
+  primary: true
+- content: IEEE Std 1363.1™-2008
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5863-1
+  type: ISBN
+- content: 10.1109/IEEESTD.2009.4800404
+  type: DOI
+docnumber: IEEE Std 1363.1-2008
+date:
+- type: updated
+  at: '2009-05-05'
+- type: created
+  at: '2009-03-10'
+- type: published
+  at: '2020-01-15'
+- type: issued
+  at: '2008-12-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Specifications of common public-key cryptographic techniques based on hard
+    problems over lattices supplemental to those considered in IEEE 1363 and IEEE
+    P1363a, including mathematical primitives for secret value (key) derivation, public-key
+    encryption, identification and digital signatures, and cryptographic schemes based
+    on those primitives. Specifications of related cryptographic parameters, public
+    keys and private keys. Class of computer and communications systems is not restricted.
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: 1363.1-2008
+  - language: en
+    script: Latn
+    content: encryption
+  - language: en
+    script: Latn
+    content: lattice-based cryptography
+  - language: en
+    script: Latn
+    content: public key cryptography
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.040'
+    text: Information coding
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

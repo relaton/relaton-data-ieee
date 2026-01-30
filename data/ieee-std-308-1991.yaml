@@ -1,0 +1,161 @@
+---
+id: IEEEStd3081991
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Criteria for Class 1E Power Systems for Nuclear Power Generating
+    Stations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/182803
+docidentifier:
+- content: IEEE Std 308-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 308™-1991
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3322-5
+  type: ISBN
+- content: 10.1109/IEEESTD.1992.106969
+  type: DOI
+docnumber: IEEE Std 308-1991
+date:
+- type: created
+  at: '1992-08-26'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1991-12-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Class 1E portions of ac and dc power systems and instrumentation and control
+    power systems in single-unit and multiunit nuclear power generating stations are
+    covered. Not included are the preferred power supply; unit generator(s) and their
+    buses; generator breaker; step-up, auxiliary, and start-up transformers; connections
+    to the station switchyard; switchyard; transmission lines; and the transmission
+    network. The intent is to provide criteria for the determination of Class 1E power
+    system design features, criteria for sharing Class 1E power systems in multiunit
+    stations, and the requirements for their testing and surveillance.
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 308-1980
+    docidentifier:
+    - content: ANSI/IEEE Std 308-1980
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 308-2001
+    docidentifier:
+    - content: IEEE Std 308-2001
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Fission reactor safety
+  - language: en
+    script: Latn
+    content: Nuclear power generation
+  - language: en
+    script: Latn
+    content: Power supplies
+  - language: en
+    script: Latn
+    content: Power systems
+  - language: en
+    script: Latn
+    content: systems
+  - language: en
+    script: Latn
+    content: nuclear
+  - language: en
+    script: Latn
+    content: safety
+  - language: en
+    script: Latn
+    content: station
+  - language: en
+    script: Latn
+    content: design
+  - language: en
+    script: Latn
+    content: Nuclear safety
+  - language: en
+    script: Latn
+    content: Nuclear power station design
+  - language: en
+    script: Latn
+    content: Class 1E power systems
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 27.120.10
+    text: Reactor engineering
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

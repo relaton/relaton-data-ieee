@@ -1,0 +1,216 @@
+---
+id: IEEEStd16852014
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for IP-XACT, Standard Structure for Packaging, Integrating,
+    and Reusing IP within Tool Flows
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6898803
+docidentifier:
+- content: IEEE Std 1685-2014
+  type: IEEE
+  primary: true
+- content: IEEE Std 1685™-2014
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9226-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2014.6898803
+  type: DOI
+docnumber: IEEE Std 1685-2014
+date:
+- type: created
+  at: '2014'
+- type: published
+  at: '2014-09-15'
+- type: issued
+  at: '2014-06-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Conformance checks for eXtensible Markup Language (XML) data designed to
+    describe electronic systems are formulated by this standard. The meta-data forms
+    that are standardized include components, systems, bus interfaces and connections,
+    abstractions of those buses, and details of the components including address maps,
+    register and field descriptions, and file set descriptions for use in automating
+    design, verification, documentation, and use flows for electronic systems. A set
+    of XML schemas of the form described by the World Wide Web Consortium (W3C(R))
+    and a set of semantic consistency rules (SCRs) are included. A generator interface
+    that is portable across tool environments is provided. The specified combination
+    of methodology-independent meta-data and the tool-independent mechanism for accessing
+    that data provides for portability of design data, design methodologies, and environment
+    implementations. (The PDF of this standard is available in the GETIEEE program.
+    The "IEEE Get Program" grants public access to view and download individual PDFs
+    of select standards at no charge. Visit https://ieeexplore.ieee.org/browse/standards/get-program/page
+    for details.)
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1685-2022
+    docidentifier:
+    - content: IEEE Std 1685-2022
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1685-2009
+    docidentifier:
+    - content: IEEE Std 1685-2009
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Design methodology
+  - language: en
+    script: Latn
+    content: Semantics
+  - language: en
+    script: Latn
+    content: XML
+  - language: en
+    script: Latn
+    content: Design automation
+  - language: en
+    script: Latn
+    content: Metadata
+  - language: en
+    script: Latn
+    content: CADCAM
+  - language: en
+    script: Latn
+    content: abstraction definitions
+  - language: en
+    script: Latn
+    content: address space specification
+  - language: en
+    script: Latn
+    content: bus definitions
+  - language: en
+    script: Latn
+    content: design environment
+  - language: en
+    script: Latn
+    content: EDA
+  - language: en
+    script: Latn
+    content: electronic design automation
+  - language: en
+    script: Latn
+    content: electronic system level
+  - language: en
+    script: Latn
+    content: ESL
+  - language: en
+    script: Latn
+    content: IEEE 1685(TM)
+  - language: en
+    script: Latn
+    content: implementation constraints
+  - language: en
+    script: Latn
+    content: IP-XACT
+  - language: en
+    script: Latn
+    content: register transfer level
+  - language: en
+    script: Latn
+    content: RTL
+  - language: en
+    script: Latn
+    content: SCRs
+  - language: en
+    script: Latn
+    content: semantic consistency rules
+  - language: en
+    script: Latn
+    content: TGI
+  - language: en
+    script: Latn
+    content: tight generator interface
+  - language: en
+    script: Latn
+    content: tool and data interoperability
+  - language: en
+    script: Latn
+    content: use models
+  - language: en
+    script: Latn
+    content: XML design metadata
+  - language: en
+    script: Latn
+    content: XML schema
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

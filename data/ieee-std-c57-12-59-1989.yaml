@@ -1,0 +1,127 @@
+---
+id: IEEEStdC5712591989
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Dry-Type Transformer Through-Fault Current Duration
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/89911
+docidentifier:
+- content: IEEE Std C57.12.59-1989
+  type: IEEE
+  primary: true
+- content: IEEE Std C57.12.59™-1989
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4441-X
+  type: ISBN
+- content: 10.1109/IEEESTD.1989.95391
+  type: DOI
+docnumber: IEEE Std C57.12.59-1989
+date:
+- type: created
+  at: '1989'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1989-06-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transformers Committee of the IEEE Power Engineering Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Protective devices, such as relays and fuses, have well-defined operating
+    characteristics that relate fault magnitude to operating time. It is desirable
+    that these characteristic curves be coordinated with comparable curves applicable
+    to dry-type transformers that relate duration and fault magnitude to withstand
+    capability. This guide sets forth recommendations believed essential for the application
+    of overcurrent protective devices applied to limit the exposure time of dry-type
+    transformers to short-circuit currents. This guide is not intended to imply overload
+    capability.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1989'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Overcurrent protection
+  - language: en
+    script: Latn
+    content: Power transformers
+  - language: en
+    script: Latn
+    content: Protective relaying
+  - language: en
+    script: Latn
+    content: Short circuit currents
+  - language: en
+    script: Latn
+    content: Transformers
+  - language: en
+    script: Latn
+    content: Protection
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

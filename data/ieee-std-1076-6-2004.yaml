@@ -1,0 +1,140 @@
+---
+id: IEEEStd107662004
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for VHDL Register Transfer Level (RTL) Synthesis
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1342563
+docidentifier:
+- content: IEEE Std 1076.6-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 1076.6™-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4065-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.94802
+  type: DOI
+docnumber: IEEE Std 1076.6-2004
+date:
+- type: created
+  at: '2004-10-11'
+- type: published
+  at: '2004-10-18'
+- type: issued
+  at: '2004-05-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This document specifies a standard for use of very high-speed integrated
+    circuit hardwaredescription language (VHDL) to model synthesizable register-transfer
+    level digital logic. Astandard syntax and semantics for VHDL register-transfer
+    level synthesis is defined. The subset ofthe VHDL language, which is synthesizable,
+    is described, and nonsynthesizable VHDL constructsare identified that should be
+    ignored or flagged as errors.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: VHDL
+  - language: en
+    script: Latn
+    content: Semantics
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Syntactics
+  - language: en
+    script: Latn
+    content: Registers
+  - language: en
+    script: Latn
+    content: hardware description language
+  - language: en
+    script: Latn
+    content: logic synthesis
+  - language: en
+    script: Latn
+    content: register transfer level (RTL)
+  - language: en
+    script: Latn
+    content: very highspeedintegrated circuit hardware description language (VHDL)
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

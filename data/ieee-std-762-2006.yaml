@@ -1,0 +1,173 @@
+---
+id: IEEEStd7622006
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Definitions for Use in Reporting Electric Generating Unit
+    Reliability, Availability, and Productivity
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4135890
+docidentifier:
+- content: IEEE Std 762-2006
+  type: IEEE
+  primary: true
+- content: IEEE Std 762™-2006
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5226-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2007.335902
+  type: DOI
+docnumber: IEEE Std 762-2006
+date:
+- type: created
+  at: '2007-03-15'
+- type: published
+  at: '2007-03-26'
+- type: issued
+  at: '2006-09-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Analytic Methods for Power Systems of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard provides a methodology for the interpretation of electric
+    generating unit performance data from various systems and to facilitate comparisons
+    among different systems. It also standardizes terminology and indexes for reporting
+    electric generating unit reliability, availability, and productivity performance
+    measures. This standard is intended to aid the electric power industry in reporting
+    and evaluating electric generating unit reliability, availability, and productivity
+    while recognizing the power industry's needs, including marketplace competition.
+    Included are equations for equivalent demand forced outage rate (EFORd), newly
+    identified outage states, discussion of commercial availability, energy weighted
+    equations for group performance indexes, definitions of outside management control
+    (OMC), pooling methodologies, and time-based calculations for group performance
+    indexes.
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: ANSI/IEEE Std 762-1987
+    docidentifier:
+    - content: ANSI/IEEE Std 762-1987
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Maintenance engineering
+  - language: en
+    script: Latn
+    content: Power outages
+  - language: en
+    script: Latn
+    content: Equivalent circuits
+  - language: en
+    script: Latn
+    content: Power system reliability
+  - language: en
+    script: Latn
+    content: available state
+  - language: en
+    script: Latn
+    content: EFORd
+  - language: en
+    script: Latn
+    content: equivalent demand forced outage rate
+  - language: en
+    script: Latn
+    content: forced outage
+  - language: en
+    script: Latn
+    content: maintenance outage
+  - language: en
+    script: Latn
+    content: OMC
+  - language: en
+    script: Latn
+    content: outside management control
+  - language: en
+    script: Latn
+    content: planned outage
+  - language: en
+    script: Latn
+    content: pooling methodology
+  - language: en
+    script: Latn
+    content: transition between active states
+  - language: en
+    script: Latn
+    content: unavailable state
+  - language: en
+    script: Latn
+    content: weighted factor
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '27.100'
+    text: Power stations in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,122 @@
+---
+id: ANSIIEEEStd10301987
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for Specification of High-Voltage Direct-Current Systems. Part
+    I - Steady-State Performance
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/26485
+docidentifier:
+- content: ANSI/IEEE Std 1030-1987
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 1030™-1987
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4137-2
+  type: ISBN
+- content: 10.1109/IEEESTD.1988.122644
+  type: DOI
+docnumber: ANSI/IEEE Std 1030-1987
+date:
+- type: created
+  at: '1988'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1987-03-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Substation Committee and Transmission and Distribution Committee
+          of the IEEE Power Engineering Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The report provides general guidance on the steady-state performance requirements
+    of high-voltage direct-current (HVDC) systems. It concerns the steady-state performance
+    of two-terminal HVDC systems utilizing 12 pulse converter units consisting of
+    three-phase bridge (double way) connections. Excluded are multi-terminal HVDC
+    transmission systems. Both converters are assumed to use thyristor valves as the
+    main semiconductor valves and to have power flow capability in both directions.
+    No consideration is given to diode valves.<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1988'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: DC power transmission
+  - language: en
+    script: Latn
+    content: Power conversion
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: Thyristor applications
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

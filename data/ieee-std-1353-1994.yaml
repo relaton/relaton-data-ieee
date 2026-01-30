@@ -1,0 +1,125 @@
+---
+id: IEEEStd13531994
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Information Technology-ACSE and Presentation Layer Services-Application
+    Program Interface (API)(C Language Binding)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/469128
+docidentifier:
+- content: IEEE Std 1353-1994
+  type: IEEE
+  primary: true
+- content: IEEE Std 1353™-1994
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-2367-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1994.122653
+  type: DOI
+docnumber: IEEE Std 1353-1994
+date:
+- type: created
+  at: '1994'
+- type: published
+  at: '2002-08-06'
+- type: issued
+  at: '1994-09-22'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Portable Applications Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A C language binding to IEEE Std 1351-1994, a language-independent standard
+    defining an application program interface (API) to the ACSE application service
+    element from the OSI application layer and the connection-oriented services of
+    the presentation layer is defined. The purpose of this API is to support portable
+    implementations of application-specific OSI service elements and non-OSI applications<<ETX>>
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: C language
+  - language: en
+    script: Latn
+    content: Software requirements and specifications
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: ISO
+  - language: en
+    script: Latn
+    content: Open systems
+  - language: en
+    script: Latn
+    content: Software portability
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.01
+    text: Open systems interconnection in general
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

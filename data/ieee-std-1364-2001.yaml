@@ -1,0 +1,188 @@
+---
+id: IEEEStd13642001
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard Verilog Hardware Description Language
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/954909
+docidentifier:
+- content: IEEE Std 1364-2001
+  type: IEEE
+  primary: true
+- content: IEEE Std 1364™-2001
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-2827-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2001.93352
+  type: DOI
+docnumber: IEEE Std 1364-2001
+date:
+- type: created
+  at: '2001'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2001-03-17'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Supersedes 1364-1995. The Verilog(R) Hardware Description Language (HDL)
+    is defined in this standard. Verilog HDL is a formal notation intended for use
+    in all phases of the creation of electronic systems. Because it is both machine
+    readable and human readable,it supports the development,verification, synthesis,and
+    testing of hardware designs; the communication of hardware design data; and the
+    maintenance,modification,and procurement of hardware. The primary audiences for
+    this standard are the implementors of tools supporting the language and advanced
+    users of the language.
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE 136/D-4-6169
+    docidentifier:
+    - content: IEEE 136/D-4-6169
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1364-1995
+    docidentifier:
+    - content: IEEE Std 1364-1995
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1364-2005
+    docidentifier:
+    - content: IEEE Std 1364-2005
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Hardware design languages
+  - language: en
+    script: Latn
+    content: Hardware
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: Task analysis
+  - language: en
+    script: Latn
+    content: Force
+  - language: en
+    script: Latn
+    content: computer
+  - language: en
+    script: Latn
+    content: computer languages
+  - language: en
+    script: Latn
+    content: digital systems
+  - language: en
+    script: Latn
+    content: electronic systems
+  - language: en
+    script: Latn
+    content: hardware
+  - language: en
+    script: Latn
+    content: hard-ware description languages
+  - language: en
+    script: Latn
+    content: hardware design
+  - language: en
+    script: Latn
+    content: HDL
+  - language: en
+    script: Latn
+    content: PLI
+  - language: en
+    script: Latn
+    content: programming language interface
+  - language: en
+    script: Latn
+    content: VerilogHDL
+  - language: en
+    script: Latn
+    content: Verilog PLI
+  - language: en
+    script: Latn
+    content: Verilog &#174;
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,140 @@
+---
+id: IEEEStd11001992
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Recommended Practice for Powering and Grounding Sensitive Electronic
+    Equipment
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/223448
+docidentifier:
+- content: IEEE Std 1100-1992
+  type: IEEE
+  primary: true
+- content: IEEE Std 1100™-1992
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1882-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1992.114798
+  type: DOI
+docnumber: IEEE Std 1100-1992
+date:
+- type: created
+  at: '1992-12-31'
+- type: published
+  at: '2013-01-17'
+- type: issued
+  at: '1992-06-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power Systems Engineering of the IEEE Industry Applications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded by IEEE Std 1100-1999. Recommended design, installation, and
+    maintenance practices for electrical power and grounding (including both power-
+    related and signal-related noise control) of sensitive electronic processing equipment
+    used in commercial and industrial applications are presented.
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 1100-1999
+    docidentifier:
+    - content: IEEE Std 1100-1999
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Grounding
+  - language: en
+    script: Latn
+    content: Maintenance
+  - language: en
+    script: Latn
+    content: Power quality
+  - language: en
+    script: Latn
+    content: Safety
+  - language: en
+    script: Latn
+    content: Standards
+  - language: en
+    script: Latn
+    content: grounding
+  - language: en
+    script: Latn
+    content: Sensitive equipment
+  - language: en
+    script: Latn
+    content: Industrial applications
+  - language: en
+    script: Latn
+    content: Electrical power
+  - language: en
+    script: Latn
+    content: Commercial applications
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.020'
+    text: Electronic components in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,127 @@
+---
+id: IEEEStd15852002
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Guide for the Functional Specification of Medium Voltage (1- 35kV)
+    Electronic Series Devices for Compensation of Voltage Fluctuations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1040257
+docidentifier:
+- content: IEEE Std 1585-2002
+  type: IEEE
+  primary: true
+- content: IEEE Std 1585™-2002
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3366-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2002.94132
+  type: DOI
+docnumber: IEEE Std 1585-2002
+date:
+- type: created
+  at: '2002-10-08'
+- type: published
+  at: '2020-02-13'
+- type: issued
+  at: '2002-09-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Substations of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An approach to prepare a specification for an electronic device connected
+    in series to compensate voltage fluctuations is presented.This guide intends to
+    provide a base specification to allow users to modify specific parts of the document
+    to meet their practical needs.
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: energy storage
+  - language: en
+    script: Latn
+    content: injection transformer
+  - language: en
+    script: Latn
+    content: inverter
+  - language: en
+    script: Latn
+    content: power electronics
+  - language: en
+    script: Latn
+    content: power quality
+  - language: en
+    script: Latn
+    content: sensitive loads
+  - language: en
+    script: Latn
+    content: series compensation
+  - language: en
+    script: Latn
+    content: voltage control
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '31.160'
+    text: Electric filters
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

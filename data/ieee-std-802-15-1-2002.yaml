@@ -1,0 +1,174 @@
+---
+id: IEEEStd8021512002
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Standard for Telecommunications and Information Exchange Between
+    Systems - LAN/MAN - Specific Requirements - Part 15: Wireless Medium Access Control
+    (MAC) and Physical Layer (PHY) Specifications for Wireless Personal Area Networks
+    (WPANs)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1016473
+docidentifier:
+- content: IEEE Std 802.15.1-2002
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.15.1®-2002
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-3335-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2002.93621
+  type: DOI
+docnumber: IEEE Std 802.15.1-2002
+date:
+- type: created
+  at: '2002-06-14'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '2002-04-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This IEEE Standards product is part of the 802 family on LAN/MAN. Abstract:
+    The lower transport layers [(Logical Link Control and Adaptation Protocol (L2CAP),
+    Link Manager Protocol (LMP), baseband, and radio] of the Bluetooth&#8482; wireless
+    technology are defined. Bluetooth is an industry specification for short-range
+    radio frequency (RF)-based connectivity for portable personal devices. The IEEE
+    802.15.1 Task Group has reviewed and provided a standard adaptation of the Bluetooth
+    specifications (version 1.1) medium access control (MAC) (L2CAP, LMP, and baseband)
+    and physical layer (PHY) (radio). Also specified is a clause on service access
+    points (SAPs), which includes a logical link control (LLC)-MAC interface for the
+    ISO/IEC 8802-2 LLC. A normative annex is included that provides a Protocol Implementation
+    Conformance Statement (PICS) proforma, and an informative high-level behavioral
+    ITU-T Z.100 specification and description language (SDL) model for an integrated
+    Bluetooth MAC sublayer are also specified.'
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: Bluetooth
+  - language: en
+    script: Latn
+    content: Wireless personal area networks
+  - language: en
+    script: Latn
+    content: Media Access Protocol
+  - language: en
+    script: Latn
+    content: IEEE 802.15 Standard
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: ad hoc network
+  - language: en
+    script: Latn
+    content: Bluetooth wireless technology
+  - language: en
+    script: Latn
+    content: circuit switching
+  - language: en
+    script: Latn
+    content: FH-CDMA
+  - language: en
+    script: Latn
+    content: frequency-hopping code division multiple access
+  - language: en
+    script: Latn
+    content: mobile
+  - language: en
+    script: Latn
+    content: mobility
+  - language: en
+    script: Latn
+    content: nomadic
+  - language: en
+    script: Latn
+    content: packet switching
+  - language: en
+    script: Latn
+    content: piconet
+  - language: en
+    script: Latn
+    content: radio
+  - language: en
+    script: Latn
+    content: radio frequency
+  - language: en
+    script: Latn
+    content: scatternet
+  - language: en
+    script: Latn
+    content: short-range
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

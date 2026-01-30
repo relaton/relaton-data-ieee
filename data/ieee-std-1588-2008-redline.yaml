@@ -1,0 +1,176 @@
+---
+id: IEEEStd15882008Redline
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for a Precision Clock Synchronization Protocol for Networked
+    Measurement and Control Systems
+  type: title-main
+- content: IEEE Standard for a Precision Clock Synchronization Protocol for Networked
+    Measurement and Control Systems - Redline
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7949184
+docidentifier:
+- content: IEEE Std 1588-2008 Redline
+  type: IEEE
+  primary: true
+- content: IEEE Std 1588™-2008 Redline
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6778-0
+  type: ISBN
+docnumber: IEEE Std 1588-2008 Redline
+date:
+- type: updated
+  at: '2017-07-07'
+- type: created
+  at: '2008-07-24'
+- type: published
+  at: '2017-06-15'
+- type: issued
+  at: '2008-03-27'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC9 - Sensor Technology of the IEEE Instrumentation and Measurement
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines a protocol enabling precise synchronization of clocks
+    in measurement and control systems implemented with technologies such as network
+    communication, local computing and distributed objects. The protocol is applicable
+    to systems communicating by local area networks supporting multicast messaging
+    including but not limited to Ethernet. The protocol enables heterogeneous systems
+    that include clocks of various inherent precision, resolution, and stability to
+    synchronize to a grandmaster clock. The protocol supports system-wide synchronization
+    accuracy in the sub-microsecond range with minimal network and local clock computing
+    resources. The default behavior of the protocol allows simple systems to be installed
+    and operated without requiring the administrative attention of users. The standard
+    includes mappings to UDP/IP, DeviceNet and a layer-2 Ethernet implementation.
+    An Interpretation is available at http://standards.ieee.org/reading/ieee/interp/1588-2008.html
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEC 61588-2009
+    docidentifier:
+    - content: IEC 61588-2009
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE Std 1588-2002
+    docidentifier:
+    - content: IEEE Std 1588-2002
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Distributed processing
+  - language: en
+    script: Latn
+    content: Control systems
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Clocks
+  - language: en
+    script: Latn
+    content: Measurement standards
+  - language: en
+    script: Latn
+    content: 1588-2008
+  - language: en
+    script: Latn
+    content: boundary clock
+  - language: en
+    script: Latn
+    content: clock
+  - language: en
+    script: Latn
+    content: distributed system
+  - language: en
+    script: Latn
+    content: master clock
+  - language: en
+    script: Latn
+    content: measurement and control system
+  - language: en
+    script: Latn
+    content: real-time clock
+  - language: en
+    script: Latn
+    content: synchronized clock
+  - language: en
+    script: Latn
+    content: transparent clock
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: redline
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
+  standard_status: Superseded
+  standard_modified: Redline
+  pubstatus: Active
+  holdstatus: Publish

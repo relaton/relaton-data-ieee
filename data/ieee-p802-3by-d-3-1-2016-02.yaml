@@ -1,0 +1,182 @@
+---
+id: IEEEP8023byD31201602
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'IEEE Draft Standard for Ethernet Amendment: Media Access Control Parameters,
+    Physical Layers and Management Parameters for 25 Gb/s Operation'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7406661
+docidentifier:
+- content: IEEE P802.3by/D-3.1-2016-02
+  type: IEEE
+  primary: true
+- content: IEEE P802.3by™/D-3.1-2016-02
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0737-3
+  type: ISBN
+docnumber: IEEE P802.3by/D-3.1-2016-02
+date:
+- type: created
+  at: '2016-01-01'
+- type: published
+  at: '2016-02-12'
+- type: issued
+  at: '2016'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2015 adds Physical Layer (PHY) specifications
+    and management parameters for 25 Gb/s operation over twinaxial copper cabling
+    (25GBASE-CR and 25GBASE-CR-S), electrical backplanes (25GBASE-KR and 25GBASE-KR-S),
+    and multimode fiber (25GBASE-SR). This amendment also specifies a 25 Gigabit Attachment
+    Unit Interface (25GAUI) and optional Energy Efficient Ethernet (EEE).
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: Ethernet
+  - language: en
+    script: Latn
+    content: Time measurement
+  - language: en
+    script: Latn
+    content: Synchronization
+  - language: en
+    script: Latn
+    content: Passive optical networks
+  - language: en
+    script: Latn
+    content: IEEE 802.3 Standard
+  - language: en
+    script: Latn
+    content: 25 Gigabit Ethernet
+  - language: en
+    script: Latn
+    content: 25GAUI
+  - language: en
+    script: Latn
+    content: 25GBASE-CR
+  - language: en
+    script: Latn
+    content: 25GBASE-CR-S
+  - language: en
+    script: Latn
+    content: 25GBASE-KR
+  - language: en
+    script: Latn
+    content: 25GBASE-KR-S
+  - language: en
+    script: Latn
+    content: 25GBASE-SR
+  - language: en
+    script: Latn
+    content: 25GMII
+  - language: en
+    script: Latn
+    content: Auto-Negotiation (AN)
+  - language: en
+    script: Latn
+    content: Backplane Ethernet
+  - language: en
+    script: Latn
+    content: EnergyEfficient Ethernet (EEE)
+  - language: en
+    script: Latn
+    content: Forward Error Correction (FEC)
+  - language: en
+    script: Latn
+    content: IEEE 802.3(TM)
+  - language: en
+    script: Latn
+    content: IEEE P802.3by
+  - language: en
+    script: Latn
+    content: multimode fiber (MMF)
+  - language: en
+    script: Latn
+    content: Physical Coding Sublayer (PCS)
+  - language: en
+    script: Latn
+    content: Physical Medium Attachment (PMA) sublayer
+  - language: en
+    script: Latn
+    content: Physical Medium Dependent (PMD) sublayer
+  - language: en
+    script: Latn
+    content: Reconciliation Sublayer (RS).
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

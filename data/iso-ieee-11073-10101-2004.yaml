@@ -1,0 +1,168 @@
+---
+id: ISOIEEE11073101012004
+type: standard
+schema_version: v1.4.1
+title:
+- content: 'ISO/IEEE Health informatics -- Point-of-care medical device communication
+    -- Part 10101: Nomenclature'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1389298
+docidentifier:
+- content: ISO/IEEE 11073.10101-2004
+  type: IEEE
+  primary: true
+- content: ISO/IEEE 11073.10101™-2004
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4088-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.95741
+  type: DOI
+docnumber: ISO/IEEE 11073.10101-2004
+date:
+- type: created
+  at: '2004-12-15'
+- type: published
+  at: '2019-04-10'
+- type: issued
+  at: '2004-06-24'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Replaces the IEEE Std 1073.1.1.1-2004. Within the context of the ISO/IEEE
+    11073 family of standards for point-of-care(POC) medical device communication
+    (MCD), this standard provides the nomenclature that supports both the domain information
+    model and service model components of the standards family, as well as the semantic
+    content exchanged with medical devices. The nomenclature is specialized for patient
+    vital signs information representation and medical device informatics, with major
+    areas including concepts for electrocardiograph (ECG), haemodynamics, respiration,
+    blood gas, urine, fluid-related metrics, and neurology, as well as specialized
+    unit of measurement, general device events, alarms, and body sites. The standard
+    defines both the architecture and major components of the nomenclature, along
+    with extensive definitions for each conceptual area.
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 11073.10101-2019
+    docidentifier:
+    - content: IEEE Std 11073.10101-2019
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+  - language: en
+    script: Latn
+    content: ISO Standards
+  - language: en
+    script: Latn
+    content: Medical devices
+  - language: en
+    script: Latn
+    content: Patents
+  - language: en
+    script: Latn
+    content: ISO
+  - language: en
+    script: Latn
+    content: Trademarks
+  - language: en
+    script: Latn
+    content: codes
+  - language: en
+    script: Latn
+    content: information model
+  - language: en
+    script: Latn
+    content: medical device communication
+  - language: en
+    script: Latn
+    content: nomenclature
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: patient
+  - language: en
+    script: Latn
+    content: point-of-care
+  - language: en
+    script: Latn
+    content: POC
+  - language: en
+    script: Latn
+    content: semantics
+  - language: en
+    script: Latn
+    content: service model terminology
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 01.040.35
+    text: Information technology (Vocabularies)
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,138 @@
+---
+id: ANSIIEEEStd7381986
+type: standard
+schema_version: v1.4.1
+title:
+- content: IEEE Standard for Calculation of Bare Overhead Conductor Temperature and
+    Ampacity Under Steady-State Conditions
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6135468
+docidentifier:
+- content: ANSI/IEEE Std 738-1986
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE Std 738™-1986
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7439-6
+  type: ISBN
+- content: 10.1109/IEEESTD.1985.6135468
+  type: DOI
+docnumber: ANSI/IEEE Std 738-1986
+date:
+- type: updated
+  at: '2012-07-27'
+- type: created
+  at: '1985-12-31'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1984-12-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Transmission and Distribution of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The purpose of this standard is to present a simplified method of calculating
+    the current-temperature relationship of bare over-head lines when given the weather
+    conditions.
+copyright:
+- from: '1986'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: IEEE Std 738-1993
+    docidentifier:
+    - content: IEEE Std 738-1993
+      type: IEEE
+      primary: true
+keyword:
+- taxon:
+  - language: en
+    script: Latn
+    content: IEEE standards
+  - language: en
+    script: Latn
+    content: Conductors
+  - language: en
+    script: Latn
+    content: Temperature measurement
+  - language: en
+    script: Latn
+    content: Power distribution lines
+  - language: en
+    script: Latn
+    content: Steady-state
+  - language: en
+    script: Latn
+    content: calculation
+  - language: en
+    script: Latn
+    content: bare
+  - language: en
+    script: Latn
+    content: overhead
+  - language: en
+    script: Latn
+    content: conductor
+  - language: en
+    script: Latn
+    content: temperature
+ext:
+  schema_version: v1.0.1
+  doctype:
+    content: standard
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish
