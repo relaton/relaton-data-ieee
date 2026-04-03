@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC372041996
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Trial-Use Standard for Indoor AC Switches (1 kV-38 kV) for Use in
     Metal-Enclosed Switchgear
@@ -89,27 +89,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Medium voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: indoor ac switches
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

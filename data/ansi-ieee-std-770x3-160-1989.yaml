@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd770X31601989
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE/ANSI Standard for the Programming Language Extended Pascal
   type: main
@@ -92,33 +92,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-level languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software portability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Pascal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: extended Pascal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: portability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data processing systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: programming
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

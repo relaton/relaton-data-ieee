@@ -1,7 +1,7 @@
 ---
 id: IEEEStd40012025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Characterization of Hyperspectral Imaging Devices--Ultraviolet
     Through Shortwave Infrared
@@ -101,111 +101,148 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cameras
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distortion measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sampling methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Spectroscopy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Image resolution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hyperspectral imaging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Spectral analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Infrared imaging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: band
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: camera
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: co-registration error
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distortion
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: étendue
-  - language: en
+    content: etendue
+- vocab:
+    language: en
     script: Latn
     content: field of view
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ground sampling distance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hyperspectral
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 4001(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: image
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: imaging spectroscopy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spectrometer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: keystone
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: imager
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metadata
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multispectral
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pixel
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: resolution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: smile
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spectral camera
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spectral imager
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spectral image
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spectral sampling interval
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stray light
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 17.180.01
+    text: Optics and optical measurements in general
+  - code: 37.040.01
+    text: Photography in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

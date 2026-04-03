@@ -1,7 +1,7 @@
 ---
 id: IEEEP532D4202010
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Guide for Selecting and Testing Jackets for Power,
     Instrumentation, and Control Cables
@@ -963,36 +963,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Instrumentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 532&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: jackets
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

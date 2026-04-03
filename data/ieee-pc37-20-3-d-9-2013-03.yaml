@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37203D9201303
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Metal-Enclosed Interrupter Switchgear (1 kV-38
     kV)
@@ -115,39 +115,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Assembly
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interrupters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metal-enclosed interrupter (MEI) switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metal enclosed power switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear assembly
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

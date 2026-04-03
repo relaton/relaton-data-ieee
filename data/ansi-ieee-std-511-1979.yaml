@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd5111979
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard on Video Signal Transmission Measurement of Linear Waveform
     Distortion
@@ -95,27 +95,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: video
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: signal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: waveform
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distortion
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37104D9201204
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Automatic Reclosing of Circuit Breakers for AC Distribution
     and Transmission Lines
@@ -112,45 +112,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.104
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reclosing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

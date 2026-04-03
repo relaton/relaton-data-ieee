@@ -1,7 +1,7 @@
 ---
 id: IEEEP1110D06201812
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Synchronous Generator Modeling Practices and Parameter
     Verification with Applications in Power System Stability Analyses
@@ -117,42 +117,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronous motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stability analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Modeling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1110
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: modeling practices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: saturation practices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stability data determination and application
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronous generator stability models
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP1893D1201410
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for the Measurement of DC Transmission Line and Earth
     Electrode Line Parameters
@@ -93,42 +93,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit impedence
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Short circuit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Earth electrode lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Parameter estimation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distributed parameters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1893
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: impedance frequency characteristic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: short circuit and open circuit impedances
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission line parameters
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

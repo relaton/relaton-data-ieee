@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd4571982
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Definitions of Terms for Nonlinear, Active, and Nonreciprocal
     Waveguide Components
@@ -93,42 +93,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Waveguide components
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: P-i-n diodes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Capacitance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Waveguide junctions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: terms
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: non-linear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: active
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: waveguide
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurements
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

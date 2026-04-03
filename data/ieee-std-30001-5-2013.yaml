@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3000152013
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for the Application of Power Distribution Apparatus
     in Industrial and Commercial Power Systems
@@ -94,78 +94,98 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Conductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Industrial plants
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: apparatus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: busway
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fuses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 3001.5
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: panelboards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: separable insulated connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchboards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear transformers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 91.140.50
-    text: Electricity supply systems
+    text: Electricity supply system
   - code: 29.240.01
     text: Power transmission and distribution networks in general
   standard_status: Active

@@ -1,7 +1,7 @@
 ---
 id: IEEEP1873D101201501
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Robot Map Data Representation for Navigation
   type: main
@@ -89,39 +89,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Navigation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Robots
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Topological map
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data representation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1873(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: map data representation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metric map
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: robot navigation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: topological map
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

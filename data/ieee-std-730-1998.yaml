@@ -1,7 +1,7 @@
 ---
 id: IEEEStd7301998
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Standard for Software Quality Assurance Plans
   type: main
@@ -109,36 +109,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: critical design review
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: preliminary design review
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software configuration management plan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software design description
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software quality assurance plan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software requirements review
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software requirements specification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software verification and validation plan
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

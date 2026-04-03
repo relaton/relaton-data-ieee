@@ -1,7 +1,7 @@
 ---
 id: IEEEStd114962015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Boundary-Scan Testing of Advanced Digital Networks
   type: title-main
@@ -100,57 +100,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Boundary conditions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Differential signaling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Integrated circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit synthesis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Printed circuit boards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ac-coupled signaling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: boundary scan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit boards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: differential signaling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1149.6(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: integrated circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interconnect test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: printed circuit boards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

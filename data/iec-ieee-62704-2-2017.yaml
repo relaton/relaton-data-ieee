@@ -1,7 +1,7 @@
 ---
 id: IECIEEE6270422017
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE/IEC International Standard for Determining the peak spatial-average
     specific absorption rate (SAR) in the human body from wireless communications
@@ -107,33 +107,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Specific absorption rate
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Finite difference methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Time-domain analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Solid modeling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Antennas
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation detectors
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

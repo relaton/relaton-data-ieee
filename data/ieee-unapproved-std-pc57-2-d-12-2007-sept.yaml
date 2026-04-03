@@ -1,7 +1,7 @@
 ---
 id: IEEEUnapprovedStdPC572D122007Sept
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard Requirements, Terminology, and Test Code for Shunt
     Reactors Rated Over 500 kVa
@@ -62,30 +62,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Shunts (electrical)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dielectrics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

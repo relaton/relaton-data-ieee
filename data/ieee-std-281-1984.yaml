@@ -1,7 +1,7 @@
 ---
 id: IEEEStd2811984
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Service Conditions for Power System Communication Equipment
   type: main
@@ -92,34 +92,41 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dielectrics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Vibrations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Std 281-1984 Revision of IEEE Std 281-1968 IEEE Standard Service
       Conditions for Power System Communication Equipment
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

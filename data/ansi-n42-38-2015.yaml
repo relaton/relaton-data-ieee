@@ -1,7 +1,7 @@
 ---
 id: ANSIN42382015
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard for Performance Criteria for Spectroscopy-Based
     Portal Monitors Used in Homeland Security
@@ -110,36 +110,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Spectrosopy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: US Department of Homeland Security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Performance evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI N42.38
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: portal monitor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spectrometric
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spectroscopy
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

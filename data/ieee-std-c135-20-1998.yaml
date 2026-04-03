@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC135201998
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Zinc-Coated Ferrous Insulator Clevises for Overhead Line
     Construction
@@ -88,30 +88,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: clevis pin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dead-end loading
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: side loading
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spool-type insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: swinging insulator clevises
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: zinc-coated ferrous clevises
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

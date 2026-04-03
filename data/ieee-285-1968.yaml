@@ -1,7 +1,7 @@
 ---
 id: IEEE2851968
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standards Report on State-of-the-Art of Measuring Phase Shift at Frequencies
     above 1 Ghz
@@ -76,21 +76,24 @@ copyright:
       abbreviation:
         content: ANSI
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Frequency measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Phase measurement
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

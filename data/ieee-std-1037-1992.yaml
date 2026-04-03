@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10371992
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Terms and Definitions for Surface Acoustic Wave (SAW) Devices
   type: main
@@ -90,30 +90,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surface acoustic wave devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Acoustic transducers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: definitions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SAW
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transducers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WAVES
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surface acoustic wave
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

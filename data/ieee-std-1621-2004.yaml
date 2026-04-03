@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16212004
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for User Interface Elements in Power Control of Electronic
     Devices Employed in Office/Consumer Environments
@@ -89,27 +89,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electronic device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power indicator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power state
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sleep state
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: user interface
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd96019891177Std
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard FASTBUS Modular High-Speed Data Acquisition and Control System
     and IEEE FASTBUS Standard Routines
@@ -107,21 +107,24 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer interfaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bus system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data acquisition
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FASTBUS
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

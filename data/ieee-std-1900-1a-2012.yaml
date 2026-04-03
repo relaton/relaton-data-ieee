@@ -1,7 +1,7 @@
 ---
 id: IEEEStd19001a2012
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard Definitions and Concepts for Dynamic Spectrum Access: Terminology
     Relating to Emerging Wireless Networks, System Functionality, and Spectrum Management
@@ -103,45 +103,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cognitive radio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software radio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radio spectrum management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cognitive radio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cognitive radio networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dynamic spectrum access
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1900.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: policy-based radio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software-controlled radio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software-defined radio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spectrum management
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC372342021
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Protective Relay Applications to Power System Buses
   type: main
@@ -105,102 +105,132 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Failure analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protective relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: blocking zone-interlocked bus protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: breaker-and-a-half
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: breaker failure (BF) protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: breaker substitution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: buses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: check zone
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CT saturation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: differential bus protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: double-bus double-breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: double-bus single-breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dynamic bus replica
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric power substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-impedance differential
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.234
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: main bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: partial differential
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: percentage-restrained differential
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ring bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: single-bus single-breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stub bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transfer bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage trip supervision
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6951985
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Trial Use Standard for Microprocessor Universal Format for Object
     Modules
@@ -70,24 +70,28 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Microprocessors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Processor scheduling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Integrated circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Object modules
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

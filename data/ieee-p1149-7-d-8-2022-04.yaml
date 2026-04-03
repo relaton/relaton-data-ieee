@@ -1,7 +1,7 @@
 ---
 id: IEEEP11497D8202204
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Reduced-Pin and Enhanced-Functionality
     Test Access Port and Boundary-Scan Architecture
@@ -116,564 +116,748 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data transfer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Pins
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Boundary conditions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 2-pin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 2-wire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 4-pin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 4-wire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Advanced Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Advanced Protocol Unit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: APU
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Background Data Transfer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: background data transport
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BDX
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: boundary scan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BSDL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BSDL.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BSDL.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BYPASS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Capture-IR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CDX
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Chip-Level TAP Controller
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CID
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class T0
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class T1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class T2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class T3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class T4
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class T5
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CLTAPC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: compact JTAG
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: compliant behavior
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: compliant operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control level
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: controller address
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Controller ID
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Controller Identification Number
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Custom Data Transfer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: custom data transport
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data Register
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: debug interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: debug logic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: debug and test interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DOT1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DOT7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DTI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DTS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DTT
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Debug Test System
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: debug test target
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Escape
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EOT
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPU
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: extended operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Extended Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EXTEST
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: four-pin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: four-wire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HSDL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HSDL.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IDCODE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1149.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1149.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Instruction Register
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: JScan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: JScan0
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: JScan1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: JScan2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: JScan3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: JTAG
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MScan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MTCP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Multi-TAP Control Path
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: narrow Star Scan Topology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nTRST
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nTRST_PD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: optimized scan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OScan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OScan0
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OScan1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OScan2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OScan3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OScan4
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OScan5
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OScan6
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OScan7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Pause-DR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Pause-IR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PC0
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PC1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RSU
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reset and selection unit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RTI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Run- Test/Idle
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scan DR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scan format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scan IR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Scan Packet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scan path
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scan performance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scan protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scan topology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: series
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Series Branch
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Series Scan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Series Scan Topology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Series- Equivalent Scan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Series Topology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Shift-DR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Shift-IR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SiP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Star Scan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Star Scan Topology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Star Topology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Star-2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Star-2 Branch
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Star-2 Scan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Scan Topology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Star-4
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Star-4 Branch
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Star- 4 Scan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Star-4 Scan Topology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SScan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SScan0
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SScan1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SScan2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SScan3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stall
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SSD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Scan Selection Directive
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standard Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: star scan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: STL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: System Test Logic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TAP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TAP controller
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TAP controller address
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TAP selection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TAP.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TAP.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TAPC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TCA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TCK
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TCKC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TDI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TDIC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TDOC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TDOE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test Access Port
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test and debug
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test-Logic-Reset
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TLR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TMSC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transport Packet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T0
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T0 TAP.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T1 TAP.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T2 TAP.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T3 TAP.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T4
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T4 TAP.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T4(N)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T4(N) TAP.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T4(W)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T4(W) TAP.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T5
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T5 TAP.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T5(N)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T5(N) TAP.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T5(W)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T5(W) TAP.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: two-pin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: two-wire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Update-DR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Update-IR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ZBS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: zero bit scan
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

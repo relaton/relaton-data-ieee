@@ -1,7 +1,7 @@
 ---
 id: IEEEStd28192022
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Measuring Method of Electromagnetic Environment
     for the Corridor of High--Voltage Overhead Power Transmission Lines in Parallel
@@ -106,48 +106,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric fields
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transmission line measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Frequency measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Poles and towers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Meters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc electric field
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric field measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2819
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: parallel ac/dc power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power frequency electric field
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

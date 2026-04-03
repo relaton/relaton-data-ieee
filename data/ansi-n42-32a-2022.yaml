@@ -1,7 +1,7 @@
 ---
 id: ANSIN4232a2022
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Performance Criteria for Alarming Personal Radiation
     Detectors for Homeland Security Amendment 1
@@ -113,54 +113,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: US Department of Homeland Security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: alarming personal radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI N42.32
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gamma-rays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: information and guidance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: neutrons
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: over-range response for photons
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: performance specifications and testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: personal radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pocket-sized
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation detection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation detection instruments
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

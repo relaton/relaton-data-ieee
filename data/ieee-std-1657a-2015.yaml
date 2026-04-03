@@ -1,7 +1,7 @@
 ---
 id: IEEEStd1657a2015
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Recommended Practice for Personnel Qualifications for Installation
     and Maintenance of Stationary Batteries - Amendment 1: Updated Safety Sections'
@@ -100,36 +100,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Personnel
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protective equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1657a
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: personal protective equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PPE
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

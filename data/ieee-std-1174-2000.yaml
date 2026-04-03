@@ -1,7 +1,7 @@
 ---
 id: IEEEStd11742000
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Serial Interface for Programmable Instrumentation
   type: main
@@ -87,45 +87,56 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: controller
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data communication equipment (DCE)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data terminal equipment (DTE)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 488.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 488.2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interchange circuit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: null modem cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: observation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: permission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: recommendation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rule
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

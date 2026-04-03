@@ -1,7 +1,7 @@
 ---
 id: IEEEStd12222004
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for All-Dielectric Self-Supporting Fiber Optic Cable
   type: main
@@ -100,28 +100,33 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical fiber cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Std 1222-2003
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: '1222'
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: You will receive an email from Customer Service with the URL needed to
       access this publication online.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

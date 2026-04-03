@@ -1,7 +1,7 @@
 ---
 id: IEEEStd7622023
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Definitions for Use in Reporting Electric Generating Unit
     Reliability, Availability, and Productivity
@@ -109,75 +109,96 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wind power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power generation reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: available state
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EFORd
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: equivalent demand forced outage rate
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: forced outage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 762
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: maintenance outage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OMC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: outside management control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: planned outage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pooling methodology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power generation reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: renewable energy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: solar power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transition between active states
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: unavailable state
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: weighted factor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wind energy generation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

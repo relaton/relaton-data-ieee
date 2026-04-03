@@ -1,7 +1,7 @@
 ---
 id: IEEEStd961969
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE General Principles for Rating Electric Apparatus for Short-Term, Intermittent,
     or Varying Duty
@@ -93,21 +93,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: apparatus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

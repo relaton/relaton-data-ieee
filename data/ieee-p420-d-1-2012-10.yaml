@@ -1,7 +1,7 @@
 ---
 id: IEEEP420D1201210
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for the Design and Qualification of Class 1E Control
     Boards, Panels, and Racks Used in Nuclear Power Generating Stations
@@ -114,60 +114,76 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical fiber technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control boards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control boards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fiber optic cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: independence
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: isolation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nuclear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: panels
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: racks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: separation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wiring
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

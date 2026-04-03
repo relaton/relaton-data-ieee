@@ -1,7 +1,7 @@
 ---
 id: IEEEStdP1073136D60
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Health informatics -- Point-of-care medical device
     communication -- Device specialization - ECG monitoring
@@ -91,66 +91,84 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrocardiography
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Biological system modeling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bedside
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ECG
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: VMD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Channel
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medical device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medical device communications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MIB
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: patient
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Heart Rate
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Respiration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arrhythmia
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ischemia
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ST
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

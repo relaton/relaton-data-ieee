@@ -1,7 +1,7 @@
 ---
 id: IEEEP3461D12202506
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Smart Infrastructure with Fiber Optic
     Sensors
@@ -71,18 +71,19 @@ abstract:
   script: Latn
   content: Smart infrastructure applications have used distributed fiber optic sensors
     to monitor strain, vibration, and temperature. IEEE standards exist for Bragg
-    grating sensors and distributed acoustic sensors (DAS) The current standard activity
-    will expand the monitoring capability to include overloading bridge capacity with
-    heavy vehicles, the impact of corrosion, crack formation and growth in structural
-    members, The purpose is to monitor structural health by changes in monitored parameters
-    including strain and vibration signature and identify potential points of failure.
-    While the impact of corrosion and cracked structures will be monitored, the scope
-    of the activity does not include characterization of the fracture mechanics of
-    the crack formation or chemistry associated with corrosion which typically requires
-    a laboratory environment. In addition, the standard activity will address how
-    these sensing systems interface with both wired and wireless local area networks
-    and powering remote sensing systems. As previously stated, monitored infrastructure
-    includes bridges, tunnels, dams, buildings, rail lines, power lines and pipelines.
+    grating sensors and distributed acoustic sensor (DAS) systems. The current standard
+    activity will expand the monitoring capability to include overloading bridge capacity
+    with heavy vehicles, as well as the impact of corrosion, crack formation, and
+    growth in structural members. The purpose is to monitor structural health by changes
+    in monitored parameters, including strain and vibration signature, and identify
+    potential points of failure. While the impact of corrosion and cracked structures
+    will be monitored, the scope of the activity does not include characterizing the
+    fracture mechanics of crack formation or the chemistry associated with corrosion,
+    which typically requires a laboratory environment. In addition, the standard activity
+    will address how these sensing systems interface with both wired and wireless
+    local area networks and powering remote sensing systems. As previously stated,
+    monitored infrastructure includes bridges, tunnels, dams, buildings, rail lines,
+    power lines, and pipelines.
 status:
   stage:
     content: draft
@@ -100,70 +101,88 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical fiber sensors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature sensors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bragg gratings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Acoustic sensors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surface cracks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Corrosion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Lifetime estimation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Smart materials
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bragg grating sensors
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: Distributed acoustic sensors
-  - language: en
-    script: Latn
-    content: structural health
-  - language: en
+    content: corrosion monitoring points
+- vocab:
+    language: en
     script: Latn
     content: crack formation
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: corrosion
-  - language: en
+    content: DAS
+- vocab:
+    language: en
     script: Latn
-    content: monitoring points
-  - language: en
+    content: distributed acoustic sensor
+- vocab:
+    language: en
     script: Latn
     content: fiber attachment
-  - language: en
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 3461
+- vocab:
+    language: en
     script: Latn
     content: lifetime
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

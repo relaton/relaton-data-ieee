@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEC67921987
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Application of Neutral Grounding in Electrical Utility
     Systems Part I-Introduction
@@ -86,21 +86,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electricity supply industry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

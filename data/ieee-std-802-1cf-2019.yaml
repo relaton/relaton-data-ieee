@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8021CF2019
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Network Reference Model and Functional Description
     of IEEE 802(R) Access Network
@@ -96,42 +96,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Routers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Access control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Heterogeneous networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: access routers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: heterogeneous networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.1CF
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multiple network access
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

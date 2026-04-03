@@ -1,7 +1,7 @@
 ---
 id: IEEEUnapprovedStdP2600D33b2008
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Information Technology: Hardcopy Device and System
     Security'
@@ -69,51 +69,64 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: copier
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hardcopy device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: information security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: printer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multifunction device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MFD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MFP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: All-in-One
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scanner
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HCD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multifunction product
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fax
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: facsimile
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hardcopy security
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -121,7 +134,7 @@ ext:
   - code: '35.180'
     text: IT terminal and other peripheral equipment
   - code: 35.240.01
-    text: Application of information technology in general
+    text: Applications of information technology in general
   - code: 37.100.10
     text: Reproduction equipment
   standard_status: Inactive

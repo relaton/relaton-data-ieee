@@ -1,7 +1,7 @@
 ---
 id: ANSIStdN3171980
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Performance Criteria for Instrumentation Used
     for Inplant Plutonium Monitoring
@@ -94,27 +94,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear fuels
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fission reactor safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Plutonium
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

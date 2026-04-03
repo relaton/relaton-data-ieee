@@ -1,7 +1,7 @@
 ---
 id: IEEEStd1591972
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standards on Gas-Filled Radiation Counter Tubes: Methods of Testing,
     1952'
@@ -75,21 +75,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation counters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gas detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

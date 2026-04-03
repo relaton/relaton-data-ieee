@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10481990
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Protective Grounding of Power Lines
   type: main
@@ -97,42 +97,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric shock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Personnel
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protective grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding practices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distribution lines
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

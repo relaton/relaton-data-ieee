@@ -1,7 +1,7 @@
 ---
 id: ANSIC5712251990
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'American National Standard for Transformers--Pad-Mounted, Compartmental-Type,
     Self-Cooled, Single-Phase Distribution Transformers with Separable Insulated High-Voltage
@@ -97,21 +97,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformer insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-voltage techniques
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

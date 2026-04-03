@@ -1,7 +1,7 @@
 ---
 id: IEEEP3363D2202507
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Wireless Sensor Data of Power Transmission
     and Transformation Equipment
@@ -69,20 +69,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard specifies the data unit format for use by Internet of Things
-    (IoT) power sensors. The data format describes the exchange of service data, control
-    data, and fragmented data via the IEC 61850/IEC 60870-104 or Message Queuing Telemetry
-    Transport (MQTT) protocol. Wireless Internet of Things (IoT) power sensors that
-    communicate via air interface protocols may be used with this standard. Power
-    automation systems for power system applications are addressed by this standard.
-    Furthermore, wireless IoT power sensors to efficiently exchange information and
-    to monitor the status of power transmission and transformation equipment are enabled
-    by this standard. Guidance in the design, development, and testing of integrated
-    applications of related systems and devices is provided in this standard. Specifically,
-    unified coding rules and a lightweight and scalable data unit format for the status
-    parameters of power transmission and transformation equipment, which shorten the
-    length of data packets and reduce the power consumption of wireless IoT power
-    sensors, are provided by this standard.
+  content: Data unit format for use by Internet of Things (IoT) power sensors is specified
+    in this standard. The exchange of service data, control data, and fragmented data
+    via the IEC 61850/IEC 60870-104 or Message Queuing Telemetry Transport (MQTT)
+    protocol is described by the data format.
 status:
   stage:
     content: draft
@@ -100,49 +90,60 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Encoding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Internet of Things
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless power transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communication protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data unit format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 3363™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power automation system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: unified coding rules
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wireless IoT power sensors
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

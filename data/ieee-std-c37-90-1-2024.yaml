@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC379012024
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Relays, Relay Systems, and Control Devices used for Protection
     and Control of Electric Power Apparatus--Surge Withstand Capability (SWC) and
@@ -111,39 +111,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switching systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transient analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Relays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.90.1™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switching (surge)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transient
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

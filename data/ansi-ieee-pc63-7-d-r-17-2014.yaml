@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEPC637DR172014
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Guide for Construction of Test Sites for Performing
     Radiated Emission Measurements
@@ -124,48 +124,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Anechoic chambers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Emissions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI C63.7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: emission measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fully anechoic room
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: open-area test site
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiated emission measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: semi-anechoic chamber
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

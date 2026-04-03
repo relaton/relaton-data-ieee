@@ -1,7 +1,7 @@
 ---
 id: IEEEP835aD2201210
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard Power Cable Ampacity Tables - Amendment 1: Revision
     to Introduction'
@@ -112,39 +112,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dielectrics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ampacity tables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ampacity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dielectric
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: extruded
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: laminar
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd7621980
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Trial use Standard Definitions for Use in Reporting Electric Generating
     Unit Reliability, Availability, and Productivity
@@ -80,24 +80,28 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical machinery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Productivity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

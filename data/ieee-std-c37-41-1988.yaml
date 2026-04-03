@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC37411988
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Design Tests for High-Voltage Fuses, Distribution Enclosed
     Single-Pole Air Switches, Fuse Disconnecting Switches, and Accessories
@@ -102,36 +102,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-voltage fuses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: single-pole air switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switch blades
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: oil cutouts
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80232000
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information Technology - LAN/MAN - Specific Requirements
     -Part 3: Carrier Sense Multiple Access with Collision Detection (CSMA/CD) Access
@@ -124,51 +124,63 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aggregated Link; Aggregator; Auto Negotiation; Category 5; copper; data
       processing; Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gigabit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: information interchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Link Aggregation; local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MASTER-SLAVE; medium dependent interface; mode of data transmission;
       models
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network interconnection; physical coding sublayer; Physical Layer; physical
       medium attachment; repeater
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: type field; VLAN TAG
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

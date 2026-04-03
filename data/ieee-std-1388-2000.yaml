@@ -1,7 +1,7 @@
 ---
 id: IEEEStd13882000
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for the Electronic Reporting of Transformer Test Data
   type: main
@@ -97,33 +97,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Law
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Warranties
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Licenses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electronic reporting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test data
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

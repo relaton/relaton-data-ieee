@@ -1,7 +1,7 @@
 ---
 id: IEEEP1683D6202507
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Motor Control Centers Rated up to and including 600
     V AC or 1000 V DC with Recommendations Intended to Help Reduce Electrical Hazards
@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2025-08-04'
 - type: issued
-  at: '2025'
+  at: '2025-11-04'
 contributor:
 - role:
   - type: publisher
@@ -80,13 +80,13 @@ abstract:
     UL 845 Motor Control Centers, NMX-J-353-ANCE, and CSA C22.2 No. 254. This guide
     also provides recommendations for interface relationships between the specifier,
     manufacturer, installer, and user for safety-related concerns. It also provides
-    a framework from which specifiers/users can select specific MCC features and system
-    characteristics that are applicable to their specific situation and needs. The
-    recommendations in this guide complement safety requirements and procedures as
-    stipulated by workplace safety standards and site practices and site procedures,
-    e.g., NFPA 70E Standard for Electrical Safety in the Workplace, CSA Z462 Workplace
-    Electrical Safety Standard, site practice on Personal Protective Equipment (PPE),
-    etc.
+    a framework from which specifiers/users can select specific motor control center
+    (MCC) features and system characteristics that are applicable to their specific
+    situation and needs. Safety requirements and procedures as stipulated by workplace
+    safety standards, site practices, and site procedures--e.g., NFPA 70E, Standard
+    for Electrical Safety in the Workplace, CSA Z462, Workplace Electrical Safety
+    Standard, and site practices on personal protective equipment (PPE)--are complemented
+    by the recommendations in this guide.
 status:
   stage:
     content: draft
@@ -116,60 +116,76 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arc discharges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Low voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Motor drives
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc flash
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc resistant
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1683™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MCC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: motor control centers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: selectivity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal monitoring
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

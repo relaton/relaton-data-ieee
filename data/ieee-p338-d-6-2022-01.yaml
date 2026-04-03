@@ -1,7 +1,7 @@
 ---
 id: IEEEP338D6202201
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Criteria for the Periodic Surveillance Testing
     of Nuclear Power Generating Station Safety Systems
@@ -106,39 +106,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surveillance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Risk management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: functional tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 338
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: periodic testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: risk-informed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: surveillance testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

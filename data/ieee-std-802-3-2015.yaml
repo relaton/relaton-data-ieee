@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80232015
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Ethernet
   type: main
@@ -123,26 +123,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Time measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Passive optical networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 10BASE; 100BASE; 1000BASE; 10GBASE; 40GBASE; 100GBASE; 10 Gigabit Ethernet;
       40 Gigabit Ethernet; 100 Gigabit Ethernet; attachment unit interface; AUI; Auto
@@ -151,7 +157,7 @@ keyword:
       GMII; IEEE 802.3; medium dependent interface; media MDI; MIB; MII; XGMII; PHY;
       physical coding sublayer; PMA; Power over Ethernet; type field; VLAN TAG
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

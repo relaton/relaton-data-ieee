@@ -1,7 +1,7 @@
 ---
 id: IEEEP18471D1202409
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Recommended Practice for Location Accuracy User Acceptance Test
     for Location Services for Healthcare
@@ -89,33 +89,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IP networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Medical services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Location awareness
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conceptual model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: healthcare
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1847.1™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: location services
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

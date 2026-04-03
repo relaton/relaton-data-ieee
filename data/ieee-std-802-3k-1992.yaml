@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8023k1992
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Supplement to 802.3 - Layer Management for 10 Mb/s Baseband Repeaters (Section
     19)
@@ -101,63 +101,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Carrier sense multiaccess
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Repeaters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication system operations and management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: carrier sense multiple access
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CSMA/CD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: LAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: collision
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: detection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: local
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: area
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hub
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: repeater
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

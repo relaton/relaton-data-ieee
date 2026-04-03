@@ -1,7 +1,7 @@
 ---
 id: IEEEP2700D100201312
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Sensor Performance Parameter Definitions
   type: main
@@ -90,66 +90,83 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sensor systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Performance evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Parameter estimation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Time to market
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ambient light
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: accelerometer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gyroscope
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: humidity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2700
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: magnetometer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MEMS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: microelectromechanical proximity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sensors systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pressure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: temperature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: terminology
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 31.220.01
-    text: Electromechanical components in general
+    text: Electromechanical components for electronic and telecommunications equipment
+      in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

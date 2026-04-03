@@ -1,7 +1,7 @@
 ---
 id: IEEEP1641D9202108
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Signal and Test Definition
   type: main
@@ -101,48 +101,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Signal processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATLAS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1641
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: signal definitions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test definitions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test signals
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: unit under test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UUT
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

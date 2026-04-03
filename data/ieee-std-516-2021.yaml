@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5162021
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Maintenance Methods on Energized Power Lines
   type: main
@@ -104,42 +104,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Tools
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Energy management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: energized
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 516
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tools
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

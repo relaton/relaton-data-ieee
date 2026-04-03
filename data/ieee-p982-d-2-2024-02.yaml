@@ -1,7 +1,7 @@
 ---
 id: IEEEP982D2202402
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Measures of the Software Aspects of Dependability
   type: main
@@ -103,39 +103,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: availability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dependability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 982&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: recoverability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: supportability
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,9 +1,9 @@
 ---
 id: IEEEStd9792012
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
-- content: IEEE Guide for Substation Fire Protection
+- content: IEEE Guide for Substation Fire Protection - Spanish Version
   type: main
 source:
 - type: src
@@ -16,7 +16,7 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 978-0-7381-7311-5
+- content: 979-8-8557-2221-5
   type: ISBN
 - content: 10.1109/IEEESTD.2012.6365301
   type: DOI
@@ -72,6 +72,9 @@ abstract:
   script: Latn
   content: Guidance is provided to substation engineers in determining the design,
     equipment, and practices deemed necessary for the fire protection of substations.
+status:
+  stage:
+    content: approved
 copyright:
 - from: '2012'
   owner:
@@ -86,138 +89,180 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Risk assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hazards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hazard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 979
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: risk
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: substation design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fire Protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Level Of Protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance Activities
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Spatial Separation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Separation Distance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical Equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Piece Of Equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control Room
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dielectric Medium
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: External Exposure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Building Codes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fire Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local Building
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fire Spread
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fireline
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fire Extinguishing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Application Code
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fire Brigade
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local Fire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Impact Of Fire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fire Department
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mineral Oil
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fire Retardant
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Flame Spread
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Flammable Gas
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Flame Retardant
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Business Continuity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hazard Exposure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hazardous Areas
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -225,6 +270,6 @@ ext:
   - code: 13.220.01
     text: Protection against fire in general
   standard_status: Inactive
-  standard_modified: Reserved
+  standard_modified: Approved
   pubstatus: Active
   holdstatus: Publish

@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd2131961
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'ANSI/IEEE Radio Interference: Methods of Measurement of Conducted Interference
     Output to the Power Line from FM and Television Broadcast Receivers in the Range
@@ -88,39 +88,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radio communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radio interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Frequency modulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TV
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Broadcast receivers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

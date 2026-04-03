@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStdC571101986
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Establishing Transformer Capability When
     Supplying Nonsinusoidal Load Currents
@@ -96,27 +96,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: harmonic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: load
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: heating
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

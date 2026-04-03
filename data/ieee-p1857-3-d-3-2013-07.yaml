@@ -1,7 +1,7 @@
 ---
 id: IEEEP18573D3201307
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for System of Advanced Audio and Video Coding
   type: main
@@ -91,60 +91,76 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Storage automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Video communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Acoustic devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Payloads
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: System
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Video
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Audio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Storage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: File format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Track
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Box
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RTP payload format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NAL unit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Packetization
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -152,7 +168,7 @@ ext:
   - code: 33.040.40
     text: Data communication networks
   - code: '35.040'
-    text: Information coding
+    text: Character sets and information coding
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

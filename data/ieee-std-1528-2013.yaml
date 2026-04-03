@@ -1,7 +1,7 @@
 ---
 id: IEEEStd15282013
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Recommended Practice for Determining the Peak Spatial-Average Specific
     Absorption Rate (SAR) in the Human Head from Wireless Communications Devices:
@@ -127,63 +127,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Handheld devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dosimetry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Specific absorption rate
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Microwave measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: handheld wireless transceivers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1528&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: miniature E-field probes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: non-ionizing radiation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RF dosimetry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RF/microwave exposure assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RF/microwave hazard assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SAR measurement systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SAR measurement uncertainty
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: specific absorption rate (SAR) measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wireless handsets
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

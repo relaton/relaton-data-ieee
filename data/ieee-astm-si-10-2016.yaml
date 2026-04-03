@@ -1,7 +1,7 @@
 ---
 id: IEEEASTMSI102016
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard for Metric Practice
   type: main
@@ -92,48 +92,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement units
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conversion factors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: International System
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: International System of Units
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metric practice
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metric system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SI10
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Système International d’Unitése
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IECIEEE616362021
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: International Standard-Software Interface for Maintenance Information Collection
     and Analysis (SIMICA)
@@ -108,46 +108,57 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automated test system (ATS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: extensible markup language (XML)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1636
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: maintenance action information
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OWL ontology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software Interface for Maintenance Information Collection and Analysis
       (SIMICA)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test results and session information
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML schema
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP1139D16202111
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard Definitions of Physical Quantities for Fundamental
     Frequency and Time Metrology--Random Instabilities
@@ -106,66 +106,84 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metrology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Time-frequency analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AM noise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: amplitude instability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FM noise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: frequency domain
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: frequency instability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: frequency metrology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: frequency modulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1139
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: noise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phase instability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phase modulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phase noise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PM noise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time domain
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time metrology
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

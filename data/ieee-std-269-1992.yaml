@@ -1,7 +1,7 @@
 ---
 id: IEEEStd2691992
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Methods for Measuring Transmission Performance of Analog
     and Digital Telephone Sets
@@ -114,42 +114,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telephone sets
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: performance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: analog
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: telephone
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sets
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: digital
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voice
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voice transmission performance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telephony
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

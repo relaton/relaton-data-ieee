@@ -1,7 +1,7 @@
 ---
 id: ANSIUSEMCSCC6392024
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard for Laboratory Immunity Testing of Multimedia
     Equipment Exposed to RF Sources
@@ -120,48 +120,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Immunity testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radio frequency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C63.9
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EMI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: immunity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multimedia equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RF
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RFI susceptibility
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

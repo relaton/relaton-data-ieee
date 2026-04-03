@@ -1,7 +1,7 @@
 ---
 id: IEEEP1667D10201409
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Discovery, Authentication, and Authorization in
     Host Attachments of Storage Devices
@@ -113,105 +113,134 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Storage automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Storage management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Authentication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Smart cards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data storage systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AUTHENTICATION
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AUTHORIZATION
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CF
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: COMPACTFLASH
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DISCOVERY
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EMMC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PASSWORD SILO
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PROBE SILO
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SAS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SATA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SCSI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SCTS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SECURITY
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SILO
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SMART CARD TRANSPORT SILO
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: STID
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: STORAGE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TCG STORAGE TRANSPORT SILO
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TRANSPORT INDEPENDENT
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TRUSTED COMPUTING GROUP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UAS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UFS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: USB BOT
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: USB.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '35.040'
-    text: Information coding
+    text: Character sets and information coding
   - code: 35.220.01
     text: Data storage devices in general
   standard_status: Inactive

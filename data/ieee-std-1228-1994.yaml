@@ -1,7 +1,7 @@
 ---
 id: IEEEStd12281994
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Software Safety Plans
   type: main
@@ -92,30 +92,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software safety program
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software safety plan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety-critical software
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety requirements
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP2401D5201506
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard Format for LSI-Package-Board Interoperable
     Design
@@ -92,74 +92,92 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Lage scale integration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Design methodology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Printed circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electronics packaging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Packaging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interoperability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Project management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Large Scale Integrated circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Packages for such LSI circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Printed Circuit Board
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: common interoperable format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: project management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: netlists
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: components
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design rules
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: geometries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Verilog-HDL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design analysis.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '31.200'
-    text: Integrated circuits. Microelectronics
-  - code: 35.240.50
     text: IT applications in industry
+  - code: 35.240.50
+    text: Integrated circuits. Microelectronics
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

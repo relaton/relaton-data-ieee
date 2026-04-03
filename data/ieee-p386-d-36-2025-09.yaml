@@ -1,7 +1,7 @@
 ---
 id: IEEEP386D36202509
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Shielded Separable Insulated Connectors for Classes
     15 kV through 35 kV
@@ -102,45 +102,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Load management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: deadbreak connector
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: elbow connector
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 386™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: loadbreak connector
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power distribution systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: separable conductor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: separable insulated connector systems
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

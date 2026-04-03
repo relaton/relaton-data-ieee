@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStdC5712001987
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard General Requirements for Liquid-Immersed Distribution, Power,
     and Regulating Transformers
@@ -103,45 +103,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Autotransformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Oil insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: liquid-immersed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: regulating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

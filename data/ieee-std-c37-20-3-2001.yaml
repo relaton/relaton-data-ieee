@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC372032001
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Metal-Enclosed Interrupter Switchgear
   type: main
@@ -89,24 +89,28 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interrupters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metal-enclosed interrupter (MEI)switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metal enclosed power switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear assembly
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd165332021Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Rail Transit Traction Power Systems Modeling
   type: title-main
@@ -87,33 +87,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Traction power supplies
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Modeling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1653.3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: modeling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: traction power
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

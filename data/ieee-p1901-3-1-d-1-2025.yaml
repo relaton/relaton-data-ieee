@@ -1,11 +1,11 @@
 ---
 id: IEEEP190131D12025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
-- content: IEEE Draft Standard Test Procedures for IEEE Std 1901.3 Standard for Medium
-    Frequency (less than 12 MHz) Power Line Communications with a Hybrid PLC/Radio
-    Frequency Physical Layer (PHY)
+- content: IEEE Approved Draft Standard Test Procedures for IEEE Std 1901.3 Standard
+    for Medium Frequency (less than 12 MHz) Power Line Communications with a Hybrid
+    PLC/Radio Frequency Physical Layer (PHY)
   type: main
 source:
 - type: src
@@ -23,11 +23,11 @@ docidentifier:
 docnumber: IEEE P1901.3.1/D-1-2025
 date:
 - type: created
-  at: '2025-08-26'
+  at: '2026-02-23'
 - type: published
   at: '2025-08-27'
 - type: issued
-  at: '2025'
+  at: '2026-02-12'
 contributor:
 - role:
   - type: publisher
@@ -95,54 +95,68 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Broadband communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Smart grids
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interoperability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Certification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: broadband power line
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1901.3(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power line communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RF
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: smart grid
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: compliance and interoperability testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: certification
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

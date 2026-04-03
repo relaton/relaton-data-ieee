@@ -1,7 +1,7 @@
 ---
 id: IEEEStd1806Cor12024
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Reliability-Based Placement of Overhead and Underground
     Switching and Overcurrent Protection Equipment to and Including 38 kV Corrigenda
@@ -104,57 +104,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Underground power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: device placement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1806
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interruptions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overhead
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sectionalizing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switching
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: underground
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

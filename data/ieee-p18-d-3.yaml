@@ -1,7 +1,7 @@
 ---
 id: IEEEP18D3
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Shunt Power Capacitors
   type: main
@@ -111,30 +111,36 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Capacitors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Shunt capacitors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: capacitors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shunt connection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission and distribution systems
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

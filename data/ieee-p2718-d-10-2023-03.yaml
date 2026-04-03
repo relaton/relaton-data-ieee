@@ -1,7 +1,7 @@
 ---
 id: IEEEP2718D10202303
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Near Field Characterization of Unintentional Stochastic
     Radiators
@@ -84,39 +84,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Near-field radiation pattern
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stochastic systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiated emissions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stochastic fields
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: near field
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: far field
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cross-correlation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wigner functions.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

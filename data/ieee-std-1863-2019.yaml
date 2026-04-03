@@ -1,7 +1,7 @@
 ---
 id: IEEEStd18632019
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Overhead AC Transmission Line Design
   type: main
@@ -98,66 +98,84 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Flexible AC transmission systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Conductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Lightning control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC overhead transmission line
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conductor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fitting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: foundation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ground wire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1863
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: lightning protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: load
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radio interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: structure design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: weather loads
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

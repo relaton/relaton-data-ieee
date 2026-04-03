@@ -1,7 +1,7 @@
 ---
 id: IEEEStdP152892006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Unapproved ISO/IEC IEEE Draft Systems and software engineering -Content
     of systems and software life cycle process information products (Documentation)
@@ -62,30 +62,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Guidelines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Documentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Databases
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEUnapprovedStdP1901D2002010
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Standard for Broadband over Power Line Networks:
     Medium Access Control and Physical Layer Specifications'
@@ -78,30 +78,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power line communications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Broadband communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BPL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MAC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PHY
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PLC
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

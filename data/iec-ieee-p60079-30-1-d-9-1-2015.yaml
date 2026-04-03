@@ -1,7 +1,7 @@
 ---
 id: IECIEEEP60079301D912015
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEC/IEEE Approved Draft International Standard - Explosive Atmospheres
     - Part 30-1: Electrical resistance trace heating - General and testing requirements'
@@ -103,39 +103,46 @@ copyright:
         script: Latn
         content: IEC
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical resistance measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Atmospheric measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Explosives
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Resistance heating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gases
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surface heating
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 29.260.20
-    text: Electrical apparatus for explosive atmospheres
+    text: Electrical installations for explosive atmospheres
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

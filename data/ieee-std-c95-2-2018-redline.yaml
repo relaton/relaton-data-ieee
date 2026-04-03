@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC9522018Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Radio-Frequency Energy and Current-Flow Symbols
   type: title-main
@@ -103,60 +103,76 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hazards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radio frequency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Microwave communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Symbols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: caution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: contact current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: danger
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hazard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C95.2&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: labels
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: microwave
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiofrequency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: signs
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: symbol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: warning
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

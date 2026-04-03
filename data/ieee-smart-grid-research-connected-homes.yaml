@@ -1,7 +1,7 @@
 ---
 id: IEEESmartGridResearchConnectedHomes
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Impact of Smart Grid on Connected Homes Landmark Research Study
   type: main
@@ -70,66 +70,84 @@ copyright:
         script: Latn
         content: Frost & Sullivan
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Smart grids
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power grids
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Home automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Smart homes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Network security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Connected Home
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Smart Grid
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grid communications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: end-users
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: home communications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: home networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: home business model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grid-enable application
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -141,7 +159,7 @@ ext:
   - code: '33.200'
     text: Telecontrol. Telemetering
   - code: 35.240.01
-    text: Application of information technology in general
+    text: Applications of information technology in general
   standard_status: Active
   pubstatus: Active
   holdstatus: Publish

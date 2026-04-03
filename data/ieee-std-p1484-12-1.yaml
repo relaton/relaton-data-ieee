@@ -1,7 +1,7 @@
 ---
 id: IEEEStdP1484121
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Learning Object Metadata - Corrigendum 1: Corrigenda
     for 1484.12.1 LOM (Learning Object Metadata)'
@@ -67,30 +67,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Learning systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metadata
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: learning object
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: learning object metadata (LOM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metadata
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reuse
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

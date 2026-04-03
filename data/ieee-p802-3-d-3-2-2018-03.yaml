@@ -1,7 +1,7 @@
 ---
 id: IEEEP8023D32201803
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Ethernet
   type: main
@@ -110,177 +110,232 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Energy efficiency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 2.5 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 5 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 10 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 25 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 40 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 100 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 200 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 400 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: attachment unit interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AUI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Auto-Negotiation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Backplane Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DTE Power via the MDI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Energy Efficient Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPoC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPON Protocol over Coax
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet in the First Mile
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet passive optical network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: express traffic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fast Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: information exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: LAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: local area network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MDI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medium dependent interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: media independent interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MIB
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MII
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MPMC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multi-point MAC control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PCS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PHY
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: physical coding sublayer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical Layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: physical medium attachment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: physical medium dependent
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PMA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PMD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PoDL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power over Data Lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power over Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reconciliation sublayer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: repeater
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: type field
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: VLAN tag
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

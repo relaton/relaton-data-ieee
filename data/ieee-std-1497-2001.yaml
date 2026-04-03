@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14972001
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Standard Delay Format (SDF) for the Electronic Design
     Process
@@ -93,45 +93,56 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Timing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: delay backannotation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: digital systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electronic systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hardware
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hardware design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SDF
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: timing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: timing analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: timing back annotation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: timing verification
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

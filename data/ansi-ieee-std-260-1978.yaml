@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd2601978
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Letter Symbols for Units of Measurement (SI Units, Customary
     Inch-Pound Units, and Certain Other Units)
@@ -94,36 +94,42 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement units
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: letter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: symbols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: units
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 01.080.30
-    text: Graphical symbols for use on mechanical engineering and construction drawings,
+    text: Graphical symbols for use on mechanical engineering technical drawings,
       diagrams, plans, maps and in relevant technical product documentation
   standard_status: Superseded
   pubstatus: Active

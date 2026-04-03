@@ -1,7 +1,7 @@
 ---
 id: IEEEStd167A1987
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Facsimile Test Charts (Revised as 167A.1)
   type: main
@@ -93,24 +93,28 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Facsimile
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 167A
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: facsimile
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test chart
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

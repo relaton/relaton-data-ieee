@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10031
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standards Interpretations for IEEE Std 1003.1-1990 and IEEE Std 2003.1-1992
     (March 1994 Edition)
@@ -93,33 +93,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer environments
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interfaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interpretations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: portable operating system interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: POSIX
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test methods
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

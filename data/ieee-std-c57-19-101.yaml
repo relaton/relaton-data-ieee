@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5719101
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Loading Power Apparatus Bushings
   type: main
@@ -93,45 +93,54 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dimensional
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: class apparatus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.19.00-1991
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: oil-filled transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: oil-filled reactors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: and oil circuit breakers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 29.240.10
-    text: Substations. Surge arresters
+    text: Bushings
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

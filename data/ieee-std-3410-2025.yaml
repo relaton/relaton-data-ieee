@@ -1,7 +1,7 @@
 ---
 id: IEEEStd34102025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Large-Scale Financial Risk Management Models
   type: main
@@ -99,42 +99,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Risk management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Financial management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Training data
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Iterative algorithms
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: financial risk management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: large-scale financial risk management models
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pre-training
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fine-tuning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: swift adaptation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: iteration.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP28053D05202512
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Cloud-Edge Collaboration Protocols for Machine
     Learning
@@ -93,21 +93,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2805.3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Edge Computing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Machine Learning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Edge-Cloud Collaboration
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

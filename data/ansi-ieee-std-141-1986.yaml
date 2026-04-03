@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd1411986
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Electric Power Distribution for Industrial
     Plants (IEEE Red Book)
@@ -103,18 +103,20 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Industrial plants
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power supplies
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

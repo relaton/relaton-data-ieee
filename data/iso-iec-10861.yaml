@@ -1,7 +1,7 @@
 ---
 id: ISOIEC10861
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'ISO/IEC Standard for Information Technology- Microprocessor Systems- High-Performance
     Synchronous 32-Bit Bus: Multibus II'
@@ -99,24 +99,28 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high performance synchronous
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronous 32 bit bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multibus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multibus II
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: system bus architectures
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

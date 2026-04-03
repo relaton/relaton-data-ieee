@@ -1,7 +1,7 @@
 ---
 id: IEEEP16093D8201008
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
     - Networking Services
@@ -91,39 +91,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless cellular systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Vehicular and wireless technologies
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Provider Service Identifier
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PSID
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WAVE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless Access in Vehicular Environments
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WSM
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -131,7 +140,7 @@ ext:
   - code: '35.110'
     text: Networking
   - code: 35.240.60
-    text: IT applications in transport
+    text: IT applications in transport and trade
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,7 +1,7 @@
 ---
 id: IEEEP442D3201707
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Thermal Resistivity Measurements of Soils and Backfill
     Materials
@@ -107,51 +107,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal resistance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Soil
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Licenses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: backfill
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 442&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: soil
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: soil thermal properties
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal needle
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal probe
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal property analyzer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal resistivity
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

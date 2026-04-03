@@ -1,7 +1,7 @@
 ---
 id: IEEEP957D3202302
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Monitoring, Managing and Cleaning of Contaminated
     Insulators
@@ -101,36 +101,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cleaning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Contamination
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Decontamination
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cleaning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 957&#8482;
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

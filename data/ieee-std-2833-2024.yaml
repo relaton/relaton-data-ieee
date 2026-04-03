@@ -1,7 +1,7 @@
 ---
 id: IEEEStd28332024
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Overhead Transmission Lines with Composite Insulated Crossarm
     Supports
@@ -92,33 +92,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Composite materials
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CICA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: composite insulator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: composite insulated crossarm
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: compact transmission line
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2833
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

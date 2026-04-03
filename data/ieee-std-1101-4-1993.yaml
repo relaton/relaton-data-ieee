@@ -1,7 +1,7 @@
 ---
 id: IEEEStd110141993
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Military Module, Format E Form Factor
   type: main
@@ -92,42 +92,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Military computing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Military standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Backplanes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: backplane
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Printed wiring board (PWB)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Module interface plane
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 396-pin connector
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 250-pin connector
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd802a2003
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Local and Metropolitan Area Networks: Overview and Architecture
     - Amendment 1: Ethertypes for Prototype and Vendor-Specific Protocol Development'
@@ -101,48 +101,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Urban areas
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer architecture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Prototypes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethertype protocol development
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local Area Networks (LANs)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: LAN/MAN architecture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: LAN/MAN reference model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan Area Networks (MANs)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protocol identifier
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protocol type
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

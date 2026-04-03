@@ -1,7 +1,7 @@
 ---
 id: IEEEP120D2202302
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Master Test Guide for Electrical Measurements in Power Circuits
   type: main
@@ -106,54 +106,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: driven shield
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 120&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: instrument transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power factor measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reactive power measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: resistance measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shielding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage measurement
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

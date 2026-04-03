@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16202004
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Standard for Test Methods for the Characterization of Organic Transistors
     and Materials
@@ -96,39 +96,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FETs
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement errors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: field-effect transistor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: organic electronic technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: organic materials
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: organic transis-tors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: organic semiconductor technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: polymer field-effect transistor
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

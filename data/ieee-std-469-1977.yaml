@@ -1,7 +1,7 @@
 ---
 id: IEEEStd4691977
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Voice-Frequency Electrical-Noise Tests of
     Distribution Transformers
@@ -70,24 +70,28 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distibution planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Noise measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Speech processing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

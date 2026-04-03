@@ -1,7 +1,7 @@
 ---
 id: IEEEStd316122025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for End Subsystem of Digital Retina Systems
   type: main
@@ -92,54 +92,74 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Digital systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Retina
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Spatiotemporal phenomena
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Streaming media
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: digital retina system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: end subsystem
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: feature stream
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 3161.2(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: model stream
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software-definability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: temporal-spatial information
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: video stream
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 35.040.30
+    text: Coding of graphical and photographical information
+  - code: 37.040.99
+    text: Other standards related to photography
+  - code: 37.060.99
+    text: Other standards related to cinematography
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

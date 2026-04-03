@@ -1,7 +1,7 @@
 ---
 id: IEEE3151971
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard and American National Standard for Electrical and Electronics
     Diagrams (Including Reference Designation class Designation Letters)
@@ -99,30 +99,36 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electronics diagrams
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Graphics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Symbols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Semiconductor devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

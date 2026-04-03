@@ -1,7 +1,7 @@
 ---
 id: IEEEStd811962
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Guide for Measuring Ground Resistance and Potential Gradients
     in the Earth
@@ -77,27 +77,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Resistance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ground resistance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Geophysical measurement techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Earth
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Geoscience and remote sensing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

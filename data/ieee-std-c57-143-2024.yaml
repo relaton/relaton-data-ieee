@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571432024
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Application of Monitoring Equipment to Liquid-Immersed Transformers
     and Components
@@ -104,42 +104,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Immersion cooling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electronic equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.143
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: liquid-immersed transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: monitoring equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: online monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer components
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer monitoring
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8592018Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Terms for Reporting and Analyzing Outage Occurrences and
     Outage States of Electrical Transmission Facilities
@@ -93,54 +93,68 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power outages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electricity transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: exposure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: failure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 859
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: outage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: weather
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

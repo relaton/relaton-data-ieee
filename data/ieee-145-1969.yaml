@@ -1,7 +1,7 @@
 ---
 id: IEEE1451969
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Definitions of Terms for Antennas
   type: main
@@ -61,27 +61,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Antenna radiation patterns
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Directive antennas
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radar antennas
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dictionaries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Antennas
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Phased arrays
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

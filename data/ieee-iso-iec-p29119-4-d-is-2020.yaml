@@ -1,7 +1,7 @@
 ---
 id: IEEEISOIECP291194DIS2020
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE/ISO/IEC Draft International Standard - Software and systems engineering--Software
     testing--Part 4: Test techniques'
@@ -134,27 +134,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Systems engineering and theory
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

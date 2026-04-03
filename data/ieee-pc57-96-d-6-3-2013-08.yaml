@@ -1,7 +1,7 @@
 ---
 id: IEEEPC5796D63201308
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Loading Dry-Type Distribution and Power Transformers
   type: main
@@ -111,57 +111,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Load management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ambient networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ambient temperature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cast-resin transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: constant load
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hottestspot temperature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: loading capability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: loading transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rated output
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: resin-encapsulated
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time constant
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transientloading
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

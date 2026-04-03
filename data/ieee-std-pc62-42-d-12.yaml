@@ -1,7 +1,7 @@
 ---
 id: IEEEStdPC6242D12
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Unapproved IEEE Draft Guide for the Application of Component Surge-Protective
     Devices for Use in Low-Voltage (Equal to Or Less Than 1000 V rms Or 1200 V DC)
@@ -71,30 +71,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Varistors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Junctions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electron tubes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Air gaps
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

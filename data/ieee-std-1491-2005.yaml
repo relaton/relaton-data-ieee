@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14912005
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Selection and Use of Battery Monitoring Equipment in Stationary
     Applications
@@ -100,90 +100,116 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Trademarks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: airflow
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ambient temperature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automated battery monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery environment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery monitoring equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery monitoring techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery temperature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery types
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communications interfaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: connection resistance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cycles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ground fault detection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: humidity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ripple current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: specific gravity
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80211bh2024
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information Technology--Telecommunications and Information
     Exchange Between Systems Local and Metropolitan Area Networks--Specific Requirements
@@ -114,39 +114,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless LAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telecommunications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Regulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Privacy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 802.11bh
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Randomized and Changing MAC Address (RCM)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

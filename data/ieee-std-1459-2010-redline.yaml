@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14592010Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Definitions for the Measurement of Electric Power Quantities
     Under Sinusoidal, Nonsinusoidal, Balanced, or Unbalanced Conditions
@@ -92,48 +92,60 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reactive power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distortion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Harmonic distortion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1459-2010
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: active power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: apparent power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nonactive power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power factor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reactive power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: total harmonic distortion
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

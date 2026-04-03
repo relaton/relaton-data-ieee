@@ -1,7 +1,7 @@
 ---
 id: IEEEP2962D62202508
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Recommended Practice for the Installation, Operation,
     Maintenance, Testing, and Replacement Lithium-ion Batteries for Stationary Applications
@@ -70,11 +70,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This document provides recommended practices for system design, storage,
-    installation, ventilation, instrumentation, operation, maintenance, capacity testing,
-    and replacement of Li-ion batteries. Guidance is also provided on compliance with
-    safety standards and best practices for worker safety during installation, maintenance,
-    and testing.
+  content: Recommended practices for system design, storage, installation, ventilation,
+    instrumentation, operation, maintenance, capacity testing, and replacement of
+    Li-ion batteries are provided in this document. While the principles covered in
+    this document apply to all stationary standby and cycling applications, some of
+    them may be excessive for smaller systems, such as those often found in residential
+    installations. Guidance on compliance with safety standards, as well as best practices
+    for worker safety during installation, maintenance, and testing is also provided.
 status:
   stage:
     content: draft
@@ -92,61 +94,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Battery management systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Energy storage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Lithium-ion batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stationary state
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: battery
-  - language: en
-    script: Latn
-    content: battery installation
-  - language: en
-    script: Latn
-    content: battery maintenance
-  - language: en
-    script: Latn
-    content: battery testing
-  - language: en
+    content: battery tests
+- vocab:
+    language: en
     script: Latn
     content: capacity test methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: energy storage
-  - language: en
-    script: Latn
-    content: IEEE 2962TM
-  - language: en
-    script: Latn
-    content: Li-ion
-  - language: en
+    content: IEEE 2962
+- vocab:
+    language: en
     script: Latn
     content: lithium-ion
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: standby service
-  - language: en
-    script: Latn
-    content: stationary application
+    content: stationary applications
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

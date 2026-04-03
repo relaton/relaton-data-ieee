@@ -1,7 +1,7 @@
 ---
 id: IEEEStd13941995
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for a High Performance Serial Bus
   type: main
@@ -98,36 +98,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data buses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: firewire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire wire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high speed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: serial bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interconnect
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: parallel buses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: parallel bus
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

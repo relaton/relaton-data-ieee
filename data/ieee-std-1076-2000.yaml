@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10762000
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard VHDL Language Reference Manual
   type: main
@@ -110,33 +110,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hardware
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Very high speed integrated circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hardware design languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Std 1076
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 2000 Edition.pdf
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

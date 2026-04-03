@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16093Cor12012
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Wireless Access in Vehicular Environments (WAVE)--Networking
     Services Corrigendum 1: Miscellaneous Corrections'
@@ -100,51 +100,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Three dimensional displays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Intelligent vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mobile radio mobility management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Routing protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 3D location
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EDCA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gateway MAC Address
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1609.3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WAVE Routing Advertisement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WAVE Service Advertisement
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

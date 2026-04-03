@@ -1,7 +1,7 @@
 ---
 id: IEEEStd12781993
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Information Technology -- Protocols for Distributed Interactive
     Simulation Applications--Entity Information and Interaction
@@ -108,51 +108,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Simulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: articulated parts
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: attached parts
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dead reckoning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: entity coordinates
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Euler angles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: field
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: guise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PDUs
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: right-hand rule
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: simulation application
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: simulation entity
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

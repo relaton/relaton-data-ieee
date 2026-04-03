@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37104D19202111
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Automatic Reclosing on AC Distribution and Transmission
     Lines
@@ -102,72 +102,92 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic line sectionalizer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic reclosing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: autoreclose blocking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: autoreclose supervision
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: autoreclosing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dead time
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fuse blowing scheme
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fuse saving scheme
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-speed autoreclosing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.104&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: leader-follower autoreclosing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reclosing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sync check
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sync check supervision
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time delayed autoreclosing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage supervision
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

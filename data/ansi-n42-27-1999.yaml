@@ -1,7 +1,7 @@
 ---
 id: ANSIN42271999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard for Determination of Uniformity of Solid Gamma-Emitting
     Flood Sources
@@ -94,36 +94,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radioactive materials
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: flood source
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nuclear medicine
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: quality control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scintillation camera
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sealed source
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test and Measurement Report
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: unit cell
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: useful region
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

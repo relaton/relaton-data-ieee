@@ -1,7 +1,7 @@
 ---
 id: IEEEStd7561984
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Trial Use Guide for loading Mineral-Oil Immersed Power Transformers
     Rated in Excess of 100 MVA (65 Degree C Winding Rise)
@@ -62,27 +62,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Oil insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mineral oil
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Load management
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

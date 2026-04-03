@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3522016Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for General Principles of Reliability Analysis of Nuclear Power
     Generating Station Systems and Other Nuclear Facilities
@@ -101,48 +101,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: availability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class 1E
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: failure rate
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 352&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MTBF
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MTTF
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MTTR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nuclear power generating station
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reliability
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

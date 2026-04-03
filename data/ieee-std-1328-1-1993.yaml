@@ -1,7 +1,7 @@
 ---
 id: IEEEStd132811993
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Information Technology--Test Methods for Measuring Conformance
     to X.400 Based Electronic Messaging C Language Interfaces--Binding for Application
@@ -94,39 +94,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electronic messaging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Sections
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Language binding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C language
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Application program interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: API
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

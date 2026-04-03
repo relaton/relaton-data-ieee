@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10132007Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Sizing Lead-Acid Batteries for Stand-Alone
     Photovoltaic (PV) Systems
@@ -115,48 +115,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Photovoltaic systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Solar power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery capacity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: lead-acid batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: photovoltaic (PV)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: photovoltaic power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sizing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sizing lead-acid batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: solar
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stand-alone
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

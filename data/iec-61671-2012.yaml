@@ -1,7 +1,7 @@
 ---
 id: IEC616712012
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEC 61671:2012(E) (IEEE Std 1671-2010) Automatic Test Markup Language (ATML)
     for Exchanging Automatic Test Equipment and Test Information via XML
@@ -99,75 +99,96 @@ copyright:
         script: Latn
         content: IEC
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Instrumentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATE description
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATE test results
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test markup language
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interface test adapter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ITA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synthetic instrumentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test configuration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: unit under test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UUT description
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UUT maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML instance document
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML schema
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -175,7 +196,7 @@ ext:
   - code: '19.080'
     text: Electrical and electronic testing
   - code: 35.240.30
-    text: IT applications in information, documentation and publishing
+    text: IT applications in information,  documentation and publishing
   - code: '25.040'
     text: Industrial automation systems
   - code: '35.060'

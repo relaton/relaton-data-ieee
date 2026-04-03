@@ -1,7 +1,7 @@
 ---
 id: IEEEStd181992
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Shunt Power Capacitors
   type: main
@@ -108,51 +108,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power capacitors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: capacitors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shunt
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: connection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C55.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shunt power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transmission and distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Shunt connection
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

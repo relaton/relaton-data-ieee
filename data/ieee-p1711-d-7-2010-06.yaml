@@ -1,7 +1,7 @@
 ---
 id: IEEEP1711D7201006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Trial Use Standard for a Cryptographic Protocol for Cyber Security
     of Substation Serial Links
@@ -90,44 +90,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Encryption
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer crime
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cyber security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: serial link
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: encryption
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: integrity
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '35.040'
-    text: Information coding
+    text: Character sets and information coding
   - code: 35.240.60
-    text: IT applications in transport
+    text: IT applications in transport and trade
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC57151999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Requirements, Terminology, and Test Code for Step-Voltage
     Regulators
@@ -107,27 +107,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mechanical
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: step-voltage regulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test code
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

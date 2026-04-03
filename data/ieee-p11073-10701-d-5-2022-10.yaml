@@ -1,7 +1,7 @@
 ---
 id: IEEEP1107310701D5202210
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Approved Draft Standard for Health Informatics - Device Interoperability
     - Part 10701: Point-of-Care Medical Device Communication - Metric Provisioning
@@ -101,47 +101,57 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Medical devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Point of care
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interoperability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Clinical diagnosis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Usability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: base PKP; BICEPS; communication protocol specification; device component;
       documentation and process responsibilities; dynamic medical device interoperability;
       IEEE 11073-10701&#8482;; integrated clinical environment; medical device communication;
       metric; metric PKP; participant key purpose; point-of-care service-oriented
       device connectivity; risk management; safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: effectiveness
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: and security; SDC; system function; system function contribution; usability
       engineering
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

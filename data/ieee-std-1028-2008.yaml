@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10282008
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Software Reviews and Audits
   type: main
@@ -90,36 +90,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Performance evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1028-2008
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: audit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inspection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: review
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: walk-through
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37305D13202408
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Definitions for AC High-Voltage Air Switches Rated
     Above 1000 V
@@ -107,30 +107,36 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC power transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-voltage techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: definitions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.30.5™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: terms
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

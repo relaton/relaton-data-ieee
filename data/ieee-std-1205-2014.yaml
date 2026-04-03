@@ -1,7 +1,7 @@
 ---
 id: IEEEStd12052014
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Assessing, Monitoring, and Mitigating Aging Effects on Electrical
     Equipment Used in Nuclear Power Generating Stations and Other Nuclear Facilities
@@ -111,72 +111,92 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Environmental factors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Condition monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation effects
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: activation energy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging effects
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arrhenius
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: condition monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: degradation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: environmental monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1205(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: license renewal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation aging model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: residual life
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stressor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal aging model
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

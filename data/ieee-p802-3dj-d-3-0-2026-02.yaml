@@ -1,0 +1,195 @@
+---
+id: IEEEP8023djD30202602
+type: standard
+schema_version: v1.5.6
+title:
+- content: 'IEEE Draft Standard for Ethernet Amendment 13: Media Access Control Parameters
+    for 1.6 Tb/s and Physical Layers and Management Parameters for 200 Gb/s, 400 Gb/s,
+    800 Gb/s, and 1.6 Tb/s Operation'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11408395
+docidentifier:
+- content: IEEE P802.3dj/D-3.0-2026-02
+  type: IEEE
+  primary: true
+- content: IEEE P802.3dj™/D-3.0-2026-02
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-3182-8
+  type: ISBN
+docnumber: IEEE P802.3dj/D-3.0-2026-02
+date:
+- type: created
+  at: '2026-02-20'
+- type: published
+  at: '2026-02-23'
+- type: issued
+  at: '2026'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment includes changes to IEEE Std 802.3-2022 and adds Clause
+    174 through Clause 187 and Annex 174A through Annex 186A. The amendment adds MAC
+    parameters for 1.6 Tb/s, and Physical Layers and management parameters for 200
+    Gb/s, 400 Gb/s, 800 Gb/s, and 1.6 Tb/s operation.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.3-2022
+    docidentifier:
+    - content: IEEE Std 802.3-2022
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Metropolitan area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Media Access Control
+- vocab:
+    language: en
+    script: Latn
+    content: Physical layer
+- vocab:
+    language: en
+    script: Latn
+    content: 200GAUI-1
+- vocab:
+    language: en
+    script: Latn
+    content: 200GBASE-CR1
+- vocab:
+    language: en
+    script: Latn
+    content: 200GBASE-DR1
+- vocab:
+    language: en
+    script: Latn
+    content: 200GBASE-DR1-2
+- vocab:
+    language: en
+    script: Latn
+    content: 200GBASE-KR1
+- vocab:
+    language: en
+    script: Latn
+    content: 400GAUI-2
+- vocab:
+    language: en
+    script: Latn
+    content: 400GBASE-CR2
+- vocab:
+    language: en
+    script: Latn
+    content: 400GBASE-DR2
+- vocab:
+    language: en
+    script: Latn
+    content: 400GBASE-DR2-2
+- vocab:
+    language: en
+    script: Latn
+    content: 400GBASE-KR2
+- vocab:
+    language: en
+    script: Latn
+    content: 800GAUI-4
+- vocab:
+    language: en
+    script: Latn
+    content: 800GBASE-CR4
+- vocab:
+    language: en
+    script: Latn
+    content: 800GBASE-DR4
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

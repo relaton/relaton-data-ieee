@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571101998
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Establishing Transformer Capability When
     Supplying Nonsinusoidal Load Currents
@@ -109,39 +109,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: eddy-current losses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: harmonic current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: harmonic load losses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: harmonic loss factor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: harmonics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: K-factor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: load currents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nonsinusoidal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

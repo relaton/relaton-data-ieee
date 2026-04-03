@@ -1,9 +1,9 @@
 ---
 id: IEEEP1413D2202511
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
-- content: IEEE Draft Standard Framework for Reliability Prediction of Hardware
+- content: IEEE Approved Draft Standard Framework for Reliability Prediction of Hardware
   type: main
 source:
 - type: src
@@ -21,11 +21,11 @@ docidentifier:
 docnumber: IEEE P1413/D-2-2025-11
 date:
 - type: created
-  at: '2025-11-18'
+  at: '2026-02-23'
 - type: published
   at: '2025-11-19'
 - type: issued
-  at: '2025'
+  at: '2026-02-12'
 contributor:
 - role:
   - type: publisher
@@ -107,36 +107,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Predictive models
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hardware
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electronic equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Performance evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: prediction
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEPN4263D4202209
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Recommended Practice for Unmanned Aerial Radiation Measurement
     Systems (UARaMS)
@@ -95,50 +95,61 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Autonomous aerial vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Vibration control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Performance evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation detection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: This standard establishes performance c 33 riteria and characterization
       techniques for 34 radiation measurement systems incorporated onto unmanned aerial
       systems. This standard 35 focuses on radiation response expectations and environmental
       parameters that could be 36 experienced during use such as temperature changes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mechanical shock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: and onboard vibration. 37 For radiation response expectations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: response vectors include those expected from distributed 38 radioactive
       contamination and from radioactive point sources. The primary UAVs of interest
       includethose from Group 1 and Group 2 UAV designations
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

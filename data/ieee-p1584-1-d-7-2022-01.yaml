@@ -1,7 +1,7 @@
 ---
 id: IEEEP15841D7202201
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for the Specification of Scope and Deliverable Requirements
     for an Arc-Flash Hazard Calculation Study in Accordance with IEEE Std 1584(TM)
@@ -104,69 +104,88 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hazards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arc discharges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault diagnosis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc fault currents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc-flash boundary
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc-flash hazard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc-flash hazard analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc-flash hazard marking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc in enclosures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc in open air
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bolted fault currents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical hazard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1584
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1584.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: incident energy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective device coordination study
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: short-circuit study
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: working distances
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

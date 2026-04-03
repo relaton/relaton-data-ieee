@@ -1,7 +1,7 @@
 ---
 id: ISOIEC1451512000
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'ISO/IEC Standard for Information Technology--Portable Operating System
     Interface (POSIX®) System--Test Methods for Measuring Conformance to POSIX®--Part
@@ -97,30 +97,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Operating systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Systems engineering and theory
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Conformance testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

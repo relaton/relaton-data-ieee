@@ -1,7 +1,7 @@
 ---
 id: IEEEPC57116D5202210
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Guide for Transformers Directly Connected to Generators
   type: main
@@ -105,57 +105,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: back-feed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical parameters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generator bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.116
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: load tap changing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overcurrent
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overexcitation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer connections
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: unit auxiliaries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: unit auxiliary transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: unit power transformer
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

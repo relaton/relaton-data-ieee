@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10151997
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Applying Low-Voltage Circuit Breakers Used
     in Industrial and Commercial Power Systems (Color Book® Series)
@@ -110,63 +110,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Industrial power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit breaker evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulated case
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulated-case circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low-voltage circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low-voltage protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low-voltage protective device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: molded case
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: molded-case circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overcurrent protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

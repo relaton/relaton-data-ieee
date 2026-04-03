@@ -1,7 +1,7 @@
 ---
 id: IEEEStd2001975
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Reference Designations for Electrical and Electronics Parts
     and Equipments
@@ -96,46 +96,55 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: US Department of Defense
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Industries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Military aircraft
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: designations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: parts
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Symbols
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 01.080.40
-    text: Graphical symbols for use on electrical and electronics engineering drawings,
-      diagrams, charts and in relevant technical product documentation
+    text: Graphical symbols for use on electrical and electronics engineering technical
+      drawings, diagrams, plans and in relevant technical product documentation
   - code: '29.020'
     text: Electrical engineering in general
   standard_status: Inactive

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5111974
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Trial-Use Standard on Video Signal Transmission Measurement of Linear
     Waveform Distortion
@@ -62,27 +62,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distortion measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Signal processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Video signal processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Signal generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Linear systems
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

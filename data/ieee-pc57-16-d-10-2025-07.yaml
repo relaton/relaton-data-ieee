@@ -1,7 +1,7 @@
 ---
 id: IEEEPC5716D10202507
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Requirements, Terminology, and Test Code for Dry-Type
     Air-Core Series-Connected Reactors
@@ -105,72 +105,92 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current limiters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Shunts (electrical)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Capacitors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Converters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: air-core reactors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: discharge current-limiting reactors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dry-type air-core reactors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dry-type reactors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: filter reactors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: harmonic filters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.16
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reactors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: series capacitor bank applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: series-connected reactors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: series reactor applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shunt capacitor bank applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shunt capacitor reactors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transient limiting inductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC-side converter reactors
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

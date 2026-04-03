@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37113D35202409
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Protective Relay Applications to Transmission Lines
   type: main
@@ -94,42 +94,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protective relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distance protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.113™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pilot protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: relay application
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission line protection
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

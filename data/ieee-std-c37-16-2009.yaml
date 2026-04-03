@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC37162009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Preferred Ratings,Related Requirements, and Application
     Recommendations for Low-Voltage AC (635 V and below)and DC (3200 V and below)
@@ -91,35 +91,42 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Low voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DC motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C37.16-2009
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc power circuit breaker; integrally fused low-voltage ac power circuit
       breaker; lowvoltage; non-integrally fused low-voltage ac power circuit breaker;
       power circuit breaker
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

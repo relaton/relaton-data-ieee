@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC3722008Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Electrical Power System Device Function Numbers, Acronyms,
     and Contact Designations
@@ -96,51 +96,64 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Relays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C37.2-2008
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: designations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: device functions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: device function acronyms
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: device function numbers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: function numbers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC 61850
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: relay
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

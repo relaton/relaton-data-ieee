@@ -1,0 +1,183 @@
+---
+id: IEEEP3409D9202601
+type: standard
+schema_version: v1.5.6
+title:
+- content: IEEE Draft Standard for a Zero Trust Security
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11417480
+docidentifier:
+- content: IEEE P3409/D-9-2026-01
+  type: IEEE
+  primary: true
+- content: IEEE P3409™/D-9-2026-01
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-3197-2
+  type: ISBN
+docnumber: IEEE P3409/D-9-2026-01
+date:
+- type: created
+  at: '2026-02-26'
+- type: published
+  at: '2026-02-27'
+- type: issued
+  at: '2026'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Cybersecurity and Privacy Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This draft standard for Zero Trust Security provides a comprehensive framework
+    for implementing Zero Trust Architecture (ZTA), a cybersecurity paradigm that
+    emphasizes the principles of "never trust, always verify," assume breach, and
+    apply least privilege. The standard outlines requirements for transitioning from
+    traditional perimeter-based security models to dynamic, granular security controls
+    that protect organizational assets. The framework is structured around five core
+    domains--Identity, Devices, Networks, Applications &amp; Workloads, and Data--and
+    three cross-cutting domains--Governance, Visibility &amp; Analytics, and Automation
+    &amp; Orchestration. It offers guidance on aligning security policies, implementing
+    continuous monitoring, automating security actions, and safeguarding sensitive
+    data. Designed for developers, architects, and governance stakeholders, this standard
+    aims to mitigate risks, enhance compliance, and adapt to the evolving threat landscape.
+    It emphasizes incremental implementation, organizational change management, and
+    leadership oversight to ensure the successful adoption of Zero Trust principles.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Zero Trust
+- vocab:
+    language: en
+    script: Latn
+    content: Access control
+- vocab:
+    language: en
+    script: Latn
+    content: Identity management systems
+- vocab:
+    language: en
+    script: Latn
+    content: Automation
+- vocab:
+    language: en
+    script: Latn
+    content: zero trust (ZT)
+- vocab:
+    language: en
+    script: Latn
+    content: zero trust architecture (ZTA)
+- vocab:
+    language: en
+    script: Latn
+    content: domains
+- vocab:
+    language: en
+    script: Latn
+    content: cross-cutting domains
+- vocab:
+    language: en
+    script: Latn
+    content: identity credential access management (ICAM)
+- vocab:
+    language: en
+    script: Latn
+    content: data
+- vocab:
+    language: en
+    script: Latn
+    content: networks and environments
+- vocab:
+    language: en
+    script: Latn
+    content: applications and workloads
+- vocab:
+    language: en
+    script: Latn
+    content: devices
+- vocab:
+    language: en
+    script: Latn
+    content: identities
+- vocab:
+    language: en
+    script: Latn
+    content: governance
+- vocab:
+    language: en
+    script: Latn
+    content: visibility and analytics
+- vocab:
+    language: en
+    script: Latn
+    content: automation and orchestration.
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

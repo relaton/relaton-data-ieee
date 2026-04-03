@@ -1,14 +1,14 @@
 ---
 id: IEEEStd154792022
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Using IEEE Std 1547 for Interconnection of Energy Storage
-    Distributed Energy Resources with Electric Power Systems
+    Distributed Energy Resources with Electric Power Systems - SPANISH VERSION
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/9849493
+  content: https://ieeexplore.ieee.org/document/11421679
 docidentifier:
 - content: IEEE Std 1547.9-2022
   type: IEEE
@@ -17,16 +17,16 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 978-1-5044-8858-7
+- content: 979-8-8557-3222-1
   type: ISBN
-- content: 10.1109/IEEESTD.2022.9849493
+- content: 10.1109/IEEESTD.2022.11421679
   type: DOI
 docnumber: IEEE Std 1547.9-2022
 date:
 - type: created
   at: '2022-08-05'
 - type: published
-  at: '2022-08-03'
+  at: '2026-03-04'
 - type: issued
   at: '2022-06-16'
 contributor:
@@ -98,120 +98,172 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
+    script: Latn
+    content: Distributed power generation
+- vocab:
+    language: en
+    script: Latn
+    content: Electrical power distribution
+- vocab:
+    language: en
     script: Latn
     content: Energy storage
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: Power systems
-  - language: en
+    content: Energy resources
+- vocab:
+    language: en
     script: Latn
-    content: Power distribution
-  - language: en
+    content: Interoperability
+- vocab:
+    language: en
     script: Latn
-    content: Electric vehicles
-  - language: en
+    content: State of charge
+- vocab:
+    language: en
     script: Latn
-    content: Smart grids
-  - language: en
+    content: Bidirectional control
+- vocab:
+    language: en
+    script: Latn
+    content: Reactive power
+- vocab:
+    language: en
+    script: Latn
+    content: Frequency response
+- vocab:
+    language: en
     script: Latn
     content: active power export
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bidirectional
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: black start participation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: charging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: discharging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distributed energy resources
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: energy storage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: energy storage distributed energy resources
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ES DER response prioritization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: exemptions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fast frequency response
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: frequency droop response
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1547
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1547.9
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inertial response
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interconnection requirements and specifications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interoperability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: islanding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operational capacity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operational model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operational state of charge
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reactive power capability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ride-through
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: secondary networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: state of charge
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: use cases
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vehicle-to-grid
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

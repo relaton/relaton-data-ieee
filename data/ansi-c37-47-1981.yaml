@@ -1,7 +1,7 @@
 ---
 id: ANSIC37471981
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Specifications Distribution Fuse Disconnecting
     Switches, Fuse Supports, and Current-Limiting Fuses
@@ -97,27 +97,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fuses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Steel
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Limiting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

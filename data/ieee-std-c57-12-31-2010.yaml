@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712312010
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Pole-Mounted Equipment--Enclosure Integrity
   type: main
@@ -101,33 +101,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switching systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Coatings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: coating integrity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: enclosure integrity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pole-mounted equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switches
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

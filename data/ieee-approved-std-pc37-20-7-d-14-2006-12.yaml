@@ -1,7 +1,7 @@
 ---
 id: IEEEApprovedStdPC37207D14200612
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Approved IEEE Draft Guide for Testing Metal-Enclosed Switchgear Rated up
     to 38kV for Internal Arcing Faults
@@ -60,30 +60,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit faults
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Resistance
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

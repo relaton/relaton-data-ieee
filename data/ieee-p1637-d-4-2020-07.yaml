@@ -1,7 +1,7 @@
 ---
 id: IEEEP1637D4202007
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Guide for Selection and Application of Terminations
     for Shielded Alternating-Current Power Cable Rated 5 kV - 46 kV
@@ -123,30 +123,36 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cable shielding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1637
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shielded
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: termination
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

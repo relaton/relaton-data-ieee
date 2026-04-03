@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEECD2P14764202006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: ISO/IEC/IEEEDraft International Standard - Software Engineering - Software
     Life Cycle Processes - Maintenance
@@ -117,27 +117,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Product life cycle management
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

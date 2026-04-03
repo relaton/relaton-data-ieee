@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5211976
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Letter Designations for Radar-Frequency Bands
   type: main
@@ -80,24 +80,28 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radar frequency bands
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Military communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radar tracking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: "(complete)"
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

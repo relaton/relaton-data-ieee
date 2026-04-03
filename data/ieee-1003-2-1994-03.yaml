@@ -1,7 +1,7 @@
 ---
 id: IEEE10032199403
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standards Interpretations for IEEE Std 1003.2-1992
   type: main
@@ -90,30 +90,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer environments
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interpretations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: portable operating system interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: POSIX
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shell
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: utilities
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

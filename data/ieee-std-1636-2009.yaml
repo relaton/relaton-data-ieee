@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16362009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Software Interface for Maintenance Information Collection
     and Analysis (SIMICA)
@@ -111,49 +111,61 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AI-ESTATE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automated Test Markup Language (ATML)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: diagnostic maturation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1636TM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance Action Information
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: maintenance data
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software Interface for Maintenance Information Collection and Analysis
       (SIMICA)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test Results and Session Information
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

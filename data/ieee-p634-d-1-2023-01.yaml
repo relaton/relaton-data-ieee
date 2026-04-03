@@ -1,7 +1,7 @@
 ---
 id: IEEEP634D1202301
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Cable-Penetration Fire Stop Qualification
     Test
@@ -105,66 +105,84 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fires
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermocouples
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable-penetration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: F-rating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire-resistant
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire-resistive barrier
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire stop
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire test facilities
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire test procedure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 634&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: penetration seal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermocouple
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time-temperature curve
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: T-rating
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

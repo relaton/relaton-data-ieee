@@ -1,7 +1,7 @@
 ---
 id: IEEEP1378D6202203
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Guide for Commissioning High-Voltage Direct-Current
     (HVDC) Converter Stations and Associated Transmission Systems
@@ -103,36 +103,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-voltage techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HVDC transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-voltage direct-current (HVDC) commissioning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HVDC transmission systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1378
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: on-site tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pre-commissioning
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5719012000
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Performance Characteristics and Dimensions for Outdoor Apparatus
     Bushings
@@ -109,39 +109,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: basic impulse insulation levels (BILs)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cantilever test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: capacitance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: creepage distance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: flashover
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: line-to-ground voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nominal system voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power apparatus bushings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power factor
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

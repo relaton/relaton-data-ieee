@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC6269a2017
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for the Surge Parameters of Isolating Transformers used
     in Networking Devices and Equipment - Amendment 1: Addition of Saturated Core
@@ -105,36 +105,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surge protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Core loss
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Parameter estimation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: core-saturation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C62.69(TM)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

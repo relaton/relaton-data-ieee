@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5971983
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Practices and Requirements for General Purpose Thyristor
     DC Drives
@@ -86,30 +86,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Equivalent circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thyristors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Regulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Industry applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

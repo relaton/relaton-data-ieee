@@ -1,7 +1,7 @@
 ---
 id: IEEEStdSH
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IRE Standards on Circuits: Definitions of Terms for Linear Passive Reciprocal
     Time Invariant Networks, 1960'
@@ -94,42 +94,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Impedance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Admittance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IRE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Poles and zeros
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Personnel
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: linear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reciprocal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: invariant
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Passive circuits
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

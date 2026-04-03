@@ -1,7 +1,7 @@
 ---
 id: AIEE501953
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: AIEE Standard for Automatic Circuit Reclosers for A-C Distribution Systems
   type: main
@@ -58,30 +58,36 @@ copyright:
         script: Latn
         content: AIEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AIEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reclosers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dielectric breakdown
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

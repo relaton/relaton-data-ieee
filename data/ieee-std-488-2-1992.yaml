@@ -1,7 +1,7 @@
 ---
 id: IEEEStd48821992
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Codes, Formats, Protocols, and Common Commands for Use With
     IEEE Std 488.1-1987, IEEE Standard Digital Interface for Programmable Instrumentation
@@ -110,33 +110,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: controller
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: System interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: System bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: '488.1'
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 60488-2
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

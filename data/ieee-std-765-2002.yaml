@@ -1,7 +1,7 @@
 ---
 id: IEEEStd7652002
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Preferred Power Supply (PPS) for Nuclear Power Generating
     Stations
@@ -110,39 +110,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power supplies
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AAC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: alternate ac source
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PPS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: preferred power supply
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchyard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission system
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

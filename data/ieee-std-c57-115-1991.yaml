@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571151991
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Loading Mineral-Oil-Immersed Power Transformers Rated in
     Excess of 100 MVA (65C Winding Rise) (Folded into C57.91-1995) (65C Winding Rise)
@@ -95,36 +95,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: emergency loading
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: loading
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mineral oil
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: immersed power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nameplate rating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: temperature
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

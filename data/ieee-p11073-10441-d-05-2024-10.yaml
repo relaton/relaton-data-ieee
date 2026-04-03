@@ -1,7 +1,7 @@
 ---
 id: IEEEP1107310441D05202410
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Approved Draft Standard - Health Informatics--Personal health device
     communication Part 10441: Device specialization--Cardiovascular fitness and activity
@@ -111,39 +111,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Biomedical monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Medical devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interoperability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cardiovascular system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: activity monitor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cardiovascular fitness
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 11073-10441
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medical device communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: personal health devices
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

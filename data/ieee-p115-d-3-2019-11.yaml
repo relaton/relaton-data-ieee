@@ -1,7 +1,7 @@
 ---
 id: IEEEP115D3201911
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Test Procedures for Synchronous Machines Including
     Acceptance and Performance Testing and Parameter Determination for Dynamic Analysis
@@ -104,45 +104,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronous generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronous motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Frequency synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Performance evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: acceptance and performance testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dynamic analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 115
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: parameter determination
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronous machines
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10482003
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Protective Grounding of Power Lines
   type: main
@@ -108,36 +108,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: de-energized overhead line maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective ground set sizing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective grounding practices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing and maintenance protective grounds
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

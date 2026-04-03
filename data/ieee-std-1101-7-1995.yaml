@@ -1,7 +1,7 @@
 ---
 id: IEEEStd110171995
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Space Applications Module, Extended Height Format E Form
     Factor
@@ -98,39 +98,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Space vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Packaging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cooling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Layout of circuit boards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: module
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: space applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SEM Format E extended height
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mechanical interchangeability
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

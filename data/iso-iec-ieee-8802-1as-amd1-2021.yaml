@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE88021ASAmd12021
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'ISO/IEC/IEEE International Standard--Information technology--Telecommunications
     and information exchange between systems--Local and metropolitan area networks--Part
@@ -115,81 +115,104 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inclusive language
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Timing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: amendment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: best timeTransmitter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: frequency offset
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grandmaster Clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grandmaster PTP Instance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.1AS™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.1ASdr™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phase offset
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PTP End Instance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PTP Relay Instance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: syntonization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time-aware system
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

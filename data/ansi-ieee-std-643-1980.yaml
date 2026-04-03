@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd6431980
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Power-Line Carrier Applications
   type: main
@@ -102,33 +102,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: guide
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: line
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: carrier
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Couplers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

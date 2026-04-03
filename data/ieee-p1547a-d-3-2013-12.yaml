@@ -1,7 +1,7 @@
 ---
 id: IEEEP1547aD3201312
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Interconnecting Distributed Resources with Electric
     Power Systems - Amendment 1
@@ -113,24 +113,28 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power systems planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distribution processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Resource management
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

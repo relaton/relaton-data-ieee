@@ -1,7 +1,7 @@
 ---
 id: IEEEP3832D302025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for General Requirements for Distributed Banking
     Financial Core Business Systems
@@ -70,9 +70,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard will provide detailed functional requirements and technical
-    Standards to achieve independent implementation. In terms of system architecture,
-    it has implemented a horizontal four layers architecture and two vertical support
+  content: Detailed functional requirements and technical standards are provided in
+    this standard to achieve independent implementation. In terms of system architecture,
+    it has implemented a horizontal four-layer architecture and two vertical support
     architectures. The system described in this document provides financial services
     to individuals and institutions.
 status:
@@ -92,34 +92,47 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Financial management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Banking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distributed computing
-  - language: en
+- vocab:
+    language: en
+    script: Latn
+    content: financial
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 3832(TM)
+- vocab:
+    language: en
     script: Latn
     content: management system
-  - language: en
-    script: Latn
-    content: IEEE 3832TM
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  ics:
+  - code: 35.240.40
+    text: IT applications in banking
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

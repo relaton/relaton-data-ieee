@@ -1,7 +1,7 @@
 ---
 id: IEEEStd187122017
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for IEEE 1671 Test Equipment Templates and Extension
     Classes for Describing Intrinsic Signal Path Information for Cables, Interface
@@ -93,57 +93,72 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Path planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic Test Markup Language (ATML)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML schema
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATML instance document
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test equipment (ATE)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test system (ATS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test adapter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interface device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wire(s)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pin(s)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switch(es)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: intrinsic path characteristics.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

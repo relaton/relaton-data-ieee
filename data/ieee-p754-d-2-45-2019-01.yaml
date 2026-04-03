@@ -1,7 +1,7 @@
 ---
 id: IEEEP754D245201901
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Floating-Point Arithmetic
   type: main
@@ -105,60 +105,76 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arithmetic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Binary codes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arithmetic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: binary
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: decimal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: exponent
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: floating-point
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 754
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NaN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: number
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: significand
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: subnormal.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6921997
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Criteria for Security Systems for Nuclear Power Generating
     Stations
@@ -109,60 +109,76 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: access control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: alert
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: central alarm station
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: duress alarms
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: integrated security system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: intrusion detection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: line supervision
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: perimeter intrusion alarm
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: portal security lighting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: remote video surveillance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: secondary alarm station
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security lighting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: uninterruptible power supply system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UPS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voice communications
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

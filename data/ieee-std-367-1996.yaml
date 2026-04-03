@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3671996
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Determining the Electric Power Station Ground
     Potential Rise and Induced Voltage from a Power Fault
@@ -115,51 +115,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault diagnosis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surge protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric power stations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ground potential rise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: induced voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: longitudinal induction voltages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power faults
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power stations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: telecommunication protection design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: telecommunications
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

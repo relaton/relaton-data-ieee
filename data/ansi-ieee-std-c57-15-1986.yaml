@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStdC57151986
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Requirements, Terminology, and Test Code for Step-Voltage
     and Induction-Voltage Regulators
@@ -93,33 +93,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: step
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: induction
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: regulators
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

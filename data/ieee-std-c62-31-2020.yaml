@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC62312020
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Test Methods and Preferred Values for Low-Voltage Gas
     Discharge Tube Surge-Protective Components
@@ -108,57 +108,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Low voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electron tubes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Discharges (electric)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: breakdown voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: discharge current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: follow current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gas discharge tube
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: GDT
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: glow to arc transition current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: glow voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: holdover voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C62.31&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sparkover voltage
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

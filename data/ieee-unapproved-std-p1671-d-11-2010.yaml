@@ -1,7 +1,7 @@
 ---
 id: IEEEUnapprovedStdP1671D112010
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Automatic Test Markup Language (ATML) for Exchanging
     Automatic Test Equipment 4 and Test Information via XML
@@ -68,54 +68,68 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATE description
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATE test results
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test equipment (ATE)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic Test Markup Language (ATML)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test system (ATS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interface test adapter (ITA)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synthetic instrumentation (SI)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test configuration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Unit under test (UUT) description
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UUT maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML instance document
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML schema
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -123,7 +137,7 @@ ext:
   - code: '19.080'
     text: Electrical and electronic testing
   - code: 35.240.30
-    text: IT applications in information, documentation and publishing
+    text: IT applications in information,  documentation and publishing
   - code: '25.040'
     text: Industrial automation systems
   - code: '35.060'

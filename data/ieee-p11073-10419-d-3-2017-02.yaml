@@ -1,7 +1,7 @@
 ---
 id: IEEEP1107310419D3201702
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Health Informatics - Personal Health Device Communication -
     Part 10419: Device Specialization - Insulin Pump'
@@ -98,33 +98,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Medical devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulin pumps
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Diabetes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 11073-10419(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulin pump
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medical device communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: personal health devices
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

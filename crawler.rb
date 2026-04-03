@@ -1,12 +1,19 @@
 # frozen_string_literal: true
 
+# @TODO below is the code for local use, to be removed when https://github.com/ietf-tools/relaton-data-ieee is updated
+
+# require "relaton/ieee/data_fetcher"
+# FileUtils.rm_rf('data')
+# FileUtils.rm Dir.glob('index*')
+# Relaton::Ieee::DataFetcher.fetch
+
+# End the local use code
+
+
 # @TODO: uncomment everithing below when https://github.com/ietf-tools/relaton-data-ieee is updated
 
 # require 'fileutils'
 # require 'relaton/index'
-
-t1 = Time.now
-puts "Started at: #{t1}"
 
 # system('git clone https://github.com/ietf-tools/relaton-data-ieee')
 # FileUtils.rm_rf('data')
@@ -21,7 +28,3 @@ puts "Started at: #{t1}"
 #   index.add_or_update docid['content'], f
 # end
 # index.save
-
-t2 = Time.now
-puts "Stopped at: #{t2}"
-puts "Done in: #{(t2 - t1).round} sec."

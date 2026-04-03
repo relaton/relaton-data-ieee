@@ -1,7 +1,7 @@
 ---
 id: IEEEP323003D42202410
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Blockchain Service Capability Evaluation
   type: main
@@ -90,27 +90,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Blockchains
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Capability engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: blockchains
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 3230.03(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: service capability evaluation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

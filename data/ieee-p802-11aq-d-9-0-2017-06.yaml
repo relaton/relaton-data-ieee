@@ -1,7 +1,7 @@
 ---
 id: IEEEP80211aqD90201706
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Information technology--Telecommunications and
     information exchange between systems Local and metropolitan area networks--Specific
@@ -105,51 +105,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Informati on exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: amendment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bloom filter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hash function
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11aq™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: preassociation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: service discovery
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

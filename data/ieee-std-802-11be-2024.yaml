@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80211be2024
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information technology--Telecommunications and information
     exchange between systems Local and metropolitan area networks--Specific requirements
@@ -73,14 +73,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This amendment defines standardized modifications to both the IEEE Std
+  content: 'This amendment defines standardized modifications to both the IEEE Std
     802.11 physical layers (PHY) and the Medium Access Control Layer (MAC) that enable
     at least one mode of operation capable of supporting a maximum throughput of at
     least 30 Gbit/s, as measured at the MAC data service access point (SAP), with
     carrier frequency operation between 1 and 7.250 GHz while ensuring backward compatibility
     and coexistence with legacy IEEE Std 802.11 compliant devices operating in the
     2.4 GHz, 5 GHz, and 6 GHz bands. This amendment defines at least one mode of operation
-    capable of improved worst case latency and jitter.
+    capable of improved worst case latency and jitter. (Note: The PDF of this standard
+    is available at no charge compliments of the IEEE GET program https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=93)'
 status:
   stage:
     content: approved
@@ -110,75 +111,96 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless LAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Throughput
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telecommunication services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EHT
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: extremely high throughput
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: jitter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11be(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11bh(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: latency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MAC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medium access control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PHY
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wireless local area network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WLAN
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

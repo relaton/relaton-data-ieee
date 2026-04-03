@@ -1,7 +1,7 @@
 ---
 id: ISOIEC880211Amd52005
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'ISO/IEC International Standard - Information technology-- Local and metropolitan
     area networks-- Part 11: Amendment 5: Spectrum and Transmit Power Management Extensions
@@ -103,36 +103,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Europe
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dynamic frequency selection (DFS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: local area network (LAN)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmit power control (TPC)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

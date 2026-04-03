@@ -1,7 +1,7 @@
 ---
 id: IEEEUnapprovedStdP1628D812009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Recommended Practice for Maintenance for dc Overhead Contact
     Systems for Transit Systems
@@ -83,39 +83,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rails
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Law
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Guidelines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wires
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rail
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vehicle maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OCSlines
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -123,7 +132,7 @@ ext:
   - code: '29.280'
     text: Electric traction equipment
   - code: 45.060.10
-    text: Tractive stock
+    text: TrActive stock
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

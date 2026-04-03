@@ -1,7 +1,7 @@
 ---
 id: IEEEIndustry
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Industry Connections (IEEE-IC): The Measurement of Fabric Properties
     for Virtual Simulation - A Critical Review'
@@ -61,33 +61,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 3D body processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bending
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fabric
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fabric properties
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tensile
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: virtual
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: white pape
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

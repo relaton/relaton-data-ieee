@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3861995
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Separable Insulated Connector Systems for Power Distribution
     Systems above 600 V
@@ -117,42 +117,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dead break
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: connector
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: elbow connector
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: load break
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: separable conductor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: separable insulated
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: connector systems
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

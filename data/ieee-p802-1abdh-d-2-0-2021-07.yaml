@@ -1,7 +1,7 @@
 ---
 id: IEEEP8021ABdhD20202107
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks - Station
     and Media Access Control Connectivity Discovery - Amendment: Support for Multiframe
@@ -103,57 +103,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Topology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Networked control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Management information base
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Knowledge discovery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 802.1ABTM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 802.1ABdh
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: link layer discovery protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: management information base
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multiframe LLDPDUs
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: topology discovery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: topology information
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

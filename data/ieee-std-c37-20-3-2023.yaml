@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC372032023
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Metal-Enclosed Interrupter Switchgear Rated above 1 kV
     AC up to and Including 48.3 kV AC
@@ -106,39 +106,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metal enclosures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Assembly systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.20.3™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MEI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metal-enclosed interrupter switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metal-enclosed power switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear assembly
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

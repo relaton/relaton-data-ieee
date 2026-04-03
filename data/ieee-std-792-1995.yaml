@@ -1,7 +1,7 @@
 ---
 id: IEEEStd7921995
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for the Evaluation of the Impulse Voltage Capability
     of Insulation Systems for AC Electric Machinery Employing Form-Wound Stator Coils
@@ -99,39 +99,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Coils
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: impulse voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulation systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC electric
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: form wound
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stator coils
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

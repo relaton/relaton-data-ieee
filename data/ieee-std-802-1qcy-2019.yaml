@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8021Qcy2019
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Local and Metropolitan Area Networks--Bridges and Bridged
     Networks Amendment 32: Virtual Station Interface (VSI) Discovery and Configuration
@@ -105,45 +105,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bridge circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Virtualization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Overlay networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: amendment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.1Q
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.1Qcy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NVO3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: VDP extension
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: VDP IP address extension
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

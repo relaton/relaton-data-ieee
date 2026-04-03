@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd2111977
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Definitions of Terms for Radio Wave Propagation
   type: main
@@ -97,33 +97,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radio propagation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wave
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: propagation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: definition
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: terms
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

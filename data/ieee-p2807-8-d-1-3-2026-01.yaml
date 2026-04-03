@@ -1,7 +1,7 @@
 ---
 id: IEEEP28078D13202601
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Knowledge Exchange Protocol with Knowledge Fusion
     Among Knowledge Graphs
@@ -91,33 +91,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Knowledge management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: file structure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: knowledge exchange protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: knowledge fusion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: knowledge graphs
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: message structure
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd4631993
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Electrical Safety Practices in Electrolytic Cell Line
     Working Zones
@@ -95,27 +95,30 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrolytic cell line
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical conductor installation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cell line working zone
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '13.260'
-    text: Protection against electric shock.  Live working
+    text: Protection against electric shock. Live working
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

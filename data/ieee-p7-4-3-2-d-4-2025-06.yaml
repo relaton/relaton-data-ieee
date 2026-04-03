@@ -1,7 +1,7 @@
 ---
 id: IEEEP7432D4202506
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard Criteria for Programmable Digital Devices in Safety
     Systems of Nuclear Power Generating Stations
@@ -108,33 +108,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: commercial grade item
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: diversity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 7-4.3.2™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: programmable digital devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software tools
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software verification and validation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

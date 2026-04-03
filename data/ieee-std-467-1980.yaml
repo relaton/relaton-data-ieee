@@ -1,7 +1,7 @@
 ---
 id: IEEEStd4671980
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Quality Assurance Program Requirements for the Design and
     Manufacture of Class 1E Instrumentation and Electric Equipment for Nuclear Power
@@ -89,21 +89,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Instrumentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

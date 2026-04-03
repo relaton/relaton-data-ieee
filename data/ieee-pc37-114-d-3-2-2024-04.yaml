@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37114D32202404
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Determining Fault Location on AC Transmission and
     Distribution Lines
@@ -109,48 +109,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Phasor measurement units
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Traveling wave tubes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault diagnosis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault location
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.114&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: relays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchrophasor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: system protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: travelling waves
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

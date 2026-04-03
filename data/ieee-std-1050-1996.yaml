@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10501996
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Instrumentation and Control Equipment Grounding in Generating
     Stations
@@ -118,24 +118,28 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power generation control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generating stations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: instrumentation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

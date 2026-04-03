@@ -1,7 +1,7 @@
 ---
 id: IEEEP80211D10Cor2202309
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Approved Draft Standard for Information Technology -Telecommunications
     and Information Exchange between Systems - Local and Metropolitan Area Networks
@@ -107,30 +107,36 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Broadcasting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Query processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Enhanced broadcast services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: access network query protocol
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

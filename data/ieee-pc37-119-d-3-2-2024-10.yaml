@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37119D32202410
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Power System Circuit Breaker Failure Protection
   type: main
@@ -25,7 +25,7 @@ date:
 - type: published
   at: '2024-10-15'
 - type: issued
-  at: '2024'
+  at: '2025-09-10'
 contributor:
 - role:
   - type: publisher
@@ -70,15 +70,15 @@ abstract:
   script: Latn
   content: Methods to protect a power system from faults that are not cleared because
     of failure of a power circuit breaker to operate or interrupt when called upon
-    by a protective relay are described in this guide. The intent is to give the reader
-    a guide in how to detect that a breaker has failed to clear a fault, and how to
-    electrically isolate the fault after the breaker has failed to clear the fault.
-    Additionally, schemes that provide primary protection of the power system from
-    performance failures of the power circuit breaker other than fault clearing failures
-    such as failure to operate, either tripping or closing, manual or automatic, are
-    also described. Such schemes, when applied, are typically integrated as a part
-    of the overall breaker failure protection scheme. Also covered are recent practices
-    that take advantage of new technologies.
+    by a protective relay are described in this guide. The intent is to provide the
+    reader with a guide on how to detect when a circuit breaker has failed to clear
+    a fault and how to electrically isolate the fault after the circuit breaker has
+    failed to clear it. Additionally, schemes that provide primary protection of the
+    power system from performance failures of the power circuit breaker other than
+    fault clearing failures such as failure to operate, either tripping or closing,
+    manual or automatic, are also described. Such schemes, when applied, are typically
+    integrated as a part of the overall breaker failure protection scheme. Also covered
+    are recent practices that take advantage of new technologies.
 status:
   stage:
     content: draft
@@ -108,42 +108,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Failure analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault detection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BFP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: breaker failure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: breaker failure protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: IEEE C37.119™
-  - language: en
+    content: IEEE C37.119(TM)
+- vocab:
+    language: en
     script: Latn
     content: power system
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

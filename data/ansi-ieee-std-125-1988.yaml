@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd1251988
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Preparation of Equipment Specifications for
     Speed-Governing of Hydraulic Turbines Intended to Drive Electric Generators
@@ -97,27 +97,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hydraulic equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hydraulic turbines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hydraulic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: govern
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: turbine
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

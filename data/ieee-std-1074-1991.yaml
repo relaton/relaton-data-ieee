@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10741991
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Developing Software Life Cycle Processes
   type: main
@@ -103,63 +103,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: project management process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: project monitoring and control process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software development process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software implementation process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software installation process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software life cycle
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software life cycle model process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software life cycle process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software maintenance process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software operation and support process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software post-development process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software pre-development process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software quality management process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software requirements process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software retirement process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software system allocation process
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

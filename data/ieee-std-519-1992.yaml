@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5191992
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practices and Requirements for Harmonic Control in Electrical
     Power Systems
@@ -110,36 +110,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Compensation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power conversion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system harmonics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reactive power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reactive power compensation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Harmonics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Harmonic control
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8021Qcc2018
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Local and Metropolitan Area Networks--Bridges and Bridged
     Networks -- Amendment 31: Stream Reservation Protocol (SRP) Enhancements and Performance
@@ -100,63 +100,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bridge circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media streaming
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Timing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sensitivity analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: amendment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bridged Local Area Networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802&#169;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.1Q&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.1Qcc&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SRP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stream Reservation Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MSRP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Multiple Stream Registration Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Time-Sensitive Networking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TSN
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

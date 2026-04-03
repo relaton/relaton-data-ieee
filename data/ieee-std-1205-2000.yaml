@@ -1,7 +1,7 @@
 ---
 id: IEEEStd12052000
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Assessing, Monitoring, and Mitigating Aging Effects on Class
     1E Equipment Used in Nuclear Power Generating Stations
@@ -102,72 +102,92 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Licenses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Industries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: activation energy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging effects
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging mechanisms
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arrhenius
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: condition monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: degradation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: environmental monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: license renewal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: residual life
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stressor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal model
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

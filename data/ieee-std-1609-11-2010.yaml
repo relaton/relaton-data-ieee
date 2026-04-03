@@ -1,7 +1,7 @@
 ---
 id: IEEEStd1609112010
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Wireless Access in Vehicular Environments (WAVE)-- Over-the-Air
     Electronic Payment Data Exchange Protocol for Intelligent Transportation Systems
@@ -96,47 +96,56 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Intelligent transportation systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EFC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electronic fee collection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electronic payment service
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WAVE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless Access in Vehicular Environments
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 35.240.60
-    text: IT applications in transport
+    text: IT applications in transport and trade
   - code: 43.040.15
-    text: Car informatics. On board computer systems
+    text: Car informatics. On-board computer systems
   standard_status: Inactive
   standard_modified: Reserved
   pubstatus: Active

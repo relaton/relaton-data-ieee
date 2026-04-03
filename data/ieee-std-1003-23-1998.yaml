@@ -1,7 +1,7 @@
 ---
 id: IEEEStd1003231998
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Developing User Open System Environment (OSE) Profiles
   type: main
@@ -94,24 +94,28 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Open systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: application portability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: application interoperability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: open system environment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: User Organization OSE Profile
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

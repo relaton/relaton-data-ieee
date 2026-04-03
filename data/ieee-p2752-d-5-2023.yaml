@@ -1,7 +1,7 @@
 ---
 id: IEEEP2752D52023
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Multi-Point Grounding System of Trains in Electrified
     Railway
@@ -104,39 +104,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rail transportation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Railway electrification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current reflux
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2752&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multi-point mobile grounding system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overvoltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transient potential
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

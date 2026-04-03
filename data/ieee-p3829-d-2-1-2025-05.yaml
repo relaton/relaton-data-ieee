@@ -1,7 +1,7 @@
 ---
 id: IEEEP3829D21202505
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for a Framework for Privacy Algorithm Trading based
     on Blockchain for Industrial Service
@@ -92,18 +92,20 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distributed ledger technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: privacy-preserving algorithm
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: trading platforms
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

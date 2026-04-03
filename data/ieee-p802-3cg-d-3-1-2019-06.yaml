@@ -1,7 +1,7 @@
 ---
 id: IEEEP8023cgD31201906
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment 4: Physical Layer Specifications
     and Management Parameters for 10 Mb/s Operation and Associated Power Delivery
@@ -103,69 +103,88 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Conductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 10BASE-T1L
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 10BASE-T1S
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: amendment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: copper
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3cg
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MASTER-SLAVE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medium dependent interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: physical coding sublayer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical Layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical Layer Collision Avoidance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PLCA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: physical medium attachment
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

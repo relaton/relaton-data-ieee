@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712302020
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Pole-Mounted Equipment--Enclosure Integrity for Coastal
     Environments
@@ -109,48 +109,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Poles and towers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Coatings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metal enclosures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: coating integrity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: enclosure integrity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.12.30&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pole-mounted equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

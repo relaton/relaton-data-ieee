@@ -1,7 +1,7 @@
 ---
 id: IECIEEE60780
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEC/IEEE International Standard - Nuclear facilities -- Electrical equipment
     important to safety -- Qualification
@@ -105,75 +105,96 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEL Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Environmental factors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation effects
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Condition monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: age conditioning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: condition monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design basis events
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: equipment qualification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: harsh environment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: margin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mild environment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualification method
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualified life
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety related function
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: significant aging mechanism
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test plan
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

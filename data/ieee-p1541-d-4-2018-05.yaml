@@ -1,7 +1,7 @@
 ---
 id: IEEEP1541D4201805
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Prefixes for Binary Multiples
   type: main
@@ -102,54 +102,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Binary codes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: binary
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: binary multiple
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: exbi
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gibi
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1541
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: kibi
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mebi
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pebi
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: prefix
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tebi
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: yobi
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: zebi
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC3730h1978
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Allowable Short-Circuit Temperatures for Air Switches
   type: main
@@ -98,54 +98,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Heating systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Copper
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aluminum alloys
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C37.30h
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: definitions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: air switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bus supports
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: short-circuit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: temperatures
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEC3711979
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Definition, Specification, and Analysis of Manual,
     Automatic, and Supervisory Station Control and Data Acquisition
@@ -80,27 +80,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SCADA systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Supervisory control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Manuals
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

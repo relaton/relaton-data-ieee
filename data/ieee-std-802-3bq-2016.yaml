@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8023bq2016
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Ethernet Amendment 3: Physical Layer and Management
     Parameters for 25 Gb/s and 40 Gb/s Operation, Types 25GBASE-T and 40GBASE-T'
@@ -97,66 +97,84 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Time measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Passive optical networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 25GBASE-T
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 25 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 25GMII
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 40GBASE-T
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 40 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Auto-Negotiation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802&#174;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3bq&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical Coding Sublayer (PCS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical Medium Attachment (PMA) sublayer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: structured cabling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XLGMII
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

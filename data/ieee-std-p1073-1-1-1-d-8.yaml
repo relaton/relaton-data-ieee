@@ -1,7 +1,7 @@
 ---
 id: IEEEStdP1073111D8
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Unapproved IEEE Draft Standard for Health Informatics Point-Of-Care Medical
     Device
@@ -62,36 +62,42 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Codes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dictionaries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Semantics
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 01.040.35
-    text: Information technology (Vocabularies)
+    text: Information technology. Office machines (Vocabularies)
   - code: 35.240.80
     text: IT applications in health care technology
   standard_status: Inactive

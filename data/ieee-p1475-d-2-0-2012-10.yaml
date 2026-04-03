@@ -1,7 +1,7 @@
 ---
 id: IEEEP1475D20201210
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for the Functioning of and Interfaces Among Propulsion,
     Friction Brake, and Train-borne Master Control on Rail Rapid Transit Vehicles
@@ -114,48 +114,58 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Railway transportation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Brakes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Propulsion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: friction brake
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interfaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: master control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: propulsion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rail vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rapid transit
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 35.240.60
-    text: IT applications in transport
+    text: IT applications in transport and trade
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

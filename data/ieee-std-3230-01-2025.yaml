@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3230012025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Capability Evaluation Requirements of Blockchain Practitioners
   type: main
@@ -91,39 +91,50 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Capability engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distributed ledger
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: blockchain
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: blockchain practitioners
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: capability evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: competency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distributed ledger
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 3230.1(TM)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

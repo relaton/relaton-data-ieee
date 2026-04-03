@@ -1,7 +1,7 @@
 ---
 id: IEEEStd28042019
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Software-Hardware Interface for Multi-Many-Core
   type: main
@@ -94,45 +94,56 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Multicore processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software tools
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hardware
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interface management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2804
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: many-core
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multicore
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SHIM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software hardware interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software tools
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

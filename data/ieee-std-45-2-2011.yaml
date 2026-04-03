@@ -1,7 +1,7 @@
 ---
 id: IEEEStd4522011
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Electrical Installations on Shipboard --
     Controls and Automation
@@ -90,63 +90,78 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Marine vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computerized monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Remote monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer based system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 45.2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interior communication system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: navigation system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: remote control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety system
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 47.020.60
-    text: Electrical equipment of ships and  of marine structures
+    text: Electrical equipment of ships and of marine structures
   standard_status: Inactive
   standard_modified: Reserved
   pubstatus: Active

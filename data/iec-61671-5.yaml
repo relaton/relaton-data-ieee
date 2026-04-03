@@ -1,7 +1,7 @@
 ---
 id: IEC616715
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEC/IEEE International Standard - Automatic Test Markup Language (ATML)
     Test Adapter Description
@@ -99,57 +99,72 @@ copyright:
         script: Latn
         content: IEC
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Markup Languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interface devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATML instance document
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test equipment (ATE)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test markup language (ATML)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test system (ATS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1671.5(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interface device (ID)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interface test adapter (ITA)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test adapter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test fixture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML schema
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

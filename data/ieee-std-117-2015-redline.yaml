@@ -1,7 +1,7 @@
 ---
 id: IEEEStd1172015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Test Procedure for Thermal Evaluation of Systems of Insulating
     Materials for Random-Wound AC Electric Machinery
@@ -111,42 +111,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal degradation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Machinery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Degradation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ac electric machinery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulation system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: random-wound
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal evaluation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

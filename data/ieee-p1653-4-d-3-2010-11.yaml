@@ -1,7 +1,7 @@
 ---
 id: IEEEP16534D3201011
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for DC Traction Power System Field Testing and Acceptance
     Criteria for System Applications up to 1500 V DC Nominal
@@ -91,51 +91,62 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DC motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: heavy rail
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1653.4
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: light rail
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: short circuit test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: traction power substation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: traction power system field testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: train starting test
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 45.060.10
-    text: Tractive stock
+    text: TrActive stock
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

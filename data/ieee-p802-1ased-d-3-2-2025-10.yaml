@@ -1,11 +1,11 @@
 ---
 id: IEEEP8021ASedD32202510
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
-- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks -Timing and
-    Synchronization for Time-Sensitive Applications - Amendment: Fault-Tolerant Timing
-    with Time Integrity'
+- content: 'IEEE Approved Draft Standard for Local and Metropolitan Area Networks
+    -Timing and Synchronization for Time-Sensitive Applications - Amendment: Fault-Tolerant
+    Timing with Time Integrity'
   type: main
 source:
 - type: src
@@ -23,11 +23,11 @@ docidentifier:
 docnumber: IEEE P802.1ASed/D-3.2-2025-10
 date:
 - type: created
-  at: '2025-10-31'
+  at: '2026-02-23'
 - type: published
   at: '2025-11-03'
 - type: issued
-  at: '2025'
+  at: '2026-02-12'
 contributor:
 - role:
   - type: publisher
@@ -101,48 +101,58 @@ relation:
     script: Latn
     content: amends
   bibitem:
-    formattedref: IEEE Std 802.1AS-2020
+    formattedref: IEEE Std 802.1AS-2025
     docidentifier:
-    - content: IEEE Std 802.1AS-2020
+    - content: IEEE Std 802.1AS-2025
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault tolerance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Generative Pre-trainer transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Timing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault-tolerant timing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time selection function
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dependent gPTP times
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: independent gPTPtimes
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3821996
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Qualification of Actuators for Power-Operated Valve Assemblies
     With Safety-Related Functions for Nuclear Power Plants
@@ -117,33 +117,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Valves
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Actuators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fission reactor protection/safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: class 1E safety equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nuclear power plants
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualification
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

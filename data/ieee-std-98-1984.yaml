@@ -1,7 +1,7 @@
 ---
 id: IEEEStd981984
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for the Preparation of Test Procedures for the Thermal Evaluation
     of Solid Electrical Insulating Materials
@@ -98,42 +98,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Performance evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Materials processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical fault detection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: materials
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation thermal factors
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

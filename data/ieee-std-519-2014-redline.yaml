@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5192014Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice and Requirements for Harmonic Control in Electric
     Power Systems
@@ -116,33 +116,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Harmonic analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: harmonics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 519(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power quality
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

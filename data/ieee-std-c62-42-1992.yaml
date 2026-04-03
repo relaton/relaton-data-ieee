@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC62421992
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Application of Gas Tube and Air Gap Arrester Low-Voltage
     (Equal to or Less than 1000 V rms or 1200 V dc) Surge Protective Devices
@@ -102,36 +102,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surge protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gas tube surge arrester
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Breakdown voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Air gap surge arrester
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

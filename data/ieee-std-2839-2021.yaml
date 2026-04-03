@@ -1,7 +1,7 @@
 ---
 id: IEEEStd28392021
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Vital Computer for Rail Safety-Related Application
   type: main
@@ -98,39 +98,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rail transportation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fail-safe
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2839
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rail safety-related system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RAMS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SIL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vital computer
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

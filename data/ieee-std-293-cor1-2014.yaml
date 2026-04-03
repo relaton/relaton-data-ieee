@@ -1,7 +1,7 @@
 ---
 id: IEEEStd293Cor12014
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for IEEE Test Procedure for Single-Degree-of-Freedom Spring-Restrained
     Rate Gyros -- Corrigendum 1: Table 1 Heading'
@@ -86,21 +86,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aerospace electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gyroscopes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Springs
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

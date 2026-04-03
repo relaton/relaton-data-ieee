@@ -1,7 +1,7 @@
 ---
 id: ANSIN323AB2013
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard for Radiation Protection Instrumentation Test
     and Calibration, Portable Survey Instruments
@@ -103,39 +103,48 @@ copyright:
       abbreviation:
         content: ANSI
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI N323AB
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: calibration frequency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: portable radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

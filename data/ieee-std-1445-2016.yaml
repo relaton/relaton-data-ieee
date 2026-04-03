@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14452016
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Digital Test Interchange Format (DTIF)
   type: main
@@ -103,48 +103,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Digital systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test interchange format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DATPG
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: digital automated test program generator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: digital test interchange format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DTIF
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault dictionary data
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1445(TM)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP2427D035202203
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Analog Defect Modeling and Coverage
   type: main
@@ -25,7 +25,7 @@ date:
 - type: published
   at: '2022-06-24'
 - type: issued
-  at: '2022'
+  at: '2025-09-10'
 contributor:
 - role:
   - type: publisher
@@ -68,14 +68,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard defines a defect coverage accounting method based on simulation
-    models for defects observed within integrated circuits (ICs). The portion of a
-    defect universe, comprising thousands or millions of reasonably likely defects,
+  content: A defect coverage accounting method based on simulation models for defects
+    observed within integrated circuits (ICs) is defined in this standard. The portion
+    of a defect universe, comprising thousands or millions of reasonably likely defects,
     that is detected or “covered” by tests of analog and mixed-signal circuits depends
     on many factors, which this standard considers, such as detectability, process
     variations, defect characteristics, and redundancy. The contents of a defect coverage
-    summary are specified, and dozens of commonly used terms are clearly defined,
-    to aid communication about the quality of tested ICs
+    summary are specified and dozens of commonly used terms are clearly defined to
+    aid communication about the quality of tested ICs.
 status:
   stage:
     content: draft
@@ -93,42 +93,68 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Analog computers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Modeling
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: defect coverage
-  - language: en
+    content: AMS test
+- vocab:
+    language: en
+    script: Latn
+    content: analog/mixed-signal test
+- vocab:
+    language: en
     script: Latn
     content: analog test coverage
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: design for test (DFT)
-  - language: en
+    content: defect coverage
+- vocab:
+    language: en
     script: Latn
-    content: analog/mixed-signal (AMS) test
-  - language: en
+    content: defective parts per million
+- vocab:
+    language: en
     script: Latn
-    content: defective parts per million (DPPM)
+    content: design for test
+- vocab:
+    language: en
+    script: Latn
+    content: DFT
+- vocab:
+    language: en
+    script: Latn
+    content: DPPM
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 2427(TM)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
-  - code: 01.040.11
-    text: Health care technology (Vocabularies)
+  - code: 33.040.50
+    text: Lines, connections and circuits
+  - code: '35.160'
+    text: Microprocessor systems
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

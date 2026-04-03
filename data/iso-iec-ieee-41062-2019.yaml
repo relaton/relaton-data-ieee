@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE410622019
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: ISO/IEC/IEEE International Standard - Software engineering - Recommended
     practice for software acquisition
@@ -116,54 +116,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: acquirer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: custom developed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: end user
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FOSS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1062(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: off-the-shelf
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OTS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SaaS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software acquisition process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software as a service
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: supplier
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

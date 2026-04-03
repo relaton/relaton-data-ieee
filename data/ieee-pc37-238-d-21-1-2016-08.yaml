@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37238D211201608
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard Profile for Use of IEEE 1588 Precision Time Protocol
     in Power System Applications
@@ -112,54 +112,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Clocks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Timing analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Precision engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grandmaster clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1588
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power substation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: precise time synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Precision Time Protocol (PTP)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sample synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: slave-only clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchrophasors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transparent clock.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

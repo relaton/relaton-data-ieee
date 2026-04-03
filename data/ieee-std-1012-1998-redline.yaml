@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10121998Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Software Verification and Validation
   type: title-main
@@ -100,30 +100,36 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Product life cycle management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Verification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software integrity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software life cycle processes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: verification and validation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd160932016Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Wireless Access in Vehicular Environments (WAVE) -- Networking
     Services
@@ -105,39 +105,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless Access in Vehicular Environments
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Provide Service Identifiers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Short message services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Vehicular ad hoc networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1609.3(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Provider Service Identifier (PSID)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WAVE Service Advertisement (WSA)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WAVE Short Message (WSM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless Access in Vehicular Environments (WAVE)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

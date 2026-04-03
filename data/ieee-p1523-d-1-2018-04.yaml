@@ -1,7 +1,7 @@
 ---
 id: IEEEP1523D1201804
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for the Application, Maintenance, and Evaluation of Room
     Temperature Vulcanizing (RTV) Silicone Rubber Coatings for Outdoor Ceramic Insulators
@@ -106,48 +106,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Coatings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ceramics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rubber products
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1523(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RTV silicone rubber coatings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tests
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

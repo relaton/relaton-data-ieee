@@ -1,11 +1,11 @@
 ---
 id: IEEEP1786D2202511
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
-- content: IEEE Draft Recommended Practice for Human Factors Applications of Computerized
-    Operating Procedure Systems (COPS) at Nuclear Power Generating Stations and Other
-    Nuclear Facilities
+- content: IEEE Approved Draft Recommended Practice for Human Factors Applications
+    of Computerized Operating Procedure Systems (COPS) at Nuclear Power Generating
+    Stations and Other Nuclear Facilities
   type: main
 source:
 - type: src
@@ -23,11 +23,11 @@ docidentifier:
 docnumber: IEEE P1786/D-2-2025-11
 date:
 - type: created
-  at: '2025-12-15'
+  at: '2026-02-23'
 - type: published
   at: '2025-12-17'
 - type: issued
-  at: '2025'
+  at: '2026-02-12'
 contributor:
 - role:
   - type: publisher
@@ -102,21 +102,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Human factors
+- vocab:
+    language: en
+    script: Latn
+    content: Nuclear power generation
+- vocab:
+    language: en
+    script: Latn
+    content: Computerized monitoring
+- vocab:
+    language: en
     script: Latn
     content: computerized procedures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: human factors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1786(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nuclear facilities
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

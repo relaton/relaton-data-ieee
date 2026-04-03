@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10172013Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Field Testing Electric Submersible Pump Cable
   type: title-main
@@ -110,45 +110,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Conductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Underwater cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable ampacity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: field testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1017&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: submersible pump cable
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

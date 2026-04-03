@@ -1,7 +1,7 @@
 ---
 id: IEEEStd9521997
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Specification Format Guide and Test Procedure for Single-Axis
     Interferometric Fiber Optic Gyros
@@ -103,57 +103,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical interferometry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical fibers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gyroscopes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fiber gyro
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fiber optic gyro
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gyro
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gyroscope
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IFOG
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inertial instrument
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inertial sensor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inerferometric fiber optic gyro
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: optical gyro
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sagnac effect
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sagnac gyro
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

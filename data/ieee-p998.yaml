@@ -1,7 +1,7 @@
 ---
 id: IEEEP998
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Direct Lightning Stroke Shielding of Substations
   type: main
@@ -103,61 +103,75 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Lightning protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substation protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: collection volume method (CVM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: direct stroke shielding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electro-geometric model (EGM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: field intensification factor method (FIFM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fixed angle
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: IEEE Std 998&#8482;
-  - language: en
+    content: IEEE Std 998™
+- vocab:
+    language: en
     script: Latn
     content: leader inception theory (LIT)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: leader progression model (LPM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: lightning stroke protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: self-consistent leader inception and propagation model (SLIM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: substations empirical curves
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 91.120.40
     text: Lightning protection
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

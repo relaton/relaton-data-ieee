@@ -1,7 +1,7 @@
 ---
 id: IEEEP18152D10202504
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard Profile for Communications with Distributed Energy
     Resources (DERs) using IEEE Std 1815 [Distributed Network Protocol (DNP3)]
@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2025-04-29'
 - type: issued
-  at: '2025'
+  at: '2025-11-04'
 contributor:
 - role:
   - type: publisher
@@ -70,18 +70,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This document establishes a Standard Profile for communications with Distributed
-    Energy Resources (DER) using IEEE Std 1815, IEEE Standard for Electric Power Systems
-    Communications - Distributed Network Protocol (DNP3). This profile consists of
-    a high-level data model for DER communications, based on selected data objects
+  content: A standard profile for communications with distributed energy resources
+    (DERs) using IEEE Std 1815™ [Distributed Network Protocol (DNP3)] is established.
+    A high-level data model for DER communications, based on selected data objects
     from International Electrotechnical Commission (IEC) 61850-7-420:2021 mapped to
-    a fixed list of DNP3 data points. It also specifies the data objects needed for
-    many DER and Inverter-Base Resources (IBR) functions, including those in IEEE
-    Std 1547-2018, IEEE Std 2800-2022, and IEEE Std 1547.9-2022, as well as additional
-    functions needed for storage systems. In addition, it specifies a mapping to detailed
-    equipment-related data objects, primarily for logging and historical purposes.
-    The profile is provided in both a written and an electronic format (Profile Companion
-    Data Point Tables) for ease of implementation.
+    a fixed list of DNP3 data points, comprises the profile. The data objects needed
+    for many DER and inverter-base resources (IBRs) functions, including those in
+    IEEE Std 1547™-2018, IEEE Std 2800™-2022, and IEEE Std 1547.9™-2022, as well as
+    additional functions needed for storage systems, are also specified. In addition,
+    a mapping to detailed equipment-related data objects, including meters, DER units,
+    inverters, and batteries, is provided. The profile is presented in both a written
+    and an electronic format (IEEE 1815.2 Profile Companion Data Point Tables) for
+    ease of implementation.
 status:
   stage:
     content: draft
@@ -99,48 +99,78 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distributed power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inverters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Photovoltaic systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Battery storage plants
-  - language: en
-    script: Latn
-    content: Distributed Energy Resources (DER)
-  - language: en
-    script: Latn
-    content: DNP3
-  - language: en
-    script: Latn
-    content: communications
-  - language: en
-    script: Latn
-    content: Inverter-Base Resources (BR)
-  - language: en
-    script: Latn
-    content: photovoltaic systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery storage systems
-  - language: en
+- vocab:
+    language: en
+    script: Latn
+    content: communications
+- vocab:
+    language: en
+    script: Latn
+    content: DER
+- vocab:
+    language: en
+    script: Latn
+    content: distributed energy resources
+- vocab:
+    language: en
+    script: Latn
+    content: DNP3
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1815.2(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: IBR
+- vocab:
+    language: en
+    script: Latn
+    content: inverter-base resources
+- vocab:
+    language: en
+    script: Latn
+    content: photovoltaic systems
+- vocab:
+    language: en
     script: Latn
     content: plant controllers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

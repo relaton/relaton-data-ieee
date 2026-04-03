@@ -1,7 +1,7 @@
 ---
 id: IEEEStd200011999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information Technology: Standard for Year 2000 Terminology'
   type: main
@@ -94,36 +94,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Trademarks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards organizations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Organizations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: calendar information
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: date component
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: remediation techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Year 2000 compliant
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -131,7 +139,7 @@ ext:
   - code: 01.140.30
     text: Documents in administration, commerce and industry
   - code: '35.020'
-    text: Information technology (IT) in general
+    text: Information technology in general
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

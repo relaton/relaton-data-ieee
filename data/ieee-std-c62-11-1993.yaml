@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC62111993
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Metal-Oxide Surge Arresters for Alternating Current Power
     Circuits
@@ -109,42 +109,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arresters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metal-oxide surge arrester
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Liquid-immersed arrester
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Duty-cycle voltage rating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Design test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dead front arrester
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Conformance test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arrester
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

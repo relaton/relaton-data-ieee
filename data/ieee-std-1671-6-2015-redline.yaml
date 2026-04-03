@@ -1,7 +1,7 @@
 ---
 id: IEEEStd167162015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Automatic Test Markup Language (ATML) Test Station Description
   type: title-main
@@ -89,45 +89,56 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Markup languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATML instance document
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test equipment (ATE)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic Test Markup Language (ATML)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test system (ATS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1671.6(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test station
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML schema
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

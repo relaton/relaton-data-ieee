@@ -1,7 +1,7 @@
 ---
 id: IEEEPC57162D7202209
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for the Interpretation of Moisture Related Parameters
     in Liquid Immersed Transformers and Reactors
@@ -94,27 +94,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Moisture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Immersion cooling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: relative saturation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEC61691112023
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE/IEC International Standard--Behavioural languages--Part 1-1: VHDL
     Language Reference Manual'
@@ -110,39 +110,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: VHDL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hardware design languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electronic systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hardware
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hardware design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1076&#8482;
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

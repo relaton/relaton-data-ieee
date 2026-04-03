@@ -1,7 +1,7 @@
 ---
 id: IEEEP19044D31202504
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Service Interoperability in 25 Gb/s and
     50 Gb/s Ethernet Passive Optical Networks
@@ -71,13 +71,14 @@ abstract:
 - language: en
   script: Latn
   content: The system-level requirements needed to help ensure service-level, multi-vendor
-    interoperability of Ethernet Passive Optical Network (EPON) equipment is described.
-    The existing IEEE 802.3 and IEEE 802.1 standards, which help ensure the interoperability
-    at the Physical Layer (PHY) and Data Link Layer, are complemented by the specifications.
-    Specifically included in this specification are --EPON system-level interoperability
-    specifications covering equipment functionality, traffic engineering, and service-level
-    quality of service/class of service (QoS/CoS) mechanisms; --Management specifications
-    covering equipment management, service management, and EPON power‐saving mechanism.
+    interoperability of Ethernet Passive Optical Network (EPON) equipment are described
+    in this standard. The existing IEEE 802.3 and IEEE 802.1 standards, which help
+    ensure interoperability at the Physical Layer (PHY) and Data Link Layer, are complemented
+    by the specifications. Specifically included in this specification are as follows
+    --EPON system-level interoperability specifications covering equipment functionality,
+    traffic engineering, and service-level quality of service/class of service (QoS/CoS)
+    mechanisms --Management specifications covering equipment management, service
+    management, and EPON power‐saving mechanisms
 status:
   stage:
     content: draft
@@ -95,58 +96,72 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interoperability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Quality of service
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Service level agreements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 25G-EPON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 50G-EPON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet Passive Optical Network
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: IEEE 1904.4
-  - language: en
+    content: IEEE 1904.4™
+- vocab:
+    language: en
     script: Latn
     content: interoperability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: QoS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: quality of service
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: service interoperability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SIEPON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SIEPON.4
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37131D4201510
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Definite-Purpose Switching Devices for Use in Metal-Enclosed
     Low-Voltage (600 Vac and Below) Power Circuit Breaker Switchgear
@@ -121,30 +121,36 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Low power electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switching systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metal-enclosed switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

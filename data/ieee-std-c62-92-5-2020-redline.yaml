@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC629252020Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Guide for the Application of Neutral Grounding in Electrical Utility
     Systems--Part V: Transmission Systems and Subtransmission Systems'
@@ -104,48 +104,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electricity supply industry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical utility systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: equipment neutral grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C62.92.5
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: neutral grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: series compensation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: subtransmission systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer tertiary systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission systems
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

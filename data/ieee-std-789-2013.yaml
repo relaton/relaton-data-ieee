@@ -1,7 +1,7 @@
 ---
 id: IEEEStd7892013
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Performance Requirements for Communications and Control Cables
     for Application in High-Voltage Environments
@@ -117,51 +117,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-voltage techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communication cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical parameters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ground potential rise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-voltage engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 789
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wires
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

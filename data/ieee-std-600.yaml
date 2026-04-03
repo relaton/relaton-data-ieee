@@ -1,7 +1,7 @@
 ---
 id: IEEEStd600
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Trial-Use Standard Requirements for Organizations that Conduct Qualification
     Testing of Safety Systems Equipment for Use in Nuclear Power Generating Stations
@@ -96,36 +96,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NPGS
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

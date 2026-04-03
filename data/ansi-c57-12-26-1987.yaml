@@ -1,7 +1,7 @@
 ---
 id: ANSIC5712261987
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard for Transformers- Pad-Mounted Compartmental
     -Type, Self-Cooled, Three-Phase Distribution Transformers for Use With Separable
@@ -92,27 +92,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformer insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Regulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Impedance
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

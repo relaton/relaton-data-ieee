@@ -1,7 +1,7 @@
 ---
 id: IEEEP1588D14V42018
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for a Precision Clock Synchronization Protocol for
     Networked Measurement and Control Systems
@@ -108,51 +108,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Networked control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Clocks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Network security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Boundary Clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grandmaster Clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1588
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ordinary Clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transparent Clock
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

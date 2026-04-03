@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE2145112010
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'ISO/IEC/IEEE Information technology -- Smart transducer interface for
     sensors and actuators -- Part 1: Network Capable Application Processor (NCAP)
@@ -95,45 +95,56 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Actuators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telecommunication networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sensors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 21451-1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: '1451.1'
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: actuators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communication network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: object model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sensors
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -141,7 +152,7 @@ ext:
   - code: 25.040.40
     text: Industrial process measurement and control
   - code: '35.040'
-    text: Information coding
+    text: Character sets and information coding
   - code: 35.240.50
     text: IT applications in industry
   standard_status: Active

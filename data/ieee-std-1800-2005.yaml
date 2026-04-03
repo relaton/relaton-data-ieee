@@ -1,7 +1,7 @@
 ---
 id: IEEEStd18002005
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for SystemVerilog: Unified Hardware Design, Specification
     and Verification Language'
@@ -107,51 +107,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hardware design languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Graphics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Programming
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Color
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hardware
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Assertions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Design Automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Design Verification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hardware Description Language (HDL)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Verilog
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Programming Language Interface (PLI)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Verilog Programming Interface (VPI)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SystemVerilog
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

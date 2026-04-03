@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEEP2474810DIS2024
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'ISO/IEC/IEEE Draft International Standard - Systems and software engineering--
     Life cycle management--Part 10: Guidelines for systems engineering agility'
@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2024-12-05'
 - type: issued
-  at: '2024'
+  at: '2025-12-10'
 contributor:
 - role:
   - type: publisher
@@ -67,6 +67,18 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: Systems engineering agility is a strategy-based method for designing, building,
+    sustaining, and evolving purpose-fulfilling creations when knowledge is uncertain
+    and operational environments are dynamic. Strategies are abstractions for what
+    needs to be accomplished and why, without constraints or directions on how to
+    achieve them. This part of ISO/IEC/IEEE 24748 specifies strategic aspects supporting
+    systems engineering agility. It includes guidelines for the application of the
+    strategic aspects as well as relevant examples. Individually and collectively,
+    the aspects can improve capability to deal with uncertain knowledge and dynamic
+    environments.
 status:
   stage:
     content: draft
@@ -84,33 +96,58 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Systems engineering and theory
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Life cycle assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Lifetime estimation
+- vocab:
+    language: en
+    script: Latn
+    content: systems engineering (SE)
+- vocab:
+    language: en
+    script: Latn
+    content: systems engineering agility
+- vocab:
+    language: en
+    script: Latn
+    content: agile
+- vocab:
+    language: en
+    script: Latn
+    content: development and operations (devops)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: '35.080'
+    text: Software
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

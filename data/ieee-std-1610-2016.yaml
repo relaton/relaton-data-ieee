@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16102016
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Application of Faulted Circuit Indicators on Distribution
     Circuits
@@ -103,36 +103,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault tolerant systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sensors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit faults
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault circuit indicator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault indicators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault sensors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FCIs
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1610(TM)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd115932025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Power Quality Data Interchange Format (PQDIF)
   type: main
@@ -107,51 +107,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data transfer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data interchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: file format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1159.3(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PQDI
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

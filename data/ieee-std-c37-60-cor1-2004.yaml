@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC3760Cor12004
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Requirements for Overhead Pad-Mounted, Dry Vault, and Submersible
     Automatic Circuit Reclosers and Fault Interrupters for Alternating Current Systems
@@ -102,48 +102,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interrupters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arresters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault currents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dry vault
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault interrupter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overhead
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pad-mounted
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: recloser
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: submersible
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: standard operating duty
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP1542D9201808
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Guide for Installation, Maintenance, and Operation
     of Irrigation Equipment Located Near or Under Power Lines
@@ -104,39 +104,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Irrigation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Agriculture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmisison lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: farm irrigation systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1542
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: irrigation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: irrigation systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sprinklers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP1309D11201203
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Calibration of Electromagnetic Field Sensors and
     Probes, Excluding Antennas, from 9 kHz to 40 GHz
@@ -113,51 +113,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic fields
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sensors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Probes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Uncertainty
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Field sensors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric field measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: field probe
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: field sensor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: instrumentation measurement uncertainty
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

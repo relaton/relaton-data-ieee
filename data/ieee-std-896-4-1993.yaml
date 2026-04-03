@@ -1,7 +1,7 @@
 ---
 id: IEEEStd89641993
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Conformance Test Requirements for Futurebus+(R)
   type: main
@@ -97,39 +97,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AEP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: block copy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interactive BICS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Implementation under test (IUT)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BIXIT proforma
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BICS proforma
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Application environment profile
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

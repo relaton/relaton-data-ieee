@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC379021995
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Withstand Capability of Relay Systems to Radiated Electromagnetic
     Interference from Transceivers
@@ -116,42 +116,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protective relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic radiative interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TR devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic compatibility
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic compatibility
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective relays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiated electromagnetic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: relay systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transceivers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IECIEEEP625823202210
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEC/IEEE Draft International Standard for Nuclear Power Plants - Instrumentation
     and control important to safety - Electrical equipment condition monitoring methods
@@ -108,27 +108,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Condition monitoring
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

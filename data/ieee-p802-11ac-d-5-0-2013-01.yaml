@@ -1,7 +1,7 @@
 ---
 id: IEEEP80211acD50201301
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information technology-- Telecommunications and information
     exchange between systemsLocal and metropolitan area networks-- Specific requirements--Part
@@ -117,57 +117,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MIMO
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bandwidth
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radio frequency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Throughput
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Array signal processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless LAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 256-QAM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: beamforming
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11ac(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multi-user MIMO
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: noncontiguous frequency segments
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: very high throughput
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wider bandwidth
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

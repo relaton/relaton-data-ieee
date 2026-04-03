@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC371011993
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Generator Ground Protection
   type: main
@@ -106,36 +106,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Relays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronous generator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stator fault
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ground-fault protection
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

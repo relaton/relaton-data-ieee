@@ -1,7 +1,7 @@
 ---
 id: IEEEP1588aD30202204
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for a Precision Clock Synchronization Protocol for
     Networked Measurement and Control Systems Amendment: Enhancements for Best Master
@@ -104,42 +104,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Accuracy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Clocks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Best Master Clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BMCA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Enhanced Accuracy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1588a&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TLV
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

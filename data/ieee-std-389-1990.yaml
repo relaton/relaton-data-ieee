@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3891990
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Testing Electronic Transformers and Inductors
   type: main
@@ -111,105 +111,136 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: common mode
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rejection tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: corona tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electronic inductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inductance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inrush current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulation tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: large rectifiers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: noise tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: product rating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pulse transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: quality factors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: resistance tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: self resonance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: temperature rise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: terminated rise test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage time
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time shielding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage-time shielding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformer capacitance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature rise tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Self-resonance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Quality factor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inductance measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electronic power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current transformer tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Common-mode rejection tests
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

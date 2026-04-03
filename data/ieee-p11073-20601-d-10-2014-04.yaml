@@ -1,7 +1,7 @@
 ---
 id: IEEEP1107320601D10201404
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Health Informatics - Personal Health Device Communication
     - Part 20601: Application Profile - Optimized Exchange Protocol'
@@ -117,33 +117,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Medical devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Informatics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bioinformatics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: '11073'
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medical device communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: personal health devices
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

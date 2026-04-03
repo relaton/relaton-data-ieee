@@ -1,7 +1,7 @@
 ---
 id: IECIEEE60076571292017
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEC/IEEE International Standard - Power transformers--Part 57-129: Transformers
     for HVDC applications'
@@ -103,27 +103,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Loss measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Frequency measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

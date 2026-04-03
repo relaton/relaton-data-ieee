@@ -1,7 +1,7 @@
 ---
 id: IEEEP1187D9201207
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Recommended Practice for Installation Design and Installation
     of Valve-Regulated Lead-Acid Batteries for Stationary Applications
@@ -115,66 +115,84 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power supplies
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Valves
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Keywords:acceptance test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery capacity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery installation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery installation design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery terminal voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: connection resistance measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: float voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: internal ohmic measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: standby power applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: valve-regulated lead acid battery.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

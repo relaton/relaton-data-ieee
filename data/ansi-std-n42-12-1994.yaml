@@ -1,7 +1,7 @@
 ---
 id: ANSIStdN42121994
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Calibration and Usage of Thallium-Activated
     Sodium Iodide Detector Systems for Assay of Radionuclides
@@ -93,33 +93,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gamma-ray detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Scintillation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: efficiency calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: energy calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gamma-ray energy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radioactivity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radionuclides
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

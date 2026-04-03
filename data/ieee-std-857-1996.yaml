@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8571996
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Test Procedures for High-Voltage Direct-Current
     Thyristor Valves
@@ -92,27 +92,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HVDC transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HVDC thyristor valves
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HVDC power transmission systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multiple-valve unit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MVU
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thyristor levels
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

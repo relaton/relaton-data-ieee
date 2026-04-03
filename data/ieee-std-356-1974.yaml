@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3561974
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Radio Methods for Measuring Earth Conductivity
   type: main
@@ -96,30 +96,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Geophysical measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radio communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: earth
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conductivity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measuring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: methods
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: ANSIC5712551987
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard for Transformers--Used in Unit Installations,
     Including Unit Substations--Conformance Standard
@@ -66,21 +66,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Installations
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

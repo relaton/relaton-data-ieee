@@ -1,7 +1,7 @@
 ---
 id: IEEEP1300D1201008
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Cable Connections for Gas Insulated Substations
   type: main
@@ -89,30 +89,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gas insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gas-Insulated Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: GIS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cable Connections
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC62442016
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Application of Low-Voltage (1000 V rms or Less) Surge
     Protective Devices Used on Secondary Distribution Systems (Between the Transformer
@@ -93,27 +93,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surge protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arresters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surge protective device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: secondary arrester
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC62312006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Test Methods for Low-Voltage Gas-Tube Surge-Protective Device
     Components
@@ -100,90 +100,116 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Breakdown voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Discharges (electric)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surge protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: capacitance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: discharge current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: discharge voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc holdover voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc sparkover voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: follow current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gas-tube surge protector
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: glow current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: glow-to-arc transition current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: glow voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: impulse sparkover voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulation resistance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: longitudinal mode voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: short circuit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transfer time
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transition time
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transverse mode voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wave shape
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

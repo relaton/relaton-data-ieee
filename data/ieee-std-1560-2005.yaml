@@ -1,7 +1,7 @@
 ---
 id: IEEEStd15602005
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Methods of Measurement of Radio Frequency Power Line
     Interference Filter in the Range of 100 Hz to 10 GHz
@@ -93,66 +93,84 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Attenuation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiofrequency interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Frequency control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Load management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nonlinear systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Frequency measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: attenuation measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: crest factor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dB
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic interference power-line filters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EMI/RFI filters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insertion loss
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: LISN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: no-load insertion loss
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nonlinear load
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radio-frequency current injection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: S-parameters
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd138731996
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information Technology -- Portable Operating System
     Interface (POSIX(TM)) System Administration -- Part 3: User and Group Account
@@ -95,33 +95,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: open systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operating systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: portable application
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: POSIX
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: user
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: group
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: system administration
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

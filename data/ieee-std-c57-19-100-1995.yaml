@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC57191001995
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Application of Power Apparatus Bushings
   type: main
@@ -99,42 +99,50 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformer insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: application
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power apparatus bushings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: isolated-phase bus
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 29.120.50
-    text: Fuses and other overcurrent protection devices
+    text: Bushings
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

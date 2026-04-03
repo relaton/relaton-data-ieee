@@ -1,7 +1,7 @@
 ---
 id: IEEEStd11073104072008
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'Health informatics-Personal health device communication Part 10407: Device
     specialization - Blood pressure monitor'
@@ -107,34 +107,41 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Biomedical monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Probability density function
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data mining
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Blood pressure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: blood pressure monitor, medical device communication, personal health
       devices
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

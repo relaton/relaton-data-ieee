@@ -1,7 +1,7 @@
 ---
 id: IEEEP80232D32201901
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Ethernet YANG Data Model Definitions
   type: main
@@ -89,30 +89,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data models
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 802.3 Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: YANG.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

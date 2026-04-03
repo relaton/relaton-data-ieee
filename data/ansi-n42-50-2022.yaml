@@ -1,7 +1,7 @@
 ---
 id: ANSIN42502022
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Performance Specifications for Instrumentation
     Systems Designed for Measuring Radon Progeny in Air
@@ -107,39 +107,48 @@ copyright:
       abbreviation:
         content: ANSI
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radon
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Instrumentation and measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Energy measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Air quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: air monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: air sampling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI N42.50
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiological characterization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radon progeny
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

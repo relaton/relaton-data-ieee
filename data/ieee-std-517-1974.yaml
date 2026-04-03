@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5171974
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Specification Format Guide and Test Procedure for Single-Degree-of-Freedom
     Rate-Integrating Gyros
@@ -90,36 +90,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Attitude control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Displacement measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gyroscopes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: single
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: degree
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: freedom
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: intergrating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gyros
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

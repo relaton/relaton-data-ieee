@@ -1,7 +1,7 @@
 ---
 id: IEEEP1450D2202310
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard Test Interface Language (STIL) for Digital
     Test Vector Data
@@ -105,84 +105,108 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test pattern generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Built-in self-test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Vectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Signal processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test pattern generator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATPG
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BIST
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: built-in self-test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CAE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer-aided engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cyclize
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: device under test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: digital test vectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DUT
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: event
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: functional vectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1450&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pattern
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scan vectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: signal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: structural vectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: timed event
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: waveform
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: waveshape
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

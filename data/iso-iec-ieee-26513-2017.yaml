@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE265132017
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering
     -- Requirements for testers and reviewers of information for users
@@ -129,42 +129,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Documentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software documentation review
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software documentation testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: user documentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing and reviewing user documentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: usability testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

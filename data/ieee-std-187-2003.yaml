@@ -1,7 +1,7 @@
 ---
 id: IEEEStd1872003
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Measurement Methods of Emissions from FM and Television Broadcast
     Receivers in the Frequency Range of 9kHz to 40GHz
@@ -110,48 +110,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TV broadcasting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TV interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TV receivers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric field measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic radiative interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic compatibility
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: antenna radiation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conducted emissions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FM sound broadcast receivers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiated emissions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spurious emissions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: television broadcast receivers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd802222011
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information technology-- Local and metropolitan area
     networks-- Specific requirements-- Part 22: Cognitive Wireless RAN Medium Access
@@ -100,54 +100,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: broadband wireless access network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cognitive radio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fixed user terminals
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.22
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: portable user terminals
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radio spectrum sensing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: regional area network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WRAN standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

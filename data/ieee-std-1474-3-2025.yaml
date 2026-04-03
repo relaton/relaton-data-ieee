@@ -1,7 +1,7 @@
 ---
 id: IEEEStd147432025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Communications-Based Train Control (CBTC)
     System Design and Functional Allocations
@@ -106,54 +106,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rail transportation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Networked control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Signal processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: System analysis and design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Functional analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: function
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1474.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: signaling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: train control
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

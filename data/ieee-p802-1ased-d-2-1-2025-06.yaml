@@ -1,7 +1,7 @@
 ---
 id: IEEEP8021ASedD21202506
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Local and Metropolitan Area Networks -Timing and
     Synchronization for Time-Sensitive Applications - Amendment: Fault-Tolerant Timing
@@ -107,42 +107,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault tolerance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Timing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sensitivity analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault-tolerant timing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time selection function
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dependent gPTP times
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: independent gPTPtimes
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

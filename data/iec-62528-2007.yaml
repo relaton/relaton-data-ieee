@@ -1,7 +1,7 @@
 ---
 id: IEC625282007
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEC 62528 Ed. 1 (IEEE Std 1500(TM)-2005): Standard Testability Method
     for Embedded Core-based Integrated Circuits'
@@ -88,41 +88,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: System-on-chip
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hardware
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Core test languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: core test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: embedded core test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IP test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test reuse
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '31.020'
-    text: Electronic components in general
+    text: Industrial automation systems
   - code: '31.220'
-    text: Electromechanical components for electronic and telecommunications equipment
+    text: Electronic components in general
   - code: '35.060'
     text: Languages used in information technology
   standard_status: Superseded

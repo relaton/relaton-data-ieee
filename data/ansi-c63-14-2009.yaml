@@ -1,7 +1,7 @@
 ---
 id: ANSIC63142009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Dictionary of Electromagnetic Compatibility
     (EMC) including Electromagnetic Environmental Effects (E3)
@@ -89,45 +89,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic compatibility
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrostatic discharges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dictionaries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C63.14-2009
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic compatibility (EMC)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic environmental effects (E3)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: terms and definitions; electromagnetic pulse (EMP)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: terms and definitions; electrostatic discharge (ESD)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: terms and definitions
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

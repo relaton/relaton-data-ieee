@@ -1,7 +1,7 @@
 ---
 id: IEEEStd190212009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Long Wavelength Wireless Network Protocol
   type: main
@@ -92,42 +92,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1902.1-2009
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery powered
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: carrier powered
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: displays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: effectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: long wavelength
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low frequency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RFID
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sensors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transceiver
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: visibility networks
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

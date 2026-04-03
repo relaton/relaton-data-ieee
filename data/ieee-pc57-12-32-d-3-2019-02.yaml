@@ -1,7 +1,7 @@
 ---
 id: IEEEPC571232D3201902
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Submersible Equipment - Enclosure Integrity
   type: main
@@ -105,51 +105,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Coatings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Capacitors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical enclosures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: capacitors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: coating integrity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control boxes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: enclosure integrity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.12.32
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network protectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: submersible equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

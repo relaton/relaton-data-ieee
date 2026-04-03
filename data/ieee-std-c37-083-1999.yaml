@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC370831999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Synthetic Capacitive Current Switching Tests of AC High-Voltage
     Circuit Breakers
@@ -93,27 +93,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: capacitive current switching
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: closing phenomena
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: opening phenomena
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synthetic circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing circuit breakers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

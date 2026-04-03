@@ -1,7 +1,7 @@
 ---
 id: IEEEStd541955
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard, Test Code, and Recommended Practice for Induction and Dielectric
     Heating Equipment
@@ -101,27 +101,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Encoding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dielectrics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic heating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Induction heating
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEANSIStd241984
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Performance Characteristics and Dimensions for Outdoor Apparatus
     Bushings
@@ -89,36 +89,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Outdoor equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Performance evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bushings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bushings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: apparatus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: outdoor
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

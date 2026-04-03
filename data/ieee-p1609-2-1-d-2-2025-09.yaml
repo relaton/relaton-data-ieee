@@ -1,7 +1,7 @@
 ---
 id: IEEEP160921D2202509
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
     - Certificate Management Interfaces for End Entities
@@ -103,48 +103,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless Access in Vehicular Environments
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Authorization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Certification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: authorization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: certificate
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: end entity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: enrollment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1609(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1609.2.1(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Security Credential Management System (SCMS)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

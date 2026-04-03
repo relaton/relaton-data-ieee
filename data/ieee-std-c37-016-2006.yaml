@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC370162006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for AC High Voltage Circuit Switchers rated 15.5kV through
     245kV
@@ -102,27 +102,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switching systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-voltage techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ac circuit switcher
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: three-pole circuit switcher
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

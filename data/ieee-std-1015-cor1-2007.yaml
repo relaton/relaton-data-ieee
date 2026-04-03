@@ -1,10 +1,10 @@
 ---
 id: IEEEStd1015Cor12007
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Applying Low Voltage Circuit Breakers Used
-    in Industrial and Commercial Power Systems - Corrigendum 1
+    in Industrial and Commercial Power Systems - Corrigendum 1 (Color Book® Series)
   type: main
 source:
 - type: src
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1015/Cor1-2007
 date:
-- type: updated
-  at: '2008-10-25'
 - type: created
   at: '2007-08-22'
 - type: published
-  at: '2013-01-17'
+  at: '2007-08-27'
 - type: issued
   at: '2007-03-22'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -71,10 +72,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: To correct technical omission/errors to IEEE Std 1015&#8482;-2006 Chapter
-    4 4.12 Normative references Annex 7A (informative) MCCB or MCP data record 7A.6
-    TEST INSTRUCTIONS 7A.6.2 PRIMARY CIRCUIT INSULATION RESISTANCE 7A.6.2 j) 7A.6.2
-    k)
+  content: To correct technical omission/errors to IEEE Std 1015-2006 Chapter 4 4.12
+    Normative references Annex 7A (informative) MCCB or MCP data record 7A.6 TEST
+    INSTRUCTIONS 7A.6.2 PRIMARY CIRCUIT INSULATION RESISTANCE 7A.6.2 j) 7A.6.2 k)
 copyright:
 - from: '2007'
   owner:
@@ -89,69 +89,88 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Low voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Low power electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit breaker evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulated case
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulated-case circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low-voltage circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low-voltage power circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low-voltage protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low-voltage protection device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: molded case
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: molded-case circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overcurrent protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd4341973
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Functional Evaluation of Insulation Systems for Large High-Voltage
     Machines
@@ -97,33 +97,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rotating machine insulation testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation life
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

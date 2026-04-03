@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6031998
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Criteria for Safety Systems for Nuclear Power Generating
     Stations
@@ -107,39 +107,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: actuated equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: associated circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class 1E
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: failure maintenance bypass
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operating bypass
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety function
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sense and command features
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sensor
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

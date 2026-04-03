@@ -1,7 +1,7 @@
 ---
 id: IEEEP1062D30201509
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Recommended Practice for Software Acquisition
   type: main
@@ -117,45 +117,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software developmnet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software-as-a-service
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software acquisition
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: acquirer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: custom development
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: decision authority
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: end user
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: off-the-shelf
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software acquisition process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software-as-a-service
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: supplier
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

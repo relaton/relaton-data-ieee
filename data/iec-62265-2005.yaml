@@ -1,7 +1,7 @@
 ---
 id: IEC622652005
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEC/IEEE Standard for Advanced Library Format (ALF) describing integrated
     circuit (IC) technology, cells, and blocks (Adoption of IEEE Std 1603-2003) '
@@ -83,18 +83,20 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Integrated circuits
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8021532003
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information technology-- Local and metropolitan area
     networks-- Specific requirements-- Part 15.3: Wireless Medium Access Control (MAC)
@@ -100,63 +100,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.15 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless personal area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ad hoc networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ad hoc network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mobility
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Personal Area Network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radio frequency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WPAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UWB
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ultra-wideband
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: signals
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low-rate
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OFDM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Orthogonal Frequency Division Multiplexing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

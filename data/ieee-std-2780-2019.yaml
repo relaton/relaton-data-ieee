@@ -1,7 +1,7 @@
 ---
 id: IEEEStd27802019
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Insulation-Piercing Connectors
   type: main
@@ -92,45 +92,56 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Splicing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2780
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulation-piercing connector
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IPC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power-distribution network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: splicing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

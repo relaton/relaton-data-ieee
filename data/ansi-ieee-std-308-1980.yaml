@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd3081980
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Criteria for Class 1E Power Systems for Nuclear Power Generating
     Stations
@@ -102,33 +102,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1E
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control power system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nuclear power generating station
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

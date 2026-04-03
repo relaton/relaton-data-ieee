@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd3251986
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Test Procedures for Germanium Gamma-Ray Detectors
   type: main
@@ -93,36 +93,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gamma-ray detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Semiconductor radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: germanium
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gamma
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ray
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP5151D51201202
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for the Testing, Design, Installation, and Maintenance
     of Electrical Resistance Heat Tracing for Commercial Applications
@@ -115,72 +115,92 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Resistance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Heat transfer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Heating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ice
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: deicing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical resistance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: floor warming
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: freeze protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: frost heave
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: heat tracing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: heater
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: heating cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: heating device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: installation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: snow melting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: trace heater
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: trace heating.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

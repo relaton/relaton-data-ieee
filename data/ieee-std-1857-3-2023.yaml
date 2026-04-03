@@ -1,7 +1,7 @@
 ---
 id: IEEEStd185732023
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for a System of Advanced Audio and Video Coding
   type: main
@@ -109,60 +109,76 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Payloads
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Storage management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Videos
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Audio systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: audio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: box
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: file format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1857.3&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NAL unit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: packetization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RTP payload format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: storage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: track
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: video
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712372015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for the Electronic Reporting of Distribution Transformer
     Test Data
@@ -103,36 +103,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electronic reporting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electronic reporting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.12.37(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test data
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

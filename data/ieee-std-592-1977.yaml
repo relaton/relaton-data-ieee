@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5921977
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Exposed Semiconducting Shields on Premolded High Voltage
     Cable Joints and Separable Insulated Connectors
@@ -98,33 +98,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: semiconducting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shields
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HVgh
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: joints
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEE2611965
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Letter Symbols for Thermoelectric Devices
   type: main
@@ -89,33 +89,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermoelectric devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Symbols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: letter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: symbols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermoelectric
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: devices
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

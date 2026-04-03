@@ -1,7 +1,7 @@
 ---
 id: IEEEStd12022006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Flame-Propagation Testing of Wire & Cable
   type: main
@@ -89,57 +89,72 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wiring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fires
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 20 kW
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 20 min
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 70 000 Btu/h
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: after burn
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: char
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: charring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: flame propagation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vertical cable tray
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wire
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

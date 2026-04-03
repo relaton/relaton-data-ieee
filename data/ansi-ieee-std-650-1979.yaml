@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd6501979
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Qualification of Class 1E Static Battery Chargers and
     Inverters for Nuclear Power Generating Stations
@@ -107,36 +107,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Battery chargers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inverters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1E
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: chargers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inverters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NPGS
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

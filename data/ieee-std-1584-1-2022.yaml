@@ -1,14 +1,15 @@
 ---
 id: IEEEStd158412022
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Specification of Scope and Deliverable Requirements
-    for an Arc-Flash Hazard Calculation Study in Accordance with IEEE Std 1584
+    for an Arc-Flash Hazard Calculation Study in Accordance with IEEE Std 1584 - SPANISH
+    VERSION
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/9825493
+  content: https://ieeexplore.ieee.org/document/11449048
 docidentifier:
 - content: IEEE Std 1584.1-2022
   type: IEEE
@@ -17,16 +18,16 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 978-1-5044-9192-1
+- content: 979-8-8557-3224-5
   type: ISBN
-- content: 10.1109/IEEESTD.2022.9825493
+- content: 10.1109/IEEESTD.2022.11449048
   type: DOI
 docnumber: IEEE Std 1584.1-2022
 date:
 - type: created
   at: '2022-07-12'
 - type: published
-  at: '2022-07-08'
+  at: '2026-03-19'
 - type: issued
   at: '2022-05-13'
 contributor:
@@ -106,69 +107,96 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
-    script: Latn
-    content: Hazards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arc discharges
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: Fault diagnosis
-  - language: en
+    content: Flash memories
+- vocab:
+    language: en
+    script: Latn
+    content: Hazards
+- vocab:
+    language: en
+    script: Latn
+    content: Short-circuit currents
+- vocab:
+    language: en
     script: Latn
     content: Fault currents
-  - language: en
+- vocab:
+    language: en
+    script: Latn
+    content: Electrical safety
+- vocab:
+    language: en
     script: Latn
     content: arc fault currents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc-flash boundary
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc-flash hazard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc-flash hazard analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc-flash hazard marking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc in enclosures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc in open air
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bolted fault currents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical hazard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1584
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1584.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: incident energy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective device coordination study
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: short-circuit study
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: working distances
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

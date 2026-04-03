@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37108D223202007
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Guide for the Protection of Secondary Network Systems
   type: main
@@ -101,45 +101,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Network systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Relays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protection switching
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.108
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: master relay
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network limiter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network protector
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network relays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spot networks
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

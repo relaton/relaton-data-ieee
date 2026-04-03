@@ -1,7 +1,7 @@
 ---
 id: IEEEStd17292014
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Electric Power Distribution System Analysis
   type: main
@@ -95,30 +95,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1729
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power system analysis
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

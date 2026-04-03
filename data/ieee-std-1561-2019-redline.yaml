@@ -1,7 +1,7 @@
 ---
 id: IEEEStd15612019Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Optimizing the Performance and Life of Lead-Acid Batteries
     in Remote Hybrid Power Systems
@@ -103,45 +103,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Lead acid batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Battery charge measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Charge carrier mobility
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Oxygen
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: charge control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: deficit-charge cycling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1561(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: oxygen recombination cycle
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: remote hybrid power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: valve-regulated lead-acid (LRVA) batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vented lead-acid batteries
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

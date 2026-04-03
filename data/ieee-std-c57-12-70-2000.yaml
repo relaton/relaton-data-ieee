@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712702000
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Standard Terminal Markings and Connections for Distribution and Power Transformers
   type: main
@@ -100,36 +100,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Additives
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer connections
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer terminals
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer polarity
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

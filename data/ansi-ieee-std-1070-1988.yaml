@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd10701988
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Design and Testing of Transmission Modular Restoration
     Structure Components
@@ -101,33 +101,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: restoration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: modular
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: structure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: components
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

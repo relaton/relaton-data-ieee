@@ -1,7 +1,7 @@
 ---
 id: IEEEP837D21201403
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Qualifying Permanent Connections Used in Substation
     Grounding
@@ -114,60 +114,76 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Conductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Equalizers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conductor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conductor combination
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: connection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: connection thermal capacity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control conductor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current loop cycle
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: equalizer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grid system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: permanent connection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grounding connection
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

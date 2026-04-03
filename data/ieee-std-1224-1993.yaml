@@ -1,7 +1,7 @@
 ---
 id: IEEEStd12241993
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: OSI Abstract Data Manipulation-API
   type: main
@@ -84,30 +84,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Open systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Syntactics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Codes
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

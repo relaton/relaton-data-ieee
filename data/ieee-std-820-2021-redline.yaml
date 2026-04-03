@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8202021Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Telephone Loop Performance Characteristics
   type: title-main
@@ -99,36 +99,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Performance evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuits and systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telephony
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Subscriber loops
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 820
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: performance characteristics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: performance classifications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: telephone loop
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

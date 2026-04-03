@@ -1,7 +1,7 @@
 ---
 id: IEEEUnapprovedStdP15939D32008
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Adoption of ISO/IEC 15939:2007--Systems and Software Engineering--Measurement
     Process
@@ -109,18 +109,20 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 15939-2008
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metric
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

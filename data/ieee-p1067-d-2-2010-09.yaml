@@ -1,7 +1,7 @@
 ---
 id: IEEEP1067D2201009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for In-Service Use, Care, Maintenance, and Testing of
     Conductive Clothing for Use on Voltages Up to 765 kV ac and +/-750 kV dc
@@ -91,39 +91,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Conductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: clothing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conductivity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: energized
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power lines
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

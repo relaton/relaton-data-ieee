@@ -1,7 +1,7 @@
 ---
 id: IEEEStd811983
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Guide for Measuring Earth Resistivity, Ground Impedance, and Earth
     Surface Potentials of a Ground System Part 1: Normal Measurements'
@@ -96,42 +96,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Resistance measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault currents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: resistivity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: earth
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ground
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: impedance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: potentials
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

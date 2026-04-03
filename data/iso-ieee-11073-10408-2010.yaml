@@ -1,7 +1,7 @@
 ---
 id: ISOIEEE11073104082010
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'ISO/IEEE Health informatics Personal health device communication Part
     10408: Device specialization Thermometer'
@@ -100,27 +100,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bioinformatics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Medical services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medical device communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: personal health devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermometer
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

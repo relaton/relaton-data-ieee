@@ -1,7 +1,7 @@
 ---
 id: IEEEP1588bD10202108
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for a Precision Clock Synchronization Protocol for
     Networked Measurement and Control Systems Amendment: Addition of Precision Time
@@ -104,45 +104,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical variables measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TIme measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical fiber networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Adaptive optics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transport protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1588b
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical Transport Network (OTN)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Precision Time Protocol (PTP)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronization
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

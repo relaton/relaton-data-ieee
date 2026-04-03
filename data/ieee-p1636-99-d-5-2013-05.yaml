@@ -1,7 +1,7 @@
 ---
 id: IEEEP163699D5201305
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Approved Draft Standard for Software Interface for Maintenance Information
     Collection and Analysis (SIMICA): Common Information Elements'
@@ -90,52 +90,63 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automated Test System (ATS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: eXtensible markup language (XML)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software Interface for Maintenance Information Collection and Analysis
       (SIMICA)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test results
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: session information
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML schema
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '35.040'
-    text: Information coding
+    text: Character sets and information coding
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

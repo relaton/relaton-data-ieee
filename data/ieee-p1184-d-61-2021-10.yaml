@@ -1,7 +1,7 @@
 ---
 id: IEEEP1184D61202110
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Batteries for Uninterruptible Power Supply Systems
   type: main
@@ -908,48 +908,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Uninterruptible power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Regulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1184
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: lithium-ion (Li-ion) batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nickel-cadmium (Ni-Cd) batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nickel-zinc (Ni-Zn) batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: uninterruptible power supply
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UPS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: valve-regulated lead-acid (VRLA)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vented lead-acid batteries (VLA)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC576372015
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Reclamation of Mineral Insulating Oil and Criteria for
     Its Use
@@ -104,45 +104,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Minerals
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Oil insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Petroleum
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dieletric fluid
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reclamation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.637
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mineral insulating oil
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: petroleum mineral oil dielectric fluid
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reclamation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reconditioning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer mineral oil dielectric fluid
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

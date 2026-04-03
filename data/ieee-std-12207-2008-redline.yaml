@@ -1,7 +1,7 @@
 ---
 id: IEEEStd122072008Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering
     -- Software life cycle processes
@@ -134,75 +134,96 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Systems engineering and theory
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 12207-2008
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: acquisition
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: agreement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: audit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: configuration management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: development
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: disposal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: process reference model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: process improvement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: quality assurance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: retirement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: supply
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: validation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: verification
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

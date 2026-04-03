@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6401985
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Power-Station Noise Control
   type: main
@@ -90,15 +90,16 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Acoustic noise measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

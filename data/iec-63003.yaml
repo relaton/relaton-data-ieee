@@ -1,7 +1,7 @@
 ---
 id: IEC63003
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEC/IEEE International standard for the common test interface pin map configuration
     for high-density, single-tier electronics test requirements utilizing IEEE Std
@@ -104,66 +104,82 @@ copyright:
         script: Latn
         content: IEC
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Receivers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Scalability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High density testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fixture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ICD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1505.1(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ITA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mass termination
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: receiver
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scalable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TPS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UUT
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 31.220.10
-    text: Plug-and-socket devices. Connectors
+    text: Plug-and-socket devices
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

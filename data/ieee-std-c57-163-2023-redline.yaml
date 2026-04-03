@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571632023Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Establishing Power Transformer Capability while under Geomagnetic
     Disturbances
@@ -106,69 +106,88 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Geomagnetic storms
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gradient methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: core saturation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design review
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: geomagnetic disturbances
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: geomagnetically induced current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: geomagnetically induced current signature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: GIC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: GMD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.163™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: magnetic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: temperature gradient
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

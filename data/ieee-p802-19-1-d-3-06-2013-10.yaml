@@ -1,7 +1,7 @@
 ---
 id: IEEEP802191D306201310
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Information Technology - Telecommunications and
     Information Exchange Between Systems - Local and Metropolitan Area Networks -
@@ -90,33 +90,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: White space
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radio coexistence
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.19.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: coexistence service
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

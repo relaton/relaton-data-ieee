@@ -1,7 +1,7 @@
 ---
 id: IEEEP19181D3202302
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Tactile Internet: Application Scenarios, Definitions
     and Terminology, Architecture, Functions, and Technical Assumptions'
@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2023-02-24'
 - type: issued
-  at: '2023'
+  at: '2024-09-26'
 contributor:
 - role:
   - type: publisher
@@ -67,6 +67,17 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: A framework for the Tactile Internet, including descriptions of various
+    application scenarios, definitions and terminology, functions, and technical assumptions,
+    is defined by this standard. Also included prominently in this framework is a
+    reference architecture, which defines common architectural entities, interfaces
+    between those entities, and the mapping of functions to those entities. Mission
+    critical applications (e.g., manufacturing, transportation, healthcare, and mobility)
+    and noncritical applications (e.g., edutainment and events) are encompassed by
+    the Tactile Internet.
 status:
   stage:
     content: draft
@@ -84,60 +95,102 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Haptic interfaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Digital twins
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Internet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 5G mobile communicatoin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: User interfaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Human in the loop
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: Tactile Internet
-  - language: en
-    script: Latn
-    content: Human-in-the-loop
-  - language: en
-    script: Latn
-    content: Haptic communication
-  - language: en
-    script: Latn
-    content: 5G and beyond 5G (B5G)
-  - language: en
-    script: Latn
-    content: URLLC
-  - language: en
-    script: Latn
-    content: IoT
-  - language: en
-    script: Latn
-    content: extended reality (XR)
-  - language: en
+    content: 5G
+- vocab:
+    language: en
     script: Latn
     content: 6G
-  - language: en
+- vocab:
+    language: en
+    script: Latn
+    content: B5G
+- vocab:
+    language: en
+    script: Latn
+    content: beyond 5G
+- vocab:
+    language: en
+    script: Latn
+    content: digital twins
+- vocab:
+    language: en
+    script: Latn
+    content: extended reality
+- vocab:
+    language: en
+    script: Latn
+    content: haptic communication
+- vocab:
+    language: en
+    script: Latn
+    content: humanin-the-loop
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1918.1™
+- vocab:
+    language: en
+    script: Latn
+    content: IoT
+- vocab:
+    language: en
+    script: Latn
+    content: massive machine-type communications
+- vocab:
+    language: en
     script: Latn
     content: mMTC
+- vocab:
+    language: en
+    script: Latn
+    content: Tactile Internet
+- vocab:
+    language: en
+    script: Latn
+    content: URLLC
+- vocab:
+    language: en
+    script: Latn
+    content: XR
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 35.240.95
+    text: Internet applications
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

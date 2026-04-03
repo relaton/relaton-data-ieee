@@ -1,7 +1,7 @@
 ---
 id: IEEEStd48812003
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard For Higher Performance Protocol for the Standard Digital
     Interface for Programmable Instrumentation
@@ -98,42 +98,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Instruments
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Trademarks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: GPIB
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HPIB
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HS488
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: non-interlocked handshake
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: three-wire handshake
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SCPI
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

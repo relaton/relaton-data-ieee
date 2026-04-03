@@ -1,7 +1,7 @@
 ---
 id: ANSIStdN4217C1989
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Performance Specifications for Health Physics
     Instrumentation. Portable Instrumentation for Use in Extreme Environmental Conditions
@@ -95,25 +95,30 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Biomedical equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dosimetry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Environmental testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI N42.17C-1989 American National Standard Performance Specifications
       for Health Physics InstrumentationPortable Instrumentation for Use in Extreme
       Environmental Conditions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: describes the minimum acceptable performance criteria for health physics
       instrumentation for use under extreme environmental conditions for monitoring
@@ -121,7 +126,7 @@ keyword:
       for portable health physics instrumentation presented in ANSI N42.17A-1989.
       Include
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

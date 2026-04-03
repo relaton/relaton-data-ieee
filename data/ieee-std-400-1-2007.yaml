@@ -1,7 +1,7 @@
 ---
 id: IEEEStd40012007
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Field Testing of Laminated Dielectric, Shielded Power Cable
     Systems Rated 5 kV and Above with High Direct Current Voltage
@@ -106,51 +106,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dielectric measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cable insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Equipment failure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable installation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: field test procedures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high direct voltage tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulated cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power cable systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shielded power cable systems
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

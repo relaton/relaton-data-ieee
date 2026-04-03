@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd1931971
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Method for Measurement of Weighted Peak Flutter of Sound
     Recording and Reproducing Equipment
@@ -66,24 +66,28 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Audio systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Audio recording
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

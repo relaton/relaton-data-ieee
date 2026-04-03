@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8021Qat2010
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Local and metropolitan area networks--Virtual Bridged
     Local Area Networks Amendment 14: Stream Reservation Protocol (SRP)'
@@ -101,51 +101,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan aea networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bridge circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Audio/Video Bridging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bridged Local Area Networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: LANs
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MAC Bridges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MRP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Multiple Registration Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: resource reservation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Virtual Bridged Local Area Networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: virtual LANs
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

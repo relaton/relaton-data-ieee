@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd3331980
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Electrical Installation of Packaging Machinery and Associated
     Equipment
@@ -94,33 +94,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Packaging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical installations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: packaging machinery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wiring
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd89651993
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Futurebus+, Profile M (Military).
   type: main
@@ -84,30 +84,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Military standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer architecture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Toy manufacturing industry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Kirk field collapse effect
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Multiprocessing systems
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

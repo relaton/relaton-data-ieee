@@ -1,7 +1,7 @@
 ---
 id: IEEEUnapprovedStdP16712D9200804
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Trial-Use Standard for Automatic Test Markup Language (ATML)
     for Exchanging Automatic Test Equipment and Test Information Via XML: Exchanging
@@ -69,18 +69,20 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

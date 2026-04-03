@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd6801978
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Techniques for Determination of Germanium Semiconductor Detector
     Gamma-Ray Efficiency Using a Standard Marinelli (Reentrant) Beaker Geometry
@@ -86,27 +86,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Germanium
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Semiconductor detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gamma rays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Geometry
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEPC62922D5201608
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for the Application of Neutral Grounding In Electrical
     Utility Systems Part II - Synchronous Generator Systems
@@ -107,48 +107,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mechanical stress
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electricity supply industry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric utility systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: neutral grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronous generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mechanical stress in 6 generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overvoltages on generator insulation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

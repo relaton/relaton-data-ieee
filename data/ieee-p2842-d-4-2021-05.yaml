@@ -1,7 +1,7 @@
 ---
 id: IEEEP2842D4202105
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Recommended Practice for Secure Multi-party Computation
   type: main
@@ -93,30 +93,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computation theory
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2842
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MPC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: secure multi-party computation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: technical framework
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

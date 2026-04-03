@@ -1,7 +1,7 @@
 ---
 id: IEEEStd11102002
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Synchronous Generator Modeling Practices and Applications
     in Power System Stability Analyses
@@ -117,18 +117,20 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: modeling practices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: saturation practices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stability data determination and application
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3571973
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Protective Relaying of Utility-Consumer Interconnections
   type: main
@@ -83,30 +83,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protective relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Conductivity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

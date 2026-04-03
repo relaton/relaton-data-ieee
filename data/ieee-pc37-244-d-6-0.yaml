@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37244D60
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Phasor Data Concentrator Requirements for Power System Protection,
     Control, andMonitoring
@@ -88,54 +88,66 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Phasor measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Phasors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pdata concentrator (DC)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: GPS synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.244TM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phasor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phasor data concentrator (PDC)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phasor measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phasor measurement unit (PMU)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchrophasor
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '29.180'
-    text: Transformers. Reactors
+    text: Power transmission and distribution networks in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

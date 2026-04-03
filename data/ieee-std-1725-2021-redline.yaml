@@ -1,7 +1,7 @@
 ---
 id: IEEEStd17252021Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Rechargeable Batteries for Mobile Phones
   type: title-main
@@ -102,36 +102,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cellular phones
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Charging stations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Battery chargers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Lithium-ion batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cellular telephones
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: host device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1725(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: lithium ion batteries
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

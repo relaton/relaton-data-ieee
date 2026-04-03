@@ -1,7 +1,7 @@
 ---
 id: ANSIStdC6361996
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Guide for the Computation of Errors in Open-Area
     Test Site Measurements
@@ -90,30 +90,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Attenuation measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: acceptability criterion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: antenna factor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: attenuator uncertainty
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic noise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: error analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: error budget
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

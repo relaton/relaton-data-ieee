@@ -1,7 +1,7 @@
 ---
 id: IEEEStd15852002
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Functional Specification of Medium Voltage (1- 35kV)
     Electronic Series Devices for Compensation of Voltage Fluctuations
@@ -89,33 +89,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: energy storage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: injection transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inverter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sensitive loads
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: series compensation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage control
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

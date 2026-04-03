@@ -1,7 +1,7 @@
 ---
 id: IEEEStd17832009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Test Methods and Procedures to Evaluate the Electrical Performance
     of Insulators in Freezing Conditions
@@ -89,36 +89,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1793-2009
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cold fog
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: contamination
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-voltage testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ice
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: icing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: salt fog
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: snow
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

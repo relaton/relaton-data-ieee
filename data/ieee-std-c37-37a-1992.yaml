@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC3737a1992
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Loading Guide for AC High-Voltage Air Switches Under Emergency Conditions
   type: main
@@ -102,15 +102,16 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ac high-voltage air switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Emergency conditions
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

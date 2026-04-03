@@ -1,7 +1,7 @@
 ---
 id: IEEEP28052D04202504
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Data acquisition, Filtering and buffering Protocols
     for Edge Computing Node
@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2025-05-14'
 - type: issued
-  at: '2025'
+  at: '2025-09-10'
 contributor:
 - role:
   - type: publisher
@@ -74,7 +74,7 @@ abstract:
     buffering, filtering, and pre-processing data collected from industrial controllers
     on the shop floor, including programmable logic controllers, microcontrollers,
     industrial robots, etc. The data acquisition from field devices with different
-    interfaces must be automatically stored, filtered, and pre-processed according
+    interfaces shall be automatically stored, filtered, and pre-processed according
     to reconfigurable rules, including buffering data from selected time frames, converting
     data formats, and filtering invalid data from industrial clouds and other edge
     computing nodes.
@@ -95,42 +95,54 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Edge computing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information filtering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Buffer storage
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: IEEE 2805.2
-  - language: en
+    content: data acquisition
+- vocab:
+    language: en
     script: Latn
-    content: Edge Computing
-  - language: en
+    content: data buffering
+- vocab:
+    language: en
     script: Latn
-    content: Data Acquisition
-  - language: en
+    content: data filtering
+- vocab:
+    language: en
     script: Latn
-    content: Data Filtering
-  - language: en
+    content: edge computing
+- vocab:
+    language: en
     script: Latn
-    content: Data Buffering
+    content: IEEE 2805.2(TM)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

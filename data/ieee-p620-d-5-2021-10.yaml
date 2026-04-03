@@ -1,7 +1,7 @@
 ---
 id: IEEEP620D5202110
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for the Presentation of Thermal Limit Curves for Squirrel
     Cage Induction Machines
@@ -101,39 +101,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stator windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Induction motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 620
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: machine thermal protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rotor cage windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stator cage windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal limit curves
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: three-phase squirrel cage induction machines
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

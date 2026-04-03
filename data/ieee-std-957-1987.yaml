@@ -1,7 +1,7 @@
 ---
 id: IEEEStd9571987
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Cleaning Insulators
   type: main
@@ -105,24 +105,28 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cleaning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cleaning
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

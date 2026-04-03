@@ -1,7 +1,7 @@
 ---
 id: IEEEP11496D75201508
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Boundary-Scan Testing of Advanced Digital
     Networks
@@ -112,51 +112,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Digital networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Portable document format
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit boards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Integrated circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC-coupled signaling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Boundary-Scan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit boards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: differential signaling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: integrated circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interconnect test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: printed circuit boards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

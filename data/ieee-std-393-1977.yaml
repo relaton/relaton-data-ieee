@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3931977
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Test Procedures for Magnetic Cores
   type: main
@@ -101,36 +101,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Loss measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Magnetic cores
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Magnetic variables measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: procedures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: magnetic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cores
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

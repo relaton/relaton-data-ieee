@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC57132016
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Requirements for Instrument Transformers
   type: main
@@ -110,57 +110,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: accuracy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.13(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: instrument transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: primary winding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rated secondary voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: routine tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: secondary winding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: type tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage transformer
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd31922025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Corrosion Inspection and Evaluation of High-Voltage Direct
     Current (HVDC) Grounding Electrodes (±400 kV to ±1100 kV)
@@ -26,7 +26,7 @@ date:
 - type: created
   at: '2025-12-12'
 - type: published
-  at: '2026-01-02'
+  at: '2026-01-01'
 - type: issued
   at: '2025-09-10'
 contributor:
@@ -94,57 +94,76 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Corrosion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrolytes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HVDC transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Soil measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-voltage techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrodes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: corrosion principle
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrolytic corrosion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: horizontal grounding electrode
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HVDC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 3192(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grounding electrode
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: soil corrosiveness assessment
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 29.240.10
+    text: Substations. Surge arresters
+  - code: 29.240.99
+    text: Other equipment related to power transmission and distribution networks
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

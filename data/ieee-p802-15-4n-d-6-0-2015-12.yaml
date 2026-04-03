@@ -1,7 +1,7 @@
 ---
 id: IEEEP802154nD60201512
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Approved Draft Standard for Local and metropolitan area networks--Part
     15.4: Low-Rate Wireless Personal Area Networks (LR-WPANs) Amendment: Physical
@@ -118,30 +118,36 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Personal area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Low data rates
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

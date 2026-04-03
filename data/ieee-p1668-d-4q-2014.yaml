@@ -1,7 +1,7 @@
 ---
 id: IEEEP1668D4Q2014
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Recommended Practice for Voltage Sag and Interruption
     Ride-Through Testing for End Use Electrical Equipment Less than 1,000 Volts
@@ -95,42 +95,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1668TM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage sag
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage dip
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: equipment testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ride through
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: immunity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage-sag characteristics
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

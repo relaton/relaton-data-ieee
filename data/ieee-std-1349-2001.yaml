@@ -1,7 +1,7 @@
 ---
 id: IEEEStd13492001
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Application of Electric Motors in Class I, Division 2 Hazardous
     (Classified) Locations
@@ -109,72 +109,92 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Induction motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronous motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NFPA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rotors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: auto ignition temperature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class I
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Division 2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: classified locations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: enclosure sparking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hazardous locations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: induction motor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: motor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: motor enclosure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: motor temperature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multisection motor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: paint test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rotor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rotor sparking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rotor temperature
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -182,7 +202,7 @@ ext:
   - code: 29.160.30
     text: Motors
   - code: 29.260.20
-    text: Electrical apparatus for explosive atmospheres
+    text: Electrical installations for explosive atmospheres
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

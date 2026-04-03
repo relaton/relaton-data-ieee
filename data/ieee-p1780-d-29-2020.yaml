@@ -1,7 +1,7 @@
 ---
 id: IEEEP1780D292020
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for the Specification of Inertial Measurement Units
     (IMU)
@@ -90,33 +90,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inertial navigation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement units
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1780
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IMU
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inertial measurement unit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inertial system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: specification
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

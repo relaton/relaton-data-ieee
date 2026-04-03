@@ -1,7 +1,7 @@
 ---
 id: IEEE16094D80201006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
     - Multi-Channel Operation
@@ -92,51 +92,62 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Timing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11 Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: channel coordination
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multi-channel operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: user priority
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WAVE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wireless access in vehicular environments
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: '802.11'
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 35.240.60
-    text: IT applications in transport
+    text: IT applications in transport and trade
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd13022008
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Electromagnetic Characterization of Conductive Gaskets
     in the Frequency Range of DC to 18 GHz
@@ -108,57 +108,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Probability density function
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data mining
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gaskets
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards Board
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1302-2008
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aperture transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic shielding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EMI gaskets
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reverberation chamber
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shielding effectiveness
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stirred mode
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transfer impedance
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

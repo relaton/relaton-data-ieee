@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3081974
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Criteria for Class IE Power Systems for Nuclear Power Generating
     Stations
@@ -96,33 +96,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power supplies
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Instruments
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchyard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission network.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

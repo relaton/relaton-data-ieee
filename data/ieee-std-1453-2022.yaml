@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14532022
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Measurement and Limits of Voltage Fluctuations and Associated
     Light Flicker on AC Power Systems
@@ -121,51 +121,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage fluctuations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Lighting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fluctuations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: flicker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fluctuating installations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1453
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rapid voltage change
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RVC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage fluctuations
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

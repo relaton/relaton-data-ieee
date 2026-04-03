@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd2801985
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Letter Symbols for Quantities Used in Electrical Science
     and Electrical Engineering
@@ -89,37 +89,43 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: letter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: symbols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: quantities
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: science
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 01.080.40
-    text: Graphical symbols for use on electrical and electronics engineering drawings,
-      diagrams, charts and in relevant technical product documentation
+    text: Graphical symbols for use on electrical and electronics engineering technical
+      drawings, diagrams, plans and in relevant technical product documentation
   - code: '29.020'
     text: Electrical engineering in general
   standard_status: Inactive

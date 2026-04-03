@@ -1,7 +1,7 @@
 ---
 id: IEEEP8023ctD31202101
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Ethernet - Amendment: Physical Layers and Management
     Parameters for 100 Gb/s Operation over DWDM (dense wavelength division multiplexing)
@@ -104,66 +104,84 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Energy efficiency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Error correction codes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wavelength division multiplexing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 100 Gb/s Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 100GBASE-ZR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DP-DQPSK
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dense wavelength division multiplexing (DWDM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DWDM black link
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Energy-Efficient Ethernet (EEE)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: forward error correction (FEC)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3ct
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical Medium Dependent (PMD) sublayer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: single-mode fiber (SMF)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

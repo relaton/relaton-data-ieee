@@ -1,7 +1,7 @@
 ---
 id: IEEEP2869D8202106
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for the Synchronous Monitoring of Direct Current (DC)
     Bias Magnetic Current Distribution in Power Grid
@@ -91,63 +91,80 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronous motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power grids
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DC motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Magnetic devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc bias magnetic current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grounding electrode
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-voltage direct current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HVDC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2869
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: monitoring equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: neutral point of the power transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronous monitoring system
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

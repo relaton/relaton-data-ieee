@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10171991
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Field Testing Electric Submersible Pump Cable
   type: main
@@ -95,24 +95,28 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Pumps
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cable ampacity
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd151642007
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Verification, Validation, and Accreditation
     of a Federationan Overlay to the High Level Architecture Federation Development
@@ -98,22 +98,25 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Formal verification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metasearch
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: federate, federation, Federation Development and Execution Process, FEDEP,
       High Level Architecture, HLA, Verification, Validation, and Accreditation, VV&A
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

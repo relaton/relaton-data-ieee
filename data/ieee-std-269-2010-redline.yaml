@@ -1,7 +1,7 @@
 ---
 id: IEEEStd2692010Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Methods for Measuring Transmission Performance of Analog
     and Digital Telephone Sets, Handsets, and Headsets
@@ -114,48 +114,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telephone sets
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Acoustoelectric effects
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telephony
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Speech recognition
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: analog telephones
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: digital telephones
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electroacoustic measurements on telephones
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: handsets
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: headsets
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 269
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: telephony
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voice transmission performance
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

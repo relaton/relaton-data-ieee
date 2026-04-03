@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8021932021
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Recommended Practice for Local and Metropolitan Area Networks--Part
     19: Coexistence Methods for IEEE 802.11 and IEEE 802.15.4 Based Systems Operating
@@ -96,72 +96,92 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Urban areas
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.15 Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Best practices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Frequency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sub-1 GHz frequency bands
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Std 802.15.4g
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Std 802.11ah
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wi-SUN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wi-Fi HaLow&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: coexistence
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CSMA/CA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FSK
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OFDM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: energy detection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: receiver sensitivity
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

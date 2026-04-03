@@ -1,7 +1,7 @@
 ---
 id: IEEEStd185762018
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Digital Media Content Description
   type: main
@@ -96,54 +96,68 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Visualization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Content management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surveillance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Labeling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Video surveillance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Image capture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Content-based retrieval
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Visual analytics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: description
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: feature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1857.6
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: image
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: label
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: video
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

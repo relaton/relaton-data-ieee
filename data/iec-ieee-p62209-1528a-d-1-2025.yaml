@@ -1,7 +1,7 @@
 ---
 id: IECIEEEP622091528aD12025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEC/IEEE International Draft Standard - Measurement procedure for the
     assessment of specific absorption rate of human exposure to radio frequency fields
@@ -106,27 +106,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Specific absorption rate
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Human factors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic measurements
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEPC3782D1202503
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for the Qualification of Switchgear Assemblies for
     Class 1E Applications in Nuclear Power Generating Stations
@@ -105,39 +105,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Assembly systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metal enclosures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class 1E metal-enclosed power switchgear assemblies
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design basis event
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DBE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.82™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualified life
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEPC372D09202201
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard Electrical Power System Device Function Numbers, Acronyms,
     and Contact Designations
@@ -111,69 +111,88 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Noise measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Prognostics and health management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Frequency modulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Man-machine systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Impedance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault detection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical fault detection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: designations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: device functions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: device function acronyms
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: device function numbers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: function numbers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC 61850
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: relay
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

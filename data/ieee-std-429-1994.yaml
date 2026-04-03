@@ -1,7 +1,7 @@
 ---
 id: IEEEStd4291994
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Thermal Evaluation of Sealed Insulation Systems
     for AC Electric Machinery Employing Form-Wound Pre-insulated Stator Coils for
@@ -93,36 +93,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Coils
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Machine windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulation system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stator coils
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ac electric machinery
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

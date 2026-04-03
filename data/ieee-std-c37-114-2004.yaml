@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC371142004
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Determining Fault Location on AC Transmission and Distribution
     Lines
@@ -103,45 +103,54 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault location
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Licenses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault location
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: relays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: system protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: traveling waves
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '29.240'
-    text: Power transmission and distribution networks
+    text: Power transmission and distribution lines
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

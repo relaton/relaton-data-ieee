@@ -1,7 +1,7 @@
 ---
 id: IEEEP8023buD30201606
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment: Physical Layer and Management
     Parameters for Power over Data Lines (PoDL) of Single Balanced Twisted Pair Ethernet'
@@ -89,36 +89,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Time measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Passive optical networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power over Data Lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 100BASE-T1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1000BASE-T1.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

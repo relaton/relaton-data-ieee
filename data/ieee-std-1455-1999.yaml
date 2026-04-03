@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14551999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Message Sets for Vehicle/Roadside Communications
   type: main
@@ -96,89 +96,112 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dedicated short range communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transponders
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: access control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: application layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic vehicle identification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AVI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: beacon
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Commercial Vehicle Operations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CVO
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data authentication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data privacy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dedicated short-range communications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DSRC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electronic toll collection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ETC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Layer 7
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mailbox
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reader
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: r
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 35.240.60
-    text: IT applications in transport
+    text: IT applications in transport and trade
   - code: 43.040.15
-    text: Car informatics. On board computer systems
+    text: Car informatics. On-board computer systems
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

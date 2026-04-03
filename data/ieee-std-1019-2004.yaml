@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10192004
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Specifying Electric Submersible Pump Cable
     - Polypropylene Insulation
@@ -111,42 +111,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cable insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cable shielding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Underwater vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ampacity ratings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: assembly cable construction
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: field testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: submersible pump cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

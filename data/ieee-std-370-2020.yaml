@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3702020
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Electrical Characterization of Printed Circuit Board
     and Related Interconnects at Frequencies up to 50 GHz
@@ -97,51 +97,64 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Printed circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Integrated circuit interconnection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Formal verification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: causality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: consistency tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: de-embedding electrical measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fixture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 370
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interconnect
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: passivity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reciprocity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: S-parameters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: verification
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

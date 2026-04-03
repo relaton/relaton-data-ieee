@@ -1,7 +1,7 @@
 ---
 id: IEEEStd167112009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Automatic Test Markup Language (ATML) for Exchanging
     Automatic Test Equipment and Test Information via XML: Exchanging Test Descriptions'
@@ -106,60 +106,76 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Markup languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic test equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1671.1-2009
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test equipment (ATE)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic Test Markup Language (ATML)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automatic Test Markup Language (ATML) instance document
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automatic test system (ATS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: diagnostic requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test description
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test Program Set (TPS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test Requirements Document (TRD)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML schema
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

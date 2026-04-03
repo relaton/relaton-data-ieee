@@ -1,7 +1,7 @@
 ---
 id: IEEEStdP946D7
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Approved IEEE Draft Recommended Practice for the Design of DC Auxillary
     Power Systems for Nuclear Power Generating Stations Superseded by 946-2004
@@ -62,15 +62,16 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

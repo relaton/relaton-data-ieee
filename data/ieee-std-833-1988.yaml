@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8331988
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for the Protection of Electric Equipment in Nuclear
     Power Generating Stations from Water Hazards
@@ -102,39 +102,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: water hazards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generating stations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Water
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Seals
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical equipment enclosure
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

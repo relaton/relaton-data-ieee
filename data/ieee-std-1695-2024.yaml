@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16952024
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Understanding, Diagnosing, and Mitigating Stray and Contact
     Voltage
@@ -106,30 +106,36 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Energy consumption
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power demand
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: contact voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1695&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stray voltage
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

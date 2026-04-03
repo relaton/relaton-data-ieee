@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC371102023
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Application of Current Transformers Used for Protective
     Relaying Purposes
@@ -105,30 +105,36 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protective relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.110
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective relaying
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

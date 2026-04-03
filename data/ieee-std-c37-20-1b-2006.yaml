@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC37201b2006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Metal-Enclosed Low-Voltage Power Circuit Breaker Switchgear
     - Amendment 2: Additional Requirements for Control and Auxiliary Power Wiring
@@ -104,33 +104,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wiring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Trademarks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control wiring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc traction power switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: traction power substation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

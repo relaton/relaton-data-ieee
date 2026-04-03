@@ -1,7 +1,7 @@
 ---
 id: IEEENESCHandbook
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 2023 National Electrical Safety Code (NESC®) Handbook
   type: main
@@ -96,76 +96,51 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref: IEEE NESC HBK-2017
+    docidentifier:
+    - content: IEEE NESC HBK-2017
+      type: IEEE
+      primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Guidelines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: National Electric Code
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: communications industry safety
-  - language: en
-    script: Latn
-    content: construction of communication lines
-  - language: en
-    script: Latn
-    content: construction of electric supply lines
-  - language: en
-    script: Latn
-    content: electrical safety
-  - language: en
-    script: Latn
-    content: electric supply stations
-  - language: en
-    script: Latn
-    content: electric utility stations
-  - language: en
-    script: Latn
-    content: high-voltage safety
-  - language: en
-    script: Latn
-    content: NESC
-  - language: en
-    script: Latn
-    content: National Electrical Safety Code
-  - language: en
-    script: Latn
-    content: operation of communications sys­tems
-  - language: en
-    script: Latn
-    content: operation of electric supply systems
-  - language: en
-    script: Latn
-    content: power station equipment
-  - language: en
-    script: Latn
-    content: power station safety
-  - language: en
-    script: Latn
-    content: public utility safety
-  - language: en
-    script: Latn
-    content: safety work rules
-  - language: en
-    script: Latn
-    content: underground communication line safety
-  - language: en
-    script: Latn
-    content: underground electric line safety
+    content: communications industry safety; construction of communication lines;
+      construction of electric supply lines; electrical safety; electric supply stations;
+      electric utility stations; high-voltage safety; NESC; National Electrical Safety
+      Code; operation of communications sys­tems; operation of electric supply systems;
+      power station equipment; power station safety; public utility safety; safety
+      work rules; underground communication line safety; underground electric line
+      safety.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

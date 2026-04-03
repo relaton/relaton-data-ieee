@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37251D23202303
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Common Protection and Control Settings or Configuration
     Data Format (COMSET)
@@ -90,48 +90,60 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault diagnosis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 'configuration management '
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: settings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: configuration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: setting file
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: comset
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scl
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: '61850'
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: setting groups
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: default settings
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

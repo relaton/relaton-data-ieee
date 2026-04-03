@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80211b1999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information Technology - Telecommunications and information
     exchange between systems - Local and Metropolitan networks - Specific requirements
@@ -101,39 +101,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 2.4 GHz
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high speed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: local area network (LAN)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radio frequency (RF)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wireless
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10051991
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Definitions and Characterization of Floating Gate Semiconductor
     Arrays
@@ -107,33 +107,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cellular logic arrays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Failure analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Semiconductor memories
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Memory architecture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: array
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nonvolatile memory
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Floating gate
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

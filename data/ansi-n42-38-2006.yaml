@@ -1,7 +1,7 @@
 ---
 id: ANSIN42382006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Performance Criteria for Spectroscopy-Based
     Portal Monitors Used for Homeland Security
@@ -96,51 +96,62 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Portals
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Licenses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Spectroscopy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Instruments
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gamma spectroscopy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: homeland security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: instrument test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: portal monitors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radionuclide identification
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '13.310'
-    text: Protection against crime
+    text: Radiation measurements
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

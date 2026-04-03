@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8021Qaw2009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Local and metropolitan area networks-- Virtual Bridged
     Local Area Networks Amendment 9: Management of Data Driven and Data Dependent
@@ -101,57 +101,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data mining
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards Board
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Materials
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Warranties
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 802.1Qaw-2009
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: LANs
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MAC Bridges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MANs
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OAM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transparent bridging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: VLANS
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

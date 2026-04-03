@@ -1,7 +1,7 @@
 ---
 id: IEEEP1082D82016
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Incorporating Human Reliability Analysis into Probabilistic
     Risk Assessments for Nuclear Power Generating Stations and other Nuclear Facilities
@@ -105,42 +105,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Human factors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Risk assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Probabilistic logic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HRA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: human reliability analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1082&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PRA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: probabilistic risk assessment
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

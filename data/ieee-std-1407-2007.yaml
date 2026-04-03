@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14072007
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Accelerated Aging Tests for Medium-Voltage (5 kV-35 kV)
     Extruded Electric Power Cables Using Water-Filled Tanks
@@ -103,54 +103,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Storage tanks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Water
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1407-2007
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: accelerated-aging tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable core test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conductor resistance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cross-linked polyethylene (XLPE)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ethylene propylene rubber (EPR)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: total harmonic distortion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tree- retardant XLPE (TRXLPE)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: water-filled tanks
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

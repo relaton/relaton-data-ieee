@@ -1,7 +1,7 @@
 ---
 id: IEEEStd12602018
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide on the Prediction,Measurement, and Analysis of AM Broadcast
     Reradiation by Power Lines
@@ -96,42 +96,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Broadcasting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AM broadcast
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1260&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interference prediction
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reradiation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

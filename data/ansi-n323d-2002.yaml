@@ -1,7 +1,7 @@
 ---
 id: ANSIN323D2002
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard for Installed Radiation Protection Instrumentation
   type: main
@@ -98,15 +98,16 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dosimetry
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

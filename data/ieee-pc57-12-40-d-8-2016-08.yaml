@@ -1,7 +1,7 @@
 ---
 id: IEEEPC571240D8201608
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Network, Three-Phase Transformers, 2500 kVA and
     Smaller; High Voltage, 34 500 V and Below; Low Voltage, 600 V and Below; Subway
@@ -113,48 +113,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Copper bearing steel
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Magnetic switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: copper-bearing steel
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grounding switch
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.12.40
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: magnetizing switch
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: subway
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vault
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

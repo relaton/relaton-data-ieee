@@ -1,7 +1,7 @@
 ---
 id: IECIEEEP618692021
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard Uncertainty Evaluation in the Calibration of Instrument
     Transformers
@@ -91,24 +91,28 @@ copyright:
         script: Latn
         content: IEC
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Instrumentation and measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Uncertainty
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Performance evaluation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

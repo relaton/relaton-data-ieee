@@ -1,7 +1,7 @@
 ---
 id: IEEEP203011D1202102
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard Technical Specifications of a DC Quick and Bi-directional
     Charger for Use with Electric Vehicles
@@ -118,63 +118,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bidirectional control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automotive engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DC machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automotive
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CHAdeMO
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc charger
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc charging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric vehicle
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fast charger
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fast charging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC 61851-23
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2030.1.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rapid charging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SAE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SAE J1772
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SAE J2836/2
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

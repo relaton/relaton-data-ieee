@@ -1,7 +1,7 @@
 ---
 id: IEEEP1566D2201410
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Performance of Adjustable Speed AC Drives Rated
     375 kW and Larger
@@ -120,30 +120,36 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Variable speed drives
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Performance evaluation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Motor drives
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: adjustable speed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: large drives
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

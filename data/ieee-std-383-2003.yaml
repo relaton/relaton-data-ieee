@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3832003
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Qualifying Class 1E Electric Cables and Field Splices
     for Nuclear Power Generating Stations
@@ -114,39 +114,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: class 1E electric cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: factory rework
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: factory splices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: field splices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualified life
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rep-resentative cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: representative splices
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

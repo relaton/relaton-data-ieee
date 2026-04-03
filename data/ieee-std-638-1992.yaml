@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6381992
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Qualification of Class 1E Transformers for Nuclear Power
     Generating Stations
@@ -100,42 +100,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fission reactor safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformer windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: type
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NPGS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Seismic qualification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Design qualification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class 1E transformers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

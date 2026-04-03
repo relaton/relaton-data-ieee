@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5352006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Qualification of Class 1E Lead Storage Batteries for
     Nuclear Power Generating Stations
@@ -98,48 +98,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Lead batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Seismic measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery aging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery qualification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery qualification methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery seismic testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class 1E battery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vented lead acid battery
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP2030100D12201703
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Recommended Practice for Implementing an IEC 61850
     Based Substation Communications, Protection, Monitoring and Control System
@@ -94,39 +94,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communications technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC 61850
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substation Automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: GOOSE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sample Values
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SV
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MMS
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

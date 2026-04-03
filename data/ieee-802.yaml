@@ -1,7 +1,7 @@
 ---
 id: IEEE802
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE 802 Nendica Report: Flexible Factory IoT: Use Cases and Communication
     Requirements for Wired and Wireless Bridged Networks'
@@ -80,24 +80,28 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: '802'
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bridged networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nendica
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wireless
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wired
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd1131985
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Guide: Test Procedures for Direct-Current Machines'
   type: main
@@ -94,36 +94,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Machinery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Micromechanical devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: machines
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

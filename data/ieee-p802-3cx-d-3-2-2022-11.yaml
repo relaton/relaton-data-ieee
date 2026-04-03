@@ -1,7 +1,7 @@
 ---
 id: IEEEP8023cxD32202211
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment 6: Media Access Control (MAC)
     Service Interface and Management Parameters to Support Improved Precision Time
@@ -104,39 +104,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Warranties
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3cx
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: timestamp
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

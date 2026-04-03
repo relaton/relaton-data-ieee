@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC62431999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Application of Surge Protectors Used in Low-Voltage
     (Less Than Or Equal To 1000 Vrms or 1200 Vdc) Data, Communications, and Signaling
@@ -107,27 +107,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: breakdown voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communications circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: signaling circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: surgeprotectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: surge-protective devices
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80210h1997
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Secure Data Exchange (SDE) - Protocol Implementation Conformance
     Statement (PICS) Proforma (Annex 2L)
@@ -101,33 +101,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: proforma
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protocol implementation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conformance statement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: secure data exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security association
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security services
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

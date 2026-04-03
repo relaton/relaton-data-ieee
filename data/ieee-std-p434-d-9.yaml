@@ -1,7 +1,7 @@
 ---
 id: IEEEStdP434D9
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Unapproved IEEE Draft Guide for Functional Evaluation of Insulation Systems
     for Large High-Voltage Machines (Revision of IEEE 434-1973)
@@ -62,30 +62,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal expansion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermomechanical processes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal variables measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stress
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Licenses
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

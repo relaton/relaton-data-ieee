@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC3711812011
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Synchrophasor Measurements for Power Systems
   type: main
@@ -120,84 +120,108 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data storage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Vectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Error statistics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Phasor measurement units
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data concentrator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: frequency error
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.118.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IRIG-B
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PDC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phasor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phasor measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phasor measurement unit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PMU
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RFE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ROCOF
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ROCOF error
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronized phasor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchrophasor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: total vector error
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TVE
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

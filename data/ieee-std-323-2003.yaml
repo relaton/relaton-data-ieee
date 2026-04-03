@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3232003
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Qualifying Class 1E Equipment for Nuclear Power Generating
     Stations
@@ -105,69 +105,88 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Qualifications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: age conditioning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: condition monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design basis events
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: equipment qualification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: harsh environment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: margin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mild environment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualification method
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualified life
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety related function
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: significant aging mechanism
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test plan
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

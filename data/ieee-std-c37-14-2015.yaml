@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC37142015
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for DC (3200 V and below) Power Circuit Breakers Used in
     Enclosures
@@ -110,51 +110,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rectifiers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current-limiting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: direct-acting trip
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: general purpose
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-speed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.14(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: impulse trip device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mining duty
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reverse-current trip device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: semi-high-speed or rectifier circuit breaker
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

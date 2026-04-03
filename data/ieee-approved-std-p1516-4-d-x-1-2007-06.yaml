@@ -1,7 +1,7 @@
 ---
 id: IEEEApprovedStdP15164Dx1200706
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Approved IEEE Draft Recommended Practice for Verification, Validation,
     and Accreditation of a Federation - an Overlay to the High Level Architecture
@@ -63,30 +63,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Accreditation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Licenses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards organizations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Organizations
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

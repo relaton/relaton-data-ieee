@@ -1,7 +1,7 @@
 ---
 id: IEEEPC57113D5202307
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Recommended Practice for Partial Discharge Measurement in Liquid-Filled
     Power Transformers and Shunt Reactors
@@ -104,45 +104,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Shunts (electrical)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Partial discharge measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: apparent charge
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.113&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: partial discharge
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shunt reactor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wideband PD measurement
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

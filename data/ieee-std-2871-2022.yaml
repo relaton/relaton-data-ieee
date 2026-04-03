@@ -1,7 +1,7 @@
 ---
 id: IEEEStd28712022
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Wedge-Shaped Groove Clamps
   type: main
@@ -91,30 +91,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Clamps
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2871
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power-distribution network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: splicing test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wedge-shaped groove clamps
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

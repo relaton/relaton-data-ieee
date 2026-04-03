@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16222011
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Electronic Distribution of Blank Ballots for Voting Systems
   type: main
@@ -93,57 +93,72 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electronic voting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: absentee voting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: blank ballot distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: elections
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FVAP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1622
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: military voters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MOVE Act
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overseas voters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UOCAVA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: VIP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voting systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vote-by-mail
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571291999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE General Requirements and Test Code for Oil Immersed HVDC Converter
     Transformers
@@ -105,54 +105,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Oil insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformer insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HVDC transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C57.129-1999
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: construction
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: converter transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HVDC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: oil-immersed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test code
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tests
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

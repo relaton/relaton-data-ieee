@@ -1,7 +1,7 @@
 ---
 id: ISOIEC152052000
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: ISO/IEC 15205:2000 (IEEE Std 1496-1993) SBus -- Chip and Module Interconnect
     Bus
@@ -106,39 +106,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data transfer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Process control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: I/O bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SBus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SBus Card
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standard for Boot Firmware
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

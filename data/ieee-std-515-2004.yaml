@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5152004
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for the Testing, Design, Installation, and Maintenance of
     Electrical Resistance Heat Tracing for Industrial Applications
@@ -102,54 +102,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Resistance heating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: constant wattage heaters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: heating cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: heat loss
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: heat tracing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: parallel heating cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pipelines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: series heating cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: self-regulating heating cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: surface heating devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vessel heater
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

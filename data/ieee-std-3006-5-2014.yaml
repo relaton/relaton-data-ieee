@@ -1,7 +1,7 @@
 ---
 id: IEEEStd300652014
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for the Use of Probability Methods for Conducting
     a Reliability Analysis of Industrial and Commercial Power Systems
@@ -91,42 +91,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Failure analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Probability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power systems reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Industrial power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: availability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: common cause failure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 3006.5
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reliability analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time to failure data
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

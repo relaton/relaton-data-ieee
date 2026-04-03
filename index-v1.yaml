@@ -1,6 +1,8 @@
 ---
 - :id: A Call
   :file: data/a-call.yaml
+- :id: A Case
+  :file: data/a-case.yaml
 - :id: A Framework
   :file: data/a-framework.yaml
 - :id: A Guide
@@ -1797,6 +1799,8 @@
   :file: data/iec-ieee-fdis-p63253-5713-8-2024-02.yaml
 - :id: IEC/IEEE FDIS P63332.387-2024-04
   :file: data/iec-ieee-fdis-p63332-387-2024-04.yaml
+- :id: IEC/IEEE P2770
+  :file: data/iec-ieee-p2770.yaml
 - :id: IEC/IEEE P60076.16-2016-05
   :file: data/iec-ieee-p60076-16-2016-05.yaml
 - :id: IEC/IEEE P60076.57-129/D-26
@@ -1843,6 +1847,8 @@
   :file: data/iec-ieee-p62209-1528a-d-1-2025.yaml
 - :id: IEC/IEEE P62209.1528a/D-2-2025
   :file: data/iec-ieee-p62209-1528a-d-2-2025.yaml
+- :id: IEC/IEEE P62209.1528a/D-3-2026
+  :file: data/iec-ieee-p62209-1528a-d-3-2026.yaml
 - :id: IEC/IEEE P62209.3/E-2-2023-02
   :file: data/iec-ieee-p62209-3-e-2-2023-02.yaml
 - :id: IEC/IEEE P62271.37-013/D-13.4-2015
@@ -1861,6 +1867,8 @@
   :file: data/iec-ieee-p62582-6-2018-fdis.yaml
 - :id: IEC/IEEE P62659/D-3-2015-05
   :file: data/iec-ieee-p62659-d-3-2015-05.yaml
+- :id: IEC/IEEE P62671/D-1-2026-01
+  :file: data/iec-ieee-p62671-d-1-2026-01.yaml
 - :id: IEC/IEEE P62704.1/D-2-2013-10
   :file: data/iec-ieee-p62704-1-d-2-2013-10.yaml
 - :id: IEC/IEEE P62704.1/D-2-2022-09
@@ -1889,10 +1897,18 @@
   :file: data/iec-ieee-p62704-4-d-2-2019-08.yaml
 - :id: IEC/IEEE P62704.4/D-3-2019-09
   :file: data/iec-ieee-p62704-4-d-3-2019-09.yaml
+- :id: IEC/IEEE P63195.1
+  :file: data/iec-ieee-p63195-1.yaml
 - :id: IEC/IEEE P63195.2/E-2-2020-02
   :file: data/iec-ieee-p63195-2-e-2-2020-02.yaml
 - :id: IEC/IEEE P63195.2/E-3-2021-02
   :file: data/iec-ieee-p63195-2-e-3-2021-02.yaml
+- :id: IEC/IEEE P63195.2
+  :file: data/iec-ieee-p63195-2.yaml
+- :id: IEC/IEEE P63195.3
+  :file: data/iec-ieee-p63195-3.yaml
+- :id: IEC/IEEE P63195.4/D-1
+  :file: data/iec-ieee-p63195-4-d-1.yaml
 - :id: IEC/IEEE P63195/E-1-2018
   :file: data/iec-ieee-p63195-e-1-2018.yaml
 - :id: IEC/IEEE P63198.2775/D-6.1_CDV_March-2022
@@ -1921,6 +1937,8 @@
   :file: data/iec-ieee-pc37-60-d-6-1-2016-08.yaml
 - :id: IEC/IEEE PC37.60/P62271.111/D-9-2018-09
   :file: data/iec-ieee-pc37-60-d-9-2018-09.yaml
+- :id: IEC/IEEE TR
+  :file: data/iec-ieee-tr.yaml
 - :id: IEC/IEEE TS P61869.105/E-1-2018-09
   :file: data/iec-ieee-ts-p61869-105-e-1-2018-09.yaml
 - :id: IEC IEEE
@@ -2300,7 +2318,7 @@
 - :id: IEEE 802.15.4g/D-7-2011-11
   :file: data/ieee-802-15-4g-d-7-2011-11.yaml
 - :id: IEEE 802.16k-
-  :file: data/ieee-802-16k-.yaml
+  :file: data/ieee-802-16k.yaml
 - :id: IEEE 802.1Qch-2017
   :file: data/ieee-802-1qch-2017.yaml
 - :id: IEEE 802.21a/D-05-2011-10
@@ -2309,10 +2327,10 @@
   :file: data/ieee-802-21a-d-06-2011-11.yaml
 - :id: IEEE 802.21b/D-06-2011-11
   :file: data/ieee-802-21b-d-06-2011-11.yaml
-- :id: IEEE 802.3-
-  :file: data/ieee-802-3-.yaml
 - :id: IEEE 802.3-2015/Cor 1-2017
   :file: data/ieee-802-3-2015-cor-1-2017.yaml
+- :id: IEEE 802.3-
+  :file: data/ieee-802-3.yaml
 - :id: IEEE 802.5v-2001
   :file: data/ieee-802-5v-2001.yaml
 - :id: IEEE 802
@@ -2526,15 +2544,15 @@
 - :id: IEEE C62.31-1987
   :file: data/ieee-c62-31-1987.yaml
 - :id: IEEE C62.72-
-  :file: data/ieee-c62-72-.yaml
+  :file: data/ieee-c62-72.yaml
 - :id: IEEE C62.92.1-1987
   :file: data/ieee-c62-92-1-1987.yaml
 - :id: IEEE C62.92-1989
   :file: data/ieee-c62-92-1989.yaml
 - :id: IEEE C63.19-
-  :file: data/ieee-c63-19-.yaml
+  :file: data/ieee-c63-19.yaml
 - :id: IEEE C63.4-
-  :file: data/ieee-c63-4-.yaml
+  :file: data/ieee-c63-4.yaml
 - :id: IEEE C63.4a-2017
   :file: data/ieee-c63-4a-2017.yaml
 - :id: IEEE CD P16085-2018-02
@@ -2641,6 +2659,8 @@
   :file: data/ieee-iec-p62582-1.yaml
 - :id: IEEE/IEC P62582.3/D-1-2011-04
   :file: data/ieee-iec-p62582-3-d-1-2011-04.yaml
+- :id: IEEE/IEC P62582.5/D-1-2026-03
+  :file: data/ieee-iec-p62582-5-d-1-2026-03.yaml
 - :id: IEEE/IEC P62659/D-2
   :file: data/ieee-iec-p62659-d-2.yaml
 - :id: IEEE/IEC P62704.2
@@ -2729,6 +2749,10 @@
   :file: data/ieee-p1-d-2-2025-01.yaml
 - :id: IEEE P1/D-3-2025-03
   :file: data/ieee-p1-d-3-2025-03.yaml
+- :id: IEEE P1/D-4-2025-12
+  :file: data/ieee-p1-d-4-2025-12.yaml
+- :id: IEEE P1/D-5-2026-01
+  :file: data/ieee-p1-d-5-2026-01.yaml
 - :id: IEEE P1003.1/D-1-2017-07
   :file: data/ieee-p1003-1-d-1-2017-07.yaml
 - :id: IEEE P1003.1/D-3-2023-03
@@ -3281,10 +3305,14 @@
   :file: data/ieee-p11073-20601-d-3-2017-07.yaml
 - :id: IEEE P11073.20601/D-4-2018-01
   :file: data/ieee-p11073-20601-d-4-2018-01.yaml
+- :id: IEEE P11073.20601/D-4-2025-12
+  :file: data/ieee-p11073-20601-d-4-2025-12.yaml
 - :id: IEEE P11073.20601/D-4/Cor1-2015
   :file: data/ieee-p11073-20601-d-4-cor1-2015.yaml
 - :id: IEEE P11073.20601/D-5-2018-02
   :file: data/ieee-p11073-20601-d-5-2018-02.yaml
+- :id: IEEE P11073.20601/D-5-2026-02
+  :file: data/ieee-p11073-20601-d-5-2026-02.yaml
 - :id: IEEE P11073.20601/D-5/Cor1-2015
   :file: data/ieee-p11073-20601-d-5-cor1-2015.yaml
 - :id: IEEE P11073.20601/D-6-2018-05
@@ -3799,6 +3827,8 @@
   :file: data/ieee-p1427-d-5-1-2020-08.yaml
 - :id: IEEE P1428/D-1-2025-08
   :file: data/ieee-p1428-d-1-2025-08.yaml
+- :id: IEEE P1428/D-3-2026-03
+  :file: data/ieee-p1428-d-3-2026-03.yaml
 - :id: IEEE P1434/D-13-2014-03
   :file: data/ieee-p1434-d-13-2014-03.yaml
 - :id: IEEE P1434/D-14-2014-07
@@ -4313,10 +4343,14 @@
   :file: data/ieee-p1588g-d-1-2-2022-03.yaml
 - :id: IEEE P1588g/D-1.3-2022-09
   :file: data/ieee-p1588g-d-1-3-2022-09.yaml
+- :id: IEEE P1588h/D-1.1-2025-12
+  :file: data/ieee-p1588h-d-1-1-2025-12.yaml
 - :id: IEEE P1589/D-1-2017-05
   :file: data/ieee-p1589-d-1-2017-05.yaml
 - :id: IEEE P1589/D-3-2019-10
   :file: data/ieee-p1589-d-3-2019-10.yaml
+- :id: IEEE P1591.1/D-1/Cor1-2025-05
+  :file: data/ieee-p1591-1-d-1-cor1-2025-05.yaml
 - :id: IEEE P1591.1/D-2-2011-03
   :file: data/ieee-p1591-1-d-2-2011-03.yaml
 - :id: IEEE P1591.1/D-3-2011-11
@@ -5019,6 +5053,8 @@
   :file: data/ieee-p1707-d-1-2025-05.yaml
 - :id: IEEE P1707/D-2-2025-12
   :file: data/ieee-p1707-d-2-2025-12.yaml
+- :id: IEEE P1707/D-3-2026-02
+  :file: data/ieee-p1707-d-3-2026-02.yaml
 - :id: IEEE P1708/D-02-2013-08
   :file: data/ieee-p1708-d-02-2013-08.yaml
 - :id: IEEE P1708/D-03-2014-02
@@ -5081,6 +5117,8 @@
   :file: data/ieee-p1718-d-6-2012-01.yaml
 - :id: IEEE P1719/D-56-2023-12
   :file: data/ieee-p1719-d-56-2023-12.yaml
+- :id: IEEE P1719/D-69-2026-02
+  :file: data/ieee-p1719-d-69-2026-02.yaml
 - :id: IEEE P1720/D-2-2012-04
   :file: data/ieee-p1720-d-2-2012-04.yaml
 - :id: IEEE P1720/D-3-2012-06
@@ -5533,6 +5571,8 @@
   :file: data/ieee-p1857-12-d-2-2022-07.yaml
 - :id: IEEE P1857.12/D-3-2022-08
   :file: data/ieee-p1857-12-d-3-2022-08.yaml
+- :id: IEEE P1857.16/D-3-2025-11
+  :file: data/ieee-p1857-16-d-3-2025-11.yaml
 - :id: IEEE P1857.2/D-2-2023-02
   :file: data/ieee-p1857-2-d-2-2023-02.yaml
 - :id: IEEE P1857.2/D-3-2013-05
@@ -5941,6 +5981,8 @@
   :file: data/ieee-p1920-2-d-4-2025-10.yaml
 - :id: IEEE P1920.2/D-5-2025-11
   :file: data/ieee-p1920-2-d-5-2025-11.yaml
+- :id: IEEE P1920.2/D-6-2026-03
+  :file: data/ieee-p1920-2-d-6-2026-03.yaml
 - :id: IEEE P1922.2/D-1-2019-05
   :file: data/ieee-p1922-2-d-1-2019-05.yaml
 - :id: IEEE P1922.2/D-2.1-2019-08
@@ -6051,6 +6093,8 @@
   :file: data/ieee-p1939-1-d-6-0-2020-10.yaml
 - :id: IEEE P1953.1/D-3-2025-05
   :file: data/ieee-p1953-1-d-3-2025-05.yaml
+- :id: IEEE P1958/D-0.4-2026-03
+  :file: data/ieee-p1958-d-0-4-2026-03.yaml
 - :id: IEEE P20000.2/D-1-2012
   :file: data/ieee-p20000-2-d-1-2012.yaml
 - :id: IEEE P2004/D-3-2024-10
@@ -6199,6 +6243,16 @@
   :file: data/ieee-p2048-101-d-4-0-2023-01.yaml
 - :id: IEEE P2048.101/D-5.0-2023-07
   :file: data/ieee-p2048-101-d-5-0-2023-07.yaml
+- :id: IEEE P2048.201/D-5-2025-11
+  :file: data/ieee-p2048-201-d-5-2025-11.yaml
+- :id: IEEE P2048.202/D-4-2025-11
+  :file: data/ieee-p2048-202-d-4-2025-11.yaml
+- :id: IEEE P2048.203/D-4-2025-11
+  :file: data/ieee-p2048-203-d-4-2025-11.yaml
+- :id: IEEE P2048.204/D-4-2025-11
+  :file: data/ieee-p2048-204-d-4-2025-11.yaml
+- :id: IEEE P2048.501/D-0.3-2026-02
+  :file: data/ieee-p2048-501-d-0-3-2026-02.yaml
 - :id: IEEE P2050/D-2-2017-10
   :file: data/ieee-p2050-d-2-2017-10.yaml
 - :id: IEEE P2061/D-1.1-2024-03
@@ -6383,6 +6437,8 @@
   :file: data/ieee-p2420-d-2-2019-09.yaml
 - :id: IEEE P2421/D-1-2025-05
   :file: data/ieee-p2421-d-1-2025-05.yaml
+- :id: IEEE P2421/D-2-2025-11
+  :file: data/ieee-p2421-d-2-2025-11.yaml
 - :id: IEEE P2425/D-11-2025-06
   :file: data/ieee-p2425-d-11-2025-06.yaml
 - :id: IEEE P2425/D-12-2025-07
@@ -6521,6 +6577,8 @@
   :file: data/ieee-p2686-d-9-3-2024-07.yaml
 - :id: IEEE P2686/D-9.4-2024-08
   :file: data/ieee-p2686-d-9-4-2024-08.yaml
+- :id: IEEE P269/D-116.0-2026-01
+  :file: data/ieee-p269-d-116-0-2026-01.yaml
 - :id: IEEE P269/D-126.3-2019-04
   :file: data/ieee-p269-d-126-3-2019-04.yaml
 - :id: IEEE P269/D-127.5-2019-07
@@ -6691,10 +6749,14 @@
   :file: data/ieee-p2791-d-3-2019-04.yaml
 - :id: IEEE P2791/D-4-2019-11
   :file: data/ieee-p2791-d-4-2019-11.yaml
+- :id: IEEE P2794/D-1.43-2025-10
+  :file: data/ieee-p2794-d-1-43-2025-10.yaml
 - :id: IEEE P2795/D-01-2025-05
   :file: data/ieee-p2795-d-01-2025-05.yaml
 - :id: IEEE P2795/D-02-2025-11
   :file: data/ieee-p2795-d-02-2025-11.yaml
+- :id: IEEE P2795/D-03-2026-01
+  :file: data/ieee-p2795-d-03-2026-01.yaml
 - :id: IEEE P2796/D-2-2024-02
   :file: data/ieee-p2796-d-2-2024-02.yaml
 - :id: IEEE P2796/D-3-2024-04
@@ -6745,6 +6807,10 @@
   :file: data/ieee-p2805-2-d-06-2025-07.yaml
 - :id: IEEE P2805.3/D-05-2025-12
   :file: data/ieee-p2805-3-d-05-2025-12.yaml
+- :id: IEEE P2805.3/D-06-2026-01
+  :file: data/ieee-p2805-3-d-06-2026-01.yaml
+- :id: IEEE P2805.3/D-07-2026-02
+  :file: data/ieee-p2805-3-d-07-2026-02.yaml
 - :id: IEEE P2806/D-1.0-2025-06
   :file: data/ieee-p2806-d-1-0-2025-06.yaml
 - :id: IEEE P2807.1/D-1-2023-09
@@ -6765,6 +6831,8 @@
   :file: data/ieee-p2807-8-d-1-2-2025-12.yaml
 - :id: IEEE P2807.8/D-1.3-2026-01
   :file: data/ieee-p2807-8-d-1-3-2026-01.yaml
+- :id: IEEE P2807.8/D-1.4-2026-01
+  :file: data/ieee-p2807-8-d-1-4-2026-01.yaml
 - :id: IEEE P2807/D-1.1-2022-03
   :file: data/ieee-p2807-d-1-1-2022-03.yaml
 - :id: IEEE P2811/D-9-2024-07
@@ -6787,6 +6855,8 @@
   :file: data/ieee-p2815-d-6-2024-06.yaml
 - :id: IEEE P2816/D-1.8-2025-08
   :file: data/ieee-p2816-d-1-8-2025-08.yaml
+- :id: IEEE P2816/D-1.9-2026-02
+  :file: data/ieee-p2816-d-1-9-2026-02.yaml
 - :id: IEEE P2817/D-1-2025-04
   :file: data/ieee-p2817-d-1-2025-04.yaml
 - :id: IEEE P2818
@@ -6865,6 +6935,8 @@
   :file: data/ieee-p2847-d-3-2021-08.yaml
 - :id: IEEE P2847/D-4-2021-09
   :file: data/ieee-p2847-d-4-2021-09.yaml
+- :id: IEEE P2848/D-1.5-2026-02
+  :file: data/ieee-p2848-d-1-5-2026-02.yaml
 - :id: IEEE P2851/D-1.0-2023-03
   :file: data/ieee-p2851-d-1-0-2023-03.yaml
 - :id: IEEE P2851/D-2.0-2023-03
@@ -6879,6 +6951,12 @@
   :file: data/ieee-p2853-d-2-2024-07.yaml
 - :id: IEEE P2855/D-1.0g-2025
   :file: data/ieee-p2855-d-1-0g-2025.yaml
+- :id: IEEE P2855/D-2.3-2025-12
+  :file: data/ieee-p2855-d-2-3-2025-12.yaml
+- :id: IEEE P2855/D-2.4-2025-12
+  :file: data/ieee-p2855-d-2-4-2025-12.yaml
+- :id: IEEE P2855/D-2.6-2026-03
+  :file: data/ieee-p2855-d-2-6-2026-03.yaml
 - :id: IEEE P2857/D-3-2020-10
   :file: data/ieee-p2857-d-3-2020-10.yaml
 - :id: IEEE P2859/D-4-2022-08
@@ -6905,6 +6983,8 @@
   :file: data/ieee-p2862-d-2-2020-07.yaml
 - :id: IEEE P2863/D-1-2025-07
   :file: data/ieee-p2863-d-1-2025-07.yaml
+- :id: IEEE P2863/D-2-2026-03
+  :file: data/ieee-p2863-d-2-2026-03.yaml
 - :id: IEEE P2867/D-3-2024-03
   :file: data/ieee-p2867-d-3-2024-03.yaml
 - :id: IEEE P2868/D-5-2023-04
@@ -6945,6 +7025,8 @@
   :file: data/ieee-p2874-d-3-2-2-2025-03.yaml
 - :id: IEEE P2874/D-3.3.1-2025-03
   :file: data/ieee-p2874-d-3-3-1-2025-03.yaml
+- :id: IEEE P2879/D-3.1-2026-02
+  :file: data/ieee-p2879-d-3-1-2026-02.yaml
 - :id: IEEE P2881/D-2.0-2024-05
   :file: data/ieee-p2881-d-2-0-2024-05.yaml
 - :id: IEEE P2881/D-4.0-2024-08
@@ -7261,10 +7343,10 @@
   :file: data/ieee-p3004-5-d-5-2013-06.yaml
 - :id: IEEE P3004.5/D-6.1-2024-03
   :file: data/ieee-p3004-5-d-6-1-2024-03.yaml
-- :id: IEEE P3004.5/D-6.2.
-  :file: data/ieee-p3004-5-d-6-2-.yaml
 - :id: IEEE P3004.5/D-6.2.1-2024-09
   :file: data/ieee-p3004-5-d-6-2-1-2024-09.yaml
+- :id: IEEE P3004.5/D-6.2.
+  :file: data/ieee-p3004-5-d-6-2.yaml
 - :id: IEEE P3004.5/D-6-2014-06
   :file: data/ieee-p3004-5-d-6-2014-06.yaml
 - :id: IEEE P3004.7/D-3a-2017
@@ -7363,6 +7445,8 @@
   :file: data/ieee-p3102-d-6-2024-05.yaml
 - :id: IEEE P3106/D-1-2023-10
   :file: data/ieee-p3106-d-1-2023-10.yaml
+- :id: IEEE P3107/D-1-2026-03
+  :file: data/ieee-p3107-d-1-2026-03.yaml
 - :id: IEEE P3110/D-7-2024-08
   :file: data/ieee-p3110-d-7-2024-08.yaml
 - :id: IEEE P3111/D-5-2023-11
@@ -7419,6 +7503,8 @@
   :file: data/ieee-p3141-d-7-2025-06.yaml
 - :id: IEEE P3141/D-8-2025-11
   :file: data/ieee-p3141-d-8-2025-11.yaml
+- :id: IEEE P3141/D-9-2026-03
+  :file: data/ieee-p3141-d-9-2026-03.yaml
 - :id: IEEE P3143/D-5.5-2025-08
   :file: data/ieee-p3143-d-5-5-2025-08.yaml
 - :id: IEEE P3144/D-1.0-2025-01
@@ -7481,6 +7567,8 @@
   :file: data/ieee-p3161-5-d-4-2026-01.yaml
 - :id: IEEE P3161.6/D-3-2025-09
   :file: data/ieee-p3161-6-d-3-2025-09.yaml
+- :id: IEEE P3161.6/D-4-2026-01
+  :file: data/ieee-p3161-6-d-4-2026-01.yaml
 - :id: IEEE P3161.9/D-2-2023-06
   :file: data/ieee-p3161-9-d-2-2023-06.yaml
 - :id: IEEE P3161.9/D-3-2023-08
@@ -7669,14 +7757,22 @@
   :file: data/ieee-p3308-d-1-2025-05.yaml
 - :id: IEEE P3308/D-2-2024-06
   :file: data/ieee-p3308-d-2-2024-06.yaml
+- :id: IEEE P3308/D-2-2026-03
+  :file: data/ieee-p3308-d-2-2026-03.yaml
 - :id: IEEE P3309/D-1-2025-12
   :file: data/ieee-p3309-d-1-2025-12.yaml
 - :id: IEEE P3310/D-1-2025-05
   :file: data/ieee-p3310-d-1-2025-05.yaml
+- :id: IEEE P3311/D-1-2025-11
+  :file: data/ieee-p3311-d-1-2025-11.yaml
+- :id: IEEE P3312/D-1-2025-11
+  :file: data/ieee-p3312-d-1-2025-11.yaml
 - :id: IEEE P3321/D-1-2024-07
   :file: data/ieee-p3321-d-1-2024-07.yaml
 - :id: IEEE P3321/D-2-2024-08
   :file: data/ieee-p3321-d-2-2024-08.yaml
+- :id: IEEE P3322/D-8-2026-01
+  :file: data/ieee-p3322-d-8-2026-01.yaml
 - :id: IEEE P3326/D-3.1-2024-08
   :file: data/ieee-p3326-d-3-1-2024-08.yaml
 - :id: IEEE P3326/D-3.2-2024-10
@@ -7689,6 +7785,8 @@
   :file: data/ieee-p3327-d-1-2-2024-10.yaml
 - :id: IEEE P3327/D-1.3-2024-11
   :file: data/ieee-p3327-d-1-3-2024-11.yaml
+- :id: IEEE P3328.1/D-2-2026-02
+  :file: data/ieee-p3328-1-d-2-2026-02.yaml
 - :id: IEEE P3328/D-3.2-2024-11
   :file: data/ieee-p3328-d-3-2-2024-11.yaml
 - :id: IEEE P3328/D-3-2024-07
@@ -7745,6 +7843,8 @@
   :file: data/ieee-p3345-d-7-2024-05.yaml
 - :id: IEEE P3347/D-2-2025-10
   :file: data/ieee-p3347-d-2-2025-10.yaml
+- :id: IEEE P3348/D-1-2026-01
+  :file: data/ieee-p3348-d-1-2026-01.yaml
 - :id: IEEE P3350/D-1-2023-03
   :file: data/ieee-p3350-d-1-2023-03.yaml
 - :id: IEEE P3350/D-2-2024-11
@@ -7779,6 +7879,8 @@
   :file: data/ieee-p3366-1-d-4-2025-04.yaml
 - :id: IEEE P3366.1/D-5-2025-06
   :file: data/ieee-p3366-1-d-5-2025-06.yaml
+- :id: IEEE P3376/D-4-2026-02
+  :file: data/ieee-p3376-d-4-2026-02.yaml
 - :id: IEEE P3378/D-4-2025-05
   :file: data/ieee-p3378-d-4-2025-05.yaml
 - :id: IEEE P3378/D-6-2025-05
@@ -7809,6 +7911,12 @@
   :file: data/ieee-p3388-d-1-23-2024-11.yaml
 - :id: IEEE P3389/D-2.0-2025-06
   :file: data/ieee-p3389-d-2-0-2025-06.yaml
+- :id: IEEE P3389/D-3.0-2026-01
+  :file: data/ieee-p3389-d-3-0-2026-01.yaml
+- :id: IEEE P3389/D-4.0-2026-03
+  :file: data/ieee-p3389-d-4-0-2026-03.yaml
+- :id: IEEE P3389/D-5.0-2026
+  :file: data/ieee-p3389-d-5-0-2026.yaml
 - :id: IEEE P3390/D-2-2025-10
   :file: data/ieee-p3390-d-2-2025-10.yaml
 - :id: IEEE P3400/D-2-2023
@@ -7835,6 +7943,8 @@
   :file: data/ieee-p3407-d-4-2025-09.yaml
 - :id: IEEE P3408/D-3-2025-09
   :file: data/ieee-p3408-d-3-2025-09.yaml
+- :id: IEEE P3409/D-9-2026-01
+  :file: data/ieee-p3409-d-9-2026-01.yaml
 - :id: IEEE P3410/D-6-2024-10
   :file: data/ieee-p3410-d-6-2024-10.yaml
 - :id: IEEE P3413/D-4.4-2025-06
@@ -7865,18 +7975,26 @@
   :file: data/ieee-p3461-d-11-2025-05.yaml
 - :id: IEEE P3461/D-12-2025-06
   :file: data/ieee-p3461-d-12-2025-06.yaml
+- :id: IEEE P3462/D-1-2026-02
+  :file: data/ieee-p3462-d-1-2026-02.yaml
 - :id: IEEE P3463/D-4.0-2025-10
   :file: data/ieee-p3463-d-4-0-2025-10.yaml
+- :id: IEEE P3473/D-3-2025-09
+  :file: data/ieee-p3473-d-3-2025-09.yaml
 - :id: IEEE P3474/D-2-2025-04
   :file: data/ieee-p3474-d-2-2025-04.yaml
 - :id: IEEE P3475/D-3.5-2024-12
   :file: data/ieee-p3475-d-3-5-2024-12.yaml
 - :id: IEEE P3476/D-1-2025-09
   :file: data/ieee-p3476-d-1-2025-09.yaml
+- :id: IEEE P3476/D-2-2026-02
+  :file: data/ieee-p3476-d-2-2026-02.yaml
 - :id: IEEE P3482/D-3.4-2025-12
   :file: data/ieee-p3482-d-3-4-2025-12.yaml
 - :id: IEEE P3494/D-5.0-2025-04
   :file: data/ieee-p3494-d-5-0-2025-04.yaml
+- :id: IEEE P352/D-2-2026-02
+  :file: data/ieee-p352-d-2-2026-02.yaml
 - :id: IEEE P352/D-5-2016-02
   :file: data/ieee-p352-d-5-2016-02.yaml
 - :id: IEEE P352/D-6-2016-02
@@ -7897,6 +8015,10 @@
   :file: data/ieee-p3536-d-3-2026-01.yaml
 - :id: IEEE P3539/D-3.0-2025-04
   :file: data/ieee-p3539-d-3-0-2025-04.yaml
+- :id: IEEE P3549/D-3-2026-01
+  :file: data/ieee-p3549-d-3-2026-01.yaml
+- :id: IEEE P3549/D-4-2026-03
+  :file: data/ieee-p3549-d-4-2026-03.yaml
 - :id: IEEE P3559/D-0.2-2025-08
   :file: data/ieee-p3559-d-0-2-2025-08.yaml
 - :id: IEEE P3559/D-0.3-2025-08
@@ -7967,14 +8089,22 @@
   :file: data/ieee-p3803-d-4-7-2024-01.yaml
 - :id: IEEE P3806/D-2-2023-06
   :file: data/ieee-p3806-d-2-2023-06.yaml
+- :id: IEEE P3809/D-3-2025-12
+  :file: data/ieee-p3809-d-3-2025-12.yaml
 - :id: IEEE P3810/D-2.1.2-2023-04
   :file: data/ieee-p3810-d-2-1-2-2023-04.yaml
+- :id: IEEE P3811/D-4-2025-12
+  :file: data/ieee-p3811-d-4-2025-12.yaml
+- :id: IEEE P3811/D-5-2026-03
+  :file: data/ieee-p3811-d-5-2026-03.yaml
 - :id: IEEE P3812.1/D-1.1-2023-03
   :file: data/ieee-p3812-1-d-1-1-2023-03.yaml
 - :id: IEEE P3812.1/D-1.2-2023-03
   :file: data/ieee-p3812-1-d-1-2-2023-03.yaml
 - :id: IEEE P3812.2/D-1.0-2024-08
   :file: data/ieee-p3812-2-d-1-0-2024-08.yaml
+- :id: IEEE P3815/D-4-2025-11
+  :file: data/ieee-p3815-d-4-2025-11.yaml
 - :id: IEEE P3816/D-13-2024-04
   :file: data/ieee-p3816-d-13-2024-04.yaml
 - :id: IEEE P3817/D-8.2-2024-01
@@ -7991,6 +8121,8 @@
   :file: data/ieee-p3826-d-3-3-2025-12.yaml
 - :id: IEEE P3829/D-2.1-2025-05
   :file: data/ieee-p3829-d-2-1-2025-05.yaml
+- :id: IEEE P3829/D-2.2-2026-01
+  :file: data/ieee-p3829-d-2-2-2026-01.yaml
 - :id: IEEE P383/D-6.1-2014-10
   :file: data/ieee-p383-d-6-1-2014-10.yaml
 - :id: IEEE P383/D-6.1-2015-03
@@ -8095,6 +8227,8 @@
   :file: data/ieee-p4003-d-1-2-2021-05.yaml
 - :id: IEEE P4003/D-1-2020-08
   :file: data/ieee-p4003-d-1-2020-08.yaml
+- :id: IEEE P4005/D-01-2026-02
+  :file: data/ieee-p4005-d-01-2026-02.yaml
 - :id: IEEE P404/D-1-2022-02
   :file: data/ieee-p404-d-1-2022-02.yaml
 - :id: IEEE P404/D-2-2022-02
@@ -8145,6 +8279,8 @@
   :file: data/ieee-p422-d-2-2011-09.yaml
 - :id: IEEE P422/D-3-2012-09
   :file: data/ieee-p422-d-3-2012-09.yaml
+- :id: IEEE P422/D-3-2026-03
+  :file: data/ieee-p422-d-3-2026-03.yaml
 - :id: IEEE P422/D-4-2012-09
   :file: data/ieee-p422-d-4-2012-09.yaml
 - :id: IEEE P43/D-17-2013
@@ -8297,6 +8433,8 @@
   :file: data/ieee-p495-d-5-2025-10.yaml
 - :id: IEEE P497/D-1-2024-12
   :file: data/ieee-p497-d-1-2024-12.yaml
+- :id: IEEE P497/D-2-2025-12
+  :file: data/ieee-p497-d-2-2025-12.yaml
 - :id: IEEE P497/D-3-2010-07
   :file: data/ieee-p497-d-3-2010-07.yaml
 - :id: IEEE P497/D-A-2015
@@ -8349,6 +8487,8 @@
   :file: data/ieee-p521-d-1-2025-11.yaml
 - :id: IEEE P521/D-2-2019
   :file: data/ieee-p521-d-2-2019.yaml
+- :id: IEEE P521/D-2-2026-02
+  :file: data/ieee-p521-d-2-2026-02.yaml
 - :id: IEEE P521/D-3-2019-03
   :file: data/ieee-p521-d-3-2019-03.yaml
 - :id: IEEE P522/D-8-2023-01
@@ -8593,6 +8733,8 @@
   :file: data/ieee-p7-4-3-2-d-4-2010-02.yaml
 - :id: IEEE P7.4.3.2/D-4-2025-06
   :file: data/ieee-p7-4-3-2-d-4-2025-06.yaml
+- :id: IEEE P7.4.3.2/D-5-2026-01
+  :file: data/ieee-p7-4-3-2-d-5-2026-01.yaml
 - :id: IEEE P7000/D-3-2020-04
   :file: data/ieee-p7000-d-3-2020-04.yaml
 - :id: IEEE P7000/D-5-2021-02
@@ -8627,6 +8769,8 @@
   :file: data/ieee-p7007-d-1-2021-04.yaml
 - :id: IEEE P7007/D-2-2021-07
   :file: data/ieee-p7007-d-2-2021-07.yaml
+- :id: IEEE P7008/D-19-2026-01
+  :file: data/ieee-p7008-d-19-2026-01.yaml
 - :id: IEEE P7009/D-1.1-2024
   :file: data/ieee-p7009-d-1-1-2024.yaml
 - :id: IEEE P7010/D-1-2019-06
@@ -8657,6 +8801,10 @@
   :file: data/ieee-p7014-d-004-2024-02.yaml
 - :id: IEEE P7015/D-1-2025-10
   :file: data/ieee-p7015-d-1-2025-10.yaml
+- :id: IEEE P7015/D-2-2026-03
+  :file: data/ieee-p7015-d-2-2026-03.yaml
+- :id: IEEE P7015/D-3-2025
+  :file: data/ieee-p7015-d-3-2025.yaml
 - :id: IEEE P730/D-0.16.-2025
   :file: data/ieee-p730-d-0-16-2025.yaml
 - :id: IEEE P730/D-0.8-2024-02
@@ -8947,6 +9095,8 @@
   :file: data/ieee-p802-11bh-d-6-0-2024-08.yaml
 - :id: IEEE P802.11bi/D-3.0-2025-11
   :file: data/ieee-p802-11bi-d-3-0-2025-11.yaml
+- :id: IEEE P802.11bi/D-4.0-2026-01
+  :file: data/ieee-p802-11bi-d-4-0-2026-01.yaml
 - :id: IEEE P802.11bk/D-3.0-2024-07
   :file: data/ieee-p802-11bk-d-3-0-2024-07.yaml
 - :id: IEEE P802.11bk/D-4.0-2025-01
@@ -9073,6 +9223,8 @@
   :file: data/ieee-p802-15-4ab-d-02-2025-03.yaml
 - :id: IEEE P802.15.4ab/D-03-2025-09
   :file: data/ieee-p802-15-4ab-d-03-2025-09.yaml
+- :id: IEEE P802.15.4ab/D-04-2025-12
+  :file: data/ieee-p802-15-4ab-d-04-2025-12.yaml
 - :id: IEEE P802.15.4ac/D-03-2025-07
   :file: data/ieee-p802-15-4ac-d-03-2025-07.yaml
 - :id: IEEE P802.15.4ac/D-04-2025-09
@@ -9203,6 +9355,8 @@
   :file: data/ieee-p802-15-6-d-08-2025-11.yaml
 - :id: IEEE P802.15.6/D-09-2026-01
   :file: data/ieee-p802-15-6-d-09-2026-01.yaml
+- :id: IEEE P802.15.6/D-10-2026-02
+  :file: data/ieee-p802-15-6-d-10-2026-02.yaml
 - :id: IEEE P802.15.6/D-7-2025-10
   :file: data/ieee-p802-15-6-d-7-2025-10.yaml
 - :id: IEEE P802.15.7/D-2a-2018
@@ -9349,6 +9503,8 @@
   :file: data/ieee-p802-1ab-d-1-1-cor2-2014.yaml
 - :id: IEEE P802.1AB/D-2.0/Cor1-2013
   :file: data/ieee-p802-1ab-d-2-0-cor1-2013.yaml
+- :id: IEEE P802.1AB/D-2.1-2026-02
+  :file: data/ieee-p802-1ab-d-2-1-2026-02.yaml
 - :id: IEEE P802.1AB/D-2.1/Cor1-2013
   :file: data/ieee-p802-1ab-d-2-1-cor1-2013.yaml
 - :id: IEEE P802.1AB/D-2-2025-12
@@ -9459,6 +9615,8 @@
   :file: data/ieee-p802-1asdr-d-1-2-2023-04.yaml
 - :id: IEEE P802.1ASds/D-2.0-2025-10
   :file: data/ieee-p802-1asds-d-2-0-2025-10.yaml
+- :id: IEEE P802.1ASds/D-2.1-2026-01
+  :file: data/ieee-p802-1asds-d-2-1-2026-01.yaml
 - :id: IEEE P802.1ASed/D-2.1-2025-06
   :file: data/ieee-p802-1ased-d-2-1-2025-06.yaml
 - :id: IEEE P802.1ASed/D-3.0-2025-08
@@ -9725,6 +9883,8 @@
   :file: data/ieee-p802-1qdj-d-2-0-2023-11.yaml
 - :id: IEEE P802.1Qdj/D-2.2-2024-02
   :file: data/ieee-p802-1qdj-d-2-2-2024-02.yaml
+- :id: IEEE P802.1Qdq/D-2.0-2025-11
+  :file: data/ieee-p802-1qdq-d-2-0-2025-11.yaml
 - :id: IEEE P802.1Qdx/D-2.0-2024-01
   :file: data/ieee-p802-1qdx-d-2-0-2024-01.yaml
 - :id: IEEE P802.1Qdx/D-2.1-2024-03
@@ -10185,6 +10345,10 @@
   :file: data/ieee-p802-3df-d-3-2-2024-11.yaml
 - :id: IEEE P802.3dg/D-3.0-2026-01
   :file: data/ieee-p802-3dg-d-3-0-2026-01.yaml
+- :id: IEEE P802.3dg/D-3.1-2026-03
+  :file: data/ieee-p802-3dg-d-3-1-2026-03.yaml
+- :id: IEEE P802.3dj/D-3.0-2026-02
+  :file: data/ieee-p802-3dj-d-3-0-2026-02.yaml
 - :id: IEEE P802.3dk/D-3.0-2025-08
   :file: data/ieee-p802-3dk-d-3-0-2025-08.yaml
 - :id: IEEE P802.3dk/D-3.1-2025-10
@@ -10193,6 +10357,8 @@
   :file: data/ieee-p802-3dk-d-3-2-2025-11.yaml
 - :id: IEEE P802.3dk/D-3.3-2025-12
   :file: data/ieee-p802-3dk-d-3-3-2025-12.yaml
+- :id: IEEE P802.3dk/D-3.4-2026-01
+  :file: data/ieee-p802-3dk-d-3-4-2026-01.yaml
 - :id: IEEE P802/D-1.6
   :file: data/ieee-p802-d-1-6.yaml
 - :id: IEEE P802/D-1.7
@@ -10431,6 +10597,8 @@
   :file: data/ieee-p982-d-4-2024-04.yaml
 - :id: IEEE P987/D-14-2025-09
   :file: data/ieee-p987-d-14-2025-09.yaml
+- :id: IEEE P987/D-15-2026-02
+  :file: data/ieee-p987-d-15-2026-02.yaml
 - :id: IEEE P99/D-3.0-2019-07
   :file: data/ieee-p99-d-3-0-2019-07.yaml
 - :id: IEEE P998/D-10.1-2011-07
@@ -10439,6 +10607,8 @@
   :file: data/ieee-p998-d-12-2-2012-04.yaml
 - :id: IEEE P998/D-14.1-2012-10
   :file: data/ieee-p998-d-14-1-2012-10.yaml
+- :id: IEEE P998/D-26.1-2026
+  :file: data/ieee-p998-d-26-1-2026.yaml
 - :id: IEEE P998
   :file: data/ieee-p998.yaml
 - :id: IEEE PC135.100/D-5-2024-02
@@ -10511,6 +10681,8 @@
   :file: data/ieee-pc37-015-d-3-2017-02.yaml
 - :id: IEEE PC37.015/D-4-2017-08
   :file: data/ieee-pc37-015-d-4-2017-08.yaml
+- :id: IEEE PC37.016/D-3.0-2026-01
+  :file: data/ieee-pc37-016-d-3-0-2026-01.yaml
 - :id: IEEE PC37.016/D-6-2018-02
   :file: data/ieee-pc37-016-d-6-2018-02.yaml
 - :id: IEEE PC37.016/D-7.2-2018-07
@@ -11081,6 +11253,10 @@
   :file: data/ieee-pc37-21-d-12-2022-09.yaml
 - :id: IEEE PC37.21/D-13-2022-09
   :file: data/ieee-pc37-21-d-13-2022-09.yaml
+- :id: IEEE PC37.21/D-14-2022-09
+  :file: data/ieee-pc37-21-d-14-2022-09.yaml
+- :id: IEEE PC37.21/D-15-2022-09
+  :file: data/ieee-pc37-21-d-15-2022-09.yaml
 - :id: IEEE PC37.21/D-3-2016-08
   :file: data/ieee-pc37-21-d-3-2016-08.yaml
 - :id: IEEE PC37.21/D-4-2016-10
@@ -11135,6 +11311,8 @@
   :file: data/ieee-pc37-236-d-3-2.yaml
 - :id: IEEE PC37.236/D-5.1-2012-12
   :file: data/ieee-pc37-236-d-5-1-2012-12.yaml
+- :id: IEEE PC37.236/D-7.6-2026-01
+  :file: data/ieee-pc37-236-d-7-6-2026-01.yaml
 - :id: IEEE PC37.237/D-0.6-2016-04
   :file: data/ieee-pc37-237-d-0-6-2016-04.yaml
 - :id: IEEE PC37.237/D-0.7-2017-10
@@ -11727,6 +11905,8 @@
   :file: data/ieee-pc57-12-38-d-2-8-2022-10.yaml
 - :id: IEEE PC57.12.38/D-2.9-2024-10
   :file: data/ieee-pc57-12-38-d-2-9-2024-10.yaml
+- :id: IEEE PC57.12.39/D-1.2-2026-03
+  :file: data/ieee-pc57-12-39-d-1-2-2026-03.yaml
 - :id: IEEE PC57.12.39/D-4-2015-11
   :file: data/ieee-pc57-12-39-d-4-2015-11.yaml
 - :id: IEEE PC57.12.39/D-5-2017-04
@@ -11933,6 +12113,8 @@
   :file: data/ieee-pc57-140-d-8-2016-12.yaml
 - :id: IEEE PC57.141/D-8-2025-08
   :file: data/ieee-pc57-141-d-8-2025-08.yaml
+- :id: IEEE PC57.141/D-9-2026-03
+  :file: data/ieee-pc57-141-d-9-2026-03.yaml
 - :id: IEEE PC57.142/D-10-2022-03
   :file: data/ieee-pc57-142-d-10-2022-03.yaml
 - :id: IEEE PC57.142/D-14-2025-09
@@ -12117,6 +12299,8 @@
   :file: data/ieee-pc57-165-d-6-8-2024-07.yaml
 - :id: IEEE PC57.166/D-3-2024-02
   :file: data/ieee-pc57-166-d-3-2024-02.yaml
+- :id: IEEE PC57.166/D-7-2026-01
+  :file: data/ieee-pc57-166-d-7-2026-01.yaml
 - :id: IEEE PC57.167/D-2.55-2022-09
   :file: data/ieee-pc57-167-d-2-55-2022-09.yaml
 - :id: IEEE PC57.167/D-3.55-2022-10
@@ -12171,6 +12355,8 @@
   :file: data/ieee-pc57-19-02-d-2-4-2023-02.yaml
 - :id: IEEE PC57.19.02/D-2.5-2023-02
   :file: data/ieee-pc57-19-02-d-2-5-2023-02.yaml
+- :id: IEEE PC57.19.04/D-2-2026-02
+  :file: data/ieee-pc57-19-04-d-2-2026-02.yaml
 - :id: IEEE PC57.19.04/D-6-2017-07
   :file: data/ieee-pc57-19-04-d-6-2017-07.yaml
 - :id: IEEE PC57.19.04/D-7-2018-02
@@ -12533,6 +12719,8 @@
   :file: data/ieee-pn42-35-d-1-1-2025-06.yaml
 - :id: IEEE PN42.35/D-1.2-2025-08
   :file: data/ieee-pn42-35-d-1-2-2025-08.yaml
+- :id: IEEE PN42.37/D-1.1-2026-03
+  :file: data/ieee-pn42-37-d-1-1-2026-03.yaml
 - :id: IEEE PN42.38/D-5-2022-06
   :file: data/ieee-pn42-38-d-5-2022-06.yaml
 - :id: IEEE PN42.43/D-1-2021-06
@@ -14157,6 +14345,8 @@
   :file: data/ieee-std-1451-0-2024.yaml
 - :id: IEEE Std 1451.1-1999
   :file: data/ieee-std-1451-1-1999.yaml
+- :id: IEEE Std 1451.1.6-2025
+  :file: data/ieee-std-1451-1-6-2025.yaml
 - :id: IEEE Std 1451.2-1997
   :file: data/ieee-std-1451-2-1997.yaml
 - :id: IEEE Std 1451.3-2003
@@ -15189,6 +15379,8 @@
   :file: data/ieee-std-1686-2013.yaml
 - :id: IEEE Std 1686-2022
   :file: data/ieee-std-1686-2022.yaml
+- :id: IEEE Std 1686/Cor1-2025
+  :file: data/ieee-std-1686-cor1-2025.yaml
 - :id: IEEE Std 1687-2014
   :file: data/ieee-std-1687-2014.yaml
 - :id: IEEE Std 1688-2015
@@ -15227,6 +15419,8 @@
   :file: data/ieee-std-1709-2010.yaml
 - :id: IEEE Std 1709-2018
   :file: data/ieee-std-1709-2018.yaml
+- :id: IEEE Std 1711.1-2025
+  :file: data/ieee-std-1711-1-2025.yaml
 - :id: IEEE Std 1711.2-2019
   :file: data/ieee-std-1711-2-2019.yaml
 - :id: IEEE Std 1711-2010
@@ -15377,6 +15571,8 @@
   :file: data/ieee-std-18-2012-redline.yaml
 - :id: IEEE Std 18-2012
   :file: data/ieee-std-18-2012.yaml
+- :id: IEEE Std 18-2025
+  :file: data/ieee-std-18-2025.yaml
 - :id: IEEE Std 1800.2-2017
   :file: data/ieee-std-1800-2-2017.yaml
 - :id: IEEE Std 1800.2-2020
@@ -15447,6 +15643,8 @@
   :file: data/ieee-std-1812-2023.yaml
 - :id: IEEE Std 1815.1-2015
   :file: data/ieee-std-1815-1-2015.yaml
+- :id: IEEE Std 1815.2-2025
+  :file: data/ieee-std-1815-2-2025.yaml
 - :id: IEEE Std 1815-2010
   :file: data/ieee-std-1815-2010.yaml
 - :id: IEEE Std 1815-2012 Redline
@@ -15721,6 +15919,8 @@
   :file: data/ieee-std-1904-1.yaml
 - :id: IEEE Std 1904.2-2021
   :file: data/ieee-std-1904-2-2021.yaml
+- :id: IEEE Std 1904.4-2025
+  :file: data/ieee-std-1904-4-2025.yaml
 - :id: IEEE Std 1905.1-2013
   :file: data/ieee-std-1905-1-2013.yaml
 - :id: IEEE Std 1905.1a-2014
@@ -15789,6 +15989,8 @@
   :file: data/ieee-std-1939-1-2021.yaml
 - :id: IEEE Std 194-1977
   :file: data/ieee-std-194-1977.yaml
+- :id: IEEE Std 1953.1-2025
+  :file: data/ieee-std-1953-1-2025.yaml
 - :id: IEEE Std 200-1975
   :file: data/ieee-std-200-1975.yaml
 - :id: IEEE Std 2000.1-1998
@@ -16235,6 +16437,8 @@
   :file: data/ieee-std-2804-2019.yaml
 - :id: IEEE Std 2805.1-2024
   :file: data/ieee-std-2805-1-2024.yaml
+- :id: IEEE Std 2805.2-2025
+  :file: data/ieee-std-2805-2-2025.yaml
 - :id: IEEE Std 2806-2025
   :file: data/ieee-std-2806-2025.yaml
 - :id: IEEE Std 2807.1-2024
@@ -16407,6 +16611,8 @@
   :file: data/ieee-std-2956-2023.yaml
 - :id: IEEE Std 2960-2023
   :file: data/ieee-std-2960-2023.yaml
+- :id: IEEE Std 2962-2025
+  :file: data/ieee-std-2962-2025.yaml
 - :id: IEEE Std 2970-2024
   :file: data/ieee-std-2970-2024.yaml
 - :id: IEEE Std 2977-2021
@@ -16431,6 +16637,8 @@
   :file: data/ieee-std-299-2006.yaml
 - :id: IEEE Std 2991-2023
   :file: data/ieee-std-2991-2023.yaml
+- :id: IEEE Std 2992-2025
+  :file: data/ieee-std-2992-2025.yaml
 - :id: IEEE Std 2993-2025
   :file: data/ieee-std-2993-2025.yaml
 - :id: IEEE Std 2999-2023
@@ -16523,6 +16731,8 @@
   :file: data/ieee-std-3069-2024.yaml
 - :id: IEEE Std 3079-2020
   :file: data/ieee-std-3079-2020.yaml
+- :id: IEEE Std 3079.3.1-2025
+  :file: data/ieee-std-3079-3-1-2025.yaml
 - :id: IEEE Std 3079.3-2023
   :file: data/ieee-std-3079-3-2023.yaml
 - :id: IEEE Std 308-1971
@@ -16577,6 +16787,8 @@
   :file: data/ieee-std-3134-2025.yaml
 - :id: IEEE Std 314-1971
   :file: data/ieee-std-314-1971.yaml
+- :id: IEEE Std 3143-2025
+  :file: data/ieee-std-3143-2025.yaml
 - :id: IEEE Std 3144-2025
   :file: data/ieee-std-3144-2025.yaml
 - :id: IEEE Std 3145-2024
@@ -16787,10 +16999,14 @@
   :file: data/ieee-std-336-2020.yaml
 - :id: IEEE Std 3361-2025
   :file: data/ieee-std-3361-2025.yaml
+- :id: IEEE Std 3363-2025
+  :file: data/ieee-std-3363-2025.yaml
 - :id: IEEE Std 3365-2025
   :file: data/ieee-std-3365-2025.yaml
 - :id: IEEE Std 337-1972
   :file: data/ieee-std-337-1972.yaml
+- :id: IEEE Std 3378-2025
+  :file: data/ieee-std-3378-2025.yaml
 - :id: IEEE Std 338-1971
   :file: data/ieee-std-338-1971.yaml
 - :id: IEEE Std 338-1975
@@ -16807,6 +17023,8 @@
   :file: data/ieee-std-338-2022-redline.yaml
 - :id: IEEE Std 338-2022
   :file: data/ieee-std-338-2022.yaml
+- :id: IEEE Std 3381-2025
+  :file: data/ieee-std-3381-2025.yaml
 - :id: IEEE Std 3388-2025
   :file: data/ieee-std-3388-2025.yaml
 - :id: IEEE Std 339-1972
@@ -16839,6 +17057,8 @@
   :file: data/ieee-std-3457-2025.yaml
 - :id: IEEE Std 346-1973
   :file: data/ieee-std-346-1973.yaml
+- :id: IEEE Std 3461-2025
+  :file: data/ieee-std-3461-2025.yaml
 - :id: IEEE Std 347-1972
   :file: data/ieee-std-347-1972.yaml
 - :id: IEEE Std 3475-2025
@@ -16851,6 +17071,8 @@
   :file: data/ieee-std-352-2016.yaml
 - :id: IEEE Std 3527.1-2020
   :file: data/ieee-std-3527-1-2020.yaml
+- :id: IEEE Std 3539-2025
+  :file: data/ieee-std-3539-2025.yaml
 - :id: IEEE Std 356-1974
   :file: data/ieee-std-356-1974.yaml
 - :id: IEEE Std 356-2001
@@ -16939,6 +17161,8 @@
   :file: data/ieee-std-3830-2025.yaml
 - :id: IEEE Std 3831-2025
   :file: data/ieee-std-3831-2025.yaml
+- :id: IEEE Std 3832-2025
+  :file: data/ieee-std-3832-2025.yaml
 - :id: IEEE Std 3834-2025
   :file: data/ieee-std-3834-2025.yaml
 - :id: IEEE Std 3835-2025
@@ -17313,6 +17537,8 @@
   :file: data/ieee-std-495-2007-redline.yaml
 - :id: IEEE Std 495-2007
   :file: data/ieee-std-495-2007.yaml
+- :id: IEEE Std 495-2025
+  :file: data/ieee-std-495-2025.yaml
 - :id: IEEE Std 497-1977
   :file: data/ieee-std-497-1977.yaml
 - :id: IEEE Std 497-1981
@@ -18357,6 +18583,8 @@
   :file: data/ieee-std-802-1as-cor2-2015.yaml
 - :id: IEEE Std 802.1ASdr-2024
   :file: data/ieee-std-802-1asdr-2024.yaml
+- :id: IEEE Std 802.1ASed-2026
+  :file: data/ieee-std-802-1ased-2026.yaml
 - :id: IEEE Std 802.1AX-2008
   :file: data/ieee-std-802-1ax-2008.yaml
 - :id: IEEE Std 802.1AX-2014
@@ -18715,6 +18943,8 @@
   :file: data/ieee-std-802-3cy-2023.yaml
 - :id: IEEE Std 802.3cz-2023
   :file: data/ieee-std-802-3cz-2023.yaml
+- :id: IEEE Std 802.3da-2026
+  :file: data/ieee-std-802-3da-2026.yaml
 - :id: IEEE Std 802.3db-2022
   :file: data/ieee-std-802-3db-2022.yaml
 - :id: IEEE Std 802.3dd-2022
@@ -19261,6 +19491,8 @@
   :file: data/ieee-std-c37-09b-2010.yaml
 - :id: IEEE Std C37.1-1994
   :file: data/ieee-std-c37-1-1994.yaml
+- :id: IEEE Std C37.1.2-2025
+  :file: data/ieee-std-c37-1-2-2025.yaml
 - :id: IEEE Std C37.1-2007 Redline
   :file: data/ieee-std-c37-1-2007-redline.yaml
 - :id: IEEE Std C37.1-2007
@@ -19419,6 +19651,8 @@
   :file: data/ieee-std-c37-119-2005.yaml
 - :id: IEEE Std C37.119-2016
   :file: data/ieee-std-c37-119-2016.yaml
+- :id: IEEE Std C37.119-2025
+  :file: data/ieee-std-c37-119-2025.yaml
 - :id: IEEE Std C37.12.1-2007
   :file: data/ieee-std-c37-12-1-2007.yaml
 - :id: IEEE Std C37.12.1-2018 Redline
@@ -19497,6 +19731,8 @@
   :file: data/ieee-std-c37-13-1-2016-redline.yaml
 - :id: IEEE Std C37.13.1-2016
   :file: data/ieee-std-c37-13-1-2016.yaml
+- :id: IEEE Std C37.13.1-2025
+  :file: data/ieee-std-c37-13-1-2025.yaml
 - :id: IEEE Std C37.13-1990
   :file: data/ieee-std-c37-13-1990.yaml
 - :id: IEEE Std C37.13.1a-2010
@@ -19707,6 +19943,8 @@
   :file: data/ieee-std-c37-249-2024.yaml
 - :id: IEEE Std C37.250-2020
   :file: data/ieee-std-c37-250-2020.yaml
+- :id: IEEE Std C37.251-2025
+  :file: data/ieee-std-c37-251-2025.yaml
 - :id: IEEE Std C37.252-2024
   :file: data/ieee-std-c37-252-2024.yaml
 - :id: IEEE Std C37.26-2003
@@ -20357,6 +20595,8 @@
   :file: data/ieee-std-c57-13-1-2006.yaml
 - :id: IEEE Std C57.13.1-2017
   :file: data/ieee-std-c57-13-1-2017.yaml
+- :id: IEEE Std C57.13.10-2025
+  :file: data/ieee-std-c57-13-10-2025.yaml
 - :id: IEEE Std C57.13-1993
   :file: data/ieee-std-c57-13-1993.yaml
 - :id: IEEE Std C57.13.2-1991
@@ -20517,6 +20757,8 @@
   :file: data/ieee-std-c57-169-2023.yaml
 - :id: IEEE Std C57.17-2012
   :file: data/ieee-std-c57-17-2012.yaml
+- :id: IEEE Std C57.170-2025
+  :file: data/ieee-std-c57-170-2025.yaml
 - :id: IEEE Std C57.18.10-2021 Redline
   :file: data/ieee-std-c57-18-10-2021-redline.yaml
 - :id: IEEE Std C57.18.10-2021
@@ -20549,6 +20791,8 @@
   :file: data/ieee-std-c57-19-100-2012-redline.yaml
 - :id: IEEE Std C57.19.100-2012
   :file: data/ieee-std-c57-19-100-2012.yaml
+- :id: IEEE Std C57.19.100-2025
+  :file: data/ieee-std-c57-19-100-2025.yaml
 - :id: IEEE Std C57.19.101
   :file: data/ieee-std-c57-19-101.yaml
 - :id: IEEE Std C57.21-1990
@@ -20577,6 +20821,8 @@
   :file: data/ieee-std-c57-91-2011-redline.yaml
 - :id: IEEE Std C57.91-2011
   :file: data/ieee-std-c57-91-2011.yaml
+- :id: IEEE Std C57.91-2025
+  :file: data/ieee-std-c57-91-2025.yaml
 - :id: IEEE Std C57.91/Cor1-2002
   :file: data/ieee-std-c57-91-cor1-2002.yaml
 - :id: IEEE Std C57.93-1995
@@ -20871,6 +21117,8 @@
   :file: data/ieee-std-ieee.yaml
 - :id: IEEE Std N323C-2009
   :file: data/ieee-std-n323c-2009.yaml
+- :id: IEEE Std N42.35-2025
+  :file: data/ieee-std-n42-35-2025.yaml
 - :id: IEEE Std N42.38-2022 Redline
   :file: data/ieee-std-n42-38-2022-redline.yaml
 - :id: IEEE Std N42.38-2022
@@ -23463,6 +23711,8 @@
   :file: data/iso-iec-ieee-24748-1-2024-redline.yaml
 - :id: ISO/IEC/IEEE 24748.1-2024
   :file: data/iso-iec-ieee-24748-1-2024.yaml
+- :id: ISO/IEC/IEEE 24748.10-2025
+  :file: data/iso-iec-ieee-24748-10-2025.yaml
 - :id: ISO/IEC/IEEE 24748.2-2018
   :file: data/iso-iec-ieee-24748-2-2018.yaml
 - :id: ISO/IEC/IEEE 24748.2-2024 Redline
@@ -23471,12 +23721,16 @@
   :file: data/iso-iec-ieee-24748-2-2024.yaml
 - :id: ISO/IEC/IEEE 24748.3-2020
   :file: data/iso-iec-ieee-24748-3-2020.yaml
+- :id: ISO/IEC/IEEE 24748.4-2025
+  :file: data/iso-iec-ieee-24748-4-2025.yaml
 - :id: ISO/IEC/IEEE 24748.4
   :file: data/iso-iec-ieee-24748-4.yaml
 - :id: ISO/IEC/IEEE 24748.5-2017
   :file: data/iso-iec-ieee-24748-5-2017.yaml
 - :id: ISO/IEC/IEEE 24748.6-2023
   :file: data/iso-iec-ieee-24748-6-2023.yaml
+- :id: ISO/IEC/IEEE 24748.7-2025
+  :file: data/iso-iec-ieee-24748-7-2025.yaml
 - :id: ISO/IEC/IEEE 24748.8-2019
   :file: data/iso-iec-ieee-24748-8-2019.yaml
 - :id: ISO/IEC/IEEE 24748.9-2023
@@ -23505,6 +23759,8 @@
   :file: data/iso-iec-ieee-26515-2018.yaml
 - :id: ISO/IEC/IEEE 26515
   :file: data/iso-iec-ieee-26515.yaml
+- :id: ISO/IEC/IEEE 26516-2025
+  :file: data/iso-iec-ieee-26516-2025.yaml
 - :id: ISO/IEC/IEEE 26531-2015
   :file: data/iso-iec-ieee-26531-2015.yaml
 - :id: ISO/IEC/IEEE 26531-2023 Redline
@@ -23761,6 +24017,8 @@
   :file: data/iso-iec-ieee-90003-2018.yaml
 - :id: ISO/IEC/IEEE 9945-2009
   :file: data/iso-iec-ieee-9945-2009.yaml
+- :id: ISO/IEC/IEEE 9945-2026
+  :file: data/iso-iec-ieee-9945-2026.yaml
 - :id: ISO/IEC/IEEE CD P15288-2021-03
   :file: data/iso-iec-ieee-cd-p15288-2021-03.yaml
 - :id: ISO/IEC/IEEE CD P15289-2017-11
@@ -23791,6 +24049,8 @@
   :file: data/iso-iec-ieee-cd-p29119-2-e-2-2019-08.yaml
 - :id: ISO/IEC/IEEE CD P29119.3/E-2-2019-08
   :file: data/iso-iec-ieee-cd-p29119-3-e-2-2019-08.yaml
+- :id: ISO/IEC/IEEE CD P29148-2026-02
+  :file: data/iso-iec-ieee-cd-p29148-2026-02.yaml
 - :id: ISO/IEC/IEEE CD P32430-2022-09
   :file: data/iso-iec-ieee-cd-p32430-2022-09.yaml
 - :id: ISO/IEC/IEEE CD P32430-2023-08
@@ -23963,6 +24223,8 @@
   :file: data/iso-iec-ieee-fdis-p26511-2-2018.yaml
 - :id: ISO/IEC/IEEE FDIS P26512/D-1-2016
   :file: data/iso-iec-ieee-fdis-p26512-d-1-2016.yaml
+- :id: ISO/IEC/IEEE FDIS P26512/D-2-2026-02
+  :file: data/iso-iec-ieee-fdis-p26512-d-2-2026-02.yaml
 - :id: ISO/IEC/IEEE FDIS P26512/D-3-2017
   :file: data/iso-iec-ieee-fdis-p26512-d-3-2017.yaml
 - :id: ISO/IEC/IEEE FDIS P26514-2021-08
@@ -24099,6 +24361,8 @@
   :file: data/iso-iec-ieee-p24774-d-3-2021-01.yaml
 - :id: ISO/IEC/IEEE P25070/D-2-2025-09
   :file: data/iso-iec-ieee-p25070-d-2-2025-09.yaml
+- :id: ISO/IEC/IEEE P25070/D-3-2026-01
+  :file: data/iso-iec-ieee-p25070-d-3-2026-01.yaml
 - :id: ISO/IEC/IEEE P26513/D-2-2017-01
   :file: data/iso-iec-ieee-p26513-d-2-2017-01.yaml
 - :id: ISO/IEC/IEEE P26514/D-1-2020-03
@@ -24107,10 +24371,14 @@
   :file: data/iso-iec-ieee-p26516.yaml
 - :id: ISO/IEC/IEEE P26517/D-1-2025-05
   :file: data/iso-iec-ieee-p26517-d-1-2025-05.yaml
+- :id: ISO/IEC/IEEE P26517/D-2-2026-02
+  :file: data/iso-iec-ieee-p26517-d-2-2026-02.yaml
 - :id: ISO/IEC/IEEE P29119.1/D-IS-2012
   :file: data/iso-iec-ieee-p29119-1-d-is-2012.yaml
 - :id: ISO/IEC/IEEE P29119.1/D-IS-2020
   :file: data/iso-iec-ieee-p29119-1-d-is-2020.yaml
+- :id: ISO/IEC/IEEE P29119.14/D-1-2025-12
+  :file: data/iso-iec-ieee-p29119-14-d-1-2025-12.yaml
 - :id: ISO/IEC/IEEE P29119.3/D-3-2021-01
   :file: data/iso-iec-ieee-p29119-3-d-3-2021-01.yaml
 - :id: ISO/IEC/IEEE P29119.3_FDIS-2021-06

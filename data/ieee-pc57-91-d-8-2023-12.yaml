@@ -1,7 +1,7 @@
 ---
 id: IEEEPC5791D8202312
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Loading Mineral-Oil-Immersed Transformers and Step-Voltage
     Regulators
@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2024-01-22'
 - type: issued
-  at: '2024'
+  at: '2025-09-10'
 contributor:
 - role:
   - type: publisher
@@ -69,17 +69,17 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The contents of this guide describe the assumptions, techniques, and methods
-    for estimating the effects of loading above nameplate of mineral-oil-immersed
-    distribution and power transformers as well as step voltage regulators. Consequences
-    due to loading above nameplate ratings are discussed including damage to insulation,
-    production of gases in oil, and ultimately loss of life effects. In addition,
-    effects of loading on auxiliary equipment are presented. Different types of loading
-    scenarios as well as variations in ambient temperature and altitude are described.
-    Effects due to different cooling techniques and their impacts on transformer capacity
+  content: The assumptions, techniques, and methods for estimating the effects of
+    loading above nameplate of mineral-oil-immersed distribution and power transformers,
+    as well as step voltage regulators, are described in this guide. Consequences
+    due to loading above nameplate ratings are discussed, including damage to insulation,
+    production of gases in oil, and ultimately loss of life. In addition, the effects
+    of loading on auxiliary equipment are presented. Different types of loading scenarios,
+    as well as variations in ambient temperature and altitude, are described. The
+    effects of different cooling techniques and their impact on transformer capacity
     are reviewed. Transformer temperature criteria are also provided. Finally, calculation
-    methods with and without consideration to duct oil effects are provided and with
-    sample temperature calculations.
+    methods with and without consideration of duct oil effects are provided, along
+    with sample temperature calculations.
 status:
   stage:
     content: draft
@@ -109,63 +109,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Oil insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Immersion cooling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Minerals
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: step-voltage regulators
-  - language: en
-    script: Latn
-    content: IEEE C57.91
-  - language: en
-    script: Latn
-    content: loss-of-life
-  - language: en
-    script: Latn
-    content: short-term overloads
-  - language: en
-    script: Latn
-    content: long-term overloads
-  - language: en
-    script: Latn
-    content: loading
-  - language: en
-    script: Latn
-    content: mineral-oil-immersed
-  - language: en
+    content: IEEE C57.91(TM)
+- vocab:
+    language: en
     script: Latn
     content: insulation aging
-  - language: en
+- vocab:
+    language: en
+    script: Latn
+    content: loading
+- vocab:
+    language: en
+    script: Latn
+    content: long-term overloads
+- vocab:
+    language: en
+    script: Latn
+    content: loss-of-life
+- vocab:
+    language: en
+    script: Latn
+    content: mineral-oil-immersed
+- vocab:
+    language: en
     script: Latn
     content: power transformer
+- vocab:
+    language: en
+    script: Latn
+    content: short-term overloads
+- vocab:
+    language: en
+    script: Latn
+    content: step-voltage regulators
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

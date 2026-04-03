@@ -1,7 +1,7 @@
 ---
 id: IEEEStd4741973
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Specifications and Test Methods for Fixed and Variable Attenuators,
     DC-40 GHz
@@ -65,39 +65,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Attenuators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Variable attenuators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Attenuation measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fixed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: variable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: attenuators
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

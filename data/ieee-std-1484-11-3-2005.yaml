@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14841132005
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Learning Technology Extensible Markup Language (XML)
     Schema Binding for Data Model for Content Object Communication
@@ -91,36 +91,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: content object
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Content Object Communication Data Model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Extensible Markup Language (XML)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Std 1484.11.1-2004
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: W3C XML Schema definition language
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML binding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML data instance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML Schema definition
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

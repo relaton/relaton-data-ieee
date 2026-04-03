@@ -1,7 +1,7 @@
 ---
 id: IEEEStd11892007Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Selection of Valve-Regulated Lead-Acid (VRLA) Batteries
     for Stationary Applications
@@ -92,45 +92,56 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Valves
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Regulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1189-2007
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: absorbed glass mat
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery selection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gelled electrolyte
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: immobilized electrolyte
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: oxygen recombination
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stationary applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: valve-regulated lead-acid (VRLA) batteries
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

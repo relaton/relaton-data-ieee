@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712202005
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'Standard for Overhead Type Distribution Transformers, 500 kVA and Smaller:
     High Voltage, 34500 Volts and Below; Low Voltage, 7970/13800Y Volts and Below'
@@ -108,48 +108,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Oil insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Low voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-voltage techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Regulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dimensional
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mechanical characteristics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety features
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mineral-oil-immersed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformers 500kVA and smaller
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high voltages 34 500 V and low voltages 7970/13 800Y V and below
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

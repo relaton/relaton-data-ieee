@@ -1,7 +1,7 @@
 ---
 id: IEEEStd42142004
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Preparation of Excitation System Specifications
   type: main
@@ -109,66 +109,84 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Exciters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Redundant controllers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Digital systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: compound exciters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: digital
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: excitation guide
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: exciter types
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: potential
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: integral
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: derivative (PID)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: potential source exciters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power system stabilizers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: redundant controllers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rotating exciters
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

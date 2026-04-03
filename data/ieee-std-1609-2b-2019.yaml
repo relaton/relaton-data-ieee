@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16092b2019
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Wireless Access in Vehicular Environments--Security Services
     for Applications and Management Messages - Amendment 2--PDU Functional Types and
@@ -108,33 +108,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cryptography
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless Access in Vehicular Environments
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cryptography
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1609.2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wireless access in vehicular environments (WAVE)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

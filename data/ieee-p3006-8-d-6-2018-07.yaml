@@ -1,7 +1,7 @@
 ---
 id: IEEEP30068D6201807
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Recommended Practice for Analyzing Reliability Data
     for Equipment Used in Industrial and Commercial Power Systems
@@ -92,51 +92,64 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Industrial power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Failure analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Timing analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reliability Data
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 3006.8
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reliability Analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Availability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mean Time Between Failures (MTBF)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mean Time to Repair (MTTR)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mean Time to Maintain (MTTM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mean Down Time (MDT).
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

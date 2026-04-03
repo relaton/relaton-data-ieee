@@ -1,7 +1,7 @@
 ---
 id: IEEEStd13072004
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Fall Protection for Utility Work
   type: main
@@ -107,57 +107,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Industries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Training
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Trademarks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Injuries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: carabineer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: engineered system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fall arrester
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fall arrest system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fall prevention system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fall protection program
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fall protection system (hardware)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: total fall distance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: work positioning system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: worker certification
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

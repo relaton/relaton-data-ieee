@@ -1,7 +1,7 @@
 ---
 id: ANSIN42452011
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard for Evaluating the Image Quality of X-ray Computed
     Tomography (CT)Security-Screening Systems
@@ -98,51 +98,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computed tomography
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: X-ray imaging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Image quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Biomedical imaging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI N42.25
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computed tomography
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: contraband
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: detection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: explosives
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: image quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: luggage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: screening
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

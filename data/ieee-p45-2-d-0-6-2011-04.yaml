@@ -1,7 +1,7 @@
 ---
 id: IEEEP452D06201104
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Recommended Practice for Electrical Installations on Shipboard
     - Controls and Automation
@@ -93,54 +93,66 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Marine vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Boat
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical products
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer based system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Navigation system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interior communication system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Remote control
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 47.020.60
-    text: Electrical equipment of ships and  of marine structures
+    text: Electrical equipment for ships or marine structures
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

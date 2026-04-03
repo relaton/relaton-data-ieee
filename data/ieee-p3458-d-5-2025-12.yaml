@@ -1,9 +1,9 @@
 ---
 id: IEEEP3458D5202512
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
-- content: IEEE Draft Standard for Domain-Specific Large Language Model Management
+- content: IEEE Approved Draft Standard for Domain-Specific Large Language Model Management
     Platforms
   type: main
 source:
@@ -22,11 +22,11 @@ docidentifier:
 docnumber: IEEE P3458/D-5-2025-12
 date:
 - type: created
-  at: '2025-12-04'
+  at: '2026-02-23'
 - type: published
   at: '2025-12-08'
 - type: issued
-  at: '2025'
+  at: '2026-02-12'
 contributor:
 - role:
   - type: publisher
@@ -84,21 +84,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Large language models
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Artificial intelligence
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Domain specific languages
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

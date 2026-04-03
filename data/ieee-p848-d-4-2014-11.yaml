@@ -1,7 +1,7 @@
 ---
 id: IEEEP848D4201411
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard Procedure for the Determination of the Ampacity
     Derating Factor for Fire-Protected Cable Systems
@@ -114,42 +114,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ampacity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fires
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ampacity derating factor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable penetration fire stops
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical separation wrap systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire-protected cable system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire protected conduits
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

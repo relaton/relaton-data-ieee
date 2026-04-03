@@ -1,7 +1,7 @@
 ---
 id: IEEEStd2911991
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Methods for Measuring Electromagnetic Field Strength of Sinusoidal
     Continuous Waves, 30 Hz to 30 GHz
@@ -102,24 +102,28 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Microwave measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Receiving antennas
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage measurement
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

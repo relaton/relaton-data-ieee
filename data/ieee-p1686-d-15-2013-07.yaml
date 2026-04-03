@@ -1,7 +1,7 @@
 ---
 id: IEEEP1686D15201307
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Intelligent Electronic Devices (IEDs) Cyber Security
     Capabilities
@@ -103,51 +103,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Licenses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards Board
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Committees
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CIP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: critical infrastructure protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cyber
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IED
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1686
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: intelligent electronic device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: substation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC372062007
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for 4.76 kV to 38 kV Rated Ground and Test Devices Used in
     Enclosures
@@ -108,51 +108,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards Board
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Committees
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Power & Energy Society
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C37.20.6-2007
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ground and test (G&amp;T) devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: locking/interlocking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: manual operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: one or two terminal sets
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: selector switch
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test port
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

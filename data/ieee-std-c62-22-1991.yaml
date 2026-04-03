@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC62221991
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Application of Metal Oxide Surge Arresters for AC Systems
   type: main
@@ -100,27 +100,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surge protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surge-protected devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surge arresters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metal-oxide surge arresters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-voltage surges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric power equipment
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

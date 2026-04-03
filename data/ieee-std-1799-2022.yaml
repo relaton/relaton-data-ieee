@@ -1,7 +1,7 @@
 ---
 id: IEEEStd17992022
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Quality Control Testing of External Discharges
     on Stator Coils, Bars, and Windings
@@ -103,63 +103,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Acoustics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stator windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Coils
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Corona
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 'Discharges (electric) '
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Quality control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ac
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: acoustic emission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: corona-imaging instrument
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: discharge inception voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: external discharges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1799
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stator winding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ultraviolet radiation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

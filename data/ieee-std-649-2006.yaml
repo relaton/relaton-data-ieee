@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6492006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Qualifying Class 1E Motor Control Centers for Nuclear
     Power Generating Stations
@@ -108,66 +108,84 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Motor drives
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Motor control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: class 1E
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: environmental qualification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: harsh environment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mcc
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mild environment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: motor control center
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operating experience
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operational aging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: qualified life
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: seismic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

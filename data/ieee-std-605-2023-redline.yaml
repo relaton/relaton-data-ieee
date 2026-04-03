@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6052023Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Bus Design in Air Insulated Substations
   type: title-main
@@ -105,63 +105,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Finite element analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Short-circuit currents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ampacity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bus support
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: corona
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: finite-element
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: forces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ice
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 605&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mounting structure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rigid bus structures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: short circuit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: strain-bus structures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: substation design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wind
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

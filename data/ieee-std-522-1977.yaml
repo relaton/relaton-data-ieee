@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5221977
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Testing Turn-to-Turn Insulation on Form-Wound Stator Coils
     for Alternating-Current Rotating Electric Machines - For Trail Use
@@ -100,48 +100,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Coils
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rotating machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Form-wound stator coils
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: turn
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: machines
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

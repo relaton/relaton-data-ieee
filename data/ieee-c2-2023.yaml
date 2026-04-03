@@ -1,7 +1,7 @@
 ---
 id: IEEEC22023
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 2023 National Electrical Safety Code® (NESC®)
   type: main
@@ -106,75 +106,94 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NFPA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communications industry safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: construction of communication lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: construction of electric supply lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric supply stations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric utility stations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-voltage safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NESC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: National Electrical Safety Code
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operation of communications sys­tems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operation of electric supply systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power station equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power station safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: public utility safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety work rules
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: underground communication line safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: underground electric line safety
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '13.260'
-    text: Protection against electric shock.  Live working
+    text: Protection against electric shock. Live working
   - code: '29.020'
     text: Electrical engineering in general
   standard_status: Active

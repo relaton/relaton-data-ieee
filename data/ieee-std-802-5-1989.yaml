@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80251989
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Local Area Networks: Token Ring Access Method and Physical
     Layer Specifications'
@@ -103,30 +103,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Token networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: LAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Medium Access Control Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MAC Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: compatible interconnection
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

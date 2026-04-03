@@ -1,7 +1,7 @@
 ---
 id: IEEE7438946
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: A compilation of Documents for Nuclear Equipment Qualification and Supplement
   type: main
@@ -95,21 +95,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear engineering
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

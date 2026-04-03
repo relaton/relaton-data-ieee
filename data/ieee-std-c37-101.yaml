@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC37101
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Generator Ground Protection
   type: title-main
@@ -92,48 +92,60 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ground support
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generator connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generator connector methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generator ground protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ground-fault neutralizer (GFN)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-resistance ground
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hybrid ground
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medium-resistance ground
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ungrounded
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

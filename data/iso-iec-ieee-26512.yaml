@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE26512
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE/ISO/IEC Systems and software engineering -- Requirements for acquirers
     and suppliers of user documentation
@@ -133,42 +133,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Documentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: acquisition
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: information management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: proposal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software user documentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: statement of work
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: supply
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

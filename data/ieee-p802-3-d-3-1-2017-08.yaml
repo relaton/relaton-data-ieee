@@ -1,7 +1,7 @@
 ---
 id: IEEEP8023D31201708
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment 12: Physical Layer Specifications
     and Management Parameters for 2.5 Gb/s and 5 Gb/s Operation over Backplane'
@@ -102,69 +102,88 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Energy efficiency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 2.5 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 5 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 2.5GBASE-KX
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 2.5GBASE-X
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 5GBASE-KR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 5GBASE-R
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: amendment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Auto-Negotiation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Backplane Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BASE-R
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BASE-X
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EEE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Energy Efficient Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3cb
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

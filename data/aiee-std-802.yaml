@@ -1,7 +1,7 @@
 ---
 id: AIEEStd802
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Proposed Test Code for Direct-Current Carbon-Pile Voltage Regulators for
     Aircraft
@@ -92,18 +92,20 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aircraft
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DC generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6282011
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Criteria for the Design, Installation, and Qualification
     of Raceway Systems for Class 1E Circuits for Nuclear Power Generating Stations
@@ -104,42 +104,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ducts
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Structural shapes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable tray
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: conduit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design-by-rule
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: duct line
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 628
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: raceways
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: seismic
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd27782020
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Solar Power Plant Grounding for Personnel Protection
   type: main
@@ -98,42 +98,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Solar power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Photovoltaic systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2778
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: personnel
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: photovoltaic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: solar power plant
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

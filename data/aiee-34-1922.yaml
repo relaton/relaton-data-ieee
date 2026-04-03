@@ -1,7 +1,7 @@
 ---
 id: AIEE341922
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: AIEE Standards for Telephony and Telegraphy
   type: main
@@ -68,27 +68,32 @@ copyright:
         script: Latn
         content: AIEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AIEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telegraphy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telephony
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Line circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Equivilent circuits
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

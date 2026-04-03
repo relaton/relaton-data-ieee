@@ -1,7 +1,7 @@
 ---
 id: AIEEno
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: AIEE Report on Aircraft D-C Apparatus Voltage Ratings
   type: main
@@ -62,24 +62,28 @@ copyright:
         script: Latn
         content: AIEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AIEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DC machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aircraft
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aerospace electronics
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

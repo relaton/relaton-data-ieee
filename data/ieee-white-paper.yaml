@@ -1,13 +1,14 @@
 ---
 id: IEEEWhitePaper
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
-- content: 'Updating ePHI Definitions: Audit Trail and Audit Data'
+- content: Review of Industry Efforts and Standards of Grid Readiness For Data Center
+    Deployment
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/11270031
+  content: https://ieeexplore.ieee.org/document/11366058
 docidentifier:
 - content: IEEE White Paper
   type: IEEE
@@ -16,16 +17,16 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 979-8-8557-2903-0
+- content: 979-8-8557-3048-7
   type: ISBN
 docnumber: IEEE White Paper
 date:
 - type: created
-  at: '2025-11-26'
+  at: '2026-01-29'
 - type: published
-  at: '2025-11-26'
+  at: '2026-01-27'
 - type: issued
-  at: '2025'
+  at: '2026'
 contributor:
 - role:
   - type: publisher
@@ -49,20 +50,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The growing complexity and integration of electronic health records (EHRs)
-    demand urgent modernization of audit data and audit trail standards. This paper
-    examines current auditing standards for electronic protected health information
-    (ePHI), highlighting their limitations in ensuring transparency, accountability,
-    and interoperability in an increasingly digital and AI-integrated healthcare environment.
-    Definitions and minimum data elements need to account for new realities of AI
-    activity, device-generated data, inter-provider communications, and health information
-    transfer. These deficiencies hinder the verification of medical record integrity
-    and completeness, especially in critical settings such as clinical decision-making,
-    quality control, and legal review. This paper proposes comprehensive revisions
-    to audit data and audit trail standards, with an emphasis on usability and exportability
-    in standardized formats.
+  content: This report provides an overview of the various efforts underway to develop
+    technical requirements for protecting the grid against potential risks associated
+    with large-scale data center operations. The scope covers efforts by grid operators,
+    utilities, industry trade groups and associations, along with standard-setting
+    bodies. Specifically, the report reviews these efforts to provide recommendations
+    for new IEEE standards and definitions to address the challenges posed by data
+    center deployment. By identifying common grid requirements for data centers between
+    grid operators and utilities, this report can also guide the development of these
+    recommended harmonized grid standards to speed data center development while assuring
+    grid reliability. The review of these ongoing efforts yields a roadmap for future
+    standards development, which this report highlights.
 copyright:
-- from: '2025'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -75,36 +75,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: artificial intelligence
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: audit data
-  - language: en
+    content: data center
+- vocab:
+    language: en
     script: Latn
-    content: EHR
-  - language: en
-    script: Latn
-    content: electronic health record
-  - language: en
-    script: Latn
-    content: electronic protected health information
-  - language: en
-    script: Latn
-    content: ePHI
-  - language: en
+    content: grid
+- vocab:
+    language: en
     script: Latn
     content: Industry Connections
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: white paper
+    content: standards development white paper
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

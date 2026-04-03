@@ -1,7 +1,7 @@
 ---
 id: ANSIStdN42201995
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: ANSI Performance Criteria for Active Personnel Radiation Monitors
   type: main
@@ -97,51 +97,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: X-ray detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gamma-ray detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Neutron detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Beta-ray detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Personnel
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design criteria
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ionizing radiation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: performance criteria
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation monitors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation instrumentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: personnel radiation monitors
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

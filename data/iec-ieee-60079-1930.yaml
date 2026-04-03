@@ -1,7 +1,7 @@
 ---
 id: IECIEEE600791930
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE/IEC International Standard for Explosive atmospheres -- Part 30-2:
     Electrical resistance trace heating -- Application guide for design, installation
@@ -102,33 +102,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Resistance heating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Atmospheric measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Explosives
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Trace heating
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

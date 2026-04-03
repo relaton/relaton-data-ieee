@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE247484
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'ISO/IEC/IEEE International Standard for Systems and Software Engineering
     -- Life Cycle Management -- Part 4: Systems Engineering Planning'
@@ -83,9 +83,6 @@ abstract:
     effort and to develop the project's SEMP. Due to close alignment with the content
     of ISO/IEC 24748, ISO/IEC 26702 is now Part 4 of the multi-part International
     Standard, ISO/IEC 24748 (Systems and software engineering -- Life cycle management).
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -114,6 +111,13 @@ copyright:
         script: Latn
         content: IEC
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref: ISO/IEC/IEEE 24748.4-2025
+    docidentifier:
+    - content: ISO/IEC/IEEE 24748.4-2025
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -126,259 +130,338 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Product life cycle management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Configuration management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software acquisition
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Analytical models
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: acquisition
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: adaptation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: agreement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: audit
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: concept
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: configuration management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: decision management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: development
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: documentation management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: engineering planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: enabling system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: implementation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: information management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: infrastructure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: integration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: life cycle
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: life cycle model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: life cycle stages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: performance assessment and control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: process improvement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: process tailoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: process view
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: product
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: production
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: project assessment and control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: project planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: portfolio management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: quality management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: repository
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: retirement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: review
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: risk management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: service
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stakeholder requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: specification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: supply
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: support
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: system-of-interest
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: systems engineering management plan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SEMP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SEP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: systems analyses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: specialty engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tailoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: technical baseline
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: technical management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: technical planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: technical project management planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transition
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: utilization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: validation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: verification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MOE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MOP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TPM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SBS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WBS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PMP - SEMP relationships
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SEMP outline.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '35.080'
     text: Software
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

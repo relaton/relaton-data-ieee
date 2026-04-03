@@ -1,7 +1,7 @@
 ---
 id: IEEEStd100311988
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standards Interpretations for IEEE Standard Portable Operating System
     Interface for Computer Environments (IEEE Std 1003.1-1988)
@@ -89,18 +89,20 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Operating systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software portability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

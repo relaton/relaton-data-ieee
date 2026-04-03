@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3562001
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Measurements of Electromagnetic Properties of Earth Media
   type: main
@@ -115,57 +115,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Earth
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Permittivity measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Antenna measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc resistivity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: earth permittivity measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic geophysics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ground conductivity measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ice
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inversion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radio communications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radio reflection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: surface impedance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time domain reflectometry
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

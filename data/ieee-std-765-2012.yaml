@@ -1,7 +1,7 @@
 ---
 id: IEEEStd7652012
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Preferred Power Supply (PPS) for Nuclear Power Generating
     Stations (NPGS)
@@ -103,57 +103,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electricity supply industry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AAC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: alternate ac source
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class 1E
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 765
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NPGS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nuclear power generating station
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PPS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: preferred power supply
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchyard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission system
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712592015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Dry-Type Transformer Through-Fault Current Duration
   type: title-main
@@ -100,63 +100,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mechanical engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Short circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dry etching
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault diagnosis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Impedance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dry-type transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.12.59
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mechanical damage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mechanical duty
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: normal base current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: short-circuit current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: short-circuit impedance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal damage
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: ANSIN42342021
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Performance Criteria for Handheld Instruments
     for the Detection and Identification of Radionuclides
@@ -119,54 +119,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: US Department of Homeland Security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Neutrons
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gamma-rays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Personal digital devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI N42.34
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gamma rays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: homeland security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: industrial radionuclides
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medical radionuclides
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: neutrons
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: special nuclear material (SNM)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

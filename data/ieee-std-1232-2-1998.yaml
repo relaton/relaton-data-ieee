@@ -1,7 +1,7 @@
 ---
 id: IEEEStd123221998
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Artificial Intelligence Exchange and Service Tie to
     All Test Environments (AI-ESTATE): Service Specification'
@@ -91,27 +91,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AI-ESTATE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: artificial intelligence
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: diagnosis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dynamic context model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: system test
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

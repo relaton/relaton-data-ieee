@@ -1,7 +1,7 @@
 ---
 id: IEEEStd11272023
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Design, Construction, and Operation of Electric Power
     Substations for Community Acceptance and Environmental Compatibility
@@ -105,60 +105,76 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Commercialization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Urban areas
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wetlands
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Acoustics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Noise measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: A-weighted sound level
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: commercial zone
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: community involvement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hazardous material
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1127&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: industrial zone
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: noise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: permitting process
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: residential zone
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wetlands
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

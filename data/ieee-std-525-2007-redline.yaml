@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5252007Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Design and Installation of Cable Systems in Substations
   type: title-main
@@ -109,75 +109,96 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 525-2007
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: acceptance testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable installation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable selection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communication cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical segregation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fiber-optic cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: handling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pulling tension
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: raceway
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: recommended maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: routing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: separation of redundant cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: service conditions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: substation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transient protection
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

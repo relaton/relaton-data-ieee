@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571462005
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Interpretation of Gasses Generated in Silicone-Immersed
     Transformers
@@ -88,33 +88,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dissolved gas analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Silicon
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dissolved Gas Analysis (DGA)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: silicone-immersed transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: total dissolved combustible gas (TDCG)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: total combustible gas (TCG)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

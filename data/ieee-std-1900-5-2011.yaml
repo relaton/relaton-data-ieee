@@ -1,7 +1,7 @@
 ---
 id: IEEEStd190052011
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Policy Language Requirements and System Architectures
     for Dynamic Spectrum Access Systems
@@ -89,36 +89,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Network architecture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radio spectrum management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DSA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DSA architecture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DySPAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1900.5
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: policy language
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: policy-based DSA radio systems
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

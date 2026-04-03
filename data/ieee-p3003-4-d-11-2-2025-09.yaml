@@ -1,7 +1,7 @@
 ---
 id: IEEEP30034D112202509
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Recommended Practice for Connections to Earth for Alternating
     Current (AC) Industrial and Commercial Power Systems Facilities
@@ -89,30 +89,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Industrial power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrodes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC power transmission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding electrodes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: connections to earth
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

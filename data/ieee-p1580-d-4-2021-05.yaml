@@ -1,7 +1,7 @@
 ---
 id: IEEEP1580D4202105
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Recommended Practice for Marine Cable for Use on Shipboard
     and Fixed or Floating Facilities
@@ -106,39 +106,46 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Marine equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Underwater cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1580
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: marine cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: offshore facilities
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: platforms
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shipboard
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 47.020.60
-    text: Electrical equipment of ships and  of marine structures
+    text: Electrical equipment of ships and of marine structures
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

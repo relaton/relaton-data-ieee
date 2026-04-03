@@ -1,7 +1,7 @@
 ---
 id: IEEEStd11841994
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Selection and Sizing of Batteries for Uninterruptible
     Power Systems
@@ -101,48 +101,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Uninterruptible power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: flooded cell
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hydrogen evolution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: lead-acid battery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nickel-cadmium battery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Planté plate
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UPS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: VRLA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vented cell
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: valve-regulated lead-acid cell
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: uninterruptible power system
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

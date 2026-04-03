@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10431989
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Voltage-Endurance Testing of Form-Wound Bars
     and Coils
@@ -96,33 +96,38 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Machine windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: coils
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bars
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage-endurance testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 29.160.10
-    text: Components for rotating machines
+    text: Components for rotating machinery
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

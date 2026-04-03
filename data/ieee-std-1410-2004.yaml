@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14102004
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Improving the Lightning Performance of Electric Power Overhead
     Distribution Lines
@@ -106,45 +106,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arresters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE guide
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: lightning protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overhead power distribution lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power overhead lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power system lightning protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power system protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protection performance improvement
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

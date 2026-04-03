@@ -1,7 +1,7 @@
 ---
 id: IEEEStd2862024
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Measurement of Power Factor Tip-Up of Electric
     Machinery Stator Coil Insulation
@@ -104,63 +104,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Capacitance measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Reactive power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Stator windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Coils
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cell capacitance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: coil
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dissipation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 286
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power factor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stator bar
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stator winding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tan delta
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tangent delta
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

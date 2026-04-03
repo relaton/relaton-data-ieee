@@ -1,7 +1,7 @@
 ---
 id: IEEEStd70072021
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Ontological Standard for Ethically Driven Robotics and Automation
     Systems
@@ -78,7 +78,7 @@ abstract:
     by this standard. It focuses on the robotics and automation domain without considering
     any particular applications and can be used in multiple ways, for instance, during
     the development of robotics and automation systems as a guideline or as a reference
-    “taxonomy” to enable clear and precise communication among members from different
+    "taxonomy" to enable clear and precise communication among members from different
     communities that include robotics and automation, ethics, and correlated areas.
     Users of this standard need to have a minimal knowledge of formal logics to understand
     the axiomatization expressed in Common Logic Interchange Format. Additional information
@@ -101,42 +101,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Robots
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Artificial intelligence
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: artificial intelligence
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ethics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 7007
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ontology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: robotics
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

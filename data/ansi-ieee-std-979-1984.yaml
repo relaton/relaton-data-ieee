@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd9791984
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Substation Fire Protection
   type: main
@@ -100,42 +100,50 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fires
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Micromechanical devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Societies
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire-protection practices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric utility industry and existing fire- protection standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design of components
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 13.220.01
-    text: Protection against fire in general
+    text: General standards related to fire protection
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

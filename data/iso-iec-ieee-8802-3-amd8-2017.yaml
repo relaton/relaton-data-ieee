@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE88023Amd82017
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'ISO/IEC/IEEE International Standard - Information technology -- Telecommunications
     and information exchange between systems -- Local and metropolitan area networks
@@ -116,69 +116,88 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Twisted pair wiring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 100BASE-T1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1000BASE-T1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3bu
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power over Data Lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PoDL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PoDL PD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PoDL PSE
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd280732022
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Electric-Power-Oriented Knowledge Graph
   type: main
@@ -96,45 +96,56 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Knowledge engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Graph theory
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPKG
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPKG ODM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2807.3&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: knowledge graph
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: knowledge graph application
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

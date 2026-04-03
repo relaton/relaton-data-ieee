@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14882000
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Message Set Template for Intelligent Transportation Systems
   type: main
@@ -93,54 +93,66 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automated highways
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: attribute
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data concept
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data element
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: "&lt;QUOTE&#x003E;dataelement"
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: "&lt;QUOTE&#x003E; data frames"
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: "&lt;QUOTE&#x003E;dataframe"
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: "&lt;QUOTE&#x003E; intelligent transportation systems"
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: message
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: message set
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: meta-attribute
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: template
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transportation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 35.240.60
-    text: IT applications in transport
+    text: IT applications in transport and trade
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

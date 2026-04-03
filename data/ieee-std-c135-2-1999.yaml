@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC13521999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Threaded Zinc-Coated Ferrous Strand-Eye Anchor Rods and
     Nuts for Overhead Line Construction
@@ -87,36 +87,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: anchor rods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: anchor rod threads
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bend test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nuts
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nut threads
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: strand-eye
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tensile load test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: zinc-coated
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd7161989
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard C/ATLAS Test Language
   type: main
@@ -103,27 +103,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C/ATLAS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: language
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: C
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

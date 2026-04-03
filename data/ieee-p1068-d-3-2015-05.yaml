@@ -1,7 +1,7 @@
 ---
 id: IEEEP1068D3201505
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for the Repair and Rewinding of AC Electric Motors
     in the Petroleum, Chemical, and Process Industries
@@ -117,57 +117,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Petroleum
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Chemicals
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Industries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ac generator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ac machine
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ac motor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: induction
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: refurbish
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: repair
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: repair facility
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rewind
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: service facility
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronous
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

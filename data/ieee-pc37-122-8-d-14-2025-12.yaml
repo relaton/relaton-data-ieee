@@ -1,7 +1,7 @@
 ---
 id: IEEEPC371228D14202512
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for the Application of Mobile Gas-Insulated Substations
     Rated Above 52kV
@@ -89,30 +89,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gas-insulated substation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: GIS equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mobile GIS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SF6
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sulfur hexafluoride
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: temporary application
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.122.8
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

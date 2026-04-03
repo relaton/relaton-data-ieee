@@ -1,7 +1,7 @@
 ---
 id: IEEEStd12642015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Animal Deterrents for Electric Power Supply Substations
   type: title-main
@@ -108,75 +108,96 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Animals
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power supplies
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Coatings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Noise measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Repellents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: animal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: barriers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: coating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: damage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: deterrent
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1264(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: intrusion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mitigation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: noise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: outages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: program
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: repellent
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: survey
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

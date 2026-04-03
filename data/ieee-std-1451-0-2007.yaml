@@ -1,7 +1,7 @@
 ---
 id: IEEEStd145102007
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for a Smart Transducer Interface for Sensors and Actuators
     - Common Functions, Communication Protocols, and Transducer Electronic Data Sheet
@@ -93,51 +93,64 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Actuators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Application programming interfaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transducers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telecommunication services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: actuator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: application programming interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communication protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network capable application processor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sensor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: smart transducer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transducer electronic data sheet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transducer interface module
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

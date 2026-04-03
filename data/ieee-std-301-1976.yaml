@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3011976
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Test Procedures for Amplifiers and Preamplifiers for Semi-
     Conductor Radiation Detectors for Ionizing Radiation
@@ -101,33 +101,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Semiconductor radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Semiconductor device testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: amplifiers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: preamplifiers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ionizing ratiation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: semiconductor
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

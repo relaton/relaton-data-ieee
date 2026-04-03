@@ -1,7 +1,7 @@
 ---
 id: IEEEStdP12207_CD1
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Unapproved ISO/IEC Systems and Software Engineering -- Software Life Cycle
     Processes
@@ -72,30 +72,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Process control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Analytical models
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Organizations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEPC571229D9201304
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Pad Mounted Equipment - Enclosure Integrity for
     Coastal Environments
@@ -115,39 +115,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Pad mounted equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Enclosures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: enclosure integrity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pad-mounted equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage regulators
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

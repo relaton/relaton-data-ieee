@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16962013
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Terminology and Test Methods for Circuit Probes
   type: main
@@ -100,72 +100,92 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Probes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transfer functions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: common mode
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: frequency response
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gain
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1696TM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: input resistance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: linearity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: offset error
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: offset range
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: probe
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: probe-only
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: probe system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scattering parameters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test fixture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: text methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time response
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transfer function
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

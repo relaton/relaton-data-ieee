@@ -1,7 +1,7 @@
 ---
 id: IEEEP145116D03202509
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for a Smart Transducer Interface for Sensors, Actuators,
     and Devices - Message Queue Telemetry Transport (MQTT) for Networked Device Communication
@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2025-03-18'
 - type: issued
-  at: '2025'
+  at: '2025-06-19'
 contributor:
 - role:
   - type: publisher
@@ -70,13 +70,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard defines a method for transporting IEEE 1451 messages over
-    a network using Message Queue Telemetry Transport (MQTT) to establish a light-weight,
-    simplified protocol structure to handle IEEE 1451 communications, and this standard
-    enables to establish a light-weight, simplified protocol structure to handle IEEE
-    1451 communications over MQTT. Adding to the OASIS MQTT standards recommended
-    methods, different formats of 1451.0 message carriers are defined. Moreover, time-synchronization,
-    security, and other useful extensions are also defined
+  content: A method for transporting IEEE 1451™ messages over a network using Message
+    Queue Telemetry Transport (MQTT) to establish a light-weight, simplified protocol
+    structure to handle IEEE 1451 communications is defined by this standard. Also,
+    the establishment of a light-weight, simplified protocol structure to handle IEEE
+    1451 communications over MQTT is enabled by this standard. Adding to the MQTT
+    standards’ recommended methods, three different formats of IEEE 1451.0™ message
+    carriers are defined. Moreover, time-synchronization, security, and other useful
+    extensions are also defined by this standard.
 status:
   stage:
     content: draft
@@ -94,63 +95,92 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Internet of Things
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sensor systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Message services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Queueing analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transducers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Actuators
-  - language: en
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1451.1.6(TM)
+- vocab:
+    language: en
     script: Latn
     content: IoT
-  - language: en
-    script: Latn
-    content: Smart transducer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: LAN/WAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MQTT
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: Sensor network
-  - language: en
+    content: security
+- vocab:
+    language: en
     script: Latn
-    content: Time synchronization
+    content: sensor network
+- vocab:
+    language: en
+    script: Latn
+    content: smart transducer
+- vocab:
+    language: en
+    script: Latn
+    content: time synchronization
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 35.040.50
+    text: Automatic identification and data capture techniques
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

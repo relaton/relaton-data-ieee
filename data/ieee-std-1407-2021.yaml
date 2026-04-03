@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14072021
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Accelerated Aging Tests for 5 kV to 46 kV Extruded Electric
     Power Cables Using Water-Filled Tanks
@@ -106,69 +106,88 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Medium voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Water storage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: accelerated aging test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: accelerated cable life test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ACLT
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cross-linked polyethylene
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ethylene propylene rubber
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1407
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement and profile
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medium-voltage cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tank structure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: temperature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test conditions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: water-filled tanks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XLPE
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

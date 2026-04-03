@@ -1,7 +1,7 @@
 ---
 id: IEEEStd9331999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Definition of Reliability Program Plans for Nuclear
     Power Generating Stations
@@ -90,22 +90,25 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: alert and action levels; corrective action; performance monitoring; problem
       analysis; reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: availability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: and maintainability (RAM); reliability program
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEPC57138D4201604
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Recommended Practice for Routine Impulse Test for Distribution
     Transformers
@@ -103,39 +103,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Production processes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Impulsetesting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE PC57.138(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: routine test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: production line testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

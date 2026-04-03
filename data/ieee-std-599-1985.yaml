@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5991985
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Definitions of Power Systems Data Transmission and Related
     Channel Terminology
@@ -92,21 +92,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transmission
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

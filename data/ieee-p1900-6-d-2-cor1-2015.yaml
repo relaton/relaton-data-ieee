@@ -1,7 +1,7 @@
 ---
 id: IEEEP19006D2Cor12015
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Spectrum Sensing Interfaces and Data Structures
     for Dynamic Spectrum Access and other Advanced Radio Communication Systems. -
@@ -116,33 +116,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Spread spectrum management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data structures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Terminology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radio communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: terms
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: definitions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: corrections
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

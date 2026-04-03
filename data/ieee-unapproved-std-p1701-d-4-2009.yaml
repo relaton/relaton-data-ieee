@@ -1,7 +1,7 @@
 ---
 id: IEEEUnapprovedStdP1701D42009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Draft Standard for Optical Port Communication Protocol to Complement the
     Utility Industry End Device Data Tables
@@ -71,48 +71,58 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Regulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI C12.18
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical Port
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Type II
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PSEM
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '35.040'
-    text: Information coding
+    text: Character sets and information coding
   - code: 35.240.99
     text: IT applications in other fields
   standard_status: Inactive

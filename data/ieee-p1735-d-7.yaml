@@ -1,7 +1,7 @@
 ---
 id: IEEEP1735D7
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Recommended Practice for Encryption and Management
     of Electronic Design Intellectual Property (IP)
@@ -93,39 +93,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Encryption
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Digital rights management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Trust management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Intellectual property
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: encrypted IP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: digital envelope
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: trust model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: keys
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rights management
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -133,6 +142,7 @@ ext:
   - code: '03.140'
     text: Patents. Intellectual property
   - code: '31.000'
+    text: Electronics
   standard_status: Active
   standard_modified: Draft
   pubstatus: Active

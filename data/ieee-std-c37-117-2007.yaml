@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC371172007
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Application of Protective Relays Used for Abnormal Frequency
     Load Shedding and Restoration
@@ -90,21 +90,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: relay applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: underfrequency
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

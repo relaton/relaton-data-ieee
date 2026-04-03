@@ -1,7 +1,7 @@
 ---
 id: IEEEStd31442025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Digital Twin Maturity Model and Assessment Methodology
     in Industry
@@ -92,30 +92,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Digital twins
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Quality assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: digital twin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 3144™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: industry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: maturity model
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

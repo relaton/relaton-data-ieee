@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16822023Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Qualifying Fiber Optic Cables, Connections, and Optical
     Fiber Splices for Use in Safety Systems in Nuclear Power Generating Stations
@@ -108,54 +108,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical fiber communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Splicing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Class 1E
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: connectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fiber
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fiber optic cable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fibers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1682&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nuclear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: optical fiber
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: splices
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP1635D26
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE/ASHRAE Draft Guide for the Ventilation and Thermal Management of Batteries
     for Stationary Applications
@@ -116,63 +116,80 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ventilation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ASHRAE Guideline 21
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery cabinets
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery gassing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery room
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery vaults
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: forced ventilation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hydrogen
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1635
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: natural ventilation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stationary battery
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ventilation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ventilation system maintenance
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

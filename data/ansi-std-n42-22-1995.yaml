@@ -1,7 +1,7 @@
 ---
 id: ANSIStdN42221995
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Traceability of Radioactive Sources to NIST
     and Associated Instrument Quality Control
@@ -92,51 +92,64 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radioactive materials
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ion sources
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Quality control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NIST
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: quality assurance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radio activity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radionuclide sources
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: traceability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation instrumentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: instrument quality control
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

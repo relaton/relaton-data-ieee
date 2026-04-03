@@ -1,0 +1,193 @@
+---
+id: IEEEP8021ASdsD21202601
+type: standard
+schema_version: v1.5.6
+title:
+- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks--Timing and
+    Synchronization for Time-Sensitive Applications Amendment: Support for the IEEE
+    Std 802.3 Clause 4 Media Access Control (MAC) operating in half-duplex'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11364320
+docidentifier:
+- content: IEEE P802.1ASds/D-2.1-2026-01
+  type: IEEE
+  primary: true
+- content: IEEE P802.1ASds™/D-2.1-2026-01
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-3085-2
+  type: ISBN
+docnumber: IEEE P802.1ASds/D-2.1-2026-01
+date:
+- type: created
+  at: '2026-01-23'
+- type: published
+  at: '2026-01-26'
+- type: issued
+  at: '2026'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.1ASTM-2020 specifies protocols, procedures,
+    and managed objects that support IEEE Std 802.3 Clause 4 Media Access Control
+    (MAC) operating in half-duplex while retaining existing functionality and backward
+    compatibility, and remaining a profile of IEEE Std 1588™-2019.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref: IEEE Std 802.1AS-2020
+    docidentifier:
+    - content: IEEE Std 802.1AS-2020
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Metropolitan area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Clocks
+- vocab:
+    language: en
+    script: Latn
+    content: Synchronization
+- vocab:
+    language: en
+    script: Latn
+    content: Time measurement
+- vocab:
+    language: en
+    script: Latn
+    content: Sensitivity analysis
+- vocab:
+    language: en
+    script: Latn
+    content: Media Access Control
+- vocab:
+    language: en
+    script: Latn
+    content: best timeTransmitter
+- vocab:
+    language: en
+    script: Latn
+    content: frequency offset
+- vocab:
+    language: en
+    script: Latn
+    content: Grandmaster Clock
+- vocab:
+    language: en
+    script: Latn
+    content: Grandmaster PTP Instance
+- vocab:
+    language: en
+    script: Latn
+    content: PTP End Instance
+- vocab:
+    language: en
+    script: Latn
+    content: PTP Relay Instance
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Std 802.1AS(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: phase offset
+- vocab:
+    language: en
+    script: Latn
+    content: synchronization
+- vocab:
+    language: en
+    script: Latn
+    content: syntonization
+- vocab:
+    language: en
+    script: Latn
+    content: time-aware system
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712242016
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Submersible, Three-Phase Transformers, 3750 kVA and
     Smaller: High Voltage, 34 500 GrdY/19 920 Volts and Below; Low Voltage, 600 Volts
@@ -104,42 +104,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Underwater cables
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.12.24
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: submersible
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: three phase
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

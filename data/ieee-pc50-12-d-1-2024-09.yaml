@@ -1,7 +1,7 @@
 ---
 id: IEEEPC5012D1202409
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for 50 Hz and 60 Hz Synchronous Generators and Generator/Motors
     Coupled to Hydraulic Turbines and Rated 5 MVA and Above
@@ -101,45 +101,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hydraulic systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rotors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronous generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronous motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cylindrical-rotor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generator/motor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hydrogenerator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C50.12(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: salient-pole rotor
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

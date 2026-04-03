@@ -1,7 +1,7 @@
 ---
 id: IEEEStd107641995
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard VITAL Application-Specific Integrated Circuit (ASIC) Modeling
     Specification
@@ -97,57 +97,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Application specific integrated circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hardware design languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Integrated circuit modeling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit simulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Simulation software
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ASIC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: constraints
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: delay calculation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: HDL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: modeling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SDF
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: timing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: verilog
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: VHDL
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

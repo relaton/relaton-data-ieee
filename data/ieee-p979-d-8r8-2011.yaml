@@ -1,7 +1,7 @@
 ---
 id: IEEEP979D8R82011
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Substation Fire Protection
   type: main
@@ -87,51 +87,62 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fires
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hazardous areas
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fire protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: risk
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hazard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: substation design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: substations
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 13.220.01
-    text: Protection against fire in general
+    text: General standards related to fire protection
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

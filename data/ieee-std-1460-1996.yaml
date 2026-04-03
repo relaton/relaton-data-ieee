@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14601996
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Measurement of Quasi-Static Magnetic and Electric Fields
   type: main
@@ -88,27 +88,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Magnetic field measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power frequency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power frequency harmonic fields
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: quasi-static magnetic fields
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: quasi-static electric fields
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

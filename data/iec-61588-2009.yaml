@@ -1,7 +1,7 @@
 ---
 id: IEC615882009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEC/IEEE International Standard - Precision Clock Synchronization Protocol
     for Networked Measurement and Control Systems
@@ -102,48 +102,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distributed management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Clocks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Real-time systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: boundary clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distributed system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: master clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement and control system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: real-time clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronized clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transparent clock
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

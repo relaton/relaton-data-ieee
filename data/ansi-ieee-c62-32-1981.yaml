@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEC62321981
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Test Specifications for Low-Voltage Air Gap Surge-Protective
     Devices (Excluding Valve and Expulsion Type Devices)
@@ -99,45 +99,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Low power electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arresters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surge protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low-voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: air
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gap
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spd
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

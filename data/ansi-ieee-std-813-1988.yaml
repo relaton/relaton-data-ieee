@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd8131988
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Specification Format Guide and Test Procedure for Two-Degree-of-Freedom
     Dynamically Tuned Gyros
@@ -98,42 +98,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aircraft instrumentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Detectors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gyroscopes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inertial navigation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Military equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Missiles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: two degree
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: degree of freedom
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tuned gyros
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

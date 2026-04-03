@@ -1,10 +1,10 @@
 ---
 id: IEEEISOIECP12207
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
-- content: ISO/IEC/IEEE Draft International standard - Systems and software engineering
-    -- Software life cycle processes
+- content: ISO/IEC/IEEE Approved Draft International standard - Systems and software
+    engineering -- Software life cycle processes
   type: main
 source:
 - type: src
@@ -22,11 +22,11 @@ docidentifier:
 docnumber: IEEE/ISO/IEC P12207
 date:
 - type: created
-  at: '2025-07-28'
+  at: '2026-02-23'
 - type: published
-  at: '2025-07-30'
+  at: '2025-07-29'
 - type: issued
-  at: '2025'
+  at: '2026-02-12'
 contributor:
 - role:
   - type: publisher
@@ -120,27 +120,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Systems engineering and theory
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Life cycle assessment
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

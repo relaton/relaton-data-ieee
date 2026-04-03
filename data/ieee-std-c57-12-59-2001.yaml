@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712592001
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Dry-Type Transformer Through-Fault Current Duration
   type: main
@@ -105,36 +105,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Short circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dry-type transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: normal base current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overcurrent protective devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer short-circuit impedance
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

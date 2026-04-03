@@ -1,7 +1,7 @@
 ---
 id: IEEEP1246D15201904
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Temporary Protective Grounding Systems Used in Substations
   type: main
@@ -111,45 +111,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1246&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: personnel safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: temporary grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ultimate rating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: withstand rating
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

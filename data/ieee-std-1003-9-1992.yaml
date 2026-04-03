@@ -1,7 +1,7 @@
 ---
 id: IEEEStd100391992
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for InformationTechnology - POSIX(R) FORTRAN 77 Language
     Interfaces - Part 1: Binding for System Application Program Interface (API)'
@@ -98,36 +98,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FORTRAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software portability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interfaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: POSIX
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: System interfaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FORTRAN 77
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Application portability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interoperability
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5719042018
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Performance Characteristics and Dimensions for High Current
     Power Transformer Bushings with Rated Continuous Current in Excess of 5000 A in
@@ -24,8 +24,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.19.04-2018
 date:
-- type: updated
-  at: '2018-06-22'
 - type: created
   at: '2018-06-08'
 - type: published
@@ -36,6 +34,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -93,69 +94,86 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Capacitance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: basic impulse insulation levels (BILs)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bushings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cantilever test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: capacitance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: creepage distance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generator step-up (GSU) transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: isolated-phase bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: line-to-ground voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metal-enclosed bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nominal system voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power transformer bushings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power factor
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
-  - code: 01.040.11
-    text: Health care technology (Vocabularies)
+  - code: 29.080.20
+    text: Bushings
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80222b2015
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information Technology--Telecommunications and information
     exchange between systems - Wireless Regional Area Networks (WRAN)--Specific requirements
@@ -115,51 +115,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Throughput
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Broadband communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WRAN
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: broadband wireless access network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: enhanced broadband services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high capacity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high throughput
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.22(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.22b(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: monitoring applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WRAN standard
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

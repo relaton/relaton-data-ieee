@@ -1,7 +1,7 @@
 ---
 id: IEEEP900032014201504
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Standard Adoption of ISO/IEC 90003:2014, Software Engineering
     -- Guidelines for the Application of ISO 9001:2008 to Computer Software
@@ -124,33 +124,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: '9001'
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: adoption
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: computer software
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 90003(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: quality management
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

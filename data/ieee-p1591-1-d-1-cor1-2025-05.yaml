@@ -1,34 +1,32 @@
 ---
-id: IEEE80216k
+id: IEEEP15911D1Cor1202505
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
-- content: 'IEEE Standard for Local and Metropolitan Area Networks: Media Access Control
-    (MAC) Bridges - Amendment 2: Bridging of IEEE 802.16'
+- content: IEEE Draft Standard for Testing and Performance of Hardware for Optical
+    Ground Wire (OPGW) - Corrigendum 1
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/4293121
+  content: https://ieeexplore.ieee.org/document/11364323
 docidentifier:
-- content: IEEE 802.16k-
+- content: IEEE P1591.1/D-1/Cor1-2025-05
   type: IEEE
   primary: true
-- content: IEEE 802.16k®-
+- content: IEEE P1591.1™/D-1/Cor1-2025-05
   type: IEEE
   scope: trademark
   primary: true
-- content: 978-0-7381-5586-9
+- content: 979-8-8557-3083-8
   type: ISBN
-- content: 10.1109/IEEESTD.2007.4293121
-  type: DOI
-docnumber: IEEE 802.16k-
+docnumber: IEEE P1591.1/D-1/Cor1-2025-05
 date:
 - type: created
-  at: '2007-08-14'
+  at: '2026-01-23'
 - type: published
-  at: '2007-08-27'
+  at: '2026-01-26'
 - type: issued
-  at: '2007-03-22'
+  at: '2026'
 contributor:
 - role:
   - type: publisher
@@ -60,7 +58,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: LAN/MAN Standards Committee of the IEEE Computer Society
+        content: Power System Communications and Cybersecurity of the IEEE Power and
+          Energy Society
       type: committee
     abbreviation:
       content: IEEE
@@ -71,10 +70,13 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This document amends IEEE Std 802.1D, as previously amended by IEEE Std
-    802.17a(TM)-2004, to support the bridging of the IEEE 802.16 medium access control.
+  content: Corrections and explanatory notes to Figures 4 and 5 are provided for the
+    Hardware Fault Current Testing in this corrigendum.
+status:
+  stage:
+    content: draft
 copyright:
-- from: '2007'
+- from: '2026'
   owner:
   - organization:
       uri:
@@ -91,63 +93,67 @@ relation:
   description:
     language: en
     script: Latn
-    content: amends
+    content: corrects
   bibitem:
-    formattedref: IEEE Std 802.1D-2004
+    formattedref: IEEE Std 1591.1-2023
     docidentifier:
-    - content: IEEE Std 802.1D-2004
+    - content: IEEE Std 1591.1-2023
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
-    content: Local area networks
-  - language: en
+    content: Fault currents
+- vocab:
+    language: en
     script: Latn
-    content: Metropolitan area networks
-  - language: en
+    content: Optical fiber cables
+- vocab:
+    language: en
     script: Latn
-    content: Media Access Protocol
-  - language: en
+    content: Hardware
+- vocab:
+    language: en
     script: Latn
-    content: Bridge circuits
-  - language: en
+    content: Performance evaluation
+- vocab:
+    language: en
     script: Latn
-    content: local area networks
-  - language: en
+    content: Wiring
+- vocab:
+    language: en
     script: Latn
-    content: LANs
-  - language: en
+    content: Computer security
+- vocab:
+    language: en
     script: Latn
-    content: MAC Bridges
-  - language: en
+    content: Testing
+- vocab:
+    language: en
     script: Latn
-    content: transparent bridging
-  - language: en
+    content: Fault Current Testing
+- vocab:
+    language: en
     script: Latn
-    content: VLANs
-  - language: en
+    content: fiber optic cable
+- vocab:
+    language: en
     script: Latn
-    content: wireless metropolitan area networks
-  - language: en
-    script: Latn
-    content: WMAN
+    content: IEEE 1591.1
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
-  - code: '35.110'
-    text: Networking
-  - code: 35.100.20
-    text: Data link layer
-  - code: 35.100.10
-    text: Physical layer
-  standard_status: Superseded
+  - code: 33.180.10
+    text: Fibres and cables
+  standard_status: Active
+  standard_modified: Draft
   pubstatus: Active
-  holdstatus: Publish
+  holdstatus: Hold

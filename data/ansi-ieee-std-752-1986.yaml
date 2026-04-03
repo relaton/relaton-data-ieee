@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd7521986
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Functional Requirements for Methods and Equipment for
     Measuring the Performance of Tone Address Signaling Systems
@@ -95,18 +95,20 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication system signaling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test equipment
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

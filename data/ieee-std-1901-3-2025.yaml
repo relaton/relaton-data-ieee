@@ -1,7 +1,7 @@
 ---
 id: IEEEStd190132025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Medium Frequency (less than 12 MHz) Power Line Communications
     (PLC) with a Hybrid PLC/Radio Frequency Physical Layer (PHY)
@@ -26,7 +26,7 @@ date:
 - type: created
   at: '2025-11-25'
 - type: published
-  at: '2025-11-25'
+  at: '2025-11-24'
 - type: issued
   at: '2025-06-19'
 contributor:
@@ -98,87 +98,114 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Broadband communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wireless communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OFDM
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Smart grids
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: BPL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: broadband power line and wireless
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: coexistence
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FFT
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1901
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1901.1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1901.2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1901.3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MAC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medium frequency
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: orthogonal frequency division multiplexing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PHY
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PLC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power line and wireless communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: smart grid
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 33.040.60
+    text: Powerline telecommunications
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

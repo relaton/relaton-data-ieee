@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571042019Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Interpretation of Gases Generated in Mineral Oil-Immersed
     Transformers
@@ -106,42 +106,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mineral oils
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Oil insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dissolved gas analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DGA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gas analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.104
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mineral oil
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mineral oil-immersed transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

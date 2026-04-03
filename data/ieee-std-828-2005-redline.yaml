@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8282005Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Software Configuration Management Plans
   type: title-main
@@ -102,48 +102,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software development management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software architecture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software maintenance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: configuration control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: configuration control board
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: configuration identification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: configuration item
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: configuration review
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: configuration status accounting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: release management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software configuration management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software configuration management plan
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP3134D12202501
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Guide for Drawing Regional Icing Maps for Overhead
     Transmission Lines
@@ -89,36 +89,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ice thickness
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ice
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ice accretion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: icing maps
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ice thickness prediction model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 3134(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operational experiences
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

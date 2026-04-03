@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571141990
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Seismic Guide for Power Transformers and Reactors
   type: main
@@ -90,37 +90,45 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reactor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: nuclear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: oil-immersed
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: earthquake transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Oil-immersed power transformers and reactors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: performance requirements of transformers and reactors during and following
       a design earthquake.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

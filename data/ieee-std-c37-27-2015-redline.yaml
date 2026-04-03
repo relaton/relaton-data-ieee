@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC37272015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Low-Voltage AC (635 V and below) Power Circuit Breakers
     Applied with Separately-Mounted Current-Limiting Fuses
@@ -89,42 +89,52 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fuses
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current limiters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Low power electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current-limiting fuse
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.27(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low-voltage ac power circuit breaker
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: open-fuse trip device
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

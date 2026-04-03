@@ -1,7 +1,7 @@
 ---
 id: IEEEStd145062005
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Test Interface Language (STIL) for Digital Test Vector Data-Core
     Test Language (CTL)
@@ -91,36 +91,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: System integration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Task analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: System-on-chip
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Core Test Language (CTL)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standard Test Interface Language (STIL)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: System-on-Chip (SoC)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wrapped core
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: unwrapped core
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

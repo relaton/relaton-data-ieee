@@ -1,7 +1,7 @@
 ---
 id: IEEEP15053D11201505
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for the Universal Test Interface Framework
     and Pin Configuration for Portable/Benchtop Test Requirements Utilizing IEEE 1505(TM)
@@ -94,63 +94,78 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Receivers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Scability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mass termination
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interfaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Benchmark testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ATS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fixture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1505.3(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: receiver
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: scalable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TPS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: UUT
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 31.220.10
-    text: Plug-and-socket devices. Connectors
+    text: Plug-and-socket devices
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd10182004
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Specifying Electric Submersible Pump Cable
     - Ethylene-Propylene Rubber Insulation
@@ -113,48 +113,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cable testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power cable insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethylene-propylene rubber
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Pumps
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Petroleum industry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ampacity ratings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: assembly
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable construction
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cable testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: field testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: submersible pump cable
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

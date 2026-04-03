@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3871995
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Criteria for Diesel-Generator Units Applied as Standby Power
     Supplies for Nuclear Power Generating Stations
@@ -113,93 +113,120 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Diesel driven generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nuclear power generation auxiliary systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fission reactor protection/safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Emergency/standby power systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rotating machine testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: aging classification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: auxiliary equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: capability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: controls
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design criteria
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design features
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: load profile
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: modifications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: periodic testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: engine
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pre-operational test
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: production testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: records
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reliability program
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: seismic qualification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: site testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test parameters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: type testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

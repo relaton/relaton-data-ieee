@@ -1,7 +1,7 @@
 ---
 id: IEEEStd24102021
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Biometric Privacy
   type: main
@@ -117,75 +117,96 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Privacy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Biometrics (access control)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Access control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: admin console
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: application
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: biometric-driven device
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: biometrics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: privacy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: client device IDS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IDS cluster
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Std 2410(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Jena Rules
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: liveness
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: original site admin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SBP admin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SBP cluster
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SBP IDS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SBP server
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: site admin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: trusted adjudicated data
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: user
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8023an2006
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'Standard for Information Technology - Telecommunications and Information
     Exchange Between Systems – LAN/MAN - Specific Requirements Part 3: CSMA/CD Access
@@ -103,51 +103,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 802.3an
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 10GBASE-T
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 10 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Auto-Negotiation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical Coding Sublayer (PCS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical Medium Attachment (PMA) sublayer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: structured cabling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XAUI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XGMII
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

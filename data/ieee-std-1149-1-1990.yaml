@@ -1,7 +1,7 @@
 ---
 id: IEEEStd114911990
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Test Access Port and Boundary-Scan Architecture
   type: main
@@ -98,45 +98,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer interfaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Logic circuit testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Printed circuit testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: testability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bus
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: architecture
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Test ports
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Printed circuit boards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuitry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit boards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Boundary-scan register
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

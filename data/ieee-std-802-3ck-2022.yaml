@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8023ck2022
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Ethernet Amendment 4: Physical Layer Specifications
     and Management Parameters for 100 Gb/s, 200 Gb/s, and 400 Gb/s Electrical Interfaces
@@ -107,75 +107,96 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 100GAUI-1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 100GBASE-CR1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 100GBASE-KR1
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 100 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 200GAUI-2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 200GBASE-CR2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 200GBASE-KR2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 200 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 400GAUI-4
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 400GBASE-CR4
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 400GBASE-KR4
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 400 Gigabit Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: amendment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FEC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: forward error correction
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3ck(TM)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

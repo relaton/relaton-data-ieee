@@ -1,7 +1,7 @@
 ---
 id: IEEEStd11073104252017
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'Health informatics--Personal health device communication - Part 10425:
     Device Specialization--Continuous Glucose Monitor (CGM)'
@@ -110,39 +110,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sugar
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Biomedical monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Medical devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Glucose
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Diabetes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: continuous glucose monitor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 11073-10425
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medical device communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: personal health devices
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

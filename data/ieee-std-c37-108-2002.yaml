@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC371082002
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for the Protection of Network Transformers
   type: main
@@ -101,45 +101,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system relaying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Trademarks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: master relay
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network limiter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network protector
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network relays
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spot networks
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

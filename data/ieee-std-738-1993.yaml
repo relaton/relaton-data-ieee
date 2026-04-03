@@ -1,7 +1,7 @@
 ---
 id: IEEEStd7381993
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Calculating the Current-Temperature of Bare Overhead
     Conductors
@@ -102,36 +102,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Conductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Consumer electronics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Patents
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Steady-state
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transient analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bare overhead lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current temperature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: relationship
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

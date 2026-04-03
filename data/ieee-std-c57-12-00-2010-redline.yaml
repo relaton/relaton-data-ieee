@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712002010Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for General Requirements for Liquid-Immersed Distribution,
     Power, and Regulating Transformers
@@ -111,42 +111,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Liquids
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Regulators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: autotransformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distribution transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mechanical requirements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: regulating transformers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

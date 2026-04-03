@@ -1,7 +1,7 @@
 ---
 id: ANSIN42141999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard for Calibration and Use of Germanium Spectrometers
     for the Measurement of Gamma-Ray Emission Rates of Radionuclides
@@ -101,33 +101,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cascade summing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: decay rates
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gamma-ray emission rates
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: germanium spectrometers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radionuclides
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: spectrometers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

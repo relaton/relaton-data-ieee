@@ -1,7 +1,7 @@
 ---
 id: IEEEStd167A11995
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard Facsimile Test Chart: Bilevel (Black and White)'
   type: main
@@ -84,30 +84,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Facsimile
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bars
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Micrometers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Image storage
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

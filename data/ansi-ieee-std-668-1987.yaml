@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd6681987
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Electrical Heating Applications to Melting
     Furnaces and Forehearths in the Glass Industry
@@ -99,27 +99,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Furnaces
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Resistance heating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Glass industry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wiring
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEP16093D1Cor1201110
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)
     - Networking Services - Corrigendum 1: Corrections to Annex G Packet format examples'
@@ -89,39 +89,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Intelligent transportation systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transportation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Intelligent vehicles
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Mobile radio mobility management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gateway MAC Address
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EDCA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 3D location
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WAVE Routing Advertisement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WAVE Service Advertisement
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -129,7 +138,7 @@ ext:
   - code: '35.110'
     text: Networking
   - code: 35.240.60
-    text: IT applications in transport
+    text: IT applications in transport and trade
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

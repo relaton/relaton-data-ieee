@@ -1,7 +1,7 @@
 ---
 id: IEEEPC3774D20202312
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard Requirements for Subsurface, Vault, and Padmounted
     Load-Interrupter Switchgear and Fused Load-Interrupter Switchgear for Alternating
@@ -103,54 +103,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fused
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Std C37.74&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: load-interrupter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: visible break
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pad-mount
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pad-mounted
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: production tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ratings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: service conditions subsurface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vault
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: way
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

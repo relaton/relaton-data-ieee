@@ -1,7 +1,7 @@
 ---
 id: IEEEStd7901989
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Medical Ultrasound Field Parameter Measurements
   type: main
@@ -93,21 +93,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Acoustic measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Biomedical measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Biomedical acoustics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

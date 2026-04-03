@@ -1,7 +1,7 @@
 ---
 id: IEEEP2955D2202503
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Recommended Practice for Creating Self Learning Tutorials
     and Side by Side Learning
@@ -90,36 +90,46 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Audio-visual systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Tutorials
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Learning systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: audio-video tutorial
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2955(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: self-learning tutorials
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: side-by-side learning
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 35.240.90
+    text: IT applications in education
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

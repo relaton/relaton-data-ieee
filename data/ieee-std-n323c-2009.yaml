@@ -1,7 +1,7 @@
 ---
 id: IEEEStdN323C2009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard for Radiation Protection Instrumentation Test
     and Calibration - Air Monitoring Instruments
@@ -90,27 +90,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Radiation monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Instrumentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Atmospheric measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: calibration, radioactive air monitoring, tests
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

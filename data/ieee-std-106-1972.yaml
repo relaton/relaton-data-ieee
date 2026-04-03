@@ -1,7 +1,7 @@
 ---
 id: IEEEStd1061972
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Test procedure for Test Procedure for Toroidal Magnetic Amplifier
     Cores (Including Core Material Data)
@@ -66,24 +66,28 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Magnetic cores
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Torodial magnetic fields
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power amplifiers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

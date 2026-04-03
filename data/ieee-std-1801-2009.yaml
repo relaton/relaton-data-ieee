@@ -1,7 +1,7 @@
 ---
 id: IEEEStd18012009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Design and Verification of Low Power Integrated Circuits
   type: main
@@ -109,69 +109,88 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards Association
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power integrated circuits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Design automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Encapsulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Warranties
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1801-2009
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: corruption semantics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interface specification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IP reuse
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: isolation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: level-shifting
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: poweraware design
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power intent
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power domains
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power modes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power states
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: progressive design refinement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: retention
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: retention strategies
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

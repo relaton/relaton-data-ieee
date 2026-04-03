@@ -1,7 +1,7 @@
 ---
 id: IEEEPC13590D60201111
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Pole Line Hardware for Overhead Line Construction
   type: main
@@ -88,39 +88,46 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Poles and towers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overhead
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: line
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hardware
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wood
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pole
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 21.060.10
-    text: Bolts, screws, studs
+    text: Bolts, screws
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

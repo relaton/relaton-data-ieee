@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37202D1202501
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Metal-Clad Switchgear
   type: main
@@ -107,75 +107,96 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Indoor environment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Load management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metal enclosures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cumulative loading
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: current transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: draw-out
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.20.2™
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: indoor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: instrumentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: load current-carrying
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metal-clad (MC) switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metal-enclosed (ME) power switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: outdoor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear assemblies
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer accuracy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voltage transformers
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

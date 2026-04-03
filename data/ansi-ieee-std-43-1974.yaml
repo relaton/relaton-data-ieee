@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd431974
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Testing Insulation Resistance of Rotating
     Machinery
@@ -102,51 +102,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Asynchronous rotating machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DC machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Resistance measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Machine windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronous machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: resistance
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: rotating
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rotating-machine insulation testing
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

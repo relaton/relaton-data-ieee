@@ -1,7 +1,7 @@
 ---
 id: IEEEP28992D67202502
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Speech Recognition and Interaction System
     for Smart Home — Safety Requirements for Speech Control
@@ -91,36 +91,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Oral communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Speech synthesis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Smart homes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: functional safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2899.2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: speech control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: voice-print recognition
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: ANSIUSEMCSCC63142023
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Dictionary of Electromagnetic Compatibility
     (EMC) Including Electromagnetic Environmental Effects (E3)
@@ -104,48 +104,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Dictionaries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic compatibility
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI C63.14
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic compatibility
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic environmental effects
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic pulse
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrostatic discharge
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: E3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EMC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EMP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ESD
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

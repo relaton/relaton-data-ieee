@@ -1,7 +1,7 @@
 ---
 id: IEEEStd29702024
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Synchronous Monitoring of the Magnitude and Distribution
     of Stray Current in Urban Rail Transit’s Direct Current Traction System
@@ -93,51 +93,64 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Rail transportation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Urban areas
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Public transportation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronous motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: dc bias current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 2970&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: monitoring system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: neutral point of the power transformer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stray current
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronous monitoring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: urban rail transit
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

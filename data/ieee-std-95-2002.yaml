@@ -1,7 +1,7 @@
 ---
 id: IEEEStd952002
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Insulation Testing of AC Electric Machinery
     (2300 V and Above) With High Direct Voltage
@@ -88,30 +88,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric machines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-voltage techniques
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric machine windings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical insulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high direct voltage
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

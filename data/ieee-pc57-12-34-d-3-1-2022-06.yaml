@@ -1,7 +1,7 @@
 ---
 id: IEEEPC571234D31202206
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard Requirements for Pad-Mounted, Compartmental-Type, Self-Cooled,
     Three-Phase Distribution Transformers, 10 MVA and Smaller; High-Voltage, 34.5
@@ -109,51 +109,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Low voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Cooling
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: compartmental
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: connector arrangements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C57.12.34
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: loop
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pad-mounted
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: pad-mount distribution transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radial
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: three phase
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

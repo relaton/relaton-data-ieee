@@ -1,7 +1,7 @@
 ---
 id: IEEEP1107310700D3202106
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Draft Standard - Health Informatics -- Device Interoperability --
     Part 10700: Point-of-Care Medical Device Communication -- Standard for Base Requirements
@@ -100,38 +100,45 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Point of care
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Medical devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interoperability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bioinformatics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: base PKP; BICEPS; communication protocol specification; documentation
       and process responsibilities; dynamic medical device interoperability; IEEE
       11073-10700&#8482;; integrated clinical environment; participant key purpose;
       point-of-care medical device communication; risk management; SDC; service-oriented
       device connectivity; safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: effectiveness
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: and security; system function; system function contribution; usability
       engineering
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

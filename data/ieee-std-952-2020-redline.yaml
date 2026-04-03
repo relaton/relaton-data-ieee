@@ -1,7 +1,7 @@
 ---
 id: IEEEStd9522020Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Specifying and Testing Single-Axis Interferometric Fiber
     Optic Gyros
@@ -103,75 +103,96 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Gyroscopes
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interferometry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical variables measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical interferometry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Attitude control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Displacement measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fiber gyro
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fiber optic gyro
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: FOG
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gyro
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gyroscope
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 952
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IFOG
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inertial instrument
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: inertial sensor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interferometric fiber optic gyro
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: optical gyro
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sagnac effect
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sagnac gyro
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: specification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test procedures
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

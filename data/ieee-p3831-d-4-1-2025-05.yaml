@@ -1,7 +1,7 @@
 ---
 id: IEEEP3831D41202505
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Standard for Reference Architecture and Technical Requirements
     for Electricity Data Asset Management Platform
@@ -90,39 +90,50 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data models
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electricity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Asset management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electricity data asset
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electricity data product
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data asset management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 3831
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

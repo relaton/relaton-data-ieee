@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80232002
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information technology-Telecommunications and information
     exchange between systems-Local and metropolitan area networks-Specific requirements
@@ -116,34 +116,41 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ggregated Link; Aggregator; Auto Negotiation; Category 5; copper; data
       processing; Ethernet; gigabit; information interchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Link Aggregation; local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: management; MASTER-SLAVE; medium dependent interface
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

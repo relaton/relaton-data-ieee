@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC372062015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for 4.76 kV to 38 kV Rated Ground and Test Devices Used in
     Enclosures
@@ -102,45 +102,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Enclosures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switching systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ground and test (G&amp;T) devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.20.6(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: locking/interlocking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: manual operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: one or two terminal sets
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: terminal selector switch
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test port
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

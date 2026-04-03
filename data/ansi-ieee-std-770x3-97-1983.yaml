@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd770X3971983
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Pascal Computer Programming Language
   type: main
@@ -90,30 +90,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-level languages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Pascal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: programming language
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: syntax
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: semantics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: programming
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

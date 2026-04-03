@@ -1,7 +1,7 @@
 ---
 id: IEEEISOIECCD1P247487202407
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE/ISO/IEC Draft International Standard - Systems and software engineering--Life
     cycle management--Part 7: Application of systems engineering on defense programs'
@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2024-09-05'
 - type: issued
-  at: '2024'
+  at: '2025-12-10'
 contributor:
 - role:
   - type: publisher
@@ -67,6 +67,18 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This document implements ISO/IEC/IEEE 15288 for application on defence
+    programs, providing the defence-specific language and terminology to help ensure
+    the correct application of acquirer-supplier requirements for a defence program.
+    It provides the basis for selection, negotiation, agreement, and performance of
+    necessary systems engineering activities and delivery of products, while allowing
+    flexibility for both innovative implementation and tailoring of the specific systems
+    engineering process(es) to be used by system suppliers, either contractors or
+    government system developers, integrators, maintainers, or sustainers. This document
+    includes the expected or required outputs and associated attributes.
 status:
   stage:
     content: draft
@@ -98,36 +110,48 @@ copyright:
         script: Latn
         content: IEC
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Systems engineering and theory
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Life cycle assessment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Defense industry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: US Department of Defense
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: '95.020'
+    text: Military in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

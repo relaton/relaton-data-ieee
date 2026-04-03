@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8412001
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Petroleum and Chemical Industry - Severe Duty Totally
     Enclosed Fan-Cooled (TEFC) Squirrel Cage Induction Motors - Up to and Including
@@ -112,27 +112,32 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: NEMA frame motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: polyphase induction motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: severe duty motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: squirrel cage motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: totally enclosed fan-cooled (TEFC) motors
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

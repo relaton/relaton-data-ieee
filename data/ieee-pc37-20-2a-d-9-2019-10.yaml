@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37202aD9201910
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Approved Draft Standard for Metal-Clad Switchgear Amendment 1: Control
     and Secondary Circuits and Devices, and All Wiring'
@@ -101,45 +101,56 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wiring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metal enclosures
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control wiring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.20.2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: metal-clad
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: secondary wiring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: switchgear
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wiring
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wire size
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wire type
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

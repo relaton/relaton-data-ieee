@@ -1,7 +1,7 @@
 ---
 id: ANSIC63122015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: American National Standard Recommended Practice for Electromagnetic Compatibility
     Limits and Test Levels
@@ -106,63 +106,78 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Noise measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Atmospheric measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Emissions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic compatibility
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electromagnetic measurements
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ambient noise levels
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI C63.12
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: atmospheric noise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electromagnetic compatibility (EMC)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: emissions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: galactic noise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: immunity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: limits
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: man-made noise
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: test levels
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee
   ics:
   - code: 33.100.01
-    text: Electromagnetic compatibility in general
+    text: Electromagnetic compatibility (EMC) in general
   standard_status: Active
   standard_modified: Redline
   pubstatus: Active

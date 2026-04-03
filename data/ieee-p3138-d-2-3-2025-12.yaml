@@ -1,7 +1,7 @@
 ---
 id: IEEEP3138D23202512
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for General Requirements of Chip Visual Inspection
     in Surface Mount Industry
@@ -93,27 +93,32 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: surface mount technology (SMT)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: surface mount device (SMD)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: extensible markup language (XML)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mounting machine
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automated optical inspection (AOT)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

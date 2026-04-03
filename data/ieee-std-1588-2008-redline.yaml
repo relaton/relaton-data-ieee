@@ -1,7 +1,7 @@
 ---
 id: IEEEStd15882008Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for a Precision Clock Synchronization Protocol for Networked
     Measurement and Control Systems
@@ -117,54 +117,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distributed processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Control systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Clocks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Measurement standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1588-2008
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: boundary clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distributed system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: master clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: measurement and control system
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: real-time clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: synchronized clock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transparent clock
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

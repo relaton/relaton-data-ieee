@@ -1,7 +1,7 @@
 ---
 id: IEEEStd127822015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Distributed Interactive Simulation (DIS) -- Communication
     Services and Profiles
@@ -104,48 +104,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telecommunication services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Simulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distributed processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Multicast communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Interactive services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: communication service
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DIS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: distributed interactive simulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1278.2(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multicast
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protocol data units (PDUs)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: simulation network
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

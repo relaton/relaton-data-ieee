@@ -1,10 +1,10 @@
 ---
 id: IEEEP3494D50202504
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
-- content: IEEE Draft Standard for Technical Specifications of Smart Reservation System
-    for Free-of-Charge Museums
+- content: IEEE Approved Draft Standard for Technical Specifications of Smart Reservation
+    System for Free-of-Charge Museums
   type: main
 source:
 - type: src
@@ -22,11 +22,11 @@ docidentifier:
 docnumber: IEEE P3494/D-5.0-2025-04
 date:
 - type: created
-  at: '2025-08-28'
+  at: '2026-02-23'
 - type: published
   at: '2025-08-29'
 - type: issued
-  at: '2025'
+  at: '2026-02-12'
 contributor:
 - role:
   - type: publisher
@@ -89,30 +89,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Virtual assistants
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Smart devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Museums
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: smart reservation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: free of charge museums
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: technical specification
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

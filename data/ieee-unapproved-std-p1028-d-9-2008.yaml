@@ -1,7 +1,7 @@
 ---
 id: IEEEUnapprovedStdP1028D92008
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Software Reviews and Audits
   type: main
@@ -70,30 +70,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software reviews
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Inspection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Permission
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE activities
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

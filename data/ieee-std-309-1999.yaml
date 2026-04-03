@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3091999
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Test Procedures and Bases for Geiger-Mueller Counters
   type: main
@@ -89,21 +89,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Geiger counters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: gas counter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Geiger-Mueller
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: radiation detectors
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

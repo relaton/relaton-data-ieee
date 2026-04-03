@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16832014
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Guide for Motor Control Centers Rated up to and including 600 V AC
     or 1000 V DC with Recommendations Intended to Help Reduce Electrical Hazards
@@ -103,69 +103,88 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Arc discharges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: DC motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Thermal analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AC motors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Motor control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Shock absorbers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc flash
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: arc resistant
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electrical safety
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1683(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: low voltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MCC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: motor control centers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: selectivity
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shock
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: thermal monitoring
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

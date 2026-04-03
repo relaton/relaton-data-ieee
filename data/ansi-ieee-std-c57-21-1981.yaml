@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStdC57211981
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Requirements, Terminology, and Test Code for Shunt Reactors
     Rated Over 500 kVA
@@ -93,21 +93,24 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shunt
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reactors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: over
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 500kVA
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

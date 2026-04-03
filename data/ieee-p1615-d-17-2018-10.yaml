@@ -1,7 +1,7 @@
 ---
 id: IEEEP1615D17201810
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Recommended Practice for Network Communication in Electric Power
     Substations
@@ -116,84 +116,108 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Substations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electric equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Resource management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electricity supply industry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distributed Network Protocol 3 (DNP3)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fiber-optic
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC 60870-5
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC 61850
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1615
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: intelligent electronic device (IED)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Internet Protocol (IP)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: managed switch
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: network devices
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: noise sources
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: non-operational data
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operational data
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RS-232
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RS-485
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security awareness
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transmission Control Protocol (TCP)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: time synchronization
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wireless network
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

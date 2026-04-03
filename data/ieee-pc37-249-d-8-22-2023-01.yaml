@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37249D822202301
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Categorizing Security Needs for Protection, Automation,
     and Control Related Data Files
@@ -98,39 +98,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: File systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: automation files
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: control files
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data at rest
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.249
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protection files
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security categorization
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

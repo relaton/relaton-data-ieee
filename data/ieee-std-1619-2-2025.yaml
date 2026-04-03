@@ -1,7 +1,7 @@
 ---
 id: IEEEStd161922025
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Wide-Block Encryption for Shared Storage Media
   type: main
@@ -107,51 +107,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Encryption
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Computer security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Storage management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data-at-rest security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EAD
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EME2
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: encryption
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: encryption with associated data
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: encrypt-mix-encrypt-v2 mode of operation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1619.2(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: security
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: storage
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

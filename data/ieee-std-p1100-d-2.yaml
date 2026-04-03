@@ -1,7 +1,7 @@
 ---
 id: IEEEStdP1100D2
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: Approved IEEE Draft Revision to Recommended Practice for Powering and Grounding
     Electronic Equipment (IEEE Emerald Book) (Superseded by IEEE 1000-2005)
@@ -62,30 +62,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Grounding
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surge protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Surges
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bibliographies
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transient analysis
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

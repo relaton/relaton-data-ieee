@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC37341994
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Test Code for High-Voltage Air Switches
   type: main
@@ -90,48 +90,60 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Corona
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ice
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switchgear testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: mechanical operations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: lightning impulse
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ice breaking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switching impulse
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Outdoor air switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Indoor air switches
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: High-voltage air switches
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

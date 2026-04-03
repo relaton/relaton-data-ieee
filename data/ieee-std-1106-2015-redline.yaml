@@ -1,7 +1,7 @@
 ---
 id: IEEEStd11062015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for Installation, Maintenance, Testing, and Replacement
     of Vented Nickel-Cadmium Batteries for Stationary Applications
@@ -113,36 +113,44 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Maintenance engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Nickel cadmium batteries
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: battery tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: capacity test methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stationary applications
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vented nickel-cadmium batteries
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd16852009
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for IP-XACT, Standard Structure for Packaging, Integrating,
     and Reusing IP within Tool Flows
@@ -105,78 +105,100 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Packaging
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: 1685-2009
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: abstraction definitions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: address space specification
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bus definitions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design environment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EDA
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electronic design automation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electronic system level
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ESL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: implementation constraints
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IP-XACT
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: register transfer level
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RTL
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: SCRs
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: semantic consistency rules
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: TGI
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tight generator interface
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: tool and data interoperability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: use models
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML design meta-data
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: XML schema
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

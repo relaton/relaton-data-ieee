@@ -1,7 +1,7 @@
 ---
 id: IEEEPC62821D5201007
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Insulation Coordination - Definitions, Principles,
     and Rules
@@ -91,63 +91,78 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Insulation technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault location
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: atmospheric correction factor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: basic lightning impulse insulation level (BIL)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: basic switching impulse insulation level (BSL)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: crest value
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ground fault factor
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: insulation coordination
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: overvoltage
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phase-to-ground insulation configuration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: phase-to-phase insulation configuration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective margin
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protective ratio
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: standard withstand voltages
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: and voltage stress
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: 29.080.01
-    text: Electrical insulation in general
+    text: Insulation in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

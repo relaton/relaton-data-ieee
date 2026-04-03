@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37016D80201808
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for AC High Voltage Circuit Switchers rated 15.5 kV
     through 245 kV
@@ -114,69 +114,88 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Circuit breakers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Switching systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transformers
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault diagnosis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Transient analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuit switcher
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: coordinated disconnect
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: design tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.016
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: interrupter
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: operating mechanism
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: primary-bus fault
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: production tests
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ratings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: service conditions
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: stored energy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transformer-limited fault
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: transient recovery voltage
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

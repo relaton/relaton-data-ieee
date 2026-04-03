@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd8101987
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Hydraulic Turbine and Generator Integrally Forged Shaft
     Couplings and Shaft Runout Tolerances
@@ -99,39 +99,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hydraulic turbines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hydroelectric generators
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: hydraulic turbine
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: generator
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: forged shaft
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shaft couplings
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: shaft runout
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: runout tolerances
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Hydroelectric power generation
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

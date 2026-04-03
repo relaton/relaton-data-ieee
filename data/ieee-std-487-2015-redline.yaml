@@ -1,7 +1,7 @@
 ---
 id: IEEEStd4872015Redline
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for the Electrical Protection of Communications Facilities
     Serving Electric Supply Locations -- General Considerations
@@ -108,42 +108,52 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electricity supply industry
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power transmission lines
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power stations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: electric supply locations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: high-voltage tower
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 487(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power stations
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: protection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wire-line telecommunications
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: redline
   flavor: ieee

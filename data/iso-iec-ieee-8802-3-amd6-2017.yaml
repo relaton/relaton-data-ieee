@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE88023Amd62017
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'ISO/IEC/IEEE International Standard - Information technology - Telecommunications
     and information exchange between systems - Local and metropolitan area networks
@@ -113,81 +113,104 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Passive optical networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: amendment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPoC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EPON Protocol over Coax
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Ethernet; Ethernet Passive Optical Networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.3bn
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Multi-Point MAC Control (MPMC)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: orthogonal frequency division multiplexing (OFDM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical Coding Sublayer (PCS)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical Media Attachment (PMA)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical Medium Dependent (PMD)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PON
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: point to multipoint (P2MP)
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

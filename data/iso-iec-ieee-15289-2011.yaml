@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE152892011
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: ISO/IEC/IEEE Systems and software engineering -- Content of life-cycle
     information products (documentation)
@@ -129,66 +129,84 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Software engineering
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Systems engineering and theory
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Product life cycle management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Information technology
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: description
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: document management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 15289
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: information items
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: information management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: plan
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: policy
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: procedure
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: records
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: report
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: request
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: software documentation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: specification
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

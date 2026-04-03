@@ -1,7 +1,7 @@
 ---
 id: IEC62243
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEC 62243:2012(E) (IEEE Std 1232-2010): Artificial Intelligence Exchange
     and Service Tie to All Test Environments (AI-ESTATE)'
@@ -117,57 +117,72 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEC standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Knowledge management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Fault diagnosis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bayes methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AI-ESTATE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Bayesian Network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: diagnosis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: diagnostic inference
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: diagnostic model
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: diagnostic services
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: D-matrix
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: fault tree
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1232
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: knowledge exchange
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: system test
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

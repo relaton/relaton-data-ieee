@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3471972
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Method of Measuring Recorded Flux of Magnetic Sound Records
     at Medium Wavelengths
@@ -66,33 +66,40 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Wavelength measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Magnetic flux
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Magnetic head
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Voltage measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Frequency measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Calibration
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ANSI Standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: AIEE461927
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: AIEE Hard Drawn Aluminum Conductors Physical and Electrical Properties
   type: main
@@ -62,27 +62,32 @@ copyright:
         script: Latn
         content: AIEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: AIEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Aluminum
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Conductors
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Temperature measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electrical properties
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Production
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC37942002
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for N Times 64 Kilobit Per Second Optical Fiber Interfaces
     Between Teleprotection and Multiplexer Equipment
@@ -91,51 +91,64 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Communication system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Optical fiber communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: alarm indication signal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: bit error rate
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: cyclic redundancy check
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: loss of frame
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: loss of signal
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multimode optical fiber
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: multiplexer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: remote defect indication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: teleprotection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: unit interval
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

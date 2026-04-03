@@ -1,7 +1,7 @@
 ---
 id: IEEEStd4931990
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Recommended Practice for the Design of Reliable Industrial and Commercial
     Power Systems
@@ -116,39 +116,48 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system planning
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: designing reliable
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: industrial power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: commercial power
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: industrial analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: commercial analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reliability analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Equipment reliability data
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

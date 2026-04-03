@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80211
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standard for Information Technology--Telecommunications and Information
     Exchange between Systems Local and Metropolitan Area Networks--Specific Requirements
@@ -105,51 +105,64 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: amendment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.11bd
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: MAC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: medium access control
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: OCB
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: outside the context of BSS
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: PHY
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: V2X
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vehicular communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: vehicle-to-everything communication
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: wireless local area network
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: WLAN
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

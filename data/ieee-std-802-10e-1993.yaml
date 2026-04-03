@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80210e1993
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: 'IEEE Standards for Local and Metropolitan Area Networks: Supplements to
     Standard for Interoperable LAN/MAN Security (SILS) Secure Data Exchange (SDE)
@@ -87,30 +87,36 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Physical layer
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media Access Protocol
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Media
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: ISO Standards
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
@@ -120,7 +126,7 @@ ext:
   - code: '35.110'
     text: Networking
   - code: '35.040'
-    text: Information coding
+    text: Character sets and information coding
   standard_status: Inactive
   standard_modified: Withdrawn
   pubstatus: Active

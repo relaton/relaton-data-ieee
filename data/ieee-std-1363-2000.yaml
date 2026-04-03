@@ -1,7 +1,7 @@
 ---
 id: IEEEStd13632000
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard Specifications for Public-Key Cryptography
   type: main
@@ -90,30 +90,34 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: digital signature
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: encryption
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: key agreement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: public-key cryptography
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
   - code: '35.040'
-    text: Information coding
+    text: Character sets and information coding
   standard_status: Inactive
   standard_modified: Reserved
   pubstatus: Active

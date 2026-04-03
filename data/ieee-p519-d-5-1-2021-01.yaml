@@ -1,7 +1,7 @@
 ---
 id: IEEEP519D51202101
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Standard for Harmonic Control in Electric Power Systems
   type: main
@@ -107,33 +107,40 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system harmonics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Harmonic analysis
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power quality
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: harmonics
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 519&#8482;
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power quality
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

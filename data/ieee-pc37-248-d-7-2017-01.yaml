@@ -1,7 +1,7 @@
 ---
 id: IEEEPC37248D7201701
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Draft Guide for Common Format for Naming Intelligent Electronic Devices
     (COMDEV)
@@ -89,39 +89,48 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Electronic equipment
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Current measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Time measurement
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: channel name
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: device name
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IED name
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE C37.248(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: virtual device
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

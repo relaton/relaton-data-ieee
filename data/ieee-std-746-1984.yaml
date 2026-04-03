@@ -1,7 +1,7 @@
 ---
 id: IEEEStd7461984
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Standard for Performance Measurements of A/D and D/A Converters for
     PCM Television Video Circuits
@@ -98,36 +98,44 @@ copyright:
       abbreviation:
         content: IEEE
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Analog-digital conversion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Digital-analog conversion
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Pulse code modulation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: a/d
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: d/a
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: converters
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: video
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: circuits
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

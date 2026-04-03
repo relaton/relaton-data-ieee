@@ -1,10 +1,10 @@
 ---
 id: IEEEP802159aD03202509
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
-- content: 'IEEE Draft Standard for Transport of Key Management Protocol Datagrams
-    Amendment: Additional Key Management Protocol'
+- content: 'IEEE Approved Draft Standard for Transport of Key Management Protocol
+    Datagrams Amendment: Additional Key Management Protocol'
   type: main
 source:
 - type: src
@@ -22,11 +22,11 @@ docidentifier:
 docnumber: IEEE P802.15.9a/D-03-2025-09
 date:
 - type: created
-  at: '2025-10-01'
+  at: '2026-02-23'
 - type: published
   at: '2025-10-02'
 - type: issued
-  at: '2025'
+  at: '2026-02-12'
 contributor:
 - role:
   - type: publisher
@@ -101,48 +101,60 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.15 Standard
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Local area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Metropolitan area networks
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Telecommunication network management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data processing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Protocols
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 802.15.4(TM)
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: KMP
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: EDHOC
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: CBOR
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: COSE
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: RFC 9528.
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee

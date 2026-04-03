@@ -1,7 +1,7 @@
 ---
 id: IEEEP1782D002202203
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - content: IEEE Approved Draft Guide for Collecting, Categorizing, and Utilizing Information
     Related to Electric Power Distribution Interruption Events
@@ -108,54 +108,68 @@ relation:
       type: IEEE
       primary: true
 keyword:
-- taxon:
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE Standards
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Distributed power generation
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power distribution
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Data collection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Power system reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Sampling methods
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: Benchmark testing
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: benchmarking
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: data collection
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1782
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: IEEE 1366
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: outage management systems
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: power distribution reliability
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: reliability management
-  - language: en
+- vocab:
+    language: en
     script: Latn
     content: sampling methods
 ext:
-  schema_version: v1.0.1
+  schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
