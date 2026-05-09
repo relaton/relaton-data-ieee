@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC57110
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for Establishing Liquid-Immersed and Dry-Type
     Power and Distribution Transformer Capability When Supplying Nonsinusoidal Load
@@ -106,7 +106,20 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std C57.110-2008
+    formattedref:
+      content: IEEE Std C57.110-2008
+    docidentifier:
+    - content: IEEE Std C57.110-2008
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.110-2008
     docidentifier:
     - content: IEEE Std C57.110-2008
       type: IEEE
@@ -143,7 +156,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE C57.110&#8482;
+    content: IEEE C57.110™
 - vocab:
     language: en
     script: Latn

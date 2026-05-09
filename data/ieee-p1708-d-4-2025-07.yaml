@@ -1,7 +1,7 @@
 ---
 id: IEEEP1708D4202507
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Approved Draft Standard for Wearable Cuffless Blood Pressure Measuring
     Devices
@@ -70,20 +70,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: IEEE Std 1708(TM) establishes a normative definition of wearable cuffless
-    blood pressure (BP) measuring devices and the objective performance evaluation
-    of this kind of device. The standard is independent of the form of the device
-    or the vehicle to which the device is attached or in which it is embedded. The
-    standard is applicable to all types of wearable BP measurement devices including
-    epidermal and unobtrusive BP devices that have different modes of operation (e.g.,
-    to measure short-term, long-term, snapshot, continuous, beat(s)-to-beat(s) BP,
-    or BP variability). This standard is, however, limited to evaluation of devices
-    that do not use a cuff during measurement and do not cover evaluation of all sphygmomanometers
-    that are used with an occluding or inflatable cuff for the indirect determination
-    of BP on the upper arm or wrist. This standard provides guidelines for manufacturers
-    to qualify and validate their products, potential purchasers or users to evaluate
-    and select prospective products, and health care professionals to understand the
-    manufacturing practices on wearable BP devices.
+  content: A normative definition of wearable cuffless blood pressure (BP) measuring
+    devices and the objective performance evaluation of this kind of device are established
+    in this standard. This standard is independent of the form of the device or the
+    vehicle to which the device is attached or in which it is embedded. All types
+    of wearable BP measurement devices, including epidermal and unobtrusive devices
+    with different modes of operation (e.g., short‑term, long‑term, snapshot, continuous,
+    beat‑to‑beat BP, or BP‑variability measurement), are covered by this standard.
+    This standard is, however, limited to the evaluation of devices in which a cuff
+    is not used during measurement, and the evaluation of all sphygmomanometers that
+    are used with an occluding or inflatable cuff for the indirect determination of
+    BP on the upper arm or wrist is not covered. Guidelines are provided in this standard
+    for manufacturers to qualify and validate their products, potential purchasers
+    or users to evaluate and select prospective products, and health care professionals
+    to understand the manufacturing practices of wearable BP devices.
 status:
   stage:
     content: draft
@@ -107,7 +107,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1708-2014
+    formattedref:
+      content: IEEE Std 1708-2014
     docidentifier:
     - content: IEEE Std 1708-2014
       type: IEEE
@@ -160,7 +161,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 1708 performance evaluation
+    content: IEEE 1708™
+- vocab:
+    language: en
+    script: Latn
+    content: performance evaluation
 - vocab:
     language: en
     script: Latn
@@ -177,7 +182,7 @@ ext:
   ics:
   - code: 11.040.55
     text: Diagnostic equipment
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

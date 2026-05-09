@@ -1,7 +1,7 @@
 ---
 id: IEEEStd18292017
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Conducting Corona Tests on Hardware for Overhead Transmission
     Lines and Substations
@@ -77,9 +77,6 @@ abstract:
     voltage (RIV) test. This guide does not address the permissible radio interference
     (RI) limits or specified corona extinction voltages. They are set either by regulation
     or by agreement between the utility and hardware manufacturer.'
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2017'
   owner:
@@ -93,6 +90,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1829-2025
+    docidentifier:
+    - content: IEEE Std 1829-2025
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -154,7 +160,6 @@ ext:
   ics:
   - code: 17.220.20
     text: Measurement of electrical and magnetic quantities
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

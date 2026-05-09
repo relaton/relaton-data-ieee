@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6491991
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Qualifying Class 1E Motor Control Centers for Nuclear
     Power Generating Stations
@@ -97,21 +97,36 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE Std 649-1980
+    formattedref:
+      content: ANSI/IEEE Std 649-1980
     docidentifier:
     - content: ANSI/IEEE Std 649-1980
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std C62.31-2006
+    formattedref:
+      content: IEEE Std C62.31-2006
     docidentifier:
     - content: IEEE Std C62.31-2006
       type: IEEE
       primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: ANSI/IEEE Std 649-1980
+    docidentifier:
+    - content: ANSI/IEEE Std 649-1980
+      type: IEEE
+      primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std C62.31-2006
+    formattedref:
+      content: IEEE Std C62.31-2006
     docidentifier:
     - content: IEEE Std C62.31-2006
       type: IEEE

@@ -1,7 +1,7 @@
 ---
 id: IEEEP3407D4202509
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Approved Draft Standard for End-to-End Software Testing Automation
     Tools
@@ -58,8 +58,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Software &amp; Systems Engineering Standards Committee of the IEEE
-          Computer Society
+        content: Software & Systems Engineering Standards Committee of the IEEE Computer
+          Society
       type: committee
     abbreviation:
       content: IEEE
@@ -70,12 +70,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard establishes the minimum set of requirements for end-to-end
-    software testing automation tools. Also, this standard can be used to guide users
-    and industries to prepare and perform different types of automated testing on
-    software integration environments. These tools can help users and industries in
-    streamlining the software test automation processes, leading to reducing cost
-    and effort on test development, execution and maintenance.
+  content: The minimum set of requirements for end-to-end software testing automation
+    tools is established in this standard. Also, this standard can be used to guide
+    users and industries to prepare and perform different types of automated testing
+    on software integration environments. These tools can help users and industries
+    in streamlining the software test automation processes, leading to a reduction
+    in cost and effort on test development, execution, and maintenance.
 status:
   stage:
     content: draft
@@ -124,23 +124,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: software testing
-- vocab:
-    language: en
-    script: Latn
-    content: end-to-end software testing
-- vocab:
-    language: en
-    script: Latn
-    content: multi-tier software application testing
-- vocab:
-    language: en
-    script: Latn
     content: behavior driven testing
-- vocab:
-    language: en
-    script: Latn
-    content: data driven testing
 - vocab:
     language: en
     script: Latn
@@ -148,7 +132,23 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: human friendly testing automation
+    content: data driven testing
+- vocab:
+    language: en
+    script: Latn
+    content: database testing
+- vocab:
+    language: en
+    script: Latn
+    content: end-to-end software testing
+- vocab:
+    language: en
+    script: Latn
+    content: file content verification
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 3407™
 - vocab:
     language: en
     script: Latn
@@ -160,6 +160,26 @@ keyword:
 - vocab:
     language: en
     script: Latn
+    content: human friendly testing automation
+- vocab:
+    language: en
+    script: Latn
+    content: messaging testing
+- vocab:
+    language: en
+    script: Latn
+    content: multi-tier software application testing
+- vocab:
+    language: en
+    script: Latn
+    content: RESTful services testing automation
+- vocab:
+    language: en
+    script: Latn
+    content: software testing
+- vocab:
+    language: en
+    script: Latn
     content: standard test steps
 - vocab:
     language: en
@@ -168,23 +188,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: RESTful services testing automation
-- vocab:
-    language: en
-    script: Latn
-    content: messaging testing
-- vocab:
-    language: en
-    script: Latn
-    content: database testing
-- vocab:
-    language: en
-    script: Latn
-    content: file content verification
-- vocab:
-    language: en
-    script: Latn
-    content: visualization testing
+    content: validation
 - vocab:
     language: en
     script: Latn
@@ -192,13 +196,13 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: validation.
+    content: visualization testing
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

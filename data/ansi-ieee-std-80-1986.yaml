@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd801986
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Safety in AC Substation Grounding
   type: main
@@ -97,14 +97,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 80-1976
+    formattedref:
+      content: IEEE Std 80-1976
     docidentifier:
     - content: IEEE Std 80-1976
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 80-2000
+    formattedref:
+      content: IEEE Std 80-2000
     docidentifier:
     - content: IEEE Std 80-2000
       type: IEEE

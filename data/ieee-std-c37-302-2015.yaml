@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC373022015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Fault Current Limiter (FCL) Testing of FCLs Rated above
     1000 V AC
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C37.302-2015
 date:
-- type: updated
-  at: '2016-06-06'
 - type: created
   at: '2016-05-18'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -73,9 +74,6 @@ abstract:
   content: The testing of fault current limiters (FCLs) operating on condition-based
     impedance increase for AC systems 1000 V and above is described in this guide.
     Constant impedance series reactors and single fuses are not included in this guide.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -199,7 +197,10 @@ ext:
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
-  standard_modified: Approved
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

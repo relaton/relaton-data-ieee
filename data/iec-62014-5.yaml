@@ -1,7 +1,7 @@
 ---
 id: IEC620145
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE/IEC International Standard - Quality of Electronic and Software Intellectual
     Property Used in System and System on Chip (SoC) Designs
@@ -98,8 +98,6 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
@@ -107,7 +105,8 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    formattedref: IEEE Std 1724-2011
+    formattedref:
+      content: IEEE Std 1724-2011
     docidentifier:
     - content: IEEE Std 1724-2011
       type: IEEE

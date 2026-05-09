@@ -1,7 +1,7 @@
 ---
 id: IEEEStd80232000
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: 'IEEE Standard for Information Technology - LAN/MAN - Specific Requirements
     -Part 3: Carrier Sense Multiple Access with Collision Detection (CSMA/CD) Access
@@ -111,14 +111,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 802.3-1998
+    formattedref:
+      content: IEEE Std 802.3-1998
     docidentifier:
     - content: IEEE Std 802.3-1998
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 802.3-2002
+    formattedref:
+      content: IEEE Std 802.3-2002
     docidentifier:
     - content: IEEE Std 802.3-2002
       type: IEEE

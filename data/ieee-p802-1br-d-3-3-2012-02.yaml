@@ -1,14 +1,14 @@
 ---
 id: IEEEP8021BRD33201202
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
-- content: IEEE Approved Draft Standard for Local and metropolitan area networks--Virtual
-    Bridged Local Area Networks--Bridge Port Extension
+- content: IEEE Draft Standard for Local and metropolitan area networks--Virtual Bridged
+    Local Area Networks--Bridge Port Extension
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/6200811
+  content: https://ieeexplore.ieee.org/document/6161594
 docidentifier:
 - content: IEEE P802.1BR/D-3.3-2012-02
   type: IEEE
@@ -17,14 +17,16 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 978-0-7381-7500-3
+- content: 978-0-7381-7421-1
   type: ISBN
+- content: 10.1109/IEEESTD.2012.6161594
+  type: DOI
 docnumber: IEEE P802.1BR/D-3.3-2012-02
 date:
 - type: created
-  at: '2012-05-15'
+  at: '2012-07-16'
 - type: published
-  at: '2012-05-16'
+  at: '2019-04-26'
 - type: issued
   at: '2012-05-14'
 contributor:
@@ -71,11 +73,8 @@ abstract:
   script: Latn
   content: This standard specifies the operation of Bridge Port Extenders, including
     management, protocols, and algorithms. Bridge Port Extenders operate in support
-    of the MAC Service by Extended Bridges. The PDF of this standard is available
-    at no cost compliments of the GETIEEE802 program located at http://standards.ieee.org/about/get/802/
-status:
-  stage:
-    content: draft
+    of the MAC Service by Extended Bridges. (The PDF of this standard is available
+    at no cost compliments of the GETIEEE802 program located at https://ieeexplore.ieee.org/browse/standards/get-program/page)
 copyright:
 - from: '2012'
   owner:
@@ -97,6 +96,10 @@ keyword:
 - vocab:
     language: en
     script: Latn
+    content: Bridge circuits
+- vocab:
+    language: en
+    script: Latn
     content: Local area networks
 - vocab:
     language: en
@@ -105,15 +108,15 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Bridge circuits
+    content: Virtual environments
+- vocab:
+    language: en
+    script: Latn
+    content: Database systems
 - vocab:
     language: en
     script: Latn
     content: Media Access Protocol
-- vocab:
-    language: en
-    script: Latn
-    content: Virtual environments
 - vocab:
     language: en
     script: Latn
@@ -170,7 +173,6 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
-  standard_status: Inactive
-  standard_modified: Draft
+  standard_status: Superseded
   pubstatus: Active
-  holdstatus: Hold
+  holdstatus: Publish

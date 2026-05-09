@@ -1,7 +1,7 @@
 ---
 id: IEEEStd18012013Redline
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Design and Verification of Low-Power Integrated Circuits
   type: title-main
@@ -98,14 +98,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1801-2009
+    formattedref:
+      content: IEEE Std 1801-2009
     docidentifier:
     - content: IEEE Std 1801-2009
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 1801-2015
+    formattedref:
+      content: IEEE Std 1801-2015
     docidentifier:
     - content: IEEE Std 1801-2015
       type: IEEE
@@ -138,7 +140,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 1801&#8482;
+    content: IEEE 1801™
 - vocab:
     language: en
     script: Latn

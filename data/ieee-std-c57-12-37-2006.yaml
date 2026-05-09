@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712372006
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for the Electronic Reporting of Distribution Transformer
     Test Data
@@ -99,14 +99,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1388-2000
+    formattedref:
+      content: IEEE Std 1388-2000
     docidentifier:
     - content: IEEE Std 1388-2000
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std C57.12.37-2015
+    formattedref:
+      content: IEEE Std C57.12.37-2015
     docidentifier:
     - content: IEEE Std C57.12.37-2015
       type: IEEE

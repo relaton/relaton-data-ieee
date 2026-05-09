@@ -1,7 +1,7 @@
 ---
 id: IEEEStd18722015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard Ontologies for Robotics and Automation
   type: main
@@ -22,18 +22,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1872-2015
 date:
-- type: updated
-  at: '2015-04-24'
 - type: created
   at: '2015-04-10'
 - type: published
-  at: '2015-04-10'
+  at: '2015-06-18'
 - type: issued
   at: '2015-02-16'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -76,9 +77,6 @@ abstract:
     as well as a formal reference vocabulary for communicating knowledge about R&amp;A
     between robots and humans. This standard is composed of a core ontology about
     R&amp;A, called CORA, together with other ontologies that give support to CORA.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -151,7 +149,7 @@ ext:
     text: Industrial robots. Manipulators
   - code: 35.240.50
     text: IT applications in industry
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

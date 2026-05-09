@@ -1,7 +1,7 @@
 ---
 id: IEEEStd12902015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Motor-Operated Valve (MOV) Motor Application, Protection,
     Control, and Testing in Nuclear Power-Generating Stations
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1290-2015
 date:
-- type: updated
-  at: '2015-10-16'
 - type: created
   at: '2015-10-02'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -59,7 +60,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+        content: Nuclear Power Engineering Committee of the IEEE Power and Energy
+          Society
       type: committee
     abbreviation:
       content: IEEE
@@ -74,9 +76,6 @@ abstract:
     are discussed. Guidelines to evaluate the adequacy of motors used to drive valve
     operators; to provide recommendations for motor application; and to provide methods
     for protection, control, and testing of motors used for valve operation are presented.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -90,18 +89,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: IEEE Std 1290-1996
-    docidentifier:
-    - content: IEEE Std 1290-1996
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -183,7 +170,7 @@ ext:
   ics:
   - code: 27.120.20
     text: Nuclear power plants. Safety
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

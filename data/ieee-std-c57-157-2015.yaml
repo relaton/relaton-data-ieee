@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571572015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Conducting Functional Life Tests on Switch Contacts Used
     in Insulating Liquid--Immersed Transformers
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.157-2015
 date:
-- type: updated
-  at: '2015-12-04'
 - type: created
   at: '2015-11-20'
 - type: published
-  at: '2015-11-17'
+  at: '2015-11-18'
 - type: issued
   at: '2015-10-26'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -72,14 +73,11 @@ abstract:
   script: Latn
   content: This guide is intended for use in establishing a methodology to evaluate
     expected long-term performance of infrequently operated switch contacts used within
-    insulating liquid&#8211;immersed transformers. These switch contacts are typically
-    found in de-energized tapchangers, dual voltage switches, reversing switches,
-    on-load tapchangers, and step-voltage regulators, but the test might possibly
-    be used to evaluate any contact that is used in insulating liquids with similar
-    operating characteristics and within similar environments.
-status:
-  stage:
-    content: approved
+    insulating liquid-immersed transformers. These switch contacts are typically found
+    in de-energized tapchangers, dual voltage switches, reversing switches, on-load
+    tapchangers, and step-voltage regulators, but the test might possibly be used
+    to evaluate any contact that is used in insulating liquids with similar operating
+    characteristics and within similar environments.
 copyright:
 - from: '2015'
   owner:
@@ -144,9 +142,11 @@ ext:
     content: standard
   flavor: ieee
   ics:
-  - code: 01.040.11
-    text: Health care technology (Vocabularies)
-  standard_status: Active
-  standard_modified: Approved
+  - code: 29.120.40
+    text: Switches
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

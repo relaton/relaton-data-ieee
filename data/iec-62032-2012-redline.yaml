@@ -1,7 +1,7 @@
 ---
 id: IEC620322012Redline
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEC 62032:2012(E)(IEEE Std C57.135-2011) Guide for the Application, Specification,
     and Testing of Phase-Shifting Transformers
@@ -92,8 +92,6 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
@@ -105,7 +103,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEC 62032-2005
+    formattedref:
+      content: IEC 62032-2005
     docidentifier:
     - content: IEC 62032-2005
       type: IEEE

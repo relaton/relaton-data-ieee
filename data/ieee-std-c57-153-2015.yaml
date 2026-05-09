@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571532015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Paralleling Regulating Transformers
   type: main
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.153-2015
 date:
-- type: updated
-  at: '2015-06-26'
 - type: created
   at: '2015-04-30'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -76,9 +77,6 @@ abstract:
     variations, the provision of adequate backup protection, and typical misapplication
     consequences are presented. This guide does not apply to phase-shifting regulating
     transformers'
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -179,9 +177,9 @@ ext:
     content: standard
   flavor: ieee
   ics:
-  - code: 01.040.11
-    text: Health care technology (Vocabularies)
-  standard_status: Active
-  standard_modified: Approved
+  - code: '29.180'
+    text: Transformers. Reactors
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

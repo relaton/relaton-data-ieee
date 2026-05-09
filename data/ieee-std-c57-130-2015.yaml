@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571302015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for the Use of Dissolved Gas Analysis Applied to Factory Temperature
     Rise Tests for the Evaluation of Mineral Oil-Immersed Transformers and Reactors
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.130-2015
 date:
-- type: updated
-  at: '2016-03-11'
 - type: created
   at: '2016-02-19'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -74,9 +75,6 @@ abstract:
     techniques on oil-immersed transformers and reactors applied during factory temperature
     rise tests. It contains recommended procedures for sampling, recommended actions
     based on interpretation of results, and a bibliography of related literature.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -141,9 +139,9 @@ ext:
     content: standard
   flavor: ieee
   ics:
-  - code: 01.040.11
-    text: Health care technology (Vocabularies)
-  standard_status: Active
-  standard_modified: Approved
+  - code: 29.040.10
+    text: Insulating oils
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

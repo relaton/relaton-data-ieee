@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571352009
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard of Performance and Test Requirements for Instrument Transformers
     of a Nominal System Voltage of 115 kV and Above
@@ -90,22 +90,24 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.13.5-2019
+    docidentifier:
+    - content: IEEE Std C57.13.5-2019
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std C57.13.5-2003
+    formattedref:
+      content: IEEE Std C57.13.5-2003
     docidentifier:
     - content: IEEE Std C57.13.5-2003
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std C57.13.5-2019
-    docidentifier:
-    - content: IEEE Std C57.13.5-2019
       type: IEEE
       primary: true
 keyword:

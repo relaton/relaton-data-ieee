@@ -1,7 +1,7 @@
 ---
 id: IEEEStd4041993
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Cable Joints for Use With Extruded Dielectric Cable Rated
     5000-138 000 V and Cable Joints for Use With Laminated Dielectric Cable Rated
@@ -95,7 +95,8 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 404-2000
+    formattedref:
+      content: IEEE Std 404-2000
     docidentifier:
     - content: IEEE Std 404-2000
       type: IEEE
@@ -106,16 +107,10 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE Std 404-1986
+    formattedref:
+      content: ANSI/IEEE Std 404-1986
     docidentifier:
     - content: ANSI/IEEE Std 404-1986
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std 404-2000
-    docidentifier:
-    - content: IEEE Std 404-2000
       type: IEEE
       primary: true
 keyword:

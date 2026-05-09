@@ -1,7 +1,7 @@
 ---
 id: IEEEP8021ABD2202512
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Draft Standard for Local and metropolitan area networks - Station
     and Media Access Control Connectivity Discovery
@@ -95,12 +95,45 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 802.1AB-2016
+    formattedref:
+      content: IEEE Std 802.1AB-2016
     docidentifier:
     - content: IEEE Std 802.1AB-2016
       type: IEEE
       primary: true
 keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Protocols
+- vocab:
+    language: en
+    script: Latn
+    content: Information management
+- vocab:
+    language: en
+    script: Latn
+    content: Knowledge discovery
+- vocab:
+    language: en
+    script: Latn
+    content: Topology
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Metropolitan area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Media Access Control
 - vocab:
     language: en
     script: Latn
@@ -129,7 +162,7 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

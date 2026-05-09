@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14841362015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for Learning Technology - Open Archives Initiative
     Object Reuse and Exchange Abstract Model (OAI-ORE) - Mapping to the Conceptual
@@ -24,8 +24,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1484.13.6-2015
 date:
-- type: updated
-  at: '2015-04-17'
 - type: created
   at: '2015-03-31'
 - type: published
@@ -36,6 +34,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -72,13 +73,10 @@ abstract:
 - language: en
   script: Latn
   content: Specified in this recommended practice are how the elements and attributes
-    defined in the Open Archives Initiative Object Reuse and Exchange (OAI&#8211;ORE)
-    Abstract Model and expressed in the OAI&#8211;ORE Resource Map Implementation
-    in RDF/XML relate to the components of the conceptual model for resource aggregation
-    defined in IEEE Std 1484.13.1(TM)-2012.
-status:
-  stage:
-    content: approved
+    defined in the Open Archives Initiative Object Reuse and Exchange (OAI-ORE) Abstract
+    Model and expressed in the OAI-ORE Resource Map Implementation in RDF/XML relate
+    to the components of the conceptual model for resource aggregation defined in
+    IEEE Std 1484.13.1(TM)-2012.
 copyright:
 - from: '2015'
   owner:
@@ -144,7 +142,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: OAI&#8211;ORE
+    content: OAI-ORE
 - vocab:
     language: en
     script: Latn
@@ -167,9 +165,9 @@ ext:
     content: standard
   flavor: ieee
   ics:
-  - code: 01.040.11
-    text: Health care technology (Vocabularies)
-  standard_status: Active
-  standard_modified: Approved
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

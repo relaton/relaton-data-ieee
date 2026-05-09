@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE122072017Redline
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: ISO/IEC/IEEE International Standard - Systems and software engineering
     -- Software life cycle processes
@@ -61,8 +61,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Software &amp; Systems Engineering Standards Committee of the IEEE
-          Computer Society
+        content: Software & Systems Engineering Standards Committee of the IEEE Computer
+          Society
       type: committee
     abbreviation:
       content: IEEE
@@ -84,27 +84,32 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
         content: ISO
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
         content: IEC
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ISO/IEC/IEEE 12207-2026
+    docidentifier:
+    - content: ISO/IEC/IEEE 12207-2026
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 12207-2008
+    formattedref:
+      content: IEEE Std 12207-2008
     docidentifier:
     - content: IEEE Std 12207-2008
       type: IEEE
@@ -330,7 +335,7 @@ ext:
   ics:
   - code: '35.080'
     text: Software
-  standard_status: Active
+  standard_status: Superseded
   standard_modified: Redline
   pubstatus: Active
   holdstatus: Publish

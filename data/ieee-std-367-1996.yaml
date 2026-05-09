@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3671996
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for Determining the Electric Power Station Ground
     Potential Rise and Induced Voltage from a Power Fault
@@ -95,21 +95,36 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE Std 367-1987
+    formattedref:
+      content: ANSI/IEEE Std 367-1987
     docidentifier:
     - content: ANSI/IEEE Std 367-1987
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 367-2012
+    formattedref:
+      content: IEEE Std 367-2012
     docidentifier:
     - content: IEEE Std 367-2012
       type: IEEE
       primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: ANSI/IEEE Std 367-1987
+    docidentifier:
+    - content: ANSI/IEEE Std 367-1987
+      type: IEEE
+      primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 367-2012
+    formattedref:
+      content: IEEE Std 367-2012
     docidentifier:
     - content: IEEE Std 367-2012
       type: IEEE

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd481990
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard Test Procedures and Requirements for High-Voltage Alternating-Current
     Cable Terminations
@@ -94,14 +94,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 48-1975
+    formattedref:
+      content: IEEE Std 48-1975
     docidentifier:
     - content: IEEE Std 48-1975
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 48-1996
+    formattedref:
+      content: IEEE Std 48-1996
     docidentifier:
     - content: IEEE Std 48-1996
       type: IEEE

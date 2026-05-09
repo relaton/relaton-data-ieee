@@ -1,7 +1,7 @@
 ---
 id: IEEEStd1421991
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for Grounding of Industrial and Commercial Power
     Systems
@@ -60,7 +60,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Industrial &amp; Commercial Power Systems Standards Development Committee
+        content: Industrial & Commercial Power Systems Standards Development Committee
           of the IEEE Industry Applications Society
       type: committee
     abbreviation:
@@ -92,7 +92,8 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 142-2007
+    formattedref:
+      content: IEEE Std 142-2007
     docidentifier:
     - content: IEEE Std 142-2007
       type: IEEE
@@ -103,16 +104,10 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE Std 142-1982
+    formattedref:
+      content: ANSI/IEEE Std 142-1982
     docidentifier:
     - content: ANSI/IEEE Std 142-1982
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std 142-2007
-    docidentifier:
-    - content: IEEE Std 142-2007
       type: IEEE
       primary: true
 keyword:

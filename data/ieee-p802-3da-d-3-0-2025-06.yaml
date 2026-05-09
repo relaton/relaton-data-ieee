@@ -1,7 +1,7 @@
 ---
 id: IEEEP8023daD30202506
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: 'IEEE Draft Standard for Ethernet Amendment 10: Physical Layer Specifications
     and Management Parameters for Enhancement of 10 Mb/s Operation over Single Balanced
@@ -27,7 +27,7 @@ date:
 - type: published
   at: '2025-08-13'
 - type: issued
-  at: '2025'
+  at: '2026-02-12'
 contributor:
 - role:
   - type: publisher
@@ -72,7 +72,7 @@ abstract:
   script: Latn
   content: This amendment to IEEE Std 802.3-2022 specifies additions and appropriate
     modifications to enhance the 10 Mb/s shared-medium (multidrop) mode of the 10BASE-T1S
-    Physical Layer in a new, multidrop-only physical layer specification (including
+    Physical Layer in a new, multidrop-only, Physical Layer specification (including
     reconciliation sublayers, management parameters, Ethernet support for time synchronization
     protocols, and optional power delivery to support multiple Powered Devices on
     the 10 Mb/s mixing segment).
@@ -99,7 +99,8 @@ relation:
     script: Latn
     content: amends
   bibitem:
-    formattedref: IEEE Std 802.3-2022
+    formattedref:
+      content: IEEE Std 802.3-2022
     docidentifier:
     - content: IEEE Std 802.3-2022
       type: IEEE
@@ -124,11 +125,15 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: 'Keywords: 10BASE-T1S'
+    content: 10BASE-T1M
 - vocab:
     language: en
     script: Latn
-    content: 10BASE-T1M
+    content: 10BASE-T1S
+- vocab:
+    language: en
+    script: Latn
+    content: amendment
 - vocab:
     language: en
     script: Latn
@@ -188,11 +193,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: PoDL
+    content: PLCA
 - vocab:
     language: en
     script: Latn
-    content: PLCA
+    content: PoDL
 - vocab:
     language: en
     script: Latn

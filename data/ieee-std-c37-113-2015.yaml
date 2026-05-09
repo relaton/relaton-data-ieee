@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC371132015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Protective Relay Applications to Transmission Lines
   type: main
@@ -81,9 +81,6 @@ abstract:
     The purpose of this guide is to provide a reference for the selection of relay
     schemes and to assist less experienced protective relaying engineers in applying
     protection schemes to transmission lines.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -98,13 +95,22 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.113-2025
+    docidentifier:
+    - content: IEEE Std C37.113-2025
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std C37.113-1999
+    formattedref:
+      content: IEEE Std C37.113-1999
     docidentifier:
     - content: IEEE Std C37.113-1999
       type: IEEE
@@ -174,7 +180,6 @@ ext:
   ics:
   - code: 29.120.70
     text: Relays
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

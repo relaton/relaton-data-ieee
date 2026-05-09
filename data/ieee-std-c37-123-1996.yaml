@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC371231996
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide to Specifications for Gas-Insulated, Electric Power Substation
     Equipment
@@ -97,7 +97,20 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std C37.123-1991
+    formattedref:
+      content: IEEE Std C37.123-1991
+    docidentifier:
+    - content: IEEE Std C37.123-1991
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.123-1991
     docidentifier:
     - content: IEEE Std C37.123-1991
       type: IEEE

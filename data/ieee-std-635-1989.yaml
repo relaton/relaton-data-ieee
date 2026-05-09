@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6351989
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Selection and Design of Aluminum Sheaths for Power Cables
   type: main
@@ -96,14 +96,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE Std 635-1980
+    formattedref:
+      content: ANSI/IEEE Std 635-1980
     docidentifier:
     - content: ANSI/IEEE Std 635-1980
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 635-2003
+    formattedref:
+      content: IEEE Std 635-2003
     docidentifier:
     - content: IEEE Std 635-2003
       type: IEEE

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3991990
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for Industrial and Commercial Power System Analysis
   type: main
@@ -97,14 +97,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE Std 399-1980
+    formattedref:
+      content: ANSI/IEEE Std 399-1980
     docidentifier:
     - content: ANSI/IEEE Std 399-1980
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 399-1997
+    formattedref:
+      content: IEEE Std 399-1997
     docidentifier:
     - content: IEEE Std 399-1997
       type: IEEE

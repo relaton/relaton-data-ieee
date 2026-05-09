@@ -1,7 +1,7 @@
 ---
 id: IEEEP3533D20202509
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Approved Draft Standard for the Performance Evaluation of Software
     for Smart Television Sets
@@ -70,15 +70,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'The standard specifies the performance evaluation metrics, including definitions,
-    descriptions, and classification requirements, evaluation rating criteria, and
-    test environment for smart TV system software, along with each testing step. Based
-    on product usage scenarios, the performance testing metrics for smart TV system
-    software are divided into five main categories: basic performance, video playback
-    performance, control performance, screen mirroring performance, as well as performance
-    stability and anti-aging performance. The standard defines a tiered evaluation
-    system, classifying performance fluency metrics into three 8 levels based on performance
-    data, with explanations of the user experience for each level.'
+  content: 'Performance evaluation metrics, including definitions, descriptions, and
+    classification requirements, evaluation rating criteria, and test environments
+    for smart TV system software, along with each testing step, is specified in this
+    standard. Based on product usage scenarios, the performance testing metrics for
+    smart TV system software are divided into five main categories: basic performance,
+    video playback performance, control performance, screen mirroring performance,
+    as well as performance stability and anti-aging performance. A tiered evaluation
+    system, classifying performance fluency metrics into three levels based on performance
+    data, with explanations of the user experience for each level is defined in this
+    standard.'
 status:
   stage:
     content: draft
@@ -119,25 +120,33 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: System Performance
+    content: anti-aging
 - vocab:
     language: en
     script: Latn
-    content: Screen Projection
+    content: IEEE 3533™
 - vocab:
     language: en
     script: Latn
-    content: Anti-aging
+    content: screen projection
 - vocab:
     language: en
     script: Latn
-    content: User Experience
+    content: smart TV
+- vocab:
+    language: en
+    script: Latn
+    content: system performance
+- vocab:
+    language: en
+    script: Latn
+    content: user experience
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,7 +1,7 @@
 ---
 id: ISOIEEE11073107012024
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: 'ISO/IEEE International Standard: Health informatics--Device interoperability--Part
     10701: Point-of-care medical device communication--Metric provisioning by participants
@@ -103,8 +103,6 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
@@ -112,7 +110,8 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    formattedref: IEEE Std 11073.10701-2022
+    formattedref:
+      content: IEEE Std 11073.10701-2022
     docidentifier:
     - content: IEEE Std 11073.10701-2022
       type: IEEE
@@ -151,7 +150,7 @@ keyword:
     script: Latn
     content: base PKP; BICEPS; communication protocol specification; device component;
       documentation and process responsibilities; dynamic medical device interoperability;
-      IEEE 11073-10701&#8482;; integrated clinical environment; medical device communication;
+      IEEE 11073-10701™; integrated clinical environment; medical device communication;
       metric; metric PKP; participant key purpose; point-of-care service-oriented
       device connectivity; risk management; safety
 - vocab:

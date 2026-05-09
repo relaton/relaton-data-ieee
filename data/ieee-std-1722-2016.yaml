@@ -1,7 +1,7 @@
 ---
 id: IEEEStd17222016
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for a Transport Protocol for Time-Sensitive Applications
     in Bridged Local Area Networks
@@ -74,9 +74,6 @@ abstract:
   content: The protocol, device discovery, connection management, and device-control
     procedures used to facilitate interoperability between audio- and video-based
     end stations that use IEEE 1722-based streams on IEEE 802-based networks are specified.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -91,13 +88,22 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1722-2025
+    docidentifier:
+    - content: IEEE Std 1722-2025
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1722-2011
+    formattedref:
+      content: IEEE Std 1722-2011
     docidentifier:
     - content: IEEE Std 1722-2011
       type: IEEE
@@ -211,7 +217,6 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

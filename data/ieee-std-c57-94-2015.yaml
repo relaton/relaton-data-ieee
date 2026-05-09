@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC57942015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for Installation, Application, Operation, and
     Maintenance of Dry-Type Distribution and Power Transformers
@@ -73,9 +73,6 @@ abstract:
   script: Latn
   content: Recommendations for operation and maintenance of dry-type distribution
     and power transformers are provided.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -96,7 +93,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE Std C57.94-1982
+    formattedref:
+      content: ANSI/IEEE Std C57.94-1982
     docidentifier:
     - content: ANSI/IEEE Std C57.94-1982
       type: IEEE
@@ -162,7 +160,6 @@ ext:
   ics:
   - code: '29.180'
     text: Transformers. Reactors
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

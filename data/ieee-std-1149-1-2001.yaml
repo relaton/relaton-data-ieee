@@ -1,7 +1,7 @@
 ---
 id: IEEEStd114912001
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard Test Access Port and Boundary Scan Architecture
   type: main
@@ -96,14 +96,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1149.1-1990
+    formattedref:
+      content: IEEE Std 1149.1-1990
     docidentifier:
     - content: IEEE Std 1149.1-1990
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 1149.1-2013
+    formattedref:
+      content: IEEE Std 1149.1-2013
     docidentifier:
     - content: IEEE Std 1149.1-2013
       type: IEEE

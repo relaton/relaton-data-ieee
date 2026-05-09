@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8021X2004
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Local and metropolitan area networks - Port-Based Network
     Access Control
@@ -97,14 +97,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 802.1X-2001
+    formattedref:
+      content: IEEE Std 802.1X-2001
     docidentifier:
     - content: IEEE Std 802.1X-2001
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Unapproved Std P802.1af/D-1.7-2007-11
+    formattedref:
+      content: IEEE Unapproved Std P802.1af/D-1.7-2007-11
     docidentifier:
     - content: IEEE Unapproved Std P802.1af/D-1.7-2007-11
       type: IEEE

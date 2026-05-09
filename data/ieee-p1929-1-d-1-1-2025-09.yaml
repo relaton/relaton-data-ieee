@@ -1,7 +1,7 @@
 ---
 id: IEEEP19291D11202509
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Approved Draft Standard for an Architectural Framework for Energy
     Efficient Content Distribution
@@ -69,9 +69,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard specifies an energy-efficient framework for video content
-    distribution in IP over WDM networks. The framework considers delivering video
-    content from fixed-size or variable size caches or from centralized or distributed
+  content: An energy-efficient framework for video content distribution in IP over
+    WDM networks is specified in this standard. The framework considers delivering
+    video content from fixed-size or variable-size caches or from centralized or distributed
     video head-ends. To reduce the networking and caching power consumption, the framework
     optimizes the replacement of the caches content and the size of caches according
     to the content popularity changes throughout the day. Different test cases of
@@ -117,14 +117,6 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: energy efficiency
-- vocab:
-    language: en
-    script: Latn
-    content: IP over WDM
-- vocab:
-    language: en
-    script: Latn
     content: caching
 - vocab:
     language: en
@@ -137,13 +129,25 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IPTV.
+    content: energy efficiency
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1929.1™
+- vocab:
+    language: en
+    script: Latn
+    content: IP over WDM
+- vocab:
+    language: en
+    script: Latn
+    content: IPTV
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

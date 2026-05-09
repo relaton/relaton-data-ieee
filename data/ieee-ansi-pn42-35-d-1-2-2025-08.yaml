@@ -1,7 +1,7 @@
 ---
 id: IEEEANSIPN4235D12202508
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE/ANSI Approved Draft Standard for Evaluation Criteria and Performance
     Requirements of Radiation Portal Monitors for Use in Homeland Security
@@ -75,7 +75,7 @@ abstract:
     These monitors are large size installed or stationary RPMs. These instruments
     are primarily designed for the detection of radioactive materials emitting gamma
     rays and neutrons. The specifications for general, radiological, environmental,
-    electromagnetic and mechanical performance are given and the corresponding testing
+    electromagnetic, and mechanical performance are given and the corresponding testing
     methods are described. The documentation to be provided by the manufacturer is
     listed as part of the requirements. A number of informative annexes that provide
     useful information and guidance in implementing this standard are also contained
@@ -132,15 +132,15 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE N42.35
-- vocab:
-    language: en
-    script: Latn
     content: documentation
 - vocab:
     language: en
     script: Latn
     content: gamma-rays
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE N42.35™
 - vocab:
     language: en
     script: Latn
@@ -172,17 +172,20 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: radiation portal monitor
+    content: radioactive material
 - vocab:
     language: en
     script: Latn
-    content: radioactive material
+    content: radiation portal monitor
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

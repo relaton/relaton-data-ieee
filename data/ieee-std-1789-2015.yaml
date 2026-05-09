@@ -1,7 +1,7 @@
 ---
 id: IEEEStd17892015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practices for Modulating Current in High-Brightness LEDs
     for Mitigating Health Risks to Viewers
@@ -78,9 +78,6 @@ abstract:
     the frequency of driving currents/voltage, and recommendations for modulation
     frequencies (flicker) for LED lighting and dimming applications to help protect
     against known potential adverse health effects.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -185,9 +182,9 @@ ext:
     content: standard
   flavor: ieee
   ics:
-  - code: '13.180'
-    text: Ergonomics
-  standard_status: Active
-  standard_modified: Approved
+  - code: 29.140.01
+    text: Lamps in general
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

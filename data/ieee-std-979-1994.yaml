@@ -1,7 +1,7 @@
 ---
 id: IEEEStd9791994
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Substation Fire Protection
   type: main
@@ -91,7 +91,20 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE Std 979-1984
+    formattedref:
+      content: ANSI/IEEE Std 979-1984
+    docidentifier:
+    - content: ANSI/IEEE Std 979-1984
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: ANSI/IEEE Std 979-1984
     docidentifier:
     - content: ANSI/IEEE Std 979-1984
       type: IEEE

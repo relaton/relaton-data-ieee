@@ -1,7 +1,7 @@
 ---
 id: IEEEStd15272018
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for the Design of Buswork Located in Seismically
     Active Areas
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1527-2018
 date:
-- type: updated
-  at: '2020-09-25'
 - type: created
   at: '2018-08-10'
 - type: published
@@ -62,7 +60,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Substations of the IEEE Power and Energy Society
+        content: Substations Committee of the IEEE Power and Energy Society
       type: committee
     abbreviation:
       content: IEEE
@@ -99,7 +97,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1527-2006
+    formattedref:
+      content: IEEE Std 1527-2006
     docidentifier:
     - content: IEEE Std 1527-2006
       type: IEEE
@@ -160,7 +159,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 1527&#8482;
+    content: IEEE 1527
 - vocab:
     language: en
     script: Latn

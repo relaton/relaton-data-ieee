@@ -1,7 +1,7 @@
 ---
 id: IEEEStd181522025
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard Profile for Communications with Distributed Energy Resources
     (DERs) Using IEEE Std 1815(TM) [Distributed Network Protocol (DNP3)]
@@ -170,6 +170,13 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

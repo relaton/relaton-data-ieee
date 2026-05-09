@@ -1,0 +1,175 @@
+---
+id: IEEEP3159D12202604
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Guide for Online Evaluation Method of Electricity Meter Operating
+    Error Based on Power Consumption Data Collection and Access
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11494475
+docidentifier:
+- content: IEEE P3159/D-1.2-2026-04
+  type: IEEE
+  primary: true
+- content: IEEE P3159™/D-1.2-2026-04
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-3420-1
+  type: ISBN
+docnumber: IEEE P3159/D-1.2-2026-04
+date:
+- type: created
+  at: '2026-04-21'
+- type: published
+  at: '2026-04-24'
+- type: issued
+  at: '2026'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: SC31 - Automatic Meter Reading and Energy Management of the IEEE-SASB
+          Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This guide proposes an online method for evaluating the operating errors
+    of electricity meters in evaluation units with a tree topology. Grounded in the
+    law of conservation of energy, the method leverages big data analytics on energy
+    consumption data derived from synchronized, time-stamped readings collected from
+    root and branch meters. A typical evaluation unit, such as a station area (a low-voltage
+    distribution area), provides daily frozen readings (i.e., time-synchronized, end-of-day
+    values) that serve as the specified synchronized data. This approach enables the
+    continuous online assessment of meter performance, enhancing the reliability of
+    energy measurement.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Meter reading
+- vocab:
+    language: en
+    script: Latn
+    content: Accuracy
+- vocab:
+    language: en
+    script: Latn
+    content: Big Data
+- vocab:
+    language: en
+    script: Latn
+    content: Online services
+- vocab:
+    language: en
+    script: Latn
+    content: Performance evaluation
+- vocab:
+    language: en
+    script: Latn
+    content: Error analysis
+- vocab:
+    language: en
+    script: Latn
+    content: Energy consumption
+- vocab:
+    language: en
+    script: Latn
+    content: Data collection
+- vocab:
+    language: en
+    script: Latn
+    content: Automatic meter reading
+- vocab:
+    language: en
+    script: Latn
+    content: Energy management
+- vocab:
+    language: en
+    script: Latn
+    content: P3159
+- vocab:
+    language: en
+    script: Latn
+    content: operating error
+- vocab:
+    language: en
+    script: Latn
+    content: electricity meter accuracy
+- vocab:
+    language: en
+    script: Latn
+    content: tree topology
+- vocab:
+    language: en
+    script: Latn
+    content: big data analytics
+- vocab:
+    language: en
+    script: Latn
+    content: online evaluation.
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

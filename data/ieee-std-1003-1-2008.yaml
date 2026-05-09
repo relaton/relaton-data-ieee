@@ -1,7 +1,7 @@
 ---
 id: IEEEStd100312008
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Information Technology - Portable Operating System Interface
     (POSIX(R))
@@ -100,14 +100,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1003.1-2001
+    formattedref:
+      content: IEEE Std 1003.1-2001
     docidentifier:
     - content: IEEE Std 1003.1-2001
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: ISO/IEC/IEEE 9945-2009
+    formattedref:
+      content: ISO/IEC/IEEE 9945-2009
     docidentifier:
     - content: ISO/IEC/IEEE 9945-2009
       type: IEEE
@@ -216,7 +218,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: portable operating system interface (POSIX&#174;)
+    content: portable operating system interface (POSIX®)
 - vocab:
     language: en
     script: Latn

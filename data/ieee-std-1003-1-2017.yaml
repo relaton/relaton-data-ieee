@@ -1,7 +1,7 @@
 ---
 id: IEEEStd100312017
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Information Technology--Portable Operating System Interface
     (POSIX(TM)) Base Specifications, Issue 7
@@ -110,8 +110,6 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
@@ -119,7 +117,8 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE 1003.1-2024
+    formattedref:
+      content: IEEE 1003.1-2024
     docidentifier:
     - content: IEEE 1003.1-2024
       type: IEEE
@@ -130,7 +129,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1003.1-2008
+    formattedref:
+      content: IEEE Std 1003.1-2008
     docidentifier:
     - content: IEEE Std 1003.1-2008
       type: IEEE

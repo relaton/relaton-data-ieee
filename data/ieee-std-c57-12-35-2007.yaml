@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712352007
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Bar Coding for Distribution Transformers and Step-Voltage
     Regulators
@@ -92,7 +92,20 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std C57.12.35-1996
+    formattedref:
+      content: IEEE Std C57.12.35-1996
+    docidentifier:
+    - content: IEEE Std C57.12.35-1996
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.12.35-1996
     docidentifier:
     - content: IEEE Std C57.12.35-1996
       type: IEEE

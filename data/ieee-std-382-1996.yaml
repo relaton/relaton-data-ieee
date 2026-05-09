@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3821996
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Qualification of Actuators for Power-Operated Valve Assemblies
     With Safety-Related Functions for Nuclear Power Plants
@@ -97,21 +97,36 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 382-1985
+    formattedref:
+      content: IEEE Std 382-1985
     docidentifier:
     - content: IEEE Std 382-1985
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 382-2006
+    formattedref:
+      content: IEEE Std 382-2006
     docidentifier:
     - content: IEEE Std 382-2006
       type: IEEE
       primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 382-1985
+    docidentifier:
+    - content: IEEE Std 382-1985
+      type: IEEE
+      primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 382-2006
+    formattedref:
+      content: IEEE Std 382-2006
     docidentifier:
     - content: IEEE Std 382-2006
       type: IEEE

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571062015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Acceptance and Maintenance of Insulating Mineral Oil in
     Electrical Equipment
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.106-2015
 date:
-- type: updated
-  at: '2016-07-08'
 - type: created
   at: '2016-03-23'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -81,9 +82,6 @@ abstract:
     and to assist the operator in maintaining mineral oil in serviceable condition.
     The mineral oil covered is used in transformers, reactors, load tap changers,
     and voltage regulators.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -97,18 +95,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: IEEE Std C57.106-2006
-    docidentifier:
-    - content: IEEE Std C57.106-2006
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -194,7 +180,7 @@ ext:
   ics:
   - code: 29.040.10
     text: Insulating oils
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd17882015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Interval Arithmetic
   type: main
@@ -80,9 +80,6 @@ abstract:
     language levels. It does not mandate that any operations be implemented in hardware.
     It does not define any realization of the basic operations as functions in a programming
     language.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -149,7 +146,9 @@ ext:
   ics:
   - code: '07.020'
     text: Mathematics
-  standard_status: Active
-  standard_modified: Approved
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

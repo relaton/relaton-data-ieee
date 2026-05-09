@@ -1,7 +1,7 @@
 ---
 id: IEEEStd114962015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Boundary-Scan Testing of Advanced Digital Networks
   type: main
@@ -73,9 +73,6 @@ abstract:
   content: IEEE Std 1149.1(TM) is augmented by this standard to improve the ability
     for testing differential and/or ac-coupled interconnections between integrated
     circuits on circuit boards and systems.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -89,18 +86,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: IEEE Std 1149.6-2003
-    docidentifier:
-    - content: IEEE Std 1149.6-2003
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -182,7 +167,7 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

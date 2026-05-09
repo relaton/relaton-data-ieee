@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8022001
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: 'IEEE Standard for Local and Metropolitan Area Networks: Overview and Architecture'
   type: main
@@ -98,14 +98,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 802-1990
+    formattedref:
+      content: IEEE Std 802-1990
     docidentifier:
     - content: IEEE Std 802-1990
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 802-2014
+    formattedref:
+      content: IEEE Std 802-2014
     docidentifier:
     - content: IEEE Std 802-2014
       type: IEEE

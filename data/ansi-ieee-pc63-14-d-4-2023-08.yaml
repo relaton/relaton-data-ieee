@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEPC6314D4202308
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: Draft Guide for American Standard Dictionary of Electromagnetic Compatibility
     (EMC) including Electromagnetic Environmental Effects (E3)
@@ -100,8 +100,6 @@ copyright:
       abbreviation:
         content: ANSI
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
@@ -113,7 +111,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI C63.14-2014
+    formattedref:
+      content: ANSI C63.14-2014
     docidentifier:
     - content: ANSI C63.14-2014
       type: IEEE

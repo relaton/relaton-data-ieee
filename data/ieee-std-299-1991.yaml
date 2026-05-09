@@ -1,7 +1,7 @@
 ---
 id: IEEEStd2991991
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Measuring the Effectiveness of Electromagnetic Shielding
     Enclosures
@@ -100,14 +100,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 299-1969
+    formattedref:
+      content: IEEE Std 299-1969
     docidentifier:
     - content: IEEE Std 299-1969
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 299-1997
+    formattedref:
+      content: IEEE Std 299-1997
     docidentifier:
     - content: IEEE Std 299-1997
       type: IEEE

@@ -1,7 +1,7 @@
 ---
 id: IEEEP17111D10202312
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: 'IEEE Draft Standard for a Cryptographic Protocol for Cyber Security of
     Substation Serial Links: Substation Serial Protection Protocol'
@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2024-12-11'
 - type: issued
-  at: '2024'
+  at: '2025-11-04'
 contributor:
 - role:
   - type: publisher
@@ -70,10 +70,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: A cryptographic protocol to provide integrity, and optional confidentiality,
-    for cybersecurity of serial links is defined in this trial use standard. Specific
-    applications or hardware implementations are not addressed, and the standard is
-    independent of the underlying communications protocol.
+  content: A cryptographic protocol to provide integrity and optional confidentiality
+    for cybersecurity of serial links is defined in this standard. Specific applications
+    or hardware implementations are not addressed, and the standard is independent
+    of the underlying communications protocol.
 status:
   stage:
     content: draft
@@ -110,7 +110,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: cyber security
+    content: cybersecurity
 - vocab:
     language: en
     script: Latn
@@ -119,6 +119,10 @@ keyword:
     language: en
     script: Latn
     content: IEEE 1711
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1711.1
 - vocab:
     language: en
     script: Latn
@@ -132,6 +136,9 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: '35.030'
+    text: IT Security
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

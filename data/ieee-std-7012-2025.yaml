@@ -1,9 +1,9 @@
 ---
 id: IEEEStd70122025
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
-- content: IEEE Standard for Machine Readable Privacy Terms
+- content: IEEE Standard for Machine Readable Personal Privacy Terms
   type: main
 source:
 - type: src
@@ -71,7 +71,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Contractual interactions and agreements between individuals and the service
+  content: 'Contractual interactions and agreements between individuals and the service
     providers they engage on a network, including websites, applications and AI agents,
     are covered in this standard. It describes how individuals, acting as first parties,
     can proffer their privacy requirements as contractual terms and arrive at agreements
@@ -87,7 +87,8 @@ abstract:
     the chosen contract or agreement shall be signed electronically by both parties
     or their agents, and a matching record shall be kept by both sides in a form that
     can be retrieved, audited, or disputed, if necessary, at some later time--and
-    which is available to do so easily.
+    which is available to do so easily. (Note: The PDF of this standard is available
+    at no charge complements of the IEEE GET program https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=93.)'
 status:
   stage:
     content: approved
@@ -162,6 +163,13 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 03.080.30
+    text: Services for consumers
+  - code: '03.160'
+    text: Law. Administration
+  - code: '35.020'
+    text: Information technology (IT) in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd203022015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for the Interoperability of Energy Storage Systems Integrated
     with the Electric Power Infrastructure
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 2030.2-2015
 date:
-- type: updated
-  at: '2015-07-17'
 - type: created
   at: '2015-06-30'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -59,7 +60,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: IEEE-SASB Coordinating Committees
+        content: Distributed Generation, Energy Storage and Interoperability Standards
+          Committee of the IEEE SA Board of Governors
       type: committee
     abbreviation:
       content: IEEE
@@ -71,8 +73,8 @@ abstract:
 - language: en
   script: Latn
   content: This guide applies the smart grid interoperability reference model (SGIRM)
-    process (IEEE Std 2030(TM)-2011) to energy storage by highlighting the information
-    relevant to energystorage system (ESS) interoperability with the energy power
+    process (IEEE Std 2030-2011) to energy storage by highlighting the information
+    relevant to energy storage system (ESS) interoperability with the energy power
     system (EPS). The process can be applied to ESS applications located on customer
     premises, at the distribution level, and on the transmission level (i.e., bulk
     storage). This guide provides useful industry-derived definitions for ESS characteristics,
@@ -81,15 +83,12 @@ abstract:
     requirements can be communicated more clearly and consistently in project specifications.
     This guide also presents a methodology that can be used for most common ESS projects
     to describe the power system, communications, and information technology (IT)
-    perspectives based on the IEEE 2030(TM) definitions. From this framework, a seemingly
+    perspectives based on the IEEE 2030 definitions. From this framework, a seemingly
     complex system can be more clearly understood by all project stakeholders. Emerging
     cybersecurity requirements can also be incorporated into the framework as appropriate.
     Additionally, this guide provides the templates that can be used to develop requirements
     for an ESS project and goes through several real-world ESS project examples step
     by step.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -174,7 +173,7 @@ ext:
     text: Power transmission and distribution networks in general
   - code: '35.110'
     text: Networking
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

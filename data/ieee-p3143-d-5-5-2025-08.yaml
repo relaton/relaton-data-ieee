@@ -1,7 +1,7 @@
 ---
 id: IEEEP3143D55202508
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Approved Draft Standard for Electric Traction System for Short Primary
     Maglev Vehicle
@@ -112,11 +112,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: 120km/h
+    content: 120 km/h
 - vocab:
     language: en
     script: Latn
-    content: 160km/h
+    content: 160 km/h
 - vocab:
     language: en
     script: Latn
@@ -128,7 +128,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 3143
+    content: IEEE 3143(TM)
 - vocab:
     language: en
     script: Latn
@@ -146,7 +146,10 @@ ext:
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  ics:
+  - code: '45.020'
+    text: Railway engineering in general
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

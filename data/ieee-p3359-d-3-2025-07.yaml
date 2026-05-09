@@ -1,7 +1,7 @@
 ---
 id: IEEEP3359D3202507
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Approved Draft Trial-Use Guide for Testing Methods for Proton Exchange
     Membrane Fuel Cell Systems in Automotive Applications Using Compressed Hydrogen
@@ -72,7 +72,7 @@ abstract:
 - language: en
   script: Latn
   content: The methodology for the test of proton exchange membrane fuel cell systems
-    for automotive application using compressed hydrogen as fuel is provided as a
+    for automotive applications using compressed hydrogen as fuel is provided as a
     guidance in this document, including the recommendations on the accuracy of the
     test instruments, preparation before the test, test conditions, and calculation
     processes.
@@ -148,6 +148,10 @@ keyword:
 - vocab:
     language: en
     script: Latn
+    content: IEEE 3359™
+- vocab:
+    language: en
+    script: Latn
     content: performance test
 - vocab:
     language: en
@@ -170,7 +174,10 @@ ext:
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  ics:
+  - code: 43.060.40
+    text: Fuel systems
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712702011
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Standard Terminal Markings and Connections for Distribution
     and Power Transformers
@@ -92,22 +92,24 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.12.70-2020
+    docidentifier:
+    - content: IEEE Std C57.12.70-2020
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std C57.12.70-2000
+    formattedref:
+      content: IEEE Std C57.12.70-2000
     docidentifier:
     - content: IEEE Std C57.12.70-2000
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std C57.12.70-2020
-    docidentifier:
-    - content: IEEE Std C57.12.70-2020
       type: IEEE
       primary: true
 keyword:

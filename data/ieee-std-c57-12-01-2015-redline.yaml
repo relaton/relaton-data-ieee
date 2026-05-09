@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712012015Redline
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for General Requirements for Dry-Type Distribution and Power
     Transformers
@@ -90,36 +90,24 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.12.01-2020
+    docidentifier:
+    - content: IEEE Std C57.12.01-2020
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std C57.12.01-2005
+    formattedref:
+      content: IEEE Std C57.12.01-2005
     docidentifier:
     - content: IEEE Std C57.12.01-2005
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std C57.12.01-2020
-    docidentifier:
-    - content: IEEE Std C57.12.01-2020
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std C57.12.01-2020
-    docidentifier:
-    - content: IEEE Std C57.12.01-2020
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std C57.12.01-2020
-    docidentifier:
-    - content: IEEE Std C57.12.01-2020
       type: IEEE
       primary: true
 keyword:

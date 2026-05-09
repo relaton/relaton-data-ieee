@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5321993
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Selecting and Testing Jackets for Underground Cables
   type: main
@@ -97,14 +97,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 532-1982
+    formattedref:
+      content: IEEE Std 532-1982
     docidentifier:
     - content: IEEE Std 532-1982
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 532-2007
+    formattedref:
+      content: IEEE Std 532-2007
     docidentifier:
     - content: IEEE Std 532-2007
       type: IEEE

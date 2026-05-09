@@ -1,7 +1,7 @@
 ---
 id: IEEEStd40042015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Field Testing of Shielded Power Cable Systems Rated 5 kV
     and Above with Damped Alternating Current (DAC) Voltage
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 400.4-2015
 date:
-- type: updated
-  at: '2016-02-19'
 - type: created
   at: '2016-01-29'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -78,9 +79,6 @@ abstract:
     to show the effectiveness of the DAC ac voltage test, the diagnostic evaluation
     and the user experiences in the past years for field testing of different medium
     and (extra) high voltage cable system.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -229,9 +227,9 @@ ext:
     content: standard
   flavor: ieee
   ics:
-  - code: 01.040.11
-    text: Health care technology (Vocabularies)
-  standard_status: Active
-  standard_modified: Approved
+  - code: 33.120.20
+    text: Wires and symmetrical cables
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

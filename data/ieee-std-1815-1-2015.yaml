@@ -1,7 +1,7 @@
 ---
 id: IEEEStd181512015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Exchanging Information Between Networks Implementing
     IEC 61850 and IEEE Std 1815(TM) [Distributed Network Protocol (DNP3)]
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1815.1-2015
 date:
-- type: updated
-  at: '2017-01-13'
 - type: created
   at: '2016-12-16'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -59,7 +60,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: IEEE Power and Energy Society
+        content: Power System Communications and Cybersecurity of the IEEE Power and
+          Energy Society
       type: committee
     abbreviation:
       content: IEEE
@@ -71,7 +73,7 @@ abstract:
 - language: en
   script: Latn
   content: 'This document specifies the standard approach for mapping between IEEE
-    Std 1815&#8482; [Distributed Network Protocol (DNP3)] and IEC 61850 (Communications
+    Std 1815™ [Distributed Network Protocol (DNP3)] and IEC 61850 (Communications
     Networks and Systems for Power Utility Automation). Two primary use cases are
     addressed: a) mapping between an IEEE 1815-based master and an IEC 61850-based
     remote site and b) mapping between an IEC 61850-based master and an IEEE 1815-based
@@ -84,9 +86,6 @@ abstract:
     selection of features, data classes, and services of the two standards. ** NOTE:
     Incorporates IEEE Std 1815.1-2015/Cor 1-2016, which was not published as an individual
     corrigendum.'
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -160,7 +159,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 1815&#8482;
+    content: IEEE 1815
 - vocab:
     language: en
     script: Latn
@@ -190,7 +189,14 @@ ext:
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
-  standard_modified: Approved
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

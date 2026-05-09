@@ -1,7 +1,7 @@
 ---
 id: IEEEStd451977
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for Electric Installations on Shipboard
   type: main
@@ -64,7 +64,8 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 45-1983
+    formattedref:
+      content: IEEE Std 45-1983
     docidentifier:
     - content: IEEE Std 45-1983
       type: IEEE
@@ -75,16 +76,10 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 45-1971
+    formattedref:
+      content: IEEE Std 45-1971
     docidentifier:
     - content: IEEE Std 45-1971
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std 45-1983
-    docidentifier:
-    - content: IEEE Std 45-1983
       type: IEEE
       primary: true
 keyword:

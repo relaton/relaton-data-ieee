@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC571582017
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for the Application of Tertiary and Stabilizing Windings in
     Power Transformers
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.158-2017
 date:
-- type: updated
-  at: '2018-05-18'
 - type: created
   at: '2018-04-27'
 - type: published
-  at: '2018-04-28'
+  at: '2018-04-30'
 - type: issued
   at: '2017-12-06'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -71,11 +72,11 @@ abstract:
 - language: en
   script: Latn
   content: The application of tertiary and stabilizing windings in liquid-immersed
-    power transformers, as covered by IEEE Std C57.12.00&#8482;, as well as recommendations
+    power transformers, as covered by IEEE Std C57.12.00™, as well as recommendations
     to evaluate the need or convenience of having such windings, are addressed in
     this guide. The primary application of this guide is for transformers and autotransformers
     with wye-wye-connected windings, with or without a delta-connected tertiary or
-    stabilizing winding. Tertiary windings in conventional delta-wye and delta-delta&#8211;connected
+    stabilizing winding. Tertiary windings in conventional delta-wye and delta-delta–connected
     transformers are not addressed by this guide.
 status:
   stage:
@@ -121,7 +122,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE C57.158&#8482;
+    content: IEEE C57.158
 - vocab:
     language: en
     script: Latn
@@ -148,8 +149,8 @@ ext:
     content: standard
   flavor: ieee
   ics:
-  - code: 01.040.11
-    text: Health care technology (Vocabularies)
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

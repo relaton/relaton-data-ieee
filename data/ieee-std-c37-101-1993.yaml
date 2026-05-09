@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC371011993
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Generator Ground Protection
   type: main
@@ -93,14 +93,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE C37.101-1985
+    formattedref:
+      content: ANSI/IEEE C37.101-1985
     docidentifier:
     - content: ANSI/IEEE C37.101-1985
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std C37.101-2006
+    formattedref:
+      content: IEEE Std C37.101-2006
     docidentifier:
     - content: IEEE Std C37.101-2006
       type: IEEE

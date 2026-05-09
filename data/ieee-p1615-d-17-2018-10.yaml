@@ -1,14 +1,14 @@
 ---
 id: IEEEP1615D17201810
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
-- content: IEEE Draft Recommended Practice for Network Communication in Electric Power
-    Substations
+- content: IEEE Approved Draft Recommended Practice for Network Communication in Electric
+    Power Substations
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/8495129
+  content: https://ieeexplore.ieee.org/document/8833589
 docidentifier:
 - content: IEEE P1615/D-17-2018-10
   type: IEEE
@@ -22,9 +22,9 @@ docidentifier:
 docnumber: IEEE P1615/D-17-2018-10
 date:
 - type: created
-  at: '2018-10-16'
+  at: '2019'
 - type: published
-  at: '2018-10-17'
+  at: '2019-09-11'
 - type: issued
   at: '2019-09-05'
 contributor:
@@ -99,7 +99,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1615-2007
+    formattedref:
+      content: IEEE Std 1615-2007
     docidentifier:
     - content: IEEE Std 1615-2007
       type: IEEE
@@ -110,7 +111,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1615-2007
+    formattedref:
+      content: IEEE Std 1615-2007
     docidentifier:
     - content: IEEE Std 1615-2007
       type: IEEE
@@ -127,23 +129,35 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Electric equipment
+    content: Media
 - vocab:
     language: en
     script: Latn
-    content: Resource management
-- vocab:
-    language: en
-    script: Latn
-    content: Electricity supply industry
-- vocab:
-    language: en
-    script: Latn
-    content: Distributed Network Protocol 3 (DNP3)
+    content: Channel allocation
 - vocab:
     language: en
     script: Latn
     content: Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: Optical fiber communication
+- vocab:
+    language: en
+    script: Latn
+    content: Wireless networks
+- vocab:
+    language: en
+    script: Latn
+    content: Noise measurement
+- vocab:
+    language: en
+    script: Latn
+    content: Data security
+- vocab:
+    language: en
+    script: Latn
+    content: Distributed Network Protocol 3 (DNP3)
 - vocab:
     language: en
     script: Latn

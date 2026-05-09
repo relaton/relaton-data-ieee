@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC3704b2008
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: 'IEEE Standard for Rating Structure for AC High-Voltage Circuit Breakers
     Rated on a Symmetrical Current Basis Amendment 2: To Change the Description of
@@ -96,7 +96,20 @@ relation:
     script: Latn
     content: amends
   bibitem:
-    formattedref: IEEE Std C37.04-1999
+    formattedref:
+      content: IEEE Std C37.04-1999
+    docidentifier:
+    - content: IEEE Std C37.04-1999
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.04-1999
     docidentifier:
     - content: IEEE Std C37.04-1999
       type: IEEE

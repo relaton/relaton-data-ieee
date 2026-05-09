@@ -1,7 +1,7 @@
 ---
 id: IEEEStd150532015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for the Universal Test Interface Framework and Pin Configuration
     for Portable/Benchtop Test Requirements Utilizing IEEE 1505(TM) Receiver Fixture
@@ -61,7 +61,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: IEEE-SASB Coordinating Committees
+        content: SCC20 - Test and Diagnosis for Electronic Systems of the IEEE SA
+          Board of Governors
       type: committee
     abbreviation:
       content: IEEE
@@ -79,9 +80,6 @@ abstract:
     IEEE Std 1505-2010 and IEEE Std 1505.1-2015. These performance requirements are
     in the areas of the pin configuration, specific connector modules, and respective
     contacts.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -157,7 +155,10 @@ ext:
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
-  standard_modified: Approved
+  ics:
+  - code: 31.220.10
+    text: Plug-and-socket devices. Connectors
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

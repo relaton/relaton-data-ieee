@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3031991
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for Auxiliary Devices for Motors in Class I,
     Groups A,B,C, and D, Division 2 Locations
@@ -60,8 +60,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Petroleum &amp; Chemical Industry of the IEEE Industry Applications
-          Society
+        content: Petroleum & Chemical Industry of the IEEE Industry Applications Society
       type: committee
     abbreviation:
       content: IEEE
@@ -89,29 +88,24 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 303-2004
+    docidentifier:
+    - content: IEEE Std 303-2004
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 303-1984
+    formattedref:
+      content: IEEE Std 303-1984
     docidentifier:
     - content: IEEE Std 303-1984
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std 303-2004
-    docidentifier:
-    - content: IEEE Std 303-2004
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std 303-2004
-    docidentifier:
-    - content: IEEE Std 303-2004
       type: IEEE
       primary: true
 keyword:

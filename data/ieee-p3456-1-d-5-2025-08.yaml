@@ -1,7 +1,7 @@
 ---
 id: IEEEP34561D5202508
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Approved Draft Standard for Testing Instruments for Deep foundations
     - Part 1:Low-strain Testing Instruments
@@ -70,16 +70,16 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Low-strain testing instruments for deep foundations are non-destructive
-    testing devices used to evaluate the integrity and continuity of concrete piles
-    after installation. They are among the most commonly used tools in pile quality
-    assessment. This standard specifies the terms, symbols, basic requirements, and
-    technical specifications for low-strain testing instruments. It should also include
-    necessary requirements such as hardware requirements, software requirements, vibration
-    amplitude linearity, the center frequency and bandwidth of the acceleration measurement
-    system, dynamic range, environmental robustness, and electromagnetic compatibility.
-    This standard also provides testing methods, inspection procedures, and marking
-    for low-strain testing instruments.
+  content: The integrity and continuity of concrete piles after installation are evaluated
+    using low-strain testing instruments for deep foundations, which are non-destructive
+    testing devices. They are among the most commonly used tools in pile quality assessment.
+    The terms, symbols, basic requirements, and technical specifications for low-strain
+    testing instruments are specified by this standard. Necessary requirements such
+    as hardware requirements, software requirements, vibration amplitude linearity,
+    the center frequency and bandwidth of the acceleration measurement system, dynamic
+    range, environmental robustness, and electromagnetic compatibility should also
+    be included. Testing methods, inspection procedures, and marking for low-strain
+    testing instruments are also provided by this standard.
 status:
   stage:
     content: draft
@@ -124,10 +124,6 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Low-strain
-- vocab:
-    language: en
-    script: Latn
     content: acceleration measurement system
 - vocab:
     language: en
@@ -136,13 +132,17 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 3456.1TM
+    content: IEEE 3456.1™
+- vocab:
+    language: en
+    script: Latn
+    content: low-strain
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

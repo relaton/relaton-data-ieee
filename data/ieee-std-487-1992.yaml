@@ -1,7 +1,7 @@
 ---
 id: IEEEStd4871992
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for the Protection of Wire-Line Communication
     Facilities Serving Electric Power Stations
@@ -96,14 +96,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE Std 487-1980
+    formattedref:
+      content: ANSI/IEEE Std 487-1980
     docidentifier:
     - content: ANSI/IEEE Std 487-1980
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 487-2000
+    formattedref:
+      content: IEEE Std 487-2000
     docidentifier:
     - content: IEEE Std 487-2000
       type: IEEE

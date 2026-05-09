@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC576372015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for the Reclamation of Mineral Insulating Oil and Criteria for
     Its Use
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.637-2015
 date:
-- type: updated
-  at: '2016-01-22'
 - type: created
   at: '2015-11-20'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -75,9 +76,6 @@ abstract:
     methods used to evaluate the progress and end point of the reclamation process;
     and recommended criteria for the suitable use of reclaimed oils. The use of oil
     in new apparatus under warranty is not covered in this guide.'
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -91,18 +89,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: ANSI/IEEE Std 637-1985
-    docidentifier:
-    - content: ANSI/IEEE Std 637-1985
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -160,7 +146,7 @@ ext:
   ics:
   - code: 29.040.10
     text: Insulating oils
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

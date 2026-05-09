@@ -1,7 +1,7 @@
 ---
 id: IEEEStd11062015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for Installation, Maintenance, Testing, and Replacement
     of Vented Nickel-Cadmium Batteries for Stationary Applications
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1106-2015
 date:
-- type: updated
-  at: '2016-02-03'
 - type: created
   at: '2015-11-16'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -59,8 +60,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Energy Storage &amp; Stationary Battery Committee of the IEEE Power
-          and Energy Society
+        content: Energy Storage & Stationary Battery Committee of the IEEE Power and
+          Energy Society
       type: committee
     abbreviation:
       content: IEEE
@@ -75,9 +76,6 @@ abstract:
     and for installation, maintenance, and testing procedures that can be used to
     optimize the life and performance of vented nickel-cadmium batteries, including
     partially recombinant types, used in stationary applications.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -91,18 +89,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: IEEE Std 1106-2005
-    docidentifier:
-    - content: IEEE Std 1106-2005
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -144,7 +130,7 @@ ext:
   ics:
   - code: 29.220.30
     text: Alkaline secondary cells and batteries
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

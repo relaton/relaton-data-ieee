@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8023bn2016
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: 'IEEE Standard for Ethernet Amendment 6: Physical Layer Specifications
     and Management Parameters for Ethernet Passive Optical Networks Protocol over
@@ -91,7 +91,8 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    formattedref: ISO/IEC/IEEE 8802.3/Amd6-2017
+    formattedref:
+      content: ISO/IEC/IEEE 8802.3/Amd6-2017
     docidentifier:
     - content: ISO/IEC/IEEE 8802.3/Amd6-2017
       type: IEEE
@@ -102,16 +103,10 @@ relation:
     script: Latn
     content: amends
   bibitem:
-    formattedref: IEEE Std 802.3-2015
+    formattedref:
+      content: IEEE Std 802.3-2015
     docidentifier:
     - content: IEEE Std 802.3-2015
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: ISO/IEC/IEEE 8802.3/Amd6-2017
-    docidentifier:
-    - content: ISO/IEC/IEEE 8802.3/Amd6-2017
       type: IEEE
       primary: true
 keyword:
@@ -162,11 +157,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 802.3&#8482;
+    content: IEEE 802.3™
 - vocab:
     language: en
     script: Latn
-    content: IEEE 802.3bn&#8482;
+    content: IEEE 802.3bn™
 - vocab:
     language: en
     script: Latn

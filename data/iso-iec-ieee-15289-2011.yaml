@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE152892011
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: ISO/IEC/IEEE Systems and software engineering -- Content of life-cycle
     information products (documentation)
@@ -59,8 +59,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Software &amp; Systems Engineering Standards Committee of the IEEE
-          Computer Society
+        content: Software & Systems Engineering Standards Committee of the IEEE Computer
+          Society
       type: committee
     abbreviation:
       content: IEEE
@@ -116,14 +116,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE/EIA 12207.1-1997
+    formattedref:
+      content: IEEE/EIA 12207.1-1997
     docidentifier:
     - content: IEEE/EIA 12207.1-1997
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: ISO/IEC/IEEE 15289-2015
+    formattedref:
+      content: ISO/IEC/IEEE 15289-2015
     docidentifier:
     - content: ISO/IEC/IEEE 15289-2015
       type: IEEE

@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8023cp2021
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: 'IEEE Standard for Ethernet -- Amendment 14: Bidirectional 10 Gb/s, 25
     Gb/s, and 50 Gb/s Optical Access PHYs'
@@ -89,20 +89,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref: ISO/IEC/IEEE 8802.3/Amd1-2021
-    docidentifier:
-    - content: ISO/IEC/IEEE 8802.3/Amd1-2021
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
     script: Latn
     content: amends
   bibitem:
-    formattedref: IEEE Std 802.3-2018
+    formattedref:
+      content: IEEE Std 802.3-2018
     docidentifier:
     - content: IEEE Std 802.3-2018
       type: IEEE
@@ -171,11 +165,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 802.3&#8482;
+    content: IEEE 802.3™
 - vocab:
     language: en
     script: Latn
-    content: IEEE 802.3cp&#8482;
+    content: IEEE 802.3cp™
 - vocab:
     language: en
     script: Latn

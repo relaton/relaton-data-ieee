@@ -1,7 +1,7 @@
 ---
 id: IEEEP19044D30202501
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Draft Standard for Service Interoperability in 25 Gb/s and 50 Gb/s
     Ethernet Passive Optical Networks
@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2025-05-01'
 - type: issued
-  at: '2025'
+  at: '2025-09-10'
 contributor:
 - role:
   - type: publisher
@@ -71,13 +71,14 @@ abstract:
 - language: en
   script: Latn
   content: The system-level requirements needed to help ensure service-level, multi-vendor
-    interoperability of Ethernet Passive Optical Network (EPON) equipment is described.
-    The existing IEEE 802.3 and IEEE 802.1 standards, which help ensure the interoperability
-    at the Physical Layer (PHY) and Data Link Layer, are complemented by the specifications.
-    Specifically included in this specification are --EPON system-level interoperability
-    specifications covering equipment functionality, traffic engineering, and service-level
-    quality of service/class of service (QoS/CoS) mechanisms; --Management specifications
-    covering equipment management, service management, and EPON power‐saving mechanism.
+    interoperability of Ethernet Passive Optical Network (EPON) equipment are described
+    in this standard. The existing IEEE 802.3 and IEEE 802.1 standards, which help
+    ensure interoperability at the Physical Layer (PHY) and Data Link Layer, are complemented
+    by the specifications. Specifically included in this specification are as follows
+    --EPON system-level interoperability specifications covering equipment functionality,
+    traffic engineering, and service-level quality of service/class of service (QoS/CoS)
+    mechanisms --Management specifications covering equipment management, service
+    management, and EPON power‐saving mechanisms
 status:
   stage:
     content: draft
@@ -130,7 +131,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 1904.4
+    content: IEEE 1904.4™
 - vocab:
     language: en
     script: Latn
@@ -160,6 +161,9 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

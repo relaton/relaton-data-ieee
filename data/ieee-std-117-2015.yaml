@@ -1,7 +1,7 @@
 ---
 id: IEEEStd1172015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard Test Procedure for Thermal Evaluation of Systems of Insulating
     Materials for Random-Wound AC Electric Machinery
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 117-2015
 date:
-- type: updated
-  at: '2017-03-31'
 - type: created
   at: '2016-05-06'
 - type: published
-  at: '2016-05-06'
+  at: '2016-05-09'
 - type: issued
   at: '2015-12-05'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -79,13 +80,10 @@ abstract:
     life-temperature relationship for an insulation system is also described. To have
     any significance, the reference insulation system must be supported with adequate
     field service data. Evaluation of insulation systems for use in air-cooled, random-wound
-    ac electric machinery with usual service conditions is this procedure s intent.
+    ac electric machinery with "usual service conditions" is this procedure's intent.
     This procedure, on its own, does not cover insulation systems such as exposure
     to conducting contaminates, radiation, inverter applications, or operation in
     oils, refrigerants, or other media that potentially degrades insulating materials.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -99,18 +97,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: ANSI C50.32-1976
-    docidentifier:
-    - content: ANSI C50.32-1976
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -164,7 +150,7 @@ ext:
   ics:
   - code: 29.035.01
     text: Insulating materials in general
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

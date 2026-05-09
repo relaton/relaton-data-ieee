@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC5712592015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for Dry-Type Transformer Through-Fault Current Duration
   type: main
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.12.59-2015
 date:
-- type: updated
-  at: '2015-12-18'
 - type: created
   at: '2015-11-06'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -73,9 +74,6 @@ abstract:
     devices that limit the exposure time of dry-type transformers to short-circuit
     currents are set forth in this guide. This guide is not intended to imply overload
     capability.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -89,18 +87,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: IEEE Std C57.12.59-2001
-    docidentifier:
-    - content: IEEE Std C57.12.59-2001
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -149,7 +135,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE C57.12.59&#8482;
+    content: IEEE C57.12.59
 - vocab:
     language: en
     script: Latn
@@ -182,7 +168,7 @@ ext:
   ics:
   - code: '29.180'
     text: Transformers. Reactors
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

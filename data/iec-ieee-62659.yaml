@@ -1,7 +1,7 @@
 ---
 id: IECIEEE62659
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEC/IEEE International Standard - Nanomanufacturing -- Large scale manufacturing
     for nanoelectronics
@@ -68,9 +68,6 @@ language:
 - en
 script:
 - Latn
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -110,7 +107,10 @@ ext:
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
-  standard_modified: Approved
+  ics:
+  - code: '07.030'
+    text: Physics. Chemistry
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

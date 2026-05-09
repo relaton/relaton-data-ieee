@@ -1,7 +1,7 @@
 ---
 id: IEEEStd4042000
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Extruded and Laminated Dielectric Shielded Cable Joints
     Rated 2500-500 000V
@@ -97,14 +97,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 404-1993
+    formattedref:
+      content: IEEE Std 404-1993
     docidentifier:
     - content: IEEE Std 404-1993
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 404-2006
+    formattedref:
+      content: IEEE Std 404-2006
     docidentifier:
     - content: IEEE Std 404-2006
       type: IEEE

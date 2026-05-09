@@ -1,7 +1,7 @@
 ---
 id: IEC615233
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: 'IEC 61523-3 Ed.1 (IEEE Std 1497(TM)-2001): Delay and Power Calculation
     Standards - Part 3: Standard Delay Format (SDF) for the Electronic Design Process'
@@ -91,8 +91,6 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
@@ -100,7 +98,8 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    formattedref: IEEE Std 1497-2001
+    formattedref:
+      content: IEEE Std 1497-2001
     docidentifier:
     - content: IEEE Std 1497-2001
       type: IEEE

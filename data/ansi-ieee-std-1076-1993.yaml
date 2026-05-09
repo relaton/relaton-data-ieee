@@ -1,7 +1,7 @@
 ---
 id: ANSIIEEEStd10761993
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard VHDL Language Reference Manual
   type: main
@@ -97,14 +97,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1076-1987
+    formattedref:
+      content: IEEE Std 1076-1987
     docidentifier:
     - content: IEEE Std 1076-1987
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 1076-2000
+    formattedref:
+      content: IEEE Std 1076-2000
     docidentifier:
     - content: IEEE Std 1076-2000
       type: IEEE

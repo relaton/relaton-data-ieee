@@ -1,7 +1,7 @@
 ---
 id: IEC625292012Redline
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEC 62529:2012(E) Standard for Signal and Test Definition
   type: title-main
@@ -88,8 +88,6 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
@@ -101,7 +99,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEC 62529-2007
+    formattedref:
+      content: IEC 62529-2007
     docidentifier:
     - content: IEC 62529-2007
       type: IEEE

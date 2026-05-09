@@ -1,7 +1,7 @@
 ---
 id: IEEEP15914D5202409
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Approved Draft Standard for Testing and Performance of Hardware for
     Optical Fiber Composite Overhead Phase Conductor (OPPC)
@@ -72,10 +72,10 @@ abstract:
   script: Latn
   content: The performance, test requirements, procedures, and acceptance criteria
     for the hardware of a transmission line overhead conductor with optical fibers
-    commonly known as optical phase conductor (OPPC) are covered. Functional requirements,
-    such as electrical, mechanical, optical fiber, environmental, and test requirements
-    related to design, installation, in service, and maintenance, including routine
-    tests, are included.
+    commonly known as optical phase conductor (OPPC) are covered within this standard.
+    Functional requirements, such as electrical, mechanical, optical fiber, environmental,
+    and test requirements related to design, installation, in service, and maintenance,
+    including routine tests, are included.
 status:
   stage:
     content: draft
@@ -120,11 +120,15 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Fiber optic conductor
+    content: fiber optic conductor
 - vocab:
     language: en
     script: Latn
-    content: IEEE 1591.4
+    content: hardware
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1591.4™
 - vocab:
     language: en
     script: Latn
@@ -141,16 +145,12 @@ keyword:
     language: en
     script: Latn
     content: type tests
-- vocab:
-    language: en
-    script: Latn
-    content: hardware
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

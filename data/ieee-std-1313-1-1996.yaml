@@ -1,7 +1,7 @@
 ---
 id: IEEEStd131311996
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Insulation Coordination - Definitions, Principles, and
     Rules
@@ -89,34 +89,38 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C62.82.1-2010
+    docidentifier:
+    - content: IEEE Std C62.82.1-2010
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C62.82.1-2010
+    docidentifier:
+    - content: IEEE Std C62.82.1-2010
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1313-1993
+    formattedref:
+      content: IEEE Std 1313-1993
     docidentifier:
     - content: IEEE Std 1313-1993
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std C62.82.1-2010
-    docidentifier:
-    - content: IEEE Std C62.82.1-2010
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std C62.82.1-2010
-    docidentifier:
-    - content: IEEE Std C62.82.1-2010
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std C62.82.1-2010
+    formattedref:
+      content: IEEE Std C62.82.1-2010
     docidentifier:
     - content: IEEE Std C62.82.1-2010
       type: IEEE

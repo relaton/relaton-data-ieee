@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6471995
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard Specification Format Guide and Test Procedure for Single-Axis
     Laser Gyros
@@ -98,14 +98,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE Std 647-1981
+    formattedref:
+      content: ANSI/IEEE Std 647-1981
     docidentifier:
     - content: ANSI/IEEE Std 647-1981
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 647-2006
+    formattedref:
+      content: IEEE Std 647-2006
     docidentifier:
     - content: IEEE Std 647-2006
       type: IEEE

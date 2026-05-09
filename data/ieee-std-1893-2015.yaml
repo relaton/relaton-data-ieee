@@ -1,7 +1,7 @@
 ---
 id: IEEEStd18932015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Guide for the Measurement of DC Transmission Line and Earth Electrode
     Line Parameters
@@ -60,7 +60,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Corporate Advisory Group of the IEEE-SA Board of Governors
+        content: Entity Collaborative Activities Governance Board of the IEEE SA Board
+          of Governors
       type: committee
     abbreviation:
       content: IEEE
@@ -77,9 +78,6 @@ abstract:
     requirements for test instruments, testing induced voltage and current, verifying
     the polarity and testing insulation resistance, measuring dc resistance, measuring
     the impedance frequency characteristic, and various factors that can distort measurements.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -121,33 +119,17 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: distributed parameters
-- vocab:
-    language: en
-    script: Latn
-    content: IEEE 1893(TM)
-- vocab:
-    language: en
-    script: Latn
-    content: impedance frequency characteristic
-- vocab:
-    language: en
-    script: Latn
-    content: open-circuit impedance
-- vocab:
-    language: en
-    script: Latn
-    content: short-circuit impedance
-- vocab:
-    language: en
-    script: Latn
-    content: transmission line parameters
+    content: distributed parameters; IEEE 1893(TM); impedance frequency characteristic;
+      open-circuit impedance; short-circuit impedance; transmission line parameters
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
-  standard_modified: Approved
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

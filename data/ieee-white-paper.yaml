@@ -1,14 +1,13 @@
 ---
 id: IEEEWhitePaper
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
-- content: Review of Industry Efforts and Standards of Grid Readiness For Data Center
-    Deployment
+- content: Global Development Trends of Data Centers
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/11366058
+  content: https://ieeexplore.ieee.org/document/11422785
 docidentifier:
 - content: IEEE White Paper
   type: IEEE
@@ -17,14 +16,16 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 979-8-8557-3048-7
+- content: 979-8-8557-3214-6
   type: ISBN
+- content: 10.1109/IEEESTD.2026.11422785
+  type: DOI
 docnumber: IEEE White Paper
 date:
 - type: created
-  at: '2026-01-29'
+  at: '2026-03-06'
 - type: published
-  at: '2026-01-27'
+  at: '2026-03-06'
 - type: issued
   at: '2026'
 contributor:
@@ -50,17 +51,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This report provides an overview of the various efforts underway to develop
-    technical requirements for protecting the grid against potential risks associated
-    with large-scale data center operations. The scope covers efforts by grid operators,
-    utilities, industry trade groups and associations, along with standard-setting
-    bodies. Specifically, the report reviews these efforts to provide recommendations
-    for new IEEE standards and definitions to address the challenges posed by data
-    center deployment. By identifying common grid requirements for data centers between
-    grid operators and utilities, this report can also guide the development of these
-    recommended harmonized grid standards to speed data center development while assuring
-    grid reliability. The review of these ongoing efforts yields a roadmap for future
-    standards development, which this report highlights.
+  content: The Global Development Trends of Data Centers white paper aims to provide
+    a comprehensive analysis of the current status, trends, and challenges with respect
+    to data centers and computing technologies globally, and capture the future trends.
+status:
+  stage:
+    content: approved
 copyright:
 - from: '2026'
   owner:
@@ -78,6 +74,34 @@ keyword:
 - vocab:
     language: en
     script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Data centers
+- vocab:
+    language: en
+    script: Latn
+    content: Cloud computing
+- vocab:
+    language: en
+    script: Latn
+    content: Market research
+- vocab:
+    language: en
+    script: Latn
+    content: Big Data
+- vocab:
+    language: en
+    script: Latn
+    content: Artificial intelligence
+- vocab:
+    language: en
+    script: Latn
+    content: Trend analysis
+- vocab:
+    language: en
+    script: Latn
     content: AI
 - vocab:
     language: en
@@ -86,11 +110,15 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: data center
+    content: computer
 - vocab:
     language: en
     script: Latn
-    content: grid
+    content: computer trends
+- vocab:
+    language: en
+    script: Latn
+    content: data centers
 - vocab:
     language: en
     script: Latn
@@ -98,12 +126,17 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: standards development white paper
+    content: standards development
+- vocab:
+    language: en
+    script: Latn
+    content: white paper
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   standard_status: Active
+  standard_modified: Approved
   pubstatus: Active
   holdstatus: Publish

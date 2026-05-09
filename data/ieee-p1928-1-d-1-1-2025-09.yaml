@@ -1,7 +1,7 @@
 ---
 id: IEEEP19281D11202509
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Approved Draft Standard for a Mechanism for Energy Efficient Virtual
     Machine Placement
@@ -69,9 +69,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard specifies a methodology for energy-efficient virtual machine
-    placement considering network and computational resources power consumption. It
-    also considers the geographic distribution of user demand. Different reference
+  content: A methodology for energy-efficient virtual machine placement considering
+    network and computational resources power consumption is specified in this standard.
+    The geographic distribution of user demand is also considered and different reference
     cases of the optimal placement strategy in comparison are provided.
 status:
   stage:
@@ -117,21 +117,37 @@ keyword:
 - vocab:
     language: en
     script: Latn
+    content: cloud computing
+- vocab:
+    language: en
+    script: Latn
+    content: cloud-fog architecture
+- vocab:
+    language: en
+    script: Latn
+    content: energy efficiency
+- vocab:
+    language: en
+    script: Latn
+    content: fog computing
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1928.1™
+- vocab:
+    language: en
+    script: Latn
+    content: virtual machines
+- vocab:
+    language: en
+    script: Latn
     content: VM placement
-- vocab:
-    language: en
-    script: Latn
-    content: Fog computing
-- vocab:
-    language: en
-    script: Latn
-    content: Cloud-Fog architecture.
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

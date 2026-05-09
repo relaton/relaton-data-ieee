@@ -1,7 +1,7 @@
 ---
 id: IEEEStd14812009
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Integrated Circuit (IC) Open Library Architecture (OLA)
   type: main
@@ -85,29 +85,44 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1481-2019
+    docidentifier:
+    - content: IEEE Std 1481-2019
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1481-1999
+    formattedref:
+      content: IEEE Std 1481-1999
     docidentifier:
     - content: IEEE Std 1481-1999
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 1481-2019
+    formattedref:
+      content: IEEE Std 1481-2019
     docidentifier:
     - content: IEEE Std 1481-2019
       type: IEEE
       primary: true
-- type: obsoletedBy
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
   bibitem:
-    formattedref: IEEE Std 1481-2019
+    formattedref:
+      content: IEEE Std 1481-1999
     docidentifier:
-    - content: IEEE Std 1481-2019
+    - content: IEEE Std 1481-1999
       type: IEEE
       primary: true
 keyword:

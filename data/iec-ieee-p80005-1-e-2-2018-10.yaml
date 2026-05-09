@@ -1,14 +1,14 @@
 ---
 id: IECIEEEP800051E2201810
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
-- content: 'IEC/IEEE Draft International Standard - Utility Connections in Port--Part
-    1: High Voltage Shore Connection (HVSC) Systems--General requirements'
+- content: 'IEC/IEEE Approved Draft International Standard - Utility Connections in
+    Port--Part 1: High Voltage Shore Connection (HVSC) Systems--General requirements'
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/8509656
+  content: https://ieeexplore.ieee.org/document/8640883
 docidentifier:
 - content: IEC/IEEE P80005.1/E-2-2018-10
   type: IEEE
@@ -22,9 +22,9 @@ docidentifier:
 docnumber: IEC/IEEE P80005.1/E-2-2018-10
 date:
 - type: created
-  at: '2018-10-23'
+  at: '2019-01-25'
 - type: published
-  at: '2018-10-25'
+  at: '2019-02-12'
 - type: issued
   at: '2019-02-08'
 contributor:
@@ -58,8 +58,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Petroleum &amp; Chemical Industry of the IEEE Industry Applications
-          Society
+        content: Petroleum & Chemical Industry of the IEEE Industry Applications Society
       type: committee
     abbreviation:
       content: IEEE
@@ -67,6 +66,15 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This application guide covers procedures and calculations necessary to
+    apply the standard transient recovery voltage (TRV) ratings for ac high-voltage
+    circuit breakers rated above 1000 V. The breaking capability limits of these circuit
+    breakers are determined to a great degree by the TRV. The TRV ratings are compared
+    with typical system TRV duties. Examples of TRV calculation are given with suggested
+    options if the TRV duty exceeds the TRV ratings of the circuit breaker.
 status:
   stage:
     content: draft
@@ -95,7 +103,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEC/ISO/IEEE 80005.1-2012
+    formattedref:
+      content: IEC/ISO/IEEE 80005.1-2012
     docidentifier:
     - content: IEC/ISO/IEEE 80005.1-2012
       type: IEEE
@@ -106,7 +115,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEC/ISO/IEEE 80005.1-2012
+    formattedref:
+      content: IEC/ISO/IEEE 80005.1-2012
     docidentifier:
     - content: IEC/ISO/IEEE 80005.1-2012
       type: IEEE
@@ -123,15 +133,27 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Electricity supply industry
-- vocab:
-    language: en
-    script: Latn
     content: High-voltage techniques
 - vocab:
     language: en
     script: Latn
-    content: Voltage control
+    content: Voltage techniques
+- vocab:
+    language: en
+    script: Latn
+    content: Transient analysis
+- vocab:
+    language: en
+    script: Latn
+    content: Circuit breakers
+- vocab:
+    language: en
+    script: Latn
+    content: high voltage circuit breakers
+- vocab:
+    language: en
+    script: Latn
+    content: transient recovery voltage
 ext:
   schema_version: v1.1.3
   doctype:

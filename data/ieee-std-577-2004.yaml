@@ -1,7 +1,7 @@
 ---
 id: IEEEStd5772004
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard Requirements for Reliability Analysis in the Design and Operation
     of Safety Systems for Nuclear Facilities
@@ -98,14 +98,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE Std 577-1976
+    formattedref:
+      content: ANSI/IEEE Std 577-1976
     docidentifier:
     - content: ANSI/IEEE Std 577-1976
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 577-2012
+    formattedref:
+      content: IEEE Std 577-2012
     docidentifier:
     - content: IEEE Std 577-2012
       type: IEEE

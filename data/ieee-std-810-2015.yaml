@@ -1,7 +1,7 @@
 ---
 id: IEEEStd8102015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Hydraulic Turbine and Generator Shaft Couplings and Shaft
     Runout Tolerances
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 810-2015
 date:
-- type: updated
-  at: '2016-02-26'
 - type: created
   at: '2015-12-30'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -59,7 +60,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Energy Development &amp; Power Generation of the IEEE Power and Energy
+        content: Energy Development & Power Generation of the IEEE Power and Energy
           Society
       type: committee
     abbreviation:
@@ -75,9 +76,6 @@ abstract:
     for hydraulic turbines and generators are included in this standard. Shafts and
     couplings included in this standard are used for both horizontal and vertical
     connections between generators and turbines in hydroelectric installations.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -157,7 +155,10 @@ ext:
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
-  standard_modified: Approved
+  ics:
+  - code: '27.040'
+    text: Gas and steam turbines. Steam engines
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

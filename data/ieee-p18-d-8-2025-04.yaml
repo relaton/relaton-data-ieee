@@ -1,7 +1,7 @@
 ---
 id: IEEEP18D8202504
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Approved Draft Standard for Shunt Power Capacitors
   type: main
@@ -68,9 +68,9 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Power capacitors rated 216 V or higher, 2.5 kvar or more, and designed
+  content: Power capacitors rated 216 V or higher, 2.5 kVAR or more, and designed
     for shunt connection to alternating-current transmission and distribution systems
-    operating at a nominal frequency of 50 Hz or 60 Hz are considered.
+    operating at a nominal frequency of 50 Hz or 60 Hz are considered in this standard.
 status:
   stage:
     content: draft
@@ -94,7 +94,8 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 18-2012
+    formattedref:
+      content: IEEE Std 18-2012
     docidentifier:
     - content: IEEE Std 18-2012
       type: IEEE
@@ -127,6 +128,10 @@ keyword:
 - vocab:
     language: en
     script: Latn
+    content: IEEE 18™
+- vocab:
+    language: en
+    script: Latn
     content: shunt connection
 - vocab:
     language: en
@@ -140,7 +145,7 @@ ext:
   ics:
   - code: 31.060.70
     text: Power capacitors
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

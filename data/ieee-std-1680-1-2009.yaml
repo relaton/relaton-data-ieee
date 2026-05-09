@@ -1,7 +1,7 @@
 ---
 id: IEEEStd168012009
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Environmental Assessment of Personal Computer Products,
     Including Notebook Personal Computers, Desktop Personal Computers, and Personal
@@ -96,7 +96,16 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE P1680.1/D-28-2017-07
+    formattedref:
+      content: IEEE P1680.1/D-28-2017-07
+    docidentifier:
+    - content: IEEE P1680.1/D-28-2017-07
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE P1680.1/D-28-2017-07
     docidentifier:
     - content: IEEE P1680.1/D-28-2017-07
       type: IEEE

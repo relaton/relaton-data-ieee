@@ -1,7 +1,7 @@
 ---
 id: IEEEStd28572021
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Wireless Smart Utility Network Field Area Network (FAN)
   type: main
@@ -59,7 +59,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Corporate Advisory Group of the IEEE SA Board of Governors
+        content: Entity Collaborative Activities Governance Board of the IEEE SA Board
+          of Governors
       type: committee
     abbreviation:
       content: IEEE
@@ -181,6 +182,9 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

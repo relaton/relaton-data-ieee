@@ -1,7 +1,7 @@
 ---
 id: IEEEP18151D30Cor12016
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Approved Draft Standard for Exchanging Information between Networks
     Implementing IEC 61850 and IEEE Std 1815(TM) (Distributed Network Protocol - DNP3)
@@ -23,7 +23,7 @@ docidentifier:
 docnumber: IEEE P1815.1/D-3.0/Cor1-2016
 date:
 - type: created
-  at: '2016-07-20'
+  at: '2016-12-16'
 - type: published
   at: '2016-07-21'
 - type: issued
@@ -74,9 +74,6 @@ abstract:
     as Figure 52 in the place where it is 19 currently missing from the approved but
     unpublished document in Clause 8.11.6.1.6 (NOTE: This corrigendum was not published
     as a separate document, but was incorporated in IEEE Std 1815.1-2015)'
-status:
-  stage:
-    content: draft
 copyright:
 - from: '2016'
   owner:
@@ -97,7 +94,8 @@ relation:
     script: Latn
     content: corrects
   bibitem:
-    formattedref: IEEE Std 1815.1-2015
+    formattedref:
+      content: IEEE Std 1815.1-2015
     docidentifier:
     - content: IEEE Std 1815.1-2015
       type: IEEE
@@ -108,7 +106,8 @@ relation:
     script: Latn
     content: corrects
   bibitem:
-    formattedref: IEEE Std 1815.1-2015
+    formattedref:
+      content: IEEE Std 1815.1-2015
     docidentifier:
     - content: IEEE Std 1815.1-2015
       type: IEEE
@@ -165,7 +164,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 1815&#8482;
+    content: IEEE 1815™
 - vocab:
     language: en
     script: Latn
@@ -202,7 +201,6 @@ ext:
     text: Telecontrol. Telemetering
   - code: 35.240.50
     text: IT applications in industry
-  standard_status: Inactive
-  standard_modified: Draft
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Hold

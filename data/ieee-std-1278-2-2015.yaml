@@ -1,7 +1,7 @@
 ---
 id: IEEEStd127822015
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Distributed Interactive Simulation (DIS) -- Communication
     Services and Profiles
@@ -77,9 +77,6 @@ abstract:
     are defined. These communication services describe a connectionless information
     transfer that supports real-time, as well as non-real-time, exchange. Several
     communication profiles specifying communication services are provided.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -93,18 +90,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: IEEE Std 1278.2-1995
-    docidentifier:
-    - content: IEEE Std 1278.2-1995
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -165,8 +150,8 @@ ext:
   flavor: ieee
   ics:
   - code: '35.020'
-    text: Information technology in general
-  standard_status: Active
-  standard_modified: Approved
+    text: Information technology (IT) in general
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

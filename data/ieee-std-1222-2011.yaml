@@ -1,7 +1,7 @@
 ---
 id: IEEEStd12222011
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Testing and Performance for All-Dielectric Self-Supporting
     (ADSS) Fiber Optic Cable for Use on Electric Utility Power Lines
@@ -90,22 +90,24 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1222-2019
+    docidentifier:
+    - content: IEEE Std 1222-2019
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 1222-2004
+    formattedref:
+      content: IEEE Std 1222-2004
     docidentifier:
     - content: IEEE Std 1222-2004
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std 1222-2019
-    docidentifier:
-    - content: IEEE Std 1222-2019
       type: IEEE
       primary: true
 keyword:

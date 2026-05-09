@@ -1,7 +1,7 @@
 ---
 id: IEC63004
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEC/IEEE International standard for receiver fixture interface
   type: main
@@ -106,8 +106,6 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
@@ -115,7 +113,8 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    formattedref: IEEE Std 1505-2010
+    formattedref:
+      content: IEEE Std 1505-2010
     docidentifier:
     - content: IEEE Std 1505-2010
       type: IEEE

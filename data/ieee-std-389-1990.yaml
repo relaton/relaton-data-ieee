@@ -1,7 +1,7 @@
 ---
 id: IEEEStd3891990
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Recommended Practice for Testing Electronic Transformers and Inductors
   type: main
@@ -98,14 +98,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 389-1979
+    formattedref:
+      content: IEEE Std 389-1979
     docidentifier:
     - content: IEEE Std 389-1979
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 389-1996
+    formattedref:
+      content: IEEE Std 389-1996
     docidentifier:
     - content: IEEE Std 389-1996
       type: IEEE

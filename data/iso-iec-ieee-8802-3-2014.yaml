@@ -1,7 +1,7 @@
 ---
 id: ISOIECIEEE880232014
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: ISO/IEC/IEEE International Standard for Ethernet
   type: main
@@ -96,15 +96,11 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
         content: ISO
   - organization:
-      uri:
-      - []
       name:
       - language: en
         script: Latn
@@ -112,7 +108,8 @@ copyright:
 relation:
 - type: adoptedFrom
   bibitem:
-    formattedref: IEEE Std 802.3-2012
+    formattedref:
+      content: IEEE Std 802.3-2012
     docidentifier:
     - content: IEEE Std 802.3-2012
       type: IEEE

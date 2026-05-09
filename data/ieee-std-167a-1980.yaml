@@ -1,7 +1,7 @@
 ---
 id: IEEEStd167A1980
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard Facsimile Test Chart
   type: main
@@ -68,7 +68,8 @@ copyright:
 relation:
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE Std 167A-1987
+    formattedref:
+      content: IEEE Std 167A-1987
     docidentifier:
     - content: IEEE Std 167A-1987
       type: IEEE
@@ -79,23 +80,10 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: IEEE Std 167A-1975
+    formattedref:
+      content: IEEE Std 167A-1975
     docidentifier:
     - content: IEEE Std 167A-1975
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std 167A-1987
-    docidentifier:
-    - content: IEEE Std 167A-1987
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref: IEEE Std 167A-1987
-    docidentifier:
-    - content: IEEE Std 167A-1987
       type: IEEE
       primary: true
 keyword:

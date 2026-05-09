@@ -1,7 +1,7 @@
 ---
 id: IEEEStdC37602003
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard Requirements for Overhead, Pad Mounted, Dry Vault, and Submersible
     Automatic Circuit Reclosers and Fault Interrupters for alternating current systems
@@ -92,14 +92,16 @@ relation:
     script: Latn
     content: revises
   bibitem:
-    formattedref: ANSI/IEEE C37.60-1981
+    formattedref:
+      content: ANSI/IEEE C37.60-1981
     docidentifier:
     - content: ANSI/IEEE C37.60-1981
       type: IEEE
       primary: true
 - type: obsoletedBy
   bibitem:
-    formattedref: IEEE PC37.60/IEC 62271.111/D-10-2012
+    formattedref:
+      content: IEEE PC37.60/IEC 62271.111/D-10-2012
     docidentifier:
     - content: IEEE PC37.60/IEC 62271.111/D-10-2012
       type: IEEE

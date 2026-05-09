@@ -1,7 +1,7 @@
 ---
 id: IEEEStd6382013
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - content: IEEE Standard for Qualification of Class 1E Transformers for Nuclear Power
     Generating Stations
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 638-2013
 date:
-- type: updated
-  at: '2014-07-24'
 - type: created
   at: '2014-03-11'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -93,18 +94,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref: IEEE Std 638-1992
-    docidentifier:
-    - content: IEEE Std 638-1992
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -146,7 +135,7 @@ ext:
   ics:
   - code: '29.180'
     text: Transformers. Reactors
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Approved
   pubstatus: Active
   holdstatus: Publish
