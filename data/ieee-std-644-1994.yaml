@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 644-1994
   type: IEEE
   primary: true
-- content: IEEE Std 644™-1994
+- content: IEEE Std 644-1994™
   type: IEEE
   scope: trademark
   primary: true
@@ -90,6 +90,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 644-2019
+    docidentifier:
+    - content: IEEE Std 644-2019
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -97,9 +105,9 @@ relation:
     content: revises
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 644-1987
+      content: ANSI/IEEE 644-1987
     docidentifier:
-    - content: ANSI/IEEE Std 644-1987
+    - content: ANSI/IEEE 644-1987
       type: IEEE
       primary: true
 - type: obsoletedBy
@@ -110,12 +118,16 @@ relation:
     - content: IEEE Std 644-2019
       type: IEEE
       primary: true
-- type: obsoletedBy
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
   bibitem:
     formattedref:
-      content: IEEE Std 644-2019
+      content: ANSI/IEEE 644-1987
     docidentifier:
-    - content: IEEE Std 644-2019
+    - content: ANSI/IEEE 644-1987
       type: IEEE
       primary: true
 keyword:

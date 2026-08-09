@@ -3,9 +3,9 @@ id: IEEEStd2474832012
 schema_version: v1.5.6
 type: standard
 title:
-- content: 'IEEE Guide: Adoption of ISO/IEC TR 24748-3:2011, Systems and software
-    engineering-Life cycle management-Part 3: Guide to the application of ISO/IEC
-    12207 (Software life cycle processes)'
+- content: 'IEEE Guide--Adoption of ISO/IEC TR 24748-3:2011,Systems and Software Engineering--Life
+    Cycle Management-- Part 3: Guide to the Application of ISO/IEC 12207 (Software
+    Life Cycle Processes)'
   type: main
 source:
 - type: src
@@ -14,7 +14,7 @@ docidentifier:
 - content: IEEE Std 24748.3-2012
   type: IEEE
   primary: true
-- content: IEEE Std 24748.3™-2012
+- content: IEEE Std 24748.3-2012™
   type: IEEE
   scope: trademark
   primary: true
@@ -24,8 +24,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 24748.3-2012
 date:
-- type: updated
-  at: '2012-05-11'
 - type: created
   at: '2012-04-20'
 - type: published
@@ -36,6 +34,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -77,12 +78,9 @@ abstract:
     organizational, project, and adaptation concepts, principally through reference
     to ISO/IEC TR 24748-1 and ISO/IEC 12207:2008. It gives guidance on applying ISO/IEC
     12207:2008 from the aspects of strategy, planning, application in organizations,
-    and application on projects.ISO/IEC TR 24748-3:2011 is intentionally aligned with
-    both ISO/IEC TR 24748-1 and ISO/IEC TR 24748-2 (Guide to the application of ISO/IEC
-    15288) in its terminology, structure and content.
-status:
-  stage:
-    content: approved
+    and application on projects. ISO/IEC TR 24748-3:2011 is intentionally aligned
+    with both ISO/IEC TR 24748-1 and ISO/IEC TR 24748-2 (Guide to the application
+    of ISO/IEC 15288) in its terminology, structure and content.
 copyright:
 - from: '2012'
   owner:
@@ -96,6 +94,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ISO/IEC/IEEE 24748.3-2020
+    docidentifier:
+    - content: ISO/IEC/IEEE 24748.3-2020
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -141,7 +148,6 @@ ext:
   ics:
   - code: '35.080'
     text: Software
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

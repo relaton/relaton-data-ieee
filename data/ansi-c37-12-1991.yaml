@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - content: American National Standard for AC High-Voltage Circuit Breakers Rated on
-    a Symmetrical Current Basis-- Specifications Guide
+    a Symmetrical Current Basis— Specifications Guide
   type: main
 source:
 - type: src
@@ -13,7 +13,7 @@ docidentifier:
 - content: ANSI C37.12-1991
   type: IEEE
   primary: true
-- content: ANSI C37.12™-1991
+- content: ANSI C37.12-1991™
   type: IEEE
   scope: trademark
   primary: true
@@ -24,7 +24,7 @@ docidentifier:
 docnumber: ANSI C37.12-1991
 date:
 - type: created
-  at: '1991-06-12'
+  at: '1991-11-30'
 - type: published
   at: '2017-07-06'
 - type: issued
@@ -72,7 +72,7 @@ abstract:
 - language: en
   script: Latn
   content: These specifications apply to all indoor and outdoor types of ac high-voltage
-    circuit breakers rated above 1000 volts.This document is issued only as a guide
+    circuit breakers rated above 1000 volts. This document is issued only as a guide
     for use in compiling specifications for ac high-voltage circuit breakers. The
     imperative mode of the language is illustrative of that used in specifications.
     It does not imply that this document is anything other than advisory in its scope.
@@ -99,6 +99,19 @@ copyright:
         content: American National Standards Institute
       abbreviation:
         content: ANSI
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: ANSI C37.12-1981
+    docidentifier:
+    - content: ANSI C37.12-1981
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en

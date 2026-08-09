@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 1855-2016
   type: IEEE
   primary: true
-- content: IEEE Std 1855™-2016
+- content: IEEE Std 1855-2016™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1855-2016
 date:
-- type: updated
-  at: '2016-07-06'
 - type: created
   at: '2016-05-27'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -163,8 +164,10 @@ ext:
     content: standard
   flavor: ieee
   ics:
-  - code: 01.040.11
-    text: Health care technology (Vocabularies)
+  - code: '35.060'
+    text: Languages used in information technology
+  - code: 35.240.50
+    text: IT applications in industry
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

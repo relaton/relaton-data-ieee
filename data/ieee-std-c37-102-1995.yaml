@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std C37.102-1995
   type: IEEE
   primary: true
-- content: IEEE Std C37.102™-1995
+- content: IEEE Std C37.102-1995™
   type: IEEE
   scope: trademark
   primary: true
@@ -104,6 +104,18 @@ relation:
       content: IEEE Std C37.102-2006
     docidentifier:
     - content: IEEE Std C37.102-2006
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.102-1987
+    docidentifier:
+    - content: IEEE Std C37.102-1987
       type: IEEE
       primary: true
 - type: obsoletedBy

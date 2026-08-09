@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 583-1975
   type: IEEE
   primary: true
-- content: IEEE Std 583™-1975
+- content: IEEE Std 583-1975™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 583-1975
 date:
-- type: updated
-  at: '2016-04-01'
 - type: created
   at: '1975-11-28'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -47,6 +48,14 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard is intended to serve as a basis for a range of modular instrumentation
+    capable of interfacing transducers and other devices to digital controllers for
+    data and control. It consists of mechanical standards and signal standards that
+    are sufficient to ensure physical and operational compatibility between units
+    regardless of source.
 copyright:
 - from: '1975'
   owner:
@@ -64,9 +73,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 583-1982
+      content: ANSI/IEEE 583-1982
     docidentifier:
-    - content: ANSI/IEEE Std 583-1982
+    - content: ANSI/IEEE 583-1982
       type: IEEE
       primary: true
 keyword:

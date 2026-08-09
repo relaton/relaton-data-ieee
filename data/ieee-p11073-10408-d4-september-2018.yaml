@@ -1,0 +1,163 @@
+---
+id: IEEEP1107310408D4September2018
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Draft Standard - Health Informatics - Personal Health Device Communication
+    Part 10408: Device Specialization - Thermometer'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8488736
+docidentifier:
+- content: IEEE P11073-10408/D4, September, 2018
+  type: IEEE
+  primary: true
+- content: IEEE P11073-10408/D4, September, 2018™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5235-9
+  type: ISBN
+docnumber: IEEE P11073-10408/D4, September, 2018
+date:
+- type: created
+  at: '2018-10-02'
+- type: published
+  at: '2018-10-10'
+- type: issued
+  at: '2019-11-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, this standard establishes a normative definition of communication
+    between personal telehealth thermometer devices and compute engines (e.g., cell
+    phones, personal computers, personal health appliances, and set top boxes) in
+    a manner that enables plug-andplay interoperability. It leverages appropriate
+    portions of existing standards including ISO/IEEE 11073 terminology, information
+    models, application profile standards, and transport standards. It specifies the
+    use of specific term codes, formats, and behaviors in telehealth environments
+    restricting optionality in base frameworks in favor of interoperability. This
+    standard defines a common core of communication functionality for personal telehealth
+    thermometer devices.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 11073-10408-2008
+    docidentifier:
+    - content: IEEE Std 11073-10408-2008
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Informatics
+- vocab:
+    language: en
+    script: Latn
+    content: Bioinformatics
+- vocab:
+    language: en
+    script: Latn
+    content: Medical devices
+- vocab:
+    language: en
+    script: Latn
+    content: Thermometer
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 11073-10408
+- vocab:
+    language: en
+    script: Latn
+    content: medical device communication
+- vocab:
+    language: en
+    script: Latn
+    content: personal health devices
+- vocab:
+    language: en
+    script: Latn
+    content: thermometer
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  - code: 11.040.55
+    text: Diagnostic equipment
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

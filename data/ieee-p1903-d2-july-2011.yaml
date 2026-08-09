@@ -1,0 +1,176 @@
+---
+id: IEEEP1903D2July2011
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for a Next Generation Service Overlay Network
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5976962
+docidentifier:
+- content: IEEE P1903/D2, July 2011
+  type: IEEE
+  primary: true
+- content: IEEE P1903/D2, July 2011™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6782-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2011.5976962
+  type: DOI
+docnumber: IEEE P1903/D2, July 2011
+date:
+- type: created
+  at: '2011-08-04'
+- type: published
+  at: '2011-08-04'
+- type: issued
+  at: '2011-08-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Committee of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This Next Generation Service Overlay Network (NGSON) standard describes
+    a framework of Internet Protocol(IP)-based service overlay networks and specifies
+    context-aware (e.g., such as required Quality of Service (QoS) level, type of
+    service such as real-time vs. data, nature of data stream such as Iframe vs. B-frame,
+    and type of terminal such as TV monitor vs. personal digital assistant), dynamically
+    adaptive (e.g., using locally derived information to discover, organize, and maintain
+    traffic flows in the network within a local area network), and self-organizing
+    networking capabilities (e.g., developing network structures based on the needs
+    of the customers and the capabilities of existing network structures), including
+    advanced routing and forwarding schemes, and that are independent of underlying
+    networks. The NGSON architecture provides advanced service- and transport-related
+    functions to support contextaware, dynamically adaptive, and self-organizing networks.
+    This standard specifies a functional architecture for NGSON. The functional architecture
+    consists of a set of functional entities (FEs), their functions, reference points
+    and information flows to illustrate service interaction and media delivery among
+    FEs and external components. NGSON may operate with different underlying networks
+    such as IMS, NGN, P2P overlay or Web to transmit NGSON signaling messages and/or
+    media among its users and services. Specifications of underlying networks are
+    outside scope of this standard.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE standards
+- vocab:
+    language: en
+    script: Latn
+    content: Next generation networking
+- vocab:
+    language: en
+    script: Latn
+    content: Routing protocols
+- vocab:
+    language: en
+    script: Latn
+    content: Context-aware services
+- vocab:
+    language: en
+    script: Latn
+    content: Content distribution networks
+- vocab:
+    language: en
+    script: Latn
+    content: Telecommunication services
+- vocab:
+    language: en
+    script: Latn
+    content: service overlay network
+- vocab:
+    language: en
+    script: Latn
+    content: service routing
+- vocab:
+    language: en
+    script: Latn
+    content: service composition
+- vocab:
+    language: en
+    script: Latn
+    content: context awareness
+- vocab:
+    language: en
+    script: Latn
+    content: dynamic adaptation
+- vocab:
+    language: en
+    script: Latn
+    content: self organization
+- vocab:
+    language: en
+    script: Latn
+    content: content delivery
+- vocab:
+    language: en
+    script: Latn
+    content: service discovery and negotiation
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

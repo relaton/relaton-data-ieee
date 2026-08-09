@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 516-1986
   type: IEEE
   primary: true
-- content: IEEE Std 516™-1986
+- content: IEEE Std 516-1986™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 516-1986
 date:
-- type: updated
-  at: '2016-03-25'
 - type: created
   at: '1986-02-03'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -47,6 +48,17 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This guide provides general recommendations for performing maintenance
+    work on energized power-lines. It is not intended to include all of the proven,
+    practical methods and procedures; however, these selected comprehensive recommendations
+    are based on sound engineering principles, engineering safety considerations,
+    and decades of field experience by many utilities. Included are technical explanations
+    as required to cover: certain laboratory testing of tools and equipment; field
+    maintenance and care of tools and equipment; work methods for the maintenance
+    of energized lines and for persons working in the vicinity of energized lines.'
 copyright:
 - from: '1986'
   owner:
@@ -64,9 +76,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 516-1987
+      content: ANSI/IEEE 516-1987
     docidentifier:
-    - content: ANSI/IEEE Std 516-1987
+    - content: ANSI/IEEE 516-1987
       type: IEEE
       primary: true
 keyword:

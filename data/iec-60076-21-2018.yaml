@@ -13,7 +13,7 @@ docidentifier:
 - content: IEC 60076.21-2018
   type: IEEE
   primary: true
-- content: IEC 60076.21™-2018
+- content: IEC 60076.21-2018™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEC 60076.21-2018
 date:
-- type: updated
-  at: '2020-09-25'
 - type: created
   at: '2018-12-10'
 - type: published
@@ -70,6 +68,14 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This document describes electrical, mechanical and test requirements of
+    liquid -immersed, single- and three-phase, 50 Hz and 60 Hz, self and forced -air
+    cooled, distribution, overhead and substation, step -voltage regulators, 1 000
+    kVA (single-phase units) or 3 000 kVA (threephase units) and smaller, 34 500 volts
+    and below (2 400 V minimum) and their associated controls.
 status:
   stage:
     content: approved
@@ -87,7 +93,6 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
       name:
       - language: en
         script: Latn

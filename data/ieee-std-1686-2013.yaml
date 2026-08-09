@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 1686-2013
   type: IEEE
   primary: true
-- content: IEEE Std 1686™-2013
+- content: IEEE Std 1686-2013™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,18 +22,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1686-2013
 date:
-- type: updated
-  at: '2014-01-24'
 - type: created
   at: '2014-01-13'
 - type: published
-  at: '2014-01-07'
+  at: '2014-01-09'
 - type: issued
   at: '2013-12-11'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -58,7 +59,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Substations of the IEEE Power and Energy Society
+        content: Power System Communications and Cybersecurity of the IEEE Power and
+          Energy Society
       type: committee
     abbreviation:
       content: IEEE
@@ -75,9 +77,6 @@ abstract:
     revision and data retrieval from an IED are addressed. Communications for the
     purpose of power system protection (teleprotection) are not addressed in this
     standard.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2013'
   owner:
@@ -92,6 +91,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1686-2022
+    docidentifier:
+    - content: IEEE Std 1686-2022
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -169,7 +176,6 @@ ext:
   ics:
   - code: 35.240.99
     text: IT applications in other fields
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

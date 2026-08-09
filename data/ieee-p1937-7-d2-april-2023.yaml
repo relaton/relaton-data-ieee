@@ -1,0 +1,162 @@
+---
+id: IEEEP19377D2April2023
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for the Unmanned Aerial Vehicle (UAV) Polarimetric
+    Remote Sensing Method for Earth Observation Applications
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10121592
+docidentifier:
+- content: IEEE P1937.7/D2, April, 2023
+  type: IEEE
+  primary: true
+- content: IEEE P1937.7/D2, April, 2023™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9725-1
+  type: ISBN
+docnumber: IEEE P1937.7/D2, April, 2023
+date:
+- type: created
+  at: '2023-05-05'
+- type: published
+  at: '2023-05-09'
+- type: issued
+  at: '2023'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Unmanned Aerial Vehicles Communications Standards Committee of the
+          IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Polarimetric remote sensing is a new remote sensing observation method
+    and a supplement to conventional remote sensing. It is effective at the ultraviolet,
+    visible and infrared spectral regions for better monitoring of the earth. Different
+    objects have different polarized characteristics, even different parts of the
+    same objects show different polarized characteristics. As a result, at every band
+    range (ultraviolet, visible and infrared) the UAV polarimetric remote sensing
+    needs different sensors, different band setting, different data pre-processing
+    procedures, even needs different recognition models for different earth object.
+    Multiple parameters and diverse metrics create interoperability and data utilization
+    problems unless standards are established in various aspects of polarimetric remote
+    sensing for Earth observation systems. This standard specifies the basic definitions
+    of terms in the UAV Earth observation polarimetric remote sensing task, and also
+    specifies the basic process and method from three aspects: data acquisition preparation,
+    data acquisition and correction, data processing and application. It also puts
+    forward instructive suggestions in many specific dimensions, such as equipment
+    status, parameter indicators, data calibration, data processing methods, etc.
+    This standard will enable vendors to supply various components for Drone-based
+    polarimetric remote sensing systems and to help ensure interoperability in operations
+    and data utilization of polarimetric remote sensing deployed in earth observation
+    systems.'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Unmanned aerial vehicles
+- vocab:
+    language: en
+    script: Latn
+    content: Polarimetry
+- vocab:
+    language: en
+    script: Latn
+    content: Remote sensing
+- vocab:
+    language: en
+    script: Latn
+    content: Data acquisition
+- vocab:
+    language: en
+    script: Latn
+    content: Polarimetric
+- vocab:
+    language: en
+    script: Latn
+    content: Remote Sensing
+- vocab:
+    language: en
+    script: Latn
+    content: Application
+- vocab:
+    language: en
+    script: Latn
+    content: Earth Observation
+- vocab:
+    language: en
+    script: Latn
+    content: Polarimetric Data Acquisition
+- vocab:
+    language: en
+    script: Latn
+    content: Process and Method
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,182 @@
+---
+id: IEEEP12323D32June2014
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Approved Draft Guide for the Use of Artificial Intelligence Exchange
+    and Service Tie to All Test Environments (AI-ESTATE)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6883104
+docidentifier:
+- content: IEEE P1232.3/D3.2, June 2014
+  type: IEEE
+  primary: true
+- content: IEEE P1232.3/D3.2, June 2014™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9301-4
+  type: ISBN
+docnumber: IEEE P1232.3/D3.2, June 2014
+date:
+- type: created
+  at: '2014-10-10'
+- type: published
+  at: '2014-08-26'
+- type: issued
+  at: '2014-08-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The AI-ESTATE User Guide provides guidance to developers of IEEE Std 1232-conformant
+    applications. It uses a simple doorbell as an example system under test to illustrate
+    how AI-ESTATE's static model constructs are used to form a diagnostic reasoner
+    knowledge base. The guide discusses each of AI-ESTATE's knowledgebase types in
+    conceptual terms, and shows how those concepts are represented in exchange files.
+    It also clarifies some of the nuanced aspects of diagnostic knowledge bases in
+    AI-ESTATE. The guide walks through an example reasoner session to illustrate the
+    use of AI-ESTATE services.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE standards
+- vocab:
+    language: en
+    script: Latn
+    content: Artificial intelligence
+- vocab:
+    language: en
+    script: Latn
+    content: Information exchange
+- vocab:
+    language: en
+    script: Latn
+    content: Testing
+- vocab:
+    language: en
+    script: Latn
+    content: Knowledge management
+- vocab:
+    language: en
+    script: Latn
+    content: Bayes methods
+- vocab:
+    language: en
+    script: Latn
+    content: AI-ESTATE
+- vocab:
+    language: en
+    script: Latn
+    content: Bayesian Network
+- vocab:
+    language: en
+    script: Latn
+    content: diagnosis
+- vocab:
+    language: en
+    script: Latn
+    content: diagnostic inference
+- vocab:
+    language: en
+    script: Latn
+    content: diagnostic model
+- vocab:
+    language: en
+    script: Latn
+    content: diagnostic services
+- vocab:
+    language: en
+    script: Latn
+    content: reasoner
+- vocab:
+    language: en
+    script: Latn
+    content: D-matrix
+- vocab:
+    language: en
+    script: Latn
+    content: fault tree
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1232
+- vocab:
+    language: en
+    script: Latn
+    content: knowledge exchange
+- vocab:
+    language: en
+    script: Latn
+    content: system test
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.080'
+    text: Software
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

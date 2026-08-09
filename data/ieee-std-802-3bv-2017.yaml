@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 802.3bv-2017
   type: IEEE
   primary: true
-- content: IEEE Std 802.3bv®-2017
+- content: IEEE Std 802.3bv-2017®
   type: IEEE
   scope: trademark
   primary: true
@@ -31,6 +31,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -89,17 +92,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ISO/IEC/IEEE 8802.3/Amd9-2017
+      content: ISO/IEC/IEEE 8802.3/Amd 9-2017
     docidentifier:
-    - content: ISO/IEC/IEEE 8802.3/Amd9-2017
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: ISO/IEC/IEEE 8802.3/Amd9-2017
-    docidentifier:
-    - content: ISO/IEC/IEEE 8802.3/Amd9-2017
+    - content: ISO/IEC/IEEE 8802.3/Amd 9-2017
       type: IEEE
       primary: true
 keyword:

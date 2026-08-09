@@ -1,0 +1,159 @@
+---
+id: ISOIECIEEE24774D1February2020
+schema_version: v1.5.6
+type: standard
+title:
+- content: ISO/IEC/IEEE Draft International Standard - Systems and software engineering--Life
+    cycle management--Specification for process description
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9044877
+docidentifier:
+- content: ISO/IEC/IEEE 24774/D1, February, 2020
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 24774/D1, February, 2020™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6582-3
+  type: ISBN
+docnumber: ISO/IEC/IEEE 24774/D1, February, 2020
+date:
+- type: created
+  at: '2020-03-21'
+- type: published
+  at: '2020-03-23'
+- type: issued
+  at: '2021-03-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software & Systems Engineering Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A number of international, national and industry standards describe processes
+    and process models. Process models are developed for a range of purposes including
+    process implementation and assessment. In order for users of standards to select
+    the appropriate forms of process description and apply them in a consistent fashion,
+    it is desirable to develop a common characterization of all of these forms of
+    process description. This document presents requirements for the description of
+    processes in terms of their format, content and level of prescription. Because
+    of the wide usage of process descriptions, process elements are categorized as
+    “Required” or “Optional”. Although developed within ISO/IEC/JTC1/SC7 &#8211; Systems
+    and software engineering, the requirements of this document can be applied to
+    any process model or description developed for any purpose.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 24774-2012
+    docidentifier:
+    - content: IEEE Std 24774-2012
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: IEC Standards
+- vocab:
+    language: en
+    script: Latn
+    content: ISO Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Software engineering
+- vocab:
+    language: en
+    script: Latn
+    content: Product life cycle management
+- vocab:
+    language: en
+    script: Latn
+    content: Process management
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

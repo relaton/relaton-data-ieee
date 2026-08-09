@@ -1,0 +1,150 @@
+---
+id: IEEEP18151D400June2012
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Exchanging Information Between Networks Implementing
+    IEC 61850 and IEEE Std 1815 (Distributed Network Protocol - DNP3)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6218722
+docidentifier:
+- content: IEEE P1815.1/D4.00, June 2012
+  type: IEEE
+  primary: true
+- content: IEEE P1815.1/D4.00, June 2012™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7516-4
+  type: ISBN
+docnumber: IEEE P1815.1/D4.00, June 2012
+date:
+- type: created
+  at: '2012-01-01'
+- type: published
+  at: '2012-06-15'
+- type: issued
+  at: '2012'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This document specifies the standard approach for mapping between IEEE
+    Std 1815 (Distributed Network Protocol (DNP3)) and IEC 61850 (Communications Networks
+    and Systems for Power Utility Automation). Two primary use cases are addressed;
+    A) Mapping between an IEEE Std 1815 based master and an IEC 61850 based remote
+    site and B) Mapping between an IEC 61850 based master and an IEEE Std 1815 based
+    remote site. Mapping aspects included in the standard are: conceptual architecture;
+    general mapping requirements; the mapping of Common Data Classes, Constructed
+    Attribute Classes and Abstract Communication Service Interface (ASCI); cyber security
+    requirements, the architecture of a gateway used for translation and requirements
+    for embedding mapping configuration information into IEC 61850 System Configuration
+    Language (SCL) and DNP3 Device Profile. This specification addresses a selection
+    of features, data classes and services of the two standards.'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE standards
+- vocab:
+    language: en
+    script: Latn
+    content: Information exchange
+- vocab:
+    language: en
+    script: Latn
+    content: IEC standards
+- vocab:
+    language: en
+    script: Latn
+    content: Protocols
+- vocab:
+    language: en
+    script: Latn
+    content: Logic gates
+- vocab:
+    language: en
+    script: Latn
+    content: NIST
+- vocab:
+    language: en
+    script: Latn
+    content: Electricity supply industry
+- vocab:
+    language: en
+    script: Latn
+    content: Power distribution
+- vocab:
+    language: en
+    script: Latn
+    content: Data processing
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '33.200'
+    text: Telecontrol. Telemetering
+  - code: 35.240.99
+    text: IT applications in other fields
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

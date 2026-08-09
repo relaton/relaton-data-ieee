@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 1801-2018
   type: IEEE
   primary: true
-- content: IEEE Std 1801™-2018
+- content: IEEE Std 1801-2018™
   type: IEEE
   scope: trademark
   primary: true
@@ -91,14 +91,6 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 1801-2024
-    docidentifier:
-    - content: IEEE Std 1801-2024
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
@@ -109,6 +101,14 @@ relation:
       content: IEEE Std 1801-2015
     docidentifier:
     - content: IEEE Std 1801-2015
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1801-2024
+    docidentifier:
+    - content: IEEE Std 1801-2024
       type: IEEE
       primary: true
 keyword:

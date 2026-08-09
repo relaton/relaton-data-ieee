@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std C2-2007
   type: IEEE
   primary: true
-- content: IEEE Std C2™-2007
+- content: IEEE Std C2-2007™
   type: IEEE
   scope: trademark
   primary: true
@@ -76,12 +76,24 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std C2-2002
+    docidentifier:
+    - content: IEEE Std C2-2002
+      type: IEEE
+      primary: true
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: IEEE C2-2012
+      content: C2-2012 National Electrical Safety Code
     docidentifier:
-    - content: IEEE C2-2012
+    - content: C2-2012 National Electrical Safety Code
       type: IEEE
       primary: true
 keyword:

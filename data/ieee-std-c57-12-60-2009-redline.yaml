@@ -15,10 +15,10 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/5954114
 docidentifier:
-- content: IEEE Std C57.12.60-2009 Redline
+- content: IEEE Std C57.12.60-2009 - Redline
   type: IEEE
   primary: true
-- content: IEEE Std C57.12.60™-2009 Redline
+- content: IEEE Std C57.12.60-2009 - Redline™
   type: IEEE
   scope: trademark
   primary: true
@@ -26,7 +26,7 @@ docidentifier:
   type: ISBN
 - content: 10.1109/IEEESTD.2010.5954114
   type: DOI
-docnumber: IEEE Std C57.12.60-2009 Redline
+docnumber: IEEE Std C57.12.60-2009 - Redline
 date:
 - type: created
   at: '2010-03-12'
@@ -96,14 +96,6 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std C57.12.60-2020
-    docidentifier:
-    - content: IEEE Std C57.12.60-2020
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
@@ -114,6 +106,14 @@ relation:
       content: IEEE Std C57.12.60-1998
     docidentifier:
     - content: IEEE Std C57.12.60-1998
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.12.60-2020
+    docidentifier:
+    - content: IEEE Std C57.12.60-2020
       type: IEEE
       primary: true
 keyword:

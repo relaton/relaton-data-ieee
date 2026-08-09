@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C37.20.9-2019
   type: IEEE
   primary: true
-- content: IEEE Std C37.20.9™-2019
+- content: IEEE Std C37.20.9-2019™
   type: IEEE
   scope: trademark
   primary: true
@@ -77,9 +77,6 @@ abstract:
     and metering devices; and protective equipment. It includes, but is not specifically
     limited to, equipment for the control and protection of apparatus used for distribution
     of electrical power.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2019'
   owner:
@@ -93,6 +90,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.20.9-2025
+    docidentifier:
+    - content: IEEE Std C37.20.9-2025
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -134,7 +140,6 @@ ext:
   ics:
   - code: 29.130.99
     text: Other switchgear and controlgear
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

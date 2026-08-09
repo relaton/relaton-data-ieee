@@ -13,7 +13,7 @@ docidentifier:
 - content: ANSI/IEEE C37.1-1979
   type: IEEE
   primary: true
-- content: ANSI/IEEE C37.1™-1979
+- content: ANSI/IEEE C37.1-1979™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: ANSI/IEEE C37.1-1979
 date:
-- type: updated
-  at: '2016-04-15'
 - type: created
   at: '1979-12-31'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,15 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard applies to the definition, specification, performance, analysis,
+    and application of equipment in manual, partial automatic, automatic, and supervisory
+    control and data acquisition systems used with electric substations and generating
+    stations and with installations of power utilization and conversion apparatus.
+    This standard is intended to provide a basis for the definition, specification,
+    and analysis of equipment described above.
 copyright:
 - from: '1979'
   owner:
@@ -75,9 +85,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std C37.1-1987
+      content: ANSI/IEEE C37.1-1987
     docidentifier:
-    - content: ANSI/IEEE Std C37.1-1987
+    - content: ANSI/IEEE C37.1-1987
       type: IEEE
       primary: true
 keyword:

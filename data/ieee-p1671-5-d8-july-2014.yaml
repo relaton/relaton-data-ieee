@@ -1,0 +1,156 @@
+---
+id: IEEEP16715D8July2014
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Approved Draft Standard for Automatic Test Markup Language (ATML)
+    Test Adaptor Description
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7028994
+docidentifier:
+- content: IEEE P1671.5/D8, July 2014
+  type: IEEE
+  primary: true
+- content: IEEE P1671.5/D8, July 2014™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9288-8
+  type: ISBN
+docnumber: IEEE P1671.5/D8, July 2014
+date:
+- type: created
+  at: '2015-06-01'
+- type: published
+  at: '2015-02-02'
+- type: issued
+  at: '2015-03-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An exchange format, using extensible markup language (XML), for identifying
+    all of the hardware, software, and documentation associated with a test adapter
+    is specified in this document. This test adapter may be used as a component of
+    a test program set to test and diagnose a unit under test.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2014'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: XML
+- vocab:
+    language: en
+    script: Latn
+    content: 'Automatic test equipment '
+- vocab:
+    language: en
+    script: Latn
+    content: Adapters
+- vocab:
+    language: en
+    script: Latn
+    content: automatic test equipment (ATE)
+- vocab:
+    language: en
+    script: Latn
+    content: Automatic Test Markup Language (ATML)
+- vocab:
+    language: en
+    script: Latn
+    content: ATML instance document
+- vocab:
+    language: en
+    script: Latn
+    content: automatic test system (ATS)
+- vocab:
+    language: en
+    script: Latn
+    content: interface device (ID)
+- vocab:
+    language: en
+    script: Latn
+    content: interface test adapter (ITA)
+- vocab:
+    language: en
+    script: Latn
+    content: test adapter
+- vocab:
+    language: en
+    script: Latn
+    content: test fixture
+- vocab:
+    language: en
+    script: Latn
+    content: XML schema
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.240.30
+    text: IT applications in information, documentation and publishing
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

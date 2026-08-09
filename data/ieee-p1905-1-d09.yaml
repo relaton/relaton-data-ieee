@@ -1,0 +1,191 @@
+---
+id: IEEEP19051D09
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for a Convergent Digital Home Network for Heterogeneous
+    Technologies
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6417932
+docidentifier:
+- content: IEEE P1905.1/D09
+  type: IEEE
+  primary: true
+- content: IEEE P1905.1/D09™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8305-3
+  type: ISBN
+docnumber: IEEE P1905.1/D09
+date:
+- type: created
+  at: '2013-04-12'
+- type: published
+  at: '2013-01-23'
+- type: issued
+  at: '2013-03-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power Line Communications of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'An abstraction layer for multiple home networking technologies that provides
+    a common interface to widely deployed home networking technologies is defined
+    in this standard: IEEE 1901 over power lines, IEEE 802.11 for wireless, Ethernet
+    over twisted pair cable, and MoCA 1.1 over coax. Connectivity selection for transmission
+    of packets arriving from any interface or application is supported by the 1905.1
+    abstraction layer. Modification to the underlying home networking technologies
+    is not required by the 1905.1 layer, and hence it does not change the behavior
+    or implementation of existing home networking technologies. Introduced by the
+    1905.1 specification is a layer between layers 2 and 3 that abstracts the individual
+    details of each interface, aggregates available bandwidth, and facilitates seamless
+    integration. The1905.1 also facilitates end-to-end quality of service (QoS) while
+    simplifying the introduction of new devices to the network, establishing secure
+    connections, extending network coverage, and facilitating advanced network management
+    features including discovery, path selection, autoconfiguration, and quality of
+    service (QoS) negotiation.'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE standards
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.11 standards
+- vocab:
+    language: en
+    script: Latn
+    content: Digital  networks
+- vocab:
+    language: en
+    script: Latn
+    content: Home automation
+- vocab:
+    language: en
+    script: Latn
+    content: abstraction layer
+- vocab:
+    language: en
+    script: Latn
+    content: access point (AP) autoconfiguration
+- vocab:
+    language: en
+    script: Latn
+    content: data models
+- vocab:
+    language: en
+    script: Latn
+    content: fragmentation and reassembly
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.1 bridge discovery
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.11TM
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1901TM
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1905.1TM
+- vocab:
+    language: en
+    script: Latn
+    content: MoCA
+- vocab:
+    language: en
+    script: Latn
+    content: pairwise master key
+- vocab:
+    language: en
+    script: Latn
+    content: push button
+- vocab:
+    language: en
+    script: Latn
+    content: registration
+- vocab:
+    language: en
+    script: Latn
+    content: security
+- vocab:
+    language: en
+    script: Latn
+    content: topology discovery protocol
+- vocab:
+    language: en
+    script: Latn
+    content: wireless fidelity (Wi-Fi)
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

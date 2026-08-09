@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 1068-2015
   type: IEEE
   primary: true
-- content: IEEE Std 1068™-2015
+- content: IEEE Std 1068-2015™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1068-2015
 date:
-- type: updated
-  at: '2016-02-12'
 - type: created
   at: '2016-01-15'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -59,7 +60,8 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Petroleum & Chemical Industry of the IEEE Industry Applications Society
+        content: Petroleum and Chemical Industry of the IEEE Industry Applications
+          Society
       type: committee
     abbreviation:
       content: IEEE
@@ -77,11 +79,8 @@ abstract:
     it may be adapted to other areas of interest. The use of this standard is expected
     to result in higher quality and more cost-effective, timely repairs. A means of
     evaluating work performed and repair or service facilities is also provided.
-status:
-  stage:
-    content: approved
 copyright:
-- from: '2015'
+- from: '2016'
   owner:
   - organization:
       uri:
@@ -93,19 +92,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref:
-      content: IEEE Std 1068-2009
-    docidentifier:
-    - content: IEEE Std 1068-2009
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -187,7 +173,7 @@ ext:
   ics:
   - code: 29.160.30
     text: Motors
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

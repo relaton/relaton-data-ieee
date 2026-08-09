@@ -1,0 +1,137 @@
+---
+id: ANSIIEEE801986
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Guide for Safety in AC Substation Grounding
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/27902
+docidentifier:
+- content: ANSI/IEEE 80-1986
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE 80-1986™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5593-7602-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1986.81070
+  type: DOI
+docnumber: ANSI/IEEE 80-1986
+date:
+- type: created
+  at: '1986-08-08'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1985-03-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Substations of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Outdoor AC substations, either conventional or gas-insulated, are covered
+    in this guide. Distribution, transmission, and generating plant substations are
+    also included. With proper caution, the methods described herein are also applicable
+    to indoor portions of such substations, or to substations that are wholly indoors.
+    No attempt is made to cover the grounding problems peculiar to dc substations.
+    A quantitative analysis of the effects of lightning surges is also beyond the
+    scope of this guide.
+copyright:
+- from: '1986'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 80-1976
+    docidentifier:
+    - content: IEEE Std 80-1976
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 80-2000
+    docidentifier:
+    - content: IEEE Std 80-2000
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Grounding
+- vocab:
+    language: en
+    script: Latn
+    content: Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Substations
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 29.120.50
+    text: Fuses and other overcurrent protection devices
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

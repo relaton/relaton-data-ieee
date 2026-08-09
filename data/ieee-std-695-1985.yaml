@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 695-1985
   type: IEEE
   primary: true
-- content: IEEE Std 695™-1985
+- content: IEEE Std 695-1985™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 695-1985
 date:
-- type: updated
-  at: '2016-04-08'
 - type: created
   at: '1985'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,17 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies the format of linkable, relocatable, and absolute
+    object modules for binary computers of arbitrary word size and architecture. Two
+    levels of compliance are specified, minimum and full. The minimum compliance level
+    affords sufficient flexibility to link separately compiled modules, to relocate
+    addresses in simple ways, and to load the resulting absolute object modules with
+    a minimal loader. The full compliance level affords all of the functionality of
+    the minimum level and adds to it arbitrary address expression handling, type checking
+    capability, librarian control commands, and other useful functions for full generality.
 copyright:
 - from: '1985'
   owner:

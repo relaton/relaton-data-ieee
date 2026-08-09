@@ -1,0 +1,124 @@
+---
+id: ANSIIEEE3781986
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Standard on Network Analyzers (100 kHz to 18GHz)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/29108
+docidentifier:
+- content: ANSI/IEEE 378-1986
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE 378-1986™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4196-8
+  type: ISBN
+- content: 10.1109/IEEESTD.1986.81601
+  type: DOI
+docnumber: ANSI/IEEE 378-1986
+date:
+- type: created
+  at: '1986'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1986'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: N/A
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard was written for users and manufacturers of automatic network
+    analyzers. The purpose of the standard is to provide common terminology, to give
+    performance parameters required for describing and specifying network analyzers,
+    and to provide assistance in verifying performance. Automatic network analyzers
+    are used to measure complex reflection and transmission characteristics of one-
+    and two-port devices at radio and microwave frequencies. Measurement uncertainties
+    are a function of both the magnitude and phase angle of the device under test
+    as well as the frequency. This standard specifies a set of useful reference networks
+    or standard devices that may be used for verification. A network analyzer as considered
+    is any system that measures two-port transmission or one-port reflection of multiports.
+    A wide variety of attention and impedance measurement equipment is of concern.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1986'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Measurement standards
+- vocab:
+    language: en
+    script: Latn
+    content: Microwave reflectometry
+- vocab:
+    language: en
+    script: Latn
+    content: Circuit analysis
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '33.140'
+    text: Special measuring equipment for use in telecommunications
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

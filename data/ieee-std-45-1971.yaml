@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 45-1971
   type: IEEE
   primary: true
-- content: IEEE Std 45™-1971
+- content: IEEE Std 45-1971™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 45-1971
 date:
-- type: updated
-  at: '2016-04-08'
 - type: created
   at: '1971-01-28'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -47,6 +48,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: These Marine Recommendations have been drawn up to serve as a guide for
+    the equipment of merchant vessels with an electric plant system and electric apparatus
+    for lighting, signaling, communication, power, and propulsion. They indicate what
+    is considered good engineering practice with reference to safety of the personnel
+    and of the ship itself as well as reliability and durability of the apparatus;
+    it is not intended, however, that improvements, which may be developed from time
+    to time, should be excluded.
 copyright:
 - from: '1971'
   owner:

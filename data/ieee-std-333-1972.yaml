@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 333-1972
   type: IEEE
   primary: true
-- content: IEEE Std 333™-1972
+- content: IEEE Std 333-1972™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 333-1972
 date:
-- type: updated
-  at: '2016-03-11'
 - type: created
   at: '1972-06-07'
 - type: published
-  at: '2016-02-16'
+  at: '2016-02-18'
 - type: issued
   at: '1971-09-16'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,21 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The purpose of this recommended practice is to provide guidelines for
+    the proper application of electrical equipment to packaging machinery which will
+    promote: (1) Safety to personnel and equipment, including the reduction of fire
+    and accident hazard (2) Uninterrupted production (3) Long life and low maintenance
+    cost This is a minimum recommended practice and is not intended to limit or inhibit
+    advancement in the areas of electrical or mechanical engineering. This recommended
+    practice covers the application of electrical equipment and wiring furnished as
+    part of a packaging machine, and associated equipment commencing at the place
+    of connection of the power supply. It shall apply to electrical equipment for
+    use on circuits which operate from a supply voltage of 600 V or less. It shall
+    not be considered adequate for machines intended for use in locations designated
+    as hazardous by the NEC (National Electric Code), NFPA 70-1971 (ANSI C1-1971).'
 copyright:
 - from: '1972'
   owner:
@@ -65,9 +81,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 333-1980
+      content: ANSI/IEEE 333-1980
     docidentifier:
-    - content: ANSI/IEEE Std 333-1980
+    - content: ANSI/IEEE 333-1980
       type: IEEE
       primary: true
 keyword:

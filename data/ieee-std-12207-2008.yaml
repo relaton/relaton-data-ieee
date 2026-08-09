@@ -1,5 +1,5 @@
 ---
-id: IEEEStd122072008
+id: IEEESTD122072008
 schema_version: v1.5.6
 type: standard
 title:
@@ -8,25 +8,23 @@ title:
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/4475826
+  content: https://ieeexplore.ieee.org/document/6042287
 docidentifier:
-- content: IEEE Std 12207-2008
+- content: IEEE STD 12207-2008
   type: IEEE
   primary: true
-- content: IEEE Std 12207™-2008
+- content: IEEE STD 12207-2008™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-5664-4
   type: ISBN
-- content: 10.1109/IEEESTD.2008.4475826
-  type: DOI
-docnumber: IEEE Std 12207-2008
+docnumber: IEEE STD 12207-2008
 date:
 - type: created
   at: '2008-01-31'
 - type: published
-  at: '2017-11-23'
+  at: '2011-10-10'
 - type: issued
   at: '2008-01-31'
 contributor:
@@ -78,7 +76,7 @@ abstract:
     terminology, that can be referenced by the software industry. It applies to the
     acquisition of systems and software products and services, to the supply, development,
     operation, maintenance, and disposal of software products and the software portion
-    of a system, whether performed internally or externally to an organization. Those
+    of a system, whethere performed internally or externally to an organization. Those
     aspects of system definition needed to provide the context for software products
     and services are included. Software includes the software portion of firmware.
     This revision integrates ISO/IEC 12207:1995 with its two amendments and was coordinated
@@ -88,9 +86,6 @@ abstract:
     a process reference model that supports process capability assessment in accordance
     with ISO/IEC 15504-2 (Process assessment). An annex provides support for IEEE
     users and describes relationships of this International Standard to IEEE standards.
-status:
-  stage:
-    content: superseded
 copyright:
 - from: '2008'
   owner:
@@ -104,24 +99,50 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IEC
 relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: IEEE Std 12207-2008
+      content: ISO/IEC/IEEE 12207-2017
     docidentifier:
-    - content: IEEE Std 12207-2008
+    - content: ISO/IEC/IEEE 12207-2017
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE/EIA Std 12207.0-1996
+    docidentifier:
+    - content: IEEE/EIA Std 12207.0-1996
       type: IEEE
       primary: true
 keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE Standards
+    content: IEEE standards
 - vocab:
     language: en
     script: Latn
-    content: Quality assurance
+    content: Software maintenance
+- vocab:
+    language: en
+    script: Latn
+    content: Product life cycle management
 - vocab:
     language: en
     script: Latn
@@ -129,27 +150,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: ISO Standards
-- vocab:
-    language: en
-    script: Latn
-    content: IEC Standards
-- vocab:
-    language: en
-    script: Latn
-    content: Software engineering
-- vocab:
-    language: en
-    script: Latn
-    content: Microprogramming
-- vocab:
-    language: en
-    script: Latn
-    content: Maintenance engineering
-- vocab:
-    language: en
-    script: Latn
-    content: Product life cycle management
+    content: Quality assurance
 - vocab:
     language: en
     script: Latn
@@ -226,7 +227,6 @@ ext:
   ics:
   - code: '35.080'
     text: Software
-  standard_status: Active
-  standard_modified: Superseded
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

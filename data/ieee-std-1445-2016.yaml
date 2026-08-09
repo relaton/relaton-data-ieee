@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 1445-2016
   type: IEEE
   primary: true
-- content: IEEE Std 1445™-2016
+- content: IEEE Std 1445-2016™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1445-2016
 date:
-- type: updated
-  at: '2017-02-25'
 - type: created
   at: '2017-01-27'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

@@ -3,39 +3,40 @@ id: IEEEStd163622010
 schema_version: v1.5.6
 type: standard
 title:
-- content: 'IEEE Standard for Software Interface for Maintenance Information Collection
-    and Analysis (SIMICA): Exchanging Maintenance Action Information via the Extensible
-    Markup Language (XML)'
+- content: 'IEEE Trial-Use Standard for Software Interface for Maintenance Information
+    Collection and Analysis (SIMICA): Exchanging Maintenance Action Information via
+    the Extensible Markup Language (XML)'
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/6781494
+  content: https://ieeexplore.ieee.org/document/5648434
 docidentifier:
 - content: IEEE Std 1636.2-2010
   type: IEEE
   primary: true
-- content: IEEE Std 1636.2™-2010
+- content: IEEE Std 1636.2-2010™
   type: IEEE
   scope: trademark
   primary: true
-- content: 978-0-7381-8164-6
+- content: 978-0-7381-6454-0
   type: ISBN
-- content: 10.1109/IEEESTD.2013.6781494
+- content: 10.1109/IEEESTD.2010.5648434
   type: DOI
 docnumber: IEEE Std 1636.2-2010
 date:
-- type: updated
-  at: '2014-07-18'
 - type: created
-  at: '2013-02-01'
+  at: '2010-11-24'
 - type: published
-  at: '2014-04-01'
+  at: '2010-11-29'
 - type: issued
   at: '2010-09-30'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -78,11 +79,8 @@ abstract:
     that particular operational system. The MAI schema becomes a class of information
     that can be used within the SIMICA family of standards. The exchange format utilizes
     the XML formats.
-status:
-  stage:
-    content: approved
 copyright:
-- from: '2013'
+- from: '2010'
   owner:
   - organization:
       uri:
@@ -103,22 +101,6 @@ relation:
     - content: IEEE Std 1636.2-2018
       type: IEEE
       primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 1636.2-2018
-    docidentifier:
-    - content: IEEE Std 1636.2-2018
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 1636.2-2018
-    docidentifier:
-    - content: IEEE Std 1636.2-2018
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -127,31 +109,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Automatic test equipment
-- vocab:
-    language: en
-    script: Latn
     content: XML
-- vocab:
-    language: en
-    script: Latn
-    content: Markup languages
-- vocab:
-    language: en
-    script: Latn
-    content: Software engineering
-- vocab:
-    language: en
-    script: Latn
-    content: Software interfaces
-- vocab:
-    language: en
-    script: Latn
-    content: Software maintenance
-- vocab:
-    language: en
-    script: Latn
-    content: Information analysis
 - vocab:
     language: en
     script: Latn
@@ -181,7 +139,6 @@ ext:
   ics:
   - code: '35.040'
     text: Character sets and information coding
-  standard_status: Inactive
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -7,23 +7,25 @@ title:
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/598500
+  content: https://ieeexplore.ieee.org/document/8684526
 docidentifier:
 - content: ANSI/IEEE C37.101-1985
   type: IEEE
   primary: true
-- content: ANSI/IEEE C37.101™-1985
+- content: ANSI/IEEE C37.101-1985™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-4126-8
   type: ISBN
-- content: 10.1109/IEEESTD.1985.82930
+- content: 10.1109/IEEESTD.1984.8684526
   type: DOI
 docnumber: ANSI/IEEE C37.101-1985
 date:
 - type: created
-  at: '1985'
+  at: '1984-12-31'
+- type: published
+  at: '2019-04-09'
 - type: issued
   at: '1981-12-17'
 contributor:
@@ -74,7 +76,7 @@ abstract:
     or ground connection schemes. The information included in the main body is limited
     to those generator connections, grounding practices, and protective schemes generally
     used in North America. Appendix A provides information on some of the protective
-    schemes in use elsewhere in the world and on schemes which are not in wide- Npread
+    schemes in use elsewhere in the world and on schemes which are not in wide-spread
     use throughout North America. Appendix B provides examples of how to calculate
     ground overcurrent and overvoltage relay settings for the various protective schemes
     (and how to coordinate them with voltage transformer secondary fuses. Appendix
@@ -104,14 +106,11 @@ relation:
     - content: IEEE Std C37.101-1993
       type: IEEE
       primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std C37.101-1993
-    docidentifier:
-    - content: IEEE Std C37.101-1993
-      type: IEEE
-      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Guide for Generator Ground Protection
 ext:
   schema_version: v1.1.3
   doctype:

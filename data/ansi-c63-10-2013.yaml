@@ -13,7 +13,7 @@ docidentifier:
 - content: ANSI C63.10-2013
   type: IEEE
   primary: true
-- content: ANSI C63.10™-2013
+- content: ANSI C63.10-2013™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: ANSI C63.10-2013
 date:
-- type: updated
-  at: '2013-12-13'
 - type: created
   at: '2013'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -86,6 +87,14 @@ copyright:
       abbreviation:
         content: ANSI
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ANSI C63.10-2020
+    docidentifier:
+    - content: ANSI C63.10-2020
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -96,14 +105,6 @@ relation:
       content: ANSI C63.10-2009
     docidentifier:
     - content: ANSI C63.10-2009
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: ANSI C63.10-2020
-    docidentifier:
-    - content: ANSI C63.10-2020
       type: IEEE
       primary: true
 keyword:

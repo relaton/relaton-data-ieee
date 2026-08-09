@@ -10,10 +10,10 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/5542299
 docidentifier:
-- content: IEEE Std 11073.10420-2010
+- content: IEEE Std 11073-10420-2010
   type: IEEE
   primary: true
-- content: IEEE Std 11073.10420™-2010
+- content: IEEE Std 11073-10420-2010™
   type: IEEE
   scope: trademark
   primary: true
@@ -21,18 +21,21 @@ docidentifier:
   type: ISBN
 - content: 10.1109/IEEESTD.2010.5542299
   type: DOI
-docnumber: IEEE Std 11073.10420-2010
+docnumber: IEEE Std 11073-10420-2010
 date:
-- type: updated
-  at: '2010-09-20'
 - type: created
   at: '2010-08-03'
+- type: published
+  at: '2010-08-05'
 - type: issued
   at: '2010-06-17'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -57,7 +60,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: IEEE 11073TM Standards Committee of the IEEE Engineering in Medicine
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
           and Biology Society
       type: committee
     abbreviation:
@@ -74,7 +77,7 @@ abstract:
     between personal body composition analyzing devices and managers (e.g., cell phones,
     personal computers, personal health appliances, set top boxes) in a manner that
     enables plug-and-play interoperability. It leverages appropriate portions of existing
-    standards including ISO/IEEE 11073 terminology and IEEE 11073-20601 information
+    standards including ISO/IEEE 11073 terminology and IEEE 11073-2060(TM) information
     models. It specifies the use of specific term codes, formats, and behaviors in
     telehealth environments restricting optionality in base frameworks in favor of
     interoperability. This standard defines a common core of communication functionality
@@ -82,9 +85,6 @@ abstract:
     composition analyzer devices are being used broadly to cover body composition
     analyzer devices that measure body impedances, and compute the various body components
     including body fat from the impedance.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2010'
   owner:
@@ -98,6 +98,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 11073-10420-2020
+    docidentifier:
+    - content: IEEE Std 11073-10420-2020
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -137,7 +146,6 @@ ext:
     text: Diagnostic equipment
   - code: 35.240.80
     text: IT applications in health care technology
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

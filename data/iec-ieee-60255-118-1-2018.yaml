@@ -10,10 +10,10 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/8577045
 docidentifier:
-- content: IEC/IEEE 60255.118-1-2018
+- content: IEC/IEEE 60255-118-1:2018
   type: IEEE
   primary: true
-- content: IEC/IEEE 60255.118-1™-2018
+- content: IEC/IEEE 60255-118-1:2018™
   type: IEEE
   scope: trademark
   primary: true
@@ -21,10 +21,8 @@ docidentifier:
   type: ISBN
 - content: 10.1109/IEEESTD.2018.8577045
   type: DOI
-docnumber: IEC/IEEE 60255.118-1-2018
+docnumber: IEC/IEEE 60255-118-1:2018
 date:
-- type: updated
-  at: '2020-09-25'
 - type: created
   at: '2018-12-19'
 - type: published
@@ -70,6 +68,17 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This document provides continuation and further development of previous
+    synchrophasor standards, notably the IEEE C37.118 series. It defines synchrophasor,
+    frequency, and rate of change of frequency (ROCOF) measurements as used in this
+    technology. These definitions are in agreement with most research on and analysis
+    of dynamic electric power system measurements, but may differ from those given
+    in other contexts. Function and performance requirements are given for synchrophasor
+    measurements. Tests, evaluation criteria, and error limits are provided to determine
+    compliance with the requirements.
 status:
   stage:
     content: approved

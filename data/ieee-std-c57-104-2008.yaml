@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std C57.104-2008
   type: IEEE
   primary: true
-- content: IEEE Std C57.104™-2008
+- content: IEEE Std C57.104-2008™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,18 +22,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.104-2008
 date:
-- type: updated
-  at: '2009-04-09'
 - type: created
   at: '2009-02-02'
 - type: published
-  at: '2013-08-15'
+  at: '2009-02-06'
 - type: issued
   at: '2008-09-26'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -109,9 +110,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: IEEE PC57.104/D-6-2018-11
+      content: IEEE PC57.104/D6, November, 2018
     docidentifier:
-    - content: IEEE PC57.104/D-6-2018-11
+    - content: IEEE PC57.104/D6, November, 2018
       type: IEEE
       primary: true
 keyword:

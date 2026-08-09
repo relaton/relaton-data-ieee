@@ -13,7 +13,7 @@ docidentifier:
 - content: ISO/IEC/IEEE 15289-2017
   type: IEEE
   primary: true
-- content: ISO/IEC/IEEE 15289™-2017
+- content: ISO/IEC/IEEE 15289-2017™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: ISO/IEC/IEEE 15289-2017
 date:
-- type: updated
-  at: '2017-06-23'
 - type: created
   at: '2017-06-05'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

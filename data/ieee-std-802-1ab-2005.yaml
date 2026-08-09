@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 802.1AB-2005
   type: IEEE
   primary: true
-- content: IEEE Std 802.1AB®-2005
+- content: IEEE Std 802.1AB-2005®
   type: IEEE
   scope: trademark
   primary: true
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 802.1AB-2005
 date:
-- type: updated
-  at: '2009-01-15'
 - type: created
   at: '2005-05-06'
 - type: published
-  at: '2019-04-05'
+  at: '2005-08-01'
 - type: issued
   at: '2005-03-20'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -89,9 +90,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: IEEE Std P802.1AB/D-2.2/R--2007-12
+      content: IEEE Unapproved Draft P802.1AB/D2.2, Dec 2007
     docidentifier:
-    - content: IEEE Std P802.1AB/D-2.2/R--2007-12
+    - content: IEEE Unapproved Draft P802.1AB/D2.2, Dec 2007
       type: IEEE
       primary: true
 keyword:

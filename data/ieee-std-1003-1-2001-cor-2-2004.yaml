@@ -1,0 +1,195 @@
+---
+id: IEEEStd100312001Cor22004
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Standard for Information Technology - Portable Operating System Interface
+    (POSIX(TM)) - Technical Corrigendum 2
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1282224
+docidentifier:
+- content: IEEE Std 1003.1-2001/Cor. 2-2004
+  type: IEEE
+  primary: true
+- content: IEEE Std 1003.1-2001/Cor. 2-2004™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-3987-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.94442
+  type: DOI
+docnumber: IEEE Std 1003.1-2001/Cor. 2-2004
+date:
+- type: created
+  at: '2004-04-02'
+- type: published
+  at: '2018-06-21'
+- type: issued
+  at: '2004-02-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Portable Applications of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Technical Corrigendum 2 addresses problems discovered since the approval
+    of the 2003 edition of The Open Group Base Specifications, Issue 6, IEEE Std 1003.1,
+    and ISO/IEC 9945. These are mainly due to resolving integration issues raised
+    by the merger of the original Base documents.
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: corrects
+  bibitem:
+    formattedref:
+      content: IEEE Std 1003.1-2001
+    docidentifier:
+    - content: IEEE Std 1003.1-2001
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Licenses
+- vocab:
+    language: en
+    script: Latn
+    content: Patents
+- vocab:
+    language: en
+    script: Latn
+    content: Operating systems
+- vocab:
+    language: en
+    script: Latn
+    content: Authorization
+- vocab:
+    language: en
+    script: Latn
+    content: Warranties
+- vocab:
+    language: en
+    script: Latn
+    content: application program interface (API)
+- vocab:
+    language: en
+    script: Latn
+    content: argument
+- vocab:
+    language: en
+    script: Latn
+    content: asynchronous
+- vocab:
+    language: en
+    script: Latn
+    content: basic regular expression (BRE)
+- vocab:
+    language: en
+    script: Latn
+    content: batch job
+- vocab:
+    language: en
+    script: Latn
+    content: batch system
+- vocab:
+    language: en
+    script: Latn
+    content: built-in utility
+- vocab:
+    language: en
+    script: Latn
+    content: byte
+- vocab:
+    language: en
+    script: Latn
+    content: child
+- vocab:
+    language: en
+    script: Latn
+    content: command language interpreter
+- vocab:
+    language: en
+    script: Latn
+    content: CPU
+- vocab:
+    language: en
+    script: Latn
+    content: extended regular expression (ERE)
+- vocab:
+    language: en
+    script: Latn
+    content: FIFO
+- vocab:
+    language: en
+    script: Latn
+    content: file access cont
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

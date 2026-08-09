@@ -3,11 +3,11 @@ id: IEEEWhitePaper
 schema_version: v1.5.6
 type: standard
 title:
-- content: Global Development Trends of Data Centers
+- content: Aspects and Challenges of Patient-Controlled Electronic Health Records
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/11422785
+  content: https://ieeexplore.ieee.org/document/11627220
 docidentifier:
 - content: IEEE White Paper
   type: IEEE
@@ -16,16 +16,14 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 979-8-8557-3214-6
+- content: 979-8-8557-3728-8
   type: ISBN
-- content: 10.1109/IEEESTD.2026.11422785
-  type: DOI
 docnumber: IEEE White Paper
 date:
 - type: created
-  at: '2026-03-06'
+  at: '2026-07-28'
 - type: published
-  at: '2026-03-06'
+  at: '2026-07-28'
 - type: issued
   at: '2026'
 contributor:
@@ -51,12 +49,22 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The Global Development Trends of Data Centers white paper aims to provide
-    a comprehensive analysis of the current status, trends, and challenges with respect
-    to data centers and computing technologies globally, and capture the future trends.
-status:
-  stage:
-    content: approved
+  content: As governments increasingly adopt digital health services and digital access
+    becomes ubiquitous through internet and mobile technologies, differing approaches
+    to personal health record (PHR) systems have become more apparent. Across countries
+    and economic regions, successful implementation and widespread adoption have led
+    to the emergence of de facto models that reflect local healthcare, regulatory,
+    and societal requirements. Despite this progress, significant differences remain
+    in system functionality, interoperability, architecture, and implementation. While
+    foundational standards such as Health Level Seven (HL7) and Fast Healthcare Interoperability
+    Resources (FHIR) provide a common technical framework, the design of user interactions,
+    information governance, and functional capabilities remains largely proprietary.
+    To advance global interoperability and standardization, a clearer distinction
+    is needed between PHRs and patient-controlled electronic health records (EHRs).
+    These systems differ in their ownership, control, and data-management characteristics,
+    creating unique challenges for harmonization and interoperability. This white
+    paper examines those challenges across three key areas and identifies opportunities
+    for greater international alignment
 copyright:
 - from: '2026'
   owner:
@@ -74,51 +82,19 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE Standards
+    content: data
 - vocab:
     language: en
     script: Latn
-    content: Data centers
+    content: EHR
 - vocab:
     language: en
     script: Latn
-    content: Cloud computing
+    content: electronic health records
 - vocab:
     language: en
     script: Latn
-    content: Market research
-- vocab:
-    language: en
-    script: Latn
-    content: Big Data
-- vocab:
-    language: en
-    script: Latn
-    content: Artificial intelligence
-- vocab:
-    language: en
-    script: Latn
-    content: Trend analysis
-- vocab:
-    language: en
-    script: Latn
-    content: AI
-- vocab:
-    language: en
-    script: Latn
-    content: artificial intelligence
-- vocab:
-    language: en
-    script: Latn
-    content: computer
-- vocab:
-    language: en
-    script: Latn
-    content: computer trends
-- vocab:
-    language: en
-    script: Latn
-    content: data centers
+    content: healthcare
 - vocab:
     language: en
     script: Latn
@@ -126,7 +102,19 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: standards development
+    content: personal health records
+- vocab:
+    language: en
+    script: Latn
+    content: PFR
+- vocab:
+    language: en
+    script: Latn
+    content: privacy
+- vocab:
+    language: en
+    script: Latn
+    content: standardization
 - vocab:
     language: en
     script: Latn
@@ -137,6 +125,5 @@ ext:
     content: standard
   flavor: ieee
   standard_status: Active
-  standard_modified: Approved
   pubstatus: Active
   holdstatus: Publish

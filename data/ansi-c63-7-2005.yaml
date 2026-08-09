@@ -8,23 +8,25 @@ title:
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/1620781
+  content: https://ieeexplore.ieee.org/document/8684731
 docidentifier:
 - content: ANSI C63.7-2005
   type: IEEE
   primary: true
-- content: ANSI C63.7™-2005
+- content: ANSI C63.7-2005™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-4908-0
   type: ISBN
-- content: 10.1109/IEEESTD.2006.243732
+- content: 10.1109/IEEESTD.2006.8684731
   type: DOI
 docnumber: ANSI C63.7-2005
 date:
 - type: created
-  at: '2006'
+  at: '2006-04-07'
+- type: published
+  at: '2019-04-09'
 - type: issued
   at: '2005'
 contributor:
@@ -50,12 +52,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Information that is useful in constructing an open-area test site used
-    to perform radiated emission measurements in the frequency range of 30 MHz to
-    1000 MHz is provided. Final validity of the test site can only be made by performing
+  content: Information that is useful in constructing an open-area test site (OATS)
+    used to perform radiated emission measurements in the frequency range of 30-1000
+    MHz is provided. Final validity of the test site can only be made by performing
     site attenuation measurements as described in ANSI C63.4-2003.
 copyright:
-- from: '2006'
+- from: '2005'
   owner:
   - organization:
       uri:
@@ -75,9 +77,9 @@ relation:
     content: revises
   bibitem:
     formattedref:
-      content: ANSI Std C63.7-1992
+      content: ANSI C63.7-1992
     docidentifier:
-    - content: ANSI Std C63.7-1992
+    - content: ANSI C63.7-1992
       type: IEEE
       primary: true
 - type: obsoletedBy
@@ -88,26 +90,19 @@ relation:
     - content: ANSI C63.7-2015
       type: IEEE
       primary: true
-- type: updates
-  description:
+keyword:
+- vocab:
     language: en
     script: Latn
-    content: revises
-  bibitem:
-    formattedref:
-      content: ANSI Std C63.7-1992
-    docidentifier:
-    - content: ANSI Std C63.7-1992
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: ANSI C63.7-2015
-    docidentifier:
-    - content: ANSI C63.7-2015
-      type: IEEE
-      primary: true
+    content: emission measurement
+- vocab:
+    language: en
+    script: Latn
+    content: open-area test sites
+- vocab:
+    language: en
+    script: Latn
+    content: radiated emission measurement
 ext:
   schema_version: v1.1.3
   doctype:

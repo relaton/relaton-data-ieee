@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std C57.13-2016
   type: IEEE
   primary: true
-- content: IEEE Std C57.13™-2016
+- content: IEEE Std C57.13-2016™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.13-2016
 date:
-- type: updated
-  at: '2016-07-22'
 - type: created
   at: '2016-06-29'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

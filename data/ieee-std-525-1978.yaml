@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 525-1978
   type: IEEE
   primary: true
-- content: IEEE Std 525™-1978
+- content: IEEE Std 525-1978™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 525-1978
 date:
-- type: updated
-  at: '2016-03-25'
 - type: created
   at: '1978-10-06'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Thep lose of this guide is to: (1) Outline requirements and establish
+    design guides for the application and installation of control and low-voltage
+    power cables in electric power transmission and distribution substations, emphasizing
+    electrical service with maximum reliability during the entire life of the substation
+    (2) Provide references to industry standard design specifications for control
+    and low-voltage power cables suitable for use in substations (3) Provide a comprehensive
+    bibliography of literature related to the subject.'
 copyright:
 - from: '1978'
   owner:
@@ -65,9 +76,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 525-1987
+      content: ANSI/IEEE 525-1987
     docidentifier:
-    - content: ANSI/IEEE Std 525-1987
+    - content: ANSI/IEEE 525-1987
       type: IEEE
       primary: true
 keyword:

@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 474-1973
   type: IEEE
   primary: true
-- content: IEEE Std 474™-1973
+- content: IEEE Std 474-1973™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 474-1973
 date:
-- type: updated
-  at: '2016-04-29'
 - type: created
   at: '1973-05-24'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,17 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This performance standard covers absorptive and reflective attenuators,
+    both fixed as well as continuously variable or variable in fixed steps, both manual
+    and programmable types. It does not cover electronic or solid state-type attenuators.
+    This standard permits the user to select for a specification those minimum performance
+    parameters which characterize an attenuator. A list of preferred test methods
+    is included permitting verification of the attenuation characteristics. Practical
+    minimum performance limits are furnished for various applications. These are for
+    guidance only and will improve with time.
 status:
   stage:
     content: withdrawn

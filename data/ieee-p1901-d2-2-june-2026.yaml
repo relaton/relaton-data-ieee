@@ -1,0 +1,205 @@
+---
+id: IEEEP1901D22June2026
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Draft Standard for Broadband over Power Line Networks: Medium Access
+    Control and Physical Layer Specifications'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11574889
+docidentifier:
+- content: IEEE P1901/D2.2, June 2026
+  type: IEEE
+  primary: true
+- content: IEEE P1901/D2.2, June 2026™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-3631-1
+  type: ISBN
+docnumber: IEEE P1901/D2.2, June 2026
+date:
+- type: created
+  at: '2026-06-19'
+- type: published
+  at: '2026-06-22'
+- type: issued
+  at: '2026'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power Line Communications of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The Physical (PHY) and Media Access Control (MAC) layers for broadband
+    communications are specified in this standard, supporting applications such as
+    local area networks (LANs), Smart Energy, Smart Grid, Internet of Things (IoT),
+    transportation platforms (vehicle), and other data distribution applications.
+    A flexible channel wavelet (FCW) and extended FCW PHY/MAC technology is specified
+    to enable adaptation to different frequency bands and to support communication
+    over various transmission media, including but not limited to, power lines (ac
+    or dc), coaxial cables, signal cables, optical fiber, light (visible, infrared),
+    and radio waves. FCW and extended FCW communication channels in low-frequency
+    bands are defined to extend communication range and improve robustness. Support
+    for network synchronization and enhanced network functionality through the IEEE
+    Std 1588™ Precision Time Protocol (PTP) is specified. State-of-the-art security
+    mechanisms are integrated, including authentication and authorization capabilities
+    suitable for IoT and access devices. The use of IEEE Std 802.1X™ within IEEE Std
+    1901™ networks is specified to provide secure access control and to protect the
+    privacy and integrity of communications, thereby enabling the use of the technology
+    for security-sensitive services. Mechanisms for coexistence and interoperability
+    between different Broadband over Power Lines (BPL) devices are specified, ensuring
+    efficient use of the power line channel and the provision of required communication
+    bandwidth and quality of service.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 1901-2020
+    docidentifier:
+    - content: IEEE Std 1901-2020
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Authentication
+- vocab:
+    language: en
+    script: Latn
+    content: Broadband communication
+- vocab:
+    language: en
+    script: Latn
+    content: Power transmission lines
+- vocab:
+    language: en
+    script: Latn
+    content: Turbo codes
+- vocab:
+    language: en
+    script: Latn
+    content: Access control
+- vocab:
+    language: en
+    script: Latn
+    content: Physical layer
+- vocab:
+    language: en
+    script: Latn
+    content: Media Access Control
+- vocab:
+    language: en
+    script: Latn
+    content: access devices
+- vocab:
+    language: en
+    script: Latn
+    content: adaptive power management
+- vocab:
+    language: en
+    script: Latn
+    content: any media
+- vocab:
+    language: en
+    script: Latn
+    content: authentication authorization
+- vocab:
+    language: en
+    script: Latn
+    content: broadband over power lines (BPLs)
+- vocab:
+    language: en
+    script: Latn
+    content: channel notification
+- vocab:
+    language: en
+    script: Latn
+    content: coaxial cables
+- vocab:
+    language: en
+    script: Latn
+    content: coexistence protocol (CXP)
+- vocab:
+    language: en
+    script: Latn
+    content: convolutional turbo code
+- vocab:
+    language: en
+    script: Latn
+    content: cosine modulated filter banks
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 33.040.60
+    text: Powerline telecommunications
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

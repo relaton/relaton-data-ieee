@@ -1,0 +1,117 @@
+---
+id: IEEEUnapprovedDraftP8021ASD20Feb2008
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Local and Metropolitan Area Networks--Timing and
+    Synchronization for Time-Sensitive Applications in Bridged Local Area Networks
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4489700
+docidentifier:
+- content: IEEE Unapproved Draft P802.1AS/D2.0 Feb 2008
+  type: IEEE
+  primary: true
+- content: IEEE Unapproved Draft P802.1AS/D2.0 Feb 2008™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-2649-7
+  type: ISBN
+docnumber: IEEE Unapproved Draft P802.1AS/D2.0 Feb 2008
+date:
+- type: created
+  at: '2008'
+- type: published
+  at: '2008-04-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies the protocol and procedures used to ensure that
+    the synchronization requirements are met for time sensitive applications, such
+    as audio and video, across Bridged and Virtual Bridged Local Area Networks consisting
+    of LAN media where the transmission delays are fixed and symmetrical; for example,
+    IEEE 802.3 full duplex links. This includes the maintenance of synchronized time
+    during normal operation and following addition, removal, or failure of network
+    components and network reconfiguration. It specifies the use of IEEE 1588 specifications
+    where applicable in the context of IEEE Stds 802.1D and 802.1Q. Synchronization
+    to an externally provided timing signal (e.g., a recognized timing standard such
+    as UTC or TAI) is not part of this standard but is not precluded
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Standards
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Patents
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Electronic mail
+- vocab:
+    language: en
+    script: Latn
+    content: Task analysis
+- vocab:
+    language: en
+    script: Latn
+    content: Licenses
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

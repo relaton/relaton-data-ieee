@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 828-1983
   type: IEEE
   primary: true
-- content: IEEE Std 828™-1983
+- content: IEEE Std 828-1983™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 828-1983
 date:
-- type: updated
-  at: '2016-04-22'
 - type: created
   at: '1983-06-24'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -67,6 +68,13 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard provides minimum requirements for preparation and content
+    of Software Configuration Management (SCM) Plans. SCM Plans document the methods
+    to be used for identifying software product items, controlling and implementing
+    changes, and recording and reporting change implementation status.
 copyright:
 - from: '1983'
   owner:

@@ -1,0 +1,141 @@
+---
+id: ANSIIEEE4931980
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Recommended Practice for the Design of Reliable Industrial and Commercial
+    Power Systems (IEEE Gold Book)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8684545
+docidentifier:
+- content: ANSI/IEEE 493-1980
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE 493-1980™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4217-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1979.8684545
+  type: DOI
+docnumber: ANSI/IEEE 493-1980
+date:
+- type: created
+  at: '1979-11-30'
+- type: published
+  at: '2019-04-09'
+- type: issued
+  at: '1979-12-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power Systems Engineering of the IEEE Industry Applications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Superseded. The fundamentals of reliability analysis as it applies to the
+    planning and design of industrial and commercial electric power distribution systems
+    are presented. Included are basic concepts of reliability analysis by probability
+    methods, fundamentals of power system reliability evaluation, economic evaluation
+    of reliability, cost of power outage data, equipment reliability data, examples
+    of reliability analysis. Emergency and standby power, electrical preventive maintenance,
+    and evaluating and improving reliability of the existing plant are also addressed.
+    The presentation is self-contained and should enable trade-off studies during
+    the design of industrial and commercial power systems design, installation, and
+    maintenance practices for electrical power and grounding (including both power-related
+    and signal-related noise control) of sensitive electronic processing equipment
+    used in commercial and industrial applications are presented.
+copyright:
+- from: '1980'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 493-1990
+    docidentifier:
+    - content: IEEE Std 493-1990
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: design
+- vocab:
+    language: en
+    script: Latn
+    content: reliable
+- vocab:
+    language: en
+    script: Latn
+    content: industrial
+- vocab:
+    language: en
+    script: Latn
+    content: commercial
+- vocab:
+    language: en
+    script: Latn
+    content: power
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
+  - code: 91.140.50
+    text: Electricity supply system
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

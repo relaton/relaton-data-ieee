@@ -1,0 +1,139 @@
+---
+id: IEEEP802154eD70092011
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Draft Standard for Local and Metropolitan Area Networks Part 15.4:
+    Low Rate Wireless Personal Area Networks (LR-WPANs) Amendment to the MAC sub-layer'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6056526
+docidentifier:
+- content: IEEE P802.15.4e/D7.0, 09 2011
+  type: IEEE
+  primary: true
+- content: IEEE P802.15.4e/D7.0, 09 2011™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6917-0
+  type: ISBN
+docnumber: IEEE P802.15.4e/D7.0, 09 2011
+date:
+- type: created
+  at: '2011-10-20'
+- type: published
+  at: '2011-10-20'
+- type: issued
+  at: '2011-10-20'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Seventh draft of 802 WG15 TG4e. Amendment to IEEE Std 802.15.4-2011. The
+    intention of this amendment is to enhance and add functionality to the 802.15.4
+    MAC to a) better support the industrial markets and b) permit compatibility with
+    modifications being proposed within the Chinese WPAN. Specifically, the MAC enhancements
+    are limited to: * TDMA: to provide a)determinism, b)enhanced utilization of bandwidth
+    * Channel Hopping: to provide additional robustness in high interfering environments
+    and enhance coexistence with other wireless networks * GTS: to increase its flexibility
+    such as a) supporting peer to peer, b)the length of the slot, and c) number of
+    slots * CSMA: to improve throughput and reduce energy consumption * Security:
+    to add support for additional options such as asymmetrical keys * Low latency:
+    to reduce end to end delivery time such as needed for control applications'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE standards
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Metropolitan area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Personal area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Wireless communication
+- vocab:
+    language: en
+    script: Latn
+    content: Media Access Protocol
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

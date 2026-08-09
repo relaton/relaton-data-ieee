@@ -1,0 +1,236 @@
+---
+id: IEEEP18002D8March2020
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Approved Draft Standard for Universal Verification Methodology Language
+    Reference Manual
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9047184
+docidentifier:
+- content: IEEE P1800.2/D8, March, 2020
+  type: IEEE
+  primary: true
+- content: IEEE P1800.2/D8, March, 2020™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6586-1
+  type: ISBN
+docnumber: IEEE P1800.2/D8, March, 2020
+date:
+- type: created
+  at: '2020-06-16'
+- type: published
+  at: '2020-03-25'
+- type: issued
+  at: '2020-06-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The Universal Verification Methodology (UVM) that can improve interoperability,
+    reduce the cost of using intellectual property (IP) for new projects or electronic
+    design automation (EDA) tools, and make it easier to reuse verification components
+    is provided. Overall, using this standard will lower verification costs and improve
+    design quality throughout the industry. The primary audiences for this standard
+    are the implementors of the UVM base class library, the implementors of tools
+    supporting the UVM base class library, and the users of the UVM base class library.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 1800.2-2017
+    docidentifier:
+    - content: IEEE Std 1800.2-2017
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Verification
+- vocab:
+    language: en
+    script: Latn
+    content: Sequential analysis
+- vocab:
+    language: en
+    script: Latn
+    content: Registers
+- vocab:
+    language: en
+    script: Latn
+    content: agent
+- vocab:
+    language: en
+    script: Latn
+    content: blocking
+- vocab:
+    language: en
+    script: Latn
+    content: callback
+- vocab:
+    language: en
+    script: Latn
+    content: class
+- vocab:
+    language: en
+    script: Latn
+    content: component
+- vocab:
+    language: en
+    script: Latn
+    content: consumer
+- vocab:
+    language: en
+    script: Latn
+    content: driver
+- vocab:
+    language: en
+    script: Latn
+    content: event
+- vocab:
+    language: en
+    script: Latn
+    content: export
+- vocab:
+    language: en
+    script: Latn
+    content: factory
+- vocab:
+    language: en
+    script: Latn
+    content: function
+- vocab:
+    language: en
+    script: Latn
+    content: generator
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1800.2
+- vocab:
+    language: en
+    script: Latn
+    content: member
+- vocab:
+    language: en
+    script: Latn
+    content: method
+- vocab:
+    language: en
+    script: Latn
+    content: monitor
+- vocab:
+    language: en
+    script: Latn
+    content: non-blocking
+- vocab:
+    language: en
+    script: Latn
+    content: phase
+- vocab:
+    language: en
+    script: Latn
+    content: port
+- vocab:
+    language: en
+    script: Latn
+    content: register
+- vocab:
+    language: en
+    script: Latn
+    content: resource
+- vocab:
+    language: en
+    script: Latn
+    content: sequence
+- vocab:
+    language: en
+    script: Latn
+    content: sequencer
+- vocab:
+    language: en
+    script: Latn
+    content: transaction-level modeling
+- vocab:
+    language: en
+    script: Latn
+    content: verification methodology
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

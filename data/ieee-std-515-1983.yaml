@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 515-1983
   type: IEEE
   primary: true
-- content: IEEE Std 515™-1983
+- content: IEEE Std 515-1983™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 515-1983
 date:
-- type: updated
-  at: '2016-03-25'
 - type: created
   at: '1982-02-11'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -66,6 +67,15 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This recommended practice provides recommendations for the testing, design,
+    installation, and maintenance of electrical resistance heat tracing in general
+    industries as applied to mechanical piping and equipment. The electrical resistance
+    heat tracing is in the form of series-heating cables and parallel-heating cables.
+    The recommendations also include test criteria to determine the suitability of
+    heating cables which are utilized for these applications.
 copyright:
 - from: '1982'
   owner:

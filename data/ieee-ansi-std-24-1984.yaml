@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE/ANSI Std 24-1984
   type: IEEE
   primary: true
-- content: IEEE/ANSI Std 24™-1984
+- content: IEEE/ANSI Std 24-1984™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE/ANSI Std 24-1984
 date:
-- type: updated
-  at: '2016-02-12'
 - type: created
   at: '1984-06-06'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -67,6 +68,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard covers electrical, dimensional, and related requirements
+    for outdoor power class apparatus bushings which have basic impulse insulation
+    levels of 110 kV and higher. It provides specific values for dimensional and related
+    requirements which are to be interpreted, measured, or tested in accordance with
+    ANSI/IEEE Std 21-1976. Bushings covered by this standard are intended for use
+    as components of oil-filled transformers, oil-filled reactors, and oil circuit
+    breakers.
 copyright:
 - from: '1984'
   owner:

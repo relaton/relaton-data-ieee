@@ -3,33 +3,32 @@ id: IECIEEE8000512019
 schema_version: v1.5.6
 type: standard
 title:
-- content: 'ISO/IEC/IEEE International Standard - Utility connections in port -- Part
-    1: High voltage shore connection (HVSC) systems -- General requirements - Amendment
-    2'
+- content: 'IEC/IEEE International Standard - Utility connections in port -- Part
+    1: High voltage shore connection (HVSC) systems -- General requirements'
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/10234208
+  content: https://ieeexplore.ieee.org/document/8666180
 docidentifier:
 - content: IEC/IEEE 80005.1-2019
   type: IEEE
   primary: true
-- content: IEC/IEEE 80005.1™-2019
+- content: IEC/IEEE 80005.1-2019™
   type: IEEE
   scope: trademark
   primary: true
-- content: 979-8-8557-0045-9
+- content: 978-1-5044-5564-0
   type: ISBN
-- content: 10.1109/IEEESTD.2023.10234208
+- content: 10.1109/IEEESTD.2019.8666180
   type: DOI
 docnumber: IEC/IEEE 80005.1-2019
 date:
 - type: created
-  at: '2023-08-30'
+  at: '2019-03-18'
 - type: published
-  at: '2023-08-29'
+  at: '2019-03-12'
 - type: issued
-  at: '2023-06-05'
+  at: '2019-02-08'
 contributor:
 - role:
   - type: publisher
@@ -61,8 +60,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Petroleum and Chemical Industry of the IEEE Industry Applications
-          Society
+        content: Petroleum & Chemical Industry of the IEEE Industry Applications Society
       type: committee
     abbreviation:
       content: IEEE
@@ -70,11 +68,34 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: For a variety of reasons, including environmental considerations, it is
+    becoming an increasingly common requirement for ships to shut down ship generators
+    and to connect to shore power for as long as practicable during stays in port.
+    The scenario of receiving electrical power and other utilities from shore is historically
+    known as "cold ironing". The intention of this part of IEC/IEEE 80005 is to define
+    requirements that support, with the application of suitable operating practices,
+    efficiency and safety of connections by compliant ships to compliant high-voltage
+    shore power supplies through a compatible shore-to-ship connection. With the support
+    of sufficient planning, cooperation between ship and terminal facilities, and
+    appropriate operating procedures and assessment, compliance with the requirements
+    of this document is intended to allow different ships to connect to high-voltage
+    shore connections (HVSC) at different berths. This provides the benefits of standard,
+    straightforward connection without the need for adaptation and adjustment at different
+    locations that can satisfy the requirement to connect for as long as practicable
+    during stays in port. Ships that do not apply this document can find it impossible
+    to connect to compliant shore supplies. Where deviations from this document are
+    considered, it is useful to note the effects of such deviations in the compatibility
+    study. Where the requirements and recommendations of this document are complied
+    with, highvoltage shore supplies arrangements are likely to be compatible for
+    visiting ships for connection.
 status:
   stage:
     content: approved
 copyright:
-- from: '2023'
+- from: '2019'
   owner:
   - organization:
       uri:
@@ -87,17 +108,23 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
-      name:
-      - language: en
-        script: Latn
-        content: ISO
-  - organization:
-      uri:
       name:
       - language: en
         script: Latn
         content: IEC
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEC/ISO/IEEE 80005.1-2012
+    docidentifier:
+    - content: IEC/ISO/IEEE 80005.1-2012
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -110,19 +137,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: ISO Standards
+    content: Power transmission
 - vocab:
     language: en
     script: Latn
-    content: Maritime communications
-- vocab:
-    language: en
-    script: Latn
-    content: Voltage control
-- vocab:
-    language: en
-    script: Latn
-    content: Marine vehicles
+    content: High-voltage techniques
 ext:
   schema_version: v1.1.3
   doctype:

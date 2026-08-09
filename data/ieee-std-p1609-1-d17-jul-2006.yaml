@@ -1,0 +1,146 @@
+---
+id: IEEEStdP16091D17Jul2006
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Trial-Use Standard for Wireless Access in Vehicular Environments
+    (WAVE) - Resource Manager
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8686394
+docidentifier:
+- content: IEEE Std P1609.1/D17, Jul 2006
+  type: IEEE
+  primary: true
+- content: IEEE Std P1609.1/D17, Jul 2006™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5709-5
+  type: ISBN
+docnumber: IEEE Std P1609.1/D17, Jul 2006
+date:
+- type: created
+  at: '2019-04-09'
+- type: published
+  at: '2019-04-11'
+- type: issued
+  at: '2006-09-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Intelligent Transportation Systems of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies a wireless access in vehicular environments (WAVE)
+    dedicated short-range communications (DSRC) application, known as the WAVE resource
+    manager (RM), designed to allow applications at remote sites to communicate with
+    devices known as onboard units (OBUs), which are mounted in vehicles, through
+    devices known as roadside units (RSUs), which are mounted on the roadside. The
+    WAVE RM, acting like an application layer, multiplexes the communications of multiple
+    remote applications, each communicating with multiple OBUs. The purpose of the
+    communication is to conduct information interchange, needed to implement the requirements
+    of the remote WAVE DSRC applications.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2006'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Dedicated short range communication
+- vocab:
+    language: en
+    script: Latn
+    content: Wireless Access in Vehicular Environments
+- vocab:
+    language: en
+    script: Latn
+    content: Multiplexing
+- vocab:
+    language: en
+    script: Latn
+    content: Resource management
+- vocab:
+    language: en
+    script: Latn
+    content: DSRC
+- vocab:
+    language: en
+    script: Latn
+    content: WAVE
+- vocab:
+    language: en
+    script: Latn
+    content: resource manager
+- vocab:
+    language: en
+    script: Latn
+    content: '1609'
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport and trade
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

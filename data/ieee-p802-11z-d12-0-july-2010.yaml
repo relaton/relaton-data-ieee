@@ -1,0 +1,134 @@
+---
+id: IEEEP80211zD120July2010
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Draft Standard for Information Technology - Telecommunications and
+    information exchange between systems - Local and Metropolitan Area networks -
+    Specific requirements - Part 11: Wireless LAN Medium Access Control (MAC) and
+    Physical Layer (PHY) specifications - Amendment 7: Extensions to Direct Link Setup(DLS)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5552628
+docidentifier:
+- content: IEEE P802.11z/D12.0, July 2010
+  type: IEEE
+  primary: true
+- content: IEEE P802.11z/D12.0, July 2010™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-5972-0
+  type: ISBN
+docnumber: IEEE P802.11z/D12.0, July 2010
+date:
+- type: created
+  at: '2010-08-18'
+- type: published
+  at: '2010-08-19'
+- type: issued
+  at: '2010-08-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment provides Direct Link Setup enhancements to the IEEE 802.11
+    MAC and PHY, extending direct link setup to be independent of the access point
+    (AP), and adding power save capabilities. The direct link setup is made independent
+    of the AP by tunneling the protocol messages inside data frames.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE standards
+- vocab:
+    language: en
+    script: Latn
+    content: Information technology
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Metropolitan area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Direct Link
+- vocab:
+    language: en
+    script: Latn
+    content: Power Saving
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 4-1995
   type: IEEE
   primary: true
-- content: IEEE Std 4™-1995
+- content: IEEE Std 4-1995™
   type: IEEE
   scope: trademark
   primary: true
@@ -25,7 +25,7 @@ date:
 - type: created
   at: '1995-10-12'
 - type: published
-  at: '2013-05-21'
+  at: '2002-08-06'
 - type: issued
   at: '1995-03-16'
 contributor:
@@ -91,6 +91,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 4-2013
+    docidentifier:
+    - content: IEEE Std 4-2013
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -98,17 +106,9 @@ relation:
     content: revises
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 4-1978
+      content: ANSI/IEEE 4-1978
     docidentifier:
-    - content: ANSI/IEEE Std 4-1978
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 4-2013
-    docidentifier:
-    - content: IEEE Std 4-2013
+    - content: ANSI/IEEE 4-1978
       type: IEEE
       primary: true
 keyword:

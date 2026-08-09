@@ -1,0 +1,208 @@
+---
+id: ISOIECIEEE88023Amd82017
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'ISO/IEC/IEEE International Standard - Information technology -- Telecommunications
+    and information exchange between systems -- Local and metropolitan area networks
+    -- Specific requirements -- Part 3: Standard for Ethernet AMENDMENT 8: Physical
+    layer and management parameters for Power over Data Lines (PoDL) of single balanced
+    twisted-pair Ethernet'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8575225
+docidentifier:
+- content: ISO/IEC/IEEE 8802.3/Amd 8-2017
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 8802.3/Amd 8-2017™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5367-7
+  type: ISBN
+- content: 10.1109/IEEESTD.2018.8575225
+  type: DOI
+docnumber: ISO/IEC/IEEE 8802.3/Amd 8-2017
+date:
+- type: created
+  at: '2018-12-11'
+- type: published
+  at: '2018-12-13'
+- type: issued
+  at: '2018'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Specifications and management parameters for the provision of power via
+    a single twisted pair to connected Data Terminal Equipment (DTE) with IEEE 802.3
+    single balanced twisted-pair interfaces are added by this amendment to IEEE Std
+    802.3-2015.
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      uri:
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref:
+      content: IEEE Std 802.3bu-2016
+    docidentifier:
+    - content: IEEE Std 802.3bu-2016
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: ISO Standards
+- vocab:
+    language: en
+    script: Latn
+    content: IEC Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Information technology
+- vocab:
+    language: en
+    script: Latn
+    content: Information exchange
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Metropolitan area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Physical layer
+- vocab:
+    language: en
+    script: Latn
+    content: Power transmission lines
+- vocab:
+    language: en
+    script: Latn
+    content: Data communication
+- vocab:
+    language: en
+    script: Latn
+    content: Twisted pair wiring
+- vocab:
+    language: en
+    script: Latn
+    content: 100BASE-T1
+- vocab:
+    language: en
+    script: Latn
+    content: 1000BASE-T1
+- vocab:
+    language: en
+    script: Latn
+    content: Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.3
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.3bu
+- vocab:
+    language: en
+    script: Latn
+    content: Power over Data Lines
+- vocab:
+    language: en
+    script: Latn
+    content: PoDL
+- vocab:
+    language: en
+    script: Latn
+    content: PoDL PD
+- vocab:
+    language: en
+    script: Latn
+    content: PoDL PSE
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

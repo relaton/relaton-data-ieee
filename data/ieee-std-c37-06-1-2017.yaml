@@ -14,7 +14,7 @@ docidentifier:
 - content: IEEE Std C37.06.1-2017
   type: IEEE
   primary: true
-- content: IEEE Std C37.06.1™-2017
+- content: IEEE Std C37.06.1-2017™
   type: IEEE
   scope: trademark
   primary: true
@@ -76,9 +76,6 @@ abstract:
     recovery voltage rise times) of indoor and outdoor high-voltage circuit breakers
     rated above 1000 V for use in commercial, industrial, and utility installations
     are described.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2018'
   owner:
@@ -92,6 +89,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.06.1-2025
+    docidentifier:
+    - content: IEEE Std C37.06.1-2025
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -153,7 +159,6 @@ ext:
   ics:
   - code: 29.130.10
     text: High voltage switchgear and controlgear
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

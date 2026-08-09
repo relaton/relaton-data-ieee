@@ -7,23 +7,25 @@ title:
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/213705
+  content: https://ieeexplore.ieee.org/document/7862972
 docidentifier:
 - content: IEEE Std 730.1-1989
   type: IEEE
   primary: true
-- content: IEEE Std 730.1™-1989
+- content: IEEE Std 730.1-1989™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-4401-6
   type: ISBN
-- content: 10.1109/IEEESTD.1989.114461
+- content: 10.1109/IEEESTD.1986.7862972
   type: DOI
 docnumber: IEEE Std 730.1-1989
 date:
 - type: created
-  at: '1989'
+  at: '1986-10-10'
+- type: published
+  at: '2017-02-23'
 - type: issued
   at: '1989-08-17'
 contributor:
@@ -66,22 +68,6 @@ language:
 - en
 script:
 - Latn
-abstract:
-- language: en
-  script: Latn
-  content: The purpose of the IEEE standard presented is to provide uniform, minimum
-    acceptable requirements for preparation and content of software quality assurance
-    plans (SQAPs). In considering adoption of this standard, regulatory bodies should
-    be aware that specific application of this standard may already be covered by
-    one or more IEEE or ANSI standards documents relating to quality assurance, definitions,
-    or other matters. This standard applies to the development and maintenance of
-    critical software. For non-critical software, or for software already developed,
-    a subset of the requirements of this standard may be applied. The existence of
-    this standard should not be construed to prohibit additional content in a SQAP.
-    An assessment should be made for the specific software item to assure adequacy
-    of coverage. Where this standard is invoked for an organization or project engaged
-    in producting several software items, the applicability of the standard should
-    be specified for each of the software items.
 copyright:
 - from: '1989'
   owner:
@@ -103,16 +89,16 @@ relation:
     content: revises
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 730-1984
+      content: ANSI/IEEE 730-1984
     docidentifier:
-    - content: ANSI/IEEE Std 730-1984
+    - content: ANSI/IEEE 730-1984
       type: IEEE
       primary: true
 keyword:
 - vocab:
     language: en
     script: Latn
-    content: Quality control
+    content: IEEE Standards
 - vocab:
     language: en
     script: Latn
@@ -120,11 +106,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Software reliability
-- vocab:
-    language: en
-    script: Latn
-    content: Standards
+    content: Quality assurance
 ext:
   schema_version: v1.1.3
   doctype:

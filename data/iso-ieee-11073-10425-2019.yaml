@@ -14,7 +14,7 @@ docidentifier:
 - content: ISO/IEEE 11073.10425-2019
   type: IEEE
   primary: true
-- content: ISO/IEEE 11073.10425™-2019
+- content: ISO/IEEE 11073.10425-2019™
   type: IEEE
   scope: trademark
   primary: true
@@ -24,8 +24,6 @@ docidentifier:
   type: DOI
 docnumber: ISO/IEEE 11073.10425-2019
 date:
-- type: updated
-  at: '2020-06-12'
 - type: created
   at: '2019-03-29'
 - type: published
@@ -84,6 +82,7 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
+      uri:
       name:
       - language: en
         script: Latn
@@ -92,9 +91,9 @@ relation:
 - type: adoptedFrom
   bibitem:
     formattedref:
-      content: IEEE Std 11073.10425-2017
+      content: IEEE Std 11073-10425-2017
     docidentifier:
-    - content: IEEE Std 11073.10425-2017
+    - content: IEEE Std 11073-10425-2017
       type: IEEE
       primary: true
 keyword:

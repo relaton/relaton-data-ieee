@@ -1,0 +1,190 @@
+---
+id: IEEEP754D249March2019
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Floating-Point Arithmetic
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8686420
+docidentifier:
+- content: IEEE P754/D2.49, March, 2019
+  type: IEEE
+  primary: true
+- content: IEEE P754/D2.49, March, 2019™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5660-9
+  type: ISBN
+docnumber: IEEE P754/D2.49, March, 2019
+date:
+- type: created
+  at: '2019-03-28'
+- type: published
+  at: '2019-04-10'
+- type: issued
+  at: '2019-06-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies interchange and arithmetic formats and methods
+    for binary and decimal floating-point arithmetic in computer programming environments.
+    This standard specifies exception conditions and their default handling. An implementation
+    of a floating-point system conforming to this standard may be realized entirely
+    in software, entirely in hardware, or in any combination of software and hardware.
+    For operations specified in the normative part of this standard, numerical results
+    and exceptions are uniquely determined by the values of the input data, sequence
+    of operations, and destination formats, all under user control.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 754-2008
+    docidentifier:
+    - content: IEEE Std 754-2008
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Floating-point arithmetic
+- vocab:
+    language: en
+    script: Latn
+    content: Microprocessors
+- vocab:
+    language: en
+    script: Latn
+    content: arithmetic
+- vocab:
+    language: en
+    script: Latn
+    content: binary
+- vocab:
+    language: en
+    script: Latn
+    content: computer
+- vocab:
+    language: en
+    script: Latn
+    content: decimal
+- vocab:
+    language: en
+    script: Latn
+    content: exponent
+- vocab:
+    language: en
+    script: Latn
+    content: floating-point
+- vocab:
+    language: en
+    script: Latn
+    content: format
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 754
+- vocab:
+    language: en
+    script: Latn
+    content: interchange
+- vocab:
+    language: en
+    script: Latn
+    content: NaN
+- vocab:
+    language: en
+    script: Latn
+    content: number
+- vocab:
+    language: en
+    script: Latn
+    content: rounding
+- vocab:
+    language: en
+    script: Latn
+    content: significand
+- vocab:
+    language: en
+    script: Latn
+    content: subnormal.
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '07.020'
+    text: Mathematics
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

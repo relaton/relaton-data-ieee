@@ -1,0 +1,186 @@
+---
+id: IEEEP8023azD31June2010DraftAmendmentofIEEEStd80232008
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Draft Standard for Information technology Telecommunications and
+    information exchange between systems Local and metropolitan area networks Specific
+    requirements Part 3: Carrier Sense Multiple Access with Collision Detection (CSMA/CD)
+    Access Method and Physical Layer Specifications Amendment: Media Access Control
+    parameters, Physical Layers and management parameters for Energy-Efficient Ethernet'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5510208
+docidentifier:
+- content: IEEE P802.3az/D3.1, June 2010 (Draft Amendment of IEEE Std 802.3-2008)
+  type: IEEE
+  primary: true
+- content: IEEE P802.3az/D3.1, June 2010 (Draft Amendment of IEEE Std 802.3-2008)™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6293-5
+  type: ISBN
+docnumber: IEEE P802.3az/D3.1, June 2010 (Draft Amendment of IEEE Std 802.3-2008)
+date:
+- type: created
+  at: '2010-07-12'
+- type: published
+  at: '2010-07-15'
+- type: issued
+  at: '2010-07-12'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.32008 specifies changes to several existing
+    physical layers to enable energy efficient operation of Ethernet. Changes to 10BASE-T
+    include a reduction in transmit voltage requirements. Changes to 100BASE-TX, 1000BASE-T,
+    10GBASE-T, 1000BASE-KX, 10GBASE-KX4 and 10GBASE-KR include the definition of a
+    Low Power Idle (LPI) mode and mechanisms to communicate and manage the entry and
+    exit into and out of LPI and the operation of this mode. New LLDP TLVs are defined
+    for negotiating system level energy efficiency parameters.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Physical layer
+- vocab:
+    language: en
+    script: Latn
+    content: Energy efficiency
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.3 Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Ethernet networks
+- vocab:
+    language: en
+    script: Latn
+    content: 802.3az
+- vocab:
+    language: en
+    script: Latn
+    content: 10BASE-T
+- vocab:
+    language: en
+    script: Latn
+    content: 100BASE-TX
+- vocab:
+    language: en
+    script: Latn
+    content: 1000BASE-T
+- vocab:
+    language: en
+    script: Latn
+    content: 10GBASE-T
+- vocab:
+    language: en
+    script: Latn
+    content: 1000BASE-KX
+- vocab:
+    language: en
+    script: Latn
+    content: 10GBASE-KX4
+- vocab:
+    language: en
+    script: Latn
+    content: 10GBASE-KR
+- vocab:
+    language: en
+    script: Latn
+    content: Backplane Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: Energy Efficient Ethernet (EEE)
+- vocab:
+    language: en
+    script: Latn
+    content: Low Power Idle Mode (LPI)
+- vocab:
+    language: en
+    script: Latn
+    content: TLV
+- vocab:
+    language: en
+    script: Latn
+    content: LLDP
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

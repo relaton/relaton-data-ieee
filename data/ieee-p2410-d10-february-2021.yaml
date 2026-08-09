@@ -1,0 +1,218 @@
+---
+id: IEEEP2410D10February2021
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Biometric Privacy
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9354144
+docidentifier:
+- content: IEEE P2410/D10, February, 2021
+  type: IEEE
+  primary: true
+- content: IEEE P2410/D10, February, 2021™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-7386-6
+  type: ISBN
+docnumber: IEEE P2410/D10, February, 2021
+date:
+- type: created
+  at: '2021-02-11'
+- type: published
+  at: '2021-02-12'
+- type: issued
+  at: '2021-03-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Edge, Fog, Cloud Communications with IOT and Big Data Standards Committee
+          of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The Standard for Biometric Privacy (SBP) provides private identity assertion.
+    SBP supersedes the prior IEEE Std 2410(TM)-2019 by including a formal specification
+    for privacy and biometrics such that a conforming SBP system does not incur GDPR,
+    CCPA, BIPA or HIPAA privacy obligations. Homomorphic encryption ensures the biometric
+    payload is always one-way encrypted with no need for key management and provides
+    full privacy by ensuring plaintext biometrics are never received by the SBP server.
+    The SBP implementation includes software running on a client device and on the
+    SPB server. Pluggable components are used to replace legacy functionality to allow
+    rapid integration into existing operating environments. The SBP implementation
+    allows the systems to meet security needs by using the application programming
+    interface, whether the underlying system is a relational database management system
+    or a search engine. The SBP implementation functionality offers a “point-and-cut”
+    mechanism to add the appropriate security to the production systems as well as
+    to the systems in development. The architecture is language neutral, allowing
+    Representational State Transfer (REST ), JavaScript Object Notation (JSON), and
+    Transport Layer Security (TLS) to provide the communication interface. This document
+    describes the essential methodology to SBP.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 2410-2019
+    docidentifier:
+    - content: IEEE Std 2410-2019
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Biometrics
+- vocab:
+    language: en
+    script: Latn
+    content: Privacy
+- vocab:
+    language: en
+    script: Latn
+    content: Servers
+- vocab:
+    language: en
+    script: Latn
+    content: admin console
+- vocab:
+    language: en
+    script: Latn
+    content: application
+- vocab:
+    language: en
+    script: Latn
+    content: biometric-driven device
+- vocab:
+    language: en
+    script: Latn
+    content: biometrics
+- vocab:
+    language: en
+    script: Latn
+    content: privacy
+- vocab:
+    language: en
+    script: Latn
+    content: client device IDS
+- vocab:
+    language: en
+    script: Latn
+    content: IDS cluster
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Std 2410(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: Jena Rules
+- vocab:
+    language: en
+    script: Latn
+    content: liveness
+- vocab:
+    language: en
+    script: Latn
+    content: original site admin
+- vocab:
+    language: en
+    script: Latn
+    content: SBP admin
+- vocab:
+    language: en
+    script: Latn
+    content: SBP cluster
+- vocab:
+    language: en
+    script: Latn
+    content: SBP IDS
+- vocab:
+    language: en
+    script: Latn
+    content: SBP server
+- vocab:
+    language: en
+    script: Latn
+    content: site admin
+- vocab:
+    language: en
+    script: Latn
+    content: trusted adjudicated data
+- vocab:
+    language: en
+    script: Latn
+    content: user
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.240.15
+    text: Identification cards. Chip cards. Biometrics
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

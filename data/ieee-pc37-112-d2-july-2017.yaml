@@ -1,0 +1,134 @@
+---
+id: IEEEPC37112D2July2017
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Standard Inverse-Time Characteristic Equations for Overcurrent Relays
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7979704
+docidentifier:
+- content: IEEE PC37.112/D2, July 2017
+  type: IEEE
+  primary: true
+- content: IEEE PC37.112/D2, July 2017™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4174-2
+  type: ISBN
+docnumber: IEEE PC37.112/D2, July 2017
+date:
+- type: created
+  at: '2017-07-12'
+- type: published
+  at: '2017-07-13'
+- type: issued
+  at: '2018-12-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The inverse-time characteristics of overcurrent relays are defined in this
+    standard. Operating equations and allowances are provided in the standard. The
+    standard defines an integral equation for microprocessor relays that ensures coordination
+    not only in the case of constant current input but for any current condition of
+    varying magnitude. Electromechanical inverse-time overcurrent relay reset characteristics
+    are defined in the event that designers of microprocessor based relays and computer
+    relays want to match the reset characteristics of the electromechanical relays.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Relays
+- vocab:
+    language: en
+    script: Latn
+    content: Inverse problems
+- vocab:
+    language: en
+    script: Latn
+    content: Current distribution
+- vocab:
+    language: en
+    script: Latn
+    content: Timing analysis
+- vocab:
+    language: en
+    script: Latn
+    content: inverse-time characteristics
+- vocab:
+    language: en
+    script: Latn
+    content: overcurrent relays
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 29.120.70
+    text: Relays
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

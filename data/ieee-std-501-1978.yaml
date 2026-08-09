@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 501-1978
   type: IEEE
   primary: true
-- content: IEEE Std 501™-1978
+- content: IEEE Std 501-1978™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 501-1978
 date:
-- type: updated
-  at: '2019-04-17'
 - type: created
   at: '1978-04-28'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

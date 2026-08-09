@@ -13,7 +13,7 @@ docidentifier:
 - content: ISO/IEC/IEEE 15289-2011
   type: IEEE
   primary: true
-- content: ISO/IEC/IEEE 15289™-2011
+- content: ISO/IEC/IEEE 15289-2011™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: ISO/IEC/IEEE 15289-2011
 date:
-- type: updated
-  at: '2012-01-16'
 - type: created
   at: '2011-11-01'
 - type: published
-  at: '2015-05-15'
+  at: '2011-12-13'
 - type: issued
   at: '2011-09-10'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -117,9 +118,9 @@ relation:
     content: revises
   bibitem:
     formattedref:
-      content: IEEE/EIA 12207.1-1997
+      content: IEEE/EIA Std 12207.1-1997
     docidentifier:
-    - content: IEEE/EIA 12207.1-1997
+    - content: IEEE/EIA Std 12207.1-1997
       type: IEEE
       primary: true
 - type: obsoletedBy

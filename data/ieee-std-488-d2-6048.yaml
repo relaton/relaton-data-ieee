@@ -1,0 +1,165 @@
+---
+id: IEEEStd488D26048
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEC/IEEE International - Standard Digital Interface for Programmable Instrumentation
+    - Part 2: Codes, formats, protocols and common commands'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1352831
+docidentifier:
+- content: IEEE Std 488/D2-6048
+  type: IEEE
+  primary: true
+- content: IEEE Std 488/D2-6048™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4100-8
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.95390
+  type: DOI
+docnumber: IEEE Std 488/D2-6048
+date:
+- type: created
+  at: '2004-05-15'
+- type: published
+  at: '2019-10-31'
+- type: issued
+  at: '2004'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A set of codes and formats to be used by devices connected via the IEEE
+    488.1 bus is specified. This standard also defines communication protocols that
+    are necessary to effect application-independent and device-dependent message exchanges,
+    and further defines common commands and characteristics useful in instrument system
+    applications.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEC Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Protocols
+- vocab:
+    language: en
+    script: Latn
+    content: IEC
+- vocab:
+    language: en
+    script: Latn
+    content: Customer services
+- vocab:
+    language: en
+    script: Latn
+    content: Syntactics
+- vocab:
+    language: en
+    script: Latn
+    content: Registers
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Std 60488.3-1992
+- vocab:
+    language: en
+    script: Latn
+    content: '60488.3'
+- vocab:
+    language: en
+    script: Latn
+    content: 488.2 codes
+- vocab:
+    language: en
+    script: Latn
+    content: communication protocols
+- vocab:
+    language: en
+    script: Latn
+    content: commands
+- vocab:
+    language: en
+    script: Latn
+    content: deminitions
+- vocab:
+    language: en
+    script: Latn
+    content: instrument system applications
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: '35.040'
+    text: Character sets and information coding
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

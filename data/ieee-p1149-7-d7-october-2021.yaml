@@ -1,0 +1,883 @@
+---
+id: IEEEP11497D7October2021
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Reduced-Pin and Enhanced-Functionality Test Access
+    Port and Boundary-Scan Architecture
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9599631
+docidentifier:
+- content: IEEE P1149.7/D7, October, 2021
+  type: IEEE
+  primary: true
+- content: IEEE P1149.7/D7, October, 2021™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8114-4
+  type: ISBN
+docnumber: IEEE P1149.7/D7, October, 2021
+date:
+- type: created
+  at: '2021-11-01'
+- type: published
+  at: '2021-11-02'
+- type: issued
+  at: '2022-06-16'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Circuitry that may be added to an integrated circuit to provide access
+    to on-chip Test Access Ports (TAPs) specified by IEEE Std 1149.1 is described
+    in this standard. The circuitry uses IEEE Std 1149.1 as its foundation, providing
+    complete backward compatibility, while aggressively adding features to support
+    test and applications debug. It defines six classes of IEEE 1149.7 Test Access
+    Ports (TAP.7s), T0 to T5, with each class providing incremental capability, building
+    on that of the lower level classes. Class T0 provides the behavior specified by
+    1149.1 from startup when there are multiple on-chip TAPs. Class T1 adds common
+    debug functions and features to minimize power consumption. Class T2 adds operating
+    modes that maximize scan performance. It also provides an optional hot-connection
+    capability to prevent system corruption when a connection is made to a powered
+    system. Class T3 supports operation in either a four-wire Series or Star Scan
+    Topology. Class T4 provides for communication with either a two-pin or four-pin
+    interface. The two-pin operation serializes IEEE 1149.1 transactions and provides
+    for higher Test Clock rates. Class T5 adds the ability to perform data transfers
+    concurrently with scan, supports utilization of functions other than scan, and
+    provides control of TAP.7 pins to custom debug technologies in a manner that ensures
+    current and future interoperability.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 1149.7-2009
+    docidentifier:
+    - content: IEEE Std 1149.7-2009
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: System-on-chip
+- vocab:
+    language: en
+    script: Latn
+    content: Power demand
+- vocab:
+    language: en
+    script: Latn
+    content: Pins
+- vocab:
+    language: en
+    script: Latn
+    content: Interoperability
+- vocab:
+    language: en
+    script: Latn
+    content: Integrated circuits
+- vocab:
+    language: en
+    script: Latn
+    content: Data transfer
+- vocab:
+    language: en
+    script: Latn
+    content: Testing
+- vocab:
+    language: en
+    script: Latn
+    content: 2-pin
+- vocab:
+    language: en
+    script: Latn
+    content: 2-wire
+- vocab:
+    language: en
+    script: Latn
+    content: 4-pin
+- vocab:
+    language: en
+    script: Latn
+    content: 4-wire
+- vocab:
+    language: en
+    script: Latn
+    content: Advanced Protocol
+- vocab:
+    language: en
+    script: Latn
+    content: Advanced Protocol Unit
+- vocab:
+    language: en
+    script: Latn
+    content: APU
+- vocab:
+    language: en
+    script: Latn
+    content: Background Data Transfer
+- vocab:
+    language: en
+    script: Latn
+    content: background data transport
+- vocab:
+    language: en
+    script: Latn
+    content: BDX
+- vocab:
+    language: en
+    script: Latn
+    content: boundary scan
+- vocab:
+    language: en
+    script: Latn
+    content: BSDL
+- vocab:
+    language: en
+    script: Latn
+    content: BSDL.1
+- vocab:
+    language: en
+    script: Latn
+    content: BSDL.7
+- vocab:
+    language: en
+    script: Latn
+    content: BYPASS
+- vocab:
+    language: en
+    script: Latn
+    content: Capture-IR
+- vocab:
+    language: en
+    script: Latn
+    content: CDX
+- vocab:
+    language: en
+    script: Latn
+    content: Chip-Level TAP Controller
+- vocab:
+    language: en
+    script: Latn
+    content: CID
+- vocab:
+    language: en
+    script: Latn
+    content: Class T0
+- vocab:
+    language: en
+    script: Latn
+    content: Class T1
+- vocab:
+    language: en
+    script: Latn
+    content: Class T2
+- vocab:
+    language: en
+    script: Latn
+    content: Class T3
+- vocab:
+    language: en
+    script: Latn
+    content: Class T4
+- vocab:
+    language: en
+    script: Latn
+    content: Class T5
+- vocab:
+    language: en
+    script: Latn
+    content: CLTAPC
+- vocab:
+    language: en
+    script: Latn
+    content: compact JTAG
+- vocab:
+    language: en
+    script: Latn
+    content: compliant behavior
+- vocab:
+    language: en
+    script: Latn
+    content: compliant operation
+- vocab:
+    language: en
+    script: Latn
+    content: control level
+- vocab:
+    language: en
+    script: Latn
+    content: controller address
+- vocab:
+    language: en
+    script: Latn
+    content: Controller ID
+- vocab:
+    language: en
+    script: Latn
+    content: Controller Identification Number
+- vocab:
+    language: en
+    script: Latn
+    content: CP
+- vocab:
+    language: en
+    script: Latn
+    content: Custom Data Transfer
+- vocab:
+    language: en
+    script: Latn
+    content: custom data transport
+- vocab:
+    language: en
+    script: Latn
+    content: Data Register
+- vocab:
+    language: en
+    script: Latn
+    content: debug interface
+- vocab:
+    language: en
+    script: Latn
+    content: debug logic
+- vocab:
+    language: en
+    script: Latn
+    content: debug and test interface
+- vocab:
+    language: en
+    script: Latn
+    content: DOT1
+- vocab:
+    language: en
+    script: Latn
+    content: DOT7
+- vocab:
+    language: en
+    script: Latn
+    content: DTI
+- vocab:
+    language: en
+    script: Latn
+    content: DTS
+- vocab:
+    language: en
+    script: Latn
+    content: DTT
+- vocab:
+    language: en
+    script: Latn
+    content: Debug Test System
+- vocab:
+    language: en
+    script: Latn
+    content: debug test target
+- vocab:
+    language: en
+    script: Latn
+    content: Escape
+- vocab:
+    language: en
+    script: Latn
+    content: EOT
+- vocab:
+    language: en
+    script: Latn
+    content: EPU
+- vocab:
+    language: en
+    script: Latn
+    content: extended operation
+- vocab:
+    language: en
+    script: Latn
+    content: Extended Protocol
+- vocab:
+    language: en
+    script: Latn
+    content: EXTEST
+- vocab:
+    language: en
+    script: Latn
+    content: four-pin
+- vocab:
+    language: en
+    script: Latn
+    content: four-wire
+- vocab:
+    language: en
+    script: Latn
+    content: HSDL
+- vocab:
+    language: en
+    script: Latn
+    content: HSDL.7
+- vocab:
+    language: en
+    script: Latn
+    content: IDCODE
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1149.1
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1149.7
+- vocab:
+    language: en
+    script: Latn
+    content: Instruction Register
+- vocab:
+    language: en
+    script: Latn
+    content: JScan
+- vocab:
+    language: en
+    script: Latn
+    content: JScan0
+- vocab:
+    language: en
+    script: Latn
+    content: JScan1
+- vocab:
+    language: en
+    script: Latn
+    content: JScan2
+- vocab:
+    language: en
+    script: Latn
+    content: JScan3
+- vocab:
+    language: en
+    script: Latn
+    content: JTAG
+- vocab:
+    language: en
+    script: Latn
+    content: MScan
+- vocab:
+    language: en
+    script: Latn
+    content: MTCP
+- vocab:
+    language: en
+    script: Latn
+    content: Multi-TAP Control Path
+- vocab:
+    language: en
+    script: Latn
+    content: narrow Star Scan Topology
+- vocab:
+    language: en
+    script: Latn
+    content: nTRST
+- vocab:
+    language: en
+    script: Latn
+    content: nTRST_PD
+- vocab:
+    language: en
+    script: Latn
+    content: optimized scan
+- vocab:
+    language: en
+    script: Latn
+    content: OScan
+- vocab:
+    language: en
+    script: Latn
+    content: OScan0
+- vocab:
+    language: en
+    script: Latn
+    content: OScan1
+- vocab:
+    language: en
+    script: Latn
+    content: OScan2
+- vocab:
+    language: en
+    script: Latn
+    content: OScan3
+- vocab:
+    language: en
+    script: Latn
+    content: OScan4
+- vocab:
+    language: en
+    script: Latn
+    content: OScan5
+- vocab:
+    language: en
+    script: Latn
+    content: OScan6
+- vocab:
+    language: en
+    script: Latn
+    content: OScan7
+- vocab:
+    language: en
+    script: Latn
+    content: Pause-DR
+- vocab:
+    language: en
+    script: Latn
+    content: Pause-IR
+- vocab:
+    language: en
+    script: Latn
+    content: PC0
+- vocab:
+    language: en
+    script: Latn
+    content: PC1
+- vocab:
+    language: en
+    script: Latn
+    content: RSU
+- vocab:
+    language: en
+    script: Latn
+    content: Reset and selection unit
+- vocab:
+    language: en
+    script: Latn
+    content: RTI
+- vocab:
+    language: en
+    script: Latn
+    content: Run- Test/Idle
+- vocab:
+    language: en
+    script: Latn
+    content: scan
+- vocab:
+    language: en
+    script: Latn
+    content: scan DR
+- vocab:
+    language: en
+    script: Latn
+    content: scan format
+- vocab:
+    language: en
+    script: Latn
+    content: scan IR
+- vocab:
+    language: en
+    script: Latn
+    content: Scan Packet
+- vocab:
+    language: en
+    script: Latn
+    content: scan path
+- vocab:
+    language: en
+    script: Latn
+    content: scan performance
+- vocab:
+    language: en
+    script: Latn
+    content: scan protocol
+- vocab:
+    language: en
+    script: Latn
+    content: scan topology
+- vocab:
+    language: en
+    script: Latn
+    content: series
+- vocab:
+    language: en
+    script: Latn
+    content: Series Branch
+- vocab:
+    language: en
+    script: Latn
+    content: Series Scan
+- vocab:
+    language: en
+    script: Latn
+    content: Series Scan Topology
+- vocab:
+    language: en
+    script: Latn
+    content: Series- Equivalent Scan
+- vocab:
+    language: en
+    script: Latn
+    content: Series Topology
+- vocab:
+    language: en
+    script: Latn
+    content: Shift-DR
+- vocab:
+    language: en
+    script: Latn
+    content: Shift-IR
+- vocab:
+    language: en
+    script: Latn
+    content: SiP
+- vocab:
+    language: en
+    script: Latn
+    content: Star Scan
+- vocab:
+    language: en
+    script: Latn
+    content: Star Scan Topology
+- vocab:
+    language: en
+    script: Latn
+    content: Star Topology
+- vocab:
+    language: en
+    script: Latn
+    content: Star-2
+- vocab:
+    language: en
+    script: Latn
+    content: Star-2 Branch
+- vocab:
+    language: en
+    script: Latn
+    content: Star-2 Scan
+- vocab:
+    language: en
+    script: Latn
+    content: Scan Topology
+- vocab:
+    language: en
+    script: Latn
+    content: Star-4
+- vocab:
+    language: en
+    script: Latn
+    content: Star-4 Branch
+- vocab:
+    language: en
+    script: Latn
+    content: Star- 4 Scan
+- vocab:
+    language: en
+    script: Latn
+    content: Star-4 Scan Topology
+- vocab:
+    language: en
+    script: Latn
+    content: SP
+- vocab:
+    language: en
+    script: Latn
+    content: SScan
+- vocab:
+    language: en
+    script: Latn
+    content: SScan0
+- vocab:
+    language: en
+    script: Latn
+    content: SScan1
+- vocab:
+    language: en
+    script: Latn
+    content: SScan2
+- vocab:
+    language: en
+    script: Latn
+    content: SScan3
+- vocab:
+    language: en
+    script: Latn
+    content: stall
+- vocab:
+    language: en
+    script: Latn
+    content: SSD
+- vocab:
+    language: en
+    script: Latn
+    content: Scan Selection Directive
+- vocab:
+    language: en
+    script: Latn
+    content: Standard Protocol
+- vocab:
+    language: en
+    script: Latn
+    content: star scan
+- vocab:
+    language: en
+    script: Latn
+    content: STL
+- vocab:
+    language: en
+    script: Latn
+    content: System Test Logic
+- vocab:
+    language: en
+    script: Latn
+    content: TAP
+- vocab:
+    language: en
+    script: Latn
+    content: TAP controller
+- vocab:
+    language: en
+    script: Latn
+    content: TAP controller address
+- vocab:
+    language: en
+    script: Latn
+    content: TAP selection
+- vocab:
+    language: en
+    script: Latn
+    content: TAP.1
+- vocab:
+    language: en
+    script: Latn
+    content: TAP.7
+- vocab:
+    language: en
+    script: Latn
+    content: TAPC
+- vocab:
+    language: en
+    script: Latn
+    content: TCA
+- vocab:
+    language: en
+    script: Latn
+    content: TCK
+- vocab:
+    language: en
+    script: Latn
+    content: TCKC
+- vocab:
+    language: en
+    script: Latn
+    content: TDI
+- vocab:
+    language: en
+    script: Latn
+    content: TDIC
+- vocab:
+    language: en
+    script: Latn
+    content: TDOC
+- vocab:
+    language: en
+    script: Latn
+    content: TDOE
+- vocab:
+    language: en
+    script: Latn
+    content: Test Access Port
+- vocab:
+    language: en
+    script: Latn
+    content: test and debug
+- vocab:
+    language: en
+    script: Latn
+    content: Test-Logic-Reset
+- vocab:
+    language: en
+    script: Latn
+    content: TLR
+- vocab:
+    language: en
+    script: Latn
+    content: TMSC
+- vocab:
+    language: en
+    script: Latn
+    content: Transport Packet
+- vocab:
+    language: en
+    script: Latn
+    content: T0
+- vocab:
+    language: en
+    script: Latn
+    content: T0 TAP.7
+- vocab:
+    language: en
+    script: Latn
+    content: T1
+- vocab:
+    language: en
+    script: Latn
+    content: T1 TAP.7
+- vocab:
+    language: en
+    script: Latn
+    content: T2
+- vocab:
+    language: en
+    script: Latn
+    content: T2 TAP.7
+- vocab:
+    language: en
+    script: Latn
+    content: T3
+- vocab:
+    language: en
+    script: Latn
+    content: T3 TAP.7
+- vocab:
+    language: en
+    script: Latn
+    content: T4
+- vocab:
+    language: en
+    script: Latn
+    content: T4 TAP.7
+- vocab:
+    language: en
+    script: Latn
+    content: T4(N)
+- vocab:
+    language: en
+    script: Latn
+    content: T4(N) TAP.7
+- vocab:
+    language: en
+    script: Latn
+    content: T4(W)
+- vocab:
+    language: en
+    script: Latn
+    content: T4(W) TAP.7
+- vocab:
+    language: en
+    script: Latn
+    content: T5
+- vocab:
+    language: en
+    script: Latn
+    content: T5 TAP.7
+- vocab:
+    language: en
+    script: Latn
+    content: T5(N)
+- vocab:
+    language: en
+    script: Latn
+    content: T5(N) TAP.7
+- vocab:
+    language: en
+    script: Latn
+    content: T5(W)
+- vocab:
+    language: en
+    script: Latn
+    content: T5(W) TAP.7
+- vocab:
+    language: en
+    script: Latn
+    content: TP
+- vocab:
+    language: en
+    script: Latn
+    content: two-pin
+- vocab:
+    language: en
+    script: Latn
+    content: two-wire
+- vocab:
+    language: en
+    script: Latn
+    content: Update-DR
+- vocab:
+    language: en
+    script: Latn
+    content: Update-IR
+- vocab:
+    language: en
+    script: Latn
+    content: ZBS
+- vocab:
+    language: en
+    script: Latn
+    content: zero bit scan
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

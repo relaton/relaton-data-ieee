@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 262-1973
   type: IEEE
   primary: true
-- content: IEEE Std 262™-1973
+- content: IEEE Std 262-1973™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 262-1973
 date:
-- type: updated
-  at: '2016-02-12'
 - type: created
   at: '1973-12-11'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -67,6 +68,13 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard prescribes methods for performing tests specified in American
+    National Standard General Requirements for Distribution, Power, and Regulating
+    Transformers, C57.12.00-1973 (IEEE Std 462-1973) and in the separate transformer
+    standards of the C57.12 Series of American National Standards.
 copyright:
 - from: '1973'
   owner:

@@ -8,25 +8,25 @@ title:
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/7312875
+  content: https://ieeexplore.ieee.org/document/8880582
 docidentifier:
 - content: ANSI N42.43-2006
   type: IEEE
   primary: true
-- content: ANSI N42.43™-2006
+- content: ANSI N42.43-2006™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-5563-0
   type: ISBN
-- content: 10.1109/IEEESTD.2007.7312875
+- content: 10.1109/IEEESTD.2007.8880582
   type: DOI
 docnumber: ANSI N42.43-2006
 date:
 - type: created
   at: '2007-04-23'
 - type: published
-  at: '2015-10-30'
+  at: '2019-10-23'
 - type: issued
   at: '2006'
 contributor:
@@ -79,7 +79,7 @@ abstract:
     that are typically in operation on a platform that is in motion. This standard
     also addresses radiation detection systems that can be carried on a person such
     as backpack-type systems. The "IEEE Get Program" grants public access to view
-    and download individual PDFs of select standards at no charge. Visit http://standards.ieee.org/about/get/index.html
+    and download individual PDFs of select standards at no charge. Visit https://ieeexplore.ieee.org/browse/standards/get-program/page
     for details.
 copyright:
 - from: '2006'
@@ -94,15 +94,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: ANSI N42.43-2016
-    docidentifier:
-    - content: ANSI N42.43-2016
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -111,7 +102,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Mobile communication
+    content: Radiation detectors
 - vocab:
     language: en
     script: Latn
@@ -119,7 +110,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Mobile handsets
+    content: Mobile communications
 - vocab:
     language: en
     script: Latn
@@ -133,6 +124,9 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: '17.240'
+    text: Radiation measurements
   standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

@@ -7,23 +7,25 @@ title:
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/19418
+  content: https://ieeexplore.ieee.org/document/8684549
 docidentifier:
 - content: IEEE Std 319-1971
   type: IEEE
   primary: true
-- content: IEEE Std 319™-1971
+- content: IEEE Std 319-1971™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-4365-1
   type: ISBN
-- content: 10.1109/IEEESTD.1971.119885
+- content: 10.1109/IEEESTD.1970.8684549
   type: DOI
 docnumber: IEEE Std 319-1971
 date:
 - type: created
-  at: '1971'
+  at: '1970-11-30'
+- type: published
+  at: '2019-04-09'
 - type: issued
   at: '1970-12-03'
 contributor:
@@ -68,14 +70,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The purpose of this Standard is to make possible the comparison of the
-    relative merits of magnetostrictive, electromagnetic, piezoelectric, and electrostrictive
-    transducers on a simple and straightforward basis. The nomenclature used has evolved
-    from a proposed set of definitions for the parameters used in evaluating magnetostrictive
-    materials. In the literature, the symbol ' lambda ' has been widely used for the
-    magnetostriction constant, the saturation magnetostrictive strain, or occasionally,
-    the slope of some other curve associated with magnetostrictive measurement. No
-    quantity is represented by ' lambda ' in this standard.
+  content: No abstract
 copyright:
 - from: '1971'
   owner:
@@ -98,39 +93,27 @@ relation:
     - content: IEEE Std 319-1990
       type: IEEE
       primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 319-1990
-    docidentifier:
-    - content: IEEE Std 319-1990
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
     script: Latn
-    content: Magnetic variables measurement
+    content: piezomagnetic
 - vocab:
     language: en
     script: Latn
-    content: Magnetostriction
+    content: nomenclature
 - vocab:
     language: en
     script: Latn
-    content: Magnetostrictive devices
+    content: terms
 - vocab:
     language: en
     script: Latn
-    content: Terminology
+    content: definitions
 - vocab:
     language: en
     script: Latn
-    content: Standards
-- vocab:
-    language: en
-    script: Latn
-    content: Transducers
+    content: glossary
 ext:
   schema_version: v1.1.3
   doctype:

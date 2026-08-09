@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std C37.59-2002
   type: IEEE
   primary: true
-- content: IEEE Std C37.59™-2002
+- content: IEEE Std C37.59-2002™
   type: IEEE
   scope: trademark
   primary: true
@@ -92,14 +92,6 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std C37.59-2002
-    docidentifier:
-    - content: IEEE Std C37.59-2002
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
@@ -110,6 +102,14 @@ relation:
       content: IEEE Std C37.59-1996
     docidentifier:
     - content: IEEE Std C37.59-1996
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.59-2002
+    docidentifier:
+    - content: IEEE Std C37.59-2002
       type: IEEE
       primary: true
 - type: obsoletedBy

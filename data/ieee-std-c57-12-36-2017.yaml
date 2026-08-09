@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C57.12.36-2017
   type: IEEE
   primary: true
-- content: IEEE Std C57.12.36™-2017
+- content: IEEE Std C57.12.36-2017™
   type: IEEE
   scope: trademark
   primary: true
@@ -84,9 +84,6 @@ abstract:
     power transformer that is applied as more than just a limited-scope version of
     the power transformers covered by IEEE Std C57.12.10™ and as more than a large
     distribution-class transformer covered by IEEE Std C57.12.34™.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2017'
   owner:
@@ -101,6 +98,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.12.36-2026
+    docidentifier:
+    - content: IEEE Std C57.12.36-2026
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -170,7 +175,6 @@ ext:
   ics:
   - code: 29.240.10
     text: Substations. Surge arresters
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

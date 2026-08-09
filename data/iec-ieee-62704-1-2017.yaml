@@ -15,7 +15,7 @@ docidentifier:
 - content: IEC/IEEE 62704.1-2017
   type: IEEE
   primary: true
-- content: IEC/IEEE 62704.1™-2017
+- content: IEC/IEEE 62704.1-2017™
   type: IEEE
   scope: trademark
   primary: true
@@ -71,6 +71,18 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This part of IEC/IEEE 62704 defines the methodology for the application
+    of the finite-difference time domain (FDTD) technique when used for determining
+    the peak spatial-average specific absorption rate (SAR) in the human body exposed
+    to wireless communication devices with known uncertainty. It defines methods to
+    validate the numerical model of the device under test (DUT) and to assess its
+    uncertainty when used in SAR simulations. Moreover, it defines procedures to determine
+    the peak spatial-average SAR in a cubical volume and to validate the correct implementation
+    of the FDTD simulation software. The applicable frequency range is 30 MHz to 6
+    GHz.
 status:
   stage:
     content: approved

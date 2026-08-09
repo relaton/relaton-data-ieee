@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C37.123-1996
   type: IEEE
   primary: true
-- content: IEEE Std C37.123™-1996
+- content: IEEE Std C37.123-1996™
   type: IEEE
   scope: trademark
   primary: true
@@ -91,6 +91,18 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.123-1991
+    docidentifier:
+    - content: IEEE Std C37.123-1991
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en

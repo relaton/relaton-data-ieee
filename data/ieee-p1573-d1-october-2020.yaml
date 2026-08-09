@@ -1,0 +1,154 @@
+---
+id: IEEEP1573D1October2020
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Draft Recommended Practice for Electronic Power Subsystems: Parameters,
+    Interfaces, Elements, and Performance'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9246988
+docidentifier:
+- content: IEEE P1573/D1, October, 2020
+  type: IEEE
+  primary: true
+- content: IEEE P1573/D1, October, 2020™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-7177-0
+  type: ISBN
+docnumber: IEEE P1573/D1, October, 2020
+date:
+- type: created
+  at: '2020-10-30'
+- type: published
+  at: '2020-11-02'
+- type: issued
+  at: '2021-12-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Committee of the IEEE Power Electronics Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A technical basis for implementation of electronic power subsystems is
+    provided in this recommended practice. It is intended for electronic systems engineers
+    and integrators, electronic power subsystem designers and integrators, as well
+    as for power element manufacturers and suppliers. System-level issues in element
+    or subsystem integration, adaptation, and accommodation are addressed, and system
+    interface parameters, test methods, and test conditions are defined. Ac&#8211;dc,
+    dc-ac, and dc&#8211;dc electronic power subsystems are discussed. The range of
+    electronic power subsystems includes those with dc, single-phase, and three-phase
+    inputs, having power levels from a fraction of a watt up to 20 kW. The voltage
+    range is 600 V and below at a frequency or frequencies of dc 1 kHz. Internal operating
+    frequencies within elements or subsystems may be much higher than 1 kHz. This
+    recommended practice may be used outside the range where applicable. IEEE Std
+    1515-2000 is built on and supplemented in this document.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 1573-2003
+    docidentifier:
+    - content: IEEE Std 1573-2003
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Electronics
+- vocab:
+    language: en
+    script: Latn
+    content: Power systems
+- vocab:
+    language: en
+    script: Latn
+    content: Performance evaluation
+- vocab:
+    language: en
+    script: Latn
+    content: electronic power subsystems
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1573
+- vocab:
+    language: en
+    script: Latn
+    content: power electronics
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '31.020'
+    text: Electronic components in general
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

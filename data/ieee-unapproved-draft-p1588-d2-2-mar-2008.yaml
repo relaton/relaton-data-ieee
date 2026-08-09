@@ -1,0 +1,117 @@
+---
+id: IEEEUnapprovedDraftP1588D22Mar2008
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for a Precision Clock Synchronization Protocol for
+    Networked Measurement and Control Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4483891
+docidentifier:
+- content: IEEE Unapproved Draft P1588/D2.2, Mar 2008
+  type: IEEE
+  primary: true
+- content: IEEE Unapproved Draft P1588/D2.2, Mar 2008™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-3010-4
+  type: ISBN
+docnumber: IEEE Unapproved Draft P1588/D2.2, Mar 2008
+date:
+- type: created
+  at: '2008'
+- type: published
+  at: '2008-04-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies a protocol enabling precise synchronization of
+    clocks in measurement and control systems impletemted with technologies such as
+    network communication, local computing and distributed objects. The protocol is
+    applicable to systems communicating via packet networks. The protocol enables
+    heterogeneous systems that include clocks of various inherent precision, resolution
+    and stability to synchronize. The protocol supports system-wide synchronization
+    accuracy and precision in the sub-microsencond range with minimal network and
+    local clock computing resources. The default behavior os the protocol allows simple
+    systems to be installed and operated without reauiring the management attention
+    of users.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Clocks
+- vocab:
+    language: en
+    script: Latn
+    content: Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Protocols
+- vocab:
+    language: en
+    script: Latn
+    content: Synchronization
+- vocab:
+    language: en
+    script: Latn
+    content: Patents
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Licenses
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

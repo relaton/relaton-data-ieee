@@ -14,7 +14,7 @@ docidentifier:
 - content: IEEE Std 802.21b-2012
   type: IEEE
   primary: true
-- content: IEEE Std 802.21b®-2012
+- content: IEEE Std 802.21b-2012®
   type: IEEE
   scope: trademark
   primary: true
@@ -24,8 +24,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 802.21b-2012
 date:
-- type: updated
-  at: '2012-05-25'
 - type: created
   at: '2012-05-10'
 - type: published
@@ -36,6 +34,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

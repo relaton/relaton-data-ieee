@@ -3,12 +3,12 @@ id: IEC62243
 schema_version: v1.5.6
 type: standard
 title:
-- content: 'IEC 62243:2012(E) (IEEE Std 1232-2010): Artificial Intelligence Exchange
-    and Service Tie to All Test Environments (AI-ESTATE)'
+- content: 'IEC 62243 Ed. 1 (IEEE Std 1232(TM)-2002): Standard for Artificial Intelligence
+    Exchange and Service Tie to All Test Environments (AI- ESTATE)'
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/6228492
+  content: https://ieeexplore.ieee.org/document/8684709
 docidentifier:
 - content: IEC 62243
   type: IEEE
@@ -17,18 +17,18 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 978-0-7381-7295-8
+- content: 978-0-7381-4778-9
   type: ISBN
-- content: 10.1109/IEEESTD.2012.6228492
+- content: 10.1109/IEEESTD.2002.8684709
   type: DOI
 docnumber: IEC 62243
 date:
 - type: created
-  at: '2012-07-16'
+  at: '2002-11-20'
 - type: published
-  at: '2012-06-29'
+  at: '2019-04-09'
 - type: issued
-  at: '2013-08-24'
+  at: '2002-06-13'
 contributor:
 - role:
   - type: publisher
@@ -60,7 +60,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: SCC20 - Test and Diagnosis for Electronic Systems
+        content: IEEE-SASB Coordinating Committees
       type: committee
     abbreviation:
       content: IEEE
@@ -71,18 +71,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Data interchange and standard software services for test and diagnostic
-    environmentsare defined by Artificial Intelligence Exchange and Service Tie to
-    All Test Environments (AIESTATE).The purpose of AI-ESTATE is to standardize interfaces
-    for functional elements of anintelligent diagnostic reasoner and representations
-    of diagnostic knowledge and data for use bysuch diagnostic reasoners. Formal information
-    models are defined to form the basis for a formatto facilitate exchange of persistent
-    diagnostic information between two reasoners and also toprovide a formal typing
-    system for diagnostic services. The services to control a diagnosticreasoned are
-    defined by this standard.
-status:
-  stage:
-    content: approved
+  content: AI-ESTATE is a set of specifications for data interchange and for standard
+    services for the test and diagnostic environment. The purpose of AI-ESTATE is
+    to standardize interfaces between functional elements of an intelligent diagnostic
+    reasoner and representations of diagnostic knowledge and data for use by such
+    diagnostic reasoners. Formal information models are defined to form the basis
+    for a format to facilitate exchange of persistent diagnostic information between
+    two reasoners, and also to provide a formal typing system for diagnostic services.
+    This standard then defines the services to manipulate diagnostic information and
+    to control a diagnostic reasoner.
 copyright:
 - from: '2012'
   owner:
@@ -96,33 +93,7 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-  - organization:
-      uri:
-      name:
-      - language: en
-        script: Latn
-        content: IEC
 keyword:
-- vocab:
-    language: en
-    script: Latn
-    content: IEEE standards
-- vocab:
-    language: en
-    script: Latn
-    content: IEC standards
-- vocab:
-    language: en
-    script: Latn
-    content: Knowledge management
-- vocab:
-    language: en
-    script: Latn
-    content: Fault diagnosis
-- vocab:
-    language: en
-    script: Latn
-    content: Bayes methods
 - vocab:
     language: en
     script: Latn
@@ -130,15 +101,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Bayesian Network
-- vocab:
-    language: en
-    script: Latn
     content: diagnosis
 - vocab:
     language: en
     script: Latn
-    content: diagnostic inference
+    content: diagnostic interference
 - vocab:
     language: en
     script: Latn
@@ -150,15 +117,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: D-matrix
+    content: dynamic content
 - vocab:
     language: en
     script: Latn
     content: fault tree
-- vocab:
-    language: en
-    script: Latn
-    content: IEEE 1232
 - vocab:
     language: en
     script: Latn
@@ -175,11 +138,8 @@ ext:
   ics:
   - code: '35.080'
     text: Software
-  - code: '35.240'
-    text: Applications of information technology
-  - code: '35.160'
-    text: Microprocessor systems
-  standard_status: Active
-  standard_modified: Approved
+  - code: 35.240.50
+    text: IT applications in industry
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

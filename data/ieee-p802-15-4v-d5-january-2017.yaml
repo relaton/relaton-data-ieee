@@ -1,0 +1,179 @@
+---
+id: IEEEP802154vD5January2017
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Approved Draft Standard for Low-Rate Wireless Networks Amendment:
+    Enabling/Updating the Use of Regional Sub-GHz Bands'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7835636
+docidentifier:
+- content: IEEE P802.15.4v/D5 January, 2017
+  type: IEEE
+  primary: true
+- content: IEEE P802.15.4v/D5 January, 2017™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-3774-5
+  type: ISBN
+docnumber: IEEE P802.15.4v/D5 January, 2017
+date:
+- type: created
+  at: '2017-01-01'
+- type: published
+  at: '2017-01-27'
+- type: issued
+  at: '2017-05-18'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment defines changes to the IEEE Std 802.15.4-2015 SUN PHYs enabling
+    the use of the 870-876 MHz &amp; 915-921 MHz bands in Europe, the 902-928 MHz
+    band in Mexico, the 902-907.5 MHz &amp; 915-928 MHz bands in Brazil, the 915-928
+    MHz band in Australia/New Zealand and Asian regional frequency bands that are
+    not in IEEE Std 802.15.4-2015. This amendment also changes the channel parameters
+    listed in the SUN PHYs, Low Energy Critical Infrastructure Monitoring (LECIM)
+    PHY and the TV White Space (TVWS) PHY for the 470-510 MHz band in China and the
+    863-870 MHz band in Europe, and aligns these channel parameters with regional
+    requirements. The amendment includes channel access and/or timing changes to the
+    MAC necessary for conformance to regional requirements for these bands.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref:
+      content: IEEE Std 802.15.4-2015
+    docidentifier:
+    - content: IEEE Std 802.15.4-2015
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Low power electronics
+- vocab:
+    language: en
+    script: Latn
+    content: Wireless personal area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Frequency bands
+- vocab:
+    language: en
+    script: Latn
+    content: Radio frequenecy
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.15.4(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: 863 - 870 MHz band
+- vocab:
+    language: en
+    script: Latn
+    content: 870 - 876 MHz band
+- vocab:
+    language: en
+    script: Latn
+    content: 470 - 510 MHz band
+- vocab:
+    language: en
+    script: Latn
+    content: 902 - 928 MHz band
+- vocab:
+    language: en
+    script: Latn
+    content: low data rate
+- vocab:
+    language: en
+    script: Latn
+    content: low power
+- vocab:
+    language: en
+    script: Latn
+    content: wireless personal area network
+- vocab:
+    language: en
+    script: Latn
+    content: WPAN
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

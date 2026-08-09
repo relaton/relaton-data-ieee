@@ -1,0 +1,285 @@
+---
+id: IEEEP2050D2October2017
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Real-time Operating System (OS) for Small-scale
+    Embedded Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8283471
+docidentifier:
+- content: IEEE P2050/D2, October, 2017
+  type: IEEE
+  primary: true
+- content: IEEE P2050/D2, October, 2017™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4674-7
+  type: ISBN
+docnumber: IEEE P2050/D2, October, 2017
+date:
+- type: created
+  at: '2018-02-02'
+- type: published
+  at: '2018-02-06'
+- type: issued
+  at: '2018-05-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Standards Committee of the IEEE Consumer Electronics Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A real-time operating system (RTOS) called &#956;T-Kernel for small-scale
+    embedded systems such as systems with a single chip microcomputer including 16-bit
+    CPUs, systems with a small amount of ROM/RAM, and systems without a memory management
+    unit (MMU) are specified in this standard.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Real-time systems
+- vocab:
+    language: en
+    script: Latn
+    content: Kernel
+- vocab:
+    language: en
+    script: Latn
+    content: Microprocessors
+- vocab:
+    language: en
+    script: Latn
+    content: Embedded systems
+- vocab:
+    language: en
+    script: Latn
+    content: Scheduling
+- vocab:
+    language: en
+    script: Latn
+    content: Application programming interfaces
+- vocab:
+    language: en
+    script: Latn
+    content: 16-bit CPU
+- vocab:
+    language: en
+    script: Latn
+    content: alarm handler
+- vocab:
+    language: en
+    script: Latn
+    content: API
+- vocab:
+    language: en
+    script: Latn
+    content: Application Programming Interface
+- vocab:
+    language: en
+    script: Latn
+    content: cyclic handler
+- vocab:
+    language: en
+    script: Latn
+    content: device management
+- vocab:
+    language: en
+    script: Latn
+    content: embedded
+- vocab:
+    language: en
+    script: Latn
+    content: event flag
+- vocab:
+    language: en
+    script: Latn
+    content: fast lock
+- vocab:
+    language: en
+    script: Latn
+    content: fast multi-lock
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 2050™
+- vocab:
+    language: en
+    script: Latn
+    content: interrupt handler
+- vocab:
+    language: en
+    script: Latn
+    content: kernel
+- vocab:
+    language: en
+    script: Latn
+    content: IoT edgenode
+- vocab:
+    language: en
+    script: Latn
+    content: mailbox
+- vocab:
+    language: en
+    script: Latn
+    content: memory pool
+- vocab:
+    language: en
+    script: Latn
+    content: message buffer
+- vocab:
+    language: en
+    script: Latn
+    content: mutex
+- vocab:
+    language: en
+    script: Latn
+    content: non-task portion
+- vocab:
+    language: en
+    script: Latn
+    content: physical timer
+- vocab:
+    language: en
+    script: Latn
+    content: power management
+- vocab:
+    language: en
+    script: Latn
+    content: power saving
+- vocab:
+    language: en
+    script: Latn
+    content: priority-based
+- vocab:
+    language: en
+    script: Latn
+    content: quasi-task portion
+- vocab:
+    language: en
+    script: Latn
+    content: real time
+- vocab:
+    language: en
+    script: Latn
+    content: real-time operating system (RTOS)
+- vocab:
+    language: en
+    script: Latn
+    content: semaphore
+- vocab:
+    language: en
+    script: Latn
+    content: service profile
+- vocab:
+    language: en
+    script: Latn
+    content: single chip microcomputer
+- vocab:
+    language: en
+    script: Latn
+    content: single chip micro-controller
+- vocab:
+    language: en
+    script: Latn
+    content: small scale
+- vocab:
+    language: en
+    script: Latn
+    content: system call
+- vocab:
+    language: en
+    script: Latn
+    content: task
+- vocab:
+    language: en
+    script: Latn
+    content: task dispatching
+- vocab:
+    language: en
+    script: Latn
+    content: task portion
+- vocab:
+    language: en
+    script: Latn
+    content: task independent portion
+- vocab:
+    language: en
+    script: Latn
+    content: task scheduling
+- vocab:
+    language: en
+    script: Latn
+    content: TRON
+- vocab:
+    language: en
+    script: Latn
+    content: μT-Kernel
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

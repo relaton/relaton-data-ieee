@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C57.110-2008
   type: IEEE
   primary: true
-- content: IEEE Std C57.110™-2008
+- content: IEEE Std C57.110-2008™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C57.110-2008
 date:
-- type: updated
-  at: '2008-10-17'
 - type: created
   at: '2008-08-15'
 - type: published
-  at: '2013-08-15'
+  at: '2008-08-19'
 - type: issued
   at: '2008-03-27'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -96,9 +97,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: IEEE Std C57.110
+      content: IEEE Std C57.110-2018
     docidentifier:
-    - content: IEEE Std C57.110
+    - content: IEEE Std C57.110-2018
       type: IEEE
       primary: true
 keyword:

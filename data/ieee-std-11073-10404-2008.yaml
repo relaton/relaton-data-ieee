@@ -1,5 +1,5 @@
 ---
-id: IEEEStd11073104042008
+id: IEEESTD11073104042008
 schema_version: v1.5.6
 type: standard
 title:
@@ -10,10 +10,10 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/8332123
 docidentifier:
-- content: IEEE Std 11073.10404-2008
+- content: IEEE STD 11073-10404-2008
   type: IEEE
   primary: true
-- content: IEEE Std 11073.10404™-2008
+- content: IEEE STD 11073-10404-2008™
   type: IEEE
   scope: trademark
   primary: true
@@ -21,10 +21,8 @@ docidentifier:
   type: ISBN
 - content: 10.1109/IEEESTD.2009.8332123
   type: DOI
-docnumber: IEEE Std 11073.10404-2008
+docnumber: IEEE STD 11073-10404-2008
 date:
-- type: updated
-  at: '2018-05-04'
 - type: created
   at: '2009-04-10'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -94,6 +95,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ISO/IEEE 11073.10404-2010
+    docidentifier:
+    - content: ISO/IEEE 11073.10404-2010
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en

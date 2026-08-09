@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 1800.2-2017
   type: IEEE
   primary: true
-- content: IEEE Std 1800.2™-2017
+- content: IEEE Std 1800.2-2017™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1800.2-2017
 date:
-- type: updated
-  at: '2017-06-09'
 - type: created
   at: '2017-05-26'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -77,11 +78,6 @@ abstract:
     design quality throughout the industry. The primary audiences for this standard
     are the implementors of the UVM base class library, the implementors of tools
     supporting the UVM base class library, and the users of the UVM base class library.
-    (The PDF of this standard is available at no cost compliments of the GET IEEE
-    program http://standards.ieee.org/about/get/)
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2017'
   owner:
@@ -95,6 +91,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1800.2-2020
+    docidentifier:
+    - content: IEEE Std 1800.2-2020
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -167,7 +172,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 1800.2(TM)
+    content: IEEE 1800.2™
 - vocab:
     language: en
     script: Latn
@@ -221,7 +226,6 @@ ext:
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

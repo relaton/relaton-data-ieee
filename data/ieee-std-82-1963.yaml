@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 82-1963
   type: IEEE
   primary: true
-- content: IEEE Std 82™-1963
+- content: IEEE Std 82-1963™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 82-1963
 date:
-- type: updated
-  at: '2016-05-06'
 - type: created
   at: '1963-11-20'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -66,6 +67,18 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This test procedure is intended as a guide for impulse testing of insulated
+    conductors. It is intended only for use as a design or development test, and not
+    as a routine production or specification test. Special needs may require deviations
+    from this test procedure. A uniform procedure, however, is desirable in most cases.
+    This test procedure applies only to impulse tests on insulated conductors. This
+    test procedure is not intended to replace any existing or future standards covering
+    impulse generators, impulse testing or voltage measurements. It is intended to
+    supplement such standards by indicating specific procedures for a specific type
+    of system component.
 status:
   stage:
     content: withdrawn

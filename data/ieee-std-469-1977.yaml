@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 469-1977
   type: IEEE
   primary: true
-- content: IEEE Std 469™-1977
+- content: IEEE Std 469-1977™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 469-1977
 date:
-- type: updated
-  at: '2016-04-29'
 - type: created
   at: '1977-07-29'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,21 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: The practice described herein provides instruction on the testing of distribution
+    transformers as voice-frequency noise generators, to measure the degree to which
+    they may contribute to electrical noise in communication circuits that are in
+    parallel with the power-supply circuits serving the transformers. Transformers
+    have a characteristic common to other iron-core devices of causing harmonic currents
+    at voice frequencies to flow in supply circuits to the transformers. The magnitudes
+    of these currents, and of interference that may result, vary according to design
+    of the transformer as well as excitation voltage. The tests described in this
+    practice provide a standard method for use by the transformer manufacturer, user,
+    and others in industry for the purpose of better evaluating the design choices
+    available and moving toward industry objectives as to levels of harmonic exciting
+    current expressed as I-T (current X telephone influence factor [TIF] ).
 copyright:
 - from: '1977'
   owner:
@@ -65,9 +81,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 469-1988
+      content: ANSI/IEEE 469-1988
     docidentifier:
-    - content: ANSI/IEEE Std 469-1988
+    - content: ANSI/IEEE 469-1988
       type: IEEE
       primary: true
 keyword:

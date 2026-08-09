@@ -1,0 +1,165 @@
+---
+id: IEEEP8023cqD32November2019
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Approved Draft Standard for Ethernet Amendment: Maintenance #13:
+    Power over Ethernet over 2 pairs'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8979573
+docidentifier:
+- content: IEEE P802.3cq/D3.2, November, 2019
+  type: IEEE
+  primary: true
+- content: IEEE P802.3cq/D3.2, November, 2019™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6282-2
+  type: ISBN
+docnumber: IEEE P802.3cq/D3.2, November, 2019
+date:
+- type: created
+  at: '2020-01-30'
+- type: published
+  at: '2020-02-03'
+- type: issued
+  at: '2020-01-30'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2018 makes technical and editorial corrections
+    and refinements to Power over Ethernet over 2-pairs in Clause 33.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref:
+      content: IEEE Std 802.3-2018
+    docidentifier:
+    - content: IEEE Std 802.3-2018
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: Maintenance engineering
+- vocab:
+    language: en
+    script: Latn
+    content: Communications technology
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Metropolitan area networks
+- vocab:
+    language: en
+    script: Latn
+    content: '802.3'
+- vocab:
+    language: en
+    script: Latn
+    content: 802.3cq
+- vocab:
+    language: en
+    script: Latn
+    content: amendment
+- vocab:
+    language: en
+    script: Latn
+    content: DTE power via MDI
+- vocab:
+    language: en
+    script: Latn
+    content: Power over Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: PoE
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

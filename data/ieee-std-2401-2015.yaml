@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 2401-2015
   type: IEEE
   primary: true
-- content: IEEE Std 2401™-2015
+- content: IEEE Std 2401-2015™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 2401-2015
 date:
-- type: updated
-  at: '2016-02-03'
 - type: created
   at: '2015-12-18'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

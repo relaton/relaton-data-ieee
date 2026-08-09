@@ -1,0 +1,139 @@
+---
+id: ANSIIEEE111980
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Standard for Rotating Electric Machinery for Rail and Road Vehicles
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7736242
+docidentifier:
+- content: ANSI/IEEE 11-1980
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE 11-1980™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-0761-1
+  type: ISBN
+- content: 10.1109/IEEESTD.1981.7736242
+  type: DOI
+docnumber: ANSI/IEEE 11-1980
+date:
+- type: created
+  at: '1981-01-30'
+- type: published
+  at: '2016-11-04'
+- type: issued
+  at: '1980-03-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Electric Machinery of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard applies to rotating electric machinery which forms part of
+    the propulsion and major auxiliary equipment on internally and externally powered
+    electrically propelled rail and road vehicles and similar large transport and
+    haulage vehicles and their trailers where specified in the contract. Major auxiliary
+    equipment includes equipment such as blower and compressor motors, motor-generator
+    and motor-alternator sets, auxiliary generators, and exciters, usually larger
+    than 3 kilowatts.
+copyright:
+- from: '1980'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 11-2000
+    docidentifier:
+    - content: IEEE Std 11-2000
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Road vehicles
+- vocab:
+    language: en
+    script: Latn
+    content: Electric machinery
+- vocab:
+    language: en
+    script: Latn
+    content: Generators
+- vocab:
+    language: en
+    script: Latn
+    content: Rail transportation
+- vocab:
+    language: en
+    script: Latn
+    content: Compressor motors
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 29.160.30
+    text: Motors
+  - code: '29.280'
+    text: Electric traction equipment
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

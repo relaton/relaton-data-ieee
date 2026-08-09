@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C37.20.7-2007
   type: IEEE
   primary: true
-- content: IEEE Std C37.20.7™-2007
+- content: IEEE Std C37.20.7-2007™
   type: IEEE
   scope: trademark
   primary: true
@@ -87,14 +87,6 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE PC37.20.7/D-14-2017-01
-    docidentifier:
-    - content: IEEE PC37.20.7/D-14-2017-01
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
@@ -105,6 +97,14 @@ relation:
       content: IEEE Std C37.20.7-2001
     docidentifier:
     - content: IEEE Std C37.20.7-2001
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std PC37.20.7/D14, January, 2017
+    docidentifier:
+    - content: IEEE Std PC37.20.7/D14, January, 2017
       type: IEEE
       primary: true
 keyword:

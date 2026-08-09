@@ -1,0 +1,235 @@
+---
+id: IEEEStd6021996TheWhiteBook
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Recommended Practice for Electric Systems in Health Care Facilities
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/650539
+docidentifier:
+- content: IEEE Std 602-1996 [The White Book]
+  type: IEEE
+  primary: true
+- content: IEEE Std 602-1996 [The White Book]™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1149-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1997.85816
+  type: DOI
+docnumber: IEEE Std 602-1996 [The White Book]
+date:
+- type: created
+  at: '1997-01-31'
+- type: published
+  at: '2013-01-16'
+- type: issued
+  at: '1996-03-21'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power Systems Engineering of the IEEE Industry Applications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'A recommended practice for the design and operation of electric systems
+    in health care facilities is provided. The term health care facility as used here
+    encompasses buildings or parts of buildings that contain hospitals, nursing homes,
+    residential custodial care facilities, clinics, ambulatory health care centers,
+    and medical and dental offices. Buildings or parts of buildings within an industrial
+    or commercial complex, used as medical facilities, logically fall within the scope
+    of this recommended practice. Remarks: Superseded by IEEE Std 602-2007'
+copyright:
+- from: '1997'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: ANSI/IEEE 602-1986
+    docidentifier:
+    - content: ANSI/IEEE 602-1986
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 602-2007
+    docidentifier:
+    - content: IEEE Std 602-2007
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Medical services
+- vocab:
+    language: en
+    script: Latn
+    content: Industrial power systems
+- vocab:
+    language: en
+    script: Latn
+    content: Buildings
+- vocab:
+    language: en
+    script: Latn
+    content: Patents
+- vocab:
+    language: en
+    script: Latn
+    content: anaesthetizing
+- vocab:
+    language: en
+    script: Latn
+    content: clinical
+- vocab:
+    language: en
+    script: Latn
+    content: critical branch
+- vocab:
+    language: en
+    script: Latn
+    content: emergency system
+- vocab:
+    language: en
+    script: Latn
+    content: equipment system
+- vocab:
+    language: en
+    script: Latn
+    content: essential electrical system
+- vocab:
+    language: en
+    script: Latn
+    content: examination
+- vocab:
+    language: en
+    script: Latn
+    content: fire alarm
+- vocab:
+    language: en
+    script: Latn
+    content: ground fault circuit interrupter
+- vocab:
+    language: en
+    script: Latn
+    content: ground fault protection
+- vocab:
+    language: en
+    script: Latn
+    content: grounding
+- vocab:
+    language: en
+    script: Latn
+    content: life safety branch
+- vocab:
+    language: en
+    script: Latn
+    content: medical
+- vocab:
+    language: en
+    script: Latn
+    content: nurse call
+- vocab:
+    language: en
+    script: Latn
+    content: patient care
+- vocab:
+    language: en
+    script: Latn
+    content: recovery
+- vocab:
+    language: en
+    script: Latn
+    content: safety
+- vocab:
+    language: en
+    script: Latn
+    content: standby generator
+- vocab:
+    language: en
+    script: Latn
+    content: surgical
+- vocab:
+    language: en
+    script: Latn
+    content: transfer switch
+- vocab:
+    language: en
+    script: Latn
+    content: treatment
+- vocab:
+    language: en
+    script: Latn
+    content: wet location
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '11.140'
+    text: Hospital equipment
+  - code: '29.020'
+    text: Electrical engineering in general
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

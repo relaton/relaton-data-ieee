@@ -1,0 +1,160 @@
+---
+id: IEEEStd10761andIEC616916Edition10200912
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'Behavioural languages - Part 6: VHDL Analog and Mixed-Signal Extensions'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/5464492
+docidentifier:
+- content: IEEE Std 1076.1 and IEC 61691-6 Edition 1.0 2009-12
+  type: IEEE
+  primary: true
+- content: IEEE Std 1076.1 and IEC 61691-6 Edition 1.0 2009-12™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-6283-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2009.5464492
+  type: DOI
+docnumber: IEEE Std 1076.1 and IEC 61691-6 Edition 1.0 2009-12
+date:
+- type: created
+  at: '2009-12-14'
+- type: published
+  at: '2010-05-13'
+- type: issued
+  at: '2010-05-10'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines the IEEE 1076.1 language, a hardware description
+    language for the description and the simulation of analog, digital, and mixed-signal
+    systems. The language, also informally known as VHDL-AMS, is built on IEEE Std
+    1076-2002 (VHDL) and extends it with additions and changes to provide capabilities
+    of writing and simulating analog and mixed-signal models.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE standards
+- vocab:
+    language: en
+    script: Latn
+    content: Electronic mail
+- vocab:
+    language: en
+    script: Latn
+    content: Analog computers
+- vocab:
+    language: en
+    script: Latn
+    content: Customer service
+- vocab:
+    language: en
+    script: Latn
+    content: Computer languages
+- vocab:
+    language: en
+    script: Latn
+    content: 61691-6:2009
+- vocab:
+    language: en
+    script: Latn
+    content: 1076.1-2007
+- vocab:
+    language: en
+    script: Latn
+    content: analog design
+- vocab:
+    language: en
+    script: Latn
+    content: computer
+- vocab:
+    language: en
+    script: Latn
+    content: computer languages
+- vocab:
+    language: en
+    script: Latn
+    content: hardware design
+- vocab:
+    language: en
+    script: Latn
+    content: mixed-signal design
+- vocab:
+    language: en
+    script: Latn
+    content: VHDL
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '25.040'
+    text: Industrial automation systems
+  - code: '35.060'
+    text: Languages used in information technology
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

@@ -1,0 +1,183 @@
+---
+id: IEEEP2416D4May2025
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Power Modeling to Enable System Level Analysis
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11007201
+docidentifier:
+- content: IEEE P2416/D4, May 2025
+  type: IEEE
+  primary: true
+- content: IEEE P2416/D4, May 2025™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2228-4
+  type: ISBN
+docnumber: IEEE P2416/D4, May 2025
+date:
+- type: created
+  at: '2025-05-16'
+- type: published
+  at: '2025-05-20'
+- type: issued
+  at: '2025'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard describes a parameterized and abstracted power model enabling
+    system, software, and hardware IP-centric power analysis and optimization. It
+    defines concepts for the development of parameterized, accurate, efficient, and
+    complete power models for systems and hardware IP blocks usable for system power
+    analysis and optimization. These concepts include, but are not limited to, process,
+    voltage and temperature (PVT) independence, power and thermal management interface,
+    and workload and architecture parameterization.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 2416-2019
+    docidentifier:
+    - content: IEEE Std 2416-2019
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Power systems
+- vocab:
+    language: en
+    script: Latn
+    content: Voltage control
+- vocab:
+    language: en
+    script: Latn
+    content: Temperature measurement
+- vocab:
+    language: en
+    script: Latn
+    content: Modeling
+- vocab:
+    language: en
+    script: Latn
+    content: System-level design
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 2416
+- vocab:
+    language: en
+    script: Latn
+    content: IP blocks
+- vocab:
+    language: en
+    script: Latn
+    content: modeling standards
+- vocab:
+    language: en
+    script: Latn
+    content: models
+- vocab:
+    language: en
+    script: Latn
+    content: optimization
+- vocab:
+    language: en
+    script: Latn
+    content: parameterization
+- vocab:
+    language: en
+    script: Latn
+    content: power contributors
+- vocab:
+    language: en
+    script: Latn
+    content: power data
+- vocab:
+    language: en
+    script: Latn
+    content: process
+- vocab:
+    language: en
+    script: Latn
+    content: voltage and temperature (PVT)
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

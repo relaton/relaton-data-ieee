@@ -10,10 +10,10 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/9231295
 docidentifier:
-- content: IEC/IEEE 60980.344-2020
+- content: IEC/IEEE 60980-344:2020
   type: IEEE
   primary: true
-- content: IEC/IEEE 60980.344™-2020
+- content: IEC/IEEE 60980-344:2020™
   type: IEEE
   scope: trademark
   primary: true
@@ -21,12 +21,12 @@ docidentifier:
   type: ISBN
 - content: 10.1109/IEEESTD.2020.9231295
   type: DOI
-docnumber: IEC/IEEE 60980.344-2020
+docnumber: IEC/IEEE 60980-344:2020
 date:
 - type: created
   at: '2020-10-19'
 - type: published
-  at: '2020-10-19'
+  at: '2020-10-20'
 - type: issued
   at: '2020-09-24'
 contributor:
@@ -68,6 +68,12 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard is applicable to electrical equipment important to safety
+    and its interfaces that are necessary to perform a safety function, or whose failure
+    could adversely affect the safety functions of other equipment.
 status:
   stage:
     content: approved

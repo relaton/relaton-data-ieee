@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 1003.2d-1994
   type: IEEE
   primary: true
-- content: IEEE Std 1003.2d™-1994
+- content: IEEE Std 1003.2d-1994™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1003.2d-1994
 date:
-- type: updated
-  at: '2016-02-19'
 - type: created
   at: '1995-06-09'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -97,9 +98,9 @@ relation:
     content: amends
   bibitem:
     formattedref:
-      content: IEEE 1003.2-1994-12
+      content: " 1003.2-1992/INT"
     docidentifier:
-    - content: IEEE 1003.2-1994-12
+    - content: " 1003.2-1992/INT"
       type: IEEE
       primary: true
 keyword:

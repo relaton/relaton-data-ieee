@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 1826-2012
   type: IEEE
   primary: true
-- content: IEEE Std 1826™-2012
+- content: IEEE Std 1826-2012™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1826-2012
 date:
-- type: updated
-  at: '2012-07-27'
 - type: created
   at: '2012-06-22'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -83,9 +84,6 @@ abstract:
     Existing terrestrial utility power systems that do not yet contain the electronic
     power interfaces and high-speed communication networks that are essential to use
     this standard shall be upgraded by its application.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2012'
   owner:
@@ -99,6 +97,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1826-2020
+    docidentifier:
+    - content: IEEE Std 1826-2020
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -168,7 +175,6 @@ ext:
   ics:
   - code: 29.240.30
     text: Control equipment for electric power systems
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

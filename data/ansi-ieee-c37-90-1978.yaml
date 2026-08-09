@@ -13,7 +13,7 @@ docidentifier:
 - content: ANSI/IEEE C37.90-1978
   type: IEEE
   primary: true
-- content: ANSI/IEEE C37.90™-1978
+- content: ANSI/IEEE C37.90-1978™
   type: IEEE
   scope: trademark
   primary: true
@@ -68,6 +68,12 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: An electric device designed to respond to input conditions in a prescribed
+    manner and after specified conditions are met to cause contact operation or similar
+    abrupt change in associated electric control circuits.
 status:
   stage:
     content: withdrawn
@@ -88,9 +94,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std C37.90-1989
+      content: ANSI/IEEE C37.90-1989
     docidentifier:
-    - content: ANSI/IEEE Std C37.90-1989
+    - content: ANSI/IEEE C37.90-1989
       type: IEEE
       primary: true
 keyword:

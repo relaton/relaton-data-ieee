@@ -1,0 +1,116 @@
+---
+id: IEEEUnapprovedDraftP754D170Mar2008
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Floating-Point Arithmetic
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/4478282
+docidentifier:
+- content: IEEE Unapproved Draft P754/D1.7.0, Mar 2008
+  type: IEEE
+  primary: true
+- content: IEEE Unapproved Draft P754/D1.7.0, Mar 2008™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-2702-9
+  type: ISBN
+docnumber: IEEE Unapproved Draft P754/D1.7.0, Mar 2008
+date:
+- type: created
+  at: '2008'
+- type: published
+  at: '2008-03-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies interchange and arithmetic formats and methods
+    for binary and decimal floating-point arithmetic in computer programming environments.
+    This standard specifies exception conditions and their default handling. An implementation
+    of a floating-point system conforming to this standard can be realized entirely
+    in software, entirely in hardware, or in any combination of software and hardware.
+    For operations specified in the normative part of this standard, numerical results
+    and exceptions are uniquely determined by the values of the input data, sequence
+    of operations, and destination formats, all under user control.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Patents
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Floating-point arithmetic
+- vocab:
+    language: en
+    script: Latn
+    content: Licenses
+- vocab:
+    language: en
+    script: Latn
+    content: Software
+- vocab:
+    language: en
+    script: Latn
+    content: Programming environments
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '07.020'
+    text: Mathematics
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

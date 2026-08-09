@@ -1,0 +1,181 @@
+---
+id: IEEEP8021QdxD21March2024
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Approved Draft Standard for Local and Metropolitan Area Networks--Bridges
+    and Bridged Networks Amendment 39: YANG Data Models for the Credit-Based Shaper'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10492714
+docidentifier:
+- content: IEEE P802.1Qdx/D2.1, March, 2024
+  type: IEEE
+  primary: true
+- content: IEEE P802.1Qdx/D2.1, March, 2024™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0685-7
+  type: ISBN
+docnumber: IEEE P802.1Qdx/D2.1, March, 2024
+date:
+- type: created
+  at: '2024-06-12'
+- type: published
+  at: '2024-04-04'
+- type: issued
+  at: '2024-06-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A YANG data model that supports configuration and status reporting for
+    credit-based shaper algorithm capabilities in Bridges and end stations is specified
+    in this amendment to IEEE Std 802.1Q-2022 as amended by IEEE Std 802.1Qcz-2023,
+    IEEE Std 802.1Qcw-2023, IEEE Std 802.1Qcj-2023, and IEEE Std 802.1Qdj-2024.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref:
+      content: IEEE Std 802.1Q-2022
+    docidentifier:
+    - content: IEEE Std 802.1Q-2022
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Data models
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Urban areas
+- vocab:
+    language: en
+    script: Latn
+    content: Bridge circuits
+- vocab:
+    language: en
+    script: Latn
+    content: Metropolitan area networks
+- vocab:
+    language: en
+    script: Latn
+    content: amendment
+- vocab:
+    language: en
+    script: Latn
+    content: Bridged Network
+- vocab:
+    language: en
+    script: Latn
+    content: credit-based shaper algorithm
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.1Q™
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.1Qdx™
+- vocab:
+    language: en
+    script: Latn
+    content: LAN
+- vocab:
+    language: en
+    script: Latn
+    content: local area network
+- vocab:
+    language: en
+    script: Latn
+    content: MAC Bridge
+- vocab:
+    language: en
+    script: Latn
+    content: metropolitan area network
+- vocab:
+    language: en
+    script: Latn
+    content: YANG
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -1,0 +1,156 @@
+---
+id: IEEEP1588eD11June2023
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Draft Standard for a Precision Clock Synchronization Protocol for
+    Networked Measurement and Control Systems Amendment: MIB and YANG Data Models'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10155628
+docidentifier:
+- content: IEEE P1588e/D1.1, June 2023
+  type: IEEE
+  primary: true
+- content: IEEE P1588e/D1.1, June 2023™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9832-6
+  type: ISBN
+docnumber: IEEE P1588e/D1.1, June 2023
+date:
+- type: created
+  at: '2023-06-16'
+- type: published
+  at: '2023-06-19'
+- type: issued
+  at: '2024-02-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: TC9 - Sensor Technology of the IEEE Instrumentation and Measurement
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Updates to IEEE Std 1588&#8482;-2019 are provided in this amendment. This
+    amendment specifies the structure and content of the IEEE 1588 MIB and YANG modules.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref:
+      content: IEEE Std 1588-2019 (Revision ofIEEE Std 1588-2008)
+    docidentifier:
+    - content: IEEE Std 1588-2019 (Revision ofIEEE Std 1588-2008)
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Synchronization
+- vocab:
+    language: en
+    script: Latn
+    content: Networked control systems
+- vocab:
+    language: en
+    script: Latn
+    content: Clocks
+- vocab:
+    language: en
+    script: Latn
+    content: Data models
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1588e™
+- vocab:
+    language: en
+    script: Latn
+    content: Management
+- vocab:
+    language: en
+    script: Latn
+    content: MIB
+- vocab:
+    language: en
+    script: Latn
+    content: PTP
+- vocab:
+    language: en
+    script: Latn
+    content: YANG
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 39.040.99
+    text: Other time-measuring instruments
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

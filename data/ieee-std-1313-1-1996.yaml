@@ -3,28 +3,30 @@ id: IEEEStd131311996
 schema_version: v1.5.6
 type: standard
 title:
-- content: IEEE Standard for Insulation Coordination - Definitions, Principles, and
+- content: IEEE Standard for Insulation Coordination - Definitions, Principles and
     Rules
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/531662
+  content: https://ieeexplore.ieee.org/document/8684657
 docidentifier:
 - content: IEEE Std 1313.1-1996
   type: IEEE
   primary: true
-- content: IEEE Std 1313.1™-1996
+- content: IEEE Std 1313.1-1996™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-0813-1
   type: ISBN
-- content: 10.1109/IEEESTD.1996.81077
+- content: 10.1109/IEEESTD.1994.8684657
   type: DOI
 docnumber: IEEE Std 1313.1-1996
 date:
 - type: created
-  at: '1996'
+  at: '1994-11-30'
+- type: published
+  at: '2019-04-09'
 - type: issued
   at: '1996-07-18'
 contributor:
@@ -70,11 +72,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: In this IEEE standard the procedure for selection of the withstand voltages
-    for equipment phase-to-ground and phase-to-phase insulation systems is specified.
-    A list of standard insulation levels, based on the voltage stress to which the
-    equipment is being exposed, is also identified. This standard applies to three-phase
-    AC systems above 1 kV.
+  content: The procedure for selection of the withstand voltages for equipment phase-to-ground
+    and phase-to-phase insulation systems is specified. A list of standard insulation
+    levels, based on the voltage stress to which the equipment is being exposed, is
+    also identified. This standard applies to three-phase ac systems above 1 kV.
 copyright:
 - from: '1996'
   owner:
@@ -109,27 +110,79 @@ relation:
     - content: IEEE Std C62.82.1-2010
       type: IEEE
       primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std C62.82.1-2010
-    docidentifier:
-    - content: IEEE Std C62.82.1-2010
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std C62.82.1-2010
-    docidentifier:
-    - content: IEEE Std C62.82.1-2010
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE standards
+    content: atmospheric correction
+- vocab:
+    language: en
+    script: Latn
+    content: correction factor
+- vocab:
+    language: en
+    script: Latn
+    content: basic lightning impulse
+- vocab:
+    language: en
+    script: Latn
+    content: BIL
+- vocab:
+    language: en
+    script: Latn
+    content: impulse insulation level
+- vocab:
+    language: en
+    script: Latn
+    content: basic switching
+- vocab:
+    language: en
+    script: Latn
+    content: BSL
+- vocab:
+    language: en
+    script: Latn
+    content: crest valve
+- vocab:
+    language: en
+    script: Latn
+    content: ground fault factor
+- vocab:
+    language: en
+    script: Latn
+    content: insulation coordination
+- vocab:
+    language: en
+    script: Latn
+    content: overvoltage
+- vocab:
+    language: en
+    script: Latn
+    content: phase to ground
+- vocab:
+    language: en
+    script: Latn
+    content: insulation configuration
+- vocab:
+    language: en
+    script: Latn
+    content: phase to phase
+- vocab:
+    language: en
+    script: Latn
+    content: protective margin
+- vocab:
+    language: en
+    script: Latn
+    content: protective ratio
+- vocab:
+    language: en
+    script: Latn
+    content: standard withstand voltages
+- vocab:
+    language: en
+    script: Latn
+    content: voltage stress
 ext:
   schema_version: v1.1.3
   doctype:

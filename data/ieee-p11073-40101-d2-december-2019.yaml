@@ -1,0 +1,170 @@
+---
+id: IEEEP1107340101D2December2019
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Draft Standard - Health informatics - Device interoperability - Part
+    40101: Cybersecurity - Processes for vulnerability assessment'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8930418
+docidentifier:
+- content: IEEE P11073-40101/D2, December, 2019
+  type: IEEE
+  primary: true
+- content: IEEE P11073-40101/D2, December, 2019™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6366-9
+  type: ISBN
+docnumber: IEEE P11073-40101/D2, December, 2019
+date:
+- type: created
+  at: '2019-12-09'
+- type: published
+  at: '2019-12-10'
+- type: issued
+  at: '2019'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines for Personal Health Devices (PHDs) and Point-of-Care
+    Devices (PoCDs) an iterative, systematic, scalable, and auditable approach to
+    identification of cybersecurity vulnerabilities and estimation of risk. The standard
+    presents one approach to iterative vulnerability assessment using the Spoofing,
+    Tampering, Repudiation, Information Disclosure (STRIDE) classification scheme
+    and embedded Common Vulnerability Scoring System (eCVSS) scoring system. The assessment
+    includes system context, system decomposition, pre-mitigation scoring, mitigation,
+    post-mitigation score and iterates until the remaining vulnerabilities are reduced
+    to an acceptable level of risk.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Bioinformatics
+- vocab:
+    language: en
+    script: Latn
+    content: informatics
+- vocab:
+    language: en
+    script: Latn
+    content: Computer security
+- vocab:
+    language: en
+    script: Latn
+    content: Medical devices
+- vocab:
+    language: en
+    script: Latn
+    content: Point of care
+- vocab:
+    language: en
+    script: Latn
+    content: Interoperability
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 11073-40101™
+- vocab:
+    language: en
+    script: Latn
+    content: Medical Device Communication
+- vocab:
+    language: en
+    script: Latn
+    content: Personal Health Devices
+- vocab:
+    language: en
+    script: Latn
+    content: Point-of-Care Devices
+- vocab:
+    language: en
+    script: Latn
+    content: Cybersecurity
+- vocab:
+    language: en
+    script: Latn
+    content: Vulnerability Assessment
+- vocab:
+    language: en
+    script: Latn
+    content: STRIDE
+- vocab:
+    language: en
+    script: Latn
+    content: embedded Common Vulnerability Scoring System
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

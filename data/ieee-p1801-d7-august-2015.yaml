@@ -1,0 +1,185 @@
+---
+id: IEEEP1801D7August2015
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Design and Verification of Low Power, Energy Aware
+    Electronic Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7293041
+docidentifier:
+- content: IEEE P1801/D7, August, 2015
+  type: IEEE
+  primary: true
+- content: IEEE P1801/D7, August, 2015™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9922-1
+  type: ISBN
+docnumber: IEEE P1801/D7, August, 2015
+date:
+- type: created
+  at: '2015-10-06'
+- type: published
+  at: '2015-10-19'
+- type: issued
+  at: '2015'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A method is provided for specifying power intent for an electronic design,
+    for use in verification of the structure and behavior of the design in the context
+    of a given power management architecture, and for driving implementation of that
+    power management architecture. The method supports incremental refinement of power
+    intent specifications required for IP-based design flows.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Repeaters
+- vocab:
+    language: en
+    script: Latn
+    content: Standards organizations
+- vocab:
+    language: en
+    script: Latn
+    content: Power system planning
+- vocab:
+    language: en
+    script: Latn
+    content: Power domains
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1801(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: interface specification
+- vocab:
+    language: en
+    script: Latn
+    content: IP reuse
+- vocab:
+    language: en
+    script: Latn
+    content: power-aware design
+- vocab:
+    language: en
+    script: Latn
+    content: successive refinement
+- vocab:
+    language: en
+    script: Latn
+    content: bottom-up implementation
+- vocab:
+    language: en
+    script: Latn
+    content: power intent
+- vocab:
+    language: en
+    script: Latn
+    content: power domains
+- vocab:
+    language: en
+    script: Latn
+    content: power states
+- vocab:
+    language: en
+    script: Latn
+    content: supply states
+- vocab:
+    language: en
+    script: Latn
+    content: isolation
+- vocab:
+    language: en
+    script: Latn
+    content: level-shifting
+- vocab:
+    language: en
+    script: Latn
+    content: retention
+- vocab:
+    language: en
+    script: Latn
+    content: repeaters
+- vocab:
+    language: en
+    script: Latn
+    content: buffers.
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

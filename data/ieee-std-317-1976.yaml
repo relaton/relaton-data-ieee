@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 317-1976
   type: IEEE
   primary: true
-- content: IEEE Std 317™-1976
+- content: IEEE Std 317-1976™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 317-1976
 date:
-- type: updated
-  at: '2016-03-04'
 - type: created
   at: '1976-05-24'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,14 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard prescribes the requirements for the design, construction,
+    test, and installation of electric penetration assemblies in nuclear containment
+    structures for stationary nuclear power generating stations. The requirements
+    for external circuits which connect to penetration assemblies are beyond the scope
+    of this standard.
 copyright:
 - from: '1976'
   owner:

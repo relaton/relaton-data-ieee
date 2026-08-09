@@ -14,7 +14,7 @@ docidentifier:
 - content: IEEE Std C37.60-2012
   type: IEEE
   primary: true
-- content: IEEE Std C37.60™-2012
+- content: IEEE Std C37.60-2012™
   type: IEEE
   scope: trademark
   primary: true
@@ -99,6 +99,14 @@ copyright:
         script: Latn
         content: IEC
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEC 62271-111 and IEEE Std C37.60-2018
+    docidentifier:
+    - content: IEC 62271-111 and IEEE Std C37.60-2018
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en

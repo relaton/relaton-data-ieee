@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 802.16-2012
   type: IEEE
   primary: true
-- content: IEEE Std 802.16®-2012
+- content: IEEE Std 802.16-2012®
   type: IEEE
   scope: trademark
   primary: true
@@ -94,6 +94,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 802.16-2017
+    docidentifier:
+    - content: IEEE Std 802.16-2017
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -104,14 +112,6 @@ relation:
       content: IEEE Std 802.16-2009
     docidentifier:
     - content: IEEE Std 802.16-2009
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 802.16-2017
-    docidentifier:
-    - content: IEEE Std 802.16-2017
       type: IEEE
       primary: true
 keyword:

@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 521-1976
   type: IEEE
   primary: true
-- content: IEEE Std 521™-1976
+- content: IEEE Std 521-1976™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 521-1976
 date:
-- type: updated
-  at: '2016-03-25'
 - type: created
   at: '1976-11-30'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

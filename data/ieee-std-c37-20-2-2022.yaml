@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std C37.20.2-2022
   type: IEEE
   primary: true
-- content: IEEE Std C37.20.2™-2022
+- content: IEEE Std C37.20.2-2022™
   type: IEEE
   scope: trademark
   primary: true
@@ -80,9 +80,6 @@ abstract:
     by MC switchgear. Service conditions, ratings, temperature limitations and classification
     of insulating materials, insulation (dielectric) withstand voltage requirements,
     test procedures, and applications are discussed.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2022'
   owner:
@@ -97,6 +94,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.20.2-2025
+    docidentifier:
+    - content: IEEE Std C37.20.2-2025
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -198,7 +203,6 @@ ext:
   ics:
   - code: 29.130.99
     text: Other switchgear and controlgear
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

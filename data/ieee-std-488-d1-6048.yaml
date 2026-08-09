@@ -1,0 +1,156 @@
+---
+id: IEEEStd488D16048
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEC/IEEE International Standard - Higher Performance Protocol for the
+    Standard Digital Interface for Programmable Instrumentation - Part 1: General'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1405845
+docidentifier:
+- content: IEEE Std 488/D1-6048
+  type: IEEE
+  primary: true
+- content: IEEE Std 488/D1-6048™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-4536-5
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.95749
+  type: DOI
+docnumber: IEEE Std 488/D1-6048
+date:
+- type: created
+  at: '2004-11-22'
+- type: published
+  at: '2019-10-31'
+- type: issued
+  at: '2004'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Supersedes IEEE Std 488.1-2003. This standard applies to interface systems
+    used to interconnect both programmable and nonprogrammable electronic measuring
+    apparatus with other apparatus and accessories necessary to assemble instrumentation
+    systems. It applies to the interface of instrumentation systems, or portions of
+    them, in which the a) Data exchanged among the interconnected apparatus is digital
+    (as distinct from analog) b) Number of devices that may be interconnected by one
+    contiguous bus does not exceed 15 c) Total transmission path lengths over the
+    interconnecting cables does not exceed 20 m d) Data rate among devices does not
+    exceed 8 000 000 B/s The basic functional specifications of this standard may
+    be used in digital interface applications that require longer distances, more
+    devices, increased noise immunity, or combinations of these. Different electrical
+    and mechanical specifications may be required (for example, symmetrical circuit
+    configurations, high threshold logic, special connectors, or cable configurations)
+    for these extended applications.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: IEC Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Programmable instrumentation
+- vocab:
+    language: en
+    script: Latn
+    content: Standard Digital Interface
+- vocab:
+    language: en
+    script: Latn
+    content: GPIB
+- vocab:
+    language: en
+    script: Latn
+    content: HPIB
+- vocab:
+    language: en
+    script: Latn
+    content: HS488
+- vocab:
+    language: en
+    script: Latn
+    content: non-interlocked handshake
+- vocab:
+    language: en
+    script: Latn
+    content: three-wire handshake
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 17.220.20
+    text: Measurement of electrical and magnetic quantities
+  - code: 25.040.40
+    text: Industrial process measurement and control
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

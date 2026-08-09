@@ -1,0 +1,124 @@
+---
+id: ANSIIEEE10081987
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Standard for Software Unit Testing
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/27763
+docidentifier:
+- content: ANSI/IEEE 1008-1987
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE 1008-1987™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0400-3
+  type: ISBN
+- content: 10.1109/IEEESTD.1986.81001
+  type: DOI
+docnumber: ANSI/IEEE 1008-1987
+date:
+- type: created
+  at: '1986-11-30'
+- type: published
+  at: '2019-02-27'
+- type: issued
+  at: '1986-12-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software & Systems Engineering Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An integrated approach to systematic and documented unit testing is defined.
+    It uses unit design and unit implementation information, in addition to unit requirements,
+    to determine the completeness of the testing. The testing process described composed
+    of a hierarchy of phases, activities, and tasks and defines a minimum set of tasks
+    for each activity. The standard can be applied to the unit testing of any digital
+    computer software or firmware and to the testing of both newly developed and modified
+    units. The software engineering concepts and testing assumption on which this
+    standard approach is based and guidance and resource information to assist with
+    the implementation and usage of the standard unit testing approach are provided
+    in appendixes.
+copyright:
+- from: '1986'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Software testing
+- vocab:
+    language: en
+    script: Latn
+    content: Software engineering
+- vocab:
+    language: en
+    script: Latn
+    content: Standards
+- vocab:
+    language: en
+    script: Latn
+    content: unit
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

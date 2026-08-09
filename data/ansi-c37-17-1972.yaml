@@ -13,7 +13,7 @@ docidentifier:
 - content: ANSI C37.17-1972
   type: IEEE
   primary: true
-- content: ANSI C37.17™-1972
+- content: ANSI C37.17-1972™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: ANSI C37.17-1972
 date:
-- type: updated
-  at: '2016-03-04'
 - type: created
   at: '1972-12-27'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

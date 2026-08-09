@@ -1,0 +1,122 @@
+---
+id: ANSIC9531973
+schema_version: v1.5.6
+type: standard
+title:
+- content: American National Standard Techniques and Instrumentation for the Measurement
+    of Potentially Hazardous Electromagnetic Radiation at Microwave Frequencies
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7042369
+docidentifier:
+- content: ANSI C95.3-1973
+  type: IEEE
+  primary: true
+- content: ANSI C95.3-1973™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9564-3
+  type: ISBN
+- content: 10.1109/IEEESTD.2015.7042369
+  type: DOI
+docnumber: ANSI C95.3-1973
+date:
+- type: created
+  at: '2015-02-13'
+- type: published
+  at: '2015-02-13'
+- type: issued
+  at: '1973'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard sets forth evaluation techniques and instrumentation to determine
+    the existence of a potentially hazardous situation due to electromagnetic radiation.
+    The scope includes hazards to flammable volatile materials and explosive devices.
+    Emphasis is on techniques suitable for measuring power density at microwave frequencies.
+    These techniques are generally applicable only in the far field, but reasonably
+    accurate measurements can be made whenever the following necessary conditions
+    are satisfied. (1) The transmitting antenna and any scattering objects must be
+    in the far field of the receiving antenna. (2) The receiving antenna must be at
+    least several 'aperture diameters' removed from the transmitting antenna and any
+    scattering objects. (3) The transmitting antenna and any sources of multipath
+    scattering must be contained within the main beam of the receiving antenna. Thus,
+    leakage measurements and measurements in the reactive near field are specifically
+    excluded. However, measurements can be made in the radiating near field with a
+    receiving antenna which is small compared to the source antenna if the three conditions
+    above are satisfied.
+copyright:
+- from: '1973'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: ANSI Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Hazards
+- vocab:
+    language: en
+    script: Latn
+    content: Electromagnetic radiation
+- vocab:
+    language: en
+    script: Latn
+    content: Electromagnetic devices
+- vocab:
+    language: en
+    script: Latn
+    content: Microwave frequencies
+- vocab:
+    language: en
+    script: Latn
+    content: Electromagnetic measurements
+- vocab:
+    language: en
+    script: Latn
+    content: Instrumentation
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 33.100.10
+    text: Emission
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

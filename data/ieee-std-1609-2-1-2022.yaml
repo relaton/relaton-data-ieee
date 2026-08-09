@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 1609.2.1-2022
   type: IEEE
   primary: true
-- content: IEEE Std 1609.2.1™-2022
+- content: IEEE Std 1609.2.1-2022™
   type: IEEE
   scope: trademark
   primary: true
@@ -77,9 +77,6 @@ abstract:
     1609.2(TM), to end entities, that is, an actor that uses digital certificates
     to authorize application activities. (Additional downloads for this standard can
     be found at https://standards.ieee.org/wp-content/uploads/2022/05/1609.2.1-2022_downloads.zip)
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2022'
   owner:
@@ -104,6 +101,14 @@ relation:
       content: IEEE Std 1609.2.1-2020
     docidentifier:
     - content: IEEE Std 1609.2.1-2020
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1609.2.1-2026
+    docidentifier:
+    - content: IEEE Std 1609.2.1-2026
       type: IEEE
       primary: true
 keyword:
@@ -167,7 +172,6 @@ ext:
   ics:
   - code: 35.240.60
     text: IT applications in transport
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

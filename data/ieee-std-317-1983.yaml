@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 317-1983
   type: IEEE
   primary: true
-- content: IEEE Std 317™-1983
+- content: IEEE Std 317-1983™
   type: IEEE
   scope: trademark
   primary: true
@@ -110,6 +110,18 @@ relation:
       content: IEEE Std 317-2013
     docidentifier:
     - content: IEEE Std 317-2013
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 317-1976
+    docidentifier:
+    - content: IEEE Std 317-1976
       type: IEEE
       primary: true
 - type: obsoletedBy

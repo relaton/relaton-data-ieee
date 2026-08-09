@@ -9,25 +9,25 @@ title:
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/8299604
+  content: https://ieeexplore.ieee.org/document/7426675
 docidentifier:
 - content: IEEE Std 1673-2015
   type: IEEE
   primary: true
-- content: IEEE Std 1673™-2015
+- content: IEEE Std 1673-2015™
   type: IEEE
   scope: trademark
   primary: true
-- content: 978-1-5044-4657-0
+- content: 978-1-5044-0099-2
   type: ISBN
-- content: 10.1109/IEEESTD.2016.8299604
+- content: 10.1109/IEEESTD.2016.7426675
   type: DOI
 docnumber: IEEE Std 1673-2015
 date:
 - type: created
   at: '2016-02-29'
 - type: published
-  at: '2018-02-21'
+  at: '2016-03-07'
 - type: issued
   at: '2015-12-05'
 contributor:
@@ -61,8 +61,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Petroleum and Chemical Industry of the IEEE Industry Applications
-          Society
+        content: Petroleum & Chemical Industry of the IEEE Industry Applications Society
       type: committee
     abbreviation:
       content: IEEE
@@ -76,15 +75,15 @@ abstract:
   content: Provided in this document are specific requirements for field installed
     sealing between a pressurized system (stream) containing flammable or combustible
     process fluids which is connected directly or indirectly to an electrical system
-    where a failure could allow the migration of process fluids directly into the
-    electrical system. Not addressed in this document are the basic requirements for
-    electrical safety and the effects of the loss of containment of the process system
-    in terms of risk to the environment and/or personnel health and safety.
+    where a failure could allow the migration of processfluids directly into the electrical
+    system. Not addressed in this document are the basic requirements for electrical
+    safety and the effects of the loss of containment of the process system in terms
+    of risk to the environment and/or personnel health and safety.
 status:
   stage:
     content: approved
 copyright:
-- from: '2016'
+- from: '2015'
   owner:
   - organization:
       uri:
@@ -104,19 +103,31 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Power cables
+    content: Instrumenation
 - vocab:
     language: en
     script: Latn
-    content: Instrumentation
+    content: Sealing processes
 - vocab:
     language: en
     script: Latn
-    content: Sealing materials
+    content: Pressure measurement
+- vocab:
+    language: en
+    script: Latn
+    content: Atmospheric measurement
+- vocab:
+    language: en
+    script: Latn
+    content: Chemical industry
 - vocab:
     language: en
     script: Latn
     content: Wiring
+- vocab:
+    language: en
+    script: Latn
+    content: Petroleum
 - vocab:
     language: en
     script: Latn
@@ -142,16 +153,7 @@ ext:
   doctype:
     content: standard
   flavor: ieee
-  ics:
-  - code: '29.020'
-    text: Electrical engineering in general
-  - code: 75.180.10
-    text: Exploratory, drilling and extraction equipment
-  - code: '75.200'
-    text: Petroleum products and natural gas handling equipment
-  - code: 29.035.01
-    text: Insulating materials in general
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Approved
   pubstatus: Active
   holdstatus: Publish

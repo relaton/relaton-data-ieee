@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 1904.4-2025
   type: IEEE
   primary: true
-- content: IEEE Std 1904.4™-2025
+- content: IEEE Std 1904.4-2025™
   type: IEEE
   scope: trademark
   primary: true
@@ -175,6 +175,9 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

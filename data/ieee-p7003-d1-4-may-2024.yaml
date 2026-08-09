@@ -1,0 +1,161 @@
+---
+id: IEEEP7003D14May2024
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Algorithmic Bias Considerations
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10811799
+docidentifier:
+- content: IEEE P7003/D1.4, May 2024
+  type: IEEE
+  primary: true
+- content: IEEE P7003/D1.4, May 2024™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0835-6
+  type: ISBN
+docnumber: IEEE P7003/D1.4, May 2024
+date:
+- type: created
+  at: '2024-05-22'
+- type: published
+  at: '2024-12-20'
+- type: issued
+  at: '2024-12-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software & Systems Engineering Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The processes and methodologies to help users address issues of bias in
+    the creation of algorithms are described in this standard. Elements include but
+    are not limited to: criteria for the selection of validation data sets for bias
+    quality control, guidelines on establishing and communicating the application
+    boundaries for which the algorithm has been designed and validated to guard against
+    unintended consequences arising from out-of-bound application of algorithms, and
+    suggestions for user expectation management to help mitigate bias due to incorrect
+    interpretation of systems outputs by users (e.g., correlation vs. causation).
+    (The PDF of this standard is available at no cost at https://ieeexplore.ieee.org/browse/standards/get-program/page/series?id=93)'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Artificial intelligence
+- vocab:
+    language: en
+    script: Latn
+    content: Ethics
+- vocab:
+    language: en
+    script: Latn
+    content: Human factors
+- vocab:
+    language: en
+    script: Latn
+    content: Algorithm design and theory
+- vocab:
+    language: en
+    script: Latn
+    content: algorithm
+- vocab:
+    language: en
+    script: Latn
+    content: algorithmic system
+- vocab:
+    language: en
+    script: Latn
+    content: artificial intelligence
+- vocab:
+    language: en
+    script: Latn
+    content: bias
+- vocab:
+    language: en
+    script: Latn
+    content: discrimination
+- vocab:
+    language: en
+    script: Latn
+    content: ethics
+- vocab:
+    language: en
+    script: Latn
+    content: fairness
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 7003™
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

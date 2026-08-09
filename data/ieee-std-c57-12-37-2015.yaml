@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C57.12.37-2015
   type: IEEE
   primary: true
-- content: IEEE Std C57.12.37™-2015
+- content: IEEE Std C57.12.37-2015™
   type: IEEE
   scope: trademark
   primary: true
@@ -76,9 +76,6 @@ abstract:
     and C57.12.4X standards series, is provided in this standard. The specific set
     of test data to be reported, and the report format, is detailed along with an
     extended set of data as an option for the user.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -93,6 +90,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.12.37-2025
+    docidentifier:
+    - content: IEEE Std C57.12.37-2025
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -154,7 +159,6 @@ ext:
   ics:
   - code: '29.180'
     text: Transformers. Reactors
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

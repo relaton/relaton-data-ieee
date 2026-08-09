@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C37.24-2017
   type: IEEE
   primary: true
-- content: IEEE Std C37.24™-2017
+- content: IEEE Std C37.24-2017™
   type: IEEE
   scope: trademark
   primary: true
@@ -79,9 +79,6 @@ abstract:
     to the solar radiation condition required are given in this guide. Examples of
     maximum monthly normal temperatures along with sources for data for the US and
     for Canada are also presented in this guide.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2017'
   owner:
@@ -96,6 +93,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.24-2025
+    docidentifier:
+    - content: IEEE Std C37.24-2025
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -165,7 +170,6 @@ ext:
   ics:
   - code: 29.130.01
     text: Switchgear and controlgear in general
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

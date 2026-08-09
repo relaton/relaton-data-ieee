@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C37.82-2017
   type: IEEE
   primary: true
-- content: IEEE Std C37.82™-2017
+- content: IEEE Std C37.82-2017™
   type: IEEE
   scope: trademark
   primary: true
@@ -78,9 +78,6 @@ abstract:
     metal-clad switchgear assemblies, as defined in IEEE Std C37.20.2™; metal-enclosed
     bus, as defined in IEEE Std C37.23™; and metal-enclosed interrupter switchgear
     assemblies, as defined in IEEE Std C37.20.3™.'
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2017'
   owner:
@@ -95,6 +92,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.82-2025
+    docidentifier:
+    - content: IEEE Std C37.82-2025
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -102,9 +107,9 @@ relation:
     content: revises
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std C37.82-1987
+      content: ANSI/IEEE C37.82-1987
     docidentifier:
-    - content: ANSI/IEEE Std C37.82-1987
+    - content: ANSI/IEEE C37.82-1987
       type: IEEE
       primary: true
 keyword:
@@ -156,7 +161,6 @@ ext:
   ics:
   - code: 29.130.01
     text: Switchgear and controlgear in general
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

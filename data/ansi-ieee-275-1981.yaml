@@ -14,7 +14,7 @@ docidentifier:
 - content: ANSI/IEEE 275-1981
   type: IEEE
   primary: true
-- content: ANSI/IEEE 275™-1981
+- content: ANSI/IEEE 275-1981™
   type: IEEE
   scope: trademark
   primary: true
@@ -24,8 +24,6 @@ docidentifier:
   type: DOI
 docnumber: ANSI/IEEE 275-1981
 date:
-- type: updated
-  at: '2016-02-19'
 - type: created
   at: '1981-05-15'
 - type: published
@@ -36,6 +34,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -68,6 +69,19 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard outlines a test procedure for comparing two or more insulation
+    systems in accordance with their expected life at rated temperature. The procedure
+    is limited to insulation systems for alternating-current electrical machines using
+    form-wound pre-insulated stator coils and rated 6900 V and below. It is the intent
+    of this procedure to evaluate insulation systems for use in usual service conditions
+    with air cooling. It does not cover such special requirements as machines enclosed
+    in gas atmospheres, subjected to strong chemicals, to metal dusts, or to submersion
+    in liquids, etc. The procedure includes instructions for testing candidate systems
+    in comparison with known systems having a proven record of service experience
+    and interpretation of the results.
 copyright:
 - from: '1981'
   owner:

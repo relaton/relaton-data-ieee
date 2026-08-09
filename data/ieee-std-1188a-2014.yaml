@@ -14,7 +14,7 @@ docidentifier:
 - content: IEEE Std 1188a-2014
   type: IEEE
   primary: true
-- content: IEEE Std 1188a™-2014
+- content: IEEE Std 1188a-2014™
   type: IEEE
   scope: trademark
   primary: true
@@ -24,8 +24,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1188a-2014
 date:
-- type: updated
-  at: '2014-08-01'
 - type: created
   at: '2014-07-11'
 - type: published
@@ -36,6 +34,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

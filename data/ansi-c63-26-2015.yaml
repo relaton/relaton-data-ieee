@@ -13,7 +13,7 @@ docidentifier:
 - content: ANSI C63.26-2015
   type: IEEE
   primary: true
-- content: ANSI C63.26™-2015
+- content: ANSI C63.26-2015™
   type: IEEE
   scope: trademark
   primary: true
@@ -28,7 +28,7 @@ date:
 - type: published
   at: '2016-02-01'
 - type: issued
-  at: '2015'
+  at: '2016'
 contributor:
 - role:
   - type: publisher
@@ -45,25 +45,6 @@ contributor:
       content: Institute of Electrical and Electronics Engineers
     abbreviation:
       content: IEEE
-- role:
-  - type: author
-    description:
-    - language: en
-      script: Latn
-      content: committee
-  organization:
-    name:
-    - language: en
-      script: Latn
-      content: Institute of Electrical and Electronics Engineers
-    subdivision:
-    - name:
-      - language: en
-        script: Latn
-        content: Accredited Standards Committee on Electromagnetic Compatibility
-      type: committee
-    abbreviation:
-      content: IEEE
 language:
 - en
 script:
@@ -71,22 +52,23 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard is intended to cover procedures for compliance testing of
-    a wide variety of transmitters designed to operate in licensed radio services,
-    including but not limited to:Commercial Mobile Radio Services, Public Mobile Services,
-    Cellular Radiotelephone Service, Personal Communication Services, Miscellaneous
-    Wireless Communication Services, PrivateLand Mobile Radio Services, and Personal
-    Radio Services. Tests methods are provided for measurement of radiated and conducted
-    emissions, RF power, out-of-band emissions, frequencystability, and other regulatory
-    requirements for a variety of devices. This standard does not consider test methods
-    for requirements specific to maritime and aviation transmitters, ground-based
-    radars, satellite equipment, fixed microwave equipment, or broadcast transmitters.
-    The latter equipment may be covered in future revisions of this standard.
+  content: 'Reaffirmed September 9, 2025. This standard is intended to cover procedures
+    for compliance testing of a wide variety of transmitters designed to operate in
+    licensed radio services, including but not limited to: Commercial Mobile Radio
+    Services, Public Mobile Services, Cellular Radiotelephone Service, Personal Communication
+    Services, Miscellaneous Wireless Communication Services, Private Land Mobile Radio
+    Services, and Personal Radio Services. Tests methods are provided for measurement
+    of radiated and conducted emissions, RF power, out-of-band emissions, frequency
+    stability, and other regulatory requirements for a variety of devices. This standard
+    does not consider test methods for requirements specific to maritime and aviation
+    transmitters, ground-based radars, satellite equipment, fixed microwave equipment,
+    or broadcast transmitters. The latter equipment may be covered in future revisions
+    of this standard.'
 status:
   stage:
     content: approved
 copyright:
-- from: '2015'
+- from: '2016'
   owner:
   - organization:
       uri:
@@ -178,6 +160,9 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 33.060.20
+    text: Receiving and transmitting equipment
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -13,29 +13,30 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/7331211
 docidentifier:
-- content: ANSI N42.42-2012 Redline
+- content: ANSI N42.42-2012 - Redline
   type: IEEE
   primary: true
-- content: ANSI N42.42™-2012 Redline
+- content: ANSI N42.42-2012 - Redline™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-8775-4
   type: ISBN
-docnumber: ANSI N42.42-2012 Redline
+docnumber: ANSI N42.42-2012 - Redline
 date:
-- type: updated
-  at: '2015-12-11'
 - type: created
   at: '2013-04-15'
 - type: published
-  at: '2015-11-17'
+  at: '2015-11-18'
 - type: issued
   at: '2013'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -60,7 +61,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Radiation Instrumentation of the Accredited Standards Committee N42
+        content: National Committee on Radiation Instrumentation
       type: committee
     abbreviation:
       content: IEEE
@@ -75,9 +76,7 @@ abstract:
     to be made available by radiation measurement instruments for homeland security
     applications is specified. The performance for these types of instruments is described
     in other standards; such as ANSI N42.32, ANSI N42.33, ANSI N42.34, ANSI N42.35,
-    ANSI N42.38, ANSI N42.43, ANSI N42.48, ANSI N42.49A, and ANSI N42.53. (The PDF
-    of this standard is available at no cost compliments of Department of Homeland
-    Security Domestic Nuclear Detection Office. http://standards.ieee.org/getN42/download/N42.42-2012.pdf)
+    ANSI N42.38, ANSI N42.43, ANSI N42.48, ANSI N42.49A, and ANSI N42.53.
 copyright:
 - from: '2013'
   owner:
@@ -101,6 +100,19 @@ copyright:
         content: American National Standards Institute
       abbreviation:
         content: ANSI
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: ANSI N42.42-2006
+    docidentifier:
+    - content: ANSI N42.42-2006
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -163,8 +175,8 @@ ext:
   - code: '17.240'
     text: Radiation measurements
   - code: '35.040'
-    text: Character sets and information coding
-  standard_status: Active
+    text: Information coding
+  standard_status: Superseded
   standard_modified: Redline
   pubstatus: Active
   holdstatus: Publish

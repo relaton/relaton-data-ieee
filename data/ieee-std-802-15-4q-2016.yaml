@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 802.15.4q-2016
   type: IEEE
   primary: true
-- content: IEEE Std 802.15.4q®-2016
+- content: IEEE Std 802.15.4q-2016®
   type: IEEE
   scope: trademark
   primary: true
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 802.15.4q-2016
 date:
-- type: updated
-  at: '2016-05-27'
 - type: created
   at: '2016-04-29'
 - type: published
-  at: '2016-05-06'
+  at: '2016-05-09'
 - type: issued
   at: '2016-01-29'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -75,11 +76,7 @@ abstract:
     also defines the medium access control (MAC) modifications needed to support the
     implementation of the TASK and RS-GFSK PHYs. These alternate PHYs enable low-cost,
     ultra-low power consumption, as well as extended battery life, in various frequency
-    bands and geographical regions under multiple regulatory domains. (The PDF of
-    this standard is available at no cost compliments of the IEEE GET program. http://ieeexplore.ieee.org/document/7466448/)
-status:
-  stage:
-    content: approved
+    bands and geographical regions under multiple regulatory domains.
 copyright:
 - from: '2016'
   owner:
@@ -101,9 +98,9 @@ relation:
     content: amends
   bibitem:
     formattedref:
-      content: IEEE Std 802.15.4-2015
+      content: IEEE Std 802.15.4-2011
     docidentifier:
-    - content: IEEE Std 802.15.4-2015
+    - content: IEEE Std 802.15.4-2011
       type: IEEE
       primary: true
 keyword:
@@ -199,7 +196,6 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

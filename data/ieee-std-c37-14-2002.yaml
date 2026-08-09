@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std C37.14-2002
   type: IEEE
   primary: true
-- content: IEEE Std C37.14™-2002
+- content: IEEE Std C37.14-2002™
   type: IEEE
   scope: trademark
   primary: true
@@ -25,7 +25,7 @@ date:
 - type: created
   at: '2003-04-22'
 - type: published
-  at: '2013-12-24'
+  at: '2003-04-29'
 - type: issued
   at: '2002-12-11'
 contributor:
@@ -96,6 +96,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.14-2015
+    docidentifier:
+    - content: IEEE Std C37.14-2015
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -106,14 +114,6 @@ relation:
       content: IEEE Std C37.14-1999
     docidentifier:
     - content: IEEE Std C37.14-1999
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std C37.14-2015
-    docidentifier:
-    - content: IEEE Std C37.14-2015
       type: IEEE
       primary: true
 keyword:

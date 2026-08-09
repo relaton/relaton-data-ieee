@@ -10,10 +10,10 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/7740864
 docidentifier:
-- content: IEEE Std 11073.10422-2016
+- content: IEEE Std 11073-10422-2016
   type: IEEE
   primary: true
-- content: IEEE Std 11073.10422™-2016
+- content: IEEE Std 11073-10422-2016™
   type: IEEE
   scope: trademark
   primary: true
@@ -21,7 +21,7 @@ docidentifier:
   type: ISBN
 - content: 10.1109/IEEESTD.2016.7740864
   type: DOI
-docnumber: IEEE Std 11073.10422-2016
+docnumber: IEEE Std 11073-10422-2016
 date:
 - type: created
   at: '2016-11-10'
@@ -83,9 +83,6 @@ abstract:
     in base frameworks in favor of interoperability is specified. A common core of
     communication functionality for personal telehealth urine analyzers is defined
     in this standard.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -99,6 +96,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 11073-10422-2026
+    docidentifier:
+    - content: IEEE Std 11073-10422-2026
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -146,7 +152,6 @@ ext:
     text: Diagnostic equipment
   - code: 35.240.80
     text: IT applications in health care technology
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

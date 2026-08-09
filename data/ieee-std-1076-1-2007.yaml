@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 1076.1-2007
   type: IEEE
   primary: true
-- content: IEEE Std 1076.1™-2007
+- content: IEEE Std 1076.1-2007™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,18 +22,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1076.1-2007
 date:
-- type: updated
-  at: '2008-03-17'
 - type: created
   at: '2007-11-15'
 - type: published
-  at: '2016-10-20'
+  at: '2007-11-19'
 - type: issued
   at: '2007-05-17'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -103,9 +104,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: IEEE P1076.1/D-1.2-2017-05
+      content: IEEE P1076.1/D1.2, May 2017
     docidentifier:
-    - content: IEEE P1076.1/D-1.2-2017-05
+    - content: IEEE P1076.1/D1.2, May 2017
       type: IEEE
       primary: true
 keyword:

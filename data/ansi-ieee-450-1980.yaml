@@ -13,7 +13,7 @@ docidentifier:
 - content: ANSI/IEEE 450-1980
   type: IEEE
   primary: true
-- content: ANSI/IEEE 450™-1980
+- content: ANSI/IEEE 450-1980™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: ANSI/IEEE 450-1980
 date:
-- type: updated
-  at: '2016-03-18'
 - type: created
   at: '1980-10-24'
 - type: published
-  at: '2016-02-24'
+  at: '2016-02-25'
 - type: issued
   at: '1979-03-15'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -86,9 +87,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 450-1987
+      content: ANSI/IEEE 450-1987
     docidentifier:
-    - content: ANSI/IEEE Std 450-1987
+    - content: ANSI/IEEE 450-1987
       type: IEEE
       primary: true
 keyword:

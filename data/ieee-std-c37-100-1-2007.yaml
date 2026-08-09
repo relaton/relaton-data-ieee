@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C37.100.1-2007
   type: IEEE
   primary: true
-- content: IEEE Std C37.100.1™-2007
+- content: IEEE Std C37.100.1-2007™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C37.100.1-2007
 date:
-- type: updated
-  at: '2008-03-17'
 - type: created
   at: '2007-10-12'
 - type: published
-  at: '2019-04-08'
+  at: '2007-10-22'
 - type: issued
   at: '2007-05-17'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -93,9 +94,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: IEEE PC37.100.1/D-1-2018-06
+      content: IEEE PC37.100.1/D1, June 2018
     docidentifier:
-    - content: IEEE PC37.100.1/D-1-2018-06
+    - content: IEEE PC37.100.1/D1, June 2018
       type: IEEE
       primary: true
 keyword:

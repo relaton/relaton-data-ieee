@@ -13,7 +13,7 @@ docidentifier:
 - content: ANSI/IEEE C57.12.00-1980
   type: IEEE
   primary: true
-- content: ANSI/IEEE C57.12.00™-1980
+- content: ANSI/IEEE C57.12.00-1980™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: ANSI/IEEE C57.12.00-1980
 date:
-- type: updated
-  at: '2016-04-22'
 - type: created
   at: '1980-11-28'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,22 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This standard is intended as a basis for the establishment of performance,
+    limited electrical and mechanical interchangeability, and safety requirements
+    of equipment described; and for assistance in the proper selection of such equipment.
+    This standard describes electrical, mechanical, and safety requirements of liquid-immersed
+    distribution and power transformers, and autotransformers and regulating transformers;
+    single and polyphase, with voltage 601 V or higher in the highest voltage winding.
+    This standard applies to all liquid-immersed distribution, power, and regulating
+    transformers except as indicated below: (1) Instrument transformers. (2) Step-voltage
+    and induction voltage regulators. (3) Arc furnace transformers. (4) Rectifier
+    transformers. (5) Specialty transformers. (6) Grounding transformers. (7) Mobile
+    transformers. (8) Mine transformers. When this standard is used on a mandatory
+    basis, the words shall and must indicates mandatory requirements; and the words
+    should and may refer to matters which are recommended or permissive, but not mandatory.'
 copyright:
 - from: '1980'
   owner:
@@ -75,9 +92,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std C57.12.00-1987
+      content: ANSI/IEEE C57.12.00-1987
     docidentifier:
-    - content: ANSI/IEEE Std C57.12.00-1987
+    - content: ANSI/IEEE C57.12.00-1987
       type: IEEE
       primary: true
 keyword:

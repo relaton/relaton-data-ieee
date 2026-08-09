@@ -1,0 +1,149 @@
+---
+id: IEEEP160912D6May2019
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Wireless Access in Vehicular Environments (WAVE)-Identifiers
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8710634
+docidentifier:
+- content: IEEE P1609.12/D6, May 2019
+  type: IEEE
+  primary: true
+- content: IEEE P1609.12/D6, May 2019™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-5816-0
+  type: ISBN
+docnumber: IEEE P1609.12/D6, May 2019
+date:
+- type: created
+  at: '2019-05-08'
+- type: published
+  at: '2019-05-09'
+- type: issued
+  at: '2019-09-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Intelligent Transportation Systems of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Wireless Access in Vehicular Environments (WAVE) is specified in the IEEE
+    1609 family of standards, within which certain identifiers are used. The use of
+    these identifiers is described, and identifier values that have been allocated
+    for use by WAVE systems are indicated.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 1609.12-2016
+    docidentifier:
+    - content: IEEE Std 1609.12-2016
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Wireless Access in Vehicular Environments
+- vocab:
+    language: en
+    script: Latn
+    content: Intelligent vehicles
+- vocab:
+    language: en
+    script: Latn
+    content: Identity management systems
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1609.12
+- vocab:
+    language: en
+    script: Latn
+    content: Provider Service Identifier
+- vocab:
+    language: en
+    script: Latn
+    content: PSID
+- vocab:
+    language: en
+    script: Latn
+    content: WAVE
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.240.60
+    text: IT applications in transport
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

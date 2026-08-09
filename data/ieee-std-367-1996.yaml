@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 367-1996
   type: IEEE
   primary: true
-- content: IEEE Std 367™-1996
+- content: IEEE Std 367-1996™
   type: IEEE
   scope: trademark
   primary: true
@@ -89,6 +89,18 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: ANSI/IEEE 367-1987
+    docidentifier:
+    - content: ANSI/IEEE 367-1987
+      type: IEEE
+      primary: true
 - type: obsoletedBy
   bibitem:
     formattedref:
@@ -104,9 +116,9 @@ relation:
     content: revises
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 367-1987
+      content: ANSI/IEEE 367-1987
     docidentifier:
-    - content: ANSI/IEEE Std 367-1987
+    - content: ANSI/IEEE 367-1987
       type: IEEE
       primary: true
 - type: obsoletedBy

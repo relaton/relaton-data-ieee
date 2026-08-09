@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 1653.3-2012
   type: IEEE
   primary: true
-- content: IEEE Std 1653.3™-2012
+- content: IEEE Std 1653.3-2012™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1653.3-2012
 date:
-- type: updated
-  at: '2013-03-11'
 - type: created
   at: '2013-01-18'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

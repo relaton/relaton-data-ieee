@@ -3,13 +3,13 @@ id: IEEEStandard
 schema_version: v1.5.6
 type: standard
 title:
-- content: IEEE Standard for a Smart Transducer Interface for Sensors and Actuators--Common
-    Functions, Communication Protocols, and Transducer Electronic Data Sheet (TEDS)
-    Formats
+- content: 'IEEE Standard for Ethernet - Amendment 3: Physical Layer Specifications
+    and Management Parameters for 40 Gb/s and 100 Gb/s Operation over Fiber Optic
+    Cables'
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/10571828
+  content: https://ieeexplore.ieee.org/document/7069180
 docidentifier:
 - content: IEEE Standard
   type: IEEE
@@ -18,18 +18,18 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 979-8-8557-0691-8
+- content: 978-0-7381-9514-8
   type: ISBN
-- content: 10.1109/IEEESTD.2024.10571828
+- content: 10.1109/IEEESTD.2015.7069180
   type: DOI
 docnumber: IEEE Standard
 date:
 - type: created
-  at: '2024-06-26'
+  at: '2015-03-27'
 - type: published
-  at: '2024-06-26'
+  at: '2015-03-26'
 - type: issued
-  at: '2024-02-15'
+  at: '2015-02-16'
 contributor:
 - role:
   - type: publisher
@@ -61,8 +61,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: TC9 - Sensor Technology of the IEEE Instrumentation and Measurement
-          Society
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
       type: committee
     abbreviation:
       content: IEEE
@@ -73,31 +72,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'The common functions, network services, transducer services, and Transducer
-    Electronic Data Sheet (TEDS) formats for members of the IEEE 1451 family of standards
-    to be interoperable in both network interface and transducer interface are provided.
-    The common functions and characteristics that are to be performed by a network
-    capable application processor (NCAP), which is a 1451 server, and all devices
-    that implement the NCAP are defined. A set of network services that includes a
-    set of commands and replies to access transducer data and TEDS data from the NCAP
-    (1451 server) by the Internet of Things (IoT) applications (APPs) that are 1451
-    clients are also defined. Application programming interfaces (APIs) of network
-    services are outlined to facilitate communications between the APPs (1451 clients)
-    and NCAPs. Furthermore, the common functions and characteristics that are to be
-    performed by a transducer interface module (TIM) and all devices that implement
-    the TIM are discussed. A set of transducer services that includes a set of commands
-    and replies to facilitate the setup and control of the TIM, as well as reading
-    and writing the data used by the NCAP, are outlined. APIs of transducer services
-    are also discussed to facilitate communications between the NCAPs and TIMs. Finally,
-    the formats for a TEDS and methods to access the TEDS are specified, along with
-    the common functions and characteristics that are to be performed by an APP and
-    all devices that implement the APP. Additional Open Source content available here:
-    https://opensource.ieee.org/1451/1451.0-schema/'
+  content: Physical Layer specifications and management parameters for 40 Gb/s operation
+    over single-mode fiber (40GBASE-ER4) and for 100 Gb/s operation over multimode
+    fiber (100GBASE-SR4) are added by this amendment. This amendment also specifies
+    a four-lane variant of the 100 Gigabit Attachment Unit Interface (CAUI-4) and
+    optional Energy Efficient Ethernet (EEE) for 40 Gb/s and 100 Gb/s operation over
+    fiber optic cables. (The PDF of this standard is available at no cost compliments
+    of the GETIEEE program. Visit http://standards.ieee.org/about/get/ for details.)
 status:
   stage:
     content: approved
 copyright:
-- from: '2024'
+- from: '2015'
   owner:
   - organization:
       uri:
@@ -109,19 +95,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref:
-      content: IEEE Std 1451.0-2007
-    docidentifier:
-    - content: IEEE Std 1451.0-2007
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -130,87 +103,111 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Transducers
+    content: Ethernet
 - vocab:
     language: en
     script: Latn
-    content: Actuators
+    content: Time measurement
 - vocab:
     language: en
     script: Latn
-    content: Application programming interfaces
+    content: Synchronization
 - vocab:
     language: en
     script: Latn
-    content: Protocols
+    content: Passive optical networks
 - vocab:
     language: en
     script: Latn
-    content: Smart devices
+    content: IEEE 802.3 Standard
 - vocab:
     language: en
     script: Latn
-    content: Wireless networks
+    content: 100 Gb/s Ethernet
 - vocab:
     language: en
     script: Latn
-    content: Sensors
+    content: 100GBASE-ER4
 - vocab:
     language: en
     script: Latn
-    content: actuator
+    content: 100GBASE-LR4
 - vocab:
     language: en
     script: Latn
-    content: application programming interface
+    content: 100GBASE-SR10
 - vocab:
     language: en
     script: Latn
-    content: communication protocol
+    content: 100GBASE-SR4
 - vocab:
     language: en
     script: Latn
-    content: IEEE 1451.0™
+    content: 40 Gb/s Ethernet
 - vocab:
     language: en
     script: Latn
-    content: network-capable application processor
+    content: 40GBASE-ER4
 - vocab:
     language: en
     script: Latn
-    content: sensor
+    content: 40GBASE-FR
 - vocab:
     language: en
     script: Latn
-    content: smart transducer
+    content: 40GBASE-LR4
 - vocab:
     language: en
     script: Latn
-    content: transducer channel
+    content: 40GBASE-SR4
 - vocab:
     language: en
     script: Latn
-    content: transducer electronic data sheet
+    content: amendment
 - vocab:
     language: en
     script: Latn
-    content: transducer interface module
+    content: CAUI-4
 - vocab:
     language: en
     script: Latn
-    content: universal unique identification
+    content: Energy Efficient Ethernet (EEE)
 - vocab:
     language: en
     script: Latn
-    content: wireless interface
+    content: forward error correction (FEC)
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.3(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.3bm(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: MMF
+- vocab:
+    language: en
+    script: Latn
+    content: Physical Medium Dependent (PMD) sublayer
+- vocab:
+    language: en
+    script: Latn
+    content: SMF
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
   ics:
-  - code: 25.040.40
-    text: Industrial process measurement and control
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

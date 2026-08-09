@@ -1,0 +1,231 @@
+---
+id: ISOIECIEEE88021CMAmd12019
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE/ISO/IEC International Standard-Telecommunications and information
+    exchange between information technology systems--Requirements for local and metropolitan
+    area networks--Part 1CM:Time-sensitive networking for fronthaul - AMENDMENT 1:
+    Enhancements to fronthaul profiles to support new fronthaul interface, synchronization,
+    and syntonization standards'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9620011
+docidentifier:
+- content: ISO/IEC/IEEE 8802.1CM/Amd 1-2019
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 8802.1CM/Amd 1-2019™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-8106-9
+  type: ISBN
+- content: 10.1109/IEEESTD.2021.9620011
+  type: DOI
+docnumber: ISO/IEC/IEEE 8802.1CM/Amd 1-2019
+date:
+- type: created
+  at: '2021-11-02'
+- type: published
+  at: '2021-11-18'
+- type: issued
+  at: '2021'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Enhancements to fronthaul profiles are defined in this amendment to IEEE
+    Std 802.1CM(TM)-2018 in order to address new developments in fronthaul interface
+    standards and in related synchronization and syntonization standards.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: ISO
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: adoptedFrom
+  bibitem:
+    formattedref:
+      content: IEEE Std 802.1CMde-2020
+    docidentifier:
+    - content: IEEE Std 802.1CMde-2020
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: ISO Standards
+- vocab:
+    language: en
+    script: Latn
+    content: IEC Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Metropolitan area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Urban areas
+- vocab:
+    language: en
+    script: Latn
+    content: Synchronization
+- vocab:
+    language: en
+    script: Latn
+    content: Information exchange
+- vocab:
+    language: en
+    script: Latn
+    content: Information technology
+- vocab:
+    language: en
+    script: Latn
+    content: Sensitivity
+- vocab:
+    language: en
+    script: Latn
+    content: amendment
+- vocab:
+    language: en
+    script: Latn
+    content: bridged network
+- vocab:
+    language: en
+    script: Latn
+    content: CPRI
+- vocab:
+    language: en
+    script: Latn
+    content: eCPRI
+- vocab:
+    language: en
+    script: Latn
+    content: F1
+- vocab:
+    language: en
+    script: Latn
+    content: fronthaul
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.1
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.1CM
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.1CMde
+- vocab:
+    language: en
+    script: Latn
+    content: synchronization
+- vocab:
+    language: en
+    script: Latn
+    content: time-sensitive networking
+- vocab:
+    language: en
+    script: Latn
+    content: TSN
+- vocab:
+    language: en
+    script: Latn
+    content: Virtual Local Area Network
+- vocab:
+    language: en
+    script: Latn
+    content: VLAN
+- vocab:
+    language: en
+    script: Latn
+    content: VLAN Bridge
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

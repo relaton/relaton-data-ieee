@@ -3,28 +3,30 @@ id: IEEEStd3151975
 schema_version: v1.5.6
 type: standard
 title:
-- content: IEEE Standard American National Standard Canadian Standard Graphic Symbols
-    for Electrical and Electronics Diagrams (Including Reference Designation Letters)
+- content: IEEE Standard for Graphic Symbols for Electrical and Electronics Diagrams
+    (Including Reference Designation Letters)
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/985670
+  content: https://ieeexplore.ieee.org/document/8996120
 docidentifier:
 - content: IEEE Std 315-1975
   type: IEEE
   primary: true
-- content: IEEE Std 315™-1975
+- content: IEEE Std 315-1975™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-0947-3
   type: ISBN
-- content: 10.1109/IEEESTD.1993.93397
+- content: 10.1109/IEEESTD.1975.8996120
   type: DOI
 docnumber: IEEE Std 315-1975
 date:
 - type: created
-  at: '1993'
+  at: '1975-12-29'
+- type: published
+  at: '2020-02-12'
 - type: issued
   at: '1975-09-04'
 contributor:
@@ -67,6 +69,15 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: A list of graphic symbols and class designation letters for use on electrical
+    and electronics diagrams is provided. All of the symbols are designed so that
+    their connection points fall on a modular grid, to help those who use a grid basis
+    for the preparation of diagrams. A substantial effort has been made to make this
+    standard compatible with approved International Electrotechnical Commission (IEC)
+    Recommendations (IEC Publication 117, in various parts).
 copyright:
 - from: '1993'
   owner:
@@ -92,11 +103,47 @@ keyword:
 - vocab:
     language: en
     script: Latn
+    content: IEC Standards
+- vocab:
+    language: en
+    script: Latn
     content: Graphics
 - vocab:
     language: en
     script: Latn
-    content: Electrical engineering
+    content: Electronic equipment
+- vocab:
+    language: en
+    script: Latn
+    content: graphic
+- vocab:
+    language: en
+    script: Latn
+    content: symbols
+- vocab:
+    language: en
+    script: Latn
+    content: diagrams
+- vocab:
+    language: en
+    script: Latn
+    content: electrical
+- vocab:
+    language: en
+    script: Latn
+    content: electronics
+- vocab:
+    language: en
+    script: Latn
+    content: Y32.1
+- vocab:
+    language: en
+    script: Latn
+    content: Y32.2
+- vocab:
+    language: en
+    script: Latn
+    content: Z99
 ext:
   schema_version: v1.1.3
   doctype:

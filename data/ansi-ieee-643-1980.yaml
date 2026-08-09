@@ -1,0 +1,148 @@
+---
+id: ANSIIEEE6431980
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Guide for Power-Line Carrier Applications
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/27873
+docidentifier:
+- content: ANSI/IEEE 643-1980
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE 643-1980™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0891-9
+  type: ISBN
+- content: 10.1109/IEEESTD.1981.81055
+  type: DOI
+docnumber: ANSI/IEEE 643-1980
+date:
+- type: created
+  at: '1981-01-30'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1979-03-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The purpose of this guide is to provide application information to users
+    of carrier equipment as applied on power transmission lines. It is hoped that
+    this guide will be useful to the initial user of power line carriers as well as
+    to the experienced application engineer. Detailed references have been provided
+    in the guide for those who require more information. Material on power line carrier
+    channel characteristics is presented along with discussions on intrabundle conductor
+    systems and insulated shield wire systems. Procedures for the calculation of channel
+    performance are given. Major coupling components considered are line traps, coupling
+    capacitors, line tuners, coaxial cables, hybrids, and filters. Frequency selection
+    practices and future trends are also discussed
+copyright:
+- from: '1981'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 643-2004
+    docidentifier:
+    - content: IEEE Std 643-2004
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Standards
+- vocab:
+    language: en
+    script: Latn
+    content: guide
+- vocab:
+    language: en
+    script: Latn
+    content: power
+- vocab:
+    language: en
+    script: Latn
+    content: line
+- vocab:
+    language: en
+    script: Latn
+    content: carrier
+- vocab:
+    language: en
+    script: Latn
+    content: applications
+- vocab:
+    language: en
+    script: Latn
+    content: Power distribution communication
+- vocab:
+    language: en
+    script: Latn
+    content: Couplers
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 29.240.20
+    text: Power transmission and distribution lines
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

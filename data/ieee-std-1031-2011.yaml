@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 1031-2011
   type: IEEE
   primary: true
-- content: IEEE Std 1031™-2011
+- content: IEEE Std 1031-2011™
   type: IEEE
   scope: trademark
   primary: true
@@ -60,7 +60,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Substations of the IEEE Power & Energy Society
+        content: Substations Committee of the IEEE Power and Energy Society
       type: committee
     abbreviation:
       content: IEEE
@@ -75,9 +75,6 @@ abstract:
     compensator is documented by this guide. The intention of this document is to
     serve as a base specification with an informative annex provided to allow users
     to modify or develop specific clauses to meet a particular application.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2011'
   owner:
@@ -91,19 +88,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref:
-      content: IEEE Std 1031-2000
-    docidentifier:
-    - content: IEEE Std 1031-2000
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -165,7 +149,7 @@ ext:
   ics:
   - code: 31.060.60
     text: Variable capacitors
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Inactive
+  standard_modified: Reserved
   pubstatus: Active
   holdstatus: Publish

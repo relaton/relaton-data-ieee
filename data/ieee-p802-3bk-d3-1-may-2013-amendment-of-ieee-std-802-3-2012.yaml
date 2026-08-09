@@ -1,0 +1,156 @@
+---
+id: IEEEP8023bkD31May2013AmendmentofIEEEStd80232012
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Standard for EthernetAmendment 1: Physical Layer Specifications and
+    Management Parameters for Extended Ethernet Passive Optical Networks'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6525312
+docidentifier:
+- content: IEEE P802.3bk/D3.1, May 2013 (Amendment of IEEE Std 802.3-2012)
+  type: IEEE
+  primary: true
+- content: IEEE P802.3bk/D3.1, May 2013 (Amendment of IEEE Std 802.3-2012)™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-8360-2
+  type: ISBN
+docnumber: IEEE P802.3bk/D3.1, May 2013 (Amendment of IEEE Std 802.3-2012)
+date:
+- type: created
+  at: '2013-08-30'
+- type: published
+  at: '2013-06-06'
+- type: issued
+  at: '2013-08-23'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3 defines the physical layer specifications
+    and management parameters for EPON operation on point-to-multipoint passive optical
+    networks supporting extended power budget classes of PX30, PX40, PRX40, and PR40
+    PMDs.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE standards
+- vocab:
+    language: en
+    script: Latn
+    content: Ethernet networks
+- vocab:
+    language: en
+    script: Latn
+    content: EPON
+- vocab:
+    language: en
+    script: Latn
+    content: Passive optical networks
+- vocab:
+    language: en
+    script: Latn
+    content: Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: extended EPON
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.3
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.3bk
+- vocab:
+    language: en
+    script: Latn
+    content: PRX40
+- vocab:
+    language: en
+    script: Latn
+    content: PR40
+- vocab:
+    language: en
+    script: Latn
+    content: PX30
+- vocab:
+    language: en
+    script: Latn
+    content: PX40
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

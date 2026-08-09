@@ -1,0 +1,220 @@
+---
+id: IEEEStd15961992AdoptedbyISOIECandredesignatedasISOIEC139612000
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Standard for Scalable Coherent Interface (SCI)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6182605
+docidentifier:
+- content: IEEE Std 1596-1992 (Adopted by ISO/IEC and redesignated as ISO/IEC 13961:2000)
+  type: IEEE
+  primary: true
+- content: IEEE Std 1596-1992 (Adopted by ISO/IEC and redesignated as ISO/IEC 13961:2000)™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-1206-0
+  type: ISBN
+- content: 10.1109/IEEESTD.2012.6182605
+  type: DOI
+docnumber: IEEE Std 1596-1992 (Adopted by ISO/IEC and redesignated as ISO/IEC 13961:2000)
+date:
+- type: created
+  at: '2012-04-11'
+- type: published
+  at: '2012-04-11'
+- type: issued
+  at: '1992-03-19'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Microprocessor Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The scalable coherent interface (SCI) provides computer-bus-like services
+    but, instead of a bus, uses a collection of fast point-to-point unidirectional
+    links to provide the far higher throughput needed for high-performance multiprocessor
+    systems. SCI supports distributed, shared memory with optional cache coherence
+    for tightly coupled systems, and message-passing for loosely coupled systems.
+    Initial SCI links are defined at 1 Gbyte/s (16-bit parallel) and 1 Gb/s (serial).
+    For applications requiring modular packaging, an interchangeable module is specified
+    along with connector and power. The packets and protocols that implement transactions
+    are defined and their formal specification is provided in the form of computer
+    programs. In addition to the usual read-and-write transactions, SCI supports efficient
+    multiprocessor lock transactions. The distributed cache-coherence protocols are
+    efficient and can recover from an arbitrary number of transmission failures. SCI
+    protocols ensure forward progress despite multiprocessor conflicts (no deadlocks
+    or starvation).
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE standards
+- vocab:
+    language: en
+    script: Latn
+    content: Optical fiber communication
+- vocab:
+    language: en
+    script: Latn
+    content: Distributed processing
+- vocab:
+    language: en
+    script: Latn
+    content: System buses
+- vocab:
+    language: en
+    script: Latn
+    content: Cache storage
+- vocab:
+    language: en
+    script: Latn
+    content: Multiprocessing systems
+- vocab:
+    language: en
+    script: Latn
+    content: scalable
+- vocab:
+    language: en
+    script: Latn
+    content: coherent
+- vocab:
+    language: en
+    script: Latn
+    content: interface
+- vocab:
+    language: en
+    script: Latn
+    content: bus architecture
+- vocab:
+    language: en
+    script: Latn
+    content: bus standard
+- vocab:
+    language: en
+    script: Latn
+    content: cache coherence
+- vocab:
+    language: en
+    script: Latn
+    content: distributed memory
+- vocab:
+    language: en
+    script: Latn
+    content: fiber optic
+- vocab:
+    language: en
+    script: Latn
+    content: interconnect
+- vocab:
+    language: en
+    script: Latn
+    content: IO system
+- vocab:
+    language: en
+    script: Latn
+    content: link
+- vocab:
+    language: en
+    script: Latn
+    content: mesh
+- vocab:
+    language: en
+    script: Latn
+    content: multiprocessor
+- vocab:
+    language: en
+    script: Latn
+    content: network
+- vocab:
+    language: en
+    script: Latn
+    content: packet protocol
+- vocab:
+    language: en
+    script: Latn
+    content: ring
+- vocab:
+    language: en
+    script: Latn
+    content: shared memory
+- vocab:
+    language: en
+    script: Latn
+    content: switch
+- vocab:
+    language: en
+    script: Latn
+    content: transaction set
+- vocab:
+    language: en
+    script: Latn
+    content: Seamless distributed computer
+- vocab:
+    language: en
+    script: Latn
+    content: I/O system
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.200'
+    text: Interface and interconnection equipment
+  standard_status: Inactive
+  standard_modified: Reserved
+  pubstatus: Active
+  holdstatus: Publish

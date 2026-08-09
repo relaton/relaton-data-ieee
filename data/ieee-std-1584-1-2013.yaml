@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 1584.1-2013
   type: IEEE
   primary: true
-- content: IEEE Std 1584.1™-2013
+- content: IEEE Std 1584.1-2013™
   type: IEEE
   scope: trademark
   primary: true
@@ -90,6 +90,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1584.1-2022
+    docidentifier:
+    - content: IEEE Std 1584.1-2022
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en

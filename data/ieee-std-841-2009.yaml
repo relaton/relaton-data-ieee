@@ -14,7 +14,7 @@ docidentifier:
 - content: IEEE Std 841-2009
   type: IEEE
   primary: true
-- content: IEEE Std 841™-2009
+- content: IEEE Std 841-2009™
   type: IEEE
   scope: trademark
   primary: true
@@ -24,18 +24,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 841-2009
 date:
-- type: updated
-  at: '2009-09-11'
 - type: created
   at: '2009-08-17'
 - type: published
-  at: '2013-08-26'
+  at: '2009-08-21'
 - type: issued
   at: '2009-03-19'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -96,9 +97,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: IEEE P841/D-3-2018-05
+      content: IEEE P841/D3, May 2018
     docidentifier:
-    - content: IEEE P841/D-3-2018-05
+    - content: IEEE P841/D3, May 2018
       type: IEEE
       primary: true
 - type: updates

@@ -1,0 +1,164 @@
+---
+id: IEEEP185711D2April2024
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Neural Network-Based Image Coding
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10495791
+docidentifier:
+- content: IEEE P1857.11/D2, April, 2024
+  type: IEEE
+  primary: true
+- content: IEEE P1857.11/D2, April, 2024™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-0698-7
+  type: ISBN
+docnumber: IEEE P1857.11/D2, April, 2024
+date:
+- type: created
+  at: '2024-04-08'
+- type: published
+  at: '2024-04-09'
+- type: issued
+  at: '2024-09-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Data Compression Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A set of tools is defined in this standard for efficient image coding,
+    including tools for encoding, for decoding, and for encapsulation. Some of the
+    tools are based on trained neural networks. These tools are designed to perform
+    block partitioning, prediction, transform, quantization, entropy coding, filtering,
+    and so on.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Neural networks
+- vocab:
+    language: en
+    script: Latn
+    content: Image coding
+- vocab:
+    language: en
+    script: Latn
+    content: Filtering
+- vocab:
+    language: en
+    script: Latn
+    content: Predictive models
+- vocab:
+    language: en
+    script: Latn
+    content: Entropy coding
+- vocab:
+    language: en
+    script: Latn
+    content: block partitioning
+- vocab:
+    language: en
+    script: Latn
+    content: entropy coding
+- vocab:
+    language: en
+    script: Latn
+    content: filtering
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1857.11™
+- vocab:
+    language: en
+    script: Latn
+    content: image coding
+- vocab:
+    language: en
+    script: Latn
+    content: neural network
+- vocab:
+    language: en
+    script: Latn
+    content: prediction
+- vocab:
+    language: en
+    script: Latn
+    content: quantization
+- vocab:
+    language: en
+    script: Latn
+    content: transform
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.040.40
+    text: Coding of audio, video, multimedia and hypermedia information
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

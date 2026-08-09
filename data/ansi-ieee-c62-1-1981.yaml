@@ -12,7 +12,7 @@ docidentifier:
 - content: ANSI/IEEE C62.1-1981
   type: IEEE
   primary: true
-- content: ANSI/IEEE C62.1™-1981
+- content: ANSI/IEEE C62.1-1981™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: ANSI/IEEE C62.1-1981
 date:
-- type: updated
-  at: '2016-04-15'
 - type: created
   at: '1981-08-31'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -47,6 +48,14 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard applies to surge-protective devices designed for repeated
+    limiting of voltage surges on 50 Hz or 60 Hz power circuits by passing surge discharge
+    current and subsequently automatically interrupting the flow of follow current.
+    This standard applies to devices for separate mounting and to those supplied integrally
+    with other equipment.
 copyright:
 - from: '1981'
   owner:

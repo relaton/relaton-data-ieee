@@ -1,0 +1,148 @@
+---
+id: IEEEP8023chD30November2019
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Ethernet Physical Layer Specifications and Management
+    Parameters for Greater Than 1 Gb/s Automotive Ethernet
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8910666
+docidentifier:
+- content: IEEE P802.3ch/D3.0, November, 2019
+  type: IEEE
+  primary: true
+- content: IEEE P802.3ch/D3.0, November, 2019™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6277-8
+  type: ISBN
+docnumber: IEEE P802.3ch/D3.0, November, 2019
+date:
+- type: created
+  at: '2019-11-21'
+- type: published
+  at: '2019-11-22'
+- type: issued
+  at: '2020-06-04'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This amendment to IEEE Std 802.3-2018 adds physical layer specifications
+    and management parameters for 2.5 Gb/s, 5 Gb/s, and 10 Gb/s operation on a single
+    balanced pair of conductors suitable for automotive applications.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref:
+      content: IEEE Std 802.3-2018
+    docidentifier:
+    - content: IEEE Std 802.3-2018
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Physical layer
+- vocab:
+    language: en
+    script: Latn
+    content: Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Metropolitan area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Automotive engineeirng
+- vocab:
+    language: en
+    script: Latn
+    content: 2.5GBASE-T1; 5GBASE-T1; 10GBASE-T1; Ethernet; IEEE 802.3ch; MASTER-SLAVE;
+      Medium Dependent Interface; Physical Coding Sublayer; Physical Layer; Physical
+      Medium Attachment
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

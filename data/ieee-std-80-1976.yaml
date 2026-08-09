@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 80-1976
   type: IEEE
   primary: true
-- content: IEEE Std 80™-1976
+- content: IEEE Std 80-1976™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 80-1976
 date:
-- type: updated
-  at: '2015-08-28'
 - type: created
   at: '1976-06-30'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -66,6 +67,21 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The purpose of this guide is: 1) To review grounding practices with especial
+    reference to safety. 2) To establish, as a basis for design, the safe limits for
+    potential differences which can exist in a station, under fault conditions, between
+    points which can be contacted by the human body. 3) To provide a step by step
+    guide for the design of practical grounding systems based on these limits. 4)
+    To recommend test methods for obtaining data for the design of ground systems,
+    and for verifying the adequacy of ground systems as constructed. 5) To develop
+    mathematical methods as an aid in the understanding and solution of typical ground
+    gradient problems. 6) To make available in English translation, some of the more
+    pertinent and valuable foreign language articles. 7) To provide a comprehensive
+    bibliography, with abstracts, of existing literature related to the subject, for
+    the benefit of those seeking additional information not included herein.'
 copyright:
 - from: '1976'
   owner:
@@ -83,9 +99,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 80-1986
+      content: ANSI/IEEE 80-1986
     docidentifier:
-    - content: ANSI/IEEE Std 80-1986
+    - content: ANSI/IEEE 80-1986
       type: IEEE
       primary: true
 keyword:

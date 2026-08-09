@@ -1,0 +1,193 @@
+---
+id: IEEEP1581D210April2025
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Static Component Interconnection Test Protocol
+    and Architecture
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11006488
+docidentifier:
+- content: IEEE P1581/D2.10, April, 2025
+  type: IEEE
+  primary: true
+- content: IEEE P1581/D2.10, April, 2025™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2224-6
+  type: ISBN
+docnumber: IEEE P1581/D2.10, April, 2025
+date:
+- type: created
+  at: '2025-05-15'
+- type: published
+  at: '2025-05-16'
+- type: issued
+  at: '2025'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEEE Std 1581 defines a low-cost method for testing the interconnection
+    of discrete, complex memory integrated circuits (ICs) where additional pins for
+    testing are not available and implementing boundary scan (IEEE Std 1149.1™) is
+    not feasible. This standard describes the implementation rules for the test logic
+    and test mode access/exit methods in conformant ICs. The standard is limited to
+    the behavioral description of the implementation and will not include the technical
+    design for the test logic or test mode control circuitry.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 1581-2011
+    docidentifier:
+    - content: IEEE Std 1581-2011
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Integrated circuit reliability
+- vocab:
+    language: en
+    script: Latn
+    content: Circuit testing
+- vocab:
+    language: en
+    script: Latn
+    content: Memory
+- vocab:
+    language: en
+    script: Latn
+    content: Logic devices
+- vocab:
+    language: en
+    script: Latn
+    content: Component architectures
+- vocab:
+    language: en
+    script: Latn
+    content: Static analysis
+- vocab:
+    language: en
+    script: Latn
+    content: board test
+- vocab:
+    language: en
+    script: Latn
+    content: connectivity test
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1581
+- vocab:
+    language: en
+    script: Latn
+    content: integrated circuit
+- vocab:
+    language: en
+    script: Latn
+    content: interconnect test
+- vocab:
+    language: en
+    script: Latn
+    content: interconnection test
+- vocab:
+    language: en
+    script: Latn
+    content: memory device
+- vocab:
+    language: en
+    script: Latn
+    content: test logic
+- vocab:
+    language: en
+    script: Latn
+    content: test mode
+- vocab:
+    language: en
+    script: Latn
+    content: transparent test mode
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '31.200'
+    text: Integrated circuits. Microelectronics
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

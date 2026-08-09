@@ -16,7 +16,7 @@ docidentifier:
 - content: IEEE Std 802.22b-2015
   type: IEEE
   primary: true
-- content: IEEE Std 802.22b®-2015
+- content: IEEE Std 802.22b-2015®
   type: IEEE
   scope: trademark
   primary: true
@@ -26,8 +26,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 802.22b-2015
 date:
-- type: updated
-  at: '2015-12-11'
 - type: created
   at: '2015-10-30'
 - type: published
@@ -38,6 +36,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -83,12 +84,7 @@ abstract:
     512 devices in a network. This amendment also specifies techniques to enhance
     communications among the devices and makes necessary amendments to the cognitive,
     security, and parameters and connection management clauses. This amendment supports
-    mechanisms to enable coexistence with other IEEE 802(R) systems in the same band.(The
-    PDF of this standard is available at no cost compliments of the IEEE GET program
-    http://ieeexplore.ieee.org/document/7336461/)
-status:
-  stage:
-    content: approved
+    mechanisms to enable coexistence with other IEEE 802(R) systems in the same band.
 copyright:
 - from: '2015'
   owner:
@@ -103,6 +99,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ISO/IEC/IEEE 8802.22.2-2015
+    docidentifier:
+    - content: ISO/IEC/IEEE 8802.22.2-2015
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -180,7 +184,6 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

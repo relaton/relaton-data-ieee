@@ -1,0 +1,225 @@
+---
+id: IEEEP15162D2February2023
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Approved Draft Standard for Modeling and Simulation (M&S) High Level
+    Architecture (HLA)-- Object Model Template (OMT) Specification
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/10051677
+docidentifier:
+- content: IEEE P1516.2/D2 February, 2023
+  type: IEEE
+  primary: true
+- content: IEEE P1516.2/D2 February, 2023™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9476-2
+  type: ISBN
+docnumber: IEEE P1516.2/D2 February, 2023
+date:
+- type: created
+  at: '2025-03-07'
+- type: published
+  at: '2023-02-23'
+- type: issued
+  at: '2025-02-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Simulation Interoperability Stds Organization/Stds Activity Committee
+          of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The High Level Architecture (HLA) has been developed to provide a common
+    architecture for distributed modeling and simulation. The HLA defines an integrated
+    approach that provides a common framework for the interconnection of interacting
+    simulations. This document, the third in a family of three related HLA documents,
+    defines the format and syntax (but not content) of HLA object models. The standards
+    contained in this architecture are interrelated and need to be considered as a
+    product set, when changes are made. They each have value independently.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 1516.2-2010
+    docidentifier:
+    - content: IEEE Std 1516.2-2010
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Computer architecture
+- vocab:
+    language: en
+    script: Latn
+    content: Modeling
+- vocab:
+    language: en
+    script: Latn
+    content: Simulation
+- vocab:
+    language: en
+    script: Latn
+    content: High level languages
+- vocab:
+    language: en
+    script: Latn
+    content: architecture
+- vocab:
+    language: en
+    script: Latn
+    content: class attribute
+- vocab:
+    language: en
+    script: Latn
+    content: data distribution management
+- vocab:
+    language: en
+    script: Latn
+    content: federate
+- vocab:
+    language: en
+    script: Latn
+    content: federation
+- vocab:
+    language: en
+    script: Latn
+    content: federation execution
+- vocab:
+    language: en
+    script: Latn
+    content: federation object model
+- vocab:
+    language: en
+    script: Latn
+    content: framework
+- vocab:
+    language: en
+    script: Latn
+    content: High Level Architecture
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1516.2(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: instance attribute
+- vocab:
+    language: en
+    script: Latn
+    content: instance attribute ownership
+- vocab:
+    language: en
+    script: Latn
+    content: interaction class
+- vocab:
+    language: en
+    script: Latn
+    content: joined federate
+- vocab:
+    language: en
+    script: Latn
+    content: object class
+- vocab:
+    language: en
+    script: Latn
+    content: object model template
+- vocab:
+    language: en
+    script: Latn
+    content: rules
+- vocab:
+    language: en
+    script: Latn
+    content: runtime infrastructure
+- vocab:
+    language: en
+    script: Latn
+    content: simulation object model
+- vocab:
+    language: en
+    script: Latn
+    content: time-constrained
+- vocab:
+    language: en
+    script: Latn
+    content: time-regulating.
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

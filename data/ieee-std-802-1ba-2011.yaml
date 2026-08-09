@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 802.1BA-2011
   type: IEEE
   primary: true
-- content: IEEE Std 802.1BA®-2011
+- content: IEEE Std 802.1BA-2011®
   type: IEEE
   scope: trademark
   primary: true
@@ -91,6 +91,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ISO/IEC/IEEE 8802.1
+    docidentifier:
+    - content: ISO/IEC/IEEE 8802.1
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en

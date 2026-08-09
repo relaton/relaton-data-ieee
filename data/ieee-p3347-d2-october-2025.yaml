@@ -1,0 +1,141 @@
+---
+id: IEEEP3347D2October2025
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Description Schema for Neural Network Architectures
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11238017
+docidentifier:
+- content: IEEE P3347/D2, October, 2025
+  type: IEEE
+  primary: true
+- content: IEEE P3347/D2, October, 2025™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-2850-7
+  type: ISBN
+docnumber: IEEE P3347/D2, October, 2025
+date:
+- type: created
+  at: '2025-11-07'
+- type: published
+  at: '2025-11-10'
+- type: issued
+  at: '2025'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Artificial Intelligence Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines a text description method for neural networks. Data
+    requirements, basic unit in neural networks, schemas for neural network architectures,
+    and application scenarios are also discussed. Institutions, enterprises and researchers
+    that describe neural network architecture follow the general description method
+    outlined here. With this standard, newly generated neural network architectures
+    could be easily shared and exchanged. This would make neural network algorithms
+    very easily transferred because they will not depend on the particular neural
+    network platform or libraries.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Neural networks
+- vocab:
+    language: en
+    script: Latn
+    content: Text analysis
+- vocab:
+    language: en
+    script: Latn
+    content: Network architecture
+- vocab:
+    language: en
+    script: Latn
+    content: Artificial intelligence
+- vocab:
+    language: en
+    script: Latn
+    content: neural network
+- vocab:
+    language: en
+    script: Latn
+    content: text description method
+- vocab:
+    language: en
+    script: Latn
+    content: architecture description
+- vocab:
+    language: en
+    script: Latn
+    content: architecture vectorization
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

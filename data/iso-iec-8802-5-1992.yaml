@@ -14,7 +14,7 @@ docidentifier:
 - content: ISO/IEC 8802.5-1992
   type: IEEE
   primary: true
-- content: ISO/IEC 8802.5™-1992
+- content: ISO/IEC 8802.5-1992™
   type: IEEE
   scope: trademark
   primary: true
@@ -24,8 +24,6 @@ docidentifier:
   type: DOI
 docnumber: ISO/IEC 8802.5-1992
 date:
-- type: updated
-  at: '2016-04-22'
 - type: created
   at: '1992-06-12'
 - type: published
@@ -36,6 +34,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

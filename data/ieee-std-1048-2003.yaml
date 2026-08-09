@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 1048-2003
   type: IEEE
   primary: true
-- content: IEEE Std 1048™-2003
+- content: IEEE Std 1048-2003™
   type: IEEE
   scope: trademark
   primary: true
@@ -25,7 +25,7 @@ date:
 - type: created
   at: '2003'
 - type: published
-  at: '2016-12-23'
+  at: '2003-10-20'
 - type: issued
   at: '2003-03-20'
 contributor:
@@ -89,6 +89,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1048-2016
+    docidentifier:
+    - content: IEEE Std 1048-2016
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -99,14 +107,6 @@ relation:
       content: IEEE Std 1048-1990
     docidentifier:
     - content: IEEE Std 1048-1990
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 1048-2016
-    docidentifier:
-    - content: IEEE Std 1048-2016
       type: IEEE
       primary: true
 keyword:

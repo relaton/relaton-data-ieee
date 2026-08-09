@@ -14,7 +14,7 @@ docidentifier:
 - content: ANSI C63.2-2016
   type: IEEE
   primary: true
-- content: ANSI C63.2™-2016
+- content: ANSI C63.2-2016™
   type: IEEE
   scope: trademark
   primary: true
@@ -80,6 +80,14 @@ copyright:
       abbreviation:
         content: ANSI
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ANSI/USEMCSC C63.2-2023
+    docidentifier:
+    - content: ANSI/USEMCSC C63.2-2023
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -90,14 +98,6 @@ relation:
       content: ANSI C63.2-2009
     docidentifier:
     - content: ANSI C63.2-2009
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: ANSI/USEMCSC C63.2-2023
-    docidentifier:
-    - content: ANSI/USEMCSC C63.2-2023
       type: IEEE
       primary: true
 keyword:

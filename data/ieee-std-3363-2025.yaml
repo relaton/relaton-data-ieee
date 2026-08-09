@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 3363-2025
   type: IEEE
   primary: true
-- content: IEEE Std 3363™-2025
+- content: IEEE Std 3363-2025™
   type: IEEE
   scope: trademark
   primary: true
@@ -26,7 +26,7 @@ date:
 - type: created
   at: '2026-03-26'
 - type: published
-  at: '2026-03-27'
+  at: '2026-03-26'
 - type: issued
   at: '2025-11-04'
 contributor:
@@ -145,6 +145,9 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

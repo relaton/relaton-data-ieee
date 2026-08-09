@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 112-1996
   type: IEEE
   primary: true
-- content: IEEE Std 112™-1996
+- content: IEEE Std 112-1996™
   type: IEEE
   scope: trademark
   primary: true
@@ -25,7 +25,7 @@ date:
 - type: created
   at: '1997-05-08'
 - type: published
-  at: '2018-06-12'
+  at: '2002-08-06'
 - type: issued
   at: '1996-09-19'
 contributor:
@@ -88,6 +88,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 112-2004
+    docidentifier:
+    - content: IEEE Std 112-2004
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -98,14 +106,6 @@ relation:
       content: IEEE Std 112-1991
     docidentifier:
     - content: IEEE Std 112-1991
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 112-2004
-    docidentifier:
-    - content: IEEE Std 112-2004
       type: IEEE
       primary: true
 keyword:

@@ -3,12 +3,11 @@ id: IEEEStd1666
 schema_version: v1.5.6
 type: standard
 title:
-- content: IEEE Standard for Standard SystemC® Language Reference Manual - Corrigendum
-    1
+- content: 'Behavioural languages - Part 7: SystemC Language Reference Manual'
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/10932727
+  content: https://ieeexplore.ieee.org/document/5473172
 docidentifier:
 - content: IEEE Std 1666
   type: IEEE
@@ -17,18 +16,18 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 979-8-8557-1883-6
+- content: 978-0-7381-6284-3
   type: ISBN
-- content: 10.1109/IEEESTD.2025.10932727
+- content: 10.1109/IEEESTD.2009.5473172
   type: DOI
 docnumber: IEEE Std 1666
 date:
 - type: created
-  at: '2025-03-14'
+  at: '2009-12-14'
 - type: published
-  at: '2025-03-18'
+  at: '2010-05-27'
 - type: issued
-  at: '2025-02-12'
+  at: '2010-05-24'
 contributor:
 - role:
   - type: publisher
@@ -60,7 +59,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Design Automation of the IEEE Computer Society
+        content: Design Automation of IEEE Computer Society
       type: committee
     abbreviation:
       content: IEEE
@@ -71,13 +70,19 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Errors, inconsistencies, and ambiguities in IEEE Std 1666-2023 are corrected
-    in this corrigendum.
+  content: SystemC is defined in this standard. SystemC is an ANSI standard C++ class
+    library for system and hardware design for use by designers and architects who
+    need to address complex systems that are a hybrid between hardware and software.
+    This standard provides a precise and complete definition of the SystemC class
+    library so that a SystemC implementation can be developed with reference to this
+    standard alone. The primary audiences for this standard are the implementers of
+    the SystemC class library, the implementors of tools supporting the class library,
+    and users of the class library.
 status:
   stage:
     content: approved
 copyright:
-- from: '2025'
+- from: '2009'
   owner:
   - organization:
       uri:
@@ -89,32 +94,43 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: corrects
-  bibitem:
-    formattedref:
-      content: IEEE Std 1666-2023
-    docidentifier:
-    - content: IEEE Std 1666-2023
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE Standards
+    content: IEEE standards
 - vocab:
     language: en
     script: Latn
-    content: Computer languages
+    content: Electronic mail
 - vocab:
     language: en
     script: Latn
-    content: Terminology
+    content: Licenses
+- vocab:
+    language: en
+    script: Latn
+    content: Scheduling algorithm
+- vocab:
+    language: en
+    script: Latn
+    content: System-on-a-chip
+- vocab:
+    language: en
+    script: Latn
+    content: Embedded computing
+- vocab:
+    language: en
+    script: Latn
+    content: 61691-7:2009
+- vocab:
+    language: en
+    script: Latn
+    content: 1666-2005
+- vocab:
+    language: en
+    script: Latn
+    content: C++
 - vocab:
     language: en
     script: Latn
@@ -134,11 +150,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: electronic system level
+    content: electronic systems
 - vocab:
     language: en
     script: Latn
-    content: electronic systems
+    content: electronic system level
 - vocab:
     language: en
     script: Latn
@@ -162,10 +178,6 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 1666
-- vocab:
-    language: en
-    script: Latn
     content: SystemC
 - vocab:
     language: en
@@ -185,6 +197,10 @@ ext:
     content: standard
   flavor: ieee
   ics:
+  - code: '25.040'
+    text: Industrial automation systems
+  - code: '35.060'
+    text: Languages used in information technology
   - code: '35.080'
     text: Software
   standard_status: Active

@@ -1,0 +1,123 @@
+---
+id: IEEEStd15212003TrialUse
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Trial-Use Standard for Measurement of Video Jitter and Wander
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/1266041
+docidentifier:
+- content: IEEE Std 1521-2003 (Trial Use)
+  type: IEEE
+  primary: true
+- content: IEEE Std 1521-2003 (Trial Use)™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-3827-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2004.94426
+  type: DOI
+docnumber: IEEE Std 1521-2003 (Trial Use)
+date:
+- type: created
+  at: '2004'
+- type: published
+  at: '2004-02-19'
+- type: issued
+  at: '2003-09-11'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: G-2.1 Audio Video Techniques Committee of the IEEE Broadcast Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A set of metrics and methods to enable consistent measurement of the components
+    of timing interval error in video synchronization signals is provided in this
+    standard. By partitioning the spectra into regions of jitter and lower frequency
+    wander (characterized as frequency offset and drift rate), timing performance
+    can be better quantified for consistent control over nontraditional networks.
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Jitter
+- vocab:
+    language: en
+    script: Latn
+    content: Measurement uncertainty
+- vocab:
+    language: en
+    script: Latn
+    content: Frequency control
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 33.160.40
+    text: Video systems
+  standard_status: Active
+  standard_modified: Superseded
+  pubstatus: Active
+  holdstatus: Publish

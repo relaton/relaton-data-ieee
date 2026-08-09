@@ -1,0 +1,191 @@
+---
+id: IEEEStd8023u1995andANSIIEEE80231993
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Standards for Local and Metropolitan Area Networks: Supplement -
+    Media Access Control (MAC) Parameters, Physical Layer, Medium Attachment Units,
+    and Repeater for 100Mb/s Operation, Type 100BASE-T (Clauses 21-30)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7974916
+docidentifier:
+- content: IEEE Std 802.3u-1995 and ANSI/IEEE 802.3-1993
+  type: IEEE
+  primary: true
+- content: IEEE Std 802.3u-1995 and ANSI/IEEE 802.3-1993®
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-0276-4
+  type: ISBN
+- content: 10.1109/IEEESTD.1995.7974916
+  type: DOI
+docnumber: IEEE Std 802.3u-1995 and ANSI/IEEE 802.3-1993
+date:
+- type: created
+  at: '1995-10-26'
+- type: published
+  at: '2017-07-11'
+- type: issued
+  at: '1995-06-14'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Superseded by 802.3aa-1998. The ISO/IEC CSMA/CD Media Access Control (MAC)
+    is coupled with a family of new Physical Layer specifications to achieve 100 Mb/s
+    operation. Known collectively as 100BASE-T, this family of Physical Layer specifications
+    includes 100BASE-T4, which uses four pairs of ISO/IEC 11801: 1995 Category 3,
+    4, or 5 balanced cable; 100BASE-TX, which uses two pairs of Category 5 balanced
+    cable or 150 ohm shielded balanced cable; and 100BASE-FX, which uses two multi-mode
+    fibers. The two 100BASE-X specifications (100BASE-TX and 100BASE-FX) reused portions
+    of the 100 Mb/s physical signaling specifications originally developed for Fibre
+    Distributed Data Interface (FDDI).'
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref:
+      content: ANSI/IEEE 802.3-1985
+    docidentifier:
+    - content: ANSI/IEEE 802.3-1985
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Metropolitan area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Repeaters
+- vocab:
+    language: en
+    script: Latn
+    content: Media Access Protocol
+- vocab:
+    language: en
+    script: Latn
+    content: Physical layer
+- vocab:
+    language: en
+    script: Latn
+    content: fast ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: 100BASE-FX
+- vocab:
+    language: en
+    script: Latn
+    content: 100BASE-T
+- vocab:
+    language: en
+    script: Latn
+    content: 100BASE-T4
+- vocab:
+    language: en
+    script: Latn
+    content: 100BASE-TX
+- vocab:
+    language: en
+    script: Latn
+    content: 100BASE-X
+- vocab:
+    language: en
+    script: Latn
+    content: Auto-Negotiation
+- vocab:
+    language: en
+    script: Latn
+    content: management
+- vocab:
+    language: en
+    script: Latn
+    content: MII
+- vocab:
+    language: en
+    script: Latn
+    content: repeater
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

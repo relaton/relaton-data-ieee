@@ -1,0 +1,164 @@
+---
+id: IEC616716Edition10201604
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEC/IEEE International Standard - Standard for Automatic Test Markup Language
+    (ATML) Test Station Description
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7454655
+docidentifier:
+- content: IEC 61671-6 Edition 1.0 2016-04
+  type: IEEE
+  primary: true
+- content: IEC 61671-6 Edition 1.0 2016-04™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-0868-4
+  type: ISBN
+- content: 10.1109/IEEESTD.2016.7454655
+  type: DOI
+docnumber: IEC 61671-6 Edition 1.0 2016-04
+date:
+- type: created
+  at: '2016-04-08'
+- type: published
+  at: '2016-04-21'
+- type: issued
+  at: '2016'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE-SASB Coordinating Committees
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: An exchange format, using extensible markup language (XML), for identifying
+    all of the hardware, software, and documentation associated with a test station
+    is specified in this document. This test station may be used with a test program
+    set to test and diagnose a unit under test.
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+  - organization:
+      uri:
+      name:
+      - language: en
+        script: Latn
+        content: IEC
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: IEC Standards
+- vocab:
+    language: en
+    script: Latn
+    content: XML
+- vocab:
+    language: en
+    script: Latn
+    content: Markup Languages
+- vocab:
+    language: en
+    script: Latn
+    content: Automatic test equipment
+- vocab:
+    language: en
+    script: Latn
+    content: Interface devices
+- vocab:
+    language: en
+    script: Latn
+    content: ATML instance document
+- vocab:
+    language: en
+    script: Latn
+    content: automatic test equipment (ATE)
+- vocab:
+    language: en
+    script: Latn
+    content: Automatic Test Markup Language (ATML)
+- vocab:
+    language: en
+    script: Latn
+    content: automatic test system (ATS)
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1671.6(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: test station
+- vocab:
+    language: en
+    script: Latn
+    content: XML schema
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.240.30
+    text: IT applications in information, documentation and publishing
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

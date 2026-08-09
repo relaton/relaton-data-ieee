@@ -1,0 +1,184 @@
+---
+id: ISOIECIEEE265122026
+schema_version: v1.5.6
+type: standard
+title:
+- content: ISO/IEC/IEEE International Standard - Systems and software engineering
+    -- Requirements for acquirers and suppliers of information products and services
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11598979
+docidentifier:
+- content: ISO/IEC/IEEE 26512-2026
+  type: IEEE
+  primary: true
+- content: ISO/IEC/IEEE 26512-2026™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-3412-6
+  type: ISBN
+- content: 10.1109/IEEESTD.2026.11598979
+  type: DOI
+docnumber: ISO/IEC/IEEE 26512-2026
+date:
+- type: created
+  at: '2026-07-08'
+- type: published
+  at: '2026-07-07'
+- type: issued
+  at: '2026-03-26'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Software & Systems Engineering Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This document was developed to assist users of ISO/IEC/IEEE 15288 or ISO/IEC/IEEE
+    12207 to acquire or supply information for users as part of the system or life
+    cycle processes. It defines the documentation process from the acquirer''s standpoint
+    and the supplier''s standpoint. This document covers the requirements for information
+    items used in the acquisition of user documentation products: the acquisition
+    plan, information product specification, statement of work, request for proposals,
+    and the proposal. It provides an overview of the information management processes
+    which may require acquisition and supply of system or software user documentation
+    products and services. It addresses the preparation of requirements for user documentation.
+    These requirements are central to the user documentation specification and statement
+    of work. It includes requirements for primary document outputs of the acquisition
+    and supply process: the request for proposal and the proposal for user documentation
+    products and services. This document is independent of the software tools that
+    may be used to produce documentation, and applies to both printed documentation
+    and on-screen documentation. Its guidance is applicable to user documentation
+    for systems including hardware as well as software.'
+status:
+  stage:
+    content: approved
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: ISO/IEC/IEEE 26512-2017
+    docidentifier:
+    - content: ISO/IEC/IEEE 26512-2017
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: IEC Standards
+- vocab:
+    language: en
+    script: Latn
+    content: ISO Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Documentation
+- vocab:
+    language: en
+    script: Latn
+    content: Software engineering
+- vocab:
+    language: en
+    script: Latn
+    content: Information management
+- vocab:
+    language: en
+    script: Latn
+    content: Requirements management
+- vocab:
+    language: en
+    script: Latn
+    content: acquisition
+- vocab:
+    language: en
+    script: Latn
+    content: information management
+- vocab:
+    language: en
+    script: Latn
+    content: proposal
+- vocab:
+    language: en
+    script: Latn
+    content: software user documentation
+- vocab:
+    language: en
+    script: Latn
+    content: statement of work
+- vocab:
+    language: en
+    script: Latn
+    content: supply
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Active
+  standard_modified: Approved
+  pubstatus: Active
+  holdstatus: Publish

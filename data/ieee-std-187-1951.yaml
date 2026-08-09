@@ -3,28 +3,30 @@ id: IEEEStd1871951
 schema_version: v1.5.6
 type: standard
 title:
-- content: 'IEEE Standard on Radio Receivers: Open Field Method of Measurement of
-    Spurious Radiation From Frequency Modulation and Television Broadcast Receivers'
+- content: 'IEEE Standards on Radio Receivers: Open Field Method of Measurement of
+    Spurious Radiation from Frequency Modulation and Television Broadcast Receivers'
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/18440
+  content: https://ieeexplore.ieee.org/document/8699143
 docidentifier:
 - content: IEEE Std 187-1951
   type: IEEE
   primary: true
-- content: IEEE Std 187™-1951
+- content: IEEE Std 187-1951™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-4349-1
   type: ISBN
-- content: 10.1109/IEEESTD.1951.119021
+- content: 10.1109/IEEESTD.1950.8699143
   type: DOI
 docnumber: IEEE Std 187-1951
 date:
 - type: created
-  at: '1951'
+  at: '1950-11-30'
+- type: published
+  at: '2019-04-25'
 - type: issued
   at: '1951'
 contributor:
@@ -70,15 +72,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Modern broadcast radio receivers of the superheterodyne type are frequently
+  content: Modern broadcast radio receivers of the super-heterodyne type are frequently
     sources of spurious radiation from the local oscillator, which radiation may cause
     severe interference with other services. In addition, in the case of television
     broadcast receivers, there may be radiation of power from other sources beside
-    the local oscillator. In this standard the potential sources of spurious radiation
-    from frequency modulation and television broadcast receivers are described and
-    methods of measurement whereby the strength of some of these radiations may be
-    determined are set up. Where the methods for the two classes of receivers differ,
-    the specifications for each are outlined.
+    the local oscillator. This Standard describes the potential sources of spurious
+    radiation from frequency modulation and television broadcast receivers and sets
+    up methods of measurement whereby the strength of some of these radiations may
+    be determined. Where the method for the two classes of receivers differ, the specifications
+    for each are outlined
 copyright:
 - from: '1951'
   owner:
@@ -101,23 +103,15 @@ relation:
     - content: IEEE Std 187-1990
       type: IEEE
       primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 187-1990
-    docidentifier:
-    - content: IEEE Std 187-1990
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
     script: Latn
-    content: Noise measurement
+    content: IEEE Standards
 - vocab:
     language: en
     script: Latn
-    content: Electromagnetic fields
+    content: Frequency measurement
 - vocab:
     language: en
     script: Latn
@@ -125,23 +119,35 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Measurement standards
+    content: TV
 - vocab:
     language: en
     script: Latn
-    content: Radio receivers
+    content: Receivers
 - vocab:
     language: en
     script: Latn
-    content: Electromagnetic radiative interference
+    content: Radiation detectors
 - vocab:
     language: en
     script: Latn
-    content: TV receivers
+    content: receivers
 - vocab:
     language: en
     script: Latn
-    content: Communication standards
+    content: broadcast
+- vocab:
+    language: en
+    script: Latn
+    content: fm
+- vocab:
+    language: en
+    script: Latn
+    content: tv
+- vocab:
+    language: en
+    script: Latn
+    content: spurious
 ext:
   schema_version: v1.1.3
   doctype:

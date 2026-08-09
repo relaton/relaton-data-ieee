@@ -10,10 +10,10 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/11303383
 docidentifier:
-- content: IEC/IEEE 60079.30-1-2025
+- content: IEC/IEEE 60079-30-1:2025
   type: IEEE
   primary: true
-- content: IEC/IEEE 60079.30-1™-2025
+- content: IEC/IEEE 60079-30-1:2025™
   type: IEEE
   scope: trademark
   primary: true
@@ -21,7 +21,7 @@ docidentifier:
   type: ISBN
 - content: 10.1109/IEEESTD.2025.11303383
   type: DOI
-docnumber: IEC/IEEE 60079.30-1-2025
+docnumber: IEC/IEEE 60079-30-1:2025
 date:
 - type: created
   at: '2025-12-19'
@@ -86,11 +86,23 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
       name:
       - language: en
         script: Latn
         content: IEC
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEC/IEEE 60079-30-1 Edition 1.0 2015-09
+    docidentifier:
+    - content: IEC/IEEE 60079-30-1 Edition 1.0 2015-09
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en

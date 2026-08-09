@@ -13,7 +13,7 @@ docidentifier:
 - content: ANSI/IEEE C37.95-1973
   type: IEEE
   primary: true
-- content: ANSI/IEEE C37.95™-1973
+- content: ANSI/IEEE C37.95-1973™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: ANSI/IEEE C37.95-1973
 date:
-- type: updated
-  at: '2016-04-15'
 - type: created
   at: '1972-11-15'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

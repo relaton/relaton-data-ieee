@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 421-1972
   type: IEEE
   primary: true
-- content: IEEE Std 421™-1972
+- content: IEEE Std 421-1972™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 421-1972
 date:
-- type: updated
-  at: '2016-03-11'
 - type: created
   at: '1972-12-08'
 - type: published
-  at: '2016-02-24'
+  at: '2016-02-25'
 - type: issued
   at: '1971-12-02'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -72,9 +73,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 421.1-1986
+      content: ANSI/IEEE 421.1-1986
     docidentifier:
-    - content: ANSI/IEEE Std 421.1-1986
+    - content: ANSI/IEEE 421.1-1986
       type: IEEE
       primary: true
 keyword:

@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 384-1977
   type: IEEE
   primary: true
-- content: IEEE Std 384™-1977
+- content: IEEE Std 384-1977™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 384-1977
 date:
-- type: updated
-  at: '2016-04-01'
 - type: created
   at: '1977-06-30'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -47,6 +48,14 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: The scope of this document is the independence requirements of the circuits
+    and equipment comprising or associated with Class 1E systems. It sets forth criteria
+    for the independence that can be achieved by physical separation and electrical
+    isolation of circuits and equipment which are redundant but does not address the
+    determination of what is to be considered redundant.
 copyright:
 - from: '1977'
   owner:
@@ -64,9 +73,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 384-1981
+      content: ANSI/IEEE 384-1981
     docidentifier:
-    - content: ANSI/IEEE Std 384-1981
+    - content: ANSI/IEEE 384-1981
       type: IEEE
       primary: true
 keyword:

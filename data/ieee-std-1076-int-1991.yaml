@@ -1,0 +1,140 @@
+---
+id: IEEEStd1076INT1991
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Standards Interpretations: IEEE Std 1076-1987, IEEE Standard VHDL
+    Language Reference Manual'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/159455
+docidentifier:
+- content: IEEE Std 1076/INT-1991
+  type: IEEE
+  primary: true
+- content: IEEE Std 1076/INT-1991™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5593-7181-0
+  type: ISBN
+- content: 10.1109/IEEESTD.1992.101084
+  type: DOI
+docnumber: IEEE Std 1076/INT-1991
+date:
+- type: created
+  at: '1992-02-21'
+- type: published
+  at: '2019-04-05'
+- type: issued
+  at: '1991'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: A series of analyses of various problems regarding the interpretation of
+    the VHSIC Hardware Description Language (VHDL) was carried out by VHDL experts
+    on the VHDL Analysis and Standardization Group, the working group that developed
+    the original IEEE Std 1076-1987. The results of these deliberations are presented
+    in this document. The intent is to give the VHDL community reasonable ways of
+    interpreting the unclear portions of the standard.
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Design automation
+- vocab:
+    language: en
+    script: Latn
+    content: Specification languages
+- vocab:
+    language: en
+    script: Latn
+    content: Standards
+- vocab:
+    language: en
+    script: Latn
+    content: interpretations
+- vocab:
+    language: en
+    script: Latn
+    content: LRM
+- vocab:
+    language: en
+    script: Latn
+    content: VHDL
+- vocab:
+    language: en
+    script: Latn
+    content: VHSIC
+- vocab:
+    language: en
+    script: Latn
+    content: Hardware
+- vocab:
+    language: en
+    script: Latn
+    content: language
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.080'
+    text: Software
+  standard_status: Superseded
+  pubstatus: Active
+  holdstatus: Publish

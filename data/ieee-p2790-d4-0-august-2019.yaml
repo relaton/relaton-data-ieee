@@ -1,0 +1,153 @@
+---
+id: IEEEP2790D40August2019
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Approved Draft Standard for Biometric Liveness Detection
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9031808
+docidentifier:
+- content: IEEE P2790/D4.0, August, 2019
+  type: IEEE
+  primary: true
+- content: IEEE P2790/D4.0, August, 2019™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-6273-0
+  type: ISBN
+docnumber: IEEE P2790/D4.0, August, 2019
+date:
+- type: created
+  at: '2020-03-09'
+- type: published
+  at: '2020-03-10'
+- type: issued
+  at: '2020-03-05'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Cybersecurity and Privacy Standards Committee of the IEEE Computer
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'A biometric lifeless attack is one of the indispensable issues within
+    biometric authentication. There are three major components in liveness detection
+    systems: lifeless attack presentation, liveness detection, and lifeless attack
+    instruments. The lifeless attack presentation is divided into artifact presentation
+    and human-based presentation. The liveness detection method includes subject-based
+    and scenario-based solutions, as well as other attributes such as decision elements,
+    detection patterns, and implementations. The lifeless attack instrument is specified
+    from aspects such as production elements, production types of artifacts, efficacy,
+    etc. This document establishes terms and definitions in the field of biometric
+    liveness detection and identifies characterizations of lifeless attack and liveness
+    detection methods, with analysis on lifeless attack instruments. In addition,
+    this document specifies the liveness detection process, implementation model,
+    and metrics.'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Biometrics (access control)
+- vocab:
+    language: en
+    script: Latn
+    content: Authentication
+- vocab:
+    language: en
+    script: Latn
+    content: Biological system modeling
+- vocab:
+    language: en
+    script: Latn
+    content: Biomedical measurement
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 2790
+- vocab:
+    language: en
+    script: Latn
+    content: lifeless attack
+- vocab:
+    language: en
+    script: Latn
+    content: lifeless attack instrument
+- vocab:
+    language: en
+    script: Latn
+    content: liveness detection
+- vocab:
+    language: en
+    script: Latn
+    content: presentation attack detection
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

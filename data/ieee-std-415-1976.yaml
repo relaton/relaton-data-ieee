@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 415-1976
   type: IEEE
   primary: true
-- content: IEEE Std 415™-1976
+- content: IEEE Std 415-1976™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 415-1976
 date:
-- type: updated
-  at: '2016-03-11'
 - type: created
   at: '1976-12-09'
 - type: published
-  at: '2016-02-22'
+  at: '2016-02-25'
 - type: issued
   at: '1976-06-02'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,15 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This document provides guidance for preoperational testing of Class 1E
+    Power systems for nuclear-power generating stations. The extent of the system
+    shall be that covered by IEEE Std 308-1974, "Standard Criteria for Class 1E Power
+    Systems for Nuclear Power Generating Stations." The power systems include both
+    AC and DC supplies but do not include the equipment which utilizes the AC and
+    DC power.
 copyright:
 - from: '1976'
   owner:
@@ -65,9 +75,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 415-1986
+      content: ANSI/IEEE 415-1986
     docidentifier:
-    - content: ANSI/IEEE Std 415-1986
+    - content: ANSI/IEEE 415-1986
       type: IEEE
       primary: true
 keyword:

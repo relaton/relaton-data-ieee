@@ -1,0 +1,192 @@
+---
+id: IEEEP80211akD60December2017
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Draft Standard for Telecommunications and information exchange between
+    systems - Local and metropolitan area networks-- Part 11: Wireless LAN Medium
+    Access Control (MAC) and Physical Layer (PHY) Specifications - Amendment 4: Enhancements
+    For Transit Links Within Bridged Networks'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/8241007
+docidentifier:
+- content: IEEE P802.11ak/D6.0, December, 2017
+  type: IEEE
+  primary: true
+- content: IEEE P802.11ak/D6.0, December, 2017™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4606-8
+  type: ISBN
+docnumber: IEEE P802.11ak/D6.0, December, 2017
+date:
+- type: created
+  at: '2017-12-23'
+- type: published
+  at: '2017-12-27'
+- type: issued
+  at: '2018-03-08'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Protocols, procedures, and managed objects to enhance the ability of IEEE
+    802.11&#8482; media to provide transit links internal to IEEE 802.1Q&#8482; bridged
+    networks are specified in this amendment to IEEE Std 802.11&#8482;-2016.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref:
+      content: IEEE Std 802.11-2012
+    docidentifier:
+    - content: IEEE Std 802.11-2012
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Information exchange
+- vocab:
+    language: en
+    script: Latn
+    content: Communications technology
+- vocab:
+    language: en
+    script: Latn
+    content: Bridged circuits
+- vocab:
+    language: en
+    script: Latn
+    content: Telecommunication network management
+- vocab:
+    language: en
+    script: Latn
+    content: bridged
+- vocab:
+    language: en
+    script: Latn
+    content: bridging
+- vocab:
+    language: en
+    script: Latn
+    content: EPD
+- vocab:
+    language: en
+    script: Latn
+    content: GCR
+- vocab:
+    language: en
+    script: Latn
+    content: GLK
+- vocab:
+    language: en
+    script: Latn
+    content: GLK-GCR
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.11(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.11ak(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 802.1Q(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: LPD
+- vocab:
+    language: en
+    script: Latn
+    content: priority code point
+- vocab:
+    language: en
+    script: Latn
+    content: SYNRA
+- vocab:
+    language: en
+    script: Latn
+    content: transit link
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.100.10
+    text: Physical layer
+  - code: '35.110'
+    text: Networking
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

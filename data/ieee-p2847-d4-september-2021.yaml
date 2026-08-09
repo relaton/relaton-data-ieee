@@ -1,0 +1,177 @@
+---
+id: IEEEP2847D4September2021
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Approved Draft Standard for DC Power Transmission and Communication
+    to DC Loads
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9540638
+docidentifier:
+- content: IEEE P2847/D4, September, 2021
+  type: IEEE
+  primary: true
+- content: IEEE P2847/D4, September, 2021™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-7942-4
+  type: ISBN
+docnumber: IEEE P2847/D4, September, 2021
+date:
+- type: created
+  at: '2021-11-10'
+- type: published
+  at: '2021-09-16'
+- type: issued
+  at: '2021-11-09'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power Line Communications of the IEEE Communications Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Physical layer and data link layer specifications for power supply and
+    communication over power lines from a dc power source to multiple dc loads are
+    specified. Each receiver has its own physical address and is connected to the
+    transmitter through a pair of power lines in a multidrop bus or tree topology.
+    The dc power is sent by the transmitter. This dc power, by electrically changing
+    the voltage of the wires, corresponds to the communication packets, including
+    the control command/data for controlling the dc loads and the target address.
+    Power to the dc loads with the transmitted and voltage-flattened dc power is supplied
+    by each receiver. The control command/data and addresses from electric signals
+    on the power line is decoded by each receiver, to be used for the connected dc
+    loads control if the addresses match. The standard is in compliance with known
+    electromagnetic compatibility (EMC) regulations.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2021'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Power transmission
+- vocab:
+    language: en
+    script: Latn
+    content: DC power transmission
+- vocab:
+    language: en
+    script: Latn
+    content: Signal processing
+- vocab:
+    language: en
+    script: Latn
+    content: Regulation
+- vocab:
+    language: en
+    script: Latn
+    content: Power line communications
+- vocab:
+    language: en
+    script: Latn
+    content: DC
+- vocab:
+    language: en
+    script: Latn
+    content: dc loads
+- vocab:
+    language: en
+    script: Latn
+    content: dc power
+- vocab:
+    language: en
+    script: Latn
+    content: dc power line communication
+- vocab:
+    language: en
+    script: Latn
+    content: dc power transmission
+- vocab:
+    language: en
+    script: Latn
+    content: differential signal
+- vocab:
+    language: en
+    script: Latn
+    content: differential signal communication
+- vocab:
+    language: en
+    script: Latn
+    content: high-power differential signal power line communication
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 2847
+- vocab:
+    language: en
+    script: Latn
+    content: PLC
+- vocab:
+    language: en
+    script: Latn
+    content: power line communication
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

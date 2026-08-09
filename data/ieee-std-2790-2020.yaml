@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 2790-2020
   type: IEEE
   primary: true
-- content: IEEE Std 2790™-2020
+- content: IEEE Std 2790-2020™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 2790-2020
 date:
-- type: updated
-  at: '2020-05-22'
 - type: created
   at: '2020-04-24'
 - type: published
@@ -144,6 +142,9 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 01.040.11
+    text: Health care technology (Vocabularies)
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

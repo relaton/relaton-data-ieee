@@ -1,0 +1,125 @@
+---
+id: ANSIIEEE9361987
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Guide for Self-Commutated Converters
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/29053
+docidentifier:
+- content: ANSI/IEEE 936-1987
+  type: IEEE
+  primary: true
+- content: ANSI/IEEE 936-1987™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 0-7381-4265-4
+  type: ISBN
+- content: 10.1109/IEEESTD.1987.81536
+  type: DOI
+docnumber: ANSI/IEEE 936-1987
+date:
+- type: created
+  at: '1987'
+- type: published
+  at: '2002-12-10'
+- type: issued
+  at: '1986-03-13'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Static Power Converter Committee of the IEEE Industry Applications
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This guide applies to self-commutated electronic power converters in which
+    commutation is accomplished by components within the converter. In converters
+    using switching devices that have turn-off capability, such as transistors or
+    gate turn-off thyristors, interruption of the current results in a voltage that
+    commutates the current to another branch. In converters using circuit-commutated
+    thyristors, the commutating voltages required to transfer current from one branch
+    to another are normally supplied by capacitors. The type of power conversion may
+    be DC to AC, DC to DC, AC to DC, or AC to AC. Converters in which commutating
+    voltages are supplied by the AC lines, the AC load, or some other AC source outside
+    the converter, are excluded from the scope of this guide except where they may
+    be linked with a self-commutated converter.
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1987'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Power conversion
+- vocab:
+    language: en
+    script: Latn
+    content: Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Thyristor applications
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '29.200'
+    text: Rectifiers. Converters. Stabilized power supply
+  standard_status: Inactive
+  standard_modified: Withdrawn
+  pubstatus: Active
+  holdstatus: Publish

@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 76-1974
   type: IEEE
   primary: true
-- content: IEEE Std 76™-1974
+- content: IEEE Std 76-1974™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 76-1974
 date:
-- type: updated
-  at: '2016-04-08'
 - type: created
   at: '1974-03-01'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -47,6 +48,13 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: The term askarel generally describes a widely used broad class of nonflammable
+    synthetic halogenated hydrocarbon insulating liquids. In this guide, it applies
+    solely to askarel in transformers, reactors, and accessory equipment operated
+    at power frequencies.
 copyright:
 - from: '1974'
   owner:

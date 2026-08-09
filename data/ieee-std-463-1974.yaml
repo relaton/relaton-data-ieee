@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 463-1974
   type: IEEE
   primary: true
-- content: IEEE Std 463™-1974
+- content: IEEE Std 463-1974™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 463-1974
 date:
-- type: updated
-  at: '2016-04-29'
 - type: created
   at: '1974-08-14'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,21 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'This standard covers means of safeguarding personnel while operating equipment
+    located in electrolytic cell line working zones. Included are related requirements
+    for equipment and electrical conductor installations. The general types of DC
+    electrolytic cells covered include, but are not limited to, the cells used in
+    the production of aluminum, cadmium, chlorate, chlorine, copper, fluorine, hydrogen
+    peroxide, magnesium, sodium, and zinc. This standard does not cover: electroplating
+    and anodizing facilities; AC cells or furnaces; electrothermal process furnaces;
+    arc furnaces; melting or heat treating facilities; Any electrical equipment that
+    is neither part of the electrolytic process equipment nor installed or used in
+    the cell line working zone Items referred to in are not covered by this standard
+    and shall be installed in accordance with NFPA 70-1975, National Electrical Code
+    (ANSI C1-1975), or the latest revision thereof.'
 copyright:
 - from: '1974'
   owner:

@@ -13,16 +13,16 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/7542095
 docidentifier:
-- content: IEEE Std C57.94-2015 Redline
+- content: IEEE Std C57.94-2015 - Redline
   type: IEEE
   primary: true
-- content: IEEE Std C57.94™-2015 Redline
+- content: IEEE Std C57.94-2015 - Redline™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-1-5044-2229-1
   type: ISBN
-docnumber: IEEE Std C57.94-2015 Redline
+docnumber: IEEE Std C57.94-2015 - Redline
 date:
 - type: created
   at: '2016-02-26'
@@ -88,6 +88,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.94-2025
+    docidentifier:
+    - content: IEEE Std C57.94-2025
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -95,9 +103,9 @@ relation:
     content: revises
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std C57.94-1982
+      content: ANSI/IEEE C57.94-1982
     docidentifier:
-    - content: ANSI/IEEE Std C57.94-1982
+    - content: ANSI/IEEE C57.94-1982
       type: IEEE
       primary: true
 keyword:

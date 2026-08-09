@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 535-1979
   type: IEEE
   primary: true
-- content: IEEE Std 535™-1979
+- content: IEEE Std 535-1979™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,8 +23,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 535-1979
 date:
-- type: updated
-  at: '2016-04-08'
 - type: created
   at: '1979'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,26 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: IEEE Std 323-1974, Standard for Qualifying Class 1E Equipment for Nuclear
+    Power Generating Stations, was developed to provide guidance for demonstrating
+    and documenting the adequacy of electrical equipment used in all Class 1E and
+    interface systems. This standard, IEEE Std 535-1979, was developed to provide
+    specific methods and type test procedures for lead storage batteries in adherence
+    to IEEE Std 323-1974. Adherence to this standard may not suffice for assuring
+    public health and safety because it is the integrated performance of the electrical
+    systems of the station that limits the consequence of accidents. Each applicant
+    has the responsibility to assure himself and others that this document, if used,
+    is pertinent to his application and that the integrated performance of his station
+    is adequate. This document describes qualification methods for Class 1E lead storage
+    batteries and racks to be used in nuclear power generating stations outside of
+    primary containment. Qualification required in ANSI/IEEE Std 279-1971 and IEEE
+    Std 308-1978, can be demonstrated by using the procedures provided in this standard
+    in accordance with IEEE Std 323-1974. Battery sizing, maintenance, capacity testing,
+    installation, charging equipment and consideration of other type batteries are
+    beyond the scope of this standard.
 copyright:
 - from: '1979'
   owner:
@@ -65,9 +86,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 535-1986
+      content: ANSI/IEEE 535-1986
     docidentifier:
-    - content: ANSI/IEEE Std 535-1986
+    - content: ANSI/IEEE 535-1986
       type: IEEE
       primary: true
 keyword:

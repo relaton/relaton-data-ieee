@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 167A-1980
   type: IEEE
   primary: true
-- content: IEEE Std 167A™-1980
+- content: IEEE Std 167A-1980™
   type: IEEE
   scope: trademark
   primary: true
@@ -25,7 +25,7 @@ date:
 - type: created
   at: '1979-11-30'
 - type: published
-  at: '2019-04-05'
+  at: '2019-04-09'
 - type: issued
   at: '1980'
 contributor:
@@ -66,14 +66,6 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 167A-1987
-    docidentifier:
-    - content: IEEE Std 167A-1987
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
@@ -84,6 +76,14 @@ relation:
       content: IEEE Std 167A-1975
     docidentifier:
     - content: IEEE Std 167A-1975
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 167A-1987
+    docidentifier:
+    - content: IEEE Std 167A-1987
       type: IEEE
       primary: true
 keyword:

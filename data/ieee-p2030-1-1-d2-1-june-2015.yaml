@@ -1,0 +1,196 @@
+---
+id: IEEEP203011D21June2015
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Approved Draft Standard Technical Specifications of a DC Quick Charger
+    for Use with Electric Vehicles
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7134661
+docidentifier:
+- content: IEEE P2030.1.1/D2.1 June 2015
+  type: IEEE
+  primary: true
+- content: IEEE P2030.1.1/D2.1 June 2015™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-9797-5
+  type: ISBN
+docnumber: IEEE P2030.1.1/D2.1 June 2015
+date:
+- type: created
+  at: '2015-01-01'
+- type: published
+  at: '2015-06-25'
+- type: issued
+  at: '2015-09-03'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Intelligent Transportation Systems of the IEEE Vehicular Technology
+          Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Direct Current Charging or DC Charging is a method of charging which facilitates
+    rapid energy transfer from the electric grid to plug in vehicles. This method
+    of charging allows significantly more current to be drawn by the vehicle vs. lower
+    rated alternating current (AC) systems. A combination of vehicles which can accept
+    high current DC charge, and the DC supply equipment which provides it has led
+    to the use of terminology such as Fast Charging, Fast Charger, DC Charger, Quick
+    Charger, etc.DC charging and AC charging vary by the location at which AC current
+    is converted to DC current. For typical DC charging, the current is converted
+    at the off board charger which is separate from the vehicle. For AC charging the
+    current is converted inside the vehicle, by means of an on- board -charger. The
+    location of the AC to DC conversion equipment, or converter, shapes the complexity
+    of the equipment design. Regarding AC charging, as mentioned above, the conversion
+    is on-board the vehicle. This allows the OEM designed systems to control the charging
+    operation in its entirety. The on-board-charger (converter) and battery controller
+    solution is under direct control of the vehicle manufacturer. For DC charging,
+    an entirely new challenge for OEMs exists. The DC charger is now external to the
+    vehicle and requires the vehicle engineers to control an external power device.
+    For the reason of necessary interoperability, standards such as IEEE P2030.1.1
+    are provided to assist developers.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: DC machines
+- vocab:
+    language: en
+    script: Latn
+    content: Chargers
+- vocab:
+    language: en
+    script: Latn
+    content: Automotive electronics
+- vocab:
+    language: en
+    script: Latn
+    content: Electric vehicles
+- vocab:
+    language: en
+    script: Latn
+    content: Battery chargers
+- vocab:
+    language: en
+    script: Latn
+    content: DC Charger
+- vocab:
+    language: en
+    script: Latn
+    content: Fast Charger
+- vocab:
+    language: en
+    script: Latn
+    content: SAE J1772TM
+- vocab:
+    language: en
+    script: Latn
+    content: SAE J2836/2TM
+- vocab:
+    language: en
+    script: Latn
+    content: CHAdeMO
+- vocab:
+    language: en
+    script: Latn
+    content: Rapid 24 Charging
+- vocab:
+    language: en
+    script: Latn
+    content: Fast Charging
+- vocab:
+    language: en
+    script: Latn
+    content: DC Charging
+- vocab:
+    language: en
+    script: Latn
+    content: 61851-23
+- vocab:
+    language: en
+    script: Latn
+    content: automotive
+- vocab:
+    language: en
+    script: Latn
+    content: electric vehicle
+- vocab:
+    language: en
+    script: Latn
+    content: SAE
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 43.040.01
+    text: Road vehicle systems in general
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

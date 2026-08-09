@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 2416-2019
   type: IEEE
   primary: true
-- content: IEEE Std 2416™-2019
+- content: IEEE Std 2416-2019™
   type: IEEE
   scope: trademark
   primary: true
@@ -77,9 +77,6 @@ abstract:
     usable for system power analysis and optimization. Process, voltage, and temperature
     (PVT) independence; power and thermal management interface; and workload and architecture
     parameterization are some of the concepts included.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2019'
   owner:
@@ -93,6 +90,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 2416-2025
+    docidentifier:
+    - content: IEEE Std 2416-2025
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -174,7 +180,6 @@ ext:
   ics:
   - code: '31.200'
     text: Integrated circuits. Microelectronics
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

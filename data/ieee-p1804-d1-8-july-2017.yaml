@@ -1,0 +1,166 @@
+---
+id: IEEEP1804D18July2017
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Fault Accounting and Coverage Reporting to Digital
+    Modules (FACR)
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/7987820
+docidentifier:
+- content: IEEE P1804/D1.8 July 2017
+  type: IEEE
+  primary: true
+- content: IEEE P1804/D1.8 July 2017™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-4196-4
+  type: ISBN
+docnumber: IEEE P1804/D1.8 July 2017
+date:
+- type: created
+  at: '2017-01-01'
+- type: published
+  at: '2017-07-21'
+- type: issued
+  at: '2017-12-06'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Test Technology of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Aspects of fault models as they are relevant to the generation of test
+    patterns for digital circuits are formalized in this standard. Fault counting,
+    fault classification, and fault coverage reporting across different automatic
+    test pattern generation (ATPG) tools, for the single stuck-at fault model are
+    included in the scope. It shall be incumbent for fault coverage to be reported
+    in a uniform way on all ATPG tools (that comply with this standard). The generation
+    of a uniform coverage (and, hence, a uniform test quality) metric for large chips
+    [including systems-on-chips (SOCs)] with different cores and modules for which
+    test patterns have been independently generated will be facilitated by this standard.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Fault diagnosis
+- vocab:
+    language: en
+    script: Latn
+    content: Semiconductor devices
+- vocab:
+    language: en
+    script: Latn
+    content: Testing
+- vocab:
+    language: en
+    script: Latn
+    content: System-on-chip
+- vocab:
+    language: en
+    script: Latn
+    content: Digital circuits
+- vocab:
+    language: en
+    script: Latn
+    content: Integrated circuit modeling
+- vocab:
+    language: en
+    script: Latn
+    content: Circuit faults
+- vocab:
+    language: en
+    script: Latn
+    content: ATPG
+- vocab:
+    language: en
+    script: Latn
+    content: fault models
+- vocab:
+    language: en
+    script: Latn
+    content: fault simulation
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 1804(TM)
+- vocab:
+    language: en
+    script: Latn
+    content: semiconductor testing
+- vocab:
+    language: en
+    script: Latn
+    content: stuck-at faults
+- vocab:
+    language: en
+    script: Latn
+    content: test coverage
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

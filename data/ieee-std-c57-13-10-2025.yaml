@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C57.13.10-2025
   type: IEEE
   primary: true
-- content: IEEE Std C57.13.10™-2025
+- content: IEEE Std C57.13.10-2025™
   type: IEEE
   scope: trademark
   primary: true
@@ -95,6 +95,26 @@ keyword:
 - vocab:
     language: en
     script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Accuracy
+- vocab:
+    language: en
+    script: Latn
+    content: Testing
+- vocab:
+    language: en
+    script: Latn
+    content: Calibration
+- vocab:
+    language: en
+    script: Latn
+    content: Current transformers
+- vocab:
+    language: en
+    script: Latn
     content: accuracy test
 - vocab:
     language: en
@@ -117,6 +137,9 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

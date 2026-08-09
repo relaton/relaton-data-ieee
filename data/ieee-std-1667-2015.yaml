@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 1667-2015
   type: IEEE
   primary: true
-- content: IEEE Std 1667™-2015
+- content: IEEE Std 1667-2015™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 1667-2015
 date:
-- type: updated
-  at: '2016-09-16'
 - type: created
   at: '2016-01-22'
 - type: published
-  at: '2016-01-22'
+  at: '2016-01-25'
 - type: issued
   at: '2015-09-03'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -89,6 +90,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1667-2018
+    docidentifier:
+    - content: IEEE Std 1667-2018
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -99,14 +108,6 @@ relation:
       content: IEEE Std 1667-2009
     docidentifier:
     - content: IEEE Std 1667-2009
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 1667-2018
-    docidentifier:
-    - content: IEEE Std 1667-2018
       type: IEEE
       primary: true
 keyword:

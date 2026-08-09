@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 1184-1994
   type: IEEE
   primary: true
-- content: IEEE Std 1184™-1994
+- content: IEEE Std 1184-1994™
   type: IEEE
   scope: trademark
   primary: true
@@ -92,6 +92,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1184-2006
+    docidentifier:
+    - content: IEEE Std 1184-2006
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en

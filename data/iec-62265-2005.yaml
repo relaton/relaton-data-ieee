@@ -3,28 +3,30 @@ id: IEC622652005
 schema_version: v1.5.6
 type: standard
 title:
-- content: 'IEC/IEEE Standard for Advanced Library Format (ALF) describing integrated
-    circuit (IC) technology, cells, and blocks (Adoption of IEEE Std 1603-2003) '
+- content: IEC/IEEE International Standard - Advanced Library Format (ALF) Describing
+    Integrated Circuit (IC) Technology, Cells, and Blocks
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/4140789
+  content: https://ieeexplore.ieee.org/document/8894281
 docidentifier:
 - content: IEC 62265-2005
   type: IEEE
   primary: true
-- content: IEC 62265™-2005
+- content: IEC 62265-2005™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-4776-5
   type: ISBN
-- content: 10.1109/IEEESTD.2005.339571
+- content: 10.1109/IEEESTD.2004.8894281
   type: DOI
 docnumber: IEC 62265-2005
 date:
 - type: created
-  at: '2005'
+  at: '2004-02-20'
+- type: published
+  at: '2019-11-08'
 - type: issued
   at: '2005'
 contributor:
@@ -66,6 +68,15 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: Replaces IEEE Std 1603-2003. ALF is a modeling language for library elements
+    used in IC technology. ALF enables description of electrical, functional, and
+    physical models in a formal language suitable for electronic design automation
+    (EDA) application tools targeted for design and analysis of an IC. This standard
+    provides rules that describe ALF and how tool developers, integrators, library
+    creators, and library users should use it.
 status:
   stage:
     content: withdrawn
@@ -86,15 +97,103 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEC Standards
-- vocab:
-    language: en
-    script: Latn
     content: IEEE Standards
 - vocab:
     language: en
     script: Latn
+    content: IEC Standards
+- vocab:
+    language: en
+    script: Latn
     content: Integrated circuits
+- vocab:
+    language: en
+    script: Latn
+    content: Timing analysis
+- vocab:
+    language: en
+    script: Latn
+    content: Signal integrity
+- vocab:
+    language: en
+    script: Latn
+    content: behavioral
+- vocab:
+    language: en
+    script: Latn
+    content: block
+- vocab:
+    language: en
+    script: Latn
+    content: cell
+- vocab:
+    language: en
+    script: Latn
+    content: derate
+- vocab:
+    language: en
+    script: Latn
+    content: EDA
+- vocab:
+    language: en
+    script: Latn
+    content: electrical
+- vocab:
+    language: en
+    script: Latn
+    content: format
+- vocab:
+    language: en
+    script: Latn
+    content: functional
+- vocab:
+    language: en
+    script: Latn
+    content: gate-level
+- vocab:
+    language: en
+    script: Latn
+    content: integrated circuit
+- vocab:
+    language: en
+    script: Latn
+    content: language
+- vocab:
+    language: en
+    script: Latn
+    content: layout
+- vocab:
+    language: en
+    script: Latn
+    content: library
+- vocab:
+    language: en
+    script: Latn
+    content: modeling
+- vocab:
+    language: en
+    script: Latn
+    content: physical
+- vocab:
+    language: en
+    script: Latn
+    content: power
+- vocab:
+    language: en
+    script: Latn
+    content: RTL
+- vocab:
+    language: en
+    script: Latn
+    content: signal integrity
+- vocab:
+    language: en
+    script: Latn
+    content: technology
+- vocab:
+    language: en
+    script: Latn
+    content: timing
 ext:
   schema_version: v1.1.3
   doctype:

@@ -1,5 +1,5 @@
 ---
-id: IEEEStd5252007
+id: IEEESTD5252007
 schema_version: v1.5.6
 type: standard
 title:
@@ -9,10 +9,10 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/7752756
 docidentifier:
-- content: IEEE Std 525-2007
+- content: IEEE STD 525-2007
   type: IEEE
   primary: true
-- content: IEEE Std 525™-2007
+- content: IEEE STD 525-2007™
   type: IEEE
   scope: trademark
   primary: true
@@ -20,10 +20,8 @@ docidentifier:
   type: ISBN
 - content: 10.1109/IEEESTD.2008.7752756
   type: DOI
-docnumber: IEEE Std 525-2007
+docnumber: IEEE STD 525-2007
 date:
-- type: updated
-  at: '2017-01-09'
 - type: created
   at: '2008-04-02'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -86,26 +87,6 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: revises
-  bibitem:
-    formattedref:
-      content: IEEE Std 525-1992
-    docidentifier:
-    - content: IEEE Std 525-1992
-      type: IEEE
-      primary: true
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 525-2016
-    docidentifier:
-    - content: IEEE Std 525-2016
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en

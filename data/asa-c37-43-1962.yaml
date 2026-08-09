@@ -8,31 +8,34 @@ title:
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/9508250
+  content: https://ieeexplore.ieee.org/document/7444093
 docidentifier:
 - content: ASA C37.43-1962
   type: IEEE
   primary: true
-- content: ASA C37.43™-1962
+- content: ASA C37.43-1962™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-1-5044-0492-1
   type: ISBN
-- content: 10.1109/IEEESTD.1961.9508250
+- content: 10.1109/IEEESTD.1962.7444093
   type: DOI
 docnumber: ASA C37.43-1962
 date:
 - type: created
-  at: '1961-11-30'
+  at: '1962-03-30'
 - type: published
-  at: '2021-08-05'
+  at: '2016-03-30'
 - type: issued
   at: '1962'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -46,6 +49,12 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard applies to links for high voltage fuses (above 600 volts)
+    for enclose, open, and open-link types of distribution cutouts for ac distribution
+    systems.
 status:
   stage:
     content: withdrawn
@@ -72,11 +81,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE Standards
+    content: ASA Standards
 - vocab:
     language: en
     script: Latn
-    content: ASA Standards
+    content: Fuses
 - vocab:
     language: en
     script: Latn
@@ -84,7 +93,15 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Fuses
+    content: Open-link cutouts
+- vocab:
+    language: en
+    script: Latn
+    content: Clamps
+- vocab:
+    language: en
+    script: Latn
+    content: Manufacturing processes
 ext:
   schema_version: v1.1.3
   doctype:

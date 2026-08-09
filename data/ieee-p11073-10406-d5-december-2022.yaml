@@ -1,0 +1,175 @@
+---
+id: IEEEP1107310406D5December2022
+schema_version: v1.5.6
+type: standard
+title:
+- content: 'IEEE Draft Standard for Health Informatics--Personal Health Device Communication
+    Part 10406: Device Specialization--Basic Electrocardiograph (ECG) (1- to 3-lead
+    ECG)'
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9994668
+docidentifier:
+- content: IEEE P11073-10406/D5, December, 2022
+  type: IEEE
+  primary: true
+- content: IEEE P11073-10406/D5, December, 2022™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-9304-8
+  type: ISBN
+docnumber: IEEE P11073-10406/D5, December, 2022
+date:
+- type: created
+  at: '2022-12-19'
+- type: published
+  at: '2022-12-20'
+- type: issued
+  at: '2023-02-15'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: IEEE 11073 Standards Committee of the IEEE Engineering in Medicine
+          and Biology Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: Within the context of the ISO/IEEE 11073 family of standards for device
+    communication, a normative definition of the communication between personal basic
+    electrocardiograph (ECG) devices and managers (e.g., cell phones, personal computers,
+    personal health appliances, and set-top boxes) in a manner that enables plug-and-play
+    interoperability is established in this standard. Appropriate portions of existing
+    standards including ISO/IEEE 11073 terminology and IEEE 11073-20601 information
+    models are leveraged. The use of specific term codes, formats, and behaviors in
+    telehealth environments restricting optionality in base frameworks in favor of
+    interoperability is specified. A common core of communication functionality for
+    personal telehealth basic ECG (1- to 3-lead ECG) devices is defined. Monitoring
+    ECG devices are distinguished from diagnostic ECG equipment with respect to including
+    support for wearable ECG devices, limiting the number of leads supported by the
+    equipment to three, and not requiring the capability of annotating or analyzing
+    the detected electrical activity to determine known cardiac phenomena. This standard
+    is consistent with the base framework and allows multifunction implementations
+    by following multiple device specializations (e.g., ECG and respiration rate).
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 11073-10406-2011
+    docidentifier:
+    - content: IEEE Std 11073-10406-2011
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Biomedical equipment
+- vocab:
+    language: en
+    script: Latn
+    content: Electroencephalography
+- vocab:
+    language: en
+    script: Latn
+    content: Biomedical monitoring
+- vocab:
+    language: en
+    script: Latn
+    content: Medical devices
+- vocab:
+    language: en
+    script: Latn
+    content: 1- to 3-lead ECG
+- vocab:
+    language: en
+    script: Latn
+    content: basic electrocardiograph
+- vocab:
+    language: en
+    script: Latn
+    content: ECG
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 11073-10406™
+- vocab:
+    language: en
+    script: Latn
+    content: medical device communication
+- vocab:
+    language: en
+    script: Latn
+    content: personal health devices
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

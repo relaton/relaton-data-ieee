@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 390-1975
   type: IEEE
   primary: true
-- content: IEEE Std 390™-1975
+- content: IEEE Std 390-1975™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,18 +22,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 390-1975
 date:
-- type: updated
-  at: '2016-03-18'
 - type: created
   at: '1975-06-18'
 - type: published
-  at: '2016-02-17'
+  at: '2016-02-18'
 - type: issued
   at: '1973-12-13'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -47,6 +48,26 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard pertains to small low-power pulse transformers for use in
+    electronic equipment, transmitting peak power of 300 W or less and average power
+    of 5 W or less with a peak working voltage of 1000 V or less. These transformers
+    are required to transform unipolar or bipolar pulses of voltage or current within
+    specified tolerances of amplitude and time when operated between specified impedances.
+    This standard is not intended to include low-power "switching" type pulse transformers
+    which are covered in IEEE Std 272-1970, Standard for Computer-Type (SquareLoop)
+    Pulse Transformers. These transformers depend upon the use of "square-loop" core
+    material for operation, have "memory" capability, and normally transmit only bipolar
+    pulses unless provision is made for core flux reset. This standard is not intended
+    to include transformers for power conversion applications. Those transformers
+    will be covered in a related standard. Whenever numerical values are indicated
+    they may be considered as recommended values. Section 2 contains definitions of
+    terms pertaining primarily to functional testing of low-power pulse transformers,
+    and Section 5 contains equivalent circuits and definitions of associated terms.
+    Section 6 describes preferred transformer test methods and the appendix contains
+    alternate test methods.
 copyright:
 - from: '1975'
   owner:
@@ -64,9 +85,9 @@ relation:
 - type: obsoletedBy
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std 390-1987
+      content: ANSI/IEEE 390-1987
     docidentifier:
-    - content: ANSI/IEEE Std 390-1987
+    - content: ANSI/IEEE 390-1987
       type: IEEE
       primary: true
 keyword:

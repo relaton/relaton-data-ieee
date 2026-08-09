@@ -3,30 +3,30 @@ id: ANSIN44911978
 schema_version: v1.5.6
 type: standard
 title:
-- content: American National Standard Performance Criteria for Instrumentation Used
-    for Inplant Plutonium Monitoring
+- content: American National Standard Procedures for Periodic Inspection of Cobalt-60
+    and Cesium-137 Teletherapy Equipment
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/7782614
+  content: https://ieeexplore.ieee.org/document/595147
 docidentifier:
 - content: ANSI N449.1-1978
   type: IEEE
   primary: true
-- content: ANSI N449.1™-1978
+- content: ANSI N449.1-1978™
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-0754-7
   type: ISBN
-- content: 10.1109/IEEESTD.1980.7782614
+- content: 10.1109/IEEESTD.1978.82447
   type: DOI
 docnumber: ANSI N449.1-1978
 date:
 - type: created
-  at: '1980-07-28'
+  at: '1978-03-30'
 - type: published
-  at: '2016-12-13'
+  at: '2002-12-10'
 - type: issued
   at: '1978'
 contributor:
@@ -72,14 +72,10 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Performance criteria are defined, and plutonium radiation is characterized.
-    The specifications apply to plutonium handling and storage facilities, excluding
-    reactors and irradiated fuel reprocessing facilities. This standard does not apply
-    to the construction of specific instruments, nor does it specify instrumentation
-    to be employed for each survey to be conducted, other than in generic terms. It
-    does not define specifications for personnel dosimeters, effluent monitoring systems,
-    or instruments needed in bioassay programs, nor does it define those requirements
-    that may be needed to monitor emergency conditions.
+  content: Procedures for the inspection of cobalt-60 and cesium-137 Teletherapy equipment
+    are suggested. Their purpose is to enable users to identify and quantify malfunctions
+    or maladjustments of the safety and radiation-defining components. Methods and
+    equipment are listed for each procedure.
 status:
   stage:
     content: approved
@@ -104,27 +100,27 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Radiation detectors
+    content: Biomedical monitoring
 - vocab:
     language: en
     script: Latn
-    content: Plutonium
+    content: Radiation monitoring
 - vocab:
     language: en
     script: Latn
-    content: Implants
+    content: Cobalt
 - vocab:
     language: en
     script: Latn
-    content: Monitoring
+    content: Cesium
 - vocab:
     language: en
     script: Latn
-    content: Instrumentation
+    content: Inspection
 - vocab:
     language: en
     script: Latn
-    content: Performance evaluation
+    content: Biomedical radiation application
 ext:
   schema_version: v1.1.3
   doctype:
@@ -133,7 +129,7 @@ ext:
   ics:
   - code: 11.040.50
     text: Radiographic equipment
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Approved
   pubstatus: Active
   holdstatus: Publish

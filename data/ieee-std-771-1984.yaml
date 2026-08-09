@@ -12,7 +12,7 @@ docidentifier:
 - content: IEEE Std 771-1984
   type: IEEE
   primary: true
-- content: IEEE Std 771™-1984
+- content: IEEE Std 771-1984™
   type: IEEE
   scope: trademark
   primary: true
@@ -22,8 +22,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 771-1984
 date:
-- type: updated
-  at: '2016-04-08'
 - type: created
   at: '1984-12-21'
 - type: published
@@ -34,6 +32,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org

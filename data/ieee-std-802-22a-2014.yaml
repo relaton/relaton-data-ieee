@@ -17,7 +17,7 @@ docidentifier:
 - content: IEEE Std 802.22a-2014
   type: IEEE
   primary: true
-- content: IEEE Std 802.22a®-2014
+- content: IEEE Std 802.22a-2014®
   type: IEEE
   scope: trademark
   primary: true
@@ -27,8 +27,6 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std 802.22a-2014
 date:
-- type: updated
-  at: '2014-07-24'
 - type: created
   at: '2014-05-30'
 - type: published
@@ -39,6 +37,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -78,11 +79,6 @@ abstract:
     physical layer (PHY), of the fixed and portable point-to-multipoint wireless regional
     area networks (WRANs) operating in spectrum allocated to the Television Broadcasting
     Service in the frequency range of 54 MHz to 862 MHz is described in this amendment.
-    (The PDF of this standard is available at no charge compliments of the IEEE GET
-    program http://ieeexplore.ieee.org/servlet/opac?punumber=6823049)
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2014'
   owner:
@@ -97,6 +93,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ISO/IEC/IEEE 8802.22/Amd 1-2015
+    docidentifier:
+    - content: ISO/IEC/IEEE 8802.22/Amd 1-2015
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -198,7 +202,6 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

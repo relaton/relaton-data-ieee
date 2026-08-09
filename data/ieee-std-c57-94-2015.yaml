@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C57.94-2015
   type: IEEE
   primary: true
-- content: IEEE Std C57.94™-2015
+- content: IEEE Std C57.94-2015™
   type: IEEE
   scope: trademark
   primary: true
@@ -87,6 +87,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.94-2025
+    docidentifier:
+    - content: IEEE Std C57.94-2025
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -94,9 +102,9 @@ relation:
     content: revises
   bibitem:
     formattedref:
-      content: ANSI/IEEE Std C57.94-1982
+      content: ANSI/IEEE C57.94-1982
     docidentifier:
-    - content: ANSI/IEEE Std C57.94-1982
+    - content: ANSI/IEEE C57.94-1982
       type: IEEE
       primary: true
 keyword:

@@ -10,10 +10,10 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/7369899
 docidentifier:
-- content: AIEE No.1C-1954
+- content: AIEE No. 1C-1954
   type: IEEE
   primary: true
-- content: AIEE No.1C™-1954
+- content: AIEE No. 1C-1954™
   type: IEEE
   scope: trademark
   primary: true
@@ -21,10 +21,8 @@ docidentifier:
   type: ISBN
 - content: 10.1109/IEEESTD.1954.7369899
   type: DOI
-docnumber: AIEE No.1C-1954
+docnumber: AIEE No. 1C-1954
 date:
-- type: updated
-  at: '2016-01-22'
 - type: created
   at: '1954-01-12'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: This test code has been prepared in the hope that it will serve as a useful
+    guide for the evaluation of insulation systems for random wound rotating electric
+    machines, and to establish a sound basis for their temperature classification.
+    Once this is accomplished in orderly and organized fashion, the problems of insulation
+    selection for use in electric apparatus should be simplified. The code defines
+    test procedures. It does not establish any normal values for insulation life,
+    nor does it provide any standards of performance whatever.
 copyright:
 - from: '1954'
   owner:

@@ -3,32 +3,32 @@ id: IEEEStd80211ac2013
 schema_version: v1.5.6
 type: standard
 title:
-- content: 'IEEE Standard for Information technology-- Telecommunications and information
-    exchange between systemsLocal and metropolitan area networks-- Specific requirements--Part
+- content: 'IEEE Standard for Information technology--Telecommunications and information
+    exchange between systems—Local and metropolitan area networks--Specific requirements--Part
     11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications--Amendment
     4: Enhancements for Very High Throughput for Operation in Bands below 6 GHz.'
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/6687187
+  content: https://ieeexplore.ieee.org/document/7797535
 docidentifier:
 - content: IEEE Std 802.11ac-2013
   type: IEEE
   primary: true
-- content: IEEE Std 802.11ac®-2013
+- content: IEEE Std 802.11ac-2013®
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-8860-7
   type: ISBN
-- content: 10.1109/IEEESTD.2013.6687187
+- content: 10.1109/IEEESTD.2013.7797535
   type: DOI
 docnumber: IEEE Std 802.11ac-2013
 date:
 - type: created
   at: '2013-12-18'
 - type: published
-  at: '2013-12-18'
+  at: '2016-12-26'
 - type: issued
   at: '2013-12-11'
 contributor:
@@ -73,15 +73,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The purpose of this amendment is to improve the IEEE 802.11 wireless local
-    area network (WLAN) user experience by providing significantly higher basic service
-    set (BSS) throughput for existing WLAN application areas and to enable new market
-    segments for operation below 6 GHz including distribution of multiple multimedia/data
-    streams. The PDF of this standard is available at no cost compliments of the GETIEEE802
-    program located at http://standards.ieee.org/about/get/802/support.html
-status:
-  stage:
-    content: approved
+  content: The purpose of this amendment is to improve the IEEE 802.11&#8482; wireless
+    local area network (WLAN) user experience by providing significantly higher basic
+    service set (BSS) throughput for existing WLAN application areas and to enable
+    new market segments for operation below 6 GHz including distribution of multiple
+    multimedia/data streams.
 copyright:
 - from: '2013'
   owner:
@@ -108,23 +104,23 @@ relation:
     - content: IEEE Std 802.11-2007
       type: IEEE
       primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: amends
+  bibitem:
+    formattedref:
+      content: IEEE Std 802.11-2007
+    docidentifier:
+    - content: IEEE Std 802.11-2007
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE standards
-- vocab:
-    language: en
-    script: Latn
-    content: Local area networks
-- vocab:
-    language: en
-    script: Latn
-    content: Metropolitan area networks
-- vocab:
-    language: en
-    script: Latn
-    content: IEEE 802.11 standards
+    content: IEEE Standards
 - vocab:
     language: en
     script: Latn
@@ -141,6 +137,18 @@ keyword:
     language: en
     script: Latn
     content: Throughput
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Physical layer
+- vocab:
+    language: en
+    script: Latn
+    content: Media Access Protocol
 - vocab:
     language: en
     script: Latn
@@ -185,7 +193,6 @@ ext:
     text: Networking
   - code: 35.100.20
     text: Data link layer
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

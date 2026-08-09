@@ -1,0 +1,291 @@
+---
+id: IEEEP8023D30December2011
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Ethernet
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/6125955
+docidentifier:
+- content: IEEE P802.3/D3.0, December, 2011
+  type: IEEE
+  primary: true
+- content: IEEE P802.3/D3.0, December, 2011™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-0-7381-7436-5
+  type: ISBN
+docnumber: IEEE P802.3/D3.0, December, 2011
+date:
+- type: created
+  at: '2012-01-07'
+- type: published
+  at: '2016-06-08'
+- type: issued
+  at: '2012-01-07'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: LAN/MAN Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Ethernet local area network operation is specified for selected speeds
+    of operation from 1 Mb/s to 100 Gb/s using a common media access control (MAC)
+    specification and management information base (MIB). The Carrier Sense Multiple
+    Access with Collision Detection (CSMA/CD) MAC protocol specifies shared medium
+    (half duplex) operation, as well as full duplex operation. Speed specific Media
+    Independent Interfaces (MIIs) allow use of selected Physical Layer devices (PHY)
+    for operation over coaxial, twisted pair or fiber optic cables. System considerations
+    for multisegment shared access networks describe the use of Repeaters which are
+    defined for operational speeds up to 1000 Mb/s. Local Area Network (LAN) operation
+    is supported at all speeds. Other specified capabilities include: various PHY
+    types for access networks, PHYs suitable for metropolitan area network applications,
+    and the provision of power over selected twisted pair PHY types.'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE standards
+- vocab:
+    language: en
+    script: Latn
+    content: Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: Optical fiber networks
+- vocab:
+    language: en
+    script: Latn
+    content: Local area networks
+- vocab:
+    language: en
+    script: Latn
+    content: Data processing
+- vocab:
+    language: en
+    script: Latn
+    content: 10BASE
+- vocab:
+    language: en
+    script: Latn
+    content: 100BASE
+- vocab:
+    language: en
+    script: Latn
+    content: 1000BASE
+- vocab:
+    language: en
+    script: Latn
+    content: 10GBASE
+- vocab:
+    language: en
+    script: Latn
+    content: 40GBASE
+- vocab:
+    language: en
+    script: Latn
+    content: 100GBASE
+- vocab:
+    language: en
+    script: Latn
+    content: Fast Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: 10 Gigabit Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: 40 Gigabit Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: 100 Gigabit Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: attachment unit interface
+- vocab:
+    language: en
+    script: Latn
+    content: AUI
+- vocab:
+    language: en
+    script: Latn
+    content: Auto Negotiation
+- vocab:
+    language: en
+    script: Latn
+    content: Backplane Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: data processing
+- vocab:
+    language: en
+    script: Latn
+    content: DTE Power via the MDI
+- vocab:
+    language: en
+    script: Latn
+    content: EPON
+- vocab:
+    language: en
+    script: Latn
+    content: Ethernet in the First Mile
+- vocab:
+    language: en
+    script: Latn
+    content: Ethernet passive optical network
+- vocab:
+    language: en
+    script: Latn
+    content: Gigabit Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: GMII
+- vocab:
+    language: en
+    script: Latn
+    content: information exchange
+- vocab:
+    language: en
+    script: Latn
+    content: local area network
+- vocab:
+    language: en
+    script: Latn
+    content: management
+- vocab:
+    language: en
+    script: Latn
+    content: medium dependent interface
+- vocab:
+    language: en
+    script: Latn
+    content: media independent interface
+- vocab:
+    language: en
+    script: Latn
+    content: MDI
+- vocab:
+    language: en
+    script: Latn
+    content: MIB
+- vocab:
+    language: en
+    script: Latn
+    content: MII
+- vocab:
+    language: en
+    script: Latn
+    content: XGMII
+- vocab:
+    language: en
+    script: Latn
+    content: PHY
+- vocab:
+    language: en
+    script: Latn
+    content: physical coding sublayer
+- vocab:
+    language: en
+    script: Latn
+    content: Physical Layer
+- vocab:
+    language: en
+    script: Latn
+    content: physical medium attachment
+- vocab:
+    language: en
+    script: Latn
+    content: PMA
+- vocab:
+    language: en
+    script: Latn
+    content: Power over Ethernet
+- vocab:
+    language: en
+    script: Latn
+    content: repeater
+- vocab:
+    language: en
+    script: Latn
+    content: type field
+- vocab:
+    language: en
+    script: Latn
+    content: VLAN TAG
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: '35.110'
+    text: Networking
+  - code: 35.100.20
+    text: Data link layer
+  - code: 35.100.10
+    text: Physical layer
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

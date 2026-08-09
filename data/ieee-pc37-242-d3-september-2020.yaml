@@ -1,0 +1,177 @@
+---
+id: IEEEPC37242D3September2020
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Guide for Synchronization, Calibration, Testing, and Installation
+    of Phasor Measurement Units (PMUs) for Power System Protection and Control
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/9212768
+docidentifier:
+- content: IEEE PC37.242/D3, September, 2020
+  type: IEEE
+  primary: true
+- content: IEEE PC37.242/D3, September, 2020™
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 978-1-5044-7114-5
+  type: ISBN
+docnumber: IEEE PC37.242/D3, September, 2020
+date:
+- type: created
+  at: '2020-10-02'
+- type: published
+  at: '2020-10-05'
+- type: issued
+  at: '2021-03-25'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Power System Relaying and Control of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'Guidance for synchronization, calibration, testing, and installation of
+    phasor measurement units (PMUs) applied in power systems is provided. The following
+    are addressed in this guide: (a) considerations for the installation of PMU devices
+    based on application requirements and typical substation electrical bus configurations;
+    (b) techniques focusing on the overall accuracy and availability of the time synchronization
+    system; (c) test and calibration procedures for PMUs for laboratory and field
+    applications; and (d) communications testing for connecting PMUs to other devices
+    including phasor data concentrators.'
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.242-2013
+    docidentifier:
+    - content: IEEE Std C37.242-2013
+      type: IEEE
+      primary: true
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Phasor measurement units
+- vocab:
+    language: en
+    script: Latn
+    content: Calibration
+- vocab:
+    language: en
+    script: Latn
+    content: Testing
+- vocab:
+    language: en
+    script: Latn
+    content: Power system protection
+- vocab:
+    language: en
+    script: Latn
+    content: Control systems
+- vocab:
+    language: en
+    script: Latn
+    content: Synchronization
+- vocab:
+    language: en
+    script: Latn
+    content: calibration
+- vocab:
+    language: en
+    script: Latn
+    content: GNSS
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE C37.242
+- vocab:
+    language: en
+    script: Latn
+    content: phasor measurement unit
+- vocab:
+    language: en
+    script: Latn
+    content: PMU
+- vocab:
+    language: en
+    script: Latn
+    content: synchrophasor
+- vocab:
+    language: en
+    script: Latn
+    content: testing
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

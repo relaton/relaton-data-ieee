@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std 308-2012
   type: IEEE
   primary: true
-- content: IEEE Std 308™-2012
+- content: IEEE Std 308-2012™
   type: IEEE
   scope: trademark
   primary: true
@@ -91,14 +91,6 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 308-2020
-    docidentifier:
-    - content: IEEE Std 308-2020
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
@@ -109,6 +101,14 @@ relation:
       content: IEEE Std 308-2001
     docidentifier:
     - content: IEEE Std 308-2001
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 308-2020
+    docidentifier:
+    - content: IEEE Std 308-2020
       type: IEEE
       primary: true
 keyword:

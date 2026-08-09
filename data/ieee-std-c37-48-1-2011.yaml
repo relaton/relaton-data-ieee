@@ -13,7 +13,7 @@ docidentifier:
 - content: IEEE Std C37.48.1-2011
   type: IEEE
   primary: true
-- content: IEEE Std C37.48.1™-2011
+- content: IEEE Std C37.48.1-2011™
   type: IEEE
   scope: trademark
   primary: true
@@ -23,18 +23,19 @@ docidentifier:
   type: DOI
 docnumber: IEEE Std C37.48.1-2011
 date:
-- type: updated
-  at: '2012-04-20'
 - type: created
   at: '2012-04-03'
 - type: published
-  at: '2013-08-15'
+  at: '2012-04-04'
 - type: issued
   at: '2011-12-07'
 contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -73,9 +74,6 @@ abstract:
   content: A tutorial style document that provides additional guidelines, beyond those
     in IEEE C37.48(TM), for the application and coordination of high-voltage power-and
     distribution-class current-limiting fuses.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2012'
   owner:
@@ -173,7 +171,6 @@ ext:
     text: Switches
   - code: 29.120.50
     text: Fuses and other overcurrent protection devices
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

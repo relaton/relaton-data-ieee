@@ -10,10 +10,10 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/7362080
 docidentifier:
-- content: AIEE No.1-1962
+- content: AIEE No 1-1962
   type: IEEE
   primary: true
-- content: AIEE No.1™-1962
+- content: AIEE No 1-1962™
   type: IEEE
   scope: trademark
   primary: true
@@ -21,10 +21,8 @@ docidentifier:
   type: ISBN
 - content: 10.1109/IEEESTD.1962.7362080
   type: DOI
-docnumber: AIEE No.1-1962
+docnumber: AIEE No 1-1962
 date:
-- type: updated
-  at: '2016-01-29'
 - type: created
   at: '1962-12-31'
 - type: published
@@ -35,6 +33,9 @@ contributor:
 - role:
   - type: publisher
   organization:
+    address:
+    - city: New York
+      country: USA
     uri:
     - type: org
       content: http://www.ieee.org
@@ -48,6 +49,11 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The following topics are dealt with: temperature classification; insulating
+    materials; insulation systems; temperature measurement; and equipment rating.'
 copyright:
 - from: '1962'
   owner:
