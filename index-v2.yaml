@@ -2,6 +2,73 @@
 - :id:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
+      _type: pubid:ieee:ire
+      number: '2'
+      year: '1955'
+      parts:
+      - S1
+      separator: "."
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '147'
+      stage: Std
+  :file: data/55-ire-2-s1-ieee-std-147.yaml
+- :id:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:ire
+      number: '15'
+      year: '1961'
+      parts:
+      - S1
+      separator: "."
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '182'
+      stage: Std
+  :file: data/61-ire-15-s1-ieee-std-182.yaml
+- :id:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:ire
+      number: 28 S1
+      year: '1961'
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '216'
+      stage: Std
+  :file: data/61-ire-28-s1-ieee-std-216.yaml
+- :id:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:ire
+      number: '12'
+      year: '1962'
+      parts:
+      - S1
+      separator: "."
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '174'
+      stage: Std
+  :file: data/62-ire-12-s1-ieee-std-174.yaml
+- :id:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:ire
+      number: '7'
+      year: '1962'
+      parts:
+      - S2
+      separator: "."
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '161'
+      stage: Std
+  :file: data/62-ire-7-s2-ieee-std-161.yaml
+- :id:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
       _type: pubid:ieee:aiee
       number: '14'
       type: 'No'
@@ -156,6 +223,26 @@
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
       _type: pubid:ieee:standard
+      number: '16'
+      publisher: ASA
+      year: '1959'
+      prefix: C
+      parts:
+      - '31'
+      separator: "."
+      stage: Std
+    adopted_identifiers:
+    - _type: pubid:ieee:ire
+      number: '23'
+      year: '1958'
+      parts:
+      - S1
+      separator: "."
+  :file: data/asa-c16-31-1959-58-ire-23-s1.yaml
+- :id:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:standard
       number: '61523'
       edition: '1.0'
       publisher: IEC
@@ -242,6 +329,18 @@
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
       _type: pubid:ieee:standard
+      number: '159'
+      year: '1972'
+      stage: Std
+    adopted_identifiers:
+    - _type: pubid:ieee:ire
+      number: 7 S2
+      year: '1952'
+  :file: data/ieee-std-159-1972-52-ire-7-s2.yaml
+- :id:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:standard
       number: '167'
       year: '1966'
       stage: Std
@@ -270,6 +369,18 @@
       publisher:
         body: ANSI
   :file: data/ieee-std-172-1971-ansi-c16-26-1972.yaml
+- :id:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:standard
+      number: '175'
+      year: '1960'
+      stage: Std
+    adopted_identifiers:
+    - _type: pubid:ieee:ire
+      number: 13 S1
+      year: '1960'
+  :file: data/ieee-std-175-1960-60-ire-13-s1.yaml
 - :id:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -34840,6 +34951,18 @@
     separator: "-"
     stage: 'No'
   :file: data/aiee-no-2-192906.yaml
+- :id:
+    _type: pubid:ieee:nesc-standard
+    number: '2'
+    year: '1997'
+    prefix: C
+  :file: data/c2-1997-national-electrical-safety-code.yaml
+- :id:
+    _type: pubid:ieee:nesc-standard
+    number: '2'
+    year: '2012'
+    prefix: C
+  :file: data/c2-2012-national-electrical-safety-code.yaml
 - :id:
     _type: pubid:ieee:standard
     number: '2'
@@ -76449,6 +76572,14 @@
     year: '1983'
     stage: Std
   :file: data/ansi-ieee-696-1983.yaml
+- :id:
+    _type: pubid:ieee:ire
+    number: '7'
+    year: '1952'
+    parts:
+    - S2
+    separator: "."
+  :file: data/52-ire-7-s2.yaml
 - :id:
     _type: pubid:ieee:standard
     number: '7'
