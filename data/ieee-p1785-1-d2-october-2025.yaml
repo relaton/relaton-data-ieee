@@ -70,11 +70,11 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Specifications for the waveguide (including aperture dimensions, frequency
-    range, cutoff frequency, etc.) are given in this standard. This standard considers
-    the tolerances of the waveguide aperture dimensions and the effect these have
-    on the electrical properties (in terms of return loss, transmission loss, etc.)
-    of the waveguide.
+  content: Specifications for rectangular metallic waveguides operating at 110 GHz
+    and above (including aperture dimensions, frequency range, cut-off frequency,
+    etc.) are given in this standard. The tolerances of the waveguide aperture dimensions
+    and the effect these have on the electrical performance (in terms of reflection
+    coefficient, attenuation constant, etc.) of the waveguide are also considered.
 status:
   stage:
     content: draft
@@ -124,7 +124,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 1785.1(TM)
+    content: IEEE 1785.1
 - vocab:
     language: en
     script: Latn
@@ -157,7 +157,7 @@ ext:
   ics:
   - code: 33.120.10
     text: Coaxial cables. Waveguides
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

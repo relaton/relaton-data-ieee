@@ -76,9 +76,6 @@ abstract:
     These tests are designed primarily for transformers and inductors used in all
     types of electronics applications, but they may apply to the other types of transformers
     of large apparent-power rating used in the electric power utility industry.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2020'
   owner:
@@ -93,6 +90,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEC/IEEE 61007-389:2026
+    docidentifier:
+    - content: IEC/IEEE 61007-389:2026
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -226,7 +231,6 @@ ext:
   ics:
   - code: '29.180'
     text: Transformers. Reactors
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

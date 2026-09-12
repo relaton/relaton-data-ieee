@@ -110,14 +110,6 @@ copyright:
         script: Latn
         content: IEC
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: ISO/IEC/IEEE 12207-2017
-    docidentifier:
-    - content: ISO/IEC/IEEE 12207-2017
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
@@ -128,6 +120,14 @@ relation:
       content: IEEE/EIA Std 12207.0-1996
     docidentifier:
     - content: IEEE/EIA Std 12207.0-1996
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ISO/IEC/IEEE 12207-2017
+    docidentifier:
+    - content: ISO/IEC/IEEE 12207-2017
       type: IEEE
       primary: true
 keyword:

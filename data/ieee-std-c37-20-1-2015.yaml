@@ -84,9 +84,6 @@ abstract:
     devices as necessary. The standard deals with service conditions, ratings, temperature
     limitations, and classification of insulating materials, insulation (dielectric)
     withstand voltage requirements, test procedures, and application.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -101,6 +98,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.20.1-2026
+    docidentifier:
+    - content: IEEE Std C37.20.1-2026
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -210,7 +215,6 @@ ext:
   ics:
   - code: 29.130.20
     text: Low voltage switchgear and controlgear
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

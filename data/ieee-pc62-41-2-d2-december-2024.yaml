@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2024-11-06'
 - type: issued
-  at: '2024'
+  at: '2025-12-10'
 contributor:
 - role:
   - type: publisher
@@ -58,8 +58,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Surge Protective Devices/Low Voltage of the IEEE Power and Energy
-          Society
+        content: Surge Protective Devices Committee of the IEEE Power and Energy Society
       type: committee
     abbreviation:
       content: IEEE
@@ -67,6 +66,19 @@ language:
 - en
 script:
 - Latn
+abstract:
+- language: en
+  script: Latn
+  content: The surge environment at locations on ac power circuits described in IEEE
+    Std C62.41.1™ is characterized in this recommended practice by means of standardized
+    waveforms and other stress parameters. The surges considered in this recommended
+    practice do not exceed one half-cycle of the normal mains waveform (fundamental
+    frequency) in duration. They can be periodic or random events and can appear in
+    any combination of line, neutral, or grounding conductors. They include surges
+    with amplitudes, durations, or rates of change sufficient to cause equipment damage
+    or operational upset. While surge protective devices (SPDs) acting primarily on
+    the amplitude of the voltage or current are often applied to divert the damaging
+    surges, the upsetting surges might require other remedies.
 status:
   stage:
     content: draft
@@ -120,15 +132,47 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: low-voltage ac power circuit
+    content: Combination Wave
 - vocab:
     language: en
     script: Latn
-    content: surge testing
+    content: IEEE C62.41.2
 - vocab:
     language: en
     script: Latn
-    content: surge withstand level
+    content: lightning surge
+- vocab:
+    language: en
+    script: Latn
+    content: location category
+- vocab:
+    language: en
+    script: Latn
+    content: low‑voltage ac power circuit
+- vocab:
+    language: en
+    script: Latn
+    content: Ring Wave
+- vocab:
+    language: en
+    script: Latn
+    content: surge environment
+- vocab:
+    language: en
+    script: Latn
+    content: surge protective device
+- vocab:
+    language: en
+    script: Latn
+    content: surge withstand
+- vocab:
+    language: en
+    script: Latn
+    content: switching surge
+- vocab:
+    language: en
+    script: Latn
+    content: trilogy
 ext:
   schema_version: v1.1.3
   doctype:

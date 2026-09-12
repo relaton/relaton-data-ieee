@@ -69,16 +69,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: The purpose of this document is to provide a set of market-based recommended
-    practices for two-way interaction (Vehicle-to-Grid, V2G) technologies between
-    electric vehicles (EVs) and the grid to facilitate the efficient integration and
-    utilization of EVs as a flexible resource in the grid. This document initially
-    describes the overall architecture of the V2G system, including the way in which
-    electric vehicles, charging facilities, communication networks, and the grid are
-    integrated. The system realizes bidirectional energy flow between electric vehicles
-    and the power grid through real-time data exchange and intelligent control, and
-    this enhances flexibility and stability of the power grid. Many types of charging
-    piles and their technical characteristics are then described in detail.
+  content: Providing a set of market-based recommended practices for two-way interaction
+    (vehicle-to-grid, V2G) technologies between electric vehicles (EVs) and the grid
+    to facilitate the efficient integration and utilization of EVs as a flexible resource
+    in the grid is the objective of this recommended practice. The overall architecture
+    of the V2G system is described and a hierarchical zonal optimization operation
+    model based on V2G technology to achieve the optimal allocation of charging and
+    discharging power associated with electric vehicles is proposed. The application
+    of market mechanisms in V2G technology and the importance of real-time measurement
+    technology in V2G market settlement are emphasized, and a series of policy recommendations
+    to guide the development of V2G technology are also proposed by this document.
+    Through policy guidance and market incentives, the deep integration and effective
+    interaction between EVs and the power grid and the cleaner transformation of energy
+    as well as the construction of an efficient smart grid are promoted by this recommended
+    practice.
 status:
   stage:
     content: draft
@@ -123,29 +127,33 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: V2G Technology
+    content: charging pile
 - vocab:
     language: en
     script: Latn
-    content: Charging Pile
+    content: hierarchical zonal aggregation
 - vocab:
     language: en
     script: Latn
-    content: Market Driven
+    content: IEEE 3334™
 - vocab:
     language: en
     script: Latn
-    content: Hierarchical Zonal Aggregation
+    content: market driven
 - vocab:
     language: en
     script: Latn
-    content: Real-Time Measurement Technology
+    content: real-time measurement technology
+- vocab:
+    language: en
+    script: Latn
+    content: V2G technology
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

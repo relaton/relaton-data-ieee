@@ -25,9 +25,9 @@ date:
 - type: created
   at: '2025-08-25'
 - type: published
-  at: '2025-08-27'
+  at: '2025-08-26'
 - type: issued
-  at: '2025'
+  at: '2026-02-12'
 contributor:
 - role:
   - type: publisher
@@ -71,15 +71,15 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This document provides design process guidance f 1 or developing computer-based
-    graphical user interface (GUI) displays, including their form and function. This
-    guidance applies to GUI display systems provided with new nuclear power generating
+  content: Design process guidance for developing computer-based graphical user interface
+    (GUI) displays, including their form and function, is provided. This guidance
+    is applicable to GUI display systems provided with new nuclear power generating
     stations and other nuclear facilities, or as digital upgrades to existing facilities,
-    including monitoring and controls systems. The scope ranges from small modular
+    including monitoring and control systems. The scope ranges from small modular
     panel inserts limited to single systems through multiple workstations intended
-    to monitor and / or control the entire nuclear facility. The guidance applies
-    for displays used within or outside of the main control room (MCR). This guidance
-    does not cover the technical details found in IEEE Std 1289.
+    to monitor and/or control the entire nuclear facility. The guidance applies to
+    displays used within or outside of the main control room (MCR). The technical
+    details found in IEEE Std 1289 are not covered.
 status:
   stage:
     content: draft
@@ -132,21 +132,28 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: display design process
-- vocab:
-    language: en
-    script: Latn
     content: computer-based display
 - vocab:
     language: en
     script: Latn
+    content: display design process
+- vocab:
+    language: en
+    script: Latn
     content: human factors engineering
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE 2421
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
-  standard_status: Active
+  ics:
+  - code: '13.180'
+    text: Ergonomics
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

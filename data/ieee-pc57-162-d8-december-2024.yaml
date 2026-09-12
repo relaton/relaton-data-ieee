@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2024-12-19'
 - type: issued
-  at: '2024'
+  at: '2025-12-10'
 contributor:
 - role:
   - type: publisher
@@ -70,13 +70,13 @@ abstract:
 - language: en
   script: Latn
   content: It is widely accepted that one of the most significant contaminants affecting
-    the performance of liquid immersed transformers is moisture. Because of its importance,
+    the performance of liquid-immersed transformers is moisture. Because of its importance,
     many standards and guides give various descriptions of the effects of moisture,
-    various recommendations on the acceptable levels of moisture, recommendations
-    for the determination of moisture and moisture mitigation techniques. This guide
-    is intended to consolidate available state-of-the-art knowledge for moisture related
-    parameters in liquid immersed transformers and to serve as a reference that other
-    standards and guides can refer to.
+    recommendations on the acceptable levels of moisture, recommendations for the
+    determination of moisture, and moisture mitigation techniques. State-of-the-art
+    knowledge for moisture-related parameters in liquid-immersed transformers has
+    been consolidated in this guide, which is intended to serve as a reference for
+    use by other standards and guides.
 status:
   stage:
     content: draft
@@ -121,7 +121,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: Moisture
+    content: IEEE C57.162
+- vocab:
+    language: en
+    script: Latn
+    content: moisture
 - vocab:
     language: en
     script: Latn
@@ -131,6 +135,9 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: '29.180'
+    text: Transformers. Reactors
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

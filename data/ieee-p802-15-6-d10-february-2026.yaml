@@ -69,15 +69,16 @@ abstract:
 - language: en
   script: Latn
   content: Short-range, wireless communications in the vicinity of, or inside, a human
-    body (but not limited to humans) are specified in this standard. It uses existing
-    industrial scientific medical (ISM) bands as well as frequency bands approved
-    by national medical and/or regulatory authorities. Support for quality o service
-    (QoS), extremely low power, and data rates up to 50 Mbps is required while simultaneously
-    complying with strict non-interference guidelines where needed. This standard
-    considers effect ts on portable antennas due to the presence of a person (varying
-    with male, female, skinny, heavy, etc.), radiation pattern shaping to minimize
-    the specific absorption rate (SAR) into the body, and changes in characteristics
-    as a result of the user motions.
+    body or vehicle body (but not limited to humans and vehicle) are specified in
+    this standard. It uses existing industrial scientific medical (ISM) bands as well
+    as frequency bands approved by national medical and/or regulatory authorities.
+    Support for quality of service (QoS), extremely low power, and data rates up to
+    50 Mbps is required while simultaneously complying with strict non-interference
+    guidelines where multiple BANs are coexisting. This standard considers effects
+    on portable antennas due to the presence of a person (varying with male, female,
+    skinny, heavy, etc.), radiation pattern shaping to reduce the specific absorption
+    rate (SAR) into the body, and changes in characteristics as a result of the user
+    motions.
 status:
   stage:
     content: draft
@@ -139,15 +140,19 @@ keyword:
 - vocab:
     language: en
     script: Latn
+    content: body area network
+- vocab:
+    language: en
+    script: Latn
     content: human-body area network
 - vocab:
     language: en
     script: Latn
-    content: vehicle-area network
+    content: IEEE 802.15.6™
 - vocab:
     language: en
     script: Latn
-    content: IEEE Std 802.15.6-2012.
+    content: vehicle body area network
 ext:
   schema_version: v1.1.3
   doctype:
@@ -158,7 +163,7 @@ ext:
     text: Physical layer
   - code: '35.110'
     text: Networking
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

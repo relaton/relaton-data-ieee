@@ -69,14 +69,14 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: Approximately 100 terms and their definitions, for accurately and precisely
-    describing the waveforms of pulse signals and the process of measuring pulse signals,
+  content: Approximately 100 terms and their definitions for accurately and precisely
+    describing the waveforms of pulse signals and the process of measuring pulse signals
     are presented in this standard. Algorithms are provided for computing the values
     of defined terms that describe measurable parameters of the waveform, such as
     transition duration, state level, pulse amplitude, and waveform aberrations. These
     analysis algorithms are applicable to two-state waveforms having one or two transitions
     connecting these states. Compound waveform analysis is accomplished by decomposing
-    the compound waveform into its constituent two-state single transition waveforms.
+    the compound waveform into its constituent two-state single-transition waveforms.
 status:
   stage:
     content: draft
@@ -146,7 +146,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: IEEE 181
+    content: IEEE 181™
 - vocab:
     language: en
     script: Latn
@@ -170,10 +170,6 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: states
-- vocab:
-    language: en
-    script: Latn
     content: state boundaries
 - vocab:
     language: en
@@ -182,11 +178,11 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: transients
+    content: states
 - vocab:
     language: en
     script: Latn
-    content: transitions
+    content: transients
 - vocab:
     language: en
     script: Latn
@@ -194,7 +190,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: waveforms
+    content: transitions
 - vocab:
     language: en
     script: Latn
@@ -211,6 +207,10 @@ keyword:
     language: en
     script: Latn
     content: waveform terms
+- vocab:
+    language: en
+    script: Latn
+    content: waveforms
 ext:
   schema_version: v1.1.3
   doctype:
@@ -219,7 +219,7 @@ ext:
   ics:
   - code: 17.220.20
     text: Measurement of electrical and magnetic quantities
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

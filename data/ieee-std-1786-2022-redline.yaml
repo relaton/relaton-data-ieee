@@ -28,7 +28,7 @@ date:
 - type: created
   at: '2022-06-10'
 - type: published
-  at: '2022-10-24'
+  at: '2026-08-25'
 - type: issued
   at: '2022-02-09'
 contributor:
@@ -62,7 +62,7 @@ contributor:
     - name:
       - language: en
         script: Latn
-        content: Nuclear Power Engineering of the IEEE Power and Energy Society
+        content: Subcommittee 5 of the Nuclear Power Engineering Committee
       type: committee
     abbreviation:
       content: IEEE
@@ -89,6 +89,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1786-2026
+    docidentifier:
+    - content: IEEE Std 1786-2026
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -156,7 +164,7 @@ ext:
     text: Nuclear power plants. Safety
   - code: 35.240.99
     text: IT applications in other fields
-  standard_status: Active
+  standard_status: Superseded
   standard_modified: Redline
   pubstatus: Active
   holdstatus: Publish

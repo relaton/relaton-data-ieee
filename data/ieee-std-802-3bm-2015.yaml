@@ -9,7 +9,7 @@ title:
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/7435210
+  content: https://ieeexplore.ieee.org/document/7069180
 docidentifier:
 - content: IEEE Std 802.3bm-2015
   type: IEEE
@@ -20,14 +20,14 @@ docidentifier:
   primary: true
 - content: 978-0-7381-9514-8
   type: ISBN
-- content: 10.1109/IEEESTD.2015.7435210
+- content: 10.1109/IEEESTD.2015.7069180
   type: DOI
 docnumber: IEEE Std 802.3bm-2015
 date:
 - type: created
   at: '2015-03-27'
 - type: published
-  at: '2016-03-17'
+  at: '2015-03-26'
 - type: issued
   at: '2015-02-16'
 contributor:
@@ -77,7 +77,11 @@ abstract:
     fiber (100GBASE-SR4) are added by this amendment. This amendment also specifies
     a four-lane variant of the 100 Gigabit Attachment Unit Interface (CAUI-4) and
     optional Energy Efficient Ethernet (EEE) for 40 Gb/s and 100 Gb/s operation over
-    fiber optic cables.
+    fiber optic cables. (The PDF of this standard is available at no cost compliments
+    of the GETIEEE program. Visit http://standards.ieee.org/about/get/ for details.)
+status:
+  stage:
+    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -91,19 +95,6 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
-relation:
-- type: updates
-  description:
-    language: en
-    script: Latn
-    content: amends
-  bibitem:
-    formattedref:
-      content: IEEE Std 802.3-2012
-    docidentifier:
-    - content: IEEE Std 802.3-2012
-      type: IEEE
-      primary: true
 keyword:
 - vocab:
     language: en
@@ -213,8 +204,11 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
+  - code: 35.100.20
+    text: Data link layer
   - code: 35.100.10
     text: Physical layer
-  standard_status: Superseded
+  standard_status: Active
+  standard_modified: Approved
   pubstatus: Active
   holdstatus: Publish

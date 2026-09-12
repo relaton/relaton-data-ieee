@@ -82,9 +82,6 @@ abstract:
     and swing rack cabinets. It does not apply to industrial controls, communication
     equipment, switchboards for use on board ships, or Class 1E switchboards for use
     in nuclear generating stations.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2017'
   owner:
@@ -99,6 +96,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.21-2026
+    docidentifier:
+    - content: IEEE Std C37.21-2026
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -188,7 +193,6 @@ ext:
   ics:
   - code: 29.130.99
     text: Other switchgear and controlgear
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

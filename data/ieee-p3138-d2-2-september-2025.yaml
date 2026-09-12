@@ -26,7 +26,7 @@ date:
 - type: published
   at: '2025-09-29'
 - type: issued
-  at: '2025'
+  at: '2026-03-26'
 contributor:
 - role:
   - type: publisher
@@ -70,12 +70,12 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard specifies the general requirements of visual inspection of
-    surface mount devices (SMD) for surface mount technology (SMT) machines, including
-    the format of chip parameters data exchange, the function and technical requirements
-    of each module of the visual inspection algorithm, and the storage structure of
-    chip parameters. This standard specifies unified data format and interfaces of
-    the algorithms between different SMT machines.
+  content: General requirements of visual inspection of surface mount devices (SMD)
+    for surface mount technology (SMT) machines, including the format of chip parameters
+    data exchange, the function and technical requirements of each module of the visual
+    inspection algorithm, and the storage structure of chip parameters are specified
+    in this standard. Unified data format and interfaces of the algorithms between
+    different SMT machines are also specified in this standard.
 status:
   stage:
     content: draft
@@ -124,11 +124,7 @@ keyword:
 - vocab:
     language: en
     script: Latn
-    content: surface mount technology (SMT)
-- vocab:
-    language: en
-    script: Latn
-    content: surface mount device (SMD)
+    content: automated optical inspection (AOI)
 - vocab:
     language: en
     script: Latn
@@ -140,16 +136,27 @@ keyword:
 - vocab:
     language: en
     script: Latn
+    content: IEEE 3138™
+- vocab:
+    language: en
+    script: Latn
     content: mounting machine
 - vocab:
     language: en
     script: Latn
-    content: automated optical inspection (AOT)
+    content: surface mount device (SMD)
+- vocab:
+    language: en
+    script: Latn
+    content: surface mount technology (SMT)
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 31.080.01
+    text: Semiconductor devices in general
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

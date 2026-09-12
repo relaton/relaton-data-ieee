@@ -81,9 +81,6 @@ abstract:
     conditions, ratings, 37 functional components, temperature limitations and classification
     of insulating materials, dielectric 38 withstand voltage requirements, test procedures,
     and application are dealt with in this standard.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2015'
   owner:
@@ -98,14 +95,6 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE PC37.14/D7, October, 2025
-    docidentifier:
-    - content: IEEE PC37.14/D7, October, 2025
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
@@ -116,6 +105,14 @@ relation:
       content: IEEE Std C37.14-2002
     docidentifier:
     - content: IEEE Std C37.14-2002
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.14-2025
+    docidentifier:
+    - content: IEEE Std C37.14-2025
       type: IEEE
       primary: true
 keyword:
@@ -183,7 +180,6 @@ ext:
   ics:
   - code: 29.130.20
     text: Low voltage switchgear and controlgear
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

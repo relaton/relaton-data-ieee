@@ -79,9 +79,6 @@ abstract:
     transformers for dc electrification systems. Covered in this standard are liquid-immersed
     and dry-type transformers, including those with cast coil and epoxy resin encapsulated
     windings.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -95,6 +92,15 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1653.1-2026
+    docidentifier:
+    - content: IEEE Std 1653.1-2026
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
     language: en
@@ -218,7 +224,6 @@ ext:
     text: Transformers. Reactors
   - code: '29.280'
     text: Electric traction equipment
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

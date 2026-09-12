@@ -1,0 +1,228 @@
+---
+id: IEEEP33663D3August2026
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Gaussian Splats Compression
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11644366
+docidentifier:
+- content: IEEE P3366.3/D3, August, 2026
+  type: IEEE
+  primary: true
+- content: IEEE P3366.3™/D3, August, 2026
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-3788-2
+  type: ISBN
+docnumber: IEEE P3366.3/D3, August, 2026
+date:
+- type: created
+  at: '2026-08-05'
+- type: published
+  at: '2026-08-06'
+- type: issued
+  at: '2026'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Data Compression Standards Committee of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard defines a set of tools for efficient compression of Gaussian
+    splats and the corresponding definitions of syntax, semantics, parsing and decoding
+    processes, including but not limited to prediction, transform, quantization, and
+    entropy coding, etc. This standard provides efficient coding tool sets for compression,
+    decompression, processing and packaging of Gaussian splat data, which can significantly
+    reduce the disk storage and communication bandwidth. The target applications and
+    services include but are not limited to manufacturing, mapping, e-commerce, e-tourism,
+    digital culture heritage.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+    language: en
+    script: Latn
+    content: Encoding
+- vocab:
+    language: en
+    script: Latn
+    content: Entropy coding
+- vocab:
+    language: en
+    script: Latn
+    content: Gaussian processes
+- vocab:
+    language: en
+    script: Latn
+    content: Hilbert space
+- vocab:
+    language: en
+    script: Latn
+    content: Predictive models
+- vocab:
+    language: en
+    script: Latn
+    content: Quantization (signal)
+- vocab:
+    language: en
+    script: Latn
+    content: Transforms
+- vocab:
+    language: en
+    script: Latn
+    content: attribute
+- vocab:
+    language: en
+    script: Latn
+    content: coding
+- vocab:
+    language: en
+    script: Latn
+    content: compression
+- vocab:
+    language: en
+    script: Latn
+    content: entropy coding
+- vocab:
+    language: en
+    script: Latn
+    content: Exp-Golomb
+- vocab:
+    language: en
+    script: Latn
+    content: frame
+- vocab:
+    language: en
+    script: Latn
+    content: gaussian splat
+- vocab:
+    language: en
+    script: Latn
+    content: geometry
+- vocab:
+    language: en
+    script: Latn
+    content: Hilbert
+- vocab:
+    language: en
+    script: Latn
+    content: Morton
+- vocab:
+    language: en
+    script: Latn
+    content: octree
+- vocab:
+    language: en
+    script: Latn
+    content: opacity
+- vocab:
+    language: en
+    script: Latn
+    content: prediction
+- vocab:
+    language: en
+    script: Latn
+    content: prediction and transform
+- vocab:
+    language: en
+    script: Latn
+    content: predictive tree
+- vocab:
+    language: en
+    script: Latn
+    content: quantization
+- vocab:
+    language: en
+    script: Latn
+    content: reorder
+- vocab:
+    language: en
+    script: Latn
+    content: rotation
+- vocab:
+    language: en
+    script: Latn
+    content: scale
+- vocab:
+    language: en
+    script: Latn
+    content: sequence
+- vocab:
+    language: en
+    script: Latn
+    content: slice
+- vocab:
+    language: en
+    script: Latn
+    content: spherical harmonics
+- vocab:
+    language: en
+    script: Latn
+    content: transform
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold
