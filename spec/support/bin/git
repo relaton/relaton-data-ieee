@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Fake git for spec/crawler_spec.rb: it logs its arguments and, for a
+# `clone`, makes the target directory with one XML file, or an empty one
+# (FAKE_GIT_EMPTY=1), or fails like a real clone and shows the URL
+# (FAKE_GIT_FAIL=1).
+printf '%s\n' "$*" >> "$FAKE_GIT_LOG"
+[ "$1" = "clone" ] || exit 0
+url="${*: -2:1}"
+dest="${*: -1}"
+if [ "$FAKE_GIT_FAIL" = "1" ]; then
+  echo "fatal: repository '$url' not found" >&2
+  exit 128
+fi
+mkdir -p "$dest"
+[ "$FAKE_GIT_EMPTY" = "1" ] || echo '<doc/>' > "$dest/cloned.xml"
