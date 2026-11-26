@@ -94,14 +94,6 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 2410-2021
-    docidentifier:
-    - content: IEEE Std 2410-2021
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
@@ -114,37 +106,45 @@ relation:
     - content: IEEE Std 2410-2017
       type: IEEE
       primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 2410-2021
+    docidentifier:
+    - content: IEEE Std 2410-2021
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Biometrics (access control)
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Access control
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Authentication
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Identification of persons
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: This standard provides a biometric-agnostic security protocol for authentication
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: identification
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: and liveness.
 ext:

@@ -1,0 +1,156 @@
+---
+id: IEEEP3743D40Oct2026
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Recommended Practice for Electromagnetic Transient Model Interoperability
+    for Electric Power Transmission Systems
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11746209
+docidentifier:
+- content: IEEE P3743/D4.0, Oct, 2026
+  type: IEEE
+  primary: true
+- content: IEEE P3743™/D4.0, Oct, 2026
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-4046-2
+  type: ISBN
+docnumber: IEEE P3743/D4.0, Oct, 2026
+date:
+- type: created
+  at: '2026-10-21'
+- type: published
+  at: '2026-10-23'
+- type: issued
+  at: '2026'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Analytic Methods for Power Systems of the IEEE Power and Energy Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This recommended practice provides an open-source data schema that enables
+    users to efficiently build and maintain electromagnetic transient (EMT) network
+    models of electric power transmission systems. The EMT models require input from
+    different existing sources of data for power flow, short circuit and positive
+    sequence dynamics, supplemented with new data source definitions. In two recent
+    white papers, North American grid regulatory authorities have identified EMT studies
+    as essential to maintain grid reliability while accommodating the rapid increase
+    of inverter-based resources (e.g. wind, solar, storage). Model-building for EMT
+    is a time-consuming and error-prone part of the study. If software vendors implement
+    this recommended practice, software users should be able to combine data from
+    different sources, while reducing the time and cost of completing accurate EMT
+    studies. This recommended practice applies to offline and real-time EMT simulation
+    tools, and it supports data migration between software tools. It does not apply
+    to EMT models of electric power distribution systems, nor to positive sequence
+    dynamic models of either transmission or distribution systems.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+  - language: en
+    script: Latn
+    content: Transient analysis
+- vocab:
+  - language: en
+    script: Latn
+    content: Electromagnetic measurements
+- vocab:
+  - language: en
+    script: Latn
+    content: Common Information Model (electricity)
+- vocab:
+  - language: en
+    script: Latn
+    content: Inverters
+- vocab:
+  - language: en
+    script: Latn
+    content: Best practices
+- vocab:
+  - language: en
+    script: Latn
+    content: Electrical power distribution
+- vocab:
+  - language: en
+    script: Latn
+    content: Electromagnetic transients
+- vocab:
+  - language: en
+    script: Latn
+    content: Power transmission
+- vocab:
+  - language: en
+    script: Latn
+    content: Inverter-based resource
+- vocab:
+  - language: en
+    script: Latn
+    content: Common information model (electricity)
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

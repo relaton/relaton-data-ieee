@@ -75,9 +75,6 @@ abstract:
     be used for discovering the physical topology from adjacent stations in IEEE 802(R)
     LANs. (The PDF of this standard is available at no cost compliments of the IEEE
     GET program. Additional downloads are attached or can be downloaded at https://ieeexplore.ieee.org/browse/standards/get-program/page)
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -92,6 +89,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 802.1AB-2026
+    docidentifier:
+    - content: IEEE Std 802.1AB-2026
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -106,47 +111,47 @@ relation:
       primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Local area networks
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Metropolitan area networks
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Network topology
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Topology
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Media Access Protocol
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Management Information Bases
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: link layer discovery protocol
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: management information base
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: topology discovery
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: topology information
 ext:
@@ -157,7 +162,6 @@ ext:
   ics:
   - code: '35.110'
     text: Networking
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

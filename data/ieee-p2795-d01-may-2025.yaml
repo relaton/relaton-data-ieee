@@ -9,23 +9,23 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/11130680
 docidentifier:
-- content: IEEE P2795/D01, May 2025
+- content: IEEE P2795/D01, May, 2025
   type: IEEE
   primary: true
-- content: IEEE P2795™/D01, May 2025
+- content: IEEE P2795™/D01, May, 2025
   type: IEEE
   scope: trademark
   primary: true
 - content: 979-8-8557-2541-4
   type: ISBN
-docnumber: IEEE P2795/D01, May 2025
+docnumber: IEEE P2795/D01, May, 2025
 date:
 - type: created
   at: '2025-08-18'
 - type: published
   at: '2025-08-19'
 - type: issued
-  at: '2025'
+  at: '2026-06-04'
 contributor:
 - role:
   - type: publisher
@@ -69,19 +69,20 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: This standard identifies requirements for trusted high assurance analytic
-    exchange services over secured and unsecured networks. The standard defines metadata
-    and frameworks used to support interactions between nodes that are involved in
-    a trusted multipart handshake including discovery of data models and processing
-    aspects available at a remote location, appropriate analytic configuration, and
-    exchange of vetted critical analytic results. This standard supports the exchange
-    of trusted, actionable, and appropriate information for use between analytic producing
-    and consuming nodes. The multipart handshake is designed for use between computing
-    nodes operating in potentially denied, disrupted intermittent limited bandwidth
-    (OOIL) environments. These environments involve critical infrastructure (e.g.,
-    medical, transportation and utilities) and might be austere compute environments
-    such as those present in IoT and industrial control systems (ICS). The standard
-    does not preclude other applications that employ analytic exchanges.
+  content: This standard is intended to be used to identify requirements for trusted
+    high-assurance analytic exchange services over secured and unsecured networks.
+    Metadata and frameworks used to support interactions between nodes involved in
+    a trusted multipart handshake are defined in this standard, including the discovery
+    of data models and processing aspects available at a remote location, appropriate
+    analytic configuration, and the exchange of vetted critical analytic results.
+    The exchange of trusted, actionable, and appropriate information between analytic-producing
+    and analytic-consuming nodes is supported by this standard. The multipart handshake
+    is designed for use between computing nodes operating in potentially denied, disrupted,
+    intermittent, and limited bandwidth environments. These environments may involve
+    critical infrastructure (e.g., medical, transportation, and utilities) and may
+    include austere computing environments such as those present in IoT and industrial
+    control systems. Other applications that employ analytic exchanges are not precluded
+    by this standard.
 status:
   stage:
     content: draft
@@ -100,82 +101,85 @@ copyright:
         content: IEEE
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Artificial intelligence
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Zero Trust
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Electronic healthcare
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Metadata
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Trusted computing
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Network security
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Privacy
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Information integrity
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Internet of Things
 - vocab:
-    language: en
+  - language: en
     script: Latn
-    content: Process::Question::Data (PQD) Learning Stratum
+    content: AI
 - vocab:
-    language: en
-    script: Latn
-    content: Shared Analytics
-- vocab:
-    language: en
+  - language: en
     script: Latn
     content: ASME V&V 40
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Entity Attestation Token (EAT) Manifest
 - vocab:
-    language: en
-    script: Latn
-    content: '2972'
-- vocab:
-    language: en
-    script: Latn
-    content: RFC9711
-- vocab:
-    language: en
+  - language: en
     script: Latn
     content: Evidence Based Graphs
 - vocab:
-    language: en
+  - language: en
     script: Latn
-    content: Al
+    content: IEEE 2795™
+- vocab:
+  - language: en
+    script: Latn
+    content: Process::Question::Data (PQD) Learning Stratum
+- vocab:
+  - language: en
+    script: Latn
+    content: RFC9711
+- vocab:
+  - language: en
+    script: Latn
+    content: Shared Analytics
 ext:
   schema_version: v1.1.3
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 35.240.80
+    text: IT applications in health care technology
   standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active

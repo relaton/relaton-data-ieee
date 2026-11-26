@@ -10,10 +10,10 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/7552419
 docidentifier:
-- content: IEEE Std 7.4.3.2-2016
+- content: IEEE Std 7-4.3.2-2016
   type: IEEE
   primary: true
-- content: IEEE Std 7.4.3.2™-2016
+- content: IEEE Std 7-4.3.2™-2016
   type: IEEE
   scope: trademark
   primary: true
@@ -21,7 +21,7 @@ docidentifier:
   type: ISBN
 - content: 10.1109/IEEESTD.2016.7552419
   type: DOI
-docnumber: IEEE Std 7.4.3.2-2016
+docnumber: IEEE Std 7-4.3.2-2016
 date:
 - type: created
   at: '2016-08-25'
@@ -81,9 +81,6 @@ abstract:
     systems in this standard. The criteria contained herein, in conjunction with criteria
     in IEEE Std 603, establish minimum functional and design requirements for programmable
     digital devices used as components of a safety system
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2016'
   owner:
@@ -98,6 +95,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 7-4.3.2-2026
+    docidentifier:
+    - content: IEEE Std 7-4.3.2-2026
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -112,55 +117,55 @@ relation:
       primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Digital systems
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Safety
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Software verification
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Nuclear power generation
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: commercial grade item
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: diversity
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE 7-4.3.2(TM)
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: programmable digital devices
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: safety systems
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: software
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: software tools
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: software verifi cation and validation
 ext:
@@ -173,7 +178,6 @@ ext:
     text: Nuclear power plants. Safety
   - code: 35.240.50
     text: IT applications in industry
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

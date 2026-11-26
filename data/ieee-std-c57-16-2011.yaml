@@ -91,77 +91,98 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.16-1996
+    docidentifier:
+    - content: IEEE Std C57.16-1996
+      type: IEEE
+      primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.16-2025
+    docidentifier:
+    - content: IEEE Std C57.16-2025
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Reactors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Discharges (electric)
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Shunt capacitors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Capacitors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: air-core reactors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: discharge current-limiting reactors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: dry-type air-core reactors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: drytype reactors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: filter reactors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: harmonic filters
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE C57.16
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: reactors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: series capacitor bank applications
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: series-connected reactors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: series reactor applications
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: shunt capacitor bank applications
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: shunt capacitor reactors
 ext:
@@ -174,7 +195,6 @@ ext:
     text: Electrical engineering (Vocabularies)
   - code: '29.180'
     text: Transformers. Reactors
-  standard_status: Inactive
-  standard_modified: Reserved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

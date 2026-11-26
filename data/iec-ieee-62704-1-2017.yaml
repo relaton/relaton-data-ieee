@@ -83,9 +83,6 @@ abstract:
     the peak spatial-average SAR in a cubical volume and to validate the correct implementation
     of the FDTD simulation software. The applicable frequency range is 30 MHz to 6
     GHz.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2017'
   owner:
@@ -100,38 +97,46 @@ copyright:
       abbreviation:
         content: IEEE
   - organization:
-      uri:
       name:
       - language: en
         script: Latn
         content: IEC
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEC/IEEE Draft P62704-1/D3, 2025
+    docidentifier:
+    - content: IEC/IEEE Draft P62704-1/D3, 2025
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEC Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Specific absorption rate
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Finite difference methods
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: TIme domain analysis
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Peak to average power ratio
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Biomedical measurements
 ext:
@@ -144,7 +149,6 @@ ext:
     text: Radiation protection
   - code: 33.070.01
     text: Mobile services in general
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

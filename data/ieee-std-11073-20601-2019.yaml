@@ -79,9 +79,6 @@ abstract:
     services needed to perform communication tasks is described in this standard.
     The protocol is optimized to personal health usage requirements and leverages
     commonly used methods and tools wherever possible.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2019'
   owner:
@@ -96,6 +93,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 11073.20601-2026
+    docidentifier:
+    - content: IEEE Std 11073.20601-2026
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -110,35 +115,35 @@ relation:
       primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Bioinformatics
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Medical devices
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Information exchange
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Protocols
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE 11073-20601
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: medical device communication
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: personal health devices
 ext:
@@ -149,7 +154,6 @@ ext:
   ics:
   - code: 35.240.80
     text: IT applications in health care technology
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

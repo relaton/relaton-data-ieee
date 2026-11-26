@@ -90,53 +90,74 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.113-2023
+    docidentifier:
+    - content: IEEE Std C57.113-2023
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.113-1991
+    docidentifier:
+    - content: IEEE Std C57.113-1991
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Partial discharges
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Partial discharge measurement
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Transformers
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Power transformers
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Shunt (electrical)
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: apparent charge
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE C57.113
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: partial discharge (PD)
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: power transformer
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: shunt reactor
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: wideband PD measurement
 ext:
@@ -147,7 +168,6 @@ ext:
   ics:
   - code: '29.180'
     text: Transformers. Reactors
-  standard_status: Inactive
-  standard_modified: Reserved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

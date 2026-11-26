@@ -96,23 +96,43 @@ copyright:
         content: IEEE
 keyword:
 - vocab:
-    language: en
+  - language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+  - language: en
+    script: Latn
+    content: Energy efficiency
+- vocab:
+  - language: en
+    script: Latn
+    content: Virtual reality
+- vocab:
+  - language: en
+    script: Latn
+    content: Wavelength division multiplexing
+- vocab:
+  - language: en
+    script: Latn
+    content: Data centers
+- vocab:
+  - language: en
     script: Latn
     content: energy efficiency
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE 1927.1
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IP/WDM
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: MILP
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: virtual network embedding
 ext:
@@ -120,6 +140,11 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: 33.040.40
+    text: Data communication networks
+  - code: '35.110'
+    text: Networking
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

@@ -98,23 +98,43 @@ copyright:
         content: IEEE
 keyword:
 - vocab:
-    language: en
+  - language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+  - language: en
+    script: Latn
+    content: DC distribution systems
+- vocab:
+  - language: en
+    script: Latn
+    content: Low voltage
+- vocab:
+  - language: en
+    script: Latn
+    content: Medium voltage
+- vocab:
+  - language: en
+    script: Latn
+    content: Systems engineering and theory
+- vocab:
+  - language: en
     script: Latn
     content: dc distribution network
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE 2974™
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: low voltage dc
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: medium voltage dc
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: system commissioning
 ext:
@@ -122,6 +142,11 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: '29.020'
+    text: Electrical engineering in general
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

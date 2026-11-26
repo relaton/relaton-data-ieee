@@ -4,6 +4,8 @@ schema_version: v1.5.6
 type: standard
 title:
 - content: IEEE Standard for Control Switchboards
+  type: title-main
+- content: IEEE Standard for Control Switchboards - Redline
   type: main
 source:
 - type: src
@@ -93,69 +95,90 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.21-2026
+    docidentifier:
+    - content: IEEE Std C37.21-2026
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std C37.21-2005
+    docidentifier:
+    - content: IEEE Std C37.21-2005
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Switching systems
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Switching circuits
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Switchgear
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: benchboard
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: console
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: control desk
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: control switchboard
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: dead-front switchboard
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: dual benchboard
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: duplex benchboard
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: enclosed switchboard
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: fixed rack cabinet
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE C37.21(TM)
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: swing rack cabinet
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: vertical switchboard
 ext:
@@ -166,7 +189,7 @@ ext:
   ics:
   - code: 29.130.99
     text: Other switchgear and controlgear
-  standard_status: Active
+  standard_status: Superseded
   standard_modified: Redline
   pubstatus: Active
   holdstatus: Publish

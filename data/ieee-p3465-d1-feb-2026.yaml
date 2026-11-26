@@ -1,0 +1,167 @@
+---
+id: IEEEP3465D1Feb2026
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Magnetic Field Immunity Verification of Magnetoresistive
+    Random Access Memory
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11644354
+docidentifier:
+- content: IEEE P3465/D1, Feb, 2026
+  type: IEEE
+  primary: true
+- content: IEEE P3465™/D1, Feb, 2026
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-3791-2
+  type: ISBN
+docnumber: IEEE P3465/D1, Feb, 2026
+date:
+- type: created
+  at: '2026-08-05'
+- type: published
+  at: '2026-08-06'
+- type: issued
+  at: '2026'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Magnetics Society Standards Committee of the IEEE Magnetics Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: This standard specifies a method for verifying the Magnetic Immunity (MI)
+    of Magnetoresistive Random Access Memory (MRAM) in both discrete and embedded
+    random access memory integrated circuit environments. Measurement conditions are
+    defined to evaluate the maximum static magnetic field allowed (μ0Hmax) to meet
+    a prescribed bit error rate (BER), or number of errors per MRAM operation. MRAM
+    operations include "read," "write," "power-off," and "stand-by." The maximum static
+    field, μ0Hmax, is determined as a function of angular orientation with respect
+    to an integrated circuit substrate, or in terms of a worst-case angle guided by
+    theory based on the magnetostatic free energy of an MRAM device. Measurements
+    may be made on packaged MRAM integrated chips and on unpackaged MRAM on substrate
+    wafers alike. Additionally, this standard defines a method for Parametric Characterization
+    to quantify the degradation of the intrinsic error rate (ΔBER) as a continuous
+    function of the applied magnetic field (μ0Happ). To facilitate communication across
+    the semiconductor supply chain, the reporting of results is partitioned into two
+    distinct frameworks. For technology characterization, foundries (e.g., wafer manufacturers)
+    utilize the Parametric Characterization Table to communicate intrinsic technology
+    sensitivity (ΔBER) to Silicon Solutions Providers (e.g., SoC or MCU designers)
+    for use in system-level integration and error-correction overhead planning. For
+    product compliance, Silicon Solutions Providers and Standalone MRAM Providers
+    utilize the MRAM Magnetic Immunity Table to specify the maximum allowable field
+    (μ0Hmax) to End Users (e.g., system integrators in automotive, aerospace, or industrial
+    sectors) to help ensure the finished product meets its target performance specifications.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+  - language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+  - language: en
+    script: Latn
+    content: Magnetic fields
+- vocab:
+  - language: en
+    script: Latn
+    content: Immunity testing
+- vocab:
+  - language: en
+    script: Latn
+    content: Random access memory
+- vocab:
+  - language: en
+    script: Latn
+    content: Magnetoresistive devices
+- vocab:
+  - language: en
+    script: Latn
+    content: automotive memory
+- vocab:
+  - language: en
+    script: Latn
+    content: chiplets
+- vocab:
+  - language: en
+    script: Latn
+    content: embedded memory
+- vocab:
+  - language: en
+    script: Latn
+    content: magnetic fields
+- vocab:
+  - language: en
+    script: Latn
+    content: MRAM
+- vocab:
+  - language: en
+    script: Latn
+    content: RAM
+- vocab:
+  - language: en
+    script: Latn
+    content: standalone memory
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  standard_status: Inactive
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

@@ -76,9 +76,6 @@ abstract:
     Environments (WAVE) devices are defined in this standard, including methods to
     secure WAVE management messages and methods to secure application messages. Administrative
     functions necessary to support the core security functions are also described.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2023'
   owner:
@@ -105,45 +102,53 @@ relation:
     - content: IEEE Std 1609.2-2016
       type: IEEE
       primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 1609.2-2025
+    docidentifier:
+    - content: IEEE Std 1609.2-2025
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Security
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Cryptography
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Vehicular ad hoc networks
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Intelligent vehicles
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Wireless Access in Vehicular Environments
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: cryptography
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE 1609.2
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: security
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Wireless Access in Vehicular Environments (WAVE)
 ext:
@@ -154,7 +159,6 @@ ext:
   ics:
   - code: 35.240.60
     text: IT applications in transport
-  standard_status: Active
-  standard_modified: Approved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

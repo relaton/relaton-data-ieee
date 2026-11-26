@@ -9,16 +9,16 @@ source:
 - type: src
   content: https://ieeexplore.ieee.org/document/11517346
 docidentifier:
-- content: IEEE P1633/D2, May 2026
+- content: IEEE P1633/D2, May, 2026
   type: IEEE
   primary: true
-- content: IEEE P1633™/D2, May 2026
+- content: IEEE P1633™/D2, May, 2026
   type: IEEE
   scope: trademark
   primary: true
 - content: 979-8-8557-3482-9
   type: ISBN
-docnumber: IEEE P1633/D2, May 2026
+docnumber: IEEE P1633/D2, May, 2026
 date:
 - type: created
   at: '2026-05-11'
@@ -107,19 +107,31 @@ relation:
       primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+  - language: en
+    script: Latn
+    content: Software reliability
+- vocab:
+  - language: en
+    script: Latn
+    content: Failure analysis
+- vocab:
+  - language: en
     script: Latn
     content: IEEE 1633™
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: software failure modes
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: software reliability
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: reliable software
 ext:
@@ -130,7 +142,7 @@ ext:
   ics:
   - code: '35.080'
     text: Software
-  standard_status: Active
+  standard_status: Inactive
   standard_modified: Draft
   pubstatus: Active
   holdstatus: Hold

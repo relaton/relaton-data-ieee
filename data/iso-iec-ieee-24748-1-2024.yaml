@@ -5,10 +5,13 @@ type: standard
 title:
 - content: 'ISO/IEC/IEEE International Standard - Systems and software engineering--Life
     cycle management--Part 1: Guidelines for life cycle management'
+  type: title-main
+- content: 'ISO/IEC/IEEE International Standard - Systems and software engineering--Life
+    cycle management--Part 1: Guidelines for life cycle management - Redline'
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/10476385
+  content: https://ieeexplore.ieee.org/document/10975260
 docidentifier:
 - content: ISO/IEC/IEEE 24748.1-2024
   type: IEEE
@@ -17,16 +20,14 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 979-8-8557-0558-4
+- content: 979-8-8557-1748-8
   type: ISBN
-- content: 10.1109/IEEESTD.2024.10476385
-  type: DOI
 docnumber: ISO/IEC/IEEE 24748.1-2024
 date:
 - type: created
   at: '2024-03-22'
 - type: published
-  at: '2024-03-19'
+  at: '2025-04-23'
 - type: issued
   at: '2024-02-15'
 contributor:
@@ -69,9 +70,6 @@ language:
 - en
 script:
 - Latn
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2024'
   owner:
@@ -108,40 +106,15 @@ relation:
     - content: ISO/IEC/IEEE 24748.1-2018
       type: IEEE
       primary: true
-keyword:
-- vocab:
-    language: en
-    script: Latn
-    content: IEEE Standards
-- vocab:
-    language: en
-    script: Latn
-    content: IEC Standards
-- vocab:
-    language: en
-    script: Latn
-    content: ISO Standards
-- vocab:
-    language: en
-    script: Latn
-    content: Software engineering
-- vocab:
-    language: en
-    script: Latn
-    content: Systems engineering and theory
-- vocab:
-    language: en
-    script: Latn
-    content: Life cycle assessment
 ext:
   schema_version: v1.1.3
   doctype:
-    content: standard
+    content: redline
   flavor: ieee
   ics:
   - code: '35.080'
     text: Software
   standard_status: Active
-  standard_modified: Approved
+  standard_modified: Redline
   pubstatus: Active
   holdstatus: Publish

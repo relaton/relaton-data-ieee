@@ -103,14 +103,6 @@ copyright:
         script: Latn
         content: IEC
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: ISO/IEC/IEEE 15026.1-2025
-    docidentifier:
-    - content: ISO/IEC/IEEE 15026.1-2025
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
@@ -123,29 +115,37 @@ relation:
     - content: IEEE Std 15026.1-2014
       type: IEEE
       primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: ISO/IEC/IEEE 15026.1-2025
+    docidentifier:
+    - content: ISO/IEC/IEEE 15026.1-2025
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: ISO Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEC Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Systems engineering and theory
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Software engineering
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Terminology
 ext:

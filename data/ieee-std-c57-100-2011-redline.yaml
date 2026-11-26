@@ -27,7 +27,7 @@ date:
 - type: created
   at: '2012-01-27'
 - type: published
-  at: '2013-08-15'
+  at: '2012-03-22'
 - type: issued
   at: '2011-12-07'
 contributor:
@@ -93,6 +93,14 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.100-2022
+    docidentifier:
+    - content: IEEE Std C57.100-2022
+      type: IEEE
+      primary: true
 - type: updates
   description:
     language: en
@@ -107,63 +115,63 @@ relation:
       primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Thermal analysis
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Aging
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Power distribution
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Testing
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Power transformers
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Liquids
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: aging
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: distribution transformers
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE C57.100
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: life tests
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: liquid immersed
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: power transformers
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: test procedures
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: thermal evaluation
 ext:
@@ -174,7 +182,7 @@ ext:
   ics:
   - code: '29.180'
     text: Transformers. Reactors
-  standard_status: Active
+  standard_status: Superseded
   standard_modified: Redline
   pubstatus: Active
   holdstatus: Publish

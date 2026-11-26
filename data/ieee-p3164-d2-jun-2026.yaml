@@ -1,0 +1,154 @@
+---
+id: IEEEP3164D2Jun2026
+schema_version: v1.5.6
+type: standard
+title:
+- content: IEEE Draft Standard for Security Annotation for Electronic Design Integration
+  type: main
+source:
+- type: src
+  content: https://ieeexplore.ieee.org/document/11793408
+docidentifier:
+- content: IEEE P3164/D2, Jun, 2026
+  type: IEEE
+  primary: true
+- content: IEEE P3164™/D2, Jun, 2026
+  type: IEEE
+  scope: trademark
+  primary: true
+- content: 979-8-8557-4097-4
+  type: ISBN
+docnumber: IEEE P3164/D2, Jun, 2026
+date:
+- type: created
+  at: '2026-11-06'
+- type: published
+  at: '2026-11-11'
+- type: issued
+  at: '2026'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    address:
+    - city: New York
+      country: USA
+    uri:
+    - type: org
+      content: http://www.ieee.org
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    abbreviation:
+      content: IEEE
+- role:
+  - type: author
+    description:
+    - language: en
+      script: Latn
+      content: committee
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: Institute of Electrical and Electronics Engineers
+    subdivision:
+    - name:
+      - language: en
+        script: Latn
+        content: Design Automation of the IEEE Computer Society
+      type: committee
+    abbreviation:
+      content: IEEE
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The standard is collateral-centric with a focus on security concerns; it
+    applies to electrical designs that are integrated into other circuits. The standard
+    defines a methodology that (1) identifies elements, such as input or output ports,
+    that can influence the behavior of a critical section within the design and (2)
+    associates known security weaknesses based on the type of design and/or critical
+    section. The methodology uses data objects, which are both human and machine readable,
+    to capture security relevant information through the architectural and design
+    phase of the electrical design to be consumed by an integrator for their product
+    lifecycle. The standard is independent of existing standards and is not part of
+    the electrical design itself.
+status:
+  stage:
+    content: draft
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      uri:
+      - type: org
+        content: http://www.ieee.org
+      name:
+      - language: en
+        script: Latn
+        content: Institute of Electrical and Electronics Engineers
+      abbreviation:
+        content: IEEE
+keyword:
+- vocab:
+  - language: en
+    script: Latn
+    content: Security
+- vocab:
+  - language: en
+    script: Latn
+    content: RTL
+- vocab:
+  - language: en
+    script: Latn
+    content: attack surface
+- vocab:
+  - language: en
+    script: Latn
+    content: threat modeling
+- vocab:
+  - language: en
+    script: Latn
+    content: security weakness
+- vocab:
+  - language: en
+    script: Latn
+    content: mitigation
+- vocab:
+  - language: en
+    script: Latn
+    content: hardware
+- vocab:
+  - language: en
+    script: Latn
+    content: circuit design
+- vocab:
+  - language: en
+    script: Latn
+    content: integrated circuit
+- vocab:
+  - language: en
+    script: Latn
+    content: SoC
+- vocab:
+  - language: en
+    script: Latn
+    content: ASIC
+- vocab:
+  - language: en
+    script: Latn
+    content: Intellectual Property (IP)
+ext:
+  schema_version: v1.1.3
+  doctype:
+    content: standard
+  flavor: ieee
+  standard_status: Active
+  standard_modified: Draft
+  pubstatus: Active
+  holdstatus: Hold

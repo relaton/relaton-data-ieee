@@ -4,29 +4,32 @@ schema_version: v1.5.6
 type: standard
 title:
 - content: IEEE Draft Standard for a Smart Transducer Interface for Sensors and Actuators
-    - Serial Point-to-Point Interface
+    - Transducer to Microprocessor Communication Protocols and Transducer Electronic
+    Data Sheet (TEDS) Formats
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/6216332
+  content: https://ieeexplore.ieee.org/document/5738192
 docidentifier:
-- content: IEEE P1451.2/D20, Feb 2011
+- content: IEEE P1451.2/D20, Feb, 2011
   type: IEEE
   primary: true
-- content: IEEE P1451.2™/D20, Feb 2011
+- content: IEEE P1451.2™/D20, Feb, 2011
   type: IEEE
   scope: trademark
   primary: true
 - content: 978-0-7381-7514-0
   type: ISBN
-docnumber: IEEE P1451.2/D20, Feb 2011
+- content: 10.1109/IEEESTD.2011.5738192
+  type: DOI
+docnumber: IEEE P1451.2/D20, Feb, 2011
 date:
 - type: created
-  at: '2012-06-12'
+  at: '2011-03-18'
 - type: published
-  at: '2012-06-12'
+  at: '2011-03-22'
 - type: issued
-  at: '2012-06-12'
+  at: '2012'
 contributor:
 - role:
   - type: publisher
@@ -71,7 +74,7 @@ abstract:
 - language: en
   script: Latn
   content: IEEE P1451.2 defines a wired point-to-point interface standard for sensors,
-    specifically30 connectors and communication protocols for SPI, I2C, UART and RS-232-C
+    specifically connectors and communication protocols for SPI, I2C, UART and RS-232-C
     interfaces together with the corresponding TEDS. This specification focuses on
     the Communication Modules that connect the TIM and NCAP using the IEEE Std 1451.0-2007
     basic standard with brevity as a goal. The purpose of this revision is to make
@@ -80,7 +83,7 @@ status:
   stage:
     content: draft
 copyright:
-- from: '2012'
+- from: '2011'
   owner:
   - organization:
       uri:
@@ -107,75 +110,79 @@ relation:
       primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Transducers
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Sensors
 - vocab:
-    language: en
+  - language: en
     script: Latn
-    content: Acuators
+    content: Actuators
 - vocab:
-    language: en
+  - language: en
+    script: Latn
+    content: Microprocessors
+- vocab:
+  - language: en
     script: Latn
     content: IEEE-1451
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: '1451'
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: I236 C
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: NCAP
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: PHY
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: RS-232
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Serial
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Smart Actuator
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Smart Sensor
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Smart Transducer
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: SPI
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: TEDS
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: TIM
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: UART
 ext:

@@ -88,49 +88,70 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.19.00-2023
+    docidentifier:
+    - content: IEEE Std C57.19.00-2023
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.19.01-1991
+    docidentifier:
+    - content: IEEE Std C57.19.01-1991
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Insulators
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Power transformer insulation
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Oil insulation
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: NEMA
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Circuit breakers
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: apparatus bushings
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: bushings
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: oil-filled reactors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: oil-filled transformers
 ext:
@@ -141,7 +162,6 @@ ext:
   ics:
   - code: 29.080.20
     text: Bushings
-  standard_status: Inactive
-  standard_modified: Reserved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish

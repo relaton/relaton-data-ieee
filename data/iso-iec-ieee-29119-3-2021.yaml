@@ -5,10 +5,13 @@ type: standard
 title:
 - content: IEEE/ISO/IEC International Standard for Software and systems engineering--Software
     testing--Part 3:Test documentation
+  type: title-main
+- content: IEEE/ISO/IEC International Standard for Software and systems engineering--Software
+    testing--Part 3:Test documentation - Redline
   type: main
 source:
 - type: src
-  content: https://ieeexplore.ieee.org/document/9591577
+  content: https://ieeexplore.ieee.org/document/9687477
 docidentifier:
 - content: ISO/IEC/IEEE 29119.3-2021
   type: IEEE
@@ -17,16 +20,14 @@ docidentifier:
   type: IEEE
   scope: trademark
   primary: true
-- content: 978-1-5044-7980-6
+- content: 978-1-5044-8368-1
   type: ISBN
-- content: 10.1109/IEEESTD.2021.9591577
-  type: DOI
 docnumber: ISO/IEC/IEEE 29119.3-2021
 date:
 - type: created
   at: '2021-10-28'
 - type: published
-  at: '2021-10-27'
+  at: '2022-01-20'
 - type: issued
   at: '2021-09-23'
 contributor:
@@ -87,9 +88,6 @@ abstract:
     and non-functional testing, manual and automated testing, and scripted and unscripted
     testing. The documentation templates defined in ISO/IEC/IEEE 29119-3 can be used
     in conjunction with any software development lifecycle model.
-status:
-  stage:
-    content: approved
 copyright:
 - from: '2021'
   owner:
@@ -128,66 +126,66 @@ relation:
       primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: ISO Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEC Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Software engineering
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Software testing
 - vocab:
-    language: en
+  - language: en
     script: Latn
-    content: System analysis and design
+    content: Systems engineering and theory
 - vocab:
-    language: en
+  - language: en
     script: Latn
-    content: 'Documentation '
+    content: Documentation
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: '29119'
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: 29119-1
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: software testing
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Test Planning Process
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Test Plan
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: verification and validation.
 ext:
   schema_version: v1.1.3
   doctype:
-    content: standard
+    content: redline
   flavor: ieee
   ics:
   - code: '35.080'
     text: Software
   standard_status: Active
-  standard_modified: Approved
+  standard_modified: Redline
   pubstatus: Active
   holdstatus: Publish

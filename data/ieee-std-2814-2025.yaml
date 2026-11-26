@@ -95,23 +95,55 @@ copyright:
         content: IEEE
 keyword:
 - vocab:
-    language: en
+  - language: en
+    script: Latn
+    content: IEEE Standards
+- vocab:
+  - language: en
+    script: Latn
+    content: Energy storage
+- vocab:
+  - language: en
+    script: Latn
+    content: Financial management
+- vocab:
+  - language: en
+    script: Latn
+    content: Power generation
+- vocab:
+  - language: en
+    script: Latn
+    content: Power grids
+- vocab:
+  - language: en
+    script: Latn
+    content: Power system economics
+- vocab:
+  - language: en
+    script: Latn
+    content: Technical requirements
+- vocab:
+  - language: en
+    script: Latn
+    content: Power system measurements
+- vocab:
+  - language: en
     script: Latn
     content: energy storage systems
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: financial model
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: grid power generators
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE 2814
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: techno-economic
 ext:
@@ -119,6 +151,11 @@ ext:
   doctype:
     content: standard
   flavor: ieee
+  ics:
+  - code: '27.100'
+    text: Power stations in general
+  - code: 29.240.01
+    text: Power transmission and distribution networks in general
   standard_status: Active
   standard_modified: Approved
   pubstatus: Active

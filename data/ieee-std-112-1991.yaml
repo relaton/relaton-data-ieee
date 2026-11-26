@@ -23,7 +23,7 @@ docidentifier:
 docnumber: IEEE Std 112-1991
 date:
 - type: created
-  at: '1992-03-10'
+  at: '1991-03-10'
 - type: published
   at: '2019-04-09'
 - type: issued
@@ -89,14 +89,6 @@ copyright:
       abbreviation:
         content: IEEE
 relation:
-- type: obsoletedBy
-  bibitem:
-    formattedref:
-      content: IEEE Std 112-1996
-    docidentifier:
-    - content: IEEE Std 112-1996
-      type: IEEE
-      primary: true
 - type: updates
   description:
     language: en
@@ -109,37 +101,45 @@ relation:
     - content: IEEE Std 112-1984
       type: IEEE
       primary: true
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std 112-1996
+    docidentifier:
+    - content: IEEE Std 112-1996
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE Standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Generators
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Induction motors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Consumer electronics
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Power engineering
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: generators
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: motors
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: tests
 ext:

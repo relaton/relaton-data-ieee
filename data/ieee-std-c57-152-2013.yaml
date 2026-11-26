@@ -96,85 +96,106 @@ copyright:
         content: Institute of Electrical and Electronics Engineers
       abbreviation:
         content: IEEE
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: IEEE Std C57.152-2025
+    docidentifier:
+    - content: IEEE Std C57.152-2025
+      type: IEEE
+      primary: true
+- type: updates
+  description:
+    language: en
+    script: Latn
+    content: revises
+  bibitem:
+    formattedref:
+      content: IEEE Std 62-1995
+    docidentifier:
+    - content: IEEE Std 62-1995
+      type: IEEE
+      primary: true
 keyword:
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE standards
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Electrical safety
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Windings
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Transformers
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Cable insulation
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: Insulators
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: bushing
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: core
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: diagnostic evaluation
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: field testing
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: fluid-filled transformer
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: IEEE C57.152
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: insulating liquid
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: off-line testing
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: reactor
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: regulator
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: safety
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: tank
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: tap changer
 - vocab:
-    language: en
+  - language: en
     script: Latn
     content: winding
 ext:
@@ -185,7 +206,6 @@ ext:
   ics:
   - code: '29.180'
     text: Transformers. Reactors
-  standard_status: Inactive
-  standard_modified: Reserved
+  standard_status: Superseded
   pubstatus: Active
   holdstatus: Publish
