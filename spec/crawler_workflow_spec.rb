@@ -24,9 +24,10 @@ RSpec.describe ".github/workflows/crawler.yml" do
     expect(triggers.keys).to contain_exactly("schedule", "workflow_dispatch")
   end
 
-  it "calls the shared crawler with write access" do
+  it "calls the shared crawler with write access to contents and issues" do
     expect(job["uses"]).to eq("relaton/support/.github/workflows/crawler.yml@main")
-    expect(job["permissions"]).to eq("contents" => "write")
+    # issues: relaton reports crawl errors as the issue "Error fetching documents".
+    expect(job["permissions"]).to eq("contents" => "write", "issues" => "write")
     expect(job.dig("with", "args")).to eq("${{ github.event.inputs.args }}")
   end
 
