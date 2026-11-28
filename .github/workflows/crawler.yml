@@ -12,11 +12,13 @@ on:
 
 jobs:
   crawl:
-    # The shared workflow commits and pushes with GITHUB_TOKEN. A called
-    # workflow's `permissions:` can only downgrade the caller's, so the grant
-    # lives here.
+    # The shared workflow commits and pushes with GITHUB_TOKEN, and relaton
+    # reports crawl errors with it as the issue "Error fetching documents". A
+    # called workflow's `permissions:` can only downgrade the caller's, so the
+    # grants live here.
     permissions:
       contents: write
+      issues: write   # relaton reports crawl errors as an issue (GhIssue)
     uses: relaton/support/.github/workflows/crawler.yml@main
     with:
       args: ${{ github.event.inputs.args }}
